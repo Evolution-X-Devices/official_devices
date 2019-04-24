@@ -1,0 +1,505 @@
+=======================
+     04-23-2019
+=======================
+
+
+   * hardware/qcom/display/
+bc2fb73 display: msm8974: Add -Wno-error to compile with global -Werror.
+
+=======================
+     04-22-2019
+=======================
+
+
+   * frameworks/av/
+5629d93 CameraMetadata: HAX - Fix front cam on Playground
+
+   * frameworks/base/
+d135e4d SystemUI: Update Turkish translation
+559b330 Revert some gestures commits
+
+   * manifest/
+f173664 Welcome Evolution X!
+fb86b85 Track e2fsprogs
+
+   * packages/apps/EvoX/
+e3926c2 New Crowdin translations (#83)
+
+   * packages/apps/Settings/
+8538fad Translations update
+
+   * vendor/aosp/
+19057fe Add Evo X custom font package
+
+   * vendor/gapps/
+26104b2 Merge branch 'pie' into 'pie'
+
+   * vendor/themes/
+2dd31cf fixed missing color
+
+=======================
+     04-21-2019
+=======================
+
+
+   * frameworks/base/
+63ce24e New icons from Q
+e06c78e ColorFade: fix EGL crash on exynos4 mali blobs
+b965f63 fonts: Fix 23d135738da
+01db42f CustomTextClock: Fix my derps for O' - Only for en doe
+d7c8107 base: Add Source Sans Pro font to clock/date styles
+5d31038 CustomTextClock: Code improvements [1/2]
+fb427b0 LS clock style: Place Q style clock above keyguard status view
+45f6324 CustomTextClock: LangGuard: Remove unnecessary function to get hour strings seperately
+7ec6e1d CustomTextClock: Check if language has changed before setting toprow text
+ba0b691 CustomTextClock: Remove methods moved in utility classes
+cc486d2 CustomTextClock: This makes the lockscreen lag
+f2a8b56 CustomTextClock: Ditch code related to color getting
+67f95e8 CustomTextClock: Create LangGuard utility
+20f53db CustomTextClock: Refactor a few strings
+39d7a53 CustomTextClock: Match Android Q
+87ee7b4 CustomTextClock: Remove all logging - Now that its almost done
+48e6939 CustomTextClock: Add O' again
+0d73aba CustomTextClock: Add Portuguese and French translations
+a8a4572 CustomTextClock: Account for *almost* all of the possiblities while updating text color
+8c19512 Squash Q-Clock un-hardcode strings and add translatable strings
+1d92d93 Change TopTextView color according to wallpaper - After 2weeks of intensive mindfuck, it was as simple as putting it in onDraw - It wont be resource intensive as onDraw on topview isn't called constantly
+df787b6 CustomTextClock: Improve UI and optimisations
+96a05a4 Lockscreen Clock Styles: Introduce Q style text clock A gist of what happened: - Use a custom TextView to achieve the text - Use Rounded Elegance font cuz why not - Use a attribute to differenciate between hour hand and minute hand - Use a retarded yet simple method to get Strings for given integer - Set text according to system time format (12h/24h) - Set a top margin to push the lockscreen date (Unuglify) - Set a left padding for clock layout (Might need to be overlayed for some devices)
+4e0b913 Extended audio panel [1/2]
+cf25c27 core: Implement Aggressive Battery [1/2]
+36f3c3f base: Make vendor mismatch message optional
+916e7d6 base: Add support for DiracSound FX
+af80611 base: SystemUI: Add optional notch friendly VoLTE icon
+d29efcb Method to detect a notch'd device
+a307764 Use Auto brightness for Ambient Display
+c53d717 Add Flashlight blink on incoming calls [1/3]
+50a3e9e Utils: Introduce method to determine countries that use Fahrenheit
+cba9644 base: Fix old mobile signal icons
+d94e4a2 base: SystemUI: fix height of old data type icons
+04659b5 SystemUI: fix visibility of mobile type icon
+6f53455 [1/2] SystemUI: allow to switch back to pre P mobile type icon style
+b8a1f87 base: API to restart SystemUI without root
+7f14fd3 SystemUI: Port forward statusbar brightness control [1/2]
+6084ff3 Carrier Label: Bring back the scroll (marquee) effect
+ce5d0e6 [SQUASHED] Carrier label and Status Bar clock Font and Color cutoms.. [1/2] Carrier Label font styles [1/2]
+670a0c2 Custom Carrier Label & Carrier Label Placement [1/2]
+8bacac0 Clock: Fix crash in formatted string with date on right
+3730e70 SystemUI: fix statusbar clock overlapping after reboot
+192752c Clock: Always show time in the quickstatusbar
+86a892c SystemUI: fixed "Clock is double after reboot or update"
+fe4c259 SystemUI: statusbar clock date customization (1/2)
+c9da8f2 Update whitelist when installing system application
+ba52a69 base: Keyguard: Hide check button when using PIN quick unlock
+5c7a94d SystemUI: add navbar button layout inversion tuning
+fda944f SystemUI: Add data saver icon to blacklist
+776ce3e SystemUI: Add statusbar NFC icon
+75f33ac Add roaming icon to statusbar blacklist
+8d03acf base: SystemUI: fix tuner status bar icon blacklist
+a5bee74 SystemUI: Add tuner interface to StatusBarSignalPolicy
+3db4b59 Lockscreen bottom shortcuts fixes
+bbd14a6 Fix custom lockscreen shortcut icons being white
+435965a base: tuner: add a hide config to left and right shortcut
+c2929c0 Run LockscreenFragment external
+b63ba6f Run NavBarTuner external
+28dba5e fwb: Seperate statusbar from tuner and launch externally
+81413ac base: SystemUI: enable tuner
+197cfb5 Blockers: Add some annoying wakelock and alarms
+4011af4 Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP
+957a77c AlarmsBlocker [1/2]
+011f5bf WakelockBlocker [1/2] ported by @faust93
+cbb3b97 Keyguard: Avoid starting FP authentication right after cancelling
+e92520d QS: Fix opacity after reboot
+c4f1576 SystemUI: fix no service and emergency calls only placement
+74aaed7 qs_footer: Update visibilities after inflate finish
+9f0f899 base: Persistent settings icon on qs panel for 9.x
+1d12409 base: Actually fix the padding on StatusBar
+5f7bea0 NetworkTraffic: fix indicator not hiding on lost connection
+d018728 Network traffic: fix static color usage
+c2c0659 NetworkTraffic: Fix gravity
+9b65116 Add network traffic monitor properly to statusbar icons
+2b1546a Revert "Temp: Fix NetworkTraffic display"
+7c981b1 Hide arrows in network traffic indicators [1/2]
+1e4daec LiquidUtils: Import restart systemui api
+281efc4 Recents: add pinch-in gesture on tasks to Clear All
+a71784e base: featureize ro.recents.grid and Go Layout
+37a8773 Recents: Tint membar to accent if recents styles are disabled
+000086d Recents: Dont tint membar to accent if recents styles are enabled
+6077dbb SystemUI: Bring Back Recents Styles[1/2]
+1aa10bf Recents: Improve membar layout
+f2fcc6c Add membar to recents options [1/2]
+a1731fe FWB: Add clock/date in recents while in fullscreen mode (1/2)
+ae97398 Immersive Recents [1/2]
+bc48f7a fwb: Allow users to switch between Pie/Oreo recents [1/3]
+08007ed Add ability to permanently hide apps from recents [1/2]
+a75f240 Recents FAB: fix theming
+a50772a Fix Recents FAB padding The FAB was overlapping the nav bar in both portrait and landscape modes.
+43a73eb Fix FAB not disappearing in multiwindow
+f5902ea Recents fab button improvements
+eac1dbd Recents Clear All Button Tweaks and Add FAB to Recents Panel  Thanks to RR and @varund7726
+3241497 Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/platform//frameworks/base into HEAD
+d231912 Automatic translation import
+564e0cc PowerManager: Don't bother devices not using wait for MPCTL
+650772b PerformanceManager: Allow wait for MPCTL to start on boot
+fe647b9 fwb: Add ability to hide multiuser icon on keyguard
+0b48f8a Prevent NFE in SystemUI when parsing invalid int
+7cb7d5b Prevent NFE in SystemUI when parsing invalid int (2)
+20767e5 Clean up screenshot if nothing selected
+0641b97 IMMS should preserve selected IME upon boot
+d1672c7 Fix screen pinning unlock with hwkeys
+bf3e71a Add wakelock option for flashlight
+41deb5d Ambient play: Fix padding on some densities
+102c9af Revert Smart clock
+ec8aaa5 Enable notifications led light by default [1/2]
+e42cc5c Add ability to toggle bluetooth battery level [1/2]
+cbb216c Telephony: Stop using rssnr, it falsly shows wrong signal bars Pixel and other devices drop this
+6f861f9 fonts: Fix compiling generic fonts
+
+   * packages/apps/EvoX/
+7b20970 New Crowdin translations (#81)
+e8c23e3 EvoX: Add Source Sans Pro font to clock/date styles
+
+   * packages/apps/Settings/
+e6ddad6 Settings: Use correct icon for ring volume
+4ef669f Extended audio panel [2/2]
+b1eac75 Settings: Implement Aggressive Battery [2/2]
+2e1cf20 Battery temp: Use MCC to determine the scale type
+4412717 Battery temp: Ensure preference is updated
+1da45ea Battery stats: Display battery temperature
+08eb5e0 Settings: Bring back Uptime
+
+   * packages/apps/Updates/
+7e10826 Changes For EvolutionX
+
+   * vendor/aosp/
+fe2bfc6 EvoX: Switch to Lawnchair
+28a47ae Add Substratum Signature
+889950c vendor: Add 'Source Sans Pro' font family
+fec0e03 vendor: Add 3 new fonts
+1944142 vendor: Add Neoneon Font
+8b7fefa vendor: Add 'GoBold' font family
+13a1584 Vendor: Add samsung font
+
+   * vendor/pixelstyle/
+f2b1019 Update for Evolution X
+
+=======================
+     04-20-2019
+=======================
+
+
+   * frameworks/av/
+63fac9e Screenrecord service improvements and QSTile [2/2]
+
+   * frameworks/native/
+5fac423 Translate pointer motion events for One-hand UI Mode
+
+   * packages/apps/Settings/
+4822d84 Settings: enable SIM card ringtone only if slot not empty
+7676a8e Settings: Add package name to installed app details
+33609d1 Make Font Picker play nice with substratum
+203034a Settings: We use RECENTS_LAYOUT_STYLE for Pie Recents Check
+06a2a25 Settings: Allow users to switch between Pie/Oreo recents [3/3]
+27f1424 Settings: Add ability to permanently hide apps from recents [3/3]
+ef415e8 Port "Battery Usage Alerts" feature from factory images
+fa10b7f Ensure battery saver preference is truly disabled while plugged in
+a20dcb5 fuelgauge: add back battery level animation
+4c8fd9b Settings: Remove stock battery percents option
+c3c106e Enable notifications led light by default [2/2]
+2f8d3fd Add progress for font apply [2/2]
+b559fed Proper service name for Font service
+c6e0998 Add Font preference for font manager
+502d80d Settings: Introduce Substratum changes.
+1cc9874 Ambient display music ticker [3/3]
+4169cb0 Settings: Nuke Now Playing
+d5bebb3 Add Evolution X Logo to About Phone Section
+161d4e8 Settings: add option to show AOD on charge only [2/2]
+7232fdf Add toggle for the onehand ui mode [2/2]
+be2f683 Settings: PowerUsageSummary: open advanced usage on header click
+79a8db6 search/suggestions: Allow use of Google SettingsIntelligence
+1ac6175 search: Impliment external searching
+7d2694d [1/3] Settings: per-app cellular data and wifi restrictions
+2984ce4 Settings: Add back increasing ring feature (2/3)
+7eb4cb8 Settings: Add Evolution X frags to search index [2/2]
+28c2e0a Settings: Add switch for linked ring and media notification volumes
+3f0b02d Settings: Squashed commit for Expanded Desktop
+c3ce389 Notification log improvements
+b636805 Expose the notification log
+bce6eeb Allow to dismiss notifications with back FP left/right swipe [2/2]
+5d1e51c Phone ringtone setting for Multi SIM device
+c0a7da6 Disable suggestions (2/2) Thanks to @ezio84
+2db3004 Ability to disable dashboards conditions (2/2)
+9c07e79 Add preference for Accidental Touch
+b356f7f Settings: Reset battery stats [2/2]
+dab4554 Keyguard: Forward port lockscreen quick unlock (2/2)
+e18a19a ProximityOnWakePreferenceController: implement PreferenceControllerMixin
+6e9041f Settings: Add toggle for proximity wake
+7a90136 SoundSettings: Add charging vibration settings
+40175fc SoundSettings: Add screenshot sounds settings
+2187fc8 Add option to scramble pin layout when unlocking (1/2)
+8ef52bd Add big circle battery to inherited styles
+0459096 Fix latest remaining battery icon glitches [2/2]
+a0bef16 Inherit battery meter style in view [2/2]
+66488c9 Full gestures nav: longpress to move keyboard cursors [/2]
+a209512 Full nav gesture: home action on the whole bar and doubletap2sleep [2/2]
+d864874 Allow to set a full gesture navbar (swipe left for back action) [2/2]
+b72ebd8 Option to mute media with gesture [2/2]
+3491cdf Settings: Make Evolution icon match others for Pie
+84ac18f Build Evolution X into Settings
+2f89658 Append EvolutionX In About Phone.
+
+   * packages/services/Telecomm/
+e78f63b Telecomm: Add Flashlight blink on incoming calls [3/3]
+e9d8e6e Telecomm: Add back increasing ring feature (3/3)
+0545ca4 Incall vibration options [2/3]
+6381bd5 Phone ringtone setting for Multi SIM device
+939ddce Fix dark theme after e6a4b8b65de62b7edb42cf4ed60598556d7e7f8e
+
+   * system/sepolicy/
+7aba750 sepolicy: Implement rules for font service in p-mr0
+7b1e062 sepolicy: rules for FontService
+06fcf9d sepolicy: exceptions for font engine assets
+c32ae1f Introduce sepolicy exceptions for theme assets
+5123bbd Initial sepolicy rules for substratum service
+
+   * vendor/aosp/
+93baeac vendor: config: Set a default ringtone for the 2nd sim
+a126fcb Generate Ota Variables
+b74b97f vendor: Evolution X time!
+
+=======================
+     04-19-2019
+=======================
+
+
+   * device/custom/sepolicy/
+8efcbfc sepolicy: Fix moar ota app denials
+a747bda [2/2] sepolicy: update_engine neverallows
+6c94513 sepolicy: common: Add a label for /data/system_updates
+
+   * hardware/qcom/power/
+7a6424e power: don't use SCROLL_PREFILING
+0af68fd power: Release launch boost perflock when launch is completed
+80fd50a Revert "power: Remove interaction_with_handle"
+3df4181 power: Pass NULL parameter in powerHint if data is zero
+
+   * packages/apps/Updates/
+786945c Use alternative method to get formatted file size
+0ce91d0 Make separate styles for menu and alerts
+1b41a87 Reduce top padding
+
+   * system/sepolicy/
+d6a912d [1/2] sepolicy: update_engine neverallows
+bec85ae sepolicy: allow update_engine to bypass neverallows for backuptool
+
+   * vendor/aosp/
+7c8822c Partially Revert "vendor: Import carrier overlays from omni"
+66a00e2 vendor: Don't hide LTE+/4G+ icon
+4dbb473 Never allow neverallows
+
+=======================
+     04-18-2019
+=======================
+
+
+   * packages/apps/EvoX/
+90c04be CustomTextClock: Code improvements [2/2]
+
+=======================
+     04-17-2019
+=======================
+
+
+=======================
+     04-16-2019
+=======================
+
+
+   * device/qcom/sepolicy-legacy/
+27221b2 sepolicy: Label persist partition for all SoCs (#2)
+
+   * frameworks/base/
+347d073 FontService: Disable logspam
+46c724f fonts: Build different fonts.xml if EXCLUDE_SERIF_FONTS is true
+5a97f3f FontService: Support fonts from Substratum theme packages
+14d8d9d FontService: Don't copy resources from /system/etc/fonts
+f282e96 Set font for remaining keyguard items
+9129759 FontService: fix null object reference
+679a37e FontService: fix potential NPE and handle disabled packages properly
+b99a2a7 Add progress for font apply [1/2]
+d8b3733 Dynamic font fix for FDE devices
+8b1aaa4 Fonts: patched a few need files for boot
+b1fcc12 Fonts: Update keyguard when font changes
+511ea75 bringup: Fontservice
+aaedb4b base: LS filters: Add 2 more variants
+b61ffec base: Optimize toGrayscale function
+9b392b4 base: Intensify the blur amount on LS cover art
+bd850ff ImageUtils: Switch blur lib to SimpleImageBlur
+08ca76c base: Add Lockscreen cover art filter
+5eca388 ImageHelper: add getBlurredImage
+e96f72c utils: action.java: temp fix build in dismissKeyguard on 9.0
+a0451c7 base: bootleggers: import some utils
+e77d56a OMS: handle target or overlay package disabled
+59dc618 OMS: try harder not to update assets if nothing changed
+7aa44ec SubstratumService: Rewrite installation method for Pie InstallSession API
+8f38354 Unbreak public api by hiding substratum interfaces
+fab6b4c Pie OMS: allow non-system overlays from Substratum
+d45f3ce SubstratumService: Refactor & cleanup according to AOSP conventions
+c06dbbd base: modify/define custom overlay management
+dfd2b3a SubstratumService: unify permissions
+c38f218 SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission
+2e42375 base: Introduce SubstratumService
+df89249 OMS: StrictMode and files under /data/system/theme/
+342f204 Hold "volume up" during boot to disable all overlays
+a5d8641 ThemeSafety: Introduce App Crash Intent
+8d1fb38 ApplicationsState: add filter for Substratum overlays [2/2]
+2dc54fa Extras: Add dynamic theme sound effects support
+15bb1b4 Ambient music ticker: fix text scrolling glitches
+f1f53c1 Improve ambient play layout on keyguard
+615b4f1 Ambient: do not extend pulse notification when not needed
+ddc9bf2 Avoid Ambient indicator overlap with multiple keyguard notifications
+2319a89 Ambient Display Music Ticker: Nuke song count info
+d51b7ed Ambient Music Ticker: make it pixel like
+6d64645 Ambient music: check if isMediaNotification after final inflation
+64a394f Ambient music / Now playing: show also on lockscreen
+8673f24 Ambient music: be sure to clean track info on media notification drop
+06e32bb A few more improvements for Ambient Music
+dfac14b Ambient music: don't trigger clean layout mode when in AoD
+268be94 Ambient music ticker AoD: make it compatibile with double tap sensor
+b3f04a1 Fix lockscreen double tap to open notifications after ambient music
+ffb1177 Ambient display music ticker [1/3]
+46912c1 Port ambient Now Playing container from Pixel [stripped down version]
+7a59de2 base: Nuke Now Playing
+d8cf99d base: fix changing doze settings
+d37b243 ActionUtils: Reverse actions for QS and notification panel
+4082fe3 AudioService: Fix camera shutter sound toggle
+6fe4bfa Add ChargingStarted + InCallNotif to AudioPackage
+7464c2f Less boring heads up option [1/2]
+443cb82 Fix notifications for some apps if Less notification sounds is enabled
+807b355 Bring back less notification sounds [1/2]
+f486325 Allow to suppress notifications sound/vibration if screen is On [1/2]
+e7a3dce Add kill button to notification guts [1/2]
+217f774 Live Volume Steps [1/2]
+cec65cc base: incall vibration options [2/3]
+6c58dea AOD: PowerManager: Turn on display if Doze On Charge is Enabled
+dd3bd49 [1/2] base: add option to enable AOD on charging only
+84269aa base: SystemUI: add config check for aod available in qs tile
+6524fec base: SystemUI: add qs AOD tile
+96af226 SystemUI: Add Sync tile
+82a69ab SystemUI: Add AmbientDisplay tile
+bb06cc5 SoundSearchTile: Update intent flags for the apps
+69948f0 Sound search tile: Extend the use
+1b9a9a5 SoundSearchTile: Make default state inactive
+b810674 Add Google Sound Search tile
+dd501d6 SystemUI: OneHandMode QS tile
+017bcf0 SystemUI: add toggle for the onehand ui mode [1/2]
+c2cd4d9 SystemUI: Add one hand mode triggers
+b66b1b6 Add new feature of One-hand UI Mode
+b1d0d41 Add notification slider if ring & notification is unlinked
+ed7e83c Code improvements for expandable volume panel
+ae53109 base: Redo expanded volume panel for 9.x
+4ae2fc8 Volume panel: Do the same with less
+ecb0da4 FWB: Sensor block per-package switch (1/2)
+a15a59a Custom Rounded Corner and Padding preferences [1/2]
+8cea4cb base: QS: Allow coloring bg with accent [1/2]
+5efb8ea base: qs-colors: Minor fixups
+d97ad9c base: qs-alpha: Limit range to 100-255 [2/2]
+4a729b8 base: qs: Apply bg to active qs icons
+8cede02 QSContainerImpl: Toggle QS Accent colors as necessary
+76f294d QSContainerImpl: Adapt for pie
+8844c27 QSContainerImpl: Add assignment and null check for mColorExtractor
+e33e456 QS: Allow using frameworks resources exclusively [1/2]
+52a2828 StatusBar: Add missing observer for QS-Panel wallpaper-color setting
+7cdd807 SystemUI: Allow theming QS with wallpaper colors [1/2]
+b82f1f5 QSContainerImpl: Toggle Dark QS Panel based on color
+b751a5e QS: Set Colors [1/2]
+3ecfd18 Quick settings panel : Set transparency [1/2]
+dbaf206 android: Expose accent on QS Tiles
+668d6f7 base: Lockscreen Date Fonts [1/2]
+dc00006 Lockscreen Clock Widget Fonts [1/2]
+90643bd Unlock keystore with fingerprint after reboot (1/2)
+bbbdec1 base: Use google-sans font directly in overlay
+6a08c24 Fix action bar font family on material themes
+14912e2 Port: Wake on plug (1/2)
+5d8ed08 QSTiles: Add few more styles [3/3]
+de1f02d SysUiTheme: Dont use colorPrimary for active QS
+d4d1b43 Themes: Expose QS tiles and label colors
+fca1f2d base: Expose QS background color
+1f37ce8 base: add Cookie QS style [2/3]
+26006a6 Add InkDrop QS Tile Style [1/3]
+09c32dd Add Oreo QS tile styles [1/3]
+6ca653a QSTile: Add Squaremedo from BootLeggers [1/3]
+2181db7 Add more qs tiles style [1/3]
+2cdb6ac Introduce QS tile style picker [1/3]
+349544d Power button flashlight: allow to skip proximity check per device
+bf33b7d Power button flashlight toggle: add proximity sensor check
+89ba87e Allow doubletap/longpress power to toggle torch [1/3]
+5ca0631 Fix Signature Spoofing
+93a6eb7 PM: Signature spoofing [1/2]
+1c4b1af Add support for fake signatures, enabled per app by dynamic perms
+4d54d57 SystemUI: Add tile to show volume panel
+24bc2df QS: Add Reboot/Recovery QS Tile
+6d6ecc3 [2/3] NetworkManagement : Add ability to restrict app data/wifi usage
+6f7cafa GlobalActions: avoid multiple power dialog animations
+2d34d98 VolumeDialog: avoid multiple animations on touch spam
+9f5d013 SystemUI: Added animation of switching between the power menu and the extended power menu
+941c041b ImageUtilities: an utility that it's able to take screenshots via screenshotSurface and to blur images via blurImage
+
+   * hardware/qcom/power/
+99e6bac Merge pull request #1 from uvera/pie
+
+   * packages/apps/EvoX/
+c1b30f3 EvoX: Change default values and other fixes
+
+=======================
+     04-15-2019
+=======================
+
+
+   * build/make/
+959ce64 Make changelog great again
+b52a38c [PATCH] Allow prebuild APK's in Vendor
+99c9f3b build: Introduce SubstratumHelperService
+
+   * packages/apps/EvoX/
+7ffc4ad Add Flashlight blink on incoming calls [2/3]
+5a06421 [SQUASHED] Carrier label and Status Bar clock Font and Color cutoms [2/2]
+f5699c8 Custom Carrier Label & Carrier Label Placement [2/2]
+0fb663a Statusbar Clock and Date customization (2/2)
+26a77b5 Statusbar brightness control [2/2]
+9312ac5 [2/2] OmniGears: allow to switch back to pre P mobile type icon style
+4ee381f Lockscreen Clock Styles: Introduce Q style TextClock
+
+=======================
+     04-14-2019
+=======================
+
+
+=======================
+     04-13-2019
+=======================
+
+
+=======================
+     04-12-2019
+=======================
+
+
+   * packages/apps/EvoX/
+7864cc4 Run NavBar tuner from Evo X Settings
+d35b7da Run statusbar icon/lockscreen shortcuts editor from Evo X Settings
+223d87b Add Default USB Configuration
+
+=======================
+     04-11-2019
+=======================
+
+
+   * hardware/qcom/power/
+bb9dc0a qcom: power: Stop log spam "QCOM PowerHAL: Failed to acquire lock"
+
+=======================
+     04-10-2019
+=======================
+
+
