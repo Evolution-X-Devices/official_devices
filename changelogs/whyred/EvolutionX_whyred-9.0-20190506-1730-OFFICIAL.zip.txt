@@ -1,0 +1,433 @@
+=======================
+     05-06-2019
+=======================
+
+
+   * frameworks/base/
+c174af4cb89 Network Traffic:Add Option for Users to select size of Single Traffic (Up/Down) Font Size
+9ce3ca1d3e1 Max Lockscreen Notification count [1/2]
+08af31effad Q-Clock: Transform Q Clock to X Clock [1/2]
+e4069cdcca9 Logo: Add more Logo Styles [1/2]
+731ed177c9f fwb: [1/2] Implement cutout force full screen
+85889ce379f fwb: Hwkeys disable - rework
+8f303e6f687 fwb: Drop keydisabler
+41038579eb1 SystemUI: fix no service and emergency calls only placement
+65b0906def5 SystemUI: Fix multiuser icon glitch in QS footer
+a1a2eba030b base: Persistent settings icon on qs panel for 9.x
+239b5c3c789 base: Code improvements QS footer visibilities
+b6889d1a3ab Edit Icon Toggle [1/2]
+fa78c94207c SystemUI: QS footer visibilities [1/2]
+31c67a32884 Fix running services icon alignment
+57d53b41329 Allow to quickly open Running Services from QS panel [1/2]
+2cd26b8cee7 adjust statusbar & clock padding
+112affdd43d Fix showing empty signal strength for TD-SCDMA
+53e9c571941 Turn off carrier provisioning by default to allow tethering
+4ff1d421885 WindowManagerService: Remove status bar perm checks
+c7b58fb55e1 SystemUI: persist screenrecord quality level
+7c82d12b7db Persistent disable background app notification by default
+e3960a6170c SystemUI: Remove annoying log caused by aosp bug
+ed0c89ea370 BatteryStats: Correct formatter for pkginst in battery stats.
+1cba92f9570 FileSystemProvider: Fix renaming error in DocumentsUI
+0877f836d75 SystemUI: Lower statusbar padding down to 1dp
+f80a6fc38c2 Shorten wait time for shutdown time optimization
+56485ecc371 core: Enable smart battery for everyone
+ff72f57780f SystemUI: don't add already attached qs tile views
+57dad30df5c SystemUI: Check List<CachedBluetoothDevice>.empty() before getting battery level
+12a4d75178f Remove the check of mService when BluetoothHidDevice doUnbind
+7b731808186 SystemUI: Enable/fix QS detail view & adapt to Pie
+3095f31665c Fix inaccurate power algorithm of mobile radio
+1ec5573103e Ensure that our custom views play nice with HeadsUp
+4225ae4f11e Evox logo in the status bar [1/2]
+af02026dc49 Ask pin when tapping Airplane tiles on secure lockscreen
+7ad2ac25e74 Cellular tile: don't show disable confirmation dialog
+42490037519 Fix to hide phone number printed in the log
+caf2f8df13b [SQUASHED] Add Dual Channel into Bluetooth Audio Channel Mode developer options menu Add CHANNEL_MODE_DUAL_CHANNEL constant Allow SBC as HD audio codec in Bluetooth device configuration
+d6e19dc9e4e SystemUI: Decrease padding for statusbar icons
+32c95c61893 Fix clock/statusbar padding
+049bc3a1af8 SystemUI: tuner: Allow Tuner API for System settings
+5c5a509b63b Re-add WPS implementation (2/3)
+7cca824e583 Branding: Welcome to Evolution X!
+87ef8bd8f72 [1/2] base: Add Q style to battery icon chooser
+20a477107a8 statusbar: adjust update logic for old mobile type
+ccdd00e8614 Animate expandable volume panel
+b138200a0a6 Fix emergency icon tinting
+9329c7f5117 GamingModeTile: stop adjusting volume
+c97fab3bf23 Q Always-On Display: Show battery icon
+60576a93909 carrierlabel & left clock: Properly handle View Visibility
+31e4b66c3e9 carrierlabel: remove view instead of hiding it
+244403a2556 NetworkStatsHistory: Prevent IllegalArgumentException
+48020efb2e4 SystemUI: Update Turkish translation
+
+   * packages/apps/Evolution/
+eba928a Automatic translation import
+3209fbe Network Traffic:Add Option for Users to select size of Single Traffic (Up/Down) Font Size [2/2]
+
+   * packages/apps/Updates/
+aca120d Automatic translation import
+
+   * vendor/pixelstyle/
+3fee11e Added Support for Evolution X Animations
+9301d1e Added Support for dark Animations
+
+=======================
+     05-05-2019
+=======================
+
+
+   * device/custom/sepolicy/
+665d698 sepolicy: Import LiveDisplay rules
+df83219 sepolicy: Add selinux policy for pocket bridge
+cf0aa85 sepolicy: Add pocket judge selinux policy
+
+   * manifest/
+2dcb8ea manifest: crowdin: Track vendor/themes
+
+   * packages/apps/Evolution/
+8407eed Max Lockscreen Notification count [2/2]
+674368e Q-Clock: Transform Q Clock to X Clock [2/2]
+182c61d Logo: Add more Logo Styles [2/2]
+13a4a0b Add toggle for QS footer user switcher icon
+c9b0677 Edit Icon Toggle [2/2]
+6d4d7ee QS footer visibilities [2/2]
+c7d85a7 Evolution logo in the status bar [2/2]
+e76df5d Branding: Welcome to Evolution X!
+23ac290 [2/2] Evolution: Add Q style to battery icon chooser
+26422c8 Automatic translation import
+12d1a47 Clean up Lock screen options
+7bf82ea Evolution: Add Source Sans Pro font to clock/date styles
+6db90ee CustomTextClock: Code improvements [2/2]
+773dcf4 Evolution: Change default values and other fixes
+4e546b4 Add Flashlight blink on incoming calls [2/3]
+b9fcca6 [SQUASHED] Carrier label and Status Bar clock Font and Color cutoms [2/2]
+4f8ad95 Custom Carrier Label & Carrier Label Placement [2/2]
+6bb21e9 Statusbar Clock and Date customization (2/2)
+b5ea43e Statusbar brightness control [2/2]
+91033eb [2/2] Evolution: allow to switch back to pre P mobile type icon style
+e5465e6 Lockscreen Clock Styles: Introduce Q style TextClock
+177e76d Run NavBar tuner from Evo X Settings
+7818250 Run statusbar icon/lockscreen shortcuts editor from Evo X Settings
+692916f Add Default USB Configuration
+212e987 Blockers: P style switch
+8b69476 AlarmsBlocker [2/2]
+3c12813 WakelockBlocker [2/2]
+7777afa Port: Wake on plug (2/2)
+37a19dd Hide arrows in network traffic indicators [2/2]
+e7194ef Disable recents settings if using quickstep
+bc5dc4f Evolution: featureize ro.recents.grid and Go Layout [2/2]
+e6a8bf5 Evolution: Recents Styles
+1226797 Add time & date to full screen recents [2/2]
+5d839e5 Add membar to recents options [2/2]
+7e00193 Immersive Recents [2/2]
+37db4fc Allow users to switch between Pie/Oreo recents [2/3]
+e668fc8 Add ability to permanently hide apps from recents [2/3]
+d5323a8 RecentSettings: recents panel clear all button tweaks
+f72a48e LS filters: Add 2 more variants
+7c442d3 Add ability to toggle bluetooth battery level [2/2]
+69f7cbf Automatic translation import
+c681dee WIP:Dumpster: Add LS cover art filter
+cafe286 Automatic translation import
+8b7ee1c Add TimeInState and DozeSettings
+23f3d0b Ambient display music ticker [2/3]
+a8e398e Automatic translation import
+e202472 Bring back less notification sounds [2/2]
+20f3cb2 Allow to suppress notifications sound/vibration if screen is on [2/2]
+45d59ea Add kill button to notification guts [2/2]
+79ee761 Live Volume Steps [2/2]
+0d5826c In-call vibrations: Add Summaries
+787559b Settings:Sensor block per-package switch[2/2]
+d8c8e17 Custom Rounded Corner and Padding preferences [2/2]
+2f38615 Evolution: QS: Allow coloring bg with accent [2/2]
+8f4b7e5 Evolution: Add title for system colors category
+e03dce9 themes: qs-alpha: Fix lockup when changing qs
+651b28f Evolution: qs-alpha: Limit range to 100-255 [1/2]
+1b3a0fa Evolution: QS: Allow using frameworks resources exclusively [2/2]
+3893c8f Evolution: QS: Make color picker pref depend on WP color toggle
+8324dac Evolution: QS: Allow theming QS with wallpaper colors [2/2]
+080cfe2 Evolution: QS: Set Colors [2/2]
+aa832a6 Evolution: Quick settings panel : Set transparency [2/2]
+f886ab4 Evolution: themes: Add QS category
+
+   * packages/apps/Settings/
+47d9190bce Automatic translation import
+3a463660da Settings: [2/2] Implement cutout force full screen
+9c60fb2ee3 ButtonSettings: Change order on system dashboard
+e53f5b1360 ButtonSettings: Drop keydisabler
+7be9b62f28 Settings: Always show button settings
+
+   * packages/providers/DownloadProvider/
+6662ce4 Automatic translation import
+
+   * vendor/aosp/
+1b6ac748 DocumentsUI: Enable "Show internal storage" by default
+
+   * vendor/gapps/
+8d66d22 Merge branch 'pie' of https://gitlab.com/PixelExperience/vendor_gapps into pie
+
+   * vendor/themes/
+40dce04 Fix missing color for CircleOutline
+
+=======================
+     05-04-2019
+=======================
+
+
+   * frameworks/native/
+77aa08af2 Respect source crop when capturing layers.
+5a798ecdb libgui: add docs to geometry states and captureScreen
+24727da95 surfaceflinger: fix captureScreen for landscape LCM
+95a90c624 surfaceflinger: improve RenderArea needsFiltering
+45f722ea9 surfaceflinger: respect install orientation in DisplayRenderArea
+bae3d5634 surfaceflinger: add install orientation to DisplayDevice
+a7abf642d surfaceflinger: make mPrimaryDisplayOrientation static
+f4763455b surfaceflinger: clean up captureScreen
+24d5211fd surfaceflinger: silence some RenderArea errors
+51c8e972e surfaceflinger: fix race conditions in captureScreen
+f67ad0ad1 surfaceflinger: remove ISurfaceComposer.h from RenderArea
+d5dba9433 surfaceflinger: reorder width and height in RenderArea ctor
+73181e736 surfaceflinger: documents RenderArea
+624005667 Revert "Revert screenshot changes to exclude black cutout"
+8814c2578 Revert "APP may display abnormally in landscape LCM"
+4b0760847 Revert "Fix screenshot when cutout is hidden"
+
+   * hardware/custom/interfaces/
+af8569b interfaces: Add 2.0 livedisplay interfaces
+
+   * packages/apps/Settings/
+7902ea79ee AnimationSeekbar: change max value
+874099f9d8 AnimationScale: Fix force close when not using english
+8372f127b9 Settings: Use seekbar to allow setting arbitrary animation values
+08b4f1a1ed Allow to quickly open Running Services from QS panel [2/2]
+7f2574fff7 Settings: adjust collapse limits
+04808548a1 Settings: remove unneeded collapse limits II
+dc35fc80c4 Settings: remove unneeded collapse limits
+870498ce00 Settings: Add summaries to other settings in Sound Settings
+
+   * packages/apps/Updates/
+1cad646 Updater: Allow to suspend A/B updates
+
+   * vendor/pixelstyle/
+317da47 Branding: Welcome to Evolution X!
+
+=======================
+     05-03-2019
+=======================
+
+
+   * bionic/
+ed8768470 bionic: Prefer /sbin/sh if it exists
+6295bb0bd libc: Optimize ARM memcmp by using NEON.
+
+   * device/qcom/sepolicy/
+2a931e1 sepolicy: Label persist partition for all SoCs
+
+   * device/qcom/sepolicy-legacy/
+204dfcd sepolicy: Label persist partition for all SoCs
+
+   * hardware/qcom/fm/
+a43fa2b Automatic translation import
+a3d8836 Automatic translation import
+
+   * manifest/
+755281d Welcome Evolution X!
+
+   * packages/apps/FMRadio/
+73fad10 Automatic translation import
+
+   * packages/apps/Snap/
+ee845383b Remove lineage sdk dependency
+
+   * packages/apps/Updates/
+cec4f0a Updates: Use accent color
+
+   * packages/services/Telephony/
+c65f28859 Revert "Revert "Use proper summary for network select list preference on dsds/dsda/tsts""
+d0cdac917 Revert "Fix an issue wrong network operator name is displayed on MSIM devices"
+
+   * vendor/aosp/
+268c2ee2 tools: Fix spelling in roomservice
+df6d8265 vendor: Enable long-press on power in suspend by default
+47a11a20 vendor: Drop keydisabler
+8d9d479d apns : Update the KT IMS apn
+114821e1 Lawnchair: Update to LC-alpha_2035
+28378f54 Wallpapers: Add Evolution X original wallpapers
+7f4c5f2a Fonts: Add Evolution X custom font package
+2aefbb4e Launcher: Add Lawnchair
+dacd3444 Add Substratum Signature
+6e32b333 vendor: Add 'Source Sans Pro' font family
+875a9f40 vendor: Add 3 new fonts
+d00b3bc2 vendor: Add Neoneon Font
+a6efa93d vendor: Add 'GoBold' font family
+376400e3 Vendor: Add samsung font
+d11f46df vendor: config: Set a default ringtone for the 2nd sim
+3c79edb3 Generate Ota Variables
+cdc43368 Branding: Welcome to Evolution X!
+
+=======================
+     05-02-2019
+=======================
+
+
+   * manifest/
+7dcab17 manifest: Drop keydisabler
+
+   * packages/apps/Settings/
+59ccc6f148 Re-add WPS implementation (1/3)
+f00eb2eee0 Automatic translation import
+ca16493412 Branding: Welcome to Evolution X!
+582751e98f Settings: no need of extra effort
+16be08c390 Settings: don't add unneeded collapse in network page
+62ccba7cd1 Automatic translation import
+7dba4cd722 Settings: Add deep sleep info to uptime
+8b96cb4e63 Settings: Bring back Uptime
+a17e854286 Settings: Use correct icon for ring volume
+99a26cb831 Settings: Implement Aggressive Battery [2/2]
+86c515f6b7 Battery temp: Use MCC to determine the scale type
+9f457c8099 Battery temp: Ensure preference is updated
+69cd8fd43b Battery stats: Display battery temperature
+df3e453953 Settings: enable SIM card ringtone only if slot not empty
+acb1ec3824 Settings: Add package name to installed app details
+3703e62ffd Make Font Picker play nice with substratum
+dc973e9728 Settings: We use RECENTS_LAYOUT_STYLE for Pie Recents Check
+d20c4b7c49 Settings: Allow users to switch between Pie/Oreo recents [3/3]
+46905610d1 Settings: Add ability to permanently hide apps from recents [3/3]
+67d62f5a73 Port "Battery Usage Alerts" feature from factory images
+e77ae0c9aa Ensure battery saver preference is truly disabled while plugged in
+25f4bac9b5 fuelgauge: add back battery level animation
+a4ff39774b Settings: Remove stock battery percents option
+7dedd7b4ba Enable notifications led light by default [2/2]
+947167469b Add progress for font apply [2/2]
+df6ae57155 Proper service name for Font service
+0ff3e92f72 Add Font preference for font manager
+21f02cd902 Settings: Introduce Substratum changes.
+f09db93bd9 Ambient display music ticker [3/3]
+ff0b6f43d1 Settings: Nuke Now Playing
+7f98a9bf25 Add Evolution X Logo to About Phone Section
+b05dc3c333 Settings: add option to show AOD on charge only [2/2]
+538aefbf0f Add toggle for the onehand ui mode [2/2]
+345c561613 Settings: PowerUsageSummary: open advanced usage on header click
+568a356363 [1/3] Settings: per-app cellular data and wifi restrictions
+fd6c13b529 Settings: Add back increasing ring feature (2/3)
+422429bffd Settings: Add Evolution X frags to search index [2/2]
+55e06f228c Settings: Add switch for linked ring and media notification volumes
+f066400ff1 Settings: Squashed commit for Expanded Desktop
+eeeaa786d5 Notification log improvements
+c176abb5f6 Expose the notification log
+c9bc200239 Allow to dismiss notifications with back FP left/right swipe [2/2]
+9058003e2a Phone ringtone setting for Multi SIM device
+59042e5643 Disable suggestions (2/2) Thanks to @ezio84
+29c07981f7 Ability to disable dashboards conditions (2/2)
+a1ad6955b5 Add preference for Accidental Touch
+00abbce328 Settings: Reset battery stats [2/2]
+884fbfccab Keyguard: Forward port lockscreen quick unlock (2/2)
+ce4b954140 ProximityOnWakePreferenceController: implement PreferenceControllerMixin
+6d5b59eb71 Settings: Add toggle for proximity wake
+5454573931 SoundSettings: Add charging vibration settings
+9bb55bfcc4 SoundSettings: Add screenshot sounds settings
+0a8a8019be Add option to scramble pin layout when unlocking (1/2)
+84bf11567d Add big circle battery to inherited styles
+41bf62ac0a Fix latest remaining battery icon glitches [2/2]
+0c118a4104 Inherit battery meter style in view [2/2]
+e6d3cd5d1c Full gestures nav: longpress to move keyboard cursors [/2]
+c3ce2cfae6 Full nav gesture: home action on the whole bar and doubletap2sleep [2/2]
+17d744a463 Allow to set a full gesture navbar (swipe left for back action) [2/2]
+ce1c3659d8 Option to mute media with gesture [2/2]
+0c0b5214d3 Settings: Make Evolution icon match others for Pie
+38554b506c Build Evolution into Settings
+835dab218a Append Evolution X In About Phone
+a8611af4d8 Revert "DisplayCutoutPreferenceController: Disable if user isn't admin"
+6c9b751087 UnrestrictedDataAccess: Fix NPE
+6a2b450fb1 ConfigureNotificationSettings: Always add preference controller
+
+=======================
+     05-01-2019
+=======================
+
+
+   * build/make/
+9ce458d3f Revert "build: add org.pixelexperience.keydisabler to package whitelist"
+
+   * packages/apps/Updates/
+913730e Branding: Welcome to Evolution X!
+
+=======================
+     04-30-2019
+=======================
+
+
+   * packages/apps/Settings/
+72bc2ba5a8 SystemUpdatePreferenceController: Remove gsi check
+
+=======================
+     04-29-2019
+=======================
+
+
+   * frameworks/opt/net/wifi/
+3030469c2 Re-add WPS implementation (3/3)
+
+=======================
+     04-28-2019
+=======================
+
+
+=======================
+     04-27-2019
+=======================
+
+
+   * build/make/
+e0db74c65 Make changelog great again
+5bfc990c5 [PATCH] Allow prebuild APK's in Vendor
+91855e3ce build: Introduce SubstratumHelperService
+443fbc74e Branding: Welcome to Evolution X!
+
+   * frameworks/base/
+134eb1e013b ColorFade: fix EGL crash on exynos4 mali blobs
+dc96b5565e5 fonts: Fix 23d135738da
+fe3b027606b CustomTextClock: Fix my derps for O' - Only for en doe
+45c879d2c3f base: Add Source Sans Pro font to clock/date styles
+a8835cd2526 CustomTextClock: Code improvements [1/2]
+6ae90326274 LS clock style: Place Q style clock above keyguard status view
+5ee80269a08 CustomTextClock: LangGuard: Remove unnecessary function to get hour strings seperately
+5ac9550923c CustomTextClock: Check if language has changed before setting toprow text
+2b28caaed04 CustomTextClock: Remove methods moved in utility classes
+4d2517ec061 CustomTextClock: This makes the lockscreen lag
+b5d49de0924 CustomTextClock: Ditch code related to color getting
+528e493e2b5 CustomTextClock: Create LangGuard utility
+e11fce06334 CustomTextClock: Refactor a few strings
+609fc051c9a CustomTextClock: Match Android Q
+34b3ad52000 CustomTextClock: Remove all logging - Now that its almost done
+d3badf3a63c CustomTextClock: Add O' again
+24f16f0fc4d CustomTextClock: Add Portuguese and French translations
+dc9a7d900f6 CustomTextClock: Account for *almost* all of the possiblities while updating text color
+de3a4528983 Squash Q-Clock un-hardcode strings and add translatable strings
+3d5a5d95816 Change TopTextView color according to wallpaper - After 2weeks of intensive mindfuck, it was as simple as putting it in onDraw - It wont be resource intensive as onDraw on topview isn't called constantly
+a566ec6823f CustomTextClock: Improve UI and optimisations
+c801c47288b Lockscreen Clock Styles: Introduce Q style text clock A gist of what happened: - Use a custom TextView to achieve the text - Use Rounded Elegance font cuz why not - Use a attribute to differenciate between hour hand and minute hand - Use a retarded yet simple method to get Strings for given integer - Set text according to system time format (12h/24h) - Set a top margin to push the lockscreen date (Unuglify) - Set a left padding for clock layout (Might need to be overlayed for some devices)
+
+   * prebuilts/clang/host/linux-x86/
+2c6609b Merge pull request #1 from Hlcpereira/pie
+
+=======================
+     04-26-2019
+=======================
+
+
+=======================
+     04-25-2019
+=======================
+
+
+=======================
+     04-24-2019
+=======================
+
+
+=======================
+     04-23-2019
+=======================
+
+
+   * hardware/qcom/display/
+bc2fb73d7 display: msm8974: Add -Wno-error to compile with global -Werror.
+
