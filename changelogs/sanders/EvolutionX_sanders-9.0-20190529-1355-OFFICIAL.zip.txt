@@ -24,12 +24,12 @@ It's just the midrelease of 2.0 and is not final changelog, Stay tuned!
    - Added cool vector icons in Dirac
    - Also cool vector icons for Ambient Display
 - Dirac QS tile
- Update GPS blobs from LA.UM.7.6.r1-03700-89xx.0
+- Update GPS blobs from LA.UM.7.6.r1-03700-89xx.0
 - Now hal1 will be forced only to Whatsapp and Instagram 
 - Switch to default call recording audio source 
 - Added 5G NR buffers. LMAO 
 - Synced some configs from stock 
 - Added some UX optimization from stock 
 - Added the latest EAS configs 
-- Updated fingerprint blobs from Walleye (Pixel2) to Crosshatch (Pixel3XL)
+- Updated fingerprint from Walleye (Pixel2) to Crosshatch (Pixel3XL)
 - Some minor here & there fixes
