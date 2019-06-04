@@ -1,35 +1,35 @@
-# evolution-x
-## Official devices application
+# Evolution-X
+## Official Support Application
 
 Devices repository: https://github.com/evolution-x-Devices
 
-Before you open a pull request to add your device into our list of official devices, you should know a few simple things:
+Before you submit a pull request to add your device to our list of official devices, you should know a few simple things:
 
 ### 1. To turn into a maintainer of evolution-x:
 
 1.2 - You must have a way to check your builds, on your own way, having the device, or send the builds for someone test. Completely blind and/or untested builds aren't allowed.
 
-1.3 - Appliers that comproved have the device, will have the preference on taking the maintainship.
+1.3 - Applicants that physically own the device, will have the preference on receiving maintainship.
 
 1.4 - You must have knowledge of git.
 
-1.5 - You must do an unofficial build and make the device stable for daily usage before applying.
+1.5 - You must compile an unofficial build and make the device stable for daily usage before applying.
 
-1.6 - You should have your device sources open for us take a look.
+1.6 - You should have your device sources publicly available for us take a look at.
 
-1.7 - You mustn't be a placeholder of another maintainer that was removed. The pull request that are considered of that kind won't be accepted.
+1.7 - You mustn't be a placeholder of another maintainer that was removed. Pull request's considered of that nature won't be accepted.
 
 ### 2. Maintainers conduct notes:
 
-2.1 - The maintainers should upload theirs trees on https://github.com/evolution-x-Devices
+2.1 - Maintainers should import their trees on https://github.com/evolution-x-Devices
 
-2.2 - The maintainers should test every update before upload in our OTA.
+2.2 - Maintainers MUST test every update before uploading/Pushing OTA.
 
-2.3 - The maintainers must keep the authorship of Git commits on everything that they'll make a change, even it's your device tree, kernel or ROM sources. Lots of git commit --amend and force-pushes are acceptable.
+2.3 - Maintainers MUST keep the authorship of Git commits, even if it's your device tree, kernel or ROM source. Lots of git commit --amend and force-pushes are acceptable.
 
 2.4 - Relationships fights can be done in PM on Telegram or XDA. 
 
-2.5 - The maintainers also need to add 'export CUSTOM_BUILD_TYPE=OFFICIAL' in their build environment so OTA app will be included.
+2.5 - Maintainers also need to add/execute 'export CUSTOM_BUILD_TYPE=OFFICIAL' in/to their build environment in order to compile as official with OTA application.
 
 ### 3. JSON params
 
@@ -42,8 +42,8 @@ Before you open a pull request to add your device into our list of official devi
 | version_code | Version code, lowercase, eg: oreo | Yes |
 | version_name | Version name, will be shown on download portal, eg: Oreo | Yes |
 | maintainer_name | Your name | Yes |
-| maintainer_url | Your personal URL, eg: https://github.com/jhenrique09/ or https://forum.xda-developers.com/member.php?u=6519039 | No  |
-| xda_thread | XDA thread URL, eg: https://forum.xda-developers.com/g5-plus/development/rom-pixel-experience-t3704064 | No |
+| maintainer_url | Your personal URL, eg: https://github.com/stallix or https://forum.xda-developers.com/member.php?u=4936496 | No  |4936496
+| xda_thread | XDA thread URL, eg: https://forum.xda-developers.com/mi-a1/development/rom-pe-evolution-t3901369 | No |
 
 ##### builds/your_device_codename.json
 | Param | Description | Required |
