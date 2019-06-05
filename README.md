@@ -5,9 +5,9 @@ Devices repository: https://github.com/evolution-x-Devices
 
 Before you submit a pull request to add your device to our list of official devices, you should know a few simple things:
 
-### 1. To turn into a maintainer of evolution-x:
+### 1. To become a maintainer of Evolution-X:
 
-1.2 - You must have a way to check your builds, on your own way, having the device, or send the builds for someone test. Completely blind and/or untested builds aren't allowed.
+1.2 - You must have a way to check your builds. Either owning the device, or sending builds to a reliable/trusted person to test for you. Completely blind and/or untested builds are not permitted.
 
 1.3 - Applicants that physically own the device, will have the preference on receiving maintainship.
 
@@ -19,9 +19,9 @@ Before you submit a pull request to add your device to our list of official devi
 
 1.7 - You mustn't be a placeholder of another maintainer that was removed. Pull request's considered of that nature won't be accepted.
 
-### 2. Maintainers conduct notes:
+### 2. Maintainers code of conduct:
 
-2.1 - Maintainers should import their trees on https://github.com/evolution-x-Devices
+2.1 - Maintainers MUST import their trees to https://github.com/evolution-x-Devices
 
 2.2 - Maintainers MUST test every update before uploading/Pushing OTA.
 
