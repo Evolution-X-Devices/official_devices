@@ -56,6 +56,19 @@
       ]
    },
    {
+      "name":"OnePlus 5",
+      "brand":"OnePlus",
+      "codename":"cheeseburger",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Anierin Bliss (AnierinB)",
+            "maintainer_url":"https://t.me/AnierinB"
+         }
+      ]
+   },
+   {
       "name":"Redmi 6 Pro",
       "brand":"Xiaomi",
       "codename":"sakura",
