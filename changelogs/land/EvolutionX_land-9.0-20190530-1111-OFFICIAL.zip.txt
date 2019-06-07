@@ -1,8 +1,28 @@
 Changelog : 
 
-- Evolution Source Update
-- May Security Patch
-- Fixed Vilte
-- Added Mi sound Enhancer
-- Added Thermal Controller
-- Added Dt2w , etc .
+Device Source :
+- Upstreamed Kernel to .40
+- Fixed Mi Sound Enhancer
+
+Evolution X 2.0 Stable Updates!
+
+- June security patch merged.
+- Theming, icons and fonts improved.
+- Google apps updated.
+- Hide Statusbar on Lockscreen added.
+- QS Panel transparency levels added.
+- Only show BT icon when device is connected.
+- Dual Channel added into Bluetooth Audio Channel Mode in dev options.
+- QS detail view arrows added to QS toggles (WiFi, BT, Data, DND only).
+- Fix OTA app theming issues.
+- Add Battery saving mode toggle in Location settings.
+- Add toggle to disable Data disabled indicator in status bar.
+========================
+    Android Q Stuff
+========================
+- Lockscreen Clock Styles (w/ Q Clock) added.
+- Update network & internet and security & location icons in Settings app to match Q DP4.
+- Add seekbar to media notifications.
+- QS Panel adapted to Q style.
+- Added icon to Private DNS in network & internet Settings.
+- Add media info in keyguard slice.
