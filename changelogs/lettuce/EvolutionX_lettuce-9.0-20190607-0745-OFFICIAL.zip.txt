@@ -1,0 +1,70 @@
+=======================
+     06-07-2019
+=======================
+
+
+   * frameworks/base/
+10eb554 QSTiles: Add few more styles [3/3]
+04313bd base: add Cookie QS style [2/3]
+55e55fd Add InkDrop QS Tile Style [1/3]
+c14ccc8 Add Oreo QS tile styles [1/3]
+17bb565 Add more qs tiles style [1/3]
+b02f1bb Introduce QS tile style picker [1/3]
+cef3971 Q Style Clock: Animate change in time.
+5e91951 SystemUI: Pulse when media ticker changed
+5bc86e2 SystemUI: Tweak QS status icons in expand animation
+1e7e305 Q Always-On Display: Show media info in keyguard slice
+2232c57 Q Always-On Display: Add double tap media slice to skip song
+8372a8a SystemUI: Expose QS panel statusbar background
+cfb7fb1 Q Style Clock: Make it fully translatable
+316424a Q Style Clock: Reduce top margin, users want to see more notifications
+3d1dc8e Q Style Clock: Set "It's" to accent color instead of gold / yellow color
+cbd15e9 KeyguardSliceView: Align as per the Clock Style
+7a05a2a Q TextClock: Use Google Sans for typeface
+f646007 SystemUI: Cleanup keyguard_status_view layout
+02a991e CustomTextClock: Code style cleanups
+34f0e7b CustomTextClock: Improve UI and optimisations
+918cbae Lockscreen Clock Styles: Introduce Q style text clock
+6af52fe base: Update several icons to Q DP4 versions
+2f4a379 [1/2] Rename overlays for ota app
+81c3625 Add kill button to notification guts [1/2]
+1205dd8 Display Data Disabled Indicator Icon [1/2]
+
+   * packages/apps/Evolution/
+602a14a Add QS Style Circle Outline
+da6c4ca Add Cookie QS style [3/3]
+882f8cc Add InkDrop QS Tile Style [2/3]
+8fbd470 Add Oreo QS tile styles [2/3]
+9176204 QSTile: Add Squaremedo from BootLeggers [2/3]
+c97c7aa Add more qs tiles style [3/3]
+3211712 Introduce QS tile style picker [2/3]
+5b8c74c Evolution: Add Q text lockscreen clock style
+
+   * packages/apps/Settings/
+806c88b Settings: Add battery saving mode for location
+e40f2ff Settings: Update several icons to Q DP4 versions
+b5144a7 Settings: Add drawable for Private DNS
+8923ac8 Evolution X 2.0 Logo in About phone
+4704c21 Settings: Add AGPS setting menu.
+ea488c4 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+0861823 Settings: Add FINE_LOCATION for Bluetooth scans
+420360e search: Impliment external searching
+192049c Implement Aggressive Battery [2/2]
+3392cf6 Unlock keystore with fingerprint after reboot (2/2)
+2b1d367 [2/2] Settings: show AOD on charge setting
+016fa5c Settings: Squashed commit for Expanded Desktop [2/2]
+a2203e6 Ability to disable dashboard suggestions and conditions (3/3)
+
+   * vendor/aosp/
+aa81ff0 wallpaper: Add Evo X 2.0 default wallpaper
+ef5c2d9 DocumentsUI: Enable "Show internal storage" by default
+7fb60b7 vendor: Generate OTA variables
+
+   * vendor/themes/
+fb1599a QSTiles: Add few more styles [1/3]
+5864516 vendor: add Cookie QS style [1/3]
+6bb041f Add Ink QS Tile Style [3/3]
+7ddabb1 Add Oreo QS tile styles [3/3]
+e843468 QSTile: Add Squaremedo from BootLeggers [3/3]
+afe098c Add more qs tiles style [2/3]
+87a2189 Introduce QS tile style picker [3/3]

@@ -263,5 +263,19 @@
             "xda_thread":""
          }
       ]
+   },
+   {
+      "name":"Yu Yuphoria",
+      "brand":"Yu",
+      "codename":"lettuce",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Harsh Pal (hpnightowl)",
+            "maintainer_url":"https://t.me/hpnightowl",
+            "xda_thread":"https://bit.ly/2QSjiYl"
+         }
+      ]
    }
 ]
