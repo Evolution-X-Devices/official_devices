@@ -291,5 +291,19 @@
             "xda_thread":"https://bit.ly/2ZdQso6"
          }
       ]
+   },
+   {
+      "name":"Mi A2",
+      "brand":"Xiaomi",
+      "codename":"jasmine_sprout",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Elias Gheeraert (Neverhopless)",
+            "maintainer_url":"https://t.me/Neverhopless",
+	    "xda_thread":"https://bit.ly/2wLiRFO"
+         }
+      ]
    }
 ]
