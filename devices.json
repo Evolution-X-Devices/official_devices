@@ -277,5 +277,33 @@
             "xda_thread":"https://bit.ly/2QSjiYl"
          }
       ]
+   },
+{
+     "name":"Mi 6X",
+     "brand":"Xiaomi",
+     "codename":"wayne",
+     "supported_versions":[
+        {
+          "version_code":"pie",
+          "version_name":"Pie",
+          "maintainer_name":"Nikita Chugunov (rebenok90x)",
+          "maintainer_url":"https://t.me/rebenok90x",
+          "xda_thread":"https://bit.ly/2ZdQso6"
+        }
+     ]
+   },
+ {
+     "name":"Mi A2",
+     "brand":"Xiaomi",
+     "codename":"jasmine_sprout",
+     "supported_versions":[
+        {
+          "version_code":"pie",
+          "version_name":"Pie",
+          "maintainer_name":"Elias Gheeraert (Neverhopless)",
+          "maintainer_url":"https://t.me/Neverhopless",
+          "xda_thread":"https://bit.ly/2wLiRFO"
+        }
+     ]
    }
 ]
