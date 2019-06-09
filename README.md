@@ -1,5 +1,7 @@
 # Evolution X
-## Official Support Application
+## Official Support Guidelines & Rules
+
+[Official Support Application](https://docs.google.com/forms/d/e/1FAIpQLSe6InJeF09OMKV1G6-o9z0qhSebqvPAv4xyAuF2Ex8g7zJhiA/viewform)
 
 Devices repository: https://github.com/Evolution-X-Devices
 
