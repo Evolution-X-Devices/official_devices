@@ -1,0 +1,17 @@
+========================
+       06-10-2019
+========================
+- Add Battery Estimates toggle
+- Show Battery Estimates in QS Header only
+- Align owner info as per clock style if Q clock style selected
+- Make sure minutes text is a single line only in Q clock style
+- Fix QS styles theming issues
+- Replace Location QS tile with Advanced version similar to Oreo
+- Replace VoLTE icon with VoLIT
+========================
+     Device changes
+========================
+- Upstream kernel to 4.9.180
+- Update blobs from V10.0.9.0.PDHMIXM
+- Revert GPS blobs update
+- Update vendor security patch level
