@@ -1,0 +1,22 @@
+========================
+       06-10-2019
+========================
+- Add Battery Estimates toggle
+- Show Battery Estimates in QS Header only
+- Align owner info as per clock style if Q clock style selected
+- Make sure minutes text is a single line only in Q clock style
+- Fix QS styles theming issues
+- Replace Location QS tile with Advanced version similar to Oreo
+- Replace VoLTE icon with VoLIT
+
+ ========================
+    Device Changelog           
+========================
+- Added Gcam & Playground
+- Added overlay for ambient music ticker
+- Fixed Android Auto 
+- Use pixel 3's msm_irqbalance.conf
+- Enable IOP-v3 HAL (Improves app launch time)
+- Optimized ART props
+- Merge RenderZenith 1.3.0 changes which helps in preventing small cores being on max when big cores are meant to handle the task
+- Enable Swap memory and update top-app settings for a smoother performance with no impact on battery
