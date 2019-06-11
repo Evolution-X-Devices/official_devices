@@ -83,6 +83,19 @@
       ]
    },
    {
+      "name":"Redmi 5",
+      "brand":"Xiaomi",
+      "codename":"rosy",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Mithravindan (Mithran)",
+            "maintainer_url":"https://t.me/Mithravindan"
+         }
+      ]
+   },
+   {
       "name":"Redmi 4X",
       "brand":"Xiaomi",
       "codename":"santoni",
