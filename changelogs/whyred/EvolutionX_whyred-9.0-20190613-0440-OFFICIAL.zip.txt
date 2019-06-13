@@ -1,0 +1,215 @@
+=======================
+     06-13-2019
+=======================
+
+
+   * vendor/gapps/
+00ed37b Update Google App
+
+=======================
+     06-12-2019
+=======================
+
+
+   * system/bt/
+25bca83 Merge tag 'android-9.0.0_r40' into HEAD
+
+=======================
+     06-11-2019
+=======================
+
+
+   * frameworks/base/
+21aa99c Q Style Clock: Make sure minutes text is in single line
+d75f041 SystemUI: Advanced location tile
+acb9f2f Revert "QS: LocationTile: make it cycle modes"
+
+=======================
+     06-10-2019
+=======================
+
+
+   * frameworks/base/
+3afec1b SystemUI: VoLIT
+de2b349 Battery Estimates: Show only in QSB Header
+0e196c5 Battery Estimates: Disable by default [1/2]
+8fece77 Battery Estimates: Move battery icon to QS header when disabled
+26352fb base: Add toggle to disable battery estimates in QS [1/2]
+
+   * packages/apps/Settings/
+a378bba Battery Estimates: Disable by default [2/2]
+9164995 Settings: Restart SystemUI when toggling battery estimates
+c0d7a91 Settings: Add toggle to disable battery estimates in QS [2/2]
+
+=======================
+     06-09-2019
+=======================
+
+
+   * frameworks/base/
+23399b6 Q Style Clock: Align owner info as per the clock style
+3248efe Themes: Expose QS tiles and label colors
+
+   * packages/resources/devicesettings/
+69d301d Automatic translation import
+
+=======================
+     06-08-2019
+=======================
+
+
+   * build/soong/
+2840aa3 Add kryo300 to CPU optimizations list
+
+   * frameworks/base/
+d2f81f1 Expose screen pinning dialog background and text color
+497da49 QSTiles: Add few more styles [3/3]
+e5d100b base: add Cookie QS style [2/3]
+4ed7f7b Add InkDrop QS Tile Style [1/3]
+73a1603 Add Oreo QS tile styles [1/3]
+b341406 Add more qs tiles style [1/3]
+dd6552a Introduce QS tile style picker [1/3]
+e819350 Q Style Clock: Animate change in time.
+c3efe5f SystemUI: Pulse when media ticker changed
+bd435c2 SystemUI: Tweak QS status icons in expand animation
+8b921a5 Q Always-On Display: Show media info in keyguard slice
+765a01c Q Always-On Display: Add double tap media slice to skip song
+0a27958 SystemUI: Expose QS panel statusbar background
+af31d3c Q Style Clock: Make it fully translatable
+9b23860 Q Style Clock: Reduce top margin, users want to see more notifications
+fe961ce Q Style Clock: Set "It's" to accent color instead of gold / yellow color
+24ebdfc KeyguardSliceView: Align as per the Clock Style
+63f54cc Q TextClock: Use Google Sans for typeface
+74b96f3 SystemUI: Cleanup keyguard_status_view layout
+0232c06 CustomTextClock: Code style cleanups
+73006af CustomTextClock: Improve UI and optimisations
+ccd9585 Lockscreen Clock Styles: Introduce Q style text clock
+
+   * packages/apps/Evolution/
+602a14a Add QS Style Circle Outline
+da6c4ca Add Cookie QS style [3/3]
+882f8cc Add InkDrop QS Tile Style [2/3]
+8fbd470 Add Oreo QS tile styles [2/3]
+9176204 QSTile: Add Squaremedo from BootLeggers [2/3]
+c97c7aa Add more qs tiles style [3/3]
+3211712 Introduce QS tile style picker [2/3]
+
+   * vendor/themes/
+e1165fd QSTiles: Force enable tinting on some designs
+fb1599a QSTiles: Add few more styles [1/3]
+5864516 vendor: add Cookie QS style [1/3]
+6bb041f Add Ink QS Tile Style [3/3]
+7ddabb1 Add Oreo QS tile styles [3/3]
+e843468 QSTile: Add Squaremedo from BootLeggers [3/3]
+afe098c Add more qs tiles style [2/3]
+87a2189 Introduce QS tile style picker [3/3]
+
+=======================
+     06-07-2019
+=======================
+
+
+   * frameworks/base/
+2f4a379 [1/2] Rename overlays for ota app
+81c3625 Add kill button to notification guts [1/2]
+1205dd8 Display Data Disabled Indicator Icon [1/2]
+b4ba16c SystemUI: Q style QS Panel
+fe9ed93 SystemUI: fix no service and emergency calls only placement
+ad094e5 base: Persistent settings icon on qs panel for 9.x
+
+   * manifest/
+bdb36fc Manifest for Evolution X 2.0
+
+   * packages/apps/Evolution/
+5b8c74c Evolution: Add Q text lockscreen clock style
+6f02743 Add kill button to notification guts [2/2]
+2bb8774 Display Data Disabled Indicator Icon [2/2]
+
+   * packages/apps/Settings/
+806c88b Settings: Add battery saving mode for location
+e40f2ff Settings: Update several icons to Q DP4 versions
+b5144a7 Settings: Add drawable for Private DNS
+8923ac8 Evolution X 2.0 Logo in About phone
+4704c21 Settings: Add AGPS setting menu.
+ea488c4 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+0861823 Settings: Add FINE_LOCATION for Bluetooth scans
+420360e search: Impliment external searching
+192049c Implement Aggressive Battery [2/2]
+3392cf6 Unlock keystore with fingerprint after reboot (2/2)
+2b1d367 [2/2] Settings: show AOD on charge setting
+016fa5c Settings: Squashed commit for Expanded Desktop [2/2]
+a2203e6 Ability to disable dashboard suggestions and conditions (3/3)
+
+   * vendor/aosp/
+aa81ff0 wallpaper: Add Evo X 2.0 default wallpaper
+ef5c2d9 DocumentsUI: Enable "Show internal storage" by default
+7fb60b7 vendor: Generate OTA variables
+
+   * vendor/themes/
+cbd022e [2/2] Rename overlays for ota app
+
+=======================
+     06-06-2019
+=======================
+
+
+   * frameworks/base/
+485c905 LS clocks: Fix for Normal font size on reboot
+324dbf3 LS Clocks: Let's add a new shishu gradients designs [1/2]
+3b64e93 Add padding for slice view when our clocks are in there
+01b5a37 base: add nerves clock [1/2]
+f842acf base: Add shishu immensity clock [1/2]
+bf541f7 base: Add our shishu clock [1/2]
+9c950b07 Add sammy accent clock and a variant [1/2]
+9935f1c Lockscreen: differentiate hour from minutes in digital bold style clock
+a9dc05c Lockscreen analog clock: improve minute hands looking
+0fdf81c Always use standard small clock when pulsing on new notifications
+429d3a6 Lockscreen clock styles: Fix bottom margins & ambient display/AOD visibility
+49c4ad6 Lockscreen clock styles: Move everything to the keyguard [1/2]
+530ada5 Lockscreen/ambient analog clock: improve design
+b8eb7f1 Ensure the clockview is aligned correctly each time
+24d032e Keyguard items: code improvements
+2c2012e Introduce lockscreen clock/date styles [1/2]
+8ec8779 Always keep clock/date & other items visible while dozing
+5f3561f Hide lockscreen items [1/2]
+c7956b4 SystemUI: Fix several layout bugs
+5a94336 SystemUI: Enable and fix QS detail view, adapt layout to Pie
+3e58946 Hide Statusbar on Lockscreen [1/2]
+e9d788e base: Add seekbar to media notification
+173438b Quick settings panel: Set transparency [1/2]
+9898593 Allow SBC as HD audio codec in Bluetooth device configuration
+75480d8 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+feb7462 Add CHANNEL_MODE_DUAL_CHANNEL constant
+
+   * packages/apps/Evolution/
+32f9ad1 Evolution: add new gradient options for clock
+d540cbb Add Shishu Nerves clock style [1/2]
+9be9d85 Introduce lockscreen clock/date styles [2/2]
+77c9cfa Hide lockscreen items [2/2]
+2cd331a Evolution: Hide Statusbar on Lockscreen [2/2]
+450c8c9 Quick settings panel: Set transparency [2/2]
+cd4e634 Logo: Add more Logo Styles [2/2]
+0a25cdf Evolution X 2.0 logo in the status bar [2/2]
+466e8f6 Evolution: LS filters: Add 2 more variants [2/2]
+0fafd55 Evolution: Add LS cover art filter [2/2]
+f6d29ca Evolution: Ability to disable dashboard suggestions and conditions (2/3)
+7679657 HeadsUp: Blacklists [2/2]
+1e75b4f HeadsUp: Stoplists [2/2]
+dc92602 SlimRecents b.l. PackageListAdapter: really sync mInstalledPackages
+2cdb81e Add slimrecents packagelistadapter
+904bfe9 Evolution: QS panel header/footer options
+70124d0 Evolution: op gesture tweaks[2/2]
+f872c51 Evolution: implement OP like navigation gestures [2/2]
+802b617 NetworkTraffic: Allow user to choose positioning [2/2]
+797273e Hide arrows in network traffic indicators [2/2]
+ee155a6 Network Traffic [2/2]
+23a12c4 Add Material Design 2 settings icons
+
+   * packages/apps/Updates/
+0eb9cef Branding: Welcome to Evolution X!
+
+   * vendor/pixelstyle/
+9f86ccd Fonts: Add Evolution X 2.0 custom font package
+05e6bfe Wallpapers: Add Evolution X Wallpapers app
+
+
