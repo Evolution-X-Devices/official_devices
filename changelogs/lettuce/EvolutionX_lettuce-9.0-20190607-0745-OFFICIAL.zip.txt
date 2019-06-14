@@ -1,4 +1,97 @@
 =======================
+     06-14-2019
+=======================
+
+
+   * frameworks/base/
+bf47a73dfa6 Q Style Clock: Align owner info as per the clock style
+bca242e3998 KeyguardSliceView: Align as per the Clock Style
+4982ed1ef3c Lockscreen items/clocks: KeyguardSliceView improvements/cleanup
+95b9ab43373 base: La fontage v2.2: Add more fonts for LS
+369f9c79aa9 base: Fix derp and logspam on GoBold font family
+a049db95357 base: Fix la fontage new fonts
+4a3b8e0bd94 base: La fontage v2.1: Declare the new fonts
+15ddaa33b4a [2/4] La Fontage: Declare the fonts
+4e397e15029 [2/2] base: add 3 new fonts
+131481111be [1/2] Add 'GoBold' font family
+97d4c678ef3 HeadsUpStatusBarView: account for rounded corner
+15aa0d9d15e Q Clock: Apply the same fonts as clock ones
+dfb70e6e459 base: add our styles back [1/2]
+5519ea87c76 [1/2] base: add Q beta pill background
+6e266f5efd2 base: Let's remove custom font applying on custom date
+31f92e70b2c base: Fixes for Monochrome clock style
+060fc30d877 base: Fix the background on the small clock
+3bc1815d1cc Introduce lockscreen date styles [1/2]
+b0cfe97c04f base: Add missing fonts for the LS date and owner fonts
+8fe54354f08 [1/2] base: Lockscreen owner font text
+31d9b6e3ebb base: Lockscreen Date Fonts [2/2]
+1d8b9a3489b lockfonts: Add our fonts back
+7431a421ba8 Forward Port: Lockscreen Clock Widget Fonts [1/2]
+a977b591684 FontService: fix null object reference
+513d54b3a21 FontService: fix potential NPE and handle disabled packages properly
+96450852182 FontService: Disable logspam
+f510f945bd9 base: FontService: Add a error for non-supported font packages
+372ee13e041 FontService: Support fonts from Substratum theme packages
+3666a965a99 FontService: Don't copy resources from /system/etc/fonts
+af1c6510dfc Add progress for font apply [1/2]
+5f4ffdca357 Dynamic font fix for FDE devices
+48af5e9538f base: Introduce FontService
+a8df6599724 base: Add dynamic theme fonts support
+6e946f9e4af base: Q seekbar: Add extra tweaks
+410bf606d68 Q Style Clock: Make sure minutes text is in single line
+7ac5e1e2c9e SystemUI: Advanced location tile
+0966bdb90a6 Revert "QS: LocationTile: make it cycle modes"
+303510281f9 SystemUI: VoLIT
+86acf1d7415 Battery Estimates: Show only in QSB Header
+b17e83d536b Battery Estimates: Disable by default [1/2]
+251fb10c80f Battery Estimates: Move battery icon to QS header when disabled
+27b9dcbf5b1 base: Add toggle to disable battery estimates in QS [1/2]
+84c5128155a Themes: Expose QS tiles and label colors
+9a7081939ba Expose screen pinning dialog background and text color
+a71e748e978 QSTiles: Add few more styles [3/3]
+acc59a8ffe3 base: add Cookie QS style [2/3]
+60e38809eeb Add InkDrop QS Tile Style [1/3]
+f71e0964592 Add Oreo QS tile styles [1/3]
+29fea7a87a7 Add more qs tiles style [1/3]
+39f978ae3a7 Introduce QS tile style picker [1/3]
+d7e1a878504 Q Style Clock: Animate change in time.
+fbc92839477 SystemUI: Pulse when media ticker changed
+df3927a8f83 SystemUI: Tweak QS status icons in expand animation
+aad257a39cd Q Always-On Display: Show media info in keyguard slice
+2e89f23d073 Q Always-On Display: Add double tap media slice to skip song
+c376775d98e SystemUI: Expose QS panel statusbar background
+5d22b2db13a Q Style Clock: Make it fully translatable
+0a9c650a02b Q Style Clock: Reduce top margin, users want to see more notifications
+73ba9dca033 Q Style Clock: Set "It's" to accent color instead of gold / yellow color
+
+   * packages/apps/Evolution/
+0bcb67e Evolution: let's add our styles back [2/2]
+685b33c Date styles: add Q beta pill [2/2]
+a0b559e Evolution: Lockscreen date styles [2/2]
+7d4a7be LockscreenUI: Fix default lock clock/date/owner fonts
+6978482 Evolution: Add all la fontage updates to the ls stuff
+a3e75f8 Evolution: Lockscreen Owner info fonts [2/2]
+2b65193 Lockscreen Date Fonts [1/2]
+5fa262b [HALF-SQUASH] La Fontage+
+8f45dae Evolution: Remove roboto thin, leave roboto light and light italic
+761c67b Evolution: Let's commonize the lockscreen fonts
+6e9e57c Lockscreen Clock Widget Fonts [2/2]
+
+   * vendor/themes/
+88c2586 vendor: Let's add bariol on our system fonts
+b3451bc La Fontage v2.2: Add some more fonts for LS
+18858bd vendor: La fontage v2.1: Add some fonts
+78ce0dd [1/4] La Fontage: Add prebuilt fonts
+977c6f9 [1/2] vendor: Add 3 new fonts
+6b3ce94 [2/2] Add 'GoBold' font family
+
+
+    *Device Side 
+
+-Tried New Method Of Manual Selection 
+-Optimizations And Fixes
+
+=======================
      06-07-2019
 =======================
 
