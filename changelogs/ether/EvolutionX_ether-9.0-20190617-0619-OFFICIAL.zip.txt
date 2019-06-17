@@ -1,0 +1,8 @@
+========================
+       06-14-2019
+========================
+- QS tile styles: Rounded Rectangle, Square, Squircle, Teardrop added from Q Beta 4
+- Themes: Match system wide dark theme with Google apps' version, adapt default color accent dark/light
+- Fonts: More fonts added to custom font package
+- Settings app: Strings, icons, icon backgrounds updated, Data Usage added to Network & internet, re-arrange Display options
+- SystemUI: 'Manage notifications' is now just 'Manage' in QS notification panel (Q style)
