@@ -83,6 +83,19 @@
       ]
    },
    {
+      "name":"Redmi 5",
+      "brand":"Xiaomi",
+      "codename":"rosy",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Mithravindan (Mithran)",
+            "maintainer_url":"https://t.me/Mithravindan"
+         }
+      ]
+   },
+   {
       "name":"Redmi 4X",
       "brand":"Xiaomi",
       "codename":"santoni",
@@ -90,8 +103,8 @@
          {
             "version_code":"pie",
             "version_name":"Pie",
-            "maintainer_name":"Zainudin Shamilov (ErrorNetwork28)",
-            "maintainer_url":"https://t.me/ErrorNetwork28",
+            "maintainer_name":"Nagarajan GK",
+            "maintainer_url":"https://t.me/Nagarajan_GK",
             "xda_thread":""
          }
       ]
@@ -261,6 +274,34 @@
             "maintainer_name":"Nikhil",
             "maintainer_url":"https://t.me/nick_00007",
             "xda_thread":""
+         }
+      ]
+   },
+   {
+      "name":"Mi 6X",
+      "brand":"Xiaomi",
+      "codename":"wayne",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"rebenok90x",
+            "maintainer_url":"https://t.me/rebenok90x",
+            "xda_thread":"https://bit.ly/2ZdQso6"
+         }
+      ]
+   },
+   {
+      "name":"Mi A2",
+      "brand":"Xiaomi",
+      "codename":"jasmine_sprout",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Elias Gheeraert (Neverhopless)",
+            "maintainer_url":"https://t.me/Neverhopless",
+	    "xda_thread":"https://bit.ly/2wLiRFO"
          }
       ]
    }

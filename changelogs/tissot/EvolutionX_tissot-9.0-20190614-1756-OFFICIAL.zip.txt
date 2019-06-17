@@ -1,0 +1,12 @@
+- Add Source Sans Pro from Android Q to Clock/Date/Owner font styles
+- Introduce Android Q Color Accents (from Q beta 4)
+- Include Pixel Blue accent
+- Update several strings & icons in Settings app (from Q beta 4)
+- Move Battery Estimates back to QS Panel from QS Header (Q behavior)
+- Remove Battery Estimates toggle
+- Revert Q Seekbar to original style (as seen in Q beta 4)
+- Theming improvements
+- Bring back night display on some devices (Additional LiveDisplay settings will be there)
+- Improved behavior of automatic theme based on time
+- PixelLauncher and some others apps updated
+- Translations updated
