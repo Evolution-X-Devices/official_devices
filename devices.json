@@ -304,5 +304,20 @@
 	    "xda_thread":"https://bit.ly/2wLiRFO"
          }
       ]
+   },
+   {
+      "name":"Redmi Note 7",
+      "brand":"Xiaomi",
+      "codename":"lavender",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Nikhil Gupta",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=8785686",
+            "xda_thread": "https://www.google.com"
+         }
+      ]
    }
 ]
+
