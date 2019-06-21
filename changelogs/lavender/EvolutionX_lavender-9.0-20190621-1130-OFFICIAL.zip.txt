@@ -1,4 +1,405 @@
 =======================
+     06-21-2019
+=======================
+
+SOURCE SIDE
+
+- Add New QS styles (Hexagon, Star, Diamond, Gear, Badge, Badgetwo)
+- Drop Oreo, Oreo Trim and InkDrop QS styles (bad theme styles)
+- Better dark theme (follows Google apps' dark theme)
+- Better SystemUI dark theme (follows Q SystemUIGoogle from Android Q Beta 4)
+- Different device default accent colors for Light and Dark/Black themes
+- Improvements to Settings app UI (new colors)
+- Settings suggestion cards background follows Settings app search bar background
+- Improvements to Files app UI (follows new dark theme)
+- Improvements to OTA app UI (follows new dark theme accents)
+- Add back missing QS drag handle
+- Fix QS icon theming
+- Different Accessibility icon background in Settings app for dark/light theme
+- Follow Q's background color for About phone icon
+- Re-arrange Display options in Settings app
+- Use true Material Red for Evo X icon background color
+- Bring back Lockscreen Quick unlock
+- Hide check button when using PIN Quick unlock
+- Add Force Expanded Notifications (user requested)
+- Add Launch Default music player on headset connect
+- Add Default USB configuration to Evo X Misc settings
+- Bring back Pixel Wallpapers 2018
+- Allow Pixel 3 Live Wallpapers to work in Ambient Display
+
+DEVICE SIDE
+
+*Fixed poweroff charging animation(Works like stock)
+*Enable all required overlays
+*ThermalController Implemented
+*Improved rounded corners padding
+*Enable some UX Optimisations for smoothness
+*Vendor missmatch completely gone(no internal errors)
+*Boot time decreased
+*App installation times decreased
+*Improved UI performance
+
+KERNEL SIDE
+
+*My own INFINITY KERNEL
+*Added nightmare, darkness5, darkness, alucard & blu_schedutil governors
+*Optimised cpu boosting & jitters from franco kernel
+*Some memory optimisations
+*Backlight Dimmer
+*Powersuspend & freeze for really improved battery
+*GPU optimisations
+*Early sleep for less battery wastage
+*WireGaurd
+*Westwood
+
+
+
+
+   * frameworks/base/
+9e3ae2ae069 Update screenshot QS tile icons
+
+   * packages/apps/Settings/
+b666ea172e Settings: Changes from Android Q Beta 4
+b37f1a7eac Keyguard: Forward port lockscreen quick unlock (2/2)
+c12f0c2c69 Settings: Show me more than 4 items in the menus!
+
+=======================
+     06-20-2019
+=======================
+
+
+   * frameworks/base/
+62db4b85d67 Launch default music player on headset connect [1/2]
+d67c847dc8f Force Expanded Notifications [1/2]
+ddf3f0b3822 base: Keyguard: Hide check button when using PIN quick unlock
+c02236a415f fwb: Disable PIN entry after successful quick unlock
+d2b9f5dd9b5 fwb: Forward port lockscreen quick unlock [1/2]
+6996db2add6 SystemUI: Allow Pixel 3 live wallpapers to work in Ambient Display
+aa2c58c5241 QSTiles: Add more QS tile styles [1/3]
+
+   * manifest/
+6dd4cd0 Move vendor/pixelstyle to Gitlab
+
+   * packages/apps/Evolution/
+1022ffb Add Default USB Configuration
+ea17fa8 Launch default music player on headset connect [2/2]
+9928319 Force Expanded Notifications [2/2]
+f184c98 QSTiles: Add more QS tile styles [2/3]
+
+   * packages/resources/devicesettings/
+b73e3bc Automatic translation import
+
+   * vendor/themes/
+d4eaee4 Match new dark theme from Google's apps
+f5a3243 QSTiles: Add more QS tile styles [3/3]
+
+=======================
+     06-19-2019
+=======================
+
+
+   * frameworks/base/
+b91152cc067 systemui: Fix ambient music ticker double tap detection
+702f87a53e7 Q Always-On Display: Add double tap media slice to skip song
+21b1b93ed33 Reduce the padding between media controls & seekbar
+d8c768a1cd4 base: Add check if Font has valid context
+9b22f37e743 QSTiles: Add Android Q Beta 4 QS styles [1/3]
+48eb6e81480 Accents: Add Android Q Beta 4 color accents [1/3]
+ee6c8867a86 Custom Rounded Corner and Padding preferences [1/2]
+3ab91a9395e Automatic translation import
+258e3ea887a Declare CustomThemeDeviceDefaultDialogAlert
+89e82a55e12 Fix font on language picker part
+18c0034a193 Improve notifications refreshing
+3e249789cbc fwb: Improve AOSP twilight code
+c3e8f3dc94d LiveDisplayService: Disable ColorTemperature when NightDisplay is available
+4d3fc2ac0ff LiveDisplayTile: Report unavailable on HWC2
+ec7c6e33d9d AudioService: Remove Analog Dock from fixed-volume devices
+231faf81233 Revert "NightDisplayController: report unavailable if livedisplay feature is present"
+321cf1c6ac6 [1/3] Add Source Sans Pro fonts from Android Q
+a03d671ff71 Q Style Clock: Align owner info as per the clock style
+77d0e478fd8 KeyguardSliceView: Align as per the Clock Style
+e8d80d2cc7d Lockscreen items/clocks: KeyguardSliceView improvements/cleanup
+e8f2cbe86c9 base: La fontage v2.2: Add more fonts for LS
+c246c9eed06 base: Fix derp and logspam on GoBold font family
+2a296f7b5a1 base: Fix la fontage new fonts
+eaf1b45901a base: La fontage v2.1: Declare the new fonts
+c8b26fb22cb [2/4] La Fontage: Declare the fonts
+4d6234e65cf [2/2] base: add 3 new fonts
+3622ade0c2a [1/2] Add 'GoBold' font family
+4ae757490e3 HeadsUpStatusBarView: account for rounded corner
+e562c97ece6 Q Clock: Apply the same fonts as clock ones
+a8ea0c28612 base: add our styles back [1/2]
+da10c0eb1ea [1/2] base: add Q beta pill background
+4a8200fec4d base: Let's remove custom font applying on custom date
+3a8022df2f8 base: Fixes for Monochrome clock style
+d4b6d65f18c base: Fix the background on the small clock
+a8b3aa7b669 Introduce lockscreen date styles [1/2]
+f0f6358a250 base: Add missing fonts for the LS date and owner fonts
+414d84f1028 [1/2] base: Lockscreen owner font text
+6dd55f863d8 base: Lockscreen Date Fonts [2/2]
+0dbc1806b40 lockfonts: Add our fonts back
+b2bcd30d990 Forward Port: Lockscreen Clock Widget Fonts [1/2]
+96681e78c87 FontService: fix null object reference
+bb85581d5a1 FontService: fix potential NPE and handle disabled packages properly
+3e7249021fe FontService: Disable logspam
+94355183eb4 base: FontService: Add a error for non-supported font packages
+7bbd686ba7c FontService: Support fonts from Substratum theme packages
+a6be45b9bf7 FontService: Don't copy resources from /system/etc/fonts
+fbbbeecac16 Add progress for font apply [1/2]
+85b8017218b Dynamic font fix for FDE devices
+a71fd90c431 base: Introduce FontService
+00d0fbe3941 base: Add dynamic theme fonts support
+bc14dac8715 Q Style Clock: Make sure minutes text is in single line
+03019a4d18d SystemUI: Advanced location tile
+2f589f41662 Revert "QS: LocationTile: make it cycle modes"
+99c452074e2 SystemUI: VoLIT
+a20174b2db4 Themes: Expose QS tiles and label colors
+2857017a71d Expose screen pinning dialog background and text color
+8221136c9e6 QSTiles: Add few more styles [3/3]
+aee961b168d base: add Cookie QS style [2/3]
+940dcc35e1c Add InkDrop QS Tile Style [1/3]
+38894978b46 Add Oreo QS tile styles [1/3]
+a8024ced7a8 Add more qs tiles style [1/3]
+11c9c96d858 Introduce QS tile style picker [1/3]
+e52654b2c62 Q Style Clock: Animate change in time.
+025d018fb60 SystemUI: Tweak QS status icons in expand animation
+773e563c9b2 SystemUI: Expose QS panel statusbar background
+381fbd25a84 Q Style Clock: Make it fully translatable
+052e62f4161 Q Style Clock: Reduce top margin, users want to see more notifications
+f95c9379f5b Q Style Clock: Set "It's" to accent color instead of gold / yellow color
+ee7ba3db54d Q TextClock: Use Google Sans for typeface
+62d01f70b0f SystemUI: Cleanup keyguard_status_view layout
+62ac6ddcc59 CustomTextClock: Code style cleanups
+7a5f158aecf CustomTextClock: Improve UI and optimisations
+fde22c09065 Lockscreen Clock Styles: Introduce Q style text clock
+85872f9e474 [1/2] Rename overlays for ota app
+3d3b34f74f0 Add kill button to notification guts [1/2]
+59fe26a95d4 Display Data Disabled Indicator Icon [1/2]
+52d1f0b9a64 SystemUI: Q style QS Panel
+
+   * packages/apps/SettingsIntelligence/
+326380d Themes: Match Google's Settings Intelligence from Android Q Beta 4
+
+   * vendor/aosp/
+95eaae71 Fix missing org_manifest
+
+   * vendor/pixelstyle/
+d36dd20 vendor: Changes from Android Q Beta 4
+
+=======================
+     06-18-2019
+=======================
+
+
+   * frameworks/base/
+34e7d20e52d SystemUI: fix no service and emergency calls only placement
+348da3db3b7 base: Persistent settings icon on qs panel for 9.x
+9f4dc0be664 LS clocks: Fix for Normal font size on reboot
+dd0eae7625e LS Clocks: Let's add a new shishu gradients designs [1/2]
+0164ff82297 Add padding for slice view when our clocks are in there
+9b3ea71e7ce base: add nerves clock [1/2]
+cca57201506 base: Add shishu immensity clock [1/2]
+f4b47ed70a2 base: Add our shishu clock [1/2]
+76b10e99847 Add sammy accent clock and a variant [1/2]
+f8a3dbe3414 Lockscreen: differentiate hour from minutes in digital bold style clock
+0c816fe04ae Lockscreen analog clock: improve minute hands looking
+bcdaa262f27 Always use standard small clock when pulsing on new notifications
+0d441159de1 Lockscreen clock styles: Fix bottom margins & ambient display/AOD visibility
+9775f1f2682 Lockscreen clock styles: Move everything to the keyguard [1/2]
+9d0cec63b18 Lockscreen/ambient analog clock: improve design
+580d3c501d6 Ensure the clockview is aligned correctly each time
+9d06e9ae9eb Keyguard items: code improvements
+d0b0c62bc18 Introduce lockscreen clock/date styles [1/2]
+1645594de63 Always keep clock/date & other items visible while dozing
+8aea5901eb0 Hide lockscreen items [1/2]
+efe7f0bd54a SystemUI: Fix several layout bugs
+041308f18de SystemUI: Enable and fix QS detail view, adapt layout to Pie
+b3f091f0f63 Hide Statusbar on Lockscreen [1/2]
+31b1f0122c9 base: Add seekbar to media notification
+5285d30efa4 Quick settings panel: Set transparency [1/2]
+bda88b53c61 Allow SBC as HD audio codec in Bluetooth device configuration
+13c1860f910 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+a483ace518f Add CHANNEL_MODE_DUAL_CHANNEL constant
+4e6bda5274d Aggressive Battery: fix auto enable on battery saver
+584fe93b19e core: Implement Aggressive Battery [1/2]
+ac93e27d38e SystemUI: PhoneStatusBarPolicy: only show BT icon when connected
+9b644556924 Ensure that our custom views play nice with HeadsUp
+78a3c92496b Logo: Add more Logo Styles [1/2]
+5a7693ee58b Evolution X 2.0 logo in the status bar [1/2]
+4bc2f01e319 Unlock keystore with fingerprint after reboot (1/2)
+aefd9aa7462 Reduce the uncessery wm call while checkKeyguardVisibility
+dbc92e774b6 base: Add support for DiracSound FX
+4787c6e7e8a base: SystemUI: Add optional notch friendly VoLTE icon
+24755444930 Use Auto brightness for Ambient Display
+aa34fb1c74f Keyguard: Avoid starting FP authentication right after cancelling
+e0456e8a4c8 Telephony: Stop using rssnr, it falsly shows wrong signal bars Pixel and other devices drop this
+b533f2ee489 [OP Gestures] Enable gestures on the keyguard as well
+1035de59337 qs_footer: Update visibilities after inflate finish
+6875a126966 Stop USB Debugging authorization window dismissing on tap outside.
+ee6715e5cff Fix ExifInterface for .heic when meta is at the end
+cf8c842ea57 SystemUI: refactor quick settings expand fix
+65f09286ec8 SystemUI: prevent that dt2s triggers panel expand
+3b99f8f247d Fix to hide phone number printed in the log
+cd8fcbb54ac SystemUI: Fix Data Usage tile to match Settings
+e305a929597 Remove the check of mService when BluetoothHidDevice doUnbind
+ffb58555354 SystemUI: Decrease padding for statusbar icons
+39076397266 Fix clock/statusbar padding
+70f8021596a base: Actually fix the padding on StatusBar
+8a3a8fd4518 DO NOT MERGE Let isLocationEnabledForUser() return true location setting
+c7e4aa10e39 SystemUI: increase LS album art blur strength
+316e0282791 base: LS filters: Add 2 more variants [1/2]
+494b597ade6 base: Optimize toGrayscale function
+157fa9e33ae base: Intensify the blur amount on LS cover art
+9135ee18e66 ImageUtils: Switch blur lib to SimpleImageBlur
+7964d0f3071 base: Add Lockscreen cover art filter [1/2]
+70fb5002394 ImageHelper: add getBlurredImage
+e5778e4802d base: evolution: import ImageHelper
+d6db805621f SystemUI: Add AmbientDisplay tile
+7a34883a75f Add Compass tile
+f8b740a4e26 MusicTile: Make tile state inactive if not playing music
+8243609744d Add Music QS Tile
+59d4b84f4f7 GamingMode Tile: Show "What's This?" on long click.
+11f00058ca5 Fix FC of GamingMode on Long click
+1ba7e3f7de9 GamingModeTile: stop adjusting volume
+5078bd80c5e SystemUI: Add Gaming mode tile
+1d9311ea0af AODTile: Fix long click intent
+d60f57178e8 base: Turn on display if Doze On Charge is Enabled
+2b133d12e61 [1/2] base: add option to enable AOD on charging only
+beb3295b29d base: SystemUI: add config check for aod available in qs tile
+3ae81e729bf base: SystemUI: add qs AOD tile
+082598c5628 base: remove bottom gesture from backup
+d72f402da88 Implement expanded desktop feature [1/2]
+279a8aeebfe QS: LocationTile: make it cycle modes
+cdf11bc67c0 Ability to disable dashboard suggestions and conditions (1/3)
+d7eaefdce9e SystemUI: HeadsUp blacklists (1/2)
+11f5da020b1 base: SystemUI: add tuner to hide qs security footer
+4bc994c5baf base: SystemUI: add tuner switch to hide qs info header
+521fae18004 base: disable warning in StaticLayout
+1190f4de6bf base: op gesture tweaks[1/2]
+1b5d8be933b [1/2] base: implement OP like navigation gestures
+399492c367c Use headline font on network traffic
+52b4c9b075d Network traffic: fix static color usage
+2ad12121383 systemui: Network Traffic fixes
+74f37fd7101 NetworkTraffic: Allow user to choose positioning [1/2]
+3f0599ec5ba Add network traffic monitor properly to statusbar icons
+968c4d2af8f Hide arrows in Network Traffic indicators [1/2]
+f737d14bbe8 Bring back traffic indicator for all!
+4c46a8f4501 Net monitor: fix text color on light theme
+d1c1ad404e3 Move net monitor to expanded statusbar header
+ffc3bd77aa4 Partially Revert "Add network traffic monitor properly to statusbar icons"
+20a3f6e0cb8 Network traffic: fix indicator not hiding on lost connection
+5524ea8e971 Avoid casting network traffic to StatusBarIconView to prevent crash
+d7e795f3e50 Add network traffic monitor properly to statusbar icons
+25ee674403c fw_base: move network indicator to the right
+ae7d313490d Hide arrows in network traffic indicators [1/2]
+d94dc3d0183 Status network traffic [1/2]
+854c43208ba StatusBar: Silence logspam
+9fe28dff300 SystemUI: Add tile to show volume panel
+074247faa14 VolumeDialog: Rework expandable dialog
+cd89afcc266 Volume panel: Add notification volume row if unlinked
+096db69c857 Code improvements for expanded volume panel
+0bac92453b5 VolumeDialog: avoid multiple animations on touch spam
+4c4e32dec64 Volume panel: Visual improvements
+5ef8bd2293e base: Redo expanded volume panel for 9.x
+16dc8694d26 Volume panel: Do the same with less
+35928516ce8 VolumeDialogImpl: Create settings observer only once
+9f7cdcf4b92 Switching audio panel position [1/2]
+34632073c54 Extended audio panel - fixes for unlinked notifications
+47e1e08ed6c Extended audio panel [1/2]
+4ab5ee4289b Left volume panel: Fix animation
+06f3b34df8f Volume panel location: load the bool once
+b153a2a8a22 SystemUI: allow devices override audio panel location
+e26613d091c frameworks: Add unlinked ringtone and notification volumes
+ba230bf1520 Live Volume Steps [1/2]
+cbd39fcd4a9 base: Option to use volume keys to control ring volume anytime (1/2)
+8159330aa83 Statusbar brightness control: behave like brightness slider on P
+c08d72a9d0a SystemUI: Port statusbar brightness control [1/2]
+1ae4064a6ef base: add permissions back to AndroidManifest
+4593eddeefb config: Disable forced camera audio by default
+ba637c81987 permissions: Add custom permissions to privapp-permissions-platform.xml
+1b8dce7358e Make roaming indicator optional [1/2]
+230d482cdf7 SystemUI: manifest: declare permissions for am restart
+f0977d0cb56 services: allow to force "never" mode for display cutout [1/2]
+aad092391ae carrierlabel & left clock: Properly handle View Visibility
+e2229185ae2 carrierlabel: remove view instead of hiding it
+0f4c720912d SystemUI: Move Carrier Label inside status_bar_left_side layout
+4c907940526 Carrier Label: Bring back the scroll (marquee) effect
+325881419f0 Custom Carrier Label & Carrier Label Placement [1/2]
+2616bb058f5 Fix compilation warning
+809e4c0e05c statusbar: adjust update logic for old mobile type
+3241653a463 base: Fix old mobile signal icons
+ff3576f93df SystemUI: fix height of old data type icons
+1ec36ea8993 SystemUI: fix visibility of mobile type icon
+bd097457517 SystemUI: allow switch to pre P mobile icon style [1/2]
+096dfa5887f base: API to restart SystemUI without root
+cb553a8043f Address NPE when removing preferences out of some menu
+987f740c69b FWB: Add Volume Key Answer (1/2)
+8d20b18eccc Quick settings: Add Haptic Feedback to tiles [1/2]
+05928dcad30 base: SystemUI: fix brightness slider animation on qs expand
+1ab67989a5a Base: HeadsUp snooze function [1/2]
+7f57dfd0105 HeadsUp: add timeout option [1/2]
+1f31f065beb base: make screen off animation selection logical [1/2]
+5110f14316a base: fix default value for screen off animation setting
+741a2ea93fc base: screen off animation config [1/2]
+e8fbfeae042 Add interpolators to qs tiles animation [1/2]
+f0bbc656784 Add animations to quick settings tiles [1/2]
+d516727dfc9 base: allow to swap volume buttons rotation based [1/2]
+7229ff3ca74 Fix for google backup and restore
+294cd67a7f2 Treat default value that wasn't found as empty value
+d2123b94b30 Reverse notification menu animation on cancel
+04f5805911c Lockscreen Visualizer: Use offload thread
+7551a21a023 SystemUI: Visualizer customizations [1/2]
+a7783ca1835 Lockscreen Visualizer: drop UserContentObserver for ContentObserver
+ceb66a9c3c6 VisualizerView: Don't add null end actions to animators
+4166946f931 SystemUI: Ambient Visualizer [1/2]
+7c4bdb4b006 Lockscreen visualizer: fix SystemUI FC when using Pulse
+30bb1354886 SystemUI: Add visualizer feature [1/2]
+6d1a0128f87 InputMethodService: Disable fullscreen keyboard.
+7e435301d54 SystemUI: fix statusbar clock overlapping after reboot
+546cd703d37 Clock: Fix crash in formatted string with date on right
+ae58995ddbc StatusbarClock: date right/left position [1/2]
+0b2df1cf8c5 Fix the icon overlay after density change
+48df4bb569c base: SystemUI: reduce padding between clock and notification area
+39374f04e3c SystemUI: fixed "Clock is double after reboot or update"
+ab408db06dc SystemUI: statusbar clock date customization (1/2)
+4671117a224 Status bar notification: Use Material icons for missed calls
+3c83909ab40 Telephony: Don't crash for too long baseband version
+be7eb34b475 Speed up yet again Recents additional buttons delay
+462ff0a8ae1 display: Don't animate screen brightness when turning the screen on
+5488e463c53 SettingsProvider: Add missing INTERACT_ACROSS_USERS_FULL permission
+39446ae1ce0 SysUI tuner activities: fix SysUI fc on rotation
+9addc589a54 Disable statusbar time refresh when screen off
+4fbcabf9b51 SystemUI: Toggle USB tethering only when USB is connected
+98730f092a8 Add USB Tether QS Tile
+30a4919b2a6 Reboot/Recovery QS Tile
+111f3975d2c Kill off the legacy dialog
+016c2d24d1d caffein: stop crashing during boot
+d76d144c938 base: SystemUI: stop crashing qs tiles during boot
+22943653d0d Add Sound tile to Quick Settings
+8f77d59133a systemui: Add 5 qqs column option
+adcb2bc320b base: SystemUI: add seven and eight qs columns for portrait
+57c9b32cb0f base: SystemUI: add QS rows and landscape rows config
+f09ad7a8f8e base: drop the omni bs
+f0d02f208d4 base: SystemUI: add qs quick tile column auto to follow columns
+1a08b0333e3 base: SystemUI: qs quickbar columns config
+dd34f165ebf SystemUI: change QS hide label preference
+84a2effe79f SystemUI: add back QS hide label
+b17261ecb3b SystemUI: hide QS expand image on bigger column counts
+60293e6b9f5 SystemUI: make QS columns count configurable
+4de76fad86b FeatureFlags: Show Auto-BT while driving setting
+321312945a4 CarrierConfigManager: Enable enhanced call blocking function
+a0baa3efb9d SystemUI: Remove unused resources
+9835ff4121e Include InCallNotification.ogg in AllAudio.mk file
+a32d9f27456 Add ChargingStarted + InCallNotif to AudioPackage
+
+   * manifest/
+825b559 Track SettingsIntelligence
+
+   * vendor/themes/
+3979a7c QSTiles: Add Android Q Beta 4 QS styles [3/3]
+0cbdce5 Accents: Add Android Q Beta 4 color accents [3/3]
+
+=======================
      06-17-2019
 =======================
    * Device Specific
