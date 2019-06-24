@@ -346,5 +346,19 @@
             "xda_thread":"https://forum.xda-developers.com/mi-8-se/development/rom-evolution-x-2-0-t3941034"
          }
       ]
+   },
+   {
+      "name":"Le 2",
+      "brand":"LeEco",
+      "codename":"s2",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Himanshu Kumar(TechyHk)",
+            "maintainer_url":"https://t.me/techyhk",
+            "xda_thread": "http://bit.ly/Evolution-x"
+         }
+      ]
    }
 ]
