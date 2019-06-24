@@ -14,6 +14,20 @@
       ]
    },
    {
+      "name":"Mi A2 Lite",
+      "brand":"Xiaomi",
+      "codename":"daisy",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Zinadin Zidan (Zidan44)",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=9782219",
+            "xda_thread":""
+         }
+      ]
+   },
+   {
       "name":"Mi Mix 3",
       "brand":"Xiaomi",
       "codename":"perseus",
