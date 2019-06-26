@@ -334,6 +334,20 @@
       ]
    },
    {
+      "name":"Pixel XL",
+      "brand":"Google",
+      "codename":"marlin",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Gabriel Howard",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=9656816",
+            "xda_thread":"https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-2-0-t3943024"
+         }
+      ]
+   },
+   {
       "name":"Redmi Note 7",
       "brand":"Xiaomi",
       "codename":"lavender",
