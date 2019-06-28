@@ -1,18 +1,17 @@
 {
          "error":false,
-         "filename": "EvolutionX_dipper-9.0-20190624-2256-OFFICIAL.zip",
-   	 "size": 835525511,
-   	 "datetime": 1561416928,
-   	 "id": "579ad1fc7ebcff45e148535cfb05cb0f63e8e97bda81d5eec45bb93dc5acf722",
-   	 "filehash": "e37e31110408507e25cb37f37c03e8e6",
-         "url":"https://sourceforge.net/projects/evolution-x/files/dipper",
+         "filename": "EvolutionX_dipper-9.0-20190628-1411-OFFICIAL.zip",
+   	 "size": 836003753,
+   	 "datetime": 1561731054,
+   	 "id": "cbc5900e04a6b178116530d77cc151c5aef978c1354733f4d4f1427e662b0ca3",
+   	 "filehash": "0410292a654631b0099be71a4866d483",
+         "url":"https://sourceforge.net/projects/evolution-x/files/dipper/EvolutionX_dipper-9.0-20190628-1411-OFFICIAL.zip/download",
          "version":"Pie",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
-         "donate_url":"https://Paypal.me/chachinito",
-         "maintainer":"Chachi Desuasido (engr.chachi)",
-         "maintainer_url":"https://forum.xda-developers.com/member.php?u=8111960",
-         "telegram_username":"chachinito",
-         "forum_url":"https://forum.xda-developers.com/mi-8/development/rom-evolution-x-t3928301"
+         "donate_url":"https://Paypal.me/joeyhuab",
+         "maintainer":"Anierin Bliss (AnierinB)",
+         "maintainer_url":"https://forum.xda-developers.com/member.php?u=7125966",
+         "telegram_username":"anierinb",
+         "forum_url":"https://forum.xda-developers.com/mi-8/development/rom-evolution-x-2-0-t3943815"
 }
-

@@ -1,0 +1,25 @@
+ Add SmartNav (Stock Navbar customization, Smartbar and Fling)
+- Add Navbar Pulse (visualizer)
+- Add Pixel Navbar animation toggle
+- Add Enable/disable HW keys toggle
+- Improve hw keys customization
+- Bring back Q style Ambient music ticker
+- Bring back QS panel Battery Estimates toggle
+- Bring back QS panel Edit icon toggle
+- Bring back Sensor block per-package
+- Bring back Navbar tuner
+- Bring back Lockscreen shortcuts tuner
+- Remove System > Buttons
+- Remove System > Status bar
+- Don't force show battery percentage on powersave/charging
+- Revert VoLIT to VoLTE icon (shoutout to the brosirs in Mido's community)
+- Add Volume key cursor control
+- Bring back One-hand UI mode (w/ QS tile)
+- Add On-The-Go mode (w/ QS tile)
+- Add Alarm, Calculator, Calendar, Camera, Dialer, Expanded Desktop, Sleep Screen QS tiles
+- Update Screenshot & Partial screenshot QS tile icons
+- Bring back Running Services toggle for QS footer
+- Bring back Statusbar Clock, Date and Carrier Label font styles, sizes and colors
+- Add Lockscreen Clock & Date font sizes
+- Remove gaming mode QS tile
+- Remove Pixel Wallpapers 18
