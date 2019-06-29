@@ -1,0 +1,48 @@
+=======================
+     06-29-2019
+=======================
+   * frameworks/base/
+4dca1da60e5 QS tiles: Update icons from Android Q
+98a53c78040 base: Fix unnecessary truncation in Slice
+025c8cf4c58 Remove isBandwidthControlEnabled.
+39431a3bba3 SystemUI: Fix multiuser icon glitch in QS footer
+4e98e36e64f Lockscreen bottom shortcuts fixes
+610473ca6e6 Fix custom lockscreen shortcut icons being white
+c9d263fd3d5 base: tuner: add a hide config to left and right shortcut
+156959ea353 Run LockscreenFragment external
+e19b4561aba Run NavBarTuner external
+a2e010d5e9d base: SystemUI: enable tuner
+e0561568d1a Battery Estimates: Show only in QSB Header
+a4a8a225eed Battery Estimates: Move battery icon to QS header when disabled
+439d8a734c8 base: Add toggle to disable battery estimates in QS [1/2]
+607d0800007 SystemUI: fix the behavior of QS with isDualTarget=true
+aa1420c3221 base: Q seekbar: make the seekbar transparent for non-seekable notifs
+5573e732e0a Active Edge long squeeze support with SmartAction implementation [2/3]
+67fa1b8be40 SmartActions: Add media controls to bindable actions [1/2]
+de8bd6dd162 SmartActions: Turn on Tri-state ringer toggle [1/2]
+959b56e280c base: re-enable screenrecord for SmartNav and SmartActions
+a2fde2123e3 SmartActions: Bug fixes and maintenance
+9f517c4989c ActiveEdge: Implement SmartActions for action handling [1/3]
+c813e6d1bcf Helper functions for SmartActions action binding [1/2]
+4adc573d644 Reload Pixel Home Animation without reboot
+32598a926ef Pixel Navbar animation toggle [1/2]
+4d5f2593afd SystemUI: Add navigation touch animation support
+1fd12b74c6a SystemUI: Remove older Pixel Animation
+
+   * manifest/
+b8a5138 remote: Back to Pie
+
+   * vendor/xiaomi/
+72796f0b jason: Update blobs from miui_MINote3_9.6.27_cbd74a3e59_9.0
+a105e12d jason: Remove wcnss_filter
+e9f491ab jason: Add ANT+ enabled QTI BT service
+c1b0d306 jason: Update blobs from miui_MINote3_9.6.13_7729f7484c_9.0
+9577221c jason: Update to Pie blobs
+
+=======================
+    Device Specific
+=======================
+- Fixed Fts Freeze Issue Thanks  @warabhishek
+- Kernel : 4.9.184 Upstream
+- Kernel : focaltech_touch: Update firmware from MIUI 9.6.20
+
