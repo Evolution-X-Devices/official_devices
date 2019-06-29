@@ -1,0 +1,9 @@
+- Update Night Light QS tile icon from Android Q
+- Fix truncation in Lockscreen slice
+- Fix white navbar home icon on light themes
+
+Device changes
+
+- Update kernel to 4.9.184 (with added xpad support)
+- Use handset-stereo-dmic-ef for camcorder-mic for better audio volume and quality (Footej, etc)
+- Use blacklist instead for aux camera
