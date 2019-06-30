@@ -124,7 +124,7 @@
       ]
    },
    {
-      "name":"Redmi 4X",
+      "name":"Redmi 4/4X",
       "brand":"Xiaomi",
       "codename":"santoni",
       "supported_versions":[
@@ -133,7 +133,7 @@
             "version_name":"Pie",
             "maintainer_name":"Nagarajan GK",
             "maintainer_url":"https://t.me/Nagarajan_GK",
-            "xda_thread":""
+            "xda_thread":"https://forum.xda-developers.com/xiaomi-redmi-4x/how-to/rom-evolution-x-2-0-redmi-4-4x-t3944061"
          }
       ]
    },
