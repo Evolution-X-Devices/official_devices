@@ -152,16 +152,30 @@
       ]
    },
    {
-            "name":"Redmi 5 Plus",
-            "brand":"Xiaomi",
-            "codename":"vince",
-            "supported_versions":[
+      "name":"Redmi 5 Plus",
+      "brand":"Xiaomi",
+      "codename":"vince",
+      "supported_versions":[
          {
             "version_code":"pie",
             "version_name":"Pie",
             "maintainer_name":"Naveen",
             "maintainer_url":"https://t.me/Naveenkumarachari",
             "xda_thread":"https://forum.xda-developers.com/member.php?u=9697924"
+         }
+      ]
+   },
+   {
+      "name": "Redmi Note 7 Pro",
+      "brand": "Xiaomi",
+      "codename": "violet",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Dyneteve",
+            "maintainer_url": "https://github.com/Dyneteve",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-2-0-t3944859"
          }
       ]
    },
