@@ -1,0 +1,17 @@
+=======================
+     07-02-2019
+=======================
+- Merge July security patch
+- Add Double tap to trigger ambient display
+- Bring back Lockscreen Charging animation
+- Add Haptic feedback duration (Navigation Gestures)
+- Fix HW Keys Backlight dialog
+- Fix navbar detection and landscape mode (Navigation Gestures)
+- Fix ThemableClock font issue
+- Update Evolution X bootanimation
+
+=======================
+    Device Specific
+=======================
+- Change Kernel To Derp
+- Added Dirac APP From Posp
