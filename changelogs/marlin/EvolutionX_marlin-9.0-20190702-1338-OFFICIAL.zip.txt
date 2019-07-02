@@ -1,0 +1,15 @@
+- Merge July security patch
+- Add Double tap to trigger ambient display
+- Bring back Lockscreen Charging animation
+- Add Haptic feedback duration (Navigation Gestures)
+- Fix HW Keys Backlight dialog
+- Fix navbar detection and landscape mode (Navigation Gestures)
+- Fix ThemableClock font issue
+- Update Evolution X bootanimation
+- Update Night Light QS tile icon from Android Q
+- Fix truncation in Lockscreen slice
+- Fix white navbar home icon on light themes
+
+Device changes:
+- Fixed AOD Animation
+- Fixed visual issues with light theme
