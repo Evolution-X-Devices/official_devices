@@ -1,0 +1,7 @@
+- Bring back Rootless Substratum support (OMS)
+- Fix file export path in storage for ROM downloaded through OTA app
+- Hardcode Evo X bootanimation for dumbfuck devices
+- Make Haptic feedback duration option depend on Navigation Gestures
+- Make Navbar inverse and One-handed mode depend on Navbar toggle
+- Remove broken option for 5 quickbar column option
+- Set QS panel BG transparency even with default colors set
