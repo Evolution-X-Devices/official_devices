@@ -97,6 +97,19 @@
       ]
    },
    {
+      "name":"PH-1",
+      "brand":"Essential",
+      "codename":"mata",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Anierin Bliss (AnierinB)",
+            "maintainer_url":"https://t.me/AnierinB"
+         }
+      ]
+   },
+   {
       "name":"Redmi 6 Pro",
       "brand":"Xiaomi",
       "codename":"sakura",
