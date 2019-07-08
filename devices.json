@@ -431,5 +431,33 @@
             "xda_thread": "http://bit.ly/Evolution-x"
          }
       ]
+   },
+   {
+      "name":"Galaxy S7",
+      "brand":"Samsung",
+      "codename":"herolte",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Luke Williams",
+            "maintainer_url":"https://t.me/expressluke",
+            "xda_thread": "https://bit.ly/2L7rOCL"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy S7 edge",
+      "brand":"Samsung",
+      "codename":"hero2lte",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Luke Williams",
+            "maintainer_url":"https://t.me/expressluke",
+            "xda_thread": "https://bit.ly/2L7rOCL"
+         }
+      ]
    }
 ]
