@@ -1,0 +1,43 @@
+NOTE! TURN OFF NAVBAR SETTING FIRST BEFORE UPDATING!
+
+- Add lighter accent colors for dark themes (Q accents)
+- Add new translations to Evo settings
+- Completely overhaul Evo settings menu
+- Fix colored icons issue with Evo settings for Subs Ethereal theme
+- Move some options from main Settings app to Evo settings
+- Add summaries to some items in Evo settings menu
+- Fixes to dark theme
+- Stop using auto brightness for Ambient Display
+- Bring back Gaming Mode QS tile for gamers
+- Bring back Force activities to be resizable in dev options (for multi-window users)
+- Bring back Enable freeform windows in dev options
+- Enable Wifi MAC Randomization in dev options
+- Fix Gaana crashing SystemUI due to seekbar changes
+- Fix Notification dot colors
+- Prevent crash in TTS engine
+- Update Evolution X logo in About phone (by Hugwalk)
+- Bring back Rootless Substratum support (OMS)
+- Fix file export path in storage for ROM downloaded through OTA app
+- Hardcode Evo X bootanimation for dumbfuck devices
+- Make Haptic feedback duration option depend on Navigation Gestures
+- Make Navbar inverse and One-handed mode depend on Navbar toggle
+- Remove broken 5 quickbar column option for QS tiles
+- Set QS panel BG transparency even with default colors set
+- Add SmartNav (Stock Navbar customization, Smartbar and Fling)
+- Add Navbar Pulse (visualizer)
+- Add Pixel Navbar animation toggle
+- Add Enable/disable HW keys toggle
+- Improve hw keys customization
+- Bring back Q style Ambient music ticker
+- Bring back QS panel Battery Estimates toggle
+- Bring back QS panel Edit icon toggle
+- Bring back QS panel Multiuser icon
+- Bring back Sensor block per-package
+- Bring back Navbar tuner
+- Bring back Lockscreen shortcuts tuner
+- Fix white background on Settings (light theme)
+- Remove System > Buttons
+- Remove System > Status bar
+- Update Night Light QS tile icon from Android Q
+- Fix truncation in Lockscreen slice
+- Fix white navbar home icon on light themes
