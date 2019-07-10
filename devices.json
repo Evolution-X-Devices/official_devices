@@ -458,5 +458,61 @@
             "xda_thread": "https://bit.ly/2L7rOCL"
          }
       ]
+   },
+   {
+      "name":"Galaxy J5 (2015) 3G",
+      "brand":"Samsung",
+      "codename":"j53gxx",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Gegham Zakaryan (zakaryan2004)",
+            "maintainer_url":"https://t.me/zakaryan2004",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy J5 (2015) LTE",
+      "brand":"Samsung",
+      "codename":"j5lte",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Gegham Zakaryan (zakaryan2004)",
+            "maintainer_url":"https://t.me/zakaryan2004",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy J5 (2015) LTE NFC",
+      "brand":"Samsung",
+      "codename":"j5nlte",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Gegham Zakaryan (zakaryan2004)",
+            "maintainer_url":"https://t.me/zakaryan2004",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy J5 (2015) LTE China",
+      "brand":"Samsung",
+      "codename":"j5ltechn",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Gegham Zakaryan (zakaryan2004)",
+            "maintainer_url":"https://t.me/zakaryan2004",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
+         }
+      ]
    }
 ]
