@@ -28,6 +28,20 @@
       ]
    },
    {
+      "name":"Pixel",
+      "brand":"Google",
+      "codename":"sailfish",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Gabriel Howard",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=9656816",
+            "xda_thread":""
+         }
+      ]
+   },
+   {
       "name":"Mi Mix 3",
       "brand":"Xiaomi",
       "codename":"perseus",
