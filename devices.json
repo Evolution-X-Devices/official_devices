@@ -542,5 +542,19 @@
             "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
          }
       ]
+   },
+   {
+      "name":"Cool1 Dual",
+      "brand":"Coolpad",
+      "codename":"c106",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Mustafa Shaikh",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=7681489",
+            "xda_thread":"https://forum.xda-developers.com/cool1/development/rom-t3948188"
+         }
+      ]
    }
 ]
