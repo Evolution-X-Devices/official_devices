@@ -557,5 +557,19 @@
             "xda_thread":"https://forum.xda-developers.com/cool1/development/rom-t3948188"
          }
       ]
+   },
+   {
+      "name":"Galaxy S4 with LTE+",
+      "brand":"Samsung",
+      "codename":"ks01ltexx",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Taoubi abdellatiF",
+            "maintainer_url":"https://t.me/taoubi",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-s4/i9506-develop/rom-evolution-x-t3947486"
+         }
+      ]
    }
 ]
