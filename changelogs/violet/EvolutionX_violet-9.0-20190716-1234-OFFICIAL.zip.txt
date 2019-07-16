@@ -1,0 +1,704 @@
+=======================
+     07-16-2019
+=======================
+
+
+   * device/xiaomi/violet/
+c0d8281 violet: Rename light and fingerprint service
+
+   * frameworks/base/
+d423b6193d9 Automatic translation import
+8506ff256bc pocket: Reduce sleep timeout for pocket lock
+667614604dd base: SystemUI: fix themeing of notification shelf dot
+71bf912ba61 SystemUI: Ensure battery estimates update on callback
+
+   * kernel/xiaomi/sm6150/
+0370302fa64e Revert recent sched commits
+
+   * packages/apps/Evolution/
+d43cd61 Automatic translation import
+
+   * packages/apps/Settings/
+54e48cbd63 Automatic translation import
+
+   * packages/apps/Updates/
+231e4f2 Automatic translation import
+
+=======================
+     07-15-2019
+=======================
+
+
+   * frameworks/base/
+4812f465699 SystemUI: FOD: Use custom Bottom Area View for keyguard message
+cb655b300b6 Q Text Clock: Do not translate these things
+db6b8f6bf25 Use Carrier Label font styles for Statusbar clock as well [1/2]
+0f769236861 PM: Signature spoofing [1/2]
+72306a13247 Add support for fake signatures, enabled per app by dynamic perms
+c23ae5aeca7 Fix lag on notification pulldown
+8e1f6c825da Force Expanded Notifications [1/2]
+bc7afcd9a27 GamingMode: allow disable navigation gestures [1/2]
+2256ef8d093 GamingMode: Clean up and refine [1/2]
+8c1b2e98736 GamingMode: add master switch [1/2]
+83f19a23120 GamingMode: cleanup and fix a bit
+baf150fc315 GamingMode: Rewrite implementation [1/2]
+0058ec12f3f GamingMode: add more ringer modes [1/2]
+6c0b28c58e1 GamingMode: minor improvements
+d9b030affb7 SystemUI: FireHound Gaming [1/4]
+2102ef5616f Revert "SystemUI: Add Gaming mode tile"
+cd69fb373a2 Revert "Fix FC of GamingMode on Long click"
+a847e35faa7 Revert "GamingMode Tile: Show "What's This?" on long click."
+5ed56f4f379 Revert "GamingModeTile: stop adjusting volume"
+00a6d801e64 Launch music player on headset connect: add BT compatibility [1/2]
+
+   * packages/apps/Evolution/
+f364d90 Use Carrier Label font styles for Statusbar clock as well [2/2]
+b52d9b3 Evolution: Battery styles improvements
+f2ba73c Signature spoofing [2/2]
+6607dac Force Expanded Notifications [2/2]
+476b0fa GamingMode: Disable modifying settings when GamingMode is turned on
+6832bf7 GamingMode: Allow disable navigation gestures [2/2]
+08af043 GamingMode: Remove hwkeys toggle on non-hwkeys devices
+030fd0d GamingMode: Clean up and refine [2/2]
+bb9d388 GamingMode: Remove footer
+4c8b3ea GamingMode: cleanup a bit
+b1d3416 GamingMode: add master switch [2/2]
+8d26b24 GamingMode: Rewrite implementation [2/2]
+92a793f GamingMode: add more ringer modes [2/2]
+3f0c064 Gaming mode revamped [2/4]
+78f9a59 Launch music player on headset connect: add BT compatibility [2/2]
+ca309f6 Evolution: Update a couple of icons to Outline style
+
+   * packages/apps/Settings/
+c83a004e3d Revert "Settings: Add automatic theme based on time"
+5b0d437803 Settings: Add new tagline
+968730c693 Settings: Cleanup
+
+   * packages/apps/SmartNav/
+a34d139 Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+37b14ae Automatic translation import
+
+   * vendor/themes/
+a2aa89b Automatic translation import
+
+=======================
+     07-14-2019
+=======================
+
+   * art/
+8f0ff544d9 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * development/
+9b8a35f8e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/f2fs-tools/
+bd0159a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/icu/
+c555ad468 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/libpng/
+19908ec Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/proguard/
+56c2bf7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/broadcom/libbt/
+7c4fd3e libbt: configure audio codec right after firmware
+
+   * hardware/broadcom/wlan/
+9610886 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/audio/default/
+768ef7316 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/bootctrl/
+f705d0e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/display/
+501f9aed6 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/gps/
+a62882c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/media/
+ef30d8cfa Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * manifest/
+6a98f40 manifest: Track more repos
+
+   * packages/apps/CarrierConfig/
+8213808 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Nfc/
+dd246222 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/security/
+f595c85 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/timezone/
+de4a2bf Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/tools/hidl/
+c7efb50 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/update_engine/
+5be3b00 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+=======================
+     07-13-2019
+=======================
+
+
+   * frameworks/base/
+d2042330122 Automatic translation import
+e5bae73686a SystemUI: Don't show charging animation if In-display fingerprint is active
+b4e2e696cf0 FODCircleView: Refactor position / size / color configuration
+e799c46f295 FODCircleView: Move randomly to prevent burn-in
+ff0eda75f26 FODCircleView: Support finger down/up callbacks from HAL
+30f22f8485c FODCircleView: Support all screen orientations
+2aa9885cc0d Initial support for in-display fingerprint sensors
+17c8d854660 NetworkTraffic: Fix gravity
+90c6a3bd4f7 NetworkTraffic: skip more useless handler calls
+c559a329325 Statusbar net monitor: stop the handler if screen is off
+f4022982d77 Fix janky traffic indicator tint
+96ea3df12b2 NetworkTraffic: Make network monitor play nice with the QS scrim
+e4c25214b53 Q style: New Wifi icons (Evolution X version)
+461cb3515f2 Q style: Update several QS icons to Outline style
+f8b5d14d389 Q style: Import rest of animation from Pixel's Q4 preview image
+620390ebe10 Revert "Add dynamic Immersive Mode tile"
+643735c09a3 Blockers: Add some annoying wakelock and alarms
+c407ffe38b7 Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP
+4b64f0b3317 Alarm Blocker [1/2]
+c7e348386d5 Wakelock Blocker [1/2]
+ff0c2b0b01f Hide lock screen icon [1/2]
+a3af6ddd533 SystemUI: Disable wellbeing grayscale tile if reading mode available
+59018dc9341 LiveDisplay: Refactor for HWC devices and cleanup
+638b88ff22f Revert "SystemUI: Add LiveDisplay tile"
+00a940a9d8f Revert "LiveDisplayTile: Report unavailable on HWC2"
+94adf725315 PocketLock: Remove animations
+6280eb93c55 SystemUI: Handle orientation and screenSize changes for TunerActivity
+bb971e40a3b SystemUI: Rework navigation bar layout inversion logic
+1300f230ad9 SystemUI: Use proper lock icon scale on dismissing notification panel view
+940700b1d7e StatusBarMobileView: Properly init MobileGroup visibility
+28546f483c0 Revert "StatusBarSignalPolicy: Revert los implementation for sim card provisioning"
+936a8dd6fdf Move overlays packages names to own class
+75491ca9379 Fix an edge case in KeyguardUpdateMonitor pocket callback
+98ce73df3c6 Add back code to force close Settings app on theme change
+42da43521eb SystemUI: Remove custom strings for custom charging status
+fc64a82fb1c Theme system alert dialog
+b9a0428f560 Method to detect a notch'd device
+
+   * packages/apps/Settings/
+f25806954c LiveDisplay: Refactor
+d8ca70db1d LiveDisplay: Rebrand to keep consistency
+8d611b9b4d LiveDisplaySettings: Fix outdoor mode preference on hwc2
+96b1ea16d6 Don't hardcode eject sdcard icon color
+772c5bd249 Improve force fullscreen translation
+7931e4ada4 Revert "[2/2] Move settings theme to night mode based"
+
+=======================
+     07-12-2019
+=======================
+
+
+   * device/custom/sepolicy/
+cdacbc2 sepolicy: Add hal_lineage_fod domain
+
+   * hardware/custom/interfaces/
+2c6ae20 IFingerprintInscreen: allow HAL to control position and size
+36add97 IFingerprintInscreen: Allow HALs to provide finger up/down callback
+e4b9d43 IFingerprintInscreen: Allow HALs to control dimming
+c0a3112 Introduce in-screen fingerprint scanner HAL
+
+   * hardware/qcom/audio-caf/sm8150/
+dc6b2c4c Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into pie-caf
+
+   * hardware/qcom/display-caf/sm8150/
+cec73b8c Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/media-caf/sm8150/
+5f11744d Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * kernel/xiaomi/sm6150/
+e3dee62147ab violet-perf_defconfig: Enable default key driver
+8779d9e82b5a violet-perf_defconfig: Enable qvr external viewer
+aaa35afcdee8 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel
+10278676ad90 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into pie
+e07a5146bc06 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into pie
+602e5ed0b252 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of ttps://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0
+eb1b93b2c120 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14
+
+   * packages/apps/Evolution/
+fea4893 Blockers: P style switch
+299268a Alarm Blocker [2/2]
+4d91304 Wakelock Blocker [2/2]
+c8556bc Hide lock screen icon [2/2]
+
+=======================
+     07-11-2019
+=======================
+
+
+   * device/xiaomi/violet/
+902a9d6 violet: Update dependencies
+e2e4257 Revert "violet: Enable TARGET_HAS_WIDE_COLOR_DISPLAY"
+
+   * hardware/qcom/display-caf/sdm845/
+9a95e92be display: Always build libcopybit headers
+
+   * kernel/xiaomi/sm6150/
+5240a2984bc4 Merge https://github.com/android-linux-stable/msm-4.14 into pie
+f64807067d2f Merge 4.14.133 into kernel.lnx.4.14.r1
+
+=======================
+     07-10-2019
+=======================
+
+
+   * build/make/
+a8bee1871 Add the missing dependency on BOARD_PREBUILT_DTBOIMAGE.
+
+   * development/
+ff5079718 Merge "Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b" into pie-gsi
+6207d9d0c Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b
+
+   * device/xiaomi/violet/
+03a5472 violet: parts: Migrate to androidx
+09f2ad4 Revert "violet: Update GPS HAL to LA.UM.7.1.r1-15100-sm8150.0"
+88f9f61 violet: Compile kernel with clang 9.0.5
+74b3f2d violet: Enable TARGET_HAS_WIDE_COLOR_DISPLAY
+8b0eb38 violet: Do not allow prebuilt kernel
+
+   * external/icu/
+bd4c5fe40 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release am: 16b3c0277e
+b9cd61962 Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release am: a63df92ad9
+
+   * hardware/qcom/audio/default/
+ab7d2ba3b Merge "Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0" into pie-gsi
+84356ce53 Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0
+
+   * kernel/xiaomi/sm6150/
+aea8526edf59 Linux 4.14.133
+c875ac0a4339 stable/btrfs: fix backport bug in d819d97ea025 ("btrfs: honor path->skip_locking in backref code")
+93ca6e2019f2 dmaengine: imx-sdma: remove BD_INTR for channel0
+377bea40904e MIPS: Add missing EHB in mtc0 -> mfc0 sequence.
+7e9c43e0dd38 MIPS: Fix bounds check virt_addr_valid
+44b14046835b svcrdma: Ignore source port when computing DRC hash
+3fd8819530dd KVM: LAPIC: Fix pending interrupt in IRR blocked by software disable LAPIC
+8b90c9801c06 KVM: x86: degrade WARN to pr_warn_ratelimited
+3b851f87ba20 ARC: handle gcc generated __builtin_trap for older compiler
+1a18b808faf1 tty: rocket: fix incorrect forward declaration of 'rp_init()'
+011942d12cc2 vhost: scsi: add weight support
+46c7fce709dc vhost: vsock: add weight support
+ae446749492d vhost_net: fix possible infinite loop
+c051fb978828 vhost: introduce vhost_exceeds_weight()
+2c4e518f1e46 vhost_net: introduce vhost_exceeds_weight()
+e9dac4ca993f vhost_net: use packet weight for rx handler, too
+6416172c9408 vhost-net: set packet weight of tx polling to 2 * vq size
+c7e678f24147 btrfs: Ensure replaced device doesn't have pending chunk allocation
+584810d3a02b mm/vmscan.c: prevent useless kswapd loops
+0c0b54770189 ftrace/x86: Remove possible deadlock between register_kprobe() and ftrace_run_update_code()
+b50dc7b7d856 drm/imx: only send event on crtc disable if kept disabled
+207b888a03fb drm/imx: notify drm core before sending event during crtc disable
+8f6df3fd4715 drm/amdgpu/gfx9: use reset default for PA_SC_FIFO_SIZE
+3fd5ca359a3f arm64: kaslr: keep modules inside module region when KASAN is enabled
+90b89546e36c tracing/snapshot: Resize spare buffer if size changed
+9fbe87fc25ad lib/mpi: Fix karactx leak in mpi_powm
+76cdeea3b1fd ALSA: hda/realtek - Change front mic location for Lenovo M710q
+4a0a012c9826 ALSA: usb-audio: fix sign unintended sign extension on left shifts
+37eaa74451c1 ALSA: line6: Fix write on zero-sized buffer
+a75995a7554c ALSA: firewire-lib/fireworks: fix miss detection of received MIDI messages
+90a2692cf637 ALSA: seq: fix incorrect order of dest_client/dest_ports arguments
+a86c45d26c87 crypto: cryptd - Fix skcipher instance memory leak
+d06037bc128d crypto: user - prevent operating on larval algorithms
+bf71ef9655d2 ptrace: Fix ->ptracer_cred handling for PTRACE_TRACEME
+8a4db13ccc07 drm/i915/dmc: protect against reading random memory
+dbcbf7dd12e6 MIPS: netlogic: xlr: Remove erroneous check in nlm_fmn_send()
+f68803160efe ftrace: Fix NULL pointer dereference in free_ftrace_func_mapper()
+2d1a946887cb module: Fix livepatch/ftrace module text permissions race
+f847361edd2a mm/mlock.c: change count_mm_mlocked_page_nr return type
+793ff5efee9f scripts/decode_stacktrace.sh: prefix addr2line with $CROSS_COMPILE
+675a1a49dd91 cpuset: restore sanity to cpuset_cpus_allowed_fallback()
+1e25d82d9d62 platform/x86: mlx-platform: Fix parent device in i2c-mux-reg device registration
+26566830cacb scsi: hpsa: correct ioaccel2 chaining
+3904ebeaf899 SoC: rt274: Fix internal jack assignment in set_jack callback
+b38688abdc2e usb: gadget: udc: lpc32xx: allocate descriptor with GFP_ATOMIC
+2342af2c0588 usb: gadget: fusb300_udc: Fix memory leak of fusb300->ep[i]
+d9196717808f ASoC: sun4i-i2s: Add offset to RX channel select
+dc28a31e3310 ASoC: sun4i-i2s: Fix sun8i tx channel offset mask
+c930b3bca642 ASoC: max98090: remove 24-bit format support if RJ is 0
+3421d820391c drm/mediatek: call mtk_dsi_stop() after mtk_drm_crtc_atomic_disable()
+4462499d5198 drm/mediatek: call drm_atomic_helper_shutdown() when unbinding driver
+6042bfc5f38e drm/mediatek: fix unbind functions
+4adcbc46469d spi: bitbang: Fix NULL pointer dereference in spi_unregister_master
+6f0295c60dae ASoC: soc-pcm: BE dai needs prepare when pause release after resume
+f9bfb7035a30 ASoC : cs4265 : readable register too low
+05206de4e9ae Bluetooth: Fix faulty expression for minimum encryption key size check
+
+   * packages/apps/Nfc/
+bd9db4f5 Merge "Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e" into pie-gsi
+59960655 Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e
+
+   * packages/apps/Updates/
+d673072 Automatic translation import
+
+   * system/security/
+2e0205b Merge "Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5" into pie-gsi
+9eae64f Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5
+8607f11 Merge "Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76" into pie-gsi
+a2fb4b1 Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76
+
+   * system/tools/hidl/
+25a76d8 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release am: a5f1137806
+607da63 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release am: 1df6c91f83
+
+   * vendor/aosp/
+ea473b5e vendor: Fix qcom 4.14 hals
+142a31ee build: Set mode for makefiles
+239ceb27 kernel: Set correct kernel compiler prefixes for aarch64 clang
+25aec355 build: Support SDM710 platform
+c84d3f27 extract_utils: Add functions to extract vendor blobs from vendor.img
+f1f6ee67 build: Separate platform macros from QCOM platform definition
+72cc5f33 build: Reorganize inclusion of QCOM macros
+8d87f6ac privapp-permissions: Regenerate permissions list
+26a10022 Whitelist permissions for AOSP FM radio app
+ef3f8186 build: Use ifeq/else ifeq/else construction in board config
+
+   * vendor/themes/
+f162807 Automatic translation import
+b6fa67f Revert "[1/2] Move settings theme to night mode based"
+ea08757 Fix system error dialog
+
+=======================
+     07-09-2019
+=======================
+
+
+   * build/make/
+2942088fe build: Update contributors
+
+   * development/
+8ef31cb46 Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release
+
+   * device/xiaomi/violet/
+9723d75 violet: camera: Hack focus modes
+4bc25de violet: Import unmodified CameraParameters library
+50ced0f violet: Remove redundant libxml2
+a221e6b violet: proprietary: Add missing media blobs
+
+   * external/icu/
+16b3c0277 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release
+a63df92ad Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release
+
+   * hardware/qcom/audio/default/
+0c26ce89e Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release
+
+   * packages/apps/Evolution/
+a1d945f Evolution: Complete overhaul
+
+   * packages/apps/Nfc/
+f6d7678d Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release
+
+   * packages/providers/DownloadProvider/
+bb438d2 Automatic translation import
+
+   * system/security/
+de927dd Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release
+4a5cb0b Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release
+
+   * system/tools/hidl/
+a5f1137 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release
+1df6c91 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release
+
+   * vendor/themes/
+89c034f Accents: Add lighter accent colors for dark themes
+
+   * vendor/xiaomi/violet/
+de0962c violet: Add missing media blobs
+
+=======================
+     07-08-2019
+=======================
+
+
+   * kernel/xiaomi/sm6150/
+e9c0b54157d1 UPSTREAM: sched: loadavg: make calc_load_n() public
+ed2a8fa0237e BACKPORT: sched: loadavg: consolidate LOAD_INT, LOAD_FRAC, CALC_LOAD
+c9e8d641f15a sched: walt: fix lockdep false positive
+43e3775a9068 Revert "cpuset: Restore tasks affinity while moving across cpusets"
+45d433f280ad sched/cpufreq: Add the SPDX tags
+122764e6ffa5 cpufreq: schedutil: Don't set next_freq to UINT_MAX
+bea31b1bd8d5 Revert "cpufreq: schedutil: Don't restrict kthread to related_cpus unnecessarily"
+c57deaf816b3 sched/fair: Do not migrate if the prev_cpu is idle
+d5395e19a046 sched/fair: Only immediately migrate tasks due to interrupts if prev and target CPUs share cache
+ab680859014f sched/fair: Restructure wake_affine*() to return a CPU id
+7d5a40041a1b sched/fair: Remove unnecessary parameters from wake_affine_idle()
+f9778c1368f8 cpuset: Restore tasks affinity while moving across cpusets
+c67ee9717b65 rcu/segcblist: Include rcupdate.h
+94a29a6aca9e rcu: Add extended-quiescent-state testing advice
+fa8927469d2a rcu: Suppress lockdep false-positive ->boost_mtx complaints
+caf47af1d7ca rcu: Do not include rtmutex_common.h unconditionally
+39fed7285951 rcutorture: Dump writer stack if stalled
+a964ae542be9 rcutorture: Add interrupt-disable capability to stall-warning tests
+51c1ed079a74 rcu: Suppress RCU CPU stall warnings while dumping trace
+bed0ab11dd59 rcu: Turn off tracing before dumping trace
+1dc1dc7d40cc rcu: Make RCU CPU stall warnings check for irq-disabled CPUs
+0fcc432d8cbc sched,rcu: Make cond_resched() provide RCU quiescent state
+b93a33fa824e rcu: Create call_rcu_tasks() kthread at boot time
+ab9bc3f1b15e sched/cpufreq: Annotate cpufreq_update_util_data pointer with __rcu
+6ec81e793114 sched: Replace synchronize_sched() with synchronize_rcu()
+090479096ec7 smp2p: revert commits that added wakelocking capabilities
+7dc44ba7b815 Merge commit 'd8b470366c6ce793b4e5c89923a41997ef3d9b8d' into HEAD
+
+=======================
+     07-07-2019
+=======================
+
+
+   * build/make/
+332bad1d3 build: Also replace audio/include old-style kernel header
+
+   * device/xiaomi/violet/
+2842f1d violet: Import media properties XML from LA.UM.7.9.r1-07500-sm6150.0
+
+   * kernel/xiaomi/sm6150/
+70c811d86048 fpc1020_tee: don't bother allocating memory when probe fails
+
+   * prebuilts/clang/host/linux-x86/
+e43b73f Update prebuilt Clang to r353983e.
+
+   * vendor/aosp/
+9cd2e932 vendor: Add audio/include/uapi to include path
+
+   * vendor/gapps/
+3f47fcb Update gapps
+
+=======================
+     07-06-2019
+=======================
+
+
+   * device/custom/sepolicy/
+01db7ec sepolicy: Dontaudit sysinit
+87ebe38 sepolicy: Break livedisplay hal policy into impl independent ones
+4590fc8 sepolicy: qcom: Rename common to vendor to avoid confusion
+f9b963f Cleanup power hal rules
+b2de2cf sepolicy: Move livedisplay hal policy to dynamic
+cd11584 sepolicy: Dynamically build trust policy into system/vendor
+
+   * device/xiaomi/violet/
+798e2b4 violet: Update gps config from caf
+47215a5 violet: Build some soundfx from source
+3c9eb0e violet: Bring back WMA
+
+   * hardware/qcom/audio-caf/sm8150/
+f11579f1 audio: Use direct    * pathmap
+
+   * hardware/qcom/display-caf/sm8150/
+00719488 Merge tag 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf into pie-caf
+34e1f93e Merge tag 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/fm/
+7080f76 Automatic translation import
+c11bcfb Partially revert "fm: Fix wrong BT SOC property name"
+
+   * hardware/qcom/media-caf/sm8150/
+f6d6112b Merge tag 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * kernel/xiaomi/sm6150/
+d8de8c3c4ede Merge commit '2ec8464f5c53930b53c763289e6f6367508b6f16' into HEAD
+
+   * packages/apps/FMRadio/
+a6ac911 Automatic translation import
+
+   * packages/apps/Snap/
+771bacb2e Automatic translation import
+2cfcdc690 Snap: allow to disable image stabilization per device
+e1c046741 Automatic translation import
+
+   * packages/services/Telephony/
+7018d4e54 Allow to disable the new scan API for manual network search.
+
+   * vendor/xiaomi/violet/
+ba2e4e6 violet: Drop prebuilt soundfx libs
+
+=======================
+     07-05-2019
+=======================
+
+
+   * device/xiaomi/violet/
+46b1a6c violet: proprietary: Restore stock bluetooth HAL
+1d1eec6 violet: Update GPS HAL to LA.UM.7.1.r1-15100-sm8150.0
+2d9c7de violet: Don't advertise vorbis offloading support
+bad80c2 violet: proprietary: Correct sha1sum of 1 file
+d741bf6 violet: Fix INITIAL_COPYRIGHT_YEAR value
+89e4be0 violet: Sync extractors with templates
+
+   * hardware/qcom/audio-caf/sm8150/
+6546fca0 Merge 880800db1da4ae6b90e0670e65af240bbbc66f49 on remote branch
+
+   * hardware/qcom/display-caf/sm8150/
+05df665a Merge d1cbc431bf30047a7e8d004f9c9dd0636bccd85c on remote branch
+
+   * hardware/qcom/media-caf/sm8150/
+0d6c7b45 Merge ae643d4e15d512b937ed3f85faf7b63504b4c5db on remote branch
+
+   * kernel/xiaomi/sm6150/
+5109164c8d54 Merge 830af558e4f87d06829d27af03ad90b20a931666 on remote branch
+d539e13672e5 Merge e564e18364d673ae322f04addfc592a78652c310 on remote branch
+3a58d112d099 Merge afbb9520efcf5b6ca1d2ed00927b18a6fd65b229 on remote branch
+bcb005c2018a power: qpnp-smb5: Do not use ibatt based termination for QG PMICs
+aed845add11a Revert "Revert "power: supply: smb5: Configure charger termination condition""
+cfc8c9f54522 Merge tag 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into pie
+b10225903191 Merge tag 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into pie
+4229f0703be5 Merge branch 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0
+8288283b34c4 Merge branch 'LA.UM.7.1.r1-15100-sm8150.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into pie
+
+   * packages/apps/Evolution/
+10e7c5d Add summaries to main menu
+
+   * vendor/themes/
+e690c51 Dark theme: Match new dark theme from Google's apps
+8455148 Fonts: Fix ThemeableClock issue
+7557e38 QSTiles: Remove remaining icon tinting
+
+   * vendor/xiaomi/violet/
+fe039a2 violet: Restore stock bluetooth HAL
+
+=======================
+     07-04-2019
+=======================
+
+
+   * frameworks/base/
+3be0d8a7cd1 GamingModeTile: stop adjusting volume
+29fbd1eb814 GamingMode Tile: Show "What's This?" on long click.
+5cda227c195 Fix FC of GamingMode on Long click
+bf8c9350b3a SystemUI: Add Gaming mode tile
+d4bb5b9e39b Prevent crash in TTS engine due to improper configuration
+28cc516e9b8 Add missing ensureRunningOnConnectivityServiceThread()
+2664182aff1 WeatherClient: Conditionally allow query when adding observer
+dbe8ede20d4 SystemUI: Protect against terrible music players
+
+   * kernel/xiaomi/sm6150/
+7ebfa86835dc Merge branch 'kernel.lnx.4.14.r3-rel' of https://github.com/android-linux-stable/msm-4.14 into pie
+d4cf4f888990 Merge 4.14.132 into kernel.lnx.4.14.r3-rel
+18defbd9d7b9 Merge 4.14.132 into kernel.lnx.4.14.r1
+
+   * packages/apps/Settings/
+5e81ac7d95 Revert "Remove freeform and resizable activity preferences"
+9b0177e5b9 Settings: Introduce Substratum changes.
+92091a6746 Settings: Update Evolution X logo in Settings main menu
+7bce6b494e Settings: Update Evolution X logo in About Phone
+
+=======================
+     07-03-2019
+=======================
+
+
+   * build/make/
+c89943220 build: Introduce SubstratumHelperService
+
+   * device/xiaomi/violet/
+95c3afc violet: proprietary: Clean up unused blobs
+28055dc violet: overlay: Hide unsupported color effects entry of Snap
+df5629d Revert "violet: irqbalance: Blacklist Sound Codecs"
+
+   * frameworks/base/
+ff8baef9e20 Revert "systemui: Add 5 qqs column option"
+ce5926b13c4 SystemUI: Add SystemSetting qs helper to match others
+88bf227a0af base: SystemUI: Fix qs-alpha conditions
+aaa59c6b38f base: Set QS BG alpha even with set qs from resources [1/2]
+5b103b09dac OMS: handle target or overlay package disabled
+f4dcab44c67 OMS: try harder not to update assets if nothing changed
+618d8958d77 SubstratumService: Rewrite installation method for Pie InstallSession API
+fd3a705c518 Unbreak public api by hiding substratum interfaces
+180092447f4 Pie OMS: allow non-system overlays from Substratum
+2f1b91a731e SubstratumService: Refactor & cleanup according to AOSP conventions
+806513d7e10 base: modify/define custom overlay management
+1da05572278 SubstratumService: unify permissions
+8b311299103 SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission
+17ec4ac9e4a base: Introduce SubstratumService
+265996feb76 OMS: StrictMode and files under /data/system/theme/
+0adfbe49c4b ThemeSafety: Introduce App Crash Intent
+45f36ca799e ApplicationsState: add filter for Substratum overlays [2/2]
+b014bf45458 Extras: Add dynamic theme sound effects support
+781aa2e2794 Extras: Add dynamic theme shutdown and boot animation support
+
+   * hardware/qcom/media-caf/sm8150/
+ae643d4e Merge "mm-video-v4l2: vdec: Check for negative timestamp in fbd"
+
+   * kernel/xiaomi/sm6150/
+e3c1b27308ae Linux 4.14.132
+a8601018de31 arm64: insn: Fix ldadd instruction encoding
+1688b6aef2eb tipc: pass tunnel dev as NULL to udp_tunnel(6)_xmit_skb
+b5800872a9c8 futex: Update comments and docs about return values of arch futex code
+889b96a2a945 bpf, arm64: use more scalable stadd over ldxr / stxr loop in xadd
+9a53f4f87109 arm64: futex: Avoid copying out uninitialised stack in failed cmpxchg()
+5a8221bcb056 bpf: udp: ipv6: Avoid running reuseport's bpf_prog from __udp6_lib_err
+399746515353 bpf: udp: Avoid calling reuseport's bpf_prog from udp_gro
+0ce7ddf3a350 bonding: Always enable vlan tx offload
+f6ba55888742 team: Always enable vlan tx offload
+ea4a292af53d tun: wake up waitqueues after IFF_UP is set
+03fc5cd78eb6 tipc: check msg->req data len in tipc_nl_compat_bearer_disable
+a412c725c6ee tipc: change to use register_pernet_device
+ee598530be89 sctp: change to hold sk after auth shkey is created successfully
+2365b9b27e00 net: stmmac: fixed new system time seconds value calculation
+9032157250fb net: remove duplicate fetch in sock_getsockopt
+dc948de356f4 net/packet: fix memory leak in packet_set_ring()
+8b029106d628 ipv4: Use return value of inet_iif() for __raw_v4_lookup in the while loop
+fe1ca8b85dfd af_packet: Block execution of tasks waiting for transmit to complete in AF_PACKET
+3587384f4d04 eeprom: at24: fix unexpected timeout under high load
+58c6643b94b6 cpu/speculation: Warn on unsupported mitigations= parameter
+7a8de1ea3b11 NFS/flexfiles: Use the correct TCP timeout for flexfiles I/O
+4d8b4ca85544 x86/microcode: Fix the microcode load on CPU hotplug for real
+72e477fe7601 x86/speculation: Allow guests to use SSBD even if host does not
+b8124c39c70f scsi: vmw_pscsi: Fix use-after-free in pvscsi_queue_lck()
+dd53bbb6538b dm log writes: make sure super sector log updates are written in order
+97e6fe106cc4 mm/page_idle.c: fix oops because end_pfn is larger than max_pfn
+c1b74f78fef6 fs/binfmt_flat.c: make load_flat_shared_library() work
+55b3118c80c2 mm/mempolicy.c: fix an incorrect rebind node in mpol_rebind_nodemask
+7cc3997787e3 fs/proc/array.c: allow reporting eip/esp for all coredumping threads
+c6975e419654 Revert "compiler.h: update definition of unreachable()"
+5267bb9c170d qmi_wwan: Fix out-of-bounds read
+d4fe45ddfe61 net/9p: include trans_common.h to fix missing prototype warning.
+84693d060965 9p: p9dirent_read: check network-provided name length
+9e69c673fe07 9p/rdma: remove useless check in cm_event_handler
+c9928b45845b 9p: acl: fix uninitialized iattr access
+ce3220827dcc 9p/rdma: do not disconnect on down_interruptible EAGAIN
+26b3b1dbb395 9p/xen: fix check for xenbus_read error in front_probe
+ff325dc466cc block: bio_iov_iter_get_pages: pin more pages for multi-segment IOs
+515e2f3e9f1b block: add a lower-level bio_add_page interface
+9a0e32cafd57 IB/hfi1: Close PSM sdma_progress sleep window
+a8a53c768424 Revert "x86/uaccess, ftrace: Fix ftrace_likely_update() vs. SMAP"
+2a2e3b98fc00 perf header: Fix unchecked usage of strncpy()
+449a549b51c4 perf help: Remove needless use of strncpy()
+3690acebf70d perf ui helpline: Use strlcpy() as a shorter form of strncpy() + explicit set nul
+
+   * packages/apps/Evolution/
+3459969 Evolution: Set QS BG alpha even with set qs from resources [2/2]
+
+   * packages/apps/SmartNavSettings/
+05fea0f OP like gestures: more tweaks [2/2]
+69fc3cc SmartNavSettings: Several enchancements [3/3]
+
+   * packages/apps/Updates/
+2cc1f95 Adapt 'System update' string from Android Q Beta 4
+5699eab Branding: Welcome to Evolution X!
+
+   * system/sepolicy/
+8834e83a SELinux: added to the policies without entries into the compatibility mapping file
+6f79db8f Initial sepolicy rules for substratum service
+a9ce48b7 Introduce sepolicy exceptions for theme assets
+
+   * vendor/pixelstyle/
+1457ca8 Hardcode Evolution X bootanimation
+0320085 Add Substratum Signature
+
+   * vendor/xiaomi/violet/
+09d6ade violet: Clean up unused blobs
+
