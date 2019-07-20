@@ -79,7 +79,8 @@
             "version_name":"Pie",
             "maintainer_name":"Yash(rdjr5)",
             "maintainer_url":"https://forum.xda-developers.com/member.php?u=8531692",
-            "xda_thread":""
+            "xda_thread":"",
+            "deprecated": true
          }
       ]
    },
@@ -554,6 +555,76 @@
             "maintainer_name":"Mustafa Shaikh",
             "maintainer_url":"https://forum.xda-developers.com/member.php?u=7681489",
             "xda_thread":"https://forum.xda-developers.com/cool1/development/rom-t3948188"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy S4 with LTE+",
+      "brand":"Samsung",
+      "codename":"ks01ltexx",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Taoubi abdellatiF",
+            "maintainer_url":"https://t.me/taoubi",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-s4/i9506-develop/rom-evolution-x-t3947486"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE",
+      "brand":"Samsung",
+      "codename":"hlte",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE China",
+      "brand":"Samsung",
+      "codename":"hltechn",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE Korea",
+      "brand":"Samsung",
+      "codename":"hltekor",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE T-Mobile",
+      "brand":"Samsung",
+      "codename":"hltetmo",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
          }
       ]
    }
