@@ -447,6 +447,20 @@
       ]
    },
    {
+      "name":"Mi i Lite",
+      "brand":"Xiaomi",
+      "codename":"platina",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Bruno Rocha",
+            "maintainer_url":"https://t.me/brunorochaa",
+            "xda_thread":"https://forum.xda-developers.com/mi-8-Lite/review/rom-evolution-x-2-0-t3949644"
+         }
+      ]
+   },
+   {
       "name":"Le 2",
       "brand":"LeEco",
       "codename":"s2",
