@@ -1,0 +1,16 @@
+- Always show alarm clock heads up notification while using Less boring heads up option
+- Disable launch music player by default
+- Use Gaming Mode icons from OOS
+- Improve Aggressive Battery
+- Longer wifi scan intervals
+- Fix status bar icons tinting while in split screen
+- Fix SystemUI failing to go to doze
+- Rename Evolution X in Settings app to Evolution Xtras
+- Add SELinux version to About phone
+- Open app after clicking the icon in App Info window
+- Add VPN QS tile
+- Add VPN status bar icon toggle
+- Under the hood fixes and improvements to framework
+
+Device changes:
+- Added QuickSwitch full support
