@@ -1,0 +1,502 @@
+=======================
+     07-23-2019
+=======================
+
+   * face unlock enabled
+   * fm fixed
+   * glitch fixed
+   * snap cam > gcam
+   * some cam props are fixed
+
+=======================
+     07-23-2019
+=======================
+
+
+   * frameworks/base/
+9f99372 Import translations for Typographic Clock
+9741f7a Automatic translation import
+861a6f0 TypographicClock: Tint top row with wallpaper primary color
+bdc9cb1 Add OOS QS tile style [2/3]
+3dd92fe Add Triangle QS tile theme [2/3]
+044207e FrameworkBase: Fix NullPointerException of AMS
+5bd9246 Whitelist font manager
+be2c8e5 base: Add special captive portal servers for chinese
+
+   * frameworks/native/
+4e9eecf SF : Map metadata before accessing value.
+cdf3ad8 Exsf: Add hardware hdr capability check
+75c05d5 sf: Do not black out HDR layer
+e294fa0 SF: Add support for 64 bit consumer usage flag
+abee3fc SurfaceFlinger: Combine SF Refactor changes.
+
+   * manifest/
+7e4d2ee Track display hals headers
+
+   * packages/apps/Evolution/
+f9b1b8e Automatic translation import
+a6725a6 Add OOS QS tile style [3/3]
+d0167d5 Add Triangle QS tile theme [3/3]
+
+   * packages/apps/Settings/
+0153e7e Automatic translation import
+
+   * vendor/aosp/
+fc6d2a4 vendor: Add qcom platform type to soongs vars
+
+   * vendor/themes/
+34e2de2 Automatic translation import
+f6e8242 Add OOS QS tile style [1/3]
+ce06e92 Add Triangle QS tile theme [1/3]
+
+=======================
+     07-22-2019
+=======================
+
+
+   * device/custom/sepolicy/
+cf29cfb sepolicy: Add hal_lineage_camera_motor domain
+67558e0 sepolicy: qcom: Label /d/rpmh
+
+   * frameworks/av/
+e3922c2 CameraService: Support hooks for motorized camera
+
+   * frameworks/base/
+be6ca95 config: longer wifi scan interval
+281161f Launch music player: disable by default [1/2]
+21e9095 Less boring heads up option: always show alarm clock headsup
+8642acd GamingMode: Use icons from OOS
+2e9872e GamingMode: Fix unnecessary unloading of gaming mode
+7158c8f MusicTile: Clean up redundant code
+db9b856 Aggressive Battery: Improve value substitution
+34c47ef Fix bugs regarding system app cannot write visible path
+
+   * hardware/custom/interfaces/
+ef7ae7f introduce camera motor hal
+
+   * packages/apps/Evolution/
+a6cccbb Launch music player: disable by default [2/2]
+865eddf Improve less boring headsup string
+
+   * packages/apps/Settings/
+a41de76 Settings: Cleanup
+c22a827 Open app when clicking on icon in App Info
+2655380 Bring back selinux version
+
+   * packages/apps/Updates/
+754545d Automatic translation import
+
+   * system/sepolicy/
+ad416b9 sepolicy: allow settings to read selinux status
+12b466f SELinux: added to the policies without entries into the compatibility mapping file
+60bc576 Initial sepolicy rules for substratum service
+923e804 Introduce sepolicy exceptions for theme assets
+3adba27 sepolicy: Implement rules for font service in p-mr0
+39399b8 sepolicy: rules for FontService
+a63677a sepolicy: exceptions for font engine assets
+
+   * vendor/aosp/
+8db9823 Enable the SELinux dialog in Settings
+
+=======================
+     07-21-2019
+=======================
+
+
+=======================
+     07-20-2019
+=======================
+
+
+   * frameworks/base/
+d16b8c2 Fix StatusBar icons tinting when in split screen
+ced1baa Bluetooth: Unregister BLE APPs when mBluetoothGatt valid only
+20ead84d Move DexLoadReporter setup before AppComponentFactory calls
+0bc50e6 SystemUI: Fix SystemUI failed to go to doze issue
+2e62bc5 frameworks/base: Avoid recording negative data
+61156e7 Use the boot class loader as parent of system server loader
+57f0766 Remove uses of libcore.io DropBox and EventLogger
+ef9b163 telephony: Fixed crash in data service
+374e891 Optimize the font cache size according to display resolution
+4d0adcd Fix handlelr thread block while switching bluetooth
+b351080 Fix NullPointerException in ConnectivityService
+57dc760 idle-maint: provide a way to run GC more aggressively
+9900132 base: SystemUI: add VPN to the icon blacklist in tuner
+47a4bb3 SystemUI: QS: Add VPN tile
+
+   * packages/apps/Settings/
+0806de8 GamingMode: Long press tile to open settings [2/2]
+6e5ce81 Add some accents from Bootleggers [3/3]
+50cf32d Add familiar brand color accents [3/3]
+1cafcdd Add some aesthetic accents from POSP [3/3]
+d5b946c BatteryUtils: Show anomalies of pre-O apps
+f308920 Revert "Settings: Add automatic theme based on time"
+e75b631 Settings: Add new tagline
+
+   * packages/apps/SmartNav/
+2713cf6 Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+df8bd07 Automatic translation import
+
+=======================
+     07-19-2019
+=======================
+
+
+   * frameworks/base/
+800659a Improve performance of unclipped save layers.
+426a24f Optional screenshot type [1/2]
+e3cb211 Support more Network modes for LTE-tile.
+f2b4740 LteTile: multisim compatibility
+db0d3b3 SystemUI:Add LTE Tile
+f51f927 LS Clocks: Fix end color for Gradient clock styles
+cfd2726 Add some accents from Bootleggers [2/3]
+1bef5f5 Add familiar brand color accents [2/3]
+0170102 Add some aesthetic accents from POSP [2/3]
+23fc6bc SystemUI: Add tile for enable/disable HW keys
+2473d36 pocket: Reduce sleep timeout for pocket lock
+cad6169 base: SystemUI: fix themeing of notification shelf dot
+6d7cbfa SystemUI: Ensure battery estimates update on callback
+86ad649 SystemUI: FOD: Use custom Bottom Area View for keyguard message
+5ee576e Q Text Clock: Do not translate these things
+2871083 Use Carrier Label font styles for Statusbar clock as well [1/2]
+10f5860 PM: Signature spoofing [1/2]
+9bb9fde Add support for fake signatures, enabled per app by dynamic perms
+bc45c16 Fix lag on notification pulldown
+0ff36a1 Force Expanded Notifications [1/2]
+5f35ff0 GamingMode: allow disable navigation gestures [1/2]
+cdfea91 GamingMode: Long press tile to open settings [1/2]
+85cb881 Add Gaming mode tile
+a16cdbc GamingMode: Exempt calls and alarms when headsup disabled
+816ac82 GamingMode: Clean up and refine [1/2]
+c3a8c71 GamingMode: add master switch [1/2]
+10f8b76 GamingMode: cleanup and fix a bit
+2297aad GamingMode: Rewrite implementation [1/2]
+b3d5dd2 GamingMode: add more ringer modes [1/2]
+eaa2550 GamingMode: minor improvements
+244a0b7 SystemUI: FireHound Gaming [1/4]
+0613872 Launch music player on headset connect: add BT compatibility [1/2]
+4ff7078 Automatic translation import
+1ecf955 SystemUI: Don't show charging animation if In-display fingerprint is active
+b6fafd7 FODCircleView: Refactor position / size / color configuration
+79e0013 FODCircleView: Move randomly to prevent burn-in
+bd04b7d FODCircleView: Support finger down/up callbacks from HAL
+f054aa4 FODCircleView: Support all screen orientations
+4d9e0d8 Initial support for in-display fingerprint sensors
+4411952 NetworkTraffic: Fix gravity
+c9f4780 NetworkTraffic: skip more useless handler calls
+4143cfe Statusbar net monitor: stop the handler if screen is off
+42d594e Fix janky traffic indicator tint
+7cf6acf NetworkTraffic: Make network monitor play nice with the QS scrim
+fb6eb95 Q style: New Wifi icons (Evolution X version)
+a31539f Q style: Update several QS icons to Outline style
+d90e344 Q style: Import rest of animation from Pixel's Q4 preview image
+92ef3b4 Revert "Add dynamic Immersive Mode tile"
+0f36d89 Blockers: Add some annoying wakelock and alarms
+76e9052 Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP
+77b822b Alarm Blocker [1/2]
+cfe4af9 Wakelock Blocker [1/2]
+5601eb9 Hide lock screen icon [1/2]
+f247dd2 LiveDisplay: Refactor for HWC devices and cleanup
+ffaaca6 Revert "SystemUI: Add LiveDisplay tile"
+98f82d7 Revert "LiveDisplayTile: Report unavailable on HWC2"
+5a8060e PocketLock: Remove animations
+e92689c SystemUI: Handle orientation and screenSize changes for TunerActivity
+f2f7a62 SystemUI: Rework navigation bar layout inversion logic
+e479ed2 SystemUI: Use proper lock icon scale on dismissing notification panel view
+
+   * frameworks/native/
+98c2b07 Revert "sf: Add support for multiple displays"
+
+   * hardware/qcom/power/
+9c5f0e7 power: Add initial sm6150 power HAL
+
+   * manifest/
+5dded3f Track skia from lineage
+
+=======================
+     07-18-2019
+=======================
+
+
+   * hardware/libhardware/
+d66fc21 Revert "libhardware: Add new display types."
+
+   * manifest/
+f65f1d0 manifest: Track more repos
+
+   * packages/apps/Evolution/
+3b6c7fa Optional screenshot type [2/2]
+
+   * packages/services/Telephony/
+01c9d95 ToggleLte: fix WCDMA only
+0c2fae5 ToggleLte: multisim compatibility
+3058f6d Restore previous network value after toggleLTE
+3280fa3 Implement toggleLte Using logic based on Ryan Hope's commits
+
+   * vendor/gapps/
+aeb080f Update Phonesky
+
+   * vendor/themes/
+c0ab6bc Add some accents from Bootleggers [1/3]
+3934641 Add familiar brand color accents [1/3]
+
+=======================
+     07-17-2019
+=======================
+
+
+   * frameworks/base/
+a6774e1 Move overlays packages names to own class
+37fc0b6 Fix an edge case in KeyguardUpdateMonitor pocket callback
+90e88cd Add back code to force close Settings app on theme change
+98b75c2 SystemUI: Remove custom strings for custom charging status
+c03232f Theme system alert dialog
+fb32f35 Method to detect a notch'd device
+8fceaf6 Prevent crash in TTS engine due to improper configuration
+7c57908 Add missing ensureRunningOnConnectivityServiceThread()
+0892825 WeatherClient: Conditionally allow query when adding observer
+99ac932 SystemUI: Protect against terrible music players
+e40937b Revert "systemui: Add 5 qqs column option"
+69acfd5 SystemUI: Add SystemSetting qs helper to match others
+716dfd3 base: SystemUI: Fix qs-alpha conditions
+3bc6978 base: Set QS BG alpha even with set qs from resources [1/2]
+8e05168 OMS: handle target or overlay package disabled
+bfcd0b9 OMS: try harder not to update assets if nothing changed
+1b104bf SubstratumService: Rewrite installation method for Pie InstallSession API
+8f6ef4a Unbreak public api by hiding substratum interfaces
+06db1f0 Pie OMS: allow non-system overlays from Substratum
+5976ed9 SubstratumService: Refactor & cleanup according to AOSP conventions
+fad12d1 base: modify/define custom overlay management
+6a9aef2 SubstratumService: unify permissions
+0219502 SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission
+75e7185 base: Introduce SubstratumService
+b5354c1 OMS: StrictMode and files under /data/system/theme/
+dd8864f ThemeSafety: Introduce App Crash Intent
+f8b88c6 ApplicationsState: add filter for Substratum overlays [2/2]
+b7b3648 Extras: Add dynamic theme sound effects support
+947f3f6 Extras: Add dynamic theme shutdown and boot animation support
+630dda4 [RESTRICT AUTOMERGE] Careful with screenshots containing secure layers!
+abb8db6 HwBlob: s/malloc/calloc/
+d55615b8 [RESTRICT AUTOMERGE]: Exclude secure layers from most screenshots taken by the system server.
+
+   * hardware/qcom/display-caf/headers/
+302159d Initial commit
+
+   * packages/apps/Evolution/
+e429a7b Ambient music ticker: Improved the wording a tad bit
+77cfc8b Ambient music ticker: Make it look nicer by adding an illustration
+
+   * vendor/pixelstyle/
+9d94e2d Use accent color as user icon color
+
+   * vendor/themes/
+16f6550 Add some aesthetic accents from POSP [1/3]
+
+=======================
+     07-16-2019
+=======================
+
+
+=======================
+     07-15-2019
+=======================
+
+
+   * packages/apps/Evolution/
+f364d90 Use Carrier Label font styles for Statusbar clock as well [2/2]
+b52d9b3 Evolution: Battery styles improvements
+f2ba73c Signature spoofing [2/2]
+6607dac Force Expanded Notifications [2/2]
+476b0fa GamingMode: Disable modifying settings when GamingMode is turned on
+6832bf7 GamingMode: Allow disable navigation gestures [2/2]
+08af043 GamingMode: Remove hwkeys toggle on non-hwkeys devices
+030fd0d GamingMode: Clean up and refine [2/2]
+bb9d388 GamingMode: Remove footer
+4c8b3ea GamingMode: cleanup a bit
+b1d3416 GamingMode: add master switch [2/2]
+8d26b24 GamingMode: Rewrite implementation [2/2]
+92a793f GamingMode: add more ringer modes [2/2]
+3f0c064 Gaming mode revamped [2/4]
+78f9a59 Launch music player on headset connect: add BT compatibility [2/2]
+ca309f6 Evolution: Update a couple of icons to Outline style
+
+=======================
+     07-14-2019
+=======================
+
+   * art/
+8f0ff54 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * development/
+9b8a35f Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/f2fs-tools/
+bd0159a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/icu/
+c555ad4 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/libpng/
+19908ec Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/proguard/
+56c2bf7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/skia/
+b9f8bff Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/broadcom/libbt/
+7c4fd3e libbt: configure audio codec right after firmware
+
+   * hardware/broadcom/wlan/
+9610886 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/audio/default/
+768ef73 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/bootctrl/
+f705d0e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/display/
+501f9ae Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/gps/
+a62882c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/media/
+ef30d8c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/CarrierConfig/
+8213808 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Nfc/
+dd24622 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/security/
+f595c85 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/timezone/
+de4a2bf Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/tools/hidl/
+c7efb50 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/update_engine/
+5be3b00 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+=======================
+     07-13-2019
+=======================
+
+
+   * device/custom/sepolicy/
+cdacbc2 sepolicy: Add hal_lineage_fod domain
+
+   * hardware/custom/interfaces/
+2c6ae20 IFingerprintInscreen: allow HAL to control position and size
+36add97 IFingerprintInscreen: Allow HALs to provide finger up/down callback
+e4b9d43 IFingerprintInscreen: Allow HALs to control dimming
+c0a3112 Introduce in-screen fingerprint scanner HAL
+
+   * packages/apps/Settings/
+f258069 LiveDisplay: Refactor
+d8ca70d LiveDisplay: Rebrand to keep consistency
+8d611b9 LiveDisplaySettings: Fix outdoor mode preference on hwc2
+96b1ea1 Don't hardcode eject sdcard icon color
+772c5bd Improve force fullscreen translation
+7931e4a Revert "[2/2] Move settings theme to night mode based"
+
+=======================
+     07-12-2019
+=======================
+
+
+   * hardware/qcom/audio-caf/sm8150/
+dc6b2c4 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into pie-caf
+
+   * hardware/qcom/display-caf/sm8150/
+cec73b8 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/media-caf/sm8150/
+5f11744 Merge tag 'LA.UM.7.1.r1-15300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * packages/apps/Evolution/
+fea4893 Blockers: P style switch
+299268a Alarm Blocker [2/2]
+4d91304 Wakelock Blocker [2/2]
+c8556bc Hide lock screen icon [2/2]
+
+=======================
+     07-11-2019
+=======================
+
+
+   * external/skia/
+a137d81 Add private save-behind and draw-behind methods to canvas.
+
+   * hardware/qcom/display-caf/sdm845/
+9a95e92 display: Always build libcopybit headers
+
+=======================
+     07-10-2019
+=======================
+
+
+   * build/make/
+a8bee18 Add the missing dependency on BOARD_PREBUILT_DTBOIMAGE.
+
+   * build/soong/
+99f97cd Give Blueprint modules access to all namespaces
+
+   * development/
+ff50797 Merge "Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b" into pie-gsi
+6207d9d Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b
+
+   * external/icu/
+bd4c5fe Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release am: 16b3c0277e
+b9cd619 Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release am: a63df92ad9
+
+   * external/skia/
+1193a85 Merge "Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202" into pie-gsi
+afe8ba9 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202
+
+   * hardware/qcom/audio/default/
+ab7d2ba Merge "Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0" into pie-gsi
+84356ce Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0
+
+   * packages/apps/Nfc/
+bd9db4f Merge "Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e" into pie-gsi
+5996065 Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e
+
+   * packages/apps/Updates/
+d673072 Automatic translation import
+
+   * system/security/
+2e0205b Merge "Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5" into pie-gsi
+9eae64f Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5
+8607f11 Merge "Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76" into pie-gsi
+a2fb4b1 Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76
+
+   * system/tools/hidl/
+25a76d8 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release am: a5f1137806
+607da63 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release am: 1df6c91f83
+
+   * vendor/aosp/
+ea473b5 vendor: Fix qcom 4.14 hals
+142a31e build: Set mode for makefiles
+239ceb2 kernel: Set correct kernel compiler prefixes for aarch64 clang
+25aec35 build: Support SDM710 platform
+c84d3f2 extract_utils: Add functions to extract vendor blobs from vendor.img
+f1f6ee6 build: Separate platform macros from QCOM platform definition
+72cc5f3 build: Reorganize inclusion of QCOM macros
+8d87f6a privapp-permissions: Regenerate permissions list
+26a1002 Whitelist permissions for AOSP FM radio app
+ef3f818 build: Use ifeq/else ifeq/else construction in board config
+
+   * vendor/themes/
+f162807 Automatic translation import
+b6fa67f Revert "[1/2] Move settings theme to night mode based"
+ea08757 Fix system error dialog
+
