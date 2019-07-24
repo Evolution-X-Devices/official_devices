@@ -1,0 +1,13 @@
+Source changes
+- Add OxygenOS and Triangle QS tiles
+- Add special captive portal servers for chinese
+- Fix Android Auto flickering (from PE)
+- Fix lag during screen recording (from PE)
+- Import Q Clock translations from Q Beta 3
+- Move lockscreen lock/FP icon above the clock (Q style)
+- Whitelist Font Manager to avoid bootloops
+
+Device changes
+- Raised zram disk to 1GB
+- Raised swappiness to 100
+- Reverted kernel updates suspected of random reboots or freezes
