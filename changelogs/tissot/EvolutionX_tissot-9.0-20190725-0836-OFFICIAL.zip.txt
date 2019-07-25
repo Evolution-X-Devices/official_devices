@@ -1,0 +1,9 @@
+- Add ability to restrict per-app vpn usage
+- Add ability to move Battery icon/estimates position between QS panel and header
+- Add lock pattern grid sizes
+- Add lock pattern visibility settings
+- Display correct device type in lock screen suggestion
+- Fix bluetooth pan memory leakage
+- Overhaul Evolution settings again (add categories/summaries, remove/replace options, re-organize)
+- Revert moving the lockscreen lock/FP icon above the clock (fixes FP unlock lag)
+- Use correct icon to reset battery stats
