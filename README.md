@@ -1,4 +1,9 @@
-# Evolution X
+![Evolution X](https://github.com/Evolution-X/platform_manifest/raw/pie/BannerLight.png)
+
+# Evolution X #
+
+[![Download Evolution X](https://img.shields.io/sourceforge/dt/evolution-x.svg)](https://sourceforge.net/projects/evolution-x/files/latest/download)
+
 ## Official Support Guidelines & Rules
 
 [Official Support Application](https://docs.google.com/forms/d/e/1FAIpQLSe6InJeF09OMKV1G6-o9z0qhSebqvPAv4xyAuF2Ex8g7zJhiA/viewform) | [XDA Thread Template](https://pastebin.com/6F2Zgf3Z) | [Devices Repository](https://github.com/Evolution-X-Devices)
