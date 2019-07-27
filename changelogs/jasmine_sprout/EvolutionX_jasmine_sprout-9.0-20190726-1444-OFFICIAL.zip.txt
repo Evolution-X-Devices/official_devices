@@ -1,0 +1,599 @@
+=======================
+     07-26-2019
+=======================
+
+
+   * device/xiaomi/jasmine_sprout/
+f6fa733 Update aosp.dependencies
+47e4bfe jasmine_sprout: Evolution X bring up
+
+   * kernel/xiaomi/jasmine_sprout/
+889cf294b72f Update jasmine-perf_defconfig
+
+   * manifest/
+2ed4f97 manifest: Branding changes
+
+   * packages/apps/Settings/
+e03bd004c8 Automatic translation import
+
+=======================
+     07-25-2019
+=======================
+
+
+   * frameworks/base/
+61179744a93 Automatic translation import
+3485d2362fd Forward port CM Screen Security settings (1/2)
+01509ebcf6e NetworkManagement : Add ability to restrict app vpn usage
+354853cbfd4 Add QS tiles to overlays class
+f53464c9530 Q style: Port Android Q lock icon on lock screen
+95f5c0ee371 Battery Estimates options [1/2]
+c9c5074dd3e [SQUASH] Revert old Battery Estimates commits [1/2]
+10676824b52 core: ChooserActivity: fix android crash from null object
+8c83ee87d2f Import translations for Typographic Clock
+af5a76ae5bc Automatic translation import
+
+   * packages/apps/Evolution/
+737ce90 Automatic translation import
+f8f7d03 Evolution: Another overhaul
+2e1fb4a Battery Estimates options [2/2]
+86feab8 GamingMode: Move game add summary at bottom
+
+   * packages/apps/Settings/
+bb98f4d07c Display correct device type in lock screen suggestion
+5cce2770cb Forward port pattern visibility settings (2/2)
+fd7c2ce674 Settings: forward port lock pattern grid size (2/2)
+5f5901484a Settings: Fix bluetooth pan memory leakage
+c385dc67f9 Settings: (Bluetooth) Disabling Contact Sharing Doesnt disconnect PBAP
+caff0ccabb Settings: Move emergency info preference controller to correct location
+4c05f4d8fe Settings: per-app VPN data restriction
+
+   * packages/apps/SmartNavSettings/
+81bf799 Automatic translation import
+
+   * packages/apps/Updates/
+201c568 Automatic translation import
+
+=======================
+     07-24-2019
+=======================
+
+
+   * packages/apps/Settings/
+d8a0da57cf [SQUASH] Revert old Battery Estimates commits [2/2]
+
+   * vendor/aosp/
+b74c16b6 Remove "GO" custom version
+f590975b kernel: Consider depmod version when handling kernel modules
+dee64703 extract_utils: Support multidex
+6fd8f063 vendor: Cleanup BoardConfigQcom
+e03a4948 qcom: Proper add UM 4.14 platforms
+
+=======================
+     07-23-2019
+=======================
+
+
+   * device/xiaomi/jasmine_sprout/
+6a35fa3 jasmine_sprout: Disable debug.sf.latch_unsignaled
+7b4e1d4 jasmine_sprout: overlay: Set screen off delay to 0
+4a4ff1e jasmine_sprout: overlay: Enable AOD
+67d2ab9 jasmine_sprout: thermal-engine.conf: Loosen battery thermal throttling
+6dbb682 jasmine_sprout: Import stock thermal config
+ca92b60 jasmine_sprout: Update thermal blobs from LA.UM.7.2.r1-06900-sdm660.0
+ca61847 jasmine_sprout: audio: Fix in-call speaker audio
+e036d97 jasmine_sprout: overlay: Enable fingerprint swipe gesture
+b8814ef jasmine_sprout: keylayout: Import from stock
+cd2fd88 jasmine_sprout: light: Adapt for single white LED
+cd36395 jasmine_sprout: proprietary-files: Cleanup
+556c3c7 jasmine_sprout: Patchelf blobs to remove android.hidl.base@1.0 dependency
+d3e50b2 jasmine_sprout: Build some extra vendor libraries for camera
+20c5f7b jasmine_sprout: Build vendor version of 32-bit libdng_sdk
+eebe87d jasmine_sprout: Build vendor version of libstdc++
+ae6b7a2 jasmine_sprout: Build with BOARD_VNDK_VERSION := current
+fa98e21 jasmine_sprout: selinux: Switch to enforcing
+fe2e34a jasmine_sprout: rootdir: Run goodix script as system user instead of root
+9d4a0e2 jasmine_sprout: sepolicy: Resolve init_fingerprint denials
+37ae0fe jasmine_sprout: Update persist path for goodix hack
+4022e3e jasmine_sprout: sepolicy: Label RTC sysfs node
+33a0b7f jasmine_sprout: sepolicy: Address webview_zygote denials
+9a6f24a jasmine_sprout: sepolicy: Label fingeprints extension
+d92492d jasmine_sprout: sepolicy: Label battery_supply sysfs for hvdcp
+e73af0f jasmine_sprout: sepolicy: Grant radio domain access to vendor_file
+04781b9 jasmine_sprout: sepolicy: Address debugfs_wlan denials
+9f5c19c jasmine_sprout: sepolicy: Dontaudit few qti_init_shell neverallows
+e598f85 jasmine_sprout: sepolicy: Address more vendor_init denials
+18376b9 jasmine_sprout: sepolicy: Add restricted permissions to vendor_init
+
+   * frameworks/base/
+bdc9cb1454e Add OOS QS tile style [2/3]
+3dd92fecec7 Add Triangle QS tile theme [2/3]
+044207e71de FrameworkBase: Fix NullPointerException of AMS
+5bd92465753 Whitelist font manager
+
+   * frameworks/native/
+4e9eecf35 SF : Map metadata before accessing value.
+cdf3ad88c Exsf: Add hardware hdr capability check
+75c05d53c sf: Do not black out HDR layer
+e294fa0ab SF: Add support for 64 bit consumer usage flag
+abee3fca2 SurfaceFlinger: Combine SF Refactor changes.
+
+   * manifest/
+7e4d2ee Track display hals headers
+
+   * packages/apps/Evolution/
+a6725a6 Add OOS QS tile style [3/3]
+d0167d5 Add Triangle QS tile theme [3/3]
+
+   * vendor/aosp/
+fc6d2a41 vendor: Add qcom platform type to soongs vars
+
+   * vendor/themes/
+34e2de2 Automatic translation import
+f6e8242 Add OOS QS tile style [1/3]
+ce06e92 Add Triangle QS tile theme [1/3]
+
+=======================
+     07-22-2019
+=======================
+
+
+   * device/custom/sepolicy/
+cf29cfb sepolicy: Add hal_lineage_camera_motor domain
+67558e0 sepolicy: qcom: Label /d/rpmh
+
+   * frameworks/av/
+e3922c2ad CameraService: Support hooks for motorized camera
+
+   * frameworks/base/
+be2c8e55c04 base: Add special captive portal servers for chinese
+be6ca951b0d config: longer wifi scan interval
+281161ff8ee Launch music player: disable by default [1/2]
+21e9095e592 Less boring heads up option: always show alarm clock headsup
+8642acdbdca GamingMode: Use icons from OOS
+2e9872e8967 GamingMode: Fix unnecessary unloading of gaming mode
+7158c8f6e75 MusicTile: Clean up redundant code
+db9b8562265 Aggressive Battery: Improve value substitution
+
+   * hardware/custom/interfaces/
+ef7ae7f introduce camera motor hal
+
+   * kernel/xiaomi/jasmine_sprout/
+42b6066cd95b staging: qcacld-3.0: add sme_power_save_api.h include
+adf8c9a47b55 kernel: Don't override do_set_cpus_allowed() for perf-critical tasks
+e326a5de3aea kernel: Use the stock jasmine config for /proc/config.gz
+da762493f512 sdm660_defconfigs: Use Simple LMK
+fd399745455a simple_lmk: Mark reclaim kthread as performance critical
+2f360ac7f7da simple_lmk: Introduce Simple Low Memory Killer for Android This is a complete low memory killer solution for Android that is small and simple. Processes are killed according to the priorities that Android gives them, so that the least important processes are always killed first. Processes are killed until memory deficits are satisfied, as observed from kswapd struggling to free up pages. Simple LMK stops killing processes when kswapd finally goes back to sleep. The only tunables are the desired amount of memory to be freed per reclaim event and desired frequency of reclaim events. Simple LMK tries to free at least the desired amount of memory per reclaim and waits until all of its victims' memory is freed before proceeding to kill more processes. Signed-off-by: Sultan Alsawaf <sultan@kerneltoast.com>
+3a6e571b2efe Merge branch 'kernel.lnx.4.4.r34-rel' of github.com:android-linux-stable/msm-4.4 into HEAD
+0bc2f05593ac sdm660: defconfig: use old usb setup
+e6e0ef546ab7 Revert "usb: dwc3-msm: Remove indefinite wakeup"
+634f088c686a Revert "usb: add toggle for disabling newly added USB devices"
+
+   * packages/apps/Evolution/
+a6cccbb Launch music player: disable by default [2/2]
+865eddf Improve less boring headsup string
+
+   * vendor/aosp/
+8db9823c Enable the SELinux dialog in Settings
+
+=======================
+     07-21-2019
+=======================
+
+
+   * frameworks/base/
+34c47efba87 Fix bugs regarding system app cannot write visible path
+
+   * kernel/xiaomi/jasmine_sprout/
+527b0e9e59bc Merge 4.4.186 into kernel.lnx.4.4.r34-rel
+a3e421fbb857 Linux 4.4.186
+c02686acab23 KVM: x86: protect KVM_CREATE_PIT/KVM_CREATE_PIT2 with kvm->lock
+970871c643fc s390/qdio: don't touch the dsci in tiqdio_add_input_queues()
+ff5e6f2e7497 s390/qdio: (re-)initialize tiqdio list entries
+a4db51276093 s390: fix stfle zero padding
+07724b2fad56 ARC: hide unused function unw_hdr_alloc
+30c54ffcb95c kvm: x86: avoid warning on repeated KVM_SET_TSS_ADDR
+8f19b7a114e4 dm verity: use message limit for data block corruption message
+6d85a9644f98 sis900: fix TX completion
+7fee917b42d0 ppp: mppe: Add softdep to arc4
+cd87aa09ee2b be2net: fix link failure after ethtool offline test
+f40fdfa57bc4 ARM: omap2: remove incorrect __init annotation
+df37b30f96a0 perf/core: Fix perf_sample_regs_user() mm check
+42b666b24d60 e1000e: start network tx queue only when link is up
+9b62316b424e MIPS: Remove superfluous check for __linux__
+31861f83bf27 VMCI: Fix integer overflow in VMCI handle arrays
+85c232d4ddc6 carl9170: fix misuse of device driver API
+cb7c08987e3f staging: comedi: amplc_pci230: fix null pointer deref on interrupt
+1905e6e3fe25 staging: comedi: dt282x: fix a null pointer deref on interrupt
+2749aaa0da37 usb: renesas_usbhs: add a workaround for a race condition of workqueue
+b60e30e56dc7 usb: gadget: ether: Fix race between gether_disconnect and rx_submit
+db9bf5a845c1 USB: serial: option: add support for GosunCn ME3630 RNDIS mode
+019fbb3e042f USB: serial: ftdi_sio: add ID for isodebug v1
+c0b24d30ff20 mwifiex: Don't abort on small, spec-compliant vendor IEs
+da612a5ae745 fscrypt: don't set policy for a dead directory
+3a611df229a9 mwifiex: Fix heap overflow in mwifiex_uap_parse_tail_ies()
+f80d2b57a952 mwifiex: Abort at too short BSS descriptor element
+85707634a0ac x86/tls: Fix possible spectre-v1 in do_get_thread_area()
+92c407615582 x86/ptrace: Fix possible spectre-v1 in ptrace_get_debugreg()
+63d4f19662ea udf: Fix incorrect final NOT_ALLOCATED (hole) extent length
+7cdcf2292c8c bnx2x: Check if transceiver implements DDM before access
+50e8a09f5521 md: fix for divide error in status_resync
+44aa12109c33 ARM: davinci: da8xx: specify dma_coherent_mask for lcdc
+d1fe78cac7b9 ARM: davinci: da850-evm: call regulator_has_full_constraints()
+7fe5f7cd312f Input: imx_keypad - make sure keyboard can always wake up system
+031e35b1ba54 can: mcp251x: add support for mcp25625
+4b0601e1d835 dt-bindings: can: mcp251x: add mcp25625 support
+5d43b417e60a mwifiex: Fix possible buffer overflows at parsing bss descriptor
+4546109c30a7 mac80211: mesh: fix RCU warning
+cf37c80bc93d samples, bpf: fix to change the buffer size for read()
+ab56c338d71c Input: elantech - enable middle button support on 2 ThinkPads
+
+   * packages/apps/Settings/
+a41de760d1 Settings: Cleanup
+c22a827b0a Open app when clicking on icon in App Info
+2655380df1 Bring back selinux version
+
+   * system/sepolicy/
+ad416b9f sepolicy: allow settings to read selinux status
+12b466f2 SELinux: added to the policies without entries into the compatibility mapping file
+60bc5769 Initial sepolicy rules for substratum service
+923e804d Introduce sepolicy exceptions for theme assets
+3adba279 sepolicy: Implement rules for font service in p-mr0
+39399b89 sepolicy: rules for FontService
+a63677a4 sepolicy: exceptions for font engine assets
+
+=======================
+     07-20-2019
+=======================
+
+
+   * frameworks/base/
+d16b8c209df Fix StatusBar icons tinting when in split screen
+ced1baa6d36 Bluetooth: Unregister BLE APPs when mBluetoothGatt valid only
+20ead84d031 Move DexLoadReporter setup before AppComponentFactory calls
+0bc50e62406 SystemUI: Fix SystemUI failed to go to doze issue
+2e62bc5ee66 frameworks/base: Avoid recording negative data
+61156e7023f Use the boot class loader as parent of system server loader
+57f076629f4 Remove uses of libcore.io DropBox and EventLogger
+ef9b163199c telephony: Fixed crash in data service
+374e89118e7 Optimize the font cache size according to display resolution
+4d0adcd818c Fix handlelr thread block while switching bluetooth
+b3510806d86 Fix NullPointerException in ConnectivityService
+57dc760b70a idle-maint: provide a way to run GC more aggressively
+9900132fa0a base: SystemUI: add VPN to the icon blacklist in tuner
+47a4bb3c8fc SystemUI: QS: Add VPN tile
+
+   * packages/apps/Settings/
+0806de818f GamingMode: Long press tile to open settings [2/2]
+6e5ce816e1 Add some accents from Bootleggers [3/3]
+50cf32dca8 Add familiar brand color accents [3/3]
+1cafcdd31a Add some aesthetic accents from POSP [3/3]
+d5b946c2e7 BatteryUtils: Show anomalies of pre-O apps
+f308920bcf Revert "Settings: Add automatic theme based on time"
+e75b631570 Settings: Add new tagline
+
+   * vendor/xiaomi/jasmine_sprout/
+08ef558 jasmine_sprout: Initial vendor repository
+
+=======================
+     07-19-2019
+=======================
+
+
+   * device/xiaomi/jasmine_sprout/
+c478fbf jasmine_sprout: overlay: Set brightness & screen timeout defaults
+fd28989 jasmine_sprout: overlay: Enable auto brightness by default
+6a6c3e1 jasmine_sprout: overlay: Add defaults
+4fca2ff jasmine_sprout: overlay: Kang screen brightness values from marlin
+f2f2be6 jasmine_sprout: dirac: Address denials
+75c331b jasmine_sprout: dirac: Prevent failures when toggling
+15a78f3 jasmine_sprout: dirac: Only call setEnabled on boot completed
+7554cfc jasmine_sprout: parts: Refactor Dirac setup
+6bd9a53 jasmine_sprout: Dirac fixes
+3f90007 jasmine_sprout: parts: Import dirac translations from MIUI
+056e995 jasmine_sprout: parts: Refactor dirac strings
+7880f2f jasmine_sprout: parts: Add summary for dirac
+27503b6 jasmine_sprout: parts: Add DiracSound backend
+2020c99 jasmine_sprout: parts: Introduce Dirac preferences
+71d1cf0 jasmine_sprout: doze: Move DozeUtils.checkDozeService in an handler
+6cf7c9f jasmine_sprout: Convert XiaomiDoze into XiaomiParts
+b7cb666 jasmine_sprout: Add Initial support for dirac
+aa3e8e5 jasmine_sprout: twrp: fstab: Add splash support
+e95cee1 jasmine_sprout: Add F2FS support in TWRP
+639f547 jasmine_sprout: Build with TWRP
+07d5d93 jasmine_sprout: Disable TARGET_KERNEL_CLANG_COMPILE for now
+67226a1 jasmine_sprout: Add ANT+ enabled QTI BT service
+b8507dd jasmine_sprout: Initial blob list
+127ad38 jasmine_sprout: gpt-utils: fix block path for non ufs devices
+8785974 jasmine_sprout: A/B, System-As-Root changes
+781f916 jasmine_sprout: nosdcard
+0643803 jasmine_sprout: Set correct dt2w path
+d0b2f6d jasmine_sprout: Set correct TARGET_BOARD_PLATFORM_GPU
+23e64db jasmine_sprout: overlay: power_profile: Import from stock
+098ba49 jasmine_sprout: Import audio configuration from stock
+46d52f0 whyred: Rebrand to jasmine_sprout
+16dfd52 Revert "whyred: Bind mount /mnt/vendor/persist to /persist for sensors"
+8a72df9 whyred: Get rid of recovery-only fstab
+524a3a7 whyred: overlay: Disable RGB led
+910b04c whyred: overlay: Set white color unconditionally
+3984d49 whyred: Doze: Drop useless SDK dependency
+b2a8bae whyred: AOSiP bringup
+4740588 whyred: introduce fixup scripts and kang mode
+1dbd0e2 Revert "whyred: bluetooth: Set bluetooth name dynamically"
+be00692 whyred: Remove libinit, librecovery_updater, mlipay, soter, FM and TWRP support
+
+   * frameworks/base/
+800659a0c49 Improve performance of unclipped save layers.
+
+   * hardware/qcom/power/
+9c5f0e7 power: Add initial sm6150 power HAL
+
+   * packages/apps/SmartNav/
+2713cf6 Automatic translation import
+
+=======================
+     07-18-2019
+=======================
+
+
+   * frameworks/base/
+426a24f4b13 Optional screenshot type [1/2]
+e3cb211c59c Support more Network modes for LTE-tile.
+f2b47400e19 LteTile: multisim compatibility
+db0d3b366cf SystemUI:Add LTE Tile
+f51f9270039 LS Clocks: Fix end color for Gradient clock styles
+cfd27265127 Add some accents from Bootleggers [2/3]
+1bef5f568a5 Add familiar brand color accents [2/3]
+0170102d46a Add some aesthetic accents from POSP [2/3]
+23fc6bcd0be SystemUI: Add tile for enable/disable HW keys
+2473d366800 pocket: Reduce sleep timeout for pocket lock
+cad61693e69 base: SystemUI: fix themeing of notification shelf dot
+6d7cbfac738 SystemUI: Ensure battery estimates update on callback
+86ad6495bdd SystemUI: FOD: Use custom Bottom Area View for keyguard message
+5ee576e3662 Q Text Clock: Do not translate these things
+287108364cd Use Carrier Label font styles for Statusbar clock as well [1/2]
+10f586037fc PM: Signature spoofing [1/2]
+9bb9fdef221 Add support for fake signatures, enabled per app by dynamic perms
+bc45c166162 Fix lag on notification pulldown
+0ff36a12033 Force Expanded Notifications [1/2]
+5f35ff09e0f GamingMode: allow disable navigation gestures [1/2]
+cdfea91fc70 GamingMode: Long press tile to open settings [1/2]
+85cb881fe85 Add Gaming mode tile
+a16cdbc763b GamingMode: Exempt calls and alarms when headsup disabled
+816ac828067 GamingMode: Clean up and refine [1/2]
+c3a8c71c71c GamingMode: add master switch [1/2]
+10f8b76ff48 GamingMode: cleanup and fix a bit
+2297aadf394 GamingMode: Rewrite implementation [1/2]
+b3d5dd284b2 GamingMode: add more ringer modes [1/2]
+eaa2550ab36 GamingMode: minor improvements
+244a0b7d05a SystemUI: FireHound Gaming [1/4]
+06138725737 Launch music player on headset connect: add BT compatibility [1/2]
+4ff7078f5a9 Automatic translation import
+1ecf95584d0 SystemUI: Don't show charging animation if In-display fingerprint is active
+b6fafd71efa FODCircleView: Refactor position / size / color configuration
+79e00130a78 FODCircleView: Move randomly to prevent burn-in
+bd04b7d176b FODCircleView: Support finger down/up callbacks from HAL
+f054aa4ea1c FODCircleView: Support all screen orientations
+4d9e0d8f671 Initial support for in-display fingerprint sensors
+441195208f3 NetworkTraffic: Fix gravity
+c9f47801165 NetworkTraffic: skip more useless handler calls
+4143cfe70f0 Statusbar net monitor: stop the handler if screen is off
+42d594edf07 Fix janky traffic indicator tint
+7cf6acf1cec NetworkTraffic: Make network monitor play nice with the QS scrim
+fb6eb953b34 Q style: New Wifi icons (Evolution X version)
+a31539f9f0a Q style: Update several QS icons to Outline style
+d90e344b88d Q style: Import rest of animation from Pixel's Q4 preview image
+92ef3b47aeb Revert "Add dynamic Immersive Mode tile"
+0f36d899666 Blockers: Add some annoying wakelock and alarms
+76e90528602 Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP
+77b822b8c75 Alarm Blocker [1/2]
+cfe4af9978b Wakelock Blocker [1/2]
+5601eb95ded Hide lock screen icon [1/2]
+f247dd2c23e LiveDisplay: Refactor for HWC devices and cleanup
+ffaaca658a9 Revert "SystemUI: Add LiveDisplay tile"
+98f82d74b4b Revert "LiveDisplayTile: Report unavailable on HWC2"
+5a8060e39bd PocketLock: Remove animations
+e92689c3bb5 SystemUI: Handle orientation and screenSize changes for TunerActivity
+f2f7a62a64c SystemUI: Rework navigation bar layout inversion logic
+e479ed22bf5 SystemUI: Use proper lock icon scale on dismissing notification panel view
+
+   * frameworks/native/
+98c2b07aa Revert "sf: Add support for multiple displays"
+
+   * manifest/
+5dded3f Track skia from lineage
+f65f1d0 manifest: Track more repos
+
+   * packages/apps/Evolution/
+3b6c7fa Optional screenshot type [2/2]
+
+   * packages/services/Telephony/
+01c9d9553 ToggleLte: fix WCDMA only
+0c2fae501 ToggleLte: multisim compatibility
+3058f6ddf Restore previous network value after toggleLTE
+3280fa352 Implement toggleLte Using logic based on Ryan Hope's commits
+
+   * vendor/themes/
+c0ab6bc Add some accents from Bootleggers [1/3]
+3934641 Add familiar brand color accents [1/3]
+
+=======================
+     07-17-2019
+=======================
+
+
+   * frameworks/base/
+a6774e1776e Move overlays packages names to own class
+37fc0b61dc3 Fix an edge case in KeyguardUpdateMonitor pocket callback
+90e88cd3426 Add back code to force close Settings app on theme change
+98b75c234ca SystemUI: Remove custom strings for custom charging status
+c03232f2d6e Theme system alert dialog
+fb32f350d80 Method to detect a notch'd device
+8fceaf631c5 Prevent crash in TTS engine due to improper configuration
+7c579084a95 Add missing ensureRunningOnConnectivityServiceThread()
+0892825ea0d WeatherClient: Conditionally allow query when adding observer
+99ac9329007 SystemUI: Protect against terrible music players
+e40937be912 Revert "systemui: Add 5 qqs column option"
+69acfd56e4b SystemUI: Add SystemSetting qs helper to match others
+716dfd3746b base: SystemUI: Fix qs-alpha conditions
+3bc6978db14 base: Set QS BG alpha even with set qs from resources [1/2]
+8e05168045e OMS: handle target or overlay package disabled
+bfcd0b9073a OMS: try harder not to update assets if nothing changed
+1b104bf33b7 SubstratumService: Rewrite installation method for Pie InstallSession API
+8f6ef4ae760 Unbreak public api by hiding substratum interfaces
+06db1f00ef2 Pie OMS: allow non-system overlays from Substratum
+5976ed9643a SubstratumService: Refactor & cleanup according to AOSP conventions
+fad12d19a84 base: modify/define custom overlay management
+6a9aef2126f SubstratumService: unify permissions
+0219502f2d0 SubstratumService: allow CHANGE_OVERLAY_PACKAGES permission
+75e7185cb92 base: Introduce SubstratumService
+b5354c1c1da OMS: StrictMode and files under /data/system/theme/
+dd8864f2e7b ThemeSafety: Introduce App Crash Intent
+f8b88c659a9 ApplicationsState: add filter for Substratum overlays [2/2]
+b7b36487f5e Extras: Add dynamic theme sound effects support
+947f3f6fa2b Extras: Add dynamic theme shutdown and boot animation support
+630dda4dca4 [RESTRICT AUTOMERGE] Careful with screenshots containing secure layers!
+abb8db6eeb3 HwBlob: s/malloc/calloc/
+d55615b8a57 [RESTRICT AUTOMERGE]: Exclude secure layers from most screenshots taken by the system server.
+
+   * hardware/libhardware/
+d66fc216 Revert "libhardware: Add new display types."
+
+   * hardware/qcom/display-caf/headers/
+302159d Initial commit
+
+   * packages/apps/Evolution/
+e429a7b Ambient music ticker: Improved the wording a tad bit
+77cfc8b Ambient music ticker: Make it look nicer by adding an illustration
+
+   * vendor/gapps/
+aeb080f Update Phonesky
+
+   * vendor/pixelstyle/
+9d94e2d Use accent color as user icon color
+
+   * vendor/themes/
+16f6550 Add some aesthetic accents from POSP [1/3]
+
+=======================
+     07-16-2019
+=======================
+
+
+   * kernel/xiaomi/jasmine_sprout/
+b8edb4bbfc18 include/uapi/linux/if_pppox.h: include linux/if.h
+911eb5521dee zram: Move default compression algorithm choice to Kconfig
+886a76ecb0cb CHROMIUM: sched/fair: Kill spam about max cpu_capacity
+437931096d17 msm: vidc: kill opening/closing video instance logspam
+bfd9446515e2 PM / devfreq: Skip status update on uninitialized previous_freq
+f830cbbfe1d0 Silences WLAN, PCIe, and CPU suspend state kernel messages
+91bdf47c0fe7 android: binder: Disable debug messages by default
+49136de6e8ae PM / core: Add support to skip power management in device/driver model
+0865fed47cfa drivers: mdss: Silence backlight logspam
+856f23ad8d31 drivers: power: qcom: battery: Do not pr_info on pl_dbg
+33cd41efe789 tas2557: reduce default printk logs
+
+=======================
+     07-15-2019
+=======================
+
+
+   * packages/apps/Evolution/
+f364d90 Use Carrier Label font styles for Statusbar clock as well [2/2]
+b52d9b3 Evolution: Battery styles improvements
+f2ba73c Signature spoofing [2/2]
+6607dac Force Expanded Notifications [2/2]
+476b0fa GamingMode: Disable modifying settings when GamingMode is turned on
+6832bf7 GamingMode: Allow disable navigation gestures [2/2]
+08af043 GamingMode: Remove hwkeys toggle on non-hwkeys devices
+030fd0d GamingMode: Clean up and refine [2/2]
+bb9d388 GamingMode: Remove footer
+4c8b3ea GamingMode: cleanup a bit
+b1d3416 GamingMode: add master switch [2/2]
+8d26b24 GamingMode: Rewrite implementation [2/2]
+92a793f GamingMode: add more ringer modes [2/2]
+3f0c064 Gaming mode revamped [2/4]
+78f9a59 Launch music player on headset connect: add BT compatibility [2/2]
+ca309f6 Evolution: Update a couple of icons to Outline style
+
+=======================
+     07-14-2019
+=======================
+
+   * art/
+8f0ff544d9 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * development/
+9b8a35f8e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/f2fs-tools/
+bd0159a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/icu/
+c555ad468 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/libpng/
+19908ec Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/proguard/
+56c2bf7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/skia/
+b9f8bff8e4 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/broadcom/libbt/
+7c4fd3e libbt: configure audio codec right after firmware
+
+   * hardware/broadcom/wlan/
+9610886 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/audio/default/
+768ef7316 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/bootctrl/
+f705d0e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/display/
+501f9aed6 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/gps/
+a62882c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/media/
+ef30d8cfa Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/CarrierConfig/
+8213808 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Nfc/
+dd246222 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/security/
+f595c85 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/timezone/
+de4a2bf Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/tools/hidl/
+c7efb50 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/update_engine/
+5be3b00 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+=======================
+     07-13-2019
+=======================
+
+
+   * kernel/xiaomi/jasmine_sprout/
+e34866daf88d msm: mdss: add idle state node
+
+   * packages/apps/Settings/
+f25806954c LiveDisplay: Refactor
+d8ca70db1d LiveDisplay: Rebrand to keep consistency
+8d611b9b4d LiveDisplaySettings: Fix outdoor mode preference on hwc2
+96b1ea16d6 Don't hardcode eject sdcard icon color
+772c5bd249 Improve force fullscreen translation
+7931e4ada4 Revert "[2/2] Move settings theme to night mode based"
+

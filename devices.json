@@ -79,7 +79,8 @@
             "version_name":"Pie",
             "maintainer_name":"Yash(rdjr5)",
             "maintainer_url":"https://forum.xda-developers.com/member.php?u=8531692",
-            "xda_thread":""
+            "xda_thread":"",
+            "deprecated": true
          }
       ]
    },
@@ -228,9 +229,9 @@
          {
             "version_code":"pie",
             "version_name":"Pie",
-            "maintainer_name":"Genkzsz11",
-            "maintainer_url":"https://forum.xda-developers.com/member.php?u=9239548",
-            "xda_thread":"https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/offical-evolution-x-t3919026"
+            "maintainer_name":"Pranavkpr",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=9434189",
+            "xda_thread":"https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/evolution-x-t3947428"
          }
       ]
    },
@@ -397,9 +398,9 @@
          {
             "version_code":"pie",
             "version_name":"Pie",
-            "maintainer_name":"Neverhopless",
-            "maintainer_url":"https://t.me/Neverhopless",
-	    "xda_thread":"https://bit.ly/2wLiRFO"
+            "maintainer_name":"azrim",
+            "maintainer_url":"https://t.me/azrim89",
+	    "xda_thread":"https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-2-0-t3951575"
          }
       ]
    },
@@ -425,9 +426,9 @@
          {
             "version_code":"pie",
             "version_name":"Pie",
-            "maintainer_name":"Naveen",
-            "maintainer_url":"https://t.me/Naveenkumarachari",
-            "xda_thread": ""
+            "maintainer_name":"Gegham Zakaryan",
+            "maintainer_url":"https://t.me/zakaryan2004",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-evolution-x-2-0-t3951914"
          }
       ]
    },
@@ -442,6 +443,20 @@
             "maintainer_name":"etylix",
             "maintainer_url":"https://t.me/etylix",
             "xda_thread":"https://forum.xda-developers.com/mi-8-se/development/rom-evolution-x-2-0-t3941034"
+         }
+      ]
+   },
+   {
+      "name":"Mi 8 Lite",
+      "brand":"Xiaomi",
+      "codename":"platina",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Bruno Rocha",
+            "maintainer_url":"https://t.me/brunorochaa",
+            "xda_thread":"https://forum.xda-developers.com/mi-8-Lite/review/rom-evolution-x-2-0-t3949644"
          }
       ]
    },
@@ -540,6 +555,90 @@
             "maintainer_name":"Gegham Zakaryan (zakaryan2004)",
             "maintainer_url":"https://t.me/zakaryan2004",
             "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
+         }
+      ]
+   },
+   {
+      "name":"Cool1 Dual",
+      "brand":"Coolpad",
+      "codename":"c106",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Mustafa Shaikh",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=7681489",
+            "xda_thread":"https://forum.xda-developers.com/cool1/development/rom-t3948188"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy S4 with LTE+",
+      "brand":"Samsung",
+      "codename":"ks01ltexx",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Taoubi abdellatiF",
+            "maintainer_url":"https://t.me/taoubi",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-s4/i9506-develop/rom-evolution-x-t3947486"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE",
+      "brand":"Samsung",
+      "codename":"hlte",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE China",
+      "brand":"Samsung",
+      "codename":"hltechn",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE Korea",
+      "brand":"Samsung",
+      "codename":"hltekor",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
+         }
+      ]
+   },
+   {
+      "name":"Galaxy Note 3 LTE T-Mobile",
+      "brand":"Samsung",
+      "codename":"hltetmo",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joshua Primero",
+            "maintainer_url":"https://t.me/Jprimero15",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
          }
       ]
    }
