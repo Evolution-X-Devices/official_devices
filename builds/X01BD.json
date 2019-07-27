@@ -1,18 +1,18 @@
 {
          "error":false,
-         "filename":"EvolutionX_X01BD-9.0-20190708-1256-OFFICIAL.zip",
-         "datetime":1562590561,
-         "size":999755367,
-         "url":"https://sourceforge.net/projects/evolution-x/files/X01BD/EvolutionX_X01BD-9.0-20190708-1256-OFFICIAL.zip/download",
-         "filehash":"1ab1b330f0e667f0276e56a76958f5ff",
+         "filename":"EvolutionX_X01BD-9.0-20190726-1453-OFFICIAL.zip",
+         "datetime":1564152757,
+         "size":995486612,
+         "url":"https://sourceforge.net/projects/evolution-x/files/X01BD/EvolutionX_X01BD-9.0-20190726-1453-OFFICIAL.zip/download",
+         "filehash":"fd33cd3d76c849a1b4fc66604dc630c9",
          "version":"Pie",
-         "id":"7b78e6fe73e48e97e8582c3598c7e05b289f6d978b8f53f1c17c662b713fceba",
+         "id":"55e0de0e09fc0277c8ae3653f6fa67781d938f53d0bf67201ffac36c673b6655",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
          "donate_url":"https://www.paypal.me/joeyhuab",
-         "maintainer":"Sonal Singh (Sksbss)",
-         "maintainer_url":"https://github.com/Sksbss",
-         "telegram_username":"Sksbss",
+         "maintainer":"Ashok_Varma",
+         "maintainer_url":"https://github.com/ashokmini",
+         "telegram_username":"@TheAshokVarma",
          "forum_url":"https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
 }
 
