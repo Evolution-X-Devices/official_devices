@@ -1,0 +1,142 @@
+=======================
+     08-03-2019
+=======================
+
+
+   * frameworks/base/
+acbed1cb base: Add support for adaptive icons like on q [1/4]
+
+   * packages/apps/Evolution/
+d39f666 Evolution: Add support for adaptive icons like on q [3/4]
+
+   * packages/apps/Settings/
+3ca6f3e Settings: Add support for adaptive icons like on q [2/4]
+
+   * packages/apps/SmartNav/
+a16f932 Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+56b1aae Automatic translation import
+
+   * vendor/aosp/
+b4b7f98 vendor: Introduce overlay for Lawnchair default conf
+
+   * vendor/pixelstyle/
+2b7104f Make Lawnchair opt-out
+
+   * vendor/themes/
+0921539 Automatic translation import
+
+=======================
+     08-02-2019
+=======================
+
+
+=======================
+     08-01-2019
+=======================
+
+
+   * hardware/qcom/audio-caf/sm8150/
+b78a05b audio: Add missing includes
+
+   * hardware/qcom/display-caf/sm8150/
+9580392 Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/media-caf/sm8150/
+9016bbb Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * manifest/
+e90efbb manifest: Track Telecomm
+
+   * packages/services/Telecomm/
+a75f746 Telecomm: Update code for in-call vibrations
+
+   * packages/services/Telephony/
+1d82b5f phone: Add option for setting device phone number (squashed)
+
+   * system/sepolicy/
+9632c0d Relax some neverallow rules
+
+=======================
+     07-31-2019
+=======================
+
+
+   * frameworks/av/
+f64974e media: Add support for up to level 6.2 for AVC
+
+   * frameworks/native/
+fea5f42 media: Add support for level 6-6.2 for AVC
+
+   * hardware/qcom/audio-caf/msm8960/
+b49d4dc hal: Add support for voice calls on Fusion3 platforms
+
+   * system/netd/
+12c5549 NetD : Allow passing in interface names for vpn app restriction
+
+   * vendor/gapps/
+8197231 Update gapps
+
+=======================
+     07-30-2019
+=======================
+
+
+   * build/make/
+cd59292 build: Add ability to use preinstalled vendor.img
+
+=======================
+     07-29-2019
+=======================
+
+
+=======================
+     07-28-2019
+=======================
+
+
+=======================
+     07-27-2019
+=======================
+
+
+=======================
+     07-26-2019
+=======================
+
+
+=======================
+     07-25-2019
+=======================
+
+
+   * packages/apps/Updates/
+201c568 Automatic translation import
+
+=======================
+     07-24-2019
+=======================
+
+
+=======================
+     07-23-2019
+=======================
+
+
+=======================
+     07-22-2019
+=======================
+
+
+   * device/custom/sepolicy/
+cf29cfb sepolicy: Add hal_lineage_camera_motor domain
+
+   * hardware/custom/interfaces/
+ef7ae7f introduce camera motor hal
+
+=======================
+     07-21-2019
+=======================
+
+
