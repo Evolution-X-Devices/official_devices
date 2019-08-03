@@ -1,0 +1,30 @@
+=======================
+    08-03-2019
+=======================
+- Add ROM version into About Phone dialog
+- Add In-call vibration options in Evo Xtras > Notifications
+- Add option to change device phone number
+- Add Notification sound timeout options in Settings > Apps & notifications > Notifications
+- Fix Q text clock translations
+- Separate lockscreen and status bar double tap options
+- Some sepolicy fixes
+- Remove broken Hide notch from Evo Xtras > Status bar
+- Remove Vibrate to indicate call status from Settings > Sound
+- Update more gapps
+- Add OnePlus Camera support for OP devices
+- Add Swipe start height setting for OP Gestures
+- Add NLP combo feature (network location provider)
+- Disable SIM lock page when inserting correct SIM
+- Fix SIM PIN unlock when using dual SIM dual standby
+- Remove lockscreen charging animation
+- Set default network location provider to None
+- Update gapps
+- Update navbar when changing display density
+- Update signal bar when data switches during voice calls
+
+=======================
+    DEVICE SPECIFIC
+=======================
+- Initial release with custom vendor (no need to flash vendor now)
+- Thanks To Los For Recent Update On Vendor
+- Updated To Latest Illusion Kernel
