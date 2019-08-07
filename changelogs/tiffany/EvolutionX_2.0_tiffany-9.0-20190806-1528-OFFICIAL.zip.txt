@@ -1,0 +1,156 @@
+=======================
+     08-06-2019
+=======================
+
+   * art/
+0ef4604 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/art into pie
+
+   * build/make/
+e4f33be Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/build into pie
+
+   * frameworks/av/
+14f7b47 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into pie
+
+   * frameworks/base/
+57cebfaf Automatic translation import
+
+   * frameworks/native/
+9acdb7a Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into pie
+
+   * manifest/
+21296f8 manifest: Track more repos
+
+   * packages/apps/Bluetooth/
+4a46c9f Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie
+
+   * packages/apps/Evolution/
+fc26008 Automatic translation import
+
+   * packages/apps/Nfc/
+3f52e9a Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Nfc into pie
+
+   * packages/apps/Settings/
+a2302f9 Remove controller to fix Search random FCs
+
+   * packages/services/Telecomm/
+8533257 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telecomm into pie
+
+   * system/bt/
+c9ee8ad Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * system/libhidl/
+fff8319 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/libhidl into HEAD
+
+   * vendor/aosp/
+87e73d7 vendor: branding: Update version prop to show Evolution X version
+
+   * vendor/qcom/opensource/audio/
+2252acb policy_hal: Adapt to AudioMix API changes in f/av audiopolicy
+
+=======================
+     08-05-2019
+=======================
+
+
+=======================
+     08-04-2019
+=======================
+
+
+   * packages/resources/devicesettings/
+6f0205a Automatic translation import
+
+   * packages/services/Telephony/
+cfca66c Fix resource warnings.
+
+   * vendor/pixelstyle/
+6d992d6 Make Lawnchair opt-out
+
+=======================
+     08-03-2019
+=======================
+
+
+   * packages/apps/SmartNav/
+a16f932 Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+56b1aae Automatic translation import
+
+   * vendor/themes/
+0921539 Automatic translation import
+
+=======================
+     08-02-2019
+=======================
+
+
+=======================
+     08-01-2019
+=======================
+
+
+   * system/sepolicy/
+9632c0d Relax some neverallow rules
+
+=======================
+     07-31-2019
+=======================
+
+
+   * hardware/qcom/audio-caf/msm8960/
+b49d4dc hal: Add support for voice calls on Fusion3 platforms
+
+   * hardware/qcom/audio-caf/sm8150/
+b78a05b audio: Add missing includes
+
+   * hardware/qcom/display-caf/sm8150/
+9580392 Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/media-caf/sm8150/
+9016bbb Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * system/netd/
+12c5549 NetD : Allow passing in interface names for vpn app restriction
+
+   * vendor/gapps/
+8197231 Update gapps
+
+=======================
+     07-30-2019
+=======================
+
+
+=======================
+     07-29-2019
+=======================
+
+
+=======================
+     07-28-2019
+=======================
+
+
+=======================
+     07-27-2019
+=======================
+
+
+=======================
+     07-26-2019
+=======================
+
+
+=======================
+     07-25-2019
+=======================
+
+
+   * packages/apps/Updates/
+201c568 Automatic translation import
+
+=======================
+     07-24-2019
+=======================
+
+
