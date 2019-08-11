@@ -1,0 +1,33 @@
+=======================
+      08-11-2019
+=======================
+- Add Google Dialer missing default permissions
+- Camera: Allow to Force HAL1 for apps by using vendor.camera.hal1.packagelist
+- Fix Facelock crash when Lock screen is disabled
+- Fix Navigation Bar for Expanded Desktop
+- Pressing QS Alarm goes to Clock > Alarm tab
+- Pressing QS Date goes to Calendar app
+- QS tiles: Add Navigation Bar tile
+- System bug fixes/improvements
+- Update Oreo navbar home icon
+- Fonts: Add more and update some to have ability to override Google Sans header
+- OTA app improvements
+- Add link to ROM developer profile
+- Add link to donate to device maintainer
+- Remove preinstalled Lawnchair
+- Revert changes to Double tap gestures (combine both options again)
+- Use proper Q battery icon in battery usage screen
+- Remove permissions check for Pixel Launcher
+- Fix constant SystemUI FC for some devices
+- Tint Q clock top row with wallpaper primary color
+
+=======================
+    DEVICE SPECIFIC
+=======================
+- Fix Anx Camera Issue
+- Fix FingerPrint Issue With Pocketmode
+- Fix Fingerprint Shutter For Camera Apps
+- Added Vibration Pattern From Marlin
+- Added Missing Ambient Icons
+- Kernel: Upstream to V4.9.188
+- Added Lawnchair As Prebuilt & Use Lawnstep As Default Recent Provider
