@@ -1,0 +1,5 @@
+- Add video to Double tap to trigger doze
+- Fix OTA app blocking updates
+- Fix Power Menu missing from Lock screen
+- Launch music player on headset connect: Fix strings for BT headset
+- Remove quotation marks from Q text clock translations
