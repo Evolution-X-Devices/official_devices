@@ -1,0 +1,866 @@
+=======================
+     08-14-2019
+=======================
+
+
+   * device/xiaomi/violet/
+c8dfcc0 violet: Update dependencies
+10b16b0 violet: rootdir: Turn down debugging on wpa_supplicant
+
+   * frameworks/base/
+b8ec2499f86 Automatic translation import
+73641286478 FOD: prevent showing on auth error
+3cf0ddbd39d SystemUI: Update ambient indication margin when fod is in use
+f91a0b0970a SystemUI: Update keyguard indication margin when fod is in use
+b5a807bfc24 In-DisplayFingerprint: Update icon and add a separate one for enrolling
+65a87c5dc8e Correction in logic of roundend size calculation of SD card
+110abb8babf Q Clock: Remove stupid quotation marks
+
+   * packages/apps/Evolution/
+5c3f646 Automatic translation import
+d596091 Launch music player on headset connect: Fix strings for BT headset
+
+   * packages/apps/Settings/
+0e1fbf8beb Automatic translation import
+a66601a6d4 Settings: Add video to Double tap to trigger doze
+
+   * vendor/gapps/
+0a2e541 Go apps: Complete the set of Go apps
+
+=======================
+     08-13-2019
+=======================
+
+
+   * build/make/
+2fa42f2f1 build: Update contributors
+
+   * frameworks/base/
+9ee213bf807 Revert "Config to disable power menu on secure lock screen [1/2]"
+
+   * manifest/
+24db30e manifest: Track more repos
+
+   * packages/apps/Settings/
+bf6bd1c622 Fix duplicate onPause after r46 merge
+63e7592fcf Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into pie
+13ba73361f Settings: Use new add icon button for bluetooth preferences
+0268b058f1 Settings: Use Q battery icon in battery usage screen
+67e1a14af5 Settings: Show full proc/version information
+5b95ebcd68 Introduce MainlineModuleVersionPreferenceController
+dc8f2bca68 Introduce EvolutionVersionDetailPreferenceController
+5d60ffb5cc Introduce SimpleBuildNumberPreferenceController
+67d28c6970 Introduce KernelVersionPreferenceController
+b9c4fc02a5 Introduce BasebandVersionPreferenceController
+d215b2373a Introduce SecurityPatchLevelPreferenceController
+2ae4cfc57a Introduce FirmwareVersionDetailPreferenceController
+469418187b Introduce FirmwareVersionSettings
+0e256b1859 Revert "Settings: Append PixelExperience build date/type on build display id"
+b37649d095 Revert "Add Evolution X Logo to About Phone Section"
+acbf09f572 Revert "Settings: Add double tap to sleep"
+
+   * packages/apps/Updates/
+3bedd93 Automatic translation import
+45d7562 Update canInstall boolean to fix OTA downloads
+1230568 Revert "Enable A/B perf mode by default"
+23cec9f Revert "Remove download speed on UpdatesListAdapter"
+
+   * vendor/aosp/
+2b8394a2 vendor: branding: Update version prop to show Evolution X version
+6133ce67 [Generate JSON Info] Make the generator suit the current OTA system needs
+
+=======================
+     08-12-2019
+=======================
+
+
+   * device/xiaomi/violet/
+3bc512b violet: Enable WIFI Aware
+
+=======================
+     08-11-2019
+=======================
+
+
+   * device/xiaomi/violet/
+fc6dbf6 violet: Import SVI configuration
+a891230 violet: rootdir: Override vendor.hwcomposer-2-2 service definition
+194a2e2 violet: Reformat fingerprint rc file
+6feb05d violet: Set prop expected by the FM radio HAL
+ee351e4 violet: Remove more obsolete system properties
+46d02e2 violet: Drop the creation of deprecated system_data folders
+17a50be violet: Add QC location support
+979e28a violet: gps: Disable xtwifi* services
+766d103 violet: Update vendor blobs from davinci
+
+   * frameworks/base/
+b562619666d wifi: Add APIs and keymgmt to support WPA3(DPP,SAE,OWE,SuiteB).
+d99d144bd87 Wifi: Add FILS support in WifiConfiguration
+6e7f3d029bf Wifi: Send DHCP DISCOVER with rapid commit
+3948cb1b19c Telephony: Add DisconnectCause values for clear code
+2c061326446 Add synchronization for invokeForAllObservers call
+fb19c4e56c2 Clear all lingering notifications when network is disconnected
+4e122a953f4 Fixed NPE in RankingHelper.writeXml. Make sure that mRecords is operated with the object lock.
+095c542ee4a Fix a 'memory leak'
+43225c653d4 aapt: Speed up the style pruning
+a472659faa6 Clean receivers completely when forceStop the process
+e2a632c5cfc LatinIME: fix navigation bar for expanded desktop
+e74d1926bc0 ViewRootImpl: break out the loop when NPE caught
+5a833b5259e BluetoothAdapter: disable logspew
+c4685a2d217 Reduce log verbosity: Don't spam logcat
+5715e624b04 The surface hang up when screen on and screen off
+c1f2328fa94 Fix a bug where + before % is ignored
+88207f6b37c Fix NullPointerException in CaptivePortalLogin
+17e1f644dd8 Workaround for wallpaper not shown correctly problem
+e1aca1d15f0 SystemUI: enhance alarm and calendar links
+e8b891ae873 base: Add Pixel Navigation Bar's Home icon
+fa3b5d6a891 Base: fix facelock crash when lock screen is disabled
+374bae77e12 Fix Google dialer FC due to missing permissions
+6cd14042522 BatteryMeterDrawableBase: Refresh only when value changed
+98a55f56a2e Avoid recording negative data
+6e0f58ae3a5 QS: Navigation Bar tile
+a8ab394b993 Switch widgets away from android.text.format.Time
+85d732f85b0 Migrate telephony code away from Time
+6a5387f6cfd Remove unused class
+2a08be52522 Remove unnecessary usage of deprecated Time class
+44e9cafb967 Add a basic benchmark for android.text.format.Time
+d71584e536f Avoid use of DateUtilsBridge.icuTimeZone()
+0f350e53e9d Camera: Force HAL1 for predefined package list.
+e4a9244cf2e Revert "Camera: Force HAL1 for predefined package list."
+328513cdec6 [SQUASH] Bring back working combined double tap to sleep gestures
+8ce02a3a3a9 TypographicClock: Tint top row with wallpaper primary color
+b135447e771 Revert "Q Style Clock: Animate change in time."
+
+   * frameworks/native/
+05b031737 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into pie
+ef321bf43 media: Add support for level 6-6.2 for AVC
+3cf353807 Translate pointer motion events for One-hand UI Mode
+
+   * frameworks/opt/net/wifi/
+df122112e Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network
+2ea2e4e7d Wifi: Add support to configure HLP, DHCP and manageIpClient for FILS N/W
+16d4f5fdc Wifi: Introduce client interface for vendor supplicant 2.0
+
+   * kernel/xiaomi/sm6150/
+baa171fd0294 ANDROID: Revert "f2fs: avoid out-of-range memory access"
+bf4caa435ff4 Merge branch 'android-4.14-p' of https://android.googlesource.com/kernel/common into pie
+
+   * packages/apps/SmartNavSettings/
+896bdf7 Automatic translation import
+
+   * packages/apps/Updates/
+6ca6a76 Updates: Rebase for Evolution X
+
+   * vendor/pixelstyle/
+9ca12e2 Fonts: Add and update even more fonts
+
+   * vendor/themes/
+451b08f Automatic translation import
+
+   * vendor/xiaomi/violet/
+3ad6c7e violet: Import SVI configuration
+
+=======================
+     08-10-2019
+=======================
+
+
+   * device/xiaomi/violet/
+9b57477 violet: Uprev vendor.display.config to 1.7
+a5a4a4c violet: Update vendor CarrierConfig from MIUI 9.7.11
+c7a7aa2 violet: Import missing learning module blobs
+797e024 violet: configs: Adding min freq of 1.2Ghz for 480fps
+0a2bed4 violet: Move powerhint.xml from vendor tree to device tree
+5f7d29b violet: Enable full dexpreopt
+ed5fba2 violet: Enable AAC frame control for A2DP
+
+   * kernel/xiaomi/sm6150/
+0f6bbb27c148 Merge 4.14.138 into android-4.14-p
+3ffe1e79c174 Linux 4.14.138
+afb8233ccf71 spi: bcm2835: Fix 3-wire mode if DMA is enabled
+55b2e929a383 cgroup: Fix css_task_iter_advance_css_set() cset skip condition
+ab348285f704 cgroup: css_task_iter_skip()'d iterators must be advanced before accessed
+feb6b123b7dd cgroup: Include dying leaders with live threads in PROCS iterations
+b0af004fd58d cgroup: Implement css_task_iter_skip()
+d7b538a6c967 cgroup: Call cgroup_release() before __exit_signal()
+c30c2b103edf bnx2x: Disable multi-cos feature.
+e8a5ef22b682 mvpp2: refactor MTU change code
+f60c22f35c92 tun: mark small packets as owned by the tap sock
+ca04b1e14b53 net/mlx5e: Prevent encap flow counter update async to user query
+d3d448bc501d compat_ioctl: pppoe: fix PPPOEIOCSFWD handling
+13e82540b7c2 tipc: compat: allow tipc commands without arguments
+8fe9cc0fa2c8 NFC: nfcmrvl: fix gpio-handling regression
+9838c90727b0 net: sched: Fix a possible null-pointer dereference in dequeue_func()
+e4140af99280 net: phylink: Fix flow control for fixed-link
+f876b38abc0a net/mlx5: Use reversed order when unregister devices
+a490d0929836 net: fix ifindex collision during namespace removal
+b674f7dede92 net: bridge: mcast: don't delete permanent entries when fast leave is enabled
+fbe5e82df084 net: bridge: delete local fdb on device init failure
+6926655998f2 ip6_tunnel: fix possible use-after-free on xmit
+7fcc60e5f837 ife: error out when nla attributes are empty
+12f036d9ebc8 atm: iphase: Fix Spectre v1 vulnerability
+c9f57f29b520 objtool: Add rewind_stack_do_exit() to the noreturn list
+779e18aa8223 objtool: Add machine_real_restart() to the noreturn list
+bad4cb582efa IB: directly cast the sockaddr union to aockaddr
+4ee0a5228ad5 RDMA: Directly cast the sockaddr union to sockaddr
+a941d836628c HID: Add quirk for HP X1200 PIXART OEM mouse
+b1cf596b66e4 HID: wacom: fix bit shift for Cintiq Companion 2
+86ba5fdc7685 arm64: cpufeature: Fix feature comparison for CTR_EL0.{CWG,ERG}
+8c3088f895a0 tcp: be more careful in tcp_fragment()
+ae72619d073c ARM: dts: Add pinmuxing for i2c2 and i2c3 for LogicPD torpedo
+e55d9fb8af90 ARM: dts: Add pinmuxing for i2c2 and i2c3 for LogicPD SOM-LV
+157a1f2fc415 scsi: fcoe: Embed fc_rport_priv in fcoe_rport structure
+10b7b30a3f9a Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel into pie
+7c1cb7fcff17 Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into pie
+fb434dcbb363 Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into pie
+fafe76edf5c6 Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into pie
+88f01bd8c8ac Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into pie
+1278b5a33c30 Merge 'android-4.14-p' of https://android.googlesource.com/kernel/common
+
+   * packages/apps/Evolution/
+3089a22 qs-alpha: Fix lockup when changing qs
+
+   * vendor/xiaomi/violet/
+2738787 violet: Update vendor blobs from davinci
+500d4f4 violet: Import missing learning module blobs
+8d903a3 violet: Move powerhint.xml to device tree
+
+=======================
+     08-09-2019
+=======================
+
+
+   * device/xiaomi/violet/
+022150e violet: Remove wcnss_filter and all references to it
+b160cc4 violet: releasetools: be more clear about firmware image patching
+a4c7e5d violet: Update Graphics stack from ZenFone 6
+84cbb38 violet: Update DRM stack from davinci
+dfca30b violet: Drop useless color mode support
+ae2797b violet: Use oneplus 7 vibration pattern
+5046870 Revert "Revert "sdm845-common: Add QCOM's WFD implementation""
+4f1cf24 violet: Remove deprecated cmdline option
+
+   * vendor/xiaomi/violet/
+01225b6 violet: Update Graphics stack from ZenFone 6
+
+=======================
+     08-08-2019
+=======================
+
+
+   * frameworks/base/
+bb3376a4f3e SystemUI: Use appropriate function when trying to retrieve colorError
+e4ac3d02c85 NexusLauncherPrebuilt needs setShelfHeight, remove the permissions check, because seriously who gives a fuck
+
+   * hardware/qcom/audio-caf/msm8916/
+e3e1198 hal: Always build msim voice extension
+6a8311c hal: msim_voice_extn: Set msim_phone based on phone_type parameter
+63e919c hal: msim_voice_extn: Use an enum for keeping track of the current SIM
+1c7f781 hal: Add support for Samsung dual-SIM implementation
+
+   * kernel/xiaomi/sm6150/
+0bcd2563ea2c Merge 4.14.137 into android-4.14-p
+b19ffe6e7205 Linux 4.14.137
+d4187064959c Documentation: Add swapgs description to the Spectre v1 documentation
+c4e6262bde50 x86/speculation/swapgs: Exclude ATOMs from speculation through SWAPGS
+ee524c14856d x86/speculation: Enable Spectre v1 swapgs mitigations
+83e6e48e70a1 x86/speculation: Prepare entry code for Spectre v1 swapgs mitigations
+d63c2a99657c x86/cpufeatures: Combine word 11 and 12 into a new scattered features word
+091c0268c2f1 x86/cpufeatures: Carve out CQM features retrieval
+2c04e80a6c4f x86/vdso: Prevent segfaults due to hoisted vclock reads
+f73e82454497 gcc-9: properly declare the {pv,hv}clock_page storage
+a22c63764d09 objtool: Support GCC 9 cold subfunction naming scheme
+321d6579dc7b eeprom: at24: make spd world-readable again
+5ba28ec91434 IB/hfi1: Check for error on call to alloc_rsm_map_table
+d8bd04e32ff7 IB/mlx5: Fix RSS Toeplitz setup to be aligned with the HW specification
+fcfb397a7fc2 IB/mlx5: Move MRs to a kernel PD when freeing them to the MR cache
+7d9a437e1c73 IB/mlx5: Use direct mkey destroy command upon UMR unreg failure
+3b68fe223f86 IB/mlx5: Fix unreg_umr to ignore the mkey state
+40585ce20573 xen/swiotlb: fix condition for calling xen_destroy_contiguous_region()
+c3938eec0478 nbd: replace kill_bdev() with __invalidate_device() again
+1cc390b313cd drivers/perf: arm_pmu: Fix failure path in PM notifier
+45842c3b55d7 parisc: Fix build of compressed kernel even with debug enabled
+8b2c701ff2c0 s390/dasd: fix endless loop after read unit address configuration
+9e5928f84470 selinux: fix memory leak in policydb_init()
+683dbbec1079 IB/hfi1: Fix Spectre v1 vulnerability
+2a14a26ee583 gpiolib: fix incorrect IRQ requesting of an active-low lineevent
+bdbe5dc2b716 mmc: dw_mmc: Fix occasional hang after tuning on eMMC
+66a25e3da8ce Btrfs: fix race leading to fs corruption after transaction abort
+dd10423ef68e Btrfs: fix incremental send failure after deduplication
+3e1332cfb41c kbuild: initialize CLANG_FLAGS correctly in the top Makefile
+b92f12c5eef9 drm/nouveau: fix memory leak in nouveau_conn_reset()
+1567b8a0694c x86, boot: Remove multiple copy of static function sanitize_boot_params()
+c84ee720fd54 x86/paravirt: Fix callee-saved function ELF sizes
+54dcd8ce30bc x86/kvm: Don't call kvm_spurious_fault() from .fixup
+7cb3e16466fc xen/pv: Fix a boot up hang revealed by int3 self test
+8e993f711dbd ipc/mqueue.c: only perform resource calculation if user valid
+29d2ceabec85 drivers/rapidio/devices/rio_mport_cdev.c: NUL terminate some strings
+e24aea6c00ed uapi linux/coda_psdev.h: move upc_req definition from uapi to kernel side headers
+49df626d3915 coda: fix build using bare-metal toolchain
+dc9b9b516441 coda: add error handling for fget
+2aca945f096d mm/cma.c: fail if fixed declaration can't be honored
+ca5732b311eb x86: math-emu: Hide clang warnings for 16-bit overflow
+fc22ec80d5c0 x86/apic: Silence -Wtype-limits compiler warnings
+f46c7e629d30 be2net: Signal that the device cannot transmit during reconfiguration
+a281bcaea892 ACPI: fix false-positive -Wuninitialized warning
+9e5ba38934b5 x86: kvm: avoid constant-conversion warning
+120704bef9cc scsi: zfcp: fix GCC compiler warning emitted with -Wmaybe-uninitialized
+0bba80b1e83a ACPI: blacklist: fix clang warning for unused DMI table
+a065f662da7f ceph: return -ERANGE if virtual xattr value didn't fit in buffer
+64672c1f2cfe ceph: fix improper use of smp_mb__before_atomic()
+443aeb74811e cifs: Fix a race condition with cifs_echo_request
+ff35fc5969dc btrfs: fix minimum number of chunk errors for DUP
+72d9c8901520 fs/adfs: super: fix use-after-free bug
+d0144ce7c04a clk: tegra210: fix PLLU and PLLU_OUT1
+641b87ab129a dmaengine: rcar-dmac: Reject zero-length slave DMA requests
+6debf98d7702 MIPS: lantiq: Fix bitfield masking
+902d0ba7f76c kernel/module.c: Only return -EEXIST for modules that have finished loading
+6b0e895af8ce ftrace: Enable trampoline when rec count returns back to one
+ce9adca361d4 ARM: dts: rockchip: Mark that the rk3288 timer might stop in suspend
+bbaf72c8b7d4 ARM: dts: rockchip: Make rk3288-veyron-mickey's emmc work again
+0f60f99b4131 ARM: dts: rockchip: Make rk3288-veyron-minnie run at hs200
+ff1b2beb5f00 ARM: riscpc: fix DMA
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+6d96848e Prevent OOB Read in Mfc_Transceive
+597f5c6a Prevent OOB write in Mfc_Transceive
+a36d9916 Prevent OOB write in phFriNfc_ExtnsTransceive
+524414fb Skip setEnableHostRouting when switching to screen off
+
+=======================
+     08-07-2019
+=======================
+
+   * art/
+0ef4604f57 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/art into pie
+
+   * build/make/
+e4f33be4e Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/build into pie
+
+   * frameworks/av/
+14f7b47af Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into pie
+
+   * frameworks/base/
+c6ba4aacc94 SystemUI: fix constant FC on certain devices
+f07e0419c21 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into pie
+
+   * manifest/
+6ff4ae5 Merge branch 'android-9.0.0_r46' of https://android.googlesource.com/platform/manifest into pie
+ee59eca Manifest for Android 9.0.0 Release 46 (PQ3A.190801.002)
+
+   * packages/apps/Bluetooth/
+4a46c9fe Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie
+49157329 Fix null pointer exception on AvrcpTargetService
+187afa03 Assume optional codecs are supported if were supported previously
+488314eb SBC Dual Channel (SBC HD Audio) support
+
+   * packages/apps/Nfc/
+3f52e9a7 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Nfc into pie
+
+   * packages/services/Telecomm/
+85332576 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telecomm into pie
+
+   * system/bt/
+c9ee8ad28 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * vendor/aosp/
+1eed36e1 vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission
+
+   * vendor/qcom/opensource/audio/
+36f37fd AudioPolicyManager: fix build after r46 merge
+
+   * vendor/xiaomi/violet/
+14be374 violet: Update DRM stack from davinci
+
+=======================
+     08-06-2019
+=======================
+
+
+   * frameworks/base/
+26acbade9da Automatic translation import
+28259a5eaab Fix type header clock strings for Q Clock
+ed1909a3ad2 Fix property setting with failure
+62aae2d5eba Check if EIMS when confirming network
+cbe4abcbea5 null check before accessing getCurrentScore()
+6f40f0fb22c net: modify connecitvity rematch logic to support MSIM devices
+4bda9ebbcdc Use proper coded alphabet when a contact is written into EF_ADN of USIM.
+54051ce097b Add config to disable CDMA call forward/waiting
+67b2805f707 SMS: Parsing of CDMA MMS notification carried by SMS
+24a6f8979b7 BT: Send info if call is CS type from telecomm service to BT apps.
+1d33b8ab8df Emergency SMS carrier config flag
+220bb08fd66 Add ICCID into CarrierIdentifier
+730710eee58 frameworks/base: Add HDMI hotplug handling
+e05115c48b8 CamcorderProfile: Add 1440p camcorder profile
+4c4b35f7117 CamcorderProfiles: Add new profiles for recorder
+c41dec19155 BT: Adding aptX-Adaptive codec entry to Framework
+f1d191996c1 Wallpaper is half black after rotating quickly
+805772eb1c3 GamingMode: Clean up for dynamic mode
+
+   * kernel/xiaomi/sm6150/
+9bfd7acac8ae UPSTREAM: net-ipv6-ndisc: add support for RFC7710 RA Captive Portal Identifier
+
+=======================
+     08-05-2019
+=======================
+
+
+   * build/make/
+ac86b07c6 fix "build: Only set the default verity key as a fallback"
+9138bf49c build: Only set the default verity key as a fallback
+9cab94c31 make: Use build prop overrides when generating vendor build.prop too
+
+   * kernel/xiaomi/sm6150/
+c03a8c75731a Merge 'android-4.14-p' of https://android.googlesource.com/kernel/common into pie
+f3b34c4a0e29 Merge tag 'v4.14.136' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux into pie
+0f9f11c60553 Merge https://github.com/android-linux-stable/msm-4.14 into pie
+cf54ad5306ba Merge 4.14.136 into android-4.14-p
+7d80e1218adf Linux 4.14.136
+b72fd569f5f7 ip_tunnel: allow not to count pkts on tstats by setting skb's dev to NULL
+13d25588c413 ceph: hold i_ceph_lock when removing caps for freeing inode
+9b3c3f8860bc Fix allyesconfig output.
+650febaf6365 drivers/pps/pps.c: clear offset flags in PPS_SETPARAMS ioctl
+d0919216e468 sched/fair: Don't free p->numa_faults with concurrent readers
+69f9c2bc3f75 Bluetooth: hci_uart: check for missing tty operations
+fbfe322db638 hv_sock: Add support for delayed close
+417084878e02 iommu/iova: Fix compilation error with !CONFIG_IOMMU_IOVA
+fc2ec1855e53 iommu/vt-d: Don't queue_iova() if there is no flush queue
+c4c213d9aadc media: radio-raremono: change devm_k*alloc to k*alloc
+4f694fac7208 NFS: Cleanup if nfs_match_client is interrupted
+171e75b33054 media: pvrusb2: use a different format for warnings
+3566a98e59b5 media: cpia2_usb: first wake up, then free in disconnect
+3abe1639de0b ath10k: Change the warning message string
+10c037432a71 media: au0828: fix null dereference in error path
+b05c76bc8b92 ISDN: hfcsusb: checking idx of ep configuration
+a4a3c070b876 binder: fix possible UAF when freeing buffer
+6932a1265022 arm64: compat: Provide definition for COMPAT_SIGMINSTKSZ
+8dc41ad60b6f i2c: qup: fixed releasing dma without flush operation completion
+8604ac922424 arm64: dts: marvell: Fix A37xx UART0 register size
+c78b265f2cdd NFSv4: Fix lookup revalidate of regular files
+df047f3ea5df NFS: Refactor nfs_lookup_revalidate()
+0933aaa24890 NFS: Fix dentry revalidation on NFSv4 lookup
+8cf9ddf9754c vsock: correct removal of socket from the list
+62c0c9d69b1f VSOCK: use TCP state constants for sk_state
+
+   * packages/resources/devicesettings/
+6f0205a Automatic translation import
+
+   * packages/services/Telephony/
+cfca66c3f Fix resource warnings.
+
+=======================
+     08-04-2019
+=======================
+
+
+   * packages/apps/SmartNav/
+a16f932 Automatic translation import
+
+   * vendor/xiaomi/violet/
+d193801 violet: Add back wfd blobs
+
+=======================
+     08-03-2019
+=======================
+
+
+=======================
+     08-02-2019
+=======================
+
+
+   * device/xiaomi/violet/
+8a0f205 violet: Move init.qti.charger.sh to bin
+f423b78 violet: Cleanup usb shell script
+24dbd93 violet: Enable audio features for sound FX libraries
+d2464e9 violet: Enable TARGET_USES_DISPLAY_RENDER_INTENTS
+0507303 violet: Copy media_codecs_google_video_le from fw/av
+08c6aca violet: Set SSR restart_level in init.qcom.rc
+caa391d violet: Include missing OMX blobs
+7190297 violet: Force fw from MIUI 9.7.18 and up
+
+   * frameworks/base/
+0d6768f8504 Double tap to sleep on statusbar [1/2]
+812eb96fd41 Double tap to sleep on lockscreen [1/2]
+11ca577557b Revert "SystemUI: add double tap to sleep gesture"
+
+   * kernel/xiaomi/sm6150/
+b3d21dd02ce4 Merge 4f9692fe7d0cffa246dd456269e6f15c4a50a23a on remote branch
+ed6268de3d2b Merge 87de3b6a148eb0ef06fb25cc3d0abeb800ca9724 on remote branch
+7aacdb2ae057 Merge 29096d799ae76d2f40d5091a435c365379415d4e on remote branch
+ec45acb3d48e Merge 5a2355a11a84f6fdbcb080551247dd82b09b857e on remote branch
+c41bda2a7557 Merge b225efcfdf8da6f9d631b0b59b33f54f6032dd5a on remote branch
+5e3dc3d453ef violet-perf_defconfig: Regenerate
+3aa2e8ed8d8a qcacld: Disable build timestamp
+f2916241ebd9 Set correct techpack header install directory
+7be5758d5a8b fs: sdfat: Add MODULE_ALIAS_FS for supported filesystems
+8fcf26c3f330 Android: Add empty Android.mk file
+
+   * packages/services/Telephony/
+1d82b5ff1 phone: Add option for setting device phone number (squashed)
+
+=======================
+     08-01-2019
+=======================
+
+
+   * frameworks/base/
+2704efcbb41 base: Add DeviceUtils from Omni
+86f5423ce19 base: add vibrate util methods
+4b7bc0d314d base: incall vibration options [1/3]
+a5f899703db Revert "fwb: Incall vibration options [1/3]"
+52feba6640c Support enforcing a minimum delay between notification sounds of an app.
+75ca9699b9b Import translations for Typographic Clock
+19f7f2a7726 Automatic translation import
+8b51a5da53f Revert "[1/2] services: allow to force "never" mode for display cutout"
+
+   * hardware/qcom/audio-caf/msm8960/
+b49d4dcf0 hal: Add support for voice calls on Fusion3 platforms
+d50691ca0 audio-hw: Restrict voice_start_usecase only for 1 call at a time
+b89a37db8 hal: Fix no audio during voice call with voip in background
+ab3534805 hal: fix no sound issue in voice call
+
+   * hardware/qcom/audio-caf/sm8150/
+b78a05b7 audio: Add missing includes
+c384b972 audio: Depend on libtinycompress
+e6b97220 Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into pie-caf
+
+   * hardware/qcom/display-caf/sm8150/
+9580392c Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/media-caf/sm8150/
+9016bbbb Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * kernel/xiaomi/sm6150/
+48712f21919c Merge 4.14.135 into kernel.lnx.4.14.r1
+5eb51ec090f7 ANDROID: Revert "f2fs: avoid out-of-range memory access"
+f162caa29ea8 ANDROID: fix up 9p filesystem due to CFI non-upstream patches
+177d51756390 Merge 4.14.135 into android-4.14-p
+10d6aa565d05 Linux 4.14.135
+8b941011f2df access: avoid the RCU grace period for the temporary subjective credentials
+26bee6ef0d72 powerpc/tm: Fix oops on sigreturn on systems without TM
+8119245ba75f powerpc/xive: Fix loop exit-condition in xive_find_target_in_mask()
+9dea45198618 ALSA: hda - Add a conexant codec entry to let mute led work
+ef33f78604ab ALSA: line6: Fix wrong altsetting for LINE6_PODHD500_1
+f813490a0387 hpet: Fix division by zero in hpet_time_div()
+0d42c0dd0b3f fpga-manager: altera-ps-spi: Fix build error
+74402b5c3f82 binder: prevent transactions to context manager from its own process.
+6378b847d70c x86/speculation/mds: Apply more accurate check on hypervisor platform
+63f8f90f9620 x86/sysfb_efi: Add quirks for some devices with swapped width and height
+5192867c3872 btrfs: inode: Don't compress if NODATASUM or NODATACOW set
+67055806bec9 KVM: nVMX: do not use dangling shadow VMCS after guest reset
+e25ec1499721 usb: pci-quirks: Correct AMD PLL quirk detection
+5fc6c5dafbd9 usb: wusbcore: fix unbalanced get/put cluster_id
+51c843bfb1f9 drm/crc-debugfs: Also sprinkle irqrestore over early exits
+d06e92cfb34e drm/crc: Only report a single overflow when a CRC fd is opened
+ee4c7168bc43 locking/lockdep: Hide unused 'class' variable
+7666eca3ec78 locking/lockdep: Fix lock used or unused stats error
+682d3a98ab2a mm/mmu_notifier: use hlist_add_head_rcu()
+3d3eccd68823 mm/gup.c: remove some BUG_ONs from get_gate_page()
+b57e8d21123b mm/gup.c: mark undo_dev_pagemap as __maybe_unused
+5d953c77e6d2 9p: pass the correct prototype to read_cache_page
+d3a0f21209d8 mm/kmemleak.c: fix check for softirq context
+246f7ce14d59 sh: prevent warnings when using iounmap
+c35f5d31451f block/bio-integrity: fix a memory leak bug
+aef3d0be9a33 powerpc/eeh: Handle hugepages in ioremap space
+df41a0872fa0 mailbox: handle failed named mailbox channel request
+6d94cefc3dc2 f2fs: avoid out-of-range memory access
+29df800668ae powerpc/boot: add {get, put}_unaligned_be32 to xz_config.h
+4f7b60d471fe PCI: dwc: pci-dra7xx: Fix compilation when !CONFIG_GPIOLIB
+3e06df155a6a RDMA/rxe: Fill in wc byte_len with IB_WC_RECV_RDMA_WITH_IMM
+57e936e34015 perf annotate: Fix dereferencing freed memory found by the smatch tool
+e93934705609 perf session: Fix potential NULL pointer dereference found by the smatch tool
+c0574cf49334 perf test mmap-thread-lookup: Initialize variable to suppress memory sanitizer warning
+32797c9105d3 kallsyms: exclude kasan local symbols on s390
+b2be79183176 serial: sh-sci: Fix TX DMA buffer flushing and workqueue races
+484b44614f16 serial: sh-sci: Terminate TX DMA during buffer flushing
+261be5ecc309 RDMA/i40iw: Set queue pair state when being queried
+63fd71475936 powerpc/4xx/uic: clear pending interrupt after irq type/pol change
+d5945a17962c um: Silence lockdep complaint about mmap_sem
+0e37704c5d1f mfd: hi655x-pmic: Fix missing return value check for devm_regmap_init_mmio_clk
+bd51cf6997a8 mfd: arizona: Fix undefined behavior
+2ea30596cd7a mfd: core: Set fwnode for created devices
+dab80aa0136b recordmcount: Fix spurious mcount entries on powerpc
+f660ed54629a powerpc/xmon: Fix disabling tracing while in xmon
+44b2e647a517 iio: iio-utils: Fix possible incorrect mask calculation
+ad2012d96a37 PCI: xilinx-nwl: Fix Multi MSI data programming
+89567efefe10 kbuild: Add -Werror=unknown-warning-option to CLANG_FLAGS
+4673be17abfb PCI: sysfs: Ignore lockdep for remove attribute
+01c844285004 serial: mctrl_gpio: Check if GPIO property exisits before requesting it
+00e1131573a6 drm/msm: Depopulate platform on probe failure
+1f26f1b3da65 powerpc/pci/of: Fix OF flags parsing for 64bit BARs
+65567041ceea usb: gadget: Zero ffs_io_data
+1322f98e22db tty: serial_core: Set port active bit in uart_port_activate
+14638bc7c611 drm/rockchip: Properly adjust to a true clock in adjusted_mode
+5d87874f9076 powerpc/pseries/mobility: prevent cpu hotplug during DT update
+4a48fb8567fb phy: renesas: rcar-gen2: Fix memory leak at error paths
+3609ffd4684d drm/virtio: Add memory barriers for capset cache.
+39474d5b9e7b serial: 8250: Fix TX interrupt handling condition
+19331fd9b8a8 tty: serial: msm_serial: avoid system lockup condition
+a0b6eaedb375 tty/serial: digicolor: Fix digicolor-usart already registered warning
+3517292149eb memstick: Fix error cleanup path of memstick_init
+ed4577fc2b86 drm/crc-debugfs: User irqsafe spinlock in drm_crtc_add_crc_entry
+9a76fa7c01c7 drm/bridge: sii902x: pixel clock unit is 10kHz instead of 1kHz
+40d1193f790b drm/bridge: tc358767: read display_props in get_modes()
+edc6603f426d PCI: Return error if cannot probe VF
+df56de8931b9 drm/edid: Fix a missing-check bug in drm_load_edid_firmware()
+01e1206955a1 tty: serial: cpm_uart - fix init when SMC is relocated
+0ca248c6a6e5 pinctrl: rockchip: fix leaked of_node references
+0c8bec7daf2b tty: max310x: Fix invalid baudrate divisors calculator
+268e63c810fd usb: core: hub: Disable hub-initiated U1/U2
+98350bf52ca2 drm/panel: simple: Fix panel_simple_dsi_probe
+820acbcdcaf4 hvsock: fix epollout hang from race condition
+8e394a633bc8 nfsd: Fix overflow causing non-working mounts on 1 TB machines
+5226ab7b1d4f nfsd: fix performance-limiting session calculation
+3d583a388443 nfsd: give out fewer session slots as limit approaches
+290613595a79 nfsd: increase DRC cache limit
+4a08c93ddf6f NFSv4: Fix open create exclusive when the server reboots
+9d8d1ac09c44 perf/events/amd/uncore: Fix amd_uncore_llc ID to use pre-defined cpu_llc_id
+2fc446242288 mm: vmscan: scan anonymous pages on file refaults
+514631c2225c ext4: allow directory holes
+f8bab93f3628 ext4: use jbd2_inode dirty range scoping
+4384cd4bb093 jbd2: introduce jbd2_inode dirty range scoping
+a589d2506997 mm: add filemap_fdatawait_range_keep_errors()
+f04a76af1e70 ext4: enforce the immutable flag on open files
+efb8a11e4f61 ext4: don't allow any modifications to an immutable file
+3abac1611153 MIPS: lb60: Fix pin mappings
+f7df48a76837 dma-buf: Discard old fence_excl on retrying get_fences_rcu for realloc
+7f987f9a6c58 dma-buf: balance refcount inbalance
+eaee127e4a8d net: bridge: stp: don't cache eth dest pointer before skb pull
+c060a35bbeb1 net: bridge: mcast: fix stale ipv6 hdr pointer when handling v6 query
+e95de01edc87 net: bridge: mcast: fix stale nsrcs pointer in igmp3/mld2 report handling
+cdb26083bd2b tcp: Reset bytes_acked and bytes_received when disconnecting
+adcac7370d7d tcp: fix tcp_set_congestion_control() use from bpf hook
+8cf295c38dde net: make skb_dst_force return true when dst is refcounted
+1148831a79d7 bonding: validate ip header before check IPPROTO_IGMP
+f14b4a626753 netrom: hold sock when setting skb->destructor
+1d4c72cd4c43 netrom: fix a memory leak in nr_rx_frame()
+91b3202697b6 macsec: fix checksumming after decryption
+2e8768f34668 macsec: fix use-after-free of skb during RX
+e114a080353c vrf: make sure skb->data contains ip header to make routing
+190cbbc468df sky2: Disable MSI on ASUS P6T
+6c8a95ed40d7 rxrpc: Fix send on a connected, but unbound socket
+d2814b0325b8 nfc: fix potential illegal memory access
+fb0691c787d6 net: openvswitch: fix csum updates for MPLS actions
+5b0ee3fdb4c0 net: neigh: fix multiple neigh timer scheduling
+8cdeb06cd001 net: dsa: mv88e6xxx: wait after reset deactivation
+5d96a587a98a net: bcmgenet: use promisc for unsupported filters
+82a65c6265bc ipv4: don't set IPv6 only flags to IPv4 addresses
+0590912cd3f0 igmp: fix memory leak in igmpv3_del_delrec()
+08aa823d2d75 caif-hsi: fix possible deadlock in cfhsi_exit_module()
+9dd7343d3c85 bnx2x: Prevent ptp_task to be rescheduled indefinitely
+e57e990946b0 bnx2x: Prevent load reordering in tx completion processing
+9ce0c09dc2fd lib/strscpy: Shut up KASAN false-positives in strscpy()
+8ac9e068f85a compiler.h: Add read_word_at_a_time() function.
+21b1e01dea2c compiler.h, kasan: Avoid duplicating __read_once_size_nocheck()
+4b01a309788f dm bufio: fix deadlock with loop device
+3533b12dfc3e dt-bindings: allow up to four clocks for orion-mdio
+83365bf015a0 net: mvmdio: allow up to four clocks to be specified for orion-mdio
+9faabe06dc80 usb: Handle USB3 remote wakeup for LPM enabled devices correctly
+b945eb0be828 Bluetooth: Add SMP workaround Microsoft Surface Precision Mouse bug
+7f7234668947 intel_th: msu: Fix single mode with disabled IOMMU
+1ef3575c51ee eCryptfs: fix a couple type promotion bugs
+a2d5e4e4237d powerpc/watchpoint: Restore NV GPRs while returning from exception
+ce32ed92885d powerpc/32s: fix suspend/resume when IBATs 4-7 are used
+a6766bb9da35 parisc: Fix kernel panic due invalid values in IAOQ0 or IAOQ1
+6eb5c6a472d0 parisc: Ensure userspace privilege for ptraced processes in regset functions
+71593b346e81 crypto: caam - limit output IV to CBC to work around CTR mode DMA issue
+467e5c8ec813 PCI: hv: Fix a use-after-free bug in hv_eject_device_work()
+3ee5a2fb29de gpu: ipu-v3: ipu-ic: Fix saturation bit offset in TPMEM
+e30e6c09d260 coda: pass the host file in vma->vm_file on mmap
+c3d7a20b6603 libnvdimm/pfn: fix fsdax-mode namespace info-block zero-fields
+704d1f484faa HID: wacom: correct touch resolution x/y typo
+e50f797cab50 HID: wacom: generic: only switch the mode on devices with LEDs
+ddb8600472d6 Btrfs: add missing inode version, ctime and mtime updates when punching hole
+08d36dd218b4 Btrfs: fix fsync not persisting dentry deletions due to inode evictions
+ee26ffc549a9 Btrfs: fix data loss after inode eviction, renaming it, and fsync it
+8691099ab0b7 PCI: Do not poll for PME if the device is in D3cold
+577eb0f1fff5 intel_th: pci: Add Ice Lake NNPI support
+21a9de5fadcc perf/x86/amd/uncore: Set the thread mask for F17h L3 PMCs
+960b33e5517d perf/x86/amd/uncore: Do not set 'ThreadMask' and 'SliceMask' for non-L3 PMCs
+531a502517f7 x86/boot: Fix memory leak in default_get_smp_config()
+4d96a2a09bf3 9p/virtio: Add cleanup path in p9_virtio_init
+70a6cebb9bf3 9p/xen: Add cleanup path in p9_trans_xen_init
+93774aa0954c xen/events: fix binding user event channels to cpus
+59790d912604 dm zoned: fix zone state management race
+c9ebf4e05058 padata: use smp_mb in padata_reorder to avoid orphaned padata jobs
+e26c2a0b9fbc drm/nouveau/i2c: Enable i2c pads & busses during preinit
+2cbf2af144f0 fs/proc/proc_sysctl.c: fix the default values of i_uid/i_gid on /proc/sys inodes.
+a610564a2d76 arm64: tegra: Fix AGIC register range
+eba797dbf352 KVM: x86/vPMU: refine kvm_pmu err msg when event creation failed
+4d38d6ca98b7 media: coda: Remove unbalanced and unneeded mutex unlock
+5b634140fb4d media: v4l2: Test type instead of cfg->type in v4l2_ctrl_new_custom()
+470a8173293c ALSA: hda/realtek: apply ALC891 headset fixup to one Dell machine
+0a171acdbbdc ALSA: seq: Break too long mutex context in the write loop
+e279773eb140 ASoC: dapm: Adapt for debugfs API change
+c78c33a26294 lib/scatterlist: Fix mapping iterator when sg->offset is greater than PAGE_SIZE
+a471b4253744 pnfs/flexfiles: Fix PTR_ERR() dereferences in ff_layout_track_ds_error
+eada919dddca NFSv4: Handle the special Linux file open access mode
+1a03a8f70759 iwlwifi: pcie: fix ALIVE interrupt handling for gen2 devices w/o MSI-X
+abd4a98c867a iwlwifi: pcie: don't service an interrupt that was masked
+1be35da91d38 arm64: tegra: Update Jetson TX1 GPU regulator timings
+0497a19578a4 regulator: s2mps11: Fix buck7 and buck8 wrong voltages
+5ab8c351fc39 Input: alps - fix a mismatch between a condition check and its comment
+dcd1b5c89d9f Input: synaptics - whitelist Lenovo T580 SMBus intertouch
+26d443944681 Input: alps - don't handle ALPS cs19 trackpoint-only device
+81bf168d855c Input: gtco - bounds check collection indent level
+9ab6b508681d crypto: crypto4xx - fix a potential double free in ppc4xx_trng_probe
+4fbcf8bf674c crypto: ccp/gcm - use const time tag comparison.
+eba522cd0cf1 crypto: ccp - memset structure fields to zero before reuse
+cdfa9f453325 crypto: chacha20poly1305 - fix atomic sleep when using async algorithm
+c353447e4917 crypto: arm64/sha2-ce - correct digest for empty data in finup
+beae5e5c4507 crypto: arm64/sha1-ce - correct digest for empty data in finup
+fb8ee4908c39 crypto: ccp - Validate the the error value used to index error messages
+b91ea84bfedd crypto: ghash - fix unaligned memory access in ghash_setkey()
+df058d8f11ae scsi: mac_scsi: Fix pseudo DMA implementation, take 2
+d2b7f62beaa3 scsi: mac_scsi: Increase PIO/PDMA transfer length threshold
+ddb96c6435b5 scsi: megaraid_sas: Fix calculation of target ID
+2d33fd9aac31 scsi: core: Fix race on creating sense cache
+1c02ad9426fa Revert "scsi: ncr5380: Increase register polling limit"
+e89b9922016a scsi: NCR5380: Always re-enable reselection interrupt
+a98d194402bd scsi: NCR5380: Reduce goto statements in NCR5380_select()
+ba110e6dc391 xen: let alloc_xenballooned_pages() fail if not enough memory free
+80637a906ede floppy: fix out-of-bounds read in copy_buffer
+4dae773077f3 floppy: fix invalid pointer dereference in drive_name
+625a582640b6 floppy: fix out-of-bounds read in next_valid_format
+a904a690ea03 floppy: fix div-by-zero in setup_format_params
+500add335481 iavf: fix dereference of null rx_buffer pointer
+fc92046b6822 net: mvmdio: defer probe of orion-mdio if a clock is not ready
+c272ed9e7884 gtp: fix use-after-free in gtp_newlink()
+12301133f19c gtp: fix use-after-free in gtp_encap_destroy()
+f74b31871d6b gtp: fix Illegal context switch in RCU read-side critical section.
+01f3c64e405a gtp: fix suspicious RCU usage
+408694ef507c Bluetooth: validate BLE connection interval updates
+36ae374e3198 gtp: add missing gtp_encap_disable_sock() in gtp_encap_enable()
+ef6175562114 Bluetooth: Check state in l2cap_disconnect_rsp
+58aa832459b5 Bluetooth: 6lowpan: search for destination address in all peers
+05b9c7b0059b Bluetooth: hci_bcsp: Fix memory leak in rx_skb
+12fd5c11d335 gpiolib: Fix references to gpiod_[gs]et_*value_cansleep() variants
+a52801353978 net: usb: asix: init MAC address buffers
+f0e6f461a2e0 perf stat: Make metric event lookup more robust
+26902063a54a iwlwifi: mvm: Drop large non sta frames
+d3dbe913226e ath10k: destroy sdio workqueue while remove sdio module
+18f05a6fc4cf net: hns3: add some error checking in hclge_tm module
+bf55af0a275f net: hns3: fix a -Wformat-nonliteral compile warning
+d53189f8e224 bcache: check c->gc_thread by IS_ERR_OR_NULL in cache_set_flush()
+819811c5cf9e EDAC: Fix global-out-of-bounds write when setting edac_mc_poll_msec
+109d1497954c crypto: asymmetric_keys - select CRYPTO_HASH where needed
+46e4dbc33843 crypto: serpent - mark __serpent_setkey_sbox noinline
+1d458f4e358a ixgbe: Check DDM existence in transceiver before access
+9a3d442c240f rslib: Fix handling of of caller provided syndrome
+a5a0c29fa41b rslib: Fix decoding of shortened codes
+9262b2a43729 clocksource/drivers/exynos_mct: Increase priority over ARM arch timer
+85b583f12374 libata: don't request sense data on !ZAC ATA devices
+0bb10bb2329a perf tools: Increase MAX_NR_CPUS and MAX_CACHES
+f012971c01f5 ath10k: fix PCIE device wake up failed
+e98e30e28b2b ath10k: add missing error handling
+0f7f0b057417 ipvs: fix tinfo memory leak in start_sync_thread
+defb213a7bce mt7601u: fix possible memory leak when the device is disconnected
+c922472d8400 x86/build: Add 'set -e' to mkcapflags.sh to delete broken capflags.c
+97613ee0ab8a mt7601u: do not schedule rx_tasklet when the device has been disconnected
+ade80c9c9b43 rtlwifi: rtl8192cu: fix error handle when usb probe failed
+e07fe72303e8 media: hdpvr: fix locking and a missing msleep
+a315ea1ceca7 media: vimc: cap: check v4l2_fill_pixfmt return value
+493a15ad47a3 media: coda: increment sequence offset for the last returned frame
+1a1e05d4df96 media: coda: fix last buffer handling in V4L2_ENC_CMD_STOP
+7559e5730804 media: coda: fix mpeg2 sequence number handling
+91bce7cb2983 acpi/arm64: ignore 5.1 FADTs that are reported as 5.0
+ec00231195ef timer_list: Guard procfs specific code
+cf90753513b3 ntp: Limit TAI-UTC offset
+1b9302281515 media: i2c: fix warning same module names
+bbc2e30224a4 media: s5p-mfc: Make additional clocks optional
+0d450977aebe ipvs: defer hook registration to avoid leaks
+d73991322a5c ipsec: select crypto ciphers for xfrm_algo
+7f669be31784 EDAC/sysfs: Fix memory leak when creating a csrow object
+ca3445c2afc2 ipoib: correcly show a VF hardware address
+ddd38aa7b44c vhost_net: disable zerocopy by default
+b5b7d3a8d33a perf evsel: Make perf_evsel__name() accept a NULL argument
+11a6dd0034b6 x86/atomic: Fix smp_mb__{before,after}_atomic()
+b1d6b8223ce7 sched/core: Add __sched tag for io_schedule()
+708e50121d87 xfrm: fix sa selector validation
+fa9900ef8f09 blkcg, writeback: dead memcgs shouldn't contribute to writeback ownership arbitration
+c71deba0f27e x86/cpufeatures: Add FDP_EXCPTN_ONLY and ZERO_FCS_FDS
+16a0c22def02 rcu: Force inlining of rcu_read_lock()
+07df68f0b878 bpf: silence warning messages in core
+e3e768c83c93 regmap: fix bulk writes on paged registers
+1e26813c698d gpio: omap: ensure irq is enabled before wakeup
+88864baefbfd gpio: omap: fix lack of irqstatus_raw0 for OMAP4
+6eb4ac7a14c5 iommu: Fix a leak in iommu_insert_resv_region
+8231f0a084ea media: fdp1: Support M3N and E3 platforms
+0e8529143a21 perf test 6: Fix missing kvm module load for s390
+295cf005cdf5 perf cs-etm: Properly set the value of 'old' and 'head' in snapshot mode
+6276007fd290 ipset: Fix memory accounting for hash types on resize
+1ee7774527ab net: sfp: add mutex to prevent concurrent state checks
+0dd8efba833c RAS/CEC: Fix pfn insertion
+21f2b10ca664 s390/qdio: handle PENDING state for QEBSM devices
+9da3f199ab6a net: axienet: Fix race condition causing TX hang
+a9f11461782e net: fec: Do not use netdev messages too early
+12f4d0660042 net: stmmac: dwmac4: fix flow control issue
+26b900024f93 cpupower : frequency-set -r option misses the last cpu in related cpu list
+78632703b9e5 media: wl128x: Fix some error handling in fm_v4l2_init_video_device()
+50beba02871f locking/lockdep: Fix merging of hlocks with non-zero references
+69049fbfc5b9 tua6100: Avoid build warnings.
+2a17989acb2e crypto: talitos - Align SEC1 accesses to 32 bits boundaries.
+8ebeb03efd1f crypto: talitos - properly handle split ICV.
+846ed29eb3bf net: phy: Check against net_device being NULL
+22aaae25b6b4 media: staging: media: davinci_vpfe: - Fix for memory leak if decoder initialization fails.
+8cc26f962d48 media: mc-device.c: don't memset __user pointer contents
+457b9eb24342 fscrypt: clean up some BUG_ON()s in block encryption/decryption
+2b4bd28ba3bf xfrm: Fix xfrm sel prefix length validation
+08346a485064 af_key: fix leaks in key_pol_get_resp and dump_sp.
+b49b8338c421 signal/pid_namespace: Fix reboot_pid_ns to use send_sig not force_sig
+d11b937a518e qed: Set the doorbell address correctly
+e703ea55e717 net: stmmac: dwmac4/5: Clear unused address entries
+e20d2f994fd9 net: stmmac: dwmac1000: Clear unused address entries
+351e1da7ea11 media: media_device_enum_links32: clean a reserved field
+2697ead73644 media: vpss: fix a potential NULL pointer dereference
+9f5860dca129 media: marvell-ccic: fix DMA s/g desc number calculation
+b503e9887655 crypto: talitos - fix skcipher failure due to wrong output IV
+a523267d4c55 media: spi: IR LED: add missing of table registration
+2b97c1946849 media: dvb: usb: fix use after free in dvb_usb_device_exit
+3f32d46cc2b5 batman-adv: fix for leaked TVLV handler.
+f9249b702f3f ath: DFS JP domain W56 fixed pulse type 3 RADAR detection
+193a754afbe9 ath6kl: add some bounds checking
+d8d5d17066cc ath9k: Check for errors when reading SREV register
+9dd42218c8b6 ath10k: Do not send probe response template for mesh
+d41a18ccc194 wil6210: fix potential out-of-bounds read
+48b727e53473 dmaengine: imx-sdma: fix use-after-free on probe error path
+63e8706d1207 scsi: iscsi: set auth_protocol back to NULL if CHAP_A value is not supported
+83f31a44368f arm64/efi: Mark __efistub_stext_offset as an absolute symbol explicitly
+f40751b7e92c MIPS: fix build on non-linux hosts
+57ec58c1ac03 MIPS: ath79: fix ar933x uart parity mode
+
+   * manifest/
+e90efbb manifest: Track Telecomm
+
+   * packages/apps/Evolution/
+ce6c208 In-call vibrations: Add summaries
+d72787e incall vibration options [3/3]
+ae66474 Revert "Evolution: allow to force never mode for display cutout [2/2]"
+
+   * packages/apps/Settings/
+7e297efc96 Revert "Settings: Incall vibration option [3/3]"
+297361aab9 Add setup UI for minimum delay between an app's notification sounds
+efa33b5270 Settings: Preserve sound timeout pref when showing legacy notification settings
+
+   * packages/services/Telecomm/
+a75f7461 Telecomm: Update code for in-call vibrations
+d8eaf627 incall vibration options [2/3]
+9fc652b7 Revert "Telecomm: Incall vibration option [2/3]"
+
+   * system/netd/
+12c5549 NetD : Allow passing in interface names for vpn app restriction
+
+   * system/sepolicy/
+9632c0d9 Relax some neverallow rules
+4731eb3e more mmaps
+f9d96091 Allow mmap for vendor_init
+75cfc1ae isolated_app: add mmaps
+9a096927 sepolicy: Add mmap for profman
+
+   * vendor/pixelstyle/
+87f16fd Update gapps
+
+   * vendor/xiaomi/violet/
+264e853 violet: Include missing OMX blobs
+
