@@ -661,5 +661,19 @@
             "xda_thread": "https://forum.xda-developers.com/mi-5x/development/rom-evolution-x-2-0-t3951342"
          }
       ]
+   },
+   {
+      "name":"Asus Zenfone 5Z",
+      "brand":"Asus",
+      "codename":"Z01R",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Aryan Arora",
+            "maintainer_url":"https://t.me/Aryaannnn",
+            "xda_thread":"https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3945397"
+         }
+      ]
    }
 ]
