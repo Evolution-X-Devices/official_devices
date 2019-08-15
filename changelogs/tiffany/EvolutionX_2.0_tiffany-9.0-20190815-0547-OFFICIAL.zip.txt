@@ -1,0 +1,147 @@
+=======================
+     08-15-2019
+=======================
+
+
+   * device/custom/sepolicy/
+543fe9a sepolicy: Smart Charging (3/4)
+
+   * frameworks/base/
+b6cc8087 Automatic translation import
+
+   * packages/apps/Evolution/
+f78394d Automatic translation import
+
+   * packages/apps/Settings/
+f7bca8e Automatic translation import
+
+   * packages/services/Telecomm/
+465d5b0 Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+   * vendor/aosp/
+7b6d30d Smart Charging: Fix permissions
+
+=======================
+     08-14-2019
+=======================
+
+
+=======================
+     08-13-2019
+=======================
+
+
+   * vendor/gapps/
+0a2e541 Go apps: Complete the set of Go apps
+
+=======================
+     08-12-2019
+=======================
+
+
+   * build/make/
+2fa42f2 build: Update contributors
+
+   * manifest/
+24db30e manifest: Track more repos
+
+   * packages/apps/Updates/
+3bedd93 Automatic translation import
+
+=======================
+     08-11-2019
+=======================
+
+
+   * frameworks/native/
+05b0317 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into pie
+
+   * frameworks/opt/net/wifi/
+df12211 Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network
+
+   * packages/apps/SmartNavSettings/
+896bdf7 Automatic translation import
+
+   * vendor/themes/
+451b08f Automatic translation import
+
+=======================
+     08-10-2019
+=======================
+
+
+   * vendor/pixelstyle/
+9ca12e2 Fonts: Add and update even more fonts
+
+=======================
+     08-09-2019
+=======================
+
+
+=======================
+     08-08-2019
+=======================
+
+
+=======================
+     08-07-2019
+=======================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+e3e1198 hal: Always build msim voice extension
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+6d96848 Prevent OOB Read in Mfc_Transceive
+
+   * vendor/qcom/opensource/audio/
+36f37fd AudioPolicyManager: fix build after r46 merge
+
+=======================
+     08-06-2019
+=======================
+
+   * art/
+0ef4604 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/art into pie
+
+   * frameworks/av/
+14f7b47 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into pie
+
+   * packages/apps/Bluetooth/
+4a46c9f Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie
+
+   * packages/apps/Nfc/
+3f52e9a Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Nfc into pie
+
+   * system/bt/
+c9ee8ad Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/bt into HEAD
+
+=======================
+     08-05-2019
+=======================
+
+
+   * packages/resources/devicesettings/
+6f0205a Automatic translation import
+
+   * packages/services/Telephony/
+cfca66c Fix resource warnings.
+
+=======================
+     08-04-2019
+=======================
+
+
+=======================
+     08-03-2019
+=======================
+
+
+   * packages/apps/SmartNav/
+a16f932 Automatic translation import
+
+=======================
+     08-02-2019
+=======================
+
+
