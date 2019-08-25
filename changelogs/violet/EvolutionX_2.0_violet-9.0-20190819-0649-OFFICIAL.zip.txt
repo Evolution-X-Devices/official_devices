@@ -1,0 +1,500 @@
+=======================
+     08-19-2019
+=======================
+
+
+   * device/xiaomi/violet/
+127962f violet: evo changes
+50054d4 violet: Update dependencies
+37a313a violet: Drop creation of useless RFS symlinks
+752a934 violet: Don't ship libbtnv.so
+f1b8f1a violet: Update sensor stack from MIUI 9.8.15
+d75dc27 violet: update GPS HAL to LA.UM.7.1.r1-15800-sm8150.0
+0ea8428 violet: update vendor blobs from laurus V10.2.10.0.PFMCNXM
+
+   * frameworks/base/
+052d559 Automatic translation import
+
+   * prebuilts/clang/host/linux-x86/
+b2636c1 Update prebuilt Clang to r365631.
+
+   * vendor/qcom/opensource/interfaces/
+b09457a IDisplayConfig: Add interface to get attributes of active display
+
+   * vendor/xiaomi/violet/
+b8e4772 violet: Don't ship libbtnv.so
+1e01493 violet: Update sensor stack from MIUI 9.8.15
+31841bf violet: update vendor blobs from laurus V10.2.10.0.PFMCNXM
+
+=======================
+     08-18-2019
+=======================
+
+
+   * device/xiaomi/violet/
+3269fbf violet: update sha1sum for GPS blobs
+f72553e violet: import sensor configs from MIUI 9.8.15
+c26676a violet: rootdir: Turn down debugging on wpa_supplicant
+b1246e2 violet: Enable WIFI Aware
+45222ec violet: Import SVI configuration
+3e36f35 violet: rootdir: Override vendor.hwcomposer-2-2 service definition
+6c5c771 violet: Reformat fingerprint rc file
+d5d7574 violet: Set prop expected by the FM radio HAL
+6195a58 violet: Remove more obsolete system properties
+1dca4f5 violet: Drop the creation of deprecated system_data folders
+f652206 violet: Add QC location support
+e1280fd violet: gps: Disable xtwifi* services
+42154ff violet: Update vendor blobs from davinci
+f0f4558 violet: Uprev vendor.display.config to 1.7
+268fa69 violet: Update vendor CarrierConfig from MIUI 9.7.11
+caa27fe violet: Import missing learning module blobs
+ab15239 violet: configs: Adding min freq of 1.2Ghz for 480fps
+6c97c79 violet: Move powerhint.xml from vendor tree to device tree
+41a3c6a violet: Enable full dexpreopt
+4ba4c67 violet: Enable AAC frame control for A2DP
+a8b5c1c violet: Remove wcnss_filter and all references to it
+8754fff violet: releasetools: be more clear about firmware image patching
+c488f7f violet: Update Graphics stack from ZenFone 6
+
+   * vendor/xiaomi/violet/
+df863ff violet: import sensor configs from MIUI 9.8.15
+a0371a0 violet: Re-gen blobs from MIUI 9.8.15
+ea74f9f violet: Import SVI configuration
+202c431 violet: Update vendor blobs from davinci
+aad002b violet: Import missing learning module blobs
+4a46aed violet: Move powerhint.xml to device tree
+236bc53 violet: Update Graphics stack from ZenFone 6
+
+=======================
+     08-17-2019
+=======================
+
+
+   * frameworks/base/
+427f023 SystemUI: Tiny expanding improvement
+d888e7c FOD: change Windowmanager flags
+81a13d3 GamingMode Tile: Show "What's This?" on long click.
+a118366 GamingModeTile: stop adjusting volume
+af73804 SystemUI: Add Gaming mode tile
+3b11689 Revert "HeadsUpStatusBarView: account for rounded corner"
+90f38ad [SQUASH] Remove Gaming Mode [1/2]
+5e513b8 QS: LocationTile: make it cycle modes
+c1bc641 Revert "SystemUI: Advanced location tile"
+
+   * packages/apps/Evolution/
+3697655 Automatic translation import
+415146d [SQUASH] Remove Gaming Mode [2/2]
+
+   * packages/apps/Settings/
+c067328 Automatic translation import
+5891a0d Settings: Export ButtonSettings for QS tile
+680a1a3 Settings: Add activity to launch headsup settings fragment
+cd327dc Revert "GamingMode: Long press tile to open settings [2/2]"
+
+=======================
+     08-16-2019
+=======================
+
+
+   * packages/apps/SmartNavSettings/
+36376ce Automatic translation import
+
+   * packages/apps/Updates/
+7a04871 Automatic translation import
+
+   * vendor/themes/
+078d380 Automatic translation import
+
+=======================
+     08-15-2019
+=======================
+
+
+   * device/custom/sepolicy/
+543fe9a sepolicy: Smart Charging (3/4)
+
+   * frameworks/base/
+d595761 ColorDisplayService: change default night light brightness (2/2)
+7b82ead Smart Charging: Add reset battery stats option [1/2]
+34189df Smart Charging: Allow user set resume level [1/2]
+e4e353c Smart Charging: Change the Overlays for most devices
+ddf6ef7 Smart Charging: Allow using device overlays
+dd232e3 Smart Charging: Rework for using more common sysfs node [1/2]
+094e5881 base: Smart Charging (1/4)
+30e5ef3 Add Flashlight blink on incoming calls [1/3]
+354a96d Make status bar ticker play nice with center clock
+d0124ed Status bar notification ticker [1/2]
+e6e3f78 Safe headset volume option [1/2]
+
+   * packages/apps/Evolution/
+439939f Add Flashlight blink on incoming calls [2/3]
+88fe743 Status bar notification ticker [2/2]
+
+   * packages/apps/Settings/
+47920b1 Settings: change default night light brightness (1/2)
+9720f1d Night Light brightness mode options [2/2]
+a6271cb Smart Charging: Add reset battery stats option [2/2]
+bfd06d8 Smart Charging: Allow user set resume level [2/2]
+f5d1d7b Settings: Smart Charging (2/4)
+
+   * vendor/aosp/
+7b6d30d Smart Charging: Fix permissions
+460c5c4 Smart Charging: Chown all known charge suspend nodes
+2085b6d Smart Charging: Rework for using more common sysfs node [2/2]
+6d091e0 vendor: Smart Charging (4/4)
+
+=======================
+     08-14-2019
+=======================
+
+
+   * frameworks/base/
+11240df Revert "base: Add Pixel Navigation Bar's Home icon"
+
+   * packages/apps/Evolution/
+fbbf1f2 Safe headset volume option [2/2]
+
+   * packages/services/Telecomm/
+465d5b0 Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+=======================
+     08-13-2019
+=======================
+
+
+   * frameworks/base/
+7364128 FOD: prevent showing on auth error
+3cf0ddb SystemUI: Update ambient indication margin when fod is in use
+f91a0b0 SystemUI: Update keyguard indication margin when fod is in use
+b5a807b In-DisplayFingerprint: Update icon and add a separate one for enrolling
+65a87c5 Correction in logic of roundend size calculation of SD card
+110abb8 Q Clock: Remove stupid quotation marks
+
+   * packages/apps/Evolution/
+5c3f646 Automatic translation import
+d596091 Launch music player on headset connect: Fix strings for BT headset
+
+   * packages/apps/Settings/
+a66601a Settings: Add video to Double tap to trigger doze
+
+   * vendor/gapps/
+0a2e541 Go apps: Complete the set of Go apps
+
+=======================
+     08-12-2019
+=======================
+
+
+   * build/make/
+2fa42f2 build: Update contributors
+
+   * frameworks/base/
+9ee213b Revert "Config to disable power menu on secure lock screen [1/2]"
+
+   * manifest/
+24db30e manifest: Track more repos
+
+   * packages/apps/Settings/
+bf6bd1c Fix duplicate onPause after r46 merge
+63e7592 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into pie
+13ba733 Settings: Use new add icon button for bluetooth preferences
+0268b05 Settings: Use Q battery icon in battery usage screen
+67e1a14 Settings: Show full proc/version information
+5b95ebc Introduce MainlineModuleVersionPreferenceController
+dc8f2bc Introduce EvolutionVersionDetailPreferenceController
+5d60ffb Introduce SimpleBuildNumberPreferenceController
+67d28c6 Introduce KernelVersionPreferenceController
+b9c4fc0 Introduce BasebandVersionPreferenceController
+d215b23 Introduce SecurityPatchLevelPreferenceController
+2ae4cfc Introduce FirmwareVersionDetailPreferenceController
+4694181 Introduce FirmwareVersionSettings
+0e256b1 Revert "Settings: Append PixelExperience build date/type on build display id"
+b37649d Revert "Add Evolution X Logo to About Phone Section"
+acbf09f Revert "Settings: Add double tap to sleep"
+
+   * packages/apps/Updates/
+45d7562 Update canInstall boolean to fix OTA downloads
+1230568 Revert "Enable A/B perf mode by default"
+23cec9f Revert "Remove download speed on UpdatesListAdapter"
+
+   * vendor/aosp/
+2b8394a vendor: branding: Update version prop to show Evolution X version
+6133ce6 [Generate JSON Info] Make the generator suit the current OTA system needs
+
+=======================
+     08-11-2019
+=======================
+
+
+   * frameworks/native/
+05b0317 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into pie
+ef321bf media: Add support for level 6-6.2 for AVC
+3cf3538 Translate pointer motion events for One-hand UI Mode
+
+   * frameworks/opt/net/wifi/
+df12211 Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network
+2ea2e4e Wifi: Add support to configure HLP, DHCP and manageIpClient for FILS N/W
+16d4f5f Wifi: Introduce client interface for vendor supplicant 2.0
+
+   * kernel/xiaomi/sm6150/
+baa171f ANDROID: Revert "f2fs: avoid out-of-range memory access"
+
+=======================
+     08-10-2019
+=======================
+
+
+   * frameworks/base/
+b562619 wifi: Add APIs and keymgmt to support WPA3(DPP,SAE,OWE,SuiteB).
+d99d144 Wifi: Add FILS support in WifiConfiguration
+6e7f3d0 Wifi: Send DHCP DISCOVER with rapid commit
+3948cb1 Telephony: Add DisconnectCause values for clear code
+2c06132 Add synchronization for invokeForAllObservers call
+fb19c4e Clear all lingering notifications when network is disconnected
+4e122a9 Fixed NPE in RankingHelper.writeXml. Make sure that mRecords is operated with the object lock.
+095c542 Fix a 'memory leak'
+43225c6 aapt: Speed up the style pruning
+a472659 Clean receivers completely when forceStop the process
+e2a632c LatinIME: fix navigation bar for expanded desktop
+e74d192 ViewRootImpl: break out the loop when NPE caught
+5a833b5 BluetoothAdapter: disable logspew
+c4685a2 Reduce log verbosity: Don't spam logcat
+5715e62 The surface hang up when screen on and screen off
+c1f2328 Fix a bug where + before % is ignored
+88207f6 Fix NullPointerException in CaptivePortalLogin
+17e1f64 Workaround for wallpaper not shown correctly problem
+e1aca1d SystemUI: enhance alarm and calendar links
+e8b891a base: Add Pixel Navigation Bar's Home icon
+fa3b5d6 Base: fix facelock crash when lock screen is disabled
+374bae7 Fix Google dialer FC due to missing permissions
+6cd1404 BatteryMeterDrawableBase: Refresh only when value changed
+98a55f5 Avoid recording negative data
+6e0f58a QS: Navigation Bar tile
+a8ab394 Switch widgets away from android.text.format.Time
+85d732f Migrate telephony code away from Time
+6a5387f Remove unused class
+2a08be5 Remove unnecessary usage of deprecated Time class
+44e9caf Add a basic benchmark for android.text.format.Time
+d71584e Avoid use of DateUtilsBridge.icuTimeZone()
+0f350e5 Camera: Force HAL1 for predefined package list.
+e4a9244 Revert "Camera: Force HAL1 for predefined package list."
+328513c [SQUASH] Bring back working combined double tap to sleep gestures
+8ce02a3 TypographicClock: Tint top row with wallpaper primary color
+b135447 Revert "Q Style Clock: Animate change in time."
+
+   * kernel/xiaomi/sm6150/
+bf4caa4 Merge branch 'android-4.14-p' of https://android.googlesource.com/kernel/common into pie
+0f6bbb2 Merge 4.14.138 into android-4.14-p
+3ffe1e7 Linux 4.14.138
+afb8233 spi: bcm2835: Fix 3-wire mode if DMA is enabled
+55b2e92 cgroup: Fix css_task_iter_advance_css_set() cset skip condition
+ab34828 cgroup: css_task_iter_skip()'d iterators must be advanced before accessed
+feb6b12 cgroup: Include dying leaders with live threads in PROCS iterations
+b0af004 cgroup: Implement css_task_iter_skip()
+d7b538a cgroup: Call cgroup_release() before __exit_signal()
+c30c2b1 bnx2x: Disable multi-cos feature.
+e8a5ef2 mvpp2: refactor MTU change code
+f60c22f tun: mark small packets as owned by the tap sock
+ca04b1e net/mlx5e: Prevent encap flow counter update async to user query
+d3d448b compat_ioctl: pppoe: fix PPPOEIOCSFWD handling
+13e8254 tipc: compat: allow tipc commands without arguments
+8fe9cc0 NFC: nfcmrvl: fix gpio-handling regression
+9838c90 net: sched: Fix a possible null-pointer dereference in dequeue_func()
+e4140af net: phylink: Fix flow control for fixed-link
+f876b38 net/mlx5: Use reversed order when unregister devices
+a490d09 net: fix ifindex collision during namespace removal
+b674f7d net: bridge: mcast: don't delete permanent entries when fast leave is enabled
+fbe5e82 net: bridge: delete local fdb on device init failure
+6926655 ip6_tunnel: fix possible use-after-free on xmit
+7fcc60e ife: error out when nla attributes are empty
+12f036d atm: iphase: Fix Spectre v1 vulnerability
+c9f57f2 objtool: Add rewind_stack_do_exit() to the noreturn list
+779e18a objtool: Add machine_real_restart() to the noreturn list
+bad4cb5 IB: directly cast the sockaddr union to aockaddr
+4ee0a52 RDMA: Directly cast the sockaddr union to sockaddr
+a941d83 HID: Add quirk for HP X1200 PIXART OEM mouse
+b1cf596 HID: wacom: fix bit shift for Cintiq Companion 2
+86ba5fd arm64: cpufeature: Fix feature comparison for CTR_EL0.{CWG,ERG}
+8c3088f tcp: be more careful in tcp_fragment()
+ae72619 ARM: dts: Add pinmuxing for i2c2 and i2c3 for LogicPD torpedo
+e55d9fb ARM: dts: Add pinmuxing for i2c2 and i2c3 for LogicPD SOM-LV
+157a1f2 scsi: fcoe: Embed fc_rport_priv in fcoe_rport structure
+10b7b30 Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel into pie
+7c1cb7f Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into pie
+fb434dc Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into pie
+fafe76e Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into pie
+88f01bd Merge tag 'LA.UM.7.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into pie
+1278b5a Merge 'android-4.14-p' of https://android.googlesource.com/kernel/common
+
+   * packages/apps/Updates/
+6ca6a76 Updates: Rebase for Evolution X
+
+   * vendor/pixelstyle/
+9ca12e2 Fonts: Add and update even more fonts
+
+=======================
+     08-09-2019
+=======================
+
+
+   * packages/apps/Evolution/
+3089a22 qs-alpha: Fix lockup when changing qs
+
+=======================
+     08-08-2019
+=======================
+
+
+   * device/xiaomi/violet/
+84cbb38 violet: Update DRM stack from davinci
+dfca30b violet: Drop useless color mode support
+ae2797b violet: Use oneplus 7 vibration pattern
+5046870 Revert "Revert "sdm845-common: Add QCOM's WFD implementation""
+4f1cf24 violet: Remove deprecated cmdline option
+
+=======================
+     08-07-2019
+=======================
+
+
+   * frameworks/base/
+bb3376a SystemUI: Use appropriate function when trying to retrieve colorError
+e4ac3d0 NexusLauncherPrebuilt needs setShelfHeight, remove the permissions check, because seriously who gives a fuck
+c6ba4aa SystemUI: fix constant FC on certain devices
+
+   * hardware/qcom/audio-caf/msm8916/
+e3e1198 hal: Always build msim voice extension
+6a8311c hal: msim_voice_extn: Set msim_phone based on phone_type parameter
+63e919c hal: msim_voice_extn: Use an enum for keeping track of the current SIM
+1c7f781 hal: Add support for Samsung dual-SIM implementation
+
+   * kernel/xiaomi/sm6150/
+0bcd256 Merge 4.14.137 into android-4.14-p
+b19ffe6 Linux 4.14.137
+d418706 Documentation: Add swapgs description to the Spectre v1 documentation
+c4e6262 x86/speculation/swapgs: Exclude ATOMs from speculation through SWAPGS
+ee524c1 x86/speculation: Enable Spectre v1 swapgs mitigations
+83e6e48 x86/speculation: Prepare entry code for Spectre v1 swapgs mitigations
+d63c2a9 x86/cpufeatures: Combine word 11 and 12 into a new scattered features word
+091c026 x86/cpufeatures: Carve out CQM features retrieval
+2c04e80 x86/vdso: Prevent segfaults due to hoisted vclock reads
+f73e824 gcc-9: properly declare the {pv,hv}clock_page storage
+a22c637 objtool: Support GCC 9 cold subfunction naming scheme
+321d657 eeprom: at24: make spd world-readable again
+5ba28ec IB/hfi1: Check for error on call to alloc_rsm_map_table
+d8bd04e IB/mlx5: Fix RSS Toeplitz setup to be aligned with the HW specification
+fcfb397 IB/mlx5: Move MRs to a kernel PD when freeing them to the MR cache
+7d9a437 IB/mlx5: Use direct mkey destroy command upon UMR unreg failure
+3b68fe2 IB/mlx5: Fix unreg_umr to ignore the mkey state
+40585ce xen/swiotlb: fix condition for calling xen_destroy_contiguous_region()
+c3938ee nbd: replace kill_bdev() with __invalidate_device() again
+1cc390b drivers/perf: arm_pmu: Fix failure path in PM notifier
+45842c3 parisc: Fix build of compressed kernel even with debug enabled
+8b2c701 s390/dasd: fix endless loop after read unit address configuration
+9e5928f selinux: fix memory leak in policydb_init()
+683dbbe IB/hfi1: Fix Spectre v1 vulnerability
+2a14a26 gpiolib: fix incorrect IRQ requesting of an active-low lineevent
+bdbe5dc mmc: dw_mmc: Fix occasional hang after tuning on eMMC
+66a25e3 Btrfs: fix race leading to fs corruption after transaction abort
+dd10423 Btrfs: fix incremental send failure after deduplication
+3e1332c kbuild: initialize CLANG_FLAGS correctly in the top Makefile
+b92f12c drm/nouveau: fix memory leak in nouveau_conn_reset()
+1567b8a x86, boot: Remove multiple copy of static function sanitize_boot_params()
+c84ee72 x86/paravirt: Fix callee-saved function ELF sizes
+54dcd8c x86/kvm: Don't call kvm_spurious_fault() from .fixup
+7cb3e164 xen/pv: Fix a boot up hang revealed by int3 self test
+8e993f7 ipc/mqueue.c: only perform resource calculation if user valid
+29d2cea drivers/rapidio/devices/rio_mport_cdev.c: NUL terminate some strings
+e24aea6 uapi linux/coda_psdev.h: move upc_req definition from uapi to kernel side headers
+49df626 coda: fix build using bare-metal toolchain
+dc9b9b5 coda: add error handling for fget
+2aca945 mm/cma.c: fail if fixed declaration can't be honored
+ca5732b x86: math-emu: Hide clang warnings for 16-bit overflow
+fc22ec80 x86/apic: Silence -Wtype-limits compiler warnings
+f46c7e6 be2net: Signal that the device cannot transmit during reconfiguration
+a281bca ACPI: fix false-positive -Wuninitialized warning
+9e5ba38 x86: kvm: avoid constant-conversion warning
+120704b scsi: zfcp: fix GCC compiler warning emitted with -Wmaybe-uninitialized
+0bba80b ACPI: blacklist: fix clang warning for unused DMI table
+a065f66 ceph: return -ERANGE if virtual xattr value didn't fit in buffer
+64672c1 ceph: fix improper use of smp_mb__before_atomic()
+443aeb7 cifs: Fix a race condition with cifs_echo_request
+ff35fc5 btrfs: fix minimum number of chunk errors for DUP
+72d9c89 fs/adfs: super: fix use-after-free bug
+d0144ce clk: tegra210: fix PLLU and PLLU_OUT1
+641b87a dmaengine: rcar-dmac: Reject zero-length slave DMA requests
+6debf98 MIPS: lantiq: Fix bitfield masking
+902d0ba kernel/module.c: Only return -EEXIST for modules that have finished loading
+6b0e895 ftrace: Enable trampoline when rec count returns back to one
+ce9adca ARM: dts: rockchip: Mark that the rk3288 timer might stop in suspend
+bbaf72c ARM: dts: rockchip: Make rk3288-veyron-mickey's emmc work again
+0f60f99 ARM: dts: rockchip: Make rk3288-veyron-minnie run at hs200
+ff1b2be ARM: riscpc: fix DMA
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+6d96848 Prevent OOB Read in Mfc_Transceive
+597f5c6 Prevent OOB write in Mfc_Transceive
+a36d991 Prevent OOB write in phFriNfc_ExtnsTransceive
+524414f Skip setEnableHostRouting when switching to screen off
+
+   * vendor/qcom/opensource/audio/
+36f37fd AudioPolicyManager: fix build after r46 merge
+
+=======================
+     08-06-2019
+=======================
+
+   * art/
+0ef4604 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/art into pie
+
+   * build/make/
+e4f33be Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/build into pie
+
+   * frameworks/av/
+14f7b47 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into pie
+
+   * frameworks/base/
+f07e041 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into pie
+26acbad Automatic translation import
+28259a5 Fix type header clock strings for Q Clock
+ed1909a Fix property setting with failure
+62aae2d Check if EIMS when confirming network
+cbe4abc null check before accessing getCurrentScore()
+6f40f0f net: modify connecitvity rematch logic to support MSIM devices
+4bda9eb Use proper coded alphabet when a contact is written into EF_ADN of USIM.
+54051ce Add config to disable CDMA call forward/waiting
+67b2805 SMS: Parsing of CDMA MMS notification carried by SMS
+24a6f89 BT: Send info if call is CS type from telecomm service to BT apps.
+1d33b8a Emergency SMS carrier config flag
+220bb08 Add ICCID into CarrierIdentifier
+730710e frameworks/base: Add HDMI hotplug handling
+e05115c CamcorderProfile: Add 1440p camcorder profile
+4c4b35f CamcorderProfiles: Add new profiles for recorder
+c41dec1 BT: Adding aptX-Adaptive codec entry to Framework
+f1d1919 Wallpaper is half black after rotating quickly
+
+   * manifest/
+6ff4ae5 Merge branch 'android-9.0.0_r46' of https://android.googlesource.com/platform/manifest into pie
+ee59eca Manifest for Android 9.0.0 Release 46 (PQ3A.190801.002)
+
+   * packages/apps/Bluetooth/
+4a46c9f Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie
+4915732 Fix null pointer exception on AvrcpTargetService
+187afa0 Assume optional codecs are supported if were supported previously
+488314e SBC Dual Channel (SBC HD Audio) support
+
+   * packages/apps/Nfc/
+3f52e9a Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Nfc into pie
+
+   * packages/services/Telecomm/
+8533257 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telecomm into pie
+
+   * system/bt/
+c9ee8ad Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * vendor/aosp/
+1eed36e vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission
+
+   * vendor/xiaomi/violet/
+14be374 violet: Update DRM stack from davinci
+

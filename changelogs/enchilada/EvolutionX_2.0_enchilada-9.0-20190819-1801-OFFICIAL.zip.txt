@@ -1,0 +1,21 @@
+August 16-17
+- Bring back old Gaming Mode QS tile
+- Fix HW Keys QS tile long press behavior
+- Remove Gaming Mode settings
+- Revert Location QS tile to old behavior
+
+August 14
+- Add Flashlight blink on incoming calls option
+- Add Night Light brightness modes (fixes brightness lowering when turning on Night Light)
+- Add Safe headset volume option
+- Add Smart charging support
+- Add Status bar notification ticker
+
+
+Device side
+- Removed hal1 for WA
+- Added Livewalls from OP7P
+- Added OOS gallery 
+- Enabled smart charging
+- compile libhwui in perf mode 
+- Enable QC combo NLP

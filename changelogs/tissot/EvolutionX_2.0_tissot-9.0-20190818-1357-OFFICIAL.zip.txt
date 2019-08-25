@@ -1,0 +1,7 @@
+- Fix Smart charging (make it work properly)
+- Fix Status bar notification ticker FC issue
+- Fix Long press behavior for HW keys QS tile
+- Remove Gaming Mode options
+- Revert to old Gaming Mode QS tile
+- Revert to old Location QS tile behavior
+- Update translations

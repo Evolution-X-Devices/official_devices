@@ -1,4 +1,4 @@
-![Evolution X](https://github.com/Evolution-X/platform_manifest/raw/pie/BannerLight.png)
+![Evolution X](https://github.com/Evolution-X/platform_manifest/raw/pie/EvoBanner.png)
 
 [![Download Evolution X](https://img.shields.io/sourceforge/dt/evolution-x.svg)](https://sourceforge.net/projects/evolution-x/files/latest/download)
 

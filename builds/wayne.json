@@ -1,16 +1,17 @@
 {
-   "error": false,
-   "filename": "EvolutionX_wayne-9.0-20190708-1425-OFFICIAL.zip",
-   "datetime": "1562595893",
-   "size": "1032519032",
-   "url": "https://sourceforge.net/projects/evolution-x/files/wayne/EvolutionX_wayne-9.0-20190708-1425-OFFICIAL.zip/download",
-   "filehash": "36ba2e124517a64f9b09efd3020eb382",
+   "error": "false",
+   "filename": "EvolutionX_2.0_wayne-9.0-20190810-1739-OFFICIAL.zip",
+   "datetime": "1565458732",
+   "size": 973063437,
+   "url": "https://sourceforge.net/projects/evolution-x/files/wayne/EvolutionX_2.0_wayne-9.0-20190810-1739-OFFICIAL.zip",
+   "filehash": "e3bfb31133e4d6383fe3d701870074d2",
    "version": "Pie",
-   "id": "884d9bee0d326300458da091f9bcd33aad9460814f386a65b0ce5b3f61015ee6",
+   "id": "6e71e9a513fc740e355cbe8fa410fbf97debee7081bd3cb4dd9108c4b66f3483",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/joeyhuab",
    "maintainer": "rebenok90x",
    "maintainer_url": "https://github.com/rebenok90x",
-   "telegram_username": "rebenok90x"
+   "telegram_username": "rebenok90x",
+   "forum_url": "https://forum.xda-developers.com/mi-a2/xiaomi-6x-wayne/rom-evolution-x-2-0-t3938007"
 }

@@ -1,0 +1,974 @@
+=======================
+     08-11-2019
+=======================
+
+
+   * device/qcom/sepolicy-legacy/
+4f5c8a6 common: permit libqdutils operation (linked by mediaserver) during WFD
+
+   * device/xiaomi/wayne/
+7071cb2 Update deps
+068c7a7 wayne: prepare for evo
+
+   * device/xiaomi/wayne-common/
+0f436fb Ignore Neverallows
+9be0d96 fix
+
+   * frameworks/av/
+4b576062a Do not select direct output for same profile
+9459c26b7 Set default value to mAttributes in AudioTrack
+541d6635e audiopolicy: Fix potential memory leak.
+596e145c3 audioflinger: Fix audio for WifiDisplay
+8dc38ad45 libstagefright_wfd: video encoder does not actually release MediaBufferBase when done
+28abae567 stagefright: Fix buffer handle retrieval in signalBufferReturned
+7fdf05975 stagefright: Fix SurfaceMediaSource getting handle from wrong position issue
+f3fcd115a libstagefright_wfd: libmediaplayer2: compilation fixes
+d28cb9fca Revert "stagefright: remove Miracast sender code"
+36f3cc0fa Revert "Removed unused class and its test"
+
+   * frameworks/base/
+397b1a82ab1 Automatic translation import
+b562619666d wifi: Add APIs and keymgmt to support WPA3(DPP,SAE,OWE,SuiteB).
+d99d144bd87 Wifi: Add FILS support in WifiConfiguration
+6e7f3d029bf Wifi: Send DHCP DISCOVER with rapid commit
+3948cb1b19c Telephony: Add DisconnectCause values for clear code
+2c061326446 Add synchronization for invokeForAllObservers call
+fb19c4e56c2 Clear all lingering notifications when network is disconnected
+4e122a953f4 Fixed NPE in RankingHelper.writeXml. Make sure that mRecords is operated with the object lock.
+095c542ee4a Fix a 'memory leak'
+43225c653d4 aapt: Speed up the style pruning
+a472659faa6 Clean receivers completely when forceStop the process
+e2a632c5cfc LatinIME: fix navigation bar for expanded desktop
+e74d1926bc0 ViewRootImpl: break out the loop when NPE caught
+5a833b5259e BluetoothAdapter: disable logspew
+c4685a2d217 Reduce log verbosity: Don't spam logcat
+5715e624b04 The surface hang up when screen on and screen off
+c1f2328fa94 Fix a bug where + before % is ignored
+88207f6b37c Fix NullPointerException in CaptivePortalLogin
+17e1f644dd8 Workaround for wallpaper not shown correctly problem
+e1aca1d15f0 SystemUI: enhance alarm and calendar links
+e8b891ae873 base: Add Pixel Navigation Bar's Home icon
+fa3b5d6a891 Base: fix facelock crash when lock screen is disabled
+374bae77e12 Fix Google dialer FC due to missing permissions
+6cd14042522 BatteryMeterDrawableBase: Refresh only when value changed
+98a55f56a2e Avoid recording negative data
+6e0f58ae3a5 QS: Navigation Bar tile
+a8ab394b993 Switch widgets away from android.text.format.Time
+85d732f85b0 Migrate telephony code away from Time
+6a5387f6cfd Remove unused class
+2a08be52522 Remove unnecessary usage of deprecated Time class
+44e9cafb967 Add a basic benchmark for android.text.format.Time
+d71584e536f Avoid use of DateUtilsBridge.icuTimeZone()
+0f350e53e9d Camera: Force HAL1 for predefined package list.
+e4a9244cf2e Revert "Camera: Force HAL1 for predefined package list."
+
+   * frameworks/native/
+05b031737 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into pie
+ef321bf43 media: Add support for level 6-6.2 for AVC
+3cf353807 Translate pointer motion events for One-hand UI Mode
+
+   * frameworks/opt/net/wifi/
+df122112e Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network
+2ea2e4e7d Wifi: Add support to configure HLP, DHCP and manageIpClient for FILS N/W
+16d4f5fdc Wifi: Introduce client interface for vendor supplicant 2.0
+
+   * manifest/
+da01f12 manifest: Track more repos
+
+   * packages/apps/Evolution/
+3fc8e0b Automatic translation import
+
+   * packages/apps/Settings/
+5211d6242c Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+896bdf7 Automatic translation import
+
+   * packages/apps/Updates/
+4598caf Automatic translation import
+6ca6a76 Updates: Rebase for Evolution X
+
+   * vendor/themes/
+451b08f Automatic translation import
+
+   * vendor/xiaomi/
+29ba59cc wayne: Import wayne & wayne-common vendor
+d435f07d sdm845-common: Remove wcnss_filter and its dependecies
+0b2b1df9 sdm845-common: Decommonize ACDB loader libraries
+d5cc146a equuleus: Add initial vendor blobs
+
+=======================
+     08-10-2019
+=======================
+
+
+   * frameworks/base/
+328513cdec6 [SQUASH] Bring back working combined double tap to sleep gestures
+8ce02a3a3a9 TypographicClock: Tint top row with wallpaper primary color
+b135447e771 Revert "Q Style Clock: Animate change in time."
+
+   * kernel/xiaomi/wayne-common/
+1291b9d9a752 fix build
+bd5213454725 Added fsync on/off support.
+3ff9091f7960 input: update hall sensor driver from pie source Also cleanup a bit, and enable in defconfig Signed-off-by: Akhil Narang <akhilnarang.1999@gmail.com>
+ac5d573e5660 md: disable dm-verity
+24069cbbb16f arm: DT: SDM660: Do not include CAF's batterydata dtsi files
+
+   * packages/apps/Evolution/
+7a8155a Evolution: Rework QS alpha slider
+3089a22 qs-alpha: Fix lockup when changing qs
+
+   * packages/apps/Settings/
+123fdc278a Settings: Use new add icon button for bluetooth preferences
+
+   * vendor/aosp/
+99aec5cf [Generate JSON Info] Make the generator suit the current OTA system needs
+eeca729d vendor: branding: Update version prop to show Evolution X version
+
+   * vendor/pixelstyle/
+9ca12e2 Fonts: Add and update even more fonts
+
+=======================
+     08-09-2019
+=======================
+
+
+   * kernel/xiaomi/wayne-common/
+2185e0c7277c новая форма для физры
+3a13216cd97b sdm660: add neon_defconfig
+203b3b6f29af include: msm_mdp: Set MDSS_MAX_BL_BRIGHTNESS to 4095 for wayne
+7a312493bb93 block: Introduce Anxiety I/O Scheduler
+636bbd5d03bc arch: Add wayne support
+
+   * packages/apps/Settings/
+618beb5d28 Settings: Use Q battery icon in battery usage screen
+c6fcf458e2 Settings: Show full proc/version information
+4c1a6647bd Add device model on about phone Build number preference
+c5b0b3ea3b Introduce EvolutionVersionDetailPreferenceController
+4f6aeebdc5 Introduce MainlineModuleVersionPreferenceController
+d1bb54dace Introduce SimpleBuildNumberPreferenceController
+1587fd4bb1 Introduce KernelVersionPreferenceController
+a8dd66a1ae Introduce BasebandVersionPreferenceController
+6eb4289c23 Introduce SecurityPatchLevelPreferenceController
+ac0f0c9001 Introduce FirmwareVersionDetailPreferenceController
+a6a18dc9bf Introduce FirmwareVersionSettings
+
+=======================
+     08-08-2019
+=======================
+
+
+   * device/xiaomi/wayne-common/
+778aebc jasmine_sprout: Convert to wayne-common tree
+365ee20 jasmine_sprout: Migrate from system.prop to system_prop.mk
+
+   * frameworks/base/
+bb3376a4f3e SystemUI: Use appropriate function when trying to retrieve colorError
+e4ac3d02c85 NexusLauncherPrebuilt needs setShelfHeight, remove the permissions check, because seriously who gives a fuck
+
+   * packages/apps/Settings/
+8f88229502 Fix duplicate onPause after r46 merge
+3ee9654d33 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into pie
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+524414fb Skip setEnableHostRouting when switching to screen off
+
+=======================
+     08-07-2019
+=======================
+
+   * art/
+0ef4604f57 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/art into pie
+
+   * build/make/
+e4f33be4e Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/build into pie
+
+   * device/xiaomi/wayne/
+fda2636 wayne: Add initial device tree files
+
+   * device/xiaomi/wayne-common/
+636c4ce jasmine_sprout: wifi: Drop persistent_reconnect
+6d4f774 jasmine_sprout: overlay: Enable doze auto brightness
+
+   * frameworks/av/
+14f7b47af Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into pie
+
+   * frameworks/base/
+c6ba4aacc94 SystemUI: fix constant FC on certain devices
+f07e0419c21 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into pie
+
+   * hardware/qcom/audio-caf/msm8916/
+e3e1198 hal: Always build msim voice extension
+6a8311c hal: msim_voice_extn: Set msim_phone based on phone_type parameter
+63e919c hal: msim_voice_extn: Use an enum for keeping track of the current SIM
+1c7f781 hal: Add support for Samsung dual-SIM implementation
+
+   * kernel/xiaomi/wayne-common/
+01d5fee0628f Merge 4.4.188 into kernel.lnx.4.4.r37-rel
+d63f4f2588b2 Linux 4.4.188
+430c54323a3f xen/swiotlb: fix condition for calling xen_destroy_contiguous_region()
+e1a785b02384 s390/dasd: fix endless loop after read unit address configuration
+b65cc16ce2a7 selinux: fix memory leak in policydb_init()
+1579cc8253b7 x86/kvm: Don't call kvm_spurious_fault() from .fixup
+793cbeb94830 ipc/mqueue.c: only perform resource calculation if user valid
+df8a9e5c9a26 uapi linux/coda_psdev.h: move upc_req definition from uapi to kernel side headers
+6465186ac843 coda: fix build using bare-metal toolchain
+f000a5711e91 coda: add error handling for fget
+6e48d7596650 mm/cma.c: fail if fixed declaration can't be honored
+7d804b0f2df3 x86: math-emu: Hide clang warnings for 16-bit overflow
+178173632fd1 x86/apic: Silence -Wtype-limits compiler warnings
+85ba09a0da3e be2net: Signal that the device cannot transmit during reconfiguration
+9a8b327b7e7b ACPI: fix false-positive -Wuninitialized warning
+ad96d13da411 scsi: zfcp: fix GCC compiler warning emitted with -Wmaybe-uninitialized
+4d8583e7fbc6 ceph: fix improper use of smp_mb__before_atomic()
+9178a9dd4389 btrfs: fix minimum number of chunk errors for DUP
+a5e8659098aa fs/adfs: super: fix use-after-free bug
+6aaace574aca dmaengine: rcar-dmac: Reject zero-length slave DMA requests
+2bd828014a4b MIPS: lantiq: Fix bitfield masking
+0e505a100977 kernel/module.c: Only return -EEXIST for modules that have finished loading
+c0073ed56028 ARM: dts: rockchip: Mark that the rk3288 timer might stop in suspend
+38d122a96cca ARM: riscpc: fix DMA
+
+   * manifest/
+6ff4ae5 Merge branch 'android-9.0.0_r46' of https://android.googlesource.com/platform/manifest into pie
+
+   * packages/apps/Bluetooth/
+4a46c9fe Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into pie
+49157329 Fix null pointer exception on AvrcpTargetService
+187afa03 Assume optional codecs are supported if were supported previously
+488314eb SBC Dual Channel (SBC HD Audio) support
+
+   * packages/apps/Nfc/
+3f52e9a7 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Nfc into pie
+
+   * packages/services/Telecomm/
+85332576 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telecomm into pie
+
+   * system/bt/
+c9ee8ad28 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * system/libhidl/
+fff8319 Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/system/libhidl into HEAD
+
+   * vendor/aosp/
+1eed36e1 vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission
+
+   * vendor/qcom/opensource/audio/
+36f37fd AudioPolicyManager: fix build after r46 merge
+
+=======================
+     08-06-2019
+=======================
+
+
+   * frameworks/base/
+26acbade9da Automatic translation import
+28259a5eaab Fix type header clock strings for Q Clock
+ed1909a3ad2 Fix property setting with failure
+62aae2d5eba Check if EIMS when confirming network
+cbe4abcbea5 null check before accessing getCurrentScore()
+6f40f0fb22c net: modify connecitvity rematch logic to support MSIM devices
+4bda9ebbcdc Use proper coded alphabet when a contact is written into EF_ADN of USIM.
+54051ce097b Add config to disable CDMA call forward/waiting
+67b2805f707 SMS: Parsing of CDMA MMS notification carried by SMS
+24a6f8979b7 BT: Send info if call is CS type from telecomm service to BT apps.
+1d33b8ab8df Emergency SMS carrier config flag
+220bb08fd66 Add ICCID into CarrierIdentifier
+730710eee58 frameworks/base: Add HDMI hotplug handling
+e05115c48b8 CamcorderProfile: Add 1440p camcorder profile
+4c4b35f7117 CamcorderProfiles: Add new profiles for recorder
+c41dec19155 BT: Adding aptX-Adaptive codec entry to Framework
+f1d191996c1 Wallpaper is half black after rotating quickly
+805772eb1c3 GamingMode: Clean up for dynamic mode
+
+   * kernel/xiaomi/wayne-common/
+a871bdcd384e iommu: msm: Rewrite to improve clarity and performance
+8ae09f7b7f0f msm: mdss: Fix uninitialized vsync_time in mdss_mdp_cmd_pingpong_done
+070dc64f4bd9 qcacld-3.0: Remove unused parameter from process_rx_public_action_frame
+af69e63c01a7 msm: sps: Fix uninitialized result usage when an invalid IRQ is found
+fb3949daeb35 arm64: arch_timer: simplify accessors
+cd4acac293b4 ANDROID: binder: correct the cmd print for BINDER_WORK_RETURN_ERROR
+43593bc95f19 binder: fix incorrect cmd to binder_stat_br
+8f262279a391 fib_rules: Fix payload calculation
+be5b099da48e net/ipv4: fib_trie: Avoid cryptic ternary expressions
+0ae3fb936e4d lib: Kconfig.debug: Remove debug dependency from SCHED_STACK_END_CHECK
+4fba5a0e92b5 ANDROID: sdcardfs: Allocate temporary name buffer on the stack
+5279e9da354d kobject_uevent: Allocate environment buffer on the stack
+e5c37af9bd1b ion: system_heap: Speed up system heap allocations
+860fbaf7fbf8 ANDROID: crypto: heh - Avoid dynamically allocating memory for keys
+19e1fed8e681 ext4: Avoid dynamically allocating memory in ext4_ext_remove_space
+cc04f5a2997b xattr: Avoid dynamically allocating memory in getxattr
+d7405ce4a274 binfmt_elf: Don't allocate memory dynamically in load_elf_binary
+a6213ac4303d staging: sync: Use an on-stack allocation for fence info ioctl
+84fadbdb433c media: v4l2-ioctl: Use larger on-stack video copy buffers
+011a12504c63 msm: camera: Optimize memory allocation for small buffers
+7ebca4d8a2ed msm: kgsl: Don't allocate memory dynamically for temp command buffers
+943ac253eb75 msm: mdss: Don't allocate memory dynamically for small layer buffers
+f0201481152f ext4 crypto: Use a larger on-stack file name buffer
+d66646430eb0 selinux: Avoid dynamic memory allocation for small context buffers
+5b9244283f55 kernfs: Avoid dynamic memory allocation for small write buffers
+4dd267508697 msm: kgsl: Avoid dynamically allocating small command buffers
+246ec29b3977 jasmine_defconfig: Disable stack frame size warning
+fc4f7f031c09 ext4: Allocate allocation-context on the stack
+3964925f5a60 scatterlist: Don't allocate sg lists using __get_free_page
+7917d3a9284b mbcache2: Speed up cache entry creation
+0586e08c1ca5 msm: mdss: Don't allocate memory dynamically for destination scaler
+1465f081a578 jasmine_defconfig: Disable SMACK and Integrity security suites
+32fab8a7a787 ion: Overhaul for vastly improved clarity and performance
+f62a84510d78 Revert "staging: android: ion: fix ION_IOC_IMPORT use-after-free"
+3e3181eae3d9 Revert "ion: Convert allocation counters to long"
+85194d279f64 Revert "ion: revert downstream fix for debugfs synchronization"
+6c50fbf717b7 Revert "ion:synchronize debugfs callback and ion_client_destroy"
+911e7743d4f4 dmaengine: Fix memory leak in dma_async_device_register
+b946e9754443 iommu: arm-smmu: Free pgtbl ops when domain contexts are destroyed
+22cd9af7db28 ALSA: control_compat: Don't dynamically allocate single-use structs
+f15125848ad5 msm: kgsl: Don't allocate memory dynamically for drawobj sync structs
+76c5ffc7916a msm: kgsl: Don't try to wait for fences that have been signaled
+ed07b1ce65eb staging: sync: Add a function to check if a fence has been signaled
+33457d857133 msm: kgsl: Mark dispatcher thread as performance-critical
+a9fcc7c53351 msm: kgsl: Dispatch commands using a master kthread
+ecd36b877cd8 Revert "msm: kgsl: Defer issue commands to worker thread"
+64eacf9a711e binder: Reserve caches for small, high-frequency memory allocations
+f13cb2ee9c9d staging: android: ashmem: Get rid of the big mutex lock
+8974248d35be msm: camera: Undo pm_qos request upon error
+822ffecca8e5 kernel: Don't allow IRQ affinity masks to have more than one CPU
+17a7e5b62245 jasmine_defconfig: Disable SEEMP
+7a02d04da377 cpuidle: Optimize pm_qos notifier callback
+15d5b5373d98 qos: Execute notifier callbacks atomically
+dd59c51efca7 qos: Don't disable interrupts while holding pm_qos_lock
+442e8ef8e192 jasmine_defconfig: Use Simple LMK
+ae246ea9bea8 simple_lmk: Mark reclaim kthread as performance critical
+fd1d40cf8a63 simple_lmk: Introduce Simple Low Memory Killer for Android
+8b2b35899a7e cpuidle: lpm-levels: Remove debug event logging
+f6d85d6b6aa4 staging: sync: Remove fence names by default
+66fc047327e5 msm: mdss: Speed up mdss_mdp_get_format_params for UBWC formats
+52661c0d419a qos: Don't allow userspace to impose restrictions on CPU idle levels
+96dd42bed236 msm: kgsl: Relax CPU latency requirements to save power
+257030be0445 cpuidle: lpm-levels: Allow exit latencies equal to target latencies
+d110ccf8c914 msm: kgsl: Remove sync debug name generation from hot path
+6dee3076f155 msm: mdss: Remove sync debug name generation from hot path
+2c80d0e63a3f jasmine_defconfig: Disable audit support
+c45d89978dc0 selinux: Remove audit dependency
+845ab0d34154 msm: clock-osm: Use CLKFLAG_NO_RATE_CACHE for pwrcl and perfcl clk
+1d87bbabe742 msm: kgsl: Increase worker thread priority
+9c83efafbfcf msm: kgsl: Remove POPP
+c768bbbb94c5 msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input
+0c0b293329dd ARM: dts: sdm660: Set GPU idle timeout to 64 ms
+dafd7f8a933c msm: ipa3: Fix redundant wakelock releases in error paths
+9531528b0e3d msm: pcie: Fix uninitialized pointer usage in msm_pcie_debug_info()
+d61c8ebd9e79 msm: camera: isp: Fix memory leaks in vfe probe
+d8a0a71b861f msm: mdss: Don't cache the address of a stack variable in timings init
+3e1aa36d8bc7 soc: qcom: watchdog_v2: Fix memory leaks when memory_dump_v2 isn't built
+5cd0bc1fa0c3 input: fpc1020: Mark IRQ as performance critical
+1e5fb7e3a5cf msm: mdss: Mark IRQ and important kthreads as performance critical
+5509d420ff63 msm: kgsl: Mark IRQ and worker thread as performance critical
+8f9bcb7f495e kernel: Add API to mark IRQs and kthreads as performance critical
+e74213a65ec3 jasmine_defconfig: Populate cluster CPU bitmasks for sdm660
+2bb670f88fa2 cpumask: Add cpumasks for big and LITTLE CPU clusters
+a6ff7bc5cb13 pinctrl: qcom: Update irq handle for GPIO pins
+548483e1af5c crypto: Make CRYPTO_DEV_QCE depend on CRYPTO_DEV_QCRYPTO being disabled
+a8610fe8ec7f cpuidle: don't disable cpuidle when entering suspend
+adc63010ed50 msm: msm_bus: Don't enable QoS clocks when none are present
+64a7f3f4f88e msm: mdss: add idle state node
+ca02298b8468 sched: deadline: Fix another CAF mismerge of 8623286 and ec888d4
+b864970b5971 sched: rt: fix CAF mismerge of 8623286277c31443d38a024de85adab973498664 and ec888d46d8993b2bf205ed375e538a3819c23659
+cc0041c4d34e Revert "ANDROID: sched: Disable TTWU_QUEUE by default"
+8b648bb3ce50 sched/fair: Move the PELT constants into a generated header
+7caa891df51f FROMLIST: sched/rt: add utilization tracking
+9d03ee84edd5 sched: fair: Add strict skip buddy support
+fd796f67eaa2 sched/pelt: Skip updating util_est when utilization is higher than CPU's capacity
+601734b5b03c ANDROID: cpufreq: provide default frequency-invariance setter function
+4cc11676e959 qcom-cpufreq: Notify the current frequency to the topology driver
+567e8656f9c4 jasmine_defconfig: Disable CPU_BOOST, APSS_CORE_EA & MSM_PERFORMANCE
+8840880d0913 jasmine_defconfig: Disable Interactive cpufreq governor
+840f9249fddb jasmine_defconfig: Enable Schedutil cpufreq governor
+1dc8aacabc98 jasmine_defconfig: Enable Energy Aware Scheduling by default
+c3b8e82d9414 jasmine_defconfig: Remove HMP and core_ctl
+1b57f76d1558 FROMLIST: sched: force update of blocked load of idle cpus
+c50896d2e61a sched/fair: Fix false running accounting
+53ada2ed3648 BACKPORT: sched/fair: Fix cpu_util_wake() for 'execl' type  workloads
+137bb7b30d7f sched/fair: Increase PELT accuracy for small tasks
+9c88cd51c519 sched/fair: Explicitly generate __update_load_avg() instances
+5e3e1b748698 sched/fair: Fix corner case in __accumulate_sum()
+5cb8405a7cc1 sched/fair: Optimize ___update_sched_avg()
+774a8ad6e17d CONFIG: use 16ms PELT's half-life
+a90e780697e8 sched/fair: Add support to tune PELT ramp/decay timings
+20901a8ce8e2 BACKPORT: sched/fair: Update util_est before updating schedutil
+9e3fc225fc6c sched/fair: Update util_est only on util_avg updates
+373ef4aecd10 sched/fair: Use util_est in LB and WU paths
+d9db78690ec5 sched/fair: Add util_est on top of PELT
+bd1853d68929 sched: EAS: Initialize push_task as NULL to avoid direct reference on out_unlock path
+ff213fd1b381 FROMLIST: sched: Make iowait_boost optional in schedutil
+d85266cd56f9 FROMLIST: cpufreq: Make iowait boost a policy option
+be7fc82439e3 sched/fair: Fix issue where frequency update not skipped
+dd625e5a2d09 sched/fair: Skip frequency updates if CPU about to idle
+7c193dc7e56b sched: EAS: upmigrate misfit current task
+65532acc0024 sched: EAS: kill incorrect nohz idle cpu kick
+d13c5603de7a sched/fair: kick nohz idle balance for misfit task
+5c130fad0ceb sched: Extend active balance to accept 'push_task' argument
+9ae8e8bd6373 sched: deadline: Add missing WALT code
+636d79235279 sched/walt: use do_div instead of division operator
+1c219a8b2375 sched: WALT: account cumulative window demand
+3f37332d190b sched: Add missing WALT code
+43f5a6098614 ARM: dts: sdm660: Add calculated EAS energy model
+f8115c7cddac sched: energy: calculate and update CPU capacity dynamically
+b1f9e38835e9 sched: Add stub function for core_ctl_set_boost
+eaf9fa8193a0 sched: Add stub functions for wake_up_idle API
+5be9c4e6a165 HACK: qcom: patch OSM to work without HMP
+03132b0e8eb7 sched: Remove HMP scheduling and core_ctl
+bf8908ef6e9f Revert "sched: WALT: account cumulative window demand"
+e619f2f4ff4c jasmine_defconfig: disable SCHED_AUTOGROUP
+f3f41d078104 msm: thermal: Fix strlcpy-strlcat-size warning
+5ae797fc7009 msm: ipa3: Fix compilation errors after enabling LLVM
+6390f06ee9ed drivers: soc: qcom: system_stats: Fix strlcpy usage
+fd5a83e7602d soc: qcom: rpm_master_stat: Fix strlcpy usage
+1b352cafaefa soc: qcom: msm_bus: Remove pointless self assignment
+d3c7cf7bd0b2 msm_bus: fix parentheses-equality warnings
+466ccc60cc12 usb: gadget: f_qc_rndis: Remove unneeded static variables
+d230d477fba1 qdsp6v2: fix parentheses-equality warning
+5f3ee04864ca fbdev: msm: Remove unnecessary parentheses
+f7f2fcdf99d5 msm: thermal: Remove extraneous parentheses
+b0d5658ecaf6 thermal: tsens: Fix enum conversion warnings
+d865f7350bd8 ion: system_secure_heap: fix constant logical comparison bug
+e0e24b7cad60 soc: qcom: glink_debugfs: Fix strlcpy usage
+f5cb20094b81 ion: Fix typecasting of msm_ion_heap_types
+49e7e0245b24 msm: camera: Remove unnecessary parentheses
+136ad27cdece msm: ipa_v2: Fix enum conversion warning
+c7bbdaf34f03 usb_bam: Fix usb bam_type assignment during suspend
+3c705b5f55ed msm: ipa3: Use bitwise instead of logical operator
+aa1ddab9cc99 msm: ipa3: Fix IPA aggregation register val-mask calculation
+951022b6be4b mmc: sdio: Fix strlcpy usage
+7f1c63863a1a hwmon: qpnp-adc: Fix logical-not-parentheses warning
+7363a97e998a qseecom: Fix ignored attribute warnings
+922045177822 hdmi: fix header guard
+5e7b002b1153 mmc: host: sdhci-msm-ice: Fix clang warning with NOT operator usage
+e539d21d3074 drivers: touchscreen: nt36xxx: Fix an empty-body warning
+b1f3b777a9bf ASoC: msm: qdsp6v2: Don't use enum as a null pointer
+e60eaf9e7795 hwmon: qpnp-adc: Fix enum conversion warning
+0f91f5adc505 clk: qcom: Fix unnecessary self assignment
+a9b1228a1b1b crypto: msm: Increase frame-larger-than warning
+d15d30701cb2 ASoC: codecs: wcd_cpe_services: Use proper enums
+59aaea9ecabb ASoC: sdm660_cdc: fix -Wparentheses-equality warnings
+42863375fb7e codecs: disable -Wshift-overflow warning
+65d8438a56d0 qseecom: Fix clang compilation in qseecom driver
+2a8359565c23 BACKPORT: FROMGIT: sched/debug: Explicitly cast sched_feat() to bool
+30bb1e62b746 BACKPORT: sched/sysctl: Fix attributes of some extern declarations
+8ae018bb76e0 cfg80211: Support backport of removing ieee80211
+bb75c11c7864 BACKPORT: cfg80211: remove enum ieee80211_band
+c95b5ed53292 UPSTREAM: mm/zsmalloc.c: change stat type parameter to int
+3c008d5a3334 UPSTREAM: mm/zsmalloc.c: fix -Wunneeded-internal-declaration warning
+b2ab1fb27531 Revert "ANDROID: HACK: arm64: use -mno-implicit-float instead of -mgeneral-regs-only"
+0c3b2e8a2325 BACKPORT: kernel.h: handle pointers to arrays better in container_of()
+e239127b26e2 BACKPORT: bug: split BUILD_BUG stuff out into <linux/build_bug.h>
+6da94e73452f UPSTREAM: include/linux/dcache.h: use unsigned chars in struct name_snapshot
+234451b77020 FROMLIST: BACKPORT: kbuild: add __cc-ifversion and compiler-specific variants
+77a514347aeb FROMLIST: kbuild: add clang-version.sh
+115e4bc29852 drivers: media: msm: don't use nested functions
+7be398b1ba2d drivers: soc: qcom: fix register names on ARM64
+7a3b5ef33f59 ANDROID: Kbuild, LLVMLinux: disable clang -Wpointer-bool-conversion
+293e5dc88a5a scripts: Support a custom compiler name
+177895857246 UPSTREAM: scripts/mkcompile_h: Remove trailing spaces from compiler version
+8208834f2c06 msm: sde: fix unaligned memory read
+a5ca65df3d0e soc: qcom: access smp2p_smem structure with I/O function
+0e3353a8ef06 msm: mdss: Fix misleading indentation warning
+56074bb51ec9 soc: qcom: rpm_stats: Fix misleading indentation warning
+285d96278cf2 msm: mdss: Fix bool operation warning
+b55543c833d3 soc: qcom: qpnp-haptic: Fix misleading indentation warning
+3bb8cf5c6f7a soc: qcom: subsystem_notif: Fix suspicious indent
+21b74531521a slimbus: Add braces around suspicious indent
+b8637ea2f4ff msm: ipa_v2: Fix memset-elt-size warning
+ccc86333de62 msm: mdss: Remove duplicate const specifier
+8bea4dfbd0d6 regulator: cpr3: Add braces around suspiciously indented code
+09b10cf68c6e msm: ipa_v2: fix misleading indentation warning
+69f930bdb38a Revert "drivers: iio: imu: enabled bmi and iam sensor compilation"
+445906caaf66 msm: vidc: Remove compiler dependent code
+72af802d4f15 msm: camera: Fix bool compare warning
+edc1fc5df0d7 msm: camera: isp40: Fix misleading indentation warnings
+ba32f5a8bc56 ASoC: msm: Fix suspicious indent
+c8822781836a drivers: {input,power}: fix -Wduplicate-decl-specifier warnings
+db3f0a5d568a media: dvb: Fix -Wmisleading-indentation
+f2d161b431d1 leds: qpnp-wled: Fix suspicious indentation
+352c7f262f5b i2c-msm-v2: Remove duplicate const specifier
+28578ff02bf1 crypto: msm: Fix bool operation warning
+26b1c83d9f62 diag: Fix misleading indentation warning
+196ae78e4685 ASoC: msm: qdsp6v2: Fix impossible check
+9a824c53a144 ASoC: msm: qdsp6v2: Remove duplicate const specifier
+71723bb8a341 ASoC: codecs: wcd9xxx-mbhc: Fix misleading indentation warning
+e0dae25c4215 Revert "scripts: gcc-wrapper: Use wrapper to check compiler warnings"
+e0097063f4c9 sdm660: fix memory overlap
+699ebb9f273b drivers: Remove smi130 modules.order
+94bf77abe2c1 Revert "Android.bp: Initial header export bp for Android (qseecom only)"
+e8edda363552 CHROMIUM: sched/fair: Kill spam about max cpu_capacity
+9175c7fcc6fc msm: vidc: kill opening/closing video instance logspam
+20ffe3aa1e41 PM / devfreq: Skip status update on uninitialized previous_freq
+49e76d369cec Silences WLAN, PCIe, and CPU suspend state kernel messages
+95b1ad25dab7 sched_clock: shut. up.
+5cff5a35c87d android: binder: Disable debug messages by default
+ca52d0afcc1c PM / core: Add support to skip power management in device/driver model
+3571b492e391 cpu: Silence log spam when a CPU is brought up
+18f957e407ba irq: Silence IRQ CPU migration message
+3b0bff5a3b14 ASoC: msm: qdsp6v2: Make version checking no-op
+75f8654b5da3 dsp: asm: improve misleading logs
+df03d714dfa2 tas2557: reduce default printk logs
+7b0d3b9b19ad Revert "msm: mdss: hdmi: skip pan_display during handoff"
+754f0ca06332 jasmine_defconfig: Enable SUSPEND_SKIP_SYNC
+35891821c16b jasmine_defconfig: Enable F2FS
+a1add901647e f2fs: always assume that the device is idle under gc_urgent
+2e86f33226b0 f2fs: don't wait with each discards under gc_urgent
+63e7755b57bf f2fs: use a more reasonable discard policy for high utilization
+92f4c182c6cf f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages()
+d51a31331524 f2fs: rename /sys/fs/f2fs
+61a2145727a8 f2fs: do not expose tunables that doesn't work with rapid GC
+cc35bb4e88f3 f2fs: drop caches upon rapid GC exit
+aecbaf191fa2 fs: drop_caches: expose mm_drop_caches()
+ac72c5db7196 f2fs: explicitly flush device upon foreground GC
+2330009d4d35 f2fs: fix rapid GC breakage from merge 4e87f7d2befb8
+be0f2208352e f2fs/rapid_gc: do not wait until all invalid blocks are discarded
+24b1a8b30ab1 f2fs: implement rapid GC for Android
+e288fe54221e f2fs: set ioprio of GC kthread to idle
+cc4c9f07e202 jasmine_defconfig: Use Westwood+ TCP congestion algorithm by default
+e77d747d99c5 kernel: Use the stock jasmine config for /proc/config.gz
+30cf23b04f11 jasmine_defconfig: Disable modules support and regenerate
+
+   * manifest/
+ee59eca Manifest for Android 9.0.0 Release 46 (PQ3A.190801.002)
+
+   * vendor/xiaomi/
+4cd21832 msm8998-common: Add system side DPM blobs
+20e7ebe1 msm8998-common: Add ANT+ enabled QTI BT service
+5ccd56dd msm8998-common: Hack IMS apk to get rid of the stupid HD notification
+1ab8a14b msm8998-common: Update blobs from V10.4.1.0 global stable
+5ee20731 polaris: Add camera OIS firmware
+5ca29759 beryllium: Add missing camera libs
+02aab838 polaris: Add missing camera libs
+17ae8717 msm8998-common: Remove unused GPS blobs
+1113e0fe msm8998-common: Commonize aptXHD blobs
+b4c19551 sdm845-common: Include missing hostapd init script
+9556dc2e beryllium: Add QC location blobs
+0dbf0680 polaris: Add QC location blobs
+92ce2a0b sdm845-common: Remove prebuilt IPACM blobs
+bd525e4d sdm845-common: Remove prebuilt thermal and VR HALs
+7b304dd7 sdm845-common: Remove OMX blobs that be built from source
+2c4c4765 sdm845-common: Remove prebuilt sound FX libs
+9ec3c8fe dipper: Add initial vendor blobs
+d1556575 beryllium: Add initial vendor blobs
+1e9a50f1 polaris: Add initial vendor blobs
+d967626c sdm845-common: Add initial vendor blobs
+
+=======================
+     08-05-2019
+=======================
+
+
+   * build/make/
+ac86b07c6 fix "build: Only set the default verity key as a fallback"
+9138bf49c build: Only set the default verity key as a fallback
+9cab94c31 make: Use build prop overrides when generating vendor build.prop too
+
+   * kernel/xiaomi/wayne-common/
+5b2939dcb267 Merge 4.4.187 into kernel.lnx.4.4.r37-rel
+dc16a7e5f36d Linux 4.4.187
+00c26889e822 ceph: hold i_ceph_lock when removing caps for freeing inode
+d65f740efff0 drivers/pps/pps.c: clear offset flags in PPS_SETPARAMS ioctl
+da358f365dab sched/fair: Don't free p->numa_faults with concurrent readers
+37fb92413995 Bluetooth: hci_uart: check for missing tty operations
+56ea214b1756 media: radio-raremono: change devm_k*alloc to k*alloc
+63a80df0ea2b media: cpia2_usb: first wake up, then free in disconnect
+4ef54f331818 ISDN: hfcsusb: checking idx of ep configuration
+8f0b77b71f3f tcp: reset sk_send_head in tcp_write_queue_purge
+ee2f25641633 ipv6: check sk sk_type and protocol early in ip_mroute_set/getsockopt
+1ab1512366d4 mm, vmstat: make quiet_vmstat lighter
+fece2f828ffe vmstat: Remove BUG_ON from vmstat_update
+204b14581f00 access: avoid the RCU grace period for the temporary subjective credentials
+e67fd28f9ed8 powerpc/tm: Fix oops on sigreturn on systems without TM
+77f9764ca4fc ALSA: hda - Add a conexant codec entry to let mute led work
+3f9e3565c5df ALSA: line6: Fix wrong altsetting for LINE6_PODHD500_1
+fe7d7592df20 hpet: Fix division by zero in hpet_time_div()
+cef888755a34 x86/speculation/mds: Apply more accurate check on hypervisor platform
+50b8699c6b44 x86/sysfb_efi: Add quirks for some devices with swapped width and height
+97b02599962b usb: pci-quirks: Correct AMD PLL quirk detection
+77f962794b34 usb: wusbcore: fix unbalanced get/put cluster_id
+32a8925288ce locking/lockdep: Hide unused 'class' variable
+53372938b170 locking/lockdep: Fix lock used or unused stats error
+eb2f57fd9f62 mm/mmu_notifier: use hlist_add_head_rcu()
+d3888920665f 9p: pass the correct prototype to read_cache_page
+723bcdcfdb96 mm/kmemleak.c: fix check for softirq context
+d7b26901d804 sh: prevent warnings when using iounmap
+3cad2027c6e1 powerpc/eeh: Handle hugepages in ioremap space
+dec595841eb4 mailbox: handle failed named mailbox channel request
+77bd558b2a02 f2fs: avoid out-of-range memory access
+6507b61cc79d perf test mmap-thread-lookup: Initialize variable to suppress memory sanitizer warning
+76f095a6313f kallsyms: exclude kasan local symbols on s390
+f833783b2674 serial: sh-sci: Fix TX DMA buffer flushing and workqueue races
+7f06efe99403 powerpc/4xx/uic: clear pending interrupt after irq type/pol change
+12fcb801a57d um: Silence lockdep complaint about mmap_sem
+35d67a0c5aea mfd: arizona: Fix undefined behavior
+83cf7513ef91 mfd: core: Set fwnode for created devices
+efe18f768714 recordmcount: Fix spurious mcount entries on powerpc
+623c3a62616e iio: iio-utils: Fix possible incorrect mask calculation
+4a5fd966eddf PCI: sysfs: Ignore lockdep for remove attribute
+f2915d784b54 powerpc/pci/of: Fix OF flags parsing for 64bit BARs
+959c73139679 usb: gadget: Zero ffs_io_data
+718514c02cc9 phy: renesas: rcar-gen2: Fix memory leak at error paths
+25d2b1b5f27b drm/virtio: Add memory barriers for capset cache.
+e14829d6f80f tty: serial: msm_serial: avoid system lockup condition
+d6ad3a06c646 tty/serial: digicolor: Fix digicolor-usart already registered warning
+d72a857dea75 memstick: Fix error cleanup path of memstick_init
+63d1bc1d2124 tty: serial: cpm_uart - fix init when SMC is relocated
+345f195da4fc pinctrl: rockchip: fix leaked of_node references
+d11053e3cd96 tty: max310x: Fix invalid baudrate divisors calculator
+d04ba4c317ae usb: core: hub: Disable hub-initiated U1/U2
+309e8863eba7 drm/panel: simple: Fix panel_simple_dsi_probe
+faf9d27a6b1e nfsd: Fix overflow causing non-working mounts on 1 TB machines
+cda045c87b68 nfsd: fix performance-limiting session calculation
+728009f37a3c nfsd: give out fewer session slots as limit approaches
+c499d67f070f nfsd: increase DRC cache limit
+b49ba75c3c9f NFSv4: Fix open create exclusive when the server reboots
+c5b430eeaeda elevator: fix truncation of icq_cache_name
+3941d334d996 net: bridge: stp: don't cache eth dest pointer before skb pull
+829fba2dcd7f net: bridge: mcast: fix stale ipv6 hdr pointer when handling v6 query
+ad4350ed9d98 net: bridge: mcast: fix stale nsrcs pointer in igmp3/mld2 report handling
+2eb5ddc2bf38 bonding: validate ip header before check IPPROTO_IGMP
+364e03f19120 tcp: Reset bytes_acked and bytes_received when disconnecting
+687075923787 netrom: hold sock when setting skb->destructor
+6979ab4d3c7c netrom: fix a memory leak in nr_rx_frame()
+6334936646da sky2: Disable MSI on ASUS P6T
+7c8f2c52a721 nfc: fix potential illegal memory access
+2289103cd17a net: neigh: fix multiple neigh timer scheduling
+7165159ddd60 net: bcmgenet: use promisc for unsupported filters
+0efd6f2ec047 ipv4: don't set IPv6 only flags to IPv4 addresses
+4d285dcc9371 caif-hsi: fix possible deadlock in cfhsi_exit_module()
+a4af24423e5f bnx2x: Prevent load reordering in tx completion processing
+40f8aa133ba2 dm bufio: fix deadlock with loop device
+259cad0a1c17 usb: Handle USB3 remote wakeup for LPM enabled devices correctly
+c288d39159d2 Bluetooth: Add SMP workaround Microsoft Surface Precision Mouse bug
+cc2dd82631ef intel_th: msu: Fix single mode with disabled IOMMU
+fd68989d3a45 eCryptfs: fix a couple type promotion bugs
+91071a5a4636 powerpc/watchpoint: Restore NV GPRs while returning from exception
+0e13274bcb81 powerpc/32s: fix suspend/resume when IBATs 4-7 are used
+ce41b6472bf3 parisc: Fix kernel panic due invalid values in IAOQ0 or IAOQ1
+25399eae2a5e gpu: ipu-v3: ipu-ic: Fix saturation bit offset in TPMEM
+6b40b97899ed coda: pass the host file in vma->vm_file on mmap
+d105eaf5fb67 floppy: fix out-of-bounds read in copy_buffer
+df700168a2a4 floppy: fix invalid pointer dereference in drive_name
+350de13e03e4 floppy: fix out-of-bounds read in next_valid_format
+26d6284d5d39 floppy: fix div-by-zero in setup_format_params
+0a18fbb5b02b take floppy compat ioctls to sodding floppy.c
+cbc4bc14352e PCI: Do not poll for PME if the device is in D3cold
+93b3fe8ae916 9p/virtio: Add cleanup path in p9_virtio_init
+e5899605e998 padata: use smp_mb in padata_reorder to avoid orphaned padata jobs
+37717b3975ad drm/nouveau/i2c: Enable i2c pads & busses during preinit
+505c011f9f53 KVM: x86/vPMU: refine kvm_pmu err msg when event creation failed
+80fb02ad453c media: coda: Remove unbalanced and unneeded mutex unlock
+a616b5631aa5 media: v4l2: Test type instead of cfg->type in v4l2_ctrl_new_custom()
+dc427deccae3 ALSA: seq: Break too long mutex context in the write loop
+2e85872cb2bb lib/scatterlist: Fix mapping iterator when sg->offset is greater than PAGE_SIZE
+68c5c3fec760 NFSv4: Handle the special Linux file open access mode
+95067cbe54bd tracing/snapshot: Resize spare buffer if size changed
+70ffc0d5b9d9 regulator: s2mps11: Fix buck7 and buck8 wrong voltages
+3ca20e950203 Input: gtco - bounds check collection indent level
+e3730353f15b crypto: arm64/sha2-ce - correct digest for empty data in finup
+4c3877418d91 crypto: arm64/sha1-ce - correct digest for empty data in finup
+6001a6cf742b crypto: ghash - fix unaligned memory access in ghash_setkey()
+ccc188308c03 Bluetooth: validate BLE connection interval updates
+2f2c6a264cfb Bluetooth: Check state in l2cap_disconnect_rsp
+233f5ed27bc0 Bluetooth: 6lowpan: search for destination address in all peers
+f65cbc7837eb Bluetooth: hci_bcsp: Fix memory leak in rx_skb
+de5b20a30b6d bcache: check c->gc_thread by IS_ERR_OR_NULL in cache_set_flush()
+27ba9eed3d39 EDAC: Fix global-out-of-bounds write when setting edac_mc_poll_msec
+1ba62e51d435 ixgbe: Check DDM existence in transceiver before access
+a672374abdb0 rslib: Fix handling of of caller provided syndrome
+a7a7839b5537 rslib: Fix decoding of shortened codes
+3d2af3adeade ath10k: fix PCIE device wake up failed
+36bfc2f57450 mt7601u: fix possible memory leak when the device is disconnected
+ff7f1db85c45 x86/build: Add 'set -e' to mkcapflags.sh to delete broken capflags.c
+ac2978c3c8c0 mt7601u: do not schedule rx_tasklet when the device has been disconnected
+391252c63f31 media: coda: increment sequence offset for the last returned frame
+8379822d3a41 media: coda: fix mpeg2 sequence number handling
+62099aba7990 acpi/arm64: ignore 5.1 FADTs that are reported as 5.0
+66166f9a0ee5 timer_list: Guard procfs specific code
+41164dd56336 ntp: Limit TAI-UTC offset
+b4a4a5610104 media: i2c: fix warning same module names
+473e040e8c8e EDAC/sysfs: Fix memory leak when creating a csrow object
+a7ef2978f616 vhost_net: disable zerocopy by default
+b5f997a1d6a8 perf evsel: Make perf_evsel__name() accept a NULL argument
+ffee58132ea6 xfrm: fix sa selector validation
+edf2ce9a7a96 rcu: Force inlining of rcu_read_lock()
+7dd2dc652435 bpf: silence warning messages in core
+dd53d3566185 regmap: fix bulk writes on paged registers
+56af78dffdaf gpio: omap: ensure irq is enabled before wakeup
+b1d99aabd239 gpio: omap: fix lack of irqstatus_raw0 for OMAP4
+5f18429ae48f perf test 6: Fix missing kvm module load for s390
+375fa4d37984 s390/qdio: handle PENDING state for QEBSM devices
+374696234933 net: axienet: Fix race condition causing TX hang
+b5133a8463ac net: fec: Do not use netdev messages too early
+c62493c78e15 cpupower : frequency-set -r option misses the last cpu in related cpu list
+614ff8f4f361 media: wl128x: Fix some error handling in fm_v4l2_init_video_device()
+aa147b3bcdbc locking/lockdep: Fix merging of hlocks with non-zero references
+3c910e70dcf0 tua6100: Avoid build warnings.
+06816b2e5e3d net: phy: Check against net_device being NULL
+caf13a88a511 media: staging: media: davinci_vpfe: - Fix for memory leak if decoder initialization fails.
+228b0ef1dfeb xfrm: Fix xfrm sel prefix length validation
+33de7ba5ba53 af_key: fix leaks in key_pol_get_resp and dump_sp.
+a6a605fd0b26 signal/pid_namespace: Fix reboot_pid_ns to use send_sig not force_sig
+f579e18f7b61 net: stmmac: dwmac1000: Clear unused address entries
+ed8b1a1b8a82 media: vpss: fix a potential NULL pointer dereference
+102981b27a7f media: marvell-ccic: fix DMA s/g desc number calculation
+4f8e99d6177a crypto: talitos - fix skcipher failure due to wrong output IV
+7e95655b54ca media: dvb: usb: fix use after free in dvb_usb_device_exit
+11648a3cc09d batman-adv: fix for leaked TVLV handler.
+2e19549cd954 ath: DFS JP domain W56 fixed pulse type 3 RADAR detection
+c1e1288d2e61 ath6kl: add some bounds checking
+50d47c54bbe1 ath9k: Check for errors when reading SREV register
+737954d6f2ff ath10k: Do not send probe response template for mesh
+5239be20a1bd dmaengine: imx-sdma: fix use-after-free on probe error path
+00d376f0c4b1 MIPS: fix build on non-linux hosts
+074f0904c07c MIPS: ath79: fix ar933x uart parity mode
+
+   * packages/apps/Settings/
+53156d0a35 Settings: Use Evolution implementation for lockdown button
+2608c2d263 Expose lockdown button in settings
+
+   * packages/resources/devicesettings/
+6f0205a Automatic translation import
+
+   * packages/services/Telephony/
+cfca66c3f Fix resource warnings.
+
+=======================
+     08-04-2019
+=======================
+
+
+   * packages/apps/SmartNav/
+a16f932 Automatic translation import
+
+=======================
+     08-03-2019
+=======================
+
+
+   * device/xiaomi/wayne-common/
+b7efe0d jasmine_sprout: powerhint: Reduce interaction stune boost
+3de8ef3 jasmine_sprout: powerhint: Adapt for sdm660
+11b46aa jasmine_sprout: power: do not boost big cluster on interaction
+e186b18 jasmine_sprout: remove unused perf props
+8f43f34 jasmine-sprout: Remove TARGET_USES_INTERACTION_BOOST flag
+c6d3545 jasmine_sprout: Disable AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE
+3285ef5 jasmine_sprout: Set config_sustainedPerformanceModeSupported
+ad50342 jasmine_sprout: add power-libperfmgr dt2w implementation
+7932d8c jasmine_sprout: Update power HAL to version 1.3.
+1442daf jasmine_sprout: power: Add GPU to launch boost
+c56f16c jasmine_sprout: power: make powerhal starts handling powerhint after boot_complete
+cfe3114 jasmine_sprout: power: Remove audio hints
+01f1768 jasmine_sprout: power: remove camera hints
+20ea10f jasmine_sprout: power: clean up
+5102d0d jasmine_sprout: power: keep launch boost values for camera launch
+fbbf934 jasmine_sprout: power: remove video encode hint
+1480dec jasmine_sprout: power: remove VR hints handling
+5d0fd41 jasmine_sprout: sepolicy: fix power hal breakage
+4205062 jasmine_sprout: power: move to jasmine_sprout target
+d820b27 jasmine_sprout: power: change to use Value directly
+63836f7 jasmine_sprout: power: change CPU min freq to 0 in config
+2816672 jasmine_sprout: power: fix timeout in powerhint.json
+a361065 jasmine_sprout: power: fix typo in log
+c3f9546 jasmine_sprout: power: Reorder cpu max node value priority
+b0bd567 jasmine_sprout: power: set cpufreq max first
+2aeec4e jasmine_sprout: power: change node owner early to reduce permission denial log spam
+aa46497 jasmine_sprout: power: switch to libperfmgr for powerhint
+f9de4f0 jasmine_sprout: remove qti perf stack
+49d079d jasmine_sprout: Remove energy awareness daemon
+7a59679 jasmine_sprout: rootdir: remove interaction lock when idle
+b8096d7 jasmine_sprout: rootdir: remove CPUBW min freq setting
+2c1ea0f jasmine_sprout: rootdir: disable mem_latency governor
+692c06b jasmine_sprout: rootdir: performance: Update power tweaks for EAS
+cf0b89d jasmine_sprout: set aapt perf config
+35647f7 jasmine_sprout: set PRODUCT_AAPT_PREBUILT_DPI
+da93a14 jasmine_sprout: rootdir: Don't set DPI based on SoC and resolution
+695f243 jasmine_sprout: Fix fingerprint sensor location
+83525d7 jasmine_sprout: Set default hotspot ssid
+f967fa0 jasmine_sprout: audio: Fix stereo recording
+d1dc1ce jasmine_sprout: Compile kernel with Clang 9.0.5
+5825628 jasmine_sprout: Disable debug.sf.latch_unsignaled
+28a8731 jasmine_sprout: overlay: Set screen off delay to 0
+d9fb67a jasmine_sprout: overlay: Enable AOD
+d8e7077 jasmine_sprout: thermal-engine.conf: Loosen battery thermal throttling
+c5f7418 jasmine_sprout: Import stock thermal config
+7cb66e1 jasmine_sprout: Update thermal blobs from LA.UM.7.2.r1-06900-sdm660.0
+d39c259 jasmine_sprout: audio: Fix in-call speaker audio
+4d5f48e jasmine_sprout: overlay: Enable fingerprint swipe gesture
+a189f00 jasmine_sprout: keylayout: Import from stock
+c3e883c jasmine_sprout: light: Adapt for single white LED
+203b04c jasmine_sprout: Patchelf blobs to remove android.hidl.base@1.0 dependency
+312c99c jasmine_sprout: Build some extra vendor libraries for camera
+280a9f2 jasmine_sprout: Build vendor version of 32-bit libdng_sdk
+a1f632a jasmine_sprout: Build vendor version of libstdc++
+8e245e2 jasmine_sprout: Build with BOARD_VNDK_VERSION := current
+35926c0 jasmine_sprout: selinux: Switch to enforcing
+af99faf jasmine_sprout: rootdir: Run goodix script as system user instead of root
+96f3069 jasmine_sprout: sepolicy: Resolve init_fingerprint denials
+6a7ae75 jasmine_sprout: Update persist path for goodix hack
+8205c6d jasmine_sprout: sepolicy: Label RTC sysfs node
+ee36d5c jasmine_sprout: sepolicy: Address webview_zygote denials
+4ce291d jasmine_sprout: sepolicy: Label fingeprints extension
+c59e3e9 jasmine_sprout: sepolicy: Label battery_supply sysfs for hvdcp
+b83b4b0 jasmine_sprout: sepolicy: Grant radio domain access to vendor_file
+531b064 jasmine_sprout: sepolicy: Address debugfs_wlan denials
+aa8aa7c jasmine_sprout: sepolicy: Dontaudit few qti_init_shell neverallows
+4df0cc4 jasmine_sprout: sepolicy: Address more vendor_init denials
+34d9693 jasmine_sprout: sepolicy: Add restricted permissions to vendor_init
+1bf991a jasmine_sprout: overlay: Set brightness & screen timeout defaults
+51324b3 jasmine_sprout: overlay: Enable auto brightness by default
+204b21c jasmine_sprout: overlay: Add defaults
+
+=======================
+     08-02-2019
+=======================
+
+
+=======================
+     08-01-2019
+=======================
+
+
+   * frameworks/base/
+0d6768f8504 Double tap to sleep on statusbar [1/2]
+812eb96fd41 Double tap to sleep on lockscreen [1/2]
+11ca577557b Revert "SystemUI: add double tap to sleep gesture"
+2704efcbb41 base: Add DeviceUtils from Omni
+86f5423ce19 base: add vibrate util methods
+4b7bc0d314d base: incall vibration options [1/3]
+a5f899703db Revert "fwb: Incall vibration options [1/3]"
+52feba6640c Support enforcing a minimum delay between notification sounds of an app.
+75ca9699b9b Import translations for Typographic Clock
+19f7f2a7726 Automatic translation import
+
+   * hardware/qcom/audio-caf/msm8960/
+b49d4dcf0 hal: Add support for voice calls on Fusion3 platforms
+d50691ca0 audio-hw: Restrict voice_start_usecase only for 1 call at a time
+b89a37db8 hal: Fix no audio during voice call with voip in background
+ab3534805 hal: fix no sound issue in voice call
+
+   * hardware/qcom/audio-caf/sm8150/
+b78a05b7 audio: Add missing includes
+c384b972 audio: Depend on libtinycompress
+e6b97220 Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into pie-caf
+
+   * hardware/qcom/display-caf/sm8150/
+9580392c Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into pie-caf
+
+   * hardware/qcom/media-caf/sm8150/
+9016bbbb Merge tag 'LA.UM.7.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into pie-caf
+
+   * manifest/
+e90efbb manifest: Track Telecomm
+
+   * packages/apps/Evolution/
+ce6c208 In-call vibrations: Add summaries
+d72787e incall vibration options [3/3]
+
+   * packages/apps/Settings/
+193225e222 Revert "Settings: Add double tap to sleep"
+50f55f98c8 Settings: Add Evolution X Version to FirmwareDialog
+7e297efc96 Revert "Settings: Incall vibration option [3/3]"
+297361aab9 Add setup UI for minimum delay between an app's notification sounds
+efa33b5270 Settings: Preserve sound timeout pref when showing legacy notification settings
+
+   * packages/services/Telecomm/
+a75f7461 Telecomm: Update code for in-call vibrations
+d8eaf627 incall vibration options [2/3]
+9fc652b7 Revert "Telecomm: Incall vibration option [2/3]"
+
+   * packages/services/Telephony/
+1d82b5ff1 phone: Add option for setting device phone number (squashed)
+
+   * system/netd/
+12c5549 NetD : Allow passing in interface names for vpn app restriction
+
+   * system/sepolicy/
+9632c0d9 Relax some neverallow rules
+4731eb3e more mmaps
+f9d96091 Allow mmap for vendor_init
+75cfc1ae isolated_app: add mmaps
+9a096927 sepolicy: Add mmap for profman
+
+   * vendor/gapps/
+8197231 Update gapps
+
+   * vendor/pixelstyle/
+87f16fd Update gapps
+
+=======================
+     07-31-2019
+=======================
+
+
+   * frameworks/av/
+f64974ea5 media: Add support for up to level 6.2 for AVC
+
+   * frameworks/base/
+8b51a5da53f Revert "[1/2] services: allow to force "never" mode for display cutout"
+
+   * packages/apps/Evolution/
+ae66474 Revert "Evolution: allow to force never mode for display cutout [2/2]"
+
+=======================
+     07-30-2019
+=======================
+
+
+   * build/make/
+cd5929289 build: Add ability to use preinstalled vendor.img
+
+   * frameworks/base/
+0eb8b25c4cb [SQUASH] Remove lockscreen charging animation
+5cb40d453ac Fix sim pin on DSDS
+41b27ed4665 Dismiss SIM lock page after correct SIM
+968f6172fb4 When data switches during voice call, make sure signal bar updates it.
+7b618466405 Update navigation bar upon change of display density
+fa9aaaf4614 Unable to input PIN with hardware keyboard
+067225738f8 Remove unnecessary right padding from time picker
+
+   * manifest/
+ca51f21 manifest: Drop frameworks_evolution
+5e7b776 manifest: Track Evolution X gapps
+
+   * packages/apps/Evolution/
+fc84933 Revert "Add toggle for charging animation [2/2]"
+
+   * vendor/xiaomi/
+27cae5c3 violet: Build selective Audio/OMX/Media targets from source
+e9c9d911 violet: Update to V10.3.9.0.PFHINXM
+c9981262 violet: Update GPS stack from LA.UM.7.9.r1-06100-sm6150.0
+34453e17 violet: Update ESE-Powermanager stack from LA.UM.7.9.r1-06100-sm6150.0
+c8331166 violet: Update Peripheral manager blobs from LA.UM.7.9.r1-06100-sm6150.0
+dc767a42 violet: Update DPM blobs from LA.UM.7.9.r1-06100-sm6150.0
+9ecdbfc4 violet: Update IO Prefetcher stack form LA.UM.7.9.r1-06100-sm6150.0
+5a178f35 violet: Update Neural Network stack from LA.UM.7.9.r1-06100-sm6150.0
+f47ccb1e capricorn: Update fingerprint HAL from MIUI 9.6.27 Global dev
+591413e7 jason: Update blobs from miui_MINote3_9.7.4_241910e4db_9.0
+
+=======================
+     07-29-2019
+=======================
+
+
+   * frameworks/av/
+98450463a CameraService: Allow new msg types for OP cam
+727f398c7 CameraService: Fix openCamera denial for OP cam
+
+   * frameworks/base/
+d1974e66eec OP Gestures: add swipe start height setting [1/2]
+14c9df6fd1c jni: Fix improper call to createFromExisting()
+19fc06699b4 Default the network location provider to none
+5d142af8b7b combo issue when location reported by providers do not come with extras
+3e2e9bd6fd5 NLP Combo feature
+d12b9386d20 Fix to register the receiver for all users
+1bd12402b1c Audio assets: add NFC sounds
+186a2eaa4ff MediaCodecInfo: Add support for level 6.2
+3bf1ae320fe FB: Clean up oneplus camera support
+290a8ef18b9 FB: Add oneplus camera support
+
+   * packages/apps/SmartNavSettings/
+b1ff5e5 OP Gestures: add swipe start height setting [2/2]
+
