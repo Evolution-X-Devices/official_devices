@@ -1,0 +1,178 @@
+=======================
+     08-26-2019
+=======================
+
+
+   * frameworks/av/
+7aa5a19 Fix high battery drain after using flashlight
+
+   * frameworks/base/
+8e899a45 Automatic translation import
+
+   * frameworks/opt/telephony/
+f2dca6b Fix signal icon is not shown
+
+   * manifest/
+6fde0b2 manifest: track frameworks/opt/telephony
+
+   * packages/apps/Settings/
+0bf5bce Automatic translation import
+
+=======================
+     08-25-2019
+=======================
+
+
+=======================
+     08-24-2019
+=======================
+
+
+   * packages/apps/Recorder/
+6bc960f Update Recorder app
+
+   * vendor/aosp/
+d5bba05 vendor: Build Recorder app
+
+   * vendor/pixelstyle/
+e7881a8 Wallpapers: Add new Papers app
+
+=======================
+     08-23-2019
+=======================
+
+
+   * device/custom/sepolicy/
+aa10b38 Add rules for Long screenshot service
+
+   * frameworks/native/
+24d5009 Exsf: Add hardware hdr capability check
+
+   * packages/apps/Evolution/
+affff5d Automatic translation import
+
+   * packages/apps/Longshot/
+3886633 Import modded Longshot app
+
+   * packages/apps/SettingsIntelligence/
+3690f09 Remove overlays from search results
+
+   * packages/apps/Updates/
+aa8b5db Use Google sans font on some parts
+
+   * system/bt/
+1280c47 Explicit SBC Dual Channel (SBC HD) support
+
+   * vendor/gapps/
+3af8697 Update gapps
+
+   * vendor/themes/
+c946b1b Tune floating background on black theme
+
+=======================
+     08-22-2019
+=======================
+
+
+=======================
+     08-21-2019
+=======================
+
+
+   * hardware/qcom/display/
+4ddd151 Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"
+
+   * packages/apps/DocumentsUI/
+202d934 Fix theming on dialogs
+
+   * packages/services/BuiltInPrintService/
+db73aaa Impor translations from QPP6.190730.005
+
+   * system/vold/
+debb2b2 Add "changepw" command to vdc.
+
+=======================
+     08-20-2019
+=======================
+
+
+   * hardware/qcom/display-caf/sm8150/
+54a97e8 hwc2: Remove useless info
+
+=======================
+     08-19-2019
+=======================
+
+
+   * build/soong/
+9a2ebac Give Blueprint modules access to all namespaces
+
+   * packages/providers/DownloadProvider/
+a4fb2bb Automatic translation import
+
+=======================
+     08-18-2019
+=======================
+
+
+   * prebuilts/clang/host/linux-x86/
+b2636c1d Update prebuilt Clang to r365631.
+
+=======================
+     08-17-2019
+=======================
+
+
+=======================
+     08-16-2019
+=======================
+
+
+   * bionic/
+18427cf bionic: Prefer /sbin/sh if it exists
+
+   * bootable/recovery/
+9c0440c recovery: Allow custom bootloader msg offset in block misc
+
+   * hardware/interfaces/
+88eb4d8 keymasterV4_0: Tags support for FBE wrapped key.
+
+   * packages/apps/Camera2/
+a4598c9 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/EmergencyInfo/
+2037a36 Fix theming
+
+   * packages/apps/SmartNavSettings/
+36376ce Automatic translation import
+
+   * system/extras/
+c8575b4 extras: remove su
+
+=======================
+     08-15-2019
+=======================
+
+
+   * hardware/libhardware/
+830a684 hardware/libhw: Add display_defs.h to declare custom enums/flags
+
+   * hardware/nxp/nfc/
+8e07ca8 Prepend vendor. to NFC HAL service name
+
+   * hardware/ril/
+85753dc libril: Fix manual network selection with old modem
+
+=======================
+     08-14-2019
+=======================
+
+
+   * packages/services/Telecomm/
+465d5b0 Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+=======================
+     08-13-2019
+=======================
+
+
