@@ -1,0 +1,226 @@
+=======================
+     08-26-2019
+=======================
+
+
+   * frameworks/av/
+7aa5a19 Fix high battery drain after using flashlight
+
+=======================
+     08-25-2019
+=======================
+
+
+   * frameworks/av/
+6641d54 Camera: Lazy load sound files to speed up camera startup
+
+=======================
+     08-24-2019
+=======================
+
+
+   * device/custom/sepolicy/
+aa10b38 Add rules for Long screenshot service
+
+   * frameworks/av/
+56f96f1 audiopolicy: Fixes for internal audio recording
+a8a3904 libcameraservice: Disable external provider for legacy HAL1
+
+=======================
+     08-23-2019
+=======================
+
+
+=======================
+     08-22-2019
+=======================
+
+
+=======================
+     08-21-2019
+=======================
+
+
+=======================
+     08-20-2019
+=======================
+
+
+=======================
+     08-19-2019
+=======================
+
+
+   * build/soong/
+9a2ebac Give Blueprint modules access to all namespaces
+43fa226 Fix formatting
+a8bbf5a Optimize CPU time when running d8, r8, dx and desugar
+a3db167 soong: add PathForSourceRelaxed function
+
+=======================
+     08-18-2019
+=======================
+
+
+   * frameworks/base/
+3190073 Automatic translation import
+427f023 SystemUI: Tiny expanding improvement
+d888e7c FOD: change Windowmanager flags
+81a13d3 GamingMode Tile: Show "What's This?" on long click.
+a118366 GamingModeTile: stop adjusting volume
+af73804 SystemUI: Add Gaming mode tile
+3b11689 Revert "HeadsUpStatusBarView: account for rounded corner"
+90f38ad [SQUASH] Remove Gaming Mode [1/2]
+
+   * packages/apps/Evolution/
+3697655 Automatic translation import
+415146d [SQUASH] Remove Gaming Mode [2/2]
+
+   * packages/apps/Settings/
+c067328 Automatic translation import
+5891a0d Settings: Export ButtonSettings for QS tile
+680a1a3 Settings: Add activity to launch headsup settings fragment
+cd327dc Revert "GamingMode: Long press tile to open settings [2/2]"
+
+=======================
+     08-17-2019
+=======================
+
+
+   * frameworks/base/
+5e513b8 QS: LocationTile: make it cycle modes
+c1bc641 Revert "SystemUI: Advanced location tile"
+
+   * packages/apps/SmartNavSettings/
+36376ce Automatic translation import
+
+   * packages/apps/Updates/
+7a04871 Automatic translation import
+
+   * vendor/themes/
+078d380 Automatic translation import
+
+=======================
+     08-16-2019
+=======================
+
+
+   * bionic/
+18427cf bionic: Prefer /sbin/sh if it exists
+c26f7c5 libc: Optimize ARM memcmp by using NEON.
+72dad9a Actually restore pre-P mutex behavior
+d368690 bionic: Use legacy pthread_mutex_init() behavior on pre-P API levels
+4935a7a Implement per-process target SDK version override.
+1d2697c libc: Mark libstdc++ as vendor available
+e53ab02 bionic: Sort and cache hosts file data for fast lookup
+e0c1681 Add inaddr.h header file.
+8a8a0a4 libc: Add fortify support for kryo300 memcpy.
+27143fe libc: Add fortify support for kryo memcpy.
+5219e0c linker: Add support for dynamic SHIM libraries
+
+   * bootable/recovery/
+9c0440c recovery: Allow custom bootloader msg offset in block misc
+
+   * build/soong/
+2593f61 soong sbox: Add option to allow copying all generated output
+4b099c0 soong: Add CUSTOM_VERSION to dumpvars
+9c6bc58 soong: Enforce absolute path if OUT_DIR is set
+b6a655d soong: Add function to return camera parameters library name
+ea06acb Use new flex binary
+3df7f26 locale: add C.utf8
+4e76b6e Declare proguard_dictionary as implicit output of r8
+2c99f3b soong: add support for nested structs in variableProperties
+449306d soong: extend with lineage board flags
+
+=======================
+     08-15-2019
+=======================
+
+
+   * bionic/
+5217d9e libc: kryo specific memory routine
+
+   * bootable/recovery/
+92295b4 update_verifier: skip verity to determine successful on custom builds
+2d299e3 recovery: updater: Fix SymlinkFn args
+cb8d7fe Revert "Format formattable partitions if mount fails"
+4e7a452 Revert "updater: Remove some obsoleted functions for file-based OTA."
+a781046 Revert "Remove the obsolete package_extract_dir() test"
+b162337 Revert "kill package_extract_dir"
+6d8e02e Revert "otautil: Delete dirUnlinkHierarchy()."
+a83fe73 Revert "updater: Remove dead make_parents()."
+b4c17e7 Skip BLKDISCARD if not supported by the device
+
+   * build/soong/
+ad2230a soong: Add kryo300 cpu variant to build/song
+a312090 cleanbuild: add *.zip.md5sum to installclean_files
+8ca188d soong: use absolute path for OUT_DIR
+
+   * device/custom/sepolicy/
+543fe9a sepolicy: Smart Charging (3/4)
+
+   * frameworks/base/
+d595761 ColorDisplayService: change default night light brightness (2/2)
+7b82ead Smart Charging: Add reset battery stats option [1/2]
+34189df Smart Charging: Allow user set resume level [1/2]
+e4e353c Smart Charging: Change the Overlays for most devices
+ddf6ef7 Smart Charging: Allow using device overlays
+dd232e3 Smart Charging: Rework for using more common sysfs node [1/2]
+094e5881 base: Smart Charging (1/4)
+30e5ef3 Add Flashlight blink on incoming calls [1/3]
+354a96d Make status bar ticker play nice with center clock
+d0124ed Status bar notification ticker [1/2]
+e6e3f78 Safe headset volume option [1/2]
+
+   * packages/apps/Evolution/
+439939f Add Flashlight blink on incoming calls [2/3]
+88fe743 Status bar notification ticker [2/2]
+fbbf1f2 Safe headset volume option [2/2]
+
+   * packages/apps/Settings/
+47920b1 Settings: change default night light brightness (1/2)
+9720f1d Night Light brightness mode options [2/2]
+a6271cb Smart Charging: Add reset battery stats option [2/2]
+bfd06d8 Smart Charging: Allow user set resume level [2/2]
+f5d1d7b Settings: Smart Charging (2/4)
+
+   * packages/services/Telecomm/
+465d5b0 Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+   * vendor/aosp/
+7b6d30d Smart Charging: Fix permissions
+460c5c4 Smart Charging: Chown all known charge suspend nodes
+2085b6d Smart Charging: Rework for using more common sysfs node [2/2]
+6d091e0 vendor: Smart Charging (4/4)
+
+=======================
+     08-14-2019
+=======================
+
+
+   * frameworks/base/
+11240df Revert "base: Add Pixel Navigation Bar's Home icon"
+7364128 FOD: prevent showing on auth error
+3cf0ddb SystemUI: Update ambient indication margin when fod is in use
+f91a0b0 SystemUI: Update keyguard indication margin when fod is in use
+b5a807b In-DisplayFingerprint: Update icon and add a separate one for enrolling
+
+   * packages/apps/Evolution/
+5c3f646 Automatic translation import
+d596091 Launch music player on headset connect: Fix strings for BT headset
+
+   * packages/apps/Settings/
+a66601a Settings: Add video to Double tap to trigger doze
+
+=======================
+     08-13-2019
+=======================
+
+
+   * frameworks/base/
+65a87c5 Correction in logic of roundend size calculation of SD card
+110abb8 Q Clock: Remove stupid quotation marks
+
+   * vendor/gapps/
+0a2e541 Go apps: Complete the set of Go apps
+
