@@ -1,0 +1,12 @@
+=======================
+     08-27-2019
+=======================
+- Add option to hide USB debugging notification
+- Allow to switch display mode for devices that support multiple modes
+- Don't colorize Battery icon when level is critical
+- Fix fingerprint detection for FP wake and unlock
+- Fix internal recording audio volume while headset is connected
+- Make FP detection in pocket mode configurable
+- Revert changes to floating background for black theme
+- Update icons for OTA app
+- Update Miscellaneous icon for Evo Xtras
