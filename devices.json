@@ -56,6 +56,22 @@
          }
       ]
    },
+   
+   },
+   {
+      "name": "OnePlus 7 Pro",
+      "brand": "OnePlus",
+      "codename": "guacamole",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Chandra Chaganti",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7600620",
+            "xda_thread": "https://forum.xda-developers.com/oneplus-7-pro/development/rom-evolution-x-2-0-t3961398"
+         }
+      ]
+   },
    {
       "name": "Redmi Note 5",
       "brand": "Xiaomi",
@@ -673,19 +689,6 @@
             "maintainer_name": "Aryan Arora",
             "maintainer_url": "https://t.me/Aryaannnn",
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3945397"
-         }
-      ]
-   },
-   {
-      "name":"OnePlus 7 Pro",
-      "brand":"OnePlus",
-      "codename":"guacamole",
-      "supported_versions":[
-         {
-            "version_code":"pie",
-            "version_name":"Pie",
-            "maintainer_name":"Chandra Chaganti",
-            "maintainer_url":"https://t.me/ChandraChaganti"
          }
       ]
    }
