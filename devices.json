@@ -675,5 +675,18 @@
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3945397"
          }
       ]
+   },
+   {
+      "name":"OnePlus 7 Pro",
+      "brand":"OnePlus",
+      "codename":"guacamole",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Chandra Chaganti",
+            "maintainer_url":"https://t.me/ChandraChaganti"
+         }
+      ]
    }
 ]
