@@ -1,5 +1,19 @@
 [
    {
+      "name": "Moto G6 Plus",
+      "brand": "Motorola",
+      "codename": "evert",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Ardjlon",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7006405",
+            "xda_thread": "https://forum.xda-developers.com/g6-plus/development/rom-evolution-x-t3963067"
+         }
+      ]
+   },
+   {
       "name": "Mi A1",
       "brand": "Xiaomi",
       "codename": "tissot",
