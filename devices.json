@@ -1,5 +1,21 @@
 [
    {
+      "name": "Smartron SRT Phone",
+      "brand": "Smartron",
+      "codename": "rimo02a",
+      "supported_versions":[
+         {
+	    "version_code": "pie",
+	    "version_name": "Pie",
+	    "maintainer_name": "Abhishek",
+	    "maintainer_url": "https://forum.xda-developers.com/member.php?u=8301950"
+	    "xda_thread": "https://forum.xda-developers.com/android/development/rom-evolution-x-2-0-t3959050"
+	 }
+      ]
+   }
+]
+[
+   {
       "name": "Moto G6 Plus",
       "brand": "Motorola",
       "codename": "evert",
