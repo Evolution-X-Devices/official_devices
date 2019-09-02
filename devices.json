@@ -1,35 +1,5 @@
 [
    {
-      "name": "Smartron SRT Phone",
-      "brand": "Smartron",
-      "codename": "rimo02a",
-      "supported_versions":[
-         {
-	    "version_code": "pie",
-	    "version_name": "Pie",
-	    "maintainer_name": "Abhishek",
-	    "maintainer_url": "https://forum.xda-developers.com/member.php?u=8301950",
-	    "xda_thread": "https://forum.xda-developers.com/android/development/rom-evolution-x-2-0-t3959050",
-	 }
-      ]
-   }
-]
-[
-   {
-      "name": "Moto G6 Plus",
-      "brand": "Motorola",
-      "codename": "evert",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Ardjlon",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7006405",
-            "xda_thread": "https://forum.xda-developers.com/g6-plus/development/rom-evolution-x-t3963067"
-         }
-      ]
-   },
-   {
       "name": "Mi A1",
       "brand": "Xiaomi",
       "codename": "tissot",
@@ -83,6 +53,20 @@
             "maintainer_name": "Anierin Bliss (AnierinB)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
             "xda_thread": "https://forum.xda-developers.com/mi-mix-3/development/rom-evolution-x-2-0-t3941182"
+         }
+      ]
+   },
+   {
+      "name": "Mi 9T",
+      "brand": "Xiaomi",
+      "codename": "davinci",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Akito Mizukito",
+            "maintainer_url": "https://github.com/RealAkito",
+            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-2-0-mi-9t-redmi-k20-davinci-t3963686"
          }
       ]
    },
@@ -717,6 +701,34 @@
             "maintainer_name": "Aryan Arora",
             "maintainer_url": "https://t.me/Aryaannnn",
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3945397"
+         }
+      ]
+   },
+   {
+      "name": "Smartron SRT Phone",
+      "brand": "Smartron",
+      "codename": "rimo02a",
+      "supported_versions":[
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Abhishek",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8301950",
+            "xda_thread": "https://forum.xda-developers.com/android/development/rom-evolution-x-2-0-t3959050",
+         }
+      ]
+   },
+   {
+      "name": "Moto G6 Plus",
+      "brand": "Motorola",
+      "codename": "evert",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Ardjlon",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7006405",
+            "xda_thread": "https://forum.xda-developers.com/g6-plus/development/rom-evolution-x-t3963067"
          }
       ]
    }
