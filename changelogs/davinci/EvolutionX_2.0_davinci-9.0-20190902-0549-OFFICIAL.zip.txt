@@ -1,0 +1,757 @@
+=======================
+     09-02-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+188d469 AOSP Deps update
+ebaee39 davinci: Blob vendor.qti.hardware.wifi.keystore@1.0.so
+24c2aa0 davinci: sepolicy: Label wifi_vendor_data_file
+e00036c davinci: sepolicy: Make sure all nv_mac related stuffs are labeled
+c1b00c2 davinci: sepolicy: Allow hal_camera_default to set vendor_camera_prop
+fabb03f davinci: sepolicy: Allows use of WLAN driver as a built-in to the kernel
+6e99f52 Overlay Update
+eef1e0e Evolution X Bringup
+
+   * device/xiaomi/sm6150-common/
+c3e3b04 sm6150-common: camera_motor: add debugging
+bb1c035 sm6150-common: fod: update dimming formula from davinci stock ROM
+f4127b0 sm6150-common: camera_motor: wait until motor is still before moving
+234fcd4 sm6150-common: Address more perf denials
+220b1b5 sm6150-common: camera_motor: don't report that the camera is up until after the movement
+dfa5808 sm6150-common: rootdir: Remove non-existed or unused services
+
+   * frameworks/base/
+0203873351f Automatic translation import
+92811edd0ee Allow override of DUN settings
+8b40396dade Camera2: Notify fps as Session Based Parameter
+
+   * kernel/xiaomi/davinci/
+b9a3957ca916 Evolution X Bring up
+d35c205b4418 Makefile: use -O3
+54aa1da24262 qcacld: fix compilation error after nuking debug
+7e7ccce55267 qcacld-3.0: Remove work create for peer_unmap_timer_handler
+e160728a496f ARM64: configs: Build all modules in kernel
+
+   * packages/apps/Evolution/
+953423f Automatic translation import
+
+   * packages/apps/Settings/
+06eb6e8e1d Automatic translation import
+5df5b4390e Substratum: enable FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES by default
+
+=======================
+     09-01-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+a55442a davinci: remove unneeded kranel flags
+042129c davinci: sepolicy: Remove duplicated properties
+5cd77bf davinci: sepolicy: Label vendor_mpctl_prop
+eced0d8 davinci: sepolicy: Allow adsprpcd to read sysfs_graphics
+b53df0c davinci: sepolicy: Allow binder call between fingerprint and perf
+39d072b davinci: sepolicy: Label nv_mac
+fb4c381 davinci: Change ownership of wifi firmware reload sysfs paths
+
+   * device/xiaomi/sm6150-common/
+8878370 Revert "sm6150-common: enforce"
+ea69f13 sm6150-common: remove duplicate flag
+d008b36 sm6150-common: Also compile system variant of vendor.display.config
+90bd435 sm6150-common: Remove deprecated cmdline option
+873087c sm6150-common: sepolicy: Address perf denials
+87a8b47 sm6150-common: sepolicy: Allow binder call between fingerprint and perf
+520f1d4 sm6150-common: Switch back to custom power HAL
+ff41c17 sm6150-common: ueventd: add /vendor/firmware to firmware paths
+
+=======================
+     08-31-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+9c8457c davinci: init: 'Xiaomi Mi 9T' -> 'Mi 9T'
+bf553ba davinci: sepolicy: Bringup initial device sepolicy rules
+
+   * device/xiaomi/sm6150-common/
+c86a4f5 sm6150-common: ueventd: Don't modify permissions of /dev/hw_random
+6585178 sm6150-common: bluetooth: undef BTM_DEF_LOCAL_NAME
+df02888 sm6150-common: Uprev display config version to 1.10.
+89d0f89 sm6150-common: Enable STA/AP concurrency Wi-Fi feature
+4cba78e sm6150-common: Wait for kernel driver to be ready
+0081978 sm6150-common: sepolicy: Remove display_data_file
+
+   * frameworks/base/
+968338dc7d1 Fix binder leakage when turning off Bluetooth
+84b1289eb5d fwb: Increase Longshot timeout to 2 seconds
+
+   * kernel/xiaomi/davinci/
+755759deede4 ARM64: configs: Remove unused configs
+
+=======================
+     08-30-2019
+=======================
+
+
+   * device/xiaomi/sm6150-common/
+a2a5c5f sm6150-common: Include QC sepolicy first
+5ec8abc sm6150-common: sepolicy: Adress perf denials
+25d9ce5 sm6150-common: fod: Remove stock fod node
+78b98a3 sm6150-common: enable itouch and navigation bar for SXR1120/30
+6bd30de sm6150-common: init.msm.usb.configfs.rc: Add support for USB PID 0x9020
+4fbb48a sm6150-common: Remove vc1 sw decoder from xml
+
+   * frameworks/base/
+b1e71ddf9f2 FOD: Change default icon and color
+708d4ce7fe0 Revert "In-DisplayFingerprint: Update icon and add a separate one for enrolling"
+b0360835e32 Revert "Use Auto brightness for Ambient Display"
+80d45cde03f SettingsLib: Make custom bluetooth a2dp strings translatable
+e72412610cd Permissions: Grant Google Markup perms
+9d7c237a223 Permissions: Grant Pixel's Wallpaper app access to SD
+cea27b30312 Network Traffic: Update traffic arrow icon
+8a9030a33e2 VoLTE icon: Fix notch handling
+ecacfcad8de fwb: Declare cutout utils
+
+   * kernel/xiaomi/davinci/
+b004b462cb6c arch/arm64: configs: set default readahead to 2048KB
+96f50feab42e msm: msm_bus: remove tracer
+00c46a4bfe78 msm: msm_bus: Never compile debugfs-related code
+7c06629efc33 msm: msm_bus: Kill transaction logging functionality
+57332e7c38bf writeback: hardcode dirty_expire_centisecs=3000 (30s)
+e0edd4de4283 adreno: leave only /sys/kernel/debug/kgsl/proc/%d/mem for debugfs
+c52d2dad406b rcu: Speed up calling of RCU tasks callbacks
+56cffbdc1d72 msm: bus_arb: disable debug logging
+bd2e203accea Revert "Revert "select: use freezable blocking call""
+327635733e03 Revert "USB: set hub's default autosuspend delay as 0"
+beaa32f161e9 Revert "usb: hub: Prevent hub autosuspend if usbcore.autosuspend is -1"
+ef01f043120e kernel: time: reduce ntp wakeups
+b43a6b21caea random: always use /dev/urandom
+d829debe8461 binder: set binder_debug_mask=0 to suppress logging
+a38a716625c1 msm_geni_serial: reduce wakelock timeout from ISR to 100ms
+0bd7e56ab52f msm_serial_hs: make the Bluetooth tty thread RT
+b6bd01b5784d Make msm_serial_hs RT to improve Bluetooth performance
+b39832ea6d8b Disable Adreno Driver Logging
+abb0e8919aab mm: skip swap readahead when process is exiting
+71d2a1de6c37 mm: vmstat: use power efficient workingqueues
+48cf565a7a1d techpack: use power efficient workingqueues
+c5d9db7af482 gpu: drm: use power efficient workingqueues
+d69ca14a5b28 platform: ipa: use power efficient workingqueues
+542d9fdf7f85 techpack: use more power efficient workingqueues
+4f21c004f0b9 kernel: Don't allow IRQ affinity masks to have more than one CPU
+42b2fafa5aee scsi: ufs: disable interrupt in clk-gating
+7a100e729283 scsi: ufs: disable clock scaling
+089e4153a7e4 scsi: ufs: Only apply pm_qos to the CPU servicing UFS interrupts
+7f09fb273966 scsi: ufs: Remove 10 ms CPU idle latency unvote timeout
+181013c7730f qos: Don't allow userspace to impose restrictions on CPU idle levels
+81c1e5eb9189 msm: kgsl: Relax CPU latency requirements to save power
+6bc4132b8893 msm: kgsl: Increase worker thread priority
+02a35635d8ef msm: kgsl: do not wake up GPU on ioctl
+3207ce759e17 msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input
+8d3d7801e641 msm: kgsl: Stop slab shrinker when no more pages can be reclaimed
+a25d3c1e8b93 cpuidle: lpm-levels: Allow exit latencies equal to target latencies
+a7355856dced cpuidle: don't disable cpuidle when entering suspend
+d12ba9534881 block: replace io_schedule with io_schedule_timeout
+2237057e4ab1 block: disable I/O stats accounting by default
+2ec3aef3bf5e msm: vidc: disable debug logs
+191f81cdb1c1 davinci: Append version information to the version string
+d8d3e3c09e15 fs: sdfat: Update to version 2.1.8
+fd02b397ac32 fs: sdfat: Add MODULE_ALIAS_FS for supported filesystems
+c2a0ea848bab fs: sdfat: Add config option to register sdFAT for VFAT
+05cabd52613d fs: sdfat: Add config option to register sdFAT for exFAT
+9c3a56eb61d8 ARM64: configs: Enable support for sdFAT filesystem
+476084b6ad5b fs: sdfat: Update to driver version 2.0.6
+cd87ba2088eb fs: sdfat: Fix compilation without debugging
+e3039a2ff041 fs: Import sdFAT driver
+31a0c57eb4bb ARM64: configs: Preserve memory on restart and ditch custom cmdline
+8baee4f18e86 power: reset: Allow device to preserve memory on restart
+af284c5b9ea1 qcacld: check if auth_tag_len exceeds sizeof(hash)
+add58412a0fa scripts/Makefile.lib: speed up build process
+7e0cfb902664 gcc-9: silence 'address-of-packed-member' warning
+8eec813fad13 qcacld: disable bunch of more debug configs
+13c503890479 qcacld-3.0: Nuke as much debug bloat as possible
+a33ccb25a932 qcacld: avoid VLA
+c344183ab3a2 qcacld: initialize variables to avoid errors during compilation
+711c62a52427 qcacld: nuke rx_wakelock code entirely
+cd10d0cd1a0c qcacld: Disable drop_bcn_on_chan_mismatch
+b673b936d763 qcacld: reduce log spam
+a191aa215dab qcacld: defer hdd initialization and rely on userspace writing to /dev/wlan
+bb31a98bbda3 qcacld: discard wlan_boot sysfs code on !CONFIG_MODULES
+97c6bcc482bc qcacld: default_config: tone down debugging
+5cb2739e8099 qcacld: always force user build
+03caee343623 qcacld: nuke Kconfig-based configuration entirely
+d85039d6cf22 ARM64: configs: Switch qcacld-3.0 to built-in
+4edcc5981b14 ARM64: configs: davinci: turn on VDSO
+781eee59536c ANDROID: arm64: vdso32: fix CC=clang build
+0c7dc665576b FROMLIST: arm64: vdso32: Use full path to Clang instead of relying on PATH
+4c5cabaf5e83 ANDROID: turn on VCT access from 32-bit applications
+c58d82b4323b ANDROID: clock_gettime(CLOCK_BOOTTIME,) slows down >20x
+efd052591119 STOPSHIP: vdso: disable switches for experiments
+8fbb45b4b723 ANDROID: CROSS_COMPILE_ARM32 must work if CONFIG_COMPAT_VDSO
+4dae560f31e1 FROMLIST: BACKPORT: [PATCH 6/6] arm64: Wire up and expose the new compat vDSO
+40bac1e6b69b FROMLIST: [PATCH 5/6] arm64: compat: 32-bit vDSO setup
+c6202f53a4b3 FROMLIST: [PATCH 4/6] arm64: compat: Add a 32-bit vDSO
+3438e6c2fc65 FROMLIST: BACKPORT: [PATCH 3/6] arm64: Refactor vDSO init/setup
+e5f998043875 FROMLIST: [PATCH 2/6] arm64: elf: Set AT_SYSINFO_EHDR in compat processes
+1dea615abeab FROMLIST: [PATCH 1/6] arm64: compat: Use vDSO sigreturn trampolines if available
+b341f2bd4d96 FROMLIST: lib: vdso: add support for time
+23601e65ebb0 FROMLIST: [PATCH] arm64: compat: Expose offset to registers in sigframes
+444413de9ee2 FROMLIST: [PATCH v5 12/12] lib: vdso: do not expose gettimeofday, if no arch supported timer
+72a00ea0fde4 FROMLIST: [PATCH v5 11/12] lib: vdso: Add support for CLOCK_BOOTTIME
+8a652deb86bb FROMLIST: [PATCH v5 10/12] arm64: vdso: replace gettimeofday.S with global vgettimeofday.C
+13a182520465 FROMLIST: [PATCH v5 09/12] arm: vdso: move vgettimeofday.c to lib/vdso/
+f47dc8e7d2fa FROMLIST: [PATCH v5 08/12] arm: vdso: Add ARCH_CLOCK_FIXED_MASK
+cd228ac8b526 FROMLIST: [PATCH v5 07/12] arm: vdso: disable profiling
+9ab88c566dcd FROMLIST: [PATCH v5 06/12] arm: vdso: add support for clock_getres
+b37cfab1d64e FROMLIST: [PATCH v6 05/12] arm: vdso: Add support for CLOCK_MONOTONIC_RAW
+8627057fb33f FROMLIST: [PATCH v5 04/12] arm: vdso: do calculations outside reader loops
+9eb2035438c8 FROMLIST: [PATCH v5 03/12] arm: vdso: inline assembler operations to compiler.h
+b543bce6355c FROMLIST: [PATCH v5 02/12] arm: vdso: add include file defining __get_datapage()
+ea0273a39ba7 FROMLIST: [PATCH v5 01/12] arm: vdso: rename vdso_datapage variables
+e596200e9325 FROMLIST: [PATCH v3 3/3] arm64: compat: Add CONFIG_KUSER_HELPERS
+1ce297faf678 FROMLIST: [PATCH v3 2/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (assembler sources)
+accbad26443c FROMLIST: [PATCH v3 1/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (C sources)
+ef4651c832cb arm64: davinci: enable CONFIG_JUMP_LABEL
+8629faf623f5 scripts: Don't append "+" to localversion
+e088bb770f45 Android: Add empty Android.mk file
+c481d936eaf6 Revert "Android.bp: Initial header export bp for Android (qseecom only)"
+c92c4533f46f scripts: mod: Silence the warning of gsi_write_channel_scratch()
+3f3b4c604550 davinci: defconfig: Build qcacld module from source
+203bf99ebfc3 qcacld-3.0: Add sme_power_save_api.h include
+04f7e1e6791c drivers: staging: Include qcacld-3.0 source
+3de4dfaecb41 davinci: defconfig: Force load modules
+146e5b4017d7 davinci: defconfig: Enable CONFIG_BUILD_ARM64_DT_OVERLAY
+fc47a5851882 usb: hub: disable USB 2.0 link power management to fix slow storage recognition
+1ee3a4ec68bf usb: f_gsi: do not default to rndis over ethernet for unknown ids
+0ffdc94538d3 sensors: ssc: reload slpi firmware one more time
+f98c5ee178d9 fs: ext4: terminate trim thread on screen on
+899b99a768af haptics: qti: remove flag for calibration after each 8 periods
+319e1d95fecb pinctrl: msm: prevent access to GPIOs used by trustzone
+113b1389666d power: msm: set custom restart reaasons
+afd0a0c8664d nfc: nq-nci: check availability of pin voting clk
+d7f8fdedb97e nfc: nq-nci: mark IRQ as TRIGGER_RISING
+746757014ae7 nfc: nq-nci: disable hardware checks
+9d3603709f48 regulator: qpnp-lcdb: add voltage reading fix
+625ba7031f60 qcom: socinfo: add davinci
+686370080514 block: core: gotta go fast
+ff38a12a9505 spi: gen-qcom: increase transfer timeout
+38b5d80ec910 net: wireless: scan: increase scan result expire time
+5cf1818c6e31 of: batterydata: use generic node if no node is found
+b2596aa7d5ac usb: gadget: do not override non-NULL serial number
+643cae9263bf net: ipv4: disable modules which are enabled by default
+a4a2a7eb5967 arm64: configs: Add davinci defconfig
+967fb9446eb4 wireless: db: import Xiaomi changes
+ba442423d189 fs: pstore: Add last_kmsg support
+eb35c3b0a3ab drivers: iio: adc: set channel_check = true
+3583d678bf18 video: Import xiaomi changes
+6b89f4416276 power: qcom: Import xiaomi changes
+2c2f6fcd5c81 media: rc: import xiaomi changes over IR driver
+62dd0ed48ea3 drivers: input: Import misc drivers
+f38ec4faa166 input: event-codes: define BTN_INFO for touchscreen drivers
+3383cfb7ae2f drivers: misc: Import xiaomi power changes
+5a9af4564d1a leds: allow setting max brightness
+459419e9480d drivers: media: camera: Import xiaomi changes
+c559763ab6f2 Add 'drivers/staging/fw-api/' from commit 'cb6a77b68e1fda080c08d10b4797a1ac486bfbc2'
+72940718bb32 Add 'drivers/staging/qca-wifi-host-cmn/' from commit 'ae3e00a07fecfcff662b6e657c0c121354cad820'
+ece9c844c487 Revert "qcacld-3.0: Remove work create for peer_unmap_timer_handler"
+6c3bfcde267e Add 'drivers/staging/qcacld-3.0/' from commit '912300898229d150258aa6dd067f16f8206e69d1'
+1cacf09f510d Revert "msm: ipa3: debug changes for ipa hw rx stall issue"
+99822c8c616d Revert "ARM: dts: msm: Update sm6150 to V8 memory map"
+1555ab6eb6c3 include: Fix undefined reference issue
+1b49832c0c2d drm: msm: re-add xiaomeme code
+0b74291a40de drm: msm: re-add mdelay calls
+f6f4017f2567 drm: msm: add fod hbm node
+62918be33032 drm: msm: implement aod mode
+4fae6f8ebf1a drm: msm: reset panel initialized flag after esd recovery is done
+84292817bdec drm: msm: modify lp11 mode logic
+20eb1a9cc925 drm: msm: handle ss dcs type
+b2366b95f56c drm: msm: use qcom drm notifier
+f0e4cbb3c4d2 thermal: core: custom thermal limits handling
+310f1fa81d4a drivers: drm: Import minimum xiaomi changes
+4262c4c8b9cf input: touchscreen: goodix_driver_gt9886: use qcom drm notifier
+c20d4bc441db drivers: input: Import touchscreen driver
+33a9c211b0c6 drivers: input: Import goodix_ta fingerprint driver
+fa024dd25781 ARM64: dts: Reserve space for ramoops
+fdffac0cdbf0 arm64: boot: dts: Import xiaomi dts changes
+
+   * packages/apps/Evolution/
+a1fe173 QS: Fix interpolators ListPreference
+da7858b Network Traffic: Fix default Autohide behavior
+
+   * vendor/gapps/
+0e1ca29 Fix Google Go separators
+
+=======================
+     08-29-2019
+=======================
+
+
+   * device/xiaomi/sm6150-common/
+2e60f3f sm6150-common: rootdir: Adapt power key input boost value for sm6150
+20fe9b1 sm6150-common: Implement wifi mac generator
+3c5bd50 sm6150-common: Pin modified qti_libpermissions.xml
+
+   * frameworks/base/
+fda3f12c0ba Configurable 0, 90, 180 and 270 degree rotation [1/2]
+489dbafdf6f BatteryMeterDrawableBase: Don't colorize when level critical
+3b9e3ce3d2d Revert "Add the powersave hint to the circle battery"
+
+   * kernel/xiaomi/davinci/
+965e29b131f4 scripts: Disable some noisy dtc warnings
+9678baaeef2e Set correct techpack header install directory
+5ac712b96c91 techpack: explicitly initialize hdr
+eb9452d6a96f techpack: msm-lsm-client: avoid VLA
+8b5c0cefb249 techpack: avoid VLA
+0aa52469f40b dsp/q6afe: silence is the key
+c5e14a4327a3 techpack: disable a few no-op configs
+559e7c101d03 techpack: msm-dai-q6-v2: disable USB playback
+6d4c39c69979 techpack/pinctrl-lpi: initialise at late_initcall
+877850fc7e49 techpack: build everything inline
+315589d70e21 techpack: fix a build error/warning
+6b196b756d06 techpack: audio: Fix header path
+f7b8a49b0952 techpack/audio: Import selected xiaomi changes
+b3a9d517f57d techpack: Include tfa98xx
+9e413669b578 techpack: Include bolero
+9df1a99017f8 techpack: audio: Build sm6150 audio modules
+fdaa0736d1e8 Add 'techpack/audio/asoc/codecs/tfa98xx/' from commit 'badd9098d3ddd6148f3f917eed45e842d1ac44b8'
+4ba8653f7490 Add 'techpack/audio/' from commit '374759fab2b3da8d80b9dc2ee84c9ef8a06e55fe'
+746e60deeecf techpack: Remove .gitignore
+59309a282bcc techpack: Gitignore all subdirs except stub
+0092701f4ee6 techpack: add tech package support
+26782c6df5c1 scripts/dtc: Update to upstream version v1.4.6-9-gaadd0b65c987
+7128851e54a8 scripts/dtc: Update to upstream version v1.4.5-3-gb1a60033c110
+303e61f50d0d dtc: update warning settings for new bus and node/property name checks
+ee41bace1fe9 scripts/dtc: add fdt_overlay.c and fdt_addresses.c to sync script
+cc4c2d2104e7 unifdef.c: use memcpy() instead of the dodgy strncpy().
+8a502898c8d8 selinux: use kernel linux/socket.h definitions for PF_MAX
+
+   * packages/apps/SmartNav/
+b0de1f3 Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+19f4ba1 Automatic translation import
+
+   * packages/apps/Updates/
+397eb74 Automatic translation import
+
+   * vendor/xiaomi/
+6301246 sm6150-common: Allow qcrilmsgtunnel to access android.hidl.manager
+
+=======================
+     08-28-2019
+=======================
+
+
+   * device/xiaomi/sm6150-common/
+fcd31d4 sm6150-common: Override vbmeta version in kernel cmdline
+
+   * kernel/xiaomi/davinci/
+63cd469eccfa Revert "msm: camera: isp: Disable SMMU stall upon VFE page fault.."
+1c9f575275e8 ASoC: codec: Disable surge protection before impedance detection
+
+   * packages/apps/Evolution/
+ae1b04b Evolution: Update Miscellaneous icon
+
+   * packages/apps/Settings/
+f2832d4bc4 Configurable 0, 90, 180 and 270 degree rotation [2/2]
+
+   * packages/apps/Updates/
+23954fa Update icons and strings
+ed6ea1b Use Google sans font on some parts
+
+=======================
+     08-27-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+0af89dd davinci: overlay: enable burn-in protection
+
+   * device/xiaomi/sm6150-common/
+67cf692 sm6150-common: sepolicy: Move device specific denials/labels to device tree
+8ac1548 sm6150-common: enforce
+beae139 Revert "violet: power: Add DT2W support"
+fbf7fd7 Revert "violet: sepolicy: Address IR denials"
+c53bbd7 sm6150-common: overlay: Hide unsupported color effects entry of Snap
+
+   * frameworks/av/
+1a2b6b18b audiopolicy: Fixes for internal audio recording
+bb30521f9 Fix high battery drain after using flashlight
+0e1ee310e Camera: Lazy load sound files to speed up camera startup
+
+   * frameworks/base/
+5b4c6350696 base: Make FP detection in pocket mode configurable [1/2]
+d8a9a2afb3e pocket: Allow to listen for fingerprint
+3555d35b526 Revert "FOD: change Windowmanager flags"
+eeedc1addd9 Port "Option to hide Adb notification icon (1/2)"
+5b021707a50 Base: Introduce DisplayModeManager [1/2]
+
+   * packages/apps/Settings/
+03737aeaca Settings: Make FP detection in pocket mode configurable [2/2]
+72da8ecfa3 Port "Option to hide Adb notification icon (2/2)"
+
+=======================
+     08-26-2019
+=======================
+
+
+   * frameworks/base/
+55935f8d94b core: Add utils from DeviceSettings to base
+
+   * frameworks/opt/telephony/
+f2dca6b6f Fix signal icon is not shown
+
+   * kernel/xiaomi/davinci/
+a093b4a1a907 Merge 1235f2b90858a5388ebfa25025b45aef9b85baa5 on remote branch
+cce972fca8bb Merge 87de3b6a148eb0ef06fb25cc3d0abeb800ca9724 on remote branch
+221aaa3710b9 Merge 613c51a0e1843dda6cb7f98b8a06eb72d38f9738 on remote branch
+66a25232a558 Merge 5a2355a11a84f6fdbcb080551247dd82b09b857e on remote branch
+270599c0df2d Merge 7aa0ac17b1f07beb4903d8e54f740bba28a4bfb0 on remote branch
+
+   * manifest/
+6fde0b2 manifest: track frameworks/opt/telephony
+bd8e8d3 manifest: Branding change
+4556245 manifest: Track PE+ changes
+ac57f70 manifest: Track updated NDK ABI dumps
+82c6d23 manifest: Update sync instructions
+76dc5a8 manifest: Track Longshot & Recorder
+b2413a9 manifest: Track BuiltInPrintService
+0bdc66d manifest: Stop tracking PackageInstaller
+
+   * vendor/xiaomi/
+ba73f75 violet: Initial Push
+48e068f davinci/sm6150-common: Update blobs from miui_DAVINCI_V10.3.12.0.PFJCNXM_54a3ff575a_9.0
+f2a1f36 davinci: initial commit
+
+=======================
+     08-25-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+acaac46 davinci: Commonize light HAL
+
+   * device/xiaomi/sm6150-common/
+32ae4fa sm6150-common: light: Adapt for davinci's blue LED light
+cc5f7fa sm6150-common: Detect maximum brightness dynamically
+5ba401f sm6150-common: Enable PRODUCT_FULL_TREBLE_OVERRIDE
+58b45e1 sm6150-common: Don't build vndk_package
+12c9c5d sm6150-common: Set RPM_MASTER_STATS for power HAL
+98565d7 sm6150-common: sepolicy: Remove sdm845 leftovers
+d549ed5 sm6150-common: Drop creation of useless RFS symlinks
+72667db sm6150-common: Clean up WiFi packages
+f51edff sm6150-common: overlay: Add roundedcorner values from davinci
+0045731 Revert "violet: overlay: Add Notch Cutout Overlays"
+435a58c sm6150-common: fod: Correct fod node
+
+   * frameworks/base/
+86979ffb4a7 fwb: Port extended screenshot function from OOS
+4a2705275ef fwb: Add support for internal audio recording
+5b8785467e6 LiveDisplayService: Notify SystemUI after initialization finished
+82794ad3609 LiveDisplayManager: Perform null check in getConfig()
+42fbdd93d16 SystemUI: Use matching data usage size formatting between QS and Settings
+802a199b93b Update Xbox BT controller mapping to support upcoming controller firmware update
+
+   * vendor/pixelstyle/
+e7881a8 Wallpapers: Add new Papers app
+
+=======================
+     08-24-2019
+=======================
+
+
+   * device/xiaomi/sm6150-common/
+6f24b67 sm6150-common: sensors: Remove unpermitted namespace of property
+b53c2df sm6150-common: Use vibration pattern from pixel 2
+4bfad49 sm6150-common: Don't consider CAF gps.conf as build target
+bf5a13f sm6150-common: Add missing blob for soundtrigger
+7b56d5b sm6150-common: Pick selected OEM changes to USB init scripts
+317d82e sm6150-common: Add Lineage power hal to manifest
+2a85ff4 sm6150-common: Check camera status before motor operation
+e5c825c sm6150-common: Add indicator for camera motor
+4404d66 sm6150-common: Override vendor.hwcomposer-2-2 service definition
+7a848c2 sm6150-common: power: Keep powersaving disabled during boottime
+5415be6 sm6150-common: Enable UFS boottime setting
+8644db2 sm6150-common: Adjust charger state CPUs
+2ff86da sm6150-common: charger: Powersaving in charger mode
+03720f3 sm6150-common: Don't trigger low power on charger mode
+e673a2c sm6150-common: Remove unused services and property triggers
+0544b67 sm6150-common: Delete class_main init shell script
+e6e3007 sm6150-common: Remove more obsolete system properties
+e012b84 sm6150-common: Drop the creation of deprecated system_data folders
+f40c4da sm6150-common: Remove obsolete tcp buffer size system properties.
+da2755a sm6150-common: Point charger service directly to MIUI daemon
+9c75f1d sm6150-common: Create power init script
+309c876 sm6150-common: Remove deprecated kernel cmdline
+61c17ce sm6150-common: Set additional doze related configs
+1ee6c24 sm6150-common: Implement fod position / size interface
+59c76e8 sm6150-common: Switch to auto-brightness model from blueline
+156bb41 sm6150-common: Don't advertise vorbis offloading support
+a29666c sm6150-common: Kang brightness overlays from marlin
+df67220 sm6150-common: Import gpfspath_oem_config.xml
+5df5f6f sm6150-common: configs: Adding min freq of 1.2Ghz for 480fps
+9402fb5 sm6150-common: Move powerhint.xml from vendor tree to device tree
+1a223ba sm6150-common: Rewrite properties into common-props.mk
+7405fd7 sm6150-common: Adjust debugfs paths for power HAL
+df2cfb2 sm6150-common: Disable incompatible power HAL stats
+41c9fab sm6150-common: Update dt2w node
+2118432 sm6150-common: Update sha1sum of qti-telephony-common.jar
+d73d1d1 sm6150-common: Add README.md
+883ec37 sm6150-common: Switch to common basic USB HAL
+1a67584 sm6150-common: Switch to QTI power HAL
+8d4c491 sm6150-common: Unset unused BT flags
+e075583 sm6150-common: Turn down debugging on wpa_supplicant
+e8ff6b7 sm6150-common: Pin patched qti-telephony-common.jar
+db8a682 sm6150-common: Use clang 9.0.5
+eac0dd8 sm6150-common: overlay-lineage: Increase amount of visible notification icons
+0027d6d sm6150-common: Copy media_codecs_google_video_le from fw/av
+01ed9e9 sm6150-common: Enable AOD
+90ff7ee sm6150-common: Build gps from source
+cf58c03 Add 'gps/' from commit 'bf4d994ffbd0415cb1075c6d036c890f01b3881c'
+7eb0b1e sm6150-common: Drop most of unnecessary /treble/ flags
+0ffd357 sm6150-common: Drop SSR blobs/props and set SSR restart_level in init.qcom.rc
+d959796 sm6150-common: Import missing learning module blobs
+7e67ebe sm6150-common: gps: Disable xtwifi related services
+ff02da5 sm6150-common: Move libsdedrm to "Graphics (DRM)" group
+b6a648e sm6150-common: Finish cleaning up
+e22061e sm6150-common: Enable F2FS on userdata.
+ee6ca3a sm6150-common: Create mount point symlinks for backward compatibility
+93f9c9e sm6150-common: Add script to update sha1sums of kanged blobs
+c853939 sm6150-common: pin patched qti-telephony-common
+d12a052 sm6150-common: Rework common vendor blobs
+42804fe sm6150-common: Enable full dexpreopt
+41d6a55 sm6150-common: Update QCOM init scripts
+db141fe sm6150-common: Kill init.qti.fm.sh
+be69540 sm6150-common: Oops that shouldn't be there
+5056bbf Revert "sm6150-common: Override AVB version in kernel cmdline"
+79744d3 sm6150-common: Uprev some HALs in manifest
+55799d9 sm6150-common: Remove unsupported fstab flag
+bd552a3 sm6150-common: Decommonize power_profile
+ce9c73d sm6150-common: Get rid of framework_*.mk
+6432009 sm6150-common: extract-files: use blob_fixup function to hexedit libwfdnative.so
+5f73886 sm6150-common: proprietary-files: misc. corrections
+e9adc5c sm6150-common: Decommonize ACDB loader libraries
+b321a00 sm6150-common: Remove wcnss_filter and all references to it[1/2]
+74e3ce5 sm6150-common: Add QCOM's WFD implementation
+b66080f sm6150-common: import Xiaomi HAL definitions
+8fcbe52 sm6150-common: Use Soong namespace to avoid device build conflicts
+c8dbf6a sm6150-common: Implement camera motor HAL
+d54e178 sm6150-common: implement in-screen fingerprint HAL
+
+   * frameworks/av/
+a8a3904e2 libcameraservice: Disable external provider for legacy HAL1
+
+   * frameworks/native/
+24d5009d5 Exsf: Add hardware hdr capability check
+ebb8b6640 Add VNDK AHardwareBuffer_createFromHandle
+
+   * manifest/
+cddf1d8 Revert "Track sm8150 hals from caf branch"
+2c21043 manifest: Cleanup
+
+   * packages/apps/Recorder/
+6bc960f Update Recorder app
+
+   * packages/apps/Settings/
+92443f9204 Settings: Import Adaptive Battery translations from crosshatch
+
+   * packages/apps/SettingsIntelligence/
+3690f09 Remove overlays from search results
+
+   * vendor/aosp/
+d5bba055 vendor: Build Recorder app
+c152d0b5 vendor: Build Longshot app
+a964baa9 config: Use tether automatic upstream selection
+2cacee9a vendor: Drops losrepopick script
+
+   * vendor/pixelstyle/
+6e47760 Add prebuilt OOS ScreenRecorder port
+12c5117 Revert "Added Support for dark Animations"
+039b77c Revert "Added Support for Evolution X Animations"
+b70a123 Update EvoXPapers & WeatherClient
+
+   * vendor/themes/
+ecfa45f Nuke Gboard and wellbeing overlays
+
+=======================
+     08-23-2019
+=======================
+
+
+   * device/custom/sepolicy/
+aa10b38 Add rules for Long screenshot service
+
+   * device/xiaomi/davinci/
+2bdda5e davinci: Assert on MPSS.AT.4.3.c5-00017-SM6150_GEN_PACK-1
+
+   * frameworks/base/
+f1bbe641410 Add keylayout for Xbox One USB controller
+e149685f8ca Keylayout for xbox controllers
+63055636102 Added mapping files for DualShock3 and DualShock4
+380f9ee0765 Fallback BUTTON_MODE to HOME
+a85cb03d737 Remap PS key to BUTTON_MODE
+c2c553afde4 Set default VR_MODE based on VR feature support
+1785d5e8adb Fix NPE issue for GpsNetInitiatedHandler not complete initialization
+60e3b8e7ff8 Fix NPE crash issue for setting
+0a0892cf80b Fix NPE issue while disable KeyguardViewMediator
+2594b08980f Crash app on foreground service notification error.
+42f4c49740c Add property to control system dialog show
+9d1126a3f5f Fix the fwr issue due to dead lock
+28cb6f75039 fw/b: Add capability to allow tethering to use VPN upstreams
+fc3370a74e2 power: Respect global vibration setting for charging sounds
+
+   * packages/apps/Longshot/
+3886633 Import modded Longshot app
+
+   * packages/apps/Recorder/
+de4f475 Switch to prebuilt
+44e1cd6 Add app/release to .gitignore
+c70d94d Bump version
+e1c6e84 Update icon
+
+   * packages/apps/Settings/
+28a93f7c52 Fix to show eSIM reset checkbox in eng build
+f793bc760f Settings: Add hotspot setting to allow VPN upstreams
+
+   * system/bt/
+1280c47a6 Explicit SBC Dual Channel (SBC HD) support
+608f68197 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+
+=======================
+     08-22-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+c13b388 davinci: Blob camera.device@*-impl.so and android.hardware.camera.provider@2.4*
+d233497 davinci: Kill secure element
+83af711 davinci: Add UBWC blob
+
+   * packages/apps/Recorder/
+5d31749 Use org.pixelexperience.recorder.SUPPORTED feature
+613c490 Make app dummy
+9bb9138 Grant CAPTURE_AUDIO_OUTPUT permission
+9783d38 Add framework jar to fix build
+9452e10 Rebrand
+92c6ca5 Android studio import
+
+=======================
+     08-21-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+b2b7048 davinci: Change owner of dt2w node to system
+60c381b davinci: Fold init.leds.sh into init.target.rc
+07965c1 davinci: Add device specific init scripts
+593f8c5 davinci: Remove duplicated NFC properties
+c4de218 davinci: Implement an init fingerprint script to replace stock one
+3eab81e davinci: Detect maximum brightness dynamically
+294da5b davinci: Rewrite lights HAL based on xiaomi-msm8998-common
+f0b3539 davinci: Remove non-existed audio effect
+4db0f2e davinci: Remove hw_acc effect
+85c08ed davinci: Set proper fingerprint sensor location
+da1da68 davinci: Add libinit_davinci
+6336c74 davinci: Update README.md
+34b90ea davinci: Include device-specific feature permissions
+5b127c8 davinci: Import audio configs from stock
+a3b7769 davinci: Switch to NQ NFC stack
+0f41170 davinci: Clean up NFC packages
+6a81e3c davininci: Switch to vendor variants of custom HALs
+2a103c0 davinci: Finish cleaning up
+bd46439 davinci: Rework vendor blobs
+c02271a davinci: Increase vendor partition size
+dd76a4d davinci: Update to Global_V10.3.11.0.PFJMIXM_a63c8d3d93_9.0.
+de723ab davinci: Update fingerprint to Xiaomi/davinci/davinci:9/PKQ1.190302.001/V10.3.11.0.PFJMIXM:user/release-keys
+f56c81e davinci: Include missing NFC prop
+1e744da davinci: Set up NFC
+adf2be9 davinci: Append device manifest to common one
+
+   * device/xiaomi/sm6150-common/
+2750610 sm6150-common: Decommonize/clean up unused props
+ad34e94 sm6150-common: Decommonize board-info
+0388482 sm6150-common: Remove ConsumerIR HAL
+20f5341 sm6150-common: proprietary-files: initial trim
+bcbb47b Revert "violet: overlay-lineage: Import overlay for Notch"
+ff21ef0 sm6150-common: Don't build light HAL for all targets
+b545c88 sm6150-common: Switch to a map based BT name
+5647fde sm6150-common: Do not build fingerprint wrapper for all targets
+
+   * hardware/qcom/display/
+4ddd15141 Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"
+
+   * packages/apps/DocumentsUI/
+202d9344 Fix theming on dialogs
+72119313 DocumentsUI: Change fonts
+b47f4805 Fix white bg on white text
+24ae94a0 Migrate dark theme to overlay
+5cb61585 Theme: Make sure swipe refresh follows the system theme
+25dc579e DocumentsUI: Improve dark theme
+06a6db9b DocumentsUI: Expose some layouts for themes
+2e91678d Theme improvements
+f16e108a DocumentsUI: Thematize navbar on dark theme
+e8c364a7 DocumentsUI: support night mode
+
+   * packages/services/BuiltInPrintService/
+db73aaa Impor translations from QPP6.190730.005
+7e696fd fix crash during PCLM duplex job with odd page count
+e708877 add print service recommendations under More Options
+4a3eba1 fix PWG-Raster duplex case
+36f23c0 Request ACCESS_FINE_LOCATION when necessary
+bb034f8 Print photos in high-quality mode.
+68e845b Warn user when printing with less encryption than before
+908409c Fix long-edge vs short-edge duplex in PWG-Raster
+47b01d8 Prevent MITM attacks
+
+   * system/vold/
+debb2b2 Add "changepw" command to vdc.
+
+=======================
+     08-20-2019
+=======================
+
+
+   * device/xiaomi/davinci/
+1896e7b davinci: Import power profile from stock
+5cb9e1f davinci: Get rid of framework_*.mk
+329ca4b davinci: conditionally start contexthub HAL service
+0d729ef davinci: proprietary-files: decommonize thermal configs
+4361f3d davinci: Add device specific ACDB loader libraries
+11c5f18 davinci: Switch to vendor.lineage.biometrics.fingerprint.inscreen permission
+e7e6878 davinci: Remove wcnss_filter and all references to it[2/2]
+2dd72a5 davinci: Initial device vendor proprietary files
+1e03f6c davinci: Inherit from sm6150-common
+c44d6a3 davinci: Disable proximity sensor check before pulsing
+e3b6110 davinci: add doze screen brightness
+1f8caa9 davinci: overlays: Set up lights
+28d50c8 davinci: releasetools: Add vbmeta image to the output zip if present
+59c4ef3 davinci: Add script to update sha1sums of kanged blobs
+b5c1b28 davinci: Update audio_policy_configuration.xml from stock
+beff083 davinci: bluetooth: Disable a2dp sink
+99de917 davinci: fod: Sync with Demon000/device_xiaomi_sm8150-common
+cd3e7ef davinci: Load A2DP configuration from a2dp_audio_policy_configuration.xml
+929bc4d davinci: overlay: Add Snap overlay
+632197a davinci: overlay: Enable displayBlanksAfterDoze
+c43a2b7 davinci: Update brightness overlays from Crosshatch
+3d25d78 davinci: Stop using stock motor HIDL
+5f18a8b davinci: overlay: Enable Swipe Up gesture navigation
+37bc3ea davinci: Enable AOD
+cd98daf davinci: import lights HAL from Xiaomi raphael
+5f1ed77 davinci: light: remove implementation
+2430521 davinci: pin patched qti-telephony-common
+6032b8f davinci: Remove media profile hack
+
+   * frameworks/base/
+543dc970c68 Ticker: fix alignment in statusbar
+997f5e5ffff GPU Renderer: OpenGL is not the default GPU renderer anymore
+26b16b32b7f SettingsLib: Allow Skia Vulkan to be used as HW renderer
+9b7ecca6c2e Revert "Revert "Add developer setting to set the default GPU renderer.""
+
+   * hardware/qcom/display-caf/sm8150/
+54a97e84 hwc2: Remove useless info
+
+   * packages/apps/Settings/
+71c6fd6b38 Revert "Revert "Add developer setting to set the default GPU renderer.""
+
+   * packages/providers/DownloadProvider/
+a4fb2bb Automatic translation import
+

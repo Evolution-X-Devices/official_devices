@@ -71,6 +71,20 @@
       ]
    },
    {
+      "name": "Mi 9T",
+      "brand": "Xiaomi",
+      "codename": "davinci",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Akito Mizukito",
+            "maintainer_url": "https://github.com/RealAkito",
+            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-2-0-mi-9t-redmi-k20-davinci-t3963686"
+         }
+      ]
+   },
+   {
       "name": "Redmi Note 5",
       "brand": "Xiaomi",
       "codename": "whyred",
