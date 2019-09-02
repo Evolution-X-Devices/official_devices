@@ -1,0 +1,516 @@
+=======================
+     09-01-2019
+=======================
+
+
+   * device/xiaomi/violet/
+00b7b80 violet: sepolicy: Label ro.build.software.version as qcom_ims_prop
+a0d32dd violet: sepolicy: Address FP denials
+aefe654 violet: Import patched gralloc blobs
+34d07bf violet: Redo the way FM/BT reads BT SoC prop
+e2d4ff3 violet: sepolicy: Address denials
+ec1d487 Revert "violet: Introduce Safailnet"
+a49c1fe violet: Switch to more generic dt2w node
+37304e1 violet: Initial sepolicy rules
+6f02780 violet: update build fingerprint to V10.3.13.0.PFHINXM
+dda7fa0 violet: rootdir: Set MTP product name dynamically
+
+   * frameworks/base/
+9d7fcfd Automatic translation import
+
+   * vendor/qcom/opensource/interfaces/
+16ebbcd IDisplayConfig: Add interface to get attributes of active display
+
+   * vendor/xiaomi/violet/
+c3e29d1 violet: Import patched gralloc blobs
+
+=======================
+     08-31-2019
+=======================
+
+
+   * frameworks/base/
+968338d Fix binder leakage when turning off Bluetooth
+84b1289 fwb: Increase Longshot timeout to 2 seconds
+
+   * packages/apps/Settings/
+6b2c58b Automatic translation import
+
+=======================
+     08-30-2019
+=======================
+
+
+   * frameworks/base/
+b1e71dd FOD: Change default icon and color
+708d4ce Revert "In-DisplayFingerprint: Update icon and add a separate one for enrolling"
+b036083 Revert "Use Auto brightness for Ambient Display"
+80d45cd SettingsLib: Make custom bluetooth a2dp strings translatable
+e724126 Permissions: Grant Google Markup perms
+9d7c237 Permissions: Grant Pixel's Wallpaper app access to SD
+cea27b3 Network Traffic: Update traffic arrow icon
+8a9030a VoLTE icon: Fix notch handling
+
+   * kernel/xiaomi/sm6150/
+4fb3634 Merge branch 'android-4.14-p' of https://android.googlesource.com/kernel/common into pie
+
+   * packages/apps/Evolution/
+cf6665a Automatic translation import
+a1fe173 QS: Fix interpolators ListPreference
+da7858b Network Traffic: Fix default Autohide behavior
+
+   * vendor/gapps/
+0e1ca29 Fix Google Go separators
+
+=======================
+     08-29-2019
+=======================
+
+
+   * frameworks/base/
+ecacfca fwb: Declare cutout utils
+fda3f12 Configurable 0, 90, 180 and 270 degree rotation [1/2]
+489dbaf BatteryMeterDrawableBase: Don't colorize when level critical
+3b9e3ce Revert "Add the powersave hint to the circle battery"
+
+   * kernel/xiaomi/sm6150/
+b3f1500 Merge 4.14.141 into android-4.14-p
+01fd169 Linux 4.14.141
+c632aee Revert "perf test 6: Fix missing kvm module load for s390"
+54de4ef powerpc: Allow flush_(inval_)dcache_range to work across ranges >4GB
+3d15608 dm zoned: fix potential NULL dereference in dmz_do_reclaim()
+044d098 xfs: fix missing ILOCK unlock when xfs_setattr_nonsize fails due to EDQUOT
+1a43956 mm/zsmalloc.c: fix race condition in zs_destroy_pool
+eaa98c1 mm/zsmalloc.c: migration can leave pages in ZS_EMPTY indefinitely
+58eba20 mm, page_owner: handle THP splits correctly
+dc8eb1e genirq: Properly pair kobject_del() with kobject_add()
+2c4291b dm zoned: properly handle backing device failure
+17e9b17 dm zoned: improve error handling in i/o map code
+8de4659 dm zoned: improve error handling in reclaim
+64ba80c dm table: fix invalid memory accesses with too high sector number
+013d13a dm space map metadata: fix missing store of apply_bops() return value
+09f142a dm btree: fix order of block initialization in btree_split_beneath
+8e64ca3 dm kcopyd: always complete failed jobs
+20622d5 x86/boot: Fix boot regression caused by bootparam sanitizing
+f1b779f x86/boot: Save fields explicitly, zero out everything else
+0bfaf1c x86/CPU/AMD: Clear RDRAND CPUID bit on AMD family 15h/16h
+64aee64 x86/apic: Handle missing global clockevent gracefully
+f581478 x86/retpoline: Don't clobber RFLAGS during CALL_NOSPEC on i386
+bc2a692 userfaultfd_release: always remove uffd flags and clear vm_userfaultfd_ctx
+0570fc5 gpiolib: never report open-drain/source lines as 'input' to user-space
+8ba408f drm/nouveau: Don't retry infinitely when receiving no data on i2c over AUX
+17017eb libceph: fix PG split vs OSD (re)connect race
+e6a1bf1 ceph: don't try fill file_lock on unsuccessful GETFILELOCK reply
+d2cbe6a Revert "dm bufio: fix deadlock with loop device"
+fec7a84 HID: wacom: Correct distance scale for 2nd-gen Intuos devices
+76f66b8 HID: wacom: correct misreported EKR ring values
+8512973 selftests: kvm: Adding config fragments
+fae00a6 perf pmu-events: Fix missing "cpu_clk_unhalted.core" event
+5db6357 perf cpumap: Fix writing to illegal memory in handling cpumap mask
+5411aef perf ftrace: Fix failure to set cpumask when only one cpu is present
+93a6504 drm/vmwgfx: fix memory leak when too many retries have occurred
+73898d7 x86/lib/cpu: Address missing prototypes warning
+01b9d50 libata: add SG safety checks in SFF pio transfers
+b853d7c libata: have ata_scsi_rw_xlat() fail invalid passthrough requests
+9e47a79 net: hisilicon: Fix dma_map_single failed on arm64
+414938c net: hisilicon: fix hip04-xmit never return TX_BUSY
+a888f67 net: hisilicon: make hip04_tx_reclaim non-reentrant
+04766b8 net: cxgb3_main: Fix a resource leak in a error path in 'init_one()'
+5a166c8 SMB3: Kernel oops mounting a encryptData share with CONFIG_DEBUG_VIRTUAL
+4b019c0 HID: input: fix a4tech horizontal wheel custom usage
+b6bc6d2 NFSv4: Fix a potential sleep while atomic in nfs4_do_reclaim()
+77a6e51 net/ethernet/qlogic/qed: force the string buffer NULL-terminated
+4132b90 can: peak_usb: force the string buffer NULL-terminated
+02c2a31 can: sja1000: force the string buffer NULL-terminated
+6d349ff perf bench numa: Fix cpu0 binding
+9e11caf isdn: hfcsusb: Fix mISDN driver crash caused by transfer buffer on the stack
+aa79a24 netfilter: ipset: Fix rename concurrency with listing
+80688ab isdn: mISDN: hfcsusb: Fix possible null-pointer dereferences in start_isoc_chain()
+9fe87b7 qed: RDMA - Fix the hw_ver returned in device attributes
+ccaf6f8 net: usb: qmi_wwan: Add the BroadMobi BM818 card
+a25aea7 ASoC: ti: davinci-mcasp: Correct slot_width posed constraint
+3e5e5f1 st_nci_hci_connectivity_event_received: null check the allocation
+dd8f605 st21nfca_connectivity_event_received: null check the allocation
+a56c79e ASoC: Fail card instantiation if DAI format setup fails
+16c8326 can: dev: call netif_carrier_off() in register_candev()
+e2a7495 bonding: Force slave speed check after link state recovery for 802.3ad
+ed89648 ASoC: dapm: Fix handling of custom_stop_condition on DAPM graph walks
+bdfb3b3 netfilter: ebtables: fix a memory leak bug in compat
+5bb56df mips: fix cacheinfo
+15b5ebb MIPS: kernel: only use i8253 clocksource with periodic clockevent
+27608c8 HID: Add 044f:b320 ThrustMaster, Inc. 2 in 1 DT
+
+   * packages/apps/SmartNav/
+b0de1f3 Automatic translation import
+
+   * packages/apps/SmartNavSettings/
+19f4ba1 Automatic translation import
+
+   * packages/apps/Updates/
+397eb74 Automatic translation import
+
+=======================
+     08-28-2019
+=======================
+
+
+   * packages/apps/Settings/
+f2832d4 Configurable 0, 90, 180 and 270 degree rotation [2/2]
+
+=======================
+     08-27-2019
+=======================
+
+
+   * frameworks/av/
+1a2b6b1 audiopolicy: Fixes for internal audio recording
+bb30521 Fix high battery drain after using flashlight
+0e1ee31 Camera: Lazy load sound files to speed up camera startup
+
+   * frameworks/base/
+5b4c635 base: Make FP detection in pocket mode configurable [1/2]
+d8a9a2a pocket: Allow to listen for fingerprint
+3555d35 Revert "FOD: change Windowmanager flags"
+eeedc1a Port "Option to hide Adb notification icon (1/2)"
+5b02170 Base: Introduce DisplayModeManager [1/2]
+
+   * packages/apps/Evolution/
+ae1b04b Evolution: Update Miscellaneous icon
+
+   * packages/apps/Settings/
+03737ae Settings: Make FP detection in pocket mode configurable [2/2]
+72da8ec Port "Option to hide Adb notification icon (2/2)"
+
+   * packages/apps/Updates/
+23954fa Update icons and strings
+ed6ea1b Use Google sans font on some parts
+
+=======================
+     08-26-2019
+=======================
+
+
+   * device/xiaomi/violet/
+f5a539e violet: evo changes
+9d783f3 violet: Update dependencies
+6405da0 violet: Enable itouch and navigation bar for SXR1120/30
+77d92a4 violet: Update sku frequencies for automotive only.
+5369c16 violet: Add locSll library and add permissions to device node
+6ed0955 violet: Remove min_freq limit for GPU.
+72fd214 violet: Remove unpermitted namespace of property
+b650f35 violet: Add support for USB PID 0x9020
+bb4d003 violet: Build libdisplayconfig
+ee76488 violet: Import missing renderscript blobs
+
+   * frameworks/base/
+55935f8 core: Add utils from DeviceSettings to base
+
+   * frameworks/opt/telephony/
+f2dca6b Fix signal icon is not shown
+
+   * kernel/xiaomi/sm6150/
+72f0385 Merge branch 'android-4.14-p' of https://android.googlesource.com/kernel/common into HEAD
+c2d22167 Merge 4.14.140 into android-4.14-p
+
+   * manifest/
+6fde0b2 manifest: track frameworks/opt/telephony
+bd8e8d3 manifest: Branding change
+4556245 manifest: Track PE+ changes
+ac57f70 manifest: Track updated NDK ABI dumps
+82c6d23 manifest: Update sync instructions
+76dc5a8 manifest: Track Longshot & Recorder
+b2413a9 manifest: Track BuiltInPrintService
+0bdc66d manifest: Stop tracking PackageInstaller
+
+   * vendor/xiaomi/violet/
+a589626 violet: Import missing renderscript blobs
+
+=======================
+     08-25-2019
+=======================
+
+
+   * device/xiaomi/violet/
+10c446b violet: sepolicy: xiaomi_sm6150 -> violet
+87b8650 violet: power: Introducing PowerHAL binderized service
+8e596fe Revert "sdm845-common: Drop sdm845 power hal"
+e6f7c1d violet: Drop ThermalController
+267f076 violet: Drop Livedisplay
+
+   * kernel/xiaomi/sm6150/
+b526080 Linux 4.14.140
+64d1cec xfrm: policy: remove pcpu policy cache
+cea3cbf mmc: sdhci-of-arasan: Do now show error message in case of deffered probe
+c35aeec bonding: Add vlan tx offload to hw_enc_features
+46b06c8 team: Add vlan tx offload to hw_enc_features
+16e1daf net/mlx5e: Use flow keys dissector to parse packets for ARFS
+dfb4320 net/mlx5e: Only support tx/rx pause setting for port owner
+e7a327b xen/netback: Reset nr_frags before freeing skb
+382d899 sctp: fix the transport error_count check
+5ac7381 net/packet: fix race in tpacket_snd()
+fbaae31 net/mlx4_en: fix a memory leak bug
+0a994ce bnx2x: Fix VF's VLAN reconfiguration in reload.
+37bc6f4 iommu/amd: Move iommu_init_pci() to .init section
+d687999 Input: psmouse - fix build error of multiple definition
+b6a1dc4db netfilter: conntrack: Use consistent ct id hash calculation
+209479b arm64: ftrace: Ensure module ftrace trampoline is coherent with I-side
+ed13fc1 arm64: compat: Allow single-byte watchpoints on all addresses
+480d6d2f Revert "tcp: Clear sk_send_head after purging the write queue"
+2d45c6f bpf: fix bpf_jit_limit knob for PAGE_SIZE >= 64K
+ef6a045 USB: serial: option: Add Motorola modem UARTs
+d319621 USB: serial: option: add the BroadMobi BM818 card
+8313b76 USB: serial: option: Add support for ZTE MF871A
+e11df87 USB: serial: option: add D-Link DWM-222 device ID
+1213b36 USB: CDC: fix sanity checks in CDC union parser
+e630f38 usb: cdc-acm: make sure a refcount is taken early enough
+56a3eb5 usb: gadget: udc: renesas_usb3: Fix sysfs interface of "role"
+282a771 USB: core: Fix races in character device registration and deregistraion
+24e808d iio: adc: max9611: Fix temperature reading in probe
+beed4c2 staging: comedi: dt3000: Fix rounding up of timer divisor
+5c8b1c3 staging: comedi: dt3000: Fix signed integer overflow 'divider * base'
+672980b KVM: arm/arm64: Sync ICH_VMCR_EL2 back when about to block
+43b3942 asm-generic: fix -Wtype-limits compiler warnings
+aae6206 ocfs2: remove set but not used variable 'last_hash'
+3da4da7 drm: msm: Fix add_gpu_components
+2f0cd54 IB/mad: Fix use-after-free in ib mad completion handling
+11dc5bb IB/core: Add mitigation for Spectre V1
+ecad92b arm64/mm: fix variable 'pud' set but not used
+5afb0d8 arm64: unwind: Prohibit probing on return_address()
+1c14951 arm64/efi: fix variable 'si' set but not used
+f295b9a kbuild: modpost: handle KBUILD_EXTRA_SYMBOLS only for external modules
+ddc47dc ata: libahci: do not complain in case of deferred probe
+f366bdf scsi: qla2xxx: Fix possible fcport null-pointer dereferences
+d110628 scsi: hpsa: correct scsi command status issue after reset
+0039f97 drm/bridge: lvds-encoder: Fix build error while CONFIG_DRM_KMS_HELPER=m
+f917417 libata: zpodd: Fix small read overflow in zpodd_get_mech_type()
+83b9d5e perf header: Fix use of unitialized value warning
+577b3cc perf header: Fix divide by zero error if f_header.attr_size==0
+31afdd9 irqchip/irq-imx-gpcv2: Forward irq type to parent
+acc760f irqchip/gic-v3-its: Free unused vpt_page when alloc vpe table fail
+d0d12e5 xen/pciback: remove set but not used variable 'old_state'
+990ea5a clk: renesas: cpg-mssr: Fix reset control race condition
+c9b83c9 clk: at91: generated: Truncate divisor to GENERATED_MAX_DIV + 1
+9f896cb netfilter: ebtables: also count base chain policies
+8176e66 net: usb: pegasus: fix improper read if get_registers() fail
+6ab425b Input: iforce - add sanity checks
+fbfcffc Input: kbtab - sanity check for endpoint type
+d65ca54 HID: hiddev: do cleanup in failure of opening a device
+4239114 HID: hiddev: avoid opening a disconnected device
+32cfa39 HID: holtek: test for sanity of intfdata
+c3bbd13 ALSA: hda - Let all conexant codec enter D3 when rebooting
+0412f12 ALSA: hda - Add a generic reboot_notify
+9de28f8 ALSA: hda - Fix a memory leak bug
+64d581b ALSA: hda - Apply workaround for another AMD chip 1022:1487
+d2e9581 xtensa: add missing isync to the cpu_reset TLB code
+4bcb4a1 x86/mm: Use WRITE_ONCE() when setting PTEs
+a1fe647 bpf: add bpf_jit_limit knob to restrict unpriv allocations
+b3c69ac bpf: restrict access to core bpf sysctls
+234646d bpf: get rid of pure_initcall dependency to enable jits
+c4de112 mm/memcontrol.c: fix use after free in mem_cgroup_iter()
+3e7e801 mm/usercopy: use memory range to be accessed for wraparound check
+9f89256 sh: kernel: hw_breakpoint: Fix missing break in switch statement
+25f99d0 scsi: mpt3sas: Use 63-bit DMA addressing on SAS35 HBA
+
+=======================
+     08-24-2019
+=======================
+
+
+   * frameworks/base/
+86979ff fwb: Port extended screenshot function from OOS
+4a27052 fwb: Add support for internal audio recording
+5b87854 LiveDisplayService: Notify SystemUI after initialization finished
+82794ad LiveDisplayManager: Perform null check in getConfig()
+42fbdd9 SystemUI: Use matching data usage size formatting between QS and Settings
+802a199 Update Xbox BT controller mapping to support upcoming controller firmware update
+
+   * frameworks/native/
+24d5009 Exsf: Add hardware hdr capability check
+ebb8b66 Add VNDK AHardwareBuffer_createFromHandle
+
+   * manifest/
+cddf1d8 Revert "Track sm8150 hals from caf branch"
+2c21043 manifest: Cleanup
+
+   * packages/apps/Recorder/
+6bc960f Update Recorder app
+
+   * packages/apps/SettingsIntelligence/
+3690f09 Remove overlays from search results
+
+   * vendor/aosp/
+d5bba05 vendor: Build Recorder app
+
+   * vendor/pixelstyle/
+e7881a8 Wallpapers: Add new Papers app
+6e47760 Add prebuilt OOS ScreenRecorder port
+12c5117 Revert "Added Support for dark Animations"
+039b77c Revert "Added Support for Evolution X Animations"
+
+=======================
+     08-23-2019
+=======================
+
+
+   * device/custom/sepolicy/
+aa10b38 Add rules for Long screenshot service
+
+   * frameworks/av/
+a8a3904 libcameraservice: Disable external provider for legacy HAL1
+
+   * frameworks/base/
+f1bbe64 Add keylayout for Xbox One USB controller
+e149685 Keylayout for xbox controllers
+6305563 Added mapping files for DualShock3 and DualShock4
+380f9ee Fallback BUTTON_MODE to HOME
+a85cb03 Remap PS key to BUTTON_MODE
+c2c553a Set default VR_MODE based on VR feature support
+1785d5e Fix NPE issue for GpsNetInitiatedHandler not complete initialization
+60e3b8e Fix NPE crash issue for setting
+0a0892c Fix NPE issue while disable KeyguardViewMediator
+2594b08 Crash app on foreground service notification error.
+42f4c49 Add property to control system dialog show
+9d1126a Fix the fwr issue due to dead lock
+28cb6f7 fw/b: Add capability to allow tethering to use VPN upstreams
+fc3370a power: Respect global vibration setting for charging sounds
+
+   * kernel/xiaomi/sm6150/
+2c5e959 Merge branch 'android-4.14-p' of https://android.googlesource.com/kernel/common into pie
+c384ffe Merge tag 'LA.UM.7.1.r1-16300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel into pie
+ca954c9 Merge tag 'LA.UM.7.1.r1-16300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into pie
+c5586ec Merge tag 'LA.UM.7.1.r1-16300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into pie
+c1b1a28 Merge tag 'LA.UM.7.1.r1-16300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into pie
+28b2cae Merge tag 'LA.UM.7.1.r1-16300-sm8150.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into pie
+
+   * packages/apps/Longshot/
+3886633 Import modded Longshot app
+
+   * packages/apps/Recorder/
+de4f475 Switch to prebuilt
+44e1cd6 Add app/release to .gitignore
+c70d94d Bump version
+e1c6e84 Update icon
+
+   * packages/apps/Settings/
+92443f9 Settings: Import Adaptive Battery translations from crosshatch
+28a93f7 Fix to show eSIM reset checkbox in eng build
+f793bc7 Settings: Add hotspot setting to allow VPN upstreams
+
+   * system/bt/
+1280c47 Explicit SBC Dual Channel (SBC HD) support
+608f681 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+
+   * vendor/aosp/
+c152d0b vendor: Build Longshot app
+a964baa config: Use tether automatic upstream selection
+2cacee9 vendor: Drops losrepopick script
+
+   * vendor/pixelstyle/
+b70a123 Update EvoXPapers & WeatherClient
+
+   * vendor/themes/
+ecfa45f Nuke Gboard and wellbeing overlays
+
+=======================
+     08-22-2019
+=======================
+
+
+   * packages/apps/Recorder/
+5d31749 Use org.pixelexperience.recorder.SUPPORTED feature
+613c490 Make app dummy
+9bb9138 Grant CAPTURE_AUDIO_OUTPUT permission
+9783d38 Add framework jar to fix build
+9452e10 Rebrand
+92c6ca5 Android studio import
+
+=======================
+     08-21-2019
+=======================
+
+
+   * hardware/qcom/display/
+4ddd151 Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"
+
+   * packages/apps/DocumentsUI/
+202d934 Fix theming on dialogs
+7211931 DocumentsUI: Change fonts
+b47f480 Fix white bg on white text
+24ae94a Migrate dark theme to overlay
+5cb6158 Theme: Make sure swipe refresh follows the system theme
+25dc579 DocumentsUI: Improve dark theme
+06a6db9 DocumentsUI: Expose some layouts for themes
+2e91678 Theme improvements
+f16e108 DocumentsUI: Thematize navbar on dark theme
+e8c364a DocumentsUI: support night mode
+
+   * packages/services/BuiltInPrintService/
+db73aaa Impor translations from QPP6.190730.005
+7e696fd fix crash during PCLM duplex job with odd page count
+e708877 add print service recommendations under More Options
+4a3eba1 fix PWG-Raster duplex case
+36f23c0 Request ACCESS_FINE_LOCATION when necessary
+bb034f8 Print photos in high-quality mode.
+68e845b Warn user when printing with less encryption than before
+908409c Fix long-edge vs short-edge duplex in PWG-Raster
+47b01d8 Prevent MITM attacks
+
+   * system/vold/
+debb2b2 Add "changepw" command to vdc.
+
+=======================
+     08-20-2019
+=======================
+
+
+   * frameworks/base/
+543dc97 Ticker: fix alignment in statusbar
+997f5e5 GPU Renderer: OpenGL is not the default GPU renderer anymore
+26b16b3 SettingsLib: Allow Skia Vulkan to be used as HW renderer
+9b7ecca Revert "Revert "Add developer setting to set the default GPU renderer.""
+
+   * hardware/qcom/display-caf/sm8150/
+54a97e8 hwc2: Remove useless info
+
+   * packages/apps/Settings/
+71c6fd6 Revert "Revert "Add developer setting to set the default GPU renderer.""
+
+   * packages/providers/DownloadProvider/
+a4fb2bb Automatic translation import
+
+=======================
+     08-19-2019
+=======================
+
+
+   * build/soong/
+9a2ebac Give Blueprint modules access to all namespaces
+43fa226 Fix formatting
+a8bbf5a Optimize CPU time when running d8, r8, dx and desugar
+a3db167 soong: add PathForSourceRelaxed function
+
+   * device/xiaomi/violet/
+37a313a violet: Drop creation of useless RFS symlinks
+752a934 violet: Don't ship libbtnv.so
+f1b8f1a violet: Update sensor stack from MIUI 9.8.15
+d75dc27 violet: update GPS HAL to LA.UM.7.1.r1-15800-sm8150.0
+0ea8428 violet: update vendor blobs from laurus V10.2.10.0.PFMCNXM
+
+   * prebuilts/clang/host/linux-x86/
+b2636c1 Update prebuilt Clang to r365631.
+
+   * system/vold/
+0ff4a15 vold: change to upgrade key if export fails
+3733c53 vold: add support for clear key
+1a67236 vold: Use separate flag for wrappedkey
+bc0dcbb vold: Wrapped key support for FBE
+58b7d75 vold: Add linkage for fs_mgr changes
+89dc079 vold: Move QCOM HW FDE inclusion under Aosp namespace
+2291b80 system: vold: Remove crypto block device creation
+7f59b79 vold: Add Hardware FDE feature
+
+   * vendor/xiaomi/violet/
+b8e4772 violet: Don't ship libbtnv.so
+1e01493 violet: Update sensor stack from MIUI 9.8.15
+31841bf violet: update vendor blobs from laurus V10.2.10.0.PFMCNXM
+
