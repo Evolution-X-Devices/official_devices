@@ -353,15 +353,15 @@
       ]
    },
    {
-      "name": "Moto G5s Plus",
+      "name": "Moto G5S Plus",
       "brand": "Motorola",
       "codename": "sanders",
       "supported_versions": [
          {
             "version_code": "pie",
             "version_name": "Pie",
-            "maintainer_name": "Mayur Varde (marshmello_61)",
-            "maintainer_url": "https://t.me/marshmello61",
+            "maintainer_name": "Mayur Varde",
+            "maintainer_url": "https://t.me/marshmello_61",
             "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-evolution-x-t3923633"
          }
       ]
