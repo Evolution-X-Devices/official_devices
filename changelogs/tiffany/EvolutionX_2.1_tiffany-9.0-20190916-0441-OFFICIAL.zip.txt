@@ -1,0 +1,142 @@
+=======================
+     09-16-2019
+=======================
+
+
+   * frameworks/base/
+060dbf3da Automatic translation import
+
+=======================
+     09-15-2019
+=======================
+
+
+   * build/make/
+1d4d748 Fix support for devices that don't have ro.product.model
+
+   * packages/apps/Evolution/
+2661971 Automatic translation import
+
+   * packages/apps/Settings/
+dfd5f29 Automatic translation import
+
+=======================
+     09-14-2019
+=======================
+
+
+   * packages/services/Telecomm/
+78be6f3 Telecomm: Add back increasing ring feature (3/3)
+
+=======================
+     09-13-2019
+=======================
+
+
+=======================
+     09-12-2019
+=======================
+
+
+=======================
+     09-11-2019
+=======================
+
+
+=======================
+     09-10-2019
+=======================
+
+
+   * manifest/
+9752089 manifest: allow contexthub
+
+   * vendor/aosp/
+9dea54c vendor: Add special conditions for devices with prebuilt display hal
+
+=======================
+     09-09-2019
+=======================
+
+
+=======================
+     09-08-2019
+=======================
+
+
+=======================
+     09-07-2019
+=======================
+
+
+   * frameworks/native/
+ef77159 Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/native into pie
+
+   * frameworks/opt/telephony/
+781dbf3 Sort activeSubscriptionInfoList according to API annotation
+
+   * hardware/custom/interfaces/
+baa21d9 IFingerprintInscreen: Allow HALs to provide finger up/down callback
+
+   * system/core/
+7fd32be Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/core into pie
+
+   * system/sepolicy/
+1606deb adbd: do not audit vsock_socket create
+
+   * vendor/gapps/
+f2b3836 Update priv-app permissions
+
+   * vendor/pixelstyle/
+08d450d Add storage permissions to markup
+
+=======================
+     09-06-2019
+=======================
+
+
+   * external/libcups/
+8521646 Fix heap buffer overflow in ipp.c
+
+   * external/libhevc/
+b85e16f decoder: Fix valid SPS check in parsing SEI
+
+   * system/nfc/
+91a677a Prevent integer overflow in NDEF_MsgValidate
+
+=======================
+     09-05-2019
+=======================
+
+
+=======================
+     09-04-2019
+=======================
+
+
+   * frameworks/av/
+292810c MTP: Add support of ObjectInfoChanged Event
+
+   * system/netd/
+f210487 netd: Consolidate restrict apps methods
+
+=======================
+     09-03-2019
+=======================
+
+
+   * packages/apps/Snap/
+3a2828a Automatic translation import
+
+   * packages/apps/Updates/
+7a86397 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+82b05b6 Automatic translation import
+
+   * packages/services/BuiltInPrintService/
+29525cd Automatic translation import
+
+   * vendor/codeaurora/telephony/
+7de911d Revert "IMS-VT: Low battery handling for Video calls"
+
