@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_dipper-9.0-20190629-0304-OFFICIAL.zip",
-   "size": 891346377,
-   "datetime": 1561777421,
-   "id": "f470f97b3e095c96c9f6f09191a126fd81e82e1d77218cdd3d6c71cc460e8c5b",
-   "filehash": "915ef16895b1f607a4fb430b5bfdb31b",
-   "url": "https://sourceforge.net/projects/evolution-x/files/dipper/EvolutionX_dipper-9.0-20190629-0304-OFFICIAL.zip/download",
+   "filename": "EvolutionX_2.1_dipper-9.0-20190920-2202-OFFICIAL.zip",
+   "size": 1166289472,
+   "datetime": 1569016916,
+   "id": "c31d959dc1b27840e5965528668b64bebeda5de64fb60881988ce4dfa433a4d2",
+   "filehash": "2046e596daefd0b15cb1efb9aaf49e7d"
+   "url": "https://sourceforge.net/projects/evolution-x/files/dipper/EvolutionX_2.1_dipper-9.0-20190920-2202-OFFICIAL.zip/download",
    "version": "Pie",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://Paypal.me/joeyhuab",
-   "maintainer": "Anierin Bliss (AnierinB)",
-   "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-   "telegram_username": "anierinb",
-   "forum_url": "https://forum.xda-developers.com/mi-8/development/rom-evolution-x-2-0-t3943815"
+   "maintainer": "Aggelos Savvopoulos (DarkAngelGR)",
+   "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
+   "telegram_username": "DarkAngelGR",
+   "forum_url": "https://forum.xda-developers.com/mi-8/development/9-0-evolution-x-v2-1-t3969947"
 }
