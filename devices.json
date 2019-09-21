@@ -71,6 +71,20 @@
       ]
    },
    {
+      "name": "Mi 9",
+      "brand": "Xiaomi",
+      "codename": "cepheus",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://github.com/AnierinBliss",
+            "xda_thread": "https://forum.xda-developers.com/Mi-9/development/rom-evolution-x-2-1-t3970831"
+         }
+      ]
+   },
+   {
       "name": "Redmi Note 5",
       "brand": "Xiaomi",
       "codename": "whyred",
