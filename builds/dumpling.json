@@ -1,17 +1,17 @@
 {
-   "error": false,
-   "filename": "EvolutionX_2.0_dumpling-9.0-20190825-0831-OFFICIAL.zip",
-   "datetime": "1566721834",
-   "size": "1265091121",
-   "url": "https://sourceforge.net/projects/evolution-x/files/dumpling/EvolutionX_2.0_dumpling-9.0-20190825-0831-OFFICIAL.zip/download",
-   "filehash": "ae0a3ecdd47e8ba0782ecad5001ea692",
+   "error": "false",
+   "filename": "EvolutionX_2.1_dumpling-9.0-20190923-0116-OFFICIAL.zip",
+   "datetime": "1569201333",
+   "size": 1268975015,
+   "url": "https://sourceforge.net/projects/evolution-x/files/dumpling/EvolutionX_2.1_dumpling-9.0-20190923-0116-OFFICIAL.zip",
+   "filehash": "278364a487c250b08d912e6d5f701230",
    "version": "Pie",
-   "id": "74801dee15af1fffc10ce685910459bea17951b2d03e5d5f5639bb95c53ca983",
+   "id": "8691df6b25a548a4cb137e52a0c7d3e6eb4991e749f618e07389d73ba5ba6513",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://PayPal.me/anierin",
    "maintainer": "Anierin Bliss (AnierinB)",
    "maintainer_url": "https://github.com/anierinbliss",
    "telegram_username": "AnierinB",
-   "forum_url": "https://forum.xda-developers.com/showthread.php?t=3933825"
+   "forum_url": "https://forum.xda-developers.com/showthread.php?t=3970831"
 }
