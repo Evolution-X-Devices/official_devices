@@ -71,6 +71,20 @@
       ]
    },
    {
+      "name": "Redmi Note 3",
+      "brand": "Xiaomi",
+      "codename": "kenzo",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Anierin Bliss (AnierinB)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-3/development/rom-evolution-x-2-2-t3975763"
+         }
+      ]
+   },
+   {
       "name": "Mi 9T",
       "brand": "Xiaomi",
       "codename": "davinci",
