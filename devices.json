@@ -786,5 +786,19 @@
             "xda_thread": "https://forum.xda-developers.com/redmi-s2/development/arm64-evolution-x-t3967758"
          }
       ]
-   }
+   },
+   {
+      "name": "Moto G5 Plus",
+      "brand": "Motorola",
+      "codename": "potter",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "giostocco",
+            "maintainer_url": "https://github.com/giostocco",
+            "xda_thread": "https://forum.xda-developers.com/g5-plus/development/rom-evolution-x-2-2-t3976463"
+          } 
+       ] 
+   }   
 ]
