@@ -365,6 +365,13 @@
       "codename": "beryllium",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Ninad Patil (REIGNZ)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6549853",
+            "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-3-0-t3980467/"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Ninad Patil (REIGNZ)",
