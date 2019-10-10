@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_2.1_tiffany-9.0-20190916-0441-OFFICIAL.zip",
-   "datetime": 1568608851,
-   "size": 991805176,
-   "url": "https://sourceforge.net/projects/evolution-x/files/tiffany/EvolutionX_2.1_tiffany-9.0-20190916-0441-OFFICIAL.zip/download",
-   "filehash": "49eb0825fb5680904818d04c78d26c62",
-   "version": "Pie",
-   "id": "ad79d4fcdb19578b9b8d4f5fa3894bffa3d851ff401fb706043510485ac5c518",
+   "filename": "EvolutionX_3.0_tiffany-10.0-20191010-1115-OFFICIAL.zip",
+   "datetime": 1570706105,
+   "size": 1008714313,
+   "url": "https://sourceforge.net/projects/evolution-x/files/tiffany/EvolutionX_3.0_tiffany-10.0-20191010-1115-OFFICIAL.zip/download",
+   "filehash": "202c6cda5cd858b43e28585527d3e449",
+   "version": "Ten",
+   "id": "37a17faa338bc92a9bc7380281d8468d9b8c69ed98a5036b56487edfa43fd7a0",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/joeyhuab",
    "maintainer": "Eytan",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=8359610",
    "telegram_username": "Ethan_Tan",
-   "forum_url": "https://forum.xda-developers.com/mi-5x/development/rom-evolution-x-2-0-t3951342"
+   "forum_url": "https://forum.xda-developers.com/mi-5x/development/rom-evolution-x-3-0-t3981025"
 }
