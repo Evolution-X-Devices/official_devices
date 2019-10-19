@@ -1,0 +1,10 @@
+- Adapt parts of Settings app to 10 style
+- Adapt OTA app icons to Android 10 style
+- Fix Calls while using BT Headset
+- Fixes for WiFi Display
+- Make safetynet pass (ctsprofile: true)
+- Remove unneeded WeatherClient app
+- Remove weather temperature metric/imperial toggle in Settings
+- Update to October security patch
+- Use Google's lockscreen weather implementation
+- Upstream Immensity kernel to 4.9.150
