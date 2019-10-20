@@ -308,6 +308,13 @@
       "codename": "X00T",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Pranavkpr",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9434189",
+            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/evolution-x-t3947428"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Pranavkpr",
