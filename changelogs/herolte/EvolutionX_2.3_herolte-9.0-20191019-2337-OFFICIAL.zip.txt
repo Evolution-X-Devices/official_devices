@@ -1,0 +1,7 @@
+- Adapt OTA app icons to Android 10 style
+- Fixes for WiFi Display
+- Remove unneeded WeatherClient app
+- Remove weather temperature metric/imperial toggle in Settings
+- Update version code to 2.3
+- Update to October security patch
+- Use Google's lockscreen weather implementation
