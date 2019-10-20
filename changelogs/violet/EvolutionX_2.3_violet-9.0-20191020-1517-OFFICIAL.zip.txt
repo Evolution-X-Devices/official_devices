@@ -1,0 +1,89 @@
+
+=======================
+     10-20-2019
+=======================
+
+
+   * vendor/aosp/
+596033af vendor: branding: Bump version to 2.3
+
+=======================
+     10-19-2019
+=======================
+
+
+   * build/make/
+e78340a9c Bump Security String to 2019-10-05
+d1d5063c0 build: Fix building on MacOS
+bc78e6a4a build: Disable 32-bit Darwin builds
+fd8550a24 check_boot_jars: Add CAF IMS to whitelist
+ea69c64ea Revert "build: add org.codeaurora to package whitelist"
+36e62cf7c build: Update contributors
+c47202552 Fix support for devices that don't have ro.product.model
+5434b90e1 Bump Security String to 2019-09-05
+140e7efd8 More base_rules.mk optimizations
+6252832ad Skip much of aux_config.mk
+
+   * frameworks/av/
+5a98a2ae7 audioflinger: Fix audio for WifiDisplay
+ca0b63dac libstagefright_wfd: video encoder does not actually release MediaBufferBase when done
+31eb96b5c stagefright: Fix buffer handle retrieval in signalBufferReturned
+d9565b7e4 stagefright: Fix SurfaceMediaSource getting handle from wrong position issue
+627ed2eff libstagefright_wfd: libmediaplayer2: compilation fixes
+bebb17fd9 Revert "stagefright: remove Miracast sender code"
+2d03c6dce Revert "Removed unused class and its test"
+6ce5c2bc9 Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/frameworks/av into pie
+
+   * frameworks/base/
+5e92f2f085d Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/frameworks/base into pie
+73d5a153217 Revert "SystemUI: Implement weather on lockscreen like Pixels"
+5c26d935dc5 Revert "BatteryMeterDrawableBase: Don't colorize when level critical"
+dba991d1052 Fix smartspace on Pie
+0c6867adb3c SystemUI: Implement Smart space
+c1dcfc905b2 SystemUI: Port code to improve pixel live wallpapers
+f0714b8f40e KeyguardSliceProvider: Fix "isDndSuppressingNotifications" missing method
+83d9e559ffb Initial import of SystemUIGoogleFactory
+662bca4ea34 Fix "show pattern error" feature
+a0ea3ed5951 SystemUI: Allow snoozing SD card notification unconditionally
+6911974da0d fw/b: Prevent trying to enable hw offload for tethering via VPN upstreams
+7e1c4a073a5 core: Add camera intents for camera state
+
+   * packages/apps/Evolution/
+838cd50 Evolution: Icons cleanup
+
+   * packages/apps/Nfc/
+cacfd2e2 Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Nfc into pie
+
+   * packages/apps/Settings/
+9f67021574 Settings: Adapt to 10 Settings app style
+6fe7f27e74 Revert "Settings: Add weather temperature metric/imperial toggle"
+0fa26b9cc2 Settings: Apply system tint to first private storage
+5bef2768b6 Merge tag 'android-9.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Settings into pie
+
+   * packages/apps/Updates/
+9eef1b2 Icons & strings: Adapt to 10 Settings app style
+
+   * packages/services/Telecomm/
+e276b0c5 Telecomm: Update MSIM audio params logic again
+
+   * vendor/pixelstyle/
+709f987 Remove WeatherClient
+=======================
+     10-09-2019
+=======================
+
+
+   * device/qcom/sepolicy/
+a038a33 sepolicy: label persist.vendor.bluetooth.a4wp
+
+   * device/qcom/sepolicy-legacy/
+726c242 common: permit libqdutils operation (linked by mediaserver) during WFD
+
+   * hardware/interfaces/
+13a44e18 Wifi: Syncronization on reading and writing ringbuffer
+
+   * packages/apps/Snap/
+5057994ce snap: remove double resources
+
+   * packages/providers/DownloadProvider/
+49f5d14 Automatic translation import
