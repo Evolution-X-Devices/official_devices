@@ -599,6 +599,20 @@
       ]
    },
    {
+      "name": "Moto E 2015 LTE",
+      "brand": "Motorola",
+      "codename": "surnia",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Luke Williams",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7166349",
+            "xda_thread": "https://forum.xda-developers.com/moto-e-2015/development/evolution-x-2-0-moto-e-2015-lte-t3951394"
+         }
+      ]
+   },
+   {
       "name": "Galaxy J5 (2015) 3G",
       "brand": "Samsung",
       "codename": "j53gxx",
