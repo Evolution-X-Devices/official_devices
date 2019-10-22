@@ -162,6 +162,19 @@
       ]
    },
    {
+      "name": "OnePlus 6T",
+      "brand": "OnePlus",
+      "codename": "fajita",
+      "supported_versions": [
+         {
+            "version_code": "ten",
+            "version_name": "ten",
+            "maintainer_name": "Anierin Bliss (AnierinB)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966"
+         }
+      ]
+   },
+   {
       "name": "OnePlus 5T",
       "brand": "OnePlus",
       "codename": "dumpling",
