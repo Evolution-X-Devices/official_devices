@@ -125,6 +125,13 @@
       "codename": "whyred",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Zeeshan Ahmed",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-3-0-t3989229"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Zeeshan Ahmed",
