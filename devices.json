@@ -542,20 +542,6 @@
       ]
    },
    {
-      "name": "Redmi Note 7",
-      "brand": "Xiaomi",
-      "codename": "lavender",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gegham Zakaryan",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8314576",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-evolution-x-2-0-t3951914"
-         }
-      ]
-   },
-   {
       "name": "Mi 8 SE",
       "brand": "Xiaomi",
       "codename": "sirius",
@@ -636,62 +622,6 @@
             "maintainer_name": "Luke Williams",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7166349",
             "xda_thread": "https://forum.xda-developers.com/moto-e-2015/development/evolution-x-2-0-moto-e-2015-lte-t3951394"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy J5 (2015) 3G",
-      "brand": "Samsung",
-      "codename": "j53gxx",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gegham Zakaryan (zakaryan2004)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8314576",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy J5 (2015) LTE",
-      "brand": "Samsung",
-      "codename": "j5lte",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gegham Zakaryan (zakaryan2004)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8314576",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy J5 (2015) LTE NFC",
-      "brand": "Samsung",
-      "codename": "j5nlte",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gegham Zakaryan (zakaryan2004)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8314576",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy J5 (2015) LTE China",
-      "brand": "Samsung",
-      "codename": "j5ltechn",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gegham Zakaryan (zakaryan2004)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8314576",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-j5/development/official-evolution-x-rom-galaxy-j5-t3947295/"
          }
       ]
    },
