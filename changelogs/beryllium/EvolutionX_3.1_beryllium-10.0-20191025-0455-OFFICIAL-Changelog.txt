@@ -1,0 +1,25 @@
+=======================
+     10-25-2019
+=======================
+- Update version code to 3.1 Dream
+- Add 3 finger swipe gesture to take screenshots
+- Add Lockscreen Charging info
+- Add Dash Charging support
+- Add Double tap to sleep on lockscreen
+- Add Double tap to sleep on status bar
+- Add Fingerprint vibration toggle
+- Add support for SiM 2 ringtone (hidden when not inserted/single sim devices)
+- Add support for In call vibration modes
+- Add toggles for brightness slider position
+- Add toggle for Auto Brightness button
+- Add toggle to hide power menu on lockscreen
+- Allow to disable Lockscreen Media Art
+- Expand QS panel on QS tile header long press
+- Fix crash when long pressing on Caffeine tile
+- Settings: Add charging vibration settings
+- Settings: Add Lockscreen quick unlock toggle
+- Settings: Add toggle to scramble pin layout while unlocking
+- Settings: Lockscreen rotation config support
+- Settings: Open app when clicking on icon in App Info
+- Settings: show battery times in summary
+- Show BT Battery level when available
