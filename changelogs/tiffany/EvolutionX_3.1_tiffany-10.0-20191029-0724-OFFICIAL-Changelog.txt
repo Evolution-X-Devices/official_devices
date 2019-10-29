@@ -1,0 +1,181 @@
+=======================
+     10-29-2019
+=======================
+
+
+=======================
+     10-28-2019
+=======================
+
+
+   * packages/apps/Settings/
+3485ab2 Settings: Add Evolution X Logo to firmware window
+
+=======================
+     10-27-2019
+=======================
+
+
+=======================
+     10-26-2019
+=======================
+
+
+   * frameworks/av/
+bd30f58 audiopolicy: Fixes for internal audio recording
+
+   * frameworks/base/
+2d7ceb3e SystemUI: Add navbar layout inversion tuning
+
+   * frameworks/opt/net/ims/
+c059bea Merge tag 'LA.UM.8.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into ten
+
+   * frameworks/opt/telephony/
+dd5f8d6 Merge tag 'LA.UM.8.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
+
+   * manifest/
+cd6c221 manifest: Track livedisplay HALs from LOS
+
+   * packages/apps/Evolution/
+655cc93 NavBar: Add 'Invert layout' to Navigation settings
+
+   * packages/apps/Updates/
+1697ded Icons: Adapt to 10 Settings app style
+
+   * vendor/pixelstyle/
+04e00ee vendor: Whitelist LiveDisplay permissions
+
+=======================
+     10-25-2019
+=======================
+
+
+   * hardware/qcom-caf/sm8150/audio/
+1454ad0 audio: Add missing includes
+
+   * hardware/qcom-caf/sm8150/media/
+cf2b0fd media: Depend on display_headers not display_intf_headers
+
+   * packages/services/Telecomm/
+2dfef0e Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+   * vendor/qcom/opensource/dataservices/
+4c1685f Revert "librmnetctl: Add support for UL aggregation features"
+
+=======================
+     10-24-2019
+=======================
+
+
+   * system/core/
+d6a5a93 LockscreenCharging: squashed (2/3)
+
+   * vendor/aosp/
+560ba51 version: Update to 3.1
+
+=======================
+     10-23-2019
+=======================
+
+
+   * vendor/qcom/opensource/cryptfs_hw/
+debccb6 cryptfs_hw: Remove dependency on generated kernel headers
+
+=======================
+     10-22-2019
+=======================
+
+
+=======================
+     10-21-2019
+=======================
+
+
+   * hardware/qcom-caf/sm8150/display/
+3b07c0f Revert "hwc2: add support to enforce pipe split for built-in display"
+
+=======================
+     10-20-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8916/audio/
+369d042 audio_extn: Mark unused variable as void
+
+   * hardware/qcom-caf/msm8916/media/
+f9cd945 media: Fix compilation error for switch case
+
+=======================
+     10-19-2019
+=======================
+
+
+   * hardware/qcom-caf/sdm845/audio/
+27f45ae Merge tag 'LA.UM.8.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-17.0-caf-sdm845
+
+   * hardware/qcom-caf/wlan/
+1b63dff Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/wlan into lineage-17.0-caf
+
+   * hardware/qcom/bt/
+05c4596 Revert "msm8974: remove from top level makefile"
+
+   * vendor/codeaurora/telephony/
+e488385 Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into lineage-17.0
+
+   * vendor/nxp/opensource/commonsys/external/libnfc-nci/
+b1cef13 Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/opensource/external/libnfc-nci into lineage-17.0
+
+   * vendor/nxp/opensource/commonsys/frameworks/
+6ca7543 Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/opensource/frameworks into lineage-17.0
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+30a6ac1 Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/opensource/packages/apps/Nfc into lineage-17.0
+
+   * vendor/nxp/opensource/pn5xx/halimpl/
+4b29cd3 Merge tag 'LA.UM.8.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/opensource/halimpl into lineage-17.0-pn5xx
+
+   * vendor/nxp/opensource/sn100x/halimpl/
+1726f9d Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/opensource/halimpl into lineage-17.0-sn100x
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+4d60cb0 Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into lineage-17.0
+
+   * vendor/qcom/opensource/interfaces/
+d102156 Merge tag 'LA.UM.8.1.r1-09500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into lineage-17.0
+
+=======================
+     10-18-2019
+=======================
+
+
+   * bionic/
+752ce66 hax to fix stpcpy_a9 build errors
+
+=======================
+     10-17-2019
+=======================
+
+
+   * hardware/qcom-caf/sdm845/display/
+3a0160c gralloc: Add option for unaligned NV21_ZSL pixel format
+
+=======================
+     10-16-2019
+=======================
+
+
+   * build/make/
+bea9f78 Merge tag 'android-10.0.0_r4' of https://android.googlesource.com/platform/build into ten
+
+   * external/tinycompress/
+b529e1e tinycompress: Fix compilation on old targets
+
+   * frameworks/native/
+cf64dfe surfaceflinger: Pass proper transform orientation to setProjection()
+
+   * frameworks/opt/net/wifi/
+ed59989 Merge tag 'android-10.0.0_r4' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * packages/apps/Nfc/
+3f48839 Merge tag 'android-10.0.0_r4' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
