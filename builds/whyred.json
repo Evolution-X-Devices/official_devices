@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_3.0_whyred-10.0-20191022-1911-OFFICIAL.zip",
-   "datetime": 1571769538,
-   "size": 1092862354,
-   "url": "https://sourceforge.net/projects/evolution-x/files/whyred/EvolutionX_3.0_whyred-10.0-20191022-1911-OFFICIAL.zip/download",
-   "filehash": "47cc197c24559c78632702d09e37858a",
-   "version": "Ten",
-   "id": "94252fc6a9ba73feb7dc5f530f781bdae83962975d70341bdb2bfc84c5516d8a",
+   "filename": "EvolutionX_2.3_whyred-9.0-20191102-1015-OFFICIAL.zip",
+   "datetime": 1572689712,
+   "size": 1025090813,
+   "url": "https://sourceforge.net/projects/evolution-x/files/whyred/EvolutionX_2.3_whyred-9.0-20191102-1015-OFFICIAL.zip/download",
+   "filehash": "e57faffd173d7590e5658d19efcaabfa",
+   "version": "Pie",
+   "id": "e302ca9d1e098cb072206e1c4bea46799101db1d210d39fc2b778c3bc0c32dd3",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://Paypal.me/joeyhuab",
    "maintainer": "Zeeshan Ahmed",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
    "telegram_username": "NAHSEEZ",
-   "forum_url": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-3-0-t3989229"
+   "forum_url": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-t3919089"
 }
