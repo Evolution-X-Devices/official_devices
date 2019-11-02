@@ -1,0 +1,26 @@
+=======================
+     11-02-2019
+=======================
+- Add Evolution X banner in Version info
+- Add status bar icon packs
+- Add internal audio recording
+- Add navbar inversion toggle
+- Add toggle to hide gesture navbar
+- Add toggle to unlink ring and notification volumes
+- Add LiveDisplay (with QS tiles)
+- Add navigation bar hide toggle
+- Dev options ON by default
+- Enable editing lockscreen shortcuts
+- Fixed some bugs
+- Improvements signals
+- Add in prebuilt Pixel Live Wallpapers stub
+- Add Screenrecord QS toggle
+- Add toggles for status bar NFC, VPN, roaming, data saver icons
+- Add Volte icon toggle
+- Bring back pocket lock & status bar brightness control
+- Click QS header battery icon to open power usage
+- Click QS header date to open Calendar
+- Enable native screen recorder
+- Enable theme picker support for Google Wallpapers and Pixel Launcher
+- Move custom dp settings under Display
+- Re-enable Privacy indicators
