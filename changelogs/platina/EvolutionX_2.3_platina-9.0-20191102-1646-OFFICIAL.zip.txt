@@ -1,0 +1,18 @@
+** ROM CHANGELOG **
+- Add in prebuilt Pixel Live Wallpapers stub
+- Add Screenrecord QS toggle
+- Add toggles for status bar NFC, VPN, roaming, data saver icons
+- Add Volte icon toggle
+- Bring back status bar brightness control
+- Click QS header battery icon to open power usage
+- Click QS header date to open Calendar
+- Enable native screen recorder
+- Enable theme picker support for Google Wallpapers and Pixel Launcher
+- Move custom dp settings under Display
+- Re-enable Privacy indicators
+- Add Evo X logo to firmware window
+- Add toggle to hide gesture navbar
+- Update Google Wallpaper Images
+
+** INFO **
+- My last build, I'm leaving of team due to no more time for maintain this rom and I'll change my device in a few days. Thanks y'all guys.
