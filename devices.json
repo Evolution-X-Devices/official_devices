@@ -392,12 +392,11 @@
       "codename": "jason",
       "supported_versions": [
          {
-            "version_code": "pie",
-            "version_name": "Pie",
+            "version_code": "ten",
+            "version_name": "Ten",
             "maintainer_name": "Dusan Uveric (Uvera)",
             "maintainer_url": "http://t.me/uvera",
             "xda_thread": "",
-            "deprecated": true
          }
       ]
    },
