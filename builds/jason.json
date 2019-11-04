@@ -1,12 +1,12 @@
 {
    "error": false,
-   "filename": "EvolutionX_jason-9.0-20190505-1448-OFFICIAL.zip",
-   "datetime": 1557068331,
-   "size": 887616763,
-   "url": "https://sourceforge.net/projects/evolution-x/files/jason/EvolutionX_jason-9.0-20190505-1448-OFFICIAL.zip",
-   "filehash": "5a30def72e8db0dee05f20872620ee17",
-   "version": "Pie",
-   "id": "4d86556872e38b5619acc63baa837bcfb12678f09bbe9ed4359ca7f28e61e914",
+   "filename": "EvolutionX_3.2_jason-10.0-20191104-1248-OFFICIAL.zip",
+   "datetime": 1572871678,
+   "size": 1306607008,
+   "url": "https://sourceforge.net/projects/evolution-x/files/jason/EvolutionX_3.2_jason-10.0-20191104-1248-OFFICIAL.zip",
+   "filehash": "a32c8eef8967bb4d9cd190e69d8d4a75"
+   "version": "Ten",
+   "id": "f9867c8604e32e9324cf1c8c34fedc3dbfc2b66c3cbc10503f8d27697dcb25cd",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/uvera609",
@@ -15,3 +15,4 @@
    "telegram_username": "uvera",
    "forum_url": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
 }
+
