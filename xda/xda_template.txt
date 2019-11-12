@@ -1,80 +1,50 @@
 [CENTER]
 [IMG]https://github.com/Evolution-X/platform_manifest/raw/pie/EvoBanner.png[/IMG]
-[SIZE="5"][b][color=#FFDF00]Evolution X 2.0 for Xiaomi Mi A1 [tissot][/color][/b][/SIZE]
+[SIZE="5"][b][color=#FFDF00]Evolution X 3.3 for Xiaomi Mi A1 [tissot][/color][/b][/SIZE]
  
 [img]https://i.imgur.com/zBswibh.jpg[/img]
-[SIZE="3"]Pixel UI, Android Q vibes, Customization and more. We are Evolution X![/SIZE]
+[SIZE="3"]Pixel UI, Customization and More. We Are Evolution X![/SIZE]
  
 [img]https://i.imgur.com/Bn90eTG.jpg[/img]
  
 [HIDE][SIZE="2"][U][I][COLOR="Orange"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
-- Clock Settings
-- Clock Font's & Colors
-- Battery Icon Customization
-- EvoX Icon Toggle (39 Styles)
-- Notification Ticker
-- Roaming Icon toggle
-- VoLTE & 4G Icon Toggle
+- LTE/4G Icon Toggle
+- VoLTE Icon Toggle
+- Status Bar Brightness Control
+- Status Bar Network Traffic Indicators
 [SIZE="2"][U][I][COLOR="Orange"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
-- Pixel Animation Toggle
+- Show Navbar Toggle
 - Invert Layout
-- Extra Button Customization
-- One-Handed Mode
-- Navigation Gestures
-- Portrait Height/Landscape Width Configurations
-- Pulse (Navbar Audio Visualization)
 [SIZE="2"][U][I][COLOR="DarkOrange"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
-- QS Rows & Columns Customization
-- Tile Titles Toggle
-- Gaming Mode QS Tile
-- OOS Screen Recorder QS Tile
-- QS Panel Color's (RGB picker)
-- QS Panel Opacity Selector
+- Hide Expanded QS on Secure Lockscreens
 - Quick Pulldown (Right/Left)
-- QS Edit Icon Toggle
 - Bottom Brightness Slider Toggle
-- QS Animations (Flip/Rotate)
-- QS Styles (24 Including QDP4 Styles)
 [SIZE="2"][U][I][COLOR="orange"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
-- Status bar visibility toggle
-- Clock Styles (14 Including Q Clock)
-- Clock Font Sizes & Colors
-- Date/Alarms/Zen Hider
-[SIZE="2"][U][I][COLOR="orange"][B]Ambient Display[/B][/COLOR][/I][/U][/SIZE]
-- Music Ticker & Visualization Options
-- Ambient Display Gestures (Hand Wave, etc.)
-[SIZE="2"][U][I][COLOR="orange"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
-- Wallpaper/Light/Dark switching
-- Accent's (43 Including 6 Q Accents)
-- Font Picker
-- Rootless Substratum Support
+- Pocket Detection
+- Fingerprint Authentication Vibration
+- Lockscreen Shortcuts
+- Hide LS Status Bar
+- LS Charging Info
+- LS Media Artwork
+- LS Music Visualizer
 [SIZE="2"][U][I][COLOR="orange"][B]Buttons and Gestures[/B][/COLOR][/I][/U][/SIZE]
-- AOSP & Fingerprint Gestures
-- Power Menu Customization
-- Volume Key Cursor Control
-- Volume Key Playback Control
-- Volume Panel Placement (Right/Left)
+- Volume Rocker Wake
+- Volume Rocker Playback Control
+- Volume Rocker Key Cursor Control
+- AOSP Gestures
+- Swipe To Screenshot
+- Screen Off Power Button Torch
+- Double Tap To Sleep Status Bar
+- Double Tap To Sleep Status Lockscreen
 [SIZE="2"][U][I][COLOR="orange"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
-- Heads Up Notification & less Annoying Toggle
-- Notification Timeout
-- Snooze timer
-- Stoplist & Blacklist for Heads up
-- Smart Notification Sounds
-- Blink Flashlight On Call
+- Notification Light Support
 - Kill App Button
-- Call Vibrations
-- Q Style Seek Bar
+- In Call Vibration Options
 [SIZE="2"][U][I][COLOR="orange"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
-- Extended Screenshot
-- Smart Charging
-- Doze Settings & Profiles
-- Wakelock Blocker
-- Alarm Blocker
-- Sensor Block Per Package
-- Signature Spoofing Support
-- Time In State Monitor
-- Default USB Config
-- Wake On Plug[/HIDE]
+- USB Configurations
+- Wake On charge
+[/HIDE]
+
 [URL="https://imgur.com/a/FTOPUyE"][img]https://i.imgur.com/28T3wbY.jpg[/img][/URL]
  
 [SIZE="4"][b][color=#FFDF00]Known issues[/color][/b][/SIZE]
@@ -105,8 +75,8 @@ Reboot to system
  
 [img]https://i.imgur.com/lsPaX5X.jpg[/img][/CENTER]
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 9.0.0_r40
-[*][b]Security patch level:[/b] June 2019
+[*][b]Android OS version:[/b] 10.0_r14
+[*][b]Security patch level:[/b] November 2019
 [*][b]Build author:[/b] [url=https://forum.xda-developers.com/member.php?u=4936496]joeyhuab[/url]
 [*][b]Source code:[/b] [url=https://github.com/Evolution-X][url]https://github.com/Evolution-X[/url][/url]
 [*][b]Kernel Source code:[/b] [url=https://github.com/Evolution-X-Devices/kernel_xiaomi_msm8953][url]https://github.com/Evolution-X-Devices/kernelxiaomimsm8953[/url][/url]
@@ -114,13 +84,13 @@ Reboot to system
 [/list][/SIZE][/LEFT]
  
 [B][U][SIZE="4"][NOPARSE]XDA:DevDB Information[/NOPARSE][/SIZE][/U][/B]
-[SIZE=3][B]Evolution X, ROM for the Xiaomi Mi A1[/B][/SIZE]
+[SIZE=3][B]Evolution X 3.3, ROM for the Xiaomi Mi A1[/B][/SIZE]
  
 [B][U]Contributors[/U][/B]
 [URL="https://forum.xda-developers.com/member.php?u=4936496"]joeyhuab[/URL],[URL="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/URL],[URL="https://forum.xda-developers.com/member.php?u=9008281"]peaktogoo[/URL], [URL="https://forum.xda-developers.com/member.php?u=7665334"]hugwalk[/URL]
 B]Source Code:[/B] [URL="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/URL]
  
-[B]ROM OS Version:[/B] 9.x Pie
+[B]ROM OS Version:[/B] 10.0 Ten
 [B]ROM Kernel:[/B] Linux 4.x
 [B]ROM Firmware Required:[/B] Unlocked Bootloader, TWRP/SHRP, [URL="https://forum.xda-developers.com/mi-a1/themes/twrp-baseband-modem-april-stock-rom-t3777901"]Updated Firmware (January and above only)[/URL]
 [B]Based On:[/B] AOSP
@@ -131,4 +101,4 @@ B]Source Code:[/B] [URL="https://github.com/Evolution-X"][url]https://github.com
 [B]Stable Release Date:[/B] 2019-03-27
  
 [B]Created[/B] 2019-02-18
-[B]Last Updated[/B] 2019-06-07
+[B]Last Updated[/B] 2019-11-11

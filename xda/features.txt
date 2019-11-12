@@ -1,68 +1,37 @@
 [HIDE][SIZE="2"][U][I][COLOR="Orange"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
-- Clock Settings
-- Clock Font's & Colors
-- Battery Icon Customization
-- EvoX Icon Toggle (39 Styles)
-- Notification Ticker
-- Roaming Icon toggle
-- VoLTE & 4G Icon Toggle
+- LTE/4G Icon Toggle
+- VoLTE Icon Toggle
+- Status Bar Brightness Control
+- Status Bar Network Traffic Indicators
 [SIZE="2"][U][I][COLOR="Orange"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
-- Pixel Animation Toggle
+- Show Navbar Toggle
 - Invert Layout
-- Extra Button Customization
-- One-Handed Mode
-- Navigation Gestures
-- Portrait Height/Landscape Width Configurations
-- Pulse (Navbar Audio Visualization)
 [SIZE="2"][U][I][COLOR="DarkOrange"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
-- QS Rows & Columns Customization
-- Tile Titles Toggle
-- Gaming Mode QS Tile
-- OOS Screen Recorder QS Tile
-- QS Panel Color's (RGB picker)
-- QS Panel Opacity Selector
+- Hide Expanded QS on Secure Lockscreens
 - Quick Pulldown (Right/Left)
-- QS Edit Icon Toggle
 - Bottom Brightness Slider Toggle
-- QS Animations (Flip/Rotate)
-- QS Styles (24 Including QDP4 Styles)
 [SIZE="2"][U][I][COLOR="orange"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
-- Status bar visibility toggle
-- Clock Styles (14 Including Q Clock)
-- Clock Font Sizes & Colors
-- Date/Alarms/Zen Hider
-[SIZE="2"][U][I][COLOR="orange"][B]Ambient Display[/B][/COLOR][/I][/U][/SIZE]
-- Music Ticker & Visualization Options
-- Ambient Display Gestures (Hand Wave, etc.)
-[SIZE="2"][U][I][COLOR="orange"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
-- Wallpaper/Light/Dark switching
-- Accent's (43 Including 6 Q Accents)
-- Font Picker
-- Rootless Substratum Support
+- Pocket Detection
+- Fingerprint Authentication Vibration
+- Lockscreen Shortcuts
+- Hide LS Status Bar
+- LS Charging Info
+- LS Media Artwork
+- LS Music Visualizer
 [SIZE="2"][U][I][COLOR="orange"][B]Buttons and Gestures[/B][/COLOR][/I][/U][/SIZE]
-- AOSP & Fingerprint Gestures
-- Power Menu Customization
-- Volume Key Cursor Control
-- Volume Key Playback Control
-- Volume Panel Placement (Right/Left)
+- Volume Rocker Wake
+- Volume Rocker Playback Control
+- Volume Rocker Key Cursor Control
+- AOSP Gestures
+- Swipe To Screenshot
+- Screen Off Power Button Torch
+- Double Tap To Sleep Status Bar
+- Double Tap To Sleep Status Lockscreen
 [SIZE="2"][U][I][COLOR="orange"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
-- Heads Up Notification & less Annoying Toggle
-- Notification Timeout
-- Snooze timer
-- Stoplist & Blacklist for Heads up
-- Smart Notification Sounds
-- Blink Flashlight On Call
+- Notification Light Support
 - Kill App Button
-- Call Vibrations
-- Q Style Seek Bar
+- In Call Vibration Options
 [SIZE="2"][U][I][COLOR="orange"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
-- Extended Screenshot
-- Smart Charging
-- Doze Settings & Profiles
-- Wakelock Blocker
-- Alarm Blocker
-- Sensor Block Per Package
-- Signature Spoofing Support
-- Time In State Monitor
-- Default USB Config
-- Wake On Plug[/HIDE]
+- USB Configurations
+- Wake On charge
+[/HIDE]
