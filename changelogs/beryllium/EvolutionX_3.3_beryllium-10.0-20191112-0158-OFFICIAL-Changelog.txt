@@ -1,0 +1,41 @@
+=======================
+     11-12-2019
+=======================
+- Add 4G instead of LTE icon switch
+- Add kill app button to notification guts
+- Add option to dismiss notifications using FP swipe
+- Add option to hide status bar on lockscreen
+- Add proper VoLTE icon toggle
+- Align suggestion cards with search bar
+- Bring back some accent colors from Pie (Discord Purple, Golden Shower, Jollibee Crimson, OnePlus Red, Paranoid Green, Pepsi Blue, Xbox Green, Xiaomi Orange)
+- Fix network traffic (for notched devices)
+- Remove broken Hide arrows option for Network traffic
+- Remove duplicates in Status bar icons options
+- Add light version for evo bootanimation (by Shen Wenlin)
+- Add Network traffic support
+- Allow hiding arrows in network traffic
+- Add button brightness/backlight options
+- Add support for HW keys customization
+- Allow disabling home key when ringing
+- Add Volume rocker Wake support
+- Add Volume rocker Music control
+- Add Volume rocker Cursor control
+- Add Option to turn on torch when holding power button
+- Add proximity check for power button torch
+- Add Wake on plug option
+- Add Accidental touch option
+- Allow access to Navbar tuner from Evo settings
+- Add Gaming Mode QS tile
+- Add HW Keys QS tile
+- Add toggle to disable FC dialogs
+- Allow configuring Lockscreen media art Blur level
+- Bring back lockscreen visualizer
+- Add pulse options for visualizer
+- Remove other options from Caffeine tile except Infinite
+- Screen off skip tracks: Support media apps remote sessions
+- Make AOD music ticker compatible with double tap sensor
+- Add back SELinux info into firmware window
+- Add permission hub google previously removed
+- Enable LTE+ icon by default
+- Merge November security patch
+- Temporarily hide empty Evo X settings categories
