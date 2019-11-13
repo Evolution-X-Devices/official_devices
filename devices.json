@@ -799,6 +799,13 @@
       "codename": "potter",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "giostocco",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6051580"
+            "xda_thread": "https://forum.xda-developers.com/g5-plus/development/rom-evolution-x-3-3-t4002417"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "giostocco",
