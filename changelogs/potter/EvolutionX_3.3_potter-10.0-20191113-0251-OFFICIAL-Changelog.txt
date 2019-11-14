@@ -1,0 +1,190 @@
+=======================
+     11-13-2019
+=======================
+
+
+=======================
+     11-12-2019
+=======================
+
+
+=======================
+     11-11-2019
+=======================
+
+
+   * device/custom/sepolicy/
+261b12b sepolicy: Misc fixes
+
+   * frameworks/base/
+e1e861c1 SystemUI: config to hide status bar on lock screen [1/2]
+
+   * manifest/
+8d1061d manifest: Initial manifest for Evolution X 3.x+
+
+   * packages/apps/Evolution/
+32f3c5d Evolution: Config to hide status bar on lock screen [2/2]
+
+   * packages/apps/Settings/
+6698a9e Allow to dismiss notifications with back FP left/right swipe [2/2]
+
+=======================
+     11-10-2019
+=======================
+
+
+   * build/make/
+af625d1 branding: Back to Evolution X!
+
+   * external/sqlite/
+5b0cd37 Revert "Enable native_bridge_support for libsqlite"
+
+   * frameworks/av/
+3fd56e0 MTP: Fix crash when no storages are available
+
+   * packages/apps/Bluetooth/
+f8a2492 SBC Dual Channel (SBC HD Audio) support
+
+   * packages/providers/MediaProvider/
+c535199 Use Evolution fingerprint for MediaScanner [2/2]
+
+   * packages/services/Telecomm/
+f9654f5 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+   * packages/services/Telephony/
+e648bae Telephony: Support muting by RIL command
+
+   * system/bt/
+457f151 Allow using alternative (higher) SBC HD bitrates with a property
+
+   * system/core/
+1e4f60a LockscreenCharging: squashed (2/3)
+
+   * system/sepolicy/
+31ea8f6 sepolicy: Allow Settings > Device info to load selinux status
+
+   * vendor/aosp/
+2afad81 vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission
+
+=======================
+     11-09-2019
+=======================
+
+
+   * vendor/pixelstyle/
+5a07935 permissions: Add missing permission for SystemUI
+
+=======================
+     11-08-2019
+=======================
+
+
+   * hardware/qcom-caf/common/
+6223975 fwk-detect: Relocate from vendor/qcom-opensource/core-utils
+
+   * packages/apps/Updates/
+521c126 LocalChangelogActivity: Remove styled changelog
+
+=======================
+     11-07-2019
+=======================
+
+
+   * external/tinycompress/
+dc7da75 tinycompress: Enable extended compress format
+
+   * packages/services/BuiltInPrintService/
+3146b1a Automatic translation import
+
+   * vendor/gapps/
+76c9223 gapps: Misc cleanup
+
+=======================
+     11-06-2019
+=======================
+
+
+   * build/soong/
+263e225 soong: Give priority to modules in exported namespaces for bootjars
+
+   * frameworks/native/
+db57c9a surfaceflinger: Pass proper transform orientation to setProjection()
+
+   * hardware/interfaces/
+a7025b3 Merge tag 'android-10.0.0_r13' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * packages/providers/DownloadProvider/
+c28241b Merge tag 'android-10.0.0_r13' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten
+
+   * vendor/qcom/opensource/fm-commonsys/
+ad259a1 Import translations from pie repo
+
+=======================
+     11-05-2019
+=======================
+
+
+   * vendor/codeaurora/telephony/
+cf07a22 Revert "IMS-VT: Low battery handling for Video calls"
+
+=======================
+     11-04-2019
+=======================
+
+
+=======================
+     11-03-2019
+=======================
+
+
+   * bootable/recovery/
+124fca9 misc_writer: Add system variant
+
+   * development/
+8ee9eee DevTools: Hide the icon!
+
+   * frameworks/opt/net/ims/
+b1e2767 IMS: Changes for RTT feature
+
+   * frameworks/opt/telephony/
+aefca2a Add SMS support in 5G SA
+
+   * packages/apps/Nfc/
+b20acbf nxp: Q api updates
+
+   * packages/apps/Traceur/
+cee4f74 Revert "Traceur: Add StorageProvider so /data/local/traces appears in Files app."
+
+=======================
+     11-02-2019
+=======================
+
+
+   * bionic/
+062d703 Implement per-process target SDK version override.
+
+   * frameworks/opt/net/wifi/
+4d77597 WiFi: Ignore connectivity scans during WFD session
+
+   * hardware/libhardware/
+47b9ba0 hardware/libhw: Add display_defs.h to declare custom enums/flags
+
+   * hardware/libhardware_legacy/
+dabc48d Add wifi_add_or_remove_virtual_intf() to the legacy wifi hal
+
+   * system/netd/
+a710ed8 netd: Allow devices to force-add directly-connected routes
+
+   * system/vold/
+ce71ca6 vold: Accept Linux GPT partitions on external SD cards
+
+=======================
+     11-01-2019
+=======================
+
+
+=======================
+     10-31-2019
+=======================
+
+
