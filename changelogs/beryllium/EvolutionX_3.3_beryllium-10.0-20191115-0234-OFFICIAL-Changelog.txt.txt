@@ -1,0 +1,19 @@
+=======================
+     11-15-2019
+=======================
+- Add Battery light customization
+- Add Alarm Blocker and Wakelock Blocker
+- Add Heads up Blacklists, timeout and snooze options
+- Add Less boring heads up option
+- Add option to mute media with gesture
+- Add more color accents from Pie (Coca-Cola Red, Jollibee Crimson, Nextbit Mint, Razer Green, Starbucks Green)
+- Grant missing permissions for gapps
+- Auto brightness for Ambient Display 
+- Add Google Sans font to Theme Picker choices
+- Ask pin when tapping Airplane/Cellular data QS tiles on secured lockscreen
+- Bring back other options for Caffeine Tile
+- Fix kill app button layout in notifications
+- Fix SystemUI FC when stopping screen recording
+- Redesign Screen recording dialog
+- Fix network setting crashing
+
