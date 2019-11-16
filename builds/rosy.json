@@ -1,17 +1,17 @@
 {
    "error": "false",
-   "filename": "EvolutionX_2.0_rosy-9.0-20190810-1151-OFFICIAL.zip",
-   "datetime": "1565437868",
-   "size": 1045213843,
-   "url": "https://sourceforge.net/projects/evolution-x/files/rosy/EvolutionX_2.0_rosy-9.0-20190810-1151-OFFICIAL.zip",
-   "filehash": "4c1bc7b624ecce1a5645841aa4353d08",
-   "version": "Pie",
-   "id": "f47bdd93c0aad6c1ddb5bbb675ec1e00fd01bc0607e50977fa5de9f28d6935ec",
+   "filename": "EvolutionX_3.3_rosy-10.0-20191116-1136-OFFICIAL.zip",
+   "datetime": "1573904100",
+   "size": 1286835275,
+   "url": "https://sourceforge.net/projects/evolution-x/files/rosy/EvolutionX_3.3_rosy-10.0-20191116-1136-OFFICIAL.zip",
+   "filehash": "7a57baf3594d1b8a317c172a69d7232f",
+   "version": "Ten",
+   "id": "e3f1629c39166b1131177cd810ec8e7c1e38f128b1fdbd8bde36e20b7050849d",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/sg4778",
    "maintainer": "Sukrut Bhagwat (sukrut4778)",
    "maintainer_url": "https://github.com/Sukrut4778",
    "telegram_username": "Sukrut4778",
-   "forum_url": "https://forum.xda-developers.com/redmi-5/development/rom-evolution-x-2-0-t3956286"
+   "forum_url": "https://forum.xda-developers.com/redmi-5/development/rom-evolution-x-3-3-t4004227"
 }

@@ -259,6 +259,13 @@
       "codename": "rosy",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Sukrut Bhagwat (Sukrut4778)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
+            "xda_thread": "https://forum.xda-developers.com/redmi-5/development/rom-evolution-x-3-3-t4004227"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Sukrut Bhagwat (Sukrut4778)",
