@@ -1,0 +1,17 @@
+=======================
+     11-19-2019
+=======================
+- Add toggle for status bar bluetooth battery level icons
+- Add toggle to display/hide Ambient Display battery percentage
+- Add option to choose lockscreen or Ambient on wake gestures
+- Change behavior on setting QS panel columns/rows (Access in Evo Settings > Quicksettings)
+- Change behavior on setting QS tile titles (Access in Evo Settings > Quicksettings)
+- Fixes for Lockscreen album blur levels
+- Improvements to alert slider dialog
+- Network Traffic: Refactor and allow to set which location to use it (status bar or expanded status bar header)
+- Pulse Ambient music screen on new tracks even if all Ambient options are off
+- Re-enable Power Menu customization options
+- Screen Recorder: Dialog improvements and fix FC when using custom DPIs
+- Switched to Selinux Enforcing and User build
+- Reduced LED blinking frequency under low battery
+- Update more Q blobs
