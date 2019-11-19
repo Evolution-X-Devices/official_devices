@@ -1,0 +1,163 @@
+=======================
+     11-19-2019
+=======================
+
+
+   * build/make/
+0f03817 Revert "Don't enable ADB by default on userdebug builds"
+
+   * frameworks/base/
+0686b2ca FOD: Add pressed fp icon from MIUI
+
+   * packages/apps/Evolution/
+ca10778 Power menu: Update key for the new Advanced Reboot option.
+
+   * packages/apps/Settings/
+be7085f Allow to choose lockscreen or Ambient on wake gestures [2/2]
+
+=======================
+     11-18-2019
+=======================
+
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+bde4782 ipacm: Address ipacm start failure
+
+=======================
+     11-17-2019
+=======================
+
+
+   * device/custom/sepolicy/
+a0ffa4c sepolicy: Label and address denials of livedisplay's system variant
+
+   * vendor/aosp/
+5a06ff5 vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission
+
+=======================
+     11-16-2019
+=======================
+
+
+=======================
+     11-15-2019
+=======================
+
+
+=======================
+     11-14-2019
+=======================
+
+
+   * system/bt/
+f815cce Prevent abort in case of command timeout
+
+=======================
+     11-13-2019
+=======================
+
+
+   * vendor/pixelstyle/
+6a52764 Launcher: Lawnchair: Update to Lawnchair-q_pre_alpha_2546
+
+=======================
+     11-12-2019
+=======================
+
+
+   * frameworks/opt/net/ims/
+33a758d Merge tag 'LA.UM.8.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into ten
+
+   * frameworks/opt/telephony/
+bf179ab [OP5] add for community - community is not pleased
+
+   * manifest/
+aeb48d3 manifest: Track our telephony and ims
+
+   * packages/apps/Bluetooth/
+beee67c Bluetooth: Remove unused string resources
+
+=======================
+     11-11-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8998/display/
+ce08c33 sdm: add board flag for panel shift
+
+=======================
+     11-10-2019
+=======================
+
+
+=======================
+     11-09-2019
+=======================
+
+
+   * external/sqlite/
+5b0cd37 Revert "Enable native_bridge_support for libsqlite"
+
+   * frameworks/av/
+3fd56e0 MTP: Fix crash when no storages are available
+
+   * packages/providers/MediaProvider/
+c535199 Use Evolution fingerprint for MediaScanner [2/2]
+
+   * packages/services/Telecomm/
+f9654f5 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+   * packages/services/Telephony/
+e648bae Telephony: Support muting by RIL command
+
+   * system/core/
+1e4f60a LockscreenCharging: squashed (2/3)
+
+   * system/sepolicy/
+31ea8f6 sepolicy: Allow Settings > Device info to load selinux status
+
+=======================
+     11-08-2019
+=======================
+
+
+=======================
+     11-07-2019
+=======================
+
+
+   * external/tinycompress/
+dc7da75 tinycompress: Enable extended compress format
+
+   * hardware/qcom-caf/common/
+6223975 fwk-detect: Relocate from vendor/qcom-opensource/core-utils
+
+   * packages/apps/Updates/
+521c126 LocalChangelogActivity: Remove styled changelog
+
+   * packages/services/BuiltInPrintService/
+3146b1a Automatic translation import
+
+=======================
+     11-06-2019
+=======================
+
+
+   * build/soong/
+263e225 soong: Give priority to modules in exported namespaces for bootjars
+
+   * frameworks/native/
+db57c9a surfaceflinger: Pass proper transform orientation to setProjection()
+
+   * hardware/interfaces/
+a7025b3 Merge tag 'android-10.0.0_r13' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * packages/providers/DownloadProvider/
+c28241b Merge tag 'android-10.0.0_r13' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten
+
+   * vendor/gapps/
+76c9223 gapps: Misc cleanup
+
+   * vendor/qcom/opensource/fm-commonsys/
+ad259a1 Import translations from pie repo
+
