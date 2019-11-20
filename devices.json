@@ -396,14 +396,16 @@
             "version_name": "ten",
             "maintainer_name": "Dusan Uveric (Uvera)",
             "maintainer_url": "http://t.me/uvera",
-            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
+            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304",
+            "deprecated": true
          },
          {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Dusan Uveric (Uvera)",
             "maintainer_url": "http://t.me/uvera",
-            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
+            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304",
+            "deprecated": true
          }
       ]
    },
