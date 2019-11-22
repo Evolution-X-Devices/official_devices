@@ -1,0 +1,148 @@
+=======================
+     11-22-2019
+=======================
+
+
+   * packages/apps/Evolution/
+f7447f4 Evolution: Make FP detection in pocket mode configurable [2/2]
+
+=======================
+     11-21-2019
+=======================
+
+
+   * frameworks/base/
+bf204254 Keyguard: add binary custom clock face
+
+   * packages/apps/Settings/
+2854da4 Settings: deviceinfo: Move imei information to Sim status
+
+=======================
+     11-20-2019
+=======================
+
+
+   * external/exfat/
+bd0f601 Ignore unused parameter warnings
+
+   * external/json-c/
+76ff6c3 Ignore unused parameter warnings
+
+   * external/ntfs-3g/
+1baaa4b Ignore Waddress-of-packed-member warnings
+
+   * hardware/nxp/nfc/
+c2b5df7 Ignore implicit fall-through warnings
+
+   * hardware/qcom-caf/msm8998/audio/
+734e94c audio_amplifier: Use log/log.h instead of cutils/log.h
+
+   * vendor/aosp/
+e3456e0 vendor: overlay: Remove unneeded DocumentsUI overlay
+
+   * vendor/pixelstyle/
+aa0bba1 Update overlay for GoogleDocumentsUIPrebuilt
+
+=======================
+     11-19-2019
+=======================
+
+
+   * build/make/
+0f03817 Revert "Don't enable ADB by default on userdebug builds"
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+bde4782 ipacm: Address ipacm start failure
+
+=======================
+     11-18-2019
+=======================
+
+
+   * device/custom/sepolicy/
+a0ffa4c sepolicy: Label and address denials of livedisplay's system variant
+
+=======================
+     11-17-2019
+=======================
+
+
+=======================
+     11-16-2019
+=======================
+
+
+=======================
+     11-15-2019
+=======================
+
+
+   * system/bt/
+f815cce Prevent abort in case of command timeout
+
+=======================
+     11-14-2019
+=======================
+
+
+=======================
+     11-13-2019
+=======================
+
+
+   * frameworks/opt/net/ims/
+33a758d Merge tag 'LA.UM.8.3.r1-06100-sdm845.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into ten
+
+   * frameworks/opt/telephony/
+bf179ab [OP5] add for community - community is not pleased
+
+   * manifest/
+aeb48d3 manifest: Track our telephony and ims
+
+   * packages/apps/Bluetooth/
+beee67c Bluetooth: Remove unused string resources
+
+=======================
+     11-12-2019
+=======================
+
+
+=======================
+     11-11-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8998/display/
+ce08c33 sdm: add board flag for panel shift
+
+=======================
+     11-10-2019
+=======================
+
+
+=======================
+     11-09-2019
+=======================
+
+
+   * external/sqlite/
+5b0cd37 Revert "Enable native_bridge_support for libsqlite"
+
+   * frameworks/av/
+3fd56e0 MTP: Fix crash when no storages are available
+
+   * packages/providers/MediaProvider/
+c535199 Use Evolution fingerprint for MediaScanner [2/2]
+
+   * packages/services/Telecomm/
+f9654f5 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+   * packages/services/Telephony/
+e648bae Telephony: Support muting by RIL command
+
+   * system/core/
+1e4f60a LockscreenCharging: squashed (2/3)
+
+   * system/sepolicy/
+31ea8f6 sepolicy: Allow Settings > Device info to load selinux status
+
