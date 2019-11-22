@@ -1,17 +1,16 @@
 {
    "error": false,
-   "filename": "EvolutionX_2.2_vince-9.0-20190930-0511-OFFICIAL.zip",
-   "datetime": 1569820259,
-   "size": 1002301440,
-   "url": "https://sourceforge.net/projects/evolution-x/files/vince/EvolutionX_2.2_vince-9.0-20190930-0511-OFFICIAL.zip/download",
-   "filehash": "e82cf301c95acd52b4c23b1f07e55a2a",
-   "version": "Pie",
-   "id": "436dd5201d8cec749c9f836d2206a4713c274079b045f2634ac79bdd9d497342",
+   "filename": "EvolutionX_3.3_vince-10.0-20191121-2337-OFFICIAL.zip",
+   "datetime": 1574379406,
+   "size": 1253914614,
+   "url": "https://sourceforge.net/projects/evolution-x/files/vince/EvolutionX_3.3_vince-10.0-20191121-2337-OFFICIAL.zip/download",
+   "filehash": "0c9ddd7f37477f56116a06ce07fe0839"
+   "version": "Ten",
+   "id": "23561754147f45a4a5a5ab0b370386288d568b33172c9745b1d572114bb4f835",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "donate_url": "https://Paypal.me/joeyhuab",
-   "maintainer": "Anierin Bliss (AnierinB)",
-   "maintainer_url": "https://github.com/AnierinBliss",
-   "telegram_username": "AnierinB",
-   "forum_url": "https://forum.xda-developers.com/redmi-note-5/development/rom-evolution-x-t3934406"
+   "donate_url": "https://Paypal.me/ohno4PERTURE",
+   "maintainer": "Emma (4PERTURE)",
+   "maintainer_url": "https://github.com/4PERTURE",
+   "telegram_username": "prudev"
 }
