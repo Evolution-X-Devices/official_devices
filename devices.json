@@ -307,6 +307,12 @@
       "brand": "Xiaomi",
       "codename": "vince",
       "supported_versions": [
+	     {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Emma",
+            "maintainer_url": "https://github.com/4PERTURE",
+         },
          {
             "version_code": "pie",
             "version_name": "Pie",
