@@ -1,0 +1,22 @@
+=======================
+     11-24-2019
+=======================
+- Add toggle for charging animation (lightning bolt icon)
+- Add option to allow suppressing notification sound/vibration if screen is on
+- Bring back Extended Volume panel
+- Bring back Rounded corner and padding preferences
+- Bring back status bar carrier label options
+- Bring back status bar clock font styles/sizes/colors
+- Fixes for Lockscreen art blur and allow to turn off blur
+- Media seekbar modifications
+- Misc framework optimizations and fixes
+- Remove prebuilt Lawnchair (sideload for now)
+- Set ringtone for 2nd slot on MSIM devices
+- Update logo in About device window
+- Bring back lockscreen clock styles
+- Bring back Statusbar Clock & Date customization
+- Fix "Clear All" recent app screen loop bug
+- Force the clock to update if the screen is turned back on
+- Use DOUBLE TAP TO WAKE setting also for wake from aod
+- Fixed crash on some app
+- Kernel Upstream (with new touch firmware thanks to Optimus Drunk)
