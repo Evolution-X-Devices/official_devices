@@ -1,0 +1,17 @@
+- Add option to choose lockscreen or Ambient on wake gestures
+- Add option to enable AOD only during charging
+- Add option to use Double tap to trigger Ambient Display
+- Add platform and RAM info to Model & Hardware in About phone
+- Add toggle for status bar bluetooth battery level icons
+- Add toggle to display/hide Ambient Display battery percentage
+- Change behavior on setting QS panel columns/rows (Access in Evo Settings > Quicksettings)
+- Change behavior on setting QS tile titles (Access in Evo Settings > Quicksettings)
+- Dirac improvements
+- Disable/remove screen attention option
+- Fixes for Lockscreen album blur levels
+- Move the IMEI information to SIM status dialogs
+- Network Traffic: Refactor and allow to set which location to use it (status bar or expanded status bar header)
+- New lockscreen clocks
+- Pulse Ambient music screen on new tracks even if all Ambient options are off
+- Re-enable Power Menu customization options
+- Screen Recorder: Dialog improvements and fix FC when using custom DPIs

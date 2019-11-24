@@ -308,6 +308,12 @@
       "codename": "vince",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Emma",
+            "maintainer_url": "https://github.com/4PERTURE"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Naveen",
@@ -396,14 +402,16 @@
             "version_name": "ten",
             "maintainer_name": "Dusan Uveric (Uvera)",
             "maintainer_url": "http://t.me/uvera",
-            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
+            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304",
+            "deprecated": true
          },
          {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Dusan Uveric (Uvera)",
             "maintainer_url": "http://t.me/uvera",
-            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
+            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304",
+            "deprecated": true
          }
       ]
    },

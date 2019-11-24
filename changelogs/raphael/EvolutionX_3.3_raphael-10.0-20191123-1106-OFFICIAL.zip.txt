@@ -1,0 +1,11 @@
+- Bring back Statusbar Clock & Date customization
+- Fix "Clear All" recent app screen loop bug
+- Force the clock to update if the screen is turned back on
+- Make FP detection in pocket mode configurable
+- Remove Ambient light on FOD
+- Remove WiFi Mac randomization option
+- Temporarily disable OTA app for now
+- Try to add missing audio recording permissions for Google Recorder
+- Update some gapps
+- Update Urnyx05 camera to v1.4
+- Use Double tap to wake setting also for wake from AOD

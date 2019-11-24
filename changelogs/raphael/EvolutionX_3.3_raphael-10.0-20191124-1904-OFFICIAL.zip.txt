@@ -1,0 +1,15 @@
+- Add OP Screen Recorder port (QS tile)
+- Add Recorder app (screen/audio)
+- Add option to allow suppressing notification sound/vibration if screen is on
+- Add toggle for charging animation (lightning bolt icon)
+- Bring back Extended Volume panel options
+- Bring back Rounded corner and padding preferences
+- Bring back status bar carrier label options
+- Bring back status bar clock font styles/sizes/colors
+- Enhancements to performance (thanks to Utsav's commits)
+- Fixes for Lockscreen art blur and allow to turn off blur
+- Media seekbar modifications
+- Misc framework optimizations and fixes
+- Remove prebuilt Lawnchair (sideload for now)
+- Set ringtone for 2nd slot on MSIM devices
+- Update logo in About device window

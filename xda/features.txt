@@ -1,19 +1,32 @@
-[HIDE][SIZE="2"][U][I][COLOR="Orange"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
+[HIDE]
+[SIZE="2"][U][I][COLOR="orange"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
+- Pixel Theme Picker
+- 20 Accent Colors
+- 5 LS Clock Styles
+- Pixel 2019 Wallpapers
+[SIZE="2"][U][I][COLOR="Orange"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
 - VoLTE Toggle
 - 4G/LTE Icon Toggle
 - Brightness Control
 - Network Traffic Activity
-[SIZE="2"][U][I][COLOR="Orange"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
-- Hide NavBar
-- Invert Layout
-- Navigation Gestures
-- Back Gesture Height Config
+[SIZE="2"][U][I][COLOR="orange"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
+- Force Close Notifications
+- Notification light Config
+- Kill App Button
+- In Call Vibrations
 [SIZE="2"][U][I][COLOR="DarkOrange"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
 - QS Rows & Columns Customization
 - Tile Titles Toggle
 - Gaming Mode QS Tile
-- Quick Pulldown (Right/Left)
+- Quick Pulldown (Left/Right)
 - Bottom Brightness Slider Toggle
+[SIZE="2"][U][I][COLOR="orange"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
+- AOSP Gestures
+- Back Gesture Height Config
+- Swipe To Screenshot
+- Screen Off Power Button Torch
+- Double Tap To Sleep Status Bar
+- Double Tap to Sleep Lockscreen
 [SIZE="2"][U][I][COLOR="orange"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
 - Pocket Detection
 - Status bar visibility toggle
@@ -22,17 +35,15 @@
 - LS Charging Info
 - Media Artwork Toggle
 - LS Music Visualizer
-[SIZE="2"][U][I][COLOR="orange"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
-- Pixel Themes
-[SIZE="2"][U][I][COLOR="orange"][B]Buttons and Gestures[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="Orange"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
+- Invert Layout
+[SIZE="2"][U][I][COLOR="orange"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
 - Power Menu Customization
-- Volume Key Cursor Control
-- Volume Key Playback Control
-[SIZE="2"][U][I][COLOR="orange"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
-- Force Close Notifications
-- Notification light Config
-- Kill App Button
-- In Call Vibrations
+- Volume Rocker Cursor Control
+- Volume Rocker Playback Control
+- Volume Rocker Wake
 [SIZE="2"][U][I][COLOR="orange"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
 - Default USB Config
-- Wake On Charge[/HIDE]
+- Wake On Charge
+- Alarm Blocker
+- Wakelcok Blocker[/HIDE]
