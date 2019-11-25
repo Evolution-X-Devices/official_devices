@@ -384,6 +384,13 @@
       "codename": "rolex",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Manohar Singh (Aditya)",
+            "maintainer_url": "https://t.me/adi153",
+            "xda_thread": "https://forum.xda-developers.com/redmi-4a/development/redmi-4a-evolution-x-t3947479"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Manohar Singh (Aditya)",
