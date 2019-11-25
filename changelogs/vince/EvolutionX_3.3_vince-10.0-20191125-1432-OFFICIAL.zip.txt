@@ -1,0 +1,13 @@
+Source Changes:
+
+- Add toggle for charging animation (lightning bolt icon)
+- Add option to allow suppressing notification sound/vibration if screen is on
+- Bring back Extended Volume panel
+- Bring back Rounded corner and padding preferences
+- Bring back status bar carrier label options
+- Bring back status bar clock font styles/sizes/colors
+- Fixes for Lockscreen art blur and allow to turn off blur
+- Media seekbar modifications
+- Add rounded corner and padding settings
+
+Device changes: Switch to STRIX kernel

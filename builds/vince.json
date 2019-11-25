@@ -1,16 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_3.3_vince-10.0-20191121-2337-OFFICIAL.zip",
-   "datetime": 1574379406,
-   "size": 1253914614,
-   "url": "https://sourceforge.net/projects/evolution-x/files/vince/EvolutionX_3.3_vince-10.0-20191121-2337-OFFICIAL.zip/download",
-   "filehash": "0c9ddd7f37477f56116a06ce07fe0839",
+   "filename": "EvolutionX_3.3_vince-10.0-20191125-1432-OFFICIAL.zip",
+   "datetime": 1574692351,
+   "size": 1258997511,
+   "url": "https://sourceforge.net/projects/evolution-x/files/vince/EvolutionX_3.3_vince-10.0-20191125-1432-OFFICIAL.zip/download",
+   "filehash": "5dd330ec90b7c17f1530df49b3bfff90",
    "version": "Ten",
-   "id": "23561754147f45a4a5a5ab0b370386288d568b33172c9745b1d572114bb4f835",
+   "id": "20c672d4ec81c382dfac73d4477b1a88f466c1c60da11aa4cd7e03a2a4f8a907",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://Paypal.me/ohno4PERTURE",
    "maintainer": "Emma (4PERTURE)",
    "maintainer_url": "https://github.com/4PERTURE",
-   "telegram_username": "prudev"
+   "telegram_username": "prudev",
+   "forum_url": "https://forum.xda-developers.com/redmi-note-5/development/rom-evolutionx-3-3-t4009059"
 }
