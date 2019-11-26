@@ -1,0 +1,157 @@
+=======================
+     11-26-2019
+=======================
+
+
+   * frameworks/base/
+1499877c base: make aspect ratio hack configable on app level [1/2]
+
+   * hardware/qcom-caf/sm8150/display/
+04709e5 sdm: Add layer color transfer into hwc dump info
+
+   * manifest/
+e4a8f34 manifest: Track our platform_testing
+
+   * packages/apps/Evolution/
+e0f4882 Evolution: Make aspect ratio hack configable on app level [2/2]
+
+   * packages/apps/Settings/
+e1b4e6c Settings: Rework logotype banner
+
+   * packages/apps/Updates/
+8024d27 Revert "Add md5 verification"
+
+   * platform_testing/
+c02ecb3 platform_testing: Remove SystemUITests
+
+   * vendor/aosp/
+2e077eb overlay: Use ntp.ntsc.ac.cn NTP server for Chinese users
+
+   * vendor/pixelstyle/
+551d3cd Added Fonts From Pie [2/2]
+
+=======================
+     11-25-2019
+=======================
+
+
+   * build/make/
+41aa5d6 Make PRODUCT_BUILD_PROP_OVERRIDES bit more powerful
+
+   * frameworks/native/
+b00509b sensorservice: Register orientation sensor if HAL doesn't provide it
+
+   * system/core/
+1d933a7 adb: host: Provide better sideload status
+
+=======================
+     11-24-2019
+=======================
+
+
+   * vendor/gapps/
+9b5bc51 Gapps: Remove Prebuilt Recorder
+
+=======================
+     11-23-2019
+=======================
+
+
+=======================
+     11-22-2019
+=======================
+
+
+=======================
+     11-21-2019
+=======================
+
+
+   * external/airbnb-lottie/
+4d8d7fb Merge tag 'v3.2.2' into mkq
+
+   * hardware/qcom-caf/sm8150/audio/
+4ff2703 Merge tag 'LA.UM.8.1.r1-11600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/media/
+5eb7ddf Merge tag 'LA.UM.8.1.r1-11600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * hardware/qcom/bt/
+1b7b1af msm8992: bt: Add missing headers to libbt-vendor
+
+=======================
+     11-20-2019
+=======================
+
+
+   * external/ntfs-3g/
+1baaa4b Ignore Waddress-of-packed-member warnings
+
+   * hardware/nxp/nfc/
+c2b5df7 Ignore implicit fall-through warnings
+
+   * hardware/qcom-caf/msm8998/audio/
+734e94c audio_amplifier: Use log/log.h instead of cutils/log.h
+
+=======================
+     11-19-2019
+=======================
+
+
+   * external/exfat/
+bd0f601 Ignore unused parameter warnings
+
+   * external/json-c/
+76ff6c3 Ignore unused parameter warnings
+
+=======================
+     11-18-2019
+=======================
+
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+bde4782 ipacm: Address ipacm start failure
+
+=======================
+     11-17-2019
+=======================
+
+
+   * device/custom/sepolicy/
+a0ffa4c sepolicy: Label and address denials of livedisplay's system variant
+
+=======================
+     11-16-2019
+=======================
+
+
+   * hardware/qcom-caf/sdm845/audio/
+bbd29f2 Merge tag 'LA.UM.8.3.r1-06600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into HEAD
+
+   * hardware/qcom-caf/sdm845/display/
+56bc520 Merge tag 'LA.UM.8.3.r1-06600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf into HEAD
+
+   * hardware/qcom-caf/sdm845/media/
+9a250e0 Merge tag 'LA.UM.8.3.r1-06600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into HEAD
+
+   * vendor/nxp/opensource/pn5xx/halimpl/
+bea4aa0 Merge tag 'LA.UM.8.3.r1-06600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/nxp/opensource/halimpl into HEAD
+
+=======================
+     11-15-2019
+=======================
+
+
+=======================
+     11-14-2019
+=======================
+
+
+   * system/bt/
+f815cce Prevent abort in case of command timeout
+
+=======================
+     11-13-2019
+=======================
+
+
