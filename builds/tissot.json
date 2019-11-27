@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_3.3_tissot-10.0-20191125-1547-OFFICIAL.zip",
-   "datetime": 1574696776,
-   "size": 1129147227,
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_3.3_tissot-10.0-20191125-1547-OFFICIAL.zip/download",
-   "filehash": "57ac94d3fa823040cedb441562ae4577",
+   "filename": "EvolutionX_3.3_tissot-10.0-20191127-1737-OFFICIAL.zip",
+   "datetime": 1574876252,
+   "size": 1130990972,
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_3.3_tissot-10.0-20191127-1737-OFFICIAL.zip/download",
+   "filehash": "8e968b20fb6f2770ab36287c27f63626",
    "version": "Ten",
-   "id": "e85f4badfdbc6e7deaef1ba363c4f9e8c97c8da17e7e2d79d6b88bc65678261a",
+   "id": "ca52150eb67b753fd2a742e580a575c9ccf96c89f1248ac8f7cd6cb5c12e8b85",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "donate_url": "https://www.paypal.me/joeyhuab",
-   "maintainer": "Joey Huab (Stallix)",
+   "donate_url": "https://www.paypal.me/dominikpro",
+   "maintainer": "Dominik Procházka",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
-   "telegram_username": "Stallix",
-   "forum_url": "https://forum.xda-developers.com/mi-a1/development/rom-evolution-x-3-0-t3979401"
+   "telegram_username": "dompro0209",
+   "forum_url": "https://forum.xda-developers.com/mi-a1/development/rom-evolution-x-3-3-t4010873"
 }
