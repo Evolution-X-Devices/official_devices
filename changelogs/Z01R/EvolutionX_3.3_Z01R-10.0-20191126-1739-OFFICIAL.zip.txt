@@ -1,0 +1,35 @@
+=======================
+     11-26-2019
+=======================
+- Updated to Evo 3.3
+- November security patch
+- Add animations to quick settings tiles
+- Add interpolators to qs tiles animation
+- Add toggle for Haptic Feedback to Quick Settings tiles
+- Add option to force pre-O apps to use full screen aspect ratio
+- Bring back scroll effect for carrier label
+- Fixes to carrier label for notched devices
+- Fix double tap to wake on ambient
+- Fix layout for notification icons while using center clock
+- Fonts: Add Circular Std and OnePlus Slate to supported system fonts
+- Register orientation sensor if HAL doesn't provide it
+- Remove broken lockscreen album art blur options
+- Update Settings logotype banner
+- Use ntp.ntsc.ac.cn NTP server for Chinese users
+- Add national roaming for o2 & E-Plus in germany
+- Add option to disable all animations
+- Dismiss brightness dialog on focus loss
+- Fix double tap to wake issues (fix screen blinking on sleep)
+- Hide Magisk better from banking apps
+- Make wifi scan have longer intervals
+- Provide better sideload status for adb
+- Remove traces of Google Recorder
+- Set ringtone for 2nd SIM slot
+- Turn off some debugging we don't need
+- Under the hood improvements and fixes
+- Add OP Screen Recorder port (QS tile)
+- Add Recorder app (screen/audio; replaces Google Recorder app)
+
+Device-Spicific:
+- Fixed right side notch.
+- Many under the hood fixes.
