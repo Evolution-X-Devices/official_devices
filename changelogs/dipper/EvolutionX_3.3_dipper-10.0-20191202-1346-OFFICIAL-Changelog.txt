@@ -1,0 +1,166 @@
+=======================
+     12-02-2019
+=======================
+
+
+   * frameworks/base/
+81c9f658 base: SystemUI: qs quickbar columns config
+
+   * packages/apps/Evolution/
+5d15e07 Fixes to "Allow to set QS panel columns & rows"
+
+=======================
+     12-01-2019
+=======================
+
+
+   * build/make/
+711131a Update ROM contributors
+
+   * hardware/qcom-caf/common/
+7becaa9 Simplify and fix AOSP guard
+
+   * manifest/
+0294217 manifest: Track AOSP sqlite
+
+   * packages/apps/Settings/
+ee09322 Revert "Skip loading contextual cards if legacy cards are used"
+
+   * packages/apps/Snap/
+9ed87eb Fix duplicated strings again
+
+   * system/core/
+c5ad5ac healthd: cover devices that have voltage_max file with value of 0
+
+=======================
+     11-30-2019
+=======================
+
+
+   * system/sepolicy/
+4e2a6c1 Add sepolicy for com.android.sdk module
+
+   * vendor/aosp/
+d7dc2e5 vendor: Allow the use of aosp apn's
+
+   * vendor/qcom/opensource/dataservices/
+6b66c1a dataservices: Don't build on SOD
+
+=======================
+     11-29-2019
+=======================
+
+
+   * device/custom/sepolicy/
+9ae1f79 sepolicy: Smart Charging (3/4)
+
+   * packages/apps/Camera2/
+3cb85b3 Camera2: Request for ACCESS_FINE_LOCATION permission
+
+=======================
+     11-28-2019
+=======================
+
+
+   * device/qcom/sepolicy-legacy-um/
+0e4e18e connectivity: provide dataservice app radio file permissions.
+
+   * packages/apps/Updates/
+1e31188 Enable A/B perf mode by default
+
+=======================
+     11-27-2019
+=======================
+
+
+   * system/vold/
+300b5f0 Add "changepw" command to vdc.
+
+=======================
+     11-26-2019
+=======================
+
+
+   * hardware/qcom-caf/sm8150/display/
+04709e5 sdm: Add layer color transfer into hwc dump info
+
+   * platform_testing/
+c02ecb3 platform_testing: Remove SystemUITests
+
+   * vendor/pixelstyle/
+551d3cd Added Fonts From Pie [2/2]
+
+=======================
+     11-25-2019
+=======================
+
+
+   * frameworks/native/
+b00509b sensorservice: Register orientation sensor if HAL doesn't provide it
+
+=======================
+     11-24-2019
+=======================
+
+
+   * system/bpf/
+e40d918 bpf: change how we detect device bpf support level
+
+   * vendor/gapps/
+9b5bc51 Gapps: Remove Prebuilt Recorder
+
+=======================
+     11-23-2019
+=======================
+
+
+=======================
+     11-22-2019
+=======================
+
+
+   * hardware/qcom-caf/sm8150/audio/
+4ff2703 Merge tag 'LA.UM.8.1.r1-11600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/media/
+5eb7ddf Merge tag 'LA.UM.8.1.r1-11600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+=======================
+     11-21-2019
+=======================
+
+
+   * external/airbnb-lottie/
+4d8d7fb Merge tag 'v3.2.2' into mkq
+
+   * hardware/qcom/bt/
+1b7b1af msm8992: bt: Add missing headers to libbt-vendor
+
+=======================
+     11-20-2019
+=======================
+
+
+   * external/e2fsprogs/
+5d709bd Ignore -Wno-pointer-sign warnings
+
+   * external/exfat/
+bd0f601 Ignore unused parameter warnings
+
+   * external/json-c/
+76ff6c3 Ignore unused parameter warnings
+
+   * external/ntfs-3g/
+1baaa4b Ignore Waddress-of-packed-member warnings
+
+   * hardware/nxp/nfc/
+c2b5df7 Ignore implicit fall-through warnings
+
+   * hardware/qcom-caf/msm8998/audio/
+734e94c audio_amplifier: Use log/log.h instead of cutils/log.h
+
+=======================
+     11-19-2019
+=======================
+
+
