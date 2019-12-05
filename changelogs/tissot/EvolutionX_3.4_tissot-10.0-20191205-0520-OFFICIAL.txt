@@ -1,0 +1,35 @@
+- Add back developer setting to set the default GPU renderer
+- Add QCom BoostFramework support and add more additions from it
+- Add QS panel opacity options
+- Allow Skia Vulkan to be used as HW renderer
+- Bring back Gaming mode preferences (in Misc settings)
+- Re-arrange statusbar option categories
+- Remove unnecessary recent apps transition
+- Add AOKP system animations
+- Add option to disable auto brightness icon in brightness slider
+- Always show date in QS header
+- Bring back BatteryDetail from Battery Saver QS tile
+- Add auto-hide status bar clock feature
+- Allow to switch back to pre P mobile type icon style
+- Enable QS Quickbar columns to be configured
+- Enable VoLTE icon by default
+- Re-arrange quicksettings options
+- Set default status bar clock font to Google Sans
+- Show charging watt in lockscreen charging info
+- Add Increasing Ring support to Sounds
+- Add missing summaries to carrier label & clock font styles settings
+- Fix FP Vibrate toggle
+- Merge December security patch
+- Remove BT SBC HD support
+- Remove LOS recorder
+- Set status bar clock & carrier label font to Google Sans by default
+- Actually fix missing summary for status bar clock style and date format
+- Add Data Switch QS tile
+- Add setting to hide arrow for back gesture
+- DC dimming: Move from Advanced settings to Settings > Display
+- Add Ambient edge pulse notifications
+- Fix missing ambient notifications caused by Dec patch merge (thanks to RevengeOS)
+Device changes:
+- Fix encryption (huge thanks to Abhinav Gupta)
+- Remove prebuilt GCam and replaced it with Snap
+- Replace Pixel's device fingerprint with Tissot's
