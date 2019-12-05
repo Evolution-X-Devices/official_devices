@@ -1,0 +1,71 @@
+=======================
+     12-05-2019
+=======================
+- Update Evo version from 3.3 Wicked to 3.4 Storm
+- Updated Carrier configs (Fixed Volte On Airtel & Vodafone)
+- Build with clang 10.0.1
+- Updated kernel to Linux 4.9.205
+- Add Ambient edge pulse notifications
+- Fix missing ambient notifications caused by Dec patch merge (thanks to RevengeOS)
+- Actually fix missing summary for status bar clock style and date format
+- Add Data Switch QS tile
+- Add setting to hide arrow for back gesture
+- Fix missing ambient screen items due to r16 merge
+- Fix OTA issues with encrypted devices
+- Expanded volume panel: Open Sound settings on long click at the panel button
+- Hide carrier settings preference in Settings app
+- Move the Extended Volume panel to Sound settings
+- Remove Smart space (breaks ambient notification items)
+- Kill the Fancy Colon in default Lockscreen clock widget
+- Add Increasing Ring support to Sounds
+- Add missing summaries to carrier label & clock font styles settings
+- Fix FP Vibrate toggle
+- Merge December security patch
+- Remove broken Screen off animations
+- Remove BT SBC HD support
+- Remove LOS recorder
+- Set status bar clock & carrier label font to Google Sans by default
+- Add auto-hide status bar clock feature
+- Allow to switch back to pre P mobile type icon style
+- Enable QS Quickbar columns to be configured
+- Enable VoLTE icon by default
+- Re-arrange quicksettings options
+- Remove broken battery styles
+- Set default status bar clock font to Google Sans
+- Show charging watt in lockscreen charging info
+- Always show date in QS header
+- Bring back BatteryDetail from Battery Saver QS tile
+- Fix status bar battery icon padding
+- Remove redundant battery percentage tuner in Statusbar items options
+- Remove Privacy Indicator option and toggles (overlaps with qs header network traffic)
+- Try to fix battery estimates missing
+- Try to fix setting custom symbol near text on charging
+- Add AOKP system animations
+- Add battery styles and customizations
+- Add option to disable auto brightness icon in brightness slider
+- Add option to show battery percent & estimate together
+- Add option to show/hide battery icon in QS Header
+- Add Privacy Indicator toggle in Settings app
+- Allow setting a custom symbol near text on charging
+- More QCom BoostFramework additions
+- Add Aggressive Battery options
+- Add back developer setting to set the default GPU renderer
+- Add QCom BoostFramework support
+- Add QS panel opacity options
+- Add Screen off animations
+- Allow Skia Vulkan to be used as HW renderer
+- Bring back Gaming mode preferences (in Misc settings)
+- Fix brightness slider padding
+- Fix Evo > Lockscreen settings crash for some devices
+- Remove unnecessary recent apps transition
+- Add ability to customize notification led light
+- Add ability to toggle bluetooth battery level in QS
+- Enable notifications led light by default
+- Fix bluetooth battery level in status bar toggle
+- Option for per-app force to use full screen aspect ratio
+- Replace network traffic implementation with a different version
+- Use vendor.camera.aux.packagelist for all privapp checking
+- Move animations into it's own category
+- Move brightness control to Gestures category
+- Re-arrange status bar option categories
+- Remove unnecessary recent apps transition
