@@ -1,0 +1,308 @@
+=======================
+     12-05-2019
+=======================
+
+
+   * frameworks/base/
+9859b61ff51 SystemUI: Fix ambient pulse notification layout
+8f3a3a24d0a base: Add ambient pulse notification [1/2]
+8fe8df7ccef Revert "Apply front scrim to doze pulsing"
+075c221565f SystemUI: Smart space: Fixes issues after r16 merge
+efdac864912 fwb: Fixes after r16 merge
+d597bc3a9d6 Remove useless QS battery saver detail tile
+2b1d1ac8d52 Open Sound settings on long click at the panel button
+8aefa6c0fae LineageContextConstants: Add missing FOD feature
+a3438cc8f4c Allow to hide arrow for back gesture [1/2]
+f506498f16c SystemUI: DataSwitchTile: Use MD2 drawables
+127413b4e23 base: Introduce DataSwitchTile
+dc5c4679333 SystemUI: Remove annoying log caused by aosp bug
+fc5f28891c0 SystemUI: FingerprintDialogView: Use accent color instead of teal
+d6afaa2b992 fwb: Conditionally set scaled brightness
+4f9a8ca4758 NtpTrustedTime: Refresh NTP server from resources before requesting time
+0b9a4919f41 Revert "NtpTrustedTime: Refresh NTP server from resources before requesting time"
+6a55825490f Keyguard: Actually kill the Fancy Colon
+20e8ead68a7 Revert "Add apex build rule for com.android.sdk"
+70b4c5bcf18 Bring back pocket lock [1/3]
+5e4bd4109fe Revert "Screen off animations [1/2]"
+0993775e527 Add back increasing ring feature (1/3)
+
+   * packages/apps/Evolution/
+afd26aa Evolution: Add ambient pulse notification [2/2]
+e6ce25c Evolution: Move the Extended Volume panel to Sound settings [1/2]
+b1c7de5 Evolution: Misc fixes
+
+   * packages/apps/Settings/
+db60552cf9 Settings: Move the Extended Volume panel to Sound [2/2]
+
+   * vendor/aosp/
+55a5c2c4 vendor: Drop gms overlays
+afbb9aeb vendor: Cleanup soong vars
+feda4f4b overlay: Remove Keyguard config
+ff00816b overlay: Clean up Settings overlay
+7c8e48d0 vendor: use AB_OTA_PARTITIONS flag for including backuptool_ab
+8e91a0e9 repopick: Support    * paths detection on different branches
+9f34847e vendor: Add back soong and build configuration for qcom platform
+67a65a48 vendor: Nuke config_show4GForLTE
+
+   * vendor/pixelstyle/
+b6643b1 Add missing permission to SystemUI
+
+=======================
+     12-04-2019
+=======================
+
+
+   * build/blueprint/
+fcf8829 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/build/blueprint into ten
+
+   * build/soong/
+2939bb3f Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/build/soong into ten
+
+   * device/custom/sepolicy/
+237c4b9 sepolicy: Fix OTA on encrypted f2fs.
+
+   * frameworks/base/
+6475223bf1b SystemUI: CarrierLabel: Set default font to Google Sans
+
+   * frameworks/opt/net/wifi/
+dcefc2391 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * frameworks/opt/telephony/
+58874bb0f Revert "Add ims-ext-common to static libs"
+
+   * hardware/interfaces/
+3738a622f Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * manifest/
+683e078 manifest: Track more of our repos after r16
+
+   * packages/apps/Nfc/
+1910a12f Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
+   * packages/apps/Settings/
+b337dabd28 Settings: Allow to hide arrow for back gesture [2/2]
+9cc25bb52e Settings: FingerprintSettings: Don't listen for fingerprint if fod present
+fbc3d92947 Settings: Hide carrier version pref
+13d877f4b8 Settings: add fod option in FP location overlay
+c90efb6570 fingerprint: Allow devices to configure sensor location
+2faaa440ff Revert "fingerprint: Allow devices to configure sensor location"
+873b66ef09 Revert "FingerprintEnrollFindSensor: Don't overlay front for side sensors"
+e05947a7bf Settings: Add back increasing ring feature (2/3)
+d270dc8551 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Settings into ten
+
+   * packages/services/Telecomm/
+51cc85c3 Add back increasing ring feature (3/3)
+
+   * system/core/
+da1962671 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/core into ten
+c59fca3a4 healthd: cover devices that have voltage_max file with value of 0
+
+   * system/sepolicy/
+550fb19a Revert "Add sepolicy for com.android.sdk module"
+
+   * system/vold/
+8430ecc Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/vold into ten
+
+   * vendor/aosp/
+73830825 vendor: ota: Don't enforce sys.ota.disable_uncrypt
+ed26c1c5 soong_config: Reverse wait for qsee flag
+8f9eb7e8 version: Update to 3.4
+2cf943b5 config: Mark more gralloc bits as valid
+f3358ea6 vendor: Fix compilation errors with prebuilt kernel
+f1fe9709 vendor: Allow the use of aosp apn's
+1e8aae25 vendor: Fix privapp permissions for camera2
+76175b84 Smart Charge: chown all known charge suspend nodes
+32b1309a Smart Charging: rework for using more common sysfs node [2/2]
+28c88227 vendor: Smart Charging (4/4)
+74ec76c8 soong_config: add TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE
+ccc1d125 vendor: soong: replace space with colon on TARGET_LD_SHIM_LIBS
+732e80aa vendor: Update Snap permissions
+c9b7382e overlay: Use ntp.ntsc.ac.cn NTP server for Chinese users
+e6d22e76 vendor: Add support for custom bootloader offset
+23924330 ota: Use CUSTOM_PLATFORM_VERSION for OTA versioning
+
+   * vendor/pixelstyle/
+5614f82 Added Fonts From Pie [2/2]
+
+=======================
+     12-03-2019
+=======================
+
+
+   * build/make/
+9984a05d5 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/build into ten
+
+   * frameworks/av/
+efb3d300b Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/base/
+ea6c7c0e21a Allow lid to send a generic COVER_CHANGED broadcast
+8a7a3ec3af9 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/base into ten
+05607f59d29 Revert "Keyguard: Actually kill the Fancy Colon"
+dd08ff89386 Update NotificationRecord of snooze even after it is cancelled
+a2f47bf2107 Limit the retry attemps on restarting Bluetooth
+b4a37ef49fc [SQUASH] Remove BT SBC HD support
+349c1aa0e42 Revert "fw/b: [Squash] Add capability to allow tethering to use VPN upstreams"
+308192db8ee Remove pocket lock [1/3]
+
+   * frameworks/native/
+45508a5b1 libui: Extend adb95ae to Gralloc3
+f66fd3739 libui: Allow invalid bits from callers conditionally
+7d28d1954 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * frameworks/opt/net/ims/
+985c09d Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/net/ims into ten
+
+   * frameworks/opt/telephony/
+48e44a171 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/telephony into ten
+
+   * hardware/qcom-caf/sm8150/audio/
+a4ee584c Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/display/
+08903b07 hwc2 : Correcting primary display count handling
+b06bb941 display: config: Add mapper packages
+
+   * hardware/qcom-caf/sm8150/media/
+74423913 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * manifest/
+22ad7b0 Merge branch 'android-10.0.0_r16' of https://android.googlesource.com/platform/manifest into ten
+115d198 Manifest for Android 10.0.0 Release 16 (QQ1A.191205.011)
+a8f7b98 Manifest for Android 10.0.0 Release 15 (QQ1A.191205.008)
+84ba64b Manifest for android10-qpr1-release.
+
+   * packages/apps/Bluetooth/
+043ee3fc Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+09a2f6af Bluetooth: Remove unused string resources
+
+   * packages/apps/Evolution/
+6c34468 Evolution: Re-arrange quicksettings options
+45eeb03 Fixes to "Allow to set QS panel columns & rows"
+
+   * packages/apps/Settings/
+2de0822265 Prevent null point exception
+7c61b8091e Settings: Respect preference's visibility in VideoPreferenceController, take 2
+20e637309f Revert "Settings: Respect preference's visibility in VideoPreferenceController"
+06e57cf6e4 Revert "Add Dual Channel into Bluetooth Audio Channel Mode developer options menu"
+ba7fd6efa8 Revert "Settings: Add hotspot setting to allow VPN upstreams"
+
+   * packages/providers/MediaProvider/
+1837210 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/providers/MediaProvider into ten
+
+   * packages/services/BuiltInPrintService/
+451e328 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/BuiltInPrintService into ten
+
+   * packages/services/Telecomm/
+bd1b7862 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/Telecomm into ten
+
+   * packages/services/Telephony/
+9f0686d09 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * platform_testing/
+836dc6e9 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/platform_testing into ten
+
+   * system/bt/
+1c091e768 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/bt into ten
+72af23558 Prevent abort in case of command timeout
+cb37288c2 Bluetooth: Read BLE vendor capability to proceed on Secure conn
+
+   * system/sepolicy/
+d258f517 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/sepolicy into ten
+
+   * vendor/gapps/
+04c48f6 gapps: Update Play services version to 19.6.29 (120408-278422107)
+
+   * vendor/qcom/opensource/dataservices/
+2f4aa35 Merge "librmnetctl: Add flag for netmgrd without uplink features support" into ten
+d8e9abf Merge "Revert "Revert "librmnetctl: Add support for UL aggregation features""" into ten
+
+=======================
+     12-02-2019
+=======================
+
+
+   * frameworks/base/
+81c9f6584ec base: SystemUI: qs quickbar columns config
+17002553577 Screenrecord: exclude dialog from Recents
+9f6f4c16eeb Screenrecord: remember last recording options
+37c25093e50 Screenrecord: start delayed
+b3f2487f606 wifi: add basic support for 60GHz band
+7de8702593a wm: Use a different execution context to register WFD rotation receiver
+daf887737f7 wm::DisplayRotation: Changes for WFD and UIBC.
+33e575429c4 SystemUI: Allow customizing footer text [1/2]
+01cf94af8d1 base: Add a toggle for QS footer text [1/2]
+57b142f8c23 base: Use MD2 drawables for Gaming mode
+f42761416d6 SystemUI: Clock: Set default font to Google Sans [1/2]
+db5625d9cda Add option to auto hide status-bar clock [1/2]
+81d4b648b8e SystemUI: allow to switch back to pre P mobile type icon style [1/2]
+a3bc993b4b9 Revert "SystemUI: Show estimates on QS only if battery percentage is unavailable or disabled"
+99f85092005 SystemUI: Fix crash when trying to remove an already removed statusbar item
+50bcf5f9b57 VoLTE icon: Enable by default [1/2]
+e586d407f38 SystemUI: keyguard show charging watt
+6fbd177ddfa SystemUI: BatteryPercentage: Detect when overlay changes
+d3eb9ae38a0 base: SystemUI: make the battery saver tile useful
+898b3d39a86 Revert "Remove BatteryDetail from BatterySaverTile"
+55ab243fedd Notification LED: Add support for showing in Zen Mode
+6156ac88d2b SystemUI: enable custom clock faces
+1ca04abb43f FB: Clean up oneplus camera support
+a8f3383177c FB: Add oneplus camera support
+a82534204ee Add apex build rule for com.android.sdk
+
+   * hardware/qcom-caf/common/
+7becaa9 Simplify and fix AOSP guard
+
+   * manifest/
+0294217 manifest: Track AOSP sqlite
+4838ae8 manifest: Update tracked repos
+
+   * packages/apps/Evolution/
+fdd70ea Allow customizing footer text [2/2]
+df74b9d Add a toggle for QS footer text [2/2]
+b3a5427 Evolution: Clock: Set default font to Google Sans [2/2]
+2d708ae Add option to auto hide status-bar clock [2/2]
+29c55f1 Evolution: allow to switch back to pre P mobile type icon style [1/2]
+8a19066 VoLTE icon: Enable by default [2/2]
+
+   * packages/apps/Settings/
+ee09322f91 Revert "Skip loading contextual cards if legacy cards are used"
+c5bff7a5d9 Settings: Set Lockdown toggle to match Evo Settings' version
+ab6df9ccf0 SmartCharging: add reset battery stats option [2/2]
+8546da903c SmartCharging: allow user set resume level [2/2]
+274eee8d6f Settings: Smart Charging (2/4)
+
+=======================
+     12-01-2019
+=======================
+
+   * art/
+565729621a Protect/Unprotect regions (region space) only in debug build
+
+   * bionic/
+b13026feb Optimize tolower(3)/toupper(3) from <ctype.h>.
+
+   * bootable/recovery/
+52b67ae4 recovery: symlink /sbin for script compatibility
+35e7ba27 recovery: Puke out an /etc/fstab so stuff like busybox/toybox is happy
+
+   * build/make/
+711131a81 Update ROM contributors
+
+   * frameworks/base/
+e7b68d36ba6 Revert "FOD: Add pressed fp icon from MIUI"
+83cd29718fd base: SystemUI: add separate config for pulse brightness [1/2]
+f45914693dd SystemUI: Always show date in QS header
+ca10035263f base: add zen mode off hook to prevent problems with ringer mode
+
+   * packages/apps/Snap/
+9ed87eb99 Fix duplicated strings again
+70076bbef Automatic translation import
+
+   * system/sepolicy/
+4e2a6c19 Add sepolicy for com.android.sdk module
+
+   * vendor/aosp/
+f008de7a apn: Update Romanian carriers
+
+   * vendor/qcom/opensource/dataservices/
+6b66c1a dataservices: Don't build on SOD 
