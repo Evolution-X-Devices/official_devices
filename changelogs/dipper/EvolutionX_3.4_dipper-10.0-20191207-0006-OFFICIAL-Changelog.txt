@@ -1,0 +1,207 @@
+=======================
+     12-07-2019
+=======================
+
+
+   * device/custom/sepolicy/
+1b55663 sepolicy: Define custom powerhal built to vendor_overlay
+
+   * frameworks/base/
+46a6d4922 core: Add camera intents for camera state (update)
+
+   * packages/apps/Evolution/
+671e7d4 Remove LockscreenCharging (3/3)
+
+   * prebuilts/clang/host/linux-x86/
+9a01a77a Update prebuilt Clang to r370808.
+
+   * system/core/
+dc8fd2a Remove LockscreenCharging (2/3)
+
+   * system/vold/
+6d23cdd Utils: Add missing exfat
+
+=======================
+     12-06-2019
+=======================
+
+
+   * build/make/
+6009f2d envsetup: add function to detect shell
+
+   * build/soong/
+8574832 Revert "Remove perl from the allowed PATH tools list"
+
+   * frameworks/opt/telephony/
+38d414f 2G wants proper signal strength too
+
+   * packages/providers/MediaProvider/
+90c79ae MediaProvider: Make sure to check the type when searching for sounds
+
+   * vendor/aosp/
+186649b vendor: ota: Don't enforce sys.ota.disable_uncrypt
+
+   * vendor/pixelstyle/
+b6643b1 Add missing permission to SystemUI
+
+=======================
+     12-05-2019
+=======================
+
+
+   * packages/apps/Settings/
+db60552 Settings: Move the Extended Volume panel to Sound [2/2]
+
+=======================
+     12-04-2019
+=======================
+
+
+   * build/blueprint/
+fcf8829 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/build/blueprint into ten
+
+   * frameworks/native/
+45508a5 libui: Extend adb95ae to Gralloc3
+
+   * frameworks/opt/net/wifi/
+dcefc23 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * hardware/interfaces/
+3738a62 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * manifest/
+683e078 manifest: Track more of our repos after r16
+
+   * packages/apps/Nfc/
+1910a12 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
+   * packages/services/BuiltInPrintService/
+451e328 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/BuiltInPrintService into ten
+
+   * packages/services/Telecomm/
+51cc85c Add back increasing ring feature (3/3)
+
+   * system/sepolicy/
+550fb19 Revert "Add sepolicy for com.android.sdk module"
+
+=======================
+     12-03-2019
+=======================
+
+
+   * frameworks/av/
+efb3d30 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/opt/net/ims/
+985c09d Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/net/ims into ten
+
+   * hardware/qcom-caf/sm8150/audio/
+a4ee584 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/display/
+08903b0 hwc2 : Correcting primary display count handling
+
+   * hardware/qcom-caf/sm8150/media/
+7442391 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * packages/apps/Bluetooth/
+043ee3f Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/services/Telephony/
+9f0686d Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * platform_testing/
+836dc6e Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/platform_testing into ten
+
+   * system/bt/
+1c091e7 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/bt into ten
+
+   * vendor/gapps/
+04c48f6 gapps: Update Play services version to 19.6.29 (120408-278422107)
+
+   * vendor/qcom/opensource/dataservices/
+2f4aa35 Merge "librmnetctl: Add flag for netmgrd without uplink features support" into ten
+
+=======================
+     12-02-2019
+=======================
+
+   * art/
+5657296 Protect/Unprotect regions (region space) only in debug build
+
+   * bionic/
+b13026f Optimize tolower(3)/toupper(3) from <ctype.h>.
+
+   * bootable/recovery/
+52b67ae recovery: symlink /sbin for script compatibility
+
+   * hardware/qcom-caf/common/
+7becaa9 Simplify and fix AOSP guard
+
+   * packages/apps/Snap/
+9ed87eb Fix duplicated strings again
+
+=======================
+     12-01-2019
+=======================
+
+
+=======================
+     11-30-2019
+=======================
+
+
+   * packages/apps/Camera2/
+3cb85b3 Camera2: Request for ACCESS_FINE_LOCATION permission
+
+=======================
+     11-29-2019
+=======================
+
+
+   * development/
+4013daf make-key: Enforce PBEv1 password-protected signing keys
+
+   * device/qcom/sepolicy-legacy-um/
+0e4e18e connectivity: provide dataservice app radio file permissions.
+
+   * hardware/custom/interfaces/
+c993b34 wifi: Disable softAP MAC randomization by default
+
+   * hardware/libhardware_legacy/
+901aa98 Revert "Wifi: Add Qpower interface to libhardware_legacy"
+
+   * packages/apps/FMRadio/
+fd1931c jni: Add broadcom FM to the guard
+
+   * packages/apps/Updates/
+1e31188 Enable A/B perf mode by default
+
+=======================
+     11-28-2019
+=======================
+
+
+=======================
+     11-27-2019
+=======================
+
+
+=======================
+     11-26-2019
+=======================
+
+
+=======================
+     11-25-2019
+=======================
+
+
+   * system/bpf/
+e40d918 bpf: change how we detect device bpf support level
+
+=======================
+     11-24-2019
+=======================
+
+
