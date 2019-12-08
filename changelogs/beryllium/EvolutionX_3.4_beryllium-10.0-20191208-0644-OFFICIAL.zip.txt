@@ -1,0 +1,10 @@
+=======================
+     12-08-2019
+=======================
+- Fix app hangs on whatsapp/insta/ShareIt/etc
+- Fix Gaming mode turning off instantly in some apps
+- Fix NullPointerException in Gdrive
+- Fix portrait battery icon being too big
+- Fix QS side margins
+- Fix SODs by removing Proximity check on Wake feature
+- Fix SystemUI crash when changing themes
