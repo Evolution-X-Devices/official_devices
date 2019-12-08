@@ -1,6 +1,0 @@
-msm8998-common: Use camera hal1 for whatsapp
-msm8998-common: Add OnePlus Camera and Gallery
-msm8998-common: Disable zram
-msm8998-common: BoardConfig: Update clang to 9.0.5
-msm8998-common: Drop Google Camera inclusion 
-Revert "Msm8998-common: Enable Toasts for Alert slider" 

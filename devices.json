@@ -42,21 +42,6 @@
       ]
    },
    {
-      "name": "Mi A2 Lite",
-      "brand": "Xiaomi",
-      "codename": "daisy",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Zinadin Zidan (Zidan44)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9782219",
-            "xda_thread": "",
-            "deprecated": true
-         }
-      ]
-   },
-   {
       "name": "Pixel",
       "brand": "Google",
       "codename": "sailfish",
@@ -67,34 +52,6 @@
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "xda_thread": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-2-0-t3947435"
-         }
-      ]
-   },
-   {
-      "name": "Mi Mix 3",
-      "brand": "Xiaomi",
-      "codename": "perseus",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "xda_thread": "https://forum.xda-developers.com/mi-mix-3/development/rom-evolution-x-2-0-t3941182"
-         }
-      ]
-   },
-   {
-      "name": "Redmi Note 3",
-      "brand": "Xiaomi",
-      "codename": "kenzo",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-3/development/rom-evolution-x-2-2-t3975763"
          }
       ]
    },
@@ -120,20 +77,6 @@
       ]
    },
    {
-      "name": "Mi 9",
-      "brand": "Xiaomi",
-      "codename": "cepheus",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://github.com/AnierinBliss",
-            "xda_thread": "https://forum.xda-developers.com/Mi-9/development/rom-evolution-x-2-1-t3970831"
-         }
-      ]
-   },
-   {
       "name": "Redmi Note 5",
       "brand": "Xiaomi",
       "codename": "whyred",
@@ -151,20 +94,6 @@
             "maintainer_name": "Zeeshan Ahmed",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-t3919089"
-         }
-      ]
-   },
-   {
-      "name": "OnePlus 7 Pro",
-      "brand": "OnePlus",
-      "codename": "guacamole",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Chandra Chaganti",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7600620",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-7-pro/development/rom-evolution-x-2-0-t3961398"
          }
       ]
    },
@@ -204,63 +133,6 @@
       ]
    },
    {
-      "name": "OnePlus 5T",
-      "brand": "OnePlus",
-      "codename": "dumpling",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-5t/development/evolution-x-2-0-discussion-testers-t3933825"
-         }
-      ]
-   },
-   {
-      "name": "OnePlus 5",
-      "brand": "OnePlus",
-      "codename": "cheeseburger",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-5/development/rom-evolution-x-2-0-t3937689"
-         }
-      ]
-   },
-   {
-      "name": "OnePlus 3",
-      "brand": "oneplus",
-      "codename": "oneplus3",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Ajith (ajithzres)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=5940726",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-evolution-x-2-0-t3942385"
-         }
-      ]
-   },
-   {
-      "name": "Redmi 6 Pro",
-      "brand": "Xiaomi",
-      "codename": "sakura",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Zinadin Zidan",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9782219",
-            "xda_thread": "https://forum.xda-developers.com/redmi-6-pro/development/rom-evolution-x-t3914140",
-            "deprecated": true
-         }
-      ]
-   },
-   {
       "name": "Redmi 5",
       "brand": "Xiaomi",
       "codename": "rosy",
@@ -278,34 +150,6 @@
             "maintainer_name": "Sukrut Bhagwat (Sukrut4778)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
             "xda_thread": "https://forum.xda-developers.com/redmi-5/development/rom-evolution-x-2-0-t3956286"
-         }
-      ]
-   },
-   {
-      "name": "Redmi 4/4X",
-      "brand": "Xiaomi",
-      "codename": "santoni",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Nagarajan GK",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6525946",
-            "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-4x/how-to/rom-evolution-x-2-0-redmi-4-4x-t3944061"
-         }
-      ]
-   },
-   {
-      "name": "Redmi 3S/3X",
-      "brand": "Xiaomi",
-      "codename": "land",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anshuman Pathak (anshumanxda)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8582349",
-            "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-evolution-x-t3925266"
          }
       ]
    },
@@ -407,29 +251,6 @@
       ]
    },
    {
-      "name": "Mi Note 3",
-      "brand": "Xiaomi",
-      "codename": "jason",
-      "supported_versions": [
-         {
-            "version_code": "ten",
-            "version_name": "ten",
-            "maintainer_name": "Dusan Uveric (Uvera)",
-            "maintainer_url": "http://t.me/uvera",
-            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304",
-            "deprecated": true
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Dusan Uveric (Uvera)",
-            "maintainer_url": "http://t.me/uvera",
-            "xda_thread": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304",
-            "deprecated": true
-         }
-      ]
-   },
-   {
       "name": "POCO F1",
       "brand": "Xiaomi",
       "codename": "beryllium",
@@ -447,20 +268,6 @@
             "maintainer_name": "Ninad Patil (REIGNZ)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=6549853",
             "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-t3923023"
-         }
-      ]
-   },
-   {
-      "name": "Redmi Note 4X",
-      "brand": "Xiaomi",
-      "codename": "mido",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Himanshu Naamdev",
-            "maintainer_url": "https://t.me/hnaamdev41",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-t3924614"
          }
       ]
    },
@@ -496,35 +303,6 @@
             "maintainer_name": " Aggelos Savvopoulos (DarkAngelGR)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
             "xda_thread": "https://forum.xda-developers.com/mi-8/development/9-0-evolution-x-v2-1-t3969947"
-         }
-      ]
-   },
-   {
-      "name": "Redmi 5A",
-      "brand": "Xiaomi",
-      "codename": "riva",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Nikhil",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9143744",
-            "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-5a/development/aosp-evolutionx-t3937511"
-         }
-      ]
-   },
-   {
-      "name": "Yu Yuphoria",
-      "brand": "Yu",
-      "codename": "lettuce",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Harsh Pal (hpnightowl)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9792468",
-            "xda_thread": "",
-            "deprecated": true
          }
       ]
    },
@@ -574,34 +352,6 @@
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "xda_thread": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-2-0-t3943024"
-         }
-      ]
-   },
-   {
-      "name": "Mi 8 SE",
-      "brand": "Xiaomi",
-      "codename": "sirius",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "etylix",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8079544",
-            "xda_thread": "https://forum.xda-developers.com/mi-8-se/development/rom-evolution-x-2-0-t3941034"
-         }
-      ]
-   },
-   {
-      "name": "Mi 8 Lite",
-      "brand": "Xiaomi",
-      "codename": "platina",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Bruno Rocha",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7752351",
-            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/review/rom-evolution-x-2-0-t3949644"
          }
       ]
    },
@@ -662,90 +412,6 @@
       ]
    },
    {
-      "name": "Cool1 Dual",
-      "brand": "Coolpad",
-      "codename": "c106",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Mustafa Shaikh",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7681489",
-            "xda_thread": "https://forum.xda-developers.com/cool1/development/rom-t3948188"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy S4 with LTE+",
-      "brand": "Samsung",
-      "codename": "ks01ltexx",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Taoubi abdellatiF",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6459107",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-s4/i9506-develop/rom-evolution-x-t3947486"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy Note 3 LTE",
-      "brand": "Samsung",
-      "codename": "hlte",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Joshua Primero",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6561802",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy Note 3 LTE China",
-      "brand": "Samsung",
-      "codename": "hltechn",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Joshua Primero",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6561802",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy Note 3 LTE Korea",
-      "brand": "Samsung",
-      "codename": "hltekor",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Joshua Primero",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6561802",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
-         }
-      ]
-   },
-   {
-      "name": "Galaxy Note 3 LTE T-Mobile",
-      "brand": "Samsung",
-      "codename": "hltetmo",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Joshua Primero",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6561802",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-note-3/development/rom-evolution-x-2-0-t3948085"
-         }
-      ]
-   },
-   {
       "name": "Mi 5X",
       "brand": "Xiaomi",
       "codename": "tiffany",
@@ -784,48 +450,6 @@
             "maintainer_name": "Aryan Arora",
             "maintainer_url": "https://t.me/Aryaannnn",
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3945397"
-         }
-      ]
-   },
-   {
-      "name": "Moto G6 Plus",
-      "brand": "Motorola",
-      "codename": "evert",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Ardjlon",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7006405",
-            "xda_thread": "https://forum.xda-developers.com/g6-plus/development/rom-evolution-x-t3963067"
-         }
-      ]
-   },
-   {
-      "name": "Smartron SRT Phone",
-      "brand": "Smartron",
-      "codename": "rimo02a",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Abhishek",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8301950",
-            "xda_thread": "https://forum.xda-developers.com/android/development/rom-evolution-x-2-0-t3959050"
-         }
-      ]
-   },
-   {
-      "name": "Redmi S2/Y2",
-      "brand": "Xiaomi",
-      "codename": "ysl",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Reynold29",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9367840",
-            "xda_thread": "https://forum.xda-developers.com/redmi-s2/development/arm64-evolution-x-t3967758"
          }
       ]
    },
