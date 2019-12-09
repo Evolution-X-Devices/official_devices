@@ -1,0 +1,19 @@
+ROM side
+- Bring back Omni Doze settings & TimeInState
+- Fix app hangs on whatsapp/insta/ShareIt/etc
+- Fix black screen after AOD_PAUSED
+- Fix Gaming mode turning off instantly in some apps
+- Fix portrait battery icon being too big
+- Fix SODs by removing Proximity check on Wake feature
+- Fix SystemUI crash when changing themes
+- Fix system crash on theme change when using ThemedMeterDrawable
+- Hide QS placeholder if the brightness slider is on the bottom
+- Remove runtime padding for the top most qs status bar content
+
+Device side
+- Address SmartCharging denials
+- Allow 120fps video recording
+- Don't advertise vorbis offloading support
+- Fix BT headset calls
+- Fix NFC host card emulation
+- Update to latest Immensity kernel
