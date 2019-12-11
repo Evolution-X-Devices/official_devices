@@ -1,0 +1,228 @@
+=======================
+     12-11-2019
+=======================
+
+
+=======================
+     12-10-2019
+=======================
+
+
+   * build/make/
+a61302b build: Erase package_cache upon flashing
+
+   * frameworks/av/
+bcbebf6 CamcorderProfiles: Add 8KUHD camcorder profile
+
+   * frameworks/base/
+2c170ee32 Remove additional FOD commits
+
+   * hardware/qcom-caf/msm8996/audio/
+01727bc hal: fix media param not sent during gapless transition
+
+   * vendor/qcom/opensource/power/
+df20714 power: Follow symlinks when writing to dt2w toggle path
+
+=======================
+     12-09-2019
+=======================
+
+
+   * packages/apps/Evolution/
+369b12e Evolution: Omni Doze settings & TimeInState [2/2]
+
+   * packages/apps/Settings/
+f384340 Remove Permissions Hub.
+
+   * vendor/gapps/
+7e0dd45 Update GoogleExtServicesPrebuilt
+
+=======================
+     12-08-2019
+=======================
+
+
+   * device/custom/sepolicy/
+720e8da sepolicy: Define custom powerhal built to vendor_overlay
+
+   * vendor/aosp/
+13a94e0 vendor: tools: Make the generator follow the OTA format
+
+   * vendor/pixelstyle/
+d35aeb9 Add missing permission for Settings
+
+=======================
+     12-07-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8916/audio/
+3e3cfe0 hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/msm8952/audio/
+1c17a8f hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/msm8974/audio/
+034e4c6 hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/msm8994/audio/
+2869d8e hal: fix media param not sent during gapless transition
+
+   * system/vold/
+b4ae580 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/vold into ten
+
+=======================
+     12-06-2019
+=======================
+
+
+   * build/soong/
+8574832 Revert "Remove perl from the allowed PATH tools list"
+
+   * frameworks/opt/telephony/
+38d414f 2G wants proper signal strength too
+
+   * packages/providers/MediaProvider/
+90c79ae MediaProvider: Make sure to check the type when searching for sounds
+
+   * system/core/
+6c27f83 fs: Fix compile using wrappedkey -> wrapped_key=
+
+=======================
+     12-05-2019
+=======================
+
+
+=======================
+     12-04-2019
+=======================
+
+
+   * device/qcom/sepolicy-legacy-um/
+e9a2116 msm8998: Fix red LED sysfs labelling
+
+   * manifest/
+683e078 manifest: Track more of our repos after r16
+
+   * packages/services/Telecomm/
+51cc85c Add back increasing ring feature (3/3)
+
+   * system/sepolicy/
+550fb19 Revert "Add sepolicy for com.android.sdk module"
+
+=======================
+     12-03-2019
+=======================
+
+
+   * build/blueprint/
+fcf8829 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/build/blueprint into ten
+
+   * frameworks/native/
+45508a5 libui: Extend adb95ae to Gralloc3
+
+   * frameworks/opt/net/ims/
+985c09d Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/net/ims into ten
+
+   * frameworks/opt/net/wifi/
+dcefc23 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * hardware/interfaces/
+3738a62 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * hardware/qcom-caf/sdm845/audio/
+9542ade hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/sm8150/audio/
+a4ee584 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/display/
+08903b0 hwc2 : Correcting primary display count handling
+
+   * hardware/qcom-caf/sm8150/media/
+7442391 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * packages/apps/Bluetooth/
+043ee3f Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/Nfc/
+1910a12 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
+   * packages/services/BuiltInPrintService/
+451e328 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/BuiltInPrintService into ten
+
+   * packages/services/Telephony/
+9f0686d Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * platform_testing/
+836dc6e Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/platform_testing into ten
+
+   * system/bt/
+1c091e7 Merge tag 'android-10.0.0_r16' of https://android.googlesource.com/platform/system/bt into ten
+
+   * vendor/qcom/opensource/dataservices/
+2f4aa35 Merge "librmnetctl: Add flag for netmgrd without uplink features support" into ten
+
+=======================
+     12-02-2019
+=======================
+
+
+   * hardware/qcom-caf/common/
+7becaa9 Simplify and fix AOSP guard
+
+=======================
+     12-01-2019
+=======================
+
+   * art/
+5657296 Protect/Unprotect regions (region space) only in debug build
+
+   * bionic/
+b13026f Optimize tolower(3)/toupper(3) from <ctype.h>.
+
+   * bootable/recovery/
+52b67ae recovery: symlink /sbin for script compatibility
+
+   * packages/apps/Snap/
+9ed87eb Fix duplicated strings again
+
+=======================
+     11-30-2019
+=======================
+
+
+   * packages/apps/Camera2/
+3cb85b3 Camera2: Request for ACCESS_FINE_LOCATION permission
+
+=======================
+     11-29-2019
+=======================
+
+
+   * development/
+4013daf make-key: Enforce PBEv1 password-protected signing keys
+
+   * hardware/custom/interfaces/
+c993b34 wifi: Disable softAP MAC randomization by default
+
+   * hardware/libhardware_legacy/
+901aa98 Revert "Wifi: Add Qpower interface to libhardware_legacy"
+
+   * packages/apps/FMRadio/
+fd1931c jni: Add broadcom FM to the guard
+
+=======================
+     11-28-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8998/audio/
+c725d6b Merge tag 'LA.UM.8.4.r1-04600-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-17.0-caf-msm8998
+
+   * hardware/qcom-caf/msm8998/display/
+2c49829 Merge tag 'LA.UM.8.4.r1-04600-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into lineage-17.0-caf-msm8998
+
+   * packages/apps/Updates/
+1e31188 Enable A/B perf mode by default
+
