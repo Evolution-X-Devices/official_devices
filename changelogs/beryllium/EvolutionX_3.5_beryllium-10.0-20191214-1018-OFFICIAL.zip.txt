@@ -1,0 +1,31 @@
+=======================
+     12-14-2019
+=======================
+- Add Volume Key Answer toggle
+- Add Android/Pixel Setup & Carrier Setup missing permissions
+- Fix Ambient stuff that Google broke
+- Fix edge lighting color picker showing wrong color hex in summary
+- Fix QS footer side margins
+- Fix QS layout side paddings
+- Fix shouldSkipHeadsUp logic for Gaming Mode
+- Fix wrong strings for Status bar clock fonts (Light/Light Italic/Thin/Thin Italic)
+- Remove Phone ringtone setting for Multi SIM device options
+- Add Lockscreen cover art filters
+- Add option to configure lock screen media artwork blur level
+- Add option to Hide the power menu on the lockscreen
+- Add option to Unlock keystore with fingerprint after reboot
+- Add setting to toggle navbar
+- Allow changing visualizer default color
+- Avoid showing lock icon on AOD
+- Bring back Ambient Visualizer feature
+- Enable fingerprint swipe gestures by default
+- Make powermenu lockscreen visibility configurable
+- Rebase OS to Android 10.0 r18
+- QS Panel: Set default value of opacity to 100%
+- QS: Fix rows not refreshing on setting change
+- Settings: Fix cannot see "see more" button in UI
+- Bring back Omni Doze settings & TimeInState
+- Fix black screen after AOD_PAUSED
+- Fix system crash on theme change when using ThemedMeterDrawable
+- Hide QS placeholder if the brightness slider is on the bottom
+- Remove runtime padding for the top most qs status bar content
