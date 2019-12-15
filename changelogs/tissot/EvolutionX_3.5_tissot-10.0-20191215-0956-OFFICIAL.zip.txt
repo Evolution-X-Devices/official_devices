@@ -1,0 +1,18 @@
+===
+ROM
+===
+- Merged r18 from AOSP
+- Added ambient visualizer
+- Added Lockscreen album filters and blur
+- Added default color to visualizer
+- Added navbar toggle (DO NOT TURN ON ACCIDENTAL TOUCH WHILE USING THIS)
+- Added custom VOLTE icons
+- Allowed torch during ambient display
+- Brought back the old implementation of QS customizer (via QS edit menu)
+- Added Volume Key Answer toggle
+- Added battery styles and moved the battery to QS Header
+- There's too much of it so please search xd
+======
+Device
+======
+- Fix DT2W toggle
