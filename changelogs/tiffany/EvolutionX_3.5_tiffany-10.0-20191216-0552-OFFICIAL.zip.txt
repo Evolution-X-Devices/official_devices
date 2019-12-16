@@ -1,0 +1,231 @@
+=======================
+     12-16-2019
+=======================
+
+
+   * frameworks/base/
+6375acee0 SystemUI: User Selectable VoLTE Icon [1/2]
+
+   * packages/apps/Evolution/
+ff6a139 Disable ANBI when enabling navbar
+
+   * packages/apps/Settings/
+e2d223b InstalledAppDetails: fix refreshing storage summary after force stop
+
+=======================
+     12-15-2019
+=======================
+
+
+   * bootable/recovery/
+11d8aa1 recovery: sdcard is data/media/0
+
+   * hardware/qcom/gps/
+0b38775 msm8994: gps: correct checsumLength
+
+   * manifest/
+7a3a462 manifest: Track more PE repos
+
+   * vendor/pixelstyle/
+52fab46 Revert "Launcher: Add Lawnchair"
+
+=======================
+     12-14-2019
+=======================
+
+
+   * packages/services/Telecomm/
+9666acc Revert "Telecomm: Phone ringtone setting for Multi SIM device [3/3]"
+
+   * vendor/aosp/
+521838d Revert "vendor: Set ringtone for 2nd slot on MSIM devices"
+
+=======================
+     12-13-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8996/audio/
+5aa75af hal: fix media param not sent during gapless transition
+
+=======================
+     12-12-2019
+=======================
+
+   * art/
+472b88e Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/art into HEAD
+
+   * bionic/
+ad01bbe Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/bionic into HEAD
+
+   * build/blueprint/
+531fb69 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/build/blueprint into HEAD
+
+   * build/make/
+3e7c59b Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/build into ten
+
+   * build/soong/
+b8a9850 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * development/
+8f8f4f3 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/development into HEAD
+
+   * frameworks/av/
+2e5d048 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/native/
+bc573f0 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * frameworks/opt/net/ims/
+a962300 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/opt/net/ims into ten
+
+   * frameworks/opt/net/wifi/
+d08f191 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into HEAD
+
+   * frameworks/opt/telephony/
+f5418ba Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/opt/telephony into ten
+
+   * hardware/interfaces/
+ac1edfc Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/hardware/interfaces into HEAD
+
+   * hardware/libhardware/
+3e50abb Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * hardware/libhardware_legacy/
+a30b68b Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/hardware/libhardware_legacy into HEAD
+
+   * hardware/qcom-caf/msm8998/audio/
+2b29540 audio: Make platform_check_backends_match handle input devices as well
+
+   * packages/apps/Bluetooth/
+8e0d900 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/Camera2/
+b87e76f Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/apps/Camera2 into HEAD
+
+   * packages/apps/Nfc/
+1eb5fe0 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD
+
+   * packages/apps/Traceur/
+6f80b50 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/apps/Traceur into HEAD
+
+   * packages/providers/DownloadProvider/
+abac621 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into HEAD
+
+   * packages/providers/MediaProvider/
+75b9892 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/providers/MediaProvider into ten
+
+   * packages/services/BuiltInPrintService/
+67e75d2 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/services/BuiltInPrintService into HEAD
+
+   * packages/services/Telephony/
+0689eed Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * platform_testing/
+9e44fc0 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/platform_testing into ten
+
+   * system/bt/
+cad3f24 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/system/bt into ten
+
+   * system/core/
+0df69e2 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/system/core into ten
+
+   * system/netd/
+76abbf0 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/system/netd into HEAD
+
+   * system/sepolicy/
+7fe56e0 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/system/sepolicy into ten
+
+   * system/vold/
+f935a33 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/system/vold into HEAD
+
+=======================
+     12-11-2019
+=======================
+
+
+   * external/tinycompress/
+d2beff5 tinycompress: Conditionally enable extended compress format
+
+=======================
+     12-10-2019
+=======================
+
+
+   * vendor/qcom/opensource/power/
+df20714 power: Follow symlinks when writing to dt2w toggle path
+
+=======================
+     12-09-2019
+=======================
+
+
+   * vendor/gapps/
+7e0dd45 Update GoogleExtServicesPrebuilt
+
+=======================
+     12-08-2019
+=======================
+
+
+   * device/custom/sepolicy/
+720e8da sepolicy: Define custom powerhal built to vendor_overlay
+
+=======================
+     12-07-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8916/audio/
+3e3cfe0 hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/msm8952/audio/
+1c17a8f hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/msm8974/audio/
+034e4c6 hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/msm8994/audio/
+2869d8e hal: fix media param not sent during gapless transition
+
+=======================
+     12-06-2019
+=======================
+
+
+   * hardware/qcom/audio/
+9311b11 post_proc: Add sm8150 to TARGET_BOARD_PLATFORM filter
+
+=======================
+     12-05-2019
+=======================
+
+
+=======================
+     12-04-2019
+=======================
+
+
+   * device/qcom/sepolicy-legacy-um/
+e9a2116 msm8998: Fix red LED sysfs labelling
+
+=======================
+     12-03-2019
+=======================
+
+
+   * hardware/qcom-caf/sdm845/audio/
+9542ade hal: fix media param not sent during gapless transition
+
+   * hardware/qcom-caf/sm8150/audio/
+a4ee584 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/display/
+08903b0 hwc2 : Correcting primary display count handling
+
+   * hardware/qcom-caf/sm8150/media/
+7442391 Merge tag 'LA.UM.8.1.r1-12200-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * vendor/qcom/opensource/dataservices/
+2f4aa35 Merge "librmnetctl: Add flag for netmgrd without uplink features support" into ten
+
