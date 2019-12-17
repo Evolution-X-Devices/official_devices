@@ -1,0 +1,25 @@
+=======================
+     12-17-2019
+=======================
+- Add more VoLTE icons
+- Ambient Display: Fix volume key music control
+- Bring back fixed QS customizer implementation (edit QS tiles via Evo settings)
+- Don't force show battery percent on keyguard
+- Fixes to Visualizer custom color and animators
+- Remove system screen recorder from power menu
+- Remove system screen recorder QS tile
+- Text Clock: Force show date/weather info
+- Vibrate on volume panel button long press
+- Update thumbnail for Typeface Clock
+- Add dynamic Immersive Mode tile
+- Add user selectable VoLTE icons
+- Allow torch during ambient display
+- Bring back old implementation of QS customizer (via QS edit menu)
+- Fix Ambient visualizer
+- Fix availability of Cast Quick Setting Tile
+- Fix black screen after AOD_PAUSED again
+- Fix enter deep doze when driving
+- Remove broken bluetooth QS battery toggle
+- Settings: InstalledAppDetails: Fix refreshing storage summary after force stop
+- Settings: Use seekbar to allow setting arbitrary animation values
+- Unlink AoD switch preference from AoD on charge toggle
