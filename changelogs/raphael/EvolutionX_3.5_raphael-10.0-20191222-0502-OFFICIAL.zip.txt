@@ -1,0 +1,10 @@
+12/21 changes
+- Allow tuning of heaptargetutilization
+- Bring back Phone ringtone setting for Multi SIM device
+- Set max value for QS rows landscape to 2
+- Update gapps to latest versions from Pixel 4
+
+Device side
+- Bring back old FOD implementation
+- Include customized version of ANX Camera
+- Update to latest Immensity kernel
