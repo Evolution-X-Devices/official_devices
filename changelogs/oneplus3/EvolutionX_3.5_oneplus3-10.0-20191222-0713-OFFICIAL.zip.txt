@@ -1,0 +1,50 @@
+
+12/21
+Allow tuning of heaptargetutilization
+Bring back Phone ringtone setting for Multi SIM device
+Set max value for QS rows landscape to 2
+Update gapps to latest versions from Pixel 4
+
+12/20
+Allow changing duration of ambient edge light
+Allow torch action also on ambient display & add haptic feedback
+Evolution Settings overhaul: complete summaries, reorganize categories, update icons
+Persistent settings icon on qs panel
+Remove broken BT battery level toggles
+Settings: Comment out double options that were under accessibility
+Settings: Remove legal information from being indexable
+Use automatic color instead of a color picker for status bar logos
+Update date on keyguard when ticking past midnight
+
+12/19
+Add auto color option for edge lightning
+Add qs status bar header images support
+Allow overlaying max system icons
+Improve edge lightning behavior on live wallpaper
+Settings: fix hardcoded black text in storage summary
+ThemePicker: Add a static widget for default clock preview
+TypographicClock: Add font styles
+TypographicClock: Allow font resizing
+Non-FOD devices: Show keyguard charging animation on AOD
+FOD-only devices: Patch partial wakelock issues
+
+12/18
+Add missing system fonts as choices for font styles
+Add option to disable dashboard conditions and suggestions
+Add support for adb over network
+Bring back CM Screen Security settings (lock pattern grid size and pattern visibility settings)
+Bring back Live Volume Steps
+Bring back Lock screen Clock Widget Font styles
+Bring back Lock screen Date Font styles
+Bring back Lock Clock & Date Font Size options
+Bring back LS OwnerInfo Fonts & Size Options
+Bring back option to hide Adb notification icon
+Bring back option to pass swipe-up-to-unlock
+Bring back optional screenshot type
+Bring back Sensor block per-package switch
+Bring back Signature spoofing support
+Bring back Status bar logos and positions
+Do not apply date customization to QS clock
+Hide check button when using PIN quick unlock
+Increase call log limit to 5000
+SystemUI: make storage notification channel blockable
