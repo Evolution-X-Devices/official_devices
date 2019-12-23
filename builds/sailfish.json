@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_2.3_sailfish-9.0-20191103-1710-OFFICIAL.zip",
-   "datetime": 1572800797,
-   "size": 897452988,
-   "url": "https://sourceforge.net/projects/evolution-x/files/sailfish/EvolutionX_2.3_sailfish-9.0-20191103-1710-OFFICIAL.zip/download",
-   "filehash": "14fc6d7e246c31880c8864c45a42cbe7",
-   "version": "Pie",
-   "id": "f6a86fc148126c61d29698383a4d57fb1f71f4268b18f776f57a865b5b1060d8",
+   "filename": "EvolutionX_3.5_sailfish-10.0-20191223-0929-OFFICIAL.zip",
+   "datetime": 1577093318,
+   "size": 944364420,
+   "url": "https://sourceforge.net/projects/evolution-x/files/sailfish/EvolutionX_3.5_sailfish-10.0-20191223-0929-OFFICIAL.zip/download",
+   "filehash": "ccbc1b78d34f3fcad4294c665914a158",
+   "version": "Ten",
+   "id": "52489bdd52f0aab821c9d76fa3e4fda8c7d4ed830646826b693e3a7d64c157fd",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://paypal.me/thegabrielhoward",
    "maintainer": "Gabriel Howard",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
    "telegram_username": "gabrielhoward",
-   "forum_url": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-2-0-t3947435"
+   "forum_url": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-3-1-t3996295"
 }
