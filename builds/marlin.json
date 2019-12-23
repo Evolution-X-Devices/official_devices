@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_2.3_marlin-9.0-20191103-1614-OFFICIAL.zip",
-   "datetime": 1572797639,
-   "size": 899974646,
-   "url": "https://sourceforge.net/projects/evolution-x/files/marlin/EvolutionX_2.3_marlin-9.0-20191103-1614-OFFICIAL.zip/download",
-   "filehash": "5612af67eec7a45ceb5821faacbee785",
-   "version": "Pie",
-   "id": "a79c436f6540581093a415aa12745421767c6eae4c98bbac200b48c1c7fadf25",
+   "filename": "EvolutionX_3.5_marlin-10.0-20191222-1914-OFFICIAL.zip",
+   "datetime": 1577041990,
+   "size": 950774509,
+   "url": "https://sourceforge.net/projects/evolution-x/files/marlin/EvolutionX_3.5_marlin-10.0-20191222-1914-OFFICIAL.zip/download",
+   "filehash": "b537ce3a35ba970f2a0902e2508ff93d",
+   "version": "Ten",
+   "id": "a5f2d0c093c9c870fba9e3550770993e0fa3429298f7ad25abe570f39fe54805",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://paypal.me/thegabrielhoward",
    "maintainer": "Gabriel Howard",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
    "telegram_username": "gabrielhoward",
-   "forum_url": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-2-0-t3943024"
+   "forum_url": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-3-1-t3996253"
 }
