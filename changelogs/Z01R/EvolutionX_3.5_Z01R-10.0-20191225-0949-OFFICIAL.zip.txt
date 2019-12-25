@@ -1,0 +1,35 @@
+12/25
+Settings: Use a festive logo banner for Xmas season
+
+12/24
+Add more accent color overlays (Evo X Blue/Red/Yellow/Green, Light Salmon Pink, Blue Gray, Cyan, Flat Pink, Indigo, Light Purple, Pink, Red, Teal, Dorset Gold, Inferno Red, Matrix Green, Metallic Gold, Pornhub Orange, Ubuntu Orange)
+Add more fonts (Aclonica, Amarante, Bariol, Cagliostro, Coolstory, LGSmartGothic, Rosemary, SonySketch, Surfer)
+Move Phone Ringtone option below Prevent Ringing Sound
+Use Slate for OnePlus from OP7Pro as OPSlate font replacement
+
+12/23
+Bring back persistent settings icon on QS panel
+Remove lock screen date view for Text Clock
+TypeClock: Add 24h format support
+TypeClock: bring the translations back
+TypeClock: Fix wrong translations of Fifteen in english specifications
+FOD burn-in protection: AOD content should move only in Y coordinate
+
+12/22
+Add adb over network tile
+Add dalvik-heap device-configs for 4/6GB devices
+Backend system fixes
+Fix default sounds not being set after a clean flash
+Settings: Address a memory leak
+Settings: Add an option to change the device hostname
+Settings: update preferred networks list with global RIL values
+
+12/21
+Bring back Phone ringtone setting for Multi SIM device
+Set max value for QS rows landscape to 2
+Update gapps to latest versions from Pixel 4
+
+
+Device-Specific:
+*Upstream kernel to 4.9.206
+*Add Asus Cam prebuilt (Credits Rohan)
