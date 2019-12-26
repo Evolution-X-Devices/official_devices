@@ -1,0 +1,101 @@
+=======================
+     12-26-2019
+=======================
+
+
+   * frameworks/base/
+17fe09c7501 overlays: Add more accent color overlays
+
+   * packages/apps/Settings/
+a3744acd37 FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+d447fc89db Revert "Enable dismissal feature on legacy suggestions."
+
+=======================
+     12-25-2019
+=======================
+
+
+   * frameworks/base/
+5beb93bc018 Accents: Add new accent colors for Q
+a4639bbe19d overlays: Add our favorite fonts in AOSP FontEngine (Evo X Blue/Red/Yellow/Green, Light Salmon Pink, Blue Gray, Cyan, Flat Pink, Indigo, Light Purple, Pink, Red, Teal, Dorset Gold, Inferno Red, Matrix Green, Metallic Gold, Pornhub Orange, Ubuntu Orange)
+59679e6b555 overlays: Use Slate for OnePlus as OPSlate font [1/3]
+115337aeb6d TypeClock: Fix wrong translations of Fifteen in english specifications
+203f9df08b3 TypeClock: Add German translation
+ac458526d20 TypeClock: Add 24h format support
+d8dc420c335 TextClock: Spanish translation improvements
+44372b963ef TextClock: bring the translations back
+43bb648a746 Avoid NPE in system_server in bringDownServiceLocked()
+9ec2e4e29e1 LockSettingsService : Restrict access to getpassword API
+9c6ac1920af Set the Network Specifier on Emergency SUPL
+1cfcd665556 SystemUI: FOD: AOD content should move only in Y
+b1a5949c16a SystemUI: SystemUIGoogleModule: Switch to EnhancedEstimatesGoogleImpl
+
+   * packages/apps/Settings/
+79034a0648 Settings: Yuletide season logo
+
+   * vendor/gapps/
+71f92ae gapps: Remove non existent apps from default-permissions.xml
+
+   * vendor/pixelstyle/
+82f11b8 fonts: Add our favorite fonts in AOSP FontEngine [2/3]
+
+=======================
+     12-24-2019
+=======================
+
+
+   * frameworks/base/
+03bbaf635ba SystemUI: Implement EnhancedEstimatesGoogleImpl
+
+   * packages/apps/Evolution/
+91bbc89 Evolution: Add our favorite fonts in AOSP FontEngine (Aclonica, Amarante, Bariol, Cagliostro, Coolstory, LGSmartGothic, Rosemary, SonySketch, Surfer)
+6ad7d4f Evolution: Use Slate for OnePlus as OPSlate font replacement
+
+   * packages/apps/Settings/
+ca022128bc Settings: Move Phone Ringtone option below Prevent Ringing Sound
+643b10642e  FeatureFactoryImpl: Initial import of ContextualCardProvider
+
+   * vendor/pixelstyle/
+33f18b7 fonts: Use Slate for OnePlus as OPSlate font [2/3]
+
+=======================
+     12-23-2019
+=======================
+
+
+   * build/make/
+087acfb5b core: binary: Allow modules to be built without clang
+f5a314ee2 build: Move sound related props to pixelstyle
+
+   * frameworks/base/
+7874cf0719d Add an option to change the device hostname (1/2)
+1dcf77ca960 SystemUI: Move all values into Evo's XMLs
+71df9e139b7 FrameworkBase: Fix NullPointerException of AMS
+a4c8fc59dbd SystemUI: Update NotificationEntryManagerGoogle
+9398de869ab Revert "SystemUI: Use matching data usage size formatting between QS and Settings"
+aa8badfeae1 Revert "TypeClockController: Set shouldShowStatusArea to true"
+bcd74fde755 base: Persistent settings icon on qs panel for 10.x
+0ae1ba7525d SystemUI: QS: Add adb over network tile
+
+   * frameworks/native/
+0d5836881 Add dalvik-heap device-configs for 4/6GB devices
+
+   * packages/apps/Settings/
+c5ff01afc2 Settings: Add an option to change the device hostname (2/2)
+6752e732a3 Settings: Address a memory leak
+f0583d6891 AndroidManifest: Add missing metadata com.android.settings.category
+5fc716ee99 RadioInfo: update preferred networks list with global RIL values
+115da4f7cc FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+684c62373e FeatureFactoryImpl: Remove AOSP Package Installer from keepEnabledPackages
+62ed0df62d FeatureFactoryImpl: Import PowerUsageFeatureProviderGoogleImpl
+
+   * vendor/aosp/
+fe9462e0 vendor: build: Move sound related props to pixelstyle
+e26d04b9 build / tools: Fix makefile header copyright generation
+8ec583e6 vendor: Allow providing camera server and service
+
+   * vendor/pixelstyle/
+d504535 permissions: Add missing gms permission
+c29fa74 fonts: Move all into fonts directory
+d070f42 pixelstyle: Set default sounds
+
