@@ -1,0 +1,601 @@
+=======================
+     12-26-2019
+=======================
+
+
+   * frameworks/base/
+17fe09c7501 overlays: Add more accent color overlays
+
+   * packages/apps/Settings/
+a3744acd37 FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+d447fc89db Revert "Enable dismissal feature on legacy suggestions."
+
+=======================
+     12-25-2019
+=======================
+
+
+   * frameworks/base/
+5beb93bc018 Accents: Add new accent colors for Q
+a4639bbe19d overlays: Add our favorite fonts in AOSP FontEngine [1/3]
+59679e6b555 overlays: Use Slate for OnePlus as OPSlate font [1/3]
+115337aeb6d TypeClock: Fix wrong translations of Fifteen in english specifications
+203f9df08b3 TypeClock: Add German translation
+ac458526d20 TypeClock: Add 24h format support
+d8dc420c335 TextClock: Spanish translation improvements
+44372b963ef TextClock: bring the translations back
+43bb648a746 Avoid NPE in system_server in bringDownServiceLocked()
+9ec2e4e29e1 LockSettingsService : Restrict access to getpassword API
+9c6ac1920af Set the Network Specifier on Emergency SUPL
+1cfcd665556 SystemUI: FOD: AOD content should move only in Y
+b1a5949c16a SystemUI: SystemUIGoogleModule: Switch to EnhancedEstimatesGoogleImpl
+
+   * packages/apps/Settings/
+79034a0648 Settings: Yuletide season logo
+
+   * vendor/gapps/
+71f92ae gapps: Remove non existent apps from default-permissions.xml
+
+   * vendor/pixelstyle/
+82f11b8 fonts: Add our favorite fonts in AOSP FontEngine [2/3]
+
+=======================
+     12-24-2019
+=======================
+
+
+   * frameworks/base/
+03bbaf635ba SystemUI: Implement EnhancedEstimatesGoogleImpl
+
+   * packages/apps/Evolution/
+91bbc89 Evolution: Add our favorite fonts in AOSP FontEngine [3/3]
+6ad7d4f Evolution: Use Slate for OnePlus as OPSlate font [3/3]
+
+   * packages/apps/Settings/
+ca022128bc Settings: Move Phone Ringtone option below Prevent Ringing Sound
+643b10642e  FeatureFactoryImpl: Initial import of ContextualCardProvider
+
+   * vendor/pixelstyle/
+33f18b7 fonts: Use Slate for OnePlus as OPSlate font [2/3]
+
+=======================
+     12-23-2019
+=======================
+
+
+   * build/make/
+087acfb5b core: binary: Allow modules to be built without clang
+f5a314ee2 build: Move sound related props to pixelstyle
+
+   * frameworks/base/
+7874cf0719d Add an option to change the device hostname (1/2)
+1dcf77ca960 SystemUI: Move all values into Evo's XMLs
+71df9e139b7 FrameworkBase: Fix NullPointerException of AMS
+a4c8fc59dbd SystemUI: Update NotificationEntryManagerGoogle
+9398de869ab Revert "SystemUI: Use matching data usage size formatting between QS and Settings"
+aa8badfeae1 Revert "TypeClockController: Set shouldShowStatusArea to true"
+bcd74fde755 base: Persistent settings icon on qs panel for 10.x
+0ae1ba7525d SystemUI: QS: Add adb over network tile
+
+   * frameworks/native/
+0d5836881 Add dalvik-heap device-configs for 4/6GB devices
+
+   * packages/apps/Settings/
+c5ff01afc2 Settings: Add an option to change the device hostname (2/2)
+6752e732a3 Settings: Address a memory leak
+f0583d6891 AndroidManifest: Add missing metadata com.android.settings.category
+5fc716ee99 RadioInfo: update preferred networks list with global RIL values
+115da4f7cc FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+684c62373e FeatureFactoryImpl: Remove AOSP Package Installer from keepEnabledPackages
+62ed0df62d FeatureFactoryImpl: Import PowerUsageFeatureProviderGoogleImpl
+
+   * vendor/aosp/
+fe9462e0 vendor: build: Move sound related props to pixelstyle
+e26d04b9 build / tools: Fix makefile header copyright generation
+8ec583e6 vendor: Allow providing camera server and service
+
+   * vendor/pixelstyle/
+d504535 permissions: Add missing gms permission
+c29fa74 fonts: Move all into fonts directory
+d070f42 pixelstyle: Set default sounds
+
+=======================
+     12-22-2019
+=======================
+
+
+   * build/make/
+174ff90a4 build: Include custom specific properties in build.prop
+
+   * frameworks/av/
+a94a2eed5 cameraserver: Fix libcameraserver location
+2aba60123 av: Allow providing camera server and service
+
+   * frameworks/base/
+7dc68c2288a Reduce log verbosity: Don't spam logcat
+bbf9ab42fba Guard in short-circuit evaluations for stringSplit methods.
+df2fd0c2a90 Cache pin algorithms in PinSet
+a2008d80d29 Cache the global proxy to avoid fetching it for every request
+b5caa604c6b Cache KeyStoreService
+e8f250a01dd (Point) Only calculate sin and cos once
+b0bc1dfc115 Allow tuning of heaptargetutilization
+cc44b10fc58  Kill off provider info logspam
+d39c7ce0734 Fix no default ringtone for slot2
+390a0cd5d8b base: Phone ringtone setting for Multi SIM device [1/3]
+
+   * manifest/
+c279621 manifest: Track system/keymaster
+f3d67e4 manifest: Track PE's gapps
+
+   * packages/apps/Evolution/
+471b14f Evolution: Set max value for QS rows landscape to 2
+
+=======================
+     12-21-2019
+=======================
+
+
+   * frameworks/base/
+fb365c71496 [SQUASH] Remove broken BT battery level toggles [1/2]
+5d4c2b2d6b7 Logo: Use automatic color instead [1/2]
+fab2e9f2608 Allow torch action also on ambient display & add haptic feedback
+cc367091131 Update date on keyguard when ticking past midnight
+
+   * packages/apps/Settings/
+6013303a5e Settings: Enable SIM card ringtone only if slot not empty
+50f3b43524 Settings: Phone ringtone setting for Multi SIM device [2/3]
+
+   * packages/services/Telecomm/
+d9f80a28 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+   * vendor/aosp/
+dd6f4b72 vendor: Set ringtone for 2nd slot on MSIM devices
+
+   * vendor/pixelstyle/
+3e6efb1 pixelstyle: Update gapps from Pixel 4 XL
+
+=======================
+     12-20-2019
+=======================
+
+
+   * frameworks/base/
+3f182bdc630 SystemUI: Allow changing duration of ambient edge light [1/2]
+056731c1c58 SystemUI: Improve QS header info layout
+916898fee2c SystemUI: QS header improvements
+702f4129653 SystemUI: fix layout of qs header info
+06b81719dfe base: Add qs status bar header image [1/2]
+6b2e39494ea SystemUI: Allow overlaying max system icons
+e9e80eac1e9 FODCircleView: Patch partial wakelock issues
+1be862b9e64 Select the proper request list size
+55eff32402c SystemUI: Improve edge lightning behavior on live wallpaper
+74d1abfa8c4 SystemUI: Add auto color option for edge lightning [1/2]
+96d23fb7c96 SystemUI: Show keyguard charging animation on AOD
+23f51e26b49 TextClock: Improve English strings
+374790e5599 TextClock: Allow font resizing
+18905b2a659 TextClock: Add font styles
+f5ad525eaa1 Lockscreen font size: Clock and date improvements
+757c1aad99e Default Clock preview: Add a static widget
+cf7e65d654c Font styles: Add missing system fonts as choices [1/3]
+aa9bbc10542 LS OwnerInfo Fonts & Size Options [1/2]
+d8e2906bab0 Lock Clock & Date Font Sizes [1/2]
+
+   * hardware/qcom-caf/sm8150/audio/
+79442b0f Merge tag 'LA.UM.8.1.r1-12800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/display/
+847a7dba sdm: hwc2 : Correcting the display Index handling
+4d07831c sdm: Add transform information in HWPipeInfo
+ed6e6bc3 config: Add libs to display product package
+a6864974 sdm: Implement Display Config 1_11 Qsync API's.
+
+   * hardware/qcom-caf/sm8150/media/
+453cf8d6 Merge tag 'LA.UM.8.1.r1-12800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * manifest/
+2b4c325 manifest: Track our OmniStyle
+
+   * packages/apps/Evolution/
+68c1556 Evolution: Another overhaul
+2f8f76a [SQUASH] Remove broken BT battery level toggles [2/2]
+25c02ec Logo: Use automatic color instead [2/2]
+e565a4b Evolution: Allow changing duration of ambient edge light [2/2]
+e24668f Evolution: Add qs status bar header image [2/2]
+17fca1c Evolution: Add auto color option for edge lightning [2/2]
+307ece3 Lockscreen font size: Adjust min & max values
+
+   * packages/apps/OmniStyle/
+5331a61 OmniStyle: Use settings icon
+a4d1608 headers: Fix GoT #4
+4106674 OmniStyle: Add JLA, Xmen and Avengers headers
+35485ba headers: Add missing headers brigrade
+0d048b1 OmniStyle: Improve GoT header pack
+2d5a0e1 OmniStyle: Add GoT header pack
+
+   * packages/apps/Settings/
+81dfa788f5 Comment out double options that were under accessibility
+0df8a8e9ec Remove legal information from being indexable
+
+   * packages/services/Telecomm/
+d14780ab Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+   * vendor/aosp/
+3711de05 vendor: Build OmniStyle
+
+=======================
+     12-19-2019
+=======================
+
+
+   * frameworks/base/
+2cc880782bf Lockscreen Date Fonts [1/2]
+5173e5ee57e Lockscreen Clock Widget Fonts [1/2]
+67d4e8c3ada Fix dash & warp charge not showing battery level
+053984ba708 Optional screenshot type [1/2]
+14f11fe3c5f call log limit 500=>5000
+689ad7da864 AppTransitions: Remove hackery for controls duration
+73b0fd71bd4 Treat default value that wasn't found as empty value
+42c97896df8 ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+9c4cdeadedf PM: Signature spoofing [1/2]
+e91d1e7717c base: catch what you cant explain
+966d1af02e8 FWB: Sensor block per-package switch (1/2)
+6a0f4270f8d base: SystemUI: make storage notification channel blockable
+93c9ce23df6 Do not apply date customization to QS clock
+f4e84c0197c Statusbar clock: restore qsheader check within a saved instance
+ffab89bae5d base: Live Volume Steps [1/2]
+e29bd8a7dbd Recents: Fix NPE while changing themes
+4409a67e78e BatteryStats: Update WifiState even if EnergyInfo is invalid
+264706e3d13 display: Validate activePhysIndex before access
+afab36fe634 PM: Allow disabling components per-device
+accf18324fd SystemUI: Reduce Location icon inset
+8c153651469 [SQUASHED] Status bar logos and positions [1/2]
+
+   * packages/apps/Evolution/
+d19fa54 Font styles: Add missing system fonts as choices [2/3]
+d5e0731 LS OwnerInfo Fonts & Size Options [2/2]
+98f8d34 Lock Clock & Date Font Sizes [2/2]
+
+   * packages/apps/Settings/
+50321f5b08 Settings: fix hardcoded black text in storage summary
+
+   * vendor/pixelstyle/
+c438047 Font styles: Add missing system fonts as choices [3/3]
+
+=======================
+     12-18-2019
+=======================
+
+
+   * build/make/
+ec531caff core: Makefile: Don't generate changelog when building recovery
+
+   * device/qcom/sepolicy-legacy-um/
+35517569 Label persist/rfs recursively
+
+   * frameworks/base/
+92fddc4057f Keyguard: Hide check button when using PIN quick unlock
+5d1c575f9ae base: add support for adb over network [1/3]
+b704a1aab55 Disable dashboards conditions and suggestions (1/3)
+beb2e7629d2 lockscreen: Add option to pass swipe-up-to-unlock (1/2)
+321afc0d4eb Forward port CM Screen Security settings (1/2)
+41219e1ca59 Option to hide Adb notification icon (1/2)
+11b4beae556 SystemUI: fix black screen now also for pulse
+4ab0b39f610 RecorderConstants: Use OP Screen Recorder package name
+117f72f2247 BatteryService: Add Warp charging support
+595209391df Add Flashlight blink on incoming calls [1/3]
+755c41f197f Remove DUN requirement for tethering
+b28d9c2331c SystemUI: Add Asus VoLTE Icon [1/2]
+f14d3f216d9 SystemUI: Add VoLIT icon [1/2]
+d722a89dc14 SystemUI: User Selectable VoLTE Icon [1/2]
+1354fd259da [SQUASH] Remove force show navbar commits
+321f149e43e [SQUASH] Remove System Screenrecorder from Power Menu options [1/2]
+4a959e8852d [SQUASH] Remove broken TextClock translations
+8eb05dd83f4 Remove System ScreenRecord Tile
+a441e04bb2d Visualizer: Custom Color code clean-up & improvements
+543bdf6ed2b VisualizerView: Don't add null end actions to animators
+c60e9b51d3e TypeClockController: Set shouldShowStatusArea to true
+2b8c57d75e4 Typeface Clock: update thumbnail
+ffd809ecd17 SystemUI: Vibrate on volume panel button long press
+a1403b3900d SystemUI: Don't force show battery percent on keyguard
+e076d8ce44e PhoneWindowManager: Allow torch during ambient display
+1d95c827dbb Ambient Display: Fix volume key music control
+4933f9a0c51 [BugFix]Fix enter deep doze when moving
+999d18f41fd FODCircleView: Add partial wakelock on aod
+
+   * packages/apps/Evolution/
+f18f67c Lockscreen Date Fonts [2/2]
+d57555f Lockscreen Clock Widget Fonts [2/2]
+f515799 Evolution: Optional screenshot type [2/2]
+51848b3 Evolution: Signature spoofing [2/2]
+a06707b Evolution: Sensor block per-package switch [2/2]
+4b7daa0 [SQUASHED] Status bar logos and positions [2/2]
+0bc458e Disable dashboards conditions and suggestions (3/3)
+2918070 Option to hide Adb notification icon (2/2)
+14c7058 Evolution: Add Flashlight blink on incoming calls [2/3]
+
+   * packages/apps/Settings/
+7b58e752e2 Settings: Live Volume Steps [2/2]
+6b37eb00f1 Settings: add support for adb over network [2/3]
+bc823a2644 Disable dashboards conditions and suggestions (2/3)
+23beec0cb0 Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+45887a496a Settings: display fstype for mounted volumes
+36004f3ebe lockscreen: Forward port option to pass swipe-up-to-unlock [2/2]
+a65d468b74 Settings: Forward port pattern visibility settings (2/2)
+58981b4d6e Settings: Forward port lock pattern grid size (2/2)
+
+   * system/core/
+8250b25bd healthd: Add WARP charger type
+
+   * system/sepolicy/
+4ec4a28b sepolicy: add support for adb over network [3/3]
+
+=======================
+     12-17-2019
+=======================
+
+
+   * packages/apps/Evolution/
+6ae69ed Evolution: Add Asus VoLTE Icon [2/2]
+d2795dd Evolution: Add VoLIT icon [2/2]
+568548b Evolution: User Selectable VoLTE Icon [2/2]
+14321ee Revert "Add setting to toggle navbar"
+b0f9fcd [SQUASH] Remove System Screenrecorder from Power Menu options [2/2]
+f6b21bd Disable ANBI when enabling navbar
+
+   * system/keymaster/
+4b91b66 Don't check token for NO_AUTH_REQUIRED
+
+=======================
+     12-16-2019
+=======================
+
+
+   * packages/apps/Settings/
+e2d223b02d InstalledAppDetails: fix refreshing storage summary after force stop
+1245b7868c Unlink AoD switch pref from AoD on charge
+
+=======================
+     12-15-2019
+=======================
+
+
+   * bootable/recovery/
+11d8aa17 recovery: sdcard is data/media/0
+eaca181c recovery: Blank screen during shutdown and reboot
+bbc7cce3 recovery: Allow bypassing signature verification on non-release builds
+b8f9a72b recovery: Provide sideload cancellation
+e370203a recovery: Also hide rescue mode from non eng builds
+44f7a550 recovery: Only show tests in eng builds
+c1480f48 recovery: Expose reboot to recovery option
+456274c6 recovery: Enable the menu for User builds
+97483317 recovery: Allow device-specific recovery modules
+856991e4 recovery: Include vendor init trigger
+f371b24a recovery: ui: Support hardware virtual keys
+f945b93f recovery: ui: Minor cleanup for touch code
+d338237e recovery: ui: Default to touch enabled
+af986017 recovery: Remove HOST_OS guard for f2fs tools
+
+   * frameworks/base/
+e2707e51c4e CastTile: Fix availability of Cast Quick Setting Tile
+f8e81762006 SystemUI: QS: Add dynamic Immersive Mode tile
+2afed886e67 SystemUI: Fix derp caused by 748292f469bb3885ac95b865716d59e7427cb2d0
+b88ab22d35f Revert "Apply front scrim to doze pulsing"
+161d7128ad3 DO NOT MERGE Revert all scrim related changes in qpr
+
+   * hardware/qcom/gps/
+0b38775 msm8994: gps: correct checsumLength
+25a3d18 Add -Wno-error to compile with global -Werror.
+8a58e14 msm8084: Return the correct length of nmea sentence
+02383b9 msm8084: gps: Fix for buffer overrun crash at copying nmea string
+c3cb6ac msm8084: gps: Fix for buffer overrun crash at copying nmea string
+8e9dde7 gps: Add libprocessgroup dependency to set_sched_policy users
+eda4ed8 msm8084: Handle race condition in HAL post SSR
+ece1816 msm8084: Memory management fixes
+58f15cc msm8084: Add new event mask for timezone
+8451c6f msm8084: Remove reporting gps status from loc eng layer
+b2b39f5 msm8084: Remove Redundant Log
+9482076 msm8084: LocTimer repeated expiration
+4880112 msm8084: MsgTask thread must call associator function always
+73ad72a msm8084: Adding a number of utilities
+1f5e1c1 msm8084: gps.conf parameters are in sap.conf table
+81d1da2 msm8084: Adding Mutex for Creating Context
+cc66550 msm8084: Removed unused code and unnecessary notice files
+c92babc msm8084: Avoiding race conditions during the pallellized builds in Android system
+4a06e6c msm8974: Add -Wno-error to compile with global -Werror.
+8920760 msm8974: Return the correct length of nmea sentence
+dee3220 msm8974: Don't rely on transitively included headers
+d60ab5d msm8974: Fix logging level and remove nmea log
+4cfdefe msm8974: Fix duplicate gps.conf for hammerhead
+a9c3e8f msm8974: Move device dependent modules to /vendor
+272768d msm8974: Cleanup obsolete LOCAL_PRELINK_MODULE
+cae765e msm8974: Default apn ip type to ipv4
+e8acba0 msm8974: Add missing liblog dependency
+4d23994 Revert "msm8974: remove from top level makefile"
+d293a64 Revert "msm8974: deprecate msm8974"
+
+   * manifest/
+7a3a462 manifest: Track more PE repos
+
+   * packages/apps/Evolution/
+641cdc9 Fix Statusbar Clock array values
+006f88a Fix edge lighting colorpicker showing wrong colorhex in summary
+780b218 Evolution: Add Volume Key Answer (2/2)
+29a5a9a Add setting to toggle navbar
+c45d171 Evolution: QS: Set default value of opacity to 100%
+9d0ce23 Allow changing visualizer default color [2/2]
+7c23800 Move all Visualizer options to separate fragment
+
+   * packages/apps/Settings/
+7e3e01dec9 Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+a96891b79a Settings: AnimationScale: Fix force close when not using english
+da158fad70 Settings: Use seekbar to allow setting arbitrary animation values
+
+   * vendor/pixelstyle/
+52fab46 Revert "Launcher: Add Lawnchair"
+
+=======================
+     12-14-2019
+=======================
+
+
+   * frameworks/base/
+a6e47471d6f base: SystemUI: Add optional notch friendly VoLTE icon
+6c9f017684a Add VoLTE icon toggle [1/2]
+c2827aab7f8 base: Fix padding for VoLTE icon
+48945c60c4f SystemUI: Use VoLTE icon from OOS pie
+39927205f4f Fix VOLTE icon color on Light statusbar
+d62aafbb834 SystemUI: Enhancement for volte icon
+161dfdd71d6 SystemUI: Query IMS state after CapabilityCallback is regisered
+269b2ed97c5 SystemUI: Fix HD icon missing
+e4145842a01 Adapt to IMS registration changes.
+717b8b1e7c9 SystemUI: Refactor the feature of volte icon
+53ea0c50b78 SystemUI: Fix volte icon doesn't update in real time
+487d65e03e4 SystemUI: Add new configuration for displaying Volte icon
+17cc442402e Remove old implementation of VoLTE icon support
+a8ddff16bf2 Fix android setup permissions
+bdb3c7d7d2d ActivityRecord: add some missing bits after fwboost merge
+f2f1c99ae3d Partially Revert "Position "At a Glance" on type clock below status bar."
+17d6d6d13e9 SystemUI: Add method for getting estimated battery time
+3ac67c44287 SystemUI: Fix protected broadcast error for doze intents
+25fa9ddf7e3 fwb: More fixes after r18 merge
+133727ee397 SystemUI: Fix SystemUIGoogle after r18 merge
+22ca6ed5137 Merge tag 'android-10.0.0_r18' of https://android.googlesource.com/platform/frameworks/base into ten
+6b7c9676c7a Revert "SystemUI: Add method for getting estimated battery time"
+c38f7165b13 Revert "SystemUI: thread protect keyguard callbacks"
+a56d5437b70 Revert "SystemUI: Fix escape text and Hide back icon when screen pinned and gestural mode enabled"
+28e619f23d9 Revert "SystemUI: Avoid adding useless empty quick settings page"
+5c3290d63a9 Fix bluetooth icon has wrong color
+0e6f9afb62f [SQUASH] Revert ringtone commits
+25a7aff46d7 Permissions: Allow to grant permissions to more apps on dirty flash
+ab36dcdb409 Grant Wellbeing the SUSPEND_APPS perm if already declared
+1867c17f2b4 SystemUI: Fix shouldSkipHeadsUp logic for Gaming Mode
+8e8093b374e FWB: Add Volume Key Answer (1/2)
+3e10ba7f466 Lockscreen charging info: show decimal in battery temperature
+73c39e8b1bf Enable fingerprint swipe gestures by default [1/2]
+8409113a502 QS columns/rows: fix rows not refreshing on setting change
+748292f469b Use FORCE_SHOW_NAVBAR to actually toggle navbar
+2b040e71446 Add support for runtime toggle of navbar
+5ed3b6a30b9 Buttons: Hardware key disable support with M adaptations
+cdb74231c8b SystemUI: hide lock icon while dozing
+a52888b3619 Avoid showing lock icon on AOD
+556c8cf16ea SystemUI: Allow changing visualizer default color [1/2]
+faac73e5ed4 [1/2] Ambient Visualizer
+18c09cffad6 Unlock keystore with fingerprint after reboot (1/2)
+794e3bbaba0 base: Add Lockscreen cover art filter
+c52727bfb9d base: configure lock screen media artwork blur level [1/2]
+cdb0a054f87 base: Optimize toGrayscale function
+9dd12864a9a ImageHelper: add getBlurredImage
+ee977b995e0 base: import some utils
+0332856273c Make the screenrecord option in power menu toggleable [1/2]
+ba3dbc07b3c base: Make powermenu lockscreen visibility configurable [1/2]
+3ea53c91686 base: Hide the power menu on the lockscreen [1/2]
+d78fc0139b8 MediaRecorder: add more quality checks for time-lapse recording
+1fd2e5b3ce0 CamcorderProfiles: Add 8KUHD camcorder profile
+2c2a22d6a9a SystemUI: Added animation of switching between the power menu and the extended power menu
+be15c434c45 base: power menu: update advanced restart drawables
+60a18cd79dc Statusbar bluetooth battery level: fix level toggle
+35b7e9ab88f biometrics: Allow posting reset runnable for all clients
+edf3c0ff382 Fix enumerate corner case
+0bcda8a86f9 base: Omni Doze settings & TimeInState [1/2]
+bf13327eeb6 ThemedMeterDrawable: Fix system crash on theme change
+e88f956164a SystemUI: QS: Hide the placeholder if brightness slider is on bottom to save some space
+02922a40eb1 fix error com.google.android.gms.persistent
+fd31e5f2886 SystemUI: fix black screen after AOD_PAUSED
+3aacb8a6b84 Context-aware Bluetooth airplane mode
+55b47047433 CameraServiceProxy: Improve code for camera state intent
+9fea8b5c2c2 Revert "SystemUI: keep width on qs expand move"
+5a2954bcfe5 AppOpsService: Fix up 013a611
+95b31c17b12 AppOpsService: Watch op mode changes when an AppOp restriction dies
+0316fcd483d SystemUI: fix qs footer side margin
+b4d6f5cb562 Fix: No text in toast for RTL layout
+4eef67aa846 Fix bugs regarding system app cannot write visible path
+b62409b3e3b Graphics: Fix NPE in Gdrive
+738762eee64 GamingMode: Fix gaming mode from turning off instantly on some apps & games
+f6bebb17d96 base: Fix SystemUI crash
+d539ee9a787 Fix Settings & endless SystemUI crash
+3e329409298 Fix battery being bigger than other icons
+4eea057f2e1 Disable tuner pref for battery
+0c9386e9465 Text battery style: show a bolt ⚡ when charging
+51ee3db58b6 SystemUI: Reduce padding between battery & signal
+196d7362dca Make percentage text inside battery readable
+18c39165c1d base: option to show battery percent & estimate together [1/2]
+578e08c7501 base: Show battery in qs status bar
+d6afa254f52 Add battery styles and customizations for Android 10 [1/2]
+058ff1b2394 ThemedBatteryDrawable: Switch back to java.
+0d452724658 Revert "SystemUI: Show estimates on QS only if battery percentage is unavailable or disabled"
+783664525d0 policy: add more orientation sanity checks
+57600b746ae TextClock: Improve English strings
+c23688296b7 TextClock: Spanish translation improvements
+42e9359c6a2 TextClock: bring the translations back
+0cb95e8f84f Keep recent tasks for more time in memory
+b2cf2168b8a Led lights: don't skip dialer and other ones
+5cf4ac1134b DeviceInfoUtils: Prefer Evolution platform SPL
+859412c9393 SystemUI: Fix ambient pulse notification layout
+5c1b8f75e43 base: Add ambient pulse notification [1/2]
+f6081cb707f Open Sound settings on long click at the panel button
+44d4686e00f LineageContextConstants: Add missing FOD feature
+dc7c451cf75 Allow to hide arrow for back gesture [1/2]
+f86382c70cc SystemUI: DataSwitchTile: Use MD2 drawables
+f6e601ea5f5 DataSwitchTile: collapse notification panel onClick
+5806d5659c1 base: Introduce DataSwitchTile
+895a0727e1b SystemUI: Remove annoying log caused by aosp bug
+d442c5f465d SystemUI: FingerprintDialogView: Use accent color instead of teal
+8f4f4514eb9 fwb: Conditionally set scaled brightness
+8cc11def748 NtpTrustedTime: Refresh NTP server from resources before requesting time
+0ccb149b109 Revert "NtpTrustedTime: Refresh NTP server from resources before requesting time"
+5f9ab9b9b9a Add back increasing ring feature (1/3)
+63bac2df484 SystemUI: CarrierLabel: Set default font to Google Sans
+054e1daaa4c Allow lid to send a generic COVER_CHANGED broadcast
+15953d4c48c Perf: Boost UI thread during app launching
+9b4266a3c7d Update wifi interface ip state upon receiving ap disable event
+19008477be5 SystemUI: use LayerDrawable for status bar bt icon
+42cd57b89ab framework: add boost for package installation
+23643bf7f77 Update NotificationRecord of snooze even after it is cancelled
+04224ca7ff2 Limit the retry attemps on restarting Bluetooth
+c1de94d1fb7 [SQUASH] Remove BT SBC HD support
+61e3e53a05a Revert "fw/b: [Squash] Add capability to allow tethering to use VPN upstreams"
+98dc3fbf8a9 base: SystemUI: qs quickbar columns config
+25b1a051fe7 Screenrecord: exclude dialog from Recents
+bb724ff1514 Screenrecord: remember last recording options
+95410736aeb Screenrecord: start delayed
+966f7719313 wifi: add basic support for 60GHz band
+c3b347dc507 wm: Use a different execution context to register WFD rotation receiver
+f35044509cf wm::DisplayRotation: Changes for WFD and UIBC.
+7d7cc4a5c26 SystemUI: Allow customizing footer text [1/2]
+8a1dd0e825e base: Add a toggle for QS footer text [1/2]
+8544cbddeab base: Use MD2 drawables for Gaming mode
+b53b25b7c35 SystemUI: Clock: Set default font to Google Sans [1/2]
+505ffcc0874 Add option to auto hide status-bar clock [1/2]
+fd07d3f9a03 SystemUI: allow to switch back to pre P mobile type icon style [1/2]
+c5fb2b877a0 SystemUI: Fix crash when trying to remove an already removed statusbar item
+d24f89e0dbf VoLTE icon: Enable by default [1/2]
+d91207d2d16 SystemUI: keyguard show charging watt
+1d5c747bbff SystemUI: BatteryPercentage: Detect when overlay changes
+b27f1903fe7 SystemUI: enable custom clock faces
+
+   * manifest/
+f079198 manifest: Remove duplicate repo
+
+   * packages/apps/Settings/
+c22d9f9032 [SQUASH] Revert ringtone commits
+
+   * packages/services/Telecomm/
+9666acc9 Revert "Telecomm: Phone ringtone setting for Multi SIM device [3/3]"
+
+   * vendor/aosp/
+521838d3 Revert "vendor: Set ringtone for 2nd slot on MSIM devices"
+
+   * vendor/pixelstyle/
+149c210 Added Fonts From Pie [2/2]
+3d05c42 vendor: Build OP Screen Recorder
+6b5019b PixelDocumentsUIGoogleOverlay: Don't let it be overwritten by DocumentsUIOverlay
+
+=======================
+     12-13-2019
+=======================
+
+
+   * hardware/qcom-caf/msm8996/audio/
+5aa75af1 hal: fix media param not sent during gapless transition
+9cdd6af4 ultrasound: Use log/log.h instead of cutils/log.h
+
