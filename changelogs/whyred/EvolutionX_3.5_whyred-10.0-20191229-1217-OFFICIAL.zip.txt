@@ -1,0 +1,26 @@
+12/28
+Ambient music: send the proper pulse reason on slpi tap
+Ambient instead of lockscreen on wake gesture: code fixes
+Fix custom lockscreen shortcut icons being white
+Fixes to ambient: make Pulsing bright again
+
+12/26
+audioservice: fix voice_call default volume
+TextClock: Improve English strings in english specifications
+
+12/25
+Settings: Use a festive logo banner for Xmas season
+
+12/24
+Add more accent color overlays (Evo X Blue/Red/Yellow/Green, Light Salmon Pink, Blue Gray, Cyan, Flat Pink, Indigo, Light Purple, Pink, Red, Teal, Dorset Gold, Inferno Red, Matrix Green, Metallic Gold, Pornhub Orange, Ubuntu Orange)
+Add more fonts (Aclonica, Amarante, Bariol, Cagliostro, Coolstory, LGSmartGothic, Rosemary, SonySketch, Surfer)
+Move Phone Ringtone option below Prevent Ringing Sound
+Use Slate for OnePlus from OP7Pro as OPSlate font replacement
+
+12/23
+Bring back persistent settings icon on QS panel
+Remove lock screen date view for Text Clock
+TypeClock: Add 24h format support
+TypeClock: bring the translations back
+TypeClock: Fix wrong translations of Fifteen in english specifications
+FOD burn-in protection: AOD content should move only in Y coordinate
