@@ -67,6 +67,13 @@
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "xda_thread": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-2-0-t3947435"
+         },
+         {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Gabriel Howard",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
+            "xda_thread": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-3-1-t3996295"
          }
       ]
    },
@@ -582,10 +589,17 @@
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "xda_thread": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-2-0-t3943024"
+         },
+         {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Gabriel Howard",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
+            "xda_thread": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-3-1-t3996253"
          }
       ]
    },
-   {
+   {			
       "name": "Mi 8 SE",
       "brand": "Xiaomi",
       "codename": "sirius",
