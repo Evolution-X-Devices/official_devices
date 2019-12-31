@@ -1,0 +1,26 @@
+12/31/2019
+- Add a config to disable LED settings
+- AmbientLight: Set default color to Evolution Blue Dark
+- Evolution settings: Flashlight blink: Fix disable option not working
+- Settings: Ambient Music Ticker: Several improvements from Pie
+- Settings: SmartCharging: Use Master Switch
+- Wallpaper: Set to default Waves Dark
+
+12/30/2019
+- Add Network Traffic Layout options
+- Evolution settings: ColorPicker: make it more user friendly
+- Evolution settings: AmbientLight: update summary to show RGB value instead of ARGB
+- NetworkTraffic: Add Dynamic Mode
+- Settings app: Display menu: move lockscreen/ambient preference on top
+- Remove ADB over Network features
+- Refactor Network Traffic features
+- TextClock: Fix string for Fifteen
+
+12/29/2019
+- fix dt2s issue introduced during mismerge of r16 tag
+
+12/28/2019
+- Ambient music: send the proper pulse reason on slpi tap
+- Ambient instead of lockscreen on wake gesture: code fixes
+- Fix custom lockscreen shortcut icons being white
+- Fixes to ambient: make Pulsing bright again
