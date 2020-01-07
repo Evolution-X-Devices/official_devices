@@ -1,0 +1,67 @@
+===
+ROM
+===
+- Allow hiding battery icon from QS header
+- Gesture nav Assistant handles: don't show them in lockscreen
+- Introduce lockscreen clock/date styles
+- Merge January security patch
+- MediaProvider: Use an adaptive icon960fps
+- Ringtone: Add Evolution ringtone (Motörhead - Line in the Sand)
+- Telephony: Add ERI configuration for U.S. Cellular
+- Telephony: Use Evolution fingerprint to check for system update
+- Telephony: Use system fonts at more places
+- Update to latest Immensity kernel
+- USSD: Fix alert dialog theme
+- Bring back navbar tuner editor
+- Enable Navigation category and add invert layout option
+- Hide power menu on secure lockscreen - improvements
+- Power menu icons color: use theme accent on updated icons
+- Update ElectronBeam screen off animation
+- audioflinger: Fix audio for WifiDisplay
+- Improve Phone ringtone setting for Multi SIM device support
+- Notify ClockChangedListeners on main thread
+- Power Menu: Only tint items once
+- SystemUI: add vibration tick when opening notification panel
+- SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
+- SystemUI: Adjust powermenu and qs customizer background
+- Add Listanimation Views and Interpolator
+- Compression changes and improvements
+- Settings: Add Build date entry to Firmware version window
+- Settings: Add Device codename to Firmware version window
+- Settings: Show build release type alongside ROM version
+- Settings: SmartCharging: Don’t use a Master Switch toggle (still buggy)
+- System bug fixes and optimizations
+- SystemUI: QS: Add Language toggle
+- SystemUI: Bring back QS Drag Handle
+- Add option to disable Notifications vibration
+- Allow to quickly open Running Services from QS footer
+- Evolution settings: Add proximity check on wake preference
+- Evolution settings: Add video preview to Skip track gesture option
+- Evolution settings: QS footer icon visibilities
+- Fix lock icon being stuck in AoD after pulsing notifications
+- Fixes to Surfaceflinger (Might fix Android Auto issues)
+- GamingMode: Add option to disable all heads up notifications
+- GamingMode: Add option to disable notification feedback
+- Settings: Back to our proper logo
+- Upgrade to SQLite 3.30.1
+- Add more accent color overlays (Evo X Blue/Red/Yellow/Green, Light Salmon Pink, Blue Gray, Cyan, Flat Pink, Indigo, Light Purple, Pink, Red, Teal, Dorset Gold,   Inferno Red, Matrix Green, Metallic Gold, Pornhub Orange, Ubuntu Orange)
+- Add more fonts (Aclonica, Amarante, Bariol, Cagliostro, Coolstory, LGSmartGothic, Rosemary, SonySketch, Surfer)
+- Move Phone Ringtone option below Prevent Ringing Sound
+- Use Slate for OnePlus from OP7Pro as OPSlate font replacement
+- Bring back persistent settings icon on QS panel
+- Remove lock screen date view for Text Clock
+- TypeClock: Add 24h format support
+- TypeClock: bring the translations back
+- TypeClock: Fix wrong translations of Fifteen in english specifications
+- FOD burn-in protection: AOD content should move only in Y coordinate
+- Add dalvik-heap device-configs for 4/6GB devices
+- Backend system fixes
+- Fix default sounds not being set after a clean flash
+- Settings: Address a memory leak
+- Settings: Add an option to change the device hostname
+- Settings: update preferred networks list with global RIL values
+======
+Device
+======
+- Change the kernel to Derps kernel (Thanks to Murtaza)
+
