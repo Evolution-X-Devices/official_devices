@@ -1,0 +1,24 @@
+[SOURCE] (very recent one)
+
+• Initial build (after 2 months of struggle. Yeahh)
+• Merged January security patch
+• Add toggle to show charging animation when plugged
+• Allow hiding the lock icon on lockscreen
+• DozeUi: do not prepare for gentle wakeup
+• Evolution settings: AmbientLight: add visual preview
+• Evolution settings: Another overhaul
+• Fix carkit can't get phonebook access permission by default
+• Gapps: Import google apex
+• Lockscreen clock styles: Add more styles
+• Power menu icons color: Don't use theme accent
+• Settings: Fixes sound panel create multiple SoundSettings activity
+• Settings: Skip loading contextual cards if legacy cards are used
+• SystemUI: Avoid adding useless empty quick settings page
+• SystemUI: Make recents grid view accept more than 8 tasks
+
+
+[DEVICE]
+
+* Initial build!
+
+#KeepEvolving

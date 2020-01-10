@@ -626,6 +626,13 @@
       "codename": "platina",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "nysascape",
+            "maintainer_url": "https://t.me/nysascape",
+            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Bruno Rocha",
