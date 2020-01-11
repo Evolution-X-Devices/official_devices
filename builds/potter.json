@@ -1,17 +1,17 @@
 {
    "error": "false",
-   "filename": "EvolutionX_3.3_potter-10.0-20191113-0251-OFFICIAL.zip",
-   "datetime": 1573613311,
-   "size": 1244012670,
-   "url": "https://sourceforge.net/projects/evolution-x/files/potter/EvolutionX_3.3_potter-10.0-20191113-0251-OFFICIAL.zip",
-   "filehash": "e70c44c14d526090da9620c63d043f32",
+   "filename": "EvolutionX_4.0_potter-10.0-20200111-1506-OFFICIAL.zip",
+   "datetime": 1578755031,
+   "size": 1371104917,
+   "url": "https://sourceforge.net/projects/evolution-x/files/potter/EvolutionX_4.0_potter-10.0-20200109-0114-OFFICIAL.zip",
+   "filehash": "1e2d670fafc047aecb41918a4195bd64",
    "version": "Ten",
-   "id": "2ccd17a902f22373ac7b464bf884e1e43be6d261159b3156fd35311ee0868245",
+   "id": "d8445a544ea76ee11166096ec8f0fc87011500965c6c3c494685a011f603bce3",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "donate_url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ENVALZVS93JLN&currency_code=BRL&source=url",
-   "maintainer": "Giovanni Stocco (giostocco)",
-   "maintainer_url": "https://github.com/giostocco",
-   "telegram_username": "giostocco",
-   "forum_url": "https://forum.xda-developers.com/g5-plus/development/rom-evolution-x-2-2-t3976463"
+   "donate_url": "https://bit.ly/zjrdroid_paypal",
+   "maintainer": "Zilberto Junior (ZJRDroid)",
+   "maintainer_url": "https://t.me/zjrdroid",
+   "telegram_username": "ZJRDroid",
+   "forum_url": "https://forum.xda-developers.com/g5-plus/development/rom-evolution-x-4-0-potter-t4031693"
 }
