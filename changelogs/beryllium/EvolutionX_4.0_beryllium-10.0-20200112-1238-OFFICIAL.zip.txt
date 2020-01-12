@@ -1,0 +1,67 @@
+1/12
+- Evolution settings: Lockscreen art blur: Allow no blur
+- OmniStyle: Separate Evo X headers into light and dark options
+- Settings: Ensure 'Back gesture settings' dialog is themed correctly
+
+1/11
+- Add QS themes support
+- Bring back Status bar notification ticker feature
+- Disable broken QS detail view
+- Gapps: Update Pixel Launcher
+- Power menu icons color: Don't use theme accent
+- SystemUI: Fixes to QSContainerImpl
+- SystemUI: Set default QS columns (portrait) to 3
+
+1/9
+- Add option to Hide pill in full gestural nav mode
+- Icon shapes: Add cylinder icon
+- Icon shapes: Bring back Square icon
+- Fix broken “Phone ringtone setting for Multi SIM device” FCs
+- OTA app: Update some texts
+- QS Headers: Remove missing Western headers option
+
+1/8
+- Add toggle to show charging animation when plugged
+- Allow hiding the lock icon on lockscreen
+- DozeUi: do not prepare for gentle wakeup
+- Evolution settings: AmbientLight: add visual preview
+- Evolution settings: Another overhaul
+- Fix carkit can't get phonebook access permission by default
+- Gapps: Import google apex
+- Lockscreen clock styles: Add more styles
+- Power menu icons color: Don't use theme accent
+- Settings: Fixes sound panel create multiple SoundSettings activity
+- Settings: Skip loading contextual cards if legacy cards are used
+- SystemUI: Avoid adding useless empty quick settings page
+- SystemUI: Make recents grid view accept more than 8 tasks
+
+1/7
+- Allow hiding battery icon from QS header
+- Gesture nav Assistant handles: don't show them in lockscreen
+- Introduce lockscreen clock/date styles
+- Merge January security patch
+- MediaProvider: Use an adaptive icon
+- QS headers: Add Evolution X header pack
+- Ringtone: Add Evolution ringtone (Motörhead - Line in the Sand)
+- Telephony: Add ERI configuration for U.S. Cellular
+- Telephony: Use Evolution fingerprint to check for system update
+- Telephony: Use system fonts at more places
+- USSD: Fix alert dialog theme
+
+1/6
+- Bring back navbar tuner editor
+- Enable Navigation category and add invert layout option
+- Hide power menu on secure lockscreen - improvements
+- SystemUI: allow setting custom cutout shapes
+- Update ElectronBeam screen off animation
+
+1/5
+- audioflinger: Fix audio for WifiDisplay
+- Improve Phone ringtone setting for Multi SIM device support
+- Notify ClockChangedListeners on main thread
+- Power Menu: Only tint items once
+- SystemUI: add vibration tick when opening notification panel
+- SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
+
+1/4
+- SystemUI: Adjust powermenu and qs customizer background
