@@ -1,0 +1,686 @@
+=======================
+     01-12-2020
+=======================
+
+
+   * device/custom/sepolicy/
+5eb3876 sepolicy: Cleanup
+
+   * frameworks/base/
+4a8169d121a base: Status bar notification ticker [1/2]
+9c821f7564e base: Add NotificationColorUtil back
+0ad959cd657 Convert VPN Server endpoint to numeric
+9294a05e240 hwui: Relax the desiredPresent time in RenderAhead feature
+8a3f2ee8b25 base: QS themes [1/2]
+28478dcc2bc SystemUI: Fixes to QSContainerImpl
+28de908ee6c SystemUI: [HACK] set requestLegacyExternalStorage for the moment
+906b59bf7d3 SystemUI: Add Evo FOD icons [1/2]
+6ad82c33036 SystemUI: Set default QS columns (portrait) to 3 [1/2]
+8f16682d9fa Power menu icons color: Don't use theme accent
+
+   * manifest/
+d4dbec2 manifest: Track vendor_google_customization
+
+   * packages/apps/Evolution/
+018dd0e Evolution: Status bar notification ticker [2/2]
+ddf7379 Evolution: QS themes [2/2]
+b707426 Evolution: Fixes to QS panel opacity
+9a75891 Evolution: Add Evo FOD icons [2/2]
+e4e53d6 Evolution: Set default QS columns (portrait) to 3 [2/2]
+
+   * packages/apps/Settings/
+849c955839 Fix volume slider color is not correct
+
+   * system/vold/
+bfb8096 system: vold: Fix for ICE UFS card support
+
+   * vendor/aosp/
+55467231 vendor: config: Include vendor/google/customization
+
+   * vendor/pixelstyle/
+49c4062 pixelstyle: Update pixel launcher
+
+=======================
+     01-11-2020
+=======================
+
+
+   * frameworks/base/
+a0392bb0701 Revert "SystemUI: Enable and fix QS detail view, adapt layout to Q"
+022f9475f46 [SQUASH] Revert Black screen fix commits
+446e4dd0b29 Add cylinder icon shape overlay
+41439bc4df8 Build Square icon shape overlay
+82ca18eebbe base: overlays: Hide pill in full gestural nav mode [1/2]
+b9f47b85901 SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
+eb6cc6ebc6b SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
+11cd7b644e3 SystemUI: Lockscreen clock styles: Add small size style [1/2]
+c5a3bbf457e base: SystemUI: Allow hiding the lock icon on lockscreen [1/2]
+f0ff3e4485b SystemUI: Add wallpaper color option for FOD icon [1/2]
+
+   * packages/apps/Evolution/
+a40cba9 Evolution: Lockscreen clock styles: Add more styles [2/2]
+
+   * packages/apps/OmniStyle/
+d5bc66e OmniStyle: HACK set requestLegacyExternalStorage for the moment
+
+   * vendor/gapps/
+25dd094 Move some stuff to vendor/google/customization
+
+   * vendor/google/customization/
+455e1dc Move from vendor/gapps
+
+=======================
+     01-10-2020
+=======================
+
+
+   * frameworks/base/
+f7162ed75cb SystemUI: Make recents grid view accept more than 8 tasks
+c89dcd2b271 fwb: fix EXTRA_LID_STATE behaviour
+dbc2590a6fb fwb: add missing LID_ABSENT
+e19077cd0f0 base: fix charging animation power level
+986720f1abf base: Add toggle to disable charging animation [1/2]
+8c445fc7b0e base: Use wireless charging animation for wired charging too
+101b8b66647 SystemUI: Avoid adding useless empty quick settings page
+55b1eb5d2d0 Revert "SystemUI: fix qs page num calc algo"
+b4c25253415 TextClock: Update for Spanish translations
+2ac73213bc2 base: Allow hiding battery icon from QS header [1/2]
+1a6d204f2a8 Introduce lockscreen clock/date styles [1/2]
+577f5b912f5 Gesture nav Assistant handles: don't show them in lockscreen
+94abf205824 base: tuner: fix navbar layout switch and remove old cruft
+2c160c4d9b4 base: tuner: bring back tuner navbar editor from N
+d5176769059 Hide power menu on secure lockscreen - improvements
+81bb494aaa8 base: Handle NPE for ContentObserver
+29ec1a3b071 Update ElectronBeam screen off animation
+38bb2619194 Revert "base: catch what you cant explain"
+3611d81e747 SystemUI: allow setting custom cutout shapes
+dded1452802 PowerMenu: Only tint items once
+953645222f4 Notify ClockChangedListeners on main thread
+0d5c8b8d264 FingerprintManager: return "Try again" by default
+ba0b7970995 SystemUI: add vibration tick when opening notification panel
+21476e1e39c SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
+8d4d435e740 Revert "BatteryStats: Update WifiState even if EnergyInfo is invalid"
+42f62d7c117 SystemUI: Adjust powermenu and qs customizer background
+156073c83dc SystemUI: Add more FOD icons [1/2]
+d6402082f22 SystemUI: FOD icon picker [1/2]
+8567b1ebfdb SystemUI: QS: Language toggle
+83b2408e658 SystemUI: Bring back QS Drag Handle
+2d2aa680e22 AbsListView: Fix widget couldn't find any view fc
+1c4952d4961 Return: Listanimation Views and Interpolator [1/2]
+feecce0f160 Check GL extension is supported before using it in glwallpaper
+fc16a22d8e9 hwui: Avoid fake high input latency while vsync drifting
+37cfd0f7ecd Get clock title on demand
+59d88f1a504 Always use a positive value for timestamp
+c6547b6735a aapt2: silence positional arguments warnings
+f0fa8ee55b7 aapt2: do not use compression
+dcc8af12c23 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/frameworks/base into ten
+b2fc1f36d3b base: lightservice: strengthen useScaleBrightness checking
+e21aaa5d483 DozeUi: do not prepare for gentle wakeup
+642d584a0a7 KeyguardView: report transiting bouncer as shown
+bbcbd81a208 FODCircleView: Patch partial wakelock issues
+
+   * packages/apps/Settings/
+23088f63e1 Settings: Move the hide pill toggle to gesture settings dialog
+a43de1f6cb Settings: Hide pill in full gestural nav mode [2/2]
+e875e006d1 Skip loading contextual cards if legacy cards are used
+427d190173 Fixes sound panel create multiple SoundSettings activity
+a273d5f95a Fix carkit can't get phonebook access permission by default.
+fd591d0e03 Settings: Show build release type alongside ROM version
+3702a630d4 Settings: Add Device codename to Firmware version window
+fce97814be Settings: Add Build date entry to Firmware version window
+cd8bf23dad Settings: FingerprintSettings: Don't listen for fingerprint if fod present
+d55c0f5c7a FingerprintEnrollFindSensor: Don't overlay front for side sensors
+8abb4c1127 Fingerprint: Allow devices to configure sensor location
+08844b1952 Settings: Allow to quickly open Running Services from QS [2/2]
+30259fe349 Settings: Back to our proper logo
+1f40a047df Settings: Ambient Music Ticker: Several improvements from Pie
+3760da1906 Revert "Remove "clocks" from string"
+416255a131 Settings: Add an overlay settings field for Smart Charging
+22938afa96 Display menu: move lockscreen/ambient preference on top
+a685f48a49 Settings: Display 'Warp charging' for warp charge in battery settings [2/2]
+105b439d61 Settings: Display 'Dash charging' for dash charge in battery settings [2/2]
+e2a8522cae FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+72314a74fd Settings: Yuletide season logo
+1be78fe808  FeatureFactoryImpl: Initial import of ContextualCardProvider
+0a958630dd Settings: Add an option to change the device hostname (2/2)
+bf03fec8a5 Settings: Address a memory leak
+de9b1dbeb8 AndroidManifest: Add missing metadata com.android.settings.summary
+25b3e333be FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+a1f8bc422d FeatureFactoryImpl: Remove AOSP Package Installer from keepEnabledPackages
+b99130f4f2 FeatureFactoryImpl: Import PowerUsageFeatureProviderGoogleImpl
+5bcdaf683f Comment out double options that were under accessibility
+9aa955130a Remove legal information from being indexable
+a7a855be02 Settings: fix hardcoded black text in storage summary
+8f54e5b2fa Settings: Live Volume Steps [2/2]
+d3459723e0 Disable dashboards conditions and suggestions (2/3)
+97cb3e77c6 Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+0026cabff1 Settings: display fstype for mounted volumes
+14ea798b08 lockscreen: Forward port option to pass swipe-up-to-unlock [2/2]
+6a9e48cd93 Settings: Forward port pattern visibility settings (2/2)
+5121be5889 Settings: Forward port lock pattern grid size (2/2)
+6d297f38b6 InstalledAppDetails: fix refreshing storage summary after force stop
+3840989a4f Unlink AoD switch pref from AoD on charge
+a55d1378e1 Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+ba9d398a85 Settings: AnimationScale: Fix force close when not using english
+4f6d2587c2 Settings: Use seekbar to allow setting arbitrary animation values
+36707a025d Enable fingerprint swipe gestures by default [2/2]
+35ebd12921 Fix cannot see "see more" button in UI
+6a831ecc83 Settings: Bump privacy category's initial expanded children count to 10
+2f6e22c72b Settings: Remove AOSP battery percentage
+4b933045fc Settings: Move the Extended Volume panel to Sound [2/2]
+315316a04f Settings: Allow to hide arrow for back gesture [2/2]
+6a6451fc36 Settings: Hide carrier version pref
+0494577caf Settings: Add back increasing ring feature (2/3)
+39d78052c3 Prevent null point exception
+4e7ab47214 Settings: Respect preference's visibility in VideoPreferenceController
+d2c7701d72 Settings: Set Lockdown toggle to match Evo Settings' version
+3226f716f8 SmartCharging: add reset battery stats option [2/2]
+333f2f6364 SmartCharging: allow user set resume level [2/2]
+e02f8f0a89 Settings: Smart Charging (2/4)
+dbf23fd620 Settings: Bring back Gaming mode [2/3]
+c8c7b2f36f Lights color picker: activate preview
+4834329115 Settings: Hide notification light color preference if no multicolor led
+bbc239a6cc Allow to customize notification led light [1/2]
+5a5a3d7dbf Enable notifications led light by default [2/2]
+468366ddbc Settings: Rework logotype banner
+cf2aab0a19 Settings: Update our beautiful logo
+8e1bc4b48d Add accessibility timeout video and illustration
+a8f6ebf70c Settings: deviceinfo: Move imei information to Sim status
+646081fccc Settings: Add platform and RAM to Model & Hardware
+5114743aac Settings: Add refresh rate setting [2/2]
+bf28652712 Settings: Double tap to trigger doze [2/2]
+107117681d Settings: add option to enable AOD on charging only [2/2]
+0b8e92575e Settings: Allow to choose lockscreen or Ambient on wake gestures [2/2]
+07d485793e Settings: Ambient Display battery toggle [2/2]
+6c1f50591c Remove empty space in tether preference
+701200f54f Settings: Option to mute media with gesture [2/2]
+f3c6baf0d4 Allow to dismiss notifications with back FP left/right swipe [2/2]
+51c93e7ad9 Suggestion cards: align them to searchbar
+52a6201b23 Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]
+822124ca33 Aosp Ambient music: allow to pulse on new tracks [2/2]
+712335a4d0 Settings: Fix dismissal card bg color
+dba680f17c Fix ViLTE is not available when WiFi Calling is disabled
+9976e654ab Settings: Add back SELinux info
+99a87660dc VolumePanel: fix showing notification volume slider when unlinked
+a18f43b025 Cutout force fullscreen: Disable fast scroller
+7f47ac486d Settings: [2/2] Implement cutout force full screen
+94023c7669 Move custom dp settings under Display
+d68ece0d72 fuelgauge: Fix possible memory leaks
+05e20fc4b3 fuelgauge: Implement Early Warnings
+33e9b19186 fuelgauge: Use Enhanced Battery Prediction from Turbo
+d8957c0429 fuelgauge: Implement isTypeService
+d9e89b5990 Settings: Add all gesture preview animations
+1fd030839c Settings: Fix QrCamera crash on devices without flash
+977df8d2a1 Settings: Add Evolution X Logo to firmware window
+970e1c7c99 Settings: Use correct icon for ring volume
+76f1b8de27 Settings: Add switch for linked ring and media notification volumes [2/2]
+0b2d7c5797 Setting: Reverse an incorrect check in AutoRestrictionPreferenceController
+161a89a684 LiveDisplaySettings: Hide automatic outdoor mode preference on HWC2
+2cfd239144 LiveDisplaySettings: Reenable display mode preference for outdoor mode
+faf72fdcf9 Settings: Don't index display mode and color temperature on HWC2
+805f6d0f4d LiveDisplaySettings: Fix outdoor mode preference on hwc2
+8de1d54b93 livedisplay: Don't show display mode and color tempertature on HWC2
+075682ac35 LiveDisplay: Add illustration into picture and color adjustment
+a051b9880d Settings: Changes for LiveDisplay
+63822792f1 Settings: Add option to scramble pin layout when unlocking (1/2)
+44ae6cff14 Settings: Keyguard: Forward port lockscreen quick unlock (2/2)
+007666669e Settings: Lockscreen rotation config support [2/2]
+783d0fb23f Settings: Enable FeatureFlags on "user" builds too
+ae1fc665b5 Settings: Enable SIM card ringtone only if slot not empty
+711347afcc Settings: Phone ringtone setting for Multi SIM device [2/3]
+f7dcb3978c Settings: Add charging vibration settings
+05ef0d431f Settings: show battery times in summary
+677bc1fcaa Settings: Black theme is getting nicer
+07259c86ac Open app when clicking on icon in App Info
+fe09f4160f In sim1 APN settings interface and hot plug out/in sim2, APN information change to sim2's
+a242c09da3 Settings: don't add unneeded collapse in network page
+1848dfc645 Add Evolution settings dashboard
+d5508337b3 Battery temp: Use MCC to determine the scale type
+4ee658caee Battery temp: Ensure preference is updated
+6739f44813 Battery stats: Display battery temperature
+e64b106a7c Make sure close button has proper color
+dd6c1455d5 Enable dismissal feature on legacy suggestions.
+9dc3a00785 Settings: Navigation mode settings [2/2]
+bbb117adf4 Settings: Add drawable for Private DNS
+20e01222af DisplaySettings: font size in 5% steps from 80% to 130%
+9c162a450b Settings: Reset battery stats [2/2]
+c6664970d9 Settings: Allow disabling of screenshot shutter sound [2/2]
+d7200d2a3b SlicesDatabaseHelper: Use Evolution fingerprint
+6e3acdd46e Allow sorting Applications by size
+6654e85d62 Settings: Fix the failing strings
+a1becd019b Settings: Don't translate configs
+2e9c7a89d9 Settings: Add ROM Version to Firmware version window
+ba4f365adf Settings: Show full proc/version information
+07bd15af0f SimpleBuildNumberPreferenceController: Extend from BuildNumberPreferenceController
+0b228e426f SystemUpdatePreferenceController: Refactor for Evolution X Updates app
+361bc637d2 BasebandVersionDialogController: Trim duplicated baseband if needed
+d13d3ebae0 Settings: Add animations on some preferences
+361d03bc42 Settings: Import Adaptive Battery translations from crosshatch
+5551d5c17e FeatureFactoryImpl: Implement ApplicationFeatureProviderGoogleImpl
+8de8d6ead3 FeatureFactoryImpl: Implement SuggestionFeatureProvider
+61b6272215 FeatureFactoryImpl: Implement SearchFeatureProviderGoogleImpl
+4616a32611 FeatureFactoryImpl: Implement AccountFeatureProviderGoogleImpl
+33f568677c Settings: Initial implementation of FeatureFactoryImpl from Pixel
+02bc14c78b fingerprint: Remove unnecessary spacing in enroll layout
+d7c8ab8ddc storage: Do not allow eject for volumes on non-removable disks
+6527ff0b7c Settings: Hide unsupported USB modes automatically
+7df1f4a38d DevelopmentSettings: Hide OEM unlock by default
+e4ac57fad9 WiFi: Remove country code checking.
+bca8e98e64 DevelopmentSettings: Disable automatic updates
+89de7a23e8 Remove feedback and bug report stuff
+9d6b24b4ed Remove the Automatic ota check option but be sure it's disabled
+b0982b320e Add back arrow to Desktop backup password
+ae957a5291 Settings: Drop custom preferenceFragmentCompatStyle
+86485715c4 Settings: Add package name to installed app details
+7b5d5aba35 Settings: Move theming to display settings
+199b6649d5 Developer opts: set default notification channel warnings
+ad2e6f1bdd Settings: IS_DEBUGGABLE -> IS_ENG
+dcc5229e07 Disable notification channel warnings by default
+56312e5165 QS dev tiles: Don't set them to active area
+1d1f6e08ac Settings: Check if we have any color modes declared in overlay
+5281d06032 Settings: fix apn_editor carrier_enabled summaryOff string
+7c8b3d53a1 AmbientDisplay: Add custom pref for devices with custom doze packages
+8dfa7f7496 Settings: Show me more than 4 items in the menus!
+83b951993a PowerUsageSummary: Remove advanced battery menu item
+474d1f76b3 Settings: PowerUsageSummary: open advanced usage on header click
+32b9c8c6ec Revert "Revert "Add developer setting to set the default GPU renderer.""
+0049149d8b Settings: Enable permission hub by default
+c67a7d9833 Revert "Remove Permissions Hub."
+d4c3c8ce1e Revert "Make fingerprint illustrations single color"
+
+   * packages/apps/Updates/
+4e0c7ac Update strings
+8b52f26 Fix export of zip
+
+   * packages/services/Telecomm/
+bc6586d0 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/packages/services/Telecomm into ten
+a2f78789 Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+   * vendor/aosp/
+da304387 prebuilt: backuptool: Implement dynamic system mount for A-only
+5ae7dc5e ota: system --> TARGET_COPY_OUT_SYSTEM
+
+   * vendor/pixelstyle/
+68109b1 sounds: Add our own ringtone
+
+=======================
+     01-09-2020
+=======================
+
+
+   * build/make/
+f3a21ef59 core: Makefile: Don't generate changelog when building recovery
+59807db1c core: Makefile: Fix-up changelog generating
+5fdb5229a build: Erase package_cache upon flashing
+e92961079 Allow overriding platform SPL
+74aae7217 build: make: allow modules to be installed to vendor_overlay
+1dfa64f01 core: binary: Allow modules to be built without clang
+7123ef9cf build: Include custom specific properties in build.prop
+ad55eb365 releasetools: Move system mount handling to backuptool
+308cd75c5 releasetools: Disable backuptools for now
+f7e6982ab releasetools: squash backuptool support
+53eab2822 build: ota: Support for install tools in /tmp/install
+43c4377d1 build: Move sound related props to pixelstyle
+980202a1f branding: Back to Evolution X!
+6bdf101c0 build: Use CUSTOM_BUILD for OTA prop
+2c3022e60 no matter what build type we dont want to see anything but Build_ID
+636874213 Support PRESIGNED in soong_app_prebuilt.mk
+c68c36218 Remove compatibility.zip
+c473ea7c8 core: Only include custom sepolicy if repo exists
+9415aceaa build: Make vendorimage depend on installed kernel
+0eca74a89 build: Make systemimage depend on installed kernel if system is root
+1f73f04c0 edify: bring back SetPermissionsRecursive
+2ca750ba6 build: Remove wallpapers from full_base.
+f3389cf9c Revert "Remove the obsolete UnpackPackageDir() in edify generator"
+ed6b2e659 build: allow forcing build of otatools
+69be06d8e envsetup: add function to detect shell
+618c9d484 envsetup: Automatically set CCACHE_EXEC to the system's ccache
+defd0c7ec check_boot_jars: Add CAF IMS to whitelist
+69a889b89 build: Add back ro.build.fingerprint
+1a33bf559 build: Remove some debugging props
+d3049eadb build: Improve lunch error handling
+166ca23ea build: Don't add generic targets on lunch menu
+e5bc64ae8 build: Add others targets on lunch menu [1/2]
+400033ea3 product: Exclude AOSP ringtones on custom build
+1023382bc build: Don't fail when trying to run 'export' cmd
+33853e539 Makefile: Changelog bringup
+7b9110e7b build: Add our props to ADDITIONAL_BUILD_PROPERTIES
+c92b95a18 Show ROM info while flashing
+68ab6195d build: Remove some apps by default
+447cab444 Make PRODUCT_BUILD_PROP_OVERRIDES bit more powerful
+ccc48e7b8 core: allow specifying building ramdisk(s) with lzma
+5717fff9c build: Remove su inclusion
+34b4eefbe Edify: Add abort message for bootloader asserts
+2a25cfa25 Allow setting the recovery density separately from the aapt config
+8c68278f7 Add blank_unblank_on_init to PRIVATE_RECOVERY_UI_PROPERTIES
+8dd7fc471 build: Separate commands in recovery foreach loops
+833b12fa1 build: recovery: Support adding device-specific items
+c96ab71e2 Fix odm output directory for devices w/o vendor partition
+289645545 Remove ro.bionic.ld.warning.
+b68c040b1 Revert "make: Make dtb.img depend on the DTB directory itself"
+b163dc84e Switch to aapt2 for getting minSdkVersion
+18d5968c1 make: Make dtb.img depend on the DTB directory itself
+b53cb8d00 releasetools: ota_from_target_files: add FullOTA_PostValidate
+774a3bd0f NFC: Disable build for AOSP NFC
+a8ed9b276 Allow a device to generically define its own headers
+08a1579fb Enable dynamic linker warnings only on eng build
+1edd867a1 Don't enable ADB by default on userdebug builds
+ac23e01f5 Disable dataroaming by default
+7918ba8ba build: Add support for device tree in boot.img
+b1b44f61d Add BOARD_CUSTOM_BOOTIMG_MK support
+618d39e31 ota: Disable downgrade check
+9b33139b5 build: Also replace techpack/audio old-style kernel header
+d18db46cc Allow override of device asserts, including multi-device support.
+52f131e2a add support for overriding build.prop settings.
+5849b20a8 product: Exclude AOSP apn list on Custom build
+1f3382bfe Add extra variables to _readonly_late_variables
+c97c017d6 Add roomservice
+730ef0d2b build: Allow build-image-kernel-modules to be called from shell
+40d8c63c0 soong: include custom soong_config
+be2359cec build: Add custom build support
+aff5f27f9 Source aosp specific envsetup
+abe16f5df build: Include vendor/extra/BoardConfigExtra.mk if available
+f87550543 envsetup: export ANDROID_BUILD_TOP earlier
+629cb5e92 build: Automatically replace old-style kernel header includes with new header lib
+6c66ca18a build: Ensure /system unmounted at install start
+a458a2430 All operating systems are beautiful
+ec2553703 Remove tools/mktarball.sh
+bcbb99094 releasetools: Fix the use of StringIO.
+452836bca releasetools: Replace iteritems with items.
+3af0b5a1f releasetools: Make merge_target_files and its test Python 3 compatible.
+ed7bd3ee9 releasetools: Clean up check_target_files_signatures.py.
+bdaa9e52e releasetools: Make additional modules Python 3 compatible.
+d8232aabd releasetools: Clean up additional modules for Python 3 compatibility.
+4ba6c1e30 releasetools: Make apex_utils Python 3 compatible.
+3d13a894d releasetools: Make verity_utils Python 3 compatible.
+ba8b57bdd releasetools: Make common Python 3 compatible.
+d02559aeb releasetools: Make blockimgdiff Python 3 compatible.
+8ba4d603c releasetools: Make rangelib Python 3 compatibile.
+421ee024f releasetools: Make common.ZipWriteStr Python 3 compatible.
+fecc6ddc8 Remove package-stats.txt
+d343a7800 Stop building unnecessary tarballs.
+ba89a41d0 Stop using build/target -> build/make/target symlink
+93c1f6e45 Add missing aapt2 dep in appcompat-files
+4f45e5c6a More base_rules.mk optimizations
+9b6c98099 Improve performance (don't filter ALL_MODULES)
+2db60a5f4 Skip much of aux_config.mk
+c6a0bb942 Remove support for ONE_SHOT_MAKEFILE
+0fb159e9b Revert "Revert "Deprecate bash m* commands and use the soong's modules-in* build commands instead.""
+a8e53b6b4 Revert "Deprecate bash m* commands and use the soong's modules-in* build commands instead."
+17e47ae08 Deprecate bash m* commands and use the soong's modules-in* build commands instead.
+
+   * device/custom/sepolicy/
+c797459 sepolicy: Adress apexd denial
+3301719 custom_sepolicy: Add wifi ext sepolicy rules
+
+   * manifest/
+2dc56d5 manifest: Track PE's system_apex
+
+   * packages/apps/Evolution/
+ff532a3 Evolution: Allow hiding the lock icon on lockscreen [2/2]
+50e883a Evolution: Add wallpaper color option for FOD icon [2/2]
+b1fc371 Evolution: AmbientLight: add visual preview
+
+   * packages/apps/OmniStyle/
+5edbdb9 OmniStyle: headers: Add Evolution X header pack
+d3b6655 OmniStyle: Remove missing Western headers
+
+   * system/apex/
+e706700 Disable the build of com.android.apex.cts.shim.v1_prebuilt
+
+   * vendor/aosp/
+e59977f9 version: Update to 4.0
+
+=======================
+     01-08-2020
+=======================
+
+
+   * manifest/
+ba73a12 Merge branch 'android-10.0.0_r23' of https://android.googlesource.com/platform/manifest into ten
+
+   * packages/apps/Evolution/
+2bf6e21 Evolution: Add toggle to disable charging animation [2/2]
+be5e136 Evolution: Another overhaul
+bf8f1d7 Revert "Evolution: Hide charging animation toggle for FOD devices"
+
+   * system/core/
+f5cc52a71 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/system/core into ten
+
+=======================
+     01-07-2020
+=======================
+
+
+   * frameworks/av/
+32a9b1dcc ld.config: add libashmemd_client.so to platform shared libs
+2150407c8 Restore stream [dis]connect parameters in deprecated state
+fdd429441 Fix the name of the constant for device [dis]connect parameter
+6c8647812 Cast enum to uint32_t before comparing with AUDIO_MODE_CNT
+055c1a7f8 audiopolicy: Match DIRECT and MMAP_NOIRQ flags exactly in IOProfile
+e04af0d12 Require HW AV sync flag match for compatible output IOProfile
+47dde827c av: Add AUDIO_OUTPUT_FLAG_MMAP_NOIRQ flag.
+ee3370e1f AudioPolicyManager: Handle error from setInputDevice in startInput
+dbd8ae2ee Remove usages of USE_XML_AUDIO_POLICY_CONF
+4110a46b3 Explicitly initialise base class in copy constructor
+974cecfff soundtrigger: fill in default extras from dsp
+9d6855eca camera: Workaround for GCC-compiled HAL3 drivers
+
+   * frameworks/native/
+a9a330ff4 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * frameworks/opt/telephony/
+6493e7c3d Add support for overriding methods from PhoneSwitcher
+
+   * manifest/
+35da522 Revert "manifest: Track msm8998 audio hal"
+23abf89 Manifest for Android 10.0.0 Release 23
+f0dce1a Manifest for Android 10.0.0 Release 22
+ea39c2b Manifest for Android 10.0.0 Release 21
+
+   * packages/apps/Evolution/
+91a842c Evolution: Allow hiding battery icon from QS header [2/2]
+e231c34 Introduce lockscreen clock/date styles [2/2]
+40a7fd4 Evolution: Re-enable Navigation category and add navbar tuner prefs
+
+   * packages/providers/MediaProvider/
+5a5216e MediaProvider: adaptive icon
+
+   * packages/services/Telephony/
+a52f4afdc Use Evolution fingerprint to check for system update
+2b2ae779a USSD: Fix alert dialog theme
+85817a3af Telephony: Use system fonts at more places
+dac6c87cf Telephony: Add ERI configuration for U.S. Cellular
+
+   * system/bt/
+028fecfd0 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/system/bt into ten
+
+   * system/core/
+87e04211e ueventd: make parallel restorecon functionality optional
+
+=======================
+     01-06-2020
+=======================
+
+
+   * frameworks/av/
+4e53c8c4a audioflinger: Fix audio for WifiDisplay
+
+   * packages/apps/Camera2/
+ae8c392e6 Avoid NPE in case either front or back camera is absent
+
+   * packages/apps/Evolution/
+af335ca Evolution: FOD icon picker: adjust items spacing
+
+=======================
+     01-05-2020
+=======================
+
+
+   * vendor/pixelstyle/
+c6934ab permissions: Add permission for Omnistyle
+
+=======================
+     01-04-2020
+=======================
+
+
+   * packages/apps/Evolution/
+de02b43 Evolution: Add more FOD icons [2/2]
+2a7ab6f Evolution: FOD icon picker [2/2]
+cbbb87f Evolution: Hide charging animation toggle for FOD devices
+
+   * vendor/pixelstyle/
+b552bb6 permissions: Add & sort missing permissions
+
+=======================
+     01-03-2020
+=======================
+
+
+   * external/sqlite/
+7693bc1 sqlite: upgrade to SQLite 3.30.1
+9ef8fb3 sqlite: upgrade to SQLite 3.30.0
+c8dea41 sqlite: upgrade to SQLite 3.29.0
+14d3ad5 libsqlite: remove unused deps
+763020a Turn off the new pass manager due to miscompile
+e253af8 Reduce sync safety levels from 3 to 1
+
+   * frameworks/av/
+5de57bc6b CamcorderProfiles: Add 8KUHD camcorder profile
+9302f1a86 MTP: Fix crash when no storages are available
+add394249 audiopolicy: Fixes for internal audio recording
+84977277e fix audioflinger integer mulplication overflow
+
+   * frameworks/base/
+628d3d3f461 FODCircleView: Add partial wakelock on aod
+f20e3d9cec3 FODCircleView: AOD content should move only in Y
+05363f0dbe1 FODCircleView: rewrite and simplify implementation
+2769848cebd FODCircleView: place above other UI elements
+4df5675cabf [SQUASH] Revert Omni FOD commits [1/2]
+eccb42f7f00 SystemUI: QS footer visibilities [1/2]
+3f775025e07 SystemUI: Use MD2 icon for running services in QS
+097ea8eff07 Allow to quickly open Running Services from QS panel [1/2]
+871c408538a NotificationManagerService: Disable Notifications vibration [1/2]
+92eeb6263a5 GamingMode: Option to disable notification feedback [1/2]
+c87e2adeb4d GamingMode: Option to disable all headsup notifications [1/2]
+
+   * frameworks/native/
+25802a1f2 sf: Reset last synced time upon resync.
+422475924 sf: Do not switch to protected GPU context for secure camera usecases.
+
+   * manifest/
+9686ec1 manifest: Track our system_vold
+
+   * packages/apps/Evolution/
+3cc694b Evolution: Listanimation Views and Interpolator [2/2]
+16d6778 Evolution: QS footer visibilities [2/2]
+314adc4 Evolution: Disable Notifications vibration [2/2]
+6385042 Evolution: GamingMode: Option to disable notification feedback [2/2]
+51d35c9 Evolution: GamingMode: Option to disable all headsup notifications [2/2]
+0c17a8d Evolution: Add proximity check on wake preference
+396422b Evolution: Add video preview to Skip track gesture option
+
+   * system/core/
+74b8e99aa healthd: Add WARP charger type
+48dd5e6fe init: ro.build.selinux should be 0
+c528c3853 init: add several more keys to spoof
+dc13d067b init: workaround SafetyNet check
+77a49d024 init: Weaken property override security for the init extension
+b182c212b Filter out QTI performance spam
+8b1245238 Shut up camera and wcnss debug output
+48325b52e Filter GalleryDatab*
+d83b1b085 Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+e351fb736 healthd: cover devices that have voltage_max file with value of 0
+5de383f84 healthd: allow custom charger images
+0aa72c3cc healthd: Reinitialize mChargerNames for every battery update
+58ea1351b LockscreenCharging: squashed (2/3)
+
+   * system/vold/
+7a1a433 Consistently use CLOCK_MONOTONIC for timing encryption
+
+   * vendor/aosp/
+a9941eec vendor: make dopush recognize files on more partitions
+3be21b4d vendor/aosp: Fix dopush
+
+=======================
+     01-02-2020
+=======================
+
+
+   * frameworks/base/
+40ea97cce9b Revert "NotificationService causes watchdog issues and improves performance"
+e290fab0c5a Don't change public API
+dd190b75f67 Move BT state to OFF when BLE app count is zero
+29f9d76c675 Fix lock icon being stuck in AoD after pulsing notifications
+
+   * frameworks/native/
+c471cb45a Add dalvik-heap device-configs for 4/6GB devices
+
+   * manifest/
+922f515 manifest: Track our external_sqlite
+
+=======================
+     01-01-2020
+=======================
+
+
+   * frameworks/base/
+db66b9e9325 SystemUI: AmbientLight: Set default color to Evolution Blue Dark [1/2]
+86284ce28da base: Add a config to disable LED settings
+3e5287c2236 TextClock: Fix string for Fifteen
+ebae14042b6 [SQUASH] Reverts to remove ADB over Network
+
+   * packages/apps/Evolution/
+5373097 Evolution: AmbientLight: Set default color to Evolution Blue Dark [2/2]
+8c4f224 Evolution: Flashlight blink: Fix disable option not working
+
+   * vendor/aosp/
+55ddcb56 version: Update to 3.69
+
+   * vendor/pixelstyle/
+1dccc16 wallpaper: Set to default Waves Dark
+
+=======================
+     12-31-2019
+=======================
+
+
+   * packages/apps/Evolution/
+5de1194 Evolution: Add Network Traffic Layout [2/2]
+4d5b698 Evolution: NetworkTraffic: Add Dynamic Mode [2/2]
+bef7250 Evolution: NetworkTraffic: Add more options + improvements [2/2]
+
+   * vendor/qcom/opensource/fm-commonsys/
+b772e56 FM: Add backward compatiblity support for oreo FM configs
+
+=======================
+     12-30-2019
+=======================
+
+
+   * frameworks/base/
+370ceedbd77 Add Network Traffic Layout [1/2]
+543adfbea87 NetworkTraffic: Add Dynamic Mode [1/2]
+ac24fff0f87 Dynamic Network Traffic Arrows
+74d8e203327 Avoid casting network traffic to StatusBarIconView to prevent crash
+143cc597b08 change default network traffic type
+7f3145f61b0 NetworkTraffic: Add more options + improvements [1/2]
+f1f4ce0ce4d base: Hide arrows in Network Traffic indicators [1/2]
+27dcc73076b NetworkTraffic: Replace arrows drawable with unicode symbols
+ed581832396 NetworkTraffic: Fix gravity
+e04a84ff358 [SQUASH] Reverts for Network Traffic refactor [1/2]
+82dc209dde7 SystemUI: fix dt2s issue introduced during mismerge of r16 tag
+736df8b64b9 Make Pulsing bright again
+c58f085abc1 Ambient instead of lockscreen on wake gesture: code fixes
+fa130c3e39a Ambient music: send the proper pulse reason on slpi tap
+
+   * hardware/qcom-caf/msm8994/display/
+91b8d2d1e Make hwc_vsync thread realtime
+
+   * packages/apps/Evolution/
+c4c8706 [SQUASH] Reverts for Network Traffic refactor [2/2]
+871d64b Evolution: LockScreenSettings: Fix FC for devices without FP
+21f6106 Evolution: AmbientLight: update summary to show RGB value instead of ARGB
+62077c6 Evolution: ColorPicker: make it more user friendly
+
