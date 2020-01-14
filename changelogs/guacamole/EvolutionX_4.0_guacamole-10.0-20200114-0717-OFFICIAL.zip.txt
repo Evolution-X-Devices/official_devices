@@ -1,0 +1,1804 @@
+=======================
+     01-14-2020
+=======================
+
+
+   * device/oneplus/guacamole/
+c2ad8d6 guacamole: Use pixel fp to bypass safetynet
+5eadcb7 guacamole: Use EVO Boot Animation
+bcb6af0 guacamole: Ev-X Official tag
+06446b4 guacamole: overlay: Update FOD colour for 7T
+9697ed3 guacamole: overlay: Update config_fodColor
+ca322a0 guacamole: Set custom FOD view color
+6f8f8e0 guacamole: Set default hotspot ssid
+7d3539f guacamole: overlay: SystemUI: Update corner padding from stock
+ab6c61e guacamole: Update Brightness overlay from stock
+09ed9ed guacamole: overlay: Set custom corner rounding shape
+63b17a8 guacamole: overlay: Increase number of notification icons allowed
+cddb338 guacamole: Add nosdcard characteristic to device
+1031496 guacamole: further tune statusbar size
+8ff37f4 guacamole: BoardConfig: Unify kernel defconfig
+f8b0207 guacamole: Evolution-X Bringup
+90235c9 guacamole: Import ACDB files from stock
+139a43d guacamole: Import stock mixer paths
+e54191e guacamole: Add sensors configs
+8e2c5bd guacamole: Inherit vendor/oneplus/{}/{}-vendor.mk
+31b9929 guacamole: Add goodix fingerprint blobs
+04144fa guacamole: Add blobs extraction scripts
+d81fb54 guacamole: Set BOARD_USES_RECOVERY_AS_BOOT
+f40ffa0 guacamole: Set TARGET_NO_RECOVERY
+3ac107c guacamole: Move camera_* to sm8150-common
+f424300 guacamole: We don't have a recovery partition
+bdd5a4b guacamole: Inherit product_launched_with_p
+b63ab71 guacamole: Correct dtbo image size
+7cbbab1 guacamole: Update build fingerprint from OOS 10 release
+ac09631 guacamole: manifest: Update FCM level
+c09abf1 guacamole: Remove all LOCAL_MODULE_TAGS := eng occurences
+f3a9216 Automatic translation import
+9454828 guacamole: camera_helper: Unify common strings
+410b811 guacamole: camera_motor: Rename camera motor suffix to '.guacamole'
+daa9a01 guacamole: Update fingerprint
+4bf4b02 guacamole: Add sm8150-common to lineage.dependencies
+ffc958f guacamole: Update fingerprint
+1d49f67 guacamole: Update fingerprint
+d69490d guacamole: Make fstab.qcom a module and move density to vendor_props.mk
+3ad234d guacamole: sensors: switch to soong config
+d034f3f guacamole: camera_motor: Update for latest API changes
+aab82f2 guacamole: camera_helper: Handle MOTOR_EVENT_{UP,DOWN}_ABNORMAL too
+1718cd1 guacamole: camera_helper: Remove unnecessary 'Resources'
+c101b03 guacamole: camera_helper: Move createPackageContext to its own function
+8e211ef guacamole: camera_helper: Handle camera motor key events
+68b04f7 guacamole: overlay: Add power profile from stock
+1ecaee5 guacamole: camera_helper: Add screen on/off listener
+ae80d5c guacamole: camera_helper: Add 'close' button to 'post fall' dialog
+d917f96 guacamole: camera_helper: Add a 'post fall' alert dialog
+f600e9e guacamole: camera_helper: Switch to android.os.FileUtils
+6e6d0c7 guacamole: Add camera helper app
+9459f4e guacamole: fod: fix position to center
+6e3ab9c guacamole: fod: shrink size of fod circle
+6499650 guacamole: remove sensor full brightness flag
+bb27afd guacamole: Sync lineage_guacamole.mk with pioneer's layout
+17a3a2e guacamole: overlay: Update status bar height from OOS
+fce7278 guacamole: overlay: Remove missing/redundant overlays
+c3b91cd guacamole: Remove useless symlinks
+f26271d guacamole: fod: prettify soong variables
+2581130 guacamole: define fod position / size
+678f4d5 guacamole: camera_motor: Load motor hall calibration data from persist
+ae331d6 guacamole: camera_motor: Block while motor changes state
+35fc32b guacamole: Drop vendorsetup.sh
+164628d guacamole: Remove unnecessary 'subdirs'
+4b2389d guacamole: camera_motor: Refactor
+746a8d7 guacamole: Convert tabs to spaces in makefiles
+4a7975c guacamole: hack: reset display mode on boot
+a493b54 guacamole: move motor in matrix back to common
+fc3d6ae guacamole: camera motor manifest definition
+740e3b8 guacamole: Use Soong namespace to avoid device build conflicts
+6a08486 guacamole: switch to our own kernel source
+6c76c7d guacamole: add props for in-display light sensor
+efbca72 guacamole: adapt for full vendor image
+8f5358a guacamole: commonize with sm8150-common
+835a289 guacamole: hack: overwrite vendor soundfx
+c1e1a59 guacamole: rootdir: add dashd daemon
+00d6d7c guacamole: audio: remove redundant USB sink/source
+b57e91c guacamole: overlay: update brightness values from stock
+db3250b guacamole: rootdir: mount everything on `boot`
+562e348 guacamole: rootdir: add back codeaurora snapcam as aux
+6936fa0 guacamole: audio: fix a2dp source
+09fd778 guacamole: fod: implement brightness boost and dimming
+dbfb1b0 tri-state-key: fix vibrate position for op7p
+3faa6ef guacamole: add missing overlay for keyhandler
+adedcee guacamole: enable volte via system.prop
+5f47d1e guacamole: disable AOD by default
+546dea1 guacamole: system.prop: fix fingerprint-on-display position
+0a81b21 guacamole: lights: fix tag
+0c35e1d guacamole: kang tri-state-key handler from sdm845-common
+0d09c21 guacamole: system.prop: remove qti bluetooth library
+0dd0d4d guacamole: introduce in-screen fingerprint hal
+fa714b2 guacamole: camera_motor: fix typo
+2cef460 guacamole: kang carrier config from violet
+0b404c9 guacamole: overlay: decrease padding a little bit
+d8a2ede guacamole: camera_motor: switch to proper HAL
+a308fa9 guacamole: add statusbar paddings
+49dfedd guacamole: kang carrier configuration from violet
+74af5be guacamole: rootdir: allow more camera apps for aux cam
+548af80 guacamole: implement camera motor support
+36ab4d5 guacamole: add support for under-screen fingerprint scanner
+a086cbd guacamole: also pin dashd
+12a4fbe guacamole: pin nxp nfc stack
+8e673a1 guacamole: override fstab.qcom from vendor to remove wrappedkey
+1af3452 guacamole: lights: kang from sdm845-common
+81db8c6 guacamole: overlay: decrease status bar size
+39110f8 guacamole: pin ims.apk to daisy
+21cf8c2 guacamole: pin telephony and nfc jar blobs
+07c95f3 guacamole: increase status bar height in portrait mode
+c927e2a guacamole: update media_profiles and correct binding
+1e52bcb guacamole: build sensors HIDL
+7404189 [WIP] use kernel from holydragon
+9843066 [WIP] switch back to Image-dtb
+3b8a21b [WIP] correct some configuration
+0eae080 guachamole: disable vbmeta verification
+24f726e guacamole: enable AVB
+81586b8 guacamole: exclude vendor and vbmeta from updater
+950fc1e guacamole: define metadata partition flag
+224c878 guacamole: add minimal sepolicy to pass building
+92f6cbc guacamole: gpt-utils: kang from fajita
+9fae3b8 guacamole: use QCOM bootctrl
+eab3962 guacamole: build bootctrl libraries
+6c1409a guacamole: add oneplus fingerprint extension blobs
+a10575a guacamole: add AAPT configuration
+923bce6 guacamole: build fingerprint service
+8b4f3d6 guacamole: add A/B update flags
+cd5ded0 guacamole: add perf & sdm blobs
+ed2383f guacamole: update ims blobs
+5bcee39 correct naming: oneplus7pro = guacamole
+95b283a guacamoleb: compatibility_matrix: remove required HALs
+1e60d32 guacamoleb: enable dexpreopt
+b51cc5f guacamoleb: import compatibility matrices and manifests
+e7602c3 guacamoleb: device: import NFC config
+c8078f2 guacamoleb: BoardConfig: set correct defconfig path
+8ac1229 guacamoleb: BoardConfig: set shipping api level
+7944b23 guacamoleb: BoardConfig: enable CLANG
+4fba6f5 guacamoleb: system.prop: import from stock
+38f804e guacamoleb: device: copy audio_policy
+186ad02 guacamoleb: vendor: pin aptX blobs
+a291db7 guacamoleb: import proprietary blobs
+f8fdab0 guacamoleb: overlay: import from skydragon
+9a74d7e guacamoleb: keylayout: import from stock
+d8e4f3a guacamoleb: init bdroid configuration
+17fac29 guacamoleb: init: override vendor media profiles
+5955b9d guacamoleb: import stock media profiles
+58dce13 guacamoleb: add init script to override audio policy
+9cdcb57 guacamoleb: import audio policy from stock
+f12fe2d guacamoleb: import stock fstab
+e7112b5 init from violet tree
+
+   * device/oneplus/sm8150-common/
+d322219 sm8150-common: remove Priv-app permissions
+446ba36 sm8150-common: sepolicy: Use r_dir_file() macro for wcnss_service
+e105f5e sm8150-common: sepolicy: Allow hal_audio_default to use hal_param_hwservice
+49a05e2 sm8150-common: sepolicy: address nfc denial
+8feb176 sm8150-common: Place checks before setting new ringer mode (alert slider)
+40b0cc9 sm8150-common: Enable Warp charging
+8921bfc sm8150-common: Enable alert slider UI
+09f6afb sm8150-common: Adjust alert slider UI for 7 series.
+4f29fd2 sm8150-common: Make automatic refresh rate switching less aggressive
+196cb5b sm8150-common: Switch back to bool for FOD
+33a0e80 sm8150-common: Switch to stock sensors HAL
+2d8c124 sm8150-common: Don't enforce RRO for all targets
+f1a293c sm8150-common: overlay: Define config_vendorPlatformSignatures
+02283b0 sm8150-common: overlay: State devices have no LED
+be2ef9d sm8150-common: overlay: Enable config_hasOnePlusHapticMotor.
+a5f03f1 sm8150-common: BoardConfig: Switch to IllusionKernel
+c4b636a sm8150-common: add OnePlus camera
+b1f225d sm8150-common: overlay: CarrierConfig: Import from 10.0.6 7T
+124557a sm8150-common: sepolicy: Allow ims to read and write to diag_device
+671894c sm8150-common: sepolicy: Address some audio and dolby denials
+5dc2021 sm8150-common: sepolicy: Address some more nfc denials
+f18955f sm8150-common: sepolicy: Label some more NFC props
+1da12f5 sm8150-common: sepolicy: Allow memtrack HAL to search in sysfs_kgsl
+c77f24e sm8150-common: sepolicy: Address secure_element HAL denials
+46dff56 sm8150-common: Use custom vibration configs
+7736a2e sm8150-common: Switch to stock vibrator HAL
+6076d52 sm8150-common: Update blobs from 10.3.0
+6bc9350 sm8150-common: Decommonize ACDB files
+0d99720 sm8150-common: Decommonize mixer paths
+1c19bbe sm8150-common: sepolicy: Allow init to execute vendor files
+fce529b sm8150-common: sepolicy: Address denials by hal_camera_default
+534998e sm8150-common: Add SystemUI and NexusLauncherRelease to PRODUCT_DEXPREOPT_SPEED_APPS
+af2b5f2 sm8150-common: Set SSR9-10 restart_level in init.qcom.rc
+367e1b0 sm8150-common: Set loop.max_part to 16
+9907a08 sm8150-common: overlay: Update vibration pattern from OP7Pro
+3ba9f16 sm8150-common: Update config_screenBrightnessDoze from OP7Pro
+427a236 sm8150-common: Enable high fps sf early phase offsets
+39338ca sm8150-common: enable automatic refresh rate switching
+9349344 sm8150-common: Fix Lags On Live Wallpapers
+d4c6429 sm8150-common: doze: Follow Android 10 changes on switchbar
+d2323ac sm8150-common: doze: Add drawable icons to doze menus!
+7e5aaec sm8150-common: Update vendor.display.config to 1.10
+95ddc61 sm8150-common: Uprev mapper and allocator to 3.0
+ba0b9d3 sm8150-common: Set default wallpaper
+4f80985 sm8150-common: Enable BurnInProtection
+4279bbd sm8150-common: Added config_ignoreRssnrSignalLevel
+384efce sm8150-common: overlay: Define config_customDozePackage
+954ea76 sm8150-common: Switch back to bool for FOD
+c8d7ed9 sm8150-common: Remove LiveDisplay HAL
+b236f2f sm8150-common: Remove trust HAL
+8716664 sm8150-common: touch: Remove touch HAL and SEPolicy rules for it
+c90d48b sm8150-common: Evolution-X Bringup
+
+   * frameworks/base/
+c57c1812ecc Make NtpTrustedTime safer / expand docs
+a6d20417aa1 Revert "NtpTrustedTime: Refresh NTP server from resources before requesting time"
+b3efba830b1 FODCircleView: Patch screen flickering
+55e7bacfb51 FODCircleView: Add partial wakelock on aod
+2cbca393172 FODCircleView: Add MIUI FP icon
+eb5fd686044 [SQUASH] Revert old partial wakelock patches
+a1a462041b2 [SQUASH] Remove QS MusicTile
+d2701430b04 [SQUASH] Remove TextClock translations
+4b583b8864b SystemUI: Enable and fix QS detail view, adapt layout to 10
+7a2d69652bf PhoneWindowManager: Bring back vibrator DOUBLE_CLICK effect
+e79acd9d7e6 VibratorService: Fix double click effect with OnePlus vibrator format
+f05144ff360 VibratorService: update constant values for OnePlus HAL
+a34d9603eaa Improve haptics and use VibrationEffect
+09d49042da4 VibratorService: implement OnePlus proprietary vibrator format
+276792b50ce base: Refactor Data disabled icon switch
+8e077a16c6d base: Refactor VoLTE icon switch [1/2]
+7fc46065e69 AmbientDisplayConfiguration: Fix public API compatibility issue
+
+   * packages/apps/Evolution/
+56cb872 Evolution: Update FOD icons [2/2]
+f301345 Evolution: Update some texts
+
+   * vendor/gapps/
+d33dc6a Merge branch 'revert-fcb94faf' into 'ten'
+
+   * vendor/oneplus/
+e7467fc sm8150-common: Switch to stock sensor HAL
+6873af8 sm8150-common: Import stock vibration HAL blobs
+625159e guacamole: Update blobs from 10.3.0
+e7b5dca sm8150-common: Update blobs from 10.3.0
+60c360a sm8150-common/guacamole: Regenerate makefiles
+d45b063 guacamole: Import ACDB files from stock
+1bef9bb sm8150-common: Decommonize ACDB files
+262d4a2 sm8150-common: Patch qti-telephony-common.jar for compatibility with r9
+
+=======================
+     01-13-2020
+=======================
+
+
+   * frameworks/base/
+b27ae4244d9 TWS-A2DP: Add TWS+ codec to DevUI support
+5c20b6809ae audio: Add support for audio extended codecs
+dc681861a4c BT: Adding aptX-Adaptive codec entry to Framework
+1bee8fa434a SystemUI: Update FOD icons [1/2]
+70edcf239d8 Power menu icons tint: Use accent device default dark
+
+   * kernel/oneplus/sm8150/
+b009305f0845 Merge branch 'upstream' into IllusionKernel
+7e1685e3f5a7 Merge tag 'v4.14.164' into IllusionKernel
+6d0c334a400d Linux 4.14.164
+9df725762678 vlan: fix memory leak in vlan_dev_set_egress_priority
+a56f60344506 net: sch_prio: When ungrafting, replace with FIFO
+841d685ca115 vlan: vlan_changelink() should propagate errors
+36821b48f520 vxlan: fix tos value before xmit
+ab31605bdb67 tcp: fix "old stuff" D-SACK causing SACK to be treated as D-SACK
+2e2d29bacd3f sctp: free cmd->obj.chunk for the unprocessed SCTP_CMD_REPLY
+7eff1139e85c USB: serial: option: add Telit ME910G1 0x110a composition
+bb275c92aaa0 USB: core: fix check for duplicate endpoints
+73a6f18d8390 pkt_sched: fq: do not accept silly TCA_FQ_QUANTUM
+a45335027cec net: usb: lan78xx: fix possible skb leak
+8835b0eff11a net: stmmac: dwmac-sunxi: Allow all RGMII modes
+fee038c31896 net: stmmac: dwmac-sun8i: Allow all RGMII modes
+19716758430e net: dsa: mv88e6xxx: Preserve priority when setting CPU port.
+4a953272f2d2 macvlan: do not assume mac_header is set in macvlan_broadcast()
+887b0296a905 gtp: fix bad unlock balance in gtp_encap_enable_socket
+0f65291617d4 mmc: block: propagate correct returned value in mmc_rpmb_ioctl
+a52f6b2f57b6 mmc: core: Prevent bus reference leak in mmc_blk_init()
+3879a509ac7f mmc: block: Fix bug when removing RPMB chardev
+ae4e8ce0d861 mmc: block: Delete mmc_access_rpmb()
+37d58689dfdd mmc: block: Convert RPMB to a character device
+e9eae4143c33 PCI/switchtec: Read all 64 bits of part_event_bitmap
+b454ac1b22af bpf: Fix passing modified ctx to ld/abs/ind instruction
+7fed98f4a1e6 bpf: reject passing modified ctx to helper functions
+1051a28b7255 hv_netvsc: Fix unwanted rx_table reset
+3a8d4b961747 llc2: Fix return statement of llc_stat_ev_rx_null_dsap_xid_c (and _test_c)
+5d5d36505ddf parisc: Fix compiler warnings in debug_core.c
+62dfe5f55d2c block: fix memleak when __blk_rq_map_user_iov() is failed
+66aa3bf42c2c s390/dasd: fix memleak in path handling error case
+29753fc2f8d0 s390/dasd/cio: Interpret ccw_device_get_mdc return value correctly
+f1cf84a64527 net: stmmac: RX buffer size must be 16 byte aligned
+aa6bf9433ef7 net: stmmac: Do not accept invalid MTU values
+61855d6805ae fs: avoid softlockups in s_inodes iterators
+396bf8fe4f67 perf/x86/intel: Fix PT PMI handling
+16b9c5c49b41 kconfig: don't crash on NULL expressions in expr_eq()
+2dfde10dda0e regulator: rn5t618: fix module aliases
+ebfcc61fb719 ASoC: wm8962: fix lambda value
+c7a6c3d2c372 rfkill: Fix incorrect check to avoid NULL pointer dereference
+4f5cf943699a net: usb: lan78xx: Fix error message format specifier
+9c914b0d4beb bnx2x: Fix logic to get total no. of PFs per engine
+58ee0e0b74e7 bnx2x: Do not handle requests from VFs after parity
+bea1fe7e2f8e powerpc: Ensure that swiotlb buffer is allocated from low memory
+f0822e783ef5 samples: bpf: fix syscall_tp due to unused syscall
+b50ba34bdba8 samples: bpf: Replace symbol compare of trace_event
+328133b1c1ee ARM: dts: am437x-gp/epos-evm: fix panel compatible
+ec41394252a9 bpf, mips: Limit to 33 tail calls
+d4aea1529970 ARM: dts: bcm283x: Fix critical trip point
+31764a701731 ASoC: topology: Check return value for soc_tplg_pcm_create()
+0c2cabe56e11 spi: spi-cavium-thunderx: Add missing pci_release_regions()
+84b33e7a2364 ARM: dts: Cygnus: Fix MDIO node address/size cells
+4798a83039ce netfilter: nf_tables: validate NFT_SET_ELEM_INTERVAL_END
+38061de32f9c netfilter: uapi: Avoid undefined left-shift in xt_sctp.h
+210670f32876 ARM: vexpress: Set-up shared OPP table instead of individual for each CPU
+3b631b675b39 efi/gop: Fix memory leak in __gop_query32/64()
+49277422c995 efi/gop: Return EFI_SUCCESS if a usable GOP was found
+57bf13ee5910 efi/gop: Return EFI_NOT_FOUND if there are no usable GOPs
+c2f48252f119 x86/efi: Update e820 with reserved EFI boot services data to fix kexec breakage
+9606b11726ec libtraceevent: Fix lib installation with O=
+ec3bb975c601 mwifiex: Fix heap overflow in mmwifiex_process_tdls_action_frame()
+d74adafded9c netfilter: ctnetlink: netns exit must wait for callbacks
+09226e5c3863 locking/spinlock/debug: Fix various data races
+f0e24d683636 USB: dummy-hcd: increase max number of devices to 32
+65c0bbac0a29 USB: dummy-hcd: use usb_urb_dir_in instead of usb_pipein
+
+   * packages/apps/Settings/
+df66ca2912 Settings: google dont be such an a..hole doing app themes
+0d8d011127 Settings: Evolution-related updates
+
+=======================
+     01-12-2020
+=======================
+
+
+   * device/custom/sepolicy/
+5eb3876 sepolicy: Cleanup
+
+   * frameworks/base/
+4a8169d121a base: Status bar notification ticker [1/2]
+9c821f7564e base: Add NotificationColorUtil back
+0ad959cd657 Convert VPN Server endpoint to numeric
+9294a05e240 hwui: Relax the desiredPresent time in RenderAhead feature
+8a3f2ee8b25 base: QS themes [1/2]
+28478dcc2bc SystemUI: Fixes to QSContainerImpl
+28de908ee6c SystemUI: [HACK] set requestLegacyExternalStorage for the moment
+906b59bf7d3 SystemUI: Add Evo FOD icons [1/2]
+6ad82c33036 SystemUI: Set default QS columns (portrait) to 3 [1/2]
+8f16682d9fa Power menu icons color: Don't use theme accent
+
+   * packages/apps/Evolution/
+5eed2c7 Evolution: Status bar notification ticker [2/2]
+69c176b Evolution: Lockscreen art blur: Allow no blur
+ddf7379 Evolution: QS themes [2/2]
+b707426 Evolution: Fixes to QS panel opacity
+9a75891 Evolution: Add Evo FOD icons [2/2]
+e4e53d6 Evolution: Set default QS columns (portrait) to 3 [2/2]
+
+   * packages/apps/OmniStyle/
+4f3115d OmniStyle: Separate Evo X headers into light and dark options
+c0352c1 OmniStyle: change header local/remote switch also to a spinner
+c369caa OmniStyle: fix switchbar bg color
+7d8f5eb Partially revert "OmniStyle: Remove unneeded parts"
+
+   * packages/apps/Settings/
+849c955839 Fix volume slider color is not correct
+
+   * vendor/pixelstyle/
+49c4062 pixelstyle: Update pixel launcher
+
+=======================
+     01-11-2020
+=======================
+
+
+   * manifest/
+d4dbec2 manifest: Track vendor_google_customization
+
+   * system/vold/
+bfb8096 system: vold: Fix for ICE UFS card support
+
+   * vendor/aosp/
+55467231 vendor: config: Include vendor/google/customization
+
+   * vendor/google/customization/
+455e1dc Move from vendor/gapps
+
+=======================
+     01-10-2020
+=======================
+
+
+   * frameworks/base/
+a0392bb0701 Revert "SystemUI: Enable and fix QS detail view, adapt layout to Q"
+022f9475f46 [SQUASH] Revert Black screen fix commits
+446e4dd0b29 Add cylinder icon shape overlay
+41439bc4df8 Build Square icon shape overlay
+82ca18eebbe base: overlays: Hide pill in full gestural nav mode [1/2]
+b9f47b85901 SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
+eb6cc6ebc6b SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
+11cd7b644e3 SystemUI: Lockscreen clock styles: Add small size style [1/2]
+c5a3bbf457e base: SystemUI: Allow hiding the lock icon on lockscreen [1/2]
+f0ff3e4485b SystemUI: Add wallpaper color option for FOD icon [1/2]
+f7162ed75cb SystemUI: Make recents grid view accept more than 8 tasks
+c89dcd2b271 fwb: fix EXTRA_LID_STATE behaviour
+dbc2590a6fb fwb: add missing LID_ABSENT
+e19077cd0f0 base: fix charging animation power level
+986720f1abf base: Add toggle to disable charging animation [1/2]
+8c445fc7b0e base: Use wireless charging animation for wired charging too
+101b8b66647 SystemUI: Avoid adding useless empty quick settings page
+55b1eb5d2d0 Revert "SystemUI: fix qs page num calc algo"
+b4c25253415 TextClock: Update for Spanish translations
+2ac73213bc2 base: Allow hiding battery icon from QS header [1/2]
+1a6d204f2a8 Introduce lockscreen clock/date styles [1/2]
+577f5b912f5 Gesture nav Assistant handles: don't show them in lockscreen
+94abf205824 base: tuner: fix navbar layout switch and remove old cruft
+2c160c4d9b4 base: tuner: bring back tuner navbar editor from N
+d5176769059 Hide power menu on secure lockscreen - improvements
+81bb494aaa8 base: Handle NPE for ContentObserver
+29ec1a3b071 Update ElectronBeam screen off animation
+38bb2619194 Revert "base: catch what you cant explain"
+3611d81e747 SystemUI: allow setting custom cutout shapes
+dded1452802 PowerMenu: Only tint items once
+953645222f4 Notify ClockChangedListeners on main thread
+0d5c8b8d264 FingerprintManager: return "Try again" by default
+ba0b7970995 SystemUI: add vibration tick when opening notification panel
+21476e1e39c SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
+8d4d435e740 Revert "BatteryStats: Update WifiState even if EnergyInfo is invalid"
+42f62d7c117 SystemUI: Adjust powermenu and qs customizer background
+156073c83dc SystemUI: Add more FOD icons [1/2]
+d6402082f22 SystemUI: FOD icon picker [1/2]
+8567b1ebfdb SystemUI: QS: Language toggle
+83b2408e658 SystemUI: Bring back QS Drag Handle
+2d2aa680e22 AbsListView: Fix widget couldn't find any view fc
+1c4952d4961 Return: Listanimation Views and Interpolator [1/2]
+feecce0f160 Check GL extension is supported before using it in glwallpaper
+fc16a22d8e9 hwui: Avoid fake high input latency while vsync drifting
+37cfd0f7ecd Get clock title on demand
+59d88f1a504 Always use a positive value for timestamp
+c6547b6735a aapt2: silence positional arguments warnings
+f0fa8ee55b7 aapt2: do not use compression
+dcc8af12c23 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/frameworks/base into ten
+b2fc1f36d3b base: lightservice: strengthen useScaleBrightness checking
+e21aaa5d483 DozeUi: do not prepare for gentle wakeup
+642d584a0a7 KeyguardView: report transiting bouncer as shown
+bbcbd81a208 FODCircleView: Patch partial wakelock issues
+
+   * kernel/oneplus/sm8150/
+1f282e4a80e6 Merge branch 'upstream' into IllusionKernel
+5bcea62a4285 Merge tag 'v4.14.163' into IllusionKernel
+b0cdffaa546e Linux 4.14.163
+c8b4d608f6ef perf/x86/intel/bts: Fix the use of page_private()
+3cc5cbcc504d xen/blkback: Avoid unmapping unmapped grant pages
+26752e31fd64 s390/smp: fix physical to logical CPU map for SMT
+33e1cea2dc77 net: add annotations on hh->hh_len lockless accesses
+55db26f2e970 arm64: dts: meson: odroid-c2: Disable usb_otg bus to avoid power failed warning
+a6c433bf7341 ath9k_htc: Discard undersized packets
+a0758704a2d8 ath9k_htc: Modify byte order for an error message
+85aa8f877cc9 rxrpc: Fix possible NULL pointer access in ICMP handling
+544d4b9fc424 selftests: rtnetlink: add addresses with fixed life time
+72e77ea7b593 powerpc/pseries/hvconsole: Fix stack overread via udbg
+d3f3d3999307 drm/mst: Fix MST sideband up-reply failure handling
+0f6ecead5cfd scsi: qedf: Do not retry ELS request if qedf_alloc_cmd fails
+973536f045d2 fix compat handling of FICLONERANGE, FIDEDUPERANGE and FS_IOC_FIEMAP
+ee21b594af10 tty: serial: msm_serial: Fix lockup for sysrq and oops
+08bb799e43a9 dt-bindings: clock: renesas: rcar-usb2-clock-sel: Fix typo in example
+2d7c27957cac media: usb: fix memory leak in af9005_identify_state
+0902316524bf regulator: ab8500: Remove AB8505 USB regulator
+6b74fc7903ed media: flexcop-usb: ensure -EIO is returned on error condition
+f3cb0d227156 Bluetooth: Fix memory leak in hci_connect_le_scan
+bb5a3cc04468 Bluetooth: delete a stray unlock
+29ea30c08491 Bluetooth: btusb: fix PM leak in error case of setup
+4d445d3e83f2 platform/x86: pmc_atom: Add Siemens CONNECT X300 to critclk_systems DMI table
+fb7b53cecb81 xfs: don't check for AG deadlock for realtime files in bunmapi
+35ddeb365a88 scsi: qla2xxx: Drop superfluous INIT_WORK of del_work
+46a3c4fb68da nfsd4: fix up replay_matches_cache()
+05c3fa01b508 PM / devfreq: Check NULL governor in available_governors_show
+d9c64efbe05e arm64: Revert support for execute-only user mappings
+7650b4b1df09 ftrace: Avoid potential division by zero in function profiler
+66a10703d616 exit: panic before exit_mm() on global init exit
+8d70c0d57805 ALSA: firewire-motu: Correct a typo in the clock proc string
+d7867fbbd4d6 ALSA: cs4236: fix error return comparison of an unsigned integer
+bc5e8a8a58be tracing: Have the histogram compare functions convert to u64 first
+af2471923404 tracing: Fix lock inversion in trace_event_enable_tgid_record()
+3444204d610b gpiolib: fix up emulated open drain outputs
+ea0b4277ea9d ata: ahci_brcm: Fix AHCI resources management
+0cbbbcda8586 ata: ahci_brcm: Allow optional reset controller to be used
+eb3f6286e76a ata: libahci_platform: Export again ahci_platform_<en/dis>able_phys()
+238d4e749b77 compat_ioctl: block: handle BLKREPORTZONE/BLKRESETZONE
+77d19c9c3e07 compat_ioctl: block: handle Persistent Reservations
+123d28f803de dmaengine: Fix access to uninitialized dma_slave_caps
+ee4cdf398aec locks: print unsigned ino in /proc/locks
+45b0a5affcbe pstore/ram: Write new dumps to start of recycled zones
+abb59358f1c4 memcg: account security cred as well to kmemcg
+1501713aee05 mm/zsmalloc.c: fix the migrated zspage statistics.
+26e5eab93db0 media: cec: avoid decrementing transmit_queue_sz if it is 0
+d106de1b9e36 media: cec: CEC 2.0-only bcast messages were ignored
+981004da1a33 media: pulse8-cec: fix lost cec_transmit_attempt_done() call
+6547dc3b6d4c MIPS: Avoid VDSO ABI breakage due to global register variable
+016120b3ebe7 drm/sun4i: hdmi: Remove duplicate cleanup calls
+772593318160 ALSA: ice1724: Fix sleep-in-atomic in Infrasonic Quartet support code
+2acb20ebfbde drm: limit to INT_MAX in create_blob ioctl
+4fe7cb918a47 taskstats: fix data-race
+54e15cac21c9 xfs: fix mount failure crash on invalid iclog memory access
+c0fb3b1b4993 PM / hibernate: memory_bm_find_bit(): Tighten node optimisation
+4df4720b6c1d xen/balloon: fix ballooned page accounting without hotplug enabled
+0ce254bc68ed xen-blkback: prevent premature module unload
+556f40b79de5 IB/mlx4: Follow mirror sequence of device add during device removal
+29f57767bfc3 s390/cpum_sf: Avoid SBD overflow condition in irq handler
+42c5538af3c0 s390/cpum_sf: Adjust sampling interval to avoid hitting sample limits
+34ab847d9069 md: raid1: check rdev before reference in raid1_sync_request func
+f42504ab0aec net: make socket read/write_iter() honor IOCB_NOWAIT
+fbff45d2413e usb: gadget: fix wrong endpoint desc
+bca6d54dcc98 drm/nouveau: Move the declaration of struct nouveau_conn_atom up a bit
+82df1d3fa11b scsi: libsas: stop discovering if oob mode is disconnected
+5fac6ee29521 scsi: iscsi: qla4xxx: fix double free in probe
+28725bba2be9 scsi: qla2xxx: Don't call qlt_async_event twice
+ed07b2358eb0 scsi: lpfc: Fix memory leak on lpfc_bsg_write_ebuf_set func
+5083f6c6acb2 rxe: correctly calculate iCRC for unaligned payloads
+e47a078195d3 RDMA/cma: add missed unregister_pernet_subsys in init failure
+b5f565ba27cb PM / devfreq: Don't fail devfreq_dev_release if not in list
+eb9723e635d9 iio: adc: max9611: Fix too short conversion time delay
+a123233fc320 nvme_fc: add module to ops template to allow module references
+
+   * packages/apps/Evolution/
+a40cba9 Evolution: Lockscreen clock styles: Add more styles [2/2]
+
+   * packages/apps/OmniStyle/
+d5bc66e OmniStyle: HACK set requestLegacyExternalStorage for the moment
+
+   * packages/apps/Settings/
+23088f63e1 Settings: Move the hide pill toggle to gesture settings dialog
+a43de1f6cb Settings: Hide pill in full gestural nav mode [2/2]
+e875e006d1 Skip loading contextual cards if legacy cards are used
+427d190173 Fixes sound panel create multiple SoundSettings activity
+a273d5f95a Fix carkit can't get phonebook access permission by default.
+fd591d0e03 Settings: Show build release type alongside ROM version
+3702a630d4 Settings: Add Device codename to Firmware version window
+fce97814be Settings: Add Build date entry to Firmware version window
+cd8bf23dad Settings: FingerprintSettings: Don't listen for fingerprint if fod present
+d55c0f5c7a FingerprintEnrollFindSensor: Don't overlay front for side sensors
+8abb4c1127 Fingerprint: Allow devices to configure sensor location
+08844b1952 Settings: Allow to quickly open Running Services from QS [2/2]
+30259fe349 Settings: Back to our proper logo
+1f40a047df Settings: Ambient Music Ticker: Several improvements from Pie
+3760da1906 Revert "Remove "clocks" from string"
+416255a131 Settings: Add an overlay settings field for Smart Charging
+22938afa96 Display menu: move lockscreen/ambient preference on top
+a685f48a49 Settings: Display 'Warp charging' for warp charge in battery settings [2/2]
+105b439d61 Settings: Display 'Dash charging' for dash charge in battery settings [2/2]
+e2a8522cae FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+72314a74fd Settings: Yuletide season logo
+1be78fe808  FeatureFactoryImpl: Initial import of ContextualCardProvider
+0a958630dd Settings: Add an option to change the device hostname (2/2)
+bf03fec8a5 Settings: Address a memory leak
+de9b1dbeb8 AndroidManifest: Add missing metadata com.android.settings.summary
+25b3e333be FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+a1f8bc422d FeatureFactoryImpl: Remove AOSP Package Installer from keepEnabledPackages
+b99130f4f2 FeatureFactoryImpl: Import PowerUsageFeatureProviderGoogleImpl
+5bcdaf683f Comment out double options that were under accessibility
+9aa955130a Remove legal information from being indexable
+a7a855be02 Settings: fix hardcoded black text in storage summary
+8f54e5b2fa Settings: Live Volume Steps [2/2]
+d3459723e0 Disable dashboards conditions and suggestions (2/3)
+97cb3e77c6 Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+0026cabff1 Settings: display fstype for mounted volumes
+14ea798b08 lockscreen: Forward port option to pass swipe-up-to-unlock [2/2]
+6a9e48cd93 Settings: Forward port pattern visibility settings (2/2)
+5121be5889 Settings: Forward port lock pattern grid size (2/2)
+6d297f38b6 InstalledAppDetails: fix refreshing storage summary after force stop
+3840989a4f Unlink AoD switch pref from AoD on charge
+a55d1378e1 Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+ba9d398a85 Settings: AnimationScale: Fix force close when not using english
+4f6d2587c2 Settings: Use seekbar to allow setting arbitrary animation values
+36707a025d Enable fingerprint swipe gestures by default [2/2]
+35ebd12921 Fix cannot see "see more" button in UI
+6a831ecc83 Settings: Bump privacy category's initial expanded children count to 10
+2f6e22c72b Settings: Remove AOSP battery percentage
+4b933045fc Settings: Move the Extended Volume panel to Sound [2/2]
+315316a04f Settings: Allow to hide arrow for back gesture [2/2]
+6a6451fc36 Settings: Hide carrier version pref
+0494577caf Settings: Add back increasing ring feature (2/3)
+39d78052c3 Prevent null point exception
+4e7ab47214 Settings: Respect preference's visibility in VideoPreferenceController
+d2c7701d72 Settings: Set Lockdown toggle to match Evo Settings' version
+3226f716f8 SmartCharging: add reset battery stats option [2/2]
+333f2f6364 SmartCharging: allow user set resume level [2/2]
+e02f8f0a89 Settings: Smart Charging (2/4)
+dbf23fd620 Settings: Bring back Gaming mode [2/3]
+c8c7b2f36f Lights color picker: activate preview
+4834329115 Settings: Hide notification light color preference if no multicolor led
+bbc239a6cc Allow to customize notification led light [1/2]
+5a5a3d7dbf Enable notifications led light by default [2/2]
+468366ddbc Settings: Rework logotype banner
+cf2aab0a19 Settings: Update our beautiful logo
+8e1bc4b48d Add accessibility timeout video and illustration
+a8f6ebf70c Settings: deviceinfo: Move imei information to Sim status
+646081fccc Settings: Add platform and RAM to Model & Hardware
+5114743aac Settings: Add refresh rate setting [2/2]
+bf28652712 Settings: Double tap to trigger doze [2/2]
+107117681d Settings: add option to enable AOD on charging only [2/2]
+0b8e92575e Settings: Allow to choose lockscreen or Ambient on wake gestures [2/2]
+07d485793e Settings: Ambient Display battery toggle [2/2]
+6c1f50591c Remove empty space in tether preference
+701200f54f Settings: Option to mute media with gesture [2/2]
+f3c6baf0d4 Allow to dismiss notifications with back FP left/right swipe [2/2]
+51c93e7ad9 Suggestion cards: align them to searchbar
+52a6201b23 Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]
+822124ca33 Aosp Ambient music: allow to pulse on new tracks [2/2]
+712335a4d0 Settings: Fix dismissal card bg color
+dba680f17c Fix ViLTE is not available when WiFi Calling is disabled
+9976e654ab Settings: Add back SELinux info
+99a87660dc VolumePanel: fix showing notification volume slider when unlinked
+a18f43b025 Cutout force fullscreen: Disable fast scroller
+7f47ac486d Settings: [2/2] Implement cutout force full screen
+94023c7669 Move custom dp settings under Display
+d68ece0d72 fuelgauge: Fix possible memory leaks
+05e20fc4b3 fuelgauge: Implement Early Warnings
+33e9b19186 fuelgauge: Use Enhanced Battery Prediction from Turbo
+d8957c0429 fuelgauge: Implement isTypeService
+d9e89b5990 Settings: Add all gesture preview animations
+1fd030839c Settings: Fix QrCamera crash on devices without flash
+977df8d2a1 Settings: Add Evolution X Logo to firmware window
+970e1c7c99 Settings: Use correct icon for ring volume
+76f1b8de27 Settings: Add switch for linked ring and media notification volumes [2/2]
+0b2d7c5797 Setting: Reverse an incorrect check in AutoRestrictionPreferenceController
+161a89a684 LiveDisplaySettings: Hide automatic outdoor mode preference on HWC2
+2cfd239144 LiveDisplaySettings: Reenable display mode preference for outdoor mode
+faf72fdcf9 Settings: Don't index display mode and color temperature on HWC2
+805f6d0f4d LiveDisplaySettings: Fix outdoor mode preference on hwc2
+8de1d54b93 livedisplay: Don't show display mode and color tempertature on HWC2
+075682ac35 LiveDisplay: Add illustration into picture and color adjustment
+a051b9880d Settings: Changes for LiveDisplay
+63822792f1 Settings: Add option to scramble pin layout when unlocking (1/2)
+44ae6cff14 Settings: Keyguard: Forward port lockscreen quick unlock (2/2)
+007666669e Settings: Lockscreen rotation config support [2/2]
+783d0fb23f Settings: Enable FeatureFlags on "user" builds too
+ae1fc665b5 Settings: Enable SIM card ringtone only if slot not empty
+711347afcc Settings: Phone ringtone setting for Multi SIM device [2/3]
+f7dcb3978c Settings: Add charging vibration settings
+05ef0d431f Settings: show battery times in summary
+677bc1fcaa Settings: Black theme is getting nicer
+07259c86ac Open app when clicking on icon in App Info
+fe09f4160f In sim1 APN settings interface and hot plug out/in sim2, APN information change to sim2's
+a242c09da3 Settings: don't add unneeded collapse in network page
+1848dfc645 Add Evolution settings dashboard
+d5508337b3 Battery temp: Use MCC to determine the scale type
+4ee658caee Battery temp: Ensure preference is updated
+6739f44813 Battery stats: Display battery temperature
+e64b106a7c Make sure close button has proper color
+dd6c1455d5 Enable dismissal feature on legacy suggestions.
+9dc3a00785 Settings: Navigation mode settings [2/2]
+bbb117adf4 Settings: Add drawable for Private DNS
+20e01222af DisplaySettings: font size in 5% steps from 80% to 130%
+9c162a450b Settings: Reset battery stats [2/2]
+c6664970d9 Settings: Allow disabling of screenshot shutter sound [2/2]
+d7200d2a3b SlicesDatabaseHelper: Use Evolution fingerprint
+6e3acdd46e Allow sorting Applications by size
+6654e85d62 Settings: Fix the failing strings
+a1becd019b Settings: Don't translate configs
+2e9c7a89d9 Settings: Add ROM Version to Firmware version window
+ba4f365adf Settings: Show full proc/version information
+07bd15af0f SimpleBuildNumberPreferenceController: Extend from BuildNumberPreferenceController
+0b228e426f SystemUpdatePreferenceController: Refactor for Evolution X Updates app
+361bc637d2 BasebandVersionDialogController: Trim duplicated baseband if needed
+d13d3ebae0 Settings: Add animations on some preferences
+361d03bc42 Settings: Import Adaptive Battery translations from crosshatch
+5551d5c17e FeatureFactoryImpl: Implement ApplicationFeatureProviderGoogleImpl
+8de8d6ead3 FeatureFactoryImpl: Implement SuggestionFeatureProvider
+61b6272215 FeatureFactoryImpl: Implement SearchFeatureProviderGoogleImpl
+4616a32611 FeatureFactoryImpl: Implement AccountFeatureProviderGoogleImpl
+33f568677c Settings: Initial implementation of FeatureFactoryImpl from Pixel
+02bc14c78b fingerprint: Remove unnecessary spacing in enroll layout
+d7c8ab8ddc storage: Do not allow eject for volumes on non-removable disks
+6527ff0b7c Settings: Hide unsupported USB modes automatically
+7df1f4a38d DevelopmentSettings: Hide OEM unlock by default
+e4ac57fad9 WiFi: Remove country code checking.
+bca8e98e64 DevelopmentSettings: Disable automatic updates
+89de7a23e8 Remove feedback and bug report stuff
+9d6b24b4ed Remove the Automatic ota check option but be sure it's disabled
+b0982b320e Add back arrow to Desktop backup password
+ae957a5291 Settings: Drop custom preferenceFragmentCompatStyle
+86485715c4 Settings: Add package name to installed app details
+7b5d5aba35 Settings: Move theming to display settings
+199b6649d5 Developer opts: set default notification channel warnings
+ad2e6f1bdd Settings: IS_DEBUGGABLE -> IS_ENG
+dcc5229e07 Disable notification channel warnings by default
+56312e5165 QS dev tiles: Don't set them to active area
+1d1f6e08ac Settings: Check if we have any color modes declared in overlay
+5281d06032 Settings: fix apn_editor carrier_enabled summaryOff string
+7c8b3d53a1 AmbientDisplay: Add custom pref for devices with custom doze packages
+8dfa7f7496 Settings: Show me more than 4 items in the menus!
+83b951993a PowerUsageSummary: Remove advanced battery menu item
+474d1f76b3 Settings: PowerUsageSummary: open advanced usage on header click
+32b9c8c6ec Revert "Revert "Add developer setting to set the default GPU renderer.""
+0049149d8b Settings: Enable permission hub by default
+c67a7d9833 Revert "Remove Permissions Hub."
+d4c3c8ce1e Revert "Make fingerprint illustrations single color"
+
+   * packages/apps/Updates/
+4e0c7ac Update strings
+8b52f26 Fix export of zip
+
+   * packages/services/Telecomm/
+bc6586d0 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/packages/services/Telecomm into ten
+a2f78789 Telecomm: Add Flashlight blink on incoming calls [3/3]
+
+   * vendor/aosp/
+da304387 prebuilt: backuptool: Implement dynamic system mount for A-only
+5ae7dc5e ota: system --> TARGET_COPY_OUT_SYSTEM
+
+   * vendor/pixelstyle/
+68109b1 sounds: Add our own ringtone
+
+=======================
+     01-09-2020
+=======================
+
+
+   * build/make/
+f3a21ef59 core: Makefile: Don't generate changelog when building recovery
+59807db1c core: Makefile: Fix-up changelog generating
+5fdb5229a build: Erase package_cache upon flashing
+e92961079 Allow overriding platform SPL
+74aae7217 build: make: allow modules to be installed to vendor_overlay
+1dfa64f01 core: binary: Allow modules to be built without clang
+7123ef9cf build: Include custom specific properties in build.prop
+ad55eb365 releasetools: Move system mount handling to backuptool
+308cd75c5 releasetools: Disable backuptools for now
+f7e6982ab releasetools: squash backuptool support
+53eab2822 build: ota: Support for install tools in /tmp/install
+43c4377d1 build: Move sound related props to pixelstyle
+980202a1f branding: Back to Evolution X!
+6bdf101c0 build: Use CUSTOM_BUILD for OTA prop
+2c3022e60 no matter what build type we dont want to see anything but Build_ID
+636874213 Support PRESIGNED in soong_app_prebuilt.mk
+c68c36218 Remove compatibility.zip
+c473ea7c8 core: Only include custom sepolicy if repo exists
+9415aceaa build: Make vendorimage depend on installed kernel
+0eca74a89 build: Make systemimage depend on installed kernel if system is root
+1f73f04c0 edify: bring back SetPermissionsRecursive
+2ca750ba6 build: Remove wallpapers from full_base.
+f3389cf9c Revert "Remove the obsolete UnpackPackageDir() in edify generator"
+ed6b2e659 build: allow forcing build of otatools
+69be06d8e envsetup: add function to detect shell
+618c9d484 envsetup: Automatically set CCACHE_EXEC to the system's ccache
+defd0c7ec check_boot_jars: Add CAF IMS to whitelist
+69a889b89 build: Add back ro.build.fingerprint
+1a33bf559 build: Remove some debugging props
+d3049eadb build: Improve lunch error handling
+166ca23ea build: Don't add generic targets on lunch menu
+e5bc64ae8 build: Add others targets on lunch menu [1/2]
+400033ea3 product: Exclude AOSP ringtones on custom build
+1023382bc build: Don't fail when trying to run 'export' cmd
+33853e539 Makefile: Changelog bringup
+7b9110e7b build: Add our props to ADDITIONAL_BUILD_PROPERTIES
+c92b95a18 Show ROM info while flashing
+68ab6195d build: Remove some apps by default
+447cab444 Make PRODUCT_BUILD_PROP_OVERRIDES bit more powerful
+ccc48e7b8 core: allow specifying building ramdisk(s) with lzma
+5717fff9c build: Remove su inclusion
+34b4eefbe Edify: Add abort message for bootloader asserts
+2a25cfa25 Allow setting the recovery density separately from the aapt config
+8c68278f7 Add blank_unblank_on_init to PRIVATE_RECOVERY_UI_PROPERTIES
+8dd7fc471 build: Separate commands in recovery foreach loops
+833b12fa1 build: recovery: Support adding device-specific items
+c96ab71e2 Fix odm output directory for devices w/o vendor partition
+289645545 Remove ro.bionic.ld.warning.
+b68c040b1 Revert "make: Make dtb.img depend on the DTB directory itself"
+b163dc84e Switch to aapt2 for getting minSdkVersion
+18d5968c1 make: Make dtb.img depend on the DTB directory itself
+b53cb8d00 releasetools: ota_from_target_files: add FullOTA_PostValidate
+774a3bd0f NFC: Disable build for AOSP NFC
+a8ed9b276 Allow a device to generically define its own headers
+08a1579fb Enable dynamic linker warnings only on eng build
+1edd867a1 Don't enable ADB by default on userdebug builds
+ac23e01f5 Disable dataroaming by default
+7918ba8ba build: Add support for device tree in boot.img
+b1b44f61d Add BOARD_CUSTOM_BOOTIMG_MK support
+618d39e31 ota: Disable downgrade check
+9b33139b5 build: Also replace techpack/audio old-style kernel header
+d18db46cc Allow override of device asserts, including multi-device support.
+52f131e2a add support for overriding build.prop settings.
+5849b20a8 product: Exclude AOSP apn list on Custom build
+1f3382bfe Add extra variables to _readonly_late_variables
+c97c017d6 Add roomservice
+730ef0d2b build: Allow build-image-kernel-modules to be called from shell
+40d8c63c0 soong: include custom soong_config
+be2359cec build: Add custom build support
+aff5f27f9 Source aosp specific envsetup
+abe16f5df build: Include vendor/extra/BoardConfigExtra.mk if available
+f87550543 envsetup: export ANDROID_BUILD_TOP earlier
+629cb5e92 build: Automatically replace old-style kernel header includes with new header lib
+6c66ca18a build: Ensure /system unmounted at install start
+a458a2430 All operating systems are beautiful
+ec2553703 Remove tools/mktarball.sh
+bcbb99094 releasetools: Fix the use of StringIO.
+452836bca releasetools: Replace iteritems with items.
+3af0b5a1f releasetools: Make merge_target_files and its test Python 3 compatible.
+ed7bd3ee9 releasetools: Clean up check_target_files_signatures.py.
+bdaa9e52e releasetools: Make additional modules Python 3 compatible.
+d8232aabd releasetools: Clean up additional modules for Python 3 compatibility.
+4ba6c1e30 releasetools: Make apex_utils Python 3 compatible.
+3d13a894d releasetools: Make verity_utils Python 3 compatible.
+ba8b57bdd releasetools: Make common Python 3 compatible.
+d02559aeb releasetools: Make blockimgdiff Python 3 compatible.
+8ba4d603c releasetools: Make rangelib Python 3 compatibile.
+421ee024f releasetools: Make common.ZipWriteStr Python 3 compatible.
+fecc6ddc8 Remove package-stats.txt
+d343a7800 Stop building unnecessary tarballs.
+ba89a41d0 Stop using build/target -> build/make/target symlink
+93c1f6e45 Add missing aapt2 dep in appcompat-files
+4f45e5c6a More base_rules.mk optimizations
+9b6c98099 Improve performance (don't filter ALL_MODULES)
+2db60a5f4 Skip much of aux_config.mk
+c6a0bb942 Remove support for ONE_SHOT_MAKEFILE
+0fb159e9b Revert "Revert "Deprecate bash m* commands and use the soong's modules-in* build commands instead.""
+a8e53b6b4 Revert "Deprecate bash m* commands and use the soong's modules-in* build commands instead."
+17e47ae08 Deprecate bash m* commands and use the soong's modules-in* build commands instead.
+
+   * device/custom/sepolicy/
+c797459 sepolicy: Adress apexd denial
+3301719 custom_sepolicy: Add wifi ext sepolicy rules
+
+   * manifest/
+2dc56d5 manifest: Track PE's system_apex
+
+   * packages/apps/Evolution/
+ff532a3 Evolution: Allow hiding the lock icon on lockscreen [2/2]
+50e883a Evolution: Add wallpaper color option for FOD icon [2/2]
+b1fc371 Evolution: AmbientLight: add visual preview
+
+   * packages/apps/OmniStyle/
+5edbdb9 OmniStyle: headers: Add Evolution X header pack
+d3b6655 OmniStyle: Remove missing Western headers
+
+   * system/apex/
+e706700 Disable the build of com.android.apex.cts.shim.v1_prebuilt
+
+   * vendor/aosp/
+e59977f9 version: Update to 4.0
+
+=======================
+     01-08-2020
+=======================
+
+
+   * kernel/oneplus/sm8150/
+c32a1e4ca443 Merge branch 'wg' into IllusionKernel
+4b73ced4bc8a net: Import WireGuard version 0.0.20200105
+c55d88b9a1a7 Merge branch 'upstream' into IllusionKernel
+d5f955eb412f hrtimer: Undo half of a51afeedc6e9980d83b6a28b25b984dd83ac77f6
+7eaa4ed75aef Merge tag 'v4.14.162' into IllusionKernel
+e6bbe89c43f3 Merge branch 'vendor' into IllusionKernel
+efaf17c9c95a Merge branch 'upstream' into IllusionKernel
+a1028e6ccd91 Synchronize codes for OnePlus 7 Oxygen OS 10.3.0/OnePlus 7 Pro Oxygen OS 10.3.0
+0baf50c772b8 Synchronize codes for OnePlus 7T Oxygen OS 10.0.7/OnePlus 7T Pro Oxygen OS 10.0.7
+87b32a7e0ac4 add skin-temp info
+26d14a44d45b Optimize ddr adjust mode
+51f57c4def41 Merge OnePlusOSS into IllusionKernel
+
+   * packages/apps/Evolution/
+2bf6e21 Evolution: Add toggle to disable charging animation [2/2]
+be5e136 Evolution: Another overhaul
+bf8f1d7 Revert "Evolution: Hide charging animation toggle for FOD devices"
+
+=======================
+     01-07-2020
+=======================
+
+
+   * device/oneplus/sm8150-common/
+451e516 sm8150-common: Sync radio props with stock
+0f29015 sm8150-common: Label secure_element HAL
+fdda42b sm8150-common: Move persist.radio.multisim.config to /vendor
+6698f45 sm8150-common: Use TARGET_COPY_OUT_SYSTEM
+63d0d17 sm8150-common: Update MAC randomization overlay location
+ffccf1e sm8150-common: Decommonize sensors configs
+6412653 sm8150-common: Remove remaining QC location bits
+78087ae sm8150-common: Decommonize goodix fingerprint blobs
+5ea632d sm8150-common: Prepare extraction scripts for device specific blobs
+9c9fd98 sm8150-common: Move BOARD_USES_RECOVERY_AS_BOOT to guacamole
+1c344c5 sm8150-common: Move TARGET_NO_RECOVERY to guacamole
+ad02eb1 sm8150-common: Import camera_* from guacamole
+57027ff sm8150-common: Remove no longer needed rootfs symlinks
+d838e9f sm8150-common: Remove /odm root folder
+3c65f30 sm8150-common: Add support for dynamic partitions
+a038b6e sm8150-common: Finish up QCOM WFD
+ccf0b5a sm8150-common: Yawn out permissive SELinux
+d233c96 sm8150-common: sepolicy: Address wifi-mac-generator denials
+4b06e48 sm8150-common: Telephony: Add inject support for MultiSimSettingController
+83e62b1 sm8150-common: Telephony: Move qti-telephony-common to product
+e22ca79 sm8150-common: Telephony: Add telephony_injection file
+497c154 sm8150-common: Patch qti-telephony-common.jar for compatibility with r9
+41ac280 sm8150-common: Update qti-telephony-common from DRG
+d28e3fe sm8150-common: Enable IWLAN assisted mode
+de5e386 sm8150-common: Enforce RRO for all resource overlays
+cd7220f sm8150-common: Set TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD := true
+3418afd sm8150-common: Build more stuff from source
+c03d5c3 sm8150-common: wifi: Enable etsi13_srd_chan_in_master_mode
+ce050d3 sm8150-common: wifi: Enable concurrent STA+SAP
+71b233f sm8150-common: wifi: Update configs from OOS 10 OB2
+5a457aa sm8150-common: sepolicy: Label /dev/pn553
+635178c sm8150-common: Don't resign TimeService app
+00bec86 sm8150-common: Drop Cryptfshw blobs
+28eb244 sm8150-common: sync vendor security patch with OOS 10
+9a48dee sm8150-common: add Oneplus7T Series to build guards
+00181b3 sm8150-common: decommonise product_launched_with_p inheritance
+cde6463 sm8150-common: sepolicy: Label /dev/{audio,sensor}_ultrasound
+1c99d48 sm8150-common: Regenerate config.fs from OOS 10 OB2
+756420e sm8150-common: rootdir: Update everything from OOS 10 OB2
+323f28c sm8150-common: audio: Update configs from OOS 10 OB2
+67047fa sm8150-common: usb: update sys.usb.state also when switching to none
+3090664 sm8150-common: update USB init scripts from OOS 10
+eff551a sm8150-common: bump to power hal 1.2
+0afedcb sm8150-common: rootdir: remove redundant services
+31a5ec5 sm8150-common: add wfdhdcp service blobs
+38f0f60 sm8150-common: disable bluetooth audio hal
+87b7af6 sm8150-common: update vendor blobs from OOS 10 OB2
+9ea6b10 sm8150-common: Disable QC location for now
+88e2fde sm8150-common: Disable WFD for now
+1a16a01 sm8150-common: Make SELinux great again!
+2576ebe sm8150-common: Set cpu "runtime variant" to cortex-a76
+24a8719 sm8150-common: Use generic arch variant
+f7bd5f5 sm8150-common: Set target CPU variant to cortex-a76
+3abc6e2 sm8150-common: Update aptX blobs from crosshatch
+6885a19 sm8150-common: Update system IMS stack from Android Q OB2
+8c69273 sm8150-common: Update NFC stack from Android Q OB2
+52a9a8c sm8150-common: Add packages for Android 10 IMS
+01d6a69 sm8150-common: Enable FEATURE_TELEPHONY_IMS for these devices.
+7910cbd sm8150-common: Update user for ims daemons
+9075e23 sm8150-common: Drop vendor "vndk" blobs
+2406608 sm8150-common: Make camera blob load with v28 libc++
+90b8ebb sm8150-common: Switch to blob_fixup()
+6a4431d sm8150-common: Fix blobs that referenced set_sched_policy
+7b14b0a sm8150-common: Mark as having overridden commands
+3b099a2 sm8150-common: [DNM] make host initrc checker happy
+bd07479 sm8150-common: Enable clearkey drm plugin v1.2
+aa637bc sm8150-common: Convert IMediaCasService to use vintf_fragments
+df15f2a sm8150-common: sensors: Start service with /dev/binder
+d98260c sm8150-common: sensors: Adapt to libgui changes of Android 10
+6e49b7f sm8150-common: Remove qcom bootctrl flag
+c5918c3 sm8150-common: Remove LOCAL_MODULE_TAGS := eng usage
+7a4f1f1 sm8150-common: Enabled updateable APEX
+dd8c252 sm8150-common: Exclude AOSP NfcNci
+97eeb6a sm8150-common: doze: Update AmbientDisplayConfiguration class path
+d300f1b sm8150-common: Add tri-state-key_daemon to uhid group
+039ca88 sm8150-common: Let system read and write to FRP block device
+db5b3d1 sm8150-common: Don't build brillo_update_payload
+e8667c7 sm8150-common: Build bootctrl.msmnile using Soong
+a5a7fa9 sm8150-common: gpt-utils: Drop unnecessary include
+d3e6d0c sm8150-common: gpt-utils: Use generated_kernel_headers
+6aa2bc7 sm8150-common: gpt-utils: Address the warnings
+c473a6f sm8150-common: Build libgptutils with Android.bp
+298663a sm8150-common: Set target cpu to cortex-a75
+b82a767 sm8150-common: cortex-a75 should use armv8-2a architecture
+075be31 sm8150-common: sepolicy: Resolve some ugly dashd issues
+94ed210 sm8150-common: fod: ignore vendor error code 6
+cc74cd9 init.qcom.rc: remove critical flag from dashd
+436a8e4 sm8150-common: Override vbmeta version in kernel cmdline
+6d7faeb sm8150-common: sepolicy: Update camera motor HAL path
+8367080 sm8150-common: Set TARGET_BOOTLOADER_NAME to msmnile
+32ad907 sm8150-common: Remove unnecessary "\"
+687d323 sm8150-common: Remove libaacwrapper from PRODUCT_PACKAGES
+d9c62fb sm8150-common: vibrator: Make effects constexpr again
+3d24853 sm8150-common: Remove duplicated libwfdnative.so in sed command
+944b7e9 sm8150-common: Enable audio features for sound FX libraries
+0994ad6 sm8150-common: Update NFC apk hash
+b6ccea3 sm8150-common: vibrator: Store VMAX and GAIN as strings
+afe8862 sm8150-common: vibrator: Split performEffect() and on()
+7b361f5 sm8150-common: vibrator: Simplify everything
+5877e82 sm8150-common: vibrator: Disable amplitude control
+5c47113 sm8150-common: vibrator: Pass proper looking loop and seq values
+c8b0473 sm8150-common: vibrator: CTRL_LOOP -> LOOP
+bb34826 sm8150-common: vibrator: Store all vibrator effect presets in struct
+335bcbe sm8150-common: Move libsdedrm to "Display" group
+95b9b75 sm8150-common: Remove wcnss_filter and all references to it
+95cf081 sm8150-common: Add missing "# A/B"
+59a1995 sm8150-common: Enforce RRO on framework-res
+883a8f0 sm8150-common: Unset BOARD_VNDK_VERSION
+ca62e41 sm8150-common: Restore @1.0::IGnss/gnss_vendor fqname
+8dc070b sm8150-common: vibrator: Make sure to always reset control loops
+4cb6088 sm8150-common: vibrator: Avoid writing to ACTIVATE_PATH twice
+5c40105 sm8150-common: Implement custom Vibrator 1.2 HAL
+a5309c8 sm8150-common: Go back to AOSP vibrator HAL instead
+8d3a65b sm8150-common: Set proper permissions for {vib}/ignore_store
+e299513 sm8150-common: Drop most of unnecessary fqnames
+b5d6d9d sm8150-common: Enable TARGET_USES_DISPLAY_RENDER_INTENTS
+304a7f0 sm8150-common: Enable triple buffering as per CAF config
+a9736da sm8150-common: Drop custom display flags
+c562a48 sm8150-common: libgptutils: Replace libsparse.so with libz.so
+88623df sm8150-common: Rename vibrator HAL to vibrator.msmnile.so
+2d1a8af sm8150-common: Update qti-telephony-common.jar sha1sum
+3d2675d sm8150-common: Build libdrm×libdrmutils from source
+3c26d0e sm8150-common: Build most of display HAL stack from source
+03ab296 sm8150-common: Add QC location support
+8dde5a2 sm8150-common: Correct OnePlus 7 Pro 5G codename
+a3abf3a sm8150-common: Switch to vendor.lineage.biometrics.fingerprint.inscreen permission
+34e1eb8 sm8150-common: Use stock vibrator
+5d9d9c0 sm8150-common: Disable LiveDisplay display modes
+265672c sm8150-common: Build some soundfx/audio related stuff from source
+a6eecca sm8150-common: Build some OnePlus HIDL interfaces from source
+a0ada75 sm8150-common: Build vendor.display.config@1.7.vendor from source
+ee5c178 sm8150-common: Build OMX from source
+ae7a9f0 sm8150-common: Enable Wi-Fi MAC randomization
+f598690 sm8150-common: Update NxpNfcNci sha1
+33b0e2c sm8150-common: Drop a630_gmu.bin too
+926c80e sm8150-common: Drop unused adreno FW
+a395964 sm8150-common: Update NxpNfcNci sha1
+016ffa2 sm8150-common: sepolicy: Label persist.vendor.diag.max.{num,size}
+6ddf066 sm8150-common: Switch to enforcing
+9ca7001 sm8150-common: sepolicy: Address hal_audio_default denials
+016c91e sm8150-common: sepolicy: Address hal_param_default denials
+964321a sm8150-common: sepolicy: Correct camera helper package id
+a06323e sm8150-common: rootdir: Mark all modules as 'optional eng'
+d0fe89c sm8150-common: soong: Strip empty lines at end of files
+e587df6 sm8150-common: sensors: use soong config instead of properties
+f953d33 sm8150-common: Sync config.fs with stock again
+b9f9161 sm8150-common: sepolicy: Label /dev/socket/vl53l1_daemon
+544c455 sm8150-common: sepolicy: Address hal_fingerprint_default denials
+970bb3e sm8150-common: sepolicy: Address NFC denials
+60c97dc sm8150-common: sepolicy: Label more RIL props
+153ff97 sm8150-common: sepolicy: Label more NFC props
+b0f9741 sm8150-common: sepolicy: Label more camera props
+7062415 sm8150-common: sepolicy: Label persist.vendor.audio.hac.enable
+0aeb560 sm8150-common: sepolicy: Label persist.vendor.color.matrix
+7ba8e03 sm8150-common: sepolicy: Label FTM mode and prmec props
+7e2aa48 sm8150-common: Adjust debugfs paths for power HAL
+f0df3c8 sm8150-common: Enable priv-app permissions whitelist
+41d6820 sm8150-common: Add basic permission file for HotwordEnrollment
+54ca159 sm8150-common: Add HotwordEnrollment blobs
+faaea11 sm8150-common: Enable call recording
+b6f571e sm8150-common: sepolicy: Label persist.vendor.sys.memplus.
+250d787 sm8150-common: sepolicy: Address binder related hal_sensors_default denials
+fd2fae4 sm8150-common: Drop SSR blobs and set SSR restart_level in init.qcom.rc
+40f1872 sm8150-common: fingerprint: Don't set ro.boot.fpsensor
+4fd3de4 sm8150-common: sepolicy: Address qti_init_shell denials
+331eec7 sm8150-common: sepolicy: Address sensors denials
+fcd760f sm8150-common: sepolicy: Address vendor_init denials
+418032d sm8150-common: sepolicy: Label fpc_images
+953b82c sm8150-common: sepolicy: Allow sensors hal to write to motor nodes
+fe5427b sm8150-common: sepolicy: Label oem partitions
+8a0a16c sm8150-common: sepolicy: Allow to contextmount /op1
+f938449 sm8150-common: sepolicy: Address time_daemon denials
+9a71b07 sm8150-common: sepolicy: Address dashd denials
+e56ca53 sm8150-common: sepolicy: Address kernel denials
+357c67c sm8150-common: sepolicy: Remove vendor.nxp.hardware.nfc::INqNfc label
+dbe7cc0 sm8150-common: sepolicy: Label dashd binary
+a750403 sm8150-common: sepolicy: Allow hal_sensors_default to read and write persist_engineer_file
+e61b4aa sm8150-common: sepolicy: Label param block device
+02751dd sm8150-common: sepolicy: Label ro.boot.rf_version
+862cac4 sm8150-common: sepolicy: Label sensors props
+aa3c626 sm8150-common: sepolicy: Label ro.vendor.nfc.notify_tp
+f6503b2 sm8150-common: sepolicy: Label fingerprint-related properties
+46ef235 sm8150-common: sepolicy: Label rtc sysfs node
+f7f0714 sm8150-common: sepolicy: Address hal_graphics_composer_default denials
+f2be450 sm8150-common: sepolicy: Label some more fod sysfs
+629c159 sm8150-common: sepolicy: Address sensors denials
+195da82 sm8150-common: sepolicy: Allow hal_camera_default to find hal_cameraHIDL_hwservice
+20f4d22 sm8150-common: sepolicy: Allow hal_display_default to read/write to AOD sysfs nodes
+04438d0 sm8150-common: sepolicy: Label keylayout files
+2541a20 sm8150-common: sepolicy: Address more nfc related denials
+6930f21 sm8150-common: sepolicy: Address hal_bluetooth_qti denials
+39acfc7 sm8150-common: sepolicy: Address more hal_sensors_default denials
+cb188fa sm8150-common: sepolicy: Label more NFC related hwservices
+f307654 sm8150-common: sepolicy: Address one more vl53l1_daemon_main denial
+a15b95b sm8150-common: sepolicy: Add sepolicy for lineage_fod_default
+4ca5ae7 sm8150-common: sepolicy: Fix stmvl531l1 device path
+b8f63cc sm8150-common: Doze: Migrate to androidx
+35e1eaa sm8150-common: sepolicy: ranging_device -> vl53l1_device
+366af26 sm8150-common: sepolicy: Allow vl53l1 to create various netlink sockets
+f1e8baa sm8150-common: sepolicy: Label /sys/module/stmvl53l1
+20b633c sm8150-common: sepolicy: Address hal_sensors_default denials
+4b90776 sm8150-common: sepolicy: file->dir
+2376008 sm8150-common: sepolicy: Address hal_drm_widevine_default denials
+224d16b sm8150-common: sepolicy: Address hal_param_default denials
+b20e741 sm8150-common: sepolicy: Label vibrator nodes
+dc3e472 sm8150-common: sepolicy: Address hal_audio_default denials
+141abde sm8150-common: Add kernel to lineage.dependencies
+6c61a6e sm8150-common: Pull interface definitions from device/oneplus/common
+2dbf24d sm8150-common: Update ims.apk sha1sum
+a39d5e0 sm8150-common: Clean up system.prop
+4769107 sm8150-common: Remove leftover comment
+6c5640b sm8150-common: Use kryo300 for ARM64
+10d6202 sm8150-common: sepolicy: Allow hal_camera_default to call hal_cameraHIDL
+76b0efe sm8150-common: sepolicy: Label the ranging device
+1ec141a sm8150-common: sepolicy: Label camera properties
+2a2df4f sm8150-common: sepolicy: Label camera persist files
+817b66d sm8150-common: lights: Drop notification LED support
+aa01083 sm8150-common: wifi-mac-generator: Fix byte order
+da2f73f sm8150-common: Replace wifi mac generator with a shell script
+7f9f4b6 sm8150-common: Drop bt-mac-generator
+a25b5c9 sm8150-common: sepolicy: Address wifi_mac_generator denials
+02a9550 sm8150-common: sepolicy: Address wcnss-service denials
+57e67f7 sm8150-common: sepolicy: Address rild denials
+d70b497 sm8150-common: sepolicy: Address hal_nfc_default denials
+5985794 sm8150-common: sepolicy: Address some of hal_fingerprint_default denials
+23c1207 sm8150-common: sepolicy: Address hal_lineage_touch_default denials
+e4c5511 sm8150-common: sepolicy: s/wrtie/write/
+e5dcfbf sm8150-common: sepolicy: Address init denials
+92628b3 sm8150-common: sepolicy: Address hal_power_default denials
+103908c sm8150-common: sepolicy: Address camera motor related denials
+da051e5 sm8150-common: sepolicy: Label /dev/param
+345bd54 sm8150-common: sepolicy: Label /sys/module/fsc
+2b81259 sm8150-common: sepolicy: Label vendor.oneplus.hardware.drmkey::IOneplusDrmKey
+26c0527 sm8150-common: sepolicy: Label vendor.nxp.nxpnfc::INxpNfc
+01c177a sm8150-common: sepolicy: Import tri-state-key rules from sdm845-common
+86dff35 sm8150-common: sepolicy: Label /proc/touchpanel
+03897e2 sm8150-common: sepolicy: Label Lineage camera motor and FOD HALs
+1997b07 sm8150-common: sepolicy: Label camera helper app
+b25e92b sm8150-common: sepolicy: Restore dashd domain
+178aa10 sm8150-common: sepolicy: Label some devices
+e572b46 sm8150-common: sepolicy: Reoder file_contexts
+9ffd490 sm8150-common: sepolicy: Label oemnvitems
+8b83f35 sm8150-common: sepolicy: Pull bunch of sysfs_oem labels
+60f9cc7 sm8150-common: Label fingerprint hwservices
+b932710 sm8150-common: sepolicy: Label (bt|wifi)_mac_generator
+53f10f7 sm8150-common: sepolicy: Label existing AOSP/Lineage HALs
+25f2e4d sm8150-common: sepolicy: Label all vendor blobs
+e629822 sm8150-common: Drop hci_qcomm_init, qrtr-lookup
+9023ac6 sm8150-common: Finish up cleaning proprietary-files.txt
+7af6f76 sm8150-common: Add etc/permissions/com.qualcomm.qti.imscmservice.xml
+c920500 sm8150-common: Drop 32-bit libtime_genoff.so
+c2f7bbd sm8150-common: Move ipacm-diag to "Radio" section
+bcf4e5d sm8150-common: Drop all hbtp blobs
+de5905f sm8150-common: Clean up FM blobs
+5a2b057 sm8150-common: Copy seccomp from device tree
+bbb50ea sm8150-common: Drop vendor/etc/audio_effects.conf
+630a45a sm8150-common: Move libstagefright_* to appropriate section
+8cb598b sm8150-common: Copy sound trigger mixer paths from device tree
+000c539 sm8150-common: Copy media_codecs_google_video_le from fw/av
+86b27ab sm8150-common: Move qcril database upgrades to "Radio" section
+4b271ef sm8150-common: Move more camera blobs
+3fd32c4 sm8150-common: Move lib_remote_simlock.so to appropriate section
+1b154a2 sm8150-common: Move sensors.hal.tof.so to proper section
+f3b20e9 sm8150-common: Move sns_reg_config to proper section
+b09c360 sm8150-common: Move DRM FW to appropriate section
+50241d5 sm8150-common: Move touchscreen FW to appropriate section
+f053aa9 sm8150-common: Move vibrator FW to appropriate section
+a38b28e sm8150-common: Move tfa98xx FW to appropriate section
+53564e2 sm8150-common: Move libOmxWmaDec.so to 'Media'
+c728690 sm8150-common: sensors: Switch to libgui_vendor
+59adaa1 sm8150-common: Add 64-bit vendor vendor.qti.imsrtpservice@1.0.so
+9e42975 sm8150-common: Remove duplicated lines
+e85da8d sm8150-common: Sort WiFi blobs
+25b38d3 sm8150-common: Remove most of 32-bit radio blobs
+cd53f43 sm8150-common: Remove most of 32-bit GPS blobs
+afc86a2 sm8150-common: Sort camera blobs
+476fc2a sm8150-common: Sort fingerprint blobs
+adf5ad6 sm8150-common: remove non-existent permission xml
+d303ae2 sm8150-common: Drop more blobs
+3f3538b sm8150-common: Remove bunch of prebuilt android.hardware blobs
+51bda7a sm8150-common: Drop prebuilt android.hardware.nfc@1.0-impl
+7107360 sm8150-common: Move NFC firmware to appropriate section
+cb1ca11 sm8150-common: Build librmnetctl from source
+782624f sm8150-common: Remove prebuilt power HAL
+e89b3bf sm8150-common: Remove 32-bit gps and ims blobs
+1965a27 sm8150-comon: Remove prebuilt lights HAL
+9fbafb7 sm8150-common: Reorder more sound trigger related blobs
+cb36f5b sm8150-common: doze: Fix default DOZE_ALWAYS_ON value
+ac22077 sm8150-common: doze: Move Utils.checkDozeService in an handler
+339393d sm8150-common: doze: Set entry timestamp before registering sensor
+c640dbf sm8150-common: doze: Add AOD support to Ambient Display
+47410ce sm8150-common: doze: Add missing pocket mode hooks
+7c430eb sm8150-common: doze: Add pocket mode support
+13c5811 sm8150-common: doze: Match Pie settings UI
+8d90d67 sm8150-common: doze: Set LOCAL_PRIVATE_PLATFORM_APIS
+04b1469 sm8150-common: Add OnePlusDoze app for pickup sensor handling
+c5cee68 sm8150-common: Use qti_whitelist.xml and privapp-permissions-qti.xml from vendor
+62dde73 sm8150-common: Copy keylayouts to vendor
+14fe9d5 sm8150-common: Build bootctrl from source
+20f14cf sm8150-common: Reorder more soundfx effect blobs
+9adc85b sm8150-common: Clean up NFC blobs list
+493af6b sm8150-common: Begin cleaning up proprietary files list
+06392e8 sm8150-common: Unpin dashd
+d0bd71f sm8150-common: Update NxpNfc stack
+33b5bbe sm8150-common: Oops, that shouldn't have been there
+ad9a177 sm8150-common: overlay-lineage: Load OnePlusCameraHelper keyhandler class
+42e8b69 Revert "sm8150-common: KeyHandler: handle camera motor key events"
+073eea2 sm8150-common: KeyHandler: handle camera motor key events
+0719c9f sm8150-common: Use device/qcom/sepolicy
+93bf4d2 sm8150-common: Set partition sizes
+a844607 sm8150-common: sensors: Use std::min() for calculating rgb_min
+73c35a8 sm8150-common: overlay-lineage: Sync config_needCustomFODView comment with gerrit
+4682f72 sm8150-common: sensors: calibrate ALS from /persist
+f4d691c sm8150-common: overlay: set doze brightness to 27
+22af0d2 Revert "sm8150-common: Move hidl_package_root definition to root directory"
+245cbb4 sm8150-common: Add recovery support
+10ca92c sm8150-common: Clean up device layout
+e4a8c02 sm8150-common: Move hidl_package_root definition to root directory
+6428b6f sm8150-common: use stock blob GNSS HAL
+74e2dcf sm8150-common: Sync config.fs with stock
+fb7de16 sm8150-common: extract-files: fix vendor path
+c8e6d0a Revert "sm8150-common: update gps config"
+9003de0 sm8150-common: overlay: remove com.qualcomm.location
+18af67b sm8150-common: fingerprint: Brackets should be here
+968a6a4 sm8150-common: fod: Sync with sdm845-common
+33eb817 sm8150-common: Get rid of framework_*.mk
+784b58e sm8150-common: Add touchscreen gestures HIDL HAL
+94405a0 sm8150-common: Drop custom touchpanel keylayout
+99d7f3e sm8150-common: Update dt2w node
+e9f1a00 sm8150-common: fod: Implement handleAcquire, handleError()
+3bdcd82 sm8150-common: fod: sdm845 -> msmnile
+a94fcc7 sm8150-common: fod: Drop netlink related code
+f121037 sm8150-common: fod: prettify soong variables
+f11edb2 sm8150-common: read wlan / bt mac addresses from NV
+881287b sm8150-common: ueventd: add /vendor/firmware to firmware paths
+6698e7e sm8150-common: fod: Add back missing nullptr checks
+02e58e6 sm8150-common: fod: Use proper way of handling fingerprint events
+1b73d66 sm8150-common: fod: implement position / size interface
+9b4b602 sm8150-common: overlay: Disable config_allowAutoBrightnessWhileDozing
+af847a5 sm8150-common: overlay: Declare STATE_DOZE support
+f8060be sm8150-common: overlay: Set config_screenBrightnessDoze to 17
+d0e982c sm8150-common: overlay: Reset config_displayBlanksAfterDoze to default
+a115c81 sm8150-common: overlay: Don't use openLegacy() for Snap
+d138e5e sm8150-common: overlay: Clean up
+04c1216 sm8150-common: overlay: Enable Wifi Display related stuff
+5266371 sm8150-common: overlay: Remove config_supportSystemNavigationKeys
+ebeed41 sm8150-common: overlay-lineage: Enable option for full screen aspect ratio
+df663cf sm8150-common: overlay-lineage: Set hardware (wake) keys
+8c8484b sm8150-common: overlay-lineage: Add missing copyright header
+b99e3a0 sm8150-common: Declare android XML namespace for nfcee_access.xml
+1899f02 sm8150-common: Remove unnecessary system OnePlus HIDL libs
+1a89dd2 sm8150-common: Add QCOM's WFD implementation
+e749dff sm8150-common: Sync extract-files.sh with sdm845-common
+d97d5ca sm8150-common: Remove unnecessary empty line
+1fd1c5b sm8150-common: Sort proprietart-files.txt
+40d4138 sm8150-common: Enable color matrix support
+276343c sm8150-common: Build libwifi-hal* from source
+1a61f72 sm8150-common: Reformat vendor_props.mk
+451f7a6 sm815-common: Remove unnecessary 'subdirs'
+0b3cc59 sm8150-common: Add interfaces/update-makefiles.sh
+885a7dc sm8150-common: fod: Sync with sdm845-common
+54b6995 sm8150-common: tri-state-key: Remove useless logging
+3f61b12 sm8150-common: Reformat fingerprint rc file
+59e4a08 sm8150-common: Convert tabs to spaces in common.mk × vendor_props.mk
+8eb4e36 sm8150-common: Add debug IMS props to workaround CarrierConfig restrictions
+d6046a8 sm8150-common: fod: Add support for fp_irq events
+ec3a85d [WIP] sm8150-common: enable LiveDisplay HAL
+c47fbc2 sm8150-common: sensors: reduce log spam
+c3cb67f sm8150-common: move camera motor matrix definition back
+5ad574f sm8150-common: manifest: move camera motor to guacamole
+b342a5a sm8150-common: Use Soong namespace to avoid device build conflicts
+9e3e897 sm8150-common: enable default color mode
+8e29b1f sm8150-common: proprietary-files: fix derp
+9bec2a8 sm8150-common: fix double-tap-to-wake
+2a76540 sm8150-common: proprietary-files: remove blob power hal
+e2c47c7 sm8150-common: sensors: calculate correction for light sensor
+e669bd8 sm8150-common: fingerprint: set persist.vendor.oem.fp.version
+b775312 sm8150-common: increase priority of fingerprint daemon
+a82efbf sm8150-common: compatibility_matrix: remove level attribute
+fcb3cc1 sm8150-common: update gps config
+5025e30 sm8150-common: remove stock audio policy
+6d89f68 sm8150-common: import sensors multihal
+6c1e65f sm8150-common: kang fingerprint hal wrapper from violet
+9b19ec1 sm8150-common: use blob wifi hals
+08a316a sm8150-common: pin modified permissions
+442cefb sm8150-common: lcd density should not be set in common
+fe9c029 sm8150-common: create wlan firmware symlinks
+cf2b782 sm8150-common: set default LCD density
+648e348 [WIP] sm8150-common: rootdir: disable SELinux context
+57ce0c3 sm8150-common: build radio hal
+d1c1aff sm8150-common: Don't set custom file attributes for cnss-daemon
+8d9bf9f sm8150-common: remove usb gadget hal
+287d83c [WIP, DO NOT MERGE] sm8150-common: build vendor image
+64ac114 gps: import from LA.UM.7.1.r1-14700-sm8150.0
+435d679 sm8150-common: commonize
+2e486ce guacamole: hack: overwrite vendor soundfx
+e2e456a guacamole: rootdir: add dashd daemon
+c01a4a6 guacamole: audio: remove redundant USB sink/source
+ae445dd guacamole: overlay: update brightness values from stock
+325040a guacamole: rootdir: mount everything on `boot`
+dbb2267 guacamole: rootdir: add back codeaurora snapcam as aux
+165fc2f guacamole: audio: fix a2dp source
+75a07b6 guacamole: fod: implement brightness boost and dimming
+cc1ba15 tri-state-key: fix vibrate position for op7p
+de17b1d guacamole: add missing overlay for keyhandler
+7f4f822 guacamole: enable volte via system.prop
+65a1d83 guacamole: disable AOD by default
+3349f9c guacamole: system.prop: fix fingerprint-on-display position
+c49014b guacamole: lights: fix tag
+d11602a guacamole: kang tri-state-key handler from sdm845-common
+1d59760 guacamole: system.prop: remove qti bluetooth library
+9fe467a guacamole: introduce in-screen fingerprint hal
+dd2b9a3 guacamole: camera_motor: fix typo
+6f46775 guacamole: kang carrier config from violet
+fce2089 guacamole: overlay: decrease padding a little bit
+8746847 guacamole: camera_motor: switch to proper HAL
+9f25540 guacamole: add statusbar paddings
+934cf3c guacamole: kang carrier configuration from violet
+b878981 guacamole: rootdir: allow more camera apps for aux cam
+501aa2c guacamole: implement camera motor support
+a0915df guacamole: add support for under-screen fingerprint scanner
+b183c37 guacamole: also pin dashd
+754a970 guacamole: pin nxp nfc stack
+9bca9c4 guacamole: override fstab.qcom from vendor to remove wrappedkey
+81da4ed guacamole: lights: kang from sdm845-common
+976ebce guacamole: overlay: decrease status bar size
+df10cbf guacamole: pin ims.apk to daisy
+6a7beb8 guacamole: pin telephony and nfc jar blobs
+48e1cc1 guacamole: increase status bar height in portrait mode
+718f177 guacamole: update media_profiles and correct binding
+b7dc6bd guacamole: build sensors HIDL
+c60d4d4 [WIP] use kernel from holydragon
+a77302d [WIP] switch back to Image-dtb
+1cd4295 [WIP] correct some configuration
+3de36f8 guachamole: disable vbmeta verification
+ac2f024 guacamole: enable AVB
+366e657 guacamole: exclude vendor and vbmeta from updater
+ecf266e guacamole: define metadata partition flag
+8412820 guacamole: add minimal sepolicy to pass building
+df51fbc guacamole: gpt-utils: kang from fajita
+dd38838 guacamole: use QCOM bootctrl
+3597945 guacamole: build bootctrl libraries
+ff2c217 guacamole: add oneplus fingerprint extension blobs
+9915d47 guacamole: add AAPT configuration
+6eccbcf guacamole: build fingerprint service
+a1613c5 guacamole: add A/B update flags
+abb5b87 guacamole: add perf & sdm blobs
+6e96518 guacamole: update ims blobs
+6ec0486 correct naming: oneplus7pro = guacamole
+2edf030 guacamoleb: compatibility_matrix: remove required HALs
+72aceae guacamoleb: enable dexpreopt
+40a8d8f guacamoleb: import compatibility matrices and manifests
+0a01583 guacamoleb: device: import NFC config
+4ce3724 guacamoleb: BoardConfig: set correct defconfig path
+7c069a9 guacamoleb: BoardConfig: set shipping api level
+f7e7e8a guacamoleb: BoardConfig: enable CLANG
+f91d464 guacamoleb: system.prop: import from stock
+2f336e5 guacamoleb: device: copy audio_policy
+930715c guacamoleb: vendor: pin aptX blobs
+32e45ae guacamoleb: import proprietary blobs
+91f81d8 guacamoleb: overlay: import from skydragon
+4e74de5 guacamoleb: keylayout: import from stock
+77cd407 guacamoleb: init bdroid configuration
+550d66b guacamoleb: init: override vendor media profiles
+cc88b27 guacamoleb: import stock media profiles
+f031e7f guacamoleb: add init script to override audio policy
+4ba1365 guacamoleb: import audio policy from stock
+f43effc guacamoleb: import stock fstab
+e52b8b0 init from violet tree
+
+   * frameworks/av/
+32a9b1dcc ld.config: add libashmemd_client.so to platform shared libs
+2150407c8 Restore stream [dis]connect parameters in deprecated state
+fdd429441 Fix the name of the constant for device [dis]connect parameter
+6c8647812 Cast enum to uint32_t before comparing with AUDIO_MODE_CNT
+055c1a7f8 audiopolicy: Match DIRECT and MMAP_NOIRQ flags exactly in IOProfile
+e04af0d12 Require HW AV sync flag match for compatible output IOProfile
+47dde827c av: Add AUDIO_OUTPUT_FLAG_MMAP_NOIRQ flag.
+ee3370e1f AudioPolicyManager: Handle error from setInputDevice in startInput
+dbd8ae2ee Remove usages of USE_XML_AUDIO_POLICY_CONF
+4110a46b3 Explicitly initialise base class in copy constructor
+974cecfff soundtrigger: fill in default extras from dsp
+9d6855eca camera: Workaround for GCC-compiled HAL3 drivers
+
+   * frameworks/native/
+a9a330ff4 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * frameworks/opt/telephony/
+6493e7c3d Add support for overriding methods from PhoneSwitcher
+
+   * manifest/
+ba73a12 Merge branch 'android-10.0.0_r23' of https://android.googlesource.com/platform/manifest into ten
+35da522 Revert "manifest: Track msm8998 audio hal"
+23abf89 Manifest for Android 10.0.0 Release 23
+f0dce1a Manifest for Android 10.0.0 Release 22
+ea39c2b Manifest for Android 10.0.0 Release 21
+
+   * packages/apps/Evolution/
+91a842c Evolution: Allow hiding battery icon from QS header [2/2]
+e231c34 Introduce lockscreen clock/date styles [2/2]
+40a7fd4 Evolution: Re-enable Navigation category and add navbar tuner prefs
+
+   * packages/providers/MediaProvider/
+5a5216e MediaProvider: adaptive icon
+
+   * packages/services/Telephony/
+a52f4afdc Use Evolution fingerprint to check for system update
+2b2ae779a USSD: Fix alert dialog theme
+85817a3af Telephony: Use system fonts at more places
+dac6c87cf Telephony: Add ERI configuration for U.S. Cellular
+
+   * system/bt/
+028fecfd0 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/system/bt into ten
+
+   * system/core/
+f5cc52a71 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/system/core into ten
+87e04211e ueventd: make parallel restorecon functionality optional
+
+=======================
+     01-06-2020
+=======================
+
+
+   * frameworks/av/
+4e53c8c4a audioflinger: Fix audio for WifiDisplay
+
+   * packages/apps/Camera2/
+ae8c392e6 Avoid NPE in case either front or back camera is absent
+
+   * packages/apps/Evolution/
+af335ca Evolution: FOD icon picker: adjust items spacing
+
+=======================
+     01-05-2020
+=======================
+
+
+   * kernel/oneplus/sm8150/
+84f5ad468100 Linux 4.14.162
+f8f4d3e589c7 spi: fsl: use platform_get_irq() instead of of_irq_to_resource()
+3e8374bd5ab1 gtp: avoid zero size hashtable
+a29c4303930b gtp: fix an use-after-free in ipv4_pdp_find()
+90cbd508fbd5 gtp: fix wrong condition in gtp_genl_dump_pdp()
+e4e33e48ac71 tcp: do not send empty skb from tcp_write_xmit()
+94671cf125f8 tcp/dccp: fix possible race __inet_lookup_established()
+0ddfaacfb76d gtp: do not allow adding duplicate tid and ms_addr pdp context
+de211c95f9b1 sit: do not confirm neighbor when do pmtu update
+7b296da1aca7 vti: do not confirm neighbor when do pmtu update
+b1467e87af4f tunnel: do not confirm neighbor when do pmtu update
+b560914e473a net/dst: add new function skb_dst_update_pmtu_no_confirm
+58df598b278e gtp: do not confirm neighbor when do pmtu update
+4e3c0a8d0f85 ip6_gre: do not confirm neighbor when do pmtu update
+7ae78f9bbb51 net: add bool confirm_neigh parameter for dst_ops.update_pmtu
+1f8b45f101ef vhost/vsock: accept only packets with the right dst_cid
+343f3056b542 udp: fix integer overflow while computing available space in sk_rcvbuf
+2dece4d6d13f ptp: fix the race between the release of ptp_clock and cdev
+b8ae180a2500 net/mlxfw: Fix out-of-memory error in mfa2 flash burning
+a6585c5b8534 net: ena: fix napi handler misbehavior when the napi budget is zero
+a6d311f2e798 pinctrl: baytrail: Really serialize all register accesses
+52a6ba0b4a6e tty/serial: atmel: fix out of range clock divider handling
+a48be2b29a08 spi: fsl: don't map irq during probe
+a51afeedc6e9 hrtimer: Annotate lockless access to timer->state
+6b307f5c03e2 net: icmp: fix data-race in cmp_global_allow()
+80e6b3268f7a net: add a READ_ONCE() in skb_peek_tail()
+43b6375db5c4 inetpeer: fix data-race in inet_putpeer / inet_putpeer
+ff194a90990e netfilter: bridge: make sure to pull arp header in br_nf_forward_arp()
+8b58905f212b 6pack,mkiss: fix possible deadlock
+69bb99133686 netfilter: ebtables: compat: reject all padding in matches/watchers
+9c0ffae88f75 filldir[64]: remove WARN_ON_ONCE() for bad directory entries
+26b363149dd5 Make filldir[64]() verify the directory entry filename is valid
+29061e0875f8 perf strbuf: Remove redundant va_end() in strbuf_addv()
+75e18a6ee17b bonding: fix active-backup transition after link failure
+ac9d7d7de1db ALSA: hda - Downgrade error message for single-cmd fallback
+b2823ed5cb58 netfilter: nf_queue: enqueue skbs with NULL dst
+daf8f15c068f net, sysctl: Fix compiler warning when only cBPF is present
+b6829d2608ff x86/mce: Fix possibly incorrect severity calculation on AMD
+36d503a7b031 userfaultfd: require CAP_SYS_PTRACE for UFFD_FEATURE_EVENT_FORK
+5dc89b665d72 kernel: sysctl: make drop_caches write-only
+9c2f6b5e695f ocfs2: fix passing zero to 'PTR_ERR' warning
+03a8e61bab33 s390/cpum_sf: Check for SDBT and SDB consistency
+916950d23ed4 libfdt: define INT32_MAX and UINT32_MAX in libfdt_env.h
+6d7101aa1d52 s390/zcrypt: handle new reply code FILTERED_BY_HYPERVISOR
+9edc3a3ddb65 perf regs: Make perf_reg_name() return "unknown" instead of NULL
+3bda1b2036e9 perf script: Fix brstackinsn for AUXTRACE
+8ee2f89ed3bf cdrom: respect device capabilities during opening action
+a06d07dd5293 scripts/kallsyms: fix definitely-lost memory leak
+04db2eb6686a apparmor: fix unsigned len comparison with less than zero
+d5342c266461 gpio: mpc8xxx: Don't overwrite default irq_set_type callback
+6772ac25b19c scsi: target: iscsi: Wait for all commands to finish before freeing a session
+5a6decd4bccc scsi: iscsi: Don't send data to unbound connection
+3e7ebe5b2b3f scsi: NCR5380: Add disconnect_mask module parameter
+360153b100f8 scsi: scsi_debug: num_tgts must be >= 0
+8f000d767e32 scsi: ufs: Fix error handing during hibern8 enter
+369d36324d33 scsi: pm80xx: Fix for SATA device discovery
+356218185edb HID: Improve Windows Precision Touchpad detection.
+7ceb69670c2a libnvdimm/btt: fix variable 'rc' set but not used
+f7aff3b92826 HID: logitech-hidpp: Silence intermittent get_battery_capacity errors
+90cfabd5f394 bcache: at least try to shrink 1 node in bch_mca_scan()
+0884d8df84d5 clk: pxa: fix one of the pxa RTC clocks
+43b8d08c1b09 scsi: atari_scsi: sun3_scsi: Set sg_tablesize to 1 instead of SG_NONE
+d17d0199fb07 powerpc/security: Fix wrong message when RFI Flush is disable
+e2b1506f69cb powerpc/pseries/cmm: Implement release() function for sysfs device
+1d75a2d82dbe scsi: ufs: fix potential bug which ends in system hang
+72b0b49aba0e scsi: lpfc: fix: Coverity: lpfc_cmpl_els_rsp(): Null pointer dereferences
+c90b82fe7f9a fs/quota: handle overflows of sysctl fs.quota.* and report as unsigned long
+54c4eeaacbaf irqchip: ingenic: Error out if IRQ domain creation failed
+40d9eed1f44a irqchip/irq-bcm7038-l1: Enable parent IRQ if necessary
+1fecec016757 clk: qcom: Allow constant ratio freq tables for rcg
+4ff52ab7c72c f2fs: fix to update dir's i_pino during cross_rename
+58a80d83db75 scsi: lpfc: Fix duplicate unreg_rpi error in port offline flow
+8bded9c5d328 scsi: tracing: Fix handling of TRANSFER LENGTH == 0 for READ(6) and WRITE(6)
+18250c784845 jbd2: Fix statistics for the number of logged blocks
+47acc1050022 ext4: update direct I/O read lock pattern for IOCB_NOWAIT
+bcac8a188673 powerpc/book3s64/hash: Add cond_resched to avoid soft lockup warning
+a9b68a316bed powerpc/security/book3s64: Report L1TF status in sysfs
+6017fdd186e7 clocksource/drivers/asm9260: Add a check for of_clk_get
+5b81bbad05fd dma-debug: add a schedule point in debug_dma_dump_mappings()
+186e23c66a17 powerpc/tools: Don't quote $objdump in scripts
+68672ccb8144 powerpc/pseries: Don't fail hash page table insert for bolted mapping
+ee0c6265500f powerpc/pseries: Mark accumulate_stolen_time() as notrace
+b0183bc00dac scsi: csiostor: Don't enable IRQs too early
+781f73d86796 scsi: lpfc: Fix SLI3 hba in loop mode not discovering devices
+05ee8b43f8e9 scsi: target: compare full CHAP_A Algorithm strings
+788e280d798b iommu/tegra-smmu: Fix page tables in > 4 GiB memory
+4ad39f44123a Input: atmel_mxt_ts - disable IRQ across suspend
+c6ac111b46aa scsi: lpfc: Fix locking on mailbox command completion
+fd9e15382953 scsi: mpt3sas: Fix clear pending bit in ioctl status
+77880d107ed1 scsi: lpfc: Fix discovery failures when target device connectivity bounces
+f73f93c3ce08 Synchronize codes for OnePlus 7 Oxygen OS 10.3.0/OnePlus 7 Pro Oxygen OS 10.3.0
+1a7ede280163 Synchronize codes for OnePlus 7T Oxygen OS 10.0.7/OnePlus 7T Pro Oxygen OS 10.0.7
+f2017b099450 Optimize ddr adjust mode
+
+   * vendor/pixelstyle/
+c6934ab permissions: Add permission for Omnistyle
+
+=======================
+     01-04-2020
+=======================
+
+
+   * packages/apps/Evolution/
+de02b43 Evolution: Add more FOD icons [2/2]
+2a7ab6f Evolution: FOD icon picker [2/2]
+cbbb87f Evolution: Hide charging animation toggle for FOD devices
+
+=======================
+     01-03-2020
+=======================
+
+
+   * external/sqlite/
+7693bc1 sqlite: upgrade to SQLite 3.30.1
+9ef8fb3 sqlite: upgrade to SQLite 3.30.0
+c8dea41 sqlite: upgrade to SQLite 3.29.0
+14d3ad5 libsqlite: remove unused deps
+763020a Turn off the new pass manager due to miscompile
+e253af8 Reduce sync safety levels from 3 to 1
+
+   * frameworks/av/
+5de57bc6b CamcorderProfiles: Add 8KUHD camcorder profile
+9302f1a86 MTP: Fix crash when no storages are available
+add394249 audiopolicy: Fixes for internal audio recording
+84977277e fix audioflinger integer mulplication overflow
+
+   * frameworks/base/
+628d3d3f461 FODCircleView: Add partial wakelock on aod
+f20e3d9cec3 FODCircleView: AOD content should move only in Y
+05363f0dbe1 FODCircleView: rewrite and simplify implementation
+2769848cebd FODCircleView: place above other UI elements
+4df5675cabf [SQUASH] Revert Omni FOD commits [1/2]
+
+   * frameworks/native/
+25802a1f2 sf: Reset last synced time upon resync.
+422475924 sf: Do not switch to protected GPU context for secure camera usecases.
+
+   * kernel/oneplus/sm8150/
+20de185584cc Merge branch 'wg' into IllusionKernel
+a63a8d9852be net: Import WireGuard version 0.0.20191226
+
+   * manifest/
+9686ec1 manifest: Track our system_vold
+
+   * packages/apps/Evolution/
+3cc694b Evolution: Listanimation Views and Interpolator [2/2]
+
+   * system/core/
+74b8e99aa healthd: Add WARP charger type
+48dd5e6fe init: ro.build.selinux should be 0
+c528c3853 init: add several more keys to spoof
+dc13d067b init: workaround SafetyNet check
+77a49d024 init: Weaken property override security for the init extension
+b182c212b Filter out QTI performance spam
+8b1245238 Shut up camera and wcnss debug output
+48325b52e Filter GalleryDatab*
+d83b1b085 Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+e351fb736 healthd: cover devices that have voltage_max file with value of 0
+5de383f84 healthd: allow custom charger images
+0aa72c3cc healthd: Reinitialize mChargerNames for every battery update
+58ea1351b LockscreenCharging: squashed (2/3)
+
+   * system/vold/
+7a1a433 Consistently use CLOCK_MONOTONIC for timing encryption
+
+   * vendor/aosp/
+a9941eec vendor: make dopush recognize files on more partitions
+3be21b4d vendor/aosp: Fix dopush
+
+   * vendor/pixelstyle/
+b552bb6 permissions: Add & sort missing permissions
+
+=======================
+     01-02-2020
+=======================
+
+
+   * frameworks/base/
+eccb42f7f00 SystemUI: QS footer visibilities [1/2]
+3f775025e07 SystemUI: Use MD2 icon for running services in QS
+097ea8eff07 Allow to quickly open Running Services from QS panel [1/2]
+871c408538a NotificationManagerService: Disable Notifications vibration [1/2]
+92eeb6263a5 GamingMode: Option to disable notification feedback [1/2]
+c87e2adeb4d GamingMode: Option to disable all headsup notifications [1/2]
+40ea97cce9b Revert "NotificationService causes watchdog issues and improves performance"
+e290fab0c5a Don't change public API
+dd190b75f67 Move BT state to OFF when BLE app count is zero
+29f9d76c675 Fix lock icon being stuck in AoD after pulsing notifications
+
+   * frameworks/native/
+c471cb45a Add dalvik-heap device-configs for 4/6GB devices
+
+   * kernel/oneplus/sm8150/
+48fc2cf66834 Merge branch 'upstream' into IllusionKernel
+
+   * manifest/
+922f515 manifest: Track our external_sqlite
+
+   * packages/apps/Evolution/
+16d6778 Evolution: QS footer visibilities [2/2]
+314adc4 Evolution: Disable Notifications vibration [2/2]
+6385042 Evolution: GamingMode: Option to disable notification feedback [2/2]
+51d35c9 Evolution: GamingMode: Option to disable all headsup notifications [2/2]
+0c17a8d Evolution: Add proximity check on wake preference
+396422b Evolution: Add video preview to Skip track gesture option
+
+   * vendor/oneplus/
+29362aa guacamole: Add sensors configs
+4f0d81c sm8150-common: Decommonize sensors configs
+ed3b901 sm8150-common: Remove remaining QC location bits
+ae15a03 sm8150-common: Move goodix fingerprint blobs to guacamole
+438b18c sm8150-common: Finish up QCOM WFD
+d4451a3 sm8150-common: Update qti-telephony-common from DRG
+22e81af sm8150-common: Build more stuff from source
+ca983cb sm8150-common: Don't resign TimeService app
+cdb5c89 sm8150-common: Drop Cryptfshw blobs
+01db29d sm8150-common: regenerate
+0b96dda sm8150-common: update blobs from OOS 10.0.GM21AA
+c1f3fda sm8150-common: add wfdhcp blobs
+94db091 sm8150-common: sync blobs with device tree
+81b6b36 sm8150-common: sync with device tree
+05eb720 sm8150-common: sync blobs with device tree
+bc65125 sm8150-common: re-extract blobs from oos 10
+aa9d6ef Import sm8150-common
+
+=======================
+     01-01-2020
+=======================
+
+
+   * kernel/oneplus/sm8150/
+a6d5f704b05b Merge tag 'v4.14.161' into IllusionKernel
+1279dbb6b935 Merge tag 'v4.14.160' into IllusionKernel
+4c5bf01e16a7 Linux 4.14.161
+c2816fc40d0c perf probe: Fix to show function entry line as probe-able
+d1db913b044f nbd: fix shutdown and recv work deadlock v2
+5a07ace73752 mmc: sdhci-of-esdhc: fix P2020 errata handling
+041ea215a9a0 mmc: sdhci: Update the tuning failed messages to pr_debug level
+5dc1cb73d0b1 mmc: sdhci-of-esdhc: Revert "mmc: sdhci-of-esdhc: add erratum A-009204 support"
+99b07543313d powerpc/irq: fix stack overflow verification
+eade3196196f x86/MCE/AMD: Allow Reserved types to be overwritten in smca_banks[]
+ee1a3ec0aeb9 x86/MCE/AMD: Do not use rdmsr_safe_on_cpu() in smca_configure()
+397d99dabade KVM: arm64: Ensure 'params' is initialised when looking up sys register
+b7cb3fd8293e ext4: unlock on error in ext4_expand_extra_isize()
+d3c6b57dcb7b ext4: check for directory entries too close to block end
+11755d82e1ad ext4: fix ext4_empty_dir() for directories with holes
+c67a2906487c staging: comedi: gsc_hpdi: check dma_alloc_coherent() return value
+6cc3ecc1ac23 platform/x86: hp-wmi: Make buffer for HPWMI_FEATURE2_QUERY 128 bytes
+77d893bb8d6f intel_th: pci: Add Elkhart Lake SOC support
+944276c573d5 intel_th: pci: Add Comet Lake PCH-V support
+1d21868ab70a USB: EHCI: Do not return -EPIPE when hub is disconnected
+ced35178a76f usbip: Fix error path of vhci_recv_ret_submit()
+5efc690e2043 usbip: Fix receive error in vhci-hcd when using scatter-gather
+a93dd1c4626d btrfs: abort transaction after failed inode updates in create_subvol
+f8f86208bfbe btrfs: return error pointer from alloc_test_extent_buffer
+51ff11e50d8b s390/ftrace: fix endless recursion in function_graph tracer
+031fbffac8ad usb: xhci: Fix build warning seen with CONFIG_PM=n
+8bcc8514f821 mmc: mediatek: fix CMD_TA to 2 for MT8173 HS200/HS400 mode
+75bfb048437f Revert "mmc: sdhci: Fix incorrect switch to HS mode"
+7cfef55ff019 btrfs: don't prematurely free work in scrub_missing_raid56_worker()
+4a2750824082 btrfs: don't prematurely free work in reada_start_machine_worker()
+8ce23510d754 net: phy: initialise phydev speed and duplex sanely
+b4f2c6e4cfff mips: fix build when "48 bits virtual memory" is enabled
+17dae5b25057 libtraceevent: Fix memory leakage in copy_filter_type
+e46523a24db0 crypto: vmx - Avoid weird build failures
+387053b4b436 mac80211: consider QoS Null frames for STA_NULLFUNC_ACKED
+cb40551504fd crypto: sun4i-ss - Fix 64-bit size_t warnings on sun4i-ss-hash.c
+08f433fca005 crypto: sun4i-ss - Fix 64-bit size_t warnings
+5b769b8ee196 fbtft: Make sure string is NULL terminated
+7a7f55f4cff4 iwlwifi: check kasprintf() return value
+21f32d712156 x86/insn: Add some Intel instructions to the opcode map
+d9d790232151 spi: st-ssc4: add missed pm_runtime_disable
+6d52fb75cd54 btrfs: don't prematurely free work in run_ordered_work()
+9e5ae20bb9b5 btrfs: don't prematurely free work in end_workqueue_fn()
+9402dae57784 mmc: tmio: Add MMC_CAP_ERASE to allow erase/discard/trim requests
+50806c4aa26f crypto: virtio - deal with unsupported input sizes
+c4fd0e76e471 spi: tegra20-slink: add missed clk_unprepare
+79bb64337a1d iwlwifi: mvm: fix unaligned read of rx_pkt_status
+061a175c9254 x86/crash: Add a forward declaration of struct kimage
+7c31408136db cpufreq: Register drivers only after CPU devices have been registered
+3b524ed1fa05 parport: load lowlevel driver if ports not found
+b391d3fe8ad7 s390/disassembler: don't hide instruction addresses
+3c6202094a4f ASoC: Intel: kbl_rt5663_rt5514_max98927: Add dmic format constraint
+e83f9a617d27 ASoC: rt5677: Mark reg RT5677_PWR_ANLG2 as volatile
+dad729c48e9d spi: pxa2xx: Add missed security checks
+b5c1ddeae694 EDAC/ghes: Fix grain calculation
+b8d065728cc9 media: si470x-i2c: add missed operations in remove
+1efdc4adb450 media: pvrusb2: Fix oops on tear-down when radio support is not present
+57c99b5a08e7 fsi: core: Fix small accesses and unaligned offsets via sysfs
+ca36cb7f4c06 ath10k: fix get invalid tx rate for Mesh metric
+361b2a9cd867 perf probe: Filter out instances except for inlined subroutine and subprogram
+c9560d9168ae perf probe: Skip end-of-sequence and non statement lines
+c00f4acafc91 perf probe: Fix to show calling lines of inlined functions
+5935b5993f3f perf probe: Return a better scope DIE if there is no best scope
+8f664b2e9b43 perf probe: Skip overlapped location on searching variables
+9dff39a5fa77 perf parse: If pmu configuration fails free terms
+e54d9ee1b1ac drm/amdgpu: fix potential double drop fence reference
+d622edacac43 perf probe: Fix to probe a function which has no entry pc
+b41920540deb libsubcmd: Use -O0 with DEBUG=1
+e19d77602f23 perf probe: Fix to show inlined function callsite without entry_pc
+41d3087d6dcc perf probe: Fix to show ranges of variables in functions without entry_pc
+cebb762e56eb perf probe: Fix to probe an inline function which has no entry pc
+0fe578acbe98 perf probe: Walk function lines in lexical blocks
+32ee45d86c5e perf probe: Fix to list probe event with correct line number
+5fceb353b924 perf probe: Fix to find range-only function instance
+6cb5c8d002ea rtlwifi: fix memory leak in rtl92c_set_fw_rsvdpagepkt()
+62c94beda697 ALSA: timer: Limit max amount of slave instances
+6021cd879822 spi: img-spfi: fix potential double release
+44e2712909da bnx2x: Fix PF-VF communication over multi-cos queues.
+b7a6c8ec56d8 rfkill: allocate static minor
+29bfb2ee16b7 media: v4l2-core: fix touch support in v4l_g_fmt
+3feec8968211 media: rcar_drif: fix a memory disclosure
+bd423e4694ec ixgbe: protect TX timestamping from API misuse
+4ea31ac2bc49 pinctrl: amd: fix __iomem annotation in amd_gpio_irq_handler()
+ccb2bae30094 Bluetooth: Fix advertising duplicated flags
+07debac18a32 iio: dln2-adc: fix iio_triggered_buffer_postenable() position
+8f143cafa6f7 pinctrl: sh-pfc: sh7734: Fix duplicate TCLK1_B
+6e35f9139082 loop: fix no-unmap write-zeroes request behavior
+6727fb4b0649 libata: Ensure ata_port probe has completed before detach
+fbd35049727b s390/mm: add mm_pxd_folded() checks to pxd_free()
+de3c88b85738 s390/time: ensure get_clock_monotonic() returns monotonic values
+17972ec7d6ff phy: qcom-usb-hs: Fix extcon double register after power cycle
+8e08c6af8694 net: dsa: LAN9303: select REGMAP when LAN9303 enable
+23e22b632a98 gpu: host1x: Allocate gather copy for host1x
+bd77e656941a RDMA/qedr: Fix memory leak in user qp and mr
+700ef8b5a98f net: phy: dp83867: enable robust auto-mdix
+893a491267c5 arm64: psci: Reduce the waiting time for cpu_psci_cpu_kill()
+c50ca0128abf x86/ioapic: Prevent inconsistent state when moving an interrupt
+bac95ac5731f rtl8xxxu: fix RTL8723BU connection failure issue after warm reboot
+4d4d3240a7a9 drm/gma500: fix memory disclosures due to uninitialized bytes
+a3f3756387d3 x86/mce: Lower throttling MCE messages' priority to warning
+367028e7e7c6 Bluetooth: hci_core: fix init for HCI_USER_CHANNEL
+3eb99789ca2c Bluetooth: missed cpu_to_le16 conversion in hci_init4_req
+b94653802a0a iio: adc: max1027: Reset the device at probe time
+8877aaf6afce usb: usbfs: Suppress problematic bind and unbind uevents.
+3b6b823da2b4 perf report: Add warning when libunwind not compiled in
+30e2c60c63d1 perf test: Report failure for mmap events
+88d9e1534feb drm/bridge: dw-hdmi: Restore audio when setting a mode
+e0db2a984ba9 x86/mm: Use the correct function type for native_set_fixmap()
+e9555e31fe7a extcon: sm5502: Reset registers during initialization
+23df4c40de1e media: ti-vpe: vpe: fix a v4l2-compliance failure about invalid sizeimage
+21d6b3c33c88 media: ti-vpe: vpe: ensure buffers are cleaned up properly in abort cases
+b86957058be4 media: ti-vpe: vpe: fix a v4l2-compliance failure causing a kernel panic
+95961770a970 media: ti-vpe: vpe: Make sure YUYV is set as default format
+cd27dd240d19 media: ti-vpe: vpe: fix a v4l2-compliance failure about frame sequence number
+5c181a4e29d2 media: ti-vpe: vpe: fix a v4l2-compliance warning about invalid pixel format
+110df032c196 media: ti-vpe: vpe: Fix Motion Vector vpdma stride
+f69d37afeb98 media: cx88: Fix some error handling path in 'cx8800_initdev()'
+1cdafe368ec4 mwifiex: pcie: Fix memory leak in mwifiex_pcie_init_evt_ring
+8e1823f13a0f block: Fix writeback throttling W=1 compiler warnings
+a957513cc75f samples: pktgen: fix proc_cmd command result check logic
+739c4f80e337 drm/bridge: dw-hdmi: Refuse DDC/CI transfers on the internal I2C controller
+9068d32b5242 media: cec-funcs.h: add status_req checks
+c6a2abe123cd media: flexcop-usb: fix NULL-ptr deref in flexcop_usb_transfer_init()
+d8233bd84b2b regulator: max8907: Fix the usage of uninitialized variable in max8907_regulator_probe()
+1271cd8f2202 hwrng: omap3-rom - Call clk_disable_unprepare() on exit only if not idled
+40ba746f3c49 usb: renesas_usbhs: add suspend event support in gadget mode
+752117fccf0b selftests/bpf: Correct path to include msg + path
+679c4f27b895 pinctrl: devicetree: Avoid taking direct reference to device name string
+f29ead458d23 ath10k: fix offchannel tx failure when no ath10k_mac_tx_frm_has_freq
+03b7865f4cba media: venus: core: Fix msm8996 frequency table
+5790fca95d46 tools/power/cpupower: Fix initializer override in hsw_ext_cstates
+319f54451969 media: ov6650: Fix stored crop rectangle not in sync with hardware
+d88219714906 media: ov6650: Fix stored frame format not in sync with hardware
+3ff18daf0602 media: i2c: ov2659: Fix missing 720p register config
+4580d7bfecd2 media: ov6650: Fix crop rectangle alignment not passed back
+267c32049704 media: i2c: ov2659: fix s_stream return value
+a385d400aa50 media: am437x-vpfe: Setting STD to current value is not an error
+7642460c2780 IB/iser: bound protection_sg size by data_sg size
+b88d9f8b8ba5 libertas: fix a potential NULL pointer dereference
+9c84ba30947a rtlwifi: prevent memory leak in rtl_usb_probe
+8ac64e1a9bc6 staging: rtl8188eu: fix possible null dereference
+21c84659c602 staging: rtl8192u: fix multiple memory leaks on error path
+af64290527d1 spi: Add call to spi_slave_abort() function when spidev driver is released
+0ea124722c68 iio: light: bh1750: Resolve compiler warning and make code more readable
+c81f7b7c9ef0 drm/bridge: analogix-anx78xx: silence -EPROBE_DEFER warnings
+80eb7d92e253 drm: mst: Fix query_payload ack reply struct
+ea929ea14a07 ALSA: hda/ca0132 - Avoid endless loop
+c06539b5d420 ALSA: hda/ca0132 - Keep power on during processing DSP response
+f79c61a90d46 ALSA: pcm: Avoid possible info leaks from PCM stream buffers
+1622a3416b53 Btrfs: fix removal logic of the tree mod log that leads to use-after-free issues
+5a744f9eeea5 btrfs: handle ENOENT in btrfs_uuid_tree_iterate
+9cb1548707af btrfs: do not leak reloc root if we fail to read the fs root
+08c0e06a7ba7 btrfs: skip log replay on orphaned roots
+0145dc5ac7bc btrfs: do not call synchronize_srcu() in inode_tree_del
+af6ba22a3831 btrfs: don't double lock the subvol_sem for rename exchange
+2b63584780a3 sctp: fully initialize v4 addr in some functions
+e717f6b4f173 qede: Fix multicast mac configuration
+1e125b011060 net: usb: lan78xx: Fix suspend/resume PHY register access error
+de7e8ca720e6 net: qlogic: Fix error paths in ql_alloc_large_buffers()
+f46b81843d9f net: nfc: nci: fix a possible sleep-in-atomic-context bug in nci_uart_tty_receive()
+df6f496b6ad9 net: hisilicon: Fix a BUG trigered by wrong bytes_compl
+b1990ae77511 net: dst: Force 4-byte alignment of dst_metrics
+ab8224804954 mod_devicetable: fix PHY module format
+377d7378a605 fjes: fix missed check in fjes_acpi_add
+665c9af89878 af_packet: set defaule value for tmo
+
