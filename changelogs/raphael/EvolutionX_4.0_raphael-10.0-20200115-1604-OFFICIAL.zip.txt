@@ -1,0 +1,13 @@
+1/15
+- Add option to disable scrolling cache
+- DozeSensors: do not use binned brightness sensor for proximity if not supported
+- Remove Ambient notification brightness settings
+- [FOD] dispatch onPress to HAL only after dimming is applied
+
+1/14
+- Bring back QS detail view for Wifi, BT and DND QS tiles
+- Remove 24 hour support for TextClock only
+- Remove QS MusicTile (causes lag and jank when scrolling through notifications)
+- Remove TextClock translations
+- [FOD] Patch screen flickering
+- [FOD] Remove wallpaper color option for FOD icon
