@@ -1,0 +1,149 @@
+1/15
+Add option to disable scrolling cache
+DozeSensors: do not use binned brightness sensor for proximity if not supported
+Remove Ambient notification brightness settings
+
+[FOD] dispatch onPress to HAL only after dimming is applied
+[FOD] invert default icon path and add #20000000 bg
+
+1/14
+Bring back QS detail view for Wifi, BT and DND QS tiles
+Enable auto brightness while dozing (Ambient Display/AOD)
+Remove 24 hour support for TextClock only
+Remove QS MusicTile (causes lag and jank when scrolling through notifications)
+Remove TextClock translations
+SystemUI: Bring back music ticker
+
+[FOD] Add MIUI FP icon
+[FOD] Patch screen flickering
+[FOD] Remove wallpaper color option for FOD icon
+
+1/13
+Allow toggling VoLTE icon without the need to restart SystemUI
+Evolution settings: Add a SystemUI requirement for Notification ticker option
+Evolution settings: Update several strings
+Fix toggling of old mobile type style (glitchy)Settings: Update Evolution Settings summary
+Settings: Update Evolution X icon background color (Evo X blue)
+Use dark accents for Evolution X colors on light theme
+
+[FOD] Update FOD icons
+
+1/12
+Evolution settings: Lockscreen art blur: Allow no blur
+OmniStyle: Separate Evo X headers into light and dark options
+
+1/11
+Add QS themes support
+Bring back Status bar notification ticker feature
+Disable broken QS detail view
+Gapps: Update Pixel Launcher
+Power menu icons color: Don't use theme accent
+SystemUI: Fixes to QSContainerImpl
+SystemUI: Set default QS columns (portrait) to 3
+
+1/9
+Add option to Hide pill in full gestural nav mode
+Icon shapes: Add cylinder icon
+Icon shapes: Bring back Square icon
+Fix broken “Phone ringtone setting for Multi SIM device” FCs
+OTA app: Update some texts
+QS Headers: Remove missing Western headers option
+
+1/8
+Add toggle to show charging animation when plugged
+Allow hiding the lock icon on lockscreen
+DozeUi: do not prepare for gentle wakeup
+Evolution settings: AmbientLight: add visual preview
+Evolution settings: Another overhaul
+Fix carkit can't get phonebook access permission by default
+Gapps: Import google apex
+Lockscreen clock styles: Add more styles
+Power menu icons color: Don't use theme accent
+Settings: Fixes sound panel create multiple SoundSettings activity
+Settings: Skip loading contextual cards if legacy cards are used
+SystemUI: Avoid adding useless empty quick settings page
+SystemUI: Make recents grid view accept more than 8 tasks
+
+[FOD] Add Evo FOD icons
+[FOD] Add wallpaper color option for FOD icon
+
+1/7
+Allow hiding battery icon from QS header
+Gesture nav Assistant handles: don't show them in lockscreen
+Introduce lockscreen clock/date styles
+Merge January security patch
+MediaProvider: Use an adaptive icon
+QS headers: Add Evolution X header pack
+Ringtone: Add Evolution ringtone (Motörhead - Line in the Sand)
+Telephony: Add ERI configuration for U.S. Cellular
+Telephony: Use Evolution fingerprint to check for system update
+Telephony: Use system fonts at more places
+USSD: Fix alert dialog theme
+
+1/6
+Bring back navbar tuner editor
+Enable Navigation category and add invert layout option
+Hide power menu on secure lockscreen - improvements
+SystemUI: allow setting custom cutout shapes
+Update ElectronBeam screen off animation
+
+[FOD] Evolution settings: FOD icon picker: adjust items spacing
+
+1/5
+audioflinger: Fix audio for WifiDisplay
+Improve Phone ringtone setting for Multi SIM device support
+Notify ClockChangedListeners on main thread
+Power Menu: Only tint items once
+SystemUI: add vibration tick when opening notification panel
+SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
+
+1/4
+SystemUI: Adjust powermenu and qs customizer background
+
+[FOD] Add a FOD icon picker for FOD devices
+1/3
+Add Listanimation Views and Interpolator
+Compression changes and improvements
+Settings: Add Build date entry to Firmware version window
+Settings: Add Device codename to Firmware version window
+Settings: Show build release type alongside ROM version
+Settings: SmartCharging: Don’t use a Master Switch toggle (still buggy)
+System bug fixes and optimizations
+SystemUI: QS: Add Language toggle
+SystemUI: Bring back QS Drag Handle
+
+[FOD] Rework FOD implementation
+
+1/2/2020
+Add option to disable Notifications vibration
+Allow to quickly open Running Services from QS footer
+Evolution settings: Add proximity check on wake preference
+Evolution settings: Add video preview to Skip track gesture option
+Evolution settings: QS footer icon visibilities
+Fix lock icon being stuck in AoD after pulsing notifications
+Fixes to Surfaceflinger (Might fix Android Auto issues)
+GamingMode: Add option to disable all heads up notifications
+GamingMode: Add option to disable notification feedback
+Settings: Back to our proper logo
+Upgrade to SQLite 3.30.1
+
+12/31
+Add a config to disable LED settings
+AmbientLight: Set default color to Evolution Blue Dark
+Evolution settings: Flashlight blink: Fix disable option not working
+Settings: Ambient Music Ticker: Several improvements from Pie
+Settings: SmartCharging: Use Master Switch
+Wallpaper: Set to default Waves Dark
+
+12/30
+Add Network Traffic Layout options
+Evolution settings: ColorPicker: make it more user friendly
+Evolution settings: AmbientLight: update summary to show RGB value instead of ARGB
+NetworkTraffic: Add Dynamic Mode
+Settings app: Display menu: move lockscreen/ambient preference on top
+Remove ADB over Network features
+Refactor Network Traffic features
+TextClock: Fix string for Fifteen
+
+12/29
+fix dt2s issue introduced during mismerge of r16 tag
