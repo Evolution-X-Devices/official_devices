@@ -1,0 +1,59 @@
+=====================
+   Device-Specific
+=====================
+-implement Notch Hide (Thanks to Rohan and GST)
+-Start using vendor overlay
+-configure vsync event phase offsets
+-enable notcutout overlay
+-add tweaked init.qcom.post_boot.sh and define contexts
+-build powerhal to vendor overlay
+-enable UXE in perfconfigstore
+-BoardConfig:switch to cortex a-75 CPU_VARIANT
+(Credits: GST)
+
+=====================
+   ROM-Specific
+=====================
+
+1/17
+- base: set alert dialog message to use system font
+- Bring back navbar visibility toggle for devices with HW keys
+- Fixes to Lock screen Clock styles
+- Fixes to SystemUI not properly setting some toggles
+- Lockscreen media art blur level: Fix radius out of range
+- Keyguard: disable menu key on lockscreen
+- SystemUI: config: change charging thresholds
+- SystemUI: set user detail item to use system font
+- Use non-wakeup alarm for delay constraint
+
+
+1/16
+- adb: host: Fix windows build
+- Bring back ticker for music ticker with fixes
+- Enable legacy adaptive playback for QCOM_BSP_LEGACY
+- Fix SystemUI FC caused by battery estimates issue
+- kernel: allow devices to use newer GCC
+- [FOD] Add SystemUI: FOD pressed color picker
+- [FOD] Use a single fod location value for all variants
+
+1/15
+- Add option to disable scrolling cache
+- DozeSensors: do not use binned brightness sensor for proximity if not supported
+- Remove Ambient notification brightness settings
+- [FOD] dispatch onPress to HAL only after dimming is applied
+
+1/14
+- Bring back QS detail view for Wifi, BT and DND QS tiles
+- Remove 24 hour support for TextClock only
+- Remove QS MusicTile (causes lag and jank when scrolling through notifications)
+- Remove TextClock translations
+- [FOD] Patch screen flickering
+- [FOD] Remove wallpaper color option for FOD icon
+
+1/13
+- Allow toggling VoLTE icon without the need to restart SystemUI
+- Evolution settings: Add a SystemUI requirement for Notification ticker option
+- Evolution settings: Update several strings
+- Fix toggling of old mobile type style (glitchy)Settings: Update Evolution Settings summary
+- Settings: Update Evolution X icon background color (Evo X blue)
+- Use dark accents for Evolution X colors on light theme
