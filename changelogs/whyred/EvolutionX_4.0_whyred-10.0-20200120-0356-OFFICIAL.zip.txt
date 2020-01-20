@@ -1,0 +1,26 @@
+1/18-19
+Add whitelist permissions needed for SystemUIGoogle
+base: Fix list style alert dialog to use system font
+Bring back capability to allow tethering to use VPN upstreams
+Remove lockscreen option to pass swipe-up-to-unlock (buggy)
+Settings: Fix textApperance of our modified gesture dialog
+SystemUI: QS: Fix mobile data usage qs details view content
+SystemUI: QS: make Cellular tile DualTarget
+SystemUI: Use matching data usage size formatting between QS and Settings
+
+1/17
+base: set alert dialog message to use system font
+Bring back navbar visibility toggle for devices with HW keys
+Fixes to Lock screen Clock styles
+Fixes to SystemUI not properly setting some toggles
+Lockscreen media art blur level: Fix radius out of range
+Keyguard: disable menu key on lockscreen
+SystemUI: config: change charging thresholds
+SystemUI: set user detail item to use system font
+
+1/16
+adb: host: Fix windows build
+Bring back ticker for music ticker with fixes
+kernel: allow devices to use newer GCC
+
+[FOD] Add SystemUI: FOD pressed color picker
