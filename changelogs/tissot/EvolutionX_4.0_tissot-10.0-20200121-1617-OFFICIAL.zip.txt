@@ -1,0 +1,75 @@
+1/18-19
+- Add whitelist permissions needed for SystemUIGoogle
+- base: Fix list style alert dialog to use system font
+- Bring back capability to allow tethering to use VPN upstreams
+- Bring back Gaming mode QS tile
+- Remove Gaming mode settings
+- Remove lockscreen option to pass swipe-up-to-unlock (buggy)
+- Settings: Fix textApperance of our modified gesture dialog
+
+1/17
+- base: set alert dialog message to use system font
+- Bring back navbar visibility toggle for devices with HW keys
+- Fixes to Lock screen Clock styles
+- Fixes to SystemUI not properly setting some toggles
+- Lockscreen media art blur level: Fix radius out of range
+- Keyguard: disable menu key on lockscreen
+- SystemUI: config: change charging thresholds
+- SystemUI: set user detail item to use system font
+
+1/16
+- adb: host: Fix windows build
+- Bring back ticker for music ticker with fixes
+
+1/15
+- Add option to disable scrolling cache
+- DozeSensors: do not use binned brightness sensor for proximity if not supported
+
+1/14
+- Bring back QS detail view for Wifi, BT and DND QS tiles
+- Remove 24 hour support for TextClock only
+- Remove QS MusicTile (causes lag and jank when scrolling through notifications)
+- Remove TextClock translations
+
+1/13
+- Allow toggling VoLTE icon without the need to restart SystemUI
+- Evolution settings: Add a SystemUI requirement for Notification ticker option
+- Evolution settings: Update several strings
+- Fix toggling of old mobile type style (glitchy)
+- Settings: Update Evolution Settings summary
+- Settings: Update Evolution X icon background color (Evo X blue)
+- Use dark accents for Evolution X colors on light theme
+
+1/12
+- OmniStyle: Separate Evo X headers into light and dark options
+
+1/11
+- Add QS themes support
+- Bring back Status bar notification ticker feature
+- Gapps: Update Pixel Launcher
+- Power menu icons color: Don't use theme accent
+- SystemUI: Fixes to QSContainerImpl
+- SystemUI: Set default QS columns (portrait) to 3
+
+1/9
+- Add option to Hide pill in full gestural nav mode
+- Icon shapes: Add cylinder icon
+- Icon shapes: Bring back Square icon
+- Fix broken “Phone ringtone setting for Multi SIM device” FCs
+- OTA app: Update some texts
+- QS Headers: Remove missing Western headers option
+
+1/8
+- Add toggle to show charging animation when plugged
+- Allow hiding the lock icon on lockscreen
+- DozeUi: do not prepare for gentle wakeup
+- Evolution settings: AmbientLight: add visual preview
+- Evolution settings: Another overhaul
+- Fix carkit can't get phonebook access permission by default
+- Gapps: Import google apex
+- Lockscreen clock styles: Add more styles
+- Power menu icons color: Don't use theme accent
+- Settings: Fixes sound panel create multiple SoundSettings activity
+- Settings: Skip loading contextual cards if legacy cards are used
+- SystemUI: Avoid adding useless empty quick settings page
+- SystemUI: Make recents grid view accept more than 8 task
