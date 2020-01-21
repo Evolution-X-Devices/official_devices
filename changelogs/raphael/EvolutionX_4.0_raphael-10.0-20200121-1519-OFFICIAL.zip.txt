@@ -1,0 +1,43 @@
+1/21
+Camera: Avoid removing valid repeating requests
+Disable long click for SoundSearch tile
+Fix StorageManagerService linkToDeath more than one time when vold/storage died
+Fixes to Notification ticker feature
+FOD: Add White FOD pressed state
+FOD: SWITCH TO MI9FOD IMPLEMENTATION
+Fonts: Restore light font styling of AOSP
+Fonts: Wire up default fonts with font engine
+Make NtpTrustedTime safer / expand docs
+PrivacyChip: Do not change view on expand
+Properly set fonts and icons on keyguard when changing styles
+QSFooterImpl: Animate multiuser avatar
+QuickStatusBar: Check for permissions hub before setting ignore list
+Re-enable home button wake
+Remove option to Unlock keystore with fingerprint after reboot
+Rename Pornhub accent color overlay to Oh So Orange
+RIL: Fix manual network selection with old modem
+Settings: Add vibration intensities
+Settings: Use global fonts in styles
+SystemUI: Add tuner switches for privacy icons
+SystemUI: Fixes to Notification ticker feature
+SystemUI: Show charging status in addition to trust granted/transient status
+Telecomm: Add synchronized lock when set call state ANSWERED
+Update tracking repos to Lineage 17.1 branch
+Use latest Immensity q-drm-changes branch (with Mi9FOD changes)
+
+1/18-19
+Add whitelist permissions needed for SystemUIGoogle
+base: Fix list style alert dialog to use system font
+Bring back capability to allow tethering to use VPN upstreams
+Settings: Fix textApperance of our modified gesture dialog
+SystemUI: QS: Fix mobile data usage qs details view content
+SystemUI: QS: make Cellular tile DualTarget
+SystemUI: Use matching data usage size formatting between QS and Settings
+
+1/17
+base: set alert dialog message to use system font
+Bring back navbar visibility toggle
+Fixes to SystemUI not properly setting some toggles
+Lockscreen media art blur level: Fix radius out of range
+SystemUI: config: change charging thresholds
+SystemUI: set user detail item to use system font
