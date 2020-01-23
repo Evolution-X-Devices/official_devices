@@ -1,0 +1,75 @@
+1/22
+- Re-add WPS implementation
+- Remove dashboards conditions and suggestions options
+- Settings: Show a warning dialog before network search
+- SystemUI: Use color accent for user avatar default color
+- Telecomm: Add synchronized lock when set call state ANSWERED
+- Use non-wakeup alarm for delay constraint
+
+1/21
+- Camera: Avoid removing valid repeating requests
+- Disable long click for SoundSearch tile
+- Fix StorageManagerService linkToDeath more than one time when vold/storage died
+- Fixes to Notification ticker feature
+- Fonts: Restore light font styling of AOSP
+- Fonts: Wire up default fonts with font engine
+- Make NtpTrustedTime safer / expand docs
+- PrivacyChip: Do not change view on expand
+- Properly set fonts and icons on keyguard when changing styles
+- QSFooterImpl: Animate multiuser avatar
+- QuickStatusBar: Check for permissions hub before setting ignore list
+- Re-enable home button wake
+- Remove option to Unlock keystore with fingerprint after reboot
+- Rename Pornhub accent color overlay to Oh So Orange
+- RIL: Fix manual network selection with old modem
+- Settings: Add vibration intensities
+- Settings: Use global fonts in styles
+- SystemUI: Add tuner switches for privacy icons
+- SystemUI: Fixes to Notification ticker feature
+- SystemUI: Show charging status in addition to trust granted/transient status
+- Telecomm: Add synchronized lock when set call state ANSWERED
+- Update tracking repos to Lineage 17.1 branch
+
+1/18-19
+- Add whitelist permissions needed for SystemUIGoogle
+- base: Fix list style alert dialog to use system font
+- Bring back capability to allow tethering to use VPN upstreams
+- Settings: Fix textApperance of our modified gesture dialog
+- SystemUI: QS: Fix mobile data usage qs details view content
+- SystemUI: QS: make Cellular tile DualTarget
+- SystemUI: Use matching data usage size formatting between QS and Settings
+
+1/17
+- base: set alert dialog message to use system font
+- Bring back navbar visibility toggle for devices with HW keys
+- Fixes to Lock screen Clock styles
+- Fixes to SystemUI not properly setting some toggles
+- Lockscreen media art blur level: Fix radius out of range
+- Keyguard: disable menu key on lockscreen
+- SystemUI: config: change charging thresholds
+- SystemUI: set user detail item to use system font
+
+1/16
+- adb: host: Fix windows build
+- Bring back ticker for music ticker with fixes
+- kernel: allow devices to use newer GCC
+
+1/15
+- Add option to disable scrolling cache
+- DozeSensors: do not use binned brightness sensor for proximity if not supported
+
+1/14
+- Bring back QS detail view for Wifi, BT and DND QS tiles
+- Enable auto brightness while dozing (Ambient Display/AOD)
+- Remove 24 hour support for TextClock only
+- Remove QS MusicTile (causes lag and jank when scrolling through notifications)
+- Remove TextClock translations
+
+1/13
+- Allow toggling VoLTE icon without the need to restart SystemUI
+- Evolution settings: Add a SystemUI requirement for Notification ticker option
+- Evolution settings: Update several strings
+- Fix toggling of old mobile type style (glitchy)
+- Settings: Update Evolution Settings summary
+- Settings: Update Evolution X icon background color (Evo X blue)
+- Use dark accents for Evolution X colors on light theme
