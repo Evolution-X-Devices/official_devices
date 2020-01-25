@@ -1,0 +1,55 @@
+1/25
+- Avoid system reboot while invalidate LegacyGlobalAction
+- core: Conditionally set camera intents for camera state
+- SystemUI: Add CAF VoLTE HD icon
+- SystemUI: change opacity of QS Tile background
+- SystemUI: Tint QS Tile icon with accent color
+- SystemUI: QS: Sync tile: make it behave like every other tile
+- wm: DisplayRotation: Limit WFD UIBC rotation to primary displays
+
+1/24
+- SystemUI: improve the VPN footer layout
+- SystemUI: Remove lockscreen charging info
+- SystemUI: use headline font for vpn
+- Volume panel: Adjust the left padding
+- Volume panel: avoid multiple animations on touch spam
+
+1/23
+- Remove option to disable Lockscreen Media Art
+- Settings: Disable dashboards conditions and suggestions by default
+- Settings: Show a warning dialog before network search
+
+1/22
+- Re-add WPS implementation
+- Settings: Show a warning dialog before network search
+- SystemUI: Use color accent for user avatar default color
+- Telecomm: Add synchronized lock when set call state ANSWERED
+- [FOD] FODCircleView: Dont change alpha of fod on AOD
+
+1/21
+- Camera: Avoid removing valid repeating requests
+- Disable long click for SoundSearch tile
+- Fix StorageManagerService linkToDeath more than one time when vold/storage died
+- Fixes to Notification ticker feature
+- Fonts: Restore light font styling of AOSP
+- Fonts: Wire up default fonts with font engine
+- Make NtpTrustedTime safer / expand docs
+- PrivacyChip: Do not change view on expand
+- Properly set fonts and icons on keyguard when changing styles
+- QSFooterImpl: Animate multiuser avatar
+- QuickStatusBar: Check for permissions hub before setting ignore list
+- Remove option to Unlock keystore with fingerprint after reboot
+- Rename PH accent color overlay to Oh So Orange
+- RIL: Fix manual network selection with old modem
+- Settings: Add vibration intensities
+- Settings: Use global fonts in styles
+- SystemUI: Add tuner switches for privacy icons
+- SystemUI: Fixes to Notification ticker feature
+- SystemUI: Show charging status in addition to trust granted/transient status
+- Telecomm: Add synchronized lock when set call state ANSWERED
+- Update tracking repos to Lineage 17.1 branch
+
+
+Device side:
+
+Bingback Nirogen Kernel and smart charging
