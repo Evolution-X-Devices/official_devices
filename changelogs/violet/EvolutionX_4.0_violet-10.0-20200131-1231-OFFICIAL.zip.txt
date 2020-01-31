@@ -1,0 +1,588 @@
+=======================
+     01-31-2020
+=======================
+
+
+   * build/make/
+b1ebe106d releasetools: Use the first entry of a mount point when reading fstab
+82bacbbbb releasetools: Add script to sign zips
+90eecbd48 releasetools: support reading release keys out of some sort of command
+
+   * frameworks/base/
+9e358b8c151 SettingsLib: Add strings for Battery settings dashboard summary
+6716067a80b base: Add Touch HIDL support
+f102b060516 base: Port extended screenshot function from OOS
+423a00d262e Toasts: Use a snackbar-like animation
+50e1346a615 Toasts: use fast toast enter/exit animations
+6656ca295f6 toasts: Use Animation_Toast_Material
+e81b2d63131 Fix: No text in toast for RTL layout
+3e2db98752e core: Materialize Toast notifications
+94f8bdb3ae3 [SQUASH] Revert older toast commits
+53459986cf9 Screenrecord: Correctly display notification title
+91f579338a1 ScreenRecorder: Don't show Heads Up notification
+2c10965850e RecordingService: Use existing screenrecord icon
+b5168f876cf [SQUASH] Bring back system Screenrecorder
+8d9f4495314 SystemUI: Introduce Adjustable Blur Intensity [1/2]
+30689a88fda base: Allow controlling QS blur alpha [1/2]
+387867dffa8 update qs blur keyguard check
+c35c6287d66 Make QS blur togglable [1/2]
+499961b38d4 Blur behind quick settings
+db46d0ff587 ImageUtilities: A utility that's able to take screenshots via screenshotSurface and to blur images via blurImage
+820a448844b SystemUI: Fix minute digits for accent based lockscreen clock style
+21535f610e9 Updates to various icons
+ff1d6b0aefc Bluetooth: Fix BT stability issues
+821b745115b Revert "Move BT state to OFF when BLE app count is zero"
+27c6c469c67 Revert "Crash occured due to null pointer exception."
+
+   * hardware/custom/interfaces/
+ef680af interfaces: Add touch HIDL interface definitions
+
+   * manifest/
+5b7241b manifest: Track packages_apps_TouchGestures
+d4e7e80 manifest: Track our hardware_custom_interfaces
+
+   * packages/apps/Evolution/
+34b947a Bring back system Screenrecorder option in Power Menu options
+1637f76 Evolution: Introduce Adjustable Blur Intensity [2/2]
+9bcb5fb Evolution: Allow controlling QS blur alpha [2/2]
+4d43a5c Evolution: Make QS blur togglable [2/2]
+
+   * packages/apps/Settings/
+8d9db0dc71 Settings: Fix settings dashboard summary while warp charging
+2d110ce847 Settings: Fix settings dashboard summary while dash charging
+cf589c20df Settings: Themes: make sure settings shortcut icons follow system accent
+99b8a2dedc Settings: Desktop backup password: Tint buttons to match system theme
+001f37193a Settings: Power detail pages: Finish off the rest of the icon tinting
+9accea490f Settings: Fix icon tinting in power detail pages
+cf367410cd Settings: Add preference for TouchGestures
+
+   * packages/apps/TouchGestures/
+b4808d4 TouchGestures: Remove dependencies
+
+   * system/sepolicy/
+26bdf9da sepolicy: Treat proc-based DT fstab the same and sys-based
+e7f9fbef Fix storaged access to /sys/block/mmcblk0/stat after 48027a00
+55269e2a file_contexts: Include legacy /system/vendor paths
+
+   * vendor/aosp/
+b8e4fca8 vendor: Build TouchGestures
+
+   * vendor/pixelstyle/
+03c85ac Import modded Longshot app
+
+=======================
+     01-30-2020
+=======================
+
+
+   * frameworks/base/
+be714415c46 SystemUI: Make tri-state SystemUI dialog dimensions conditional
+066c233b4ba Partial screenshot: Layout improvements
+ca90ec40fa0 PowerMenu: Fix items not tinting correctly in landscape
+a6da1e95126 Updates to "Context-aware Bluetooth airplane mode"
+df4262fe2b5 base: Whitelist more permissions needed for SystemUIGoogle
+
+=======================
+     01-29-2020
+=======================
+
+
+   * frameworks/base/
+b936cbe29f1 FrameworkBase: Fix NullPointerException of AMS
+76e4b1188bc Add mechanism to improve consistancy of notification
+
+=======================
+     01-28-2020
+=======================
+
+
+   * build/make/
+a45a7f3ef Revert "build: Include custom specific properties in build.prop"
+363b9b072 check_boot_jars: Add IFAA Manager to whitelist
+4ec77d636 build: Set ro.build.type to user
+034ef96f1 Fix zsh compatibility issue in build/envsetup.sh
+f54e8553a build: Add ro.build.fingerprint to system props
+1e2a3b9cc libart: Turn off jit profiles and just use speed
+7ac6fd301 build: Only set the default verity key as a fallback
+33b0fead7 Use 'release-keys' for build tag
+
+   * frameworks/base/
+11be5f985c2 fingerprint: notify client when cancelling succeeded
+52da32719ee Revert "fingerprint: notify client when cancelling succeeded"
+847cc6cb73f SystemUI: Make scramble PIN layout Multi-User friendly
+27a9dce7a67 base: add Bootleg's Date Styles [1/2]
+3fc913bf00d base: add Q beta pill background [1/2]
+0f5f7f3b4da Introduce lockscreen date styles [1/2]
+
+   * packages/apps/Evolution/
+2c37973 Evolution: Date styles: Add Bootleg's styles [2/2]
+761150d Evolution: Date styles: Add Q beta pill [2/2]
+debd19b Evolution: Lockscreen date styles [2/2]
+67a4d26 Evolution: Option to hide lockscreen clock & date [2/2]
+ced3f5a Evolution: Make header image height user configurable [2/2]
+bbc0ec9 Evolution: Lockscreen clock styles: Add sammy accent hour clock [2/2]
+8885f2f Evolution: More lockscreen clock styles [2/2]
+1e253e0 Evolution: Introduce lockscreen clock/date styles [2/2]
+e806e79 Evolution: QS header color picker [2/2]
+c6c8803 Evolution: Add a Themes fragment
+
+   * packages/apps/Settings/
+ce723c1bc2 Settings: For Kobe & GiGi #RIP
+
+   * vendor/aosp/
+66345d33 extract_utils: Drop string after semicolon when parsing destination
+
+=======================
+     01-27-2020
+=======================
+
+
+   * frameworks/base/
+1fd37104a5a Decrease line spacing in sammy clock styles
+66a205bc36c SystemUI: fix accent based lockscreen clocks
+e1bff26a343 Always keep clock widget visible while dozing
+5c6e6f26286 SystemUI: Option to hide lockscreen clock & date [1/2]
+45fc6d35707 SystemUI: Make header image height offset user configurable [1/2]
+9b65a321411 SystemUI: respect status bar header height also in edit mode
+c317f73a2c7 SystemUI: Lockscreen clock styles: Add sammy accent hour clock [1/2]
+cbe10402f88 SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
+d36454aa5b6 SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
+614e3c32aee Introduce lockscreen clock/date styles [1/2]
+0e3a43d61e7 Improve applying Accent colors
+b82ff716118 base: Perform accent prop set in UiModeManagerService
+ad3c41043bc SystemUI: Don't apply accent colors
+09df83e7da8 base: SystemUI: QS header color picker [1/2]
+ff58bf40651 base: RGB Accent Picker [1/2]
+99db390050b overlays: Remove AOSP Accents [1/2]
+15d95365e06 Remove "base: QS: Allow coloring bg with accent [1/2]"
+74cb9f427ad SettingsLib: Don't show system overlays on apps list
+14a45673d8a Revert "SettingsLib: Don't show system overlays on apps list"
+ee8bd825752 Network Traffic: remove statusbar animation
+2bb3da82d71 SystemUI: Fix crash when changing ringer mode
+d86ecbb1b04 ScreenshotHelper: ignore timeout when taking partial screenshots
+e5331cb1586 SystemUI: implement better partial screenshot
+1d6a4cb6c65 Revert "base: refine partial screenshot handling"
+447afc7464c [DO NOT MERGE] Check CellInfoCallback Detail for Null
+
+   * packages/apps/Evolution/
+5db37f3 Evolution: RGB Accent Picker [2/2]
+
+   * packages/apps/Settings/
+91d9d306bb FeatureFactoryImpl: PowerUsageFeatureProviderGoogleImpl: Catch NameNotFoundException
+
+=======================
+     01-26-2020
+=======================
+
+
+   * frameworks/base/
+9a858edd1c2 SystemUI: Bring back ic_qs_bluetooth_connected.xml
+a7eef8a87c5 SystemUI: Add CAF VoLTE HD icon [1/2]
+3f446f87b18 SystemUI: QS: Sync tile: make it behave like every other tile
+7531b77c4b7 Avoid system reboot while invalidate LegacyGlobalAction
+d19f17cf088 wm: DisplayRotation: Limit WFD UIBC rotation to primary displays
+e14fd6ef30c core: Conditionally set camera intents for camera state
+ca7b8262df2 Revert "LockscreenCharging: squashed (1/3)"
+52720edcde0 Volume panel: Adjust the left padding
+58ab9649b61 Volume panel: avoid multiple animations on touch spam
+013396fa12c Dash & Warp Charging: Remove bool dependency
+b40dd21e0a7 systemui: use headline font for vpn
+4b4d94437f8 packages: SystemUI: improve the VPN footer layout
+db11e24c695 Revert "base: Allow to disable Lockscreen Media Art [1/2]"
+c815d5a7deb SystemUI: Use color accent for user avatar default color
+3b23fc4f069 Re-add WPS implementation (2/3)
+f30159f636d FODCircleView: Dont change alpha of fod on AOD
+23464268776 FODCircleView: FOD pressed state [1/2]
+9c83732b58f SystemUI: Add Evo FOD icons [1/2]
+6e032b2ca68 SystemUI: Add more FOD icons [1/2]
+f4e39e98451 SystemUI: FOD icon picker [1/2]
+9f0b0395929 FODCircleView: fix incorrect position on keyguard
+6dbf9b20d29 FODCircleView: Add MIUI FP icon
+b93358b10f7 FODCircleView: Patch screen flickering
+cf693b85fa2 FODCircleView: Add partial wakelock on aod
+00b38367ab0 DozeUi: do not prepare for gentle wakeup
+43e2e98e504 KeyguardView: report transiting bouncer as shown
+64e2521ac28 FODCircleView: rewrite and simplify implementation
+af5bac9a64d FODCircleView: place above other UI elements
+5d3a367bac1 [SQUASH] Revert Omni FOD commits [1/2]
+110d28a5d20 base: lightservice: strengthen useScaleBrightness checking
+338d428c0ed Properly set fonts and icons on keyguard when changing styles
+36820f96437 Fonts: Restore light font styling of AOSP
+7d43eadbc7d Fonts: Add regular / light font config
+ca2e2b7fb5f Fonts: Wire up default fonts with font engine
+b4804e3a5d9 QSFooterImpl: Animate multiuser avatar
+623a1bbebbd Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
+35a46ef15d6 Camera: Avoid removing valid repeating requests
+a24a5bacde8 Make NtpTrustedTime safer / expand docs
+e3ff613d350 Revert "NtpTrustedTime: Refresh NTP server from resources before requesting time"
+3f1adc7cb6a Disable long click for SoundSearch tile
+66b721c772f overlays: Rename to 'Oh So Orange'
+7d2da8c1c63 Revert "Unlock keystore with fingerprint after reboot (1/2)"
+5a255774106 SystemUI: Use matching data usage size formatting between QS and Settings
+0304deec3c9 SystemUI: QS: Fix mobile data usage qs details view content
+5aa5617c0a6 SystemUI: QS: make Cellular tile DualTarget
+937b6e9302f DO NOT MERGE Revert "Adding the privacy chip to the CarStatusBar"
+7fb29c85dd6 base: Fix another SystemUI crash
+507790fd4a3 SystemUI: Dismiss keyguard on boot if disabled by current profile
+cf501010c5c Add whitelist permissions needed for SystemUIGoogle
+39e6df4c2ea DozeSensors: do not use binned brightness sensor for proximity if not supported
+9c5a92b410d fw/b: [Squash] Add capability to allow tethering to use VPN upstreams
+052683a7d5d Themes: ensure some elements are fine and dandy after overlay
+23a906393e9 Keyguard: disable menu key on lockscreen
+be19c5e5d09 base: set alert dialog message to use system font
+174e59580d1 base: Fix list style alert dialog to use system font
+82f7c7c3da3 SystemUI: set user detail item to use system font
+6d7e07b8071 SystemUI: config: change charging thresholds
+025ebb49d93 SystemUI: fix black screen now also for pulse
+cb873503e49 SystemUI: fix black screen after AOD_PAUSED
+
+   * packages/apps/Evolution/
+2f7f632 Evolution: Remove "base: QS: Allow coloring bg with accent [2/2]"
+fae0844 Evolution: Cleanup clock/date styles for re-implementation
+
+   * packages/apps/Settings/
+ad737e9c6a Settings: Don't show Wi-Fi Calling suggestions
+c110617202 Settings: Enable PermissionBar Chart
+63b5583c02 Settings: Move theme settings to Evolution settings
+89576a8dee FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+
+   * vendor/aosp/
+01fc3d9f kernel: allow devices to use newer GCC
+e77be2eb apns : Add SFR IMS APN
+09b5b703 overlay: Drop SettingsProvider overlay
+
+=======================
+     01-25-2020
+=======================
+
+
+   * hardware/qcom-caf/sm8150/audio/
+8a9ac4fc Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/media/
+e4d47f31 Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+   * packages/apps/Evolution/
+0a505b1 Evolution: Add CAF VoLTE HD icon [2/2]
+
+   * system/core/
+b907c3b3b Tweak /init to never expose verifiedbootstate=orange
+
+=======================
+     01-24-2020
+=======================
+
+
+   * frameworks/native/
+639084eb2 sf: PhaseOffsets: Add missing low refresh rates
+
+   * manifest/
+ce28ac4 manifest: Track 8996 audio hal from lineage
+cd56299 Create FUNDING.yml
+
+   * packages/apps/Evolution/
+38a75bf Revert "LockscreenCharging: squashed (3/3)"
+
+   * system/core/
+03c017412 Revert "LockscreenCharging: squashed (2/3)"
+
+   * vendor/gapps/
+75207f7 gapps: Include CarrierServices
+
+=======================
+     01-23-2020
+=======================
+
+
+   * frameworks/av/
+9c77f0298 audio policy: fix capture policy for HOTWORD source
+
+   * frameworks/native/
+7a57d9254 sf: Enable UBWC on virtual display scratch buffer
+99a395758 sf: remove event listener when it was fired.
+1f23ff086 sf: Don't apply color matrix for external display
+ceda6f4cc sf: handle FrameBuffer scaling path for 90/270 orientation cases
+
+   * manifest/
+68cdb59 manifest: Switch some repos
+
+   * packages/apps/Evolution/
+5a944b0 Evolution: Disable dashboards conditions and suggestions by default [1/2]
+cbf51bb Revert "Evolution: Allow to disable Lockscreen Media Art [2/2]"
+69b123a Evolution: Search index: Ensure our features show up under Settings
+
+   * packages/apps/Settings/
+7fac3250d9 Settings: Disable dashboards conditions and suggestions by default [2/2]
+0d8b637965 Show a warning dialog before network search
+
+   * vendor/google/customization/
+0a7bfb7 Add google FI support
+
+=======================
+     01-22-2020
+=======================
+
+
+   * device/custom/sepolicy/
+000c133 sepolicy: Fix OTA on encrypted f2fs.
+
+   * frameworks/av/
+d4b4830c0 ld.config: add libashmemd_client.so to platform shared libs
+bf2e11d09 Explicitly initialise base class in copy constructor
+0eba648d1 camera: Workaround for GCC-compiled HAL3 drivers
+951823807 audioflinger: Fix audio for WifiDisplay
+36bc7702d CamcorderProfiles: Add 8KUHD camcorder profile
+1c9f18aed MTP: Fix crash when no storages are available
+414084715 audiopolicy: Fixes for internal audio recording
+
+   * frameworks/base/
+bd66daa8539 SystemUI: Add missing entries to StatusBar.java
+67c6152362c Fix Navigation Bar hiding
+3e51c9e86f8 Use FORCE_SHOW_NAVBAR to actually toggle navbar
+858ef7aed5c Add support for runtime toggle of navbar
+cc1d082ddba base: Status bar notification ticker [1/2]
+c37aea2b95a Reenable home button wake.
+fc8ca60bebc PhoneWindowManager: Fixes to Hardware key disable
+747cb6f9662 Add option to disable scrolling cache [1/2]
+9829e628bd9 [SQUASH] Remove QS MusicTile
+1f48715f736 PhoneWindowManager: Bring back vibrator DOUBLE_CLICK effect
+2d6ddb6cb31 VibratorService: Fix double click effect with OnePlus vibrator format
+3e00bc697df VibratorService: update constant values for OnePlus HAL
+6dab6e84685 Improve haptics and use VibrationEffect
+62ff6cac883 VibratorService: implement OnePlus proprietary vibrator format
+14502f02fe0 base: Refactor Data disabled icon switch
+f9c3f5d4e6c base: Refactor VoLTE icon switch [1/2]
+e8ef26549cd AmbientDisplayConfiguration: Fix public API compatibility issue
+50e3cd05492 Convert VPN Server endpoint to numeric
+d429650e8c1 Power menu icons color: Don't use theme accent
+0f11a7481ee base: QS themes [1/2]
+c695f6479a8 SystemUI: Fixes to QSContainerImpl
+68592b6d3c6 SystemUI: [HACK] set requestLegacyExternalStorage for the moment
+d34fcc92f6f SystemUI: Set default QS columns (portrait) to 3 [1/2]
+5404d040a4f SystemUI: Improve QS detail view layout
+312b37242d3 SystemUI: Enable and fix QS detail view, adapt layout to 10
+527a6f3d06e Revert "SystemUI: Enable and fix QS detail view, adapt layout to Q"
+bb4516efd74 [SQUASH] Revert Black screen fix commits
+3a470d93944 Add cylinder icon shape overlay
+f74f89d608f Build Square icon shape overlay
+0a57ef85369 base: overlays: Hide pill in full gestural nav mode [1/2]
+f2bca196f15 base: SystemUI: Allow hiding the lock icon on lockscreen [1/2]
+e22065fd9b6 SystemUI: Make recents grid view accept more than 8 tasks
+703ec16963b fwb: fix EXTRA_LID_STATE behaviour
+0dadbd15667 fwb: add missing LID_ABSENT
+935ae3217e7 base: fix charging animation power level
+28b891505d2 base: Add toggle to disable charging animation [1/2]
+b78caadfacb base: Use wireless charging animation for wired charging too
+818203526c2 SystemUI: Avoid adding useless empty quick settings page
+0ebd8fe6566 base: Allow hiding battery icon from QS header [1/2]
+d1a271145bd Gesture nav Assistant handles: don't show them in lockscreen
+16bbac0074e base: tuner: fix navbar layout switch and remove old cruft
+69cc9707a11 base: tuner: bring back tuner navbar editor from N
+9aa59172904 Hide power menu on secure lockscreen - improvements
+9eaa98c1032 base: Handle NPE for ContentObserver
+62d90474b05 Update ElectronBeam screen off animation
+dde471255d6 SystemUI: allow setting custom cutout shapes
+17d91caba40 PowerMenu: Only tint items once
+ecad0b38c90 Notify ClockChangedListeners on main thread
+79bf5beb71a FingerprintManager: return "Try again" by default
+802c9bfe5f9 SystemUI: add vibration tick when opening notification panel
+7ca54b3b3cb SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable
+fef76745342 SystemUI: Adjust powermenu and qs customizer background
+b9089060573 SystemUI: QS: Language toggle
+be84bf1e27f SystemUI: Bring back QS Drag Handle
+66cab4f1fc7 AbsListView: Fix widget couldn't find any view fc
+7c901b9e52e Return: Listanimation Views and Interpolator [1/2]
+c8b3069949f Get clock title on demand
+336c9a3bd0f Always use a positive value for timestamp
+a13cb68e6b5 aapt2: silence positional arguments warnings
+91adb0150aa aapt2: do not use compression
+d25f28050d0 SystemUI: QS footer visibilities [1/2]
+86a2eb25144 SystemUI: Use MD2 icon for running services in QS
+11b166d3b59 Allow to quickly open Running Services from QS panel [1/2]
+5355ad36cea NotificationManagerService: Disable Notifications vibration [1/2]
+7b9c8bc3711 GamingMode: Option to disable notification feedback [1/2]
+6964b0131b8 GamingMode: Option to disable all headsup notifications [1/2]
+ae70d0f3032 Move BT state to OFF when BLE app count is zero
+5928ff545a2 Fix lock icon being stuck in AoD after pulsing notifications
+2197a68c8f7 SystemUI: AmbientLight: Set default color to Evolution Blue Dark [1/2]
+f35a1a28c63 base: Add a config to disable LED settings
+a53670eb15c Add Network Traffic Layout [1/2]
+db48be6ba01 NetworkTraffic: Add Dynamic Mode [1/2]
+9a41d7061b5 Dynamic Network Traffic Arrows
+cffa219e4ff Avoid casting network traffic to StatusBarIconView to prevent crash
+b4065197822 change default network traffic type
+f79aec5ffe6 NetworkTraffic: Add more options + improvements [1/2]
+ded093171fd base: Hide arrows in Network Traffic indicators [1/2]
+490f7e78505 NetworkTraffic: Replace arrows drawable with unicode symbols
+37fd60697f4 NetworkTraffic: Fix gravity
+d76aea52e30 [SQUASH] Reverts for Network Traffic refactor [1/2]
+0e13312800b SystemUI: fix dt2s issue introduced during mismerge of r16 tag
+7c9426e1005 Make Pulsing bright again
+8278bb98034 Ambient instead of lockscreen on wake gesture: code fixes
+8cc1dd040ab Ambient music: send the proper pulse reason on slpi tap
+2bb5f60a592 Fix custom lockscreen shortcut icons being white
+0d25f326340 Display 'Warp charging' for warp charge in battery settings [1/2]
+8d7c5d4c7cb Display 'Dash charging' for dash charge in battery settings [1/2]
+1fc5e2cdbc4 Support NR when creating cell info.
+397bcca5d92 SystsmUI: gesture mode navbar nitpick
+
+   * frameworks/opt/net/wifi/
+4bfd79a66 Re-add WPS implementation (3/3)
+
+   * packages/apps/Settings/
+81eb2c3c7a Re-add WPS implementation (1/3)
+
+   * packages/services/Telecomm/
+d0f8a4dd Telecomm: Add Flashlight blink on incoming calls [3/3]
+6a5d631f Add back increasing ring feature (3/3)
+f8cabb35 Use double vibration on call hang-up
+83517151 Incall vibration options [2/3]
+380d6acb Add synchronized lock when set call state ANSWERED
+
+   * system/extras/
+0756f3d2 verity: Do not increment data when it is nullptr.
+
+=======================
+     01-21-2020
+=======================
+
+   * art/
+196292fa92 Disable JNI native whitelist check
+
+   * device/custom/sepolicy/
+e399ffd sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+
+   * frameworks/av/
+1067e1a21 Enable legacy adaptive playback for QCOM_BSP_LEGACY
+57d094ae6 cameraserver: filter out non-HAL3 devices from HIDL addListener.
+8e7d20777 cameraserver: Avoiding deadlocks while calling isPublicallyHiddenSecureCamera().
+cade4c934 Camera: Set input timestamp before returning depth jpegs
+0ceefbec5 add the AV1 in the VideoCodingMapEntry
+cb2e2c742 C2SoftMpeg4Enc: Handle yStride not equal to aligned width
+a4b2e7be0 Use stride in ycbcr for YUV->YUV convert
+14af3a412 Change lock to lockYCbCr for to get the actual y,cb,cr.
+
+   * frameworks/base/
+97b3a3a3ce5 overlays: Add more accent color overlays
+ddcebb50e71 Accents: Add new accent colors for Q
+ac6de424ab9 overlays: Add our favorite fonts in AOSP FontEngine [1/3]
+673814036c2 overlays: Use Slate for OnePlus as OPSlate font [1/3]
+87f1f7554f6 Avoid NPE in system_server in bringDownServiceLocked()
+c2b6497e756 LockSettingsService : Restrict access to getpassword API
+78dfb444822 Set the Network Specifier on Emergency SUPL
+
+   * frameworks/native/
+400805ec3 Change the position of addAndGetFrameTimestamps when queueBuffer
+3ce824f1a Fix testVerifyStatsExternalConsistent case
+abac53c5c Vulkan: Improve error translation in CreateSwapChainKHR
+4768d1e30 add the OMX_VIDEO_CodingAV1 in the OMX_VIDEO_CODINGTYPE
+0aa9c61ed Vulkan: correctly expose Vulkan entry points
+
+   * frameworks/opt/telephony/
+303dd1615 RIL: Fix manual network selection with old modem
+
+   * hardware/interfaces/
+54dc19c8d Make gralloc0 pass-through mapper handle layers
+
+   * hardware/qcom-caf/msm8996/audio/
+87c0d7725 audio: Extend platform parser to allow device name aliasing
+8e923ecc8 hal: Use log/log.h instead of cutils/log.h
+e2f8433f8 hal: fix misc audio hal errors
+e69fc7242 Build audio.primary.* with BOARD_VNDK_VERSION
+53932c95e hal: Support the audio amplifier hook
+
+   * manifest/
+567a220 manifest: Track more repos from lineage-17.1
+9c69542 manifest: Track repos from lineage-17.1
+
+   * packages/apps/Evolution/
+ffd0385 Evolution: Status bar notification ticker [2/2]
+df3a1aa Revert "Unlock keystore with fingerprint after reboot (2/2)"
+a5c3132 Evolution: Lockscreen clock styles: Add more styles [2/2]
+a5c37b1 Evolution: User toggle for navbar visibility
+c78a8f9 Evolution: Add setting to toggle navbar
+a50ea74 Evolution: FOD pressed state [2/2]
+
+   * packages/apps/Settings/
+bdb78aa96a Settings: Use global fonts in styles
+fe8446eca1 Settings: Fix textApperance of our modified gesture dialog
+0596e3fc61 Settings: Add vibration intensities
+
+   * system/core/
+4e6f6908c adb: host: Fix windows build after af8686ae1ab4c48303d38ae716a3035af3c9284b
+db154b6c5 healthd: Add WARP charger type
+0a364fa71 init: ro.build.selinux should be 0
+41016b1b4 init: add several more keys to spoof
+f34237e92 init: workaround SafetyNet check
+37bc0739c init: Weaken property override security for the init extension
+3b1c02af5 Filter out QTI performance spam
+324713f6e Shut up camera and wcnss debug output
+538f7c93a Filter GalleryDatab*
+1a7761ee1 Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+3d8b0d731 healthd: cover devices that have voltage_max file with value of 0
+d4ce70e24 healthd: allow custom charger images
+428e59543 healthd: Reinitialize mChargerNames for every battery update
+6dfc797a1 LockscreenCharging: squashed (2/3)
+150c333bc Set /sys/power/wake_lock permissions on init.
+d04a97e19 init: only provide control message results for devices launching > Q
+8b7dabba1 Ignore class_{reset|start}_post_data on non-updatable APEX.
+3fb78a4dc Reland^2: "init: run property service in a thread"
+9c9708375 init: add error handling in control message
+abaf686d0 init: simplify async restorecon
+ccce91474 init: handle getpeercon() errors
+04ad064fa init: set up SelinuxAuditCallback() earlier
+
+   * system/hardware/interfaces/
+a2e735c system_suspend: start early
+
+   * system/sepolicy/
+3c6408fe app_zygote need access to oem partition
+f363162a Export vold FDE algorithm properties
+f0ecff2a Mark mediacodec_2{6,7,8} as hal_omx_server
+4c60a3e2 Set odm and vendor build.version.incremental to be publicly readable
+47a106e8 Allow vendor to configure lmkd properties
+
+   * system/vold/
+5c40322 Fix the overflow issue in Checkpoint
+417d4ff Consistently use CLOCK_MONOTONIC for timing encryption
+
+=======================
+     01-20-2020
+=======================
+
+
+   * device/custom/sepolicy/
+23dc158 Allow Snap cam access for gpu service
+
+   * hardware/qcom/display/
+fccfd910f msm8960/8974: Include string.h where it is necessary
+
+=======================
+     01-19-2020
+=======================
+
+
+   * device/qcom/sepolicy/
+d835d128 Expose TimeService app cert to soong
+
+   * device/qcom/sepolicy-legacy-um/
+6e48f245 Expose TimeService app cert to soong
+
+=======================
+     01-18-2020
+=======================
+
+
+   * bootable/recovery/
+62ad25b3 Revert "updater: Don't show unmount warnings"
+
+   * packages/apps/Evolution/
+27f3256 Evolution: Add an option to disable scrolling cache [2/2]
+7303568 Evolution: Update some texts
+e5efccf Evolution: QS themes [2/2]
+6d26a23 Evolution: Fixes to QS panel opacity
+bb5097d Evolution: Add Evo FOD icons [2/2]
+
+   * packages/apps/Settings/
+bae05be893 Settings: Add hotspot setting to allow VPN upstreams
+
