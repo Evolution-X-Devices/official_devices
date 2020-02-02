@@ -1,0 +1,69 @@
+1/31/2020
+- Improve toast implementation
+- RecordingService: Use existing screen recorder icon
+- Correctly display screen recorder notification title
+- Screen Recorder: Don't show Heads Up notification
+- Settings: Desktop backup password: Tint buttons to match system theme
+- Settings: Fix icon tinting in power detail pages
+- Settings: Fix settings dashboard summary while dash & warp charging
+- Settings: Power detail pages: Finish off the rest of the icon tinting
+- Settings: Themes: make sure settings shortcut icons follow system accent
+
+1/30/2020
+- Allow controlling QS blur alpha
+- Add option to blur QS
+- base: Whitelist more permissions needed for SystemUIGoogle
+- Bring back system screen recorder (QS & Power Menu)
+- Bluetooth: Fix BT stability issues
+- Updates to "Context-aware Bluetooth airplane mode"
+- PowerMenu: Fix items not tinting correctly in landscape
+- Partial screenshot: Layout improvements
+- SystemUI: Fix minute digits for accent based lockscreen clock style
+- SystemUI: Introduce Adjustable Blur Intensity
+- Updates to various icons
+
+1/28/2020
+- SystemUI: Make scramble PIN layout Multi-User friendly
+
+1/27/2020
+- Add Option to disable night light on FOD
+- Always keep clock widget visible while dozing
+- Date styles: Add Bootleg's styles
+- Date styles: Add Q beta pill
+- Decrease line spacing in sammy clock styles
+- Introduce lockscreen date styles
+- Introduce RGB Accent Picker
+- overlays: Remove AOSP Accents
+- Network Traffic: remove status bar animation
+- Refactor lockscreen clock/date styles
+- ScreenshotHelper: ignore timeout when taking partial screenshots
+- Settings: For Kobe and Gianna
+- SettingsLib: Don't show system overlays on apps list
+- SystemUI: fix accent based lockscreen clocks
+- SystemUI: implement better partial screenshot
+- SystemUI: Make header image height offset user configurable
+- SystemUI: Option to hide lockscreen clock & date
+- SystemUI: QS header color picker
+- SystemUI: respect status bar header height also in edit mode
+
+1/26/2020
+- Check CellInfoCallback Detail for Null
+- SystemUI: Bring back ic_qs_bluetooth_connected.xml
+
+1/25/2020
+- Avoid system reboot while invalidate LegacyGlobalAction
+- build: Set ro.build.type to user
+- check_boot_jars: Add IFAA Manager to whitelist
+- core: Conditionally set camera intents for camera state
+- Settings: FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl 
+- SystemUI: Add CAF VoLTE HD icon
+- SystemUI: implement better partial screenshot
+- SystemUI: QS: Sync tile: make it behave like every other tile
+- wm: DisplayRotation: Limit WFD UIBC rotation to primary displays
+
+1/24/2020
+- SystemUI: improve the VPN footer layout
+- SystemUI: Remove lockscreen charging info
+- SystemUI: use headline font for vpn
+- Volume panel: Adjust the left padding
+- Volume panel: avoid multiple animations on touch spam
