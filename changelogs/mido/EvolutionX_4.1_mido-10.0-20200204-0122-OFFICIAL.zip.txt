@@ -1,0 +1,121 @@
+2/02
+     - Merge February security patch
+     - Update evo version to 4.1 
+     - fod: Don't invoke callbacks when fod circle is not visible 
+     - Upgrade SQLite to 3.31.1
+     - SystemUI: Tint QSTile icon with accent color
+
+1/31 
+        base: Add Touch HIDL support (screen off touch gestures)
+        Improve toast implementation
+        RecordingService: Use existing screen recorder icon
+        Screen Recorder: Correctly display notification title 
+        Screen Recorder: Don't show Heads Up notification
+        Settings: Add preference for TouchGestures 
+        Settings: Desktop backup password: Tint buttons to match system theme
+        Settings: Fix icon tinting in power detail pages 
+        Settings: Fix settings dashboard summary while dash & warp charging 
+        Settings: Power detail pages: Finish off the rest of the icon tinting       Settings: Themes: make sure settings shortcut icons follow system accent 
+        SystemUI: tiles: Migrate to new screenshot method with Longshot support 
+
+1/30 
+        Allow controlling QS blur alpha
+        Add option to blur QS 
+        base: Whitelist more permissions needed for SystemUIGoogle   Bring back system screen recorder (QS & Power Menu)
+        Bluetooth: Fix BT stability issues 
+       Updates to "Context-aware Bluetooth airplane mode" 
+       PowerMenu: Fix items not tinting correctly in landscape 
+       Partial screenshot: Layout improvements 
+       SystemUI: Fix minute digits for accent based lockscreen clock style SystemUI: Introduce Adjustable Blur Intensity Updates to various icons 
+
+1/27 
+        Add Option to disable night light on FOD 
+        Always keep clock widget visible while dozing 
+        Date styles: Add Bootleg's styles 
+        Date styles: Add Q beta pill 
+        Decrease line spacing in sammy clock styles 
+        Introduce lockscreen date styles
+        Introduce RGB Accent Picker 
+        overlays: Remove AOSP Accents 
+        Network Traffic: remove status bar animation 
+        Refactor lockscreen clock/date styles
+        ScreenshotHelper: ignore timeout when taking partial screenshots                  Settings: For Kobe and Gianna 
+       SettingsLib: Don't show system overlays on apps list
+       SystemUI: fix accent based lockscreen clocks
+       SystemUI: implement better partial screenshot 
+       SystemUI: Make header image height offset user configurable   SystemUI: Option to hide lockscreen clock & date
+       SystemUI: QS header color picker 
+       SystemUI: respect status bar header height also in edit mode FODCircleViewImpl: Add option to disable night light on FOD 
+
+1/26 
+       SystemUI: Bring back ic_qs_bluetooth_connected.xml 
+       Check CellInfoCallback Detail for Null
+
+1/25 
+         - Avoid system reboot while invalidate LegacyGlobalAction 
+          - core: Conditionally set camera intents for camera state 
+          - SystemUI: Add CAF VoLTE HD icon 
+          - SystemUI: change opacity of QS Tile background 
+          - SystemUI: Tint QS Tile icon with accent color 
+          - SystemUI: QS: Sync tile: make it behave like every other tile 
+          - wm: DisplayRotation: Limit WFD UIBC rotation to primary displays 
+
+1/24 
+          - SystemUI: improve the VPN footer layout 
+          - SystemUI: Remove lockscreen charging info 
+          - SystemUI: use headline font for vpn 
+          - Volume panel: Adjust the left padding 
+          - Volume panel: avoid multiple animations on touch spam 
+1/23 
+          - Remove option to disable Lockscreen Media Art 
+          - Settings: Disable dashboards conditions and suggestions by default 
+          - Settings: Show a warning dialog before network search 
+
+1/22 
+          - Re-add WPS implementation 
+          - Settings: Show a warning dialog before network search
+          - SystemUI: Use color accent for user avatar default color
+          - Telecomm: Add synchronized lock when set call state ANSWERED 
+          - [FOD] FODCircleView: Dont change alpha of fod on AOD 
+
+1/21 
+         - Camera: Avoid removing valid repeating requests
+         - Disable long click for SoundSearch tile 
+         - Fix StorageManagerService linkToDeath more than one time when vold/storage died
+         - Fixes to Notification ticker feature - Fonts: Restore light font styling of AOSP
+         - Fonts: Wire up default fonts with font engine
+         - Make NtpTrustedTime safer / expand docs 
+         - PrivacyChip: Do not change view on expand
+         - Properly set fonts and icons on keyguard when changing styles
+         - QSFooterImpl: Animate multiuser avatar
+         - QuickStatusBar: Check for permissions hub before setting ignore list 
+         - Remove option to Unlock keystore with fingerprint after reboot 
+         - Rename PH accent color overlay to Oh So Orange
+         - RIL: Fix manual network selection with old modem
+         - Settings: Add vibration intensities 
+         - Settings: Use global fonts in styles
+         - SystemUI: Add tuner switches for privacy icons
+         - SystemUI: Fixes to Notification ticker feature 
+         - SystemUI: Show charging status in addition to trust granted/transient status
+         - Telecomm: Add synchronized lock when set call state ANSWERED
+         - Update tracking repos to Lineage 17.1 branch 1/18-19
+         - Add whitelist permissions needed for SystemUIGoogle 
+         - base: Fix list style alert dialog to use system font 
+         - Bring back capability to allow tethering to use VPN upstreams
+         - Settings: Fix textApperance of our modified gesture dialog 
+         - SystemUI: QS: Fix mobile data usage qs details view content 
+         - SystemUI: QS: make Cellular tile DualTarget 
+         - SystemUI: Use matching data usage size formatting between QS and Settings 
+
+Device Changelogs:
+        -Update IMS blobs
+        -Update Graphics blobs
+        -Add overlays for smart charging
+        - Update Media/Wifi Display blobs
+        -Update CNE/DPM 
+
+
+
+
+
+
