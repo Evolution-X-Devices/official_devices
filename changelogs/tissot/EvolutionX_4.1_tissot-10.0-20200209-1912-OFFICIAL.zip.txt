@@ -1,0 +1,62 @@
+2/8/2020
+- Fixed disabling of screenshot shutter sound
+- Optimize Pixel offline charging animation
+- Re-implement extended screenshot AKA Longshot
+- SystemUI: Hide QS divider
+- SystemUI: replace pulse light drawable with Omni's vector
+
+2/7/2020
+- base: Keyguard: Fix some ugly code and save a lot of runtime
+- base: replace Evolution fingerprint with ro.build.date
+- base: use correct fingerprint to clear cache dirs on update
+- QS brightness slider: Update brightness thumb vector
+- QS tiles: update more vectors
+- Settings: QS tiles: update vectors
+- SystemUI: Hide gradient behind QS panel
+
+2/6/2020
+- Added Big Circle battery style
+- Added flash-call-on-waiting option
+- Added option to launch default music player on headset connect
+- AoD: Always force brightness updates on pause
+- Camera: Use default prop for Privileged App List
+- Fixed AoD front scrim being opaque at DOZE_PULSING
+- Fixed NPE with void android.view.VelocityTracker.clear()
+- Lockscreen weather Soli port: more code improvements
+- Reland "Apply front scrim to doze pulsing"
+- Now use VibrationEffect for in call vibration
+
+2/5/2020
+- Add missing hide flag to public deviceHasSoli api
+- Added classic Circle battery style from CM
+- Fixed unnecessary truncation in Slice
+- base: Increase Longshot timeout to 2 seconds
+- base: Longshot: Whitelist to use hidden APIs
+- base: Lower the internal audio capture restriction
+- base: omnistyle: Stinky workaround for header shadow and tinted images
+- Camera: Ignore torch status update for aux or composite camera
+- Disable Ambient on wake gestures by default
+- Disable Wake to Ambient on Soli devices
+- GlobalScreenshot: do not capture multiple screenshots simultaneously
+- Merged February 2020 security patch changes
+- ScreenshotSelector: mark externally unused functions as private
+- Settings: Adaptive brightness: Fix summary fuckery
+- Settings: Fix crash when going back from battery
+- Settings: Fix usage of ChooseLockSettingsHelper
+- Settings: fuelgauge: add back battery level animation
+- Settings: Update raw animations and drawables from Pixel 4 XL
+- Settings: Use IEC units in app info data usage
+- SystemUI: add Ambient Lights always on hide aod content option
+- SystemUI: Add an option to pulse edge light for all doze triggers
+- SystemUI: Allow limiting edge lighting repeats
+- SystemUI: block gestural navigation when using partial screenshot
+- SystemUI: kill any leftover notification pulse on new pulse start
+- SystemUI: Lockscreen weather code fixes
+- SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+- SystemUI: only call showAodContent(true) if we are still on the keyguard
+- SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+- SystemUI: Pulse light accent color option
+- SystemUI: re-implement Pulse and Ambient notification bars
+- SystemUI: Tint QSTile icon with accent color
+- SystemUI: trigger pulse light only for notifications
+- SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
