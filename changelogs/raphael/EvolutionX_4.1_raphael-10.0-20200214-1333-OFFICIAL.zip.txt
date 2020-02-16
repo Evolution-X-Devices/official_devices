@@ -1,0 +1,19 @@
+2/14
+Add BlueFirework recognizing FP animation
+Add Screen stabilization support
+AndroidManifest: add a permission group for signature spoofing
+Dark theme twilight mode backend and tile
+Fix nav bar leak in SystemUI
+Keyguard: ReInflate views when density or font scale change
+Settings: Add settings for scheduling dark theme
+Settings: Bug:PreferredNetworkModePreferenceController.java not being refreshed
+Settings: DarkUIPreferenceController null exception
+Settings: Fix QRCamera crash
+Update to latest Immensity
+
+2/13
+Add upgrade step to fix system sounds issue
+SystemUI: Add MIUI 11 VoLTE icon
+
+2/12
+RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID

@@ -1,9 +1,0 @@
-- Add button to AppErrorDialog to upload crash information to dogbin
-- Add Evolution X fragments to Search index (allows you to search for customizable features in Settings app)
-- Bring back QS panel color picker/theme with wallpaper color
-- Bring back Sensor block per-package
-- Bring back TimeInState and Doze Settings
-- Fix default styles (for users that do clean flash)
-- Prevent 3rd party app from turning on speaker during the system call
-- Removed Force Expanded notifications (causing lag in notification drawer)
-- Bring back Livedisplay profiles
