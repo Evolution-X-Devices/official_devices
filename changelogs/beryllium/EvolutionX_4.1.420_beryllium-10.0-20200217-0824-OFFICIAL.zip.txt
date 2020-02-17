@@ -1,0 +1,43 @@
+2/16/2020
+- Added ColorBucket theme picker
+
+2/14/2020
+- Added Screen stabilization support
+- Added a permission group for signature spoofing
+- Added Dark theme twilight mode backend and tile
+- Fixed nav bar leak in SystemUI
+- KeyGuard: ReInflate views when density or font scale change
+- Add settings for scheduling dark theme
+- Fixed PreferredNetworkModePreferenceController.java not being refreshed
+- DarkUIPreferenceController null exception
+- Settings: Fix QRCamera crash
+
+2/13/2020
+- Add upgrade step to fix system sounds issue
+- Added MIUI 11 VoLTE icon
+
+2/12/2020
+- RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+
+2/11/2020
+- Battery percentage: Fix cut off issue in the keyguard
+- Camera: Check consumer interface before disconnecting
+- Change layout of ToggleAction for GlobalActionsDialog
+- libcameraservice: Don't pass NULL args on setCallbacks call
+- libstagefright: Fix memory leak due to lock timeout
+- ProgressBar: Media volume bar indicates a wrong value
+- Re-implement Context-aware Bluetooth airplane mode
+- Re-implement Disable/Enable screenshot sound toggle
+- Remove QS tint changes
+- sepolicy: Address denials for legacy last_kmsg file
+- Sepolicy: snap_app: Allow binder call with gpuservice
+- Sepolicy: Allow init to write to /proc/cpu/alignment
+- sf: Check memory allocations at interval of 300 frames
+- sf: Restart model sync on fps change
+- SurfaceFlinger: Use default initializer for layer stats
+- SystemUI/AndroidManifest.xml: Override authorities for providers
+- Updated SurfaceFlingerProperties scope
+- vendor: Define isStatic argument on setupwizard overlay
+
+2/9/2020
+- Fixed new battery styles not being able to use percents options
