@@ -1,0 +1,77 @@
+2/14
+Add Screen stabilization support
+AndroidManifest: add a permission group for signature spoofing
+Dark theme twilight mode backend and tile
+Fix nav bar leak in SystemUI
+Keyguard: ReInflate views when density or font scale change
+Settings: Add settings for scheduling dark theme
+Settings: Bug:PreferredNetworkModePreferenceController.java not being refreshed
+Settings: DarkUIPreferenceController null exception
+Settings: Fix QRCamera crash
+
+Add BlueFirework recognizing FP animation
+
+2/13
+Add upgrade step to fix system sounds issue
+SystemUI: Add MIUI 11 VoLTE icon
+
+2/12
+RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+
+2/11
+Battery percentage: Fix cut off issue in the keyguard
+Camera: Check consumer interface before disconnecting
+Change layout of ToggleAction for GlobalActionsDialog
+libcameraservice: Don't pass NULL args on setCallbacks call
+libstagefright: Fix memory leak due to lock timeout
+ProgressBar: Media volume bar indicates a wrong value
+Re-implement Context-aware Bluetooth airplane mode
+Re-implement Disable/Enable screenshot sound toggle
+Remove QS tint changes
+sepolicy: Address denials for legacy last_kmsg file
+Sepolicy: snap_app: Allow binder call with gpuservice
+Sepolicy: Allow init to write to /proc/cpu/alignment
+sf: Check memory allocations at interval of 300 frames
+sf: Restart model sync on fps change
+SurfaceFlinger: Use default initializer for layer stats
+SystemUI/AndroidManifest.xml: Override authorities for providers
+Update SurfaceFlingerProperties scope
+vendor: Define isStatic argument on setupwizard overlay
+
+SystemUI: Recognizing FP animation effects (MIUI, OP, PureView)
+
+2/9
+Fix new battery styles not being able to use percents options
+
+SystemUI: Add scratch style FOD icons
+
+2/8
+Optimize Pixel offline charging animation
+Re-implement extended screenshot AKA Longshot
+SystemUI: Hide QS divider
+
+FODCircleView: only move in Y direction
+FODCircleView: Recognizing fingerprint animation
+2/7
+base: Keyguard: Fix some ugly code and save a lot of runtime
+base: replace Evolution fingerprint with ro.build.date
+base: use correct fingerprint to clear cache dirs on update
+QS brightness slider: Update brightness thumb vector
+QS tiles: update more vectors
+Settings: QS tiles: update vectors
+SystemUI: Hide gradient behind QS panel
+
+FODCircleView: disable touch detection on screen off
+
+2/6
+Add Big Circle battery style
+Add flash-call-on-waiting option
+Add option to launch default music player on headset connect
+AoD: Always force brightness updates on pause
+Camera: Use default prop for Privileged App List
+Fix AoD front scrim being opaque at DOZE_PULSING
+Fix NPE with void android.view.VelocityTracker.clear()
+Lockscreen weather Soli port: more code improvements
+Reland "Apply front scrim to doze pulsing"
+Use VibrationEffect for in call vibration
+
