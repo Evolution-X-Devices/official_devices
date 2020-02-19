@@ -1,0 +1,349 @@
+=======================
+     02-19-2020
+=======================
+
+
+   * frameworks/base/
+b34dac8b5cd SystemUI: update Bluetooth battery level assets.
+5a768e6ac91 Revert "SystemUI: use LayerDrawable for status bar bt icon"
+d9005915ad8 Settings: Add FOD icon picker settings values to backup
+23d89144711 AOD qs tile: Launch LockscreenDisplaySettings on long click
+be9cd045d70 Immersive tile: automatically disable immersive mode when in Settings
+81a3828f7c5 Re-add settings to relax device ID access restrictions [1/2]
+7c11e93105a Fix AnimatedImageDrawables using ByteBuffers
+43899a854d8 Fix black image wallpaper issue
+5862e5b9ee3 Refine battery saver footer string
+adea732e7d3 Ignore null package names on AppIdleHistory writes
+5611dd96503 Process: Use audio-app cpuset if available
+8c8ddc09a41 ColorBucket: Add custom overlays category to ThemeOverlayManager [2/3]
+0bc4e11e17e SystemUI: Add fire_ice_ouroboros style FOD icon [1/2]
+48c1209daca Add config to use base rounded corner radius for window animation
+c256e5edfa8 SystemUI: Add BlueFirework recognizing FP animation [1/2]
+
+   * packages/apps/Evolution/
+56a5e83 Evolution: Re-add settings to relax device ID access restrictions [2/2]
+8d8a287 Evolution: ColorBucket: Add a custom overlay preference controller [1/3]
+7c1e584 Evolution: Add fire_ice_ouroboros style FOD icon [2/2]
+
+   * packages/apps/Settings/
+3b4360df3d Settings: Include device model in About phone
+c26f85bb3a Settings: Brand new logo
+c7d27bd2de Settings: Add Lockscreen display activity to use as shortcut in the QS tile
+1aae71d24b Settings: Avoid rendering hidden preferences
+579d94f668 Fix for User edit info dialog during rotation
+92fa74d815 Settings: Show build codename
+e41daafc79 Revert "Settings: For Kobe & GiGi #RIP"
+
+   * system/core/
+68c7eb894 Add cpu set for audio app
+93170b465 sched_policy: add audio cpuset for audio app
+55ee234e9 Reapply QC blkio cgroup support value adds using new task_profiles
+
+   * vendor/aosp/
+73813ed2 ColorBucket: Add Solarized Dark theme
+a5dcb247 ColorBucket: Update all our themes
+c7734d7c ColorBucket: add a few new dark theme shades [3/3]
+2bc94020 version: Update to 4.1.420
+
+=======================
+     02-18-2020
+=======================
+
+
+   * manifest/
+900beea README: Update banner
+
+=======================
+     02-17-2020
+=======================
+
+
+   * manifest/
+4a67bc1 manifest: Track our build_soong
+
+   * vendor/aosp/
+793b3bb2 configs: Make Pixel Charge Animation switchable
+3cc532bc vendor: Optimize Pixel charger animation
+5d4609db vendor: Use Pixel charger animation
+1516807d kernel: remove x86 target support
+
+   * vendor/pixelstyle/
+9e34755 pixelstyle: Remove remaining Lawnchair mess
+eee57e3 pixelstyle: Import modded Longshot app
+
+=======================
+     02-16-2020
+=======================
+
+
+   * vendor/aosp/
+ba32a535 common: Copy APN list to $(TARGET_COPY_OUT_PRODUCT)/etc
+8409e066 config: Add NexusLauncherRelease to PRODUCT_DEXPREOPT_SPEED_APPS
+135772d9 config: Dexpreopt speed compile SystemUI instead of SystemUIGoogle
+5134c28f config: Add SysUI to PRODUCT_DEXPREOPT_SPEED_APPS
+
+=======================
+     02-15-2020
+=======================
+
+
+   * build/soong/
+8a798494 Allow curl to be executed on soong build
+
+=======================
+     02-14-2020
+=======================
+
+
+   * frameworks/base/
+f09cd41b64e Fix nav bar leak in SystemUI
+d65350151b3 AndroidManifest: add a permission group for signature spoofing
+
+   * hardware/custom/interfaces/
+99f2974 aw2013: Fix typo in condition line
+
+   * hardware/libhardware/
+f5a4781e Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * manifest/
+f488a8c manifest: Use correct    * naming scheme for legacy sepolicy
+f74dc0c manifest: Track toybox from lineage
+
+   * packages/apps/Bluetooth/
+08910635 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/Evolution/
+e635c84 Evolution: Add BlueFirework recognizing FP animation [2/2]
+
+   * packages/apps/Settings/
+1d73c612ce Settings: Fix QRCamera crash
+4e61faed68 Bug:PreferredNetworkModePreferenceController.java not being refreshed
+
+   * packages/services/BuiltInPrintService/
+df29f2c Make strings translatable
+
+   * system/bt/
+9c6864dba Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform/system/bt into ten
+
+   * vendor/aosp/
+4241c2dc prebuilt: backuptool: Drop addond version check on A-only
+
+=======================
+     02-13-2020
+=======================
+
+
+   * frameworks/base/
+107de6f2434 SystemUI: Add MIUI 11 VoLTE icon [1/2]
+9689ccc6adf Add upgrade step to fix system sounds issue
+
+   * packages/apps/Evolution/
+5ea3d68 Evolution: Add MIUI 11 VoLTE icon [2/2]
+
+=======================
+     02-12-2020
+=======================
+
+
+   * frameworks/base/
+dd4d3b3c523 RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+41d0ee97aa6 Change layout of ToggleAction for GlobalActionsDialog
+0041f0dfd73 Battery percentage: Fix cut off issue in the keyguard
+d79afe7b486 ProgressBar: Media volume bar indicates a wrong value
+cf4a0aa46b3 Context-aware Bluetooth airplane mode
+f446e0bc7a2 Revert "Context-aware Bluetooth airplane mode"
+75366baa7ad fwb: Increase Longshot timeout to 2 seconds
+067b7d2fbe9 fwb: Port extended screenshot function from OOS
+fd51dc2894c QS tiles: update more vectors
+620986c2b01 QS CaffeineTile: update vector
+55106a245fc QS ScreenshotTile: Use the same toggle from optional screenshot type
+e5526786daa QS brightness slider: Update brightness thumb vector
+9d68dd1e530 base: conditionally skip scan /vendor/overlay for static overlays
+1abc26b6f29 AoD: Always force brightness updates on pause
+934b4b06a6f Revert "DozeUi: do not prepare for gentle wakeup"
+1dc3d86faa0 SystemUI/AndroidManifest.xml: Override authorities for providers
+7604d50b475 Lockscreen weather Soli port: more code improvements
+96d0fe5e6d1 Fix NPE with void android.view.VelocityTracker.clear()
+4750f8d5179 Camera: Use default prop for Privileged App List
+d12f2ffaadf Camera: Ignore torch status update for aux or composite camera
+355a5ac203d Add missing hide flag to public deviceHasSoli api
+44fb902ee81 Disable Wake to Ambient on Soli devices [1/2]
+f0b06c1dbc1 By default turn off Ambient on wake gestures.
+8d69a54c6b4 GlobalScreenshot: do not capture multiple screenshots simultaneously
+b00064ec989 ScreenshotSelector: mark externally unused functions as private
+83f087b6460 SystemUI: Hide gradient behind QS panel
+d441a367dbe SystemUI: Hide QS divider
+8ebb25ba461 SystemUI: Nope. This shouldn't be here
+eb6208283d4 SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+ca598f268b5 SystemUI: Lockscreen weather code fixes
+8224d59429a SystemUI: block gestural navigation when using partial screenshot
+96aae42741f SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+0dd74c71fd7 Revert "SystemUI: QS: Fix mobile data usage qs details view content"
+984d71dbf46 SettingsLib: Add strings for Battery settings dashboard summary
+3997439ae32 base: use correct fingerprint to clear cache dirs on update
+ccd19812e64 base: replace Evolution fingerprint with ro.build.date
+e7c3f96ada2 Partially Revert "Store Evolution fingerprint for package data"
+5e91c35d405 base: omnistyle: Stinky workaround for header shadow and tinted images
+5660d089ef9 base: Lower the internal audio capture restriction
+4d1f53dd0a7 base: Keyguard: Fix some ugly code and save a lot of runtime
+c58cf1d7f8c base: Fix unnecessary truncation in Slice
+967c616099e base: Add OVERRIDE_WIFI_CONFIG on phone priv-app whitelist
+174b7436778 FODCircleView: cleanup FOD customization techniques
+6535abc9c16 SystemUI: Add PureView recognizing FP animations [1/2]
+36e094ffa46 SystemUI: Add OP Recognizing FP animations [1/2]
+1c77f1517db SystemUI: Recognizing FP animation effects [1/2]
+b7747eb9eab FODCircleView: Recognizing fingerprint animation [1/2]
+71676a2dfca FODCircleView: disable touch detection on screen off
+803b77e602d FODCircleView: only move in Y direction
+9c4da7abb75 FODCircleView: Don't show circle if already Authenticated
+b72a72fda80 SystemUI: Add scratch style FOD icons [1/2]
+8ad26c95bdd SystemUI: Bring back good ol' circle battery style [1/2]
+a1faa51030a SystemUI: Disable/Enable screenshot sound [1/2]
+8e3aa28082f Revert "base: Allow disabling of screenshot shutter sound [1/2]"
+ec5ef883359 base: Settings: Backup more values
+ee430b222a2 fw_base: Added features flash-call-on-waiting [1/3]
+a2c1e962297 AudioDeviceInventory: launch default music player on headset connect [1/2]
+15a955bc39b base: Add Touch HIDL support
+ac439931981 Toasts: Use a snackbar-like animation
+8292a18f9e8 Toasts: use fast toast enter/exit animations
+ff51e82e096 toasts: Use Animation_Toast_Material
+b10a3543cc4 Fix: No text in toast for RTL layout
+076f73c1e4d core: Materialize Toast notifications
+24a47bda9c1 [SQUASH] Revert older toast commits
+2ecf5f2a873 SystemUI: Introduce Adjustable Blur Intensity [1/2]
+fbd918bb928 base: Allow controlling QS blur alpha [1/2]
+a9c06b21c9c update qs blur keyguard check
+1aa6b12db36 Make QS blur togglable [1/2]
+68b9e00568d Blur behind quick settings
+83f14d2fb37 ImageUtilities: A utility that's able to take screenshots via screenshotSurface and to blur images via blurImage
+8e207dd8edd SystemUI: Fix minute digits for accent based lockscreen clock style
+44e3a23c84c Updates to various icons
+66207506518 SystemUI: Make tri-state SystemUI dialog dimensions conditional
+15b4b8a6f5c Partial screenshot: Layout improvements
+a703a354d5b PowerMenu: Fix items not tinting correctly in landscape
+2069a4e6816 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform/frameworks/base into ten
+
+   * packages/apps/Evolution/
+d7fe05a Evolution: Add PureView recognizing FP animations [2/2]
+e8bc42b Evolution: Add OP Recognizing FP animations [2/2]
+5a199cd Evolution: Recognizing FP animation effects [2/2]
+241a561 Evolution: Recognizing fingerprint animation [2/2]
+926f296 Evolution: Add scratch style FOD icons [2/2]
+d50aaa5 Evolution: Bring back good ol' circle battery style [2/2]
+bcec272 Evolution: Added features flash-call-on-waiting [3/3]
+804176a Evolution: launch default music player on headset connect [2/2]
+63e392b Evolution: Move ANBI switch to the right category
+f32eda4 Evolution: Add Statusbar Icon Picker from Styles & Wallpapers
+
+=======================
+     02-11-2020
+=======================
+
+
+   * bionic/
+aaf3166a0 bionic: Support wildcards in cached hosts file
+
+   * build/soong/
+4bf4f9c3 Merge "soong: use -mcpu=cortex-a55 for kryo300 and kryo385" into ten
+09b67b48 Merge "Define AArch32 soong variable" into ten
+69639f93 soong: do not use compression upon creating zip(jar) files
+3c7bfa3f Allow the flock for kernel builds
+
+   * device/custom/sepolicy/
+01835f8 snap_app: Allow binder call with gpuservice
+
+   * frameworks/av/
+a0ada9856 Camera: Check consumer interface before disconnecting
+7bf1b4702 libstagefright: Fix memory leak due to lock timeout
+ab6f4e06d Revert "cameraservice: Resolve message vs start/stop preview races"
+a941462bf libcameraservice: Don't pass NULL args on setCallbacks call
+
+   * frameworks/native/
+e7cefe9d7 sf: Check memory allocations at interval of 300 frames
+bb7eb541f SurfaceFlinger: Use default initializer for layer stats
+0589399f4 sf: Restart model sync on fps change.
+a63c643d0 Update SurfaceFlingerProperties scope
+
+   * hardware/qcom/gps/
+b89f411 Revert "Revert "Remove etc folder under hardware/qcom/gps""
+a37b11c Revert "Revert "Handle updating the carrier configuration""
+
+   * packages/apps/Settings/
+c3ef40dceb Settings: Disable/Enable screenshot sound [2/2]
+c498a5c895 Revert "Settings: Allow disabling of screenshot shutter sound [2/2]"
+
+   * system/sepolicy/
+153c9869 sepolicy: Address denials for legacy last_kmsg file
+c74d5f72 Allow init to write to /proc/cpu/alignment
+
+   * vendor/aosp/
+fcb312ac vendor: Define isStatic argument on setupwizard overlay
+
+=======================
+     02-10-2020
+=======================
+
+
+   * packages/apps/CertInstaller/
+ccd51e1 Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27
+
+=======================
+     02-09-2020
+=======================
+
+
+=======================
+     02-08-2020
+=======================
+
+
+   * external/toybox/
+ea9dd1e7 toybox: Restore support for toybox_static binary
+
+   * packages/apps/Settings/
+eb4ca3079a QS tiles: update vectors
+
+   * packages/services/BuiltInPrintService/
+df1df41 support share-to-print of images and PDFs
+241a845 Import translations. DO NOT MERGE
+ee64efe refactor to avoid compiler warning
+6f013ac [BuiltInPrintService] fix -W-Wreorder-init-list
+949ac5f Import translations. DO NOT MERGE
+61ae3cf Move back strings to AOSP
+
+   * vendor/aosp/
+5546308c config: Drop org.evolution.fingerprint
+
+=======================
+     02-07-2020
+=======================
+
+
+   * device/custom/sepolicy/
+fe8fe40 sepolicy: Add rules for Long screenshot service
+
+   * packages/services/Telecomm/
+acc88941 Telecomm: Use VibrationEffect for in call vibration
+cefbb87a Telecomm: Added features flash-call-on-waiting [2/3]
+
+=======================
+     02-06-2020
+=======================
+
+
+   * frameworks/av/
+e774d9f30 cameraservice: move client_package_name to data/misc
+2c6fe2864 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+75f3350fa Camera: Skip stream size check for whitelisted apps.
+
+   * packages/apps/Settings/
+ba0238bf7f Settings: Fix crash when going back from battery
+ec7a616ce4 Settings: fuelgauge: add back battery level animation
+1b5a457876 Settings: Fix usage of ChooseLockSettingsHelper
+ee6460dcce Settings: Update raw animations and drawables from Pixel 4 XL
+f6724af89c Revert "Settings: Add all gesture preview animations"
+59838f8e73 Settings: Adaptive brightness: Fix summary fuckery
+
+   * vendor/aosp/
+96c458c8 vendor: soong: add target_needs_client_info
+
