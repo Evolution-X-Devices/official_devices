@@ -1,0 +1,375 @@
+Changelogs
+
+
+2/25
+
+base: Let's shrink file headers bigger than the device size
+DigitalClock: Use system fonts
+Flashlight toggle api improvements
+Ims: Add support for "Ims Preferred" WFC Preference
+Power button flashlight toggle: rely on aosp doze sensors check code
+Power flashlight: allow to use it when all ambient/wake options are off
+Settings: wifi: Remove Qr Code scanner during Modify Network option
+
+Alert slider: Do not hardcode slider position based on ringer mode
+
+2/23
+
+Alert slider: Work better with Key Handlers
+Expose auto night mode sunset and sunrise values on API
+Fix: dummy deviceKey is not correct if real device with dummy addr exist
+Make resolver list layouts have round corners
+Settings: Expose the notification log
+Use MD2 icon for missed call notification
+
+SystemUI: Add new FOD pressed state icons
+SystemUI: Separate FODAnimation into it's own class
+
+2/21
+
+aacenc: fix possible shift in remainder
+aacenc: handle and warn overlapping timestamps
+aacenc: handle input size not aligned at sample boundary
+Add Network Preference Bitmaps
+Add vibration patterns from OOS
+Added usage to init call for audiostream registration
+bufferpool@2.0 tune eviction params
+build: Add vendor.prop and odm.prop capability
+Capping buffer size to std::numeric_limits<size_t>::max()
+Changed BufferLayer's canReceiveInput to check if its hidden by policy
+codec2: read fallback ION params from system properties
+EGL: Fix repeated extension lookups
+Enable deep press by default
+Fix a noise issue caused by random value of byteOrder
+Fix exception when delete an uninitialized object
+Fix memory leak in MPEG2PSExtractor
+Fix native exception occurred when seeking mp4 file
+Fix out of bounds access
+Fix secondary output under&over run
+Fix Settings creating too many threads unexpectedly
+Fixing crash on allocation
+g711 channel count limits
+libgui: Add discardFreeBuffers callback to producer
+mediaswcodec: Set "default" as preferred service
+mTraits is used without been locked
+releasetools: Use 0oXXX instead of 0XXX for octal
+Settings: Always use local timezone for parsing date
+Settings: Fix Settings crash when clicking Notifications 
+Settings: Fix the MMS messages toggle preference not working
+SystemUI: Add a toggle for the new QS tint
+validate width*height doesn't overflow in image file
+vorbisdec: support 192Khz sample rate for vorbis
+vpxdec: handle non-display frames
+
+Add ColorOS7 recognizing FP animations
+TouchGestures: Add ambient as a gesture action
+TouchGestures: Fix KeyHandler for opening messaging app
+
+2/20
+
+Add Custom Text Clock Customizations
+Allow SBC as HD audio codec in Bluetooth device configuration
+Base: Fix Settings creating too many threads unexpectedly
+Bluetooth: Add SBC Dual Channel (SBC HD Audio) support
+Bluetooth: Assume optional codecs are supported if were supported previously
+Bluetooth: Check Null-safeness when switching optional-codecs state
+Bluetooth: Fix BT stability issues
+base: fix TwilightService start and initial location update
+Changing app classification logic from manifest-based to WLC-based
+Clamp brightness thresholds to the maximum brightness
+Don't disable GPS in Doze until the device is stationary
+Fix for Surface#lockHardwareCanvas lockups
+Fix Jank when factory resetting
+fix on ActivityManagerService.LocalService.getCurrentUserId()
+Fix: dummy deviceKey is not correct if real device with dummy addr exist
+Force a garbage collection after lockscreen verification
+Issue a warning when the user switching dialog times out
+Keyguard should be dismissed if there is no trusted device
+KeyguardIndicationController: Protect updateChargingIndication() from NPE
+Lockscreen Clock Styles: Introduce Q style text clock
+Make emergency notification dismissable
+Make smart actions icon to respect dark theme setting
+Settings: Add a dark theme slice
+SystemUI: Add a toggle for the new QS tint
+Settings: Add Dual Channel into Bluetooth Audio Channel Mode developer options
+Settings: DarkUIPreferenceController null exception
+Settings: Fix Battery icon is too large
+Settings: Fix Settings creating too many threads unexpectedly
+Settings: Sync bluetooth battery meter dimen from SystemUI
+SystemUI: custom keyguard clock kick off
+SystemUI: Fix keyguard charging NPE
+SystemUI: fixup analog clock for aod support
+Try to rebind disconnected wallpaper service for 10 seconds
+TypeClock: adapt to changes in keyguard
+
+FODCircleView: Fix position if cutout is hidden
+FODCircleView: Fix position on keyguard if cutout is hidden
+SystemUI: Move charging animation above FOD icon if In-display fingerprint is active
+
+2/18
+
+AOD qs tile: Launch LockscreenDisplaySettings on long click
+Ambient qs tile: Launch Ambient advance settings on long click
+ColorBucket: add a few new dark theme shades
+Fix AnimatedImageDrawables using ByteBuffers
+Fix black image wallpaper issue
+Ignore null package names on AppIdleHistory writes
+Immersive tile: automatically disable immersive mode when in Settings
+Process: Use audio-app cpuset if available
+Re-add settings to relax device ID access restrictions
+Refine battery saver footer string
+Remove buggy Dark theme scheduling
+Remove buggy Screen stabilization
+Settings: Add Lockscreen display activity to use as shortcut in the QS tile
+Settings: Avoid rendering hidden preferences
+Settings: Brand new banner logo
+Settings: Fix for User edit info dialog during rotation
+Settings: Include device model in About phone
+Settings: Show build codename
+SystemUI: update Bluetooth battery level assets
+Version: Update to 4.1.420 The Return
+Add FOD icon picker settings values to backup
+SystemUI: Add fire_ice_ouroboros style FOD icon
+
+2/17/2020
+
+* Pixel Charge from POSP
+* Color Bucket from ArrowOS
+* Uprev to 4.1.420
+
+2/14/2020
+
+Add Screen stabilization support
+
+AndroidManifest: add a permission group for signature spoofing
+
+Dark theme twilight mode backend and tile
+
+Fix nav bar leak in SystemUI
+
+Keyguard: ReInflate views when density or font scale change
+
+Settings: Add settings for scheduling dark theme
+
+Settings: Bug:PreferredNetworkModePreferenceController.java not being refreshed
+
+Settings: DarkUIPreferenceController null exception
+
+Settings: Fix QRCamera crash
+
+Add BlueFirework recognizing FP animation
+
+2/13/2020
+
+Add upgrade step to fix system sounds issue
+
+SystemUI: Add MIUI 11 VoLTE icon
+
+2/12/2020
+- RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+
+2/11/2020
+- Battery percentage: Fix cut off issue in the keyguard
+- Camera: Check consumer interface before disconnecting
+- Change layout of ToggleAction for GlobalActionsDialog
+- libcameraservice: Don't pass NULL args on setCallbacks call
+- libstagefright: Fix memory leak due to lock timeout
+- ProgressBar: Media volume bar indicates a wrong value
+- Re-implement Context-aware Bluetooth airplane mode
+- Re-implement Disable/Enable screenshot sound toggle
+- Remove QS tint changes
+- sepolicy: Address denials for legacy last_kmsg file
+- Sepolicy: snap_app: Allow binder call with gpuservice
+- Sepolicy: Allow init to write to /proc/cpu/alignment
+- sf: Check memory allocations at interval of 300 frames
+- sf: Restart model sync on fps change
+- SurfaceFlinger: Use default initializer for layer stats
+- SystemUI/AndroidManifest.xml: Override authorities for providers
+- Update SurfaceFlingerProperties scope
+- vendor: Define isStatic argument on setupwizard overlay
+
+2/9/2020
+
+Fix new battery styles not being able to use percents options
+
+2/8/2020
+- Fixed disabling of screenshot shutter sound
+- Optimize Pixel offline charging animation
+- Re-implement extended screenshot AKA Longshot
+- SystemUI: Hide QS divider
+- SystemUI: replace pulse light drawable with Omni's vector
+
+2/7/2020
+- base: Keyguard: Fix some ugly code and save a lot of runtime
+- base: replace Evolution fingerprint with ro.build.date
+- base: use correct fingerprint to clear cache dirs on update
+- QS brightness slider: Update brightness thumb vector
+- QS tiles: update more vectors
+- Settings: QS tiles: update vectors
+- SystemUI: Hide gradient behind QS panel
+
+2/6/2020
+- Added Big Circle battery style
+- Added flash-call-on-waiting option
+- Added option to launch default music player on headset connect
+- AoD: Always force brightness updates on pause
+- Camera: Use default prop for Privileged App List
+- Fixed AoD front scrim being opaque at DOZE_PULSING
+- Fixed NPE with void android.view.VelocityTracker.clear()
+- Lockscreen weather Soli port: more code improvements
+- Reland "Apply front scrim to doze pulsing"
+- Now use VibrationEffect for in call vibration
+
+2/5/2020
+- Add missing hide flag to public deviceHasSoli api
+- Added classic Circle battery style from CM
+- Fixed unnecessary truncation in Slice
+- base: Increase Longshot timeout to 2 seconds
+- base: Longshot: Whitelist to use hidden APIs
+- base: Lower the internal audio capture restriction
+- base: omnistyle: Stinky workaround for header shadow and tinted images
+- Camera: Ignore torch status update for aux or composite camera
+- Disable Ambient on wake gestures by default
+- Disable Wake to Ambient on Soli devices
+- GlobalScreenshot: do not capture multiple screenshots simultaneously
+- Merged February 2020 security patch changes
+- ScreenshotSelector: mark externally unused functions as private
+- Settings: Adaptive brightness: Fix summary fuckery
+- Settings: Fix crash when going back from battery
+- Settings: Fix usage of ChooseLockSettingsHelper
+- Settings: fuelgauge: add back battery level animation
+- Settings: Update raw animations and drawables from Pixel 4 XL
+- Settings: Use IEC units in app info data usage
+- SystemUI: add Ambient Lights always on hide aod content option
+- SystemUI: Add an option to pulse edge light for all doze triggers
+- SystemUI: Allow limiting edge lighting repeats
+- SystemUI: block gestural navigation when using partial screenshot
+- SystemUI: kill any leftover notification pulse on new pulse start
+- SystemUI: Lockscreen weather code fixes
+- SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+- SystemUI: only call showAodContent(true) if we are still on the keyguard
+- SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+- SystemUI: Pulse light accent color option
+- SystemUI: re-implement Pulse and Ambient notification bars
+- SystemUI: Tint QSTile icon with accent color
+- SystemUI: trigger pulse light only for notifications
+- SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
+
+
+2/02
+     - Merge February security patch
+     - Update evo version to 4.1 
+     - fod: Don't invoke callbacks when fod circle is not visible 
+     - Upgrade SQLite to 3.31.1
+     - SystemUI: Tint QSTile icon with accent color
+
+1/31 
+        base: Add Touch HIDL support (screen off touch gestures)
+        Improve toast implementation
+        RecordingService: Use existing screen recorder icon
+        Screen Recorder: Correctly display notification title 
+        Screen Recorder: Don't show Heads Up notification
+        Settings: Add preference for TouchGestures 
+        Settings: Desktop backup password: Tint buttons to match system theme
+        Settings: Fix icon tinting in power detail pages 
+        Settings: Fix settings dashboard summary while dash & warp charging 
+        Settings: Power detail pages: Finish off the rest of the icon tinting       Settings: Themes: make sure settings shortcut icons follow system accent 
+        SystemUI: tiles: Migrate to new screenshot method with Longshot support 
+
+1/30 
+        Allow controlling QS blur alpha
+        Add option to blur QS 
+        base: Whitelist more permissions needed for SystemUIGoogle   Bring back system screen recorder (QS & Power Menu)
+        Bluetooth: Fix BT stability issues 
+       Updates to "Context-aware Bluetooth airplane mode" 
+       PowerMenu: Fix items not tinting correctly in landscape 
+       Partial screenshot: Layout improvements 
+       SystemUI: Fix minute digits for accent based lockscreen clock style SystemUI: Introduce Adjustable Blur Intensity Updates to various icons 
+
+1/27 
+        Add Option to disable night light on FOD 
+        Always keep clock widget visible while dozing 
+        Date styles: Add Bootleg's styles 
+        Date styles: Add Q beta pill 
+        Decrease line spacing in sammy clock styles 
+        Introduce lockscreen date styles
+        Introduce RGB Accent Picker 
+        overlays: Remove AOSP Accents 
+        Network Traffic: remove status bar animation 
+        Refactor lockscreen clock/date styles
+        ScreenshotHelper: ignore timeout when taking partial screenshots                  Settings: For Kobe and Gianna 
+       SettingsLib: Don't show system overlays on apps list
+       SystemUI: fix accent based lockscreen clocks
+       SystemUI: implement better partial screenshot 
+       SystemUI: Make header image height offset user configurable   SystemUI: Option to hide lockscreen clock & date
+       SystemUI: QS header color picker 
+       SystemUI: respect status bar header height also in edit mode FODCircleViewImpl: Add option to disable night light on FOD 
+
+1/26 
+       SystemUI: Bring back ic_qs_bluetooth_connected.xml 
+       Check CellInfoCallback Detail for Null
+
+1/25 
+         - Avoid system reboot while invalidate LegacyGlobalAction 
+          - core: Conditionally set camera intents for camera state 
+          - SystemUI: Add CAF VoLTE HD icon 
+          - SystemUI: change opacity of QS Tile background 
+          - SystemUI: Tint QS Tile icon with accent color 
+          - SystemUI: QS: Sync tile: make it behave like every other tile 
+          - wm: DisplayRotation: Limit WFD UIBC rotation to primary displays 
+
+1/24 
+          - SystemUI: improve the VPN footer layout 
+          - SystemUI: Remove lockscreen charging info 
+          - SystemUI: use headline font for vpn 
+          - Volume panel: Adjust the left padding 
+          - Volume panel: avoid multiple animations on touch spam 
+1/23 
+          - Remove option to disable Lockscreen Media Art 
+          - Settings: Disable dashboards conditions and suggestions by default 
+          - Settings: Show a warning dialog before network search 
+
+1/22 
+          - Re-add WPS implementation 
+          - Settings: Show a warning dialog before network search
+          - SystemUI: Use color accent for user avatar default color
+          - Telecomm: Add synchronized lock when set call state ANSWERED 
+          - [FOD] FODCircleView: Dont change alpha of fod on AOD 
+
+1/21 
+         - Camera: Avoid removing valid repeating requests
+         - Disable long click for SoundSearch tile 
+         - Fix StorageManagerService linkToDeath more than one time when vold/storage died
+         - Fixes to Notification ticker feature - Fonts: Restore light font styling of AOSP
+         - Fonts: Wire up default fonts with font engine
+         - Make NtpTrustedTime safer / expand docs 
+         - PrivacyChip: Do not change view on expand
+         - Properly set fonts and icons on keyguard when changing styles
+         - QSFooterImpl: Animate multiuser avatar
+         - QuickStatusBar: Check for permissions hub before setting ignore list 
+         - Remove option to Unlock keystore with fingerprint after reboot 
+         - Rename PH accent color overlay to Oh So Orange
+         - RIL: Fix manual network selection with old modem
+         - Settings: Add vibration intensities 
+         - Settings: Use global fonts in styles
+         - SystemUI: Add tuner switches for privacy icons
+         - SystemUI: Fixes to Notification ticker feature 
+         - SystemUI: Show charging status in addition to trust granted/transient status
+         - Telecomm: Add synchronized lock when set call state ANSWERED
+         - Update tracking repos to Lineage 17.1 branch 1/18-19
+         - Add whitelist permissions needed for SystemUIGoogle 
+         - base: Fix list style alert dialog to use system font 
+         - Bring back capability to allow tethering to use VPN upstreams
+         - Settings: Fix textApperance of our modified gesture dialog 
+         - SystemUI: QS: Fix mobile data usage qs details view content 
+         - SystemUI: QS: make Cellular tile DualTarget 
+         - SystemUI: Use matching data usage size formatting between QS and Settings 
+
+Device Changelogs:
+        - Fixed Data toggle issue 
+        - Minor Stability improvements
+
+Honourable Mentions:-
+Zeelog
+MonolRey
+Sumit
