@@ -1,0 +1,68 @@
+Twolip:
+- Fix hotspot (2.4 & 5ghz)
+- Revert google wifi ext (totally not related to hotspot)
+- Remove HD icon from ims apk method
+- (HD notification is actually gone now)
+- Revert back to twolip model
+
+2/25
+base: Let's shrink file headers bigger than the device size
+DigitalClock: Use system fonts
+Flashlight toggle api improvements
+Ims: Add support for "Ims Preferred" WFC Preference
+Power button flashlight toggle: rely on aosp doze sensors check code
+Power flashlight: allow to use it when all ambient/wake options are off
+Settings: wifi: Remove Qr Code scanner during Modify Network option
+
+Alert slider: Do not hardcode slider position based on ringer mode
+
+2/23
+Alert slider: Work better with Key Handlers
+Expose auto night mode sunset and sunrise values on API
+Fix: dummy deviceKey is not correct if real device with dummy addr exist
+Make resolver list layouts have round corners
+Settings: Expose the notification log
+Use MD2 icon for missed call notification
+
+SystemUI: Add new FOD pressed state icons
+SystemUI: Separate FODAnimation into it's own class
+
+2/21
+aacenc: fix possible shift in remainder
+aacenc: handle and warn overlapping timestamps
+aacenc: handle input size not aligned at sample boundary
+Add Network Preference Bitmaps
+Add vibration patterns from OOS
+Added usage to init call for audiostream registration
+bufferpool@2.0 tune eviction params
+build: Add vendor.prop and odm.prop capability
+Capping buffer size to std::numeric_limits<size_t>::max()
+Changed BufferLayer's canReceiveInput to check if its hidden by policy
+codec2: read fallback ION params from system properties
+EGL: Fix repeated extension lookups
+Enable deep press by default
+Fix a noise issue caused by random value of byteOrder
+Fix exception when delete an uninitialized object
+Fix memory leak in MPEG2PSExtractor
+Fix native exception occurred when seeking mp4 file
+Fix out of bounds access
+Fix secondary output under&over run
+Fix Settings creating too many threads unexpectedly
+Fixing crash on allocation
+g711 channel count limits
+libgui: Add discardFreeBuffers callback to producer
+mediaswcodec: Set "default" as preferred service
+mTraits is used without been locked
+releasetools: Use 0oXXX instead of 0XXX for octal
+Settings: Always use local timezone for parsing date
+Settings: Fix Settings crash when clicking Notifications 
+Settings: Fix the MMS messages toggle preference not working
+SystemUI: Add a toggle for the new QS tint
+validate width*height doesn't overflow in image file
+vorbisdec: support 192Khz sample rate for vorbis
+vpxdec: handle non-display frames
+
+Add ColorOS7 recognizing FP animations
+TouchGestures: Add ambient as a gesture action
+TouchGestures: Fix KeyHandler for opening messaging app
+
