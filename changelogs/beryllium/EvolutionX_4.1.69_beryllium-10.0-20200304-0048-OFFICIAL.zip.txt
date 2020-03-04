@@ -1,0 +1,96 @@
+=====================
+Device Changelog
+=====================
+
+- Fixed wfd
+- Fixed statusbar padding while in landscape mode
+- Performance improvements
+- Some more misc fixes
+
+=====================
+Rom Changelog
+=====================
+
+3/3/2020
+- Merged March security patches
+- ime_switcher padding same as navbar buttons
+- Start BiometricService even if no hardware is present
+
+3/2/2020
+- Settings: Match IME space for back gesture toggle with other switches
+
+3/1/2020
+- base: add 3 button nav editor back to tuner
+- base: SystemUI: fix debug drawing lines for icon containers
+- Do not remove RRO resources
+- dtbo: Sort the files we found
+- Fix crash loop due to broken packages.xml around updated-package
+- fs_mgr: autodetect filesystem type
+- Settings: dont block IME space for back gesture
+- SettingsProvider: Disable Bluetooth by default
+- SystemUI: Show charging status in addition to trust granted/transient status
+- TextureView rebind GL texture, if AHB content has changed
+- vendor: Add fwk-detect namespace
+- Alert Slider: Improve layout
+
+2/29/2020
+- base: Use CustomTunerSettings in place of ExTunerSettings
+- Build: sign_target_apks: Add networkstack to default key_map
+- SettingsProvider: add time format default value settings
+- Tuner: Fix preference category not matching system theme
+- Use sub specific telephony for emergency supl
+
+2/28/2020
+- apn: Update Canadian carriers
+- base: Disable LiveDisplay low power consumption by default
+- base: Tiny fixes to Longshot
+- Cleanbuild: Remove build/.bootstrap directory when using installclean
+- Cleanbuild: Remove kernel paths and a few other files
+- Evolution: Rebrand Ambient Light to Horizon Light settings
+- Fix an issue wrong network operator name is displayed on MSIM devices
+- Fix carrier config option not hidden on a CDMA phone
+- Fix non-protected broadcasts sent from phone process
+- gallery_app: Allow binder call with gpuservice
+- Handle ParcelableException instead of crashing system server
+- Keyguard: Fix failed unlock attempt dialog button
+- Re-implement In-call vibration haptics options
+- sepolicy: Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1
+- sepolicy: Nuke sdfat from genfs
+- Settings: Respect default vibration strength
+- SystemUI: AODTile: Use MD2 Icon
+- tasks: dtbo: Add support for custom dtbo generation rules
+- Telecomm: Use EFFECT_CLICK for vibrate on call connect
+- Telephony: add permission to change wifi hotspot settings
+- Telephony: add some org.codeaurora.* to protected broadcasts
+- Telephony: remove developer mode dep for showing euicc pref
+- Telephony: Use build date to check for system update
+- Alert Slider: Add toggle to disable notifications
+- SystemUI: Add OP Ripple animations
+- SystemUI: Update OP FOD animations
+
+2/27/2020
+- Add back gesture haptic feedback toggle
+- Add MicroG GmsCore to location providers
+- Allow zero stride
+- Enlarge EPSILON to 0.01 for android.display.cts.DisplayTest#testModeSwitch pass
+- Fix AoD front scrim being opaque at DOZE_PULSING.
+- Keyguard: ReInflate views when density or font scale change
+- pocket: Reduce sleep timeout for pocket lock
+- pocket: Use MD2 lock drawable
+- SystemUI: Increase back gesture vibration duration
+- Reland "Apply front scrim to doze pulsing"
+- Alert Slider: Apply theme more dynamically
+- Alert Slider: Clean up usage of Orientation Listener
+- Alert slider: Use default position behaviour if position not specified in intent
+- VibratorService: Fix double click effect with OnePlus vibrator format
+- VibratorService: update constant values for OnePlus HAL
+- VibratorService: Update ONEPLUS_EFFECT_TICK constant value
+
+2/25/2020
+- base: Let's shrink file headers bigger than the device size
+- DigitalClock: Use system fonts
+- Flashlight toggle api improvements
+- Ims: Add support for "Ims Preferred" WFC Preference
+- Power button flashlight toggle: rely on aosp doze sensors check code
+- Power flashlight: allow to use it when all ambient/wake options are off
+- Settings: wifi: Remove Qr Code scanner during Modify Network option
