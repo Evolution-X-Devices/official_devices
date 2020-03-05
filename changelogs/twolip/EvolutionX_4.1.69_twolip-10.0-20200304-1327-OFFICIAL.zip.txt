@@ -1,0 +1,53 @@
+Twolip:
+- Add more Airtel region MNC/MCC configs (should work across india now)
+- Update to Coral's march fingerprint 
+
+EvoX:
+3/4
+Bring back make aspect ratio hack configable on app level feature
+Settings: Add AGPS setting menu
+Settings: Always show last charged time
+Settings: Fix crash when going back from battery
+Settings: fuelgauge: add back battery level animation
+
+3/3
+Merge March security patches
+Pad ime_switcher same as navbar buttons
+Start BiometricService even if no hardware is present
+
+3/2
+Settings: Match IME space for back gesture toggle with other switches
+
+3/1
+base: add 3 button nav editor back to tuner
+base: SystemUI: fix debug drawing lines for icon containers
+Do not remove RRO resources
+dtbo: Sort the files we found
+Fix crash loop due to broken packages.xml around updated-package
+fs_mgr: autodetect filesystem type
+Settings: dont block IME space for back gesture
+SettingsProvider: Disable Bluetooth by default
+SystemUI: Show charging status in addition to trust granted/transient status
+TextureView rebind GL texture, if AHB content has changed
+vendor: Add fwk-detect namespace
+
+Alert Slider: Improve layout
+
+2/29
+base: Use CustomTunerSettings in place of ExTunerSettings
+Build: sign_target_apks: Add networkstack to default key_map
+SettingsProvider: add time format default value settings
+Tuner: Fix preference category not matching system theme
+Use sub specific telephony for emergency supl
+
+
+2/28
+apn: Update Canadian carriers
+base: Disable LiveDisplay low power consumption by default
+base: Tiny fixes to Longshot
+Cleanbuild: Remove build/.bootstrap directory when using installclean
+Cleanbuild: Remove kernel paths and a few other files
+Evolution: Rebrand Ambient Light to Horizon Light settings
+Fix an issue wrong network operator name is displayed on MSIM devices
+Fix carrier config option not hidden on a CDMA phone
+
