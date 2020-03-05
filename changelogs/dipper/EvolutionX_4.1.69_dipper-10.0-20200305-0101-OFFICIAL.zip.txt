@@ -1,0 +1,27 @@
+Device Changelog:
+~ Update to Twisted kernel v22
+~ Fix Auto brightness
+~ Adress some selinux denials
+~ Add changes from LineageOS
+
+ROM changelog:
+~ Allow screen unpinning on devices without navbar
+~ Bring back make aspect ratio hack configable on app level feature
+~ Bring back option to Disable Lockscreen Media Art
+~ Fix some crashes with lockscreen album art filter
+~ Port ADB over network and ability to hide the notification
+~ Settings: Add AGPS setting menu
+~ Settings: Allow setting SettingsSuggestion package in overlay
+~ Settings: Always show last charged time
+~ Settings: AnimationSeekbar: Accept digit values in the hundredths
+~ Settings: DevelopmentSettings: Always show ClearAdbKeysPreference
+~ Settings: Fix crash when going back from battery
+~ Settings: Implement ADB notification and ADB over network
+~ Settings: Remove obsolete LOCAL_JACK_ENABLED
+~ Settings: Use seekbar to allow setting arbitrary animation values
+~ Settings: fuelgauge: add back battery level animation
+~ SystemUI: Port pixel navigation bar
+~ ViewGroup: ensure preordered child views list is valid before trying to access
+~ fw/b torch: Let long press power turn torch off when screen is on
+~ lib/androidfw: Fix reversed logic
+~ move -Wno-implicit-fallthrough from cflags to cppflags
