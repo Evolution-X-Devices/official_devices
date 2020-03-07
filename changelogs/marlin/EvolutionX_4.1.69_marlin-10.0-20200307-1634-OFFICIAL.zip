@@ -1,0 +1,232 @@
+Device Changes:
+- Changed vendor tree
+- Updated device tree
+
+Source:
+3/5
+Allow screen unpinning on devices without navbar
+Bring back option to Disable Lockscreen Media Art
+Fix some crashes with lockscreen album art filter
+fw/b torch: Let long press power turn torch off when screen is on
+Gesture nav Assistant handles: don't show them in lockscreen
+lib/androidfw: Fix reversed logic
+move -Wno-implicit-fallthrough from cflags to cppflags
+Port ADB over network and ability to hide the notification
+Settings: Allow setting SettingsSuggestion package in overlay
+Settings: AnimationSeekbar: Accept digit values in the hundredths
+Settings: DevelopmentSettings: Always show ClearAdbKeysPreference
+Settings: Implement ADB notification and ADB over network
+Settings: Remove obsolete LOCAL_JACK_ENABLED
+Settings: Use seekbar to allow setting arbitrary animation values
+SystemUI: Port pixel navigation bar
+ViewGroup: ensure preordered child views list is valid before trying to access
+
+3/4
+Bring back make aspect ratio hack configable on app level feature
+Settings: Add AGPS setting menu
+Settings: Always show last charged time
+Settings: Fix crash when going back from battery
+Settings: fuelgauge: add back battery level animation
+
+3/3
+Merge March security patches
+Pad ime_switcher same as navbar buttons
+Start BiometricService even if no hardware is present
+
+3/2
+Settings: Match IME space for back gesture toggle with other switches
+
+3/1
+base: add 3 button nav editor back to tuner
+base: SystemUI: fix debug drawing lines for icon containers
+Do not remove RRO resources
+dtbo: Sort the files we found
+Fix crash loop due to broken packages.xml around updated-package
+fs_mgr: autodetect filesystem type
+Settings: dont block IME space for back gesture
+SettingsProvider: Disable Bluetooth by default
+SystemUI: Show charging status in addition to trust granted/transient status
+TextureView rebind GL texture, if AHB content has changed
+vendor: Add fwk-detect namespace
+
+Alert Slider: Improve layout
+
+2/29
+base: Use CustomTunerSettings in place of ExTunerSettings
+Build: sign_target_apks: Add networkstack to default key_map
+SettingsProvider: add time format default value settings
+Tuner: Fix preference category not matching system theme
+Use sub specific telephony for emergency supl
+
+
+2/28
+apn: Update Canadian carriers
+base: Disable LiveDisplay low power consumption by default
+base: Tiny fixes to Longshot
+Cleanbuild: Remove build/.bootstrap directory when using installclean
+Cleanbuild: Remove kernel paths and a few other files
+Evolution: Rebrand Ambient Light to Horizon Light settings
+Fix an issue wrong network operator name is displayed on MSIM devices
+Fix carrier config option not hidden on a CDMA phone
+Fix non-protected broadcasts sent from phone process
+gallery_app: Allow binder call with gpuservice
+Handle ParcelableException instead of crashing system server
+Keyguard: Fix failed unlock attempt dialog button
+Re-implement In-call vibration haptics options
+sepolicy: Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1
+sepolicy: Nuke sdfat from genfs
+Settings: Respect default vibration strength
+SystemUI: AODTile: Use MD2 Icon
+tasks: dtbo: Add support for custom dtbo generation rules
+Telecomm: Use EFFECT_CLICK for vibrate on call connect
+Telephony: add permission to change wifi hotspot settings
+Telephony: add some org.codeaurora.* to protected broadcasts
+Telephony: remove developer mode dep for showing euicc pref
+Telephony: Use build date to check for system update
+
+Alert Slider: Add toggle to disable notifications
+SystemUI: Add OP Ripple animations
+SystemUI: Update OP FOD animations
+
+2/27
+Add back gesture haptic feedback toggle
+Add MicroG GmsCore to location providers
+Allow zero stride
+Enlarge EPSILON to 0.01 for android.display.cts.DisplayTest#testModeSwitch pass
+Fix AoD front scrim being opaque at DOZE_PULSING.
+Keyguard: ReInflate views when density or font scale change
+pocket: Reduce sleep timeout for pocket lock
+pocket: Use MD2 lock drawable
+SystemUI: Increase back gesture vibration duration
+Reland "Apply front scrim to doze pulsing"
+
+Alert Slider: Apply theme more dynamically
+Alert Slider: Clean up usage of Orientation Listener
+Alert slider: Use default position behaviour if position not specified in intent
+VibratorService: Fix double click effect with OnePlus vibrator format
+VibratorService: update constant values for OnePlus HAL
+VibratorService: Update ONEPLUS_EFFECT_TICK constant value
+
+2/25
+base: Let's shrink file headers bigger than the device size
+DigitalClock: Use system fonts
+Flashlight toggle api improvements
+Ims: Add support for "Ims Preferred" WFC Preference
+Power button flashlight toggle: rely on aosp doze sensors check code
+Power flashlight: allow to use it when all ambient/wake options are off
+Settings: wifi: Remove Qr Code scanner during Modify Network option
+
+Alert slider: Do not hardcode slider position based on ringer mode
+
+2/23
+Expose auto night mode sunset and sunrise values on API
+Fix: dummy deviceKey is not correct if real device with dummy addr exist
+Make resolver list layouts have round corners
+Settings: Expose the notification log
+Use MD2 icon for missed call notification
+
+Alert slider: Work better with Key Handlers
+SystemUI: Add new FOD pressed state icons
+SystemUI: Separate FODAnimation into it's own class
+
+2/21
+aacenc: fix possible shift in remainder
+aacenc: handle and warn overlapping timestamps
+aacenc: handle input size not aligned at sample boundary
+Add Network Preference Bitmaps
+Add vibration patterns from OOS
+Added usage to init call for audiostream registration
+bufferpool@2.0 tune eviction params
+build: Add vendor.prop and odm.prop capability
+Capping buffer size to std::numeric_limits<size_t>::max()
+Changed BufferLayer's canReceiveInput to check if its hidden by policy
+codec2: read fallback ION params from system properties
+EGL: Fix repeated extension lookups
+Enable deep press by default
+Fix a noise issue caused by random value of byteOrder
+Fix exception when delete an uninitialized object
+Fix memory leak in MPEG2PSExtractor
+Fix native exception occurred when seeking mp4 file
+Fix out of bounds access
+Fix secondary output under&over run
+Fix Settings creating too many threads unexpectedly
+Fixing crash on allocation
+g711 channel count limits
+libgui: Add discardFreeBuffers callback to producer
+mediaswcodec: Set "default" as preferred service
+mTraits is used without been locked
+releasetools: Use 0oXXX instead of 0XXX for octal
+Settings: Always use local timezone for parsing date
+Settings: Fix Settings crash when clicking Notifications 
+Settings: Fix the MMS messages toggle preference not working
+SystemUI: Add a toggle for the new QS tint
+validate width*height doesn't overflow in image file
+vorbisdec: support 192Khz sample rate for vorbis
+vpxdec: handle non-display frames
+
+Add ColorOS7 recognizing FP animations
+TouchGestures: Add ambient as a gesture action
+TouchGestures: Fix KeyHandler for opening messaging app
+
+2/20
+Add Custom Text Clock Customizations
+Allow SBC as HD audio codec in Bluetooth device configuration
+Base: Fix Settings creating too many threads unexpectedly
+Bluetooth: Add SBC Dual Channel (SBC HD Audio) support
+Bluetooth: Assume optional codecs are supported if were supported previously
+Bluetooth: Check Null-safeness when switching optional-codecs state
+Bluetooth: Fix BT stability issues
+base: fix TwilightService start and initial location update
+Changing app classification logic from manifest-based to WLC-based
+Clamp brightness thresholds to the maximum brightness
+Don't disable GPS in Doze until the device is stationary
+Fix for Surface#lockHardwareCanvas lockups
+Fix Jank when factory resetting
+fix on ActivityManagerService.LocalService.getCurrentUserId()
+Fix: dummy deviceKey is not correct if real device with dummy addr exist
+Force a garbage collection after lockscreen verification
+Issue a warning when the user switching dialog times out
+Keyguard should be dismissed if there is no trusted device
+KeyguardIndicationController: Protect updateChargingIndication() from NPE
+Lockscreen Clock Styles: Introduce Q style text clock
+Make emergency notification dismissable
+Make smart actions icon to respect dark theme setting
+Settings: Add a dark theme slice
+SystemUI: Add a toggle for the new QS tint
+Settings: Add Dual Channel into Bluetooth Audio Channel Mode developer options
+Settings: DarkUIPreferenceController null exception
+Settings: Fix Battery icon is too large
+Settings: Fix Settings creating too many threads unexpectedly
+Settings: Sync bluetooth battery meter dimen from SystemUI
+SystemUI: custom keyguard clock kick off
+SystemUI: Fix keyguard charging NPE
+SystemUI: fixup analog clock for aod support
+Try to rebind disconnected wallpaper service for 10 seconds
+TypeClock: adapt to changes in keyguard
+
+FODCircleView: Fix position if cutout is hidden
+FODCircleView: Fix position on keyguard if cutout is hidden
+SystemUI: Move charging animation above FOD icon if In-display fingerprint is active
+
+2/18
+AOD qs tile: Launch LockscreenDisplaySettings on long click
+Ambient qs tile: Launch Ambient advance settings on long click
+ColorBucket: add a few new dark theme shades
+Fix AnimatedImageDrawables using ByteBuffers
+Fix black image wallpaper issue
+Ignore null package names on AppIdleHistory writes
+Immersive tile: automatically disable immersive mode when in Settings
+Process: Use audio-app cpuset if available
+Re-add settings to relax device ID access restrictions
+Refine battery saver footer string
+Remove buggy Dark theme scheduling
+Remove buggy Screen stabilization
+Settings: Add Lockscreen display activity to use as shortcut in the QS tile
+Settings: Avoid rendering hidden preferences
+Settings: Brand new banner logo
+Settings: Fix for User edit info dialog during rotation
+Settings: Include device model in About phone
+Settings: Show build codename
+SystemUI: update Bluetooth battery level assets
+
+More from 4.1.420 not displayed
