@@ -1,0 +1,28 @@
+DEVICES CHANGES:
+Add prebuilt TWRP
+Imported some overlays for Snap
+Imported Carrier config from Stock
+Disable multicolored battery led
+
+ROM CHANGES:
+Allow screen unpinning on devices without navbar
+Bring back option to Disable Lockscreen Media Art
+Fix some crashes with lockscreen album art filter
+fw/b torch: Let long press power turn torch off when screen is on
+Gesture nav Assistant handles: don't show them in lockscreen
+lib/androidfw: Fix reversed logic
+move -Wno-implicit-fallthrough from cflags to cppflags
+Port ADB over network and ability to hide the notification
+Settings: Allow setting SettingsSuggestion package in overlay
+Settings: AnimationSeekbar: Accept digit values in the hundredths
+Settings: DevelopmentSettings: Always show ClearAdbKeysPreference
+Settings: Implement ADB notification and ADB over network
+Settings: Remove obsolete LOCAL_JACK_ENABLED
+Settings: Use seekbar to allow setting arbitrary animation values
+SystemUI: Port pixel navigation bar
+ViewGroup: ensure preordered child views list is valid before trying to access
+Bring back make aspect ratio hack configable on app level feature
+Settings: Add AGPS setting menu
+Settings: Always show last charged time
+Settings: Fix crash when going back from battery
+Settings: fuelgauge: add back battery level animation
