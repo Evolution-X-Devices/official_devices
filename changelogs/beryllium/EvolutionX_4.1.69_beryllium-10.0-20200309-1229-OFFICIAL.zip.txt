@@ -1,0 +1,55 @@
+=================
+Device Changelog
+=================
+
+- Fixed issue with quickswitch
+- Fixed padding in qs panel when notch is hidden	
+- Enabled HID profile support
+- Switched back to silvercore kernel
+- Updated firmware to 11.0.6
+- Misc improvements
+
+=================
+Source Changelog
+=================
+
+----------
+3-09-2020
+----------
+
+- Added back ticker for music ticker and Android 10 fixes
+- Improved waking device when proximity check is disabled
+
+-----------
+03-08-2020
+-----------
+
+- reboot: allow opting-in to fastbootd
+- OmniStyle: block scrolling after selecting wallpaper
+- OTA app: New Updater app
+- Removed back gesture haptic feedback toggle
+- Added back permission bar chart in Privacy setting
+- Added back Permissions Hub
+- Enabled permission hub by default
+- Lockscreen clock: don't show hour in single digit 
+
+-----------
+03-05-2020
+-----------
+
+- Allow screen unpinning on devices without navbar
+- Added back option to Disable Lockscreen Media Art
+- Fixed some crashes with lockscreen album art filter
+- fw/b torch: Let long press power turn torch off when screen is on
+- Gesture navbar Assistant handles: don't show them in lockscreen
+- lib/androidfw: Fix reversed logic
+- moved -Wno-implicit-fallthrough from cflags to cppflags
+- Ported ADB over network and ability to hide the notification
+- Settings: Allow setting SettingsSuggestion package in overlay
+- Settings: AnimationSeekbar: Accept digit values in the hundredths
+- Settings: DevelopmentSettings: Always show ClearAdbKeysPreference
+- Settings: Implement ADB notification and ADB over network
+- Settings: Remove obsolete LOCAL_JACK_ENABLED
+- Settings: Use seekbar to allow setting arbitrary animation values
+- SystemUI: Ported pixel navigation bar
+- ViewGroup: ensure preordered child views list is valid before trying to access

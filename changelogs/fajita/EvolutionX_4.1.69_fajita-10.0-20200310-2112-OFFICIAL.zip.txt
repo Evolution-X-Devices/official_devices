@@ -1,0 +1,28 @@
+ROM side:
+3/11
+- Settings: Enable PermissionBar Chart
+
+3/10
+- Add kill app back button toggle
+- Add screenshot type option for Longshot
+- Allow for customizing the length of the navigation handle
+- Remove unnecessary battery meter view impl in keyguard statusbar
+- SystemUI: KG Charging Animation: Add more animations
+
+3/9
+- Bring back ticker for music ticker and Android 10 fixes
+- PowerManagerService: Improve waking device when prox check disabled
+
+3/8
+- Core: reboot: allow opting-in to fastbootd
+- OmniStyle: block scrolling after selecting wallpaper
+- OTA app: New Updater app
+- Remove back gesture haptic feedback toggle
+- Settings: Bring back permission bar chart in Privacy setting
+- Settings: Bring back Permissions Hub
+- Settings: Enable permission hub by default
+- SystemUI: Lockscreen clock: don't show hour in single digit
+
+Device Side:
+- DeviceSettings: Add a scrollable image view layout for panel modes
+- DeviceSettings: Swap panel mode preview images 1 & 2

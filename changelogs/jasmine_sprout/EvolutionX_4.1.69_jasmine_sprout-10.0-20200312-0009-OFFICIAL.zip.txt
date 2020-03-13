@@ -1,0 +1,103 @@
+[DEVICE] (most recent)
+
+• Rebase device tree on xioami-sdm660
+• Replaced new xiaomi part with old one
+• Added back xiaomi thermal profile
+• Improved dirac and audio profile
+• Fixed vibration control settings 
+• Address audio related default_prop denial
+• sepolicy: Add more /persist related contexts to toolbox and drop unnecessary rule
+• Force restorecon for /mnt/vendor/persist
+• Fixes portait mode in MiUi cam
+• Remove Snap Camera
+• Update vector for headphones and preset icons
+• Fixed SELinux contexts and sensors issues
+• Some battery and performance improvements
+• Removed unused vendor files
+• Added SystemUI to PRODUCT_DEXPREOPT_SPEED_APPS
+• Removed unused eas dependencies as we love hmp
+• Some battery and performance improvements
+• Kernel upstream to latest changes
+• Minor here and there fixes
+
+[SOURCE] (most recent)
+
+• Merged march security patch
+• OmniStyle: block scrolling after selecting wallpaper
+• OTA app: New Updater app
+• Remove back gesture haptic feedback toggle
+• Settings: Bring back permission bar chart in Privacy setting
+• Settings: Bring back Permissions Hub
+• Settings: Enable permission hub by default
+• SystemUI: Lockscreen clock: don't show hour in single digit
+• Allow screen unpinning on devices without navbar
+• Bring back option to Disable Lockscreen Media Art
+• Fix some crashes with lockscreen album art filter
+• fw/b torch: Let long press power turn torch off when screen is on
+• Gesture nav Assistant handles: don't show them in lockscreen
+• Port ADB over network and ability to hide the notification
+• Settings: Allow setting SettingsSuggestion package in overlay
+• Settings: AnimationSeekbar: Accept digit values in the hundredths
+• Settings: DevelopmentSettings: Always show ClearAdbKeysPreference
+• Settings: Implement ADB notification and ADB over network
+• Settings: Use seekbar to allow setting arbitrary animation values
+• SystemUI: Port pixel navigation bar
+• ViewGroup: ensure preordered child views list is valid before trying to access
+• Bring back make aspect ratio hack configable on app level feature
+• Settings: Add AGPS setting menu
+• Settings: Always show last charged time
+• Settings: Fix crash when going back from battery
+• Settings: fuelgauge: add back battery level animation
+• Pad ime_switcher same as navbar buttons
+• Start BiometricService even if no hardware is present
+• Settings: Match IME space for back gesture toggle with other switches
+• base: add 3 button nav editor back to tuner
+• base: SystemUI: fix debug drawing lines for icon containers
+• Do not remove RRO resources
+• dtbo: Sort the files we found
+• Fix crash loop due to broken packages.xml around updated-package
+• Settings: dont block IME space for back gesture
+• SettingsProvider: Disable Bluetooth by default
+• SystemUI: Show charging status in addition to trust granted/transient status
+• textureView rebind GL texture, if AHB content has changed
+• vendor: Add fwk-detect namespace
+• Alert Slider: Improve layout
+• base: Use CustomTunerSettings in place of ExTunerSettings
+• Build: sign_target_apks: Add networkstack to default key_map
+• SettingsProvider: add time format default value settings
+• Tuner: Fix preference category not matching system theme
+• Use sub specific telephony for emergency supl
+• apn: Update Canadian carriers
+• bas: Disable LiveDisplay low power consumption by default
+• bas: Tiny fixes to Longshot
+• Cleanbuil: Remove build/.bootstrap directory when using installclean
+• Cleanbuil: Remove kernel paths and a few other files
+• Evolutio: Rebrand Ambient Light to Horizon Light settings
+• Fi an issue wrong network operator name is displayed on MSIM devices
+• Fi carrier config option not hidden on a CDMA phone
+• Fix non-protected broadcasts sent from phone process
+• Keyguard: Fix failed unlock attempt dialog button
+• re-implement In-call vibration haptics options
+• Settings: Respect default vibration strength
+• SystemUI: AODTile: Use MD2 Icon
+• tasks: dtbo: Add support for custom dtbo generation rules
+• Telecomm: Use EFFECT_CLICK for vibrate on call connect
+• Telephony: add permission to change wifi hotspot settings
+• Telephony: add some org.codeaurora.* to protected broadcasts
+• Telephony: remove developer mode dep for showing euicc pref
+• Telephony: Use build date to check for system update
+• Alert Slider: Add toggle to disable notifications
+• SystemUI: Add OP Ripple animations
+• SystemUI: Update OP FOD animations
+• Add back gesture haptic feedback toggle
+• Add MicroG GmsCore to location providers
+• Allow zero stride
+• Enlarge EPSILON to 0.01 for android.display.cts.DisplayTest#testModeSwitch pass
+• Fix AoD front scrim being opaque at DOZE_PULSING.
+• Keyguard: ReInflate views when density or font scale change
+• pocket: Reduce sleep timeout for pocket lock
+• pocket: Use MD2 lock drawable
+• SystemUI: Increase back gesture vibration duration
+• Reland "Apply front scrim to doze pulsing"
+
+#KeepEvolving

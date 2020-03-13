@@ -294,6 +294,20 @@
       ]
    },
    {
+      "brand": "Asus",
+      "codename": "X01BD",
+      "name": "Zenfone Max Pro M2",
+      "supported_versions": [
+         {
+            "maintainer_name": "Vyom Desai",
+            "maintainer_url": "https://t.me/CannedShroudted",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/android-10-evolutionx-t4052793"
+         }
+      ]
+   },
+   {
       "brand": "Xiaomi",
       "codename": "ysl",
       "name": "Redmi S2/Y2",

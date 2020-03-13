@@ -25,10 +25,14 @@
 [HIDE]
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
 - RGB Accent Picker
+- Color Bucket
 - 17 System Fonts
 - 6 System Icon Shapes
-- 5 Lock Screen Clock Styles
+- 4 Statusbar Icon Styles
 - Pixel 2019 Wallpapers
+- Custom QS Header Images
+- QS Opacity & Color Configs
+- QS Backround Image Blur
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
 - Clock Options
 - 7 Battery Icon Styles
@@ -47,66 +51,87 @@
 - Kill App Button
 - Notification light Config
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
-- Custom QS Header Images
-- Battery Percentage Configs
-- QS Opacity & Color Configs
-- QS Backround Image Blur
-- Custom QS Footer Text
-- Toggles To Hide Misc Icons
-- Bottom Brightness Slider Toggle
-- Gaming Mode Quick Settings Tile
-- Quick Pulldown (Left/Right)
-- Quick Settings Rows & Columns Customization
-- Tile Titles Toggle
+- Disable When Locked
+- Vibrate On Touch
+- Quick Pulldown (Right/Left)
+- Hide Battery Icon
+- Brightness Slider Configs
+- Quick Settings Layout Configs
+- QS Footer Text
+- Settings Icon Toggle
+- Running Services Toggle
+- User Switcher Icon Toggle
+- QS Edit Icon Toggle 
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Power Menu[/B][/COLOR][/I][/U][/SIZE]
+- Restart
+- Advanced Restart
+- Screenshot
+- Flashlight
+- Airplane
+- Settings
+- Lock Down
+- Users
+- Logout 
+- Visibility On Lockscreen Configs
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
 - AOSP Gestures
+- Toggle To Hide Back Gesture Icon
 - Toggle To Hide Navbar Pill
 - Back Gesture Height Config
-- Double Tap to Sleep Lockscreen
-- Double Tap To Sleep Status Bar
-- Screen Off Power Button Torch
-- Swipe To Screenshot
+- Back Gesture Vibration Toggle
 - Screen Off Gestures
+- Swipe To Screenshot
+- Status Bar Brightness Control
+- Screen Off Power Button Torch
+- Double Tap To Sleep Status Bar
+- Double Tap to Sleep Lockscreen
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
 - Custom Clock & Date Fonts
+- Pocket Detection
 - Fingerprint Authentication Vibration Toggle
 - FOD Icon Picker
-- Pressed FOD Icon Picker
+- FOD Pressed State Icon's
+- FOD Recognizing Animations
 - Lock Screen Music Visualizer
-- Lock Screen Shortcuts
 - Lock Screen Media Artwork Configs
-- Pocket Detection
+- Lock Screen Shortcuts
 - Status bar visibility toggle
+- Lock Icon Toggle
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
+- Nav Bar Disable/Enable Toggle
+- Nav Bar Tuner
+- Invert Layout
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
-- Power Menu Customization
-- Volume Rocker Cursor Control
-- Volume Rocker Playback Control
+- Volume Key Answer
 - Volume Rocker Wake
+- Volume Rocker Playback Control
+- Volume Rocker Cursor Control
 [SIZE="3"][U][I][COLOR="#0060FF"][B] Animations[/B][/COLOR][/I][/U][/SIZE]
-- Disable Transition Animations
-- Scrolling Cache Configs
+- Disable Transition Animations Toggle
 - Screen Off Animations
+- Scrolling Cache Configs
 - QS Tile Animations (Flip/Rotate)
 - QS Tile Animation Duration & Interpolator configs
-- System Animation Configs
 - ListView Animations 
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
-- Nav Bar Tuner
-- Nav Bar Hide/Show Toggle
-- Invert Layout
+- System Animation Configs
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
-- Alarm Blocker
-- Accidental Wake Up Prevention
+- Gaming Mode
+- Launch Music App On Headset Connection
+- Wake On Charge
+- Charging Animation
+- Screenshot Type (Full/Drag)
+- Dashboard Condition/Suggestion Toggle
 - Default USB Config
-- Doze Settings
-- Legacy App Scalling
-- Time In State Monitor
+- Disable Device Identifier Restrictions
+- Accidental Wake Up Prevention
 - Sensor Block Per Package
 - Signature Spoofing Support
-- Gaming Mode
-- Smart Charging
+- Time In State Monitor
+- Legacy App Scalling
+- Alarm Blocker
+- Doze Settings
 - Wakelock Blocker
-- Wake On Charge[/HIDE]
+[/HIDE]
 
 [img]https://i.imgur.com/n6b8AXD.png[/img]
 [SIZE="3"]You tell me[/SIZE]
@@ -144,10 +169,9 @@
 [hr][/hr]
 
 [img]https://i.imgur.com/LU9gsrQ.png[/img][/CENTER]
-[LEFT][SIZE="3"][list]
-[color="#0060FF"][b]Evolution X Version:[/b] 4.1[/COLOR]
-[COLOR="Lime"][*][b]Android OS Version:[/b] 10.0_r27[/COLOR]
-[COLOR="Red"][*][b]Security Patch Level:[/b] February 2020[/COLOR]
+[LEFT][SIZE="3"][list][color="Lime"][*][b]Android version:[/b] 10[/COLOR]
+[color="#0060FF"][*][b]Evolution version:[/b] 4.1.69[/COLOR]
+[color="Red"][*][b]Security patch level:[/b] March 5, 2020[/COLOR]
 [*][b]Build Author:[/b] [url="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/url]
 [*][b]ROM Source:[/b] [url="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/url]
 [*][b]Kernel Source:[/b] [url="https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845"][url]https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845[/url][/url]
