@@ -1,7 +1,0 @@
-- Merge February security patch
-- Update evo version to 4.1
-- fod: Don't invoke callbacks when fod circle is not visible
-- Upgrade SQLite to 3.31.1 
-- SystemUI: Tint QSTile icon with accent color
-- Revert "Use OnePlus drawables for autobrightness icon"
-- Drop prebuilt boot-WfdCommon.oat

@@ -1,9 +1,0 @@
-- Enable lock screen clock styles
-- Add GoogleCamera and it's permissions (Credit: Arnova & Urnyx05)
-- Disable CVP HAL (This isn't used on SDM845 and spams logs as it continues to try
-and start.)
-- Enable value added AOSP features 
-- Remove DC-Dimming QS tile
-- Remove HBM QS tile
-- Remove Panel Mode QS tile
-- Implement custom ramdisk changes (sched changes, swap and irq balance)
