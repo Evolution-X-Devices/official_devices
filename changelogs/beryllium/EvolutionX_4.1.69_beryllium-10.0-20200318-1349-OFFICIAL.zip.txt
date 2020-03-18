@@ -1,0 +1,45 @@
+================
+Device Changes
+================
+- Updated blobs from miui v11.0.6
+- Fixed Android Auto
+- Fixed issues with type-c headphones
+- Removed inbuilt firmware (Have to flash seperately from now on)
+- Built with clang 11
+- Fixed 5ghz hotspot
+- Misc changes
+
+================
+Rom Changes
+================
+- Add kill app back button toggle
+- Add screenshot type option for Longshot
+- AlarmManagerService: Fix FWR before boot completed
+- Allow for customizing the length of the navigation handle
+- ColorBucket: Fix PitchBlack SystemUI overlay targetpackage
+- DataSwitchTile: dont show toast on click
+- Evolver: rename Horizon Light to Pulse
+- Hide Dark theme styles ONLY when NIGHT MODE is disabled
+- LS Clocks: Add full accent sammy clock style
+- QS: Use Settings.Panel intents for WiFi and NFC
+- Remove unnecessary battery meter view impl in keyguard statusbar
+- Sanitize Bluetooth device names without regex
+- Screenshot: remove white flash if dark mode is enabled
+- Send battery low intent when battery warning boundary changed
+- Settings: Enable PermissionBar Chart
+- Settings: Enter 'The Evolver'
+- Settings: Enter 'The Evolver'
+- SystemUI: Adjust QS tile background and icon color for new QS tint
+- SystemUI: Always disable rotation on lockscreen
+- SystemUI: Disable heads up debugging on debug builds as well
+- SystemUI: KG Charging Animation: Add more animations
+- SystemUI: Make QS Status font bolder and bigger
+- SystemUI: QS blur improvements
+- SystemUI: QSconfig: Re-distribute tiles on changing orientation
+- SystemUI: Set proper margin and padding for lockscreen bottom shortcuts
+- SystemUI: tuner: Allow Tuner API for System settings
+- Updater: Fetch changelog from URL
+- Updater: Follow Google Play system update window
+- apns-conf.xml: fix APN for tre.dk.
+- base: Settings: Backup LS clock & date styles values
+- base: SystemUI: Make QS Status font bolder and bigger
