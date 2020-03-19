@@ -1,0 +1,27 @@
+DEVICES CHANGES:
+Include ANX Camera
+Updated Build Fingerprint for March 2020 (CTS Profile now is PASSING)
+Added some missing Overlays
+Introduced new Overlays for Vibration Patterns
+Improvements on VR Settings
+Improvements on FSTAB for data mounting
+
+KERNEL
+Merged 4.14.173 int Bit+
+
+ROM CHANGES:
+3/18
+AlarmManagerService: Fix FWR before boot completed
+base: SystemUI: Make QS Status font bolder and bigger
+cameraserver: Fix logic to skip callbacks for non HAL3 devices for vendor listeners
+ColorBucket: Fix PitchBlack SystemUI overlay targetpackage
+DataSwitchTile: dont show toast on click
+Evolver: rename Horizon Light to Pulse
+Sanitize Bluetooth device names without regex
+SystemUI: Adjust QS tile background and icon color for new QS tint
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Disable heads up debugging on debug builds as well
+SystemUI: Make QS Status font bolder and bigger
+SystemUI: QSconfig: Re-distribute tiles on changing orientation
+SystemUI: QS blur improvements
+SystemUI: Set proper margin and padding for lockscreen bottom shortcuts
