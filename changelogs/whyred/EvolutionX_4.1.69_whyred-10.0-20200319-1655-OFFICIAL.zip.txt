@@ -1,0 +1,13 @@
+Rom Changes
+
+Add translations to base/SystemUI/Settings/Evolver/Updater/OmniStyle
+Apply proper displayCutout rotation in density 480 dpi and 270 degrees rotation
+Bring back check button when using PIN quick unlock
+bugfix for noteResetVideoLocked
+Permissions: Grant Google Photos permissions
+prebuilt: init: custom-system: hide Magisk better
+Remove nav bar length feature to fix arrow to hide keyboard
+Settings: Make ROM banner clickable
+Visualizer: Ensure multi-thread safety
+
+
