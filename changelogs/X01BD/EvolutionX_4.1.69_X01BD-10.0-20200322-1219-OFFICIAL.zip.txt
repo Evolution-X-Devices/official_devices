@@ -1,0 +1,50 @@
+DEVICES CHANGES:
+Fix hotspot issue 
+Enable native video calling(Airtel and Jio)
+Selinux is now Enforcing
+Nuked Zenparts
+Optimize padding
+
+KERNEL
+Switch to lineageOS+ kernel version 4.4.217
+
+
+
+3/21
+adb: fix double close in wait-for-*
+Bring back stock Android 10 media seekbar
+Export techpack/audio uapi headers of msm 4.14 kernel
+overlay: Use old NTP server in China
+pm: Add flags for UFS card for encryption in vold
+QS: Add and use Mobile Data panel
+QS: Use Mobile Data panel for CellularTile
+Settings: panels: Add Mobile Data panel
+
+3/19
+Add minimize & pip buttons to freeform windows
+Add translations to base/SystemUI/Settings/Evolver/Updater/OmniStyle
+Apply proper displayCutout rotation in density 480 dpi and 270 degrees rotation
+Bring back check button when using PIN quick unlock
+bugfix for noteResetVideoLocked
+Permissions: Grant Google Photos permissions
+prebuilt: init: custom-system: hide Magisk better
+Remove nav bar length feature to fix arrow to hide keyboard
+Settings: Make ROM banner clickable
+Visualizer: Ensure multi-thread safety
+
+3/18
+AlarmManagerService: Fix FWR before boot completed
+base: SystemUI: Make QS Status font bolder and bigger
+cameraserver: Fix logic to skip callbacks for non HAL3 devices for vendor listeners
+ColorBucket: Fix PitchBlack SystemUI overlay targetpackage
+DataSwitchTile: dont show toast on click
+Evolver: rename Horizon Light to Pulse
+Sanitize Bluetooth device names without regex
+SystemUI: Adjust QS tile background and icon color for new QS tint
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Disable heads up debugging on debug builds as well
+SystemUI: Make QS Status font bolder and bigger
+SystemUI: QSconfig: Re-distribute tiles on changing orientation
+SystemUI: QS blur improvements
+SystemUI: Set proper margin and padding for lockscreen bottom shortcuts
+
