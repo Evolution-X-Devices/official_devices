@@ -1,0 +1,32 @@
+Device Changelog:
+
+- Added back inbuilt firmware
+- Added some missing props
+- Enabled QCOM surfaceflinger
+- Enabled ViLTE for Airtel 
+- Misc improvements
+
+ROM Changes:
+
+- Default animation is now 0.5x
+- Refractored navbar visibility control
+- Fixed data usage on mobile data panel
+- QS panel improvements
+- Added bluetooth panel 
+- Ported more assist things from Pixel SystemUI 
+- Changed default overlays for smart charging
+- VoWifi notification for emergency calls
+- Reimplemented hardware keys custom rebinding
+- Granted missing permission for data switch tile
+- Brought back android 10 media seekbar
+- Added mobile data panel
+- Now using old NTP server in china
+- Added minimize & pip buttons to freeform windows
+- Apply proper displayCutout rotation in density 480 dpi and 270 degrees rotation
+- Made ROM banner clickable
+- Grant permission to google photos
+- Improved magisk hide
+- bugfix for noteResetVideoLocked
+- Brought back check button while using PIN quick unlock
+- Removed nav bar length feature to fix arrow to hide keyboard
+- Misc improvements
