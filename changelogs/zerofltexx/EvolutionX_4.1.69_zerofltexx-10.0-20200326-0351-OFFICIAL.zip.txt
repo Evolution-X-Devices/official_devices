@@ -1,0 +1,16 @@
+26/03/2020:
+- Latest Evolution-X source
+- Fixed Safetynet BasicIntegrity (ctsProfile can be fixed by Magisk Hide props module)
+- Fixed DRM HAL
+- Fixed Widevine L3 support
+- Fixed inline mic recording
+- Fixed Always-on-display
+- Fixed Proximity sensor
+- Fixed USB tethering
+- Fixed various app crashing
+- Various performance improvements
+- HWC Android 10 update
+- OMX Android 10 update
+
+21/03/2020:
+- Initial Release
