@@ -1,0 +1,11 @@
+Firmware will be auto-flashed to v11.0.1.0 Q Stable
+
+Optimize UI performance
+Fix Goodix FP model
+Fix weird lags from last OTA
+Revert back to HMP stock kernel
+Get rid of Pixel powerhal
+Import better XiaomiParts doze impl
+Reorganize and optimize props
+Import V11.0.7.0.PDTMIXM power profiles
+Add Evolution-X specific overlays
