@@ -1,0 +1,102 @@
+DEVICES CHANGES:
+Introduced Smart Charging
+Remapped all Carrier Configs
+Fixed Dark Theme
+Ported USB audio policy from AOSP
+Improvements on Overlays
+Others improvements
+
+ROM CHANGES:
+3/29
+ListView: Disable dividers by default
+OPScreenRecorder: Update to v2.3.0
+Revert brightness thumb vector to AOSP version
+sepolicy: common: add rules for RGB accent & QS BG picker
+sepolicy: Fix Lawnchair denials
+SystemUI: fix binary clock update
+
+3/28
+audioservice:fix voice_call default volume
+Bring back option to customize the length of the navigation handle (w/ fix for the untouchable buttons in the navbar)
+Bring back optional back gesture vibration tick
+Catch IllegalStateException when verify APK
+EdgeBackGestureHandler: Change back gesture height intervals
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+Evolver: Implement button settings
+fix -Wimplicit-int-float-conversion
+Implement edge long swipe gesture
+lib/androidfw: Fix reversed logic
+libs: hwui: Fix fallthrough warning
+move -Wno-implicit-fallthrough from cflags to cppflags
+Navbar: Switch gesture navbar to new navigation bar key event source
+Not register sensor if StatusBar state is not KEYGUARD
+os: Process: Fix wrong code in isThreadInProcess
+PMS and WMS deadlock when uninstalling APP
+Settings: Clean up running services fragment layout
+
+FOD devices ONLY
+FOD: Show fod circle below pattern/pin view
+
+3/26
+Don't include the data dir in zygote library paths
+Fix ThumbnailUtils thumbnail pts calculation
+Merge latest translations from Crowdin
+
+3/25
+base: Grant storage permission to Lawnchair
+Fix for recycling key events when sending global button broadcast
+Fix wrong variable in AccountManagerService's TokenCache
+Freedom windows: fix drag
+Make sure the right DND config is used
+
+3/24
+EvolutionUtils: add Doze package checks
+fwb: Set default animation scale to 0.5x
+Navbar: Ensure 2/3 button layout options play nice with gesture navbar
+Navbar: Refactor navigation bar visibility control
+Settings: add pair new to BT panel slice
+Settings: Only show system gestures if navbar is visible
+Settings: QS panels: Add Bluetooth panel
+Settings: QS panels: fix data usage display on mobile panel
+Settings: QS panels: Fix pair new device icon
+Settings: QS panels: Improvements
+SmartCharging: Change default overlays
+SystemUI: Port more Assist things from Pixel SystemUI
+
+FOD devices ONLY
+FODCircleView: Hide animation when auth fails
+FODCircleView: Also hide circle on auth error
+FODAnimation: Check if view is null before adding a new one
+
+3/23
+Add Camera button support
+Base: PhoneWindowManager: simplify toggleCameraFlashhttps://drive.google.com/open?id=11_H3D01bnOoAiu-n7f9YhLpQedn8l2zX
+DataSwitchTile: grant missing permission
+fwb: Add config to define camera key type
+fw/b: Allow customisation of navbar app switch long press action
+PhoneWindowManager: Fix screen peek KEY_FOCUS handling
+Reimplement device hardware wake keys support
+Reimplement hardware keys custom rebinding
+VoWifi notification for emergency calls
+
+3/21
+adb: fix double close in wait-for-*
+Bring back stock Android 10 media seekbar
+Export techpack/audio uapi headers of msm 4.14 kernel
+overlay: Use old NTP server in China
+pm: Add flags for UFS card for encryption in vold
+QS: Add and use Mobile Data panel
+QS: Use Mobile Data panel for CellularTile
+Settings: panels: Add Mobile Data panel
+
+3/19
+Add minimize & pip buttons to freeform windows
+Add translations to base/SystemUI/Settings/Evolver/Updater/OmniStyle
+Apply proper displayCutout rotation in density 480 dpi and 270 degrees rotation
+Bring back check button when using PIN quick unlock
+bugfix for noteResetVideoLocked
+Permissions: Grant Google Photos permissions
+prebuilt: init: custom-system: hide Magisk better
+Remove nav bar length feature to fix arrow to hide keyboard
+Settings: Make ROM banner clickable
+Visualizer: Ensure multi-thread safety
