@@ -1,0 +1,32 @@
+DEVICES CHANGES:
+Smart Charging Test
+
+ROM CHANGES:
+base: Grant storage permission to Lawnchair
+base: PhoneWindowManager: simplify toggleCameraFlash
+Bring back and improve gesture navigation handle length
+Bring back stock Android 10 media seekbar
+DataSwitchTile: grant missing permission
+Don't include the data dir in zygote library paths
+EvolutionUtils: add Doze package checks
+Fix for recycling key events when sending global button broadcast
+Fix ThumbnailUtils thumbnail pts calculation
+Fix wrong variable in AccountManagerService's TokenCache
+FODAnimation: Check if view is null before adding a new one
+FODCircleView: Also hide circle on auth error
+FODCircleView: Hide animation when auth fails
+Freedom windows: fix drag
+fwb: Set default animation scale to 0.5x
+Make sure the right DND config is used
+Merge most recent translations from Crowdin
+Navbar: Refactor navigation bar visibility control
+overlay: Use old NTP server in China
+pm: Add flags for UFS card for encryption in vold
+QS: Add and use Mobile Data panel
+QS: Use Mobile Data panel for CellularTile
+Settings: Only show gestures preference if navbar is visible
+Settings: add pair new to BT panel slice
+Settings: QS panels: Add Bluetooth panel
+Settings: QS panels: Improvements
+Settings: QS panels: fix data usage display on mobile panel
+SystemUI: Port more Assist things from Pixel SystemUI
