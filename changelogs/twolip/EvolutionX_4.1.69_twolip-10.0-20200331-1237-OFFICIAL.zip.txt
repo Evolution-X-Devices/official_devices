@@ -1,0 +1,48 @@
+Twolip:  
+No more double files app 
+(If still showing just uninstall it)
+
+Removed persistent HD notification 
+
+Audio cleanups to help with mic issues
+(Thanks to Ryan-andri)  
+
+Added more sepolicy fixes for various apps   
+
+
+Evolution-X:  
+
+3/30
+a11y: don't crash the system when illegal component name encountered
+Add kill-app api (with new fresh implementation)
+Allow to set default refresh rate value
+Allow to show music heads up on new tracks
+Audioservice: do not suppress music volume adjustment
+Modify start/stop condition for mScreenDozeTimer.
+PackageManagerService: Drop caches according to incremental version
+
+3/29
+ListView: Disable dividers by default
+OPScreenRecorder: Update to v2.3.0
+Revert brightness thumb vector to AOSP version
+sepolicy: common: add rules for RGB accent & QS BG picker
+sepolicy: Fix Lawnchair denials
+SystemUI: fix binary clock update
+
+3/28
+Bring back option to customize the length of the navigation handle (w/ fix for the untouchable buttons in the navbar)
+Bring back optional back gesture vibration tick
+EdgeBackGestureHandler: Change back gesture height intervals
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+Evolver: Implement button settings
+Implement edge long swipe gesture
+Navbar: Switch gesture navbar to new navigation bar key event source
+Settings: Clean up running services fragment layout
+
+FOD devices ONLY
+FOD: Show fod circle below pattern/pin view
+
+3/26
+Don't include the data dir in zygote library paths
+Fix ThumbnailUtils thumbnail pts calculation
+Merge latest translations from Crowdin
