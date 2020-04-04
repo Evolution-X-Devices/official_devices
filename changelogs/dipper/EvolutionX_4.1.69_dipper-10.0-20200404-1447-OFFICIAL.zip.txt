@@ -1,5 +1,5 @@
-- Update to TwistedKernel v24 built witb clang 11
-- Address some selinyx denials
+- Update to TwistedKernel v24 built with clang 11
+- Address some selinux denials
 - Under the hood improvements
 - Added ViLTE for Airtel
 - Enable H/W Combosition
