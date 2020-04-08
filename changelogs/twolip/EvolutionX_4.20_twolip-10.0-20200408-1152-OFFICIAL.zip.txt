@@ -1,0 +1,45 @@
+Twolip:  
+Kcal added to kernel (Thx Rainforce279)
+Smartcharge enabled
+Updoot FP
+VoLTE/VoWifi test Vodafone IN
+VoLTE for supported Indonesia networks 
+Added more sepolicy fixes for various apps   
+
+Evolution-X:  
+FACE UNLOCK
+April Security Patch
+
+4/8
+fwb: Guard some functions against face unlock
+Introduce RGB Gradient Picker
+OPScreenRecorder: Update to v2.3.0
+Settings: Update ROM banner color to reflect new version
+SystemUI: Keyguard: Only apply padding if fod view showing
+
+4/7
+Adapt session API for newly added AudioPolicyService code
+audiopolicy: Fixup b07e64e and re-sync with CAF
+AudioService: communicate audio HAL process pids to native audioserver
+base: add outline style to caffeine qs tile drawable
+base: SystemUI: Disable junky LS clock & slice transition animations
+DozeTriggers: Add provision to pulse without proximity check
+Fix Launcher3 errors due to missing permissions
+IMS: Add new Carrier Config
+media utils: dump audio HAL service before restarting audioserver
+media utils: fix UAF in TimeCheckThread
+Merge April security patch
+Port face unlock feature
+Prevent HandlerThread from losing interrupted flag
+Proper fix of Android Auto
+QS header: Update and style edit strings
+Settings: Legacy suggestions: Remove alpha for close vector
+SystemUI: Cleanup pixel live wallpapers changes
+SystemUI: Fix NPE on OpaEnableDispatcher
+SystemUI: Remove duplicate CONFIGURE_WIFI_DISPLAY permission
+Telephony: Add codeaurora.telecom.action.CALL_TYPE to protected broadcasts
+Telephony: Rename VoWiFi Emergency notification intent
+TimeCheck: fix use of uninitialized variable
+UninstallAlertDialogFragment: Catch IllegalArgumentException
+Update translations
+
