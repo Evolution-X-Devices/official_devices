@@ -1,0 +1,9 @@
+DEVICE CHANGES
+- Update to Coral's Apr 2020 build fingerprint
+- Touchscreen gestures now work
+- Use gcc 9.3 to build kernel
+
+ROM CHANGES
+- Merged April patch
+- Added Face Unlock
+- Introduce RGB Gradient Picker
