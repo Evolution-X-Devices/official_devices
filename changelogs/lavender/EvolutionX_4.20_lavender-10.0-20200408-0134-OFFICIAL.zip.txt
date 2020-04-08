@@ -1,0 +1,38 @@
+Main changes:
+April security patches
+Face unlock! (means your friend can shove your phone up your face, unlock it, escape and delete your apps)
+Android Auto doesn't reboot the device anymore
+The entire ROM is green-themed because of 4/20 (and the codename)
+
+Device changelog:
+New bluetooth BLOBs and HAL (working this time around)
+Fixed Mi Sound Enhancer (dirac)
+Default statusbar offset now 8dp (instead of 0)
+Build FP from coral (April patch)
+
+ROM changelog:
+4/7
+Adapt session API for newly added AudioPolicyService code
+audiopolicy: Fixup b07e64e and re-sync with CAF
+AudioService: communicate audio HAL process pids to native audioserver
+base: add outline style to caffeine qs tile drawable
+base: SystemUI: Disable junky LS clock & slice transition animations
+DozeTriggers: Add provision to pulse without proximity check
+Fix Launcher3 errors due to missing permissions
+IMS: Add new Carrier Config
+media utils: dump audio HAL service before restarting audioserver
+media utils: fix UAF in TimeCheckThread
+Merge April security patch
+Port face unlock feature
+Prevent HandlerThread from losing interrupted flag
+Proper fix of Android Auto
+QS header: Update and style edit strings
+Settings: Legacy suggestions: Remove alpha for close vector
+SystemUI: Cleanup pixel live wallpapers changes
+SystemUI: Fix NPE on OpaEnableDispatcher
+SystemUI: Remove duplicate CONFIGURE_WIFI_DISPLAY permission
+Telephony: Add codeaurora.telecom.action.CALL_TYPE to protected broadcasts
+Telephony: Rename VoWiFi Emergency notification intent
+TimeCheck: fix use of uninitialized variable
+UninstallAlertDialogFragment: Catch IllegalArgumentException
+Update translations
