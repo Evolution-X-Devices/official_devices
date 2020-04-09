@@ -1,0 +1,84 @@
+Device side changes:
+==============================
+- Kernel upstream to 4.4.218
+- Switched to EAS with latest EM
+- New Pixel Power Hal
+- libqti-perfd blobs from Taimen QP1A.190711.020
+- New gps Hals
+- Fixed reboot in Hotspot mode
+- Removed HD logo from notification panel
+- Added FPS overlay 
+- Removed dirac (fixed xiaomi part when using any audio mod)
+- CAF source upsteram to LA.UM.8.2.r1-06300-sdm660.0
+- Disable artificial/fake interpretation of all signal levels
+- Fixed thermal control
+- Import tunables/cpusets from coral
+- Update L3 nodes for lagoon target
+- Switch to Filebased-metadata encryption 
+(For full chagelog, watch commit history)
+
+
+ROM Side Changes:  
+==============================
+- FACE UNLOCK
+- April Security Patch
+
+4/8
+- fwb: Guard some functions against face unlock
+- Introduce RGB Gradient Picker
+- OPScreenRecorder: Update to v2.3.0
+- : Update ROM banner color to reflect new version
+- SystemUI: Keyguard: Only apply padding if fod view showing
+
+4/7
+- Adapt session API for newly added AudioPolicyService code
+- audiopolicy: Fixup b07e64e and re-sync with CAF
+- AudioService: communicate audio HAL process pids to native audioserver
+- base: add outline style to caffeine qs tile drawable
+- base: SystemUI: Disable junky LS clock & slice transition animations
+- DozeTriggers: Add provision to pulse without proximity check
+- Fix Launcher3 errors due to missing permissions
+- IMS: Add new Carrier Config
+- media utils: dump audio HAL service before restarting audioserver
+- media utils: fix UAF in TimeCheckThread
+- Merge April security patch
+- Port face unlock feature
+- Prevent HandlerThread from losing interrupted flag
+- Proper fix of Android Auto
+- QS header: Update and style edit strings
+- Settings: Legacy suggestions: Remove alpha for close vector
+- SystemUI: Cleanup pixel live wallpapers changes
+- SystemUI: Fix NPE on OpaEnableDispatcher
+- SystemUI: Remove duplicate CONFIGURE_WIFI_DISPLAY permission
+- Telephony: Add codeaurora.telecom.action.CALL_TYPE to protected broadcasts
+- Telephony: Rename VoWiFi Emergency notification intent
+- TimeCheck: fix use of uninitialized variable
+- UninstallAlertDialogFragment: Catch IllegalArgumentException
+- Update translations
+
+3/30
+- a11y: don't crash the system when illegal component name encountered
+- Add kill-app api (with new fresh implementation)
+- Allow to show music heads up on new tracks
+- Audioservice: do not suppress music volume adjustment
+- Modify start/stop condition for mScreenDozeTimer.
+- PackageManagerService: Drop caches according to incremental version
+
+3/29
+- ListView: Disable dividers by default
+- OPScreenRecorder: Update to v2.3.0
+- Revert brightness thumb vector to AOSP version
+- sepolicy: common: add rules for RGB accent & QS BG picker
+- sepolicy: Fix Lawnchair denials
+- SystemUI: fix binary clock update
+
+3/28
+- Bring back option to customize the length of the navigation handle (w/ fix for the untouchable buttons in the navbar)
+- Bring back optional back gesture vibration tick
+- EdgeBackGestureHandler: Change back gesture height intervals
+- EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+- Implement edge long swipe gesture
+- Navbar: Switch gesture navbar to new navigation bar key event source
+- Settings: Clean up running services fragment layout
+
+#KeepEvolving
