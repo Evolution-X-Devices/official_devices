@@ -1,0 +1,96 @@
+**Device changes**
+- Change to LOS Vendor tree
+- Fixed random reboots
+
+**Source Changes**
+4/7
+Adapt session API for newly added AudioPolicyService code
+audiopolicy: Fixup b07e64e and re-sync with CAF
+AudioService: communicate audio HAL process pids to native audioserver
+base: add outline style to caffeine qs tile drawable
+base: SystemUI: Disable junky LS clock & slice transition animations
+DozeTriggers: Add provision to pulse without proximity check
+Fix Launcher3 errors due to missing permissions
+IMS: Add new Carrier Config
+media utils: dump audio HAL service before restarting audioserver
+media utils: fix UAF in TimeCheckThread
+Merge April security patch
+Port face unlock feature
+Prevent HandlerThread from losing interrupted flag
+Proper fix of Android Auto
+QS header: Update and style edit strings
+Settings: Legacy suggestions: Remove alpha for close vector
+SystemUI: Cleanup pixel live wallpapers changes
+SystemUI: Fix NPE on OpaEnableDispatcher
+SystemUI: Remove duplicate CONFIGURE_WIFI_DISPLAY permission
+Telephony: Add codeaurora.telecom.action.CALL_TYPE to protected broadcasts
+Telephony: Rename VoWiFi Emergency notification intent
+TimeCheck: fix use of uninitialized variable
+UninstallAlertDialogFragment: Catch IllegalArgumentException
+Update translations
+
+3/30
+a11y: don't crash the system when illegal component name encountered
+Add kill-app api (with new fresh implementation)
+Allow to set default refresh rate value
+Allow to show music heads up on new tracks
+Audioservice: do not suppress music volume adjustment
+Modify start/stop condition for mScreenDozeTimer.
+PackageManagerService: Drop caches according to incremental version
+
+3/29
+ListView: Disable dividers by default
+OPScreenRecorder: Update to v2.3.0
+Revert brightness thumb vector to AOSP version
+sepolicy: common: add rules for RGB accent & QS BG picker
+sepolicy: Fix Lawnchair denials
+SystemUI: fix binary clock update
+
+3/28
+Bring back option to customize the length of the navigation handle (w/ fix for the untouchable buttons in the navbar)
+Bring back optional back gesture vibration tick
+EdgeBackGestureHandler: Change back gesture height intervals
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+Evolver: Implement button settings
+Implement edge long swipe gesture
+Navbar: Switch gesture navbar to new navigation bar key event source
+Settings: Clean up running services fragment layout
+
+
+3/26
+Don't include the data dir in zygote library paths
+Fix ThumbnailUtils thumbnail pts calculation
+Merge latest translations from Crowdin
+
+3/25
+base: Grant storage permission to Lawnchair
+Fix for recycling key events when sending global button broadcast
+Fix wrong variable in AccountManagerService's TokenCache
+Freedom windows: fix drag
+Make sure the right DND config is used
+
+3/24
+EvolutionUtils: add Doze package checks
+fwb: Set default animation scale to 0.5x
+Navbar: Ensure 2/3 button layout options play nice with gesture navbar
+Navbar: Refactor navigation bar visibility control
+Settings: add pair new to BT panel slice
+Settings: Only show system gestures if navbar is visible
+Settings: QS panels: Add Bluetooth panel
+Settings: QS panels: fix data usage display on mobile panel
+Settings: QS panels: Fix pair new device icon
+Settings: QS panels: Improvements
+SmartCharging: Change default overlays
+SystemUI: Port more Assist things from Pixel SystemUI
+
+3/23
+Add Camera button support
+Base: PhoneWindowManager: simplify toggleCameraFlashhttps://drive.google.com/open?id=11_H3D01bnOoAiu-n7f9YhLpQedn8l2zX
+DataSwitchTile: grant missing permission
+fwb: Add config to define camera key type
+fw/b: Allow customisation of navbar app switch long press action
+PhoneWindowManager: Fix screen peek KEY_FOCUS handling
+Reimplement device hardware wake keys support
+Reimplement hardware keys custom rebinding
+VoWifi notification for emergency calls
+

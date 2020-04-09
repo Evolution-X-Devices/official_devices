@@ -1,17 +1,17 @@
 {
-   "datetime": 1584982650,
+   "datetime": 1586431344,
    "donate_url": "https://paypal.me/thegabrielhoward",
    "error": false,
-   "filehash": "7208e50be7f1f5376b27cfa52ddd49e20",
-   "filename": "EvolutionX_4.1.69_sailfish-10.0-20200323-1658-OFFICIAL.zip",
+   "filehash": "da003f67a8e3d831d7bdaec2260177cb",
+   "filename": "EvolutionX_4.20_sailfish-10.0-20200409-1123-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-3-1-t3996295",
-   "id": "66d972e16ea84d62109752bc471c79f8ac4d9ff6bc665462e42042b4b5ad8ef2",
+   "id": "ed96c871f2c94b702e4513e282327e89a028a40ea968ccee812e5442739aaeb1",
    "maintainer": "Gabriel Howard",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1042079760,
+   "size": 958082590,
    "telegram_username": "gabrielhoward",
-   "url": "https://sourceforge.net/projects/evolution-x/files/sailfish/EvolutionX_4.1.69_sailfish-10.0-20200323-1658-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/sailfish/EvolutionX_4.20_sailfish-10.0-20200409-1123-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
