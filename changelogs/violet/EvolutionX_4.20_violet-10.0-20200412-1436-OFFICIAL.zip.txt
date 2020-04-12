@@ -1,0 +1,9 @@
+DEVICE SIDE:
+Few changes to kernel to improve drains.
+Remove aosp recovery as people wanted.
+New longshot implementation, might wanna checkout screenshot.
+Fixed CTS.
+Updated to latest Evolution X changes.
+------------------------------------
+NOTE: Play system updates is still an issue, which I'll notify about as soon as I can fix it.
+------------------------------------
