@@ -1,0 +1,69 @@
+Device side changes:
+==============================
+jasmine: Add missing scve blob
+sdm660-common: power: Add support for third tap-to-wake node
+sdm660-common: Add back Snap Camera
+sdm660-common: Remove Prebuilt MiuiCamera (You can install as user app)
+sdm660-common: unify DRM and Keymaster libs 
+sdm660-common: Update blobs from LA.UM.8.2.r1-06300-sdm660.0
+(For full changelog, watch commit history)
+
+ROM Side Changes:  
+==============================
+-4/12
+core: mark libsysutils and libdiskconfig recovery_available
+sepolicy: New type sdcard_posix for labeled filesystems
+sepolicy: Add sdcard_posix_contextmount_type attribute
+OmniStyle: Fix Evolution X headers
+SystemUI: simplify qs tile helper
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner 
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+AudioService: fix audio mode not reset to MODE_NORMAL
+fw/b: Squash of app fw restriction commits
+base: do not use new lockscreen layout for bypass
+ScreenshotSelector: handle rotation issues 
+Show QS data saver info dialog until enabled
+SystemUI: Fix showing duplicated charging status
+Handle negative background data usage
+AndroidRuntime: Remove support for image classes
+Automatic translation import
+Settings: Fixes for back gesture options menu
+Settings: Add Touch Sensitivity functionality
+
+-4/11
+Add ability to restrict app data/wifi/vpn usage
+Add missing default permissions for Device Personalization Services, Lawnchair, Pixel Launcher and Settings Suggestions
+AudioService: fix audio mode not reset to MODE_NORMAL
+OmniStyle: hentai-header: optimize some images 
+OmniStyle: bring more hentainess
+OmniStyle: extend hentai header pack
+OmniStyle: Separate Evo X headers into light and dark options
+OmniStyle: move some headers online
+OmniStyle: move some strings from manifest to resource
+sepolicy: New type sdcard_posix for labeled filesystems
+Adapt session API for newly added AudioPolicyService code
+media utils: dump audio HAL service before restarting audioserver
+media utils: fix UAF in TimeCheckThread
+audiopolicy: Fixup b07e64e and re-sync with CAF
+TimeCheck: fix use of uninitialized variable 
+Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/pl...
+
+4/10
+AndroidRuntime: Remove support for image classes
+base: do not use new lockscreen layout for bypass
+Drop overlays for Prebuilt DocumentsUI
+Fix lockscreen clock style issues caused by Derp commits
+Handle negative background data usage
+pixelstyle: Import Telephony overlays
+pixelstyle: Ship CarrierSettings, replacing apns-conf and CarrierConfig
+ScreenshotSelector: handle rotation issues
+Settings: LocaleListEditor: fix layout stuck at 0dp
+Settings: Show carrier version preference
+SystemUI: Fix showing duplicated charging status
+SystemUI: Show QS data saver info dialog until enabled
+vendor: Drop APN configs
+
+4/9
+Introduce Adaptive Playback
+
+#KeepEvolving
