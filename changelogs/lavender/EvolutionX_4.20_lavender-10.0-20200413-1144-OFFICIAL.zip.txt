@@ -1,0 +1,13 @@
+Device changes:
+Updated included kernel to Predator v6.0
+Fixed BT audio for some codecs
+Other minor fixes and improvements
+
+Notable source changes:
+Longshot replaced with ASUS long screenshots
+Fixed internal audio recording
+Adaptive Playback
+You can hide notch now! :D (basically forces apps to NOT use that space)
+Added ability to limit data/Wi-Fi/VPN usage
+APN configs no longer supported
+Many smaller changes/QOL improvements that I couldn't list here
