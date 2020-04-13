@@ -1,0 +1,43 @@
+Twolip:
+Move to SuperHyperion+ kernel
+(upstreamed .208)
++1 carrierconfig for Vodafone IN 405 66
+Disable updatable APEX
+(Now builds with ROM)
+
+Evolution-X:
+4/12
+Allow to hide navigation bar gesture completely
+core: mark libsysutils and libdiskconfig recovery_available
+Gesture nav toggle: show IME when needed and improve code
+Revert "Fix deletion of VkSemaphores in VulkanManager."
+sepolicy: Add sdcard_posix_contextmount_type attribute
+sepolicy: New type sdcard_posix for labeled filesystems
+Settings: Add Touch Sensitivity functionality
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+SystemUI: simplify qs tile helper
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+
+4/11
+Add ability to restrict app data/wifi/vpn usage
+Add missing default permissions for Device Personalization Services, Lawnchair, Pixel Launcher and Settings Suggestions
+AudioService: fix audio mode not reset to MODE_NORMAL
+OmniStyle: move some headers online
+OmniStyle: move some strings from manifest to resource
+sepolicy: New type sdcard_posix for labeled filesystems
+
+4/10
+AndroidRuntime: Remove support for image classes
+base: do not use new lockscreen layout for bypass
+Drop overlays for Prebuilt DocumentsUI
+Fix lockscreen clock style issues caused by Derp commits
+Handle negative background data usage
+pixelstyle: Import Telephony overlays
+pixelstyle: Ship CarrierSettings, replacing apns-conf and CarrierConfig
+ScreenshotSelector: handle rotation issues
+Settings: LocaleListEditor: fix layout stuck at 0dp
+Settings: Show carrier version preference
+SystemUI: Fix showing duplicated charging status
+SystemUI: Show QS data saver info dialog until enabled
+vendor: Drop APN configs
+
