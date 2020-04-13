@@ -1,0 +1,46 @@
+Tissot:
+-Yeet out the new Xiaomi Parts
+
+ROM:
+4/13
+
+Need to check current user when triggering notification lights
+
+
+4/12
+
+Allow to hide navigation bar gesture completely
+
+core: mark libsysutils and libdiskconfig recovery_available
+
+Gesture nav toggle: show IME when needed and improve code
+
+Revert "Fix deletion of VkSemaphores in VulkanManager."
+
+sepolicy: Add sdcard_posix_contextmount_type attribute
+
+sepolicy: New type sdcard_posix for labeled filesystems
+
+Settings: Add Touch Sensitivity functionality
+
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+
+SystemUI: simplify qs tile helper
+
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+
+
+4/11
+
+Add ability to restrict app data/wifi/vpn usage
+
+Add missing default permissions for Device Personalization Services, Lawnchair, Pixel Launcher and Settings Suggestions
+
+AudioService: fix audio mode not reset to MODE_NORMAL
+
+OmniStyle: move some headers online
+
+OmniStyle: move some strings from manifest to resource
+
+sepolicy: New type sdcard_posix for labeled filesystems
+
