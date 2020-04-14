@@ -1,0 +1,141 @@
+Need to check current user when triggering notification lights
+Allow to hide navigation bar gesture completely
+core: mark libsysutils and libdiskconfig recovery_available
+Gesture nav toggle: show IME when needed and improve code
+Revert "Fix deletion of VkSemaphores in VulkanManager."
+sepolicy: Add sdcard_posix_contextmount_type attribute
+sepolicy: New type sdcard_posix for labeled filesystems
+Settings: Add Touch Sensitivity functionality
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+SystemUI: simplify qs tile helper
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+Add ability to restrict app data/wifi/vpn usage
+Add missing default permissions for Device Personalization Services, Lawnchair, Pixel Launcher and Settings Suggestions
+AudioService: fix audio mode not reset to MODE_NORMAL
+OmniStyle: move some headers online
+OmniStyle: move some strings from manifest to resource
+sepolicy: New type sdcard_posix for labeled filesystems
+AndroidRuntime: Remove support for image classes
+base: do not use new lockscreen layout for bypass
+Drop overlays for Prebuilt DocumentsUI
+Fix lockscreen clock style issues caused by Derp commits
+Handle negative background data usage
+pixelstyle: Import Telephony overlays
+pixelstyle: Ship CarrierSettings, replacing apns-conf and CarrierConfig
+ScreenshotSelector: handle rotation issues
+Settings: LocaleListEditor: fix layout stuck at 0dp
+Settings: Show carrier version preference
+SystemUI: Fix showing duplicated charging status
+SystemUI: Show QS data saver info dialog until enabled
+vendor: Drop APN configs
+FOD devices only
+Remove unneeded FOD pressed icons
+Introduce Adaptive Playback
+NOTCHED devices only
+Settings: Define notch category and hide it on non-notch devices
+Settings: Hide notch switch
+fwb: Add support for customizations on some navbar keys
+fwb: Guard some functions against face unlock
+fwb: Port long screenshot implementation from Asus
+Implement edge long swipe gesture
+OPScreenRecorder: Update to v2.3.0
+Settings: Update ROM banner color to reflect new version
+SystemUI: Improve qs detail theming
+SystemUI: Keyguard: Only apply padding if fod view showing
+FOD devices only
+FODCircleView: Prepare for new FOD impl
+FODCircleView: disable touch detection on screen off
+FODCircleView: Don't show on certain cases
+FODCircleView: Fix high brightness after unlocking
+FOD: Implement FodScreenOffHandler
+FOD: Show fod circle below pattern/pin view
+FodScreenOffHandler: Add hasEnrolledFingerprints callback
+Adapt session API for newly added AudioPolicyService code
+audiopolicy: Fixup b07e64e and re-sync with CAF
+AudioService: communicate audio HAL process pids to native audioserver
+base: add outline style to caffeine qs tile drawable
+base: SystemUI: Disable junky LS clock & slice transition animations
+DozeTriggers: Add provision to pulse without proximity check
+Fix Launcher3 errors due to missing permissions
+IMS: Add new Carrier Config
+media utils: dump audio HAL service before restarting audioserver
+media utils: fix UAF in TimeCheckThread
+Merge April security patch
+Port face unlock feature
+Prevent HandlerThread from losing interrupted flag
+Proper fix of Android Auto
+QS header: Update and style edit strings
+Settings: Legacy suggestions: Remove alpha for close vector
+SystemUI: Cleanup pixel live wallpapers changes
+SystemUI: Fix NPE on OpaEnableDispatcher
+SystemUI: Remove duplicate CONFIGURE_WIFI_DISPLAY permission
+Telephony: Add codeaurora.telecom.action.CALL_TYPE to protected broadcasts
+Telephony: Rename VoWiFi Emergency notification intent
+TimeCheck: fix use of uninitialized variable
+UninstallAlertDialogFragment: Catch IllegalArgumentException
+Update translations
+a11y: don't crash the system when illegal component name encountered
+Add kill-app api (with new fresh implementation)
+Allow to set default refresh rate value
+Allow to show music heads up on new tracks
+Audioservice: do not suppress music volume adjustment
+Modify start/stop condition for mScreenDozeTimer.
+PackageManagerService: Drop caches according to incremental version
+ListView: Disable dividers by default
+OPScreenRecorder: Update to v2.3.0
+Revert brightness thumb vector to AOSP version
+sepolicy: common: add rules for RGB accent & QS BG picker
+sepolicy: Fix Lawnchair denials
+SystemUI: fix binary clock update
+Bring back option to customize the length of the navigation handle (w/ fix for the untouchable buttons in the navbar)
+Bring back optional back gesture vibration tick
+EdgeBackGestureHandler: Change back gesture height intervals
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+Evolver: Implement button settings
+Implement edge long swipe gesture
+Navbar: Switch gesture navbar to new navigation bar key event source
+Settings: Clean up running services fragment layout
+FOD devices ONLY
+FOD: Show fod circle below pattern/pin view
+Don't include the data dir in zygote library paths
+Fix ThumbnailUtils thumbnail pts calculation
+Merge latest translations from Crowdin
+base: Grant storage permission to Lawnchair
+Fix for recycling key events when sending global button broadcast
+Fix wrong variable in AccountManagerService's TokenCache
+Freedom windows: fix drag
+Make sure the right DND config is used
+EvolutionUtils: add Doze package checks
+fwb: Set default animation scale to 0.5x
+Navbar: Ensure 2/3 button layout options play nice with gesture navbar
+Navbar: Refactor navigation bar visibility control
+Settings: add pair new to BT panel slice
+Settings: Only show system gestures if navbar is visible
+Settings: QS panels: Add Bluetooth panel
+Settings: QS panels: fix data usage display on mobile panel
+Settings: QS panels: Fix pair new device icon
+Settings: QS panels: Improvements
+SmartCharging: Change default overlays
+SystemUI: Port more Assist things from Pixel SystemUI
+FOD devices ONLY
+FODCircleView: Hide animation when auth fails
+FODCircleView: Also hide circle on auth error
+FODAnimation: Check if view is null before adding a new one
+Add Camera button support
+Base: PhoneWindowManager: simplify toggleCameraFlash
+DataSwitchTile: grant missing permission
+fwb: Add config to define camera key type
+fw/b: Allow customisation of navbar app switch long press action
+PhoneWindowManager: Fix screen peek KEY_FOCUS handling
+Reimplement device hardware wake keys support
+Reimplement hardware keys custom rebinding
+VoWifi notification for emergency calls
+adb: fix double close in wait-for-*
+Bring back stock Android 10 media seekbar
+Export techpack/audio uapi headers of msm 4.14 kernel
+overlay: Use old NTP server in China
+pm: Add flags for UFS card for encryption in vold
+QS: Add and use Mobile Data panel
+QS: Use Mobile Data panel for CellularTile
+Settings: panels: Add Mobile Data panel
+
