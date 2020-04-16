@@ -1,0 +1,60 @@
+Device side changes:
+==============================
+- Kernel upstream to 4.4.219
+- Fixed power hal
+- Adapt Light Hal for commonized sdm660 tree
+- Use full LA.UM.8.2.r1-05700-sdm660.0 SDM graphic stack
+- Updated vendor packge for camera hal
+- Import necessary vendor blobs for Netflix to work correctly
+- Replaced snap with MiUiCamera
+- Fixed some previous issues reported by the users
+(For full changelog, watch commit history)
+*
+Compiler:
+------------------------------
+Clang 11.0.1 (r390199b)
+*
+ROM Side Changes:  
+==============================
+4/16
+OPScreenRecorder: Update to v2.3.0
+Settings: fix again the pair new icon in BT slice
+Maerged latest translation
+*
+4/15
+Evolver: Unlock with fingerprint on notification double tap without pin/password/pattern
+Evolver: Fully remove Status bar notification ticker
+adb: Add ro.adb.secure.recovery handling
+Add a separate flag in the installer for keeping ART profiles
+Do not clean up ART profiles during OTAs
+Need to check current user when triggering notification lights
+ReadingModeTile: Go away if wellbeing app is enabled
+Remove broken notification ticker feature
+sepolicy: Allow recovery to alter /
+sepolicy: Relabel wifi. properties as wifi_prop
+sepolicy: recovery: allow mounting of internal storage
+sepolicy: recovery: allow mounting of usb storage
+sepolicy: recovery: Add policy for /dev/block/volmgr
+sepolicy: recovery: Add policy for volume manager
+sepolicy: recovery: allow reading fbe key version
+sepolicy: recovery: Allow reading proc_filesystems
+sepolicy: recovery: Allow volume - manager write to /sys/*/uevent
+sepolicy: recovery: fix neverallows
+sepolicy: recovery: Fix the volume manager blkid.tab denial
+sepolicy: whitelist recovery from node creation neverallow
+Settings: The Instant Classic (Gold Evo banner)
+SystemUI: Allow listening for face only on pin/pass view
+version: Update to 4.20.1
+*
+4/12
+Allow to hide navigation bar gesture completely
+core: mark libsysutils and libdiskconfig recovery_available
+Gesture nav toggle: show IME when needed and improve code
+Revert "Fix deletion of VkSemaphores in VulkanManager."
+sepolicy: Add sdcard_posix_contextmount_type attribute
+sepolicy: New type sdcard_posix for labeled filesystems
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+SystemUI: simplify qs tile helper
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+*
+#KeepEvolving
