@@ -1,0 +1,19 @@
+Changelogs:
+==============================
+*Version: Time for 4.20.2: Homecoming
+*Fixed mic issues
+*Fixed smart charging
+*Fixed lags even in normal usage
+*Fixed app freezing issues
+*Fixed wifi calling issues
+*Fixed lags in live wallpaper
+*Properly implemented livedisplay
+*Kernel upstreamed to 4.4.219
+*Added maintainer string in about phone
+*Removed face unlock
+*Removed lockscreen bypass stuff related to Face Unlock
+*Removed ability to cycle modes in location tile
+*Merged HW Keys category with Navigation
+*Resolved theme prop denial
+
+* NOTE: Firmware 059 or later is mandatory
