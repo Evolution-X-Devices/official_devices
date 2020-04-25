@@ -1,0 +1,15 @@
+Device Side:
+Switched to Ravan Kernel (by me :p)
+Upstreamed kernel to 4.9.220
+Added msm Adreno idler
+Added wireguard
+Added Boeffla wake lock blocker
+Fixed mic issues in PubG
+Fixed all Volte issues
+
+Rom side main changes:
+Version bumped to 4.20.2
+Added new FOD animation from OnePlus8Pro
+Removed Face Unlock
+Add maintainer name in About Phone section
+For detailed changelog refer to tg group kthxbye
