@@ -1,0 +1,8 @@
+Changelogs:
+==============================
+*Version: Time for 4.20.2: Homecoming
+*Added maintainer string in about phone
+*Removed face unlock
+*Removed lockscreen bypass stuff related to Face Unlock
+*Merged HW Keys category with Navigation
+*home button can now wake the device

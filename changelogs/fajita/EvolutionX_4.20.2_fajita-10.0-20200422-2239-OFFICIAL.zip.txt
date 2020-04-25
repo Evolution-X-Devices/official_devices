@@ -1,0 +1,100 @@
+4/22
+AccentUtils: add coloraccent to resource list
+Bomb Settings suggestions with napalm
+Fix up custom rounded corner setting for status bar
+Fix up statusbar paddings for devices with display cutouts
+Multiply the total memory by mem_unit
+Location QS tile: Remove ability to cycle modes (broken on 10)
+QSContainerImpl: Ensure we set valid colors only
+QSContainerImpl: Toggle QS color overlay as necessary
+Remove toggle for Settings conditions
+sepolicy: Assign bash the same label as the default shell
+Update translations
+version: Time for 4.20.2: Homecoming
+
+4/21
+Remove lockscreen bypass stuff related to Face Unlock
+Remove show FOD on PIN unlock
+
+4/20
+base: allow home key button to wake the device
+
+4/19
+Evolver: Merge HW Keys category with Navigation
+Remove Face Unlock feature
+sepolicy: Resolve theme prop denial
+Settings: Introduce build maintainer preference in About Phone
+Updater: Add Device maintainer under Device codename
+Use FODUtils for FOD config checking
+
+4/17
+kernel: Allow specifying a custom linker binary
+Fix speaker audio output when screen recording
+OPScreenRecord: Move directory and rename package
+Update most translations
+Updater: Add Device codename under Android version
+
+4/16
+Fonts: Add new font config to font overlays
+Fonts: Add semi bold font alias for custom fonts
+Fonts: Export all font configs
+Fonts: Squash of changes for custom fonts
+Revert CarrierSettings and APN changes
+Settings: Bring back on/off toggle for physical SIMs
+Settings: fix again the pair new icon in BT slice
+SettingsProvider: Resolve package name that requires permission
+Update to 4.20.1 The Instant Classic (Set Pixel Blue as default color accents)
+
+4/15
+adb: Add ro.adb.secure.recovery handling
+Add a separate flag in the installer for keeping ART profiles
+Do not clean up ART profiles during OTAs
+Need to check current user when triggering notification lights
+ReadingModeTile: Go away if wellbeing app is enabled
+Remove broken notification ticker feature
+sepolicy: Allow recovery to alter /
+sepolicy: Relabel wifi. properties as wifi_prop
+sepolicy: recovery: allow mounting of internal storage
+sepolicy: recovery: allow mounting of usb storage
+sepolicy: recovery: Add policy for /dev/block/volmgr 
+sepolicy: recovery: Add policy for volume manager
+sepolicy: recovery: allow reading fbe key version
+sepolicy: recovery: Allow reading proc_filesystems
+sepolicy: recovery: Allow volume manager write to /sys/*/uevent
+sepolicy: recovery: fix neverallows
+sepolicy: recovery: Fix the volume manager blkid.tab denial
+sepolicy: whitelist recovery from node creation neverallow
+SystemUI: Allow listening for face only on pin/pass view
+Unlock with fingerprint on notification double tap without pin/password/pattern
+Unlock without bouncer: Use Tuner API
+
+4/12
+core: mark libsysutils and libdiskconfig recovery_available
+Revert "Fix deletion of VkSemaphores in VulkanManager."
+sepolicy: Add sdcard_posix_contextmount_type attribute
+sepolicy: New type sdcard_posix for labeled filesystems
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+SystemUI: simplify qs tile helper
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+
+4/11
+Add ability to restrict app data/wifi/vpn usage
+Add missing default permissions for Device Personalization Services, Lawnchair, Pixel Launcher and Settings Suggestions
+AudioService: fix audio mode not reset to MODE_NORMAL
+OmniStyle: move some headers online
+OmniStyle: move some strings from manifest to resource
+
+4/10
+AndroidRuntime: Remove support for image classes
+base: do not use new lockscreen layout for bypass
+Drop overlays for Prebuilt DocumentsUI
+Fix lockscreen clock style issues caused by Derp commits
+Handle negative background data usage
+pixelstyle: Import Telephony overlays
+pixelstyle: Ship CarrierSettings, replacing apns-conf and CarrierConfig
+ScreenshotSelector: handle rotation issues
+Settings: LocaleListEditor: fix layout stuck at 0dp
+Settings: Show carrier version preference
+SystemUI: Fix showing duplicated charging status
+SystemUI: Show QS data saver info dialog until enabled
+Remove unneeded FOD pressed icons

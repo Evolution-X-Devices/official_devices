@@ -1,0 +1,18 @@
+Device changes:
+Updated kernel to 4.4.219 - Predator-Stormbreaker v6.3
+Updated blobs from LA.UM.8.2.r1-06200-sdm660.0
+Removed GPlay System Updates
+Uprevved radio and IMS
+Properly fixed BT audio for some codecs this time :D
+
+Notable source changes:
+EvoX version 4.20.1 - The Instant Classic
+Removed face unlock (because of Lenovo being idiots)
+Bring back APN configs and CarrierSettings
+You can now disable individual SIM cards 
+Device codename and maintainer now shown under About Phone
+Some new font variations
+Updated translations
+HWKeys category merged with Navigation in the Evolver
+Overall stability improvements
+

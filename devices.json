@@ -15,6 +15,20 @@
    },
    {
       "brand": "Asus",
+      "codename": "X00T",
+      "name": "Zenfone Max Pro M1",
+      "supported_versions": [
+         {
+            "maintainer_name": "Achooz",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=10449035",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/x00t-evolution-x-4-1-asus-zenfone-max-t4079671"
+         }
+      ]
+   },
+   {
+      "brand": "Asus",
       "codename": "X01BD",
       "name": "Zenfone Max Pro M2",
       "supported_versions": [
@@ -52,6 +66,20 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/essential-phone/development/rom-evolution-x-4-1-69-t4073153"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "gtaxlwifi",
+      "name": "Galaxy Tab A6 (SM-T580)",
+      "supported_versions": [
+         {
+            "maintainer_name": "Gabriel Howard",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-tab-a/development/rom-evolution-x-4-20-2-t4088469"
          }
       ]
    },
@@ -94,6 +122,34 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/pixel-2-xl/development/rom-evolution-x-4-1-69-t4076517"
+         }
+      ]
+   },
+   {
+      "brand": "Lenovo",
+      "codename": "z2_plus",
+      "name": "ZUK Z2 (Plus)",
+      "supported_versions": [
+         {
+            "maintainer_name": "Varshank Dhiman",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6862811",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-evolution-x-4-1-420-t4057651"
+         }
+      ]
+   },
+   {
+      "brand": "LG",
+      "codename": "judyln",
+      "name": "G7 ThinQ",
+      "supported_versions": [
+         {
+            "maintainer_name": "Darren Ramen",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=5680977",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/lg-g7-thinq/development/rom-evolution-x-4-20-lg-g7-t4084243"
          }
       ]
    },
@@ -317,7 +373,8 @@
             "maintainer_url": "https://t.me/nysascape",
             "version_code": "ten",
             "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069"
+            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069",
+            "deprecated": true
          }
       ]
    },
