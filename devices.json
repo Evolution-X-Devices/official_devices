@@ -70,6 +70,20 @@
       ]
    },
    {
+      "brand": "Samsung",
+      "codename": "gtaxlwifi",
+      "name": "Galaxy Tab A6 (SM-T580)",
+      "supported_versions": [
+         {
+            "maintainer_name": "Gabriel Howard",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-tab-a/development/rom-evolution-x-4-20-2-t4088469"
+         }
+      ]
+   },
+   {
       "brand": "Google",
       "codename": "marlin",
       "name": "Pixel XL",
