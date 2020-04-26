@@ -1,0 +1,15 @@
+Evolution X 4.20.2
+Kernel optimisations
+Kernel compiled with clang 10.0.6
+Added Blu_schedutil and set as default
+Kernel Tweaks to improve performance 
+Kernel Tweaks for better idle times
+Increased zRAM to 2GB
+Fixed Calls routed through speaker instead earpiece
+Fixed Wpa2 Hotspot
+Wi-fi Tethering broken
+Fixed Status bar padding 
+Added LiveDisplay 2.0 
+LiveDisplay profiles don't work for the moment
+Doze fixed
+Added Gcam Go
