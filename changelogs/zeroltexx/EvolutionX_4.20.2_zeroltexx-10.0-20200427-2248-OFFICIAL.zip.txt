@@ -1,4 +1,19 @@
-31/03/2020:
+28/04/2020:
+- Latest Evolution-X source
+- Attempt to improve battery drain
+- Fix some WiFi instabilities
+- Fix WhatsApp audio breaking from last update
+- Improve power usage
+
+20/04/2020:
+- Latest Evolution-X source
+- New 7570 licensed BSP
+- Fixed front camera video recording
+- Matched mic gains with a3xelte
+- Fixed WiFi hotspot
+- Fixed various OMX bugs
+
+30/03/2020:
 - Latest Evolution-X source
 - Fixed WhatsApp voice recording
 - Possibly fixed other audio bugs
