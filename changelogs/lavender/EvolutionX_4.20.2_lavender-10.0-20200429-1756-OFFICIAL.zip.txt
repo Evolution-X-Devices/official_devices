@@ -1,0 +1,13 @@
+Device changes:
+Updated kernel to 4.4.220 - Predator-Stormbreaker v6.6
+Got rid of that annoying HD notification (Only happened with select carriers, mainly Jio)
+Added VoLTE, ViLTE and VoWiFi support for some carriers
+Many smaller optimizations
+
+Notable source changes:
+EvolutionX version 4.20.2 - Homecoming
+Pulse fuction has been remade, and it's better than ever :)
+Fixed WebView vulnerability by disallowing file access
+Fixed hide notch
+Added support for unsupported fast chargers
+Many other small improvements and bug fixes
