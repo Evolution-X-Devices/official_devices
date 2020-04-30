@@ -1,0 +1,20 @@
+DEVICE SIDE:
+- Re-enable Asus Doze and Pocketmode (Display > Lockscreen > Advanced Settings)
+- Added aptx overlay (by Rohan)
+- Add pixel offline charging animation (beta)
+- Enable wifi_ext
+- Move to Derpfest kernel 4.9.220 (by Kailash)
+- Removed Smart Charging (didn't work anyway)
+- Nuked Snap Cam
+- Added more bugs to fix later
+
+ROM SIDE:
+- Version bumped to 4.20.2: Homecoming
+- Introduce Android R style AOSP screenrecorder
+- New implementation of Ambient Pulse
+- Notch Hide toggle available in Display Settings
+- Introduce Adaptive Playback
+- Add Device maintainer under Device codename
+- Removed Face unlock and gradients (need better implementation)
+- Use 24mbps for default screen record bitrate
+- Adaptive Playback: allow choosing no timeout
