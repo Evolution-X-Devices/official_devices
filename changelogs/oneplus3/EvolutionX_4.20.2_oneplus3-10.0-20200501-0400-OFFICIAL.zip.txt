@@ -1,0 +1,344 @@
+Changelog
+
+
+4/30
+
+Evolver: Make Media artwork blur level dependent on Media cover art toggle
+
+Lockscreen: Use new icons for lockscreen shortcuts
+
+sepolicy: allow system apps to modify system props
+
+Settings: Adaptive Playback: allow choosing no timeout
+
+SystemUI: rounded_ripple must use corner_size
+
+SystemUI: Use 24mbps for default screen record bitrate
+
+vendor: permissions: Grant file manager access for OmniStyle
+
+
+FOD devices ONLY
+
+FOD Animations/Icons: convert to webp
+
+
+4/29
+
+Bring back Dash & Warp charging support
+
+Fix WebView vulnerability by disallowing file access
+
+Settings: BasebandVersionPreferenceController: Trim baseband if needed
+
+
+4/28
+
+Add custom color to ambient pulse notification lights
+
+Add timeout for ambient notification pulse
+
+base: Cleanup notification pulse values
+
+Clean up duplicated uses-permission
+
+Evolver: Add ColorSelectPreference
+
+Evolver: Move pulse brightness options to Miscellaneous settings
+
+f/n: Don't destroy ART profiles after package move
+
+fixup! lockscreen: Add support for showing unlock screen directly
+
+Lockscreen: Use new icons for lockscreen shortcuts
+
+Remove previous ambient pulse notification implementation
+
+Support using notification color for pulse light
+
+SystemUI: Add Pulse and Ambient notification bars
+
+SystemUI: Add Ambient Lights always on hide aod content option
+
+SystemUI: Day 0 notification light pulse fixes
+
+SystemUI: Fix notification light pulse for repeating notifications
+
+SystemUI: Fix possible case where AOD stays on after notification pulse
+
+SystemUI: Kill any leftover notification pulse on new pulse start
+
+SystemUI: Pulse light accent color option
+
+SystemUI: Replace pulse light drawable with our own vector
+
+SystemUI: Rework notification pulse check to work for private notifications
+
+SystemUI: Trigger pulse light only for notifications
+
+SystemUI: Use doze_pulse_duration_visible as timeout for showing ambient notifications
+
+SystemUI: Use ROWS_HIGH_PRIORITY for active notification pulse check
+
+
+FOD devices ONLY
+
+FODAnimation: Allow to set horizontal position offset
+
+
+NOTCH devices ONLY
+
+Fix hide notch support overlay
+
+
+4/27
+
+TouchGestures: Allow to disable proximity check
+
+
+FOD devices ONLY
+
+FODCircleView: Show while bouncer is requesting Pattern or PIN
+
+
+4/26
+
+BatteryService: Add support for oem fast charger detection
+
+Bring back AOSP Screen recorder QS tile
+
+Generate block based OTA for product partitions
+
+releasetools: do not remove dynamic partitions in system-only builds
+
+Screenrecord (AOSP): Add support for AudioPlaybackCapture
+
+Screenrecord (AOSP): Android R dev preview style dialog
+
+Screenrecord (AOSP): Collapse QS panel when launching dialog
+
+Screenrecord (AOSP): Cleanup dialog layout
+
+Screenrecord (AOSP): Improve dialog style
+
+Screenrecord (AOSP): Switch to low quality switch to a bitrate selector
+
+RecordingService: Use IMPORTANCE_LOW notification channel
+
+vendor: extract_utils: Handle Brotli compressed block image
+
+vendor: extract_utils: Support odm/product/vendor partition for zip extract
+
+
+FOD devices ONLY
+
+Fix crash when selecting ColorOS7 2 FOD animation
+
+
+NOTCH devices ONLY
+
+fwb: Add hide notch support
+
+
+4/25
+
+adb: Look for shell executable in alternate places
+
+Fix font_family_button_material
+
+sepolicy: qcom: Label custom FM Radio property
+
+Settings: Add Brand to Device name preference
+
+Settings: Button text for app space management is overwritten
+
+
+FOD devices ONLY
+
+Add OP Energy FOD animation from OnePlus 8 Pro
+
+Update OP FOD icon from OnePlus 8 Pro        
+
+
+4/23
+
+Disable components: Block Google play system update
+
+Settings: Disable Google Play system update check
+
+Update Pixel Launcher from Coral img
+
+
+4/22
+
+AccentUtils: add coloraccent to resource list
+
+Bomb Settings suggestions with napalm
+
+Fix up custom rounded corner setting for status bar
+
+Fix up statusbar paddings for devices with display cutouts
+
+Multiply the total memory by mem_unit
+
+Location QS tile: Remove ability to cycle modes (broken on 10)
+
+QSContainerImpl: Ensure we set valid colors only
+
+QSContainerImpl: Toggle QS color overlay as necessary
+
+Remove toggle for Settings conditions
+
+sepolicy: Assign bash the same label as the default shell
+
+Update translations
+
+version: Time for 4.20.2: Homecoming
+
+
+4/21
+
+Remove lockscreen bypass stuff related to Face Unlock
+
+Remove show FOD on PIN unlock
+
+
+4/20
+
+base: allow home key button to wake the device
+
+
+4/19
+
+Evolver: Merge HW Keys category with Navigation
+
+Remove Face Unlock feature
+
+sepolicy: Resolve theme prop denial
+
+Settings: Introduce build maintainer preference in About Phone
+
+Updater: Add Device maintainer under Device codename
+
+
+FOD devices ONLY
+
+Use FODUtils for FOD config checking
+
+
+4/17
+
+kernel: Allow specifying a custom linker binary
+
+Fix speaker audio output when screen recording
+
+OPScreenRecord: Move directory and rename package
+
+Update most translations
+
+Updater: Add Device codename under Android version
+
+
+4/16
+
+Fonts: Add new font config to font overlays
+
+Fonts: Add semi bold font alias for custom fonts
+
+Fonts: Export all font configs
+
+Fonts: Squash of changes for custom fonts
+
+Revert CarrierSettings and APN changes
+
+Settings: Bring back on/off toggle for physical SIMs
+
+Settings: fix again the pair new icon in BT slice
+
+SettingsProvider: Resolve package name that requires permission
+
+Update to 4.20.1 The Instant Classic (Set Pixel Blue as default color accents)
+
+
+4/15
+
+adb: Add ro.adb.secure.recovery handling
+
+Add a separate flag in the installer for keeping ART profiles
+
+Do not clean up ART profiles during OTAs
+
+Need to check current user when triggering notification lights
+
+ReadingModeTile: Go away if wellbeing app is enabled
+
+Remove broken notification ticker feature
+
+sepolicy: Allow recovery to alter /
+
+sepolicy: Relabel wifi. properties as wifi_prop
+
+sepolicy: recovery: allow mounting of internal storage
+
+sepolicy: recovery: allow mounting of usb storage
+
+sepolicy: recovery: Add policy for /dev/block/volmgr 
+
+sepolicy: recovery: Add policy for volume manager
+
+sepolicy: recovery: allow reading fbe key version
+
+sepolicy: recovery: Allow reading proc_filesystems
+
+sepolicy: recovery: Allow volume manager write to /sys/*/uevent
+
+sepolicy: recovery: fix neverallows
+
+sepolicy: recovery: Fix the volume manager blkid.tab denial
+
+sepolicy: whitelist recovery from node creation neverallow
+
+SystemUI: Allow listening for face only on pin/pass view
+
+
+FOD devices ONLY
+
+Unlock with fingerprint on notification double tap without pin/password/pattern
+
+Unlock without bouncer: Use Tuner API
+
+
+4/12
+
+core: mark libsysutils and libdiskconfig recovery_available
+
+Revert "Fix deletion of VkSemaphores in VulkanManager."
+
+sepolicy: Add sdcard_posix_contextmount_type attribute
+
+sepolicy: New type sdcard_posix for labeled filesystems
+
+SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+
+SystemUI: simplify qs tile helper
+
+TunerServiceImpl: Blacklist Settings.System from tuner reset
+
+
+4/11
+
+Add ability to restrict app data/wifi/vpn usage
+
+Add missing default permissions for Device Personalization Services, Lawnchair, Pixel Launcher and Settings Suggestions
+
+AudioService: fix audio mode not reset to MODE_NORMAL
+
+OmniStyle: move some headers online
+
+OmniStyle: move some strings from manifest to resource
+
+
+
+Device Side Changes:
+
+Switch to Remix Kernel
