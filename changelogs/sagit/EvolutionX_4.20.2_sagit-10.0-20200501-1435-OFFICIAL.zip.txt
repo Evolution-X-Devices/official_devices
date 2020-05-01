@@ -1,0 +1,58 @@
+Sagit:
+First OTA!
+Remove snap camera
+(we have MIUI Cam)
+
+Evolution-X:
+5/2
+base: SystemUI: add qs powershare tile
+interfaces: add powershare HAL
+sepolicy: add hal_lineage_powershare
+
+5/1
+QSTileHost: Fix reloadAllTiles() public function
+
+FOD devices ONLY
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern()
+
+4/30
+Evolver: Make Media artwork blur level dependent on Media cover art toggle
+Lockscreen: Use new icons for lockscreen shortcuts
+sepolicy: allow system apps to modify system props
+Settings: Adaptive Playback: allow choosing no timeout
+SystemUI: rounded_ripple must use corner_size
+SystemUI: Use 24mbps for default screen record bitrate
+vendor: permissions: Grant file manager access for OmniStyle
+
+FOD devices ONLY
+FOD Animations/Icons: convert to webp
+
+4/29
+Bring back Dash & Warp charging support
+Fix WebView vulnerability by disallowing file access
+Settings: BasebandVersionPreferenceController: Trim baseband if needed
+
+4/28
+Add custom color to ambient pulse notification lights
+Add timeout for ambient notification pulse
+base: Cleanup notification pulse values
+Clean up duplicated uses-permission
+Evolver: Add ColorSelectPreference
+Evolver: Move pulse brightness options to Miscellaneous settings
+f/n: Don't destroy ART profiles after package move
+fixup! lockscreen: Add support for showing unlock screen directly
+Lockscreen: Use new icons for lockscreen shortcuts
+Remove previous ambient pulse notification implementation
+Support using notification color for pulse light
+SystemUI: Add Pulse and Ambient notification bars
+SystemUI: Add Ambient Lights always on hide aod content option
+SystemUI: Day 0 notification light pulse fixes
+SystemUI: Fix notification light pulse for repeating notifications
+SystemUI: Fix possible case where AOD stays on after notification pulse
+SystemUI: Kill any leftover notification pulse on new pulse start
+SystemUI: Pulse light accent color option
+SystemUI: Replace pulse light drawable with our own vector
+SystemUI: Rework notification pulse check to work for private notifications
+SystemUI: Trigger pulse light only for notifications
+SystemUI: Use doze_pulse_duration_visible as timeout for showing ambient notifications
+SystemUI: Use ROWS_HIGH_PRIORITY for active notification pulse check
