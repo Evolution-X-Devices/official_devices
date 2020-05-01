@@ -1,0 +1,10 @@
+Safetynet Bypass(using Google fingerprint)
+Fix call issue where sometimes it will go to speaker
+Fixed wired headset mic not working
+Added brightness boost
+Switch to upstreamed kernel branch 4.9.220
+Actually enable blu_schedutil as default governor
+zRAM now init with script instead of fstab
+GCam 6.1 added as Camera app
+Camera app now fully replaced by GCam Go
+Fix BT issue where sound would randomly stop working on calls
