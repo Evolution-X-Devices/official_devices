@@ -1,0 +1,22 @@
+Improvements in audio
+Fixed  UI lags
+Kernel upstreamed to 4.4.220
+Merged latest caf tag (LA.UM.8.2.r1-06500-sdm660.0)
+Removed screenoff gestures for now
+Improved gaming experience
+Fixed framedrop issues
+Enabled EIS in camera
+Updated Hal1 package list
+Added pixel charge animation
+Fixed wifi speed issues in default kernel
+Introduced Android R style AOSP screenrecorder
+Brought back AOSP Screen recorder QS tile
+New implementation of Ambient Pulse
+Added Brand to Device name preference
+Moved pulse brightness options to Miscellaneous settings
+Added custom color to ambient pulse notification lights
+Using 24mbps for default screen record bitrate
+Used new icons for lockscreen shortcuts
+Make Media artwork blur level dependent on Media cover art toggle
+
+NOTE: ClEAN FLASH IF YOU WANT TO AVOID ANY ISSUES
