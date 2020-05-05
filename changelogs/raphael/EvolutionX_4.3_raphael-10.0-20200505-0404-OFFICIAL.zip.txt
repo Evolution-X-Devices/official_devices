@@ -1,0 +1,17 @@
+Device changes:
+==============================
+Switch back to MIUI brightness overlays
+Update to Coral's May 2020 build fingerprint
+------------------------------
+ROM changes:
+==============================
+Fetching IMSI from RUIM properly
+Fix reversed logic
+fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+Merge May security patch
+Remove Russian and Ukrainian translations
+Split uicc records loading in two groups
+SurfaceFlinger: Exclude CAF extensions from non-QC devices
+surfaceflinger: Exclude qcom RefreshRateType changes
+surfaceflinger: Merge caf changes
+TextureView rebind GL texture, if AHB content has changed
