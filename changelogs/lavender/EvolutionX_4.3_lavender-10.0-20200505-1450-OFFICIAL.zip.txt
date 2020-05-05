@@ -1,0 +1,11 @@
+Device changes:
+Updated kernel to 4.4.221 - Predator-Stormbreaker v5.7
+Fixed smart charging
+Updated build fingerprint to Coral w/ May patches in order for SafetyNet to pass
+-------------------------------------------------
+Notable source changes:
+EvolutionX version 4.3 - Undisputed
+May security patches
+Russian and Ukranian translations removed due to vandalism (You can go thank to @Twologon)
+Decreased .zip size thanks to removing on-screen fingerprint animations for devices that do not have this feature
+Many other small quality improvements and bug fixes
