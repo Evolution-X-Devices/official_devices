@@ -85,34 +85,6 @@
    },
    {
       "brand": "Google",
-      "codename": "marlin",
-      "name": "Pixel XL",
-      "supported_versions": [
-         {
-            "maintainer_name": "Gabriel Howard",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-3-1-t3996253"
-         }
-      ]
-   },
-   {
-      "brand": "Google",
-      "codename": "sailfish",
-      "name": "Pixel",
-      "supported_versions": [
-         {
-            "maintainer_name": "Gabriel Howard",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-3-1-t3996295"
-         }
-      ]
-   },
-   {
-      "brand": "Google",
       "codename": "taimen",
       "name": "Pixel 2 XL",
       "supported_versions": [
