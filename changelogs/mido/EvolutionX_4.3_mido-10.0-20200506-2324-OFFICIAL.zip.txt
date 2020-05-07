@@ -1,0 +1,63 @@
+Device Changelogs :- 
+
+Initial Build with kernel 4.9 
+Drop Dirac sound
+Drop Advanced controls (Temp)
+Ir Blaster is dead
+
+NOTICE :- USE KUD PROJECT TWRP FOR FLASHING THIS ROM 
+
+Thanks to Yuri , Offset, Kras, Dicky, Tushar Bharti , and all those who helped bring up 4.9 kernel for mido❤️
+
+Source Changelogs :-
+
+5/7
+
+Bring back Google’s APEX support
+
+5/5
+
+Bring back QS Smart Pulldown
+
+Bring back Russian translations
+
+Merge May security patch
+
+PowerManager: Move custom API definition to end of AIDL
+
+5/4
+
+fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+
+Remove Ukrainian translations
+
+5/3
+
+Fix reversed logic
+
+SurfaceFlinger: Exclude CAF extensions from non-QC devices
+
+surfaceflinger: Exclude qcom RefreshRateType changes
+
+surfaceflinger: Merge caf changes
+
+TextureView rebind GL texture, if AHB content has changed
+
+5/2
+
+Add isApplicationOnUicc API
+
+EvolutionUtils: Update notch check logic
+
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+
+StitchImageUtility: Fix editor on multi user
+
+telephony: URI cannot be created with negative subIds
+
+Wired/BT headset: make ringtone audio focus customizable
+
+5/1
+
+QSTileHost: Fix reloadAllTiles() public function
+
