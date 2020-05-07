@@ -1,0 +1,18 @@
+07/05/2020:
+- Switch maintainer to @Lunarixus
+- Latest Evolution-X source (May patch)
+- Fix navigation bar
+- Fix Always on display
+- Disable lockscreen rotation
+
+28/03/2020:
+- Firmware will be auto-flashed to v11.0.1.0 Q Stable
+- Optimize UI performance
+- Fix Goodix FP model
+- Fix weird lags from last OTA
+- Revert back to HMP stock kernel
+- Get rid of Pixel powerhal
+- Import better XiaomiParts doze impl
+- Reorganize and optimize props
+- Import V11.0.7.0.PDTMIXM power profiles
+- Add Evolution-X specific overlays
