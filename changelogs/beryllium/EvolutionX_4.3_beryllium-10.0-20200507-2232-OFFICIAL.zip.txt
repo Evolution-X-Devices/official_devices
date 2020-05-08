@@ -1,0 +1,18 @@
+Changelog
+
+-Sync with latest Evolution X Source
+-Fix Smart Charging
+-Switch to AOSP offline charging animation
+-Added Raise to Wake
+-Replaced Google Camera (Pixel Experience)
+-Dirac: QS Tile and fixes
+-Set evaluation as default thermals
+-Switch to Marlin vibration overlays
+-Switch to Bonito brightness curve
+-Added hearing aid support
+-Force enabled VoLTE/ViLTE
+-Fix dual-sim LTE/data issue
+-Enabled statusbar burn-in protection
+-Use Vulkan for UI rendering
+-Misc performance/battery life improvements
+-Kernel side improvements 
