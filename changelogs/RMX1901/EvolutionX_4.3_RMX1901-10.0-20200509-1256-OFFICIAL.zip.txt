@@ -1,0 +1,22 @@
+Device Changes:
+=================================
+Increased FP accuracy and speed
+Switched to snap camera
+Fixed screen recording issues
+RealmeParts: Added Raise to wake gesture
+Added FPS info QS tile
+Fixed all Fp icon overlapping issues
+Upstreamed kernel to .222
+fixed wrong charging info on lockscreen
+Removed some unneccesary wakelocks standby drain should be gone
+
+Rom changes:
+=================================
+May security patch
+Allow fp icon below pattern/pin
+Add custom color to ambient pulse notification lights
+Many other changes here and there
+
+Note: DO NOT USE AOD, USE PICKUP INSTEAD.
+
+
