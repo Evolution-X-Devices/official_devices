@@ -1,0 +1,31 @@
+Evolution-X: 
+May Security Patches
+Many improvements ROM side
+
+5/7
+Bring back Google’s APEX support
+
+5/5
+Bring back QS Smart Pulldown
+Bring back Russian translations
+Merge May security patch
+PowerManager: Move custom API definition to end of AIDL
+
+5/4
+fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+Remove Ukrainian translations
+
+5/3
+Fix reversed logic
+SurfaceFlinger: Exclude CAF extensions from non-QC devices
+surfaceflinger: Exclude qcom RefreshRateType changes
+surfaceflinger: Merge caf changes
+TextureView rebind GL texture, if AHB content has changed
+
+5/2
+Add isApplicationOnUicc API
+EvolutionUtils: Update notch check logic
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+StitchImageUtility: Fix editor on multi user
+telephony: URI cannot be created with negative subIds
+Wired/BT headset: make ringtone audio focus customizable
