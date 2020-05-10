@@ -1,0 +1,56 @@
+Device side changes:
+==============================
+- Kernel: Merged upstream to 4.4.222
+- net: wireguard: Update wireguard to version 1.0.20200506
+- sdm660-common: prop: Fix property override for lmkd
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Add sound_control (headphone & mic gain) to XiaomiParts
+- sdm660-common: Prevent XiaomiParts get killed and faster load kernel config
+- sdm660-common: Use cortex-a73 for arm64 as a73 memcpy is faster
+- sdm660: overlay: Inject IccPhoneBookInterfaceManager in Telephony 
+- sdm660-common: Fix manual network selection
+- sdm660: Telephony: Add volteReplacementRat and enable SMS shift tables
+- sdm660-common: set button brightness default to 64 
+- sdm660-common: add GoogleCamera to aux packagelist instead of blacklist
+- sdm660-common: adjust audio and radio props
+- sdm660-common: overlay: Remove unneeded network radio and iwlan overlays
+- sdm660-common: optimize and format fstabs
+- sdm660-common: rootdir: separate xiaomiparts related initialization
+- sdm660-common: rootdir: update init.class_main
+- sdm660-common: switch to blueprints where it's possible
+- sdm660-common: import compatibility matrix from caf 
+- sdm660-common: build radio config 1.1
+- sdm660-common: import irqbalance from caf
+- sdm660-common: add hostapd configuration files from caf
+- sdm660-common: rootdir: remove unused init.mdm.sh
+- sdm660-common: dont build a 32 bit version of displayservice
+- sdm660-common: rework manifest based on caf 
+- sdm660-common: Remove Speed-Profiled vendor jars contents
+- sdm660-common: Fix A2DP when offload is disabled
+- sdm660-common: init: remove double definied services
+- sdm660-common: Introduce choosable APEX
+- sdm660-common: Downgrade GPS HAL to LA.UM.8.2.r1-05100-sdm660.0
+- jasmine_sprout: Update maintainer info
+- jasmine_sprout: Enable APEX for fbe devices 
+- jasmine: switch to andorid blueprints where it's possible
+- jasmine: overlay: Enable config_showNavigationBar 
+- jasmine: audio: set in_voice_rec_headset_mic 
+- Jasmine_Sprout: Update prebuilt twrp
+- jasmine_sprout: Use unified new kernel
+- jasmine: init: Switch to new Tap to wake Node 
+- jasmine: Import sensors from common vendor
+- jasmine: Audio: Add speaker gain combo in mixer path
+- jasmine: Audio: Add hph-lowpower-mode
+- devices_twrp: fix flashing signed builds
+- devices_twrp: Fix progress display
+(For full #changelogs, watch commit history)
+------------------------------
+Compiler: Downgrade to clang 10.0.6 for better compatibility
+------------------------------
+*
+ROM Side Changes:
+==============================
+- May 2020 Security Patch
+- Latest EvoX Changes
+*
+#KeepEvolving
