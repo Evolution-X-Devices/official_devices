@@ -1,3 +1,10 @@
+11/05/2020:
+- Latest Evolution-X source (May patch)
+- Ironed out *some* audio bugs
+- Fixed power profile for accurate battery stats
+- Removed broken linker configs
+- Redone cache partition mounts
+
 28/04/2020:
 - Latest Evolution-X source
 - Attempt to improve battery drain
@@ -13,7 +20,7 @@
 - Fixed WiFi hotspot
 - Fixed various OMX bugs
 
-30/03/2020:
+31/03/2020:
 - Latest Evolution-X source
 - Fixed WhatsApp voice recording
 - Possibly fixed other audio bugs
