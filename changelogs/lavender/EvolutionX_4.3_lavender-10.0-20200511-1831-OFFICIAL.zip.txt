@@ -1,0 +1,14 @@
+Device changes:
+Updated kernel to 4.4.222 - Predator-Stormbreaker v6.9 
+SELinux Enforcing
+Fixed GPlay System updates
+Updated BLOBs from LA.UM.8.2.r1-06500-sdm660.0
+Update libchromatix and mixer paths from MIUI 20.4.27
+NOTE: Sometimes GPlay System Updates will say that it failed to update. Reboot to fix this.
+-------------------------------------------------------
+Notable source changes:
+Bring back Russian translations
+Bring back AOSP accents
+Bring back QS Smart pulldown
+Latest APN changes reverted (known to cause issues on Vodafone in some countries)
+Many other optimisations and smaller improvements
