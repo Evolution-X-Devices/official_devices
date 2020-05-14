@@ -1,0 +1,42 @@
+***What's new***
+Evolution X 4.3
+May Security Patch
+Fixed video recording mic issue
+Disable profiles in LiveDisplay
+Fixed WiFi tethering
+Added vibration strength
+Fixed MTP
+Added Thermal driver in Kernel
+
+***1/5/20***
+Safetynet Bypass(using Google fingerprint)
+Fixed call issue where sometimes it will go to speaker
+Fixed wired headset mic not working
+Added brightness boost
+Switch to upstreamed kernel branch 4.9.220
+Actually enable blu_schedutil as default governor
+zRAM now init with script instead of fstab
+GCam 6.1 added as Camera app
+Camera app now fully replaced by GCam Go
+Fixed BT issue where sound would randomly stop working on calls
+
+***25/4/20***
+Evolution X 4.20.2
+Kernel optimisations
+Kernel compiled with clang 10.0.6
+Added Blu_schedutil and set as default
+Kernel Tweaks to improve performance
+Kernel Tweaks for better idle times
+Increased zRAM to 2GB
+Fixed Calls routed through speaker instead earpiece
+Fixed Wpa2 Hotspot
+Wi-fi Tethering broken
+Fixed Status bar padding
+Added LiveDisplay 2.0
+LiveDisplay profiles don't work for the moment
+Doze fixed
+Added Gcam Go
+
+***17/4/20***
+Initial Release
+
