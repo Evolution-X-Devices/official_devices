@@ -1,0 +1,224 @@
+Device Changes:
+
+- Some sepolicy improvements
+- Enabled PASR
+
+
+ROM Changes:
+
+=======================
+     05-15-2020
+=======================
+
+
+   * frameworks/base
+d535a1274b7 Automatic translation import
+ae7448ad7fe KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+c78b419fd3d base: do not use new lockscreen layout for bypass
+c83651b7e9d SystemUI: Allow listening for face only on pin/pass view
+294f767fb1e fwb: Guard some functions against face unlock
+181d4be2ce5 [3/4] Port face unlock feature
+39538f88fab Revert "base: Fix unnecessary truncation in Slice"
+43ee5da342e TypeClock: Properly calculate the height
+5231bfd5c1b base: [SQUASH] Bring back previous ambient pulse notification implementation [1/2]
+88961ac1dc0 fixup! SystemUI: Allow translucent notifications background on lockscreen [1/2]
+9e1ce5f7b9c SystemUI: Allow translucent notifications background on lockscreen [1/2]
+
+   * manifest
+3ce759f [1/4] Port face unlock feature
+
+   * packages/apps/Evolver
+bf7335f Automatic translation import
+f771efb Evolver: [SQUASH] Bring back previous ambient pulse notification implementation [2/2]
+e84fff9 Evolver: Allow translucent notifications background on lockscreen [2/2]
+
+   * packages/apps/OmniStyle
+bda40af Automatic translation import
+
+   * packages/apps/Settings
+e10810065a Automatic translation import
+af246b15f3 [4/4] Port face unlock feature
+303ee3d0bd Settings: Don't change nouns in summaries to lower case for German
+
+   * packages/apps/TouchGestures
+75dee3d Automatic translation import
+
+   * packages/apps/Updates
+6693bb1 Automatic translation import
+
+   * vendor/aosp
+c2e9eaa4 [2/5] Port face unlock feature
+
+   * vendor/pixelstyle
+f5a7a12 Add back FM Radio icon for missed package
+870b97b pixelstyle: Import FM icon and default wall
+3bc983a vendor: Optimize Pixel charger animation
+a7b6194 pixelstyle: Use Pixel charger animation
+2bce992 pixelstyle: Add missing Settings overlay for Wallpapers and styles
+0f1d48b pixelstyle: Set pixel accent color
+9f1db01 pixelstyle: Import settings overlays from SettingsGoogle
+4a9c823 pixelstyle: Don't enable aware lock/skip gestures
+6d7f1fc pixelstyle: Import settings bools
+dceaa5e pixelstyle: Round system dialogs, buttons and progress bars
+5b39598 pixelstyle: Distinguish HSPA data icon from UMTS data icon, vibrate on icon animation
+2f75fcb pixelstyle: Import Telephony/Telecomm/SettingsProvider/SystemUI overlays
+
+=======================
+     05-14-2020
+=======================
+
+
+   * build/make
+9c0aa508e releasetools: do not remove dynamic partitions in system-only builds
+55e008e08 Generate block based OTA for product partitions
+
+   * manifest
+f7fe979 manifest: Temp track system/bt
+
+   * system/bt
+5445c98fe bt_target.h: Update MTU size for Amiibo support
+e30c1a081 GattServcer: Check invalid offset
+2ceed616d AAC Decoder: Use osi_free() to free buffers allocated by osi_malloc()
+
+=======================
+     05-13-2020
+=======================
+
+
+   * frameworks/base
+4ceb010a626 base: Add 5 signal bars for US carriers.
+896e0457963 LTE+ indicator not shown when attached to CA network
+7c6c76775ca base: Switch styles for media seekbar text
+06aaf686679 base: Q seekbar: Tweak it's size
+
+=======================
+     05-12-2020
+=======================
+
+
+   * frameworks/base
+2c6e9f3bee5 base: Fix "Suspend" spelling
+
+   * packages/apps/OmniStyle
+c1aca1d Omnistyle: Add more scenery headers
+3e23281 OmniStyle: Add scenery headers
+d24e1b0 OmniStyle: Add 'Colorful' headers
+
+=======================
+     05-11-2020
+=======================
+
+
+   * external/asus/stitchimage
+25d6b05 Automatic translation import
+
+   * frameworks/opt/telephony
+5108ae934 telephony: Revert caf's APN changes
+621f8589f Fetching IMSI from RUIM properly
+defa48a34 Fix wrong APN list issue for multimode SIM cards.
+
+   * packages/apps/Evolver
+e51c487 Evolver: Drop no longer necessary casts when calling findPreference()
+
+   * packages/apps/Settings
+6669ae98a0 Settings: Remove obsolete PreferenceCategory for LiveDisplay
+5cd0ccd3a9 Settings: Drop no longer necessary casts when calling findPreference()
+
+   * vendor/aosp
+765d4d5d treewide: Lint all python script to prevent warning issue
+9d3e7702 vendor: Move charger animation to pixelstyle
+
+   * vendor/google-customization
+5dd120f google-customization: Build with ModuleMetadataGooglePrebuilt for all devices
+
+   * vendor/pixelstyle
+9f404ad pixelstyle: Import settings overlay
+5b44899 pixelstyle: Import Pixel Sounds
+0c28f0e pixelstyle: Use round icons
+8ccade6 pixelstyle: Show swipe up gesture option
+c8b8d4f pixelstyle: Enable smart battery
+2dd2c8c pixelstyle: Disable all caps text on buttons
+190775e pixelstyle: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support
+3c9e797 pixelstyle: Import background, user icon and system colors from Pixel
+a46cab8 pixelstyle: Cleanup
+
+=======================
+     05-10-2020
+=======================
+
+
+   * bionic
+5178862fb android_getaddrinfo_proxy: fix memory leak on failure.
+
+   * development
+383d78c6c privapp_permissions: Check product privapp_permissions
+
+   * device/custom/sepolicy
+4db94bd qcom: Add legacymm livedisplay sepolicy
+
+   * frameworks/base
+05c45226f42 AccentUtils: RGB Accents: Return default value if RGB is set to default
+730de38d7a5 overlays: Bring back AOSP Accents [1/2]
+80e4a90c4bb Do not clean up ART profiles during OTAs
+
+   * frameworks/native
+08d214145 Correct PowerManager transaction IDs. These transaction IDs must be kept in sync with the method order from IPowerManager.aidl.
+acb976bc5 Don't destroy ART profiles after package move.
+f6d6812e2 Add a separate flag in the installer for keeping ART profiles
+
+   * manifest
+e04c781 manifest: Track LOS external/gptfdisk
+
+   * packages/apps/Evolver
+f563232 Evolver: AccentPicker: disable Overlay accent picker if RGB accent picker is in use
+33a19c8 Evolver: AccentColorPicker: set color preview from resources if default RGB value is set
+bee8163 Evolver: ColorPickerPreference: add function to set custom color preview
+89fd007 Evolver: Bring back AOSP Accents [2/2]
+
+   * packages/apps/FMRadio
+e37c229 Automatic translation import
+
+   * packages/apps/Snap
+1c7672754 Snap: Rename prevent power key permission
+166670bdc Automatic translation import
+ca6231799 Snap: quickreader: Don't allow insecure actions
+
+   * packages/apps/Updates
+f949ac5 Only cancel notification if update isn't installed
+3c5b78e Updater: remove dialog before showing a new one and when detaching
+2b62770 AndroidManifest: explicitly disable cleartext traffic
+9799e97 Updater: do not use hidden field
+
+   * packages/providers/DownloadProvider
+72b347cd Automatic translation import
+
+   * packages/providers/MediaProvider
+a99552c MediaProvider: Less spam
+
+   * packages/services/BuiltInPrintService
+383ede4 Automatic translation import
+
+   * system/core
+1954354da fs_mgr: skip setting rootfs block as ro during mount_all in recovery
+
+   * system/sepolicy
+0b6a2656 Allow adb start/stop mdnsd via ctl.start/stop
+
+   * vendor/aosp
+ff73420a vendor: Add flag for skipping EV_REL input in recovery
+a90eb40c Add product_launched_with_j{,_mr1,mr2}.mk
+
+   * vendor/qcom/opensource/fm-commonsys
+dd980ac jni: Resolve property isolation issues
+57c162b Automatic translation import
+
+   * vendor/qcom/opensource/power
+07b50d6 power: Add the custom set_feature lib as whole static library
+
+=======================
+     05-09-2020
+=======================
+
+
+   * vendor/gapps
+afdd938 gapps: Drop overlays
