@@ -1,0 +1,27 @@
+Updated vendor security patch
+Enabled memory optimization
+Enforced firmware 060
+Updated LED colours from stock Q beta
+Updated some blobs from LA.UM.8.2.1.r1-04200-sdm660.0
+Added Moto Dolby
+Added touch gestures to Zenparts
+Added logtile to Zenparts
+Added ambient display gestures to Zenparts
+Added FPS Info
+Kernel upstreamed to 4.4.222
+Brought back Face Unlock support
+Modify notification section in updater
+Brought back previous ambient pulse notification
+Added more QS headers
+Added 5 signal bars for US carriers
+Fixed LTE+ indicator not shown when attached to CA network
+Removed obsolete PreferenceCategory for LiveDisplay
+Brought back AOSP Accents
+Brought back Google’s APEX support
+Brought back QS Smart Pulldown
+Brought back Russian translations
+Lot of under the hood changes
+
+NOTE:
+FIRMWARE 060 OR ABOVE IS MANDATORY FROM THIS BUILD ONWARDS.
+DO A CLEAN FLASH IF YOU FACE ANY PROBLEMS.
