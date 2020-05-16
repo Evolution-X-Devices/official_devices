@@ -1,0 +1,15 @@
+Device changelog:
+Wifi display fixed
+
+Kernel upstream to 4.4.233
+
+Added aptx blobs
+
+Source changelog:
+Bring back Face Unlock support
+
+Settings: Don't change nouns in summaries to lower case for German
+
+TypeClock: Properly calculate the height
+
+Updater: Modify notification section
