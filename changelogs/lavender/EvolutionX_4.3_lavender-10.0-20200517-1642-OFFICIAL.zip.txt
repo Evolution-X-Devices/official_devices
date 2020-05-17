@@ -1,0 +1,15 @@
+Device changes:
+Updated kernel to 4.4.223 - Predator-Stormbreaker v7.0
+Fixed blurry icons and device getting detected as a tablet (Caused weird UI in MS Word and a few others)
+Added legacy app scaling support
+Removed GCam in favour of SnapCam (If you use ANXCamera in Magisk, disable the module before updating or you won't have any preinstalled cam)
+Fixed a few minor SELinux denials
+NOTE: Update or reinstall ALL apps that had the blurry icon issue to fix it.
+-------------------------------------------------------
+Notable source changes:
+Face Unlock 2: The Electric Boogaloo
+Added 5 signal bars for US carriers (give the rest 6 to flex pls)
+Added more QS headers
+Fix LED blinking for missed calls
+Added Pixel Blue accent 
+Many more bug fixes and QoL improvements
