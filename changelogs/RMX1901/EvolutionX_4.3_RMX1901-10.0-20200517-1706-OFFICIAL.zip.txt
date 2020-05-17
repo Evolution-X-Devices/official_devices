@@ -1,0 +1,20 @@
+Device
+==============================
+Fixed screen off charging
+Fixed lockscreen brightness being low
+Fixed FP icon glow
+Added inbuilt Dolby service
+Improved Fp accuracy more
+Fixed weird issue of black screen after reboot
+Use AOSP Surface Flinger (UI more smooth now)
+Use AOSP bluetooth hal (better bluetooth audio)
+Use pixel's off screen charging animation
+
+Source
+=============================
+Added back face unlock!
+Fix FP in night light
+Add more accents
+Switch to previous pulse
+
+
