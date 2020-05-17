@@ -1,9 +1,0 @@
-Update:05/17/2020
-+Fix brightness values
-+Add coral fp to bypass safetynet
-+Fix dt2w
-+Fix AOD
-+Partially fix offline charging
-+Fix and delete notch overlay 
-+Make it device region specific 9s/9pro
-+Improve performance, changing cpu architecture from generic to specific
