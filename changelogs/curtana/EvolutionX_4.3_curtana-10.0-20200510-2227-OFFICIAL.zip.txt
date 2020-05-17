@@ -1,1 +1,10 @@
-Initial Release
+Update 17/05/2020
++Brightness slider fixed
++Fixed notch overlay
++Change fp to Coral May security update (pass safetynet)
++Tidy up stuff in device tree
++Dt2w fixed
++Offline charging (partially working)
++AOD working
++Fixed up device name 
++Added Face unlock
