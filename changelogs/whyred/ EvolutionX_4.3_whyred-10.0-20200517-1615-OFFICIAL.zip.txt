@@ -1,0 +1,77 @@
+AOSP Accents: Add Pixel Blue
+base: Fix notification LED blink for missed calls
+Evolver: Correctly arrange Condensed fonts
+sepolicy: Allow installd to setattr media data
+Settings: Notification log: Increase historical notifications to 100
+toasts: Follows theme corner radius
+Bring back Face Unlock support
+Settings: Don't change nouns in summaries to lower case for German
+TypeClock: Properly calculate the height
+Updater: Modify notification section
+Allow translucent notifications background on lockscreen (only works on default theme)
+Bring back previous ambient pulse notification implementation
+Generate block based OTA for product partitions
+Pixelstyle: Add back FM Radio icon for missed package
+releasetools: do not remove dynamic partitions in system-only builds
+Add more QS headers (Colorful, Scenery)
+base: Add 5 signal bars for US carriers
+base: Switch styles for media seekbar text
+base: Q seekbar: Tweak it's size
+Fix LTE+ indicator not shown when attached to CA network
+Cleanup and re-import Pixel overlays
+telephony: Revert caf's APN changes
+Settings: Drop no longer necessary casts when calling findPreference()
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+Add a separate flag in the installer for keeping ART profiles
+Allow adb start/stop mdnsd via ctl.start/stop
+Bring back AOSP Accents
+Correct PowerManager transaction IDs
+Don't destroy ART profiles after package move
+Evolver: AccentColorPicker: set color preview from resources if default RGB value is set
+Evolver: AccentPicker: disable Overlay accent picker if RBG accent picker is in use
+Evolver: ColorPickerPreference: add function to set custom color preview
+fs_mgr: skip setting rootfs block as ro during mount_all in recovery
+MediaProvider: Less spam
+qcom: Add legacymm livedisplay sepolicy
+Updater: AndroidManifest: explicitly disable cleartext traffic
+Updater: do not use hidden field
+Updater: Only cancel notification if update isn't installed
+Updater: remove dialog before showing a new one and when detaching
+vendor: Add flag for skipping EV_REL input in recovery
+Camera: Rename prevent power key permission
+privapp-permissions: Update PREVENT_POWER_KEY permission for Camera
+Settings: Hide carrier settings version if empty
+FODCircleViewImpl: Optionally disable FOD night mode
+Bring back Google’s APEX support
+Bring back QS Smart Pulldown
+Bring back Russian translations
+Merge May security patch
+PowerManager: Move custom API definition to end of AIDL
+fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+Remove Ukrainian translations
+Fix reversed logic
+SurfaceFlinger: Exclude CAF extensions from non-QC devices
+surfaceflinger: Exclude qcom RefreshRateType changes
+surfaceflinger: Merge caf changes
+TextureView rebind GL texture, if AHB content has changed
+Add isApplicationOnUicc API
+EvolutionUtils: Update notch check logic
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+StitchImageUtility: Fix editor on multi user
+telephony: URI cannot be created with negative subIds
+Wired/BT headset: make ringtone audio focus customizable
+QSTileHost: Fix reloadAllTiles() public function
+FOD devices ONLY
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern()
+Evolver: Make Media artwork blur level dependent on Media cover art toggle
+Lockscreen: Use new icons for default lockscreen shortcuts
+sepolicy: allow system apps to modify system props
+Settings: Adaptive Playback: allow choosing no timeout
+SystemUI: rounded_ripple must use corner_size
+SystemUI: Use 24mbps for default screen record bitrate
+vendor: permissions: Grant file manager access for OmniStyle
+FOD Animations/Icons: convert to webp
+Bring back Dash & Warp charging support
+Fix WebView vulnerability by disallowing file access
+Settings: BasebandVersionPreferenceController: Trim baseband if needed
+
