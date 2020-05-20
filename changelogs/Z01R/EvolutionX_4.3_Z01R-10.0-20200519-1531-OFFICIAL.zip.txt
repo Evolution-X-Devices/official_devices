@@ -1,0 +1,18 @@
+DEVICE SIDE:
+Introduce Asus Settings (multi vibrations support, log tile and fps overlay tile)
+Add SIM disable toggle
+Fixed touch gestures
+Nuked Asus Cam and Gallery (available as Magisk Module)
+Kernel upstreamed to 4.9.223 (By Kailash)
+
+ROM Side:
+Version bumped to Evolution 4.3
+May Patch
+Face Unlock
+Lockscreen Charging Info
+R style notification
+Bring back APEX support
+Bring back AOSP Accents
+More QS Headers
+
+and much more...
