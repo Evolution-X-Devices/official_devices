@@ -1,0 +1,10 @@
+Device Side:
+- Updated device tree to support FOD hal v1.1
+- Removed FOD Flicker
+- Fixed FOD Icon Overlap on pin/pattern view
+
+ROM Side:
+- Added Face Unlock
+- R Style Notifications added
+- AOSP Accents added
+- More QS Headers added
