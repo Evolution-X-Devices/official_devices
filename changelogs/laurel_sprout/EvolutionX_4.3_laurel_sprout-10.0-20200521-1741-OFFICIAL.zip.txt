@@ -1,0 +1,14 @@
+Device Side:
+- Updated device tree to support FOD hal v1.1
+- Removed FOD Flicker
+- Fixed FOD Icon Overlap on pin/pattern view
+- Switched to walleye fingerprint for passing safetynet
+- Updated vendor image to latest v15 global
+- Updated firmware from latest v15 global
+
+ROM Side:
+- Added Face Unlock
+- R Style Notifications added
+- AOSP Accents added
+- More QS Headers added
+- Added Smart Pixels
