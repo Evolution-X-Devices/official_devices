@@ -1,0 +1,105 @@
+Device Changelogs :- 
+
+HW customisation is back
+Yellow flash is no more
+Minor stability improvement
+Minor network stability improvement
+
+Make sure u are on the latest cartel/moisyndrome release.
+
+Source code changes :- 
+
+5/24
+
+Fix other lights when backlight uses SurfaceController API
+
+Settings: hardwareinfo: Hide hardware revision if empty
+
+Settings: Preserve icon for "manage space"
+
+SystemUI: Make sure notification icons are sticked to the left
+
+SystemUI: Use AOSP bluetooth icon when showing battery level
+
+
+5/23
+
+base: Add support to disable h265 on screenrecorder
+
+fixup! fixup! lockscreen: Add support for showing unlock screen directly
+
+Improve gesture navigation handle length
+
+SystemUI: Prevent loop with display timeout
+
+
+5/22
+
+Add option to make IME button space optional
+
+Evolver: Add a simple About Evolution X page
+
+fixup - telephony: Conditionally ignore RSSNR signal level
+
+Gesture nav toggle: show IME when needed and improve code
+
+Re-implement option to hide navigation bar gesture completely
+
+
+NOTCH devices ONLY
+
+Add 3 mode display cutout handler
+
+
+5/20
+
+Add support for Smart Pixels + QS tile
+
+Bring back option to Disable dashboards conditions
+
+camera: Re-implement Support exposing aux camera to apps
+
+ColorBucket: Add Choco X, Baked Green & Material Ocean
+
+common: Expose aux camera {black,white}list props
+
+Fix freeform window moving/resizing doesn't work
+
+Fix NPE when resizing with transferring focus failed
+
+Make USB-Debugging notification less important
+
+Remove broken ringtone audio focus options
+
+Settings: Developer options toast insulter
+
+SF: Report active config to java framework
+
+SystemUI: Tweak R style notification a bit
+
+SystemUI: use path specification for rounded corners
+
+Telephony: Split uicc records loading in two groups
+
+
+5/19
+
+Add Battery Bar options
+
+Add option to enable R style notification section headers
+
+Bring back option to enable Lockscreen charging Info
+
+core: Add Accelerometer and Linear Acceleration sensors in blocking list
+
+SystemUI: Always notify listeners when switching mobile data in QS
+
+SystemUI: Initialize proper visibility for notification icons container
+
+SystemUI: QS: Bring back Navigation Bar tile
+
+
+5/18
+
+wifi_hal: add slsi wifi hal support
+
