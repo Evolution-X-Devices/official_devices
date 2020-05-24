@@ -1,0 +1,57 @@
+======
+Device
+======
+-Fix smart charging hopefully
+======
+ROM
+======
+
+5/23
+base: Add support to disable h265 on screenrecorder
+fixup! fixup! lockscreen: Add support for showing unlock screen directly
+Improve gesture navigation handle length
+SystemUI: Prevent loop with display timeout
+
+5/22
+Add option to make IME button space optional
+Evolver: Add a simple About Evolution X page
+fixup - telephony: Conditionally ignore RSSNR signal level
+Gesture nav toggle: show IME when needed and improve code
+Re-implement option to hide navigation bar gesture completely
+
+5/20
+Add support for Smart Pixels + QS tile
+Bring back option to Disable dashboards conditions
+camera: Re-implement Support exposing aux camera to apps
+ColorBucket: Add Choco X, Baked Green & Material Ocean
+common: Expose aux camera {black,white}list props
+Fix freeform window moving/resizing doesn't work
+Fix NPE when resizing with transferring focus failed
+Make USB-Debugging notification less important
+Remove broken ringtone audio focus options
+Settings: Developer options toast insulter
+SF: Report active config to java framework
+SystemUI: Tweak R style notification a bit
+SystemUI: use path specification for rounded corners
+Telephony: Split uicc records loading in two groups
+
+5/19
+Add Battery Bar options
+Add option to enable R style notification section headers
+Bring back option to enable Lockscreen charging Info
+core: Add Accelerometer and Linear Acceleration sensors in blocking list
+SystemUI: Always notify listeners when switching mobile data in QS
+SystemUI: Initialize proper visibility for notification icons container
+SystemUI: QS: Bring back Navigation Bar tile
+
+5/18
+wifi_hal: add slsi wifi hal support
+
+5/16
+AOSP Accents: Add Pixel Blue
+base: Fix notification LED blink for missed calls
+Evolver: Correctly arrange Condensed fonts
+sepolicy: Allow installd to setattr media data
+Settings: Notification log: Increase historical notifications to 100
+toasts: Follows theme corner radius
+
