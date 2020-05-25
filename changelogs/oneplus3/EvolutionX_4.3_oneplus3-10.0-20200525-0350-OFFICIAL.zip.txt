@@ -1,0 +1,158 @@
+Device Changelog(all credits to Gaurav) :-
+1) Update ( ADSP/Time/Media/CNE/WFD/Radio/Radio-IMS/FM/Sensors/Charger/DRM/Gatekeeper/Keystore/Power-off alarm/BT/GPS/Graphics/Perf/QCRIL ) blobs from LA.UM.8.6.2.r1-06600-89xx.0
+2) Update (Graphics/Postprocessing) blobs from miuiDAISYGlobalV11.0.2.0
+3) Carrier/PowerHint/Hostpad/Tunning Mixer Config updated from LA.UM.8.6.2.r1-06600-89xx.0
+
+Rom:
+
+5/25
+base: notch-city: Don't work if the device doesn't have a cutout
+Catch the SQLiteFullException in NotificationUsageStats
+extract_utils: Fix vendor Android.bp creation with subdirectory
+RecordingService: Catch IllegalStateException
+RebootTile: Extend reboot tile to add power off
+RebootTile: Make default state inactive
+
+5/24
+Fix other lights when backlight uses SurfaceController API
+Settings: hardwareinfo: Hide hardware revision if empty
+Settings: Preserve icon for "manage space"
+SystemUI: Make sure notification icons are sticked to the left
+SystemUI: Use AOSP bluetooth icon when showing battery level
+
+5/23
+base: Add support to disable h265 on screenrecorder
+fixup! fixup! lockscreen: Add support for showing unlock screen directly
+Improve gesture navigation handle length
+SystemUI: Prevent loop with display timeout
+
+5/22
+Add option to make IME button space optional
+Evolver: Add a simple About Evolution X page
+fixup - telephony: Conditionally ignore RSSNR signal level
+Gesture nav toggle: show IME when needed and improve code
+Re-implement option to hide navigation bar gesture completely
+
+NOTCH devices ONLY
+Add 3 mode display cutout handler
+
+5/20
+Add support for Smart Pixels + QS tile
+Bring back option to Disable dashboards conditions
+camera: Re-implement Support exposing aux camera to apps
+ColorBucket: Add Choco X, Baked Green & Material Ocean
+common: Expose aux camera {black,white}list props
+Fix freeform window moving/resizing doesn't work
+Fix NPE when resizing with transferring focus failed
+Make USB-Debugging notification less important
+Remove broken ringtone audio focus options
+Settings: Developer options toast insulter
+SF: Report active config to java framework
+SystemUI: Tweak R style notification a bit
+SystemUI: use path specification for rounded corners
+Telephony: Split uicc records loading in two groups
+
+5/19
+Add Battery Bar options
+Add option to enable R style notification section headers
+Bring back option to enable Lockscreen charging Info
+core: Add Accelerometer and Linear Acceleration sensors in blocking list
+SystemUI: Always notify listeners when switching mobile data in QS
+SystemUI: Initialize proper visibility for notification icons container
+SystemUI: QS: Bring back Navigation Bar tile
+
+5/18
+wifi_hal: add slsi wifi hal support
+
+5/16
+AOSP Accents: Add Pixel Blue
+base: Fix notification LED blink for missed calls
+Evolver: Correctly arrange Condensed fonts
+sepolicy: Allow installd to setattr media data
+Settings: Notification log: Increase historical notifications to 100
+toasts: Follows theme corner radius
+
+5/15
+Bring back Face Unlock support
+Settings: Don't change nouns in summaries to lower case for German
+TypeClock: Properly calculate the height
+Updater: Modify notification section
+
+5/14
+Allow translucent notifications background on lockscreen (only works on default theme)
+Bring back previous ambient pulse notification implementation
+Generate block based OTA for product partitions
+Pixelstyle: Add back FM Radio icon for missed package
+releasetools: do not remove dynamic partitions in system-only builds
+
+5/13
+Add more QS headers (Colorful, Scenery)
+base: Add 5 signal bars for US carriers
+base: Switch styles for media seekbar text
+base: Q seekbar: Tweak it's size
+Fix LTE+ indicator not shown when attached to CA network
+
+5/11
+Cleanup and re-import Pixel overlays
+telephony: Revert caf's APN changes
+Settings: Drop no longer necessary casts when calling findPreference()
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+
+5/10
+Add a separate flag in the installer for keeping ART profiles
+Allow adb start/stop mdnsd via ctl.start/stop
+Bring back AOSP Accents
+Correct PowerManager transaction IDs
+Don't destroy ART profiles after package move
+Evolver: AccentColorPicker: set color preview from resources if default RGB value is set
+Evolver: AccentPicker: disable Overlay accent picker if RBG accent picker is in use
+Evolver: ColorPickerPreference: add function to set custom color preview
+fs_mgr: skip setting rootfs block as ro during mount_all in recovery
+MediaProvider: Less spam
+qcom: Add legacymm livedisplay sepolicy
+Updater: AndroidManifest: explicitly disable cleartext traffic
+Updater: do not use hidden field
+Updater: Only cancel notification if update isn't installed
+Updater: remove dialog before showing a new one and when detaching
+vendor: Add flag for skipping EV_REL input in recovery
+
+5/8
+Camera: Rename prevent power key permission
+privapp-permissions: Update PREVENT_POWER_KEY permission for Camera
+Settings: Hide carrier settings version if empty
+
+FOD devices ONLY
+FODCircleViewImpl: Optionally disable FOD night mode
+
+5/7
+Bring back Google’s APEX support
+
+5/5
+Bring back QS Smart Pulldown
+Bring back Russian translations
+Merge May security patch
+PowerManager: Move custom API definition to end of AIDL
+
+5/4
+fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+Remove Ukrainian translations
+
+5/3
+Fix reversed logic
+SurfaceFlinger: Exclude CAF extensions from non-QC devices
+surfaceflinger: Exclude qcom RefreshRateType changes
+surfaceflinger: Merge caf changes
+TextureView rebind GL texture, if AHB content has changed
+
+5/2
+Add isApplicationOnUicc API
+EvolutionUtils: Update notch check logic
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+StitchImageUtility: Fix editor on multi user
+telephony: URI cannot be created with negative subIds
+Wired/BT headset: make ringtone audio focus customizable
+
+5/1
+QSTileHost: Fix reloadAllTiles() public function
+
+
