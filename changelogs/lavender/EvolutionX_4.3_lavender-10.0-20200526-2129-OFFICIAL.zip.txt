@@ -1,0 +1,13 @@
+Device changes:
+Updated kernel to 4.4.224 - Predator-Stormbreaker v7.2
+Small cleanups
+-------------------------------------------------------
+Notable source changes:
+R Style notification headers
+Added About EvoX page into Evolver
+SnapCam has a new, redesigned UI
+Added battery bar
+Added back lockscreen charging info
+Added more accents
+Many more bug fixes and QoL improvements
+NOTE: The next update will come along with June security patches, so do not ask for ETA
