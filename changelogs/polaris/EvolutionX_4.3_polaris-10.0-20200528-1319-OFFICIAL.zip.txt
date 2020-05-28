@@ -1,0 +1,18 @@
+**Device Changes:**
+- Upstreamed kernel to Linux 4.9.225
+- Set max_frame_buffer_acquired_buffers to 3 instead of using NUM_FRAMEBUFFER_SURFACE_BUFFERS flag
+- Fixed aux camera (telephoto)
+  - tested on PitbulL gcam
+- Shipped CarrierSettings in vendor
+- Tweaked power hint a bit to improve battery life
+- Enabled Smart Charging support
+
+**Feature update highlights:**
+- Fixed notification LED blink for missed calls
+- Increased historical notifications to 100
+- Added option to enable R style notification section headers
+- Added support for Smart Pixels + QS tile
+- Re-implemented option to hide navigation bar gesture completely
+- Evolver: added a simple About Evolution X page
+- Added hexagon and rounded hexagon icon shape overlays
+- Re-worked expanded volume panel
