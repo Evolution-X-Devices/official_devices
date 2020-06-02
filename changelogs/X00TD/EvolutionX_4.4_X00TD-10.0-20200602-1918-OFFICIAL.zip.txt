@@ -1,0 +1,30 @@
+Version: Underground
+Merged June security patch
+Fixed Double tap to wake
+Fixed headphone gain
+Enabled full vndk
+Updated blobs from stock Q
+Audio improved slightly (Better than previous)
+Fixed secured hotspot issue
+Custom kernels are now supported
+Bootloop with audio mods fixed
+Removed logtile from Zenparts
+Fixed lags in Live wallpapers
+Fixed weired deepsleep issue
+Brought back Extended volume panel tabs
+Updated prebuilt pixel launcher
+Fixed SystemUI wallpaper crash
+Added new clock styles
+Brought back newer ambient pulse
+Added notification log to 'App notifications' menu
+Fixed lockscreen rotation
+Fixed crash while updating Operator Name
+Make max system status bar icons configurable
+Added option to toggle statusbar privacy indicators
+Switched to AOSP Package installer
+Add Light/Dark theme for bugreport warning dialog
+Added hexagon and rounded hexagon icon shape overlays
+Fixed ApnEditor not restoring previous UI
+
+NOTE: FW060 OR LATER IS MANDATORY
+NOTE: CLEAN FLASH IF YOU FACE ANY WEIRED ISSUES
