@@ -33,6 +33,7 @@
       "name": "Zenfone Max Pro M2",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Vyom Desai",
             "maintainer_url": "https://t.me/CannedShroudted",
             "version_code": "ten",
