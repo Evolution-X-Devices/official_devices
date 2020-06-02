@@ -1,0 +1,16 @@
+Device changes:
+Updated kernel to 4.4.225 - Predator-Stormbreaker v7.3
+Added support for Smart Pixels
+Fixed GCam, ANX and a few other camera apps (SELinux for life)
+Enabled Qualcomm time services
+Updated build fp to QQ3A.200605.001 from Coral
+-------------------------------------------------------
+Notable source changes:
+Evolved to version 4.4 - Underground
+Merged June security patches (r37)
+Updated included Pixel launcher
+Reworked Smart Charging
+Added more center-style clocks
+You can now toggle status bar privacy indicators
+Switched to AOSP Package installer
+Many bug fixes and optimizations :)
