@@ -1,0 +1,59 @@
+Device side changes:
+==============================
+- kernel-sdm660: Kernel upstream to 4.4.225 (with LA.UM.8.2.r1-06700)
+- sdm660-common: Remove unused lower-end codecs
+- sdm660-common: Increase audio HAL buffer size to 240
+- sdm660-common: prop: Set Perf related Props
+- sdm660-common: Add IOP & Esepowermanager Hal blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
+- sdm660-common: Update Sensor Blobs to CAF (LA.UM.8.2.r1-06500-sdm660)
+- sdm660-common: Update Display utils Blobs from LA.UM.8.2.r1-06500-sdm660
+- sdm660-common: Enable camera package list for aux lens
+- sdm660-common: prop: fix Echo in VoIP apps
+- sdm660-common: update bdroid_buildcfg values from caf
+- sdm660-common: Add wayne-common inherit support for extractor
+- sdm660-common: Enabling 24 bit profile for audio capture
+- sdm660-common: audio: offload 24 bits playback supports mp3/aac format
+- sdm660-common: overlay: Set screen off delay to 0 (fixes AOD fliciker)
+- sdm660-common: Import GPS HAL from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Update audio blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: Update data-ipa-cfg-mgr from LA.UM.8.2.r1-06600-sdm660.0
+- sdm660-common: Import GPS HAL from LA.UM.8.2.r1-06200-sdm660.0
+- sdm660-common: Improve padding on keyguard
+- sdm660-common: rootdir: Enable sys.use_fifo_ui prop if EAS is present
+- sdm660-common: sepolicy: remove deprecated code for avc denial error cleanup
+- sdm660-common: init.qcom.rc: Removing unused setprop persist.camera.gyro.disable
+- sdm660-common: Prevent RTT VT call on networks that don't support it
+- sdm660-common: init.qcom.post_boot: Enable APSS Low Power Modes
+- sdm660-common: overlay: Ignore RSSNR signal level
+- sdm660-common: overlay: Enable IWlan
+- sdm660-common: rootdir: Stop configuring read ahead from post_boot
+- sdm660-common: ramdisk: adjust cpubw bwmon values
+- sdm660-common: Disable ALMK on all targets
+- sdm660-common: fix manual network selection
+- sdm660-common: enable artificial interpretation of all signal levels one column higher
+- sdm660-common: Add sigma miracast blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: update adsp blobs from LA.UM.8.2.r1-06500-sdm660.0
+- sdm660-common: add missing sdsp/mdsp blobs
+- sdm660-common: Start vendor.cdsprpcd only for sdm660
+- sdm660-common: Update overlay
+- jasmine: configs: Add echo reference for voip/voice call in bt-sco path
+- configs: Add backend config for handset TMU operator device
+
+ROM Side Changes:
+==============================
+- Merge June security patch (r37) | version name: Underground
+- Update gapps from QQ3A.200605.001
+- Add option to enable R style notification section headers
+- SystemUI: Tweak R style notification a bit
+- SystemUI: use path specification for rounded corners
+- Switch to AOSP Package installer
+- Evolver: Add summary for Translucent notifications background
+- Evolver: Sync evolution_about_info_summary with our website
+- SystemUI: Don't forcefully convert wallpaper to SRGB
+- SystemUI: Properly arrange font styles
+- AutofillManager: Turn off logging by default for userdebug
+- Bring back Extended volume panel tabs
+- data: Update permissions whitelist for PermissionController
+
+#KeepEvolving
