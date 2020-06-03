@@ -1,0 +1,24 @@
+Device Changes:
+
+Updated to Coral's June fingerprint
+FOD: Switched to new libfod extension
+Enabled smart Pixel support
+Disabled night light on FOD
+Hopefully fixed smart charging
+Switched to stock HWComposer
+Fingerprint: Synced with hardware/interfaces/biometrics
+Some sepolicy Improvements
+Lowered haptic feedback a bit
+Switched to common usb-in-recovery configuration
+
+ROM Changes:
+
+Merge June security patch (r37) | version name: Underground 4.4
+Lockscreen charging info
+Battery bar
+R style notification headers
+Update prebuilt pixel launcher
+Evolver: about_page: Add icons for github, telegram & website links
+Fix SystemUI wallpaper crash
+vendor: Enable qti-telephony-common aosp_usr_pref_sel
+And lots more!
