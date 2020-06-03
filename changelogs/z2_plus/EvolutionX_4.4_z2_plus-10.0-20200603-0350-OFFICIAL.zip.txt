@@ -1,0 +1,20 @@
+Device changelog:-
+Added support for smartcharge
+kernel upstreamed
+Added support for replaced battery
+fixed some know bugs
+
+Source changelogs:- 
+Merge June security patch (r37) | version name: Underground
+Update gapps from QQ3A.200605.001
+Add option to enable R style notification section headers
+SystemUI: Tweak R style notification a bit
+SystemUI: use path specification for rounded corners
+Switch to AOSP Package installer
+Evolver: Add summary for Translucent notifications background
+Evolver: Sync evolution_about_info_summary with our website
+SystemUI: Don't forcefully convert wallpaper to SRGB
+SystemUI: Properly arrange font styles
+AutofillManager: Turn off logging by default for userdebug
+Bring back Extended volume panel tabs
+data: Update permissions whitelist for PermissionController
