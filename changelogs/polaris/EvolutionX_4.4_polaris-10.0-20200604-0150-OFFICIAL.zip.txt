@@ -1,0 +1,13 @@
+**Device Changes:**
+- Kernel: merged Linux 4.9.226 and LA.UM.8.3.r1-07900-sdm845.0
+- Switched to OSS fingerprint HIDL 
+- Updated firmware and blobs from MIUI Global Stable V11.0.5.0 for polaris 
+- Removed CarrierSettings from vendor
+
+**Feature update highlights:**
+- June security patch (android 10.0.0_r37)
+- Updated gapps from QQ3A.200605.001
+- Updated prebuilt Pixel Launcher
+- SystemUI: Don't forcefully convert wallpaper to SRGB
+- Added center style Text clock, Divided Lines, MNML based clocks & SFUNY clock styles
+- Improved Smart Charging
