@@ -1,3 +1,11 @@
+04/06/2020:
+- Latest Evolution-X source (June with face unlock)
+- Fixed RIL fully
+- Fixed Miracast
+- Introduced new Xenial kernel
+- Improved touch latency
+- Fixes for HMP kernels
+
 07/05/2020 rebuild:
 - Fixed RIL
 
