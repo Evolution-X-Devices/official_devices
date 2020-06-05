@@ -1,3 +1,9 @@
+05/06/2020:
+- Match props with stock
+- Fix FP sensor being used for input
+- Fix random animation lag
+- Add back DT2W node
+
 04/06/2020:
 - Latest Evolution-X source (June with face unlock)
 - Fixed RIL fully
