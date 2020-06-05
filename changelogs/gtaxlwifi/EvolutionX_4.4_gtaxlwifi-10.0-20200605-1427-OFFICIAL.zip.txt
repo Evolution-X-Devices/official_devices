@@ -1,0 +1,228 @@
+# Device Changes
+* Updated Kernel
+* Updated AOD
+* Hide sRGB Toggle
+
+# Source Changes
+6/5
+Add option to add left and right virtual buttons while typing
+Bring back option to disable long screenshot
+Disable safe volume everywhere, not just the US
+Evolver: Fix title & summary for layout inversion
+fixup! fix screenshot gesture working unexpectedly
+LongScreenshot: add screenshot type
+Settings: AboutDeviceNamePreferenceController: Use Manufacturer instead of brand
+Settings: Do not allow disabling the default keyboard
+Settings: InstalledApp: show link to Google Play
+SystemUI: DataSwitchTile: update SIMs QS icons
+SystemUI: ScreenshotTile: Migrate to new screenshot method with Longshot support
+Use open camera intent string from Intent class
+
+6/4
+Drop GooglePermissionControllerOverlay
+VibratorService: Fix vibration enabled when battery saver is enabled
+
+6/3
+overlays: Use correct Accent Colors for Brands regardless of theme
+Update gapps from QQ3A.200605.001
+Update translations
+
+6/2
+AutofillManager: Turn off logging by default for userdebug
+Bring back Extended volume panel tabs
+data: Update permissions whitelist for PermissionController
+Merge June security patch (r37) | version name: Underground
+Remove Expanded volume panel
+sf: Remove redundant allocateVirtualDisplay
+SystemUI: Don't forcefully convert wallpaper to SRGB
+SystemUI: Properly arrange font styles
+TextClock: Fix NPE in TextClock
+Update prebuilt pixel launcher
+Use a concurrent hash map to access VolumeDialogControllerImpl's callbacks
+
+6/1
+Evolver: about_page: Add icons for github, telegram & website links
+NuPlayer: Force update mediatime for first audio buffer
+RecordingActivityMonitor: remove spam from death events
+StagefrightRecorder: force 64-bit file-offsets for files > 4GB
+
+5/31
+Add center style Text clock, Divided Lines, MNML based clocks & SFUNY clock styles
+Add config to make Smart Charging available on device
+BGDexopt: Clean up ordering
+Bring back newer ambient pulse notification implementation
+BT: Increase the attempts to open the a2dp socket
+BT: NULL pointer handling in btif_a2dp_get_codec_configuration
+Close file descriptor to avoid socket leak
+DozeSensors: only use proximity sensor if supported
+fixup! SmartCharging codes
+Purge unused native memory before Zygote fork events
+SystemUI: Reset PUK StateMachine after PUK is unlocked
+SystemUI: there is unexpected SIM PIN input dialog
+TypeClock: Fix some ugly code and add missing fonts
+
+5/30
+Evolver: Add summary for Translucent notifications background
+Evolver: Sync evolution_about_info_summary with our website
+Pass system server class loader context when asking GetDexOptNeeded
+Settings: Add notification log to 'App notifications' menu
+Settings: Add notification log to search index
+Settings: Add ScrollView to gesture options dialog
+Settings: Fix IndexOutOfBound error on bt codec selection
+SystemUI: Fix lockscreen rotation
+Telephony: Fix crash while updating Operator Name
+
+5/29
+AlarmManagerService.setKernelTime: fix incorrect limit
+Check user unlocked before write to /data/system_ce/0/snapshots
+Settings: Fix NPE if default supervisor is not defined
+VolumeDialog: Show the notification stream when unlinked
+
+5/28
+base: Redo expanded volume panel for 10.x
+fixup! SystemUI: allow devices override audio panel location
+SystemUI: Make max system status bar icons configurable
+SystemUI: Make the arrow in expanded volume panel match accent color
+
+5/27
+Add option to toggle statusbar privacy indicators
+Package installer: show current and new version on apk installation
+Package installer: Utils: add FAKE_PACKAGE_SIGNATURE to platform permissions
+Settings: Enable and set the default account provider
+Switch to AOSP Package installer
+SystemUI: Do not convert application name to ISO-8859-15
+
+5/26
+Add Light/Dark theme for bugreport warning dialog
+Add hexagon and rounded hexagon icon shape overlays
+Allow to drop existing fd cache of cgroup path
+Don't send interaction hint for unnecessary events
+extract-utils: Fix usage for ETC files which need sub_dir
+Fix bugreport warning dialog
+Settings: Fix ApnEditor not restoring previous UI
+Start process of next activity with top priority in advance
+translate="false" -> translatable="false"
+vendor: Enable qti-telephony-common aosp_usr_pref_sel
+
+5/25
+base: notch-city: Don't work if the device doesn't have a cutout
+Catch the SQLiteFullException in NotificationUsageStats
+extract_utils: Fix vendor Android.bp creation with subdirectory
+RecordingService: Catch IllegalStateException
+RebootTile: Extend reboot tile to add power off
+RebootTile: Make default state inactive
+
+5/24
+Fix other lights when backlight uses SurfaceController API
+Settings: hardwareinfo: Hide hardware revision if empty
+Settings: Preserve icon for "manage space"
+SystemUI: Make sure notification icons are sticked to the left
+SystemUI: Use AOSP bluetooth icon when showing battery level
+
+5/23
+base: Add support to disable h265 on screenrecorder
+fixup! fixup! lockscreen: Add support for showing unlock screen directly
+Improve gesture navigation handle length
+SystemUI: Prevent loop with display timeout
+
+5/22
+Add option to make IME button space optional
+Evolver: Add a simple About Evolution X page
+fixup - telephony: Conditionally ignore RSSNR signal level
+Gesture nav toggle: show IME when needed and improve code
+Re-implement option to hide navigation bar gesture completely
+
+5/20
+Add support for Smart Pixels + QS tile
+Bring back option to Disable dashboards conditions
+camera: Re-implement Support exposing aux camera to apps
+ColorBucket: Add Choco X, Baked Green & Material Ocean
+common: Expose aux camera {black,white}list props
+Fix freeform window moving/resizing doesn't work
+Fix NPE when resizing with transferring focus failed
+Make USB-Debugging notification less important
+Remove broken ringtone audio focus options
+Settings: Developer options toast insulter
+SF: Report active config to java framework
+SystemUI: Tweak R style notification a bit
+SystemUI: use path specification for rounded corners
+Telephony: Split uicc records loading in two groups
+
+5/19
+Add Battery Bar options
+Add option to enable R style notification section headers
+Bring back option to enable Lockscreen charging Info
+core: Add Accelerometer and Linear Acceleration sensors in blocking list
+SystemUI: Always notify listeners when switching mobile data in QS
+SystemUI: Initialize proper visibility for notification icons container
+SystemUI: QS: Bring back Navigation Bar tile
+
+5/18
+wifi_hal: add slsi wifi hal support
+
+5/16
+AOSP Accents: Add Pixel Blue
+base: Fix notification LED blink for missed calls
+Evolver: Correctly arrange Condensed fonts
+sepolicy: Allow installd to setattr media data
+Settings: Notification log: Increase historical notifications to 100
+toasts: Follows theme corner radius
+
+5/15
+Bring back Face Unlock support
+Settings: Don't change nouns in summaries to lower case for German
+TypeClock: Properly calculate the height
+Updater: Modify notification section
+
+5/14
+Allow translucent notifications background on lockscreen (only works on default theme)
+Bring back previous ambient pulse notification implementation
+Generate block based OTA for product partitions
+Pixelstyle: Add back FM Radio icon for missed package
+releasetools: do not remove dynamic partitions in system-only builds
+
+5/13
+Add more QS headers (Colorful, Scenery)
+base: Add 5 signal bars for US carriers
+base: Switch styles for media seekbar text
+base: Q seekbar: Tweak it's size
+Fix LTE+ indicator not shown when attached to CA network
+
+5/11
+Cleanup and re-import Pixel overlays
+telephony: Revert caf's APN changes
+Settings: Drop no longer necessary casts when calling findPreference()
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+
+5/10
+Add a separate flag in the installer for keeping ART profiles
+Allow adb start/stop mdnsd via ctl.start/stop
+Bring back AOSP Accents
+Correct PowerManager transaction IDs
+Don't destroy ART profiles after package move
+Evolver: AccentColorPicker: set color preview from resources if default RGB value is set
+Evolver: AccentPicker: disable Overlay accent picker if RBG accent picker is in use
+Evolver: ColorPickerPreference: add function to set custom color preview
+fs_mgr: skip setting rootfs block as ro during mount_all in recovery
+MediaProvider: Less spam
+qcom: Add legacymm livedisplay sepolicy
+Updater: AndroidManifest: explicitly disable cleartext traffic
+Updater: do not use hidden field
+Updater: Only cancel notification if update isn't installed
+Updater: remove dialog before showing a new one and when detaching
+vendor: Add flag for skipping EV_REL input in recovery
+
+5/8
+Camera: Rename prevent power key permission
+privapp-permissions: Update PREVENT_POWER_KEY permission for Camera
+Settings: Hide carrier settings version if empty
+
+5/7
+Bring back Google’s APEX support
+
+5/5
+Bring back QS Smart Pulldown
+Bring back Russian translations
+Merge May security patch
+PowerManager: Move custom API definition to end of AIDL
+
