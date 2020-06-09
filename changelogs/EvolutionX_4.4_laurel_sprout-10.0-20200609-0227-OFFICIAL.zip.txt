@@ -1,0 +1,10 @@
+Device Side:
+- Updated inbuilt ANX Camera to v184
+- Fixed wiggly status bar corners
+- Fixed screen flicker while using Smart Pixels
+- Fixed headset icon disappearing delay
+- Fixed dead proximity sensor during call
+
+ROM Side:
+- Updated security patch to June Security Patch
+- Allow all apps to use smart replies
