@@ -1,0 +1,171 @@
+Fix mobile data loss issues
+Settings: Fix fallback summary for power_button_instantly_locks
+surfaceflinger: change usageBits type to uint64_t
+[BACKPORT] Cnfig of LTE signal strength default value remove SNR
+DividedLines Clock: Set 24-hr time format as well
+Evolver: about_page: Add Twitter link
+Evolver: Correct a typo
+MediaProvider: Fix sorting by DATE_TAKEN
+Sepolicy: Export missing audio volume properties
+SystemUI: Long press Caffeine for infinite duration
+SystemUI: Resolve faulty keyguard clock logs outputs
+Telecomm: Fix few issues with Blink with call
+FOD devices ONLY
+FODCircleView: Don't hide circle on auth error
+avc/hevc: Align 128 everywhere
+Camera: Make originalDataSpace be const upon stream creation
+Codec2Client: Add function to set preferred store
+Fix android.media.cts.ImageReaderDecoderTest fail on MT6580 project
+Fix some mods that hooks zygote such as Riru
+init.rc: disable kernel module autoloading
+Sepolicy: Add sepolicy for IBootControl 1.0 and the default HAL
+Sepolicy: Allow reading dt fstab in boot control HAL
+Sepolicy: Don't require seinfo for priv-apps
+Sepolicy: Ignore the denial when system_other is erased
+Sepolicy: global_macros: trim back various watch* permissions
+Sepolicy: update sepolicy for fs notification hooks
+SystemUI: Adapt screenshot sound to ringer modes
+[viewcompiler] Switch to slicer DEX opcode definitions
+Allow non-system server code to AppOpsManager.checkOp and NoteOp
+base: add parallel verifyV1
+base: Fix NPE on some devices by checking for null client
+Fix PackageWatchdog::syncRequestsAsync and related code
+os: Process: Fix wrong code in isThreadInProcess
+overlay: Allow all apps to use smart replies
+Permissions: Stop auto-granting location to system browsers
+Simplifying callback calls in PackageInstallerSession
+Add option to add left and right virtual buttons while typing
+Bring back option to disable long screenshot
+Disable safe volume everywhere, not just the US
+Evolver: Fix title & summary for layout inversion
+fixup! fix screenshot gesture working unexpectedly
+LongScreenshot: add screenshot type
+Settings: AboutDeviceNamePreferenceController: Use Manufacturer instead of brand
+Settings: Do not allow disabling the default keyboard
+Settings: InstalledApp: show link to Google Play
+SystemUI: DataSwitchTile: update SIMs QS icons
+SystemUI: ScreenshotTile: Migrate to new screenshot method with Longshot support
+Use open camera intent string from Intent class
+FOD devices ONLY
+FODCircleViewImpl: Use FODUtils to check for auto disabling night light on FOD devices
+Drop GooglePermissionControllerOverlay
+VibratorService: Fix vibration enabled when battery saver is enabled
+LEFT-SIDED Volume panel devices ONLY
+VolumeDialog: Fix live caption button when on left side
+FOD devices ONLY
+Clean up unnecessary FOD commits
+overlays: Use correct Accent Colors for Brands regardless of theme
+Update gapps from QQ3A.200605.001
+Update translations
+AutofillManager: Turn off logging by default for userdebug
+Bring back Extended volume panel tabs
+data: Update permissions whitelist for PermissionController
+Merge June security patch (r37) | version name: Underground
+Remove Expanded volume panel
+sf: Remove redundant allocateVirtualDisplay
+SystemUI: Don't forcefully convert wallpaper to SRGB
+SystemUI: Properly arrange font styles
+TextClock: Fix NPE in TextClock
+Update prebuilt pixel launcher
+Use a concurrent hash map to access VolumeDialogControllerImpl's callbacks
+Evolver: about_page: Add icons for github, telegram & website links
+NuPlayer: Force update mediatime for first audio buffer
+RecordingActivityMonitor: remove spam from death events
+StagefrightRecorder: force 64-bit file-offsets for files > 4GB
+FOD devices ONLY
+FODCircleView: Add support for pressed fod layer
+Add center style Text clock, Divided Lines, MNML based clocks & SFUNY clock styles
+Add config to make Smart Charging available on device
+BGDexopt: Clean up ordering
+Bring back newer ambient pulse notification implementation
+BT: Increase the attempts to open the a2dp socket
+BT: NULL pointer handling in btif_a2dp_get_codec_configuration
+Close file descriptor to avoid socket leak
+DozeSensors: only use proximity sensor if supported
+fixup! SmartCharging codes
+Purge unused native memory before Zygote fork events
+SystemUI: Reset PUK StateMachine after PUK is unlocked
+SystemUI: there is unexpected SIM PIN input dialog
+TypeClock: Fix some ugly code and add missing fonts
+Evolver: Add summary for Translucent notifications background
+Evolver: Sync evolution_about_info_summary with our website
+Pass system server class loader context when asking GetDexOptNeeded
+Settings: Add notification log to 'App notifications' menu
+Settings: Add notification log to search index
+Settings: Add ScrollView to gesture options dialog
+Settings: Fix IndexOutOfBound error on bt codec selection
+SystemUI: Fix lockscreen rotation
+Telephony: Fix crash while updating Operator Name
+AlarmManagerService.setKernelTime: fix incorrect limit
+Check user unlocked before write to /data/system_ce/0/snapshots
+Settings: Fix NPE if default supervisor is not defined
+VolumeDialog: Show the notification stream when unlinked
+base: Redo expanded volume panel for 10.x
+fixup! SystemUI: allow devices override audio panel location
+SystemUI: Make max system status bar icons configurable
+SystemUI: Make the arrow in expanded volume panel match accent color
+NOTCH devices ONLY
+SystemUI: Allow for notch view to be ignored
+Add option to toggle statusbar privacy indicators
+Package installer: show current and new version on apk installation
+Package installer: Utils: add FAKE_PACKAGE_SIGNATURE to platform permissions
+Settings: Enable and set the default account provider
+Switch to AOSP Package installer
+SystemUI: Do not convert application name to ISO-8859-15
+NOTCH devices ONLY
+Fall back to previous Notch hide implementation
+Add Light/Dark theme for bugreport warning dialog
+Add hexagon and rounded hexagon icon shape overlays
+Allow to drop existing fd cache of cgroup path
+Don't send interaction hint for unnecessary events
+extract-utils: Fix usage for ETC files which need sub_dir
+Fix bugreport warning dialog
+Settings: Fix ApnEditor not restoring previous UI
+Start process of next activity with top priority in advance
+translate="false" -> translatable="false"
+vendor: Enable qti-telephony-common aosp_usr_pref_sel
+base: notch-city: Don't work if the device doesn't have a cutout
+Catch the SQLiteFullException in NotificationUsageStats
+extract_utils: Fix vendor Android.bp creation with subdirectory
+RecordingService: Catch IllegalStateException
+RebootTile: Extend reboot tile to add power off
+RebootTile: Make default state inactive
+Fix other lights when backlight uses SurfaceController API
+Settings: hardwareinfo: Hide hardware revision if empty
+Settings: Preserve icon for "manage space"
+SystemUI: Make sure notification icons are sticked to the left
+SystemUI: Use AOSP bluetooth icon when showing battery level
+base: Add support to disable h265 on screenrecorder
+fixup! fixup! lockscreen: Add support for showing unlock screen directly
+Improve gesture navigation handle length
+SystemUI: Prevent loop with display timeout
+Add option to make IME button space optional
+Evolver: Add a simple About Evolution X page
+fixup - telephony: Conditionally ignore RSSNR signal level
+Gesture nav toggle: show IME when needed and improve code
+Re-implement option to hide navigation bar gesture completely
+NOTCH devices ONLY
+Add 3 mode display cutout handler
+Add support for Smart Pixels + QS tile
+Bring back option to Disable dashboards conditions
+camera: Re-implement Support exposing aux camera to apps
+ColorBucket: Add Choco X, Baked Green & Material Ocean
+common: Expose aux camera {black,white}list props
+Fix freeform window moving/resizing doesn't work
+Fix NPE when resizing with transferring focus failed
+Make USB-Debugging notification less important
+Remove broken ringtone audio focus options
+Settings: Developer options toast insulter
+SF: Report active config to java framework
+SystemUI: Tweak R style notification a bit
+SystemUI: use path specification for rounded corners
+Telephony: Split uicc records loading in two groups
+Add Battery Bar options
+Add option to enable R style notification section headers
+Bring back option to enable Lockscreen charging Info
+core: Add Accelerometer and Linear Acceleration sensors in blocking list
+SystemUI: Always notify listeners when switching mobile data in QS
+SystemUI: Initialize proper visibility for notification icons container
+SystemUI: QS: Bring back Navigation Bar tile
+wifi_hal: add slsi wifi hal support
+
