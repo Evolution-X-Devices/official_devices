@@ -1,0 +1,12 @@
+Fixed 4K video recording
+Fixed low audio issues
+Removed fps info from zenparts
+lowered cpusets for power saving
+Reduced audio distortion
+Fixed mobile data loss issues
+Adapted screenshot sound to ringer modes
+Brought back option to disable long screenshot
+Enabled link to Google Play for installed apps
+Fixed accent colours for brands regardless of theme
+Updated gapps from QQ3A.200605.001
+Updated translations
