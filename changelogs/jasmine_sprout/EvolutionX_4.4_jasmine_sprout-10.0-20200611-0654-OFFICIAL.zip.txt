@@ -1,0 +1,102 @@
+DEVICE SOURCE CHANGES
+========================
+kernel: Switched to EAS
+-Implemented PELT_HALFLIFE_16
+-Imlemented some I/O Scheduler (maple,zen,anxiety)
+-Imlemented sLMK
+-Imlemented DriveDroid Storage Support
+-Implemented Adreno Idler
+-Lots of bakcport on shed/cpu
+jasmine: Switch to caf sensors in common tree
+sdm660-common: Disable IOP for EAS
+sdm660-common: fstab: Add 2GB zRam block
+sdm660: rootdir: Enable sys.use_fifo_ui prop if EAS is present
+sdm660-common: sepolicy: Address some denials
+sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0
+sdm660-common: Update DATA IPA Hal to LA.UM.8.2.r1-06700-sdm660.0
+sdm660-common: Update Gps Hal to LA.UM.8.2.r1-06700-sdm660.0
+sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
+sdm660-common: Parts: Set correct Led max Brightness value
+sdm660-common: Import all EAS stuffs and remove HMP
+-Add and enable Pixel Power Hal
+-Add Power Stat support
+-Add Powerhint
+-Add all dt2w node
+-Add permission and sepolicy
+-Kang libqti-perfd blobs from Taimen QP1A.190711.020
+-Remove IOP and HMP remundants
+sdm660-common: overlays: Adapt new smart charge implementation
+
+ROM SOURCE CHANGES
+========================
+6/10
+frameworks_av: surfaceflinger: change usageBits type to uint64_t
+Settings: Fix fallback summary for power_button_instantly_locks
+vendor_aosp: qcom: Permit overriding TRINKET, STEPPE, NILE from board trees
+
+6/9
+SystemUI: Long press Caffeine for infinite duration
+SystemUI: Resolve faulty keyguard clock logs outputs
+fw_base: [BACKPORT] Config of LTE signal strength default value remove SNR
+fw_base: DividerLines Clock: Set 24-hr time format as well
+fw_base: FODCircleView: Don't hide circle on auth error
+Telecom: Fix few issues with Blink with call
+sepolicy: Export missing audio volume properties
+MediaProvider: Fix sorting by DATE_TAKEN
+
+6/8
+TouchGestures: Fix alertDialog theme
+
+6/7
+avc/hevc: Align 128 everywhere
+Camera: Make originalDataSpace be const upon stream creation
+Codec2Client: Add function to set preferred store
+Fix android.media.cts.ImageReaderDecoderTest fail on MT6580 project
+Fix some mods that hooks zygote such as Riru
+init.rc: disable kernel module autoloading
+Sepolicy: Add sepolicy for IBootControl 1.0 and the default HAL
+Sepolicy: Allow reading dt fstab in boot control HAL
+Sepolicy: Don't require seinfo for priv-apps
+Sepolicy: Ignore the denial when system_other is erased
+Sepolicy: global_macros: trim back various watch* permissions
+Sepolicy: update sepolicy for fs notification hooks
+SystemUI: Adapt screenshot sound to ringer modes
+
+6/6
+[viewcompiler] Switch to slicer DEX opcode definitions
+Allow non-system server code to AppOpsManager.checkOp and NoteOp
+base: add parallel verifyV1
+base: Fix NPE on some devices by checking for null client
+Fix PackageWatchdog::syncRequestsAsync and related code
+os: Process: Fix wrong code in isThreadInProcess
+overlay: Allow all apps to use smart replies
+Permissions: Stop auto-granting location to system browsers
+Simplifying callback calls in PackageInstallerSession
+
+6/5
+Add option to add left and right virtual buttons while typing
+Bring back option to disable long screenshot
+Disable safe volume everywhere, not just the US
+Evolver: Fix title & summary for layout inversion
+fixup! fix screenshot gesture working unexpectedly
+LongScreenshot: add screenshot type
+Settings: AboutDeviceNamePreferenceController: Use Manufacturer instead of brand
+Settings: Do not allow disabling the default keyboard
+Settings: InstalledApp: show link to Google Play
+SystemUI: DataSwitchTile: update SIMs QS icons
+SystemUI: ScreenshotTile: Migrate to new screenshot method with Longshot support
+Use open camera intent string from Intent class
+FODCircleViewImpl: Use FODUtils to check for auto disabling night light on FOD devices
+
+6/4
+Drop GooglePermissionControllerOverlay
+VibratorService: Fix vibration enabled when battery saver is enabled
+LEFT-SIDED Volume panel devices ONLY
+VolumeDialog: Fix live caption button when on left side
+FOD devices ONLY
+Clean up unnecessary FOD commits
+
+6/3
+overlays: Use correct Accent Colors for Brands regardless of theme
+Update gapps from QQ3A.200605.001
+Update translations
