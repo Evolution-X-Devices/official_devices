@@ -1,0 +1,9 @@
+Fixed DT2W
+Use updated TwistedKernel
+Added Thermal profiles (can be found on Battery settings)
+Improved Pixel Powerhal
+Addressed more selinux denials
+Switch to OSS Fingerprint hal
+Update sdm845-common blobs from MIUI V11.0.8.0 global stable
+Update Vulkan and EGL drivers
+More under-the-hood Improvements
