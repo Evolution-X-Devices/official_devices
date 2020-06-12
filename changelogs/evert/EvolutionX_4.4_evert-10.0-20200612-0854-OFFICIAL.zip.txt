@@ -1,0 +1,11 @@
+6/12
+- Upstream kernel to v4.4.227
+
+6/11
+- Improve BT sound fixes
+- Faceunlock is back
+
+6/10
+- Fix mobile data loss issues
+- Settings: Fix fallback summary for power_button_instantly_locks
+- surfaceflinger: change usageBits type to uint64_t
