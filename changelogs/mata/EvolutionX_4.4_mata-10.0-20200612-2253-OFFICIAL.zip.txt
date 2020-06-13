@@ -1,0 +1,75 @@
+Device-specific changes:
+ - Removed unnecessary/obsolete codes
+ - Added/fixed maintainer and support information
+
+Evolution X changes:
+ - 6/10
+Fix mobile data loss issues
+Settings: Fix fallback summary for power_button_instantly_locks
+surfaceflinger: change usageBits type to uint64_t
+ - 6/9
+[BACKPORT] Config of LTE signal strength default value remove SNR
+DividedLines Clock: Set 24-hr time format as well
+Evolver: about_page: Add Twitter link
+Evolver: Correct a typo
+MediaProvider: Fix sorting by DATE_TAKEN
+Sepolicy: Export missing audio volume properties
+SystemUI: Long press Caffeine for infinite duration
+SystemUI: Resolve faulty keyguard clock logs outputs
+Telecomm: Fix few issues with Blink with call
+ - 6/7
+avc/hevc: Align 128 everywhere
+Camera: Make originalDataSpace be const upon stream creation
+Codec2Client: Add function to set preferred store
+Fix android.media.cts.ImageReaderDecoderTest fail on MT6580 project
+Fix some mods that hooks zygote such as Riru
+init.rc: disable kernel module autoloading
+Sepolicy: Add sepolicy for IBootControl 1.0 and the default HAL
+Sepolicy: Allow reading dt fstab in boot control HAL
+Sepolicy: Don't require seinfo for priv-apps
+Sepolicy: Ignore the denial when system_other is erased
+Sepolicy: global_macros: trim back various watch* permissions
+Sepolicy: update sepolicy for fs notification hooks
+SystemUI: Adapt screenshot sound to ringer modes
+ - 6/6
+[viewcompiler] Switch to slicer DEX opcode definitions
+Allow non-system server code to AppOpsManager.checkOp and NoteOp
+base: add parallel verifyV1
+base: Fix NPE on some devices by checking for null client
+Fix PackageWatchdog::syncRequestsAsync and related code
+os: Process: Fix wrong code in isThreadInProcess
+overlay: Allow all apps to use smart replies
+Permissions: Stop auto-granting location to system browsers
+Simplifying callback calls in PackageInstallerSession
+ - 6/5
+Add option to add left and right virtual buttons while typing
+Bring back option to disable long screenshot
+Disable safe volume everywhere, not just the US
+Evolver: Fix title & summary for layout inversion
+fixup! fix screenshot gesture working unexpectedly
+LongScreenshot: add screenshot type
+Settings: AboutDeviceNamePreferenceController: Use Manufacturer instead of brand
+Settings: Do not allow disabling the default keyboard
+Settings: InstalledApp: show link to Google Play
+SystemUI: DataSwitchTile: update SIMs QS icons
+SystemUI: ScreenshotTile: Migrate to new screenshot method with Longshot support
+Use open camera intent string from Intent class
+ - 6/4
+Drop GooglePermissionControllerOverlay
+VibratorService: Fix vibration enabled when battery saver is enabled
+ - 6/3
+overlays: Use correct Accent Colors for Brands regardless of theme
+Update gapps from QQ3A.200605.001
+Update translations
+ - 6/2
+AutofillManager: Turn off logging by default for userdebug
+Bring back Extended volume panel tabs
+data: Update permissions whitelist for PermissionController
+Merge June security patch (r37) | version name: Underground
+Remove Expanded volume panel
+sf: Remove redundant allocateVirtualDisplay
+SystemUI: Don't forcefully convert wallpaper to SRGB
+SystemUI: Properly arrange font styles
+TextClock: Fix NPE in TextClock
+Update prebuilt pixel launcher
+Use a concurrent hash map to access VolumeDialogControllerImpl's callbacks
