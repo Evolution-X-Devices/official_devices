@@ -1,0 +1,25 @@
+YOU MUST FORMAT DATA BEFORE UPDATING, OR YOUR DEVICE WILL NOT BOOT. TAKE A BACKUP FIRST
+UPDATE KARNE SE PEHLE DATA KA FORMAT KARNA JAROORI HAI. WARNA APKA ROM BOOT UP NAHI HOGA. KRIPAYA ROM KA BACKUP BANA LE
+يجب عليك ان تقوم بأعادة تهيئة (فورمات) للبيانات قبل التحديث او لن يعمل هاتفك خذ نسخة احتياطية قبل ان تقوم بالتحديث .
+Короче - мейнтейнер переходит на коммон деревья которые намного лучше и стабильнее в использовании. Так что ПЕРЕХОД БУДЕТ ОСУЩЕСТВЛЯТЬСЯ С ФОРМАТ ДАТА!!! Делайте бекап перед обновлением, чтобы в будущем не было тупых вопросов в адрес мейнтейнера!
+DEBES FORMATEAR DATA ANTES DE ACTUALIZAR, O TU DISPOSITIVO NO VA A INICIAR. HAZ UN RESPALDO PRIMERO
+DEVI FORMATTARE I DATI PRIMA DI AGGIORNARE, O IL TUO DISPOSITIVO NON SI AVVIAMENTO.  PRIMA UN BACKUP
+আপডেট করার আগে আপনাকে অবশ্যই ডাটা ফরম্যাট করতে হবে নাহলে আপনার ডিভাইস বুট হবে না। তাই ব্যাকআপ নিয়ে নিবেন আগে।
+VOUS DEVEZ FORMATER LES DONNÉES AVANT LA MISE À JOUR, OU VOTRE APPAREIL NE DÉMARRERA PAS. FAITES UNE SAUVEGARDE D'ABORD
+ANDA HARUS MELAKUKAN FORMAT DATA SEBELUM MELAKUKAN PEMBARUAN, ATAU PERANGKAT TIDAK AKAN MENYALA. CADANGKAN DATA TERLEBIH DAHULU.
+
+Device changes:
+Now based on common tree
+User build
+Better battery backup
+Seems a tiny bit smoother
+More up-to-date with CAF
+Just more stable overall
+Really hard to make changelogs, everything is different
+
+Source changes:
+All apps can now use smart replies
+*finally* 24-hr clock will set based on your region
+Fixed random mobile data loss at times
+Disabled safe volume everywhere
+Many many many optimisations and bugfixes, nothing major this week
