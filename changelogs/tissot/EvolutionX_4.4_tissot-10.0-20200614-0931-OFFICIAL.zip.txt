@@ -1,0 +1,42 @@
+===
+Device Changelog
+===
+
+msm8953-common: Update powerhint from LA.UM.8.6.2.r1-07100-89xx.0
+msm8953-common: Import ESE-Powermanager from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Import Soter from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Import IO Prefetcher from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Import SCVE blobs from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Import Latency blobs from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update Listen Blobs from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Import CDSP blobs from daisy
+msm8953-common: Enabling sound trigger V2_2
+msm8953-common: configs: Add voip_tx profile to policy conf
+msm8953-common: Update Audio from daisy
+msm8953-common: Update ADSP & ADSP Modules blobs from daisy
+msm8953-common: Update Wi-Fi Display blobs from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update perf stack from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update Bluetooth stack from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update GPS stack from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update QMI from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update Radio from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update DPM from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: Update CNE from LA.UM.8.6.2.r1-07600-89xx.0
+msm8953-common: overlay: Set internal storage as default in DocumentsUI
+tissot: overlay: Snap: Don't advertise CDS.
+
+===
+ROM Changelog
+===
+
+Evolver
+Evolver: Set Vivo Green as default pressed state 
+
+frameworks/base
+fwb: Let battery light def value match notification light def value …
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground … …
+perf: Add support for HIDL Lineage power HAL …
+Revert "telephony: URI cannot be created with negative subIds"
+
+Settings
+Automatic translation import 
