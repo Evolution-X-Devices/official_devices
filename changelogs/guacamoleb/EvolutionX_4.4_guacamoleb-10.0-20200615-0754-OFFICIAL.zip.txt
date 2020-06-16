@@ -1,0 +1,25 @@
+Device Changes:
+
+Updated proprietary blobs from latest OOS (10.3.3)
+Updated audio configs from latest OOS
+Updated OPCamera from latest OOS
+Updated build description from latest OOS
+fod: Updated libfod extension function prototypes
+fod: Setup thread to high CFS priority
+fod: Reverted Disable night light on FOD
+DeviceSettings - Added auto HBM
+DeviceSettings - Added drawable icons
+DeviceSettings - Added TouchGesture category
+DeviceSettings - Introduce ProperSeekBarPreference
+Set parser input buffer size as on OOS
+Reverted Enable qti-telephony-common aosp_usr_pref_sel
+Sepolicy fixes for new camera blob
+
+ROM Changes:
+
+Evolver: about_page: Add Twitter link
+Evolver: Correct a typo
+Fix mobile data loss issues
+Settings: Fix fallback summary for power_button_instantly_locks
+Telecom: Fix few issues with Blink with call
+And more!
