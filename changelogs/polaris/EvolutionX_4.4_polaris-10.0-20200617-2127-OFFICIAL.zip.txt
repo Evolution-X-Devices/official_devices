@@ -1,0 +1,16 @@
+**Device Changes:**
+- Etude kernel: Op.10 No.1
+  * the built-in Etude kernel aims to offer better experience for users who do not feel like flashing a custom kernel 
+  * special thanks to palaych for commits of new Xiaomi changes 
+  * Linux 4.9.227 & LA.UM.8.3.r1-07900-sdm845.0, compiled with AOSP Clang 11.0.1 (r383902)
+  * upstreamed lz4 to v1.8.3 and enabled lz4 crypto for zram 
+  * simple_lmk, sound control, f2fs rapid GC (by arter97), Wireguard 1.0.20200611...
+- Increased minimum frequency for expensive rendering
+- Per-app thermal profile 
+
+**Feature update highlights:**
+- Fixed some mods that hooks zygote such as Riru
+- Option to disable long screenshot
+- Long press Caffeine for infinite duration
+- Added a LineageOS clock
+- Other misc fixes
