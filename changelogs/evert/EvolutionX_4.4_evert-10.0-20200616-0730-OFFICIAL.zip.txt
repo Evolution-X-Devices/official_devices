@@ -1,0 +1,28 @@
+6/16
+- Fixup! base: Add Touch HIDL support
+- LanguageAndInputSettings: Hide touch hovering from search if needed
+- Settings: Add high touch sensitivity and touchscreen hovering toggles
+TouchGestures updates
+- Disable proguard and dexpreopt
+- Exclude from recents
+- Fixup! Settings: Add preference for TouchGestures
+- KeyHandler: Use VibrationEffect
+- Match settings theme
+- Rework behavior when device locked
+
+6/15
+- Evolver: Quick settings: Better strings
+- Fine tune blkio setting to improve boot time
+- Fix QS customizer not reflecting rows/columns correctly
+- Fix Wifi icon in inactive state when using Custom icon pack
+- rootdir: init.rc: use default dirty writeout policy
+
+6/14
+- BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+- Evolver: Set Vivo Green as default pressed state
+- fwb: Let battery light def value match notification light def value
+- perf: Add support for HIDL Lineage power HAL
+
+6/13
+- Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds
+- Remove setIsoCountryProperty method along with partially dead code
