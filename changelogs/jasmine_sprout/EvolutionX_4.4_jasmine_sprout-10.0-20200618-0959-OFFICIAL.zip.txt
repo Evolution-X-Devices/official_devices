@@ -1,0 +1,62 @@
+Device side changes:
+==============================
+HMP BUILD - Clean Flash for bugless experiences
+- Kernel-sdm660: Merged 4.4.227 and update wireguard to version 1.0.20200611
+- Kernel-sdm660: ARM: dts: msm-pm660l: implement red and white led 
+- Kernel-sdm660: wireless-regdb: Add 5 Ghz rules for Kazakhstan (KZ)
+- Kernel-sdm660: proc: Remove additional SafetyNet flags from /proc/cmdline 
+- Kernel-sdm660: proc: Remove verifiedbootstate flag from /proc/cmdline
+- Kernel-sdm660: {sdm660}_defconfig: enable bfq
+- Kernel-sdm660: proc, oom: drop bogus task_lock and mm check
+- Kernel-sdm660: Use the stock jasmine config for /proc/config.gz
+- Kernel-sdm660: arm64/configs: sdm660: Disable kernel lowmemorykiller driver
+-sdm660-common: Don't set ro.alarm_boot 
+-sdm660-common: add qcom early boot script
+-sdm660-common: rootdir: always use lz4 for compression 
+-sdm660-common: rootdir: migrate tunables from post-boot to init.perfomance
+-sdm660-common: rootdir: cleanup init.qcom
+-sdm660-common: Drop CAF Adaptive LMK script
+-sdm660-common: Switch lmkd to use minfree levels for kill decisions
+-sdm660-common: Increase ro.lmk.medium to prevent kills at medium vmpr
+-sdm660-common: Update lmkd configuration properties
+-sdm660-common: Disable PPR on all targets
+-sdm660-common: Add 2 more notification icons 
+-sdm660: props: enable zygote preforking
+-sdm660-common: Make FM radio opt-in
+-sdm660-common: Parts: Set correct Led max Brightness value
+-sdm660-common: Use Qcrild from LA.UM.8.2.r1-06500-sdm660.0 
+-sdm660-common: Update DATA IPA Hal to LA.UM.8.2.r1-06700-sdm660.0
+-sdm660-common: Update Gps Hal to LA.UM.8.2.r1-06700-sdm660.0 
+-sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
+------------------------------
+ROM Side Changes:
+==============================
+6/16
+- Fixup! base: Add Touch HIDL support
+- LanguageAndInputSettings: Hide touch hovering from search if needed
+- Settings: Add high touch sensitivity and touchscreen hovering toggles
+TouchGestures updates
+- Disable proguard and dexpreopt
+- Exclude from recents
+- Fixup! Settings: Add preference for TouchGestures
+- KeyHandler: Use VibrationEffect
+- Match settings theme
+- Rework behavior when device locked
+
+6/15
+- Evolver: Quick settings: Better strings
+- Fine tune blkio setting to improve boot time
+- Fix QS customizer not reflecting rows/columns correctly
+- Fix Wifi icon in inactive state when using Custom icon pack
+- rootdir: init.rc: use default dirty writeout policy
+
+6/14
+- BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+- Evolver: Set Vivo Green as default pressed state
+- fwb: Let battery light def value match notification light def value
+- perf: Add support for HIDL Lineage power HAL
+
+6/13
+- Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds
+- Remove setIsoCountryProperty method along with partially dead code
+#KeepEvolving
