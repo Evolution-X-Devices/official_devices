@@ -1,0 +1,18 @@
+DEVICE SIDE
+Fix WFD (by Jackeagle)
+Upstream kernel to 4.9.227 (by Kailash)
+Updated to latest touchscreen drivers from 87 update (by Kailash)(should improve gaming)
+Improve face unlock
+
+ROM SIDE
+June Patch
+Evo Version 4.4
+Add a LineageOS clock
+Bring back Music QS tile
+Bring back option to disable long screenshot
+Update gapps from QQ3A.200605.001
+Bring back Extended volume panel tabs
+Add About Page in Evolver
+Fix lockscreen rotation
+Package installer: show current and new version on apk installation
+ColorBucket: Add Choco X, Baked Green & Material Ocean
