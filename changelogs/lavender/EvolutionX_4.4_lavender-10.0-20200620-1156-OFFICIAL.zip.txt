@@ -1,0 +1,12 @@
+Device changes:
+Updated kernel to 4.4.227 - Predator-Stormbreaker v7.6
+More notifications are now shown in the status bar
+Improved LMK stability and perfomance
+Fixed max LED brightness
+NOTE: Clean flash is still required if flashing from older builds than 20200613. If you are on 20200613, dirty flash is fine
+-------------------------------------------------------
+Source changes:
+Updated default wallpaper to fix issues
+Added a LineageOS clock
+Music QS tile is back
+Many more bugfixes and optimisations
