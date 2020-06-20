@@ -1,0 +1,18 @@
+- Sync with latest Evolution X source
+- Add some Camera props
+- Adapt overlay-lineage for Evolution X
+- Added missing permission for flashlight
+- Added missing aptX blobs from MIUI 12 China Beta
+- Disabled battery LED color options
+- Enabled bokeh mode for Snap
+- Enabled SmartCharging
+- Enabled zygote preforking
+- Fix echo in calls over Bluetooth
+- Fix VoLTE/IMS (may not work for everyone since it's a WIP implementation)
+- Load audio configs from /vendor/etc
+- Pin Camera, Home and a few more libs
+- Satisfy retarded drm info apps
+- Update overlay from MIUI V11.0.4.0.QGGMIXM
+- Update private build fingerprint description from MIUI V11.0.4.0.QGGMIXM
+- Update vibration patterns
+- Update Zenitsu Kernel to Release 1.2

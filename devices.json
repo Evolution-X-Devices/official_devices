@@ -282,6 +282,20 @@
       ]
    },
    {
+      "brand": "Redmi",
+      "codename": "begonia",
+      "name": "Redmi Note 8 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Elias (TheMalachite)",
+            "maintainer_url": "https://t.me/TheMalachite",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-8-pro/development/rom-evolution-x-4-1-69-t4068229"
+         }
+      ]
+   },
+   {
       "brand": "Samsung",
       "codename": "gtaxlwifi",
       "name": "Galaxy Tab A6 (SM-T580)",
