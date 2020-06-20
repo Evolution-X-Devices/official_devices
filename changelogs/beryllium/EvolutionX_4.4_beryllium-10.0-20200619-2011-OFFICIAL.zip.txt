@@ -1,0 +1,11 @@
+Sync with latest Evolution X source
+Fixed issue where one had to reboot to make data work after getting a call
+Fixed an issue where some GCam builds used depth sensor instead of main camera
+Fixed installation of some GCam builds
+Fixed Zoom app using IR camera for video calls
+Disabled Screen Attention (didn't work)
+Upstream kernel to 4.9.227
+Fixed fast charging issues
+Fixed a rare issue (for a couple of users) with CPU frequency being stuck
+Asus stitch is now disabled by default, to enable go to Evolver>Miscellaneous>Screenshot
+Miscellaneous bug fixes and performance improvements
