@@ -1,0 +1,8 @@
+Device Side:
+- Switched to OSS Vendor
+- Switched to Minimal (perf+) Kernel
+- Updated SHRP to v2.3
+- Fixed Google Recorder
+- Fixed Smart Charging
+- Reverted back to ANX 180 for stability
+- Reverted to older FOD Implementation for stability (Might notice a minimal ficker)
