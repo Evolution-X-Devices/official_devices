@@ -1,0 +1,67 @@
+Device changes:
+==============================
+- Build with clang 11.0.3
+- Upstreamed kernel to latest 4.14.185
+- Deep sleep improved
+- Smart charging added
+- Less Idle drain
+- better ram or memory management
+- Fast charging improvements and balanced thermals 
+- Cpu frequency switch to 100mhz only when idle
+- Removed ANXCamera
+
+
+Rom changelogs:
+==============================
+
+Evolver
+----------
+Automatic translation import
+Evolver: Make sensor block package list configurable [2/2]
+Evolver: Nuke Menu Key actions
+Evolver: Quick settings: Better strings
+
+frameworks/base
+----------
+Automatic translation import
+core: Make sensor block package list configurable [1/2]
+fixup! core: Add Accelerometer and Linear Acceleration sensors in blocking list
+DividedLines Clock: Add proper preview layout
+DividedLines Clock: Fix margin issue in layout
+MNMLBox Clock: Clean up hacky layouts
+Battery icon: fix requestLayout() calls spam when in lockscreen
+fw/b: Add support for per app network isolation
+SystemUI: Fix QS Detail Header
+SystemUI: Allow tri-state dialog extra padding to be overriden
+fixup! bluetooth: fix communication / icon after clean flash and first pairing
+bluetooth: fix communication / icon after clean flash and first pairing
+QsFooter: Animate icons while showing/hiding
+[SQUASH] Cleanup old unneeded VolumeDialogController commits
+EvolutionUtils: Create some custom device groups to check against
+Bluetooth: Serialize sending sendBluetoothServiceUpCallback
+BT: Added bind retry logic to handle race condition in Bluetooth off/on
+GamingMode: Simplify log and trivial clean up
+WifiManager: Add StaState API
+Not register sensor if StatusBar state is not KEYGUARD
+fixup! core: Settings.java
+Add a LineageOS clock
+MusicTile: Clean up redundant code
+MusicTile: Make tile state inactive if not playing music
+Add Music Tile
+Touch: Add keydisabler support
+Move high touch sensitivity and hovering to InputService
+fixup! base: Add Touch HIDL support
+TouchGestures: Add keyhandler overlays
+Fix Wifi icon in inactive state when using Custom icon pack
+Fix QS customizer not reflecting rows/columns correctly
+
+Settings
+----------
+Automatic translation import
+Settings: Add support for per app network isolation
+Toast insulter: Add more insults
+LanguageAndInputSettings: Hide touch hovering from search if needed
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+fixup! Settings: Add preference for TouchGestures
+
+#KeepEvolving
