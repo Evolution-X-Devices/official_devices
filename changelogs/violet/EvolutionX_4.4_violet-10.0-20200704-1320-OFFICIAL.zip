@@ -1,0 +1,10 @@
+Device side:
+
+- CLEAN FLASH IS MUST 
+- Maintainer changed lel
+- Switched to Lib Perf Manager
+- switched to Azure
+- Dropped caf power hals
+- Dropped ESE power manager, I/O prefetcher, Perf stack
+- Enabled vowifi/volte for Bihar
+- Removed force encryption(now you can evox with decrypted for now)
