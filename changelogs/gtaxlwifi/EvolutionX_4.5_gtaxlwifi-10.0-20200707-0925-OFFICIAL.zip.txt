@@ -1,0 +1,176 @@
+# Device Changes
+* Updated Kernel
+
+# Source Changes
+Merge July security patch
+Set Assistant UID of the current user
+
+7/6
+SystemUI: Do not condition VoWiFi icon change on calls
+
+7/3
+AODTile: remove long click intent
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Fix active color for some qs tile styles
+TextClock: Fix Korean strings
+User switch: Unbind headsetservice in bluetooth Off state
+
+7/2
+AODTile: cycle through AOD states
+AODTile: disable tile when power save mode is on
+
+7/ 1
+Fix Wifi icon in inactive state when using Custom icon pack
+
+6/30
+base_rules.mk optimizations
+Calm down attention service logspam
+Export list of "installable" files to soong_ui
+Fix test suite data files issue
+Refactor how MODULES-IN-* is define
+
+6/27
+Bring back QS tile style picker from Pie
+Filter preferred activities before committing to storage
+SystemUI: QS: Add Alarm, Calculator, Calendar, Camera and Dialer tiles
+Trigger file removal when slice permission is removed
+
+6/26
+Add APN for VSBL mobile
+build: Avoid adding VINTF manifest fragment more than once
+overlays: Accents: Add Coral and Ferrari Red
+overlays: add new icon shapes from Android R
+
+6/25
+SystemUI: Fix text clock translations
+TextClock: Bring back the translations
+TextClock: Make French strings more consistent
+TextureView rebind GL texture, if AHB content has changed
+
+6/24
+Clocks: Add burn in protection for custom clocks
+Evolver: Add more AOD notification pulse timeout options
+SystemUI: Don't show VoLTE icon when VoWiFi is showing 
+SystemUI: HW keys QS tile: Disable long click
+SystemUI: QS Details: Fix layout issues
+SystemUI: support VoWIFI icons and allow hiding VoWiFi StatusBar icon
+Telephony: Add option for using regular poll state for airplane mode
+
+6/23
+Fix issue when ‘The surface hangs up during screen on and screen off’
+SystemUI: Alphabetize the Statusbar items menu
+SystemUI: Fix issue with Bluetooth tile
+SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+SystemUI: qs add tuner switch to restore old long press behaviour
+SystemUI: Re-enable and fix QS detail view, adapt layout to 10
+SystemUI: tuner: Delete the battery entry
+
+6/22
+Add support for per app network isolation
+Battery icon: fix requestLayout() calls spam when in lockscreen
+DividedLines Clock: Add proper preview layout
+DividedLines Clock: Fix margin issue in layout
+Make sensor block package list configurable
+MNMLBox Clock: Clean up hacky layouts
+
+6/21
+bluetooth: fix communication / icon after clean flash and first pairing
+QsFooter: Animate icons while showing/hiding
+SystemUI: Fix QS Detail Header
+
+6/20
+Bluetooth: Added bind retry logic to handle race condition in Bluetooth off/on
+Bluetooth: Serialize sending sendBluetoothServiceUpCallback
+Cleanup old unneeded VolumeDialogController commits
+EvolutionUtils: Create some custom device groups to check against
+Toast insulter: Add more insults
+Update default wallpaper to fix issues
+
+6/19
+fs_mgr: Allow remounts with Magisk installed
+GamingMode: Simplify log and trivial clean up
+healthd: Add support for BMS and WiPower
+liblog: Always report as debuggable when building userdebug/eng
+Not register sensor if StatusBar state is not KEYGUARD
+WifiManager: Add StaState API
+
+6/17
+Add a LineageOS clock
+Bring back Music QS tile
+Move high touch sensitivity and hovering to InputService
+Touch: Add keydisabler support
+
+6/16
+fixup! base: Add Touch HIDL support
+LanguageAndInputSettings: Hide touch hovering from search if needed
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+
+TouchGestures updates
+Disable proguard and dexpreopt
+Exclude from recents
+fixup! Settings: Add preference for TouchGestures
+KeyHandler: Use VibrationEffect
+Match settings theme
+Rework behavior when device locked
+
+6/15
+Evolver: Quick settings: Better strings
+Fine tune blkio setting to improve boot time
+Fix QS customizer not reflecting rows/columns correctly
+Fix Wifi icon in inactive state when using Custom icon pack
+rootdir: init.rc: use default dirty writeout policy
+
+6/14
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+Evolver: Set Vivo Green as default pressed state
+fwb: Let battery light def value match notification light def value
+perf: Add support for HIDL Lineage power HAL
+
+6/13
+Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds
+Remove setIsoCountryProperty method along with partially dead code
+
+6/10
+Fix mobile data loss issues
+Settings: Fix fallback summary for power_button_instantly_locks
+surfaceflinger: change usageBits type to uint64_t
+
+6/9
+[BACKPORT] Config of LTE signal strength default value remove SNR
+DividedLines Clock: Set 24-hr time format as well
+Evolver: about_page: Add Twitter link
+Evolver: Correct a typo
+MediaProvider: Fix sorting by DATE_TAKEN
+Sepolicy: Export missing audio volume properties
+SystemUI: Long press Caffeine for infinite duration
+SystemUI: Resolve faulty keyguard clock logs outputs
+Telecomm: Fix few issues with Blink with call
+
+FOD devices ONLY
+FODCircleView: Don't hide circle on auth error
+
+6/7
+avc/hevc: Align 128 everywhere
+Camera: Make originalDataSpace be const upon stream creation
+Codec2Client: Add function to set preferred store
+Fix android.media.cts.ImageReaderDecoderTest fail on MT6580 project
+Fix some mods that hooks zygote such as Riru
+init.rc: disable kernel module autoloading
+Sepolicy: Add sepolicy for IBootControl 1.0 and the default HAL
+Sepolicy: Allow reading dt fstab in boot control HAL
+Sepolicy: Don't require seinfo for priv-apps
+Sepolicy: Ignore the denial when system_other is erased
+Sepolicy: global_macros: trim back various watch* permissions
+Sepolicy: update sepolicy for fs notification hooks
+SystemUI: Adapt screenshot sound to ringer modes
+
+6/6
+[viewcompiler] Switch to slicer DEX opcode definitions
+Allow non-system server code to AppOpsManager.checkOp and NoteOp
+base: add parallel verifyV1
+base: Fix NPE on some devices by checking for null client
+Fix PackageWatchdog::syncRequestsAsync and related code
+os: Process: Fix wrong code in isThreadInProcess
+overlay: Allow all apps to use smart replies
+Permissions: Stop auto-granting location to system browsers
+Simplifying callback calls in PackageInstallerSession
