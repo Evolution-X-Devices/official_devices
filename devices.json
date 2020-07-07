@@ -1,19 +1,5 @@
 [
    {
-      "brand": "Xiaomi",
-      "codename": "raphael",
-      "name": "Mi 9T Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Joey Huab (Stallix)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-3-3-t4002669"
-         }
-      ]
-   },
-   {
       "brand": "Asus",
       "codename": "X00TD",
       "name": "Zenfone Max Pro M1",
