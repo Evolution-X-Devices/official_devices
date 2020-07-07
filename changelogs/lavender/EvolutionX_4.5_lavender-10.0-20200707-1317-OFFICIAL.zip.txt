@@ -1,0 +1,18 @@
+Device changes:
+Updated kernel to 4.4.228 - Predator-Stormbreaker v7.8
+Auto-brightness works when the device is dozing
+Updated Widevine and Clearkey DRM blobs from MIUI 20.7.2
+Updated media codecs from MIUI 20.7.2
+Enabled WiFi calls in all regions (thx @agritux for the idea)
+Updated build FP to Coral - QQ3A.200705.002
+
+Note about Prime Video - My fix broke hardware-accelerated video playback, making the device almost unusable for other content consumption. It was therefor removed until I can find a better fix
+-------------------------------------------------------
+Source changes:
+Merged July security patch
+EvolutionX version 4.5, and along with that
+Added a VoWiFi status indicator, you can toggle it in the Evolver
+QS Detail arrows are back for WiFi, Celluar, Bluetooth and DND
+Per-app network isolation (App info window) and sensor block support (Evolver > Misc)
+Added another VoLTE icon from EMUI
+Many more optimisations and bugfixes
