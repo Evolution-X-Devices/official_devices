@@ -1,19 +1,5 @@
 [
    {
-      "brand": "Xiaomi",
-      "codename": "raphael",
-      "name": "Mi 9T Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Joey Huab (Stallix)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-3-3-t4002669"
-         }
-      ]
-   },
-   {
       "brand": "Asus",
       "codename": "X00TD",
       "name": "Zenfone Max Pro M1",
@@ -119,6 +105,7 @@
       "name": "Pixel 3",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "nysa",
             "maintainer_url": "https://github.com/nysascape",
             "version_code": "ten",
@@ -133,6 +120,7 @@
       "name": "Pixel 3 XL",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "nysa",
             "maintainer_url": "https://github.com/nysascape",
             "version_code": "ten",
@@ -278,6 +266,20 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/realme-x/development/rom-t4044901"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
+      "codename": "x2",
+      "name": "Realme X2",
+      "supported_versions": [
+         {
+            "maintainer_name": "Sukrut4778",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/realme-x2/development/rom-evolution-x-4-4-t4124517"
          }
       ]
    },
@@ -511,6 +513,7 @@
       "name": "Mi Mix 3",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Anierin Bliss (AnierinB)",
             "maintainer_url": "https://t.me/anierinb",
             "version_code": "ten",
@@ -628,6 +631,20 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-evolutionx-4-1-unofficial-tulip-t4048893/post81728863#post81728863"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "vince",
+      "name": "Redmi Note 5/5 Plus",
+      "supported_versions": [
+         {
+            "maintainer_name": "Professor",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9386036",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-5/development/evolution-x-4-4-redmi-5-plus-t4122467"
          }
       ]
    },

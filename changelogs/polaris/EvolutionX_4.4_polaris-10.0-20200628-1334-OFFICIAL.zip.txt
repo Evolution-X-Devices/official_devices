@@ -1,0 +1,28 @@
+**Device Changes:**
+- Etude kernel: 
+  * some scheduler and schedutil changes from Pixel 3/XL kernel to improve UI responsiveness and jitter
+  * Shadow Call Stack support
+  * Wireguard 1.0.20200623
+  * built with AOSP Clang 11.0.3 (r383902c)
+- Fully enabled backpressure propagation in SurfaceFlinger
+- Enabled Seamless Transfer
+  * now you can switch between different audio output devices by tapping the music note icon on the notification of music apps
+  * if you are not sure where it is, check the screenshot at https://jjpprrrr.com/evox/20200628-1334/#screenshot-for-seamless-transfer
+- Tweaked powerhint to improve IO latency on UFS
+- Updated Qualcomm Adreno and Vulkan drivers from Pixel 3 XL android 11 beta
+  * OpenGL ES 3.2 V@464 (was @415) and Vulkan 1.1.128
+- Fixed an SELinux denial of vendor_init writing to blkio
+- Increased amount of visible notification icons
+- Enabled and improved color profiles in Livedisplay
+  * you can now choose between Standard, Reading, and sRGB profile
+- Known issue: color calibration in Livedisplay is temporarily unavailable
+
+**Feature update highlights:**
+- Allow remounts with magisk installed
+- Fixed DividedLine clock style layout
+- Per app network isolation
+- VoWiFi icons and more VoLTE icon styles
+- TextClock is back with translation updates
+- New icon shapes from R
+- Coral and Ferrari red accent color
+- Alarm, calculator, calendar, camera, and dialer QS tiles
