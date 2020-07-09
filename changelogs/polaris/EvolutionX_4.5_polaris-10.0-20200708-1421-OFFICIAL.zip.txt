@@ -1,0 +1,16 @@
+**Device Changes:**
+- Etude kernel: Op.10 No.2, "Allegro"
+  * Linux 4.9.229 and CAF tag "LA.UM.8.3.r1-08100-sdm845.0"
+  * built with Clang LTO(Link Time Optimization) and Polly(Polyhedral Optimization)
+  * more scheduler and schedtune upstream
+  * enabled CONFIG_HZ_300 and disabled core rotation for better load tracking and EAS task placement
+- Disabled backpressure propagation due to slight increase in rate of jank frames
+- Dropped qti telephony injection
+  * let me know if on some carriers mobile data is still broken after a phone call
+- Known issue: color calibration in Livedisplay is temporarily unavailable
+
+**Feature update highlights:**
+- July's security patch (android-10.0.0_r40)
+- Blocked face authentication when device is in pocket mode
+- Fixed active color for some qs tile styles
+- TextClock: Fixed Korean strings
