@@ -1,0 +1,16 @@
+Device Changelog :-
+ fixed aptx
+ added livedisplay support
+ misc changes and fixes 
+
+Source Changelog :-
+7/10
+Fix missing Color Calibration menu for LiveDisplay
+libcutils: change trace file error to verbose
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Force hide the security footer in quick qs panel 
+TextClock: Fix Korean strings part 2
+vendor: Update and fix apns-conf for better IMS support
+wifi: Add StaState API
+
+more new fixes and features Thanks to joey and Evo team
