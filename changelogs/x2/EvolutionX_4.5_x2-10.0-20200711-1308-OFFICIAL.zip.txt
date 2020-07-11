@@ -1,0 +1,50 @@
+Device Changes:
+
+Kernel upstream to 4.14.188
+Fixed display flickering on pressing fingerprint
+Fixed NFC
+Fixed Google Hotword detection
+Fixed livedisplay in proper way
+Fixed AOD doze brightness not increasing
+
+ROM Changes:
+
+=======================
+     07-11-2020
+=======================
+
+
+   * frameworks/base/
+761fefbe80a Automatic translation import
+e748e30137c fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+23f8081d689 KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+50edf42313a SystemUI: Block face authentication when device is in pocket mode
+edf87b09cd1 base: use bypassEnabledBiometric consistently
+4c5351051ab base: do not use new lockscreen layout for bypass
+ea28eada4aa SystemUI: Allow listening for face only on pin/pass view
+2b7c2bd58c4 fwb: Guard some functions against face unlock
+e02b5f3fd3d [3/4] Port face unlock feature
+f3291aff722 fwb: core: Make LiveDisplay optional
+685c21b7859 QSTileHost: Recreate tiles when LiveDisplay gets initialized
+82824b536fc fixup: Add an option to change the device hostname (1/2)
+45b9e93ef56 fixup - Touch: Add keydisabler support
+81c42997291 [SQUASH] Revert several unneeded commits
+42abde02ff3 FODCircleView: let's smoothly fade-out the view, before going to View.GONE
+
+   * packages/apps/Settings/
+ebedbaa6c9 Automatic translation import
+783963390c [4/4] Port face unlock feature
+bc0b9aeb81 Settings: Remove LiveDisplay if not supported
+
+   * vendor/pixelstyle/
+8efed9c Move audio props to product partition
+9d16203 QSTiles: Add more styles [3/3]
+7db699d QSTiles: Add CircleOutline style [3/3]
+dcbfd42 Add Cookie QS style [3/3]
+af3568a Add Ink QS Tile Style [3/3]
+4158f72 QSTile: Add Squaremedo from BootLeggers [3/3]
+d66ad26 Add more qs tiles styles [3/3]
+46446ad Introduce QS tile style picker [3/3]
+
+   * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+2ca8b3cbd Clean up duplicate uses-permission entries
