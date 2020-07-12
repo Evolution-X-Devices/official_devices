@@ -1,0 +1,74 @@
+Device Changes: Till 07-12-2020
+===============================
+kernel-sdm660: Merged 4.4.230 and clean-up
+kernel-sdm660: Fixed frequncy update and Battery drain issue
+sdm660-common: Update libqti-perfd blob from Taimen QQ3A.200705.002
+sdm660-common: overlay: Disable Battery Health Support
+sdm660-common: overlay: Separate all evolution overlay 
+sdm660-common: Switch to QTI bt stack and enable a2dp offload 
+sdm660-common: overlay: Add fingerprint sensor location
+sdm660-common: overlay: Add device specific doze package
+sdm660-common: Add support for Battery Health
+sdm660-common: Nuke LineageOS overlays
+sdm660-common: data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
+sdm660-common: IMS: Enable IMS feature flags for supported carriers 
+sdm660-common: Update perf hal to 2.1
+sdm660-common: wifi: remove duplicated configs
+sdm660-common: Add RRO Target flag for falcon_64 
+
+ROM Changes: Till 07-12-2020
+=============================
+July's security patch (android-10.0.0_r40)
+Blocked face authentication when device is in pocket mode
+Fixed active color for some qs tile styles
+Merged QTI-BT Stack
+More awesome features and fixes
+Import updated translation
+
+* frameworks/base/
+SystemUI: Use only 18px size icon for notification count
+Show infinity for large notification counts
+SystemUI: Forward-port notification counters [1/2] 
+Add back button for freeform window
+fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+SystemUI: Block face authentication when device is in pocket mode
+base: use bypassEnabledBiometric consistently
+base: do not use new lockscreen layout for bypass
+SystemUI: Allow listening for face only on pin/pass view
+fwb: Guard some functions against face unlock
+fwb: core: Make LiveDisplay optional
+QSTileHost: Recreate tiles when LiveDisplay gets initialized
+fixup: Add an option to change the device hostname (1/2)
+fixup - Touch: Add keydisabler support
+[SQUASH] Revert several unneeded commits
+Fix missing Color Calibration menu for LiveDisplay
+libcutils: change trace file error to verbose
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Force hide the security footer in quick qs panel
+FODCircleView: let's smoothly fade-out the view, before going to View.GONE
+
+* packages/apps/Settings/
+Automatic translation import
+BatteryHealth: Make it optional
+Settings: Remove LiveDisplay if not supported
+Adapt qti-Bluetooth and more features
+
+* vendor/pixelstyle/
+Move audio props to product partition
+QSTiles: Add more styles [3/3]
+QSTiles: Add CircleOutline style [3/3]
+Add Cookie QS style [3/3]
+Add Ink QS Tile Style [3/3]
+QSTile: Add Squaremedo from BootLeggers [3/3]
+Add more qs tiles styles [3/3]
+Introduce QS tile style picker [3/3]
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+Clean up duplicate uses-permission entries
+
+* IMS
+vendor: Update and fix apns-conf for better IMS support
+wifi: Add StaState API
+
+#KeepEvolving
