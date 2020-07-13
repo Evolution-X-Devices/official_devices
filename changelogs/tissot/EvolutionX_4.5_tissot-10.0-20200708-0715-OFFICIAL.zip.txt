@@ -1,0 +1,97 @@
+===
+Device Changelog
+===
+
+msm8953-common : New configs for better stability & accuracy
+tissot: defconfig: Use legacy camera_v2 stack
+drivers: media: camera_v2-legacy: Import tissot changes
+msm/camera_v2-legacy: Update indentations to fix compiler warnings
+msm: camera-legacy: Remove unnecessary parentheses in msm_cam_sensor_handle_reg_gpio
+msm: camera-legacy: Remove pointless NULL checks in msm_flash_i2c_release
+msm: camera-legacy: Remove pointless NULL checks in {__,}msm_remove_session_cmd_ack_q
+msm: camera-legacy: Remove pointless NULL checks in msm_camera_{get,put}_clk_info
+msm: camera-legacy: Handle actuator close before power down
+drivers: camera-legacy: Add actuator driver from k4.9.
+msm: camera-legacy: Add V4L2_CAP_DEVICE_CAPS to caps
+msm: msm-jpegdma-legacy: Add V4L2_CAP_DEVICE_CAPS to caps
+msm: camera-legacy: Update camera drivers
+msm: cam_smmu-legacy: Remove obsolete IOMMU domain attribute
+camera_v2: Import legacy camera stack from LA.UM.8.6.r1-04200-89xx.0
+Merge tag 'v4.9.229' into derp10
+Linux 4.9.229
+
+===
+ROM Changelog
+===
+
+7/8
+SystemUI: Allow setting custom rounded corner shapes  
+
+7/7
+Merge July security patch
+Remove Force Expanded Notifications option due to SystemUI lag
+Set Assistant UID of the current user
+SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+
+7/6
+SystemUI: Do not condition VoWiFi icon change on calls
+
+7/3
+AODTile: remove long click intent
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Fix active color for some qs tile styles
+TextClock: Fix Korean strings
+User switch: Unbind headsetservice in bluetooth Off state
+
+7/2
+AODTile: cycle through AOD states
+AODTile: disable tile when power save mode is on
+persist.sys.evolution -> persist.sys.theme
+
+7/1
+Fix Wifi icon in inactive state when using Custom icon pack
+Telephony: IMS: Cache subscriber associated uri
+
+6/30
+base_rules.mk optimizations
+Calm down attention service logspam
+Export list of "installable" files to soong_ui
+Fix test suite data files issue
+Refactor how MODULES-IN-* is define
+
+6/27
+Add EMUI VoLTE icon
+Add more VoWiFi icon styles
+Bring back QS tile style picker from Pie
+Filter preferred activities before committing to storage
+Fix a race condition in `incident`
+Re-implement optional VoWiFi icon
+SystemUI: QS: Add Alarm, Calculator, Calendar, Camera and Dialer tiles
+Throw XmlParserException when client tag cannot be found when parsing
+Trigger file removal when slice permission is removed
+
+6/26
+Add APN for VSBL mobile
+build: Avoid adding VINTF manifest fragment more than once
+overlays: Accents: Add Coral and Ferrari Red
+overlays: add new icon shapes from Android R
+
+FOD devices ONLY
+FODCircleView: Update FOD icon position on DreamingStateChanged
+
+6/25
+SystemUI: Fix text clock translations
+TextClock: Bring back the translations
+TextClock: Make French strings more consistent
+TextureView rebind GL texture, if AHB content has changed
+
+6/24
+Clocks: Add burn in protection for custom clocks
+Evolver: Add more AOD notification pulse timeout options
+SystemUI: Don't show VoLTE icon when VoWiFi is showing 
+SystemUI: HW keys QS tile: Disable long click
+SystemUI: QS Details: Fix layout issues
+SystemUI: support VoWIFI icons and allow hiding VoWiFi StatusBar icon
+Telephony: Add option for using regular poll state for airplane mode
+
+ 

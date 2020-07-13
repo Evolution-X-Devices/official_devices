@@ -1,0 +1,14 @@
+DO NOT UPDATE FROM OTA IF YOU'RE ON COLOROS BASED BUILD
+- RUI Based Build
+- re-enabled smart charging
+- fixed scan apps crashing
+- updated brughntess overlays from stock
+- July security patch
+- version bumped to 4.5
+- Add new volte icons
+- Add new QS Tiles
+- New Lockscreen clocks added
+- small fixed here and there
+
+Note: Tick on "Disable Bluetooth A2DP hardware offload" in developer options to fix bt audio
+

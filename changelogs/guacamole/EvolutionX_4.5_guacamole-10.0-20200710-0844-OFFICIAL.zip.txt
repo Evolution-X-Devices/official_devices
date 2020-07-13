@@ -1,0 +1,125 @@
+7/10
+libcutils: change trace file error to verbose
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Force hide the security footer in quick qs panel 
+TextClock: Fix Korean strings part 2
+vendor: Update and fix apns-conf for better IMS support
+wifi: Add StaState API
+FODCircleView: let's smoothly fade-out the view, before going to View.GONE
+
+7/9
+Add switch to select SBC HD by default
+API changes due to importing RI BigInteger
+Avoid potential fd leak from jniCreateFileDescriptor
+BT: Always update service object in BluetoothDevice Class
+Change fs-verity setup to the new format
+Fix app crash if the selection is from reverse direction
+Fix edge case in statsd alarms
+Fix typos related to sortSelectionIndices
+Merge in QTI BT Stack changes from LOS
+Remove references to Dalvik logger
+Remove unused / unimplemented CorePlatformAPI methods
+Settings: Add BatteryHealth section
+SystemUI: No PIN input dialog pop up
+Add Realme Green (Shadow) and set as default pressed state
+
+7/8
+SystemUI: Allow setting custom rounded corner shapes
+
+7/7
+Merge July security patch
+Remove Force Expanded Notifications option due to SystemUI lag
+Set Assistant UID of the current user
+SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+
+FOD devices ONLY
+Properly set Vivo Green as default pressed state
+
+7/6
+SystemUI: Do not condition VoWiFi icon change on calls
+
+7/3
+AODTile: remove long click intent
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Fix active color for some qs tile styles
+TextClock: Fix Korean strings
+User switch: Unbind headsetservice in bluetooth Off state
+
+7/2
+AODTile: cycle through AOD states
+AODTile: disable tile when power save mode is on
+persist.sys.evolution -> persist.sys.theme
+
+7/1
+Fix Wifi icon in inactive state when using Custom icon pack
+Telephony: IMS: Cache subscriber associated uri
+
+6/30
+base_rules.mk optimizations
+Calm down attention service logspam
+Export list of "installable" files to soong_ui
+Fix test suite data files issue
+Refactor how MODULES-IN-* is define
+
+6/27
+Add EMUI VoLTE icon
+Add more VoWiFi icon styles
+Bring back QS tile style picker from Pie
+Filter preferred activities before committing to storage
+Fix a race condition in incident
+Re-implement optional VoWiFi icon
+SystemUI: QS: Add Alarm, Calculator, Calendar, Camera and Dialer tiles
+Throw XmlParserException when client tag cannot be found when parsing
+Trigger file removal when slice permission is removed
+
+6/26
+
+Add APN for VSBL mobile
+build: Avoid adding VINTF manifest fragment more than once
+overlays: Accents: Add Coral and Ferrari Red
+overlays: add new icon shapes from Android R
+FOD devices ONLY
+FODCircleView: Update FOD icon position on DreamingStateChanged
+
+6/25
+SystemUI: Fix text clock translations
+TextClock: Bring back the translations
+TextClock: Make French strings more consistent
+TextureView rebind GL texture, if AHB content has changed
+
+6/24
+Clocks: Add burn in protection for custom clocks
+Evolver: Add more AOD notification pulse timeout options
+SystemUI: Don't show VoLTE icon when VoWiFi is showing 
+SystemUI: HW keys QS tile: Disable long click
+SystemUI: QS Details: Fix layout issues
+SystemUI: support VoWIFI icons and allow hiding VoWiFi StatusBar icon
+Telephony: Add option for using regular poll state for airplane mode
+
+6/23
+Fix issue when ‘The surface hangs up during screen on and screen off’
+SystemUI: Alphabetize the Statusbar items menu
+SystemUI: Fix issue with Bluetooth tile
+SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+SystemUI: qs add tuner switch to restore old long press behaviour
+SystemUI: Re-enable and fix QS detail view, adapt layout to 10
+SystemUI: tuner: Delete the battery entry
+
+6/22
+Add support for per app network isolation
+Battery icon: fix requestLayout() calls spam when in lockscreen
+DividedLines Clock: Add proper preview layout
+DividedLines Clock: Fix margin issue in layout
+Make sensor block package list configurable
+MNMLBox Clock: Clean up hacky layouts
+
+Device changelog:
+DeviceSettings: Add dolby
+DeviceSettings: KeyHandler: Update vibration effect
+touch: Make sure gesture path exists before advertising
+Update vendor security patch from OOS 10.3.3
+Add new CameraMDMHIDL 1.0 
+sepolicy: Update for new camera blobs
+swtich back to clang for kernel compilation
+Update blobs from 10.3.3
+

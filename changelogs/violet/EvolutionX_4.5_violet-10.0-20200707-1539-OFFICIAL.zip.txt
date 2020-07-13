@@ -1,0 +1,15 @@
+Latest Evolution X Changes.
+July Security Path.
+
+DEVICE SIDE:
+Switched to Lib Perf Manager(Aka More Smooth).
+Switched to Azure Latest.
+Dropped caf power hals.
+Dropped ESE power manager, I/O prefetcher, Perf stack.
+Enabled vowifi/volte for Bihar.
+Removed force encryption(now you can evox with decrypted for now).
+Fixed Google play system updates.
+Added Mi dirac.
+Updated fingerprint blobs.
+Increased call volume and media steps.
+Live Display Broken For Now.
