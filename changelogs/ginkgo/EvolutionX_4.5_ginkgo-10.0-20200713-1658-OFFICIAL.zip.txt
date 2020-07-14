@@ -1,0 +1,22 @@
+Jul-13-2020
+• Clean flash needed!
+• Upstreamed kernel to 4.14.188
+• Update fingerprint to Coral's july patch
+• Fixed WiFi slowness & random disconnections
+• Replaced ANX Camera with MIUI Camera
+• Improved KCAL (should help more for tianma users)
+• Removed Lift-to-Check gesture
+
+Jun-23-2020
+• Fixed offline charging
+• Removed FM Radio (for the moment)
+• Minor improvements
+
+Jun-14-2020
+• Fixed AUX cam & HDR+
+• Change kernel to QuicksilveR
+• Upstreamed kernel to 4.14.184
+• Updated thermal configs
+• Added back Mi Sound
+• Improved performance and battery life
+• Other improvements & fixes
