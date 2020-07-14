@@ -1,0 +1,291 @@
+Device Changes:
+
+Fixed WhatsApp, Messenger earpiece call not working
+Updated to Coral's July fingerprint
+Upstream kernel
+Implement doze aod fod
+Added google recorder
+Fixed opposite touch gesture
+Introduce raise to wake gesture
+Decreasd max notification no
+And some other improvements
+ROM Changes:
+
+=======================
+     07-10-2020
+=======================
+
+
+   * external/asus/stitchimage/
+133e3b7 Automatic translation import
+
+   * frameworks/base/
+fcfe43202bf Automatic translation import
+11684bfb60e fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+6aff8135a36 KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+4e12ba9fc09 SystemUI: Block face authentication when device is in pocket mode
+9b526388918 base: use bypassEnabledBiometric consistently
+f99e9e03788 base: do not use new lockscreen layout for bypass
+367d9416866 SystemUI: Allow listening for face only on pin/pass view
+e1e58cd99e4 fwb: Guard some functions against face unlock
+8d687a33965 [3/4] Port face unlock feature
+cefd8781ea1 QuickQSPanel: Force hide security footer
+96f876f829e base: SystemUI: add tuner to hide qs security footer
+f9c3188c3f5 SystemUI: Hide the security footer in quick qs panel
+59e9f8c96a6 SystemUI: Fix NPE on notification ambient pulse
+
+   * frameworks/opt/net/wifi/
+bc3579cac wifi: Add StaState API
+
+   * packages/apps/Evolver/
+f5db85e Automatic translation import
+
+   * packages/apps/Settings/
+5996619053 Automatic translation import
+
+   * packages/services/BuiltInPrintService/
+5de92bd Automatic translation import
+
+   * system/core/
+f3dbac97a libcutils: change trace file error to verbose
+
+   * vendor/aosp/
+b3d0b61e [2/4] Port face unlock feature
+b28a847f vendor: Update and fix apns-conf for better IMS support
+4e54f0e8 Drop backuptool
+5cc7816a version: July patch
+
+=======================
+     07-09-2020
+=======================
+
+   * build/make/
+93a98a47b releasetools: support dynamic partitions for backuptool
+914b325b1 releasetools: Move system mount handling to backuptool
+35b422923 releasetools: squash backuptool support
+29b86d77b build: Revert backup tool commits
+
+   * frameworks/base/
+759b47ee4ca SystemUI: Add Realme Green (Shadow) and set as default pressed state [1/2]
+cd56aa9cf48 Add switch to select SBC HD by default [1/3]
+d8578522aeb Revert "Bluetooth: Make SBC Dual Channel optional [1/2]"
+a0d30f38e6a Bluetooth: Avoid reentrant lock in getService method
+4df15555a25 Add missing strings for SBC Dual Channel
+278b2b5d331 A2DP codec priority [1/3]
+6476eed0322 BLE: Fix NPE during start advertising
+e0e5ccbfa4e Fix build errors
+011360059ed Fix BLE transport discovery scan filter
+5ad38d8495a BT: Relocate A2DP codec strings for translation
+901ca33a82a Enable codec change request when mode changes in aptX-adaptive
+9f13df25807 Keep a null check before accessing the BluetoothA2dpWrapper APIs.
+ae608cf6a22 Bluetooth: Fix for out of bound exception
+99de406ce87 BT Dev: Increase array size for codec selection in Dev Op
+7c22db6df87 Keep the BluetoothHeadset finalize() method protected
+09b91400549 Bluetooth: Fix for Global reference table overflow issue[1/2]
+6ac11d1e467 BT: Add new intent to broadcast IOT device details
+88c0402a30f BT_Audio: Updated Check for TWS+ switch
+2f8a449abe3 TWS_A2DP: Handle active device change between TWS+ earbuds
+0a93bc00b0a audio: Add support for APTX TWSP audio codec
+cadbe7c78f7 audio: Add support for audio extended codecs
+91f16bd210e Use BluetoothUtils instead of Utils
+73408b05217 GAP: Handle the race condition cases in auto connect logic
+3df39f538e3 Obex: Squashed commit of the following
+e3bff9bef7d Add scan filter for Transport Discovery data
+a1ec79e23cc Add support for Transport discovery AD type (1/2)
+f4420c9fafa Bluetooth: TWSP: Support Battery Status information display
+f9706fcfee6 GAP: Reset bondingInitiatedLocally flag(1/3)
+506e2559204 Bluetooth-TWS: Disable outgoing connection to 2nd earbud
+6f674e84052 Bluetooth-TWS: Disable outgoing connection for 2nd earbud.
+cd2a810431f Bluetooth: Rename bluetooth property to support new P Treble rules
+1657ba8f49e Bluetooth: Unpair both earbuds on unpair.
+e8bf58eddcb Bluetooth: Add SDK API support for TWS feature (2)
+4bf5b0b8655 Revert the change: AudioService: remove dead BT code.
+97ac6c316d1 TWS-A2DP: Add TWS+ codec to DevUI support
+3da84e1eff2 BT: Adding aptX-Adaptive codec entry to Framework
+32490c89992 Add BluetoothQualityReport class(1/2)
+3048e35f47d Fix typos related to sortSelectionIndices
+85438e89654 Fix app crash if the selection is from reverse direction.
+11b002aed38 BT: Always update service object in BluetoothDevice Class
+6ef993b1cb0 Avoid potential fd leaks from jniCreateFileDescriptor (2/2)
+6f7d5adf05c Avoid potential fd leak from jniCreateFileDescriptor (1/2)
+951411cf0da API changes due to importing RI BigInteger
+bc417b6b34d Fix edge case in statsd alarms
+c11f5e3808b SystemUI: No PIN input dialog pop up
+e0d5cabebb4 Change fs-verity setup to the new format
+a35215daea6 Remove unused / unimplemented CorePlatformAPI methods.
+328ecb402a4 Remove references to Dalvik logger.
+
+   * hardware/qcom-caf/sdm845/display/
+92531aed gralloc: Add option for unaligned YCrCb pixel format
+
+   * manifest/
+bb4d714 [1/4] Port face unlock feature
+2ccb91a Track Email packages
+08d990c manifest: Track qti bt repos from lineage
+ff2d9ab Track sm8250 hals from Lineage
+
+   * packages/apps/Bluetooth/
+96fde852 A2DP codec priority [2/3]
+03658efb Stub TWS related APIs
+1d7f50f3 GAP: Reset bondingInitiatedLocally flag(2/3)
+d1c18fd4 BT: API to update quiet mode status in Adapter service [1/3]
+2d4473fb Bluetooth: Enable Hybrid Audio from App
+b1e63d07 Add BLE Scan Phy parameter to scan API
+203c49dc Add switch to select SBC HD by default [2/3]
+b0c84caf Disable Dual channel for SBC by default
+acd3fce7 Revert "Make SBC Dual Channel optional [2/2]"
+
+   * packages/apps/Evolver/
+12e26c7 Evolver: Add Realme Green (Shadow) and set as default pressed state [2/2]
+
+   * packages/apps/FMRadio/
+3365d0f Automatic translation import
+
+   * packages/apps/Settings/
+bb124f2211 [4/4] Port face unlock feature
+2c3aaff542 BatteryHealth: show Charge Cycles Completed
+d438ae78e5 BatteryHealth: make resources overlayable
+1656db3928 Settings: Add BatteryHealth section
+18ece4c495 Add switch to select SBC HD by default [3/3]
+9c244c2a90 A2DP codec priority [3/3]
+ef70dd0799 BT: Use translated a2dp codec strings
+3d11caa732 codec support for DevUI am: f915bd9438
+8756109e5e BT Settings: Adding aptX Adaptive codec entry in Settings
+04b2bb4a5c Bluetooth-TWS: UI updates based on Filter matched
+84f2bc690d Bluetooth-TWS: UI updates based on profile connection.
+f76564cb35 Fix build error
+cd1913922f Bluetooth-TWS: Filter TWS devices
+d52b3ccc39 Bluetooth: Create new catogory for earbuds
+2810648dc0 Revert "Settings: Fix IndexOutOfBound error on bt codec selection"
+
+   * packages/apps/Snap/
+38dd7fc59 Snap: Report device orientation to Audio HAL
+c6b14e3ef Automatic translation import
+
+   * packages/services/Telecomm/
+f343fc1c Bluetooth: Support to know if there is High Def call
+
+   * packages/services/Telephony/
+782642db0 Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.
+a544e07b0 Revert "Grant START_ACTIVITIES_FROM_BACKGROUND"
+
+   * system/bt/
+801167742 Allow using alternative (higher) SBC HD bitrates with a property
+d3774f8f7 Explicit SBC Dual Channel (SBC HD) support
+957da96c4 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+4313e28a2 GAP: Reset bondingInitiatedLocally flag(3/3)
+c008db337 Bluetooth: Enable Hybrid Audio from stack
+e449b3bf1 Add scan filter for Transport Discovery data
+6654e5b23 TWS-A2DP: Add TWS+ codec index
+2503db949 BT: API to update quiet mode status in Adapter service [3/3]
+a2550a58c BT: Adding APTX-Adaptive codec to BT HAL
+4a15483f5 Add BLE Scan Phy parameter to scan API
+597c35b7d Bluetooth: Add SDK API support for TWS feature (1)
+a0a3b115d Bluetooth: Support to know if there is High Def call
+
+   * vendor/pixelstyle/
+d25c4bb Move audio props to product partition
+
+   * vendor/qcom/opensource/commonsys/bluetooth_ext/
+09c62d3 Fix compilation with SBC Dual Channel suport
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+c6fad8186 Allow using alternative (higher) SBC HD bitrates with a property
+84f1a5ec7 Explicit SBC Dual Channel (SBC HD) support
+11852548e Increase maximum Bluetooth SBC codec bitrate for SBC HD
+
+=======================
+     07-08-2020
+=======================
+
+   * frameworks/base/
+fa5d5523c6a SystemUI: Allow setting custom rounded corner shapes
+956bcfde59d Revert "Force Expanded Notifications [1/2]"
+b13e0f7e232 FODCircleView: Set Vivo Green as default pressed state [1/2]
+92e325bbcae SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+
+   * packages/apps/Evolver/
+ebb8216 Revert "Force Expanded Notifications [2/2]"
+2b3833b Evolver: Set Vivo Green as default pressed state [2/2]
+
+=======================
+     07-07-2020
+=======================
+
+   * build/make/
+da18047fe Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/build into ten
+
+   * frameworks/base/
+32d6f177f7b Set Assistant UID of the current user.
+
+   * frameworks/native/
+32f0e66a6 Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * manifest/
+b24bb79 Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform//manifest into ten
+5383244 Manifest for Android 10.0.0 Release 40
+
+   * packages/services/Telephony/
+55c1407ee Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+=======================
+     07-06-2020
+=======================
+
+   * frameworks/base/
+6545cc1748c SystemUI: Do not condition VoWiFi icon change on calls
+
+=======================
+     07-03-2020
+=======================
+
+   * frameworks/base/
+b17de7902e4 SystemUI: fix active color for qs tile styles
+15bc0162cf6 AODTile: remove long click intent
+3f404fe3662 TextClock: Fix Korean strings
+a008bb61735 User switch: Unbind headsetservice in bluetooth Off state.
+
+=======================
+     07-02-2020
+=======================
+
+   * device/custom/sepolicy/
+9a273e7 sepolicy: persist.sys.evolution -> persist.sys.theme [2/2]
+
+   * frameworks/base/
+952ed4f9f60 base: persist.sys.evolution -> persist.sys.theme [1/2]
+23fa354259e AODTile: disable tile when power save mode is on
+31e794fc9ce AODTile: cycle through AOD states
+
+=======================
+     07-01-2020
+=======================
+
+   * frameworks/base/
+5aa074dd6b8 Telephony: IMS: Cache subscriber associated uri
+a2141c83d3f overlays: Fix inactive state Wifi Icon in Circular & Filled Icon Pack
+bc946f4cc3a Revert "Fix Wifi icon in inactive state when using Custom icon pack"
+
+=======================
+     06-30-2020
+=======================
+
+   * build/make/
+9deafcbc7 Refactor how MODULES-IN-* is defined
+fc52a4666 base_rules.mk optimizations
+a9d76b869 Fix test suite data files issue.
+16d04dad6 Export list of "installable" files to soong_ui
+
+   * frameworks/base/
+e39677e7f58 Calm down attention service logspam
+
+   * packages/apps/Settings/
+78cab3340f Settings: Fix fallback summary for power_button_instantly_locks preference
+
+   * vendor/aosp/
+1e5307d3 repopick: Fallback to name when    * path is empty
+210eec60 Export CAF msm-4.14 audio headers
+ce404ee6 qcom: Add UM 4.19 platforms
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+af7dfeee0 AVRCP: Ignore AVRCP version when registering absolute volume feature

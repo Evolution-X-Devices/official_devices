@@ -1,0 +1,4 @@
+Upstream kernel to 4.9.230
+fix missing livedisplay color adjustment
+add per app thermal profile configs (Settings>Battery>Thermal Profiles)
+

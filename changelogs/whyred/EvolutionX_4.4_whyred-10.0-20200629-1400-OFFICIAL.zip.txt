@@ -1,0 +1,83 @@
+Add EMUI VoLTE icon
+Add more VoWiFi icon styles
+Bring back QS tile style picker from Pie
+Filter preferred activities before committing to storage
+Fix a race condition in `incident`
+Re-implement optional VoWiFi icon
+SystemUI: QS: Add Alarm, Calculator, Calendar, Camera and Dialer tiles
+Throw XmlParserException when client tag cannot be found when parsing
+Trigger file removal when slice permission is removed
+Add APN for VSBL mobile
+build: Avoid adding VINTF manifest fragment more than once
+overlays: Accents: Add Coral and Ferrari Red
+overlays: add new icon shapes from Android R
+FOD devices ONLY
+FODCircleView: Update FOD icon position on DreamingStateChanged
+SystemUI: Fix text clock translations
+TextClock: Bring back the translations
+TextClock: Make French strings more consistent
+TextureView rebind GL texture, if AHB content has changed
+Clocks: Add burn in protection for custom clocks
+Evolver: Add more AOD notification pulse timeout options
+SystemUI: Don't show VoLTE icon when VoWiFi is showing 
+SystemUI: HW keys QS tile: Disable long click
+SystemUI: QS Details: Fix layout issues
+SystemUI: support VoWIFI icons and allow hiding VoWiFi StatusBar icon
+Telephony: Add option for using regular poll state for airplane mode
+Fix issue when ‘The surface hangs up during screen on and screen off’
+SystemUI: Alphabetize the Statusbar items menu
+SystemUI: Fix issue with Bluetooth tile
+SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+SystemUI: qs add tuner switch to restore old long press behaviour
+SystemUI: Re-enable and fix QS detail view, adapt layout to 10
+SystemUI: tuner: Delete the battery entry
+Add support for per app network isolation
+Battery icon: fix requestLayout() calls spam when in lockscreen
+DividedLines Clock: Add proper preview layout
+DividedLines Clock: Fix margin issue in layout
+Make sensor block package list configurable
+MNMLBox Clock: Clean up hacky layouts
+bluetooth: fix communication / icon after clean flash and first pairing
+QsFooter: Animate icons while showing/hiding
+SystemUI: Fix QS Detail Header
+Bluetooth: Added bind retry logic to handle race condition in Bluetooth off/on
+Bluetooth: Serialize sending sendBluetoothServiceUpCallback
+Cleanup old unneeded VolumeDialogController commits
+EvolutionUtils: Create some custom device groups to check against
+Toast insulter: Add more insults
+Update default wallpaper to fix issues
+fs_mgr: Allow remounts with Magisk installed
+GamingMode: Simplify log and trivial clean up
+healthd: Add support for BMS and WiPower
+liblog: Always report as debuggable when building userdebug/eng
+Not register sensor if StatusBar state is not KEYGUARD
+WifiManager: Add StaState API
+Add a LineageOS clock
+Bring back Music QS tile
+fixup! core: Settings.java
+Move high touch sensitivity and hovering to InputService
+Touch: Add keydisabler supportfixup! base: Add Touch HIDL support
+LanguageAndInputSettings: Hide touch hovering from search if needed
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+TouchGestures updates
+Disable proguard and dexpreopt
+Exclude from recents
+fixup! Settings: Add preference for TouchGestures
+KeyHandler: Use VibrationEffect
+Match settings theme
+Rework behavior when device locked
+Evolver: Quick settings: Better strings
+Fine tune blkio setting to improve boot time
+Fix QS customizer not reflecting rows/columns correctly
+Fix Wifi icon in inactive state when using Custom icon pack
+rootdir: init.rc: use default dirty writeout policy
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+Evolver: Set Vivo Green as default pressed state
+fwb: Let battery light def value match notification light def value
+perf: Add support for HIDL Lineage power HAL
+Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds
+Remove setIsoCountryProperty method along with partially dead code
+Fix mobile data loss issues
+Settings: Fix fallback summary for power_button_instantly_locks
+surfaceflinger: change usageBits type to uint64_t
+

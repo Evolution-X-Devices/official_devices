@@ -1,0 +1,34 @@
+Device changlogs:
+==============================
+
+- Fix spectrum denials 
+- Fixed enforcing issues occurs due to safailnet
+- Audio or sound improvements
+- Fix netflix streaming (L1)
+- Rom latency and app switching improved (Zygot preforking)
+- upstreamed kernel to 4.14.188
+- Added support for Battery health 
+
+Source changelogs:
+=============================
+
+7/12
+Add back button for freeform window
+Bring back Screen Stabilization
+Merge USAP Pool changes
+
+7/11
+Fix missing LiveDisplay entries
+fixup - Touch: Add keydisabler support
+fixup: Add an option to change the device hostname
+Make LiveDisplay optional
+QSTileHost: Recreate tiles when LiveDisplay gets initialized
+
+7/10
+libcutils: change trace file error to verbose
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Force hide the security footer in quick qs panel 
+TextClock: Fix Korean strings part 2
+vendor: Update and fix apns-conf for better IMS support
+wifi: Add StaState API
+

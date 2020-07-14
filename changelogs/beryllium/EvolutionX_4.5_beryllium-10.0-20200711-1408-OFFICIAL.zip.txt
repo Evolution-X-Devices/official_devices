@@ -1,0 +1,26 @@
+Sync with latest Evolution X source
+July security patch
+Update device fingerprint to July security patch
+Disable display blank on switching to non-doze state
+Increase proximityCheckTimeout 
+Disable a few debugging packages
+Remove inline firmware  
+Fix derp with Zoom video calls/Fixed IR Camera being used on GCam builds
+Bring back LiveDisplay
+Enabled Multiple Vibration Intensities (Settings>Accessibility>Vibration and Haptics)
+Add summary for Dirac
+Mirror IRQ tuning from Razer Phone 2
+No balancing of msm_drm and kgsl-3d0 IRQs
+Import stock perfconfigstore and enable UXE
+Enable Multiuser support
+Enabled bluetooth HFP inband ringing
+Enable adaptive sleep
+Enable Smart Battery
+Enable wifi link probing support
+Enable Wide Color Display and HDR properties
+Enabled Zygote Preforking (faster app launch)
+Add PocoParts
+Fix FM Radio crash
+Fix dual SIM issue
+Sync with LineageOS device source
+Sync with latest Stealth kernel

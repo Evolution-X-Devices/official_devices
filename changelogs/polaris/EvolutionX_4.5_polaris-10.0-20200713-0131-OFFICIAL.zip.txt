@@ -1,0 +1,14 @@
+**Device Changes:**
+- Etude kernel
+  * Linux 4.9.230
+  * fixed an issue on ebbg touchscreen
+  * built with Clang 11's ThinLTO and Polly. ThinLTO greatly improves build times over full LTO while retaining most of the performance benefits.
+  * reverted back to 100HZ tick rate for better battery life
+  * exposed calculated FPS through sysfs. Now you can monitor your frame rates through supported apps (Tested on Franco Kernel Manager)
+- Brought back color calibration in Livedisplay
+
+**Feature update highlights:**
+- Added Battery Health in Settings/Battery
+- Added screen stabilization (enable it in QS)
+- Merged some Zygote USAP Pool changes for faster app opening and switching
+- Updated apns-conf for better IMS support

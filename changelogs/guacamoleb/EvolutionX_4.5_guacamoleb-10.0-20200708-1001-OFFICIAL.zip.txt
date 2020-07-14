@@ -1,0 +1,109 @@
+Device Changes:
+
+Updated prebuilt TWRP to 3.4.0-0 (Thanks and credit mauronofrio)
+Updated to Coral's July fingerprint
+Switched to Neutrino kernel (Credit & thanks 0ctobot)
+Compiled kernel with latest GCC
+Added Dolby Atmos
+Bumped vibrator HAL to 1.2
+Improved adaptive brightness
+Updated APN's from stock OOS
+Private app permissions are now enforced
+
+
+ROM Changes:
+
+=======================
+     07-08-2020
+=======================
+
+
+   * frameworks/base/
+7775c50d1bf Automatic translation import
+682cefd6bfb fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+e89f637ba65 KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+7aa176a9ab5 SystemUI: Block face authentication when device is in pocket mode
+183035732d9 base: use bypassEnabledBiometric consistently
+966cae03f19 base: do not use new lockscreen layout for bypass
+26c0ebebe49 SystemUI: Allow listening for face only on pin/pass view
+30c8cefc28f fwb: Guard some functions against face unlock
+fa5d5523c6a SystemUI: Allow setting custom rounded corner shapes
+956bcfde59d Revert "Force Expanded Notifications [1/2]"
+b13e0f7e232 FODCircleView: Set Vivo Green as default pressed state [1/2]
+92e325bbcae SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+
+   * packages/apps/Evolver/
+d571f2f Automatic translation import
+ebb8216 Revert "Force Expanded Notifications [2/2]"
+2b3833b Evolver: Set Vivo Green as default pressed state [2/2]
+
+=======================
+     07-07-2020
+=======================
+
+
+   * build/make/
+da18047fe Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/build into ten
+
+   * frameworks/base/
+32d6f177f7b Set Assistant UID of the current user.
+
+   * frameworks/native/
+32f0e66a6 Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * manifest/
+b24bb79 Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform//manifest into ten
+5383244 Manifest for Android 10.0.0 Release 40
+
+   * packages/services/Telephony/
+55c1407ee Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * vendor/aosp/
+468b5a7b version: July patch
+
+=======================
+     07-06-2020
+=======================
+
+
+   * frameworks/base/
+6545cc1748c SystemUI: Do not condition VoWiFi icon change on calls
+
+   * packages/apps/Settings/
+156dcfd58d Automatic translation import
+
+=======================
+     07-03-2020
+=======================
+
+
+   * frameworks/base/
+b17de7902e4 SystemUI: fix active color for qs tile styles
+15bc0162cf6 AODTile: remove long click intent
+3f404fe3662 TextClock: Fix Korean strings
+a008bb61735 User switch: Unbind headsetservice in bluetooth Off state.
+
+=======================
+     07-02-2020
+=======================
+
+
+   * device/custom/sepolicy/
+9a273e7 sepolicy: persist.sys.evolution -> persist.sys.theme [2/2]
+
+   * frameworks/base/
+952ed4f9f60 base: persist.sys.evolution -> persist.sys.theme [1/2]
+23fa354259e AODTile: disable tile when power save mode is on
+31e794fc9ce AODTile: cycle through AOD states
+
+=======================
+     07-01-2020
+=======================
+
+
+   * frameworks/base/
+5aa074dd6b8 Telephony: IMS: Cache subscriber associated uri
+a2141c83d3f overlays: Fix inactive state Wifi Icon in Circular & Filled Icon Pack
+bc946f4cc3a Revert "Fix Wifi icon in inactive state when using Custom icon pack"
+
+and More!

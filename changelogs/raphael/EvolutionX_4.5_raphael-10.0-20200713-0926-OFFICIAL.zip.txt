@@ -1,0 +1,40 @@
+Device changes:
+==============================
+Adjust brightness nits for index 1
+Bump minimum vendor version for IN
+DcDimmingSettingsFragment: Listen for qs tiles change
+Disable some debug services
+Switch to prebuilt kernel dtbo and modules
+Update displayfeature fod command to match miui
+system_prop: complete displayfeature histogram prop
+------------------------------
+ROM changes:
+==============================
+API changes due to importing RI BigInteger
+Add Realme Green (Shadow) and set as default pressed state
+Add back button for freeform window
+Add switch to select SBC HD by default
+Avoid potential fd leak from jniCreateFileDescriptor
+BT: Always update service object in BluetoothDevice Class
+Bring back Screen Stabilization
+Change fs-verity setup to the new format
+FODCircleView: let's smoothly fade-out the view, before going to View.GONE
+Fix app crash if the selection is from reverse direction
+Fix edge case in statsd alarms
+Fix missing LiveDisplay entries
+Fix typos related to sortSelectionIndices
+Make LiveDisplay optional
+Merge USAP Pool changes
+Merge in QTI BT Stack changes from LOS
+QSTileHost: Recreate tiles when LiveDisplay gets initialized
+Remove references to Dalvik logger
+Remove unused / unimplemented CorePlatformAPI methods
+Settings: Add BatteryHealth section
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Force hide the security footer in quick qs panel 
+SystemUI: No PIN input dialog pop up
+TextClock: Fix Korean strings part 2
+fixup: Option to change the device hostname
+libcutils: change trace file error to verbose
+vendor: Update and fix apns-conf for better IMS support
+wifi: Add StaState API

@@ -1,0 +1,79 @@
+Device changes:
+==============================
+Add Dirac summary in Sound settings
+Bump minimum vendor version for CN
+Update CarrierConfig from sdm845-common
+Upstream f1xy
+------------------------------
+ROM changes:
+==============================
+AODTile: cycle through AOD states
+AODTile: disable tile when power save mode is on
+AODTile: remove long click intent
+Add APN for VSBL mobile
+Add EMUI VoLTE icon
+Add a LineageOS clock
+Add more VoWiFi icon styles
+Add support for per app network isolation
+Battery icon: fix requestLayout() calls spam when in lockscreen
+Bluetooth: Added bind retry logic to handle race condition in Bluetooth off/on
+Bluetooth: Serialize sending sendBluetoothServiceUpCallback
+Bring back Music QS tile
+Bring back QS tile style picker from Pie
+Calm down attention service logspam
+Cleanup old unneeded VolumeDialogController commits
+Clocks: Add burn in protection for custom clocks
+DividedLines Clock: Add proper preview layout
+DividedLines Clock: Fix margin issue in layout
+EvolutionUtils: Create some custom device groups to check against
+Evolver: Add more AOD notification pulse timeout options
+Export list of "installable" files to soong_ui
+FODCircleView: Update FOD icon position on DreamingStateChanged
+Filter preferred activities before committing to storage
+Fix Wifi icon in inactive state when using Custom icon pack
+Fix a race condition in `incident`
+Fix issue when ‘The surface hangs up during screen on and screen off’
+Fix test suite data files issue
+GamingMode: Simplify log and trivial clean up
+MNMLBox Clock: Clean up hacky layouts
+Make sensor block package list configurable
+Merge July security patch
+Not register sensor if StatusBar state is not KEYGUARD
+QsFooter: Animate icons while showing/hiding
+Re-implement optional VoWiFi icon
+Refactor how MODULES-IN-* is define
+Set Assistant UID of the current user
+SystemUI: Alphabetize the Statusbar items menu
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Do not condition VoWiFi icon change on calls
+SystemUI: Fix QS Detail Header
+SystemUI: Fix active color for some qs tile styles
+SystemUI: Fix issue with Bluetooth tile
+SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+SystemUI: Fix text clock translations
+SystemUI: QS Details: Fix layout issues
+SystemUI: QS: Add Alarm, Calculator, Calendar, Camera and Dialer tiles
+SystemUI: Re-enable and fix QS detail view, adapt layout to 10
+SystemUI: qs add tuner switch to restore old long press behaviour
+SystemUI: support VoWIFI icons and allow hiding VoWiFi StatusBar icon
+SystemUI: tuner: Delete the battery entry
+Telephony: Add option for using regular poll state for airplane mode
+Telephony: IMS: Cache subscriber associated uri
+TextClock: Bring back the translations
+TextClock: Fix Korean strings
+TextClock: Make French strings more consistent
+TextureView rebind GL texture, if AHB content has changed
+Throw XmlParserException when client tag cannot be found when parsing
+Toast insulter: Add more insults
+Trigger file removal when slice permission is removed
+Update default wallpaper to fix issues
+User switch: Unbind headsetservice in bluetooth Off state
+WifiManager: Add StaState API
+base_rules.mk optimizations
+bluetooth: fix communication / icon after clean flash and first pairing
+build: Avoid adding VINTF manifest fragment more than once
+fixup! core: Settings.java
+fs_mgr: Allow remounts with Magisk installed
+healthd: Add support for BMS and WiPower
+liblog: Always report as debuggable when building userdebug/eng
+persist.sys.evolution -> persist.sys.theme

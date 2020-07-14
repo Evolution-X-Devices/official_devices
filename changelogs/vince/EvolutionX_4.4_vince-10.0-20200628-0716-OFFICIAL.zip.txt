@@ -1,0 +1,25 @@
+6/27
+Bring back QS tile style picker from Pie
+Filter preferred activities before committing to storage
+Fix a race condition in incident
+SystemUI: QS: Add Alarm, Calculator, Calendar, Camera and Dialer tiles
+Throw XmlParserException when client tag cannot be found when parsing
+Trigger file removal when slice permission is removed
+
+6/26
+Add APN for VSBL mobile
+build: Avoid adding VINTF manifest fragment more than once
+overlays: Accents: Add Coral and Ferrari Red
+overlays: add new icon shapes from Android R
+
+6/25
+SystemUI: Fix text clock translations
+TextClock: Bring back the translations
+TextClock: Make French strings more consistent
+TextureView rebind GL texture, if AHB content has changed
+
+Device side:
+Fix sepolicy
+Go enforcing
+Fix cts profile
+Enable smart charging and fix permissions
