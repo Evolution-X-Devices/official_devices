@@ -1,0 +1,148 @@
+===
+Device Changelog
+===
+
+Fix ADB
+
+camera_v2-legacy: Revert "msm: camerav2: isp: Reserve rdi ub based on image size"
+camera_v2-legacy: Revert "msm: camerav2: isp: Allocate UB for all source types"
+Merge tag 'v4.9.230' into derp10
+Linux 4.9.230
+efi: Make it possible to disable efivar_ssdt entirely
+netfilter: nf_conntrack_h323: lost .data_len definition for Q.931/ipv6
+MIPS: Add missing EHB in mtc0 -> mfc0 sequence for DSPen
+cifs: Fix the target file was deleted when rename failed.
+SMB3: Honor persistent/resilient handle flags for multiuser mounts
+SMB3: Honor 'seal' flag for multiuser mounts
+Revert "ALSA: usb-audio: Improve frames size computation"
+i2c: algo-pca: Add 0x78 as SCL stuck low status for PCA9665
+virtio-blk: free vblk-vqs in error path of virtblk_probe()
+hwmon: (acpi_power_meter) Fix potential memory leak in acpi_power_meter_add()
+hwmon: (max6697) Make sure the OVERT mask is set correctly
+cxgb4: parse TC-U32 key values and masks natively
+sched/rt: Show the 'sched_rr_timeslice' SCHED_RR timeslice tuning knob in milliseconds
+crypto: af_alg - fix use-after-free in af_alg_accept() due to bh_lock_sock()
+kgdb: Avoid suspicious RCU usage warning
+usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect
+mm/slub: fix stack overruns with SLUB_STATS
+mm/slub.c: fix corrupted freechain in deactivate_slab()
+usbnet: smsc95xx: Fix use-after-free after removal
+EDAC/amd64: Read back the scrub rate PCI register on F15h
+mm: fix swap cache node allocation mask
+btrfs: fix data block group relocation failure due to concurrent scrub
+btrfs: cow_file_range() num_bytes and disk_num_bytes are same
+btrfs: fix a block group ref counter leak after failure to remove block group
+===
+ROM Changelog
+===
+
+Evolver
+----------
+Automatic translation import
+Evolver: Add Realme Green (Shadow) and set as default pressed state [2/2]
+ 
+frameworks/base
+----------
+Automatic translation import
+SystemUI: Block face authentication when device is in pocket mode
+Bluetooth: Add APTX-Adaptive and APTX-TWS+ entries for summaries too
+SystemUI: Update icon for Heads up tile.
+Add requiredSystemPropertyValue support in idmap2
+Notification: Fix no icon shown for data limit notification
+core: ChooserActivity: fix android crash from null object
+Release SQLite page cache as much as it can
+ScreenStabilization Tile: Show detail view on secondary click, and remove long click
+base: Screen Stabilization [1/2]
+Zygote: enable zygote preforking (USAP pool) by default
+Teaches the ProcessCpuTracker about USAPs.
+Adds Zygote policy flags to control how applications are launched
+Fixed an issue Zygote initialization.
+Re-adds a trace  point that was accidentally removed.
+Improved timekeeping logic for USAP Pool refill mechanism.
+Moved some thread priority changes.
+Resets the refill action/timing info after a pool fill event.
+Adjust Java Language thread priority in new processes.
+Start process of next activity with top priority in advance
+Make the USAP Pool refill delay configurable.
+Adjusts the USAP pool refill mechanism.
+Change USAP name to application name as soon as possible.
+Add back button for freeform window
+fwb: core: Make LiveDisplay optional
+QSTileHost: Recreate tiles when LiveDisplay gets initialized
+fixup: Add an option to change the device hostname (1/2)
+fixup - Touch: Add keydisabler support
+[SQUASH] Revert several unneeded commits
+TextClock: Fix Korean strings(2)
+QuickQSPanel: Force hide security footer
+base: SystemUI: add tuner to hide qs security footer
+SystemUI: Hide the security footer in quick qs panel
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Add Realme Green (Shadow) and set as default pressed state [1/2]
+Add switch to select SBC HD by default [1/3]
+Revert "Bluetooth: Make SBC Dual Channel optional [1/2]"
+Bluetooth: Avoid reentrant lock in getService method
+Add missing strings for SBC Dual Channel
+A2DP codec priority [1/3]
+BLE: Fix NPE during start advertising
+Fix build errors
+Fix BLE transport discovery scan filter
+BT: Relocate A2DP codec strings for translation
+Enable codec change request when mode changes in aptX-adaptive
+Keep a null check before accessing the BluetoothA2dpWrapper APIs.
+Bluetooth: Fix for out of bound exception
+BT Dev: Increase array size for codec selection in Dev Op
+Keep the BluetoothHeadset finalize() method protected
+Bluetooth: Fix for Global reference table overflow issue[1/2]
+BT: Add new intent to broadcast IOT device details
+BT_Audio: Updated Check for TWS+ switch
+TWS_A2DP: Handle active device change between TWS+ earbuds
+audio: Add support for APTX TWSP audio codec
+audio: Add support for audio extended codecs
+Use BluetoothUtils instead of Utils
+GAP: Handle the race condition cases in auto connect logic
+Obex: Squashed commit of the following
+Add scan filter for Transport Discovery data
+Add support for Transport discovery AD type (1/2)
+Bluetooth: TWSP: Support Battery Status information display
+GAP: Reset bondingInitiatedLocally flag(1/3)
+Bluetooth-TWS: Disable outgoing connection to 2nd earbud
+Bluetooth-TWS: Disable outgoing connection for 2nd earbud.
+Bluetooth: Rename bluetooth property to support new P Treble rules
+Bluetooth: Unpair both earbuds on unpair.
+Bluetooth: Add SDK API support for TWS feature (2)
+Revert the change: AudioService: remove dead BT code.
+TWS-A2DP: Add TWS+ codec to DevUI support
+BT: Adding aptX-Adaptive codec entry to Framework
+Add BluetoothQualityReport class(1/2)
+Fix typos related to sortSelectionIndices
+Fix app crash if the selection is from reverse direction.
+BT: Always update service object in BluetoothDevice Class
+Avoid potential fd leaks from jniCreateFileDescriptor (2/2)
+Avoid potential fd leak from jniCreateFileDescriptor (1/2)
+API changes due to importing RI BigInteger
+Fix edge case in statsd alarms
+SystemUI: No PIN input dialog pop up
+Change fs-verity setup to the new format
+Remove unused / unimplemented CorePlatformAPI methods.
+Remove references to Dalvik logger.
+ 
+Settings
+----------
+Automatic translation import
+BatteryHealth: Make it optional
+Settings: Remove LiveDisplay if not supported
+BatteryHealth: show Charge Cycles Completed
+BatteryHealth: make resources overlayable
+Settings: Add BatteryHealth section
+Add switch to select SBC HD by default [3/3]
+A2DP codec priority [3/3]
+BT: Use translated a2dp codec strings
+codec support for DevUI am: f915bd9438
+BT Settings: Adding aptX Adaptive codec entry in Settings
+Bluetooth-TWS: UI updates based on Filter matched
+Bluetooth-TWS: UI updates based on profile connection.
+Fix build error
+Bluetooth-TWS: Filter TWS devices
+Bluetooth: Create new catogory for earbuds
+Revert "Settings: Fix IndexOutOfBound error on bt codec selection"
+ 
