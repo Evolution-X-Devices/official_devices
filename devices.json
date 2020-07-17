@@ -275,6 +275,7 @@
       "name": "Realme X",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Ritik Gupta",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7365304",
             "version_code": "ten",
