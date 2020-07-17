@@ -1,0 +1,16 @@
+Device changes:
+Updated kernel to 4.4.230 - Predator-Stormbreaker v7.9
+Switched to QTI bluetooth stack with fully working A2DP offload, which means less drain while using BT audio
+Added a few carrier configs
+Added support for the "Battery Health" feature
+Widevine L1 has been replaced with Widevine L3 to fix streaming app crashes and improve overall stability
+-------------------------------------------------------
+Source changes:
+Added Battery Health (shows cycles since clean flash, current battery capacity and capacity when battery was new)
+Added back screen stabilization (It's in QS toggles)
+Merged USAP Pool changes (This means the ROM is even smoother than before)
+Brought back Pulse navbar audio gfx visualizer 
+Lockscreen timeout is now configurable
+Many other fixes and improvements :)
+
+NOTE: Flash by power button is broken in this build, it will hopefully be fixed in the next one :D
