@@ -1,0 +1,19 @@
+Device Side:
+Add more touchgestures
+Kernel upstreamed to 4.9.230 (by Kailash) and built using gcc 10
+Enable Zygote Preforking (makes app launch faster)
+Add lottie animation in DeviceSettings
+TWRP 3.4 is now prebuilt.
+
+ROM Side:
+July patch
+Evo version bumped to 4.5
+ColorBucket: Add Dark Aubergine
+Bring in Pulse navbar audio gfx visualizer for Android 10
+Pulse: Add automatic album art color mode
+Make lockscreen timeout configurable
+Release SQLite page cache as much as it can
+Update icon for Heads up tile
+Add back button for freeform window
+Bring back Screen Stabilization
+Fix LiveDisplay not showing up
