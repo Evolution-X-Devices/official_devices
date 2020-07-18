@@ -1,0 +1,12 @@
+**Device Changes:**
+- Etude kernel
+  * reduced frame drops on Facebook Messenger's chat head
+  * cleaned up some previous scheduler changes
+  * enabled more LLVM Polly optimization options
+  * some upstream for rbtree and arm64 memory assembly
+  * wireguard 1.0.20200712
+- Switched to QTI BlueTooth stack
+
+**Feature update highlights:**
+- Brought back navbar audio gfx visualizer
+- Added Dark Aubergine theme.
