@@ -1,0 +1,9 @@
+Fixed Bluetooth issue with last update
+Airtel/Jio data switching after call should be fully fixed
+Revert "sdm845-common: configure optimal cpusets"
+Fixed HDR playback
+Enabled Seamless Transfer 
+Fix fake temperature bug after reboot
+Miscellaneous changes
+Merge LineageOS device tree changes
+Sync with latest Evolution X source
