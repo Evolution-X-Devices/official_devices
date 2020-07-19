@@ -1,0 +1,79 @@
+KeyguardIndication: fix fc for certain devices on lockscreen charging info
+QSTileHost: add reloadAllTiles() public function
+Refactor Lockscreen elements font type & size implementation
+Remove VoWiFi icon support
+SystemUI: Use regular global_actions_column layout for layout-sw600dp-land
+Uncrypt: Allow uncrypt to write on ota_package_file
+base: force-enable permissions hub regardless of what google says
+ColorBucket: Add Dark Aubergine
+Bring in Pulse navbar audio gfx visualizer for Android 10
+Evolver: CustomSeekBarPreference: Align with other preferences
+Evolver: CustomSeekBarPreference: Make class subclass friendly and extend it
+Evolver: Update preferences
+fixup! AODTile: cycle through AOD states
+Pulse: Add automatic album art color mode
+Send top-app's render thread tid to perf HAL
+Settings: fixup! BasebandVersionPreferenceController: Trim baseband if needed
+FOD devices ONLY
+Set MIUI White as default pressed state
+Allow to get theme accent color from context
+Make lockscreen timeout configurable
+Add requiredSystemPropertyValue support in idmap2
+Bluetooth: Add APTX-Adaptive and APTX-TWS+ entries for summaries too
+core: ChooserActivity: fix android crash from null object
+Notification: Fix no icon shown for data limit notification
+Release SQLite page cache as much as it can
+SystemUI: Update icon for Heads up tile
+Add back button for freeform window
+Bring back Screen Stabilization
+Merge USAP Pool changes
+Fix missing LiveDisplay entries
+fixup - Touch: Add keydisabler support
+fixup: Add an option to change the device hostname
+Make LiveDisplay optional
+QSTileHost: Recreate tiles when LiveDisplay gets initialized
+libcutils: change trace file error to verbose
+SystemUI: Fix NPE on notification ambient pulse
+SystemUI: Force hide the security footer in quick qs panel 
+TextClock: Fix Korean strings part 2
+vendor: Update and fix apns-conf for better IMS support
+wifi: Add StaState API
+Add switch to select SBC HD by default
+API changes due to importing RI BigInteger
+Avoid potential fd leak from jniCreateFileDescriptor
+BT: Always update service object in BluetoothDevice Class
+Change fs-verity setup to the new format
+Fix app crash if the selection is from reverse direction
+Fix edge case in statsd alarms
+Fix typos related to sortSelectionIndices
+Merge in QTI BT Stack changes from LOS
+Remove references to Dalvik logger
+Remove unused / unimplemented CorePlatformAPI methods
+Settings: Add BatteryHealth section
+SystemUI: No PIN input dialog pop up
+FOD devices ONLY
+Add Realme Green (Shadow) and set as default pressed state
+SystemUI: Allow setting custom rounded corner shapes  
+Merge July security patch
+Remove Force Expanded Notifications option due to SystemUI lag
+Set Assistant UID of the current user
+SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+FOD devices ONLY
+Properly set Vivo Green as default pressed state
+SystemUI: Do not condition VoWiFi icon change on calls
+AODTile: remove long click intent
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Fix active color for some qs tile styles
+TextClock: Fix Korean strings
+User switch: Unbind headsetservice in bluetooth Off state
+AODTile: cycle through AOD states
+AODTile: disable tile when power save mode is on
+persist.sys.evolution -> persist.sys.theme
+Fix Wifi icon in inactive state when using Custom icon pack
+Telephony: IMS: Cache subscriber associated uri
+base_rules.mk optimizations
+Calm down attention service logspam
+Export list of "installable" files to soong_ui
+Fix test suite data files issue
+Refactor how MODULES-IN-* is define
+
