@@ -1,0 +1,29 @@
+Device Changes:
+
+Updated Neutrino/AOSiP kernel sources
+Switched back to clang for kernel compile
+Added raise to wake gesture
+Setup custom FOD pre-enrollment images
+Enabled unspecialized app process pool
+Enable LiveDisplay - Picture adjustment will show up again
+
+
+ROM Changes:
+
+Bluetooth: Add APTX-Adaptive and APTX-TWS+ entries for summaries too
+Bring in Pulse navbar audio gfx visualizer for Android 10
+ColorBucket: Add Dark Aubergine
+KeyguardIndication: fix fc for certain devices on lockscreen charging info
+Make lockscreen timeout configurable
+Notification: Fix no icon shown for data limit notification
+Pulse: Add automatic album art color mode
+QSTileHost: add reloadAllTiles() public function
+Refactor Lockscreen elements font type & size implementation
+Remove VoWiFi icon support
+Send top-app's render thread tid to perf HAL
+Set MIUI White as default pressed state
+SystemUI: Update icon for Heads up tile
+base: force-enable permissions hub regardless of what google says
+core: ChooserActivity: fix android crash from null object
+fixup! AODTile: cycle through AOD states
+And More!
