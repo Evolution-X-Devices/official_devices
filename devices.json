@@ -654,7 +654,8 @@
       "codename": "vince",
       "name": "Redmi Note 5/5 Plus",
       "supported_versions": [
-         {
+         {  
+		    "deprecated": true,
             "maintainer_name": "Professor",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9386036",
             "version_code": "ten",
