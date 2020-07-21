@@ -1,0 +1,191 @@
+Device Changes:
+
+Fixed Pickup and raise to wake working in reverse
+Added Realme Settings
+Added dark bootanimation
+Tuned handwave values for x2 now handwave more accurate
+Fixed PhonePay payments not working without magisk Hide
+Kernel improvements
+
+ROM Changes:
+
+=======================
+     07-21-2020
+=======================
+
+   * frameworks/base/
+4c32c16803b FODCircleView: Don't make Dim FOD conditional
+b323216ad30 FODCircleView: Dim FOD icon
+59d05c3546e Automatic translation import
+d2280d2baa9 SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+3de88bcfb8a SystemUI: BiometricPrompt: Adjust layout if FOD is present
+a548c50ce20 base: Use 2 modalities concurrently in BiometricPrompt if available
+
+=======================
+     07-20-2020
+=======================
+
+   * frameworks/base/
+c795ac442bd fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+3def4c565d4 KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+1365b80b4bd SystemUI: Block face authentication when device is in pocket mode
+32ec9187ef9 base: use bypassEnabledBiometric consistently
+fc7e8156b5b base: do not use new lockscreen layout for bypass
+37c2a3ce14d SystemUI: Allow listening for face only on pin/pass view
+8c928cf0e3e fwb: Guard some functions against face unlock
+5a1ed909114 [3/4] Port face unlock feature
+4a5ad0206be Clock: Continue Lockscreen refactor
+30b27b8e7fe base: Refactor Lockscreen elements font type & size implementation
+
+   * manifest/
+efc3107 [1/4] Port face unlock feature
+534ee71 manifest: Add mediatek sepolicy
+
+   * packages/apps/Evolver/
+f084c48 Automatic translation import
+
+   * vendor/aosp/
+b6576dfb [2/4] Port face unlock feature
+8df63a2e Fix the clang binary path
+
+=======================
+     07-19-2020
+=======================
+
+   * device/custom/sepolicy/
+c065f60 common: Remove no longer needed uncrypt rule
+
+   * frameworks/base/
+354f271a67f [SQUASH] Remove VoWiFi icon support [1/2]
+9862a5c0fc9 SystemUI: Use regular global_actions_column layout for layout-sw600dp-land
+409fd284cf1 QSTileHost: add reloadAllTiles() public function
+62222047e01 KeyguardIndication: fix fc for certain devices on lockscreen charging info
+
+   * packages/apps/Evolver/
+3523a26 [SQUASH] Remove VoWiFi icon support [2/2]
+
+   * system/sepolicy/
+b092b49d Uncrypt: Allow uncrypt to write on ota_package_file.
+
+=======================
+     07-18-2020
+=======================
+
+   * frameworks/base/
+4407d68cc02 base: force-enable permissions hub regardless of what google says we can and can't do
+
+   * packages/apps/Settings/
+5a8581cafd Automatic translation import
+0aa3bcf95b [4/4] Port face unlock feature
+28937fb96d Settings: Enable PermissionBar Chart
+
+   * vendor/aosp/
+0e190c9d ColorBucket: Add Dark Aubergine
+
+=======================
+     07-17-2020
+=======================
+
+   * packages/apps/TouchGestures/
+064ae40 TouchGestures: Make Navbar follow system theme color
+
+=======================
+     07-16-2020
+=======================
+
+   * build/soong/
+b4b45f92 Re-allow relative paths for modules
+
+   * frameworks/base/
+74c1e136697 FODCircleView: Set MIUI White as default pressed state [1/2]
+62516f65f42 fixup! AODTile: cycle through AOD states
+7ca85d45ad6 base: Backup navbar pulse settings
+ff8afc47616 Pulse: add automatic albumart color mode [1/3]
+2111997083b Pulse navbar audio gfx visualizer for Android 10 [1/4]
+baf7ba5fbb7 Send top-app's render thread tid to perf HAL
+72bee2778ca Allow to get theme accent color from context
+0e4ca0ec491 base: Make lockscreen timeout configurable [1/2]
+470cae18dd2 [SQUASH] core: Clean up and fixes
+
+   * manifest/
+b65db55 manifest: Track external/pulse
+
+   * packages/apps/Evolver/
+9714a39 Evolver: Pulse: Add automatic album art color mode [3/3]
+985d364 Evolver: Pulse navbar audio gfx visualizer for Android 10 [3/4]
+101ce0b Evolver: CustomSeekBarPreference: Make class subclass friendly and extend it
+25375ca Evolver: CustomSeekBarPreference: Align with other preferences
+522d5a5 Evolver: Update preferences
+a720ef3 Evolver: Set MIUI White as default pressed state [2/2]
+
+   * packages/apps/Settings/
+d1ca9e121e fixup! BasebandVersionPreferenceController: Trim baseband if needed
+
+=======================
+     07-15-2020
+=======================
+
+   * manifest/
+1e7fa11 manifest: Track our own devicesettings
+
+   * packages/apps/Settings/
+337a67374d Settings: Make lockscreen timeout configurable [2/2]
+
+   * packages/resources/devicesettings/
+7740448 resources: Setup raise to wake strings
+
+=======================
+     07-14-2020
+=======================
+
+   * frameworks/base/
+03f9f076adb Bluetooth: Add APTX-Adaptive and APTX-TWS+ entries for summaries too
+35f1d7da1b8 SystemUI: Update icon for Heads up tile.
+6d178a32f06 Add requiredSystemPropertyValue support in idmap2
+9a76e7b5e0a Notification: Fix no icon shown for data limit notification
+7e53fccee9b core: ChooserActivity: fix android crash from null object
+30c0c445d9d Release SQLite page cache as much as it can
+28f9a07975e ScreenStabilization Tile: Show detail view on secondary click, and remove long click
+ff932d3f90e base: Screen Stabilization [1/2]
+2a06498b9cd Zygote: enable zygote preforking (USAP pool) by default
+2045de34fe8 Teaches the ProcessCpuTracker about USAPs.
+5352d5614f8 Adds Zygote policy flags to control how applications are launched
+d9d0fbcdfca Fixed an issue Zygote initialization.
+43db1fe32cd Re-adds a trace  point that was accidentally removed.
+3de6cce76b3 Improved timekeeping logic for USAP Pool refill mechanism.
+e73e08058d4 Moved some thread priority changes.
+400f7c691bb Resets the refill action/timing info after a pool fill event.
+65325db08a2 Adjust Java Language thread priority in new processes.
+53898eeaab4 Start process of next activity with top priority in advance
+c227c2a8a93 Make the USAP Pool refill delay configurable.
+682b0f078c5 Adjusts the USAP pool refill mechanism.
+cee5b40fe38 Change USAP name to application name as soon as possible.
+c44fa8b340a Add back button for freeform window
+1b6dc5fd211 fwb: core: Make LiveDisplay optional
+ffb94c6b3ef QSTileHost: Recreate tiles when LiveDisplay gets initialized
+8a1f5b39db6 fixup: Add an option to change the device hostname (1/2)
+b778b711ec5 fixup - Touch: Add keydisabler support
+1724762f42b [SQUASH] Revert several unneeded commits
+
+=======================
+     07-13-2020
+=======================
+
+   * device/mediatek/sepolicy/
+a9a6f01 device: mtk: sepolicy: Import Initial Common Sepolicy Rules
+
+   * frameworks/native/
+a38a82529 native: Screen Stabilization [2/2]
+64f300c3c Merge tag 'android-10.0.0_r40' of https://android.googlesource.com/platform/frameworks/native into ten
+
+=======================
+     07-12-2020
+=======================
+
+   * external/pulse/
+668d645 Pulse: Add automatic album art color mode [2/3]
+bdd947a Use offload thread (ExecutorService) to start pulsing
+9b428e3 Pulse navbar audio gfx visualizer for Android 10 [2/4]
+
+   * packages/apps/Settings/
+c0ccb1de3e BatteryHealth: Make it optional
