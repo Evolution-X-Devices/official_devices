@@ -1,0 +1,19 @@
+Fixed HDR issues with Gcam completely
+Fixed 4K recording in Gcam
+Fixed battery health details unavailable issues
+Updated media configs
+Updated cpu sets
+Improved speaker output
+Improved Charging speed
+Fixed camera freeze issue in ViLTE
+Fixed speaker distortion at high volume
+Fixed lags in UI
+Fixed some app freezing issues
+Improved ram management
+Kernel rebased over stock 424
+Kernel upstreamed to 4.4.230
+Re enabled smart charging
+Added button for freeform window
+Brought back Screen Stabilization
+Added automatic album art color mode
+Removed VoWiFi icon support
