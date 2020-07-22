@@ -1,0 +1,26 @@
+----  If you are updating from an old build, had broken VoLTE and reported MCC and MNC for fixing, you will need to Reset APN settings for your SIM to default. This will reload the new config file with IMS APNs ----
+
+Sync Evolution X 22/07/20 changes
+Allow auto-brightness while in doze
+Build RCS packages
+Fix many sepolicy denials
+Fix carrier video calls
+Fix VoLTE on boot
+Fix IMS for many carriers (as per users request)
+Fix IMS crash on wifi
+Fix Night Light
+Fix broken Hostpot, random wifi and network disconnect
+Fix NFC and disable it for Indian units
+Fix UI lags
+Kang some SurfaceFlingers props from coral
+Kang some doze overlays from coral
+Improve light hal
+Improve status bar heigh
+Include Zenitsu Release 2
+Nuke useless factory init script
+Override dalvik healp for 8GB variant
+Remove useless flags on device tree
+Set generic arch variant
+Switch back to stock brightness values and fix brightness slider properly
+Use fstab path for vbmeta and dtbo on releasetools.py
+Update flame build fingerprint to July
