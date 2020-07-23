@@ -1,0 +1,76 @@
+Device changlogs:
+==============================
+
+- Upstreamed kernel to 4.14.189
+- LLVM optimizations
+- Pixel 4  LIve wallpapers (set on default)
+- Power profiles tuning
+- Reduced statusbar notification icons size
+- App opening latency improved
+- Disable unnecssary google services (NearbyMessagingService and DiscoveryService)
+- Preven BT logspam and enable BT quality report
+- DB optimization for F2FS
+- LDAC support
+
+
+Source changelogs:
+=============================
+
+7/23
+Fix PackageManagerService original-package does not work
+Move Swipe to screenshot and screenshot type preferences from Evolver to main Settings app
+Replace direct pid writes with setting task profiles
+Settings: Add swipe to screenshot animation
+Settings: Change kernel preference behavior
+StateMachine: check for null curState in dump()
+TextClock: Spanish translation update
+
+7/22
+AudioService: factor out sound effects handling
+base: wake from aod on unplug if we show on charging only
+Boost init priority before main loop
+Fix color mismatch of pointers
+Refactor SoundEffectsHelper for asynchronous loading
+Screen Stabilization: Catch DeadObjectException
+
+7/21
+base: Use 2 modalities concurrently in BiometricPrompt if available
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+
+7/19
+KeyguardIndication: fix fc for certain devices on lockscreen charging info
+QSTileHost: add reloadAllTiles() public function
+Refactor Lockscreen elements font type & size implementation
+Remove VoWiFi icon support
+SystemUI: Use regular global_actions_column layout for layout-sw600dp-land
+Uncrypt: Allow uncrypt to write on ota_package_file
+
+7/18
+base: force-enable permissions hub regardless of what google says
+ColorBucket: Add Dark Aubergine
+
+7/16
+Bring in Pulse navbar audio gfx visualizer for Android 10
+Evolver: CustomSeekBarPreference: Align with other preferences
+Evolver: CustomSeekBarPreference: Make class subclass friendly and extend it
+Evolver: Update preferences
+fixup! AODTile: cycle through AOD states
+Pulse: Add automatic album art color mode
+Send top-app's render thread tid to perf HAL
+Settings: fixup! BasebandVersionPreferenceController: Trim baseband if needed
+
+
+
+7/15
+Allow to get theme accent color from context
+Make lockscreen timeout configurable
+
+7/14
+Add requiredSystemPropertyValue support in idmap2
+Bluetooth: Add APTX-Adaptive and APTX-TWS+ entries for summaries too
+core: ChooserActivity: fix android crash from null object
+Notification: Fix no icon shown for data limit notification
+Release SQLite page cache as much as it can
+SystemUI: Update icon for Heads up tile
+
