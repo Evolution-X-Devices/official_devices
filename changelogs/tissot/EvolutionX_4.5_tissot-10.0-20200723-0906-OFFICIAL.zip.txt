@@ -1,0 +1,64 @@
+===
+Device Changelog
+===
+
+msm8953-common: overlay: Battery Health
+msm8953-common: Fix ADB
+
+
+===
+ROM Changelog
+===
+
+Evolver
+----------
+Automatic translation import
+Evolver: Move Swipe to screenshot and screenshot type preference to main Settings app
+[SQUASH] Remove VoWiFi icon support [2/2]
+Evolver: Pulse: Add automatic album art color mode [3/3]
+Evolver: Pulse navbar audio gfx visualizer for Android 10 [3/4]
+Evolver: CustomSeekBarPreference: Make class subclass friendly and extend it
+Evolver: CustomSeekBarPreference: Align with other preferences
+Evolver: Update preferences
+Evolver: Set MIUI White as default pressed state [2/2]
+ 
+frameworks/base
+----------
+Automatic translation import
+SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+base: Use 2 modalities concurrently in BiometricPrompt if available
+SystemUI: Block face authentication when device is in pocket mode
+TextClock: Spanish translation update
+Fix color mismatch of pointers
+base: wake from aod on unplug if we show on charging only
+Screenstabilization: Catch DeadObjectException
+Refactor SoundEffectsHelper for asynchronous loading
+AudioService: factor out sound effects handling
+Clock: Continue Lockscreen refactor
+base: Refactor Lockscreen elements font type & size implementation
+[SQUASH] Remove VoWiFi icon support [1/2]
+SystemUI: Use regular global_actions_column layout for layout-sw600dp-land
+QSTileHost: add reloadAllTiles() public function
+KeyguardIndication: fix fc for certain devices on lockscreen charging info
+base: force-enable permissions hub regardless of what google says we can and can't do
+FODCircleView: Set MIUI White as default pressed state [1/2]
+fixup! AODTile: cycle through AOD states
+base: Backup navbar pulse settings
+Pulse: add automatic albumart color mode [1/3]
+Pulse navbar audio gfx visualizer for Android 10 [1/4]
+Send top-app's render thread tid to perf HAL
+Allow to get theme accent color from context
+base: Make lockscreen timeout configurable [1/2]
+[SQUASH] core: Clean up and fixes
+ 
+Settings
+----------
+Automatic translation import
+Settings: Move screenshot type preference from Evolver
+Settings: Add swipe to screenshot animation
+Settings: Add Swipe to screenshot preference
+Settings: Enable PermissionBar Chart
+fixup! BasebandVersionPreferenceController: Trim baseband if needed
+Settings: Make lockscreen timeout configurable [2/2]
+ 
