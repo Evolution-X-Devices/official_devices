@@ -1,0 +1,8 @@
+Updated Adreno Drivers from Pixel 3XL R  Beta
+Switch to QTI Bluetooth stack
+Enable Seamless Transfer
+Added Thermal Profiles in Parts (can be found in Battery Settings)
+Powerhal Improvements
+Update CarrierConfig for Chinese Carriers
+Use latest TwistedKernel source available on Github
+More Under-The-Hood Improvements
