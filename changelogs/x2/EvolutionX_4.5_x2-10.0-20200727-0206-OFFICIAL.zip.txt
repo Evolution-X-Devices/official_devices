@@ -1,0 +1,102 @@
+Device Changes:
+
+Fixed WFD
+Update blobs from RMX1991CN C.20
+Fixed White pressed icon
+Other improvements
+
+ROM Changes:
+
+=======================
+     07-27-2020
+=======================
+
+   * bootable/recovery/
+e1beb1bd Ignore signature/downgrade questions
+96c76a30 Revert "recovery: New install/progress animation"
+d9bf85fd Initial rebrand
+997bf2ef updater: Don't fail when trying to run set_metadata
+bb16a40d bootable/recovery: Add back sha1_check
+14345916 misc_writer: Add system variant
+
+   * frameworks/base/
+9f7a05e2dd9 Automatic translation import
+5eb924ae6d3 SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+b85acb266e1 SystemUI: BiometricPrompt: Adjust layout if FOD is present
+b9f2db9f655 base: Use 2 modalities concurrently in BiometricPrompt if available
+8aabd6bc168 fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+d7eeae09e6a KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+ec5a429264c SystemUI: Block face authentication when device is in pocket mode
+51d889ae33c base: use bypassEnabledBiometric consistently
+4f74eea2f55 base: do not use new lockscreen layout for bypass
+1ea4c1d1a60 SystemUI: Allow listening for face only on pin/pass view
+7206d0440f0 fwb: Guard some functions against face unlock
+96b69210f0a [3/4] Port face unlock feature
+5ba54aa15e5 Improve scrolling cache
+6413aed864a avoid duplicate doFrame calls.
+9b7c506fcd9 make ui touch optimization work normally.
+7903ccb6fb1 add VSYNC scheduled flag and avoid two doFrame calls in one period
+b72122b01d3 core: touch response optimizations
+
+   * frameworks/native/
+425040d5a touch response optimizations
+
+   * packages/apps/Evolver/
+4f577ca Automatic translation import
+dacc5be Evolver: Drop no longer necessary casts when calling findPreference() (part 2)
+a55d483 Evolver: Add video preview to Torch long press power
+
+   * packages/apps/Settings/
+8fef4b8d1e Automatic translation import
+b4151b6db7 [4/4] Port face unlock feature
+ab797417b9 Settings: Change kernel preference behavior
+e38c1328b2 Settings: Move screenshot type preference from Evolver
+e349010567 Settings: Add swipe to screenshot animation
+494caba0c7 Settings: Add Swipe to screenshot preference
+
+=======================
+     07-26-2020
+=======================
+
+   * frameworks/av/
+9b47e8adf Finer synchronization for nuplayer stats
+
+   * frameworks/base/
+5b9aef10be9 SystemUI: Fix multiple issues with hiding unprovisioned SIMs
+d42ebc87c5c StatusBarSignalPolicy: Hide signal icons for disabled SIMs
+
+   * packages/apps/Evolver/
+92f36a5 Evolver: Update min values for preferences using CustomSeekBarPreference
+
+=======================
+     07-25-2020
+=======================
+
+=======================
+     07-24-2020
+=======================
+
+   * frameworks/base/
+b05814c73a1 StateMachine: check for null curState in dump()
+3b4113f9caf Fix PackageManagerService original-package does not work.
+66037a4f2df TextClock: Spanish translation update
+
+   * packages/apps/Evolver/
+409e956 Evolver: Move Swipe to screenshot and screenshot type preference to main Settings app
+
+   * packages/apps/Settings/
+35817b4bcf Settings: Enable PermissionBar Chart
+
+=======================
+     07-23-2020
+=======================
+
+   * frameworks/base/
+360360226b4 Fix color mismatch of pointers
+747386b0b8e base: wake from aod on unplug if we show on charging only
+f0240de52d9 Screenstabilization: Catch DeadObjectException
+91f38845449 Refactor SoundEffectsHelper for asynchronous loading
+b9dc57463d4 AudioService: factor out sound effects handling
+
+   * system/core/
+e62f55924 Boost init priority before main loop
