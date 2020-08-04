@@ -1,0 +1,92 @@
+Device changlogs:
+==============================
+
+- Upstreamed kernel to 4.14.191
+- simple msm thermal
+- fixed reboot issues occure due to google play security
+- Fixed battery health section
+- improved sched latency
+- stable fast charging
+- Wifi fixes and improvements
+- Some unnecessary log cleanup
+- disable vsync for cpu randered apps
+- memory optimization
+- some more cleanups
+
+Source changelogs:
+=============================
+
+8/4
+Add Anaheim and Tinkerbell fonts
+Add runtime configurable audio panel location
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+
+8/2
+Add synchronization for invokeForAllObservers call
+base: Remove keyguard delay completely
+ClipboardService: keep track of which app pasted from which
+Fixes crash/race condition when destroyActivity
+Return null on failed insert due to permissions
+
+8/1
+Add Linotte font
+Allow hiding VoWiFi StatusBar icon
+prebuilt: Clean up custom-system.rc
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+
+7/31
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+base: Separate vibrate drawable for vol panel from common icon
+Custom keys rebinding: Add kill app action
+Custom keys rebinding: Add more custom actions/app/activities
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Import restart systemui api
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: add clear all notifications action
+EvolutionUtils: fixup! some more actions
+Evolver: Add SystemUI restart for R notification headers
+Partial screenshot: block gestures and heads up when running
+Remove kill app back button toggle
+SystemUI: Fix SystemUI failed to go to doze issue
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+
+7/30
+fonts: Update Google Sans fonts
+PermissionController: force the hub
+
+7/29
+Add toggle for iOS-like toast notification for clipboard access
+Add USSD codes over IMS feature
+Bring back AOSP Screen recorder to Power Menu options
+Evolver: Fix multiple out of bounds issues causing crashes
+Settings: Add a warning for Quick Unlock
+SystemUI: Remove duplicate permissions
+
+7/26
+add VSYNC scheduled flag and avoid two doFrame calls in one period
+avoid duplicate doFrame calls
+core: touch response optimizations
+Evolver: Add video preview to Torch long press power
+Evolver: Drop no longer necessary casts when calling findPreference() (part 2)
+Improve scrolling cache
+make ui touch optimization work normally
+
+7/25
+Finer synchronization for nuplayer stats
+Evolver: Update min values for preferences using CustomSeekBarPreference
+
+7/23
+Fix PackageManagerService original-package does not work
+Move Swipe to screenshot and screenshot type preferences from Evolver to main Settings app
+Settings: Add swipe to screenshot animation
+Settings: Change kernel preference behavior
+StateMachine: check for null curState in dump()
+TextClock: Spanish translation update
+
