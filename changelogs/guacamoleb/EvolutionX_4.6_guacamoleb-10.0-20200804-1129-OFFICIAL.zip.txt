@@ -1,0 +1,43 @@
+Device
+
+Updated to Coral's August fingerprint
+Imported more brightness configs from OOS
+Updated adaptive brightness curve from Open_Beta_16
+Lowered default Auto HBM threshold
+Added doze menu to DeviceSettings (OnePlus settings)
+Removed doze settings from Settings>Display>Lock screen
+display>advanced settings
+
+ROM
+
+Merge August security patches
+Version bump - 4.6 | Franklin
+Add Anaheim and Tinkerbell and Linotte fonts
+Add runtime configurable audio panel location
+Allow hiding VoWiFi StatusBar icon
+ClipboardService: keep track of which app pasted from which
+Custom keys rebinding: Add kill app action
+Custom keys rebinding: Add more custom actions/app/activities
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Import restart systemui api
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: add clear all notifications action
+Evolver: Add SystemUI restart for R notification headers
+Fixes crash/race condition when destroyActivity
+Partial screenshot: block gestures and heads up when running
+PermissionController: force the hub
+Remove kill app back button toggle
+SystemUI: Fix SystemUI failed to go to doze issue
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+SystemUI: fix size of icon of vibrate ringer mode
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+VolumeDialog: Redo expanded volume panel
+base: Remove keyguard delay completely
+base: Separate vibrate drawable for vol panel from common icon
+fonts: Update Google Sans fonts
+And more!
