@@ -1,0 +1,20 @@
+Device changes:
+Updated kernel to 4.4.232 - Predator-Stormbreaker v8.1
+Updated build FP to Coral - QQ3A.200805.001 for SafetyNet to work
+Reworked doze autobrightness values
+Set perf related props from sdm660 for improved battery life
+Turned off Vorbis offloading support since it was broken
+Fixed flashlight by power button
+-------------------------------------------------------
+Source changes:
+EvolutionX version 4.6 - Franklin (a.k.a. EvoX 4.6 - Filthy Frank edition xD)
+Merged April security patches
+Reworked VoWiFi icons
+Added a new, much neater volume panel
+Added permission hub (icons when mic/camera are being used)
+Improved scrolling cache
+Improved UI touch optimization
+Added USSD over IMS support
+Updated Google Sans to latest version
+Added Linotte font
+Many many many bugfixes and smaller improvements. See if you can find some of them :)
