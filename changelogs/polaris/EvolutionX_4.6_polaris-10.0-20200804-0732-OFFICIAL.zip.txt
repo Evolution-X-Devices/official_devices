@@ -1,0 +1,19 @@
+**Device Changes:**
+- Etude kernel
+  * Linux 4.9.232
+  * built with Clang 12
+  * some scheduler changes on idle load
+  * upstream on mm, qspinlock, and arm/arm64 specific libs
+- Updated APNs for Chinese carriers
+- Bumped Vulkan feature level to 1
+- Enabled 802.11r Fast BSS Transition and increased max BSS count
+- Enabled unspecialized app process pool
+
+**Feature update highlights:**
+- August security patch (android-10.0.0_r41)
+- Reworked VoWiFi icon
+- Moved swipe to screenshot and screenshot type preferences from Evolver to main Settings app
+- Brought AOSP screen recorder to power menu options
+- Improved expanded volume panel
+- Added Anaheim and Tinkerbell fonts
+- Many touch and scrolling optimizations
