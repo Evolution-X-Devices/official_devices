@@ -1,0 +1,68 @@
+Device changes:
+==============================
+Added 'Ambient Display' feature
+Cam2Api disabled by default.
+Reverted 'Green tint fix for whatsapp' for low light green photos.
+Removed MiuiCamera
+And some more minor changes.
+------------------------------
+Kernel changes:
+==============================
+Upstreamed to 4.9.230
+Major UClamp overhaul, with finely tuned parameters
+Major scheduler optimizations and speedups
+Minor multitasking improvements
+Retweaked simple_ondemand GPU governor
+GCam freezes fixed
+Removed VLAs and direct HZ references
+EXT4 optimizations
+IRQ optimizations
+Sped up boot times (a little)
+Reduced power consumption
+Enhanced touch input events
+Misc performance fixes
+Removed some debug
+------------------------------
+ROM changes:
+==============================
+Add Anaheim and Tinkerbell fonts
+Add runtime configurable audio panel location
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+Add synchronization for invokeForAllObservers call
+base: Remove keyguard delay completely
+ClipboardService: keep track of which app pasted from which
+Fixes crash/race condition when destroyActivity
+Return null on failed insert due to permissions
+Add Linotte font
+Allow hiding VoWiFi StatusBar icon
+prebuilt: Clean up custom-system.rc
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+base: Separate vibrate drawable for vol panel from common icon
+Custom keys rebinding: Add kill app action
+Custom keys rebinding: Add more custom actions/app/activities
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Import restart systemui api
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: add clear all notifications action
+EvolutionUtils: fixup! some more actions
+Evolver: Add SystemUI restart for R notification headers
+Partial screenshot: block gestures and heads up when running
+Remove kill app back button toggle
+SystemUI: Fix SystemUI failed to go to doze issue
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+fonts: Update Google Sans fonts
+PermissionController: force the hub
+Add toggle for iOS-like toast notification for clipboard access
+Add USSD codes over IMS feature
+Bring back AOSP Screen recorder to Power Menu options
+Evolver: Fix multiple out of bounds issues causing crashes
+Settings: Add a warning for Quick Unlock
+SystemUI: Remove duplicate permissions
