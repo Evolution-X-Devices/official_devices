@@ -1,0 +1,89 @@
+Device Side:
+============
+Note: OTA is disbaled, you will face error with verification
+As clean flash is recommended for bugless experience
+---------------------------------------------
+
+kernel:
+Swtichted to anxiety I/O Scheduler by default
+Reinterpolate EM busy-cost-data from Hypeartist
+dts: longcheer: Bump touchscreen I2C bus clock
+Add API to mark IRQs and kthreads as performance critical
+Tree wide cleanup and fixed auto reboot issue
+
+Misc:
+XiaomiDoze: Add Doze Tile 
+Adjust stune top-app for EAS
+Updated Evolution X overlay
+Allocate dedicated pcm node for in call recording
+Shift to new support group
+twrp: Inherit twrp from right path
+Update official dependencies & maintainer prop
+
+ROM Side:
+=========
+8/7
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+kernel: Bail-out if kernel config isn't set
+Settings: Fix icon size for ring volume
+
+8/6
+Allow graceful degradation of MediaProfile with broken configuration
+Fix list style alert dialog to use system font
+Remove Extended Volume panel options we are unable to hide
+
+8/4
+Add Anaheim and Tinkerbell fonts
+Add runtime configurable audio panel location
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+
+8/2
+Add synchronization for invokeForAllObservers call
+base: Remove keyguard delay completely
+ClipboardService: keep track of which app pasted from which
+Fixes crash/race condition when destroyActivity
+Return null on failed insert due to permissions
+
+8/1
+Add Linotte font
+Allow hiding VoWiFi StatusBar icon
+prebuilt: Clean up custom-system.rc
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+
+7/31
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+base: Separate vibrate drawable for vol panel from common icon
+Custom keys rebinding: Add kill app action
+Custom keys rebinding: Add more custom actions/app/activities
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Import restart systemui api
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: add clear all notifications action
+EvolutionUtils: fixup! some more actions
+Evolver: Add SystemUI restart for R notification headers
+Partial screenshot: block gestures and heads up when running
+Remove kill app back button toggle
+SystemUI: Fix SystemUI failed to go to doze issue
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+
+7/30
+fonts: Update Google Sans fonts
+PermissionController: force the hub
+
+7/29
+Add toggle for iOS-like toast notification for clipboard access
+Add USSD codes over IMS feature
+Bring back AOSP Screen recorder to Power Menu options
+Evolver: Fix multiple out of bounds issues causing crashes
+Settings: Add a warning for Quick Unlock
+SystemUI: Remove duplicate permissions
+
+#KeepEvolving
