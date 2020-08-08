@@ -1,0 +1,39 @@
+Source changelog :-
+
+8/8
+
+Gracefully handle integer overflows
+
+Introduce POSP’s volume panel styles
+
+Screenshot: inline trigger with AOSP values
+
+Settings: Avoid enforcing weird backgrounds
+
+ViewGroup: Remove child parent when a new view is added
+
+
+8/7
+
+kernel: Add support for module aliases
+
+kernel: Allow installing modules on vendor_overlay
+
+kernel: Bail-out if kernel config isn't set
+
+Settings: Fix icon size for ring volume
+
+
+8/6
+
+Allow graceful degradation of MediaProfile with broken configuration
+
+Fix list style alert dialog to use system font
+
+Remove Extended Volume panel options we are unable to hide
+
+Device changelog:-
+
+updated ims,qmi,ril stack
+
+added aosp rcs packages
