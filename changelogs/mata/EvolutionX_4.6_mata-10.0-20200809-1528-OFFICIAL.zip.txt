@@ -1,0 +1,4 @@
+- Reverted back to stable kernel
+- Substituted official Essential blobs for custom ones
+- Removed VoLTE support (temporarily) for better stability
+- Latest Evolution X Changes
