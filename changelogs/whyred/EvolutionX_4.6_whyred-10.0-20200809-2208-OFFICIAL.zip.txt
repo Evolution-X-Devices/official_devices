@@ -1,0 +1,87 @@
+Don't request render in GLSurfaceView.GLThread ctr
+Failed to show hold call when user click swap and merge simultaneously
+NotificationPanelView: Fix initial touch co-ordinates
+sepolicy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+FOD devices ONLY
+Introduce optional screen off FOD
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+ViewGroup: Remove child parent when a new view is added
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+kernel: Bail-out if kernel config isn't set
+Settings: Fix icon size for ring volume
+Allow graceful degradation of MediaProfile with broken configuration
+Fix list style alert dialog to use system font
+Remove Extended Volume panel options we are unable to hide
+Add Anaheim and Tinkerbell fonts
+Add runtime configurable audio panel location
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+Add synchronization for invokeForAllObservers call
+base: Remove keyguard delay completely
+ClipboardService: keep track of which app pasted from which
+Fixes crash/race condition when destroyActivity
+Return null on failed insert due to permissions
+Add Linotte font
+Allow hiding VoWiFi StatusBar icon
+prebuilt: Clean up custom-system.rc
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+base: Separate vibrate drawable for vol panel from common icon
+Custom keys rebinding: Add kill app action
+Custom keys rebinding: Add more custom actions/app/activities
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Import restart systemui api
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: add clear all notifications action
+EvolutionUtils: fixup! some more actions
+Evolver: Add SystemUI restart for R notification headers
+Partial screenshot: block gestures and heads up when running
+Remove kill app back button toggle
+SystemUI: Fix SystemUI failed to go to doze issue
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+fonts: Update Google Sans fonts
+PermissionController: force the hub
+Add toggle for iOS-like toast notification for clipboard access
+Add USSD codes over IMS feature
+Bring back AOSP Screen recorder to Power Menu options
+Evolver: Fix multiple out of bounds issues causing crashes
+Settings: Add a warning for Quick Unlock
+SystemUI: Remove duplicate permissions
+add VSYNC scheduled flag and avoid two doFrame calls in one period
+avoid duplicate doFrame calls
+core: touch response optimizations
+Evolver: Add video preview to Torch long press power
+Evolver: Drop no longer necessary casts when calling findPreference() (part 2)
+Improve scrolling cache
+make ui touch optimization work normally
+Finer synchronization for nuplayer stats
+Evolver: Update min values for preferences using CustomSeekBarPreference
+Fix PackageManagerService original-package does not work
+Move Swipe to screenshot and screenshot type preferences from Evolver to main Settings app
+Settings: Add swipe to screenshot animation
+Settings: Change kernel preference behavior
+StateMachine: check for null curState in dump()
+TextClock: Spanish translation update
+AudioService: factor out sound effects handling
+base: wake from aod on unplug if we show on charging only
+Boost init priority before main loop
+Fix color mismatch of pointers
+Refactor SoundEffectsHelper for asynchronous loading
+Screen Stabilization: Catch DeadObjectException
+base: Use 2 modalities concurrently in BiometricPrompt if available
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+
