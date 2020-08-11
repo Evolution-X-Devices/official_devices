@@ -1,0 +1,94 @@
+8/11
+Bring back kill app back button toggle for non-gesture navbar
+Evolver: Add VoWiFi icon warning
+
+8/10
+Add setting for clamp min auto screen brightness
+Let legacy apps scale fully to the display's aspect ratio
+Reclaim ANON or File pages based on configuration
+
+8/9
+Don't request render in GLSurfaceView.GLThread ctr
+Failed to show hold call when user click swap and merge simultaneously
+Fix remaining issues with Privacy Indicators
+NotificationPanelView: Fix initial touch co-ordinates
+sepolicy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+FOD devices ONLY
+Introduce optional screen off FOD
+
+8/8
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+ViewGroup: Remove child parent when a new view is added
+
+8/7
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+kernel: Bail-out if kernel config isn't set
+Settings: Fix icon size for ring volume
+
+8/6
+Allow graceful degradation of MediaProfile with broken configuration
+Fix list style alert dialog to use system font
+Remove Extended Volume panel options we are unable to hide
+
+8/4
+Add Anaheim and Tinkerbell fonts
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+
+7/19
+KeyguardIndication: fix fc for certain devices on lockscreen charging info
+QSTileHost: add reloadAllTiles() public function
+Refactor Lockscreen elements font type & size implementation
+Remove VoWiFi icon support
+SystemUI: Use regular global_actions_column layout for layout-sw600dp-land
+Uncrypt: Allow uncrypt to write on ota_package_file
+
+7/18
+base: force-enable permissions hub regardless of what google says
+ColorBucket: Add Dark Aubergine
+
+7/16
+Bring in Pulse navbar audio gfx visualizer for Android 10
+Evolver: CustomSeekBarPreference: Align with other preferences
+Evolver: CustomSeekBarPreference: Make class subclass friendly and extend it
+Evolver: Update preferences
+fixup! AODTile: cycle through AOD states
+Pulse: Add automatic album art color mode
+Send top-app's render thread tid to perf HAL
+Settings: fixup! BasebandVersionPreferenceController: Trim baseband if needed
+Set MIUI White as default pressed state
+
+7/15
+Allow to get theme accent color from context
+Make lockscreen timeout configurable
+
+7/14
+Add requiredSystemPropertyValue support in idmap2
+Bluetooth: Add APTX-Adaptive and APTX-TWS+ entries for summaries too
+core: ChooserActivity: fix android crash from null object
+Notification: Fix no icon shown for data limit notification
+Release SQLite page cache as much as it can
+SystemUI: Update icon for Heads up tile
+
+7/12
+Add back button for freeform window
+Bring back Screen Stabilization
+Merge USAP Pool changes
+
+Device Side:
+Enable smart pixels
+Update panel mode preview images
+Navbar now follows system theme color
+Added support for screen off FOD
+Fix super stable mode in OnePlus camera
+Add drawable icons to advanced doze settings
+Move doze menu to OnePlus Settings
