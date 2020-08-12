@@ -1,0 +1,82 @@
+Note:- CLEAN FLASH IS MUST.
+
+==================================
+SOURCE SIDE
+==================================
+8/11
+Bring back kill app back button toggle for non-gesture navbar
+Evolver: Add VoWiFi icon warning
+
+8/10
+Add setting for clamp min auto screen brightness
+Let legacy apps scale fully to the display's aspect ratio
+Reclaim ANON or File pages based on configuration
+
+8/9
+Don't request render in GLSurfaceView.GLThread ctr
+Failed to show hold call when user click swap and merge simultaneously
+Fix remaining issues with Privacy Indicators
+NotificationPanelView: Fix initial touch co-ordinates
+sepolicy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+FOD devices ONLY
+Introduce optional screen off FOD
+
+8/8
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+ViewGroup: Remove child parent when a new view is added
+
+8/7
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+kernel: Bail-out if kernel config isn't set
+Settings: Fix icon size for ring volume
+Taskhelper api: fix NPE
+
+8/6
+Allow graceful degradation of MediaProfile with broken configuration
+Fix list style alert dialog to use system font
+Remove Extended Volume panel options we are unable to hide
+
+8/4
+Add Anaheim and Tinkerbell fonts
+Add runtime configurable audio panel location
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+
+8/2
+Add synchronization for invokeForAllObservers call
+base: Remove keyguard delay completely
+ClipboardService: keep track of which app pasted from which
+Fixes crash/race condition when destroyActivity
+Return null on failed insert due to permissions
+
+8/1
+Add Linotte font
+Allow hiding VoWiFi StatusBar icon
+prebuilt: Clean up custom-system.rc
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+
+======================================
+DEVICE SIDE
+======================================
+
+* Switch To New Trees(Merroth one)
+* Added Battery Health
+* Added Back Smart Charging
+* Inroduced Violet Parts
+* Fixed Themed BootAnimation
+* Nuked Live Display(No one uses it)
+* Qcom Audio
+* Switched To latest Flame FP
