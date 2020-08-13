@@ -1,0 +1,57 @@
+Device tree Changes:
+--------------------
+Switched to HMP, Clean flash or bootloop
+Switched to HMP, Clean flash or bootloop
+Switched to HMP, Clean flash or bootloop
+
+Kernel:
+Merge tag 'LA.UM.8.2.r2-02500-sdm660.0' from CAF
+
+XiaomiParts: 
+Add SELinux Switch 
+
+XiaomiDoze: 
+Add drawable icons to doze menus!
+Fix pickup status for raise to wake 
+Raise To Wake Gesture
+Add Doze Tile 
+
+Misc:
+Remove doze Autobrightness values
+
+ROM Changes:
+------------
+8/12
+Drop wifi-ext
+Updater: Don’t allow data clearing
+
+8/11
+Bring back kill app back button toggle for non-gesture navbar
+Evolver: Add VoWiFi icon warning
+
+8/10
+Add setting for clamp min auto screen brightness
+Let legacy apps scale fully to the display's aspect ratio
+Reclaim ANON or File pages based on configuration
+
+8/9
+Don't request render in GLSurfaceView.GLThread ctr
+Failed to show hold call when user click swap and merge simultaneously
+Fix remaining issues with Privacy Indicators
+NotificationPanelView: Fix initial touch co-ordinates
+sepolicy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+FOD devices ONLY
+Introduce optional screen off FOD
+
+8/8
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+ViewGroup: Remove child parent when a new view is added
+
+#KeepEvolving
