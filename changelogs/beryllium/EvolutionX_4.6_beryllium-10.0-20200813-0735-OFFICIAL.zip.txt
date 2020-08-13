@@ -1,0 +1,18 @@
+Fixed Smart Charging
+Fixed additional denials related to FM Radio
+Fixed Wifi Display
+Include Google Recorder
+Update Fingerprint To Coral August Security Patch
+Disable NearbyMessagingService and DiscoveryService
+Turn down debugging on wpa_supplicant and other services
+Update raise to wake & pickup icons
+Low mic input should be fixed
+Drop PocoParts for now
+Update to 11.0.9.0 Blobs 
+Add back button to ThermalProfiles
+Disable proximity sensor during doze
+Merge LineageOS device tree changes
+Sync with latest Evolution X source
+
+Note:
+Stealth Kernel update will be pushed out seperately. All users are suggested to flash the same. 
