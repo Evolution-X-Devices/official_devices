@@ -1,0 +1,29 @@
+Device Side:
+
+- Switched to 4.9 kernel
+- Updated all blobs from LA.UM.8.6.2.r1-07600-89xx.0
+- Update CarrierConfig
+- Under the hood Fixes and Improvements
+
+Kernel Changes
+- Initial Kerminator Kernel 
+- Rebased to KUD projects msm4.9 kernel base
+- Fixed Gcam Issues (thanks to our pro @lostark13)
+- Fixed memory management issues
+- Fixed unecessary log spam
+- Fixed Wi-Fi Connectivity
+- Improve idle drain
+- Improve active drain 
+- Improve app launching speeds
+- Improved memory management
+- Power efficient work queue's for everything
+- Use zstd as default compression algorithm
+- Disabled debugging for several drivers 
+- Update wireguard
+- Disabled touchscreen debugging
+- Upstreamed to 4.9.229
+- Other Many shit as it's rebase
+
+ROM Side:
+
+- Upstreamed to latest EvoX sources.
