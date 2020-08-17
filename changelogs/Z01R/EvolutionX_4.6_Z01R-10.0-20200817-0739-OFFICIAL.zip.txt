@@ -1,0 +1,16 @@
+Device Side:
+Add support for battery health
+Introduce Doze menu in Asus Settings
+Upstream kernel to 4.9.232 (by Kailash)
+
+ROM Side:
+Merge August security patches
+Bump version to Evo 4.6
+Settings: Add swipe to screenshot animation
+Make ui touch optimization work normally
+Improve scrolling cache
+Bring back AOSP Screen recorder to Power Menu options
+Add toggle for iOS-like toast notification for clipboard access
+Fonts: Update Google Sans fonts
+Introduce POSP’s volume panel styles
+Skip screen on animation when wake and unlock via biometrics
