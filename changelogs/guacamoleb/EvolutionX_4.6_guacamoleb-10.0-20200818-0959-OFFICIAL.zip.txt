@@ -1,0 +1,30 @@
+Device
+
+Screen off FOD
+Updated vendor blobs from OOS 10.3.4
+Updated OP camera from OOS 10.3.4
+Updated audio configs,build description and vendor security patch level from OOS 10.3.4
+Synced audio props with OOS
+More fixes to adaptive brightness
+Added doze QS tile
+Switched back to prebuilt liba2dpoffload
+Updated panel mode preview images in OnePlus settings
+Fixed pickup status for raise to wake
+Some other visual tweaks to OnePlus settings
+
+ROM
+
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Introduce optional screen off FOD
+Remove Extended Volume panel options we are unable to hide
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+Settings: Fix icon size for ring volume
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+Bring back kill app back button toggle for non-gesture navbar
+Settings: Hide screen off fod if fingerprint not enrolled
+Skip screen on animation when wake and unlock via biometrics
+Drop wifi-ext
+And more
