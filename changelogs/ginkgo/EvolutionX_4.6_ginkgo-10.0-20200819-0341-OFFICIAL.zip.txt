@@ -1,0 +1,49 @@
+Aug-19-2020
+• Merged August 2020 security patch.
+• Fixed some potential crashes on Settings.
+• Fixed WiFi Hotspot.
+• Fixed BT media.
+• Fixed WFD.
+• Fixed some bugs on camera (need more test tho).
+• Updated to Coral's August fingerprint.
+• Fixed LiveDisplay.
+• Kernel upstreamed to 4.14.193.
+• Updated Proton Clang to V12.0.
+• Fixed Battery Health support.
+• Fixed FM Radio.
+• Improved Xiaomi Parts.
+• Disabled autobrightness at first boot.
+• Updated blobs from MIUI 20.7.30.
+• Updated graphics stack from LA.UM.8.11.r1-03800.
+• Updated configs from LA.UM.8.11.r1-03800-NICOBAR.0.
+• Increase zram size to 2GB.
+• Fixed Willow units with hwversion 19.39.0.
+• Improved performance without affecting battery life.
+• Improved vibration response.
+• Improved WiFi.
+• Improved audio.
+• Other fixes and improvements that i cant remember.
+• Synced with latest Evolution X sources.
+
+Jul-13-2020
+• Clean flash needed!
+• Upstreamed kernel to 4.14.188
+• Update fingerprint to Coral's july patch
+• Fixed WiFi slowness & random disconnections
+• Replaced ANX Camera with MIUI Camera
+• Improved KCAL (should help more for tianma users)
+• Removed Lift-to-Check gesture
+
+Jun-23-2020
+• Fixed offline charging
+• Removed FM Radio (for the moment)
+• Minor improvements
+
+Jun-14-2020
+• Fixed AUX cam & HDR+
+• Change kernel to QuicksilveR
+• Upstreamed kernel to 4.14.184
+• Updated thermal configs
+• Added back Mi Sound
+• Improved performance and battery life
+• Other improvements & fixes
