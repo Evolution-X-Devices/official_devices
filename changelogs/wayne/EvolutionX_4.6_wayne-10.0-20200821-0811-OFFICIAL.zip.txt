@@ -1,0 +1,51 @@
+Device Side:
+==============
+kernel:
+------------------
+drivers: scsi: Remove concatenation warning by separating the elements  
+drivers: base: Remove concatenation warning by separating the firmware elements
+ARM: dts: sdm636: fix haptics (whyred/tulip)
+
+sdm660-common:
+------------------
+rootdir: Fix smart-charging permission
+overlay: Fix ambient-doze advanced settings
+DeviceParts/Doze: Rebranding to DeviceParts/Doze
+
+Jasmine/Wayne:
+------------------
+dependencies: Switch to HMP by default
+
+ROM Side:
+===========
+8/21
+overlay: Remove voicemail number configs
+vendor: apns-conf: Add Hits APN
+Allow to overlay default pressed icon state (FOD devices ONLY)
+
+8/20
+fixup! ColorBucket: Add Solarized Dark theme
+Revert "overlay: Enable Visual Voicemail for Verizon devices"
+
+8/19
+vendor: Drop verity tool
+
+8/17
+[HDM] Fix concurrency failure
+HDM: Resolve concurrent access issue - defer execution
+kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+kernel: Move our dtb.img logic here
+kernel: Only build dtb.img if prebuilt DTB directory is not set
+kernel: Set full path to DTC
+Skip screen on animation when wake and unlock via biometrics
+
+8/15
+Show the nearby chip for images and files too
+vendor: apns-conf: Drop proxy for Movistar
+
+8/14
+Evolver: Move Volume panel styles to Themes
+services: LightsService: Mute an annoying error message
+Settings: Hide screen off fod if fingerprint not enrolled (FOD devices ONLY)
+
+#KeepEvolving
