@@ -1,0 +1,22 @@
+Device:
+
+Add prebuilt CameraGo
+overlay: drop face authentication on security view
+update brightness table
+hidl: livedisplay: enable ALPM
+overlay: disable config_volumeHushGestureEnabled
+overlay: disable config_dozePulsePickup
+overlay: set config_displayLightSensorType
+overlay: disable setColorTransformAcceleratedPerLayer
+hidl: organize
+sensors: build custom HAL 1.0 impl
+sepolicy: update vendor_overlay file_contexts
+product_prop.mk: enable unspecialized app process pool
+vibrator: build custom HAL
+
+
+Rom:
+
+Sync with latest EvolutionX source
+
+and more ...
