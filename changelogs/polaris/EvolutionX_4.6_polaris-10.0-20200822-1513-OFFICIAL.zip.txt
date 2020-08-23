@@ -1,0 +1,22 @@
+**Device Changes:**
+- Etude kernel
+  * Linux 4.9.233
+  * improved suspend/resume latency
+  * merged some loop device backports from upstream
+  * wireguard 1.0.20200729
+  * disabled LLVM Polly
+  * fixed a few string literal concatenations
+- fixed a few sepolicy issues for sched_boost and sysfs_batteryinfo
+- cleaned up Google specific hints from powerhint
+- fixed the "HD" capable notification spam for Chinese carriers
+- created dummy perfd client so that proprietary perfd blobs can be removed while keeping goodix fingerprint sensor functioning
+- disabled kpi_optimize in audio extension because it tries to call perfd and spams logs when failed
+- re-introduced an updated qti-telephony-common injection to polaris
+  * this fixed mms issue on some Korean carriers
+- dropped wifi-ext
+
+**Feature update highlights:**
+- Option to choose from AOSP/Compact/Oreo/Tiled volume panel styles in Settings/Evolver/Themes
+- Option to clamp minimum auto brightness value
+- Added VoWiFi icon warning
+- Solarized Dark for dark themes
