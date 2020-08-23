@@ -1,0 +1,163 @@
+8/22
+KERNEL:
+Upstream to v4.4.233 (AVK v0.8)
+New feature: Add Nightmare Governor (enjoy!)
+
+8/21
+DEVICE:
+Major monthly update, after many efforts.
+This update contains a total change in the Device Tree, so you will have a different experience, preferably you should download directly from SourceForge, install it clean for a better experience. Many more changes !!!
+Credits to all the authors for their respective changes, you can visit my profile on github (Ardjlon) to see the respective repositories for the device.
+
+ROM:
+overlay: Remove voicemail number configs
+vendor: apns-conf: Add Hits APN
+
+FOD devices ONLY:
+Allow to overlay default pressed icon state
+
+8/20
+fixup! ColorBucket: Add Solarized Dark theme
+Revert "overlay: Enable Visual Voicemail for Verizon devices"
+
+8/19
+vendor: Drop verity tool
+
+8/17
+[HDM] Fix concurrency failure
+HDM: Resolve concurrent access issue - defer execution
+kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+kernel: Move our dtb.img logic here
+kernel: Only build dtb.img if prebuilt DTB directory is not set
+kernel: Set full path to DTC
+Skip screen on animation when wake and unlock via biometrics
+
+8/15
+Show the nearby chip for images and files too
+vendor: apns-conf: Drop proxy for Movistar
+
+8/14
+Evolver: Move Volume panel styles to Themes
+services: LightsService: Mute an annoying error message
+
+FOD devices ONLY
+Settings: Hide screen off fod if fingerprint not enrolled
+
+8/12
+Drop wifi-ext
+Updater: Don’t allow data clearing
+
+8/11
+Bring back kill app back button toggle for non-gesture navbar
+Evolver: Add VoWiFi icon warning
+
+8/10
+Add setting for clamp min auto screen brightness
+Let legacy apps scale fully to the display's aspect ratio
+Reclaim ANON or File pages based on configuration
+
+8/9
+Don't request render in GLSurfaceView.GLThread ctr
+Failed to show hold call when user click swap and merge simultaneously
+Fix remaining issues with Privacy Indicators
+NotificationPanelView: Fix initial touch co-ordinates
+sepolicy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+FOD devices ONLY:
+Introduce optional screen off FOD
+
+8/8
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+ViewGroup: Remove child parent when a new view is added
+
+8/7
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+kernel: Bail-out if kernel config isn't set
+Settings: Fix icon size for ring volume
+Taskhelper api: fix NPE
+
+8/6
+Allow graceful degradation of MediaProfile with broken configuration
+Fix list style alert dialog to use system font
+Remove Extended Volume panel options we are unable to hide
+
+8/4
+Add Anaheim and Tinkerbell fonts
+Add runtime configurable audio panel location
+Merge August security patches
+SystemUI: fix size of icon of vibrate ringer mode
+VolumeDialog: Redo expanded volume panel
+
+8/2
+Add synchronization for invokeForAllObservers call
+base: Remove keyguard delay completely
+ClipboardService: keep track of which app pasted from which
+Fixes crash/race condition when destroyActivity
+Return null on failed insert due to permissions
+
+8/1
+Add Linotte font
+Allow hiding VoWiFi StatusBar icon
+prebuilt: Clean up custom-system.rc
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Show only one between VoLTE/VoWiFi icon in status bar based on WiFi-Calling Preference
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: Use VoWiFi icons from OOS 10
+
+7/31
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+base: Separate vibrate drawable for vol panel from common icon
+Custom keys rebinding: Add kill app action
+Custom keys rebinding: Add more custom actions/app/activities
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Import restart systemui api
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: add clear all notifications action
+EvolutionUtils: fixup! some more actions
+Evolver: Add SystemUI restart for R notification headers
+Partial screenshot: block gestures and heads up when running
+Remove kill app back button toggle
+SystemUI: Fix SystemUI failed to go to doze issue
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+
+7/30
+fonts: Update Google Sans fonts
+PermissionController: force the hub
+
+7/29
+Add toggle for iOS-like toast notification for clipboard access
+Add USSD codes over IMS feature
+Bring back AOSP Screen recorder to Power Menu options
+Evolver: Fix multiple out of bounds issues causing crashes
+Settings: Add a warning for Quick Unlock
+SystemUI: Remove duplicate permissions
+
+7/26
+add VSYNC scheduled flag and avoid two doFrame calls in one period
+avoid duplicate doFrame calls
+core: touch response optimizations
+Evolver: Add video preview to Torch long press power
+Evolver: Drop no longer necessary casts when calling findPreference() (part 2)
+Improve scrolling cache
+make ui touch optimization work normally
+
+7/25
+Finer synchronization for nuplayer stats
+Evolver: Update min values for preferences using CustomSeekBarPreference
+
+7/23
+Fix PackageManagerService original-package does not work
+Move Swipe to screenshot and screenshot type preferences from Evolver to main Settings app
+Settings: Add swipe to screenshot animation
+Settings: Change kernel preference behavior
+StateMachine: check for null curState in dump()
+TextClock: Spanish translation update
