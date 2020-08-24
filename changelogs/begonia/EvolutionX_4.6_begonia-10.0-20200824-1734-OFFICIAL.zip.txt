@@ -1,0 +1,8 @@
+- Rebase over LineageOS device and vendor tree
+- More sepolicy denials fix and SELinux enforcing
+- Drop a lot of prebuilt blobs and build some of them
+- Build thermal and power HAL (Libraries) from source
+- Fix offline charging (Need CFW 2)
+- Update coral fingerprint
+- Update DemonSlayer kernel to Nezuko release
+- Disable updatable APEX
