@@ -1,0 +1,43 @@
+Avoid needless Integer.valueOf() object allocation
+Don't crash if there is IR HAL is not declared
+DragSurface: destroy surfacecontrol in view site
+Extend the watchdog timeout of main thread
+FloatingToolbar must end animation immediately when parent window gone
+PackageInstaller: Fix crash when uninstalling apps with fragile data
+Prevent deadlock when going out of idle state
+SystemUI: fix notification overlap with PIN screen
+wm: Passing a new ArraySet instance to avoid crash
+Revert several BoostFramework related commits to lessen battery drain
+Updater: Ensure the changelog is fetched BEFORE we show notifications
+base: Add DiracSound and MiSound to current api
+base: Add support for MiSound FX
+FOD devices ONLY
+Add Mi 10 Ultra FOD animations
+overlay: Remove voicemail number configs
+vendor: apns-conf: Add Hits APN
+FOD devices ONLY
+Allow to overlay default pressed icon stat
+fixup! ColorBucket: Add Solarized Dark theme
+Revert "overlay: Enable Visual Voicemail for Verizon devices"
+vendor: Drop verity tool
+[HDM] Fix concurrency failure
+HDM: Resolve concurrent access issue - defer execution
+kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+kernel: Move our dtb.img logic here
+kernel: Only build dtb.img if prebuilt DTB directory is not set
+kernel: Set full path to DTC
+Skip screen on animation when wake and unlock via biometrics
+Show the nearby chip for images and files too
+vendor: apns-conf: Drop proxy for Movistar
+Evolver: Move Volume panel styles to Themes
+services: LightsService: Mute an annoying error message
+FOD devices ONLY
+Settings: Hide screen off fod if fingerprint not enrolled
+Drop wifi-ext
+Updater: Don’t allow data clearing
+Bring back kill app back button toggle for non-gesture navbar
+Evolver: Add VoWiFi icon warning
+Add setting for clamp min auto screen brightness
+Let legacy apps scale fully to the display's aspect ratio
+Reclaim ANON or File pages based on configuration
+
