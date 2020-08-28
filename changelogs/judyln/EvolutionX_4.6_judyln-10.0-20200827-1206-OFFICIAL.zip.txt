@@ -1,0 +1,73 @@
+***27/8/20***
+THIS BUILD ENABLES FBE (Encryption)
+It requires you to format data, you will have to download and flash manually.
+Check Telegram group for more info.
+
+Evolution X 4.6
+New Governor (RunUtil)
+SmartPixels
+New TWRP
+GCam 7 Buffer Fix
+Fix notifications LED
+Fix Quad DAC low volume
+Drop SmartCharge
+Remove Custom Cameras
+Fix Quad Dac low volume in Kernel
+Force Enable FBE
+Add TWRP with FBE
+Disable iowait
+OpenGL 464 and vulkan 1.1.112
+Drop F2FS
+
+***7/6/20***
+Face Unlock
+Smart Battery
+USB Audio fix
+Camera blobs (Q)
+Adreno and Vulkan blobs (Q)
+Removed fingerprint gestures
+Audio/BT/Sountrigger stack from Q
+June Security Patch
+SmartCharging
+
+***13/5/20***
+Evolution X 4.3
+May Security Patch
+Fixed video recording mic issue
+Disable profiles in LiveDisplay
+Fixed WiFi tethering
+Added vibration strength
+Fixed MTP
+
+***1/5/20***
+Safetynet Bypass(using Google fingerprint)
+Fixed call issue where sometimes it will go to speaker
+Fixed wired headset mic not working
+Added brightness boost
+Switch to upstreamed kernel branch 4.9.220
+Actually enable blu_schedutil as default governor
+zRAM now init with script instead of fstab
+GCam 6.1 added as Camera app
+Camera app now fully replaced by GCam Go
+Fixed BT issue where sound would randomly stop working on calls
+
+***25/4/20***
+Evolution X 4.20.2
+Kernel optimisations
+Kernel compiled with clang 10.0.6
+Added Blu_schedutil and set as default
+Kernel Tweaks to improve performance
+Kernel Tweaks for better idle times
+Increased zRAM to 2GB
+Fixed Calls routed through speaker instead earpiece
+Fixed Wpa2 Hotspot
+Wi-fi Tethering broken
+Fixed Status bar padding
+Added LiveDisplay 2.0
+LiveDisplay profiles don't work for the moment
+Doze fixed
+Added Gcam Go
+
+***17/4/20***
+Initial Release
+
