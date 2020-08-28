@@ -1,0 +1,44 @@
+Device Changelogs:
+***********
+Kernel:
+=======
+Merge 4.4.233 and 4.4.234
+Fix Logical unit not accessible for some asymmetric access state
+drivers: smb: add qc3.0 support for global boards
+Makefile: fix CLANG_FLAGS after LA.UM.8.2.r2-02500-sdm660.0 merge
+  
+sdm660-common: 
+==============
+overlay: Fix ambient-doze advanced settings
+Tricking out device specific settings
+Add new config overlay for call composer
+rootdir: Set Netflix and media property based on target
+init: Update ueventd rules and init rc for new audio drivers
+config: Add permissions for RCS service
+rootdir: Grant rw permission to hgsl node
+Add IImsFactory and uceservice HAL entry
+Update LPA interface version
+  
+Source Changelogs:
+******************
+8/26
+Avoid needless Integer.valueOf() object allocation
+Don't crash if there is IR HAL is not declared
+DragSurface: destroy surfacecontrol in view site
+Extend the watchdog timeout of main thread
+FloatingToolbar must end animation immediately when parent window gone
+PackageInstaller: Fix crash when uninstalling apps with fragile data
+Prevent deadlock when going out of idle state
+SystemUI: fix notification overlap with PIN screen
+wm: Passing a new ArraySet instance to avoid crash
+
+8/24
+Revert several BoostFramework related commits to lessen battery drain
+Updater: Ensure the changelog is fetched BEFORE we show notifications
+
+8/23
+base: Add DiracSound and MiSound to current api
+base: Add support for MiSound FX
+Add Mi 10 Ultra FOD animations (FOD devices ONLY)
+
+#KeepEvolving
