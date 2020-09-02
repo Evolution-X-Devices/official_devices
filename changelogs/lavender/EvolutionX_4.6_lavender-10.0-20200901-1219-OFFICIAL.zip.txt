@@ -1,0 +1,17 @@
+Device changes:
+Updated kernel to 4.4.234 - Predator-Stormbreaker v8.5
+Added JP translation to XiaomiParts
+Added permissions for RCS (fixed RCS basically)
+Added a few carrier configs
+Updated vendor security patch to match LA.UM.8.2.r1-06700-sdm660.0
+Added back Face Unlock (accidentally removed it :D)
+-------------------------------------------------------
+Source changes:
+Added volume panel styles from POSP
+Added VoWiFi icon warning
+Skip screen on animation when waking the device and unlocking it using biometrics
+Fixed crash when uninstalling apps with fragile data
+Added OOS 10 VoLTE icon
+Added QS header styles
+Added the option to center R style notification headers
+Many many more smaller changes and bugfixes
