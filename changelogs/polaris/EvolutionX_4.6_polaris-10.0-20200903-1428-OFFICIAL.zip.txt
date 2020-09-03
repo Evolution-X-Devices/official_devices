@@ -1,0 +1,19 @@
+**Device Changes:**
+- Etude kernel:
+  * Linux 4.9.235
+  * merged CAF tag "LA.UM.8.3.r1-08500-sdm845.0"
+  * built with latest Clang 12
+  * improved suspend/resume latency
+  * some misc fixes on arm64 and mm
+- enabled proximity sensor check on wake by default
+- cleaned up unused auto brightness values
+- updated firmware and vendor from MIUI 12 Global Stable V12.0.1.0
+- use qti-telephony-common from polaris dump for injection
+- fixed an issue where mobile data on one SIM may be broken after the other SIM receives a phone call or SMS
+
+**Feature update highlights:**
+- Removed boost framework because it messes up with kernel boost behavior and causes more battery drain
+- Extended navbar pulse to lockscreen
+- Added OOS 10 VoLTE icon
+- Added QS header styles and removed QS header color picker
+- Added Disco and RGB QS tile styles
