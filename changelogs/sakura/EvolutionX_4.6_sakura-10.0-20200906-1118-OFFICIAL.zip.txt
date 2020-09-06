@@ -1,0 +1,128 @@
+Device changes:
+==============================
+Disabled display blank after doze
+Imported Thermal From Olive
+Updated blobs from Daisy
+Disabled DiscoveryService
+Improved Bluetooth + Wi-Fi Coexistence
+Updated Audio Configs from Daisy
+Fixed fingerprint for some user
+Enabled SmartCharging
+And some more changes.
+------------------------------
+Kernel changes:
+==============================
+Upstreamed to 4.9.233
+Some GCam fixes
+Memory management improvements
+Improved Process Reclaim (multitasking)
+Improved battery consumption and idle
+More system performance improvements (Scheduler and HW)
+Improved network speeds
+And many more.
+------------------------------
+ROM changes:
+==============================
+SystemUI: Use TaskStackChangeListener API for contextual screenshot package name
+TextClock: Update Italian translations
+gnss-legacy: Bring back Beidou
+Settings: Account more 5G network modes
+Settings: Add theming section to the bottom Settings/Display 
+Settings: Rearrange density options under Settings/Display
+Settings: Restyle that horrible sim select dialog
+Settings: Use style ActionPrimaryButton for buttons
+vendor: Build AOSP ThemePicker
+VolumeDialog: Don't change the background of the expandable indicator
+Add support for macOS 10.15 & 11 SDK
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+Fix sepolicy_tests on Mac 10.15
+kernel: Use CPATH for including host headers
+netd: Sort and cache hosts file data for fast lookup
+base: Disco the colored QS
+base: Featurize QS RGB
+ColorUtils: Allow overriding Random seeds
+ColorUtils: Make random color generation consistent
+disco dingo the qs
+Evolver: Add Disco and RGB QS tile styles
+Fix CDM.requestNotificationAccess() in profile
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+Apply theme by using notification context
+[BugFix][Fingerprint] fix client was canceled by service by mistake
+Implement refresh rate control
+JAudioTrack: fix bitwise evaluation
+TaskHelper: allow to get foreground app label
+Update translations for new strings
+Add OOS 10 VoLTE icon
+Add QS header styles
+base: Expose QS background color
+Bring back gradient behind QS panel
+ContrastUtils: Kill logspam for translucent bg
+fixup! Introduce QS tile style picker
+Remove QS header color picker
+Add option to center "R style" notification headers
+Added policy based firewall in the security tab
+Custom config to force custom doze brightness
+PocketJudge: allow register vendor pocket sensor
+Clean up old Visualizer implementation
+Evolver: Move pulse to misc category
+Extend NavBar Pulse to LockScreen
+Extend Pulse to Ambient Screen
+LS/Nav Pulse: fix FC and improve performances
+Avoid needless Integer.valueOf() object allocation
+Don't crash if there is IR HAL is not declared
+DragSurface: destroy surfacecontrol in view site
+Extend the watchdog timeout of main thread
+FloatingToolbar must end animation immediately when parent window gone
+PackageInstaller: Fix crash when uninstalling apps with fragile data
+Prevent deadlock when going out of idle state
+SystemUI: fix notification overlap with PIN screen
+wm: Passing a new ArraySet instance to avoid crash
+Revert several BoostFramework related commits to lessen battery drain
+Updater: Ensure the changelog is fetched BEFORE we show notifications
+base: Add DiracSound and MiSound to current api
+base: Add support for MiSound FX
+Evolver: compat -> compact
+overlay: Remove voicemail number configs
+vendor: apns-conf: Add Hits APN
+fixup! ColorBucket: Add Solarized Dark theme
+Revert "overlay: Enable Visual Voicemail for Verizon devices"
+vendor: Drop verity tool
+[HDM] Fix concurrency failure
+HDM: Resolve concurrent access issue - defer execution
+kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg
+kernel: Move our dtb.img logic here
+kernel: Only build dtb.img if prebuilt DTB directory is not set
+kernel: Set full path to DTC
+Skip screen on animation when wake and unlock via biometrics
+Show the nearby chip for images and files too
+vendor: apns-conf: Drop proxy for Movistar
+Evolver: Move Volume panel styles to Themes
+services: LightsService: Mute an annoying error message
+Drop wifi-ext
+Updater: Don’t allow data clearing
+Bring back kill app back button toggle for non-gesture navbar
+Evolver: Add VoWiFi icon warning
+Add setting for clamp min auto screen brightness
+Let legacy apps scale fully to the display's aspect ratio
+Reclaim ANON or File pages based on configuration
+Don't request render in GLSurfaceView.GLThread ctr
+Failed to show hold call when user click swap and merge simultaneously
+Fix remaining issues with Privacy Indicators
+NotificationPanelView: Fix initial touch co-ordinates
+sepolicy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+Settings: Use List Preference Dark Mode settings
+Settings: Use List Preference for NightLight settings
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+Gracefully handle integer overflows
+Introduce POSP’s volume panel styles
+Screenshot: inline trigger with AOSP values
+Settings: Avoid enforcing weird backgrounds
+ViewGroup: Remove child parent when a new view is added
+kernel: Add support for module aliases
+kernel: Allow installing modules on vendor_overlay
+kernel: Bail-out if kernel config isn't set
+Settings: Fix icon size for ring volume
+Taskhelper api: fix NPE
+Allow graceful degradation of MediaProfile with broken configuration
+Fix list style alert dialog to use system font
+Remove Extended Volume panel options we are unable to hide
