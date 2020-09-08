@@ -1,0 +1,24 @@
+Device:
+
+  * universal9810: DONT_DEXPREOPT_PREBUILTS
+  * universal9810: move releasetools to device specific trees
+  * universal9810: add prebuild ZGcam 7.4
+  * universal9810: overlay:  tidy up
+  * universal9810: overlay: update autoBrightness values
+  * Revert "universal9810: kang a70q brightness curve"
+  * Revert "universal9810: update brightness table"
+
+Warning:
+
+ZGcam require patched ETF5 Vendor image to be flashed before the rom.
+
+Download Vendor for your device from here: 
+
+https://mega.nz/folder/c1Uj1ahA#Qec4O6nQyZrG--2hLnqcvQ
+
+
+Rom:
+
+Sync with latest EvolutionX source
+
+and more ...
