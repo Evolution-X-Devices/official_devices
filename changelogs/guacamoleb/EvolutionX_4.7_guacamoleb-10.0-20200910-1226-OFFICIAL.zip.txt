@@ -1,0 +1,45 @@
+Device
+
+Updated to latest Neutrino Kernel
+Updated to Coral's Sept 2020 fingerprint
+Set default Fod color to Realme Green
+Some prop adjustments (24bit offload playback,audio prop adjustments,removed some props not in OOS)
+Disabled DiscoveryService
+Disabled NearbyMessagingService
+Some changes to TouchGestures (synced with kernel)
+Updated OPSoundTuner from OOS 10.3.4
+Few other small tweaks here and there
+
+ROM
+
+Merge September security patches
+Version 4.7 | Quantum
+Add OOS 10 VoLTE icon
+Add QS header styles
+Add option to center "R style" notification headers
+Evolver: Hide LED section for unsupported devices
+Evolver: Hide corner radius for devices that have a custom cutout
+Evolver: Move pulse to misc category
+Evolver: Set network icon dependencies
+Extend NavBar Pulse to LockScreen
+Extend Pulse to Ambient Screen
+Remove lockscreen quick unlock
+Remove prebuilt SafetyHub
+Remove proximity check on wake toggle
+Added Disco and RGB QS tile styles
+Add Mi 10 Ultra FOD animations
+Don't crash if there is IR HAL is not declared
+DragSurface: destroy surfacecontrol in view site
+Extend the watchdog timeout of main thread
+FloatingToolbar must end animation immediately when parent window gone
+PackageInstaller: Fix crash when uninstalling apps with fragile data
+Prevent deadlock when going out of idle state
+Revert "overlay: Enable Visual Voicemail for Verizon devices"
+Revert several BoostFramework related commits to lessen battery drain
+SystemUI: fix notification overlap with PIN screen
+Updater: Ensure the changelog is fetched BEFORE we show notifications
+fixup! ColorBucket: Add Solarized Dark theme
+overlay: Remove voicemail number configs
+vendor: apns-conf: Add Hits APN
+wm: Passing a new ArraySet instance to avoid crash
+and more!
