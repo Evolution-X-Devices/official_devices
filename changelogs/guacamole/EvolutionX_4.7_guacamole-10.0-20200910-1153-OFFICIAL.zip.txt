@@ -1,0 +1,119 @@
+=======================
+Device Changes
+======================= 
+Enable Smart Charging
+Set TTL to 64 for all outgoing packets (helps with tethering on some carriers)
+
+=======================
+Rom Changes
+=======================
+9/10
+extract_utils: Add support for system_ext
+Remove "storage type" preference from Settings
+Remove useless png and add vector drawable
+Updater: Correct and update some strings
+
+9/9
+Cleanup - Improve face unlock behavior on devices with popup camera 
+PocketLock: Add config_pocketModeSupported overlay
+PocketLock: fix flickering on animations
+PocketService: Adjust light sensor rate to 400ms
+Remove prebuilt SafetyHub
+Remove proximity check on wake toggle
+Settings: FaceSettingsLockscreenBypassPreferenceController: Hide on specific devices
+Settings: fixup! Check if we have any color modes declared in overlay
+SystemUI: fix NPE on global actions dialog
+SystemUI: Option to use linear scale in BrightnessController
+vendor: Remove custom storage manager overlay
+
+9/8
+fwb: Optimise how plugins are applied
+Evolver: Hide corner radius for devices that have a custom cutout
+Evolver: Hide LED section for unsupported devices
+Evolver: Set network icon dependencies
+Improve face unlock behavior on devices with popup camera
+plugins: Launch Q expanded volume panel on arrow longpress
+plugins: Separate vibrate drawable for vol panel from common icon
+plugins: Use system corner radius where needed
+Remove lockscreen quick unlock
+
+9/7
+build_image: Allow disabling custom inode count calculation
+fixup! PackageManager: allow build-time disabling of components
+gapps: Import pixel_experience_2020_midyear.xml from sunfish dump
+netd: Support wildcards in cached hosts file
+PackageManagerService: Protect forced enabled components at runtime
+Settings: Add NR network type to "Global" mode preference
+vendor: Force enable Styles component
+vendor: Keep some packages enabled
+vendor: Rename config_disabledComponents
+vendor: update GMS updater component disable list
+
+9/5
+SystemUI: Use TaskStackChangeListener API for contextual screenshot package name
+TextClock: Update Italian translations
+
+9/4
+gnss-legacy: Bring back Beidou
+Settings: Account more 5G network modes
+VolumeDialog: Don't change the background of the expandable indicator
+ 
+9/3
+Add support for macOS 10.15 & 11 SDK
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+Fix sepolicy_tests on Mac 10.15
+kernel: prevent additional config from being always rebuilt
+kernel: Use CPATH for including host headers
+netd: Sort and cache hosts file data for fast lookup
+ 
+9/2
+base: Disco the colored QS
+base: Featurize QS RGB
+ColorUtils: Allow overriding Random seeds
+ColorUtils: Make random color generation consistent
+disco dingo the qs
+Evolver: Add Disco and RGB QS tile styles
+Fix CDM.requestNotificationAccess() in profile
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+ 
+9/1
+Apply theme by using notification context
+ 
+8/31
+[BugFix][Fingerprint] fix client was canceled by service by mistake
+Implement refresh rate control
+JAudioTrack: fix bitwise evaluation
+TaskHelper: allow to get foreground app label
+Update translations for new strings
+ 
+8/30
+Add OOS 10 VoLTE icon
+Add QS header styles
+base: Expose QS background color
+Bring back gradient behind QS panel
+ContrastUtils: Kill logspam for translucent bg
+fixup! Introduce QS tile style picker
+Remove QS header color picker
+ 
+8/29
+Add option to center "R style" notification headers
+Added policy based firewall in the security tab
+Custom config to force custom doze brightness
+PocketJudge: allow register vendor pocket sensor
+ 
+8/28
+Clean up old Visualizer implementation
+Evolver: Move pulse to misc category
+Extend NavBar Pulse to LockScreen
+Extend Pulse to Ambient Screen
+LS/Nav Pulse: fix FC and improve performances
+ 
+8/26
+Avoid needless Integer.valueOf() object allocation
+Don't crash if there is IR HAL is not declared
+DragSurface: destroy surfacecontrol in view site
+Extend the watchdog timeout of main thread
+FloatingToolbar must end animation immediately when parent window gone
+PackageInstaller: Fix crash when uninstalling apps with fragile data
+Prevent deadlock when going out of idle state
+SystemUI: fix notification overlap with PIN screen
