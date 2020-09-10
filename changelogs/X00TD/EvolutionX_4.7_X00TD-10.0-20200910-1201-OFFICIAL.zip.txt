@@ -1,0 +1,32 @@
+CLEAN FLASH IS NECESSARY
+OUTDATED RECOVERIES MAY CAUSE TROUBLE
+
+Version: 4.7 Quantum
+Merged September security patch
+Fixed touch issues for synaptics touchpanel
+Fixed audio issues during call
+Fixed dark camcorder issues
+Fixed audio distortions
+Improved Loudness
+Fixed some random front camera issues
+Added custom doze package
+Fixed some network related issues
+Updated media profiles
+Updated Light hal
+Reduced ui lags
+Kernel upstreamed to 4.4.235
+Added boeffla wakelock blocker
+Added adrenoboost and adreno idler support
+Removed lockscreen quick unlock
+Added AOSP theme picker
+Implemented QS Disco
+Added OOS 10 VoLTE icon
+Added QS header styles
+Brought back gradient behind QS panel
+Added option to center "R style" notification headers
+Added policy based firewall in the security tab
+Cleaned up old Visualizer implementation
+Moved pulse to misc category
+Moved Volume panel styles to Themes
+Introduced POSP’s volume panel styles
+Updated Google Sans fonts
