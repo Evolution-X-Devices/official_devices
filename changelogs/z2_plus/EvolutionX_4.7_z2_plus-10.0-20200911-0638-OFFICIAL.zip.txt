@@ -1,0 +1,28 @@
+
+Device Changelog:-
+removed ims,qmi,ril stack changes
+removed aosp rcs packages
+misc improvements and changes
+keeping device tree minimal
+fixed some dark theming issue 
+
+Source Changelog:-
+9/10
+extract_utils: Add support for system_ext
+Remove "storage type" preference from Settings
+Remove useless png and add vector drawable
+Updater: Correct and update some strings
+
+9/9
+Cleanup - Improve face unlock behavior on devices with popup camera 
+PocketLock: Add config_pocketModeSupported overlay
+PocketLock: fix flickering on animations
+PocketService: Adjust light sensor rate to 400ms
+Remove prebuilt SafetyHub
+Remove proximity check on wake toggle
+Settings: FaceSettingsLockscreenBypassPreferenceController: Hide on specific devices
+Settings: fixup! Check if we have any color modes declared in overlay
+SystemUI: fix NPE on global actions dialog
+SystemUI: Option to use linear scale in BrightnessController
+vendor: Remove custom storage manager overlay
+
