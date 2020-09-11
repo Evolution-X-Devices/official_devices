@@ -1,0 +1,42 @@
+Device changes:
+==============================
+None
+------------------------------
+ROM Source changes:
+==============================
+extract_utils: Add support for system_ext
+Remove "storage type" preference from Settings
+Remove useless png and add vector drawable
+Updater: Correct and update some strings
+Cleanup - Improve face unlock behavior on devices with popup camera 
+PocketLock: Add config_pocketModeSupported overlay
+PocketLock: fix flickering on animations
+PocketService: Adjust light sensor rate to 400ms
+Remove prebuilt SafetyHub
+Remove proximity check on wake toggle
+Settings: FaceSettingsLockscreenBypassPreferenceController: Hide on specific devices
+Settings: fixup! Check if we have any color modes declared in overlay
+SystemUI: fix NPE on global actions dialog
+SystemUI: Option to use linear scale in BrightnessController
+vendor: Remove custom storage manager overlay
+fwb: Optimise how plugins are applied
+Evolver: Hide corner radius for devices that have a custom cutout
+Evolver: Hide LED section for unsupported devices
+Evolver: Set network icon dependencies
+Improve face unlock behavior on devices with popup camera
+plugins: Launch Q expanded volume panel on arrow longpress
+plugins: Separate vibrate drawable for vol panel from common icon
+plugins: Use system corner radius where needed
+Remove lockscreen quick unlock
+build_image: Allow disabling custom inode count calculation
+fixup! PackageManager: allow build-time disabling of components
+gapps: Import pixel_experience_2020_midyear.xml from sunfish dump
+netd: Support wildcards in cached hosts file
+PackageManagerService: Protect forced enabled components at runtime
+Settings: Add NR network type to "Global" mode preference
+vendor: Force enable Styles component
+vendor: Keep some packages enabled
+vendor: Rename config_disabledComponents
+vendor: update GMS updater component disable list
+
+#KeepEvolving
