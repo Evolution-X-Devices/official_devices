@@ -1,0 +1,356 @@
+Device Changelog:
+- Vantomkernel upstreamed to 4.14.196
+- Updated hwui props from latest miui
+- Switched to pixel power hal
+- Enabled Triple frame buffering
+- Misc fixes and improvements
+
+Rom Changelog:
+=======================
+     09-11-2020
+=======================
+
+
+   * packages/apps/PotatoPlugins/
+80468ab plugins: Add extended audio panel rows
+
+=======================
+     09-10-2020
+=======================
+
+
+   * build/make/
+0f92f75ee Update Security Patch to 2020-09-05
+
+   * external/asus/stitchimage/
+c30549a Automatic translation import
+
+   * frameworks/av/
+21bcea2aa Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/base/
+e8b3ac95c56 Automatic translation import
+0840ef4ee77 Cleanup - Improve face unlock behavior on devices with popup camera
+92f32f16732 Move config_faceAuthOnlyOnSecurityView to fwb/res
+76ccd76504e Improve face unlock behavior on devices with popup camera
+931eb093017 SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+0f9cd060c08 SystemUI: BiometricPrompt: Adjust layout if FOD is present
+41513de0e17 base: Use 2 modalities concurrently in BiometricPrompt if available
+03fb313bf8d fixup - KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+3c71f87a43c KeyguardUpdateMonitor: Fix race condition before listening for biometrics
+cf9a3413c42 SystemUI: Block face authentication when device is in pocket mode
+da38cae0bfb base: use bypassEnabledBiometric consistently
+49150a25144 base: do not use new lockscreen layout for bypass
+1b24a9d92d8 SystemUI: Allow listening for face only on pin/pass view
+1454d95a6b0 fwb: Guard some functions against face unlock
+a8d2ac4e9b9 [3/4] Port face unlock feature
+76bc1ef79fc SystemUI: Show only one of VoLTE and VoWiFi icon in status bar based on WiFi-Calling Preference
+6a7f94d85c4 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into ten
+
+   * frameworks/opt/net/wifi/
+4b8bc32bc Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * packages/apps/Bluetooth/
+4310d687 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/PermissionController/
+4998eee8 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/PackageInstaller into ten
+
+   * packages/providers/MediaProvider/
+cfad834 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/providers/MediaProvider into ten
+
+   * packages/services/Telephony/
+c19a3fdb1 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * system/bt/
+0f305056e Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/bt into ten
+
+   * system/core/
+96b857737 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/core into ten
+
+=======================
+     09-09-2020
+=======================
+
+
+   * external/asus/stitchimage/
+825e1a2 Automatic translation import
+
+   * frameworks/base/
+f594adab00d PocketLock: fix flickering on animations
+f9687ef2652 PocketLock: Add config_pocketModeSupported overlay
+272ffff8669 PocketService: Adjust light sensor rate to 400ms
+30de98f57a3 SystemUI: Option to use linear scale in BrightnessController
+0ae518c66c7 SystemUI: fix NPE on global actions dialog
+61b44e0933c [SQUASH] Revert some unneeded commits; improve some code
+
+   * frameworks/native/
+52c95f9c0 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * frameworks/opt/telephony/
+9c9ff0850 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/telephony into ten
+
+   * manifest/
+87c3583 [1/4] Port face unlock feature
+8907443 manifest: track external/sonivox from AOSP for September 2020 SPL
+e1c412f manifest: Track EmergencyInfo and SettingsIntelligence from PE
+
+   * packages/apps/Evolver/
+1b3477c Automatic translation import
+8c87bba Revert "Evolution: Add proximity check on wake preference"
+
+   * packages/apps/Settings/
+898b4901e0 Automatic translation import
+34980477dc FaceSettingsLockscreenBypassPreferenceController: Hide on specific devices
+dc627d6171 [4/4] Port face unlock feature
+b9799f3188 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into ten
+22f93a3854 Remove useless png and add vector drawable
+d8a7a6b549 Remove "storage type" preference from Settings
+4280bb2913 [SQUASH] Settings: Remove lockscreen quick unlock (2/2)
+73cf331419 Settings: fixup! Check if we have any color modes declared in overlay
+f953e37a5d Settings: use style ActionPrimaryButton for buttons
+1acf718357 Settings: restyle that horrible sim select dialog
+8edc98c671 Add NR network type to "Global" mode preference
+
+   * packages/apps/SettingsIntelligence/
+dc8f9fc fixup - InstalledAppResultTask: Remove overlays from search results
+811a4df Moar theming improvements
+
+   * packages/apps/Updates/
+1668e9c Automatic translation import
+6b465d4 Updates: Correct and update some strings
+
+   * packages/providers/DownloadProvider/
+7ab5e010 Automatic translation import
+
+   * packages/services/BuiltInPrintService/
+c0dd239 Automatic translation import
+
+   * packages/services/Telephony/
+df822de97 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * system/sepolicy/
+585d6a68 Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/system/sepolicy into ten
+
+   * vendor/aosp/
+a1631102 [2/4] Port face unlock feature
+9f044fe7 version: September 2020 patch
+a4815383 extract_utils: Add support for system_ext
+
+   * vendor/pixelstyle/
+d616b5f vendor: Remove custom storage manager overlay
+85fee6f Partially Revert "Import and build SafetyHub and SettingsIntelligenceGooglePrebuilt"
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+ffc9018c8 Changed HID_DEV_MTU_SIZE from 64 to 512
+
+=======================
+     09-08-2020
+=======================
+
+
+   * device/mediatek/sepolicy/
+4185aa0 device: mtk: sepolicy: Address Blobs Related Denials
+
+   * external/motorola/faceunlock/
+58c7c79 Update prebuilt apk
+6e27520 Automatic translation import
+
+   * frameworks/base/
+36938bdf958 fwb: Optimise how plugins are applied
+86364ee8720 PackageManagerService: Protect forced enabled components at runtime
+e2fb831d05d fixup! PackageManager: allow build-time disabling of components
+0d13289ef27 [SQUASH] base: Remove lockscreen quick unlock (1/2)
+311cbc8b6f6 [SQUASH] Revert several commits
+
+   * packages/apps/EmergencyInfo/
+6f4c0f8 More theming improvement
+6f37bd2 EmergencyInfo: Improve category theming
+1fe990b Don't force status bar to be light
+
+   * packages/apps/Evolver/
+6e384ae Evolver: Set network icon dependencies
+9fe43d8 Evolver: Hide corner radius for devices that have a custom cutout
+187861d Evolver: Hide LED section for unsupported devices
+
+   * packages/apps/PotatoPlugins/
+b99b0e4 plugins: Use system corner radius where needed
+101a767 plugins: Separate vibrate drawable for vol panel from common icon   @marshmello61 - do it for plugins  *impl: https://github.com/DerpLab/platform_frameworks_base/commit/fadb1f57b7c5de3557e208f6a8acc6897f4df3e8
+7cbc3c7 plugins: Launch Q expanded volume panel on arrow longpress  *for AospPanel and CompactPanel
+
+   * packages/apps/SettingsIntelligence/
+08bd303 Import translations from pixel
+3f1e80f InstalledAppResultTask: Remove overlays from search results
+80eb14f Normalize dynamic search result in Japanese
+5f9c596 Scrolling search results and autorotate cause crash
+80a0139 Fix "null" string displaying in the breadcrumbs of search results.
+dbb7435 Correct colors for icons in "Search settings" for dark theme
+d274080 SettingsIntelligence: Regen database on build version change
+3106fe9 Themes: Adjust colors on searchbar background
+b6e573e SettingsIntelligence: Match Settings style
+
+=======================
+     09-07-2020
+=======================
+
+
+   * build/make/
+79ed9fe0e build_image: Allow disabling custom inode count calculation
+
+   * manifest/
+740a6ad manifest: Track our own vendor/gapps
+6fc519d manifest: Track our vendor/qcom/opensource/commonsys-intf/bluetooth
+76b2ff9 manifest: Update gitlab remote
+
+   * system/netd/
+9fa06754 netd: Support wildcards in cached hosts file
+
+   * vendor/aosp/
+6d7cf460 Revert "vendor: Build AOSP ThemePicker"
+150bded9 vendor: Force enable Styles component
+2506b8a8 vendor: Keep some packages enabled
+61704736 vendor: update GMS updater component disable list
+6c724db9 vendor: GMS updater components disable list bringup
+c37beaec vendor: Rename config_disabledComponents
+019bd66b Revert "vendor: Drop gms overlays"
+
+   * vendor/gapps/
+dff11f9 Import pixel_experience_2020_midyear.xml from sunfish dump
+
+=======================
+     09-06-2020
+=======================
+
+
+   * vendor/qcom/opensource/commonsys-intf/bluetooth/
+3ed4921 fixup! https://github.com/LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf/commit/a3f254d0c71a506204d867e2e916f1f47ed21560
+
+=======================
+     09-05-2020
+=======================
+
+
+=======================
+     09-04-2020
+=======================
+
+
+   * external/toybox/
+13596d51 Fix cp -r dir/. symlink child.
+5180ec76 Add failing test for cp -r dir/. symlink child.
+
+   * frameworks/base/
+e136daf3573 TextClock: Update Italian translations
+2ee47d38e83 SystemUI: Use TaskStackChangeListener API for contextual screenshot package name
+
+   * packages/apps/Evolver/
+918ceca Evolver: Add Disco and RGB QS tile styles
+
+   * packages/apps/Nfc/
+e17e403f Avoid NFC continuous crash
+
+   * vendor/aosp/
+04fd512f kernel: Use CPATH for including host headers
+7e6003e0 vendor: Build AOSP ThemePicker
+
+=======================
+     09-03-2020
+=======================
+
+
+   * bootable/recovery/
+8f97c4e8 updater: Ignore ENOENT in some functions
+
+   * build/soong/
+6f8ba821 Add support for macOS 11 SDK
+21620509 Add support for 10.15 SDK
+
+   * frameworks/base/
+19d4f6b81f8 VolumeDialog: Don't change the background of the expandable indicator
+1bfe42d72b7 EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+6ab529e1112 disco dingo the qs
+
+   * hardware/custom/interfaces/
+006ce05 gnss-legacy: Bring back Beidou
+
+   * manifest/
+294e563 manifest: Switch to LOS fork of system_libufdt
+
+   * packages/apps/Settings/
+774976eeb1 Settings: Account more 5G network modes
+
+   * system/netd/
+ed52c9d3 netd: Sort and cache hosts file data for fast lookup
+
+   * system/sepolicy/
+dd93298a Fix sepolicy_tests on Mac 10.15
+
+=======================
+     09-02-2020
+=======================
+
+
+   * frameworks/base/
+921b8576916 base: Featurize QS RGB!
+ea3d2966ad3 base: Disco the colored QS!
+1585a5df0c4 ColorUtils: Allow overriding Random seeds
+c2a64d89520 base: Disco mode!
+f828d3a4fc6 ColorUtils: Make random color generation consistent
+963c71becf8 Fix CDM.requestNotificationAccess() in profile.
+5667d1c2135 PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+
+   * prebuilts/tools-custom/
+b0e4e6a tools-lineage: Add prebuilt DTC
+
+=======================
+     09-01-2020
+=======================
+
+
+   * frameworks/base/
+0db0ceba062 Apply theme by using notification context
+
+=======================
+     08-31-2020
+=======================
+
+
+   * frameworks/av/
+9e61f3d0c JAudioTrack: fix bitwise evaluation
+
+   * frameworks/base/
+d64ab8bff77 [SQUASH] Revert refresh rate setting commits [1/2]
+3d3b1e6cd20 TaskHelper: allow to get foreground app label
+88d441e022c [BugFix][Fingerprint]fix client was canceled by service by mistake
+
+   * packages/apps/Settings/
+23cb7743dc RefreshRatePreferenceController: Add overlay to enable it
+3c2e1dd48c Implement refresh rate control
+1ec7b33225 [SQUASH] Revert refresh rate setting commits [2/2]
+
+=======================
+     08-30-2020
+=======================
+
+
+   * frameworks/base/
+0a2094319b2 SystemUI: Add OOS 10 VoLTE icon [1/2]
+a08e96977b0 base: Add QS header styles [1/3]
+9c1ed91d94a base: Expose QS background color
+7b55fddf89e Revert "SystemUI: Hide gradient behind QS panel"
+be936aece5c Revert "base: SystemUI: QS header color picker [1/2]"
+81995d07bb2 ContrastUtils: Kill logspam for translucent bg
+d92c8b371af fixup! Introduce QS tile style picker
+
+   * packages/apps/Evolver/
+b5bb8f9 Evolver: Add OOS 10 VoLTE icon [2/2]
+0d1b526 Evolver: Add QS header styles [3/3]
+b3247fb Revert "Evolution: QS header color picker [2/2]"
+
+   * system/libufdt/
+c54fd08 mkdtboimg: Sanitize dt filename
+409c2d0 mkdtboimg: Allow specifying full path for dtb
+
+   * vendor/pixelstyle/
+74de7b1 vendor: Add QS header styles [2/3]
+
