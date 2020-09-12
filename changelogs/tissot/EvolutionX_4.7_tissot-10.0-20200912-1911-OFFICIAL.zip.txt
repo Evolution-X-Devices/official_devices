@@ -1,0 +1,251 @@
+===
+Device Changelog
+===
+
+
+tissot: increase maximum allowed notification icons on statusbar
+tissot: Increase no. of visible max notifications icons
+tissot: add cam2api support for snap camera
+Remove duplicate line
+msm: camera_v2-legacy: Undo pm_qos request upon error
+msm: isp-legacy: Clear irq status if irq is set again with same value
+msm: sensor-legacy: actuator: add null pointer check for i2c array
+media: msm: camera_v2-legacy: add newline after a few prints
+msm: camera-legacy: msm_cci: fix inconsistent mutex_lock
+msm: camera-legacy: sensor: Fix memory leaks when sensor probe fails
+msm: camera-legacy: isp: Fix memory leaks in vfe probe
+msm: legacy: Camera buffer overflow fix
+Upstream: Fix Duplicate Declaration
+Kernel upstream to .235
+
+===
+ROM Changelog
+===
+
+Evolver
+----------
+Automatic translation import
+Revert "Evolution: Add proximity check on wake preference"
+Evolver: Set network icon dependencies
+Evolver: Hide corner radius for devices that have a custom cutout
+Evolver: Hide LED section for unsupported devices
+Evolver: Add Disco and RGB QS tile styles
+Evolver: Add OOS 10 VoLTE icon [2/2]
+Evolver: Add QS header styles [3/3]
+Revert "Evolution: QS header color picker [2/2]"
+Evolver: Add SystemUI restart for center style notification headers
+Evolver: Add option to center "R style" notification headers [2/2]
+Evolver: Custom config to force custom doze brightness [2/2]
+Evolver: Move pulse to misc category
+Evolver: Extend Pulse to Ambient Screen [2/2]
+Evolver: Extend NavBar Pulse to LockScreen [3/3]
+Evolver: Add SimpleCustomSecureSeekBarPreference
+[SQUASH] Clean up old Visualizer implementation [2/2]
+Evolver: Volume Panel Plugin Values should not be translatable
+Evolver: Add Mi 10 Ultra FOD animations [2/2]
+Evolver: compat -> compact
+Evolver: Use overlay for default value of pressed fod icon [2/2]
+Evolver: Move Volume panel styles to Themes
+Evolver: Add VoWiFi icon warning
+Evolver: Bring back kill app back button toggle for non-gesture navbar [2/2]
+Evolver: POSP Vol panel styles
+Evolver: Add Anaheim and Tinkerbell fonts [3/3]
+Evolver: Add Linotte font [3/3]
+Evolver: Allow hiding VoWiFi StatusBar icon [2/2]
+Evolver: Remove kill app back button toggle [2/2]
+Evolver: Add SystemUI restart for R notification headers
+Evolver: Custom keys rebinding: Add kill app action [2/2]
+Evolver: Custom keys rebinding: Add more custom actions/app/activities [2/2]
+Evolver: Bring back AOSP's Screen recorder to Power Menu options [2/2]
+Evolver: Drop no longer necessary casts when calling findPreference() (part 2)
+Evolver: Add video preview to Torch long press power
+Evolver: settings:min => android:min
+ 
+frameworks/base
+----------
+Automatic translation import
+Cleanup - Improve face unlock behavior on devices with popup camera
+Move config_faceAuthOnlyOnSecurityView to fwb/res
+Improve face unlock behavior on devices with popup camera
+SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+base: Use 2 modalities concurrently in BiometricPrompt if available
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Show only one of VoLTE and VoWiFi icon in status bar based on WiFi-Calling Preference
+Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into ten
+PocketLock: fix flickering on animations
+PocketLock: Add config_pocketModeSupported overlay
+PocketService: Adjust light sensor rate to 400ms
+SystemUI: Option to use linear scale in BrightnessController
+SystemUI: fix NPE on global actions dialog
+[SQUASH] Revert some unneeded commits; improve some code
+fwb: Optimise how plugins are applied
+PackageManagerService: Protect forced enabled components at runtime
+fixup! PackageManager: allow build-time disabling of components
+[SQUASH] base: Remove lockscreen quick unlock (1/2)
+[SQUASH] Revert several commits
+TextClock: Update Italian translations
+SystemUI: Use TaskStackChangeListener API for contextual screenshot package name
+VolumeDialog: Don't change the background of the expandable indicator
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService
+disco dingo the qs
+base: Featurize QS RGB!
+base: Disco the colored QS!
+ColorUtils: Allow overriding Random seeds
+base: Disco mode!
+ColorUtils: Make random color generation consistent
+Fix CDM.requestNotificationAccess() in profile.
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+Apply theme by using notification context
+[SQUASH] Revert refresh rate setting commits [1/2]
+TaskHelper: allow to get foreground app label
+[BugFix][Fingerprint]fix client was canceled by service by mistake
+SystemUI: Add OOS 10 VoLTE icon [1/2]
+base: Add QS header styles [1/3]
+base: Expose QS background color
+Revert "SystemUI: Hide gradient behind QS panel"
+Revert "base: SystemUI: QS header color picker [1/2]"
+ContrastUtils: Kill logspam for translucent bg
+fixup! Introduce QS tile style picker
+base: Add option to center "R style" notification headers [1/2]
+base: Custom config to force custom doze brightness [1/2]
+Added policy based firewall in the security tab.
+PocketJudge: allow register vendor pocket sensor
+Revert "perf: Load performance lib from Zygote"
+Extend Pulse to Ambient Screen [1/3]
+LS/Nav Pulse: fix FC and improve performances [2/2]
+Extend NavBar Pulse to LockScreen [1/3]
+[SQUASH] Clean up old Visualizer implementation [1/2]
+Revert "Make dun APNs as read-only by default."
+Don't crash if there is IR HAL is not declared
+wm: Passing a new ArraySet instance to avoid crash
+Extend the watchdog timeout of main thread
+DragSurface: destroy surfacecontrol in view site
+FloatingToolbar must end animation immediately when parent window gone
+Prevent deadlock when going out of idle state
+Avoid needless Integer.valueOf() object allocation.
+SystemUI: fix notification overlap with PIN screen
+PackageInstaller: Fix crash when uninstalling apps with fragile data
+[SQUASH] Revert several commits
+base: Add DiracSound and MiSound to current api
+base: Add support for MiSound FX
+SystemUI: Add Mi 10 Ultra FOD animations [1/2]
+FODCircleView: Allow to overlay default pressed icon state [1/2]
+Skip screen on animation when wake and unlock via biometrics
+Show the nearby chip for images and files too.
+services: LightsService: Mute an annoying error message.
+Load custom device hostname at boot
+base: Bring back kill app back button toggle for non-gesture navbar [1/2]
+base: Let legacy apps scale fully to the display's aspect ratio
+base: Add setting for clamp min auto screen brightness [1/2]
+Reclaime ANON or File pages based on configuration
+Enable appcompaction based on property
+Enable App Compaction for LOW_RAM Targets.
+Hooks for background apps transition
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+Revert "DO NOT MERGE Revert Privacy Indicators to P"
+Don't request render in GLSurfaceView.GLThread ctr
+NotificationPanelView: Fix initial touch co-ordinates
+fwb: Add screen off fod [1/2]
+Revert "FODCircleView: disable touch detection on screen off"
+base: VolumePluginManager: Add default constructor
+fwb: Allow using plugins even on production
+fwb: Implement VolumePluginManager
+Gracefully handle integer overflows.
+ViewGroup: Remove child parent when a new view is added
+Screenshot: inline trigger with AOSP values
+Taskhelper api: fix NPE
+Mark implicit PendingIntents as immutable
+DO NOT MERGE: Remove unused intent in NiNotification
+Add missing isShellUser check
+Do not set referrerUri on SessionInfo for non-owners
+Fix list style alert dialog to use system font
+base: Remove Extended Volume panel options we are unable to hide [1/2]
+VolumeDialog: Prevent hiding the ally stream
+VolumeDialog: Implement expand/collapse animation
+VolumeDialog: Move the media output selector next to the expandable indicator
+VolumeDialog: Treat ring volume the same as others on icon tap
+VolumeDialog: Fix muting streams with a minimal volume of 1
+VolumeDialog: Hide the music row if there is an ally stream
+VolumeDialog: Set the gravity and rotation based on the panels location
+VolumeDialog: Show the notification stream when unlinked
+VolumeDialog: Convert CustomDialog to a View and configure ViewTreeObserver
+VolumeDialog: Redo expanded volume panel
+VolumeDialog: notifyVisible after the volume panel is fully hidden
+VolumeDialog: display default row when active row is notification
+SystemUI: fix size of icon of vibrate ringer mode
+[SQUASH] SystemUI: fixup! runtime configurable audio panel location
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten
+base: Add Anaheim and Tinkerbell fonts [1/3]
+ClipboardService: keep track of which app pasted from which
+Refactor killapp implementation into a Dependency controller class
+Add synchronization for invokeForAllObservers call
+Return null on failed insert due to permissions
+Fixes crash/race condition when destroyActivity
+base: Remove keyguard delay completely
+base: Add Linotte font [1/3]
+SystemUI: fixup! SystemUIGoogleModule
+SystemUI: Add VoWiFi icons from OOS 10
+SystemUI: Show only one of VoLTE and VoWiFi icon in status bar based on WiFi-Calling Preference
+base: Allow hiding VoWiFi StatusBar icon [1/2]
+SystemUI: Support VoWIFI icons in status bar the CAF way
+SystemUI: fixup! Add feature IMS/VoLTE icon on status bar
+[SQUASH] Remove kill app back button toggle [1/2]
+EvolutionUtils: Import restart systemui api
+Custom keys rebinding: Add kill app action [1/2]
+Custom keys rebinding: Add more custom actions/app/activities [1/2]
+Partial screenshot: block gestures and heads up when running
+EvolutionUtils: Add launchCamera and launchVoiceSearch actions
+EvolutionUtils: Reverse actions for QS and notification panel
+EvolutionUtils: fixup! some more actions
+EvolutionUtils: add clear all notifications action
+SystemUI: QS Details: Fix remaining layout issues
+SystemUI: QSPanel: Code style improvement for QS tile animations
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+base: Separate vibrate drawable for vol panel from common icon
+SystemUI: Fix SystemUI failed to go to doze issue
+Bring back AOSP's Screen recorder to Power Menu options [1/2]
+base: clipboard toast toggle [1/2]
+base: iOS-like toast notification for clipboard access
+SystemUI: Remove duplicate permissions
+Add USSD codes over IMS feature
+Improve scrolling cache
+avoid duplicate doFrame calls.
+make ui touch optimization work normally.
+add VSYNC scheduled flag and avoid two doFrame calls in one period
+core: touch response optimizations
+ 
+Settings
+----------
+Automatic translation import
+FaceSettingsLockscreenBypassPreferenceController: Hide on specific devices
+Merge tag 'android-10.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into ten
+Remove useless png and add vector drawable
+Remove "storage type" preference from Settings
+[SQUASH] Settings: Remove lockscreen quick unlock (2/2)
+Settings: fixup! Check if we have any color modes declared in overlay
+Settings: use style ActionPrimaryButton for buttons
+Settings: restyle that horrible sim select dialog
+Add NR network type to "Global" mode preference
+Settings: Account more 5G network modes
+RefreshRatePreferenceController: Add overlay to enable it
+Implement refresh rate control
+[SQUASH] Revert refresh rate setting commits [2/2]
+Settings: Hide screen off fod if fingerprint not enrolled
+Settings: Add setting for clamp min auto screen brightness [2/2]
+Screen off fod: Make it optional
+NightDisplay Settings: Use List Preference for NightLight settings
+DarkMode Settings: Use List Preference rather ugly Drop Down
+Settings: Screen off fod [2/2]
+Settings: Avoid enforcing weird backgrounds
+Settings: Fix icon size for ring volume
+Enable the filterTouchesWhenObscured in Special app access
+Settings: Remove Extended Volume panel options we are unable to hide [2/2]
+Allows to launch only authenticator owned activities
+Settings: Add a warning for Quick Unlock
+Settings: clipboard toast toggle [2/2]
+Settings: Change kernel preference behavior
+Settings: Move screenshot type preference from Evolver
+Settings: Add swipe to screenshot animation
+Settings: Add Swipe to screenshot preference
+ 
