@@ -1,0 +1,16 @@
+===
+ROM Changelog
+===
+
+Evolver
+----------
+Revert "Evolver: Extend NavBar Pulse to LockScreen [3/3]"
+Revert "Evolver: Extend Pulse to Ambient Screen [2/2]"
+ 
+frameworks/base
+----------
+Revert "Extend NavBar Pulse to LockScreen [1/3]"
+Revert "LS/Nav Pulse: fix FC and improve performances [2/2]"
+Revert "Extend Pulse to Ambient Screen [1/3]"
+
+ 
