@@ -1,0 +1,26 @@
+Device:
+
+universal9810: Enable zygote preforking
+universal9810: overlay: Disable NearbyMessagingService & DiscoveryService
+universal9810: overlay: Battery Health: correct capacity path
+universal9810: set statusbar extra padding
+universal9810: Override config_availableColorModes
+universal9810: update ZGCam to latest 3359 version
+universal9810: keys: Let users decide what bixby/camera key is
+
+Warning:
+
+ZGcam require patched ETF5 Vendor image to be flashed before the rom.
+
+Download Vendor for your device from here: 
+
+https://mega.nz/folder/c1Uj1ahA#Qec4O6nQyZrG--2hLnqcvQ
+
+
+Rom:
+
+September security patch (10.0_r46)
+
+Sync with latest EvolutionX source
+
+and more ...
