@@ -1,0 +1,30 @@
+Device changlogs:
+==============================
+
+reverted extra sound mods
+removed battery thermal profiles 
+Fixed camera denials
+Fixed zoom meetings camera issue
+whatsapp low mic issue fixed
+Included latest HR v3.2 kernel
+optimizations
+
+
+Source Changelogs:
+==============================
+
+9/15
+BiometricService: Avoid null pointer exception
+fixup - base: do not use new lockscreen layout for bypass
+fixup - PackageManagerService: Protect forced enabled components at runtime
+Evolver: Nuke Aspect Ratio options as it’s no longer needed
+LS/AD/Nav Pulse: fix FC
+LS/Nav Pulse: Consolidate functions and fix NPE
+SystemUI: Set correct animation duration for linear brightness slider
+TwilightService: Use temporary TwilightState when location is not available
+WiredAccessoryManager: Add support for DisplayPort Audio
+WiredAccessoryManager: support for multiple display ports
+WiredAccessoryManager: Support for multiple extconn devices
+WiredAccessoryManager: update extcon file paths
+
+
