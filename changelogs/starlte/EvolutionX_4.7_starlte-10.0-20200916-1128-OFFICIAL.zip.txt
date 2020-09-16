@@ -1,0 +1,29 @@
+Device:
+
+Tidy up build.prop.
+
+
+Warning:
+
+ZGcam require patched ETF5 Vendor image to be flashed before the rom.
+
+Download Vendor for your device from here: 
+
+https://mega.nz/folder/c1Uj1ahA#Qec4O6nQyZrG--2hLnqcvQ
+
+
+Rom:
+
+Bring back lockscreen Quick Unlock
+
+Keyguard: Hide check button when using PIN quick unlock
+
+Lockscreen pulse: lower bars
+
+Nuke Google Sans and replace it with Manrope
+
+sepolicy: common: Remove mediacodec_service related rules
+
+Settings: Remove Notification toggle in Extended Volume panel options
+
+and more ...
