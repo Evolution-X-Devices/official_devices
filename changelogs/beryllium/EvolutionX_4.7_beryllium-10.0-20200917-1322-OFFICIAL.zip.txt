@@ -1,0 +1,15 @@
+Imported Qualcomm's ImproveTouch binaries from MIUI 12 dump
+Small adjustments to padding
+Show internal storage by default in file manager
+Update Dex2Oat props 
+Disable Vsync for CPU Rendered Apps
+Enable prefetch
+Support AOD with burn in protection
+Increase in call volume and updated mixer paths for better mic input
+Enable Fast BSS Transition
+Add parameters for Hotspot 2.0
+Disable alpha compositing in WM 
+Sync with latest Evo Source
+Sync with Lineage OS device specific stuff
+Sync with latest Stealth Kernel
+
