@@ -1,0 +1,12 @@
+Device changes:
+Removed Instagram from HAL1 packagelist (seems to fix the camera issues within the app)
+Updated build fingerprint to Coral RP1A.200720.009
+-------------------------------------------------------
+Source changes:
+EvolutionX 4.7 - Quantum
+September security patches
+Added Disco QS (random colors for QS toggles)
+Switch to AOSP Themepicker
+Replaced the Google Sans font with Manrope
+Many other smaller fixes and improvements
+NOTE: This is most likely the 2nd last or last Android 10 build, so enjoy it! :)
