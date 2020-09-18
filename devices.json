@@ -485,6 +485,7 @@
       "name": "MI A3",
       "supported_versions": [
          {
+	    "deprecated": true,
             "maintainer_name": "oddlyspaced",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9807173",
             "version_code": "ten",
