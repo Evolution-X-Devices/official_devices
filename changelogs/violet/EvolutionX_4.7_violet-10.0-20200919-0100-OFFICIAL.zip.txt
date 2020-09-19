@@ -1,0 +1,46 @@
+======================================
+DEVICE SIDE
+======================================
+
+* Fixed DT2W.
+
+* Switched to Latest Prebuilt Azure Kernel.
+
+* Added back button for Thermal profile.
+
+* Added Thermal profile qs tile.
+
+* Kanged dexpreopt bits from OnePlus 7 trees aka improved boot time.
+
+* Updated flame fp to sept.
+
+* Tuned Powerhint.json.
+
+* Smart charging is broken for now.
+
+==================================
+SOURCE SIDE
+==================================
+
+Latest Evolution x changes.
+
+                  HIGHLIGHTS
+
+* EvolutionX 4.7 - Quantum.
+
+* September security patches.
+
+* Switch to AOSP Themepicker.
+
+* Replaced the Google Sans font with Manrope.
+
+* Many other smaller fixes and improvements.
+
+* Added OOS 10 Volte icon.
+
+* Added Potato plugins.
+
+Potato plugin huh?
+1. Disco qs tile.
+
+2. Volume Panel Styles.
