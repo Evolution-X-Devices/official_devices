@@ -1,0 +1,29 @@
+**Device Changes:**
+- Etude kernel:
+  * Linux 4.9.236
+  * fpc and goodix fingerprint: use qcom drm notifier instead of the generic one
+  * fixed xbl_region reserved memory
+  * wireguard: 1.0.20200908
+- Reworked screen panel backlight
+  * in previous builds
+    - adjusting brightness slider in the lower range resulted in uneven brightness transition
+    - previous builds did not allow screen to dim to the lowest possible value
+    - auto-brightness had slow reaction to ambient light changes
+  * patched frameworks/base to use linear brightness slider instead of the log scale one
+  * ported gamma-linear conversion to light HAL
+  * re-calculated auto brightness curve to fit new light HAL changes
+  * reduced light sensor debounce time to stay in-line with MIUI
+  * the result:
+    - smooth backlight brightness transition when moving brightness slider
+    - screen can dim to the lowest possible value the panel allows
+    - auto-brightness reacts faster to ambient light changes
+    - auto-brightness is no longer jumpy
+    - screen dimming caused by no user action has proper transitions
+- Fixed an issue where notification pulse option is unavailable when DOZE_ENABLED option is not set yet
+
+**Feature update highlights:**
+- September security patch
+- Force enabled Styles component
+- Added pocket lock
+- Improved navbar pulse visualizer
+- Replaced Google Sans with Manrope in many system components
