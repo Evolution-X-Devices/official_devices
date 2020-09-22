@@ -1,0 +1,10 @@
+Sep-18-2020
+* September 2020 security patch
+* Updated kernel to 4.14.198
+* Ultrawide camera quality fixed
+* Added selinux switch to xiaomi parts(magisk is required)
+* Fixed bad position of status bar icons
+* Boosted sound output
+* Updated blobs from MIUI 20.9.2
+* Wifi improvements
+* Much more fixes and improvements
