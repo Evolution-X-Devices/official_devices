@@ -185,34 +185,6 @@
    },
    {
       "brand": "OnePlus",
-      "codename": "enchilada",
-      "name": "OnePlus 6",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "version_code": "ten",
-            "version_name": "ten",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-6/development/rom-evolution-x-3-1-t3995973"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "fajita",
-      "name": "OnePlus 6T",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "version_code": "ten",
-            "version_name": "ten",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-6t/development/rom-evolution-x-3-0-t3988143"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
       "codename": "guacamole",
       "name": "OnePlus 7 Pro",
       "supported_versions": [
