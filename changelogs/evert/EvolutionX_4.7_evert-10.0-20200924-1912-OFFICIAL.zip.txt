@@ -1,0 +1,25 @@
+9/24
+KERNEL:
+Upstream to latest linux stable v4.4.237
+
+9/23
+AOSP Volume Panel: Improve touch width
+
+FOD devices ONLY:
+Add ASUS ROG FOD animations
+
+9/22
+DEVICE:
+Fix: six perf spamming logs
+Improve VoLTE & add few carriers
+WIFI disable auto TX power control
+Add some properties camera
+Improve Ambient Display
+
+ROM:
+Include Applock from AOSPA
+
+9/21
+DEVICE:
+Set max volume incall
+Add powerhint
