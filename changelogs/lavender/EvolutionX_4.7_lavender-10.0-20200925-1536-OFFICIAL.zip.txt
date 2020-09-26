@@ -1,0 +1,8 @@
+Device changes:
+Updated kernel to Predator-Stormbreaker 8.7 - 4.4.236
+-------------------------------------------------------
+Source changes:
+AOSP Volume Panel: Improve touch width
+Include Applock from AOSPA
+Other smaller fixes and improvements
+NOTE: This is the last Android 10 OTA, next update will be A11. Enjoy! :)
