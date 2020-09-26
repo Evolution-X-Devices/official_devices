@@ -1,0 +1,18 @@
+Device:
+
+Change default dpi to 440.
+
+
+Kernel:
+
+disabled MPTCP
+block fs access to mounts for "IsolatedService"
+hide magisk mounts for IsolatedService
+Start killing wakelocks after two minutes of idle (120s)
+Make scheduling period more efficient
+
+
+Rom:
+
+In line with latest EvolutionX Source...
+
