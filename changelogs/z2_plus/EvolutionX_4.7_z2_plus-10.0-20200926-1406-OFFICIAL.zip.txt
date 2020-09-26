@@ -1,0 +1,54 @@
+Device Changelog :-
+Added dirac support 
+vowifi enabled for jio users
+removed ant+
+update bluetooth from LA.UM.8.6.r1-03400-89xx.0
+Switch to Bluetooth QTI Audio stack
+Add AOSP RCS packages
+Removed Dead RCS packages
+Added support of hal1 and hal3 for camera
+updated ims,qti blobs
+
+Source changelog :-
+Changelog list
+
+
+9/23
+AOSP Volume Panel: Improve touch width
+
+9/22
+
+Include Applock from AOSPA
+
+9/19
+
+HeadsUpStatusBarView: account for rounded corner
+
+extract_utils: Fix system_ext framework blueprint generation
+
+9/17
+
+Apply theme by using notification context
+
+Pocket Lock: Don't show immersive confirmation ui
+
+SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+
+SystemUI: Hide non-system overlays when biometric prompt is showing
+
+TextClock: Update Italian translations some more
+
+
+9/16
+
+Bring back lockscreen Quick Unlock
+
+Keyguard: Hide check button when using PIN quick unlock
+
+Lockscreen pulse: lower bars
+
+Nuke Google Sans and replace it with Manrope
+
+sepolicy: common: Remove mediacodec_service related rules
+
+Settings: Remove Notification toggle in Extended Volume panel options
