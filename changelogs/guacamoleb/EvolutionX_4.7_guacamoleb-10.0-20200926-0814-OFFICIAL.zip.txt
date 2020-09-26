@@ -1,0 +1,41 @@
+Device:
+
+Fixed notch hide in settings>display
+Nuked NotchBarKiller
+Bunch of Sepolicy improvements
+Added SELinux Switch to DeviceSettings (OnePlus Settings)
+Enabled ipsec_tunnel feature
+Built missing audio libs
+Built missing omx lib
+Few other small tweaks here and there
+
+ROM:
+
+Include Applock from AOSPA
+Apply theme by using notification context
+BiometricService: Avoid null pointer exception
+Bring back lockscreen Quick Unlock
+Evolver: Nuke Aspect Ratio options as it’s no longer needed
+Keyguard: Hide check button when using PIN quick unlock
+LS/AD/Nav Pulse: fix FC
+LS/Nav Pulse: Consolidate functions and fix NPE
+Lockscreen pulse: lower bars
+Nuke Google Sans and replace it with Manrope
+Pocket Lock: Don't show immersive confirmation ui
+Remove "storage type" preference from Settings
+Remove useless png and add vector drawable
+Settings: Remove Notification toggle in Extended Volume panel options
+SystemUI: BiometricPrompt: Call onDialogAnimatedIn when we are showing the dialog without animation
+SystemUI: Hide non-system overlays when biometric prompt is showing
+SystemUI: Set correct animation duration for linear brightness slider
+TextClock: Update Italian translations some more
+TwilightService: Use temporary TwilightState when location is not available
+Updater: Correct and update some strings
+WiredAccessoryManager: Add support for DisplayPort Audio
+WiredAccessoryManager: Support for multiple extconn devices
+WiredAccessoryManager: support for multiple display ports
+WiredAccessoryManager: update extcon file paths
+extract_utils: Add support for system_ext
+fixup - PackageManagerService: Protect forced enabled components at runtime
+fixup - base: do not use new lockscreen layout for bypass
+sepolicy: common: Remove mediacodec_service related rules
