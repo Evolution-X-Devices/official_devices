@@ -1,0 +1,12 @@
+Fixed KCAL profiles not applying issue
+Fixed some weired deepsleep issues
+Fixed always on display
+Updated media profiles from UL-ASUS_X00T-WW-17.2017.2006.429-user
+Updated qti-telephony-common.jar from jasmine
+Fixed issues with pulse
+Nuked Google Sans and replace it with Manrope
+Lowered bars in lockscreen pulse
+Brought back lockscreen Quick Unlock
+Updated Italian translations some more
+Added Applock from AOSPA
+Improved touch width in AOSP volume panel
