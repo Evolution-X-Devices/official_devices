@@ -1,0 +1,8 @@
+- Sync latest Evolution X source
+- Rebase over PE device tree
+- Include DemonSlayer Shinobu release
+- Disable empty LiveDisplay menu
+- Fix NFC again
+- More sepolicy denials
+- Don't enforce SELinux on boot image
+- Update maintainer overlay
