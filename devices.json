@@ -270,6 +270,20 @@
    },
    {
       "brand": "Realme",
+      "codename": "RMX1971",
+      "name": "Realme 5 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Strotum",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=10962187",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/realme-5-pro/development/evolution-x-4-7-unofficial-realme-5-pro-t4161345"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
       "codename": "x2",
       "name": "Realme X2",
       "supported_versions": [
