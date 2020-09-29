@@ -637,15 +637,15 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "twolip",
+      "codename": "tulip",
       "name": "Redmi Note 6 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Dobsgw",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7144653",
+            "maintainer_name": "arturo51236",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8769309",
             "version_code": "ten",
             "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-evolutionx-4-1-unofficial-tulip-t4048893/post81728863#post81728863"
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-evolution-x-franklin-t4147143"
          }
       ]
    },
