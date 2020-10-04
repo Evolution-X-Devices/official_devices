@@ -297,6 +297,20 @@
       ]
    },
    {
+      "brand": "Realme",
+      "codename": "RMX206X",
+      "name": "Realme 6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Sukrut4778",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/realme-6-pro/development/realme-6-pro-t4172305/post83637563#post83637563"
+         }
+      ]
+   },
+   {
       "brand": "Redmi",
       "codename": "begonia",
       "name": "Redmi Note 8 Pro",
