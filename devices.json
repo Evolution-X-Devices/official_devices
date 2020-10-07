@@ -499,6 +499,7 @@
       "name": "Mi A2",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "OdSazib",
             "maintainer_url": "https://github.com/OdSazib",
             "version_code": "ten",
@@ -711,6 +712,7 @@
       "name": "Mi 6X",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "OdSazib",
             "maintainer_url": "https://github.com/OdSazib",
             "version_code": "ten",
