@@ -670,6 +670,7 @@
       "name": "Mi A1",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Dominik Procházka",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7501576",
             "version_code": "ten",
