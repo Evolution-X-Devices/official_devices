@@ -596,20 +596,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "phoenix",
-      "name": "Poco X2",
-      "supported_versions": [
-         {
-            "maintainer_name": "Rakesh Roshan",
-            "maintainer_url": "https://github.com/rakeshraimca",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/poco-x2/development/rom-evolution-x-t4089147"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "pyxis",
       "name": "Mi 9 Lite",
       "supported_versions": [
