@@ -311,6 +311,20 @@
       ]
    },
    {
+      "brand": "Realme",
+      "codename": "wasabi",
+      "name": "Realme G90T Series",
+      "supported_versions": [
+         {
+            "maintainer_name": "Elias (TheMalachite)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9609718",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/realme-6/development/rom-evolution-x-quantum-t4182525"
+         }
+      ]
+   },
+   {
       "brand": "Redmi",
       "codename": "begonia",
       "name": "Redmi Note 8 Pro",
