@@ -1,0 +1,72 @@
+__Initial android 11 release__
+
+**Device Changes:**
+- Etude kernel: Op.11 No.1
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+  * Linux 4.9.241
+  * merged CAF R tag LA.UM.9.8.r1-02900-SDM710.0
+  * modified DT bindings for Pixel thermal hal
+  * enabled zram writeback
+  * fixed zram idle and writeback string compare
+  * added a killable freezer to kill frozen tasks similar to cgroups v2
+  * increased top-app boost
+  * fixed per_cpu declaration of pending_ipi
+  * upstreamed bpf
+  * upstreamed simple_lmk
+  * disabled PSI to avoid userspace notifying memory pressure through PSI
+  * synaptics: use disable_erq_nosync
+  * some fixes on led-class init/de-init
+  * use BPF_PROG_RUN
+  * raise mm compaction priority after it withdraws
+  * disabled unused wsa881x codecs
+  * fixed a memory leak on camera
+- Switched to Pixel thermal 2.0
+  * also updated thermal engine from Pixel 3 XL android 11 build
+- Ported CAF R display hal
+  * screen brightness is now controlled by hwc instead of light HAL, which offers a smooth and accurate brightness adjustment without weird hacks I did on android 10
+  * display config 2.0
+- Switched to CAF R media hal
+  * set higher priority to c2 than OMX
+  * removed deprecated divx/xvid software codecs
+  * cleaned up and merged redundant media codec configs
+- Switched to stable aidl Pixel power hal
+  * removed UfsHibern8Enable and clkgate_enable hints in launch and interaction because it may freak out ufshc
+- Merged drm hal entry changes from CAF and updated DRM blobs from OnePlus8Pro android 11 build
+  * clearykey 1.3
+  * widevine 1.3
+  * wfdhdcp 1.3
+- Switched to AOSP NFC 1.2
+- Enabled IORap
+  * IORap is a new feature in android 11 that greatly improves app startup time by predicting and prefetching potentially blocking I/O
+- Enabled zram writeback in fstab and job scheduler
+- Updated adreno and vulkan blobs from Pixel 3 XL android 11 build
+  * OpenGL ES 3.2 V@464 -> @490
+- Set frozen group as killable
+- Added AOSP RCS packages and removed deprecated RCS
+- Bumped audio hal to 6.0
+- Added a shim to fix dpm service
+- Enabled the option to turn on blur in developer settings (defaults to disabled)
+  * Note: blur is very expensive on rendering and may incur jank frames
+- Added WifiOverlay
+- Added TetheringOverlay
+- SELinux enforcing and SafetyNet passes out of the box
+  * if you use Magisk, you may need to turn on MagiskHide
+- Forced encryption is disabled for now. Your partition will not be encrypted.
+
+**Evolution X Update**
+- Evolution X on android 11 is under fast development to bring back features from android 10. Do not expect full feature set like that on android 10.
+
+**Notes and Known Issues**
+- Prebuilt official GoogleCamera has been removed intentionally because obviously it will not work for our device. Install any gcam you like that works on android 11. Do not use the Camera2 that comes with the ROM.
+- Wireless Display can scan but may not connect successfully
+- "OK Google" hot word does not work yet
+
+**Gapps, vendor, and firmware are included.** Formatting data and clean flash are required.
+
+Flash guide:
+- Install the latest custom recovery
+- Format data (required)
+- After formatting data, you may have to reboot again to recovery
+- Wipe system & data & cache & dalvik cache
+- Install ROM
+- Reboot
