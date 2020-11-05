@@ -1,0 +1,8 @@
+- November security patch
+- kernel Upstreamed to 4.9.241
+- Fixed Themes crashing issue
+- CTS pass by default & banking apps working without root
+- Implemented Realme Settings (Inside it, sRGB mode, Gaming Mode, USB-OTG, Smart Overnight Charging)
+- Implemented Dirac Audio for better sound experience
+- Many more underhood changes to make the overall experience even better
+
