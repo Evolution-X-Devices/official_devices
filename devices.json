@@ -485,11 +485,11 @@
       "name": "Mi 9T",
       "supported_versions": [
          {
-            "maintainer_name": "Akito Mizukito",
-            "maintainer_url": "https://github.com/RealAkito",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-3-3-mi-9t-redmi-k20-davinci-t4010493"
+            "maintainer_name": "Adarsh Grewal",
+            "maintainer_url": "https://github.com/AdarshGrewal",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-5-1-mi-9t-redmi-k20-davinci-t4189391"
          }
       ]
    },
