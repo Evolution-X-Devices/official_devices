@@ -656,6 +656,7 @@
       "name": "Redmi 6 Pro",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "ZèD",
             "maintainer_url": "https://github.com/IMZihad21",
             "version_code": "eleven",
