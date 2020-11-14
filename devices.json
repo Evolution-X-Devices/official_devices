@@ -316,6 +316,7 @@
       "name": "Realme G90T Series",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Elias (TheMalachite)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9609718",
             "version_code": "ten",
@@ -330,6 +331,7 @@
       "name": "Redmi Note 8 Pro",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Elias (TheMalachite)",
             "maintainer_url": "https://t.me/TheMalachite",
             "version_code": "ten",
