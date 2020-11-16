@@ -1,0 +1,104 @@
+
+Device Changelogs:-
+ - Initial Android 11 Build
+ - Night light broken [FIX:- https://forum.xda-developers.com/attachment.php?attachmentid=5136443&d=1605531493] magisk module
+ - Default kernel (Kizuna) 4.9 
+
+NOTE:- DO NOT FLASH KERNELS WITH VERSION 3.18 over this build
+
+Source Changelogs:-
+
+11/14
+Add BatteryHealth section
+Add Volume rocker skip track to Gestures
+Add option to scramble pin layout when unlocking
+Add screen off fod
+Add switch for linked ring and media notification volumes
+Add three-fingers-swipe to screenshot
+Add toggle to enable ADB root
+Add vibration patterns from OOS
+Add volume panel on left toggle
+Allow choosing custom vibration patterns
+Allow customizing the length of gesture navbar
+Allow hiding the gesture navbar
+Allow more legacy apps to use conversation notifications
+Allow to customize notification led light
+Aosp Ambient music: allow to pulse on new tracks
+Configurable 0, 90, 180 and 270 degree rotation
+Enable AOSP Theme Picker to access custom clock styles
+Enable notification LED pulse by default
+Evolver: Add 'Invert layout' to navigation bar settings
+Evolver: Add Lockscreen album art filters
+Evolver: Add QS columns/rows options
+Evolver: Add VoLTE icon toggle
+Evolver: Add animations to quick settings tiles
+Evolver: Add interpolators to qs tiles animation
+Evolver: Add kill button to notification guts
+Evolver: Add option to disable led after full charging
+Evolver: Add quick settings pull down with one finger
+Evolver: Add statusbar battery options
+Evolver: Add toggle for lockscreen charging animation
+Evolver: Add toggle to disable charging animation
+Evolver: Add tunables for navbar layout customization
+Evolver: Add visualizer feature
+Evolver: Allow to enable Lockscreen Media Art
+Evolver: Battery light customization
+Evolver: Brightness slider options
+Evolver: Disabling quick settings on secure lock screens
+Evolver: Double tap to wake on doze
+Evolver: Fingerprint authentication vibration
+Evolver: HeadsUp blacklists
+Evolver: HeadsUp snooze function
+Evolver: HeadsUp: add timeout option
+Evolver: Hide power menu on secure lockscreen
+Evolver: Implement click to take partial screenshot
+Evolver: Incall vibration options
+Evolver: Less boring heads up option
+Evolver: Lockscreen Charging info
+Evolver: Make roaming indicator optional
+Evolver: Pixel Navbar animation toggle
+Evolver: QS tile title visibility
+Evolver: QuickSettings: Add Haptic Feedback to tiles
+Evolver: Recognizing fingerprint animation
+Evolver: Screen off animations
+Evolver: Show 4G instead of LTE switch
+Evolver: Smart Pulldown
+Evolver: Status network traffic
+Evolver: Statusbar brightness control
+Evolver: Statusbar clock/date customization
+Evolver: Torch long press power: add with auto-off function
+Evolver: Unlock keystore with fingerprint after reboot
+Evolver: Volume Rocker Wake
+Evolver: Volume rocker cursor control 
+Evolver: Wake on plug
+Evolver: Wired/BT headset: make ringtone audio focus customizable
+Evolver: allow to swap volume buttons rotation based
+Evolver: allow transparent notifications on lockscreen (on default light and dark theme only)
+Include ADB root feature
+Include ColorBucket (Dark theme styles) from ArrowOS
+Include Double tap to sleep on lockscreen
+Include Seedvault app backup feature from LOS
+Include lockscreen quick unlock
+Include several Lockscreen charging animations
+Increasing ring feature
+Make Inter the default system font
+Make Quick Unlock compatible with long PIN/Password
+Make kernel version clickable
+Merge November security patches
+Safetynet should now pass by default
+Settings: Add pocket lock toggle
+Settings: Introduce Adaptive Playback
+Settings: per-app cellular data, vpn and wifi restrictions
+Update APNs for O2 Germany, E-Plus, Euskaltel
+Update bootanimation for 5.1
+Upstream some LOS system changes
+
+10/23
+Initial Android 11 Official release
+Include Advanced reboot toggle in power menu
+Include several custom QS tiles
+Remove changelog generator
+Ship lock pattern grid size and pattern visibility settings
+Upstream LOS vendor changes into Evo
+
+BIG THANKS TO YAMI, VASTO, SMOKEY, DEBARYAN and everyone :P
