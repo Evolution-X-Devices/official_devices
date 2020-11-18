@@ -583,20 +583,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "mido",
-      "name": "Redmi Note 4X",
-      "supported_versions": [
-         {
-            "maintainer_name": "Ctrl",
-            "maintainer_url": "https://t.me/ctrl07",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-redmi-note-4-t4039713/post81574439"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "perseus",
       "name": "Mi Mix 3",
       "supported_versions": [
