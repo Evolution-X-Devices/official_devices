@@ -1,0 +1,78 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.1
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+  * Linux 4.9.243
+  * merged upstream fix on ipv6, vsoc, tee, and thermal from android common kernel
+  * wireguard 1.0.20201112
+- Updated the following blobs from LA.UM.9.8.r1-02700-SDM710.0
+  * SDM, HDR, Adreno, Vulkan, and Snapdragon CVE
+  * CNE, IMS, QMI, and RIL
+  * wfd vendor
+  * media and media codecs
+  * configstore
+  * dpm vendor
+  * drm
+  * msm_irqbalance
+  * peripheral manager
+  * time service
+  * TEE and TUI
+  * ESE power manager
+  * Secure Element
+- Updated wfd and dpm system blobs from OnePlus8Pro
+- Wireless Display under Cast is working now
+- Updated the following hal versions
+  * Secure Element --> 1.2
+  * ESE power manager --> 1.1
+  * QTI Health implementation --> 2.1
+  * IRadio --> 1.5
+  * uceservice --> 2.2
+  * ims factory --> 1.0
+  * qti radio --> 2.4
+  * ims rtp service --> 3.0
+  * removed qdutils_disp
+- Brought back Livedisplay
+- Enabled dex2oat64
+- Switched to full CAF android 11 display HAL
+  * UI rendering jitter and total duration are back to normal, thx to the new blobs and hals
+- Reworked TetheringOverlay blueprint
+- Removed some unused entries in init script
+
+**Evolution X Update**
+- Evolution X on android 11 is under fast development to bring back features from android 10. Do not expect full feature set like that on android 10.
+- Brand new boot animation
+- Added battery health section
+- Added option to change navbar length or completely hide it
+- Added three finger swipe to screenshot gesture
+- Added option to customize notification LED light
+- Added custom clock picker under Settings/Display/
+- Added volume rocker skip track to Gestures
+- Added option for linked ring and media volume
+- Added lockscreen album art filter
+- Added QS columns/rows option
+- Added VoLTE icon toggle
+- Added option to disabled LED after full charge
+- Added toggle for lockscreen charging animations
+- Added visualizer
+- Added heads-up blacklists, timeout and snooze
+- Click to take partial screenshot
+- Added screen off animations
+- Added Seedvault as an alternative backup provider
+- Made Inter as the default system font
+- Many other misc features in Evolver
+
+**Notes and Known Issues**
+- "OK Google" hot word does not work yet
+
+**Gapps, vendor, and firmware are included.** Formatting data and clean flash are required if you come from android 10. Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+Clean flash guide:
+- Install the latest custom recovery
+- Format data (required if you come from android 10)
+- After formatting data, you may have to reboot again to recovery
+- Wipe system & data & cache & dalvik cache
+- Install ROM
+- Reboot

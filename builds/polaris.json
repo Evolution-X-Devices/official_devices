@@ -1,17 +1,17 @@
 {
-   "datetime": 1604514688,
+   "datetime": 1605763731,
    "donate_url": "https://www.paypal.me/jjpprrrr",
    "error": false,
-   "filehash": "this_is_an_incorrect_hash_to_prevent_ota",
-   "filename": "EvolutionX_5.1_polaris-11-20201104-1831-OFFICIAL.zip",
+   "filehash": "9c0913a86e562b5519d3e2702f752290",
+   "filename": "EvolutionX_5.1_polaris-11-20201119-0528-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/xiaomi-mi-mix-2s/development/rom-evolution-x-undisputed-t4101193",
-   "id": "9f67066f914153b26c184cb37533123d0173e8a5f234ecb6ddcef194cc8d80e3",
+   "id": "00ce24f25758dac8c06b66ff8582b924e2dc806ff04fc6cd3ce1f489268e4763",
    "maintainer": "Chenyang Zhong (jjpprrrr)",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9585779",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1856857957,
+   "size": 1873267848,
    "telegram_username": "jjpprrrr",
-   "url": "https://sourceforge.net/projects/evolution-x/files/polaris/EvolutionX_5.1_polaris-11-20201104-1831-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/polaris/EvolutionX_5.1_polaris-11-20201119-0528-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
