@@ -1,0 +1,9 @@
+!!! THIS UPDATE IS NOT FLASHABLE VIA OTA, PLEASE DOWNLOAD THE UPDATE FROM THE PROJECT'S SOURCEFORGE !!!
+Initial Android 11 build
+XiaomiParts have been overhauled and renamed to DeviceSettings
+Countless stability improvements and tiny changes
+Now uses Energy-aware scheduling (EAS)
+Updated kernel to Predator-Stormbreaker X4.1
+SELinux Permissive (hopefully we'll be back to Enforcing in the next build)
+Source has been completely redone, so expect some features to be still missing
+NOTE: Clean flash is necessarry, if you will attempt a dirty flash and encounter data loss in the process, don't blame me!
