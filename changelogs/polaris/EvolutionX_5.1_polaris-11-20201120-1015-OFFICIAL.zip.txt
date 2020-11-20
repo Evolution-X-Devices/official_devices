@@ -1,0 +1,23 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.1
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+
+**Evolution X Update**
+- Removed Now Playing feature and its sound model
+  * it crashes audio hal service all the time and causes audio stuttering, if you turn on Now Playing
+  * it will not work for our device anyway
+
+**Notes and Known Issues**
+- "OK Google" hot word does not work yet
+
+Clean flash guide:
+- Install the latest custom recovery
+- Format data (required if you come from android 10)
+- After formatting data, you may have to reboot again to recovery
+- Wipe system & data & cache & dalvik cache
+- Install ROM
+- Reboot
