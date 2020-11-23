@@ -469,6 +469,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "phoenix",
+      "name": "Redmi K30 / POCO X2",
+      "supported_versions": [
+         {
+            "maintainer_name": "Chiranth Chiru",
+            "maintainer_url": "https://github.com/chiru2000",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/poco-x2/development/rom-evolutionx-v5-0-poco-x2-redmi-k30-t4180611"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "lmi",
       "name": "Redmi K30 Pro / POCO F2 Pro",
       "supported_versions": [
