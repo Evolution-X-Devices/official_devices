@@ -85,15 +85,29 @@
    },
    {
       "brand": "Google",
+      "codename": "walleye",
+      "name": "Pixel 2",
+      "supported_versions": [
+         {
+            "maintainer_name": "Gibran Mather",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8094713",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/pixel-2/development/rom-evolution-x-5-1-t4193419"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
       "codename": "taimen",
       "name": "Pixel 2 XL",
       "supported_versions": [
          {
-            "maintainer_name": "Lunarixus",
-            "maintainer_url": "https://github.com/Lunarixus",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/pixel-2-xl/development/rom-evolution-x-4-1-69-t4076517"
+            "maintainer_name": "Gibran Mather",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8094713",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/pixel-2-xl/development/rom-evolution-x-5-1-t4193435"
          }
       ]
    },
