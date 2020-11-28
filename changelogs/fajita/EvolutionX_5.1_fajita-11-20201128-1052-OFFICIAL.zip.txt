@@ -1,0 +1,34 @@
+Device changes:
+==============================
+None
+------------------------------
+ROM changes:
+==============================
+Add IconShapeMallowOverlay
+Avoid casting network traffic to StatusBarIconView to prevent crash
+Bring back our custom fonts
+Evolver: Add OP8T Cyberpunk 2077 FOD animation
+Evolver: Add a toggle for QS footer text
+Evolver: Add back ambient pulse and aod notifications
+Evolver: Add back more battery bar locations
+Evolver: Add navigation bar visibility control
+Evolver: Allow customizing footer text
+Evolver: Allow hiding the lock icon on lockscreen
+Evolver: Listanimation Views and Interpolator
+Evolver: Network traffic location
+Evolver: Option for Up, Down as well for Network Traffic
+Fix: No text in toast for RTL layout
+Fixed Handler Leak on DistanceClassifier
+LockscreenShortcuts: enable default shortcuts
+PackageManagerService: Protect forced enabled components at runtime
+Papers: Update credits
+Remove broken Ambient on wake gestures toggle
+Settings: Live Volume Steps
+Show icon of package associated with Toast
+StatusBarIconController: Guard yet another function from cast exception
+Statusbar clock: make it play better with expanded QS date
+SystemUI: Use OP8T Cyberpunk 2077 FOD icon by default
+SystemUI: make the battery saver tile useful
+fixup! DozeSensors: Only use proximity sensor if supported
+fixup! HeadsUp: add timeout option
+fixup! Pocket lock improvements
