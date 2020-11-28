@@ -766,19 +766,5 @@
             "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-eleanor-t4191635"
          }
       ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "ysl",
-      "name": "Redmi S2/Y2",
-      "supported_versions": [
-         {
-            "maintainer_name": "Reynold29",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9367840",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": ""
-         }
-      ]
    }
 ]
