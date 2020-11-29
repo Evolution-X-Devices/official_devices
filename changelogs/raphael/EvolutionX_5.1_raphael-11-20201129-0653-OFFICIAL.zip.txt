@@ -1,0 +1,29 @@
+NOTE:
+Preferred network type has changed to using LTE/3G/2G due to CarrierSettings changes.
+Just use *#*#4636#*#* in the dialer to change it to your preferred mode.
+==============================
+Device changes:
+==============================
+Remove OemDmTrigger and Prebuilt Gmail
+Replace ANX with GCam GO again (because of broken portrait mode)
+------------------------------
+ROM changes:
+==============================
+CarrierSettings: Update from RD1A.201105.003.C1
+Evolver: NetworkTraffic: Show arrows for all net activity types
+Fix issue with widgets not working properly
+Fix Papers app not loading
+Fix wireless emergency alerts issue
+FODCircleView: ensure that when we check for bouncer, we're on keyguard
+FODCircleView: various improvements
+NetworkTraffic: Use custom fonts
+PermissionManagerService: Correct don't enforce privapp perms for updated system apps
+Ship CarrierSettings, replacing apns-conf and CarrierConfig
+SystemUI: Add config_controlsPreferredPackages
+SystemUI: Don't shift KeyguardSecurityContainer when FOD isn't available
+SystemUI: Implement Smart space from redfin 11
+Updater: Improve blocked update dialog message
+Use Pixel APNs
+base: overlay: fix volume panel arrow in Viktor and Sam icon packs
+config: Disable forced camera audio by default
+sepolicy: Allow netutils to use dac_override
