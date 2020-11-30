@@ -1,0 +1,35 @@
+Device changes:
+==============================
+1)Enforcing
+2)Offline charging fixed
+3)notification icons bug fixed
+4)performance improvements
+5)kernel upstreamed to 209
+6)nov security patch
+7)added xiaomi parts
+8)NFC fixed
+9)WFD fixed
+10)notch cutout layout improved
+11)Updated blobs from MIUI 12.0.2
+12)switched to redfin nov fp
+13)Updated display/Wfd stack to LA.UM.9.11.r1-02100-NICOBAR.0
+14)Added Gcam Go
+------------------------------
+ROM changes:
+==============================
+Evolver: FOD icon picker
+Evolver: NetworkTraffic: Show arrows for all net activity types
+Fix issue with widgets not working properly
+Fix Papers app not loading
+Fix wireless emergency alerts issue
+NetworkTraffic: Use custom fonts
+PermissionManagerService: Correct don't enforce privapp perms for updated system apps
+Screenshot tile: improve code
+SystemUI: Add config_controlsPreferredPackages
+SystemUI: Don't shift KeyguardSecurityContainer when FOD isn't available
+SystemUI: Implement Smart space from redfin 11
+Updater: Improve blocked update dialog message
+Use Pixel APNs
+base: overlay: fix volume panel arrow in Viktor and Sam icon packs
+config: Disable forced camera audio by default
+sepolicy: Allow netutils to use dac_override
