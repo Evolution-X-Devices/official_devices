@@ -199,6 +199,34 @@
    },
    {
       "brand": "OnePlus",
+      "codename": "cheeseburger",
+      "name": "OnePlus 5",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pavan Parmeshwar",
+            "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-unified-official-evolution-x-eleanor-22-11-20.4193365/"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "dumpling",
+      "name": "OnePlus 5T",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pavan Parmeshwar",
+            "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-unified-official-evolution-x-eleanor-22-11-20.4193365/"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
       "codename": "enchilada",
       "name": "OnePlus 6",
       "supported_versions": [
