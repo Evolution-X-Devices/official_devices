@@ -501,6 +501,7 @@
       "name": "POCO F1",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "_undead",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=4867044",
             "version_code": "ten",
