@@ -1,0 +1,102 @@
+Device changes:
+==============================
+Switch to Redfin's Dec 2020 fingerprint
+Upstream kernel to 4.9.244
+Update OnePlus Gallery (4.0.94 --> 4.0.109)
+DeviceSettings: Update HBM tile & switch on screen off
+DeviceSettings: Add Device Extras QS tile
+
+ROM changes:
+==============================
+12/9
+
+f/native: Correct physical orientation
+
+Merge December security patches
+Netd: Add support for quotaReachedAlert event
+netd: restrict DNS names
+Remove unused locale data for recovery
+Revert safetynet hacks (they break screen off voice match)
+sepolicy: Add googlebattery rules
+ThemePicker: show scrollbar on clock faces
+ThemePicker: Use more descriptive icon pack names
+Update translations
+
+
+12/8
+
+Adapt session API for newly added AudioPolicyService code
+Only play sound effects if stream is not muted
+Request to reset effect buffer in clearInputBuffer
+Settings: Remove unused translations
+stagefright: add changes related to high-framerates in CameraSource
+
+
+12/7
+
+base: add zen mode off hook to prevent problems with ringer mode
+Catch IllegalStateException when verify APK
+ColorBucket: Improve Transparent theme
+Evolver: Bring back option to launch default music player on headset connect
+Settings: Allow to hide arrow for back gesture
+Settings: expose auto night mode sunset and sunrise values on API
+Update swap volume keys on rotation
+
+
+12/6
+
+apn: Ting: Adding missing flag to list of types
+Fix renaming file and moving file issue in MTP
+SystemUI: Always show LTE+/4G+ when applicable
+SystemUI: AssistDisclosure respect device corners
+
+
+FOD devices ONLY
+
+FODCircleView: Hide animation when auth fails
+
+
+11/30 - 12/5
+
+Add Google Sans Font overlay
+Add screenshot back to power menu
+base: Fix unnecessary truncation in Slice
+Battery percentage: Improve hidden style
+Clocks: User toggle to show/hide status area
+config: Disable forced camera audio by default
+Evolver: Nuke HeadsUp Snooze and Timeout
+Evolver: Separate battery estimate from percent for QS
+LockIcon: refresh icon on overlay changes
+Keyguard: add binary custom clock face
+KeyguardClockSwitch: Fix missing status view on custom clocks
+NetworkPolicyManagerService: Fix network isolation for secondary users
+Papers: Update credits and json link
+Properly theme ScreenshotUI buttons
+QS rows&columns: use fixed values if landscape and playing media
+Screenshot tile: improve code
+ScreenshotSelector: handle rotation issues
+Settings: Add support for per app network isolation
+Settings: Double tap to trigger doze
+SystemUI: Disable junky LS clock & slice transition animations
+SystemUI: ensure keyguardstatusbar is hidden if not on keyguard
+TypeClock: Add 24h format support
+
+
+FOD devices ONLY
+
+Evolver: Add FOD icon picker
+Evolver: Add FOD pressed colors options
+Evolver: Allow user to disable night light on FOD
+Evolver: Update name for Cyberpunk 2077 FOD animation
+FODAnimation: Convert png to webp
+FODCircleView: changes to FOD circle and animation visibility
+SystemUI: Don't show FOD icon/pad keyguard if strong auth is required
+
+
+11/29
+
+Bring back Show Ambient instead of lockscreen on wake gestures
+CarrierSettings: Update from RD1A.201105.003.C1
+config: Disable forced camera audio by default
+Ship CarrierSettings, replacing apns-conf and CarrierConfig
+
