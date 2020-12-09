@@ -1,0 +1,22 @@
+Device changes:
+==============================
+Remove OemDmTrigger and Prebuilt Gmail
+------------------------------
+ROM changes:
+==============================
+Evolver: FOD icon picker
+Evolver: NetworkTraffic: Show arrows for all net activity types
+Fix issue with widgets not working properly
+Fix Papers app not loading
+Fix wireless emergency alerts issue
+NetworkTraffic: Use custom fonts
+PermissionManagerService: Correct don't enforce privapp perms for updated system apps
+Screenshot tile: improve code
+SystemUI: Add config_controlsPreferredPackages
+SystemUI: Don't shift KeyguardSecurityContainer when FOD isn't available
+SystemUI: Implement Smart space from redfin 11
+Updater: Improve blocked update dialog message
+Use Pixel APNs
+base: overlay: fix volume panel arrow in Viktor and Sam icon packs
+config: Disable forced camera audio by default
+sepolicy: Allow netutils to use dac_override

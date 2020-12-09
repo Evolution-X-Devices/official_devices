@@ -199,6 +199,34 @@
    },
    {
       "brand": "OnePlus",
+      "codename": "cheeseburger",
+      "name": "OnePlus 5",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pavan Parmeshwar",
+            "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-unified-official-evolution-x-eleanor-22-11-20.4193365/"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "dumpling",
+      "name": "OnePlus 5T",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pavan Parmeshwar",
+            "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-unified-official-evolution-x-eleanor-22-11-20.4193365/"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
       "codename": "enchilada",
       "name": "OnePlus 6",
       "supported_versions": [
@@ -473,6 +501,7 @@
       "name": "POCO F1",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "_undead",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=4867044",
             "version_code": "ten",
@@ -545,8 +574,8 @@
          {
             "maintainer_name": "MADMAX",
             "maintainer_url": "https://github.com/madmax7896",
-            "version_code": "ten",
-            "version_name": "Ten",
+            "version_code": "eleven",
+            "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-8/development/evolution-x-4-6official-ginkgo-willow-t4162211/post83488341#post83488341"
          }
       ]
