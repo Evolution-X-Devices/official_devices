@@ -1,0 +1,150 @@
+Device changes:
+==============================
+Updated Sunfish Dec 2020 fingerprint
+Added media_profiles to fix malformed codec
+Added camera blobs from picasso
+Some Misc changes and improvements
+
+ROM changes:
+==============================
+12/9
+f/native: Correct physical orientation
+Merge December security patches
+netd: restrict DNS names
+Remove unused locale data for recovery
+Revert safetynet hacks (they break screen off voice match)
+sepolicy: Add googlebattery rules
+ThemePicker: show scrollbar on clock faces
+ThemePicker: Use more descriptive icon pack names
+Update translations
+
+12/8
+Adapt session API for newly added AudioPolicyService code
+Only play sound effects if stream is not muted
+Request to reset effect buffer in clearInputBuffer
+Settings: Remove unused translations
+stagefright: add changes related to high-framerates in CameraSource
+
+12/7
+base: add zen mode off hook to prevent problems with ringer mode
+Catch IllegalStateException when verify APK
+ColorBucket: Improve Transparent theme
+Evolver: Bring back option to launch default music player on headset connect
+Settings: Allow to hide arrow for back gesture
+Settings: expose auto night mode sunset and sunrise values on API
+Update swap volume keys on rotation
+
+12/6
+apn: Ting: Adding missing flag to list of types
+Fix renaming file and moving file issue in MTP
+SystemUI: Always show LTE+/4G+ when applicable
+SystemUI: AssistDisclosure respect device corners
+
+11/30 - 12/5
+Add Google Sans Font overlay
+Add screenshot back to power menu
+base: Fix unnecessary truncation in Slice
+Battery percentage: Improve hidden style
+Clocks: User toggle to show/hide status area
+config: Disable forced camera audio by default
+Evolver: Nuke HeadsUp Snooze and Timeout
+Evolver: Separate battery estimate from percent for QS
+LockIcon: refresh icon on overlay changes
+Keyguard: add binary custom clock face
+KeyguardClockSwitch: Fix missing status view on custom clocks
+NetworkPolicyManagerService: Fix network isolation for secondary users
+Papers: Update credits and json link
+Properly theme ScreenshotUI buttons
+QS rows&columns: use fixed values if landscape and playing media
+Screenshot tile: improve code
+ScreenshotSelector: handle rotation issues
+Settings: Add support for per app network isolation
+Settings: Double tap to trigger doze
+SystemUI: Disable junky LS clock & slice transition animations
+SystemUI: ensure keyguardstatusbar is hidden if not on keyguard
+TypeClock: Add 24h format support
+
+11/29
+Bring back Show Ambient instead of lockscreen on wake gestures
+CarrierSettings: Update from RD1A.201105.003.C1
+config: Disable forced camera audio by default
+Ship CarrierSettings, replacing apns-conf and CarrierConfig
+
+11/28
+base: overlay: fix volume panel arrow in Viktor and Sam icon packs
+Evolver: NetworkTraffic: Show arrows for all net activity types
+NetworkTraffic: Use custom fonts
+PermissionManagerService: Correct don't enforce privapp perms for updated system apps
+sepolicy: Allow netutils to use dac_override
+SystemUI: Add config_controlsPreferredPackages
+SystemUI: Implement Smart space from redfin 11
+Updater: Improve blocked update dialog message
+
+11/27
+Add IconShapeMallowOverlay
+Bring back our custom fonts
+Evolver: Listanimation Views and Interpolator
+Fix: No text in toast for RTL layout
+Ship CarrierSettings, replacing apns-conf and CarrierConfig
+Show icon of package associated with Toast
+
+11/26
+Evolver: Option for Up, Down as well for Network Traffic
+Fixed Handler Leak on DistanceClassifier
+fixup! DozeSensors: Only use proximity sensor if supported
+PackageManagerService: Protect forced enabled components at runtime
+Statusbar clock: make it play better with expanded QS date
+
+11/25
+Avoid casting network traffic to StatusBarIconView to prevent crash
+Evolver: Add a toggle for QS footer text
+Evolver: Add ambient pulse and aod notifications
+Evolver: Add back more battery bar locations
+Evolver: Add navigation bar visibility control
+Evolver: Allow customizing footer text
+Evolver: Allow hiding the lock icon on lockscreen
+Evolver: Network traffic location
+fixup! HeadsUp: add timeout option
+fixup! Pocket lock improvements
+LockscreenShortcuts: enable default shortcuts
+Papers: Update credits
+Remove broken Ambient on wake gestures toggle
+Settings: Live Volume Steps
+StatusBarIconController: Guard yet another function from cast exception
+SystemUI: make the battery saver tile useful
+
+11/24
+Add Divided Lines Clock
+Add Language QS toggle
+Add Xtended Clear style
+Camera: Allow devices to load custom CameraParameter code
+Camera: check metadata type before releasing frame
+Completely disable Google Now playing (fixes stutters in audio/video)
+Disable Night Light when unlocking with FOD on lockscreen
+Enable Quick Wallet settings for all devices with NFC
+FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+Fix Carrier Services crashes
+Fix Chrome sign in issues
+Fix SystemUI bubbles crash
+Fix high battery drain after using flashlight
+Fix lockscreen wallpaper issue
+Improve NfcAdapter APIs to report correct nfc state
+Improve hiding FOD animations when disabled
+Introduce PixelPropsUtils (spoofs device as Pixel 5 for several google apps)
+Nuke Ambient Pulse notification and other animation options (which may have caused the bubbles crash)
+Nuke Google's Now Playing (not working)
+OPScreenRecorder: Fix notification text on dark theme
+Pocket lock: Improve on fod devices
+Properly set fonts and icons on keyguard when changing styles
+Settings: Add setup UI for minimum delay between an app's notification sounds
+Settings: Don't show module version if isn't a date
+Settings: FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+Settings: Navigation mode settings (back gesture height)
+Settings: Optional haptic feedback on back gesture
+Smoother Upload and Download Animations
+SystemUI: Allow showing VoWiFi and VoLTE icons together
+SystemUI: Show carrier name of opposite slot in DataSwitch tile label
+SystemUI: Update automatic brightness drawables
+Update default wallpaper
+libstagefright: Fix memory leak due to lock timeout
+
