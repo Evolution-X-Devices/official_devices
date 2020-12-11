@@ -1,0 +1,25 @@
+Device changes:
+==============================
+*Switched to december redfin fp
+*Added blur back(Reboot is required after enabling blur in dev options)
+*Switched to SurgeX R kernel
+*Kernel upstreamed to 211
+*Added smart charging
+*Added fps info
+*Switched to new DT2W node
+
+!Note:- Clean flash is required if coming from a10
+
+------------------------------
+ROM changes:
+==============================
+*Fixed APN issue
+*Accents: Add Midnight Purple
+*Bring back Smart Charging support
+*Evolver: Allow choosing screenshot gesture delay
+*pixelstyle: Update permissions
+*Remove click to take partial screenshot
+*Settings: Categorize battery settings
+*Settings: Revert previous fuelgauge impl
+*Add Google Sans Font overlay
+*Add screenshot back to power menu
