@@ -1,8 +1,253 @@
-- November security patch
-- kernel Upstreamed to 4.9.241
-- Fixed Themes crashing issue
-- CTS pass by default & banking apps working without root
-- Implemented Realme Settings (Inside it, sRGB mode, Gaming Mode, USB-OTG, Smart Overnight Charging)
-- Implemented Dirac Audio for better sound experience
-- Many more underhood changes to make the overall experience even better
+DEVICE SIDE CHANGELOG:-
+
+- December security patch
+- kernel Upstreamed to 4.9.247
+- Import Galaxy settings
+- Many more underhood changes to make the overall experience better
+
+SOURCE SIDE CHANGELOG:-
+
+12/10
+Accents: Add Midnight Purple
+Bring back Smart Charging support
+Evolver: Allow choosing screenshot gesture delay
+pixelstyle: Update permissions
+Remove click to take partial screenshot
+Settings: Categorize battery settings
+Settings: Revert previous fuelgauge impl
+
+12/9
+Merge December security patches
+netd: restrict DNS names
+Remove unused locale data for recovery
+sepolicy: Add googlebattery rules
+ThemePicker: show scrollbar on clock faces
+ThemePicker: Use more descriptive icon pack names
+Update translations
+
+12/8
+Adapt session API for newly added AudioPolicyService code
+Only play sound effects if stream is not muted
+Request to reset effect buffer in clearInputBuffer
+Settings: Remove unused translations
+stagefright: add changes related to high-framerates in CameraSource
+
+12/7
+base: add zen mode off hook to prevent problems with ringer mode
+Catch IllegalStateException when verify APK
+ColorBucket: Improve Transparent theme
+Evolver: Bring back option to launch default music player on headset connect
+Settings: Allow to hide arrow for back gesture
+Settings: expose auto night mode sunset and sunrise values on API
+Update swap volume keys on rotation
+
+12/6
+apn: Ting: Adding missing flag to list of types
+Fix renaming file and moving file issue in MTP
+SystemUI: Always show LTE+/4G+ when applicable
+SystemUI: AssistDisclosure respect device corners
+
+FOD devices ONLY
+FODCircleView: Hide animation when auth fails
+
+11/30 - 12/5
+Add Google Sans Font overlay
+Add screenshot back to power menu
+base: Fix unnecessary truncation in Slice
+Battery percentage: Improve hidden style
+Clocks: User toggle to show/hide status area
+config: Disable forced camera audio by default
+Evolver: Nuke HeadsUp Snooze and Timeout
+Evolver: Separate battery estimate from percent for QS
+LockIcon: refresh icon on overlay changes
+Keyguard: add binary custom clock face
+KeyguardClockSwitch: Fix missing status view on custom clocks
+NetworkPolicyManagerService: Fix network isolation for secondary users
+Papers: Update credits and json link
+Properly theme ScreenshotUI buttons
+QS rows&columns: use fixed values if landscape and playing media
+Screenshot tile: improve code
+ScreenshotSelector: handle rotation issues
+Settings: Add support for per app network isolation
+Settings: Double tap to trigger doze
+SystemUI: Disable junky LS clock & slice transition animations
+SystemUI: ensure keyguardstatusbar is hidden if not on keyguard
+TypeClock: Add 24h format support
+
+FOD devices ONLY
+Evolver: Add FOD icon picker
+Evolver: Add FOD pressed colors options
+Evolver: Allow user to disable night light on FOD
+Evolver: Update name for Cyberpunk 2077 FOD animation
+FODAnimation: Convert png to webp
+FODCircleView: changes to FOD circle and animation visibility
+SystemUI: Don't show FOD icon/pad keyguard if strong auth is required
+
+11/29
+Bring back Show Ambient instead of lockscreen on wake gestures
+CarrierSettings: Update from RD1A.201105.003.C1
+config: Disable forced camera audio by default
+Ship CarrierSettings, replacing apns-conf and CarrierConfig
+
+11/28
+base: overlay: fix volume panel arrow in Viktor and Sam icon packs
+Evolver: NetworkTraffic: Show arrows for all net activity types
+NetworkTraffic: Use custom fonts
+PermissionManagerService: Correct don't enforce privapp perms for updated system apps
+sepolicy: Allow netutils to use dac_override
+SystemUI: Add config_controlsPreferredPackages
+SystemUI: Implement Smart space from redfin 11
+Updater: Improve blocked update dialog message
+
+11/27
+Add IconShapeMallowOverlay
+Bring back our custom fonts
+Evolver: Listanimation Views and Interpolator
+Fix: No text in toast for RTL layout
+Ship CarrierSettings, replacing apns-conf and CarrierConfig
+Show icon of package associated with Toast
+
+FOD devices ONLY
+SystemUI: Don't shift KeyguardSecurityContainer when FOD isn't available
+
+11/26
+Evolver: Option for Up, Down as well for Network Traffic
+Fixed Handler Leak on DistanceClassifier
+fixup! DozeSensors: Only use proximity sensor if supported
+PackageManagerService: Protect forced enabled components at runtime
+Statusbar clock: make it play better with expanded QS date
+
+FOD devices ONLY
+Evolver: Add OP8T Cyberpunk 2077 FOD animation
+
+11/25
+Avoid casting network traffic to StatusBarIconView to prevent crash
+Evolver: Add a toggle for QS footer text
+Evolver: Add ambient pulse and aod notifications
+Evolver: Add back more battery bar locations
+Evolver: Add navigation bar visibility control
+Evolver: Allow customizing footer text
+Evolver: Allow hiding the lock icon on lockscreen
+Evolver: Network traffic location
+fixup! HeadsUp: add timeout option
+fixup! Pocket lock improvements
+LockscreenShortcuts: enable default shortcuts
+Papers: Update credits
+Remove broken Ambient on wake gestures toggle
+Settings: Live Volume Steps
+StatusBarIconController: Guard yet another function from cast exception
+SystemUI: make the battery saver tile useful
+
+11/24
+Add Divided Lines Clock
+Add Language QS toggle
+Add Xtended Clear style
+Camera: Allow devices to load custom CameraParameter code
+Camera: check metadata type before releasing frame
+Completely disable Google Now playing (fixes stutters in audio/video)
+Disable Night Light when unlocking with FOD on lockscreen
+Enable Quick Wallet settings for all devices with NFC
+FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+Fix Carrier Services crashes
+Fix Chrome sign in issues
+Fix SystemUI bubbles crash
+Fix high battery drain after using flashlight
+Fix lockscreen wallpaper issue
+Improve NfcAdapter APIs to report correct nfc state
+Improve hiding FOD animations when disabled
+Introduce PixelPropsUtils (spoofs device as Pixel 5 for several google apps)
+Nuke Ambient Pulse notification and other animation options (which may have caused the bubbles crash)
+Nuke Google's Now Playing (not working)
+OPScreenRecorder: Fix notification text on dark theme
+Pocket lock: Improve on fod devices
+Properly set fonts and icons on keyguard when changing styles
+Settings: Add setup UI for minimum delay between an app's notification sounds
+Settings: Don't show module version if isn't a date
+Settings: FeatureFactoryImpl: Implement RoutinesActionBroadcastReceiver
+Settings: Navigation mode settings (back gesture height)
+Settings: Optional haptic feedback on back gesture
+Smoother Upload and Download Animations
+SystemUI: Allow showing VoWiFi and VoLTE icons together
+SystemUI: Show carrier name of opposite slot in DataSwitch tile label
+SystemUI: Update automatic brightness drawables
+Update default wallpaper
+libstagefright: Fix memory leak due to lock timeout
+
+11/14
+Add BatteryHealth section
+Add Volume rocker skip track to Gestures
+Add option to scramble pin layout when unlocking
+Add screen off fod
+Add switch for linked ring and media notification volumes
+Add three-fingers-swipe to screenshot
+Add toggle to enable ADB root
+Add vibration patterns from OOS
+Add volume panel on left toggle
+Allow choosing custom vibration patterns
+Allow customizing the length of gesture navbar
+Allow hiding the gesture navbar
+Allow more legacy apps to use conversation notifications
+Allow to customize notification led light
+Aosp Ambient music: allow to pulse on new tracks
+Configurable 0, 90, 180 and 270 degree rotation
+Enable AOSP Theme Picker to access custom clock styles
+Enable notification LED pulse by default
+Evolver: Add 'Invert layout' to navigation bar settings
+Evolver: Add Lockscreen album art filters
+Evolver: Add QS columns/rows options
+Evolver: Add VoLTE icon toggle
+Evolver: Add animations to quick settings tiles
+Evolver: Add interpolators to qs tiles animation
+Evolver: Add kill button to notification guts
+Evolver: Add option to disable led after full charging
+Evolver: Add quick settings pull down with one finger
+Evolver: Add statusbar battery options
+Evolver: Add toggle for lockscreen charging animation
+Evolver: Add toggle to disable charging animation
+Evolver: Add tunables for navbar layout customization
+Evolver: Add visualizer feature
+Evolver: Allow to enable Lockscreen Media Art
+Evolver: Battery light customization
+Evolver: Brightness slider options
+Evolver: Disabling quick settings on secure lock screens
+Evolver: Double tap to wake on doze
+Evolver: Fingerprint authentication vibration
+Evolver: HeadsUp blacklists
+Evolver: HeadsUp snooze function
+Evolver: HeadsUp: add timeout option
+Evolver: Hide power menu on secure lockscreen
+Evolver: Implement click to take partial screenshot
+Evolver: Incall vibration options
+Evolver: Less boring heads up option
+Evolver: Lockscreen Charging info
+Evolver: Make roaming indicator optional
+Evolver: Pixel Navbar animation toggle
+Evolver: QS tile title visibility
+Evolver: QuickSettings: Add Haptic Feedback to tiles
+Evolver: Recognizing fingerprint animation
+Evolver: Screen off animations
+Evolver: Show 4G instead of LTE switch
+Evolver: Smart Pulldown
+Evolver: Status network traffic
+Evolver: Statusbar brightness control
+Evolver: Statusbar clock/date customization
+Evolver: Torch long press power: add with auto-off function
+Evolver: Unlock keystore with fingerprint after reboot
+Evolver: Volume Rocker Wake
+Evolver: Volume rocker cursor control 
+Evolver: Wake on plug
+Evolver: Wired/BT headset: make ringtone audio focus customizable
+Evolver: allow to swap volume buttons rotation based
+Evolver: allow transparent notifications on lockscreen (on default light and dark theme only)
+Include ADB root feature
+Include ColorBucket (Dark theme styles) from ArrowOS
+Include Double tap to sleep on lockscreen
+Include Seedvault app backup feature from LOS
+Include lockscreen quick unlock
+Include several Lockscreen charging animations
+Increasing ring feature
+Make Inter the default system font
+Make Quick Unlock compatible with long PIN/Password
+Make kernel version clickable
+
 
