@@ -1,0 +1,35 @@
+Device side updates:
+- Switched to Redfin december fingerprint
+- Upstreamed VantomKernel to 4.14.210
+- Fixed charging issues
+- Fixed network traffic issues
+- Fixed Japan region wrong device model
+- battery and performance improvements
+- Fixed some notch area icons issues
+- Misc other fixes
+
+
+Evolution X rom side Updates:
+- December security patch (android-11.0.0_r20)
+- Brought back Smart Charging support
+- Evolver: option to choose screenshot delay
+- Evolver: brought back option to launch default music player on headset connect
+- Allow to hide arrow for back gesture
+- Added Google Sans font overlay (you still need the Magisk module to actually install the font itself. Check Evolution X official telegram channel)
+- Per app network isolation
+- TypeClock: 24h format support
+- Added Divided Lines clock
+- A few more toggles and small tweak options
+- Bring back click to take partial screenshot
+- Fix 2tap2wake after Ambient Pulsing on some device
+- Net monitor: Allow showing in status bar for notched devices
+- Re-implement doubletap/longpress power to toggle torch feature
+- fixup! SystemUI: implement better partial screenshot after r20 merge
+- fixup! core: Volume key cursor control
+- Accents: Add Midnight Purple
+- Bring back Smart Charging support
+- Evolver: Allow choosing screenshot gesture delay
+- pixelstyle: Update permissions
+- Remove click to take partial screenshot
+- Settings: Categorize battery settings
+- Settings: Revert previous fuelgauge impl
