@@ -1,0 +1,38 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.1
+  * Linux 4.9.248
+  * merged CAF tag "LA.UM.9.8.r1-03000-SDM710.0" into the kernel
+  * merged CAF tag "LA.UM.8.3.r1-08800-sdm845.0" into qcacmn, qcacld, and fw-api
+  * silenced a log spam introduced by wmi ext2 bitmap support
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Relaxed thermal throttling on SKIN type sensors
+  * default values from Pixel thermal configs are too aggressive
+  * frame drops in longer gaming sessions should be significantly improved
+  * also dropped unused thermal configs for crosshatch/blueline DEV/PROTO/EVT boards
+- Updated CarrierConfig and some other telephony overlays from LA.UM.9.8.r1-03000-SDM710.0
+- Reduced minimal screen brightness to the lowest possible value
+- Inlined DPM prop changes from R
+- Cleaned up unused audio implementations and updated audio service name
+- Only build the necessary 32/64 bit version of hal implementations
+- Fixed SELinux context for neuralnetworks hal
+- Re-enabled audio custom policy flag and cleaned up flags during android 11 bringup period
+- Addressed some SELinux denials on thermal hal and vendor_init
+
+**Evolution X Update**
+- December security patch (android-11.0.0_r20)
+- Brought back Smart Charging support
+- Evolver: option to choose screenshot delay
+- Evolver: brought back option to launch default music player on headset connect
+- Allow to hide arrow for back gesture
+- Added Google Sans font overlay (you still need the Magisk module to actually install the font itself. Check Evolution X official telegram channel)
+- Per app network isolation
+- TypeClock: 24h format support
+- Added Divided Lines clock
+- A few more toggles and small tweak options
+
+**Notes and Known Issues**
+- "OK Google" hot word does not work
