@@ -1,0 +1,74 @@
+Device:
+
+Updated vendor blobs from OOS 10.3.7
+Updated vendor security patch level from OOS 10.3.7
+Switched to Redfin's Dec 2020 fingerprint
+Disabled hwc vds in surfaceflinger
+Some Sepolicy improvements
+Some overlay cleanup/improvements
+Dropped OnePlus wifi service
+Other WiFI related changes & improvements
+Enabled Smart charging
+Added Touch Gesture category back to OnePlus settings
+Set default burn-in offset
+Built libplatformconfig from source
+Updated DC Dimming Tile icon
+Added a2dp_offload props back
+Built QuickAccessWallet for Wallet cards power menu integration
+Updated init based on based on op8 R/11
+
+Rom:
+
+Evolver: FOD icon picker
+Fix wireless emergency alerts issue
+SystemUI: Add config_controlsPreferredPackages
+SystemUI: Don't shift KeyguardSecurityContainer when FOD isn't available
+SystemUI: Implement Smart space from redfin 11
+config: Disable forced camera audio by default
+Add option to enable AOD on charging only
+Allow to quickly open Running Services from QS panel
+Bring back LiveDisplay
+Evolver: Allow to suppress notifications sound/vibration if screen is ON
+Evolver: Bring back QS battery estimate toggle
+FODCircleView: Enable hardware acceleration
+Grant suspend permission to Flipendo (Extreme Battery Saver)
+Screenrecord: add blinking stop dot and low quality options
+Screenshot tile: persist screenshot type after reboot
+Settings: Add hotspot setting to allow VPN upstreamsAccents: Add Midnight Purple
+Adapt session API for newly added AudioPolicyService code
+Add Google Sans Font overlay
+Bring back Smart Charging support
+Evolver: Add FOD pressed colors options
+Evolver: Allow user to disable night light on FOD
+Evolver: Bring back option to launch default music player on headset connect
+Evolver: Separate battery estimate from percent for QS
+Evolver: Update name for Cyberpunk 2077 FOD animation
+FODAnimation: Convert png to webp
+FODCircleView: Hide animation when auth fails
+FODCircleView: changes to FOD circle and animation visibility
+Keyguard: add binary custom clock face
+LockIcon: refresh icon on overlay changes
+Merge December security patches
+Properly theme ScreenshotUI buttons
+QS rows&columns: use fixed values if landscape and playing media
+Screenshot tile: improve code
+ScreenshotSelector: handle rotation issues
+Settings: Allow to hide arrow for back gesture
+Settings: Double tap to trigger doze
+Settings: Remove unused translations
+SystemUI: Always show LTE+/4G+ when applicable
+SystemUI: AssistDisclosure respect device corners
+SystemUI: Disable junky LS clock & slice transition animations
+SystemUI: Don't show FOD icon/pad keyguard if strong auth is required
+ThemePicker: Use more descriptive icon pack names
+ThemePicker: show scrollbar on clock faces
+TypeClock: Add 24h format support
+Update swap volume keys on rotation
+apn: Ting: Adding missing flag to list of types
+base: Fix unnecessary truncation in Slice
+base: add zen mode off hook to prevent problems with ringer mode
+pixelstyle: Update permissions
+sepolicy: Add googlebattery rules
+stagefright: add changes related to high-framerates in CameraSource
+More!
+
