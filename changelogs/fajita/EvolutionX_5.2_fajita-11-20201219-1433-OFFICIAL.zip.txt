@@ -1,0 +1,69 @@
+Device changes:
+==============================
+Remove no longer used Brightness Settings
+Use Bonito Brightness Curve
+Enable SmartCharging Support
+Add OnePlus Camera Support
+Update aptx blobs from Coral
+Set default Green FOD pressed color
+Fixed network traffic issues in statusbar
+Fixed some notch area icons issues
+
+Note:
+==============================
+if you face forceclose in oneplus camera then try to clean flash
+
+==============================
+Add Previous track action to LineageButtons
+Add callback onA2dpCodecConfigChanged
+Allow back swipe on bottom screen if launcher is showing
+Allow enabling/disabling Ezio's Android 11 powermenu
+Allow extended/"L" back swipe to trigger actions/app/activities
+BLE: Fix NPE during start advertising
+Boost init priority before main loop
+Bring back Gaming mode
+Bring back Smart Charging support
+Bring back click to take partial screenshot
+EvolutionXConfigOverlay: Update default colors
+Evolver: Allow choosing screenshot gesture delay
+Evolver: Expose radio info
+Evolver: Force custom doze brightness and pulse brightness configs
+Extended swipe: show a double arrow when almost triggered
+Fix 2tap2wake after Ambient Pulsing on some device
+Fix remaining BT issues
+Gestures: allow to set back swipe deadzone
+Import more accent colors
+Net monitor: Allow showing in status bar for notched devices
+PermissionController: Implement getPermissionUsages API
+PermissionController: Remove warning from permission dashboard
+Re-implement doubletap/longpress power to toggle torch feature
+Refactor rro_overlays
+Screenshot: inline trigger with AOSP values
+Settings: Categorize battery settings
+Settings: Fix inconsistent USB preference screen title 
+Settings: Fix invalid private DNS help text if URI is missing
+Settings: Fix stray divider in connected devices screen
+Settings: Ignore custom app space management activities
+Settings: Improve battery stats reset strings
+Settings: QR Scanner pass proper frame Width and Height
+Settings: Remove app uninstall and disable confirmation dialogs
+Settings: Remove roaming warning dialog
+Settings: Remove search button from subsettings
+Settings: Revert previous fuelgauge impl
+Settings: Tint data usage bar with activated control color
+SystemUI: Don't render snooze undo button in all-caps
+SystemUI: Improve volume panel expansion/contraction animation
+SystemUI: Skip screen-on animation in all scenarios
+Telephony: Support muting by RIL command
+ThemePicker: Define clocks stub package
+ThemePicker: Use title capitalization for style name field
+apex: Switch to google's NetworkStack
+fixup! SystemUI: implement better partial screenshot after r20 merge
+fixup! core: Volume key cursor control
+increase default max password length to 64
+input: Adjust priority
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+overlay: Extend fix background coloring for settings themed icons
+overlay: Switch to Google's Wireless emergency alerts
+pixelstyle: Update permissions
+sepolicy: Address init denials regarding socket_device 
