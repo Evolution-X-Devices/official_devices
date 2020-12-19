@@ -1,0 +1,16 @@
+Device Side:
+Initial A11 release
+Fixed Bluetooth Audio
+Added Notch Hide (in Developer Options)
+Added DeviceSettings from Android 10
+Add support for battery health
+Upstream kernel to 4.9.247 (by Kailash)
+
+ROM Side:
+Merge December Security patch
+Evo version 5.2
+Bring back Gaming mode
+Allow extended/"L" back swipe to trigger actions/app/activities
+Import more accent colors
+Fix remaining BT issues
+and many more..
