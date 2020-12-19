@@ -1,0 +1,26 @@
+Device changes:
+Switched back to AOSP BT stack (to fix various Bluetooth audio issues)
+Added /misc partition into fstab to fix advanced reboot
+Updated build fingerprint to Coral RQ1A.201205.008
+Updated kernel to Predator-Stormbreaker X4.2 - 4.4.248
+Fixed PowerHAL init for kernels that support powerhints
+Removed more unnecesarry GApps to make .zip smaller
+Updated perfd from taimen - RP1A.201005.004
+WPA_supplicant no longer waits for WiFi to disconnect before suspending WiFi
+Changed screen density to 420 (noscope)
+Removed L1 support to fix Netflix crashes
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.2 - Emerald
+December security patches
+A lot, and I mean a lot, of smaller bug fixes and improvements, and now let's get to the fun stuff
+Revamped network traffic, now in it's full glory
+Brought back Gaming mode
+Brought back the option to automatically launch music player on headset connect
+Brought back click to take partial screenshot 
+Added per app network isolation support
+Added the ability to set back swipe deadzone
+Added the ability for extended "L" back swipe to trigger actions/apps/activities
+Added Google Sans overlays (all you need to do is supply the font .ttf yourself with a Magisk module)
+Refactored rro_overlays
+Much, much more I didn't mention so this changelog isn't 100 lines long
