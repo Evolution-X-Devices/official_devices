@@ -1,0 +1,84 @@
+Device changes:
+==============================
+Fixed offline charging
+Added AptX blobs from redfin
+Switched to WarpKernel
+Added some props to improve battery backup
+Added support for smart charging
+Switched to AOSP bt
+Address some denials
+kernel:Some GPU optimization
+
+ROM changes:
+==============================
+12/18
+Keyguard: reduce bottom text size
+Navbar: Ensure 2/3 button layout options play nice with gesture navbar
+
+12/17
+Add callback onA2dpCodecConfigChanged
+BLE: Fix NPE during start advertising
+EvolutionXConfigOverlay: Update default colors
+Import more accent colors
+Settings: Fix inconsistent USB preference screen title 
+Settings: Fix invalid private DNS help text if URI is missing
+Settings: Fix stray divider in connected devices screen
+Settings: Ignore custom app space management activities
+Settings: QR Scanner pass proper frame Width and Height
+Settings: Remove app uninstall and disable confirmation dialogs
+Settings: Remove roaming warning dialog
+Settings: Tint data usage bar with activated control color
+Telephony: Support muting by RIL command
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+
+12/16
+Add Previous track action to LineageButtons
+Allow back swipe on bottom screen if launcher is showing
+Allow enabling/disabling Ezio's Android 11 powermenu
+Allow extended/"L" back swipe to trigger actions/app/activities
+Boost init priority before main loop
+Evolver: Force custom doze brightness and pulse brightness configs
+Extended swipe: show a double arrow when almost triggered
+Fix remaining BT issues
+Gestures: allow to set back swipe deadzone
+PermissionController: Implement getPermissionUsages API
+PermissionController: Remove warning from permission dashboard
+Refactor rro_overlays
+Settings: Improve battery stats reset strings
+Settings: Remove search button from subsettings
+SystemUI: Don't render snooze undo button in all-caps
+SystemUI: Improve volume panel expansion/contraction animation
+SystemUI: Skip screen-on animation in all scenarios
+ThemePicker: Define clocks stub package
+ThemePicker: Use title capitalization for style name field
+increase default max password length to 64
+input: Adjust priority
+overlay: Switch to Google's Wireless emergency alerts
+overlays: Extend fix background colouring for settings themed icons
+sepolicy: Address init denials regarding socket_device
+vndk: remove libbinder.so from ABI check target
+
+12/14
+Add Button backlight brightness support
+Bring back Gaming mode
+Bring back HW Keys customization support
+Evolver: Expose radio info
+Screenshot: inline trigger with AOSP values
+
+12/13
+Bring back click to take partial screenshot
+Fix 2tap2wake after Ambient Pulsing on some device
+Net monitor: Allow showing in status bar for notched devices
+Re-implement doubletap/longpress power to toggle torch feature
+apex: Switch to google's NetworkStack
+fixup! SystemUI: implement better partial screenshot after r20 merge
+fixup! core: Volume key cursor control
+
+12/10
+Accents: Add Midnight Purple
+Bring back Smart Charging support
+Evolver: Allow choosing screenshot gesture delay
+pixelstyle: Update permissions
+Remove click to take partial screenshot
+Settings: Categorize battery settings
+Settings: Revert previous fuelgauge impl
