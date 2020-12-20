@@ -1,0 +1,20 @@
+Version: 5.2: Emerald
+Merged December security patch
+Disabled ALMK and PPR
+Switched back to thermal.sdm660
+Implemented Smart Charging
+Kernel Rebased over LA.UM.9.2.r1-01300-SDMxx0.0
+Added Midnight Purple accent
+Brought back Gaming mode
+Implement better partial screenshot
+Added screenshot back to power menu
+Added Google Sans Font overlay
+Separated battery estimate from percent for QS
+Allow choosing screenshot gesture delay
+Switched to google's NetworkStack
+Fixed 2tap2wake after Ambient Pulsing
+Fixed keyguardstatusbar is hidden if not on keyguard
+Disabled junky LS clock & sliced transition animations
+Re-implemented doubletap/longpress power to toggle torch
+Added zen mode off hook to prevent problems with ringer mode
+Brought back option to launch default music player on headset connect
