@@ -1,0 +1,13 @@
+==========================
+CHANGELOGS
+==========================
+
+Latest Evolution X Changes.
+Added Adaptive sound and Adaptive connection.
+Added back smart charging.
+Added encryption support.
+FPS info toggle can be now found inside violet parts too.
+Default kernel is 4.14.212 perf-.
+Added live display.
+Added Conveyor Belt live wallpaper(update and check styles and wallpapers).
+USB fast charging feature has been removed from Violet Parts as Azure R Kernel still doesn't support it. It will be added in future builds.
