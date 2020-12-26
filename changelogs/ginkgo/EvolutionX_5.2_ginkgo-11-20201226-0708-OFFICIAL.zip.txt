@@ -1,0 +1,26 @@
+Device changes:
+*Switched back to misoundfx
+*Kernel upstreamed to 212
+*Fixed notch cutout
+*Fixed FM radio
+----------------------------------
+Source changes:
+*Advanced nav gestures: improve code and fix glitches
+*Bring back proper Lockscreen and Navbar Pulse support
+*EvolutionUtils: Allow to get theme accent color from context
+*Evolver: Add VoWiFi icon toggle
+*PixelPropsUtils: Update packages
+*Settings: Enable Adaptive Sound for all
+*Ensure edge lightning is off when we are done with repeats
+*Evolver: Only allow edge lights on AOD when AOD is enabled
+*SystemUI: Implement live wallpapers changes from redfin 11
+*GamingMode: Fix initial value of gaming mode
+*NightDisplay Settings: Use List Preference for NightLight settings
+*SystemUI: Enable permissions hub 2
+*SystemUI: Fix bug with user_setup_complete setting
+*SystemUI: Increase icon padding in QS privacy chip
+*fixup! Gestures: allow to set back swipe deadzone
+*libstagefright: Free buffers on observer died
+*overlay: Enable privacy indicators
+*rro_overlays: Re-enable AOSP sound picker
+
