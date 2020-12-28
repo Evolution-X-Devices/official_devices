@@ -1,0 +1,59 @@
+Device changes:
+==============================
+Added ANXCamera
+Added DPM and Camera blobs from MIUI 20.12.10
+Reduced charging input
+Added support to exfat
+Upstreamed WireGuard version 1.0.20201221
+Some misc changes and CPU optimization
+
+ROM changes:
+==============================
+12/27
+Add Manrope font overlay
+Hidden gestural bar: fix visual glitches when switching states
+Pulse: Fix another solid render FC
+Pulse: Solid render: fix FC when changing units value
+Settings: Implement hide gestural navigation hint bar
+pixelstyle: fonts: Import Manrope and set it as body font
+
+12/26
+Advanced nav gestures: improve code and fix glitches
+Bring back proper Lockscreen and Navbar Pulse support
+EvolutionUtils: Allow to get theme accent color from context
+Fix other lights when backlight uses SurfaceController API
+
+12/25
+UserRestrictionUtils: Return null Bundle if there are no restrictions
+
+12/24
+Keyguard: Allow disabling fingerprint wake-and-unlock
+
+12/23
+Evolver: Add VoWiFi icon toggle
+PixelPropsUtils: Update packages
+Settings: Enable Adaptive Sound for all
+
+12/22
+SystemUI: Fix display cutout handling in expanding volume panel
+
+12/21
+Ensure edge lightning is off when we are done with repeats
+Evolver: Only allow edge lights on AOD when AOD is enabled
+SystemUI: Implement live wallpapers changes from redfin 11
+
+12/20
+GamingMode: Fix initial value of gaming mode
+NightDisplay Settings: Use List Preference for NightLight settings
+SystemUI: Enable permissions hub 2
+SystemUI: Fix bug with user_setup_complete setting
+SystemUI: Increase icon padding in QS privacy chip
+fixup! Gestures: allow to set back swipe deadzone
+libstagefright: Free buffers on observer died
+overlay: Enable privacy indicators
+rro_overlays: Re-enable AOSP sound picker
+
+12/19
+SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+
+ 
