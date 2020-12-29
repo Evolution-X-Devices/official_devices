@@ -1,0 +1,27 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.1
+  * Linux 4.9.248
+  * merged CAF tag "LA.UM.9.8.r1-03200-SDM710.0" into the kernel
+  * wireguard 1.0.20201221
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Merged CAF changes on init.qcom.rc
+- Fixed screen-on OK Google
+- Updated the default APN configs for major Chinese carriers
+  * China Unicom and China Telecom users should see improvements on the speed and stability of mobile data
+- Merged changes on WifiOverlay and WCNSS configs from crosshatch
+- Merged zram writeback policy change from Pixel
+- Addressed SELinux denials on init, vppservice, and thermal hal
+
+**Evolution X Update**
+- Brought back click to take partial screenshot
+- Brought back Gaming Mode
+- Option to set back swipe gesture deadzone
+- Added VoWiFi icon toggle
+- Brought back navbar and lockscreen pulse
+
+**Notes and Known Issues**
+- Hardware-based "OK Google" hotword does not work when screen is off. Screen-on "OK Google" is fine.
