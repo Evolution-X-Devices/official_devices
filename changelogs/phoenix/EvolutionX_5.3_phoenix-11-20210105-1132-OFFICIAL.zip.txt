@@ -1,0 +1,62 @@
+Device changes:
+==============================
+Updated Sunfish Jan 2021 fingerprint
+Upstreamed to 4.14.213
+Fixed processing of 2x shots on ANXCamera
+Switch Skia rendering backend to Vulkan
+Many Misc changes in kernel
+
+ROM changes:
+==============================
+1/5
+BatteryService: Add support for oem fast charger detection
+Merge January 2021 security patches
+NotificationPanelViewController: Fix DT2S gesture handling
+fixup! camera: Support exposing aux camera to apps
+sepolicy: common: dynamic: Replace packageblacklist with packageexludelist
+
+1/4
+[Bugfix] Fix the wrong lastBackgroundTime in UidRecord
+NavBar: Don't crash when we can't find navigation overlays
+SystemUI: AODTile: cycle through AOD state
+
+1/2
+SystemUI: fix layout of qs header info
+
+1/1/2021
+Fix lockscreen wallpaper not being set if different from the Home one
+Lockscreen MediaArt: hide if media is not playing
+
+12/31
+Bring back QS tile disco feature
+Bring back POSP Volume panel styles
+Bring back RGB Accent picker feature
+Bring back Screen recorder delete action from notification
+Move theme settings back into Evolver
+Settings: Move blur toggle to Display options
+
+12/30
+Add Headphones Buddy QS tile
+Bring back QS header image feature
+Bring back QS tint toggle from A10
+MediaCodecInfo: do not alter performance points for 32-bit processes
+MediaCodecInfo: limit resolution to 4K for 32-bit processes
+SystemUI: SIM PIN1 lock screen abnormal
+apns: Update T-Mobile US to reflect latest carrier changes
+audio: Discard QTI only codecs when AOSP BT stack is in use
+base: Properly regenerate the share drawable
+
+12/29
+Bring back QS tile style picker
+NotificationShadeDepthController: updateShadeBlur if keyguard is going away
+QuickStatusBarHeader: spawn blur if qs has been force expanded
+SystemUI: Fix size of icon of vibrate ringer mode for additional icon packs
+
+12/28
+Extend Pulse to Ambient Screen
+Pulse: Clean up redundant audio session id
+Pulse: Consolidate functions and fix NPE
+Pulse: correctly stop it on screen OFF events
+SystemUIGoogle port: don't override aosp scrim controller
+vendor: Only build Google Apex with Gapps
+ 
