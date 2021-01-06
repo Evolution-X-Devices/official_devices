@@ -1,0 +1,49 @@
+Device:
+
+Sepolicy impovements
+Updated to redfin's Jan 2021 FP
+Private-app permissions are now enforced
+Removed Gcam go (blame Google) Install whatever GCam version you prefer
+Reverted "Disabled hwc vds in surfaceflinger"
+Upsteamed neutrino kernel to latest Linux stable (4.14.212)
+
+Rom:
+
+Gaming mode
+Merge January 2021 security patches
+NotificationPanelViewController: Fix DT2S gesture handling
+Bring back QS tile disco feature
+Bring back POSP Volume panel styles
+Bring back RGB Accent picker feature
+Bring back Screen recorder delete action from notification
+Move theme settings back into Evolver
+Settings: Move blur toggle to Display options
+Add Headphones Buddy QS tile
+Bring back QS header image feature
+Bring back QS tint toggle from A10
+Bring back QS tile style picker
+MediaCodecInfo: do not alter performance points for 32-bit processes
+MediaCodecInfo: limit resolution to 4K for 32-bit processes
+audio: Discard QTI only codecs when AOSP BT stack is in use
+Advanced nav gestures: improve code and fix glitches
+Bring back proper Lockscreen and Navbar Pulse support
+Ensure edge lightning is off when we are done with repeats
+EvolutionUtils: Allow to get theme accent color from context
+Evolver: Add VoWiFi icon toggle
+Evolver: Only allow edge lights on AOD when AOD is enabled
+GamingMode: Fix initial value of gaming mode
+Keyguard: reduce bottom text size
+Navbar: Ensure 2/3 button layout options play nice with gesture navbar
+NightDisplay Settings: Use List Preference for NightLight settings
+PixelPropsUtils: Update packages
+Settings: Enable Adaptive Sound for all
+SystemUI: Enable permissions hub 2
+SystemUI: Fix bug with user_setup_complete setting
+SystemUI: Implement live wallpapers changes from redfin 11
+SystemUI: Increase icon padding in QS privacy chip
+SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+UserRestrictionUtils: Return null Bundle if there are no restrictions
+fixup! Gestures: allow to set back swipe deadzone
+libstagefright: Free buffers on observer died
+overlay: Enable privacy indicators
+More!
