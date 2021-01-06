@@ -1,0 +1,38 @@
+Note:
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.1
+  * Linux 4.9.249
+  * updated Energy Model from real-world measurements based on freqbench
+  * synaptics_dsx_force: optimized irq handling and fixed some bugs. Touchscreen on JDI panels should be more responsive
+  * scsi: ufs: only create one pm_qos object for irq
+  * reverted back to stock dts on notification LED bindings
+  * toned down the top-app boost that was increased in early android 11 bringups
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Reworked light HAL
+  * switched to aidl implementation from hidl
+  * rewrote light HAL to use stock LED breathe effect from Xiaomi. LED blinks should be smooth and natural.
+  * fixed LED priority so that new notifications will cause LED to blink even when the phone is charging (charging used to only keep LED on constantly regardless of having notifications or not)
+- Implemented cached double-tap-to-wake path
+  * double-tap-to-wake feature now has lower latency and is more reliable
+- Cleaned up and merged CAF changes to init scripts
+  * removed nonexistent entries like ro.data.large_tcp_window_size, clkscale_enable, zram_swap, oom_reaper
+  * changed sysfs control node to system:graphics
+  * changed rate_limit_us to {up,down}_rate_limit_us, following kernel changes
+  * disabled watermark_scale_factor
+- Switched to CAF ims implementation
+- Removed obsolete dex settings
+
+**Evolution X Update**
+- January security patch
+- Brought back QS tile style picker
+- Brought back QS header image
+- Brought back QS tint toggle
+- Fixed SystemUI crash of navbar pulse when navbar is hidden. Use "Show pill" to hide navbar.
+- Brought back QS tile disco
+- Brought back POSP volume panel
+
+**Notes and Known Issues**
+- Hardware-based "OK Google" hotword does not work when screen is off. Screen-on "OK Google" is fine.
