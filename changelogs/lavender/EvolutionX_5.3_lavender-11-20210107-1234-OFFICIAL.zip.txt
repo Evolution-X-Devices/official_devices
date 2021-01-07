@@ -1,0 +1,29 @@
+Device changes:
+Added support for Smart Charging
+Updated blobs from LA.UM.8.2.r1-07400-sdm660.0
+Updated fingerprint from Redfin - RQ1A.210105.003
+Resolved a few denials related to camera
+Dropped custom DHCP ranges in TetheringOverlay
+TetheringOverlay and WifiOverlay now gets signed with default cert
+Enabled VR high perfomance options
+Keep biometrics in system-background
+Tweaked GPS config files
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.3 - Lightning
+January security patches
+Updated gapps to RQ1A.210105.003
+Evolver: Added VoWiFi icon toggle
+PixelPropsUtils: Updated packages
+Settings: Enabled Adaptive Sound for all
+Brought back proper Lockscreen and Navbar Pulse support
+Settings: Implemented hide gestural navigation hint bar
+pixelstyle: fonts: Imported Manrope and set it as body font
+Extended Pulse to Ambient Screen
+Brought back QS tile style picker
+Brought back QS tint toggle from A10
+Brought back QS header image feature
+Move theme settings back into Evolver
+Brought back RGB Accent picker feature
+Brought back POSP Volume panel styles
+Brought back QS tile disco feature
