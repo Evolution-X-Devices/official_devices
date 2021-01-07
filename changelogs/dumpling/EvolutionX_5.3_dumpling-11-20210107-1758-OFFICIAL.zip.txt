@@ -1,0 +1,18 @@
+Merge January 2021 security patches
+Bring back POSP Volume panel styles
+Bring back RGB Accent picker feature
+Bring back QS header image feature
+Bring back QS tint toggle from A10
+Bring back QS tile style picker
+Implement hide gestural navigation hint bar
+Fonts: Import Manrope and set it as body font
+Evolver: Add VoWiFi icon toggle
+PixelPropsUtils: Update packages
+Settings: Enable Adaptive Sound for all
+Allow extended/"L" back swipe to trigger actions/app/activities
+Add Button backlight brightness support
+Bring back Gaming mode
+Bring back HW Keys customization support
+Bring back click to take partial screenshot
+
+For more detailed info, visit EvolutionX's Github page for more changes
