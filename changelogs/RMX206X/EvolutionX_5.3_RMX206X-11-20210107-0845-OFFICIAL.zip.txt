@@ -1,0 +1,12 @@
+Device changes:
+==============================
+Changes for Android 11 added through device tree
+------------------------------
+ROM changes:
+==============================
+
+Fixed Hotword (Ok Google) detection in screen off state
+Fixed text messages not sending or receiving
+Fixed unable to use fp on other apps (Gpay , etc)
+Added selectable refresh rate option (under display option)
+Other few changes
