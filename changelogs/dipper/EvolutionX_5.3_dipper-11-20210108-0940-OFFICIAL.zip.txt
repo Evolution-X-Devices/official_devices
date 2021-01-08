@@ -1,0 +1,22 @@
+**Device Changes:**
+- Merge LA.UM.9.3.r1-00500-sdm845.0 CAF tag to kernel
+- Update qcacld-3.0 drivers from LA.UM.9.3.r1-00500-sdm845.0
+- Switch to AOSP NFC (should fix payments)
+- Reworked light HAL
+- Enable Smart Charging (needs testing)
+- Implemented cached double-tap-to-wake path
+- Switched to CAF ims implementation
+- Other kernel updates and fixes
+
+**Source Changes**
+- January security patch
+- Update gapps to RQ1A.210105.003
+- Brought back QS tile style picker
+- Brought back QS header image
+- Brought back QS tint toggle
+- Fixed SystemUI crash of navbar pulse when navbar is hidden. Use "Show pill" to hide navbar.
+- Brought back QS tile disco
+- Brought back POSP volume panel
+- Remove Adaptive navbar
+
+Have a geeat new year!
