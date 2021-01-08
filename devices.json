@@ -33,10 +33,11 @@
       "name": "Zenfone 5",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "emincangencer",
             "maintainer_url": "https://github.com/emincangencer",
-            "version_code": "ten",
-            "version_name": "Ten",
+            "version_code": "eleven",
+            "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/asus-zenfone-5-2018/development/rom-evolution-x-4-3-t4104209"
          }
       ]
