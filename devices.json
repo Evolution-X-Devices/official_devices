@@ -33,7 +33,6 @@
       "name": "Zenfone 5",
       "supported_versions": [
          {
-            "deprecated": true,
             "maintainer_name": "emincangencer",
             "maintainer_url": "https://github.com/emincangencer",
             "version_code": "eleven",
