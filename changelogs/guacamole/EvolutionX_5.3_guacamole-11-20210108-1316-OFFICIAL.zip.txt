@@ -1,0 +1,36 @@
+=======================
+Rom Changes
+=======================
+1/7
+NfcA: Fix an NPE in constructor
+Nuke Adaptive navbar
+Upstream QTI bt security patches
+
+1/6
+CarrierSettings: Update from RQ1A.210105.003
+Evolver: Disable navbar visibility toggle on non-hwkeys devices
+Evolver: Fix default values and summaries for Battery Bar colors
+Evolver: QS Panel: Add the ability to hide/show Edit icon
+SystemUI: add FloatingRotationButton for hw-key devices
+gms: Update gapps to RQ1A.210105.003
+prebuilt/common: update APNs for Chinese carriers
+
+1/5
+BatteryService: Add support for oem fast charger detection
+Merge January 2021 security patches
+NotificationPanelViewController: Fix DT2S gesture handling
+fixup! camera: Support exposing aux camera to apps
+sepolicy: common: dynamic: Replace packageblacklist with packageexludelist
+
+1/4
+[Bugfix] Fix the wrong lastBackgroundTime in UidRecord
+NavBar: Don't crash when we can't find navigation overlays
+SystemUI: AODTile: cycle through AOD state
+
+1/2
+SystemUI: fix layout of qs header info
+
+=======================
+Device Changes
+======================= 
+None
