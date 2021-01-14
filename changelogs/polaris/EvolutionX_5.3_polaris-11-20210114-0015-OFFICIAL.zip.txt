@@ -1,0 +1,27 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.2
+  * Linux 4.9.251
+  * cleaned up and merged CAF tag `LA.UM.9.3.r1-00500-sdm845.0`
+  * backported arm64 optimized assembly routine from mainline kernel: NEON accelerated XOR implementation, faster checksum, consistently enabling crc32 extension, and bug fixes in copy
+  * use atomic update for clkgate_enable so that frequent toggling from power hint does not cause a timeout
+  * use WQ_HIGHPRI for UFS gating work
+  * minimized qos remap updates in sde plane
+  * updated sdFAT to 2.4.5
+  * inlined spinlock function family
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Fixed OK Google hotword enrollment
+- Brought back UFS clkgate and hibern8 power hints on LAUNCH for faster app opening
+- Enabled iwlan legacy mode
+- Merged CAF changes on init.qcom.usb.sh
+- Built libwfdaac_vendor from source
+
+**Evolution X Update**
+- Patched keystore to pass SafetyNet again
+- Added toggle for signature spoofing
+- Added more lockscreen charging styles
+- QS panel opacity option
+- Misc fixes
