@@ -1,0 +1,11 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Removed UFS clkgate and hibern8 power hints on LAUNCH to avoid kernel ufshcd_abort on some phones
+- Etude kernel: Op.11 No.2
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+
+**Evolution X Update**
+- Nothing
