@@ -1,0 +1,84 @@
+Note:
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+Twrp not included.
+
+Device changes:
+==============================
+Kernel Upstreamed to 4.9.250
+Add TetheringOverlay
+Fix dialer app crash
+Revert newly added hotwordenrollment blobs
+Use CodeAurora ImsService implementation for RCS
+Improve vibration configs
+
+ROM changes:
+==============================
+1/15
+Evolver: QS status bar opacity
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Use AVCProfileMain for screen recorder
+
+1/14
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+SoundSettings: Add charging vibration settings
+
+FOD devices ONLY
+FODAnimation: Make sure we don't add the view twice
+fixup! Move charging animation above FOD icon if FOD is active
+SystemUI: Update keyguard indication margin when FOD is in use
+
+1/13
+Cache stream volumes to prevent ANR
+KeyStore: Block key attestation for Google Play Services
+PixelPropsUtils: Bring back removed packages
+
+1/12
+AdaptivePlayback: Remove mVideoPaused from VideoPreference
+Do not allow disabling the default keyboard
+EvolutionXConfigOverlay: Remove Manrope as body font
+Settings: Add Ambient Display battery toggle
+Settings: Optional screenshot type
+base: Fix swipe to screenshot blocking multitouch
+
+
+1/11
+Evolver: Add case to quick pull down status bar anywhere
+Evolver: QS panel opacity option
+PixelPropsUtils: Remove Maps, SafetyHub & Turbo
+SystemUI: Fix Lockscreen charging animation not changing instantly
+SystemUI: Fix NPE on Volume panel plugins
+SystemUI: Hide back icon when screen pinned and gestural mode enabled
+base: AuthBiometricFingerprintView: Disable FP dialog string
+
+1/10
+Add more lockscreen charging styles
+Evolver: Add toggle to hide status bar on lockscreen
+
+FOD devices ONLY
+FODCircleView: detect touch outside and take action accordingly
+
+1/9
+Evolver: Add toggle for Signature spoofing
+Settings: Allow editing all APNs and APN types
+Update translations
+iorap: Enable by default
+
+1/7
+NfcA: Fix an NPE in constructor
+Nuke Adaptive navbar
+Upstream QTI bt security patches
+
+1/6
+CarrierSettings: Update from RQ1A.210105.003
+Evolver: Disable navbar visibility toggle on non-hwkeys devices
+Evolver: Fix default values and summaries for Battery Bar colors
+Evolver: QS Panel: Add the ability to hide/show Edit icon
+SystemUI: add FloatingRotationButton for hw-key devices
+gms: Update gapps to RQ1A.210105.003
+prebuilt/common: update APNs for Chinese carriers
