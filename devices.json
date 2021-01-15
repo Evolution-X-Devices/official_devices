@@ -712,6 +712,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "surya",
+      "name": "Poco X3",
+      "supported_versions": [
+         {
+            "maintainer_name": "Akash Kakkar",
+            "maintainer_url": "https://github.com/akash07k",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/official-evolution-x-poco-x3-surya-unified.4218505/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "tissot",
       "name": "Mi A1",
       "supported_versions": [
