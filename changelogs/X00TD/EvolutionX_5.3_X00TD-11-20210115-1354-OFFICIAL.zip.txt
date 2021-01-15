@@ -1,0 +1,49 @@
+Version: 5.3: Lightning
+Merged January security patch
+Fixed random app freezes
+Optimised for 3gb users
+Added some tweaks for better ram management
+Enabled zram by default
+Fixed glitches and stutter in ui
+Enabled caf ims service for RCS feature
+Migrated to in kernel low memory killer
+Enabled QS status bar opacity
+Fixed ambient pulse notification layout
+QS detail improvements
+Using AVCProfileMain as default for screen recorder
+Added toggle to Disable Notifications vibration
+Added option to disable all heads up notifications for Gaming mode
+GamingMode: Added option to disable notification feedback
+Added pre P mobile type icon style support
+Added charging vibration settings
+Added Ambient Display battery toggle
+Added Optional screenshot type
+Fixed swipe to screenshot blocking multitouch
+Added case to quick pull down status bar anywhere
+Fixed Lockscreen charging animation not changing instantly
+Fixed NPE on Volume panel plugins
+Added more lockscreen charging styles
+Added toggle to hide status bar on lockscreen
+Added toggle for Signature spoofing
+Added FloatingRotationButton for hw-key devices
+Updated APNs for Chinese carriers
+Fixed DT2S gesture handling
+Added Support exposing aux camera to apps
+Brought back QS tile disco feature
+Brought back POSP Volume panel styles
+Brought back RGB Accent picker feature
+Brought back Screen recorder delete action from notification
+Moved theme settings back into Evolver
+Moved blur toggle to Display options
+Added Headphones Buddy QS tile
+Brought back QS header image feature
+Brought back QS tint toggle from A10
+Brought back QS tile style picker
+Extended Pulse to Ambient Screen
+Implemented hide gestural navigation hint bar
+Added VoWiFi icon toggle
+Enabled Adaptive Sound for all
+Implemented live wallpapers changes from redfin 11
+Enabled permissions hub 2
+
+NOTE: This is a big update. Do a clean flash if you are facing any kind of issues.
