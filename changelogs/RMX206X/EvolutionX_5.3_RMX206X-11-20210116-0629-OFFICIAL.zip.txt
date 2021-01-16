@@ -1,0 +1,46 @@
+Device changes:
+==============================
+
+Update kernel from RUI beta C.09
+Fixed magisk u can root device now
+Introduce 90Hz Refresh Rate once again in RealmeParts
+Update blobs from RUI beta 2.0 C.09
+
+------------------------------
+ROM changes:
+==============================
+1/16
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+
+1/15
+Evolver: QS status bar opacity
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Use AVCProfileMain for screen recorder
+
+1/14
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+SoundSettings: Add charging vibration settings
+
+1/12
+AdaptivePlayback: Remove mVideoPaused from VideoPreference
+EvolutionXConfigOverlay: Remove Manrope as body font
+Settings: Add Ambient Display battery toggle
+Settings: Optional screenshot type
+base: Fix swipe to screenshot blocking multitouch
+
+1/11
+Evolver: Add case to quick pull down status bar anywhere
+Evolver: QS panel opacity option
+PixelPropsUtils: Remove Maps, SafetyHub & Turbo
+SystemUI: Hide back icon when screen pinned and gestural mode enabled
+base: AuthBiometricFingerprintView: Disable FP dialog string
+
