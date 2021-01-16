@@ -1,0 +1,7 @@
+Source side changes:
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+
