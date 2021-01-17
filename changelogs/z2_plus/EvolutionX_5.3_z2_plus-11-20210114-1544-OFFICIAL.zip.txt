@@ -1,0 +1,15 @@
+source changelog:-
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+SoundSettings: Add charging vibration setting
+Cache stream volumes to prevent ANR
+KeyStore: Block key attestation for Google Play Services
+PixelPropsUtils: Bring back removed packages
+
+Device changelogs:-
+fixed apn issue
+misc improvements
+
