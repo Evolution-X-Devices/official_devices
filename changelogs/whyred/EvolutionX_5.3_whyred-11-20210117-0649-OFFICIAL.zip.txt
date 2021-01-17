@@ -1,0 +1,130 @@
+
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+Evolver: QS status bar opacity
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Use AVCProfileMain for screen recorder
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+SoundSettings: Add charging vibration settings
+Cache stream volumes to prevent ANR
+KeyStore: Block key attestation for Google Play Services
+PixelPropsUtils: Bring back removed packages
+AdaptivePlayback: Remove mVideoPaused from VideoPreference
+Do not allow disabling the default keyboard
+EvolutionXConfigOverlay: Remove Manrope as body font
+Settings: Add Ambient Display battery toggle
+Settings: Optional screenshot type
+base: Fix swipe to screenshot blocking multitouch
+Evolver: Add case to quick pull down status bar anywhere
+Evolver: QS panel opacity option
+PixelPropsUtils: Remove Maps, SafetyHub & Turbo
+SystemUI: Fix Lockscreen charging animation not changing instantly
+SystemUI: Fix NPE on Volume panel plugins
+SystemUI: Hide back icon when screen pinned and gestural mode enabled
+base: AuthBiometricFingerprintView: Disable FP dialog string
+Add more lockscreen charging styles
+Evolver: Add toggle to hide status bar on lockscreen
+Evolver: Add toggle for Signature spoofing
+Settings: Allow editing all APNs and APN types
+Update translations
+iorap: Enable by default
+NfcA: Fix an NPE in constructor
+Nuke Adaptive navbar
+Upstream QTI bt security patches
+CarrierSettings: Update from RQ1A.210105.003
+Evolver: Disable navbar visibility toggle on non-hwkeys devices
+Evolver: Fix default values and summaries for Battery Bar colors
+Evolver: QS Panel: Add the ability to hide/show Edit icon
+SystemUI: add FloatingRotationButton for hw-key devices
+gms: Update gapps to RQ1A.210105.003
+prebuilt/common: update APNs for Chinese carriers
+BatteryService: Add support for oem fast charger detection
+Merge January 2021 security patches
+NotificationPanelViewController: Fix DT2S gesture handling
+fixup! camera: Support exposing aux camera to apps
+sepolicy: common: dynamic: Replace packageblacklist with packageexludelist
+[Bugfix] Fix the wrong lastBackgroundTime in UidRecord
+NavBar: Don't crash when we can't find navigation overlays
+SystemUI: AODTile: cycle through AOD state
+SystemUI: fix layout of qs header info
+Fix lockscreen wallpaper not being set if different from the Home one
+Lockscreen MediaArt: hide if media is not playing
+Bring back QS tile disco feature
+Bring back POSP Volume panel styles
+Bring back RGB Accent picker feature
+Bring back Screen recorder delete action from notification
+Move theme settings back into Evolver
+Settings: Move blur toggle to Display options
+Add Headphones Buddy QS tile
+Bring back QS header image feature
+Bring back QS tint toggle from A10
+MediaCodecInfo: do not alter performance points for 32-bit processes
+MediaCodecInfo: limit resolution to 4K for 32-bit processes
+SystemUI: SIM PIN1 lock screen abnormal
+apns: Update T-Mobile US to reflect latest carrier changes
+audio: Discard QTI only codecs when AOSP BT stack is in use
+base: Properly regenerate the share drawable
+Bring back QS tile style picker
+NotificationShadeDepthController: updateShadeBlur if keyguard is going away
+QuickStatusBarHeader: spawn blur if qs has been force expanded
+SystemUI: Fix size of icon of vibrate ringer mode for additional icon packs
+Extend Pulse to Ambient Screen
+Pulse: Clean up redundant audio session id
+Pulse: Consolidate functions and fix NPE
+Pulse: correctly stop it on screen OFF events
+SystemUIGoogle port: don't override aosp scrim controller
+vendor: Only build Google Apex with Gapps
+Add Manrope font overlay
+Hidden gestural bar: fix visual glitches when switching states
+Pulse: Fix another solid render FC
+Pulse: Solid render: fix FC when changing units value
+Settings: Implement hide gestural navigation hint bar
+pixelstyle: fonts: Import Manrope and set it as body font
+Advanced nav gestures: improve code and fix glitches
+Bring back proper Lockscreen and Navbar Pulse support
+EvolutionUtils: Allow to get theme accent color from context
+Fix other lights when backlight uses SurfaceController API
+UserRestrictionUtils: Return null Bundle if there are no restrictions
+Keyguard: Allow disabling fingerprint wake-and-unlock
+Evolver: Add VoWiFi icon toggle
+PixelPropsUtils: Update packages
+Settings: Enable Adaptive Sound for all
+SystemUI: Fix display cutout handling in expanding volume panel
+Ensure edge lightning is off when we are done with repeats
+Evolver: Only allow edge lights on AOD when AOD is enabled
+SystemUI: Implement live wallpapers changes from redfin 11
+GamingMode: Fix initial value of gaming mode
+NightDisplay Settings: Use List Preference for NightLight settings
+SystemUI: Enable permissions hub 2
+SystemUI: Fix bug with user_setup_complete setting
+SystemUI: Increase icon padding in QS privacy chip
+fixup! Gestures: allow to set back swipe deadzone
+libstagefright: Free buffers on observer died
+overlay: Enable privacy indicators
+rro_overlays: Re-enable AOSP sound picker
+SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+Keyguard: reduce bottom text size
+Navbar: Ensure 2/3 button layout options play nice with gesture navbar
+Add callback onA2dpCodecConfigChanged
+BLE: Fix NPE during start advertising
+EvolutionXConfigOverlay: Update default colors
+Import more accent colors
+Settings: Fix inconsistent USB preference screen title 
+Settings: Fix invalid private DNS help text if URI is missing
+Settings: Fix stray divider in connected devices screen
+Settings: Ignore custom app space management activities
+Settings: QR Scanner pass proper frame Width and Height
+Settings: Remove app uninstall and disable confirmation dialogs
+Settings: Remove roaming warning dialog
+Settings: Tint data usage bar with activated control color
+Telephony: Support muting by RIL command
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+
