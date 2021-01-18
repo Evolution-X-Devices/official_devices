@@ -1,0 +1,31 @@
+Device Side:
+Initial R build
+Enforcing
+
+Rom side:
+
+1/17
+Add media.hwcodec to native watchdog
+Audio: Update mApmConnectedDevice properly
+Keyguard: fix the mystery of disappearing battery percent
+Evolver: powermenu: make screenshot optional
+SystemUI: move brightness slider to top of footer
+SystemUI: Silence some major logspam introduced by custom features
+display: Don't animate screen brightness when turning the screen on
+fwb : Silence some AOSP logspam
+
+1/16
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+
+1/15
+Evolver: QS status bar opacity
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Use AVCProfileMain for screen recorder
+wifi: Increase 5 GHz network signal tolerance
+
+
