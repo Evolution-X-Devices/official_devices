@@ -1,0 +1,25 @@
+Device changes:
+==============================
+
+Fixed headset detections
+
+------------------------------
+ROM changes:
+==============================
+1/18
+Disable fingerprint vibration if no haptics
+PixelPropsUtils: Set redfin build fingerprint
+Settings: Fix crash on "Connection preferences"
+Settings: Make selectable consistent with prefs on screen
+prebuilt/common: remove read_only for China Unicom
+
+1/17
+Add media.hwcodec to native watchdog
+Audio: Update mApmConnectedDevice properly
+Keyguard: fix the mystery of disappearing battery percent
+Evolver: powermenu: make screenshot optional
+SystemUI: move brightness slider to top of footer
+SystemUI: Silence some major logspam introduced by custom features
+display: Don't animate screen brightness when turning the screen on
+fwb : Silence some AOSP logspam
+
