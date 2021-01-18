@@ -1,0 +1,45 @@
+==========================
+Device changes
+==========================
+Switched to prebuilt Azure R(05 jan 2021)
+Idle drain should be fixed now
+Fixed Vilte(aka carrier video calling)
+
+==========================
+Rom changes
+==========================
+AdaptivePlayback: Remove mVideoPaused from VideoPreference
+Add media.hwcodec to native watchdog
+Audio: Update mApmConnectedDevice properly
+Cache stream volumes to prevent ANR
+Do not allow disabling the default keyboard
+EvolutionXConfigOverlay: Remove Manrope as body font
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: QS status bar opacity
+Evolver: Set default Volume Panel style to stock AOSP
+Evolver: allow to switch back to pre P mobile type icon style
+Evolver: powermenu: make screenshot optional
+Fix black screen issue due to wallpaper decoding exceptions
+KeyStore: Block key attestation for Google Play Services
+Keyguard: fix the mystery of disappearing battery percent
+PixelPropsUtils: Bring back removed packages
+Restore preferred activity filter if it not inside
+Settings: Add Ambient Display battery toggle
+Settings: Fix animation default values
+Settings: Optional screenshot type
+SoundSettings: Add charging vibration settings
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Silence some major logspam introduced by custom features
+SystemUI: Update keyguard indication margin when FOD is in use
+SystemUI: Use AVCProfileMain for screen recorder
+SystemUI: move brightness slider to top of footer
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+base: Fix swipe to screenshot blocking multitouch
+display: Don't animate screen brightness when turning the screen on
+fixup! Move charging animation above FOD icon if FOD is active
+fwb : Silence some AOSP logspam
+wifi: Increase 5 GHz network signal tolerance
