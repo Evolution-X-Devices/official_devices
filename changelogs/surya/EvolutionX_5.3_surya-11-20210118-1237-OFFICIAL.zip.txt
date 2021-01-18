@@ -1,0 +1,14 @@
+==Source side==
+Disable fingerprint vibration if no haptics
+Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come
+PixelPropsUtils: Set redfin build fingerprint
+Settings: Fix crash on "Connection preferences"
+Settings: Make selectable consistent with prefs on screen
+SystemUI: fix NPE on global actions dialog
+apex: Nuke permission in favor of modified PermissionController
+prebuilt/common: remove read_only for China Unicom
+
+
+==Device side==
+Kernel optimizations
+Iliminated few crashes
