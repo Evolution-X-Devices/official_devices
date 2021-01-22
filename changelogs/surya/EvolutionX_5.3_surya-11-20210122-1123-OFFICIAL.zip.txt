@@ -1,0 +1,23 @@
+==Clean flash Recommended==
+--If bootloops/unable to boot/any other major issue then please clean flash--
+
+ config: Allow opening power menu when screen is off
+core: Defy usage of NGA in Google Assistant
+fixup! GamingMode: Option to disable notification feedback
+Evolver: Remove transparent notifications on lockscreen option
+Reboot sequence: Unmount active apexes before unmounting /data
+Use the non-debug apex for userdebug builds
+init: Add activation logs for flattened APEX folders with details
+init: Add more properties to spoof
+init: Sort the list of flattened APEX folders to avoid variations
+Allow additional padding on left side of heads up notifications
+BatteryService: add Turbo power charging support
+Evolver: powermenu: make screen record optional
+NetworkTraffic: Remove screen on/off triggers
+PixelPropsUtils: Add turboadapter to packages list
+SystemUI: Don't use side paddings if headsUpStartPadding > 0
+SystemUI: powermenu: add Screen Record toggle
+
+FOD devices ONLY
+FodAnimationResources: Fix OP Cosmos animation
+
