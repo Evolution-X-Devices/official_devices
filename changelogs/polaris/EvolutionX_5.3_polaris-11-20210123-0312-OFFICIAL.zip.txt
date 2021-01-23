@@ -1,0 +1,27 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.2
+  * Linux 4.9.252]
+  * rolled back to qcacld from `LA.UM.8.3.r1-08800-sdm845.0` due to a regression on 160MHz channels of IEEE 802.11ac WiFi
+  * sched: unified spare capacity calculation
+  * sched: prefer a CPU in a more shallow idle state to achieve faster wake-up and higher efficiency
+  * sched: restricted iowait boost to foreground and top-app tasks so that background I/O does not boost cpu frequency unnecessarily
+  * cpufreq: fixed incorrect average capacity calculation
+  * limited sched{up,down}migrate tunables to values between 0 and 100
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Updated vendor and firmware from MIUI Global Stable V12.0.3.0
+- Imported RenderScript blobs from Pixel 3 XL
+- Fixed WifiOverlay and TetheringOverlay to properly target wifi and tethering stack from Google
+  * mac address randomization and other platform specific configs are back
+- Configured SQLite journal to use MEMORY mode
+  * about 2x performance increase in SQLite insert/update/delete
+- Allow manually configuring the APN when using China Unicom
+- Cleaned up display stack
+
+**Evolution X Update**
+- QS status bar opacity
+- New Ambient Music implementation
+- Lots of fixes under the hood
