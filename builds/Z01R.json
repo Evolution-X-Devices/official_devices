@@ -1,17 +1,17 @@
 {
-   "datetime": 1608354616,
+   "datetime": 1611565236,
    "donate_url": "https://paypal.me/adev79",
    "error": false,
-   "filehash": "this_is_a_fake_hash",
-   "filename": "EvolutionX_5.2_Z01R-11-20201219-0516-OFFICIAL.zip",
+   "filehash": "c7d6095ed5a665915731d1d5cf55e25e",
+   "filename": "EvolutionX_5.3_Z01R-11-20210125-0903-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3981601",
-   "id": "3690e206d84131f4558bb05d97fad5cd546b425b5e5dc67b8691d27f048301d4",
+   "id": "e8034fb47352419c4a43e287b2256a53821373b1176c8f4fbb28d606d5a54577",
    "maintainer": "Aryan Arora",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=8274337",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1189956117,
+   "size": 1075648305,
    "telegram_username": "Aryaannnn",
-   "url": "https://sourceforge.net/projects/evolution-x/files/Z01R/EvolutionX_5.2_Z01R-11-20201219-0516-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/Z01R/EvolutionX_5.3_Z01R-11-20210125-0903-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }

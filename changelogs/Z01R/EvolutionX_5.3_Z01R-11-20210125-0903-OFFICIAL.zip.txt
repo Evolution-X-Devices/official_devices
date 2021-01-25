@@ -1,0 +1,22 @@
+Device Side:
+Enabled NFC
+Added Touchgestures
+Fixed Notification LED
+Updated kernel to the latest CAF Tag (4.9.227) (by Kailash)
+Minor fixes to improve stability
+
+ROM Side:
+Merge January Security patch
+Evo version bumped to 5.3 Lightning
+Bring back proper Lockscreen and Navbar Pulse support
+Bring back QS tile style picker
+Bring back POSP Volume panel styles
+Bring back RGB Accent picker feature
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+wifi: Increase 5 GHz network signal tolerance
+Port ambient Now Playing container from Pixel [stripped down version]
+and many more..
+
+Note: Clean Flash highly recommended.
