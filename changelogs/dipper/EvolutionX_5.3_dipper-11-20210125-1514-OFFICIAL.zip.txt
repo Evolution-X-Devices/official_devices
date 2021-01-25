@@ -1,0 +1,20 @@
+** Device Changes **
+- Fix Apex not upating
+- Merge 4.9.253 to kernel
+- configure SQLite to run in MEMORY mode
+- You may notice Display Modes being available under LiveDisplay (only Standard mode is for now available)
+
+** Source Changelog **
+- Ambient music: Add double tap on track title to skip track
+- Avoid allocation on Java Binder fast path
+- Avoid interface name copy in HwParcel
+- PixelPropsUtils: Set Pixel 3XL prop for gms
+- SystemUI: PowerMenu: always add Power off
+- fixup! NetworkTraffic: Remove screen on/off triggers
+- Ambient music: Format the media title like Google does
+- Ambient music v2: Allow for changing the music ticker position
+- Port ambient Now Playing container from Pixel [stripped down version]
+- SystemUI: Add Executors to Dependency
+- config: Allow opening power menu when screen is off
+- core: Defy usage of NGA in Google Assistant
+- fixup! GamingMode: Option to disable notification feedback
