@@ -330,6 +330,7 @@
       "name": "Realme X2",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "CannedShroud",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8876697",
             "version_code": "eleven",
