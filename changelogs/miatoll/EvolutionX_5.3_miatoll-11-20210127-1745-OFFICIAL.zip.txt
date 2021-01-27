@@ -1,0 +1,34 @@
+** Device ChangeLog **
+- Enforcing
+- Fixed WFD
+- Fixed Off Screen Ok Google
+- Fixed SafetyNet
+- Added Japan Region
+- Do proper headset buttons mapping
+- Enabled Wifi WPA3-SAE
+- Enabled Wifi Channel Bonding Mode for 2.4GHz Wifi
+- Tree cleanup thanks to sonal
+- Extended ZRam to 2GBs thanks dereference x2
+- Switched to Non-cleanup demon kernel (which has exfat driver so that's fixed)
+- Centered punch hole in Status-bar
+- Allowed More Icons in Status-bar
+- More Kernel Cleanup
+- More Tree Cleanup
+- Fixed AAC codec
+
+Note: Clean flashing and R firmware is mandatory
+
+** Source Changelog **
+- Ambient music: Add double tap on track title to skip track
+- Avoid allocation on Java Binder fast path
+- Avoid interface name copy in HwParcel
+- PixelPropsUtils: Set Pixel 3XL prop for gms
+- SystemUI: PowerMenu: always add Power off
+- fixup! NetworkTraffic: Remove screen on/off triggers
+- Ambient music: Format the media title like Google does
+- Ambient music v2: Allow for changing the music ticker position
+- Port ambient Now Playing container from Pixel [stripped down version]
+- SystemUI: Add Executors to Dependency
+- config: Allow opening power menu when screen is off
+- core: Defy usage of NGA in Google Assistant
+- fixup! GamingMode: Option to disable notification feedback
