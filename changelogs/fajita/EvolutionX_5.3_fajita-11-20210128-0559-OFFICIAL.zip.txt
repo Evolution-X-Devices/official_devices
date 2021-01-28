@@ -1,0 +1,125 @@
+Note:
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions. Twrp not included. Clean Flash if you face any issues after updating.
+
+**Device Changes:**
+Remove OnePlusCamera and OnePlusGallery
+Add Snap Camera and GooglePhotos
+Tree cleanup!
+sepolicy: Address priv_app denial
+bluetooth: Switch to unified bdroid header
+bluetooth: Switch to a map based BT name
+bluetooth: Fix undefined PROPERTY_VALUE_MAX
+bluetooth: Disable clean turn on
+rro_overlays: overlay tethering and wifi stack from Google
+overlay: configure SQLite to operate in MEMORY mode
+DeviceSettings: Remove TouchGestures category
+DeviceSettings: Bump version to 4.0
+overlay: Disable config_fillMainBuiltInDisplayCutout
+Introducing SonicKernel (based on IllusionKernel thanks to anirudhgupta IllusionKernel Dev)
+Update default sounds
+Bump android.hardware.graphics.mapper to 4.0
+
+**ROM changes:**
+1/28
+Ambient music: Also shorten the Now Playing title after the song title
+Ambient music: Remove debug messages
+Permissions: Grant Google Location History perms
+Remove legal information from being indexable
+SystemUI: Make center clock follow paddingTop
+SystemUI: Optimize status bar center clock for punch hole devices
+SystemUI: fix dark fc
+
+1/27
+ActivityManagerService: Use mContext directly
+CameraDeviceClient: fix recognition of Y16 format due to unmatching sizes
+Evolver: Add QS Header data usage info feature
+Evolver: Allow disabling SmartSpace
+Fix NPE when AOSP ambient display preference is removed
+Fix to attach listener to transient session
+Make all activities resizable
+NetworkStatsHistory: Prevent IllegalArgumentException
+PixelPropsUtils: Remove Maps & SafetyHub
+Settings: Display actual charge tech in battery settings
+SystemUI: Switch to Turbo impl for getting estimated battery time
+SystemUI: make screenshot action chip to have correct primary colors in dark mode
+VolumeDialogImpl: Reschedule the timeout on clicks on captions
+VolumeUI: Track dialogCornerRadius for CaptionsToggle and RingerToggle
+fixup! Fixed a race condition in StorageManagerService
+libcameraservice: Add support for miui camera mode
+
+1/26
+core: Smoother Upload and Download Animation
+
+1/25
+Ambient music: Add double tap on track title to skip track
+Avoid allocation on Java Binder fast path
+Avoid interface name copy in HwParcel
+Avoid potential fd leaks from jniCreateFileDescriptor
+Binder interface tokens: remove extra mallocs
+
+1/24
+PixelPropsUtils: Set Pixel 3XL prop for gms
+SystemUI: PowerMenu: always add Power off
+fixup! NetworkTraffic: Remove screen on/off triggers
+
+1/23
+Ambient music: Format the media title like Google does
+Ambient music: Show bottom ticker above fod circle if needed
+Ambient music v2: Allow for changing the music ticker position
+Port ambient Now Playing container from Pixel [stripped down version]
+SystemUI: Add Executors to Dependency
+
+1/22
+config: Allow opening power menu when screen is off
+core: Defy usage of NGA in Google Assistant
+fixup! GamingMode: Option to disable notification feedback
+
+1/21
+Evolver: Remove transparent notifications on lockscreen option
+Reboot sequence: Unmount active apexes before unmounting /data
+Use the non-debug apex for userdebug builds
+init: Add activation logs for flattened APEX folders with details
+init: Add more properties to spoof
+init: Sort the list of flattened APEX folders to avoid variations
+
+1/19
+Allow additional padding on left side of heads up notifications
+BatteryService: add Turbo power charging support
+Evolver: powermenu: make screen record optional
+NetworkTraffic: Remove screen on/off triggers
+PixelPropsUtils: Add turboadapter to packages list
+SystemUI: Don't use side paddings if headsUpStartPadding > 0
+SystemUI: powermenu: add Screen Record toggle
+
+FOD devices ONLY
+FodAnimationResources: Fix OP Cosmos animation
+
+1/18
+Check for focused window before raising 'no focused window' ANR
+Check window token when extending timeout
+Disable fingerprint vibration if no haptics
+Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come
+PixelPropsUtils: Set redfin build fingerprint
+Settings: Fix crash on "Connection preferences"
+Settings: Make selectable consistent with prefs on screen
+SystemUI: fix NPE on global actions dialog
+apex: Nuke permission in favor of modified PermissionController
+prebuilt/common: remove read_only for China Unicom
+
+1/17
+Add media.hwcodec to native watchdog
+Audio: Update mApmConnectedDevice properly
+Keyguard: fix the mystery of disappearing battery percent
+Evolver: powermenu: make screenshot optional
+SystemUI: move brightness slider to top of footer
+SystemUI: Silence some major logspam introduced by custom features
+display: Don't animate screen brightness when turning the screen on
+fwb : Silence some AOSP logspam
+
+1/16
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
