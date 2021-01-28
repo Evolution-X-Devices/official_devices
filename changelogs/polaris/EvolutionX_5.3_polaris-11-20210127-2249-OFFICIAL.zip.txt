@@ -1,0 +1,25 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.2
+  * Linux 4.9.253
+  * cpufreq: reverted average capacity calculation fix due to performance regression
+  * wireguard: 1.0.20210124
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Created and symlinked a dummy /metadata/apex to fix Google Play system update
+  * Google moved the apex sessions directory from /data/apex/sessions to /metadata/apex/sessions
+  * we do not have a metadata partition out of the box
+  * thus a dummy directory is created to satisfy the requirement
+  * Note: there may be multiple Google Play system updates since October 2020, and your phone may need multiple reboots to install them. You may see a "try again" after you press the reboot button for the second time, and that is because Google Play stops reboot caused by system update if the previous reboot was within 15 minutes. It was intended to prevent infinite reboot during a bootloop (and yes it is stupid in this case). Just reboot manually and the update will install fine.
+- ANX Camera portrait mode now works out of the box (verified on ANX Camera 185R)
+- Added node to show measured fps value through "FPS Info" QS tile
+- Added node to show CPU big core temperature through "CPU Info" QS tile
+- Disabled statusbar burn-in protection because we have an LCD panel
+
+**Evolution X Update**
+- Added QS header data usage info
+- Allow disabling SmartSpace
+- Some improvements on Ambient Music
+- Misc fixes
