@@ -1,0 +1,204 @@
+Device changes:
+==============================
+Fixed thermal profiles
+Added MIUICamera
+Upstreamed kernel to 4.14.217
+Updated WireGuard version 1.0.20210124
+Added cpuset & schedtune assist
+Many misc changes in kernel
+
+ROM changes:
+==============================
+1/30
+AudioService: Remove Analog Dock from fixed-volume devices
+fixup! Screenshot: Append app name to filename after r20 merge
+plugi
+
+1/29
+Adding 'postinstall' root dir unconditionally
+Adjust the parameters of accelerometer and hinge angle sensor
+Evolver: Bring back navbar visibility for all devices
+Evolver: configure lock screen media artwork blur level
+Only store result of mount_all that mounted userdata
+Revert "fpc: keep fpc in system-background"
+Set default value for pressure sensor
+SettingsProvider: adaptive icon
+Store result of mount_all for mounted userdata by metadata encryption
+SystemUI: Add Custom Spectrum Analog Clock
+SystemUI: Add MNML based clock designs
+SystemUI: Add SFUNY clock
+SystemUI: Add Sammy highlight clock
+SystemUI: Add center style Typographic clock
+SystemUI: fix location icon margins
+ThemePicker: Make naming page look the same as the other ones
+config: Import SetupWizard/CarrierSetup props from RQ1A.210105.003
+
+1/28
+Ambient music: Also shorten the Now Playing title after the song title
+Ambient music: Remove debug messages
+Evolver: Bring back lockdown button
+InputDispatcher: allow to intercept a specific event key
+Remove legal information from being indexable
+SystemUI: Make center clock follow paddingTop
+SystemUI: Optimize status bar center clock for punch hole devices
+SystemUI: fix dark fc
+
+1/27
+ActivityManagerService: Use mContext directly
+CameraDeviceClient: fix recognition of Y16 format due to unmatching sizes
+Evolver: Add QS Header data usage info feature
+Evolver: Allow disabling SmartSpace
+Fix NPE when AOSP ambient display preference is removed
+Fix to attach listener to transient session
+Make all activities resizable
+NetworkStatsHistory: Prevent IllegalArgumentException
+Settings: Display actual charge tech in battery settings
+SystemUI: Switch to Turbo impl for getting estimated battery time
+SystemUI: make screenshot action chip to have correct primary colors in dark mode
+VolumeDialogImpl: Reschedule the timeout on clicks on captions
+VolumeUI: Track dialogCornerRadius for CaptionsToggle and RingerToggle
+fixup! Fixed a race condition in StorageManagerService
+libcameraservice: Add support for miui camera mode
+
+1/26
+core: Smoother Upload and Download Animation
+
+1/25
+Ambient music: Add double tap on track title to skip track
+Avoid allocation on Java Binder fast path
+Avoid interface name copy in HwParcel
+Avoid potential fd leaks from jniCreateFileDescriptor
+Binder interface tokens: remove extra mallocs
+
+1/24
+PixelPropsUtils: Set Pixel 3XL prop for gms
+SystemUI: PowerMenu: always add Power off
+fixup! NetworkTraffic: Remove screen on/off triggers
+
+1/23
+Ambient music: Format the media title like Google does
+Ambient music: Show bottom ticker above fod circle if needed
+Ambient music v2: Allow for changing the music ticker position
+Port ambient Now Playing container from Pixel [stripped down version]
+SystemUI: Add Executors to Dependency
+
+1/22
+config: Allow opening power menu when screen is off
+core: Defy usage of NGA in Google Assistant
+fixup! GamingMode: Option to disable notification feedback
+
+1/21
+Evolver: Remove transparent notifications on lockscreen option
+Reboot sequence: Unmount active apexes before unmounting /data
+Use the non-debug apex for userdebug builds
+init: Add activation logs for flattened APEX folders with details
+init: Add more properties to spoof
+init: Sort the list of flattened APEX folders to avoid variations
+
+1/19
+Allow additional padding on left side of heads up notifications
+BatteryService: add Turbo power charging support
+Evolver: powermenu: make screen record optional
+NetworkTraffic: Remove screen on/off triggers
+PixelPropsUtils: Add turboadapter to packages list
+SystemUI: Don't use side paddings if headsUpStartPadding > 0
+SystemUI: powermenu: add Screen Record toggle
+
+FOD devices ONLY
+FodAnimationResources: Fix OP Cosmos animation
+
+1/18
+Check for focused window before raising 'no focused window' ANR
+Check window token when extending timeout
+Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come
+PixelPropsUtils: Set redfin build fingerprint
+Settings: Fix crash on "Connection preferences"
+Settings: Make selectable consistent with prefs on screen
+SystemUI: fix NPE on global actions dialog
+apex: Nuke permission in favor of modified PermissionController
+prebuilt/common: remove read_only for China Unicom
+
+1/17
+Add media.hwcodec to native watchdog
+Audio: Update mApmConnectedDevice properly
+Keyguard: fix the mystery of disappearing battery percent
+Evolver: powermenu: make screenshot optional
+SystemUI: move brightness slider to top of footer
+SystemUI: Silence some major logspam introduced by custom features
+display: Don't animate screen brightness when turning the screen on
+fwb : Silence some AOSP logspam
+
+1/16
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+
+1/15
+Evolver: QS status bar opacity
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Use AVCProfileMain for screen recorder
+wifi: Increase 5 GHz network signal tolerance
+
+1/14
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+SoundSettings: Add charging vibration settings
+
+FOD devices ONLY
+fixup! Move charging animation above FOD icon if FOD is active
+SystemUI: Update keyguard indication margin when FOD is in use
+
+1/13
+Cache stream volumes to prevent ANR
+KeyStore: Block key attestation for Google Play Services
+PixelPropsUtils: Bring back removed packages
+
+1/12
+AdaptivePlayback: Remove mVideoPaused from VideoPreference
+Do not allow disabling the default keyboard
+EvolutionXConfigOverlay: Remove Manrope as body font
+Settings: Add Ambient Display battery toggle
+Settings: Optional screenshot type
+base: Fix swipe to screenshot blocking multitouch
+
+1/11
+Evolver: Add case to quick pull down status bar anywhere
+Evolver: QS panel opacity option
+PixelPropsUtils: Remove Maps, SafetyHub & Turbo
+SystemUI: Fix Lockscreen charging animation not changing instantly
+SystemUI: Fix NPE on Volume panel plugins
+SystemUI: Hide back icon when screen pinned and gestural mode enabled
+base: AuthBiometricFingerprintView: Disable FP dialog string
+
+1/10
+Add more lockscreen charging styles
+Evolver: Add toggle to hide status bar on lockscreen
+FOD devices ONLY
+FODCircleView: detect touch outside and take action accordingly
+
+1/9
+Evolver: Add toggle for Signature spoofing
+Settings: Allow editing all APNs and APN types
+Update translations
+iorap: Enable by default
+
+1/7
+NfcA: Fix an NPE in constructor
+Nuke Adaptive navbar
+Upstream QTI bt security patches
+
+1/6
+CarrierSettings: Update from RQ1A.210105.003
+Evolver: Disable navbar visibility toggle on non-hwkeys devices
+Evolver: Fix default values and summaries for Battery Bar colors
+Evolver: QS Panel: Add the ability to hide/show Edit icon
+SystemUI: add FloatingRotationButton for hw-key devices
+gms: Update gapps to RQ1A.210105.003
+prebuilt/common: update APNs for Chinese carriers
+
