@@ -498,6 +498,19 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "apollo",
+      "name": "Xiaomi Mi 10T / 10T Pro / Redmi K30S Ultra",
+      "supported_versions": [
+         {
+            "maintainer_name": "Ahmed Tohamy",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8386267",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/official-evolution-x-5-3-xiaomi-mi-10t-10t-pro-apollo-apollopro.4226799/"
+         }
+      ]
+   {
+      "brand": "Xiaomi",
       "codename": "beryllium",
       "name": "POCO F1",
       "supported_versions": [
