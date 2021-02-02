@@ -1,0 +1,60 @@
+Note:
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions. Twrp not included.
+
+**Device Changes:**
+Update to Redfin's Feb 2021 fingerprint
+Kernel Compiled with Proton-clang Version 13.0.0
+overlay: Don't pin camera app in memory
+Drop no longer existing BluetoothQti
+Remove GooglePhotos and Add Back OnePlus Gallery
+rootdir: Adjust dex2oat thread count after setup wizard
+Split component-overrides to support pure AOSP/QTI BT stack
+Add 3.0 and 4.0 IMapper/default to framework_manifest
+sepolicy: Address permissioncontroller_app denial
+DeviceSettings: VibratorStrengthPreference: Set default to 1000
+
+**ROM changes:**
+2/2
+Camera: Fix deadlock in ACameraCaptureSession destructor
+Merge February security patches
+PixelPropsUtils: Update build fingerprint
+Reapply per-app cellular data, vpn and wifi restrictions
+TrafficSB: fix the icon overlap on notched devices
+Upstream some core system fixes
+base: Expose system icon area weight
+system/netd: add missing override keyword
+
+2/1
+Settings: Clipboard toast toggle
+Settings: Fix default brightness level display 0
+SystemUI: Misc fixes and reverts
+VibratorService: bypass AppOps check
+
+1/31
+Accents: Fix LOCAL_PATH
+KeyStore: Report rate limited instead of not implemented
+QSTiles: Build in product and as RRO package
+
+1/30
+AudioService: Remove Analog Dock from fixed-volume devices
+fixup! Screenshot: Append app name to filename after r20 merge
+
+1/29
+Adding 'postinstall' root dir unconditionally
+Adjust the parameters of accelerometer and hinge angle sensor
+Evolver: Bring back navbar visibility for all devices
+Evolver: configure lock screen media artwork blur level
+Only store result of mount_all that mounted userdata
+Revert "fpc: keep fpc in system-background"
+Set default value for pressure sensor
+SettingsProvider: adaptive icon
+Store result of mount_all for mounted userdata by metadata encryption
+SystemUI: Add Custom Spectrum Analog Clock
+SystemUI: Add MNML based clock designs
+SystemUI: Add SFUNY clock
+SystemUI: Add Sammy highlight clock
+SystemUI: Add center style Typographic clock
+SystemUI: fix location icon margins
+ThemePicker: Make naming page look the same as the other ones
+config: Import SetupWizard/CarrierSetup props from RQ1A.210105.003
