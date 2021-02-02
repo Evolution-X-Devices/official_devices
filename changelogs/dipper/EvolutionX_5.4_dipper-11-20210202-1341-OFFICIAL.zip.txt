@@ -1,0 +1,28 @@
+** Device Changes **
+- Etude kernel: Op.11 No.2
+  * Linux 4.9.254
+  * cpufreq: reverted average capacity calculation fix due to performance regression
+  * wireguard: 1.0.20210124
+- Added node to show measured fps value through "FPS Info" QS tile
+
+** ROM Changes **
+- Accents: Fix LOCAL_PATH
+- AudioService: Remove Analog Dock from fixed-volume devices
+- Camera: Fix deadlock in ACameraCaptureSession destructor
+- KeyStore: Report rate limited instead of not implemented
+- Merge February security patches
+- PixelPropsUtils: Update build fingerprint
+- QSTiles: Build in product and as RRO package
+- Reapply per-app cellular data, vpn and wifi restrictions
+- Settings: Clipboard toast toggle
+- Settings: Fix default brightness level display 0
+- SystemUI: Misc fixes and reverts
+- TrafficSB: fix the icon overlap on notched devices
+- Upstream some core system fixes
+- VibratorService: bypass AppOps check
+- base: Expose system icon area weight
+- fixup! Screenshot: Append app name to filename after r20 merge
+- system/netd: add missing override keyword
+
+NOTE: Google Play Update may not be working properly. Manually update it by installing latest Main Components apk (can be found on the internet).
+Sometimes, phone might reboot by itself, that is caused bh Google Play Update and can't be fixed for now.
