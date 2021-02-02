@@ -1,0 +1,32 @@
+! CLEAN FLASH IS REQUIRED DUE TO SOURCE SIDE ENCRYPTION CHANGES, YOUR PHONE WILL BOOTLOOP IF YOU DON'T DO SO !
+! YOU WILL ONLY BE ABLE TO RECOVER DATA FROM INTERNAL STORAGE VIA RECOVERY, FLASHBACK WILL NOT BE A POSSIBILITY !
+
+Device changes:
+Updated kernel to Predator-Stormbreaker X4.3 - 4.4.252
+Updated Telephony from LA.QSSI.11.0.r1-09400-qssi.0 to fix crashing after hanging up VoLTE-enabled call
+Updated GPS blobs from LA.UM.9.12.r1-09500-SMxx50.0 to improve GPS accuracy
+Updated GPS HAL from LA.UM.9.2.r1-01800-SDMxx0.0 to improve GPS accuracy
+Updated thermal and Widevine blobs from jasmine V11.0.19.0 QDIMIXM
+Migrated to Health 2.1 HAL 
+Changed USB autosusupend delay to 7s in order to fix USB audio device connection issues
+Configured SQLite to operate in MEMORY mode for a nice SQL perfomance boost
+Updated fingerprint from Redfin - RQ1A.210205.004
+Many other smaller things that I didn't find worth mentioning
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.4 - Boombastic (named after the song :D)
+February security patches
+Allow editing of APNs and APN types
+Blocked key attestation from GMS to pass SafetyNet
+SystemUI: Added more custom clocks
+Evolver: Added P-style mobile type icons
+WiFi: Increased 5GHz signal tolerance
+Keyguard: Fixed the mystery of disappearing battery %
+Allow opening power menu when screen is off
+Display correct charge tech in battery settings
+Evolver: Added toggle for signature spoofing
+Fixed swipe to screenshot blocking multitouch
+core: Smoother Upload and Download Animation
+Use non-debug APEX for userdebug builds
+Evolver: Set default Volume Panel style to stock AOSP
+Many many many smaller bugfixes and enhancements
