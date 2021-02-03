@@ -1,0 +1,32 @@
+
+CLEAN FLASH IS MUST ELSE BOOTLOOP(no format data)
+
+==============================
+Device changes:
+==============================
+Switched to Pixel kernel
+Added clear speakers and vibrations inside violet parts
+Fixed IR blaster
+Nuked nga so no more assisant 2.0 
+Added prebuilt camera(Flash nd check ;)
+------------------------------
+ROM changes:
+==============================
+Fixed Notification sound when screen on 
+Accents: Fix LOCAL_PATH
+AudioService: Remove Analog Dock from fixed-volume devices
+Camera: Fix deadlock in ACameraCaptureSession destructor
+KeyStore: Report rate limited instead of not implemented
+Merge February security patches
+PixelPropsUtils: Update build fingerprint
+QSTiles: Build in product and as RRO package
+Reapply per-app cellular data, vpn and wifi restrictions
+Settings: Clipboard toast toggle
+Settings: Fix default brightness level display 0
+SystemUI: Misc fixes and reverts
+TrafficSB: fix the icon overlap on notched devices
+Upstream some core system fixes
+VibratorService: bypass AppOps check
+base: Expose system icon area weight
+fixup! Screenshot: Append app name to filename after r20 merge
+system/netd: add missing override keyword
