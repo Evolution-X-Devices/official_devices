@@ -613,15 +613,14 @@
    {
       "brand": "Xiaomi",
       "codename": "laurel_sprout",
-      "name": "MI A3",
+      "name": "Mi A3",
       "supported_versions": [
          {
-            "deprecated": true,
-            "maintainer_name": "oddlyspaced",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9807173",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-a3/development/10-evolutionx-4-3-07-05-2020-t4095609"
+            "maintainer_name": "Hemant Sachdeva",
+            "maintainer_url": "https://forum.xda-developers.com/m/hemant-sachdeva.7888530/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/official-rom-11-evolutionx-5-4-04-02-2021.4193431/"
          }
       ]
    },
