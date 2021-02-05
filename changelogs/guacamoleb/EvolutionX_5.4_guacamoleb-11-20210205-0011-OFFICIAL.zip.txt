@@ -1,0 +1,55 @@
+Device:
+
+Upstreamed neutrino kernel from 4.14.212 to latest 4.14.218
+Updated redfin fingerprint to Feb 2021
+Update OP gallery to latest 4.0.125
+Set defaultHapticFeedbackIntensity to low
+Uprev soundtrigger to 2.3
+Updated display,graphics blobs from OOS OB1
+Few other commits related to updating display blobs
+Updated wfd and drm blobs from OOS OB1 (WFD now works!)
+Updated ese powermanager blobs from OOS OB1
+Updated media and vpp blobs from OOS OB1
+Dropped custom lights and switched to standard lights hal
+Overlay: configured SQLite to operate in MEMORY mode
+Updated vendor security patch level from OOS 10.0.16
+Added overlay for smart pixels
+Optimised dex flags for a faster boot
+Set default media volume steps to 25
+Few other tweaks and improvements here and there
+
+Rom:
+
+Accents: Fix LOCAL_PATH
+AudioService: Remove Analog Dock from fixed-volume devices
+Camera: Fix deadlock in ACameraCaptureSession destructor
+KeyStore: Report rate limited instead of not implemented
+Merge February security patches
+Smart Pixels
+PixelPropsUtils: Update build fingerprint
+QSTiles: Build in product and as RRO package
+Reapply per-app cellular data, vpn and wifi restrictions
+Settings: Clipboard toast toggle
+Settings: Fix default brightness level display 0
+SystemUI: Misc fixes and reverts
+TrafficSB: fix the icon overlap on notched devices
+Upstream some core system fixes
+VibratorService: bypass AppOps check
+base: Expose system icon area weight
+fixup! Screenshot: Append app name to filename after r20 merge
+system/netd: add missing override keyword
+Check for focused window before raising 'no focused window' ANR
+Check window token when extending timeout
+Disable fingerprint vibration if no haptics
+Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come
+Evolver: powermenu: make screen record optional
+FodAnimationResources: Fix OP Cosmos animation
+NetworkTraffic: Remove screen on/off triggers
+PixelPropsUtils: Remove Gboard, Google, and Google play service
+Settings: Fix crash on "Connection preferences"
+Settings: Make selectable consistent with prefs on screen
+SystemUI: fix NPE on global actions dialog
+SystemUI: powermenu: add Screen Record toggle
+apex: Nuke permission in favor of modified PermissionController
+prebuilt/common: remove read_only for China Unicom
+More!
