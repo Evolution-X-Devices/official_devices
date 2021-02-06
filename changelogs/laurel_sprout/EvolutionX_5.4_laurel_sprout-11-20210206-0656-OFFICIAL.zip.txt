@@ -1,0 +1,10 @@
+Device changes:
+==============================
+Firmware, Vendor.img and other image files are updated to Stock Android 11
+
+(Till now they were based on OSS Vendor that's why the users of Stock Android 11
+were unable to flash builds which are based on OSS Vendor)
+
+It is strictly recommended that OSS Vendor users do not flash this build.
+The build is only for Stock Android 11 users.
+------------------------------
