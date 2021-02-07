@@ -203,6 +203,7 @@
       "name": "OnePlus 5",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Pavan Parmeshwar",
             "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
             "version_code": "eleven",
@@ -217,6 +218,7 @@
       "name": "OnePlus 5T",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Pavan Parmeshwar",
             "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
             "version_code": "eleven",
