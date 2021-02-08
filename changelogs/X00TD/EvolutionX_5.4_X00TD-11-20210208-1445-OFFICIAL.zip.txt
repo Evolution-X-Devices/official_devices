@@ -1,0 +1,36 @@
+Version: 5.4: Boombastic
+Merged February security patch
+Enabled sched_boost in early_init
+Migrated to Health 2.1 Hal
+Migrated to LED based vibrator
+Removed remenants of QTI bluetooth
+Imported aptX blobs from crosshatch
+Updated blobs from UL-ASUS_X00T-WW-17.2017.2012.438-user
+Updated Smart Pixels menu
+Fixed abnormal wake up caused by WifiConnectivityManager
+Brought back StitchImage (Scrolling screenshot feature)
+Fixed a bug in the USAP Pool refill logic
+Added flipendo to Battery Saver QSTile
+Moved quick QS brightness slider to the bottom
+Added ambient pulse and aod notifications
+Added Phone ringtone setting for Multi SIM device
+Fixed NPE on ExpandableNotificationRow
+Reapplied per-app cellular data, vpn and wifi restrictions
+Added Clipboard toast toggle
+Added option to configure lock screen media artwork blur level
+Added Custom Spectrum Analog Clock
+Added SFUNY clock
+Added Sammy highlight clock
+Added center style Typographic clock
+Fixed location icon margins
+Imported SetupWizard/CarrierSetup props from RQ1A.210105.003
+Brought back lockdown button
+fixed dark fc
+Added QS Header data usage info feature
+Fixed a race condition in StorageManagerService
+Made all activities resizable
+Added Smoother Upload and Download Animation
+Added double tap on track title to skip track
+Fixed crash on "Connection preferences"
+
+NOTE: CLEAN FLASH IF YOU FACE ANY WEIRED ISSUES
