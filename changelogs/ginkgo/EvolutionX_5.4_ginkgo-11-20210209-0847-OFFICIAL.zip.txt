@@ -1,0 +1,61 @@
+!! Those who want to stay decrypted can flash DFE once OTA finishes, others must clean flash and/or format data in order to boot with encryption.
+
+Device changes:
+==============================
+Updated to redfin Feb 2021 fp
+Kernel upstreamed to 4.14.220
+Reduced touch latency
+Fixed BT deepsleep issue
+------------------------------
+ROM changes:
+==============================
+Added on Feb 9
+GlobalScreenshot: Use default screenshot dismiss delay
+SettingsIntelligence: Give permission to read device config
+SystemUI: allow to limit the max framerate of built-in screen recorder
+base: ToastUI: Show app icon on system text toasts as well
+evolution: themes: Convert to rro_overlays
+pixelstyle: rro_overlays: Add missing 'theme' attribute
+prebuilt/common: fix incorrect APN configs of Vodafone AU
+vendor: Cleanup init files
+
+Original Feb 8 changes
+Bring back StitchImage (Scrolling screenshot feature)
+Camera: Track native metadata allocations
+Check if advertiserId value matches valid advertiser
+Check permission before sending batch scan result
+Evolver: Allow to Pulse edge light for all doze triggers
+Evolver: Make sure that all of our preferences searchable
+Evolver: Refactor QS Brightness slider options
+Evolver: Update Smart Pixels menu
+Fix a bug in the USAP Pool refill logic
+Fix abnormal wake up caused by WifiConnectivityManager
+FodAnimationResources: Update MIUI Light and MIUI Pulse
+GoogleConfigOverlay: Use the correct config for config_defaultTextClassifierPackage
+NavigationBarInflaterView: Apply custom layouts on boot
+NavigationBarInflaterView: Don't apply a custom layout when using gestural
+NavigationHandle: Adapt hide on keyguard to navbar pulse
+NavigationHandle: Only register callbacks when attached
+No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity
+Partially revert "Wake up to lock screen when bouncer is visible"
+QuickStatusBarHeader: Long-press header clock to access settings
+Settings: Phone ringtone setting for Multi SIM device
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SmartCharging: Clean up redundant settings define
+SoundPool: Fix clang-tidy warning in StreamManager
+SystemUI: Add flipendo to Battery Saver QSTile
+SystemUI: DividedLinesClock: Fix NPE on setTextColor
+SystemUI: Move quick QS brightness slider to the bottom
+SystemUI: NavigationHandle: Don't show on keyguard or doze
+SystemUI: fix NPE on ExpandableNotificationRow
+backuptool: Support seamless backup and restore to extra partitions
+backuptool_ab: Make tmp actually tmpfs
+base: Add long screenshot chip
+base: Add missing long screenshot permission
+base: Fallback stitchimage's broken value to unknown
+base: InputManager: handle housed stylus event
+base: Whitelist stitchimage
+fixup! Evolver: Add ambient pulse and aod notifications
+fw/av: Require service UID for LIST_AUDIO_SESSIONS
+wifi: Add provision to create/remove dynamic interface(s)
+
