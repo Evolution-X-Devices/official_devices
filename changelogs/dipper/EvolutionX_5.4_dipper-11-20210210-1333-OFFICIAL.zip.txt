@@ -1,0 +1,35 @@
+** Device Changes **
+Update Etude kernel to 4.9.256
+Under-the-hood changes
+
+** ROM Changes **
+Apply bilinear filter for Ninepatch
+Bring back "Post a silent notification if screenshot is dismissed"
+Fix initialization of USER_ROTATION setting
+Fix to prevent usagestats file corruption when writing
+GoogleConfigOverlay: Add standalone UnifiedNlp location provider
+PixelConfigOverlayCommon: Don't downscale high-res task snapshots
+Pulse: Don't show when we have no navbar
+ScreenRecord: Improve low quality screen record
+SystemUI: Move quick QS brightness slider to the original position
+fixup! Add long screenshot chip
+vendor: Transform apex overlays into RRO overlays
+GlobalScreenshot: Use default screenshot dismiss delay
+Settings: Implement cutout force full screen
+SettingsIntelligence: Give permission to read device config
+SystemUI: allow to limit the max framerate of built-in screen recorder
+base: ToastUI: Show app icon on system text toasts as well
+evolution: themes: Convert to rro_overlays
+pixelstyle: rro_overlays: Add missing 'theme' attribute
+prebuilt/common: fix incorrect APN configs of Vodafone AU
+Evolver: Allow to Pulse edge light for all doze triggers
+Evolver: Update Smart Pixels menu
+QuickStatusBarHeader: Long-press header clock to access settings
+backuptool_ab: Make tmp actually tmpfs
+base: InputManager: handle housed stylus event
+Check if advertiserId value matches valid advertiser
+Check permission before sending batch scan result
+Fix abnormal wake up caused by WifiConnectivityManager
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SystemUI: DividedLinesClock: Fix NPE on setTextColor
+wifi: Add provision to create/remove dynamic interface(s)
