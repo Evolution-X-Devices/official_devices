@@ -1,0 +1,26 @@
+
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.2
+  * Linux 4.9.257
+  * merged CAF tag `LA.UM.9.3.r1-00700-sdm845.0`
+  * backported suspend stats sysfs node
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Satisfied the graceful shutdown of light devices in light HAL
+- Turned pinner on for camera
+- Added vector icons for parts
+- Only show one big core and one little core in overlay through CPUInfo QS tile, to avoid cluttering up screen space
+
+**Evolution X Update**
+- February security patch
+- Evolver: brought back lockdown button
+- Added more clocks
+- Fixed a SystemUI crash when connecting to some Bluetooth devices
+- Fixed incorrect default APN configs for Vodafone AU
+- Phone ringtone settings for duo SIM
+- Brought back long screenshot
+- Made Evolver preferences to be searchable
+- Some fixes on ambient pulse
