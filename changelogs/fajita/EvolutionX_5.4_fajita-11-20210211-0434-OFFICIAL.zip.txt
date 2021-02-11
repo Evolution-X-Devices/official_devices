@@ -1,0 +1,87 @@
+Note:
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions. Twrp not included.
+
+**Device Changes:**
+Update OnePlusGallery (4.0.109 ==> 4.0.135)
+Remove QTI BT soong namespaces
+disable soundtrigger via vendor overlay (fixes only screen on OK Google Detection)
+overlay: Fix fingerprint wake-up animation
+overlay: Enable support for Bluetooth hearing aids
+DeviceSettings: Show a warning about vibration strength
+DeviceSettings: Show a warning about High brightness mode
+
+**ROM changes:**
+2/10
+Apply bilinear filter for Ninepatch
+Bring back "Post a silent notification if screenshot is dismissed"
+Fix initialization of USER_ROTATION setting
+Fix to prevent usagestats file corruption when writing
+GoogleConfigOverlay: Add standalone UnifiedNlp location provider
+PixelConfigOverlayCommon: Don't downscale high-res task snapshots
+Pulse: Don't show when we have no navbar
+ScreenRecord: Improve low quality screen record
+SystemUI: Move quick QS brightness slider to the original position
+fixup! Add long screenshot chip
+fixup! fix font size scale validator after r29 merge
+vendor: Transform apex overlays into RRO overlays
+vendor: Make GAPPS mandatory for all
+
+2/9
+GlobalScreenshot: Use default screenshot dismiss delay
+Settings: Implement cutout force full screen
+SettingsIntelligence: Give permission to read device config
+SystemUI: allow to limit the max framerate of built-in screen recorder
+base: ToastUI: Show app icon on system text toasts as well
+evolution: themes: Convert to rro_overlays
+pixelstyle: rro_overlays: Add missing 'theme' attribute
+prebuilt/common: fix incorrect APN configs of Vodafone AU
+vendor: Cleanup init files
+
+2/8
+Evolver: Allow to Pulse edge light for all doze triggers
+Evolver: Update Smart Pixels menu
+FodAnimationResources: Update MIUI Light and MIUI Pulse
+QuickStatusBarHeader: Long-press header clock to access settings
+backuptool_ab: Make tmp actually tmpfs
+backuptool: Support seamless backup and restore to extra partitions
+base: InputManager: handle housed stylus event
+
+2/7
+Check if advertiserId value matches valid advertiser
+Check permission before sending batch scan result
+Fix abnormal wake up caused by WifiConnectivityManager
+
+2/6
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SystemUI: DividedLinesClock: Fix NPE on setTextColor
+wifi: Add provision to create/remove dynamic interface(s)
+
+2/5
+Bring back StitchImage (Scrolling screenshot feature)
+Evolver: Make sure that all of our preferences searchable
+Evolver: Refactor QS Brightness slider options
+Fix a bug in the USAP Pool refill logic
+No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity
+Partially revert "Wake up to lock screen when bouncer is visible"
+SystemUI: Add flipendo to Battery Saver QSTile
+SystemUI: Move quick QS brightness slider to the bottom
+SystemUI: NavigationHandle: Don't show on keyguard or doze
+NavigationBarInflaterView: Apply custom layouts on boot
+NavigationBarInflaterView: Don't apply a custom layout when using gestural
+NavigationHandle: Adapt hide on keyguard to navbar pulse
+NavigationHandle: Only register callbacks when attached
+base: Add long screenshot chip
+base: Add missing long screenshot permission
+base: Fallback stitchimage's broken value to unknown
+base: Whitelist stitchimage
+fixup! Evolver: Add ambient pulse and aod notifications
+fw/av: Require service UID for LIST_AUDIO_SESSIONS
+
+2/4
+Camera: Track native metadata allocations
+GoogleConfigOverlay: Use the correct config for config_defaultTextClassifierPackage
+Settings: Phone ringtone setting for Multi SIM device
+SmartCharging: Clean up redundant settings define
+SoundPool: Fix clang-tidy warning in StreamManager
+SystemUI: fix NPE on ExpandableNotificationRow
