@@ -1,0 +1,27 @@
+** Device Changes **
+- Etude kernel: Op.11 No.2
+  * Linux 4.9.257
+  * merged CAF tag `LA.UM.9.3.r1-00700-sdm845.0`
+  * backported suspend stats sysfs node
+Satisfied the graceful shutdown of light devices in light HAL
+Turned pinner on for camera
+Added vector icons for parts
+Removed Pixel Thermalhal
+
+** Source Changes **
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Stop manually mixing /dev/hw_random
+base: Improve notification header toggle
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
