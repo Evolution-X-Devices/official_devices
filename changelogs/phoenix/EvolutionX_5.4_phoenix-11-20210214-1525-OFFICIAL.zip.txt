@@ -1,0 +1,131 @@
+Device changes:
+==============================
+Fixed ok google detection
+Update Sunfish fp to RQ1A.210205
+Kang dexpreopt bits from OnePlus 7 tree
+Enabled unspecialized app process pool
+added icons to doze menu  
+Allow to wake the screen instead of pulsing
+Bring back proximity sensor doze setttings
+Implement Clear Speaker
+Refactor dirac
+Update power HAL from LineageOS 17.1
+Misc changes in wifi
+Move thermal profiles to system settings
+Implement auto-lowering refresh rate on battery saver
+Added FM
+Enable usage of dex2oat64
+Switched to Nightblade kernel
+
+ROM changes:
+==============================
+2/12
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+
+2/11
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
+
+2/10
+Apply bilinear filter for Ninepatch
+Bring back "Post a silent notification if screenshot is dismissed"
+Fix initialization of USER_ROTATION setting
+Fix to prevent usagestats file corruption when writing
+GoogleConfigOverlay: Add standalone UnifiedNlp location provider
+PixelConfigOverlayCommon: Don't downscale high-res task snapshots
+Pulse: Don't show when we have no navbar
+ScreenRecord: Improve low quality screen record
+SystemUI: Move quick QS brightness slider to the original position
+fixup! Add long screenshot chip
+fixup! fix font size scale validator after r29 merge
+vendor: Transform apex overlays into RRO overlays
+vendor: Make GAPPS mandatory for all
+
+2/9
+GlobalScreenshot: Use default screenshot dismiss delay
+Settings: Implement cutout force full screen
+SettingsIntelligence: Give permission to read device config
+SystemUI: allow to limit the max framerate of built-in screen recorder
+base: ToastUI: Show app icon on system text toasts as well
+evolution: themes: Convert to rro_overlays
+pixelstyle: rro_overlays: Add missing 'theme' attribute
+prebuilt/common: fix incorrect APN configs of Vodafone AU
+vendor: Cleanup init files
+
+2/8
+Evolver: Allow to Pulse edge light for all doze triggers
+Evolver: Update Smart Pixels menu
+FodAnimationResources: Update MIUI Light and MIUI Pulse
+QuickStatusBarHeader: Long-press header clock to access settings
+backuptool_ab: Make tmp actually tmpfs
+backuptool: Support seamless backup and restore to extra partitions
+base: InputManager: handle housed stylus event
+
+2/7
+Check if advertiserId value matches valid advertiser
+Check permission before sending batch scan result
+Fix abnormal wake up caused by WifiConnectivityManager
+
+2/6
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SystemUI: DividedLinesClock: Fix NPE on setTextColor
+wifi: Add provision to create/remove dynamic interface(s)
+
+2/5
+Bring back StitchImage (Scrolling screenshot feature)
+Evolver: Make sure that all of our preferences searchable
+Evolver: Refactor QS Brightness slider options
+Fix a bug in the USAP Pool refill logic
+No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity
+Partially revert "Wake up to lock screen when bouncer is visible"
+SystemUI: Add flipendo to Battery Saver QSTile
+SystemUI: Move quick QS brightness slider to the bottom
+SystemUI: NavigationHandle: Don't show on keyguard or doze
+NavigationBarInflaterView: Apply custom layouts on boot
+NavigationBarInflaterView: Don't apply a custom layout when using gestural
+NavigationHandle: Adapt hide on keyguard to navbar pulse
+NavigationHandle: Only register callbacks when attached
+base: Add long screenshot chip
+base: Add missing long screenshot permission
+base: Fallback stitchimage's broken value to unknown
+base: Whitelist stitchimage
+fixup! Evolver: Add ambient pulse and aod notifications
+fw/av: Require service UID for LIST_AUDIO_SESSIONS
+
+2/4
+Camera: Track native metadata allocations
+GoogleConfigOverlay: Use the correct config for config_defaultTextClassifierPackage
+Settings: Phone ringtone setting for Multi SIM device
+SmartCharging: Clean up redundant settings define
+SoundPool: Fix clang-tidy warning in StreamManager
+SystemUI: fix NPE on ExpandableNotificationRow
+
+2/2
+Camera: Fix deadlock in ACameraCaptureSession destructor
+Merge February security patches
+PixelPropsUtils: Update build fingerprint
+Reapply per-app cellular data, vpn and wifi restrictions
+TrafficSB: fix the icon overlap on notched devices
+Upstream some core system fixes
+base: Expose system icon area weight
+system/netd: add missing override keyword
+
+2/1
+Settings: Clipboard toast toggle
+Settings: Fix default brightness level display 0
+SystemUI: Misc fixes and reverts
+VibratorService: bypass AppOps check
+
+1/31
+Accents: Fix LOCAL_PATH
+KeyStore: Report rate limited instead of not implemented
+QSTiles: Build in product and as RRO package
