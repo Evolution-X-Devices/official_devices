@@ -1,0 +1,42 @@
+Dirty Flash Is Possible But I Would suggest To Do A Clean flash.
+
+==============================
+Device changes:
+==============================
+Hotfix Update From Previous Build
+Added Qti Health Implementation
+Switched To Qti Bluetooth Stack
+Charging rapidly --> Turbo charging (Like miui)
+Tuned Powerhint
+Nuked ANXCamera
+Fixed Vol +/- Keys While Using Earphones
+Changed fast charging indicator threshold to 10.8W 
+Violet Parts: Imported KCAL ( Display color calibration)
+
+------------------------------
+ROM changes:
+==============================
+Evolver: Add Smart Pixels warning
+Evolver: Move Screen off FOD feature into FOD category
+Evolver: Re-enable Gaming Mode footer
+Evolver: Remove warning for Navbar visibility
+Introduce 404 IDE Clock
+NavBar: Don't crash when we can't find navigation overlays
+config: decrease gboard ime height
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Stop manually mixing /dev/hw_random
+Update translations
+base: Improve notification header toggle
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
