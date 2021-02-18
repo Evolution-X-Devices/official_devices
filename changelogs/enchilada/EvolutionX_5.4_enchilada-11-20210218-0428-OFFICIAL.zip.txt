@@ -1,0 +1,71 @@
+Note:
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions. Twrp not included.
+
+**Warning:**
+Don't Disable Navigation Bar.
+
+**Device Changes:**
+overlay: Update CarrierConfig overlay from OOS11
+overlay: Disable global mode and CDMA choices
+Added OnePlusFileManager
+Revert"sdm845-common: disable soundtrigger via vendor overlay"(Fix BT calls and OK google Detetcion no longer works)
+
+**ROM changes:**
+2/17
+Bring back option to Unlock keystore with fingerprint after reboot
+Clocks: Disable status area for specific styles
+Evolver: Add Gvisual mod feature
+Evolver: Replace warning for Navbar visibility
+KeyguardUpdateMonitor: only allow biometric unlock with strong auth needed if decrypted
+QuickStatusBarHeader: Long-press header date to access calendar
+QSFooterImpl: Add vibration effect to Settings button Long-press
+Settings: Bring back configurable lockscreen timeout
+Settings: Display menu: move lockscreen/ambient preference to top
+Settings: Hide 'unlock keystore with fingerprint' settings if the device is encrypted
+Settings: Inline fingerprint unlock keystore switch into lockscreen fragment
+Settings: set the correct position on the navbar size seekbar by default
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix shutter sound
+SystemUI: Handle cases that we can't address within FODCircleView
+SystemUI: Open Sound settings on long click at the panel button
+SystemUI: Screenshots: Refactor shutter sound logic
+SystemUI: Show FOD icon on reboot if 'unlock keystore with fingerprint' is enabled
+VolumeDialog: Improve long press code
+gms: Don't build GooglePackageInstaller
+pixelstyle: audio: Add Evolution ringtone and set as default
+prebuilt/common: add IMS entry for Airtel mcc="404,405" configs
+
+2/16
+SystemUI: Make the kill app qs tile icon prettier
+
+2/14
+Evolver: Add Smart Pixels warning
+Evolver: Move Screen off FOD feature into FOD category
+Evolver: Re-enable Gaming Mode footer
+Introduce 404 IDE Clock
+NavBar: Don't crash when we can't find navigation overlays
+config: decrease gboard ime height
+
+2/13
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Stop manually mixing /dev/hw_random
+Update translations
+base: Improve notification header toggle
+
+2/12
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Evolver: Bring back configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+
+2/11
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
