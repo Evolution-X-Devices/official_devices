@@ -1,0 +1,146 @@
+Note:
+==============================
+This Build is Android 11 firmware based.
+OSS Vendor users kindly don't flash it.
+------------------------------
+Device changes:
+==============================
+Fixed CPU Frequency stuck at max. when using FOD
+Nuked prebuilt GCamGo (No prebuilt camera will be given from now)
+Added XiaomiDoze
+Added Misys Support
+Updated Fingerprint blobs from Stock R
+------------------------------
+ROM changes:
+==============================
+2/19
+backuptool: Correct supported partitions for addon.d v3
+
+2/18
+Evolver: Improvements and updates
+kernel: Support pixel style vendor_boot modules
+pixelstyle: audio: Add more Pixel Sounds
+
+2/17
+Bring back option to Unlock keystore with fingerprint after reboot
+Clocks: Disable status area for specific styles
+Evolver: Add Gvisual mod feature
+Evolver: Replace warning for Navbar visibility
+KeyguardUpdateMonitor: only allow biometric unlock with strong auth needed if decrypted
+QuickStatusBarHeader: Long-press header date to access calendar
+QSFooterImpl: Add vibration effect to Settings button Long-press
+Settings: Bring back configurable lockscreen timeout
+Settings: Display menu: move lockscreen/ambient preference to top
+Settings: Hide 'unlock keystore with fingerprint' settings if the device is encrypted
+Settings: Inline fingerprint unlock keystore switch into lockscreen fragment
+Settings: set the correct position on the navbar size seekbar by default
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix shutter sound
+SystemUI: Handle cases that we can't address within FODCircleView
+SystemUI: Open Sound settings on long click at the panel button
+SystemUI: Screenshots: Refactor shutter sound logic
+SystemUI: Show FOD icon on reboot if 'unlock keystore with fingerprint' is enabled
+VolumeDialog: Improve long press code
+gms: Don't build GooglePackageInstaller
+pixelstyle: audio: Add Evolution ringtone and set as default
+prebuilt/common: add IMS entry for Airtel mcc="404,405" configs
+
+2/16
+SystemUI: Make the kill app qs tile icon prettier
+
+2/14
+Evolver: Add Smart Pixels warning
+Evolver: Move Screen off FOD feature into FOD category
+Evolver: Re-enable Gaming Mode footer
+Introduce 404 IDE Clock
+NavBar: Don't crash when we can't find navigation overlays
+config: decrease gboard ime height
+
+2/13
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Stop manually mixing /dev/hw_random
+Update translations
+base: Improve notification header toggle
+
+2/12
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Evolver: Bring back configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+
+2/11
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
+
+2/10
+Apply bilinear filter for Ninepatch
+Bring back "Post a silent notification if screenshot is dismissed"
+Fix initialization of USER_ROTATION setting
+Fix to prevent usagestats file corruption when writing
+GoogleConfigOverlay: Add standalone UnifiedNlp location provider
+PixelConfigOverlayCommon: Don't downscale high-res task snapshots
+Pulse: Don't show when we have no navbar
+ScreenRecord: Improve low quality screen record
+SystemUI: Move quick QS brightness slider to the original position
+fixup! Add long screenshot chip
+fixup! fix font size scale validator after r29 merge
+vendor: Transform apex overlays into RRO overlays
+vendor: Make GAPPS mandatory for all
+
+2/9
+GlobalScreenshot: Use default screenshot dismiss delay
+Settings: Implement cutout force full screen
+SettingsIntelligence: Give permission to read device config
+SystemUI: allow to limit the max framerate of built-in screen recorder
+base: ToastUI: Show app icon on system text toasts as well
+evolution: themes: Convert to rro_overlays
+pixelstyle: rro_overlays: Add missing 'theme' attribute
+prebuilt/common: fix incorrect APN configs of Vodafone AU
+vendor: Cleanup init files
+
+2/8
+Evolver: Allow to Pulse edge light for all doze triggers
+Evolver: Update Smart Pixels menu
+FodAnimationResources: Update MIUI Light and MIUI Pulse
+QuickStatusBarHeader: Long-press header clock to access settings
+backuptool_ab: Make tmp actually tmpfs
+backuptool: Support seamless backup and restore to extra partitions
+base: InputManager: handle housed stylus event
+
+2/7
+Check if advertiserId value matches valid advertiser
+Check permission before sending batch scan result
+Fix abnormal wake up caused by WifiConnectivityManager
+
+2/6
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SystemUI: DividedLinesClock: Fix NPE on setTextColor
+wifi: Add provision to create/remove dynamic interface(s)
+
+2/5
+Bring back StitchImage (Scrolling screenshot feature)
+Evolver: Make sure that all of our preferences searchable
+Evolver: Refactor QS Brightness slider options
+Fix a bug in the USAP Pool refill logic
+No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity
+Partially revert "Wake up to lock screen when bouncer is visible"
+SystemUI: Add flipendo to Battery Saver QSTile
+SystemUI: Move quick QS brightness slider to the bottom
+SystemUI: NavigationHandle: Don't show on keyguard or doze
+NavigationBarInflaterView: Apply custom layouts on boot
+NavigationBarInflaterView: Don't apply a custom layout when using gestural
+NavigationHandle: Adapt hide on keyguard to navbar pulse
+NavigationHandle: Only register callbacks when attached
+base: Add long screenshot chip
+base: Add missing long screenshot permission
+base: Fallback stitchimage's broken value to unknown
+base: Whitelist stitchimage
+fixup! Evolver: Add ambient pulse and aod notifications
+fw/av: Require service UID for LIST_AUDIO_SESSIONS
