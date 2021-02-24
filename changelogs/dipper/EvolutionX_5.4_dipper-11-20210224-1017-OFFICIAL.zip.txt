@@ -1,0 +1,46 @@
+** Device Changes **
+Update Telephony blobs from LA.QSSI.11.0.r1-09400-qssi.0
+Update WiFi Display blobs from LA.QSSI.11.0.r1-09400-qssi.0
+Update kernel to 4.9.258
+Update Wireguard to 1.0.20210219
+Merge qcacld-3.0/qca-wifi-host-cmn driver changes from LA.UM.8.3.c25-00900-sdm845.0
+
+** ROM Changes **
+AMS: Disallow requestSystemServerHeapDump on non-eng builds
+Include SBC Dual Channel (SBC HD Audio) support additions from LOS
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: Add side paddings for brightness slider
+SystemUI: Fix issues with VoWiFi icon
+pixelstyle: overlay: Remove Adaptive connectivity toggle
+KeyguardClockSwitch: IS_DEBUGGABLE -> IS_ENG
+Refrain from using Mobile Data panel for QS long press
+init: Allow the possibility to use prebuilt ramdisk init
+pixelstyle: rro_overlays: Remove GooglePermissionControllerOverlay
+prebuilt/common: add APN config for rakuten.jp
+SystemUI: HeadphonesBuddy: Fix crash on long press
+ViewConfiguration: Set scroll friction to 0.012
+backuptool: Correct supported partitions for addon.d v3
+Evolver: Improvements and updates
+kernel: Support pixel style vendor_boot modules
+pixelstyle: audio: Add more Pixel Sounds
+Clocks: Disable status area for specific styles
+Evolver: Add Gvisual mod feature
+Evolver: Replace warning for Navbar visibility
+QuickStatusBarHeader: Long-press header date to access calendar
+QSFooterImpl: Add vibration effect to Settings button Long-press
+Settings: Display menu: move lockscreen/ambient preference to top
+Settings: set the correct position on the navbar size seekbar by default
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix shutter sound
+SystemUI: Open Sound settings on long click at the panel button
+SystemUI: Screenshots: Refactor shutter sound logic
+VolumeDialog: Improve long press code
+gms: Don't build GooglePackageInstaller
+prebuilt/common: add IMS entry for Airtel mcc="404,405" configs
+SystemUI: Make the kill app qs tile icon prettier
+Evolver: Add Smart Pixels warning
+Evolver: Re-enable Gaming Mode footer
+Introduce 404 IDE Clock
+NavBar: Don't crash when we can't find navigation overlays
+config: decrease gboard ime height
+
