@@ -1,0 +1,17 @@
+Device Side:
+Fix APEX (Google Play Security Update)
+Fixed OK Google Detection
+CTS now passes even if unrooted
+Added Glove Mode (Increase Touch Sensitivity in Display Settings)
+Merge latest CAF Tag into kernel (LA.UM.9.3.r1-01000-sdm845.0)
+
+ROM Side:
+Merge February Security patch
+Evo version bumped to 5.4 Boombastic
+Ambient music: Also shorten the Now Playing title after the song title
+Settings: Phone ringtone setting for Multi SIM device
+Bring back StitchImage (Scrolling screenshot feature)
+Use AOSP PackageInstaller
+pixelstyle: audio: Add more Pixel Sounds
+Include SBC Dual Channel (SBC HD Audio) support additions from LOS
+and many more..
