@@ -1,0 +1,38 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.3
+  * Linux 4.9.258
+  * merged CAF tag `LA.UM.9.3.r1-01000-sdm845.0`
+  * kgsl: moved fenced write outside spinlock and avoid busy waiting for it to finish
+  * kgsl: removed ringbuffer submission profiling code
+  * sde: remove VBIF debug code upon commit
+  * page_alloc: consider high-atomic reserve in watermark fast
+  * wireguard 1.0.20210219
+  * used --lto-O3 for LLD
+  * limited LLVM IR inlining during LTO to reduce kernel binary size
+  * merged module sections with LTO
+  * fixed a wrong PM operation in ICNSS
+  * enabled inline spinlock
+  * enabled Nintendo Joy-Con support in kernel
+  * dropped simple_lmk and brought back PSI/MEMCG
+  * removed /proc/config.gz hacks that are no longer needed
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Updated hevc encoder performance values from CAF
+- Dropped unused libpvr.so
+- Enabled the improved userspace lmkd on android11
+  * it uses "levels and thrashing to prevent memory starvation and performance degradation"
+  * verified through lmkd_unit_test
+- Updated wifi display system blobs from `LA.QSSI.11.0.r1-09400-qssi.0`
+- Cleaned up and updated telephony blobs from `LA.QSSI.11.0.r1-09400-qssi.0`
+- Imported missing GNSS blobs from `LA.UM.9.8.r1-02700-SDM710.0`
+- Parts: used all shared resources
+
+**Evolution X Update**
+- Fixed SystemUI crash when navbar is hidden and navbar pulse is on
+- Introduced 404 IDE clock
+- Added more Pixel Sounds
+- Fixed issues with VoWiFi icon
+- Many under-the-hood fixes
