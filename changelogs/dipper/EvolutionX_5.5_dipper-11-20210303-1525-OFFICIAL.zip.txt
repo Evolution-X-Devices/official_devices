@@ -1,0 +1,24 @@
+** Device Changes **
+Improvements on kernel
+Updated hevc encoder performance values from CAF
+Dropped unused libpvr.so
+Enabled the improved userspace lmkd on android11
+Parts: used all shared resources
+
+** Source Changes **
+AbsSeekBar: Fix growRect computation
+AbsSeekBarTest: Fix dpToPixel computation
+Enable IPV4V6 for APN Yesss
+Evolver: Allow scheduling always on display
+IDEClock: Fix preview not displaying
+Merge March 2021 Security patches
+NetworkTrafficSB: Better workaround for RequestLayout() spam
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Show full default name in customization preferences
+Show SELinux status in Settings
+SystemUI: HeadsUpStatusBarView: ensure cutout start if cutout bounds are not null
+SystemUI: Fix issues with VoWiFi icon
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+apex: Update from RQ2A.210305.006
+fwb: Fix navigation bar button hit testing
+
