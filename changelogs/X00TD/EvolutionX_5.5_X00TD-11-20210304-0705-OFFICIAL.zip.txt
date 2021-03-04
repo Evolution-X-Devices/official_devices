@@ -1,0 +1,20 @@
+Version: 5.5: Tremor
+Merged March security patch
+Fixed wifi calling
+Fixed UI lags completely
+Enabled walleye offsets for GPU composition
+Enabled SurfaceFlinger's display power timer
+Switched to source built perf
+Added support for battery Moto Mods
+Fixed issues with VoWiFi icon
+Introduced dynamic VoLTE & VoWiFi icons
+Fixed navigation bar button hit testing
+Added side paddings for brightness slider
+Cleaned up about phone section
+Made the kill app qs tile icon prettier
+Added Smart Pixels warning
+Re-enabled Gaming Mode footer
+Introduced 404 IDE Clock
+decreased gboard ime height
+Removed SystemUI restart dialog for Notification headers
+Updated translations
