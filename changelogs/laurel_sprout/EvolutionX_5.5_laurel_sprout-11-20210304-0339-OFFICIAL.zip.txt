@@ -1,0 +1,80 @@
+Note:
+==============================
+This Build is Android 11 firmware based.
+OSS Vendor users with Android 10 firmware kindly don't flash it.
+------------------------------
+Device changes:
+==============================
+Corners are no more serreted now.
+
+Improvements in ZRAM Setup:
+- Switch to LZ4 for better overall performance
+- Set ZRAM disksize to 2GB
+- Set max_comp_streams to num of cores(8) since upstream also moves this to
+per CPU
+- Set page-cluster to 0 as the incremental cost of reading 1 page at a
+time is negligible for zram
+- Enabled on boot_complete (This help to save ~50ms in boot time and bootanim shown time)
+
+Disabled kpti:
+As per qualcomm - "SM8150/SM8250/SM8350/SM7250/SM7150/SM6150 - KPTI Not required".
+It can also help increase performance by a lot in some scenarios.
+
+Introduced raise to wake screen gesture.
+
+Added vector icons in parts to make it look nice when enable the
+gesture featurs.
+
+Disabled pinning of the camera app to save precious RAM on device.
+
+Updated Redfin's fingerprint to March 2021
+------------------------------
+ROM changes:
+==============================
+3/2
+Evolver: Allow scheduling always on display
+Merge March 2021 Security patches
+SystemUI: Fix issues with VoWiFi icon
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+apex: Update from RQ2A.210305.006
+fwb: Fix navigation bar button hit testing
+
+3/1
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Show full default name in customization preferences
+
+2/28
+AbsSeekBar: Fix growRect computation
+AbsSeekBarTest: Fix dpToPixel computation
+IDEClock: Fix preview not displaying
+
+2/26
+Install seccomp filter even if selinux is permissive
+NetworkTrafficSB: Better workaround for RequestLayout() spam
+SystemUI: HeadsUpStatusBarView: ensure cutout start if cutout bounds are not null
+
+2/25
+Enable IPV4V6 for APN Yesss
+
+2/24
+AMS: Disallow requestSystemServerHeapDump on non-eng builds
+Include SBC Dual Channel (SBC HD Audio) support additions from LOS
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: Add side paddings for brightness slider
+core: jni: Switch to -O3
+
+2/22
+BiometricPrompt: Force portrait orientation if we have FOD
+pixelstyle: overlay: Remove Adaptive connectivity toggle
+
+2/21
+KeyguardClockSwitch: IS_DEBUGGABLE -> IS_ENG
+Refrain from using Mobile Data panel for QS long press
+init: Allow the possibility to use prebuilt ramdisk init
+pixelstyle: rro_overlays: Remove GooglePermissionControllerOverlay
+prebuilt/common: add APN config for rakuten.jp
+
+2/20
+Settings: Maintainer preference: Also show for unofficial builds
+SystemUI: HeadphonesBuddy: Fix crash on long press
+ViewConfiguration: Set scroll friction to 0.012
