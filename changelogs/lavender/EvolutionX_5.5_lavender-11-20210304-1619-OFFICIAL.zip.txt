@@ -1,0 +1,27 @@
+Device changes:
+DeviceSettings: Fixed null object reference in thermal
+Retuned media_codecs_perfomance
+Updated rootdir and init stuff from CAF
+Removed many unnecesarry/unused targets
+Dropped broken soundtrigger to fix "Ok Google" hotword
+Fixed Google recorder
+Updated Telephony overlays from LA.UM.9.2.1.r1-05500-sdm660.0
+Updated WFD blobs from LA.UM.9.6.2.r1-03300-89xx.0
+Updated GPS blobs from LA.UM.9.6.2.r1-03600-89xx.0
+Updated GPS HAL from LA.UM.9.6.2.r1-03300-89xx.0
+Updated various other blobs from LA.UM.9.6.2.r1-03600-89xx.0
+Updated fingerprint to Redfin - RQ2A.210305.006
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.5 - Tremor
+March security patches
+You can now set phone rigtone properly on multisim devices
+Brought back StitchImage (Scrolling screenshot feature)
+Evolver: Make sure that all of our preferences searchable
+Evolver: Refactor QS Brightness slider options
+Pulse: Don't show when navbar is disabled
+Included SBC Dual Channel (SBC HD Audio) support additions from LOS
+pixelstyle: audio: Added more Pixel Sounds
+SystemUI: Fixed issues with VoWiFi icon
+SystemUI: Introduced dynamic VoLTE & VoWiFi icon
+Many more smaller things and bugfixes, these are just the major ones :)
