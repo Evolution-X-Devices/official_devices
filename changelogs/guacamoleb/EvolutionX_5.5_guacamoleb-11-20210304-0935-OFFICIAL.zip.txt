@@ -1,0 +1,75 @@
+Device:
+Updated listen blobs from OOS OB1
+Updated time blobs and scripts from OOS OB1
+Upstreamed neutrino kernel from 4.14.218 to latest 4.14.222
+Silenced some ims debug stuff
+Fixed video/screen recording
+Reverted "Uprev soundtrigger to 2.3" (Fixes headphone issues)
+Enabled GL comp backpressure
+Added some surfaceFlinger props
+Updated doze overlays
+Updated carrierconfig overlay from OB2
+Switched to QTI Thermal HAL
+WifiOverlay: updated package name
+ueventd: Don't modify permissions of /dev/hw_random
+Enabled persist.rcs.supported
+Reworked dex flags
+Few other small things here and there
+
+Rom:
+
+AOD: Sleep when proximity is covered for 3 sec
+BatteryManager: Mark battery moto mods constants as hidden
+BatteryService: Add support for battery Moto Mods
+BatteryService: Mod: Check against all conditions
+cryptfs: Fix legacy QCOM HW FDE encryption
+gms: Add TurboAdapter without Google Battery
+pixelstyle: rro_overlays: Update from RQ2A.210305.006
+Evolver: Allow scheduling always on display
+Merge March 2021 Security patches
+SystemUI: Fix issues with VoWiFi icon
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+apex: Update from RQ2A.210305.006
+fwb: Fix navigation bar button hit testing
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Show full default name in customization preferences
+AMS: Disallow requestSystemServerHeapDump on non-eng builds
+Include SBC Dual Channel (SBC HD Audio) support additions from LOS
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: Add side paddings for brightness slider
+core: jni: Switch to -O3
+BiometricPrompt: Force portrait orientation if we have FOD
+pixelstyle: overlay: Remove Adaptive connectivity toggle
+KeyguardClockSwitch: IS_DEBUGGABLE -> IS_ENG
+Refrain from using Mobile Data panel for QS long press
+init: Allow the possibility to use prebuilt ramdisk init
+pixelstyle: rro_overlays: Remove GooglePermissionControllerOverlay
+prebuilt/common: add APN config for rakuten.jp
+SystemUI: HeadphonesBuddy: Fix crash on long press
+Evolver: Improvements and updates
+pixelstyle: audio: Add more Pixel Sounds
+Evolver: Add Gvisual mod feature
+QuickStatusBarHeader: Long-press header date to access calendar
+QSFooterImpl: Add vibration effect to Settings button Long-press
+Settings: Display menu: move lockscreen/ambient preference to top
+Settings: set the correct position on the navbar size seekbar by default
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix shutter sound
+SystemUI: Handle cases that we can't address within FODCircleView
+SystemUI: Open Sound settings on long click at the panel button
+SystemUI: Screenshots: Refactor shutter sound logic
+VolumeDialog: Improve long press code
+gms: Don't build GooglePackageInstaller
+SystemUI: Make the kill app qs tile icon prettier
+Evolver: Move Screen off FOD feature into FOD category
+Evolver: Re-enable Gaming Mode footer
+Introduce 404 IDE Clock
+config: decrease gboard ime height
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Update translations
+base: Improve notification header toggle
+Evolver: Bring back configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+More!
