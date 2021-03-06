@@ -1,0 +1,20 @@
+** Source Changes **
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+FaceUnlock: Drop lockouts completely
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+Settings: Fix NPE in NetworkModePreferenceController
+SystemUI: Allow listening for face only on pin/pass view
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Face Unlock animation
+SystemUI: custom lockscreen shortcut fixes
+base: do not use new lockscreen layout for bypass
+fwb: Guard some functions against face unlock
+BuiltInPrintService: Fix icon accent color
+Fix inconsistent system app icon colors
+Switch to using AOSP DocumentsUI (Files app)
+config: Enable IORap app launch prefetching
+device_config: Enable cached app freezer on supported devices
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+
