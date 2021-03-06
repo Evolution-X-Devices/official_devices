@@ -1,0 +1,58 @@
+------------------------------
+Device changes:
+==============================
+Update OnePlusGallery ( 4.0.135 >> 4.0.156 )
+------------------------------
+ROM changes:
+==============================
+3/6
+
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+FaceUnlock: Drop lockouts completely
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+Settings: Fix NPE in NetworkModePreferenceController
+SystemUI: Allow listening for face only on pin/pass view
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Face Unlock animation
+SystemUI: custom lockscreen shortcut fixes
+base: do not use new lockscreen layout for bypass
+fwb: Guard some functions against face unlock
+vendor: Add back FaceUnlock support
+
+3/5
+
+BuiltInPrintService: Fix icon accent color
+Fix inconsistent system app icon colors
+Switch to using AOSP DocumentsUI (Files app)
+config: Enable IORap app launch prefetching
+device_config: Enable cached app freezer on supported devices
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+
+FOD devices ONLY
+FODCircleView: various improvements
+
+3/4
+
+DisplayModeDirector: Make sure we apply refresh rate on startup
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+InputMethodService: Disable fullscreen keyboard
+PowerUsageSummary: Remove obsolete call to update the battery header
+PixelPropsUtils: Remove gms spoof
+SystemUI: prevent crash in MediaOuptutReceiver
+Update prebuilt StitchImage for R
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+libmedia: Add MediaPlayer() function for backward compatibility
+
+3/3
+
+AOD: Sleep when proximity is covered for 3 sec
+BatteryManager: Mark battery moto mods constants as hidden
+BatteryService: Add support for battery Moto Mods
+BatteryService: Mod: Check against all conditions
+cryptfs: Fix legacy QCOM HW FDE encryption
+gms: Add TurboAdapter without Google Battery
+pixelstyle: rro_overlays: Update from RQ2A.210305.006
