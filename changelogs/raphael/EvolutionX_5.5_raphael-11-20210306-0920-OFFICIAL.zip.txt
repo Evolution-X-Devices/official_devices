@@ -1,0 +1,44 @@
+Device changes:
+==============================
+Build powerstats HAL
+Build tinymix
+Don't use light sensor for pocket lock
+FaceUnlockService: Define delay for our popup camera
+Improve face unlock for popup camera
+Show "Turbo charging" instead of "Charging rapidly"
+fod: drop \n from logs
+------------------------------
+ROM changes:
+==============================
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+Bring back Face Unlock support
+BuiltInPrintService: Fix icon accent color
+Evolver: Add missing summary for AOD scheduling
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+FODCircleView: various improvements
+Fix Files app FC (Switch to AOSP DocumentsUI/Files app)
+Fix inconsistent system app icon colors
+InputMethodService: Disable fullscreen keyboard
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+PixelPropsUtils: Remove Pixel 3 XL spoof
+PowerUsageSummary: Remove obsolete call to update the battery header
+Settings: Fix NPE in NetworkModePreferenceController
+SettingsIntelligence: Improve result breadcrumb arrows
+SettingsIntelligence: Update dark search panel color to match Settings
+SystemUI: Add Face Unlock animation
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Disable blur wakeup animation
+SystemUI: custom lockscreen shortcut fixes
+SystemUI: prevent crash in MediaOuptutReceiver
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+base: do not use new lockscreen layout for bypass
+device_config: Add Live Captions settings
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+fwb: Guard some functions against face unlock
+config: Enable IORap app launch prefetching
+iorap: Enable by default
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+vendor: Refactor and cleanup
