@@ -1,0 +1,73 @@
+!! Those who want to stay decrypted can flash DFE once OTA finishes, others must clean flash and/or format data in order to boot with encryption.
+
+Device changes:
+==============================
+Switched to redfin march 2021 fp
+Kernel upstreamed to 224
+Switched to pixel charger animation
+Fine tuned notch cutout
+Updated to Miui R blobs (21.3.3)
+Some performance tune ups
+Switched to Qti BT
+Updated CAF blobs from LA.UM.9.11.r1-02800
+Fixed camera freeze in some apps
+Fixed camera lens switching delay
+Fixed voip/mic issues in some apps
+Switched to new QTI thermal HAL
+Attempted to fix screen blackouts under sunlight/heat
+Improved GPS configs
+Improved rounded corners and fixed hide cutout option
+Added support for willow hwversion 18.31.0
+Removed unwanted apps
+------------------------------
+ROM changes:
+==============================
+AbsSeekBar: Fix growRect computation
+AbsSeekBarTest: Fix dpToPixel computation
+Enable IPV4V6 for APN Yesss
+Evolver: Allow scheduling always on display
+IDEClock: Fix preview not displaying
+Merge March 2021 Security patches
+NetworkTrafficSB: Better workaround for RequestLayout() spam
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Show full default name in customization preferences
+Show SELinux status in Settings
+SystemUI: HeadsUpStatusBarView: ensure cutout start if cutout bounds are not null
+SystemUI: Fix issues with VoWiFi icon
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+apex: Update from RQ2A.210305.006
+fwb: Fix navigation bar button hit testing
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+Bring back Face Unlock support
+BuiltInPrintService: Fix icon accent color
+Evolver: Add missing summary for AOD scheduling
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+FODCircleView: various improvements
+Fix Files app FC (Switch to AOSP DocumentsUI/Files app)
+Fix inconsistent system app icon colors
+InputMethodService: Disable fullscreen keyboard
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+PixelPropsUtils: Remove Pixel 3 XL spoof
+PowerUsageSummary: Remove obsolete call to update the battery header
+Remove OP Screen Recorder
+Settings: Fix NPE in NetworkModePreferenceController
+SettingsIntelligence: Improve result breadcrumb arrows
+SettingsIntelligence: Update dark search panel color to match Settings
+Sharesheet: Set max ranked items to 8
+SystemUI: Add Face Unlock animation
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Disable blur wakeup animation
+SystemUI: custom lockscreen shortcut fixes
+SystemUI: prevent crash in MediaOuptutReceiver
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+base: do not use new lockscreen layout for bypass
+device_config: Add Live Captions settings
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+fwb: Guard some functions against face unlock
+config: Enable IORap app launch prefetching
+iorap: Enable by default
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+vendor: Refactor and cleanup
