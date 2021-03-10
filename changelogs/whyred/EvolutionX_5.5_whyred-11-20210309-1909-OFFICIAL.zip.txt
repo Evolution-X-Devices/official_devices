@@ -1,0 +1,142 @@
+AuthBiometricFingerprintView: Fix indicator text color on dark theme
+Evolver: Update default font style
+LS charging info: Add support for Fahrenheit
+SystemUI: check if the cutout views array is null before using it
+SystemUI: Redraw display cutout on overlay changes
+Updater: Refactor
+fixup! SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+overlays: Set Body font for manrope
+pixelstyle: config: Build Manrope family fonts
+pixelstyle: rro_overlays: Don't version on config overlays
+pixelstyle: rro_overlays: EvolutionXConfigOverlay: Change headline font
+Allow using face as auth method for apps
+FaceService: Nuke useless call to getAuthenticatorId
+Settings: Expand abbreviation in average memory usage string
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+PictureAdjustmentController: Fix NPE when using getPictureAdjustmentRanges()
+Sharesheet: Set max ranked items to 8
+systemui: make media widget respect notif app name style
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+FaceUnlock: Drop lockouts completely
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+Settings: Fix NPE in NetworkModePreferenceController
+SystemUI: Allow listening for face only on pin/pass view
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Face Unlock animation
+SystemUI: custom lockscreen shortcut fixes
+base: do not use new lockscreen layout for bypass
+fwb: Guard some functions against face unlock
+vendor: Add back FaceUnlock support
+BuiltInPrintService: Fix icon accent color
+Fix inconsistent system app icon colors
+Switch to using AOSP DocumentsUI (Files app)
+config: Enable IORap app launch prefetching
+device_config: Enable cached app freezer on supported devices
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+DisplayModeDirector: Make sure we apply refresh rate on startup
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+InputMethodService: Disable fullscreen keyboard
+PowerUsageSummary: Remove obsolete call to update the battery header
+PixelPropsUtils: Remove gms spoof
+SystemUI: prevent crash in MediaOuptutReceiver
+Update prebuilt StitchImage for R
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+libmedia: Add MediaPlayer() function for backward compatibility
+AOD: Sleep when proximity is covered for 3 sec
+BatteryManager: Mark battery moto mods constants as hidden
+BatteryService: Add support for battery Moto Mods
+BatteryService: Mod: Check against all conditions
+cryptfs: Fix legacy QCOM HW FDE encryption
+gms: Add TurboAdapter without Google Battery
+pixelstyle: rro_overlays: Update from RQ2A.210305.006
+Evolver: Allow scheduling always on display
+Merge March 2021 Security patches
+SystemUI: Fix issues with VoWiFi icon
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+apex: Update from RQ2A.210305.006
+fwb: Fix navigation bar button hit testing
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Show full default name in customization preferences
+AbsSeekBar: Fix growRect computation
+AbsSeekBarTest: Fix dpToPixel computation
+IDEClock: Fix preview not displaying
+Install seccomp filter even if selinux is permissive
+NetworkTrafficSB: Better workaround for RequestLayout() spam
+SystemUI: HeadsUpStatusBarView: ensure cutout start if cutout bounds are not null
+Enable IPV4V6 for APN Yesss
+AMS: Disallow requestSystemServerHeapDump on non-eng builds
+Include SBC Dual Channel (SBC HD Audio) support additions from LOS
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: Add side paddings for brightness slider
+core: jni: Switch to -O3
+BiometricPrompt: Force portrait orientation if we have FOD
+pixelstyle: overlay: Remove Adaptive connectivity toggle
+KeyguardClockSwitch: IS_DEBUGGABLE -> IS_ENG
+Refrain from using Mobile Data panel for QS long press
+init: Allow the possibility to use prebuilt ramdisk init
+pixelstyle: rro_overlays: Remove GooglePermissionControllerOverlay
+prebuilt/common: add APN config for rakuten.jp
+Settings: Maintainer preference: Also show for unofficial builds
+SystemUI: HeadphonesBuddy: Fix crash on long press
+ViewConfiguration: Set scroll friction to 0.012
+backuptool: Correct supported partitions for addon.d v3
+Evolver: Improvements and updates
+kernel: Support pixel style vendor_boot modules
+pixelstyle: audio: Add more Pixel Sounds
+Clocks: Disable status area for specific styles
+Evolver: Add Gvisual mod feature
+Evolver: Replace warning for Navbar visibility
+QuickStatusBarHeader: Long-press header date to access calendar
+QSFooterImpl: Add vibration effect to Settings button Long-press
+Settings: Display menu: move lockscreen/ambient preference to top
+Settings: set the correct position on the navbar size seekbar by default
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix shutter sound
+SystemUI: Handle cases that we can't address within FODCircleView
+SystemUI: Open Sound settings on long click at the panel button
+SystemUI: Screenshots: Refactor shutter sound logic
+VolumeDialog: Improve long press code
+gms: Don't build GooglePackageInstaller
+prebuilt/common: add IMS entry for Airtel mcc="404,405" configs
+SystemUI: Make the kill app qs tile icon prettier
+Evolver: Add Smart Pixels warning
+Evolver: Move Screen off FOD feature into FOD category
+Evolver: Re-enable Gaming Mode footer
+Introduce 404 IDE Clock
+NavBar: Don't crash when we can't find navigation overlays
+config: decrease gboard ime height
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Stop manually mixing /dev/hw_random
+Update translations
+base: Improve notification header toggle
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Evolver: Bring back configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
+Apply bilinear filter for Ninepatch
+Bring back "Post a silent notification if screenshot is dismissed"
+Fix initialization of USER_ROTATION setting
+Fix to prevent usagestats file corruption when writing
+GoogleConfigOverlay: Add standalone UnifiedNlp location provider
+PixelConfigOverlayCommon: Don't downscale high-res task snapshots
+Pulse: Don't show when we have no navbar
+ScreenRecord: Improve low quality screen record
+SystemUI: Move quick QS brightness slider to the original position
+fixup! Add long screenshot chip
+fixup! fix font size scale validator after r29 merge
+vendor: Transform apex overlays into RRO overlays
+vendor: Make GAPPS mandatory for all
+
