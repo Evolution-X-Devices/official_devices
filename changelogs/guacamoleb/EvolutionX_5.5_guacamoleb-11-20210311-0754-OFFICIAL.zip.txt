@@ -1,0 +1,45 @@
+Device:
+IMPORTANT: I've switched to prebuilt nfc stack,so if you want nfc to work you MUST clean flash!!
+
+Switched to prebuilt NFC stack
+Updated some blobs from OB3
+Added netflix prop
+Added missing widevine firmware
+
+ROM:
+
+Face Unlock is back!
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+Bring back Face Unlock support
+BuiltInPrintService: Fix icon accent color
+Evolver: Add missing summary for AOD scheduling
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+FODCircleView: various improvements
+Fix Files app FC (Switch to AOSP DocumentsUI/Files app)
+Fix inconsistent system app icon colors
+InputMethodService: Disable fullscreen keyboard
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+PixelPropsUtils: Remove Pixel 3 XL spoof
+PowerUsageSummary: Remove obsolete call to update the battery header
+Remove OP Screen Recorder
+Settings: Fix NPE in NetworkModePreferenceController
+SettingsIntelligence: Improve result breadcrumb arrows
+SettingsIntelligence: Update dark search panel color to match Settings
+Sharesheet: Set max ranked items to 8
+SystemUI: Add Face Unlock animation
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Disable blur wakeup animation
+SystemUI: custom lockscreen shortcut fixes
+SystemUI: prevent crash in MediaOuptutReceiver
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+base: do not use new lockscreen layout for bypass
+device_config: Add Live Captions settings
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+fwb: Guard some functions against face unlock
+config: Enable IORap app launch prefetching
+iorap: Enable by default
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+More!
