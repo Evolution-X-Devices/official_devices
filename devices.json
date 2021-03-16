@@ -185,6 +185,20 @@
    },
    {
       "brand": "Motorola",
+      "codename": "lake",
+      "name": "Moto G7 Plus",
+      "supported_versions": [
+         {
+            "maintainer_name": "Leonardo Araujo Pimentel (batmann4bot)",
+            "maintainer_url": "https://forum.xda-developers.com/m/batmann4.6402777/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-official-evolutionx-5-5.4228773/"
+         }
+      ]
+   },
+   {
+      "brand": "Motorola",
       "codename": "sanders",
       "name": "Moto G5S Plus",
       "supported_versions": [
