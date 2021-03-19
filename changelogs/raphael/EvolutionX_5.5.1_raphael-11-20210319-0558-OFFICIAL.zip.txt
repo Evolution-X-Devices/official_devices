@@ -1,0 +1,30 @@
+Device changes:
+==============================
+Add motor calibration settings
+Hide fod while going to sleep
+Restore the LED's previous state after popup
+Tune the LED effect for popup
+------------------------------
+ROM changes:
+==============================
+Always include Apex support
+Bring back PA’s Applock
+Bump ROM version to 5.5.1
+ColorBucket: Add Android 12 Dark style
+DataSwitchTile: Make it behave like OxygenOS
+Evolver: AODSchedule: Add support for mixed time & sun modes
+Evolver: Change some default values
+FOD: Bring back allowing the user to disable night light when active
+Introduce Fluid lockscreen clock
+LiveDisplaySettings: Drop no longer necessary casts when calling findPreference()
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+Settings: Hide|disable "Phone number" from About phone information
+Settings: MediaOutputPanel: Handle the case of missing packageName
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+SystemUI: AmbientTile: Actually start using SecureSetting
+SystemUI: AmbientTile: Default the setting to 1
+SystemUI: AmbientTile: Don't hardcode display settings intent
+SystemUI: AmbientTile: Use SecureSetting to change doze setting
+SystemUI: SecureSetting: Allow specifying a non-zero default
+SystemUI: ensure FOD view is correctly hidden
+pixelstyle: Add missing configs
