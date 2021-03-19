@@ -1,0 +1,138 @@
+Device changes:
+==============================
+Added FPS overlay
+Upstreamed kernel to 4.14.226
+misc changes and some improvements
+
+ROM changes:
+==============================
+3/19
+Bump ROM version to 5.5.1
+Remove Smart Pixels support
+Settings: Hide|disable "Phone number" from About phone information
+pixelstyle: Add missing configs
+
+3/18
+Bring back PA’s Applock
+ColorBucket: Add Android 12 Dark style
+DataSwitchTile: Make it behave like OxygenOS
+FOD: Bring back allowing the user to disable night light when active
+SystemUI: AmbientTile: Actually start using SecureSetting
+SystemUI: AmbientTile: Default the setting to 1
+SystemUI: AmbientTile: Don't hardcode display settings intent
+SystemUI: AmbientTile: Use SecureSetting to change doze setting
+SystemUI: SecureSetting: Allow specifying a non-zero default
+
+3/17
+Always include Apex support
+Evolver: AODSchedule: Add support for mixed time & sun modes
+Evolver: Change some default values
+Introduce Fluid lockscreen clock
+Introduce anti flicker mode in LiveDisplay
+SystemUI: Add anti flicker tile
+base: Introduce automated DC Dimming
+
+3/16
+LiveDisplaySettings: Drop no longer necessary casts when calling findPreference()
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+Settings: Add a toggle for anti flicker mode in LiveDisplay settings
+Settings: Allow removing livedisplay pref screen with config_enableLiveDisplay
+Settings: MediaOutputPanel: Handle the case of missing packageName
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+SystemUI: ensure FOD view is correctly hidden
+core: Add overlay for disabling livedisplay
+
+3/15
+FODCircleView: Various changes
+PixelPropsUtils: Add more apps
+Settings: Use correct icon to reset battery stats
+vendor: Bring back OPScreenRecord
+
+3/14
+Revert "No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity.”
+SystemUI: Expose camera, location and microphone icons to Tuner
+SystemUI: tiles: Open display settings on long clicks for livedisplay tiles
+apns: Add Belong
+apns: Fix giffgaff
+base: fix padding between privacy icons and network traffic
+
+3/13
+BrightnessController: Fix thread exception
+Fix for TestDirectBootEmulated testcase
+Improve strings for bluetooth dual channel
+Settings: Introduce Android 12 Style Search bar
+SystemUI: Fix Wakelock issue
+SystemUI: MediaOutputDialogFactory: accept null package name
+base: Disable LiveDisplay low power consumption by default
+
+3/11
+GlobalScreenshot: Reduce screenshot dismiss delay to 2 seconds
+Pixel Navbar: Hide opa when not pressed
+Pixel Navbar: Make animation available even without google search
+Pixel Navbar: Remove halo, white cutout
+PixelPropsUtils: Use Pixel 3 XL spoof for Google app
+Refactor Pixel Navbar animation toggle behavior
+VolumeDialogControllerImpl: Stop log spam with no caption service
+
+3/9
+AuthBiometricFingerprintView: Fix indicator text color on dark theme
+Evolver: Update default font style
+LS charging info: Add support for Fahrenheit
+SystemUI: check if the cutout views array is null before using it
+SystemUI: Redraw display cutout on overlay changes
+Updater: Refactor
+fixup! SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+overlays: Set Body font for manrope
+pixelstyle: config: Build Manrope family fonts
+pixelstyle: rro_overlays: Don't version on config overlays
+pixelstyle: rro_overlays: EvolutionXConfigOverlay: Change headline font
+
+3/8
+Allow using face as auth method for apps
+FaceService: Nuke useless call to getAuthenticatorId
+Settings: Expand abbreviation in average memory usage string
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+
+3/7
+PictureAdjustmentController: Fix NPE when using getPictureAdjustmentRanges()
+Sharesheet: Set max ranked items to 8
+systemui: make media widget respect notif app name style
+
+3/6
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+FaceUnlock: Drop lockouts completely
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+Settings: Fix NPE in NetworkModePreferenceController
+SystemUI: Allow listening for face only on pin/pass view
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Face Unlock animation
+SystemUI: custom lockscreen shortcut fixes
+base: do not use new lockscreen layout for bypass
+fwb: Guard some functions against face unlock
+vendor: Add back FaceUnlock support
+
+3/5
+BuiltInPrintService: Fix icon accent color
+Fix inconsistent system app icon colors
+Switch to using AOSP DocumentsUI (Files app)
+config: Enable IORap app launch prefetching
+device_config: Enable cached app freezer on supported devices
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+
+FOD devices ONLY
+FODCircleView: various improvements
+
+3/4
+DisplayModeDirector: Make sure we apply refresh rate on startup
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+InputMethodService: Disable fullscreen keyboard
+PowerUsageSummary: Remove obsolete call to update the battery header
+PixelPropsUtils: Remove gms spoof
+SystemUI: prevent crash in MediaOuptutReceiver
+Update prebuilt StitchImage for R
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+libmedia: Add MediaPlayer() function for backward compatibility
