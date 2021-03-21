@@ -1,0 +1,29 @@
+-  Device Changelog: 
+- Fixed RIL lag on startup.
+- March security patch
+- Fixed Heating Issues.
+- Fixed exfat sdcards.
+- Fixed VOIP issues in calls
+- Performance improvements and misc optimizations.
+
+
+-  Rom Changelog:
+Add face unlock
+DisplayPowerController: make brightness ramp rate overlay-able
+QuickStatusBar: Check for privacy chip indicators earlier
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+rro_overlays: Add GoogleWallpaperPickerOverlay
+Bump ROM version to 5.5.2
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Update external card state based on current app
+Remove Smart Pixels support
+Settings: Hide|disable "Phone number" from About phone information
+pixelstyle: Add missing configs
+Bring back PA’s Applock
+ColorBucket: Add Android 12 Dark style
+
+
