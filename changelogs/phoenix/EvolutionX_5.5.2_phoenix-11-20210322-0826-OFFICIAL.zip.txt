@@ -1,0 +1,42 @@
+Device changes:
+==============================
+Fixed Headphone/headset volume buttons
+Fixed Smart charging
+Fixed refresh rate on battery save mode, now you can select either 60 or 90
+tuned cpusets and schedutil ratelimits from sunfish
+Added EAS configuration from sunfish
+Configure dynamic schedtune boost
+Enabled zram-writeback job and Tuned zram for performance
+Import boot/runtime fs tuning from coral
+Tuned CPU freq for better performance
+
+ROM changes:
+==============================
+3/22
+DisplayPowerController: make brightness ramp rate overlay-able
+QuickStatusBar: Check for privacy chip indicators earlier
+SystemUI: Bring back QS drag handle
+Track Snap camera by default
+overlays: Update file name for wireless icon used Settings
+vendor: Allow background broadcast for CAMERA_BUTTON
+vendor: Whitelist some of our own broadcast actions
+
+3/21
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+rro_overlays: Add GoogleWallpaperPickerOverlay
+
+3/20
+Bump ROM version to 5.5.2
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Update external card state based on current app
+apns-conf: Add Kena Mobile entries
+apns-conf: Add ho.mobile configs
+apns-conf: Update CoopVoce entries
+apns-conf: Update PosteMobile entries
+
+
+
