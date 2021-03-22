@@ -1,0 +1,26 @@
+Device changes:
+Loosen up thermal throttling thresholds to fix thermal issues
+Switched to AIDL Power HAL from Pixels for better battery life
+Fixed sensors logspam and general issues with sensors
+Switched to audio HAL v4
+WLAN driver now gets called from kernel instead of init
+Adressed some more denials in preparation for Enforcing
+Optimized shutdown time by a bit
+Silenced some WLAN logspam
+Switched to AOSP SurfaceFlinger
+Generally cleaned up the device tree quite a bit
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.5.2 - Tremor
+Added Face Unlock
+Settings: Introduced Android 12 style search bar
+Brought back OnePlus screen recorder
+Added PA's AppLocker
+Implemented some theme changes from Android 12 DP2
+Updated Pixel launcher to add double-tap-to-sleep functionality
+Evolver: Added Switch styles
+Evolver: Updated default font styles
+Evolver: Added more options to the Gvisual menu
+Switched to AOSP Files app from Google's Files app
+Added some more APN configs
+Many more smaller things and bugfixes, but I don't want this to be 9999 lines long :)
