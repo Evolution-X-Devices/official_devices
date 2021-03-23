@@ -1,0 +1,30 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.3
+  * Linux 4.9.262
+  * merged CAF tag `LA.UM.9.8.r1-03800-SDM710.0`
+  * f2fs: increased min_fsync_blocks to 20
+  * enabled BPF JIT
+  * binder: avoided printing debug by default
+  * kgsl: used lock-less list for page pools
+  * sde: avoided dynamically allocating memory for CRTC check
+  * sde: skipped heavy autorefresh checks
+  * sde: avoided clearing dim layers unnecessarily
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Reworked auto brightness
+  * smoothened auto brightness ramp up and ramp down animations. The brightness changing process should be more natural and less obtrusive
+  * increased ambient light sensor debounce time
+- Ported dex2oat threads and cpu-set power hints under various thermal conditions from Pixel 5
+- Tweaked INTERACTION power hints to be more efficient according to freqbench results
+- Added Adaptive Battery power hints from Pixel 3/XL March 2021 feature drop
+- Updated persist camera properties from MIUI
+- Cleaned up duplicated values and unused entries in init script
+
+**Evolution X Update**
+- March security patch
+- Made auto brightness ramp rate overlay-able
+- Fixed statusbar brightness control and migrated to android11's float values
+- Implemented some theme changes from android S dp2
+- EvoX added a modded Pixel Launcher. You can now enable double tap to sleep, but it may require a clean flash to work properly.
+- Face unlock
+- Applock from PA
+- Other misc fixes
