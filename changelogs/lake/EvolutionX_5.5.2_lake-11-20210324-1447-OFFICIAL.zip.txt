@@ -1,0 +1,71 @@
+=======================
+     DEVICE CHANGES
+=======================
+Fixed LiveDisplay not working on lake.
+App lock feature still unavaliable on lake, for now, i am fixing that on this week.
+If you experiencing any issue, try clean flash if you didn't yet.
+
+=======================
+      ROM CHANGES
+=======================
+     03-24-2021
+=======================
+
+   * build/soong/
+2afa3e8 Add AIDL lineage power HAL to VndkMustUseVendorVariantList
+
+   * device/evolution/sepolicy/
+49b9774 sepolicy: Label AIDL lineage power HAL service
+
+   * frameworks/base/
+5736f709 base: Theme changes from Android 12 DP2
+
+   * hardware/evolution/interfaces/
+9ea14c3 Add AIDL lineage power HAL
+
+   * vendor/pixelstyle/
+e41b6c3 pixelstyle: Changes from Android 12 DP2 [4/4]
+
+=======================
+     03-23-2021
+=======================
+
+   * manifest/
+778b312 manifest: Track our iorap
+
+   * packages/apps/Evolver/
+0e6395f Evolver: Re-arrange QS options
+
+   * packages/apps/Settings/
+d87b2cc Settings: Changes from Android 12 DP2 [2/4]
+
+   * system/iorap/
+13c5bb0 iorap: Increase daemon priority
+
+=======================
+     03-22-2021
+=======================
+
+   * vendor/evolution/
+e6038a1 evolution: Allow background broadcast for CAMERA_BUTTON
+
+=======================
+     03-20-2021
+=======================
+
+   * frameworks/opt/telephony/
+5cc629c Update external card state based on current app
+
+   * vendor/gms/
+8ee56f4 gms: Update Pixel Launcher
+
+=======================
+     03-17-2021
+=======================
+
+   * frameworks/av/
+12515b7 libstagefright: Fix memory leak due to lock timeout
+
+=======================
+     03-16-2021
+=======================
