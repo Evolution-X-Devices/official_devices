@@ -1,0 +1,70 @@
+CLEAN FLASH IS COMPULSORY!!
+
+#KEEP_EVOLVING #Violet
+ 
+==============================
+Device changes:
+==============================
+- Updated graphic blobs
+- Adpated to UCLAMP(No need to flash anything)
+- Device Tree clean up
+- Adjusted powerhint for better interactions
+- Added Notch bar killer(Find it under developer options
+- Violet Parts: Add Bass boster preset 
+- Violet Parts: Imported vibration strength control
+- Violet Parts: Added torch brightness control
+- Switch Skia rendering backend to Vulkan
+- IR Fixed
+- Adressed some log spams
+
+------------------------------
+ROM changes:
+==============================
+- Base: More theme changes from Android 12 DP2
+- Evolver: Re-arrange QS options
+- FluidClock: Fix up preview rendering
+- SystemUI: Remove color-accented label in QSTileView
+- perf: Add support for HIDL Lineage power HAL
+- perf: Support AIDL Lineage power HAL service
+- AppInfo: Add time spent in app from Wellbeing
+- VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+- iorap: Increase daemon priority
+- DisplayPowerController: make brightness ramp rate overlay-able
+- QuickStatusBar: Check for privacy chip indicators earlier
+- Track Snap camera by default
+- overlays: Update file name for wireless icon used Settings
+- vendor: Allow background broadcast for CAMERA_BUTTON
+- vendor: Whitelist some of our own broadcast actions
+- Evolver: Add Switch styles
+- Evolver: Add QS Header size customizations
+- Evolver: Implement Gvisual mod navbar colors
+- Evolver: Theme settings dashboard icons
+- rro_overlays: Add GoogleWallpaperPickerOverlay
+**Bump ROM version to 5.5.2
+- Implement some theme changes from Android 12 DP2
+- Update Pixel Launcher (Adds double tap to sleep functionality)
+- Update external card state based on current app**
+- apns-conf: Add Kena Mobile entries
+- apns-conf: Add ho.mobile configs
+- apns-conf: Update CoopVoce entries
+- apns-conf: Update PosteMobile entries
+- Bring back PA’s Applock
+- Bump ROM version to 5.5.1
+- ColorBucket: Add Android 12 Dark style
+- DataSwitchTile: Make it behave like OxygenOS
+- Evolver: AODSchedule: Add support for mixed time & sun modes
+- Evolver: Change some default values
+- FOD: Bring back allowing the user to disable night light when active
+- Introduce Fluid lockscreen clock
+- LiveDisplaySettings: Drop no longer necessary casts when calling findPreference()
+- LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+- Settings: Hide|disable "Phone number" from About phone information
+- Settings: MediaOutputPanel: Handle the case of missing packageName
+- Settings: Remove obsolete PreferenceCategory for LiveDisplay
+- SystemUI: AmbientTile: Actually start using SecureSetting
+- SystemUI: AmbientTile: Default the setting to 1
+- SystemUI: AmbientTile: Don't hardcode display settings intent
+- SystemUI: AmbientTile: Use SecureSetting to change doze setting
+- SystemUI: SecureSetting: Allow specifying a non-zero default
+- SystemUI: ensure FOD view is correctly hidden
+- pixelstyle: Add missing configs
