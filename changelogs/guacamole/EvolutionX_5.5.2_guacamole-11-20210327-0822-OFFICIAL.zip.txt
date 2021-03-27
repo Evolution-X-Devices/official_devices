@@ -1,0 +1,562 @@
+=======================
+Device Changes
+======================= 
+
+Updated with latest OOS blobs
+
+=======================
+Rom Changes
+=======================
+
+3/26
+AutoAODService: Account for disabled doze
+
+3/25
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+
+3/24
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+
+3/23
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
+
+3/22
+DisplayPowerController: make brightness ramp rate overlay-able
+QuickStatusBar: Check for privacy chip indicators earlier
+SystemUI: Bring back QS drag handle
+SystemUI: migrate status bar manual brightness to float
+Track Snap camera by default
+vendor: Allow background broadcast for CAMERA_BUTTON
+vendor: Whitelist some of our own broadcast actions
+
+3/21
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+rro_overlays: Add GoogleWallpaperPickerOverlay
+
+3/20
+Bump ROM version to 5.5.2
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Update external card state based on current app
+apns-conf: Add Kena Mobile entries
+apns-conf: Add ho.mobile configs
+apns-conf: Update CoopVoce entries
+apns-conf: Update PosteMobile entries
+
+3/19
+Bump ROM version to 5.5.1
+Remove Smart Pixels support
+Settings: Hide|disable "Phone number" from About phone information
+pixelstyle: Add missing configs
+
+3/18
+Bring back PA’s Applock
+ColorBucket: Add Android 12 Dark style
+DataSwitchTile: Make it behave like OxygenOS
+FOD: Bring back allowing the user to disable night light when active
+SystemUI: AmbientTile: Actually start using SecureSetting
+SystemUI: AmbientTile: Default the setting to 1
+SystemUI: AmbientTile: Don't hardcode display settings intent
+SystemUI: AmbientTile: Use SecureSetting to change doze setting
+SystemUI: SecureSetting: Allow specifying a non-zero default
+
+3/17
+Always include Apex support
+Evolver: AODSchedule: Add support for mixed time & sun modes
+Evolver: Change some default values
+Introduce Fluid lockscreen clock
+Introduce anti flicker mode in LiveDisplay
+SystemUI: Add anti flicker tile
+base: Introduce automated DC Dimming
+
+3/16
+LiveDisplaySettings: Drop no longer necessary casts when calling findPreference()
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+Settings: Add a toggle for anti flicker mode in LiveDisplay settings
+Settings: Allow removing livedisplay pref screen with config_enableLiveDisplay
+Settings: MediaOutputPanel: Handle the case of missing packageName
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+SystemUI: ensure FOD view is correctly hidden
+core: Add overlay for disabling livedisplay
+
+3/15
+FODCircleView: Various changes
+PixelPropsUtils: Add more apps
+Settings: Use correct icon to reset battery stats
+vendor: Bring back OPScreenRecord
+
+3/14
+Revert "No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity.”
+SystemUI: Expose camera, location and microphone icons to Tuner
+SystemUI: tiles: Open display settings on long clicks for livedisplay tiles
+apns: Add Belong
+apns: Fix giffgaff
+base: fix padding between privacy icons and network traffic
+
+3/13
+BrightnessController: Fix thread exception
+Fix for TestDirectBootEmulated testcase
+Improve strings for bluetooth dual channel
+Settings: Introduce Android 12 Style Search bar
+SystemUI: Fix Wakelock issue
+SystemUI: MediaOutputDialogFactory: accept null package name
+base: Disable LiveDisplay low power consumption by default
+
+3/11
+GlobalScreenshot: Reduce screenshot dismiss delay to 2 seconds
+Pixel Navbar: Hide opa when not pressed
+Pixel Navbar: Make animation available even without google search
+Pixel Navbar: Remove halo, white cutout
+PixelPropsUtils: Use Pixel 3 XL spoof for Google app
+Refactor Pixel Navbar animation toggle behavior
+VolumeDialogControllerImpl: Stop log spam with no caption service
+
+3/9
+AuthBiometricFingerprintView: Fix indicator text color on dark theme
+Evolver: Update default font style
+LS charging info: Add support for Fahrenheit
+SystemUI: check if the cutout views array is null before using it
+SystemUI: Redraw display cutout on overlay changes
+Updater: Refactor
+fixup! SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+overlays: Set Body font for manrope
+pixelstyle: config: Build Manrope family fonts
+pixelstyle: rro_overlays: Don't version on config overlays
+pixelstyle: rro_overlays: EvolutionXConfigOverlay: Change headline font
+
+3/8
+Allow using face as auth method for apps
+FaceService: Nuke useless call to getAuthenticatorId
+Settings: Expand abbreviation in average memory usage string
+SystemUI: BiometricPrompt: Adjust layout if FOD is present
+
+3/7
+PictureAdjustmentController: Fix NPE when using getPictureAdjustmentRanges()
+Sharesheet: Set max ranked items to 8
+systemui: make media widget respect notif app name style
+
+3/6
+Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+AuthContainerView: fix rare SystemUI crash
+FaceUnlock: Drop lockouts completely
+LockIcon: Don't cache icon when scanning face
+NotificationPanelViewController: reduce right pull down region
+Settings: Fix NPE in NetworkModePreferenceController
+SystemUI: Allow listening for face only on pin/pass view
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Face Unlock animation
+SystemUI: custom lockscreen shortcut fixes
+base: do not use new lockscreen layout for bypass
+fwb: Guard some functions against face unlock
+vendor: Add back FaceUnlock support
+
+3/5
+BuiltInPrintService: Fix icon accent color
+Fix inconsistent system app icon colors
+Switch to using AOSP DocumentsUI (Files app)
+config: Enable IORap app launch prefetching
+device_config: Enable cached app freezer on supported devices
+overlay: Add changes from PixelDocumentsUIGoogleOverlay
+FODCircleView: various improvements
+
+3/4
+DisplayModeDirector: Make sure we apply refresh rate on startup
+Evolver: FOD icon: Replace Scratch (Red/Blue) with Spiral (White)
+InputMethodService: Disable fullscreen keyboard
+PowerUsageSummary: Remove obsolete call to update the battery header
+PixelPropsUtils: Remove gms spoof
+SystemUI: prevent crash in MediaOuptutReceiver
+Update prebuilt StitchImage for R
+VolumeDialogImpl: Launch bluetooth settings on media output icon
+device_config: Enable cached app freezer on supported devices
+fixup! Add PairNewBluetoothReceiver to launch Bluetooth pairing page
+libmedia: Add MediaPlayer() function for backward compatibility
+
+3/3
+AOD: Sleep when proximity is covered for 3 sec
+BatteryManager: Mark battery moto mods constants as hidden
+BatteryService: Add support for battery Moto Mods
+BatteryService: Mod: Check against all conditions
+cryptfs: Fix legacy QCOM HW FDE encryption
+gms: Add TurboAdapter without Google Battery
+pixelstyle: rro_overlays: Update from RQ2A.210305.006
+
+3/2
+Evolver: Allow scheduling always on display
+Merge March 2021 Security patches
+SystemUI: Fix issues with VoWiFi icon
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+apex: Update from RQ2A.210305.006
+fwb: Fix navigation bar button hit testing
+
+3/1
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Show full default name in customization preferences
+
+2/28
+AbsSeekBar: Fix growRect computation
+AbsSeekBarTest: Fix dpToPixel computation
+IDEClock: Fix preview not displaying
+
+2/26
+Install seccomp filter even if selinux is permissive
+NetworkTrafficSB: Better workaround for RequestLayout() spam
+SystemUI: HeadsUpStatusBarView: ensure cutout start if cutout bounds are not null
+
+2/25
+Enable IPV4V6 for APN Yesss
+
+2/24
+AMS: Disallow requestSystemServerHeapDump on non-eng builds
+Include SBC Dual Channel (SBC HD Audio) support additions from LOS
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: Add side paddings for brightness slider
+core: jni: Switch to -O3
+
+2/22
+BiometricPrompt: Force portrait orientation if we have FOD
+pixelstyle: overlay: Remove Adaptive connectivity toggle
+
+2/21
+KeyguardClockSwitch: IS_DEBUGGABLE -> IS_ENG
+Refrain from using Mobile Data panel for QS long press
+init: Allow the possibility to use prebuilt ramdisk init
+pixelstyle: rro_overlays: Remove GooglePermissionControllerOverlay
+prebuilt/common: add APN config for rakuten.jp
+
+2/20
+Settings: Maintainer preference: Also show for unofficial builds
+SystemUI: HeadphonesBuddy: Fix crash on long press
+ViewConfiguration: Set scroll friction to 0.012
+
+2/19
+backuptool: Correct supported partitions for addon.d v3
+
+2/18
+Evolver: Improvements and updates
+kernel: Support pixel style vendor_boot modules
+pixelstyle: audio: Add more Pixel Sounds
+
+2/17
+Clocks: Disable status area for specific styles
+Evolver: Add Gvisual mod feature
+Evolver: Replace warning for Navbar visibility
+QuickStatusBarHeader: Long-press header date to access calendar
+QSFooterImpl: Add vibration effect to Settings button Long-press
+Settings: Display menu: move lockscreen/ambient preference to top
+Settings: set the correct position on the navbar size seekbar by default
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix shutter sound
+SystemUI: Handle cases that we can't address within FODCircleView
+SystemUI: Open Sound settings on long click at the panel button
+SystemUI: Screenshots: Refactor shutter sound logic
+VolumeDialog: Improve long press code
+gms: Don't build GooglePackageInstaller
+prebuilt/common: add IMS entry for Airtel mcc="404,405" configs
+
+2/16
+SystemUI: Make the kill app qs tile icon prettier
+
+2/14
+Evolver: Add Smart Pixels warning
+Evolver: Move Screen off FOD feature into FOD category
+Evolver: Re-enable Gaming Mode footer
+Introduce 404 IDE Clock
+NavBar: Don't crash when we can't find navigation overlays
+config: decrease gboard ime height
+
+2/13
+Evolver: Remove SystemUI restart dialog for Notification headers
+Pulse: fix NPE when navbar is hidden
+Stop manually mixing /dev/hw_random
+Update translations
+base: Improve notification header toggle
+
+2/12
+Camera: Ignore torch status update for aux or composite camera
+ClientModeManager: Set mRole to avoid starting multiple instances
+Evolver: Bring back configurable sensor block per-package list
+Evolver: Fingerprint error vibration
+Fix long click intent for Smart Pixels tile
+Move get Aware Capability to boot phase
+Multi SIM Ringtone: Don't change public API
+PocketLock: Make using light sensor optional
+Settings: Add option for Gesture bar Radius
+interfaces: Add reversed perf HAL interfaces
+
+2/11
+AmbientPulse: Code clean up
+NavigationBarView: Fixup IME arrows after r19 merge
+
+2/10
+Apply bilinear filter for Ninepatch
+Bring back "Post a silent notification if screenshot is dismissed"
+Fix initialization of USER_ROTATION setting
+Fix to prevent usagestats file corruption when writing
+GoogleConfigOverlay: Add standalone UnifiedNlp location provider
+PixelConfigOverlayCommon: Don't downscale high-res task snapshots
+Pulse: Don't show when we have no navbar
+ScreenRecord: Improve low quality screen record
+SystemUI: Move quick QS brightness slider to the original position
+fixup! Add long screenshot chip
+fixup! fix font size scale validator after r29 merge
+vendor: Transform apex overlays into RRO overlays
+vendor: Make GAPPS mandatory for all
+
+2/9
+GlobalScreenshot: Use default screenshot dismiss delay
+Settings: Implement cutout force full screen
+SettingsIntelligence: Give permission to read device config
+SystemUI: allow to limit the max framerate of built-in screen recorder
+base: ToastUI: Show app icon on system text toasts as well
+evolution: themes: Convert to rro_overlays
+pixelstyle: rro_overlays: Add missing 'theme' attribute
+prebuilt/common: fix incorrect APN configs of Vodafone AU
+vendor: Cleanup init files
+
+2/8
+Evolver: Allow to Pulse edge light for all doze triggers
+Evolver: Update Smart Pixels menu
+FodAnimationResources: Update MIUI Light and MIUI Pulse
+QuickStatusBarHeader: Long-press header clock to access settings
+backuptool_ab: Make tmp actually tmpfs
+backuptool: Support seamless backup and restore to extra partitions
+base: InputManager: handle housed stylus event
+
+2/7
+Check if advertiserId value matches valid advertiser
+Check permission before sending batch scan result
+Fix abnormal wake up caused by WifiConnectivityManager
+
+2/6
+Settings: Whitelist WRITE_DEVICE_CONFIG permission
+SystemUI: DividedLinesClock: Fix NPE on setTextColor
+wifi: Add provision to create/remove dynamic interface(s)
+
+2/5
+Bring back StitchImage (Scrolling screenshot feature)
+Evolver: Make sure that all of our preferences searchable
+Evolver: Refactor QS Brightness slider options
+Fix a bug in the USAP Pool refill logic
+No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity
+Partially revert "Wake up to lock screen when bouncer is visible"
+SystemUI: Add flipendo to Battery Saver QSTile
+SystemUI: Move quick QS brightness slider to the bottom
+SystemUI: NavigationHandle: Don't show on keyguard or doze
+NavigationBarInflaterView: Apply custom layouts on boot
+NavigationBarInflaterView: Don't apply a custom layout when using gestural
+NavigationHandle: Adapt hide on keyguard to navbar pulse
+NavigationHandle: Only register callbacks when attached
+base: Add long screenshot chip
+base: Add missing long screenshot permission
+base: Fallback stitchimage's broken value to unknown
+base: Whitelist stitchimage
+fixup! Evolver: Add ambient pulse and aod notifications
+fw/av: Require service UID for LIST_AUDIO_SESSIONS
+
+2/4
+Camera: Track native metadata allocations
+GoogleConfigOverlay: Use the correct config for config_defaultTextClassifierPackage
+Settings: Phone ringtone setting for Multi SIM device
+SmartCharging: Clean up redundant settings define
+SoundPool: Fix clang-tidy warning in StreamManager
+SystemUI: fix NPE on ExpandableNotificationRow
+
+2/2
+Camera: Fix deadlock in ACameraCaptureSession destructor
+Merge February security patches
+PixelPropsUtils: Update build fingerprint
+Reapply per-app cellular data, vpn and wifi restrictions
+TrafficSB: fix the icon overlap on notched devices
+Upstream some core system fixes
+base: Expose system icon area weight
+system/netd: add missing override keyword
+
+2/1
+Settings: Clipboard toast toggle
+Settings: Fix default brightness level display 0
+SystemUI: Misc fixes and reverts
+VibratorService: bypass AppOps check
+
+1/31
+Accents: Fix LOCAL_PATH
+KeyStore: Report rate limited instead of not implemented
+QSTiles: Build in product and as RRO package
+
+1/30
+AudioService: Remove Analog Dock from fixed-volume devices
+fixup! Screenshot: Append app name to filename after r20 merge
+
+1/29
+Adding 'postinstall' root dir unconditionally
+Adjust the parameters of accelerometer and hinge angle sensor
+Evolver: Bring back navbar visibility for all devices
+Evolver: configure lock screen media artwork blur level
+Only store result of mount_all that mounted userdata
+Revert "fpc: keep fpc in system-background"
+Set default value for pressure sensor
+SettingsProvider: adaptive icon
+Store result of mount_all for mounted userdata by metadata encryption
+SystemUI: Add Custom Spectrum Analog Clock
+SystemUI: Add MNML based clock designs
+SystemUI: Add SFUNY clock
+SystemUI: Add Sammy highlight clock
+SystemUI: Add center style Typographic clock
+SystemUI: fix location icon margins
+ThemePicker: Make naming page look the same as the other ones
+config: Import SetupWizard/CarrierSetup props from RQ1A.210105.003
+
+1/28
+Ambient music: Also shorten the Now Playing title after the song title
+Ambient music: Remove debug messages
+Evolver: Bring back lockdown button
+InputDispatcher: allow to intercept a specific event key
+Remove legal information from being indexable
+SystemUI: Make center clock follow paddingTop
+SystemUI: Optimize status bar center clock for punch hole devices
+SystemUI: fix dark fc
+
+1/27
+ActivityManagerService: Use mContext directly
+CameraDeviceClient: fix recognition of Y16 format due to unmatching sizes
+Evolver: Add QS Header data usage info feature
+Fix NPE when AOSP ambient display preference is removed
+Fix to attach listener to transient session
+Make all activities resizable
+NetworkStatsHistory: Prevent IllegalArgumentException
+Settings: Display actual charge tech in battery settings
+SystemUI: Switch to Turbo impl for getting estimated battery time
+SystemUI: make screenshot action chip to have correct primary colors in dark mode
+VolumeDialogImpl: Reschedule the timeout on clicks on captions
+VolumeUI: Track dialogCornerRadius for CaptionsToggle and RingerToggle
+fixup! Fixed a race condition in StorageManagerService
+libcameraservice: Add support for miui camera mode
+
+1/26
+core: Smoother Upload and Download Animation
+
+1/25
+Ambient music: Add double tap on track title to skip track
+Avoid allocation on Java Binder fast path
+Avoid interface name copy in HwParcel
+Avoid potential fd leaks from jniCreateFileDescriptor
+Binder interface tokens: remove extra mallocs
+
+1/24
+PixelPropsUtils: Set Pixel 3XL prop for gms
+SystemUI: PowerMenu: always add Power off
+fixup! NetworkTraffic: Remove screen on/off triggers
+
+1/23
+Ambient music: Format the media title like Google does
+Ambient music: Show bottom ticker above fod circle if needed
+Ambient music v2: Allow for changing the music ticker position
+Port ambient Now Playing container from Pixel [stripped down version]
+SystemUI: Add Executors to Dependency
+
+1/22
+config: Allow opening power menu when screen is off
+core: Defy usage of NGA in Google Assistant
+fixup! GamingMode: Option to disable notification feedback
+
+1/21
+Evolver: Remove transparent notifications on lockscreen option
+Reboot sequence: Unmount active apexes before unmounting /data
+Use the non-debug apex for userdebug builds
+init: Add activation logs for flattened APEX folders with details
+init: Add more properties to spoof
+init: Sort the list of flattened APEX folders to avoid variations
+
+1/19
+Allow additional padding on left side of heads up notifications
+BatteryService: add Turbo power charging support
+Evolver: powermenu: make screen record optional
+NetworkTraffic: Remove screen on/off triggers
+PixelPropsUtils: Add turboadapter to packages list
+SystemUI: Don't use side paddings if headsUpStartPadding > 0
+SystemUI: powermenu: add Screen Record toggle
+FodAnimationResources: Fix OP Cosmos animation
+
+1/18
+Check for focused window before raising 'no focused window' ANR
+Check window token when extending timeout
+Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come
+PixelPropsUtils: Set redfin build fingerprint
+Settings: Fix crash on "Connection preferences"
+Settings: Make selectable consistent with prefs on screen
+SystemUI: fix NPE on global actions dialog
+apex: Nuke permission in favor of modified PermissionController
+prebuilt/common: remove read_only for China Unicom
+
+1/17
+Add media.hwcodec to native watchdog
+Audio: Update mApmConnectedDevice properly
+Keyguard: fix the mystery of disappearing battery percent
+Evolver: powermenu: make screenshot optional
+SystemUI: move brightness slider to top of footer
+SystemUI: Silence some major logspam introduced by custom features
+display: Don't animate screen brightness when turning the screen on
+fwb : Silence some AOSP logspam
+
+1/16
+Evolver: Set default Volume Panel style to stock AOSP
+Fix black screen issue due to wallpaper decoding exceptions
+Restore preferred activity filter if it not inside
+Settings: Fix animation default values
+VolumePluginManager: Fix SystemUI FC on stock volume Dialog
+
+1/15
+Evolver: QS status bar opacity
+SystemUI: Fix ambient pulse notification layout
+SystemUI: QS detail improvements
+SystemUI: Use AVCProfileMain for screen recorder
+wifi: Increase 5 GHz network signal tolerance
+
+1/14
+Evolver: Add pref for qs brightness slider position
+Evolver: Add toggle to Disable Notifications vibration
+Evolver: GamingMode: Option to disable notification feedback
+Evolver: Option to disable all heads up notifications for Gaming mode
+Evolver: allow to switch back to pre P mobile type icon style
+SoundSettings: Add charging vibration settings
+fixup! Move charging animation above FOD icon if FOD is active
+SystemUI: Update keyguard indication margin when FOD is in use
+
+1/13
+Cache stream volumes to prevent ANR
+KeyStore: Block key attestation for Google Play Services
+PixelPropsUtils: Bring back removed packages
+
+1/12
+AdaptivePlayback: Remove mVideoPaused from VideoPreference
+Do not allow disabling the default keyboard
+EvolutionXConfigOverlay: Remove Manrope as body font
+Settings: Add Ambient Display battery toggle
+Settings: Optional screenshot type
+base: Fix swipe to screenshot blocking multitouch
+
+1/11
+Evolver: Add case to quick pull down status bar anywhere
+Evolver: QS panel opacity option
+PixelPropsUtils: Remove Maps, SafetyHub & Turbo
+SystemUI: Fix Lockscreen charging animation not changing instantly
+SystemUI: Fix NPE on Volume panel plugins
+SystemUI: Hide back icon when screen pinned and gestural mode enabled
+base: AuthBiometricFingerprintView: Disable FP dialog string
+
+1/10
+Add more lockscreen charging styles
+Evolver: Add toggle to hide status bar on lockscreen
+FODCircleView: detect touch outside and take action accordingly
