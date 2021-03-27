@@ -1,0 +1,49 @@
+** Device Changes **
+
+Kernel:
+Linux 4.9.262
+merged CAF tag `LA.UM.9.8.r1-03800-SDM710.0`
+f2fs: increased min_fsync_blocks to 20
+enabled BPF JIT
+binder: avoided printing debug by default
+kgsl: used lock-less list for page pools
+sde: avoided dynamically allocating memory for CRTC check
+sde: skipped heavy autorefresh checks
+sde: avoided clearing dim layers unnecessarily
+
+Device:
+Ported dex2oat threads and cpu-set power hints under various thermal conditions from Pixel 5
+Tweaked INTERACTION power hints to be more efficient according to freqbench results
+Added Adaptive Battery power hints from Pixel 3/XL March 2021 feature drop
+Updated persist camera properties from MIUI
+
+** Source Chnages **
+AutoAODService: Account for disabled doze
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
+DisplayPowerController: make brightness ramp rate overlay-able
+QuickStatusBar: Check for privacy chip indicators earlier
+SystemUI: Bring back QS drag handle
+SystemUI: migrate status bar manual brightness to floatTrack Snap camera by default
+vendor: Allow background broadcast for CAMERA_BUTTON
+vendor: Whitelist some of our own broadcast actions
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+rro_overlays: Add GoogleWallpaperPickerOverlay
+Bump ROM version to 5.5.2
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Bring back PA’s Applock
+Etc...
