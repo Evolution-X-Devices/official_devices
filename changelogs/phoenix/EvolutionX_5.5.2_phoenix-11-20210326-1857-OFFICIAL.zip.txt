@@ -1,0 +1,32 @@
+***********CLEAN FLASH RECOMMENDED************  
+Device changes:
+==============================
+This Build is based on A11 prebuilt vendor also prebuilt kernel so flashing a11 based vendor file is must
+power: Rebase on LA.UM.9.1.r1.07700-SMxxx0.0
+lights: Convert to AIDL
+Update blobs from qssi-user-11-RKQ1.200826.002-V12.1.2.0.RGHINXM-release-keys
+Update soundfx blobs from OnePlus 7 Pro
+Explicitly enable iorap
+
+ROM changes:
+==============================
+3/26
+AutoAODService: Account for disabled doze
+
+3/25
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+
+3/24
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+
+3/23
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
