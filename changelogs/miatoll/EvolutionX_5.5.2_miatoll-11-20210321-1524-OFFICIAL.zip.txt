@@ -1,29 +1,34 @@
 -  Device Changelog: 
-- Fixed RIL lag on startup.
-- March security patch
-- Fixed Heating Issues.
-- Fixed exfat sdcards.
-- Fixed VOIP issues in calls
+- Fixed whatever was broken before (yeah I'm lazy to write a cl)
 - Performance improvements and misc optimizations.
 
 
 -  Rom Changelog:
-Add face unlock
+
+3/25
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+
+3/24
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+
+3/23
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
+
+3/22
 DisplayPowerController: make brightness ramp rate overlay-able
 QuickStatusBar: Check for privacy chip indicators earlier
-Evolver: Add Switch styles
-Evolver: Add QS Header size customizations
-Evolver: Implement Gvisual mod navbar colors
-Evolver: Theme settings dashboard icons
-rro_overlays: Add GoogleWallpaperPickerOverlay
-Bump ROM version to 5.5.2
-Implement some theme changes from Android 12 DP2
-Update Pixel Launcher (Adds double tap to sleep functionality)
-Update external card state based on current app
-Remove Smart Pixels support
-Settings: Hide|disable "Phone number" from About phone information
-pixelstyle: Add missing configs
-Bring back PA’s Applock
-ColorBucket: Add Android 12 Dark style
-
+SystemUI: Bring back QS drag handle
+SystemUI: migrate status bar manual brightness to float
+Track Snap camera by default
+vendor: Allow background broadcast for CAMERA_BUTTON
+vendor: Whitelist some of our own broadcast actions
 
