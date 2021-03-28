@@ -298,6 +298,48 @@
       ]
    },
    {
+      "brand": "OnePlus",
+      "codename": "instantnoodle",
+      "name": "OnePlus 8",
+      "supported_versions": [
+         {
+            "maintainer_name": "APOPHIS9283",
+            "maintainer_url": "https://forum.xda-developers.com/m/apophis9283.4392154/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-official-oneplus-8-evolution-x-aosp-03-26-2021.4249927/"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "instantnoodlep",
+      "name": "OnePlus 8 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "APOPHIS9283",
+            "maintainer_url": "https://forum.xda-developers.com/m/apophis9283.4392154/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-official-op8-pro-instantnoodlep-evolution-x-aosp-03-26-2021.4247391/"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "kebab",
+      "name": "OnePlus 8T",
+      "supported_versions": [
+         {
+            "maintainer_name": "APOPHIS9283",
+            "maintainer_url": "https://forum.xda-developers.com/m/apophis9283.4392154/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-official-oneplus-8t-evolution-x-aosp-03-26-2021.4209985/"
+         }
+      ]
+   },
+   {
       "brand": "oneplus",
       "codename": "oneplus3",
       "name": "OnePlus 3",
