@@ -1,0 +1,75 @@
+------------------------------
+Device changes:
+==============================
+Kernel Upstreamed to 4.9.263
+Import WireGuard version 1.0.20210219
+Enable iorap (helps in faster app loading)
+Overlay: Disable animateScreenLights
+Disable soundtrigger via vendor overlay ( Only Screen on OK Google Detection works)
+Audio: Add hotword input for hotword mic concurrency
+Audio: Add built-in/Back mic and remove TelePhony Rx from primary input
+Audio: Fix mic issues in apps like WhatsApp
+------------------------------
+ROM changes:
+==============================
+3/29
+Fix typos related to sortSelectionIndices
+SystemUI: Animate brightness slider
+SystemUI: Modify brightness slider icon
+
+3/28
+MediaProvider: Fix insert fail while file saved in sdcard
+NativeNfcTag: Treat MIFARE_CLASSIC same as NFC_A in getTechExtras()
+Snap: Fix SD card visibility for secondary users
+Snap: Save SDCard photos to legacy path
+SystemUI: Set config_fodColorBackground to transparent by default
+SystemUI: global actions: fix icon position on multi-line action
+build CaptivePortalLoginOverlay
+roots: Correct mount flags in /etc/fstab
+
+3/26
+AutoAODService: Account for disabled doze
+
+3/25
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+
+3/24
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+
+3/23
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
+
+3/22
+DisplayPowerController: make brightness ramp rate overlay-able
+QuickStatusBar: Check for privacy chip indicators earlier
+SystemUI: Bring back QS drag handle
+SystemUI: migrate status bar manual brightness to float
+Track Snap camera by default
+vendor: Allow background broadcast for CAMERA_BUTTON
+vendor: Whitelist some of our own broadcast actions
+
+3/21
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+rro_overlays: Add GoogleWallpaperPickerOverlay
+
+3/20
+Bump ROM version to 5.5.2
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Update external card state based on current app
+apns-conf: Add Kena Mobile entries
+apns-conf: Add ho.mobile configs
+apns-conf: Update CoopVoce entries
+apns-conf: Update PosteMobile entries
