@@ -1,0 +1,27 @@
+Happy Holi Guys :) #KEEP_EVOLVING #Violet
+
+Dirty flash is possible 
+
+==============================
+Device changes:
+==============================
+- Updated Azure to 25-03-2021
+- Bring back all thermal configration
+- Adressed some more log spam
+- Enabled IORAP(helps in faster app loading)
+- Fixed an issue with volume being at max always at the start of calls
+
+------------------------------
+ROM changes:
+==============================
+- MediaProvider: Fix insert fail while file saved in sdcard
+- NativeNfcTag: Treat MIFARE_CLASSIC same as NFC_A in getTechExtras()
+- SystemUI: Set config_fodColorBackground to transparent by default
+- SystemUI: global actions: fix icon position on multi-line action
+- build CaptivePortalLoginOverlay
+- roots: Correct mount flags in /etc/fstab
+- AutoAODService: Account for disabled doze
+- base: More theme changes from Android 12 DP2
+- Evolver: Remove QS status bar opacity options
+- Evolver: Statusbar > Status bar
+- SystemUI: Move battery icon to QS header
