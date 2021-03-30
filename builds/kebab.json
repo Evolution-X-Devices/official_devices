@@ -1,17 +1,18 @@
+
 {
-   "datetime": 1616863529,
+   "datetime": 1617110532,
    "donate_url": "http://paypal.me/APOPHIS9283",
    "error": false,
-   "filehash": "af38338f826703784afab23677cec113",
-   "filename": "EvolutionX_5.5.2_kebab-11-20210327-1646-OFFICIAL.zip",
+   "filehash": "561356287794010c91ef09f86535fb28",
+   "filename": "EvolutionX_5.5.2_kebab-11-20210330-1323-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-official-oneplus-8t-evolution-x-aosp-03-26-2021.4209985/",
-   "id": "e26593463481f251c2e4bc2991fa91d63865a4f6faa2684cbaa494dc5c66b6d0",
+   "id": "38e0e3b90a64fcdd4c0ffbe0802b36d3f6469464622d2fa2cf3fd97f68873f3e",
    "maintainer": "APOPHIS9283",
    "maintainer_url": "https://forum.xda-developers.com/m/apophis9283.4392154/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1653224249,
+   "size": 1653282050,
    "telegram_username": "apophis9283",
-   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/EvolutionX_5.5.2_kebab-11-20210327-1646-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/EvolutionX_5.5.2_kebab-11-20210330-1323-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
