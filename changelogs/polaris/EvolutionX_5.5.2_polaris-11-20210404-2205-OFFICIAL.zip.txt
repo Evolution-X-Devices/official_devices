@@ -1,0 +1,18 @@
+Note: 
+Formatting data and clean flash are required if you come from android 10. Please do not update through OTA if you are on android 10.
+Dirty flash or update through OTA is fine from the previous EvoX android 11 versions.
+
+**Device Changes:**
+- Etude kernel: Op.11 No.4
+  * Linux 4.9.264
+  * merged CAF tag `LA.UM.9.3.r1-01500-sdm845.0`
+  * fixed an issue where the frequency of big CPU cores are locked to a maximum of 1286MHz; the frequency of the big cluster should be restricted under 1286MHz if you battery is at or below 10%, as part of Qualcomm's thermal mitigation, but on previous versions, the frequency restriction was not removed after the phone is charged above 10%
+  * default to suspend to RAM instead of s2idle (suspend to idle) for around a 25% reduction of idle battery drain
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Stopped enforcing s2idle from userspace init script so the kernel can suspend to RAM for better idle battery drain
+- Cleaned some unused config overlays
+
+**Evolution X Update**
+- Added Smart Cutoff feature to limit charging based on battery temperature, and improved the logic to work with Smart Charging (based on battery level) together
+- More theme changes from android12 DP2
+- Many misc fixes
