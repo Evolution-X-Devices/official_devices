@@ -1,0 +1,165 @@
+Note:
+==============================
+This Build is OSS Vendor based with Android 10 firmware.
+Android 11 firmware users kindly don't flash it.
+------------------------------
+Device changes:
+==============================
+Enabled iorap explicitly:
+- Helps in opening apps faster
+
+Enabled Seamless Transfer to switch between audio output devices
+
+Set Spiral (White) as default fod icon
+(While registering fingerprint the icon will not be visible because of it's white color so don't be scared and keep hitting our laurel ;P)
+
+Added Notch HIDE and Notch Bar Killer overlays:
+Go to Settings > Developer Options > Display Cutout > Your choice
+
+Enabled R blurs by default: 
+Want to disable?
+Go to Settings > Display > Turn off "Enable Blurs" and reboot
+
+Updated Camera Libs and Carrier Configs
+
+Updated Brightness Overlays from Bonito (Google Pixel 3a XL)
+
+Lowered the Haptics intensity
+
+Updated Redfin's fingerprint to April 2021
+------------------------------
+ROM changes:
+==============================
+4/7
+Add newStringFromUtf8Bytes native implementation
+Check isInteresting for methods and fields in ApiLint
+Evolver: Add QS and sysui colors
+SystemUI: Return of the scrim colors!
+QS: Allow setting panel bg through color picker
+QS: Allow using frameworks resources exclusively
+QSContainerImpl: Ensure we set valid colors only
+QSContainerImpl: Toggle QS color overlay as necessary
+QSPanel: Wait before attempting to get wallpaper colors
+Settings: Improve protected sensitive info in about phone
+Settings: Remove BatteryStatusFeatureProvider and BatteryHeaderPreferenceController
+Switch from `count` to `N` for template due to ambiguity with `std::count`
+Use config_headlineFontFamilyMedium on package installer app title
+art: Disable debug tracing in production builds
+base: Allow theming QS with wallpaper colors
+base: qs: Apply bg to active qs icons
+base: styles: Expose style used by QS only
+libbinder: Suppress log spam when unlinking death recipients
+libbinder: avoid global mutex every binder call
+prebuilt/common: Update IMS entry for HOT Mobile mcc="425,07"
+vendor: Add QsColor
+vulkan: avoid waiting for service.sf.present_timestamp creation
+
+4/6
+ActivityThread: Remove Failed to find provider info logspam
+Bump ROM version to 5.6
+EvolvEvolver: GlobalActions: Allow user to set an optional 4th action
+er: Refactor & clean up
+FODCircleView: refactor where show and hide animation calls are done
+Fix "deprecated instruction in IT block" warning
+Fix AAC decoder failing to instantiate
+Merge April security patches
+Support animation parts fading out
+SystemUI: instantiate FODAnimation early
+libgui: Enable ThinLTO
+vndk: Update libbinder ABI dumps
+
+4/5
+Device picker: add title to fix offset in progressbar
+ProgressCategory: update title style for consistency
+Update translations
+
+4/4
+Don't enable extra StrictMode features for userdebug builds
+Fix Volume panel not following rounded corners partially
+Fix bug on High Contrast Text
+MNML Box clock: Make background transparent
+NetworkRegistrationInfo: add Parcel recycle
+PowerManagerService: fix contention and unify Smart Charging/Cutoff
+
+4/3
+Settings: BiometricPrompt: Add provision for App Lock
+overlay: update LDAC codec priority
+
+4/2
+Add Zygotehooks.indefiniteThreadSuspensionOK
+Add nativeZygoteJitEnabled
+Add zygote native fork loop
+Evolver: Add a footer warning for G-Visual mod settings
+Settings: Add Evolution X Logo to Evolution X version window
+Settings: Fix theme for pattern size chooser
+Settings: Improve refresh rate switching
+Store soname as a std::string
+Sync with upstream NetBSD
+Zygote: Add Arm pointer authentication keychange support
+overlays: Remove AccentColorPixelBlueOGOverlay
+x86/x86_64: cleanup signal trampolines
+
+4/1
+ACodec: Handle HDR10+ metadata at OutputPortSettingsChangedState
+C2AllocatorBlob: allow multiple maps
+C2OMXNode: read delay from component to determine buffer count
+CCodec: Increase max linear buffer size for 8K video
+CCodec: fix ByteBuffer mode image
+CCodec: workaround for frame drops
+Cache bluetooth A2DP in AudioService callback thread
+CameraService: Support hooks for motorized camera
+Cleanup of Zygote files
+Codec2: Initialize InputSurfaceWrapper::Config structure fields
+Deep-update live datas and update on isStale in getInitializedValue
+Fix issue: https://issuetracker.google.com/issues/183024999
+NuPlayerRenderer: Reset negative media time to zero
+keyguard: Do not trigger a wake up when hiding lockscreen
+
+3/31
+Ringbuffer stops logging after wifi toggle
+SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+WifiNanIface: Validate interface before cleanup
+apn: Add Visible Wireless (VZW)
+base: SystemUI: add qs powershare tile
+wifi: Update wifi_wait_for_driver_ready return status handling
+wlan: add supported interfaces in rc file
+
+3/30
+Introduce Smart Cutoff feature
+SoundPool: Avoid busy waiting during stream restart
+fastboot driver: fix message
+
+3/29
+Fix typos related to sortSelectionIndices
+SystemUI: Modify brightness slider icon
+
+3/28
+MediaProvider: Fix insert fail while file saved in sdcard
+NativeNfcTag: Treat MIFARE_CLASSIC same as NFC_A in getTechExtras()
+Snap: Fix SD card visibility for secondary users
+Snap: Save SDCard photos to legacy path
+SystemUI: Set config_fodColorBackground to transparent by default
+SystemUI: global actions: fix icon position on multi-line action
+build CaptivePortalLoginOverlay
+roots: Correct mount flags in /etc/fstab
+
+3/26
+AutoAODService: Account for disabled doze
+
+3/25
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+
+3/24
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+
+3/23
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
