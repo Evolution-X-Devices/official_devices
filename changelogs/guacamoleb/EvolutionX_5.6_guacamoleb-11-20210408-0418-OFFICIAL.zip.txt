@@ -1,0 +1,44 @@
+Device:
+
+Upstreamed kernel from 4.14.222 -> 4.14.228
+Dropped auth_biometric_contents overlay
+Removed "config_allowAutoBrightnessWhileDozing" (Fixes super dim AOD)
+Some sepolicy improvements
+Added powerhint from LA.UM.9.1.r1-09100-SMxxx0.0
+
+Rom:
+
+Merge April security patches
+Bump ROM version to 5.6
+PixelPropsUtils: Use Pixel 3 XL spoof for Google app
+Refactor Pixel Navbar animation toggle behavior
+Improve strings for bluetooth dual channel
+Settings: Introduce Android 12 Style Search bar
+SystemUI: Fix Wakelock issue
+PixelPropsUtils: Add more apps
+vendor: Bring back OPScreenRecord
+SystemUI: ensure FOD view is correctly hidden
+Always include Apex support
+Evolver: AODSchedule: Add support for mixed time & sun modes
+Evolver: Change some default values
+Add app Lock
+Introduce Fluid lockscreen clock
+ColorBucket: Add Android 12 Dark style
+DataSwitchTile: Make it behave like OxygenOS
+FOD: Bring back allowing the user to disable night light when active
+Remove Smart Pixels support
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+SystemUI: Move battery icon to QS header
+base: More theme changes from Android 12 DP2
+Introduce Smart Cutoff feature
+Cleanup of Zygote files
+Codec2: Initialize InputSurfaceWrapper::Config structure fields
+Evolver: Add a footer warning for G-Visual mod settings
+Settings: Add Evolution X Logo to Evolution X version window
+Settings: Fix theme for pattern size chooser
+More!
