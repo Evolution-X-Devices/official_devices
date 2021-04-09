@@ -1,0 +1,177 @@
+=======================
+        DEVICE
+=======================
+**************WARNING**********************
+**CLEAN FLASH IS MANDATORY FOR THIS BUILD**
+*******************************************
+
+sdm660-common: Decommonize fluence properties
+sdm660-common: Disable WPA2 to WPA3 auto-upgrade.
+lake: Import fluence props from sdm660-common
+
+
+=======================
+     04-09-2021
+=======================
+
+   * frameworks/base/
+7fda3338 SystemUI: Fix ShapeShift clock on 24h format
+
+   * packages/apps/Evolver/
+9ead81c Evolver: Remove navbar toggle and other changes
+
+   * packages/apps/Settings/
+b6e3ba0 Settings: Switch to string overlay for maintainer string
+
+   * vendor/evolution/
+7939e07 overlay: Enable nav gestures by default
+
+   * vendor/gms/
+98b88c5 gms: Update from RQ2A.210405.005
+
+=======================
+     04-08-2021
+=======================
+
+   * art/
+d592275 art: Disable debug tracing in production builds
+
+   * bootable/recovery/
+60d462c Revert "recovery: make /etc/fstab only include entries that match the detected fs type"
+
+   * frameworks/native/
+98394f8 libbinder: Suppress log spam when unlinking death recipients
+
+   * system/core/
+8da11e1 init.rc: Disable native stats collection service
+
+   * tools/metalava/
+22d6324 Check isInteresting for methods and fields in ApiLint
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+e5b30a1 avrc_copy_packet: Zero initialize packet
+
+=======================
+     04-07-2021
+=======================
+
+   * bionic/
+8b5ba38 Fix "deprecated instruction in IT block" warning
+
+   * frameworks/av/
+2f0fd78 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/frameworks/av into elle
+
+   * prebuilts/abi-dumps/vndk/
+7831be2 vndk: remove libz.so from ABI check target
+
+=======================
+     04-06-2021
+=======================
+
+   * build/blueprint/
+7d7babc Add CreateAliasVariation
+
+   * build/make/
+9e45219 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/build into elle
+
+   * external/guice/
+70aae87 guice: Remove .class files from srcjar
+
+   * external/libcxx/
+efd38ed Make libc++fs vendor available and as a shared lib
+
+   * external/selinux/
+39b9df4 Revert "libsepol: Make an unknown permission an error in CIL"
+
+   * external/tinycompress/
+24be02f tinycompress: Convert Evolution X product variables to soong config variables
+
+   * frameworks/opt/net/ims/
+a52414f Partially Revert "Remove references to deprecated device config"
+
+   * frameworks/opt/net/wifi/
+92679c6 ClientModeManager: Set mRole to avoid starting multiple instances.
+
+   * hardware/interfaces/
+3c2a846 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/hardware/interfaces into elle
+
+   * hardware/libhardware/
+d4784ff audio_amplifier: Add new hook for setting amp feedback
+
+   * hardware/libhardware_legacy/
+ac744ac Add wifi_add_or_remove_virtual_intf() to the legacy wifi hal
+
+   * libcore/
+fd19c00 Add Zygotehooks.indefiniteThreadSuspensionOK
+
+   * manifest/
+9eac1c6 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/manifest into elle
+
+   * packages/apps/Stk/
+00213d3 Stk: adaptive icon
+
+   * packages/providers/MediaProvider/
+81be651 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/packages/providers/MediaProvider into elle
+
+   * system/bt/
+d4fed8e Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/system/bt into elle
+
+   * system/incremental_delivery/
+378c7a5 libdataloader: Don't pollute namespace with android::dataloader
+
+   * system/security/
+8bdb2ee KeyStore: Report rate limited instead of not implemented
+
+   * system/tools/mkbootimg/
+4efd936 mkbootimg: add support for --dt
+
+   * system/update_engine/
+418db3a Don't verify payload signatures in recovery
+
+=======================
+     04-05-2021
+=======================
+
+   * packages/apps/ThemePicker/
+768e8df New translations evolution_strings.xml (Chinese Traditional)
+
+   * packages/apps/Updates/
+20f9c5b New Crowdin updates (#27)
+
+   * packages/providers/DownloadProvider/
+b089327 New Crowdin updates (#4)
+
+=======================
+     04-04-2021
+=======================
+
+
+=======================
+     04-03-2021
+=======================
+
+   * packages/apps/PermissionController/
+5442eca [DO NOT MERGE] Deep-update live datas and update on isStale in getInitializedValue
+
+   * vendor/pixelstyle/
+f482206 pixelstyle: Changes from Android 12 DP2 [4/4]
+
+
+=======================
+
+     04-02-2021
+=======================
+
+   * prebuilts/build-tools/
+4ccb71c prebuilts: Compile gzip on an Ubuntu xenial system
+
+=======================
+     04-01-2021
+=======================
+
+   * hardware/evolution/interfaces/
+75a76c1 WifiNanIface: Validate interface before cleanup.
+
+=======================
+     03-31-2021
+=======================
