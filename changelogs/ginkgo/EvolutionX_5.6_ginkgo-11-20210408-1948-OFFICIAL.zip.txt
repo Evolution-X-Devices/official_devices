@@ -1,0 +1,34 @@
+!! Those who want to stay decrypted can flash DFE once OTA finishes, others must clean flash and/or format data in order to boot with encryption.
+
+Device changes:
+==============================
+Switched to redfin april 2021 fp
+Kernel upstreamed to 228
+Enabled iorap explicitly
+Thermal drivers updates from 4.19
+Updated speaker amp driver from ginkgo-q-oss
+------------------------------
+ROM changes:
+==============================
+Merge April security patches
+Evolver: Add QS and sysui colors
+base: Allow theming QS with wallpaper colors
+ColorBucket: Raven > Pitch Black
+Evolver: Add previews to Theme settings
+Evolver: Integrate lock screen clock options
+Introduce Smart Cutoff feature
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+ColorBucket: Add Android 12 Dark style
+DataSwitchTile: Make it behave like OxygenOS
+Introduce Fluid lockscreen clock
+Settings: Introduce Android 12 Style Search bar
+Bring back PA’s Applock
+
+
