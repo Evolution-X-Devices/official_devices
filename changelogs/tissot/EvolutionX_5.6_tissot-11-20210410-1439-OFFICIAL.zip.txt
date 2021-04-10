@@ -1,0 +1,42 @@
+Device changes:
+==============================
+overlay: Add support for runtime toggle of navbar
+overlay: Indicate that device supports gestures on fp sensor
+Import HardwareWakeKeys overlay (only Home works as wake key for now)
+------------------------------
+ROM changes:
+==============================
+API and boot image updates to import RI BigInteger
+Add newStringFromUtf8Bytes native implementation
+Add support for runtime toggle of navbar
+Allow globally disabling some clang-tidy checks
+Allow screen unpinning on devices without navbar
+AutoAODService: Slightly improve code and docs
+EventLog: Disable event writing in production builds
+Evolver: AODSchedule: Correctly display summary
+Fix -Wformat error with explicit void* -> char* cast
+Fix screen unpinning text on devices that have gestures on fp sensor
+InsetsStateController: Replace ArrayMap with HashMap for performance
+LayoutInflater: Opportunistically create views directly for performance
+LineageHardwareManager: Introduce keys swap feature support
+LocalServices: Replace ArrayMap with HashMap for performance
+Move high touch sensitivity and hovering to InputService
+Nuke Pulse (lock screen, navbar, ambient)
+PackageInfo: Optimize ApplicationInfo creation
+PackageManagerService: Replace ArrayMap with HashMap for performance
+PhoneWindowManager: Only react to camera key when necessary
+Remove malloc/free for inline overlay values
+Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility"
+Switch from `count` to `N` for template due to ambiguity with `std::count`
+Switch to OpenJDK 8 java/math
+SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Touch: Add keydisabler support
+Trace: Disable debug tracing in production builds
+device_config: Disable deep press input classification
+fwb: Re-introduce keyboard backlight brightness control
+init.rc: Disable native stats collection service
+libbinder: avoid global mutex every binder call
+statsd: Disable native stats collection service
+vendor: Disable Deep Press touch video heatmaps
+vulkan: avoid waiting for service.sf.present_timestamp creation
