@@ -1,0 +1,34 @@
+Device changes:
+Fixed WFD (Miracast)
+DeviceSettings have been completely overhauled (Added Mi Sound, Clear Speaker, redesigned FPS Info, removed broken thermal settings)
+Updated kernel to 4.4.263 - Predator-Stormbreaker X4.4-stable
+Switched to thermal blobs from wayne
+Switched to sdfat 2.4.5 driver for exfat
+Updated vibration pattern from Pixel 2
+Fixed mic issues in some apps (mainly WhatsApp)
+Disabled GPU protected composition (no more reboots with L1)
+Adjusted RSSI thresholds for switching between WiFi networks
+Updated blobs from LA.UM.8.2.r1-07500-sdm660.0
+Updated fingerprint to Redfin - RQ2A.210405.005
+Updated dex2oat configs for faster 1st boot
+Set fast charging indicator threshold to 10.8W
+Light HAL now gets loaded earlier at bootup to prevent any potential issues
+Many smaller improvements that aren't worth mentioning
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.6 - Passion
+SystemUI: Moved battery icon to QS header
+base: More theme changes from Android 12 DP2
+Introduced Smart Cutoff feature (stops charging when battery gets hot)
+Merged April security patches
+base: You can now theme QS with wallpaper colors
+Evolver: Added QS and SysUI colors
+vendor: Don't ship ThemePicker
+overlay: Enabled nav gestures by default
+ColorBucket: Renamed Raven > Pitch Black
+Evolver: Added previews to Theme settings
+Evolver: Integrated lock screen clock options
+Evolver: Removed navbar toggle and other changes
+Removed Pulse
+Settings: Improved protected sensitive info in about phone
+Many more smaller improvements and bugfixes, this time it's truly a LOT of stuff
