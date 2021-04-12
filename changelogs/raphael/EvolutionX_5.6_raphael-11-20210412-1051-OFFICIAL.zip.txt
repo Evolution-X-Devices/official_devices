@@ -1,0 +1,78 @@
+Device changes:
+==============================
+Enable TARGET_QTI_USB_SUPPORTS_AUDIO_ACCESSORY
+------------------------------
+ROM changes:
+==============================
+API and boot image updates to import RI BigInteger
+AVRCP: Use calloc to zero reserved fields
+Add ShapeShift lockscreen clock
+Add newStringFromUtf8Bytes native implementation
+Allow globally disabling some clang-tidy checks
+AutoAODService: Slightly improve code and docs
+Catch SecurityException when binding payment service
+Check isInteresting for methods and fields in ApiLint
+ColorBucket: Raven > Pitch Black
+EasterEgg: Fix some warnings
+EventLog: Disable event writing in production builds
+Evolver: AODSchedule: Correctly display summary
+Evolver: Add QS and sysui colors
+Evolver: Add previews to Theme settings
+Evolver: Integrate lock screen clock options
+Evolver: Extend quick qs slider position
+Fix -Wformat error with explicit void* -> char* cast
+InsetsStateController: Replace ArrayMap with HashMap for performance
+LayoutInflater: Opportunistically create views directly for performance
+Legacy pairing: Reject device with same BD_ADDR
+LineageHardwareManager: Introduce keys swap feature support
+LocalServices: Replace ArrayMap with HashMap for performance
+LockSettingsService: Fix face removal when disabling security
+MediaProvider: Less spam
+Move high touch sensitivity and hovering to InputService
+Nuke Pulse
+PackageInfo: Optimize ApplicationInfo creation
+PackageManagerService: Replace ArrayMap with HashMap for performance
+PhoneWindowManager: Only react to camera key when necessary
+QS: Allow setting panel bg through color picker
+QS: Allow using frameworks resources exclusively
+QSContainerImpl: Ensure we set valid colors only
+QSContainerImpl: Toggle QS color overlay as necessary
+QSPanel: Wait before attempting to get wallpaper colors
+Remove malloc/free for inline overlay values
+Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility"
+Revert "Zygote: enable zygote preforking (USAP pool) by default"
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+Settings: Cleanup DeviceCodenamePreferenceController
+Settings: Improve protected sensitive info in about phone
+Settings: Switch to string overlay for maintainer string
+Switch from `count` to `N` for template due to ambiguity with `std::count`
+Switch to OpenJDK 8 java/math
+SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+SystemUI: Animate brightness slider
+SystemUI: Return of the scrim colors!
+ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Touch: Add keydisabler support
+Trace: Disable debug tracing in production builds
+Use config_headlineFontFamilyMedium on package installer app title
+apns: Sync AT&T APNs with device/sample
+art: Disable debug tracing in production builds
+avrc_copy_packet: Zero initialize packet
+backuptool: Ensure dedicated partitions are not unused before mounting
+base: Allow theming QS with wallpaper colors
+base: qs: Apply bg to active qs icons
+base: styles: Expose style used by QS only
+branding: Remove obsolete props
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+device_config: Disable deep press input classification
+init.rc: Disable native stats collection service
+libbinder: Suppress log spam when unlinking death recipients
+libbinder: avoid global mutex every binder call
+prebuilt/common: Update IMS entry for HOT Mobile mcc="425,07"
+releasetools: Fix error when build.prop contains non-ASCII characters
+statsd: Disable native stats collection service
+vendor: Add QsColor overlay
+vendor: Disable Deep Press touch video heatmaps
+vendor: Don't ship ThemePicker
+vendor: Nuke dynamic bootanimation
+vulkan: avoid waiting for service.sf.present_timestamp creation

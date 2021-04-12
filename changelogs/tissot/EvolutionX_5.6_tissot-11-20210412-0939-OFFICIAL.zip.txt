@@ -1,0 +1,29 @@
+Device changes:
+==============================
+Add cam2api support for snap camera
+Add missing WFC overlay
+Allow all apps to use smart replies
+Disable NearbyMessagingService
+Disable SystemUI anti-falsing on lockscreen
+Don't show Mobile plan preference item
+Enable Auto Power Modes
+Include dirty flash fix
+Increase no. of visible max notifications icons
+Rework init and switch to redfin build fp to pass safetynet
+Upstream kernel to 4.9.266
+------------------------------
+ROM changes:
+==============================
+Catch SecurityException when binding payment service
+EasterEgg: Fix some warnings
+Evolver: ButtonSettings: Fix swap capacitive button pref when navbar enabled
+Evolver: extend quick qs slider position
+LockSettingsService: Fix face removal when disabling security
+MediaProvider: Less spam
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+SystemUI: Animate brightness slider
+apns: Sync AT&T APNs with device/sample
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+releasetools: Fix error when build.prop contains non-ASCII characters
+vendor: Nuke dynamic bootanimation
