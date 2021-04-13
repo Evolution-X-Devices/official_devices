@@ -1,0 +1,163 @@
+=======================
+     04-13-2021
+=======================
+
+   * art/
+a62ecb6 art: Disable debug tracing in production builds
+
+   * frameworks/base/
+d88a2993 AppLock: Add option to instantly lock app on closing [1/2]
+
+   * libcore/
+767ea27 Switch to OpenJDK 8 java/math
+
+   * packages/apps/Bluetooth/
+189c6b8 Bluetooth: don't kill stack if Telecom not found
+
+   * packages/apps/Evolver/
+d9668cb Evolver: Remove unneeded custom header shadow seekbar
+
+   * packages/apps/Settings/
+58c6bf7 Settings: Add option to instantly lock app on closing [2/2]
+
+   * vendor/evolution/
+e05563c vendor: Cleanup
+
+   * vendor/gms/
+69cad67 gms: Update Pixel Launcher
+
+=======================
+     04-12-2021
+=======================
+
+   * build/make/
+52e1b6f build: Swap fake and real platform security patch levels
+
+   * system/tools/mkbootimg/
+1f37a18 Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+
+   * vendor/pixelstyle/
+ce92959 pixelstyle: Changes from Android 12 DP2 [4/4]
+
+=======================
+     04-11-2021
+=======================
+
+   * packages/apps/Nfc/
+c447ca4 Catch SecurityException when binding payment service
+
+   * packages/providers/MediaProvider/
+ce4fd66 MediaProvider: Less spam
+
+=======================
+     04-10-2021
+=======================
+
+   * manifest/
+d5e9a82 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/manifest into elle
+
+   * vendor/qcom/opensource/usb/
+cec97e1 Allow enabling support for audio and debug accessories
+
+=======================
+     04-09-2021
+=======================
+
+   * frameworks/native/
+6f5f18b libbinder: Suppress log spam when unlinking death recipients
+
+   * system/security/
+758d7ae Switch from `count` to `N` for template due to ambiguity with `std::count`
+
+=======================
+     04-08-2021
+=======================
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+e5b30a1 avrc_copy_packet: Zero initialize packet
+
+=======================
+     04-07-2021
+=======================
+
+   * bootable/recovery/
+60d462c Revert "recovery: make /etc/fstab only include entries that match the detected fs type"
+
+   * system/core/
+8da11e1 init.rc: Disable native stats collection service
+
+   * tools/metalava/
+22d6324 Check isInteresting for methods and fields in ApiLint
+
+=======================
+     04-06-2021
+=======================
+
+   * bionic/
+8b5ba38 Fix "deprecated instruction in IT block" warning
+
+   * build/blueprint/
+7d7babc Add CreateAliasVariation
+
+   * external/guice/
+70aae87 guice: Remove .class files from srcjar
+
+   * external/libcxx/
+efd38ed Make libc++fs vendor available and as a shared lib
+
+   * external/selinux/
+39b9df4 Revert "libsepol: Make an unknown permission an error in CIL"
+
+   * external/tinycompress/
+24be02f tinycompress: Convert Evolution X product variables to soong config variables
+
+   * frameworks/av/
+2f0fd78 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/frameworks/av into elle
+
+   * frameworks/opt/net/ims/
+a52414f Partially Revert "Remove references to deprecated device config"
+
+   * frameworks/opt/net/wifi/
+92679c6 ClientModeManager: Set mRole to avoid starting multiple instances.
+
+   * hardware/interfaces/
+3c2a846 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/hardware/interfaces into elle
+
+   * hardware/libhardware/
+d4784ff audio_amplifier: Add new hook for setting amp feedback
+
+   * hardware/libhardware_legacy/
+ac744ac Add wifi_add_or_remove_virtual_intf() to the legacy wifi hal
+
+   * packages/apps/Stk/
+00213d3 Stk: adaptive icon
+
+   * prebuilts/abi-dumps/vndk/
+7831be2 vndk: remove libz.so from ABI check target
+
+   * system/bt/
+d4fed8e Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/system/bt into elle
+
+   * system/incremental_delivery/
+378c7a5 libdataloader: Don't pollute namespace with android::dataloader
+
+   * system/update_engine/
+418db3a Don't verify payload signatures in recovery
+
+=======================
+     04-05-2021
+=======================
+
+
+=======================
+     04-04-2021
+=======================
+
+   * packages/apps/ThemePicker/
+768e8df New translations evolution_strings.xml (Chinese Traditional)
+
+   * packages/apps/Updates/
+20f9c5b New Crowdin updates (#27)
+
+   * packages/providers/DownloadProvider/
+b089327 New Crowdin updates (#4)
