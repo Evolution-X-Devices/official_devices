@@ -1,0 +1,26 @@
+** Device Changes **
+Switch back to HentaiKremul with mi9fod implementation ( Fixes bootloops on some devices)
+Merge 4.9.266 to HentaiKremul
+Fix Notification LED
+
+** Source Changes **
+AppLock: Add option to instantly lock app on closing
+AppLock: Call activityStopped when activity has stopped
+Cleanup/revert Zygote fork commits
+base: Fix Biometric Auth for Applock
+fastboot: Add a few missing fastboot commands from help
+Bluetooth: don't kill stack if Telecom not found
+Evolver: extend quick qs slider position
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+SystemUI: Animate brightness slider
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+releasetools: Fix error when build.prop contains non-ASCII characters
+Catch SecurityException when binding payment service
+EasterEgg: Fix some warnings
+Evolver: ButtonSettings: Fix swap capacitive button pref when navbar enabled
+LockSettingsService: Fix face removal when disabling security
+MediaProvider: Less spam
+apns: Sync AT&T APNs with device/sample
+soong: Add TARGET_QTI_USB_SUPPORTS_{AUDIO,DEBUG}_ACCESSORY flags
+vendor: Nuke dynamic bootanimation
