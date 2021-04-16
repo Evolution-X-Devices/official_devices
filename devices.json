@@ -583,6 +583,20 @@
          }
       ]
    },
+  {
+      "brand": "Xiaomi",
+      "codename": "juice",
+      "name": "Poco M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G",
+      "supported_versions": [
+         {
+            "maintainer_name": "Ahmed Tohamy",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8386267",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-official-evolution-x-5-6-for-poco-m3-redmi-9t-redmi-9-power-redmi-note-9-4g-juice.4262747/"
+         }
+      ]
+   },
    {
       "brand": "Xiaomi",
       "codename": "phoenix",
