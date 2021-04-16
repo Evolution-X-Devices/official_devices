@@ -1,0 +1,127 @@
+=======================
+      DEVICE
+=======================
+   * Updated fingerprint for safetynet fix (non-root behavior)
+   * Fixed Live Walls crashing Pixel Launcher
+
+=======================
+     04-15-2021
+=======================
+
+   * build/make/
+cacb9cb sign_target_files_apks: Relax ro.build.description requirements
+
+   * frameworks/base/
+91a52674 AutoAODService: Slightly improve code and docs
+
+   * packages/apps/Evolver/
+5fe9eb3 Evolver: Remove new Theme options
+
+   * packages/apps/FaceUnlockService/
+eb4c275 Automatic translation import
+
+   * packages/apps/Plugins/
+13371c0 Themes: Allow volume slider and thumb to work with custom  images.
+
+   * system/core/
+12dfbb7 fastboot: Add a few missing fastboot commands from help
+
+   * vendor/pixelstyle/
+7d48fb2 pixelstyle: Changes from Android 12 DP2 [4/4]
+
+=======================
+     04-14-2021
+=======================
+
+   * art/
+f170580 art: Disable debug tracing in production builds
+
+   * frameworks/av/
+3a01978 Fix AAC decoder failing to instantiate
+
+   * frameworks/native/
+b08c3d3 libbinder: Suppress log spam when unlinking death recipients
+
+   * libcore/
+5bcebb5 Switch to OpenJDK 8 java/math
+
+   * manifest/
+e3895f2 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/manifest into elle
+
+   * system/security/
+ee7b5c7 Switch from `count` to `N` for template due to ambiguity with `std::count`
+
+   * vendor/evolution/
+19d3fb7 vendor: Switch to using WallpaperPicker2 instead of ThemePicker
+
+=======================
+     04-13-2021
+=======================
+
+   * frameworks/opt/telephony/
+0bfd761 RIL: Fix manual network selection with old modem
+
+   * packages/apps/Settings/
+58c6bf7 Settings: Add option to instantly lock app on closing [2/2]
+
+   * packages/apps/WallpaperPicker2/
+e9d4f1d WallpaperPicker2: Merge code review updates for race condition fix
+
+=======================
+     04-12-2021
+=======================
+
+   * packages/apps/Bluetooth/
+189c6b8 Bluetooth: don't kill stack if Telecom not found
+
+   * system/tools/mkbootimg/
+1f37a18 Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+
+   * vendor/gms/
+69cad67 gms: Update Pixel Launcher
+
+=======================
+     04-11-2021
+=======================
+
+   * packages/apps/Nfc/
+c447ca4 Catch SecurityException when binding payment service
+
+=======================
+     04-10-2021
+=======================
+
+   * packages/providers/MediaProvider/
+ce4fd66 MediaProvider: Less spam
+
+   * vendor/qcom/opensource/usb/
+cec97e1 Allow enabling support for audio and debug accessories
+
+=======================
+     04-09-2021
+=======================
+
+
+=======================
+     04-08-2021
+=======================
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+e5b30a1 avrc_copy_packet: Zero initialize packet
+
+=======================
+     04-07-2021
+=======================
+
+   * bootable/recovery/
+60d462c Revert "recovery: make /etc/fstab only include entries that match the detected fs type"
+
+   * tools/metalava/
+22d6324 Check isInteresting for methods and fields in ApiLint
+
+=======================
+     04-06-2021
+=======================
+
+   * prebuilts/abi-dumps/vndk/
+7831be2 vndk: remove libz.so from ABI check target
