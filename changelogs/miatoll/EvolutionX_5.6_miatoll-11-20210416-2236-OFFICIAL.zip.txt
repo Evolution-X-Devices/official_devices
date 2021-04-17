@@ -1,0 +1,59 @@
+Device Changelog:
+- Full vndk vendor
+- Sepolicy fixes
+- Switched to redfin fp
+- Widevine l1 fixed on non-curtana devices (working on curtana fine)
+- Heating issues fixed 
+- Idle drain fixes 
+- Better vibration pattern
+- Better wifi behavior for switching between 2.4Ghz and 5Ghz
+- Audio playback enforced to 24-bit
+- Source built perf Hal
+- Ram management improvements
+- Imported keyhandler from davinci
+- Performance improvements and Misc. optimizations
+
+Source Changelog list:
+
+4/16
+AppLock: Check current and called activity package before locking again
+
+4/15
+Evolver: Add missing lock screen clock styles
+Evolver: Remove Nav/LS/Ambient Pulse
+Evolver: Remove FOD night light feature
+Evolver: Remove Lock screen charging info feature
+Evolver: Remove ROM-breaking Theme options (SysUI colors)
+Evolver: Remove unneeded custom header shadow seekbar
+SystemUI: Add a tile to show power menu
+SystemUI: Add time refresh capabilities for added clock controllers
+Regenerate the hashtree for prebuilt vendor.img and odm.img files
+Remove user toggle to show/hide lock screen status area
+sign_target_files_apks: Relax ro.build.description requirements
+
+4/14
+Evolver: Add MIUI compact volume panel style
+Evolver: Add screenshot quality setting
+Evolver: QS: Add OOS tint style
+Evolver: Separate Android 12 QS tint style
+base: Add Multi usb controller for Asus devices
+envsetup: Fix the way we check check_product's return value
+evolution: Handle build type suffixes properly
+overlay: Fix Biometric dialog corner radius
+
+4/13
+AppLock: Add option to instantly lock app on closing
+AppLock: Call activityStopped when activity has stopped
+Cleanup/revert Zygote fork commits
+RIL: Fix manual network selection with old modem
+base: Fix Biometric Auth for Applock
+fastboot: Add a few missing fastboot commands from help
+
+4/12
+Bluetooth: don't kill stack if Telecom not found
+Evolver: extend quick qs slider position
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+SystemUI: Animate brightness slider
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+
