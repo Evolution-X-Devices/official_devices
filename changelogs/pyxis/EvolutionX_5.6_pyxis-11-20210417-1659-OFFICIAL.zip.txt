@@ -1,0 +1,43 @@
+** Device Changes **
+Switch to HentaiKremul-Remastered (fixes bootloop on some devices)
+Update Energy models for sdm710
+Merge latest linux kernel version
+Update IMS, QMI, RIL, Audio, BT, Adreno Firmware, Neural Networks, ADSP, CDSP & FM blobs from Android R
+Enable ZRAM SWAP with Writeback
+
+** Source Changes **
+Evolver: Refactor
+Make sure prebuilt modules are exported before attempting to use them
+SystemUI: Pass lock pattern size to biometrics auth
+AppLock: Check current and called activity package before locking again
+Evolver: Add missing lock screen clock styles
+Evolver: Remove Nav/LS/Ambient Pulse
+Evolver: Remove FOD night light feature
+Evolver: Remove Lock screen charging info feature
+Evolver: Remove ROM-breaking Theme options (SysUI colors)
+Evolver: Remove unneeded custom header shadow seekbar
+SystemUI: Add a tile to show power menu
+SystemUI: Add time refresh capabilities for added clock controllers
+Regenerate the hashtree for prebuilt vendor.img and odm.img files
+Remove user toggle to show/hide lock screen status area
+sign_target_files_apks: Relax ro.build.description requirements
+Evolver: Add MIUI compact volume panel style
+Evolver: Add screenshot quality setting
+Evolver: QS: Add OOS tint style
+Evolver: Separate Android 12 QS tint style
+base: Add Multi usb controller for Asus devices
+envsetup: Fix the way we check check_product's return value
+evolution: Handle build type suffixes properly
+overlay: Fix Biometric dialog corner radius
+AppLock: Add option to instantly lock app on closing
+AppLock: Call activityStopped when activity has stopped
+Cleanup/revert Zygote fork commits
+RIL: Fix manual network selection with old modem
+base: Fix Biometric Auth for Applock
+fastboot: Add a few missing fastboot commands from help
+Bluetooth: don't kill stack if Telecom not found
+Evolver: extend quick qs slider position
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+releasetools: Fix error when build.prop contains non-ASCII characters
