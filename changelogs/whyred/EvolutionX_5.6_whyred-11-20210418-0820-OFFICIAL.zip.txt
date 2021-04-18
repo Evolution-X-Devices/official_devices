@@ -1,0 +1,274 @@
+
+Evolver: Refactor
+Make sure prebuilt modules are exported before attempting to use them
+SystemUI: Pass lock pattern size to biometrics auth
+AppLock: Check current and called activity package before locking again
+Evolver: Add missing lock screen clock styles
+Evolver: Remove Nav/LS/Ambient Pulse
+Evolver: Remove FOD night light feature
+Evolver: Remove Lock screen charging info feature
+Evolver: Remove ROM-breaking Theme options (SysUI colors)
+Evolver: Remove unneeded custom header shadow seekbar
+SystemUI: Add a tile to show power menu
+SystemUI: Add time refresh capabilities for added clock controllers
+Regenerate the hashtree for prebuilt vendor.img and odm.img files
+Remove user toggle to show/hide lock screen status area
+sign_target_files_apks: Relax ro.build.description requirements
+Evolver: Add MIUI compact volume panel style
+Evolver: Add screenshot quality setting
+Evolver: QS: Add OOS tint style
+Evolver: Separate Android 12 QS tint style
+base: Add Multi usb controller for Asus devices
+envsetup: Fix the way we check check_product's return value
+evolution: Handle build type suffixes properly
+overlay: Fix Biometric dialog corner radius
+AppLock: Add option to instantly lock app on closing
+AppLock: Call activityStopped when activity has stopped
+Cleanup/revert Zygote fork commits
+RIL: Fix manual network selection with old modem
+base: Fix Biometric Auth for Applock
+fastboot: Add a few missing fastboot commands from help
+Bluetooth: don't kill stack if Telecom not found
+Evolver: extend quick qs slider position
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+releasetools: Fix error when build.prop contains non-ASCII characters
+Catch SecurityException when binding payment service
+EasterEgg: Fix some warnings
+Evolver: ButtonSettings: Fix swap capacitive button pref when navbar enabled
+LockSettingsService: Fix face removal when disabling security
+MediaProvider: Less spam
+apns: Sync AT&T APNs with device/sample
+soong: Add TARGET_QTI_USB_SUPPORTS_{AUDIO,DEBUG}_ACCESSORY flags
+vendor: Nuke dynamic bootanimation
+Add support for runtime toggle of navbar
+AutoAODService: Slightly improve code and docs
+Evolver: AODSchedule: Correctly display summary
+LineageHardwareManager: Introduce keys swap feature support
+Move high touch sensitivity and hovering to InputService
+PhoneWindowManager: Only react to camera key when necessary
+Touch: Add keydisabler support
+fwb: Re-introduce keyboard backlight brightness control
+API and boot image updates to import RI BigInteger
+Add newStringFromUtf8Bytes native implementation
+Allow globally disabling some clang-tidy checks
+Allow screen unpinning on devices without navbar
+EventLog: Disable event writing in production builds
+Fix -Wformat error with explicit void* -> char* cast
+Fix screen unpinning text on devices that have gestures on fp sensor
+InsetsStateController: Replace ArrayMap with HashMap for performance
+LayoutInflater: Opportunistically create views directly for performance
+LocalServices: Replace ArrayMap with HashMap for performance
+PackageInfo: Optimize ApplicationInfo creation
+PackageManagerService: Replace ArrayMap with HashMap for performance
+Remove malloc/free for inline overlay values
+Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility"
+Switch from `count` to `N` for template due to ambiguity with `std::count`
+Switch to OpenJDK 8 java/math
+SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Trace: Disable debug tracing in production builds
+device_config: Disable deep press input classification
+init.rc: Disable native stats collection service
+libbinder: avoid global mutex every binder call
+statsd: Disable native stats collection service
+vendor: Disable Deep Press touch video heatmaps
+vulkan: avoid waiting for service.sf.present_timestamp creation
+AVRCP: Use calloc to zero reserved fields
+Add ShapeShift lockscreen clock
+ColorBucket: Raven > Pitch Black
+Evolver: Add previews to Theme settings
+Evolver: Integrate lock screen clock options
+Legacy pairing: Reject device with same BD_ADDR
+Revert "Zygote: enable zygote preforking (USAP pool) by default"
+Settings: Cleanup DeviceCodenamePreferenceController
+Settings: Switch to string overlay for maintainer string
+avrc_copy_packet: Zero initialize packet
+backuptool: Ensure dedicated partitions are not unused before mounting
+branding: Remove obsolete props
+overlay: Enable nav gestures by default
+Check isInteresting for methods and fields in ApiLint
+Evolver: Add QS and sysui colors
+SystemUI: Return of the scrim colors!
+QS: Allow setting panel bg through color picker
+QS: Allow using frameworks resources exclusively
+QSContainerImpl: Ensure we set valid colors only
+QSContainerImpl: Toggle QS color overlay as necessary
+QSPanel: Wait before attempting to get wallpaper colors
+Settings: Improve protected sensitive info in about phone
+Use config_headlineFontFamilyMedium on package installer app title
+art: Disable debug tracing in production builds
+base: Allow theming QS with wallpaper colors
+base: qs: Apply bg to active qs icons
+base: styles: Expose style used by QS only
+libbinder: Suppress log spam when unlinking death recipients
+prebuilt/common: Update IMS entry for HOT Mobile mcc="425,07"
+vendor: Add QsColor
+ActivityThread: Remove Failed to find provider info logspam
+Bump ROM version to 5.6
+Evolver: GlobalActions: Allow user to set an optional 4th action
+Evolver: Refactor & clean up
+FODCircleView: refactor where show and hide animation calls are done
+Fix "deprecated instruction in IT block" warning
+Fix AAC decoder failing to instantiate
+Merge April security patches
+Support animation parts fading out
+SystemUI: instantiate FODAnimation early
+libgui: Enable ThinLTO
+vndk: Update libbinder ABI dumps
+Device picker: add title to fix offset in progressbar
+ProgressCategory: update title style for consistency
+Update translations
+Don't enable extra StrictMode features for userdebug builds
+Fix Volume panel not following rounded corners partially
+Fix bug on High Contrast Text
+MNML Box clock: Make background transparent
+NetworkRegistrationInfo: add Parcel recycle
+PowerManagerService: fix contention and unify Smart Charging/Cutoff
+Settings: BiometricPrompt: Add provision for App Lock
+overlay: update LDAC codec priority
+Add Zygotehooks.indefiniteThreadSuspensionOK
+Add nativeZygoteJitEnabled
+Add zygote native fork loop
+Evolver: Add a footer warning for G-Visual mod settings
+Settings: Add Evolution X Logo to Evolution X version window
+Settings: Fix theme for pattern size chooser
+Settings: Improve refresh rate switching
+Store soname as a std::string
+Sync with upstream NetBSD
+Zygote: Add Arm pointer authentication keychange support
+overlays: Remove AccentColorPixelBlueOGOverlay
+x86/x86_64: cleanup signal trampolines
+ACodec: Handle HDR10+ metadata at OutputPortSettingsChangedState
+C2AllocatorBlob: allow multiple maps
+C2OMXNode: read delay from component to determine buffer count
+CCodec: Increase max linear buffer size for 8K video
+CCodec: fix ByteBuffer mode image
+CCodec: workaround for frame drops
+Cache bluetooth A2DP in AudioService callback thread
+CameraService: Support hooks for motorized camera
+Cleanup of Zygote files
+Codec2: Initialize InputSurfaceWrapper::Config structure fields
+Deep-update live datas and update on isStale in getInitializedValue
+Fix issue: https://issuetracker.google.com/issues/183024999
+NuPlayerRenderer: Reset negative media time to zero
+keyguard: Do not trigger a wake up when hiding lockscreen
+Ringbuffer stops logging after wifi toggle
+SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+WifiNanIface: Validate interface before cleanup
+apn: Add Visible Wireless (VZW)
+base: SystemUI: add qs powershare tile
+wifi: Update wifi_wait_for_driver_ready return status handling
+wlan: add supported interfaces in rc file
+Introduce Smart Cutoff feature
+SoundPool: Avoid busy waiting during stream restart
+fastboot driver: fix message
+Fix typos related to sortSelectionIndices
+SystemUI: Modify brightness slider icon
+MediaProvider: Fix insert fail while file saved in sdcard
+NativeNfcTag: Treat MIFARE_CLASSIC same as NFC_A in getTechExtras()
+Snap: Fix SD card visibility for secondary users
+Snap: Save SDCard photos to legacy path
+SystemUI: Set config_fodColorBackground to transparent by default
+SystemUI: global actions: fix icon position on multi-line action
+build CaptivePortalLoginOverlay
+roots: Correct mount flags in /etc/fstab
+AutoAODService: Account for disabled doze
+base: More theme changes from Android 12 DP2
+Evolver: Remove QS status bar opacity options
+Evolver: Statusbar > Status bar
+SystemUI: Move battery icon to QS header
+Evolver: Re-arrange QS options
+FluidClock: Fix up preview rendering
+SystemUI: Remove color-accented label in QSTileView
+perf: Add support for HIDL Lineage power HAL
+perf: Support AIDL Lineage power HAL service
+AppInfo: Add time spent in app from Wellbeing
+VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+iorap: Increase daemon priority
+DisplayPowerController: make brightness ramp rate overlay-able
+QuickStatusBar: Check for privacy chip indicators earlier
+SystemUI: Bring back QS drag handle
+SystemUI: migrate status bar manual brightness to float
+Track Snap camera by default
+vendor: Allow background broadcast for CAMERA_BUTTON
+vendor: Whitelist some of our own broadcast actions
+Evolver: Add Switch styles
+Evolver: Add QS Header size customizations
+Evolver: Implement Gvisual mod navbar colors
+Evolver: Theme settings dashboard icons
+rro_overlays: Add GoogleWallpaperPickerOverlay
+Bump ROM version to 5.5.2
+Implement some theme changes from Android 12 DP2
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Update external card state based on current app
+apns-conf: Add Kena Mobile entries
+apns-conf: Add ho.mobile configs
+apns-conf: Update CoopVoce entries
+apns-conf: Update PosteMobile entries
+Bump ROM version to 5.5.1
+Remove Smart Pixels support
+Settings: Hide|disable "Phone number" from About phone information
+pixelstyle: Add missing configs
+Bring back PA’s Applock
+ColorBucket: Add Android 12 Dark style
+DataSwitchTile: Make it behave like OxygenOS
+FOD: Bring back allowing the user to disable night light when active
+SystemUI: AmbientTile: Actually start using SecureSetting
+SystemUI: AmbientTile: Default the setting to 1
+SystemUI: AmbientTile: Don't hardcode display settings intent
+SystemUI: AmbientTile: Use SecureSetting to change doze setting
+SystemUI: SecureSetting: Allow specifying a non-zero default
+Always include Apex support
+Evolver: AODSchedule: Add support for mixed time & sun modes
+Evolver: Change some default values
+Introduce Fluid lockscreen clock
+Introduce anti flicker mode in LiveDisplay
+SystemUI: Add anti flicker tile
+base: Introduce automated DC Dimming
+LiveDisplaySettings: Drop no longer necessary casts when calling findPreference()
+LiveDisplaySettings: Hide Reading Mode if wellbeing app is enabled
+Settings: Add a toggle for anti flicker mode in LiveDisplay settings
+Settings: Allow removing livedisplay pref screen with config_enableLiveDisplay
+Settings: MediaOutputPanel: Handle the case of missing packageName
+Settings: Remove obsolete PreferenceCategory for LiveDisplay
+SystemUI: ensure FOD view is correctly hidden
+core: Add overlay for disabling livedisplay
+FODCircleView: Various changes
+PixelPropsUtils: Add more apps
+Settings: Use correct icon to reset battery stats
+vendor: Bring back OPScreenRecord
+Revert "No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity.”
+SystemUI: Expose camera, location and microphone icons to Tuner
+SystemUI: tiles: Open display settings on long clicks for livedisplay tiles
+apns: Add Belong
+apns: Fix giffgaff
+base: fix padding between privacy icons and network traffic
+BrightnessController: Fix thread exception
+Fix for TestDirectBootEmulated testcase
+Improve strings for bluetooth dual channel
+Settings: Introduce Android 12 Style Search bar
+SystemUI: Fix Wakelock issue
+SystemUI: MediaOutputDialogFactory: accept null package name
+base: Disable LiveDisplay low power consumption by default
+GlobalScreenshot: Reduce screenshot dismiss delay to 2 seconds
+Pixel Navbar: Hide opa when not pressed
+Pixel Navbar: Make animation available even without google search
+Pixel Navbar: Remove halo, white cutout
+PixelPropsUtils: Use Pixel 3 XL spoof for Google app
+Refactor Pixel Navbar animation toggle behavior
+VolumeDialogControllerImpl: Stop log spam with no caption service
+AuthBiometricFingerprintView: Fix indicator text color on dark theme
+Evolver: Update default font style
+LS charging info: Add support for Fahrenheit
+SystemUI: check if the cutout views array is null before using it
+SystemUI: Redraw display cutout on overlay changes
+Updater: Refactor
+fixup! SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+overlays: Set Body font for manrope
+pixelstyle: config: Build Manrope family fonts
+pixelstyle: rro_overlays: Don't version on config overlays
+pixelstyle: rro_overlays: EvolutionXConfigOverlay: Change headline font
+
+
