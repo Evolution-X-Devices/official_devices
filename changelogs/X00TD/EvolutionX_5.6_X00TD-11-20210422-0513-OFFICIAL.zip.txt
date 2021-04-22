@@ -1,0 +1,71 @@
+Version: 5.6: Passion
+Merged April security patch
+Kanged walleye offsets for GPU composition
+Enabled SurfaceFlinger's display power timer
+Fixed wifi connectivity issues
+Upstreamed kernel to 4.4.261
+Fix inconsistent system app icon colors
+Switched to using AOSP DocumentsUI (Files app)
+Added back FaceUnlock support
+Added Face Unlock animation
+Fixed rare SystemUI crash
+Updated default font style
+Added back Applock support
+Fixed indicator text color on dark theme
+Reduced screenshot dismiss delay to 2 seconds
+Disabled LiveDisplay low power consumption by default
+Fixed Wakelock issue
+Introduced Android 12 Style Search bar
+Improved strings for bluetooth dual channel
+Fixed padding between privacy icons and network traffic
+Brought back OPScreenRecord
+Added a toggle for anti flicker mode in LiveDisplay settings
+Hide Reading Mode if wellbeing app is enabled
+Added anti flicker tile
+Introduced Fluid lockscreen clock
+DataSwitchTile: Make it behave like OxygenOS
+Added Android 12 Dark style
+Hide|disable "Phone number" from About phone information
+Update Pixel Launcher (Adds double tap to sleep functionality)
+Implemented some theme changes from Android 12 DP2
+Updated external card state based on current app
+Implemented Gvisual mod navbar colors
+Added QS Header size customizations
+Brought back QS drag handle
+Don't vibrate when volume dialog is not visible
+Added time spent in app from Wellbeing
+Added support for HIDL Lineage power HAL
+Removed color-accented label in QSTileView
+Re-arranged QS options
+Moved battery icon to QS header
+Fixed SD card visibility for secondary users
+Fixed insert fail while file saved in sdcard
+Modified brightness slider icon
+Added qs powershare tile
+Added Evolution X Logo to Evolution X version window
+Updated LDAC codec priority
+Added provision for App Lock
+Fixed Volume panel not following rounded corners partially
+Added QsColor
+Allow theming QS with wallpaper colors
+Improved protected sensitive info in about phone
+Added QS and sysui colors
+Enabled nav gestures by default
+Integrated lock screen clock options
+Added previews to Theme settings
+ColorBucket: Raven > Pitch Black
+Added ShapeShift lockscreen clock
+Added support for runtime toggle of navbar
+Nuked dynamic bootanimation
+Fixed Biometric Auth for Applock
+AppLock: Add option to instantly lock app on closing
+Separated Android 12 QS tint style
+Added OOS tint style
+Added MIUI compact volume panel style
+Removed Lock screen charging info feature
+Brought back user toggle to show/hide status area
+Fixed Polish TypeClock strings
+Allow non-market apps installation by default
+Fixed possible incorrect position of QS page indicator
+SoundTile: Hide if alert slider is present
+Updated translations
