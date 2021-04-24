@@ -1,0 +1,31 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.4
+  * Linux 4.9.267
+  * some upstream commits of cpufreq_stats
+  * enabled CONFIG_XFRM_MIGRATE for IPsec SA (RFC 4555)
+  * added a binder flag to clear buffer on txn complete
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Updated blobs and firmware from MIUI China Stable V12.0.3.0
+- Updated priv-app permission whitelist for HotwordEnrollment
+- Adjusted thermal configs to delay CPU frequency drop and smoothen the thermal throttling curve
+- Implemented dynamic thermal profile to work with Pixel thermal engine
+  * the option is accessible under Settings/Battery/Thermal profiles (in case you are wondering, they had no effect on EvoX before this change)
+  * thermal configs are dynamically loaded on a per-app basis
+  * only the gaming profile is available besides the default profile, because other use cases are covered well enough by the default profile
+  * the gaming profile maintains CPU frequency at even higher temperature compared the default profile
+  * surface temperatures are measured by an infrared thermometer with matching emissivity to ensure they stay below the allowed maximum values of continuously held electronic devices in IEC 60950-1 (2005) standard
+  * thermal profile is NOT a replacement for proper cooling. If you want better performance, you should cool your device.
+- Eliminated most SELinux neverallows and cleaned up unneeded or broken sepolicy
+  * the latest Riru installation should work now. Note that if you use any mods like this, you will not receive support from me
+- Updated telephony blobs from pyxis 21.3.31 to fix random qtibus crashes in the background
+- Went back to Secure Element 1.0 to work with the updated blobs
+
+**Evolution X Update**
+- April security patch
+- Added QS and SysUI colors to Evolver and allowed QS theme to change according to wallpaper colors
+- Added preview to theme settings
+- Added screenshot quality settings
+- Some more QS tint styles
+- Face unlock improvements from PE
+- More changes from android S DP3
+- Brought back lock screen visualizer
