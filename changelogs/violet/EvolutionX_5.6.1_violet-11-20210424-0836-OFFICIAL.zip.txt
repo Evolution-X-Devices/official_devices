@@ -1,0 +1,39 @@
+Yess!!! YOU CAN DIRTY FLASH.........
+
+#KEEP_EVOLVING #Violet
+
+==============================
+Device changes:
+==============================
+Fixed heating issues while charging
+Fixed Mic issue on wired earphones in some apps
+Fixed 24 bit audio
+Moved dirac inside Sound & Vibration
+
+------------------------------
+ROM changes:
+==============================
+AppLock: Check current and called activity package before locking again
+Bring back theming QS with wallpaper colors
+Bump ROM version to 5.6.1
+DataSwitchTile: grant missing permission
+DisplayManagerService: Don't spam log when display state changes
+Evolver: Bring back user toggle to show/hide lock screen status area
+Evolver: Refactor
+Face Unlock: Report face auth state when camera gets closed
+Fix Polish TypeClock strings
+Import some changes from Android 12 DP3
+Make sure prebuilt modules are exported before attempting to use them
+NfcNci: make T3T/Nfc-F HCE optional
+Settings: Add a couple random things from the Pixel devices
+Settings: Switch applock timeout to DropDownPreference
+SoundTile: Hide if alert slider is present
+SystemUI: Align volte and vowifi icon sizes with signal icon
+SystemUI: Animate ambient indication into view
+SystemUI: Fix possible incorrect position of QS page indicator
+SystemUI: Pass lock pattern size to biometrics auth
+SystemUI: Prevent crash on colored sysui with live walls
+bootanimation: Always use normal bootanimation
+core: Allow non-market apps installation by default
+iorap: Terminate IORap if system_server is down
+vendor: apns: Add Ting
