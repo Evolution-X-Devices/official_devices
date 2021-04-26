@@ -1,0 +1,43 @@
+------------------------------
+Device changes:
+==============================
+Addressed Some denials
+Fix Touchscreen gestures
+Added Device Extras ( DeviceSettings )
+doze: Introduce raise to wake gesture
+------------------------------
+ROM changes:
+==============================
+4/26
+VolumeDialogImpl: Get the location in window instead of on screen
+VolumeDialogImpl: Remove insets listener on dismiss
+
+4/25
+Doze: Enable DT2W by default
+FOD: Various fixes
+Keyguard: Fix mapping mismatch between KeyEvent and NumPadKey
+Settings: Add preference for maximum screen refresh rate
+Settings: Add toggle for 60Hz refresh rate on battery saver
+
+4/24
+Evolver: Add back lock screen visualizer feature
+Evolver: Lockscreen Visualizer: Add pulse magic
+Settings: Cleanup strings
+
+4/23
+Add customizable action for back long press button
+Add device key action to kill app
+Add device key action to toggle flashlight
+Add toggle to disable HW keys
+Evolver: Move all navbar and button related settings into Button category
+GamingMode: Re-enable HW keys toggle
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+SystemUI: Make center clock layout safe insets aware
+base: Add accidental touch prevention for assist key
+base: Add device key action to Clear all notifications
+base: Add device key action to expand notifications panel
+base: Add device key action to toggle volume panel
+base: Add more custom actions
+base: Introduce Accidental Touch
+base: Micro optimization for accidental touch prevention
+base: Show disabled signal icon when SIM is disabled
