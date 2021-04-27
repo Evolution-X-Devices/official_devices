@@ -1,0 +1,62 @@
+Device changes:
+==============================
+Rebased to new tree based on oss vendor(Thanks to @SreekanthPalakurthi for his work to bring up trees)
+Switch to CatKernel(Thanks to @catinice for his kernel)
+Initial build
+
+------------------------------
+ROM changes:
+==============================
+4/27
+Bluetooth: Check Null-safeness when switching optional-codecs state
+DisplayModeDirector: Default min refresh rate to 60 Hz
+Evolver: Notifications background opacity (experimental)
+Settings: Add switch to select SBC HD by default
+Settings: Power button press to unlock with fingerprint
+base: Allow unlocking fingerprint only on power button press
+
+4/26
+Evolver/Settings: Fix search index issues
+Screenrecord: Save and load set preferences
+VolumeDialogImpl: Get the location in window instead of on screen
+VolumeDialogImpl: Remove insets listener on dismiss
+
+4/25
+Doze: Enable DT2W by default
+FOD: Various fixes
+Keyguard: Fix mapping mismatch between KeyEvent and NumPadKey
+Settings: Add preference for maximum screen refresh rate
+Settings: Add toggle for 60Hz refresh rate on battery saver
+
+4/24
+Evolver: Add back lock screen visualizer feature
+Evolver: Lockscreen Visualizer: Add pulse magic
+Settings: Cleanup strings
+
+4/23
+Add customizable action for back long press button
+Add device key action to kill app
+Add device key action to toggle flashlight
+Add toggle to disable HW keys
+Evolver: Move all navbar and button related settings into Button category
+GamingMode: Re-enable HW keys toggle
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+SystemUI: Make center clock layout safe insets aware
+base: Add accidental touch prevention for assist key
+base: Add device key action to Clear all notifications
+base: Add device key action to expand notifications panel
+base: Add device key action to toggle volume panel
+base: Add more custom actions
+base: Introduce Accidental Touch
+base: Micro optimization for accidental touch prevention
+base: Show disabled signal icon when SIM is disabled
+
+4/22
+Allow unified location provider as possible location provider (not as used location provider)
+Bump ROM version to 5.6.1
+DataSwitchTile: grant missing permission
+DisplayManagerService: Don't spam log when display state changes
+Import some changes from Android 12 DP3
+SystemUI: Align volte and vowifi icon sizes with signal icon
+bootanimation: Always use normal bootanimation
+iorap: Terminate IORap if system_server is down
