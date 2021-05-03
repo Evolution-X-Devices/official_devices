@@ -1,0 +1,8 @@
+- Switched back to prebulit miui kernel (As users faced many issues with moonbase)
+- Set proper hotspot SSID name
+- Switched skia rendering backend to Vulkan for better rendering
+- Disabled HW overlays
+- Added HWUI
+- Fixed screen blinking 
+- Added Volte missing props
+- Rendering improvements and Misc. Fixes
