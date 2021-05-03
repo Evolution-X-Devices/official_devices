@@ -1,0 +1,65 @@
+Device changelog: 
+- Switched to Perf/ume kernel
+- Fixed OK Google issues 
+- Fixed Audio/video lags
+- Fixed thermal configs not loading (Less heating while charging/gaming/normal use now) 
+- Switched to miui's vibrations patterns
+- Switched to PELT
+- Tons of performance improvements
+- Added XiaomiParts 
+- Probably fixed echo in voip
+- Many moar that i forgot
+Note: Clean flash is recommended 
+
+Rom changelog:
+AppLock: Check current and called activity package before locking again
+Bring back theming QS with wallpaper colors
+Bump ROM version to 5.6.1
+DataSwitchTile: grant missing permission
+DisplayManagerService: Don't spam log when display state changes
+Evolver: Bring back user toggle to show/hide lock screen status area
+Evolver: Refactor
+Face Unlock: Report face auth state when camera gets closed
+Fix Polish TypeClock strings
+Import some changes from Android 12 DP3
+Make sure prebuilt modules are exported before attempting to use them
+NfcNci: make T3T/Nfc-F HCE optional
+Settings: Add a couple random things from the Pixel devices
+Settings: Switch applock timeout to DropDownPreference
+SoundTile: Hide if alert slider is present
+SystemUI: Align volte and vowifi icon sizes with signal icon
+SystemUI: Animate ambient indication into view
+SystemUI: Fix possible incorrect position of QS page indicator
+SystemUI: Pass lock pattern size to biometrics auth
+SystemUI: Prevent crash on colored sysui with live walls
+bootanimation: Always use normal bootanimation
+core: Allow non-market apps installation by default
+iorap: Terminate IORap if system_server is down
+vendor: apns: Add Ting
+Add customizable action for back long press button
+Add device key action to kill app
+Add device key action to toggle flashlight
+Add toggle to disable HW keys
+Bluetooth: Check Null-safeness when switching optional-codecs state
+Doze: Enable DT2W by default
+Evolver/Settings: Fix search index issues
+Evolver: Add back lock screen visualizer feature
+Evolver: Lockscreen Visualizer: Add pulse magic
+Evolver: Move all navbar and button related settings into Button category
+Evolver: Notifications background opacity (experimental)
+GamingMode: Re-enable HW keys toggle
+Keyguard: Fix mapping mismatch between KeyEvent and NumPadKey
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+Screenrecord: Save and load set preferences
+Settings: Add switch to select SBC HD by default
+SystemUI: Make center clock layout safe insets aware
+VolumeDialogImpl: Get the location in window instead of on screen
+VolumeDialogImpl: Remove insets listener on dismiss
+base: Add accidental touch prevention for assist key
+base: Add device key action to Clear all notifications
+base: Add device key action to expand notifications panel
+base: Add device key action to toggle volume panel
+base: Add more custom actions
+base: Introduce Accidental Touch
+base: Micro optimization for accidental touch prevention
+base: Show disabled signal icon when SIM is disabled
