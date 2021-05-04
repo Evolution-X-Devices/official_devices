@@ -1,0 +1,20 @@
+Version: 5.7: Daylight
+Merged May security patch
+Fixed NFC
+Fixed OK Google detection
+Fixed livewallpaper lags
+Disabled host and target debugging
+Added snooze function for headsup
+Added timeout option for headsup
+Introduced AppListPreference for a much cleaner look
+Added more designs for lockscreen clocks
+Fixed notification guts and header opacity
+Allow user to block individual apps from resuming
+Unbinded headsetservice in bluetooth Off state
+Added notifications background opacity (experimental)
+Fixed search index issues
+Enabled DT2W by default
+Added back lock screen visualizer feature
+Added pulse magic in lock screen visualizer
+Introduced Accidental Touch
+vendor: apns: Added LIDL Connect
