@@ -1,0 +1,18 @@
+[DEVICE]
+• Added releasetools back (no more dtv for non-brazil device)
+• Start qseecom daemon as arly as possible for FBE
+• Update qseecom daemon service name
+• Set props for qseecom daemon
+• Encryption might work or might not
+• Improved performance
+• Tuned zram performance
+• Implement usb fast charge mode in kernel
+
+[SOURCE]
+• Version bumped to 5.7
+• May security patch
+• More changes
+
+Found bug? Report ONLY in https://t.me/EvolutionXSanders by tagging @marshmello_61
+
+#KeepEvolving
