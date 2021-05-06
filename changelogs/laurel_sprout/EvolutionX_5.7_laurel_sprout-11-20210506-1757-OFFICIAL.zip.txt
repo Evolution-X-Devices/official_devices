@@ -1,0 +1,306 @@
+Note:
+==============================
+This Build is Android 11 firmware based.
+OSS Vendor users with Android 10 firmware kindly don't flash it.
+We are moved from SELinux Permissive to Enforcing SO CLEAN FLASH THE BUILD.
+You will be notified for the OTA but you can't install the update from there and it's intentional SO DO NOT DOWNLOAD FROM SYSTEM UPDATE. 
+I am not responsible if enforcing changes to permissive after flashing any custom kernel or magisk module.
+Do not request for any inbuilt camera app other than Snap (However you can flash Stock/Miui Camera that have every basic functionality like portrait, 48MP, etc. You can find the magisk flashable module in TG support chat)
+------------------------------
+Device changes:
+==============================
+Removed fingerprint hacks since we are forcing them from ROM source now
+
+Kernel upstreamed to latest version 4.14.232
+
+Default FOD pressed color to White
+
+Enabled FPS Info tile
+
+HUGE SEPolicy Improvements and moved to SELinux ENFORCING!!!
+
+OK/Hey Google voice recognization on SCREEN ON is fixed
+
+Defaul MIC Volume is increased
+
+Updated POWER profile from Stock
+
+Dropped Pixel 1.3 Power HAL
+
+Switched to QTI bootctrl HAL
+
+Added new AIDL QTI thermal HAL
+
+Switched to vendor.qti.hardware.perf@2.2.so
+------------------------------
+ROM changes:
+==============================
+5/7
+Snap: api2: close mode switcher on back-keypress
+Snap: api2: close mode switcher on promode events
+Snap: api2: correct format-setting icon
+Snap: use translucent control background on 16:9
+gapps: Remove carrier-specific packages
+surfaceflinger: add property debug.sf.disable_hwc_overlays
+
+5/6
+Add kill button to notification conversation guts
+Remove Heads Up snooze feature (broken)
+Set notification opacity for smart replies
+SystemUI: Add ripple effect to QS auto-brightness toggle
+SystemUI: Fix QS auto-brightness icon color
+SystemUI: Update carrier label margin right after setting the padding
+Upstream blur changes from ProtonAOSP
+manifest: Don't track AOSP Settings search
+pixelstyle: overlay: Define blur radius in device-independent pixels
+
+5/5
+Allow media art with enabled facelock lockscreen bypass
+ARM64: FP16.compare() intrinsic for ARMv8
+Keyguard: analog clock: update positioning
+Link dialog radius to config_dialogCornerRadius
+Make popup menus more rounded
+Revert breaking optimization changes
+SystemUI: use simple check for isFaceDisabled
+XML Pull Parser optimizations
+gms: Bring back DocumentsUIGoogle
+vendor: Remove AOSP DocumentsUI overlay
+
+5/4
+AuthBiometricsView: Add missing null checks
+AuthController: Add null check for mCurrentDialog in onBiometricError()
+Merge May 2021 security patches
+PixelPropsUtils: Update to May 2021 build fingerprint
+Upstream Lineage’s interfaces changes
+camera: Allow selected camera apps to skip unconfigure
+fastboot: Don't fail when unable to get boot partition size
+pixelstyle: rro_overlay: Don't allow some strings to be translated
+rootdir: Look for ODM & vendor ueventd entries in ETC too
+sepolicy: label USB 1.1 HAL
+version: Bump to 5.7
+vendor: apns: Add LIDL Connect
+
+5/3
+Settings: Clipboard access toast: Improvements
+StitchImage: use accent for buttons
+
+5/1
+Fix two problems in the ExecuteBinary function
+Use loadDrawableAsUser in MediaDataManager
+envsetup: Make dopush() /system_ext aware
+
+4/30
+Screenshot: Extend "Post a silent notification if screenshot is dismissed"
+configure same GID based APNs as per carrier requirements
+art: Disable host and target debugging
+art: Enable compiler/dalvikvm/dex2oat/runtime -O3
+art: Fix inliner instruction/register limits
+
+4/29
+Evolver: HeadsUp: Add snooze function
+Evolver: HeadsUp: Add timeout option
+Evolver: HeadsUp: Make all prefs depend on master global switch
+Evolver: Introduce AppListPreference for a much cleaner look
+Evolver: Utilize our AppListPreference with Heads-up, GamingMode, Sensor block
+HeadsUpManager: Switch to SysUIToast for showing toasts
+IDEClock: s/u0027/u0022
+base: add missing device config permissions for settings
+
+4/28
+Camera: Fix a removal-while-iterate bug
+DeviceConfig: Add telephony to public namespaces
+Evolver: Lockscreen Clocks: Add more designs
+Fix notification guts and header opacity
+Fix up alpha scale for notification image view
+Fix up notification opacity with animation
+FOD: Final fixes to icon getting stuck in AOD/Ambient
+NetworkRegistrationInfo: Add Parcel recycle
+Settings: Allow user to block individual apps from resuming
+Settings: Make media player allowed list dependent on toggle
+User switch: Unbind headsetservice in bluetooth Off state
+usb: Increase debounce time for DISCONNECT processing
+
+4/27
+Bluetooth: Check Null-safeness when switching optional-codecs state
+DisplayModeDirector: Default min refresh rate to 60 Hz
+Evolver: Notifications background opacity (experimental)
+Settings: Add switch to select SBC HD by default
+Settings: Power button press to unlock with fingerprint
+base: Allow unlocking fingerprint only on power button press
+
+4/26
+Evolver/Settings: Fix search index issues
+Screenrecord: Save and load set preferences
+VolumeDialogImpl: Get the location in window instead of on screen
+VolumeDialogImpl: Remove insets listener on dismiss
+
+4/25
+Doze: Enable DT2W by default
+FOD: Various fixes
+Keyguard: Fix mapping mismatch between KeyEvent and NumPadKey
+Settings: Add preference for maximum screen refresh rate
+Settings: Add toggle for 60Hz refresh rate on battery saver
+
+4/24
+Evolver: Add back lock screen visualizer feature
+Evolver: Lockscreen Visualizer: Add pulse magic
+Settings: Cleanup strings
+
+4/23
+Add customizable action for back long press button
+Add device key action to kill app
+Add device key action to toggle flashlight
+Add toggle to disable HW keys
+Evolver: Move all navbar and button related settings into Button category
+GamingMode: Re-enable HW keys toggle
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+SystemUI: Make center clock layout safe insets aware
+base: Add accidental touch prevention for assist key
+base: Add device key action to Clear all notifications
+base: Add device key action to expand notifications panel
+base: Add device key action to toggle volume panel
+base: Add more custom actions
+base: Introduce Accidental Touch
+base: Micro optimization for accidental touch prevention
+base: Show disabled signal icon when SIM is disabled
+
+4/22
+Allow unified location provider as possible location provider (not as used location provider)
+Bump ROM version to 5.6.1
+DataSwitchTile: grant missing permission
+DisplayManagerService: Don't spam log when display state changes
+Import some changes from Android 12 DP3
+SystemUI: Align volte and vowifi icon sizes with signal icon
+bootanimation: Always use normal bootanimation
+iorap: Terminate IORap if system_server is down
+
+4/20
+Bring back theming QS with wallpaper colors
+Fix Polish TypeClock strings
+Settings: Switch applock timeout to DropDownPreference
+SoundTile: Hide if alert slider is present
+SystemUI: Fix possible incorrect position of QS page indicator
+SystemUI: Prevent crash on colored sysui with live walls
+core: Allow non-market apps installation by default
+
+4/19
+Evolver: Bring back user toggle to show/hide status area
+NfcNci: make T3T/Nfc-F HCE optional
+Settings: Add a couple random things from stock
+vendor: apns: Add Ting
+
+4/18
+Report face auth state when camera gets closed
+SystemUI: Animate ambient indication into view
+
+4/17
+Evolver: Refactor
+Make sure prebuilt modules are exported before attempting to use them
+SystemUI: Pass lock pattern size to biometrics auth
+
+4/16
+AppLock: Check current and called activity package before locking again
+
+4/15
+Evolver: Add missing lock screen clock styles
+Evolver: Remove Nav/LS/Ambient Pulse
+Evolver: Remove FOD night light feature
+Evolver: Remove Lock screen charging info feature
+Evolver: Remove ROM-breaking Theme options (SysUI colors)
+Evolver: Remove unneeded custom header shadow seekbar
+SystemUI: Add a tile to show power menu
+SystemUI: Add time refresh capabilities for added clock controllers
+Regenerate the hashtree for prebuilt vendor.img and odm.img files
+Remove user toggle to show/hide lock screen status area
+sign_target_files_apks: Relax ro.build.description requirements
+
+4/14
+Evolver: Add MIUI compact volume panel style
+Evolver: Add screenshot quality setting
+Evolver: QS: Add OOS tint style
+Evolver: Separate Android 12 QS tint style
+base: Add Multi usb controller for Asus devices
+envsetup: Fix the way we check check_product's return value
+evolution: Handle build type suffixes properly
+overlay: Fix Biometric dialog corner radius
+
+4/13
+AppLock: Add option to instantly lock app on closing
+AppLock: Call activityStopped when activity has stopped
+Cleanup/revert Zygote fork commits
+RIL: Fix manual network selection with old modem
+base: Fix Biometric Auth for Applock
+fastboot: Add a few missing fastboot commands from help
+
+4/12
+Bluetooth: don't kill stack if Telecom not found
+Evolver: extend quick qs slider position
+Revert "eliminate meaningless non-zero values of second_offset and ramdisk_offset"
+build: Add support for faking platform security patch level
+build: Swap fake and real platform security patch levels
+releasetools: Fix error when build.prop contains non-ASCII characters
+
+4/11
+Catch SecurityException when binding payment service
+EasterEgg: Fix some warnings
+Evolver: ButtonSettings: Fix swap capacitive button pref when navbar enabled
+LockSettingsService: Fix face removal when disabling security
+MediaProvider: Less spam
+apns: Sync AT&T APNs with device/sample
+soong: Add TARGET_QTI_USB_SUPPORTS_{AUDIO,DEBUG}_ACCESSORY flags
+vendor: Nuke dynamic bootanimation
+
+4/10
+Add support for runtime toggle of navbar
+AutoAODService: Slightly improve code and docs
+Evolver: AODSchedule: Correctly display summary
+LineageHardwareManager: Introduce keys swap feature support
+Move high touch sensitivity and hovering to InputService
+PhoneWindowManager: Only react to camera key when necessary
+Touch: Add keydisabler support
+fwb: Re-introduce keyboard backlight brightness control
+
+4/9
+API and boot image updates to import RI BigInteger
+Add newStringFromUtf8Bytes native implementation
+Allow globally disabling some clang-tidy checks
+Allow screen unpinning on devices without navbar
+EventLog: Disable event writing in production builds
+Fix -Wformat error with explicit void* -> char* cast
+Fix screen unpinning text on devices that have gestures on fp sensor
+InsetsStateController: Replace ArrayMap with HashMap for performance
+LayoutInflater: Opportunistically create views directly for performance
+LocalServices: Replace ArrayMap with HashMap for performance
+PackageInfo: Optimize ApplicationInfo creation
+PackageManagerService: Replace ArrayMap with HashMap for performance
+Remove malloc/free for inline overlay values
+Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility"
+Switch from `count` to `N` for template due to ambiguity with `std::count`
+Switch to OpenJDK 8 java/math
+SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Trace: Disable debug tracing in production builds
+device_config: Disable deep press input classification
+init.rc: Disable native stats collection service
+libbinder: avoid global mutex every binder call
+statsd: Disable native stats collection service
+vendor: Disable Deep Press touch video heatmaps
+vulkan: avoid waiting for service.sf.present_timestamp creation
+
+4/8
+AVRCP: Use calloc to zero reserved fields
+Add ShapeShift lockscreen clock
+ColorBucket: Raven > Pitch Black
+Evolver: Add previews to Theme settings
+Evolver: Integrate lock screen clock options
+Legacy pairing: Reject device with same BD_ADDR
+Revert "Zygote: enable zygote preforking (USAP pool) by default"
+Settings: Cleanup DeviceCodenamePreferenceController
+Settings: Switch to string overlay for maintainer string
+avrc_copy_packet: Zero initialize packet
+backuptool: Ensure dedicated partitions are not unused before mounting
+branding: Remove obsolete props
+overlay: Enable nav gestures by default
+
+4/7
+Evolver: Add QS and sysui colors
