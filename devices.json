@@ -247,6 +247,7 @@
       "name": "OnePlus 6",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Chandu",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9830048",
             "version_code": "eleven",
@@ -261,6 +262,7 @@
       "name": "OnePlus 6T",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Chandu",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9830048",
             "version_code": "eleven",
