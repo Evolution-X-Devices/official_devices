@@ -1,0 +1,23 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.4
+  * Linux 4.9.268
+  * merged CAF tag `LA.UM.9.3.r1-01700-sdm845.0`
+  * enabled secure touch for touchscreen driver
+  * disabled unused touchscreen drivers to reduce kernel binary size
+  * wireguard 1.0.20210424
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Ported extreme battery saver power hints
+  * enabling extreme battery saver now limits the maximum cpu frequency
+- More sepolicy fixes
+- Synced several wifi configs, media codec performance configs, audio configs, and audio props changes with CAF
+- Dropped unneeded libI420colorconvert libraries
+- Synced and set proper boot image header
+- Shipped a disabled VBMeta image
+
+**Evolution X Update**
+- May security patch
+- Addressed a DicumentsUI issue that may cause double reboot when you perform Play System Update
+- Fixed Flipendo (Extreme battery saver) sepolicy
+- More lockscreen clocks
+- Some HeadsUp improvements
+- Fixed settings search index
