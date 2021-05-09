@@ -1,0 +1,37 @@
+Device changes:
+==============================
+Switched to dipper fp
+Updated blobs to MIUI 21.4.28
+Set up/down_rate_limit_us to 1000us
+Updated CAF blobs from LA.UM.9.11.r1-03200-NICOBAR.0
+Updated WifiOverlay from LA.UM.9.1.r1-09100-SMxxx0.0
+Updated auto brightness configuration from stock
+Lower little cluster min freq to 864Mhz
+Enable conservative pl boosting
+Sync scroll boost freqs with CPU input boost
+Tune perfboostsconfig for performance
+Import QTI perf configs from stock
+Kernel upstreamed to 232
+Merged LA.UM.9.1.r1-09600-SMxxx0.0 CAF tags
+Added compat (32bit) vdso
+Added CPU input and Devfreq boosts
+Added kernel space battery saver
+------------------------------
+ROM changes:
+==============================
+Merge May 2021 security patches
+PixelPropsUtils: Update to May 2021 build fingerprint
+Screenshot: Extend "Post a silent notification if screenshot is dismissed"
+Settings: Allow user to block individual apps from resuming
+Settings: Clipboard access toast: Improvements
+Settings: Make media player allowed list dependent on toggle
+Evolver: HeadsUp: Add snooze function
+Evolver: HeadsUp: Add timeout option
+Evolver: HeadsUp: Make all prefs depend on master global switch
+Evolver: Introduce AppListPreference for a much cleaner look
+Evolver: Lockscreen Clocks: Add more designs
+Evolver: Utilize our AppListPreference with Heads-up, GamingMode, Sensor block
+Fix notification guts and header opacity
+Fix two problems in the ExecuteBinary function
+Fix up alpha scale for notification image view
+Fix up notification opacity with animation
