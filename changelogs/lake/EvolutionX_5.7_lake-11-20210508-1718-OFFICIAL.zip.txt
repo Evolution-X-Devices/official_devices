@@ -1,0 +1,96 @@
+=======================
+     DEVICE SIDE
+=======================
+
+Kernel:
+Merge tag 'v4.4.268' of https://git.kernel.org/pub/scm/linux/kernel/g… …
+
+=======================
+     05-08-2021
+=======================
+
+   * frameworks/base/
+abf0dad5 Revert "Persist face error message for permanent lockout"
+
+=======================
+     05-07-2021
+=======================
+
+   * device/qcom/sepolicy_vndr/
+a6c46c7 legacy: Address init denials regarding socket_device
+
+   * frameworks/native/
+859677d surfaceflinger: add property debug.sf.disable_hwc_overlays
+
+   * packages/apps/SettingsIntelligenceAOSP/
+e66f75e Give permission to read device config
+
+   * packages/apps/Snap/
+48b3eb8 Snap: api2: close mode switcher on back-keypress
+
+=======================
+     05-06-2021
+=======================
+
+   * packages/apps/Evolver/
+01e6fc5 Revert "Evolver: HeadsUp: Add snooze function [2/2]"
+
+   * vendor/evolution/
+51df3fc Only use stock build fingerprint for Google Play Services
+
+   * vendor/pixelstyle/
+e446030 pixelstyle: overlay: Define blur radius in device-independent pixels
+
+=======================
+     05-05-2021
+=======================
+
+   * art/
+c100520 ARM64: FP16.compare() intrinsic for ARMv8
+
+   * libcore/
+ad98f51 Revert "Avoid fd leaks when jniCreateFileDescriptor encounters OOME"
+
+   * vendor/gms/
+7c4db92 gms: Bring back DocumentsUIGoogle
+
+=======================
+     05-04-2021
+=======================
+
+   * build/make/
+fa89d4e Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/build into elle
+
+   * device/evolution/sepolicy/
+7951934 sepolicy: label USB 1.1 HAL
+
+   * frameworks/av/
+e0a9d9d Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/frameworks/av into elle
+
+   * hardware/evolution/interfaces/
+b53ef65 lineage/interfaces: usb 1.1-typec: add VINTF fragment
+
+   * manifest/
+c206163 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/manifest into elle
+
+   * packages/apps/Settings/
+9cbbead Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Settings into elle
+
+   * system/bt/
+4781e0a Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/system/bt into elle
+
+   * system/core/
+947f449 rootdir: Look for ODM & vendor ueventd entries in ETC too.
+
+   * vendor/qcom/opensource/commonsys/system/bt/
+1bbb495 smp: Use SMP_TRACE_WARNING
+
+   * vendor/qcom/opensource/interfaces/
+b878af6 Merge tag 'LA.QSSI.11.0.r1-11400-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into elle
+
+=======================
+     05-03-2021
+=======================
+
+   * external/asus/stitchimage/
+407e18c StitchImage: use accent for buttons
