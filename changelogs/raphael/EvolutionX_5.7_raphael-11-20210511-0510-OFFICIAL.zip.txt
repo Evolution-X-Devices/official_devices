@@ -1,0 +1,43 @@
+Device changes:
+==============================
+ini: Remove TxPower2g and 5g from config file
+ini: Remove drop_bcn_on_chan_mismatch ini
+overlay: Limit screen recorder's framerate to 60fps
+------------------------------
+ROM changes:
+==============================
+ARM64: FP16.compare() intrinsic for ARMv8
+Add kill button to notification conversation guts
+Allow media art with enabled facelock lockscreen bypass
+Evolver: Update about section
+HwAudioSource: wrong native handle check
+Keyguard: analog clock: update positioning
+Link dialog radius to config_dialogCornerRadius
+Make popup menus more rounded
+Remove Heads Up snooze feature (broken)
+Remove wtf about JobScheduler.Background
+Revert breaking optimization changes
+Revert to original Pixel Launcher (with pause apps functionality)
+Set notification opacity for smart replies
+Snap: api2: close mode switcher on back-keypress
+Snap: api2: close mode switcher on promode events
+Snap: api2: correct format-setting icon
+Snap: use translucent control background on 16:9
+SystemUI: Add ripple effect to QS auto-brightness toggle
+SystemUI: Fix DND QS panel background
+SystemUI: Fix QS auto-brightness icon color
+SystemUI: Update carrier label margin right after setting the padding
+SystemUI: use simple check for isFaceDisabled
+Update translations
+Upstream blur changes from ProtonAOSP
+Use new icons for default lock screen shortcuts
+XML Pull Parser optimizations
+backuptool: Map extra dynamic partitions for Addon.d V3
+backuptool: use correct BLK_PATH on a-only dynamic partitions devices
+fwb: Fix wrong VoLTE/VoWiFi slot detection
+gms: Bring back DocumentsUIGoogle
+pixelstyle: overlay: Define blur radius in device-independent pixels
+surfaceflinger: add property debug.sf.disable_hwc_overlays
+use more loadDrawableAsUser in MediaDataManager
+vendor: Remove AOSP DocumentsUI overlay
+wm: don't move home stack to front in freeform mode
