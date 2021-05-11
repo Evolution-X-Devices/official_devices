@@ -1,0 +1,30 @@
+NOTE: Last Permissive build, next build will either be 4.19 Enforcing or 4.4 Enforcing, but I didn't want to make you guys clean flash twice in a row in case it's 4.19 :)
+
+Device changes:
+Fixed Mi Sound preferences
+Updated kernel to 4.4.267 - Predator-Strombreaker X4.5
+Added powerhints for AUDIO_LAUNCH
+Imported AdaptLaunch to speed up app launches
+ZRAM is now 50% of RAM size instead of being always 2.5GB
+Updated WFD and Time service blobs from LA.UM.9.2.r1-01800-SDMxx0.0
+Fixed borked WiFi config to fix random disconnects on some WiFi routers
+Switched back to Audio HAL v6
+Added missing audio routes to fix various mic/sound issues
+Updated GPS configs to speed up 3D lock
+Limited screen recorder framerate to 60fps
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.7 - Daylight
+Merge May 2021 security patches
+Import some changes from Android 12 DP3
+Evolver: Add back lock screen visualizer feature
+Settings: Allow user to block individual apps from resuming
+Evolver: Lockscreen Clocks: Add more designs
+Evolver: Utilize our AppListPreference with Heads-up, GamingMode, Sensor block
+Evolver: HeadsUp: Add timeout option
+Evolver: HeadsUp: Add snooze function
+Screenshot: Extend "Post a silent notification if screenshot is dismissed"
+Evolver: Add MIUI compact volume panel style
+Evolver: Add missing lock screen clock styles
+Doze: Enable DT2W by default
+Many more smaller improvements and bugfixes as always :D
