@@ -1,0 +1,204 @@
+Device changes:
+==============================
+Improved statusbar padding (on keyguard too)
+Dropped DMGC and Snap Cameras (from now on users must choose which camera app they want and install it)
+A lot of "not essential" prebuilt apps removed
+Bring back the FM app
+Screen recorder framerate limited to 60fps
+Switched Audio HAL to V5
+Switched to QTI bluetooth stack
+Switched to taimen QQ3A.200705.002 perfd blobs
+Switched powerhal to power-libperfmgr
+Added init changes required for EAS
+Switched to wahoo cpuset
+Fixed Google Assistant voice match
+Back to selinux enforcing
+Now ZRAM uses the 50% instead of an absolute value
+Increased handset speaker and mic volumes
+Safetynet passes and Play Store shows "Device certified" now by default :/
+Merged tag 'LA.UM.9.2.r1-03000-SDMxx0.0' into kernel
+Switched default kernel to the EAS version
+Other improvements to the stability and performance
+
+------------------------------
+ROM with the default kernel it's stable and don't have major bugs,
+I'm not responsible of the bugs that you'll may have flashing custom kernels.
+------------------------------
+
+ROM changes:
+==============================
+
+5/12
+Settings: Remove dependency on pref object for peak refresh rate isAvailable()
+
+5/11
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: Update preference videos
+base: SystemUI: fix NPE in PowerShareTile
+
+5/10
+Evolver: Update about section
+SystemUI: Fix DND QS panel background
+fwb: Fix wrong VoLTE/VoWiFi slot detection
+wm: don't move home stack to front in freeform mode
+
+5/9
+Update translations
+backuptool: Map extra dynamic partitions for Addon.d V3
+backuptool: use correct BLK_PATH on a-only dynamic partitions devices
+
+5/7
+HwAudioSource: wrong native handle check
+Remove wtf about JobScheduler.Background
+Snap: api2: close mode switcher on back-keypress
+Snap: api2: close mode switcher on promode events
+Snap: api2: correct format-setting icon
+Snap: use translucent control background on 16:9
+Use new icons for default lock screen shortcuts
+surfaceflinger: add property debug.sf.disable_hwc_overlays
+use more loadDrawableAsUser in MediaDataManager
+
+5/6
+Add kill button to notification conversation guts
+Remove Heads Up snooze feature (broken)
+Set notification opacity for smart replies
+SystemUI: Update carrier label margin right after setting the padding
+Upstream blur changes from ProtonAOSP
+manifest: Don't track AOSP Settings search
+pixelstyle: overlay: Define blur radius in device-independent pixels
+
+5/5
+Allow media art with enabled facelock lockscreen bypass
+ARM64: FP16.compare() intrinsic for ARMv8
+Keyguard: analog clock: update positioning
+Link dialog radius to config_dialogCornerRadius
+Make popup menus more rounded
+SystemUI: use simple check for isFaceDisabled
+XML Pull Parser optimizations
+gms: Bring back DocumentsUIGoogle
+vendor: Remove AOSP DocumentsUI overlay
+
+5/4
+AuthBiometricsView: Add missing null checks
+AuthController: Add null check for mCurrentDialog in onBiometricError()
+Merge May 2021 security patches
+PixelPropsUtils: Update to May 2021 build fingerprint
+Upstream Lineage’s interfaces changes
+camera: Allow selected camera apps to skip unconfigure
+fastboot: Don't fail when unable to get boot partition size
+pixelstyle: rro_overlay: Don't allow some strings to be translated
+rootdir: Look for ODM & vendor ueventd entries in ETC too
+sepolicy: label USB 1.1 HAL
+version: Bump to 5.7
+vendor: apns: Add LIDL Connect
+
+5/3
+Settings: Clipboard access toast: Improvements
+StitchImage: use accent for buttons
+
+5/1
+Fix two problems in the ExecuteBinary function
+Use loadDrawableAsUser in MediaDataManager
+envsetup: Make dopush() /system_ext aware
+
+4/30
+Screenshot: Extend "Post a silent notification if screenshot is dismissed"
+configure same GID based APNs as per carrier requirements
+art: Disable host and target debugging
+art: Enable compiler/dalvikvm/dex2oat/runtime -O3
+art: Fix inliner instruction/register limits
+
+4/29
+Evolver: HeadsUp: Add snooze function
+Evolver: HeadsUp: Add timeout option
+Evolver: HeadsUp: Make all prefs depend on master global switch
+Evolver: Introduce AppListPreference for a much cleaner look
+Evolver: Utilize our AppListPreference with Heads-up, GamingMode, Sensor block
+HeadsUpManager: Switch to SysUIToast for showing toasts
+IDEClock: s/u0027/u0022
+base: add missing device config permissions for settings
+
+4/28
+Camera: Fix a removal-while-iterate bug
+DeviceConfig: Add telephony to public namespaces
+Evolver: Lockscreen Clocks: Add more designs
+Fix notification guts and header opacity
+Fix up alpha scale for notification image view
+Fix up notification opacity with animation
+FOD: Final fixes to icon getting stuck in AOD/Ambient
+NetworkRegistrationInfo: Add Parcel recycle
+Settings: Allow user to block individual apps from resuming
+Settings: Make media player allowed list dependent on toggle
+User switch: Unbind headsetservice in bluetooth Off state
+usb: Increase debounce time for DISCONNECT processing
+
+4/27
+Bluetooth: Check Null-safeness when switching optional-codecs state
+DisplayModeDirector: Default min refresh rate to 60 Hz
+Evolver: Notifications background opacity (experimental)
+Settings: Add switch to select SBC HD by default
+Settings: Power button press to unlock with fingerprint
+base: Allow unlocking fingerprint only on power button press
+
+4/26
+Evolver/Settings: Fix search index issues
+Screenrecord: Save and load set preferences
+VolumeDialogImpl: Get the location in window instead of on screen
+VolumeDialogImpl: Remove insets listener on dismiss
+
+4/25
+Doze: Enable DT2W by default
+FOD: Various fixes
+Keyguard: Fix mapping mismatch between KeyEvent and NumPadKey
+Settings: Add preference for maximum screen refresh rate
+Settings: Add toggle for 60Hz refresh rate on battery saver
+
+4/24
+Evolver: Add back lock screen visualizer feature
+Evolver: Lockscreen Visualizer: Add pulse magic
+Settings: Cleanup strings
+
+4/23
+Add customizable action for back long press button
+Add device key action to kill app
+Add device key action to toggle flashlight
+Add toggle to disable HW keys
+Evolver: Move all navbar and button related settings into Button category
+GamingMode: Re-enable HW keys toggle
+PhoneWindowManager: Clean up arguments in MSG_CAMERA_LONG_PRESS
+SystemUI: Make center clock layout safe insets aware
+base: Add accidental touch prevention for assist key
+base: Add device key action to Clear all notifications
+base: Add device key action to expand notifications panel
+base: Add device key action to toggle volume panel
+base: Add more custom actions
+base: Introduce Accidental Touch
+base: Micro optimization for accidental touch prevention
+base: Show disabled signal icon when SIM is disabled
+
+4/22
+Allow unified location provider as possible location provider (not as used location provider)
+Bump ROM version to 5.6.1
+DataSwitchTile: grant missing permission
+DisplayManagerService: Don't spam log when display state changes
+Import some changes from Android 12 DP3
+SystemUI: Align volte and vowifi icon sizes with signal icon
+bootanimation: Always use normal bootanimation
+iorap: Terminate IORap if system_server is down
+
+4/20
+Bring back theming QS with wallpaper colors
+Fix Polish TypeClock strings
+Settings: Switch applock timeout to DropDownPreference
+SoundTile: Hide if alert slider is present
+SystemUI: Fix possible incorrect position of QS page indicator
+SystemUI: Prevent crash on colored sysui with live walls
+core: Allow non-market apps installation by default
+
+4/19
+Evolver: Bring back user toggle to show/hide status area
+NfcNci: make T3T/Nfc-F HCE optional
+Settings: Add a couple random things from stock
+vendor: apns: Add Ting
