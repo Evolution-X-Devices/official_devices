@@ -1,0 +1,74 @@
+Device changes:
+==============================
+Added LogTile
+Set status bar height to match our pill notch
+Fixed Aptx Playback
+And many misc changes
+------------------------------
+ROM changes:
+==============================
+5/14
+Snap: api2: add QR scanner mode
+Snap: api2: reduce unneeded animations
+Snap: api2: update promode icons
+Snap: api2: use nicer icons in settings
+apns: Remove T-Mobile UK
+apns-conf: Add TPG Singapore configs
+overlays: Update Accent colors
+
+5/13
+Evolver: make app volume rows optional
+SystemUI: add app volume row to volume dialog (stock panel only)
+overlays: Add Inter font style
+
+5/12
+Settings: Remove dependency on pref object for peak refresh rate isAvailable()
+
+5/11
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: Update preference videos
+base: SystemUI: fix NPE in PowerShareTile
+
+5/10
+Evolver: Update about section
+SystemUI: Fix DND QS panel background
+SystemUI: Fix DND QS panel background
+fwb: Fix wrong VoLTE/VoWiFi slot detection
+wm: don't move home stack to front in freeform mode
+
+5/9
+Update translations
+backuptool: Map extra dynamic partitions for Addon.d V3
+backuptool: use correct BLK_PATH on a-only dynamic partitions devices
+
+5/7
+HwAudioSource: wrong native handle check
+Remove wtf about JobScheduler.Background
+Snap: api2: close mode switcher on back-keypress
+Snap: api2: close mode switcher on promode events
+Snap: api2: correct format-setting icon
+Snap: use translucent control background on 16:9
+surfaceflinger: add property debug.sf.disable_hwc_overlays
+use more loadDrawableAsUser in MediaDataManager
+
+5/6
+Add kill button to notification conversation guts
+Remove Heads Up snooze feature (broken)
+Set notification opacity for smart replies
+SystemUI: Update carrier label margin right after setting the padding
+Upstream blur changes from ProtonAOSP
+manifest: Don't track AOSP Settings search
+pixelstyle: overlay: Define blur radius in device-independent pixels
+
+5/5
+Allow media art with enabled facelock lockscreen bypass
+ARM64: FP16.compare() intrinsic for ARMv8
+Keyguard: analog clock: update positioning
+Link dialog radius to config_dialogCornerRadius
+Make popup menus more rounded
+SystemUI: use simple check for isFaceDisabled
+XML Pull Parser optimizations
+gms: Bring back DocumentsUIGoogle
+vendor: Remove AOSP DocumentsUI overlay
