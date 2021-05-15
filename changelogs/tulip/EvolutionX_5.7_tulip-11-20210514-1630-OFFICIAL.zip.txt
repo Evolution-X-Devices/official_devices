@@ -1,0 +1,29 @@
+Device changes:
+==============================
+Fixed an incomplete adaptation of power-libperfmgr powerhal
+File Manager added in-built again
+Fixed rounded corner when hiding notch (option to hide it is now outside developer options)
+
+------------------------------
+This update is like a hotfix build that focusses on fix the first thing of changelog,
+(was causing instability in some cases).
+ROM with the default kernel it's stable and don't have major bugs,
+I'm not responsible of the bugs that you'll may have flashing custom kernels.
+------------------------------
+
+ROM changes:
+==============================
+
+5/14
+Snap: api2: add QR scanner mode
+Snap: api2: reduce unneeded animations
+Snap: api2: update promode icons
+Snap: api2: use nicer icons in settings
+apns: Remove T-Mobile UK
+apns-conf: Add TPG Singapore configs
+overlays: Update Accent colors
+
+5/13
+Evolver: make app volume rows optional
+SystemUI: add app volume row to volume dialog (stock panel only)
+overlays: Add Inter font style
