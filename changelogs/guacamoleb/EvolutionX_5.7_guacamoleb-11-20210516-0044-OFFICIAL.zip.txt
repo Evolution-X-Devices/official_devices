@@ -1,0 +1,33 @@
+Device:
+
+Upstreamed kernel from 4.14.228 -> 4.14.232
+Set vendor props for RF and PRJ version (Should improve WiFi range-particulary 5ghz)
+init:Set proper model detection
+
+Rom:
+
+pixelstyle: fonts: Update Inter to v3.18
+SystemUI: Add reading mode tile
+overlays: Update Accent colors
+SystemUI: add app volume row to volume dialog (stock panel only)
+overlays: Add Inter font style
+version: Bump to 5.7
+Merge May 2021 security patches
+Evolver: Lockscreen Clocks: Add more designs
+Evolver: Utilize our AppListPreference with Heads-up, GamingMode, Sensor block
+Evolver: HeadsUp: Add snooze function
+Evolver: HeadsUp: Add timeout option
+Screenshot: Extend "Post a silent notification if screenshot is dismissed"
+FOD: Various fixes
+Evolver/Settings: Fix search index issues
+Screenrecord: Save and load set preferences
+VolumeDialogImpl: Get the location in window instead of on screen
+VolumeDialogImpl: Remove insets listener on dismiss
+Settings: Allow user to block individual apps from resuming
+Bring back theming QS with wallpaper colors
+Settings: Switch applock timeout to DropDownPreference
+SoundTile: Hide if alert slider is present
+SystemUI: Prevent crash on colored sysui with live walls
+Import some changes from Android 12 DP3
+Doze: Enable DT2W by default
+More!
