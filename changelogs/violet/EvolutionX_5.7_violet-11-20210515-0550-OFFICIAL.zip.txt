@@ -1,0 +1,74 @@
+I'm sorry to say this but You need to clean flash this build :(
+
+#KEEP_EVOLVING #Violet
+
+==============================
+Device changes:
+==============================
+Nuked Violet Parts and moved DIRAC to Sound Tab with it's QS Tile
+Added FPS QS tile
+Implemented Clear Speakers in Sound Tab
+Enable USB Fast Charge up to 900ma by default
+Cleanup NFC leftover
+Added Back Dynamic Thermal Profiles
+Enforce 24-bit audio for offload playback
+Implemented a smarter system on whether to connect to the provided 2Ghz or 5Ghz network.
+Enabled Seamless Transfer(it allows users to switch between audio output devices by tapping the music
+note icon on the notification of a music app.)
+Adjusted Thermals a bit
+Fixes delay on getting network service after boot
+
+------------------------------
+ROM changes:
+============================== 
+Add Inter Font overlay
+Revert Pixel Launcher to modded version with Double tap to sleep
+Revert QS auto-brightness icon changes
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: Update preference videos
+AuthBiometricsView: Add missing null checks
+AuthController: Add null check for mCurrentDialog in onBiometricError()
+Camera: Fix a removal-while-iterate bug
+DeviceConfig: Add telephony to public namespaces
+Evolver: HeadsUp: Add snooze function
+Evolver: HeadsUp: Add timeout option
+Evolver: HeadsUp: Make all prefs depend on master global switch
+Evolver: Introduce AppListPreference for a much cleaner look
+Evolver: Lockscreen Clocks: Add more designs
+Evolver: Utilize our AppListPreference with Heads-up, GamingMode, Sensor block
+FOD: Final fixes to icon getting stuck in AOD/Ambient
+Fix notification guts and header opacity
+Fix two problems in the ExecuteBinary function
+Fix up alpha scale for notification image view
+Fix up notification opacity with animation
+HeadsUpManager: Switch to SysUIToast for showing toasts
+IDEClock: s/u0027/u0022
+Merge May 2021 security patches
+NetworkRegistrationInfo: Add Parcel recycle
+PixelPropsUtils: Update to May 2021 build fingerprint
+Screenshot: Extend "Post a silent notification if screenshot is dismissed"
+Settings: Allow user to block individual apps from resuming
+Settings: Clipboard access toast: Improvements
+Settings: Make media player allowed list dependent on toggle
+StitchImage: Remove Firebase from prebuilt manifest
+StitchImage: Update prebuilt apps
+StitchImage: use accent for buttons
+Upstream Lineage’s interfaces changes
+Use loadDrawableAsUser in MediaDataManager
+User switch: Unbind headsetservice in bluetooth Off state
+art: Disable host and target debugging
+art: Enable compiler/dalvikvm/dex2oat/runtime -O3
+art: Fix inliner instruction/register limits
+base: add missing device config permissions for settings
+camera: Allow selected camera apps to skip unconfigure
+configure same GID based APNs as per carrier requirements
+envsetup: Make dopush() /system_ext aware
+fastboot: Don't fail when unable to get boot partition size
+pixelstyle: rro_overlay: Don't allow some strings to be translated
+rootdir: Look for ODM & vendor ueventd entries in ETC too
+sepolicy: label USB 1.1 HAL
+usb: Increase debounce time for DISCONNECT processing
+vendor: apns: Add LIDL Connect
+version: Bump to 5.7
