@@ -1,65 +1,74 @@
 Themes
--  Dark Theme Styles (Color Bucket)
-- 7 System Fonts
-- 9 System Icon Shapes
+- Lockscreen Clock Styles (23)
+- Dark Theme Styles (11)
+- System Fonts (24)
+- RGB Accent Color Picker
+- Accent Colors Presets (64)
+- System Icon Shapes (11)
 - 2020 Pixel Live Wallpapers
-- QS Backround Image Blur
+- G-Visual Mod
+- Volume Panel Styles (6)
+- Custom QS Header Images
+- QS Tile Diso
+- QS Tile Icon Styles (18)
+- QS Panel Color Configs
 
 Statusbar
-- Clock Options
+- Network Traffic Monitor
+- Clock & Date Options
 - Battery Bar
-- Network Traffic Activity
+- Battery Icon Styles & Percentage Configs (6) 
 - System UI Tuner
-- 6 Battery Icon Style
 - Battery Percent Show/Hide Config
 - 4G/LTE Icon Toggle
-- OOS VoLTE & VoWiFi Icons & Toggle
+- Roaming Indicator Toggle
 
 Notifications
 - Heads Up
 - Notification Headers toggle
-- Alert Slider Notification Toggle
+- Alert Slider Notification Toggle (For OnePlus Devices Only)
 - Notification light Config
+- Kill App Button Toggle
 - Pulse Edge Lighting
-- Force Close Notifications
-- Kill App Button
-- Notification Vibration Toggle
-- Blink Flashlight On Call
+- In-Call Vibration Options (connect, waiting, end.)
 
 Quick Settings
-- Disable When Locked
-- Vibrate On Touch
 - Quick Pulldown (Right/Left)
 - Smart Pulldown
+- Vibrate On Touch
+- Disable When Locked
 - Hide Battery Icon
 - Notification Header Battery Precent Configs
-- Brightness Slider Configs
+- Brightness Slider & Auto Brightness icon Configs
 - Quick Settings Layout Configs
-- Running Services Toggle
+- Data Usage Visibility Configs
 
 Power Menu
-- Restart
-- Advanced Restart
 - Device Controls
+- Advanced Reboot
+- Optional User Actions (flashlight, etc)
 
 Gestures
 - AOSP Gestures
+- Back Gesture Configs
+- Toggle To Hide Navbar Pill
+- Advanced Gesture Configs
 - Swipe To Screenshot
 - Status Bar Brightness Control
 - Screen Off Power Button Torch
 - Double Tap To Sleep Status Bar
 - Double Tap to Sleep Lockscreen
-- Toggle To Hide Navbar Pill
-- Back Gesture Height Config
-- Back Gesture Vibration Toggle
 - Screen Off Gestures
 
 Lockscreen
-- Pocket Detection
+- Always On Display Schedule
+- Fingerprint Error Vibration Toggle
 - Fingerprint Authentication Vibration Toggle
+- Custom FOD Icons (26)
+- Custom FOD Recognizing Animations (24)
+- Pocket Detection
 - Charging Info
 - Lock Screen Shortcuts
-- FOD Recognizing Animations
 - Lock Screen Media Artwork/Notification Configs
 - Lock Screen Music Visualizer
 
@@ -71,16 +80,23 @@ Navigation
 - Volume Rocker Playback Control
 - Volume Rocker Cursor Control
 
+Buttons
+- Volume Rocker Wake Toggle
+- Volume Key Playback Control
+- Keyboard Cursor Control
+- Left/Right Volume Panel Toggle
+
 Animations
 - Disable Transition Animations Toggle
-- Screen Off Animations
+- Screen Off Animations (3)
 - Scrolling Cache Configs
 - QS Tile Animations (Flip/Rotate)
 - QS Tile Animation Duration & Interpolator configs
-- ListView Animations 
-- System Animation Configs
 
 Miscellaneous
+- Gaming Mode
+- Screenshot Configs
 - Launch Music App On Headset Connection
-- Charging Animation
+- Sensor Block Per-Package
 - Default USB Config
+- Doze Brightness Configs
