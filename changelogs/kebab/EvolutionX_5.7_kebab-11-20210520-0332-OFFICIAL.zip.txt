@@ -1,0 +1,77 @@
+Device changes:
+==============================
+Improved FOD
+Remove virtual framebuffer
+overlay: Update brightness values
+overlay: Enable Adaptive Charging
+overlay: Tune vibrator pattern
+overlay: Set up custom FOD pre-enrollment images
+DeviceExtras: Added HBM & HBM QSTile
+
+Notes:
+==============================
+If system animations turned off, Please try to check in developer options and set 1.0x value for Window, Transition and Animator scale
+DO NOT use a third party kernel without proper support for new FOD changes
+
+ROM changes:
+==============================
+5/20
+Bluetooth: follow system theme in dialogs
+Bluetooth: sync dialog layout for consistency
+
+5/19
+Doze-on-charge: Improvements
+Settings: Add missing icons in Network and Internet
+Settings: Consolidate smart charging under 'Adaptive Charging'
+Settings: Development: Disable DSULoader
+Settings: Move app compatibility preference to apps and notifications
+Settings: Settings observer fail to unregister
+Settings: Use model & hardware as device codename fragment
+SystemUI: VPN tile: Collapse panel when opening app
+
+For FOD devices only
+Evolver: Add more FOD animations
+
+5/18
+Add Bluetooth and Wi-Fi timeout features
+Settings: remove Bluetooth related text from DNS-dialog
+apns: Add AT&T 310-280 ids
+base: add option to scale default wallpaper to screen size
+base: shrink hi-res files of headers or ambient image than the device size
+
+5/17
+SystemUI: Add VPN tile
+SystemUI: Import VoLTE & VoWiFi icons from Vivo X60 Pro
+VolumePluginManager: More fixes toggling panel
+
+For OP devices only
+Evolver: Alert Slider: Add toggle to disable notifications
+Upstream Alert Slider changes from crDroid
+
+5/16
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+Handle landscape and portrait display for PIP rotation
+IMS: Fix issue with answering call for some 3rd party apps
+Screenrecord: Add an option to record for longer
+pixelstyle: config: Move gestural overlay to vendor
+pixelstyle: config: Remove redundant props
+pixelstyle: config: Turn off storage manager
+
+5/15
+Add national roaming for o2 & E-Plus in germany
+Core: tweak some QQS dimens
+LiveDisplaySettings: Unlock Reading Mode whenever is possible
+ReadingModeTile: Drop dependency on wellbeing app
+SystemUI: Add reading mode tile
+device_config: Enable recents text selection for Pixel Launcher users
+overlays: Add leaf icon shape
+pixelstyle: fonts: Update Inter to v3.18
+
+5/14
+Snap: api2: add QR scanner mode
+Snap: api2: reduce unneeded animations
+Snap: api2: update promode icons
+Snap: api2: use nicer icons in settings
+apns: Remove T-Mobile UK
+apns-conf: Add TPG Singapore configs
+overlays: Update Accent colors
