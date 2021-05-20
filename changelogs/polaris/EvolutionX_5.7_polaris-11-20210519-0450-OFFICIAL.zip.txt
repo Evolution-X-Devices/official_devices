@@ -1,0 +1,20 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.4
+  * increased kgsl worker thread priority
+  * ported some upstream fixes on kgsl fault handler
+  * optimally reserve CP context record memory for adreno 6xx GPUs
+  * restart adreno 6xx gpu only once during hard reset
+  * correctly report fingerprint sensor type to /proc/hwinfo
+  * synaptics touchscreen driver: ported two fixes of potential mutex deadlock in buffer allocation
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Imported audio policy engine configs from MIUI China Stable V12.0.3.0
+  * also tweaked voice chat and music max volumes to match previous framework defaults
+- Return a dummy integer value in libqti-perfd-client to emulate a successful perf lock acquire/release for fingerprint sensor blobs
+- Dropped duplicated vppservice definition from init
+
+**Evolution X Update**
+- Added Inter font style
+- Added reading mode QS tile
+- Added VPN QS tile
+- Some updates on APN configs
+- Other misc fixes
