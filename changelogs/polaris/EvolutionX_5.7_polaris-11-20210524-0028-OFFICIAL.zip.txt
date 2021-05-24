@@ -1,0 +1,11 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.4
+  * Linux 4.9.269
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Dropped audio policy engine configs
+  * incorrect audio volume glitches should be gone
+- Removed namespace declaration from libqti-perfd-client
+
+**Evolution X Update**
+- Consolidated smart charging features into Adaptive Charging
+- Misc string updates
