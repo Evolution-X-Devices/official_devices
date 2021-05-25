@@ -1,0 +1,34 @@
+Device changes:
+==============================
+Rebrand DeviceExtras to DeviceSettings
+Merge doze into DeviceSettings
+DeviceSettings: Automatic translation import ( Germany, Hindi, Telugu, Tamil, Italian, Chinese )
+DeviceSettings: Added Vibrator preferences
+
+Note:
+==============================
+DO NOT use a third party kernel without proper support for new FOD changes
+
+ROM changes:
+==============================
+5/23
+Evolver: Implement FOD icon animation
+Game mode updates
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+SystemUI: Add animated OneUI FOD icon
+pixelstyle: overlay: Update SystemUI strings
+
+5/22
+Fix screenshot sharing with longshot and launcher
+Make isUidIsolated public
+Settings: Improve Double-tap strings
+Stop downloads delegated from UIDs blocked by network policy
+SystemUI: Remove unused resources
+
+5/21
+Revert "EventLog: Disable event writing in production builds"
+base: add @hide comment to pass through api check
+wifi: optionally reset the interface after setMacAddress
+
+For FOD devices only
+Evolver: Implement FOD icon animation
