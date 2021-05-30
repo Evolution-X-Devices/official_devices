@@ -1,0 +1,58 @@
+5/28
+fwb: Allow temp overriding state of battery led
+fwb: Start device specific popup camera service conditionally
+
+5/27
+Add a one minute timeout to global actions dialog
+Remove notification panel opacity from Power menu
+
+5/26
+Bluetooth: Don't assign codecs to a size fixed array
+Evolver: Remove theming QS with wallpaper colors feature (breaks SystemUI)
+SystemUI: Redesign VoWiFi icons
+fixup! SBC Dual Channel (SBC HD Audio) support
+vendor: Prepend all non-duplicate lines from original apn file before custom apn file
+
+For FOD devices only
+SystemUI: Add animated OneUI FOD icons
+SystemUI: Add animated OxygenOS FOD icon
+
+5/23
+Game mode updates
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+pixelstyle: overlay: Update SystemUI strings
+
+5/22
+Fix screenshot sharing with longshot and launcher
+Make isUidIsolated public
+Settings: Improve Double-tap strings
+Stop downloads delegated from UIDs blocked by network policy
+SystemUI: Remove unused resources
+
+5/21
+Revert "EventLog: Disable event writing in production builds"
+base: add @hide comment to pass through api check
+wifi: optionally reset the interface after setMacAddress
+
+For FOD devices only
+Evolver: Implement FOD icon animation
+
+5/20
+Bluetooth: follow system theme in dialogs
+Bluetooth: sync dialog layout for consistency
+Camera2: Notify fps as Session Based Parameter
+EvolutionUtils: Change temperature to float
+base: Edit persist.camera.privapp.list to match with current property
+base: Redo Pocket mode view like OOS
+
+Device side:
+
+Refactor doze merge in DeviceExtras
+Fix Alert Slider UI (Slider toasts)
+Add vibration intensity to DeviceExtras (be careful, setting intensity too high will damage your motor over time))
+Tune vibration patterns
+Update vendor blobs from OOS 11.0.6.6
+Tune status bar padding dimensions (fixes left side clock going into punchole camera cutout)
+Label entry for vendor.oneplus.fingerprint.extension (apparently this fixes dolby mod, if it doesn't DO NOT COMPLAIN TO ME ABOUT IT, I DO NOT CARE about dolby.
+Update 12 GB dalvik config
+Enable QPower and Deep sleep at the same time
