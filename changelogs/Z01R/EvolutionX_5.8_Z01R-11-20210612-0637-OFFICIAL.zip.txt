@@ -1,0 +1,24 @@
+Device Side:
+Based on newer LOS based trees and vendor (by Marc)
+Support encryption and enforcing
+Enable Seamless transfer across audio output devices
+Fixed the camera crash bug in some apps
+Nuked NFC till it's fully fixed
+Slightly faster app opening times
+Bring back snap cam
+Removed Device Extras (FPS is now available as a QS Tile)
+Hide magisk better (more banking apps should work now)
+
+ROM Side:
+Merge June Security patch
+Evo version bumped to 5.8 Pinnacle
+notch-city: Add 3 mode display cutout handler
+Redesign VoLTE/VoWiFi icons
+Evolver: Introduce OS navbar styles
+Per-App Volume Support
+Evolver: Lockscreen Clocks: Add more designs
+Added multiple volume panel styles
+Add applock
+and many more..
+
+Note: Some features is still wip for enforcing build, like battery health unknown, google play system update, fps tile, etc. None of them break your day-to-day functionality, but if you want to make them work, go permissive either by flashing permissiver from twrp, or go to terminal and type 'setenforce 0'.
