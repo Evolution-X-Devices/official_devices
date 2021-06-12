@@ -1,0 +1,36 @@
+Device changes:
+==============================
+Merged June security patch
+Updated blobs from Miui 21.5.27
+Upstreamed kernel to 4.14.235
+Fixed Gphotos "Device is too hot" issue
+------------------------------
+ROM changes:
+==============================
+version: Bump to 5.8 Pinnacle
+PixelPropsUtils: Switch to Marlin for Google Photos
+PixelPropsUtils: Update to June 2021 fingerprint
+ReadingModeTile: Drop dependency on wellbeing app
+gapps: Update from RQ3A.210605.005
+healthd: Add support for HVDCP_3P5 chargers
+SystemUI: Add Cellular tile icon from OOS
+SystemUI: Add VPN tile
+SystemUI: Add reading mode tile
+SystemUI: Import VoLTE & VoWiFi icons from Vivo X60 Pro
+SystemUI: QS: minimize detail view to middle of the button
+SystemUI: Redesign VoWiFi icons
+SystemUI: Remove unused resources
+SystemUI: Use EFFECT_HEAVY_CLICK for back swipe gestures
+SystemUI: Use MD2 icon for running services in QS
+SystemUI: VPN tile: Collapse panel when opening app
+SystemUI: add app volume row to volume dialog (stock panel only)
+SystemUI: avoid double ripple in QS detail view
+SystemUI: use matching padding on both sides of QS detail title
+ThemeOverlayController: Reload homeApp on cutout mode change
+TypeClock: Align owner info as per the clock style
+Settings: Add missing icons in Network and Internet
+Settings: Add preference for one shot auto-brightness
+Settings: Consolidate smart charging under 'Adaptive Charging'
+Settings: Improve Double-tap strings
+Settings: LiveDisplay: Add color mode preview from AOSP Settings
+
