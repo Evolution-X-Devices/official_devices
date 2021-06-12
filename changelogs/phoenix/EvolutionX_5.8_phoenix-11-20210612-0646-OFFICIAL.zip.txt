@@ -1,0 +1,34 @@
+Device changes:
+==============================
+Update blobs from PHOENIX 21.6.2 Chinese weekly
+Fixed Offline charging
+Addressed some missing denials
+Some Misc changes
+------------------------------
+ROM changes:
+==============================
+6/12
+Completely nuke Lockscreen Charging info feature
+Evolver: Introduce OS navbar styles
+KillZramBackingDevice: Return immediately if backing_dev is none
+MiuiCompactPanel: Add upstream changes
+Upstream some Google fixes from master branch
+VolumePanel: Add changes for live volume steps
+VolumePanel: Add upstream changes
+plugins: Fix AOSPExpanded plugin crash with Swift Installer
+plugins: Fix infinite expanding and apply unlinking to MIUI panel
+
+6/10
+Add exfat utilities for mkfs and fsck
+Evolver: Add lock screen background blur feature
+Evolver: Add Status bar notification & music ticker feature
+SystemUI: Add missing updateChargingIndication after r38 merge
+sepolicy: Fix rest of the theme_prop denials
+
+6/9
+Evolver: Remove feature allowing to disable Night Light when FOD is on screen
+Evolver: Separate Display Cutout into its own category and hide on non-notch devices
+FODCircleView: Restore DIM_BEHIND and dim amount to 0.0f on base view
+Settings: Add switch last app to gesture actions
+SystemUI: Re-enable privacy indicators
+phone: Add option for setting device phone number
