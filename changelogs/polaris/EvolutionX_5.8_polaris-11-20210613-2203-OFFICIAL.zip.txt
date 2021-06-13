@@ -1,0 +1,32 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.272
+  * CAF tag `LA.UM.9.3.r1-02100-sdm845.0`
+  * ported UFS health sysfs node from crosshatch
+  * enabled DualSense controller driver which includes support for the latest PlayStation 5 controller
+  * security hardening backport: Clang's zero initialization of stack variables
+  * set cortex a-75 as target for architecture-specific optimizations
+  * enabled RELR relocation and reduced kernel binary size slightly
+  * enabled Clang's -Wtautological-compare and fixed lots of incorrect checks in qcom's code
+  * used proper null pointer checks across the kernel tree
+  * synaptics and ft5x46 touchscreen: switched to qcom drm notifier
+  * ft5x46 touchscreen: use pm_qos_request to reduce input latency in irq handler
+  * moved kgsl_3d_init to async probe
+  * validate dsi command size before sending command
+  * silenced a harmless error log in qpnp-smb2
+  * wireguard: 1.0.20210606
+  * some upstream improvements of lz4
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Fixed the initialization of zram backing device and cleaned up the init script
+- Added a property for libperfmgr's powerhint file name
+- Reduced the default GPU idle timer to 70ms in powerhint
+  * this aligns with the kernel default value after ms-to-jiffies conversion
+- Dropped some duplicated or non-existent init code
+
+**Evolution X Update**
+- June's security patch
+- Added lock screen background blur
+- Status bar notification and music ticker
+- Customizable rounded corner radius
+- Some new icons
+- OS navbar styles for button navigation
