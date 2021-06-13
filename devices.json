@@ -195,6 +195,20 @@
          }
       ]
    },
+  {
+      "brand": "Realme",
+      "codename": "RMX2001",
+      "name": "Realme 6 Series",
+      "supported_versions": [
+         {
+            "maintainer_name": "Tanmay (@tlas01)",
+            "maintainer_url": "https://forum.xda-developers.com/m/tanmay78.11434281/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-rmx2001-official-evolutionx-5-8-12-06-2021.4291013/"
+         }
+      ]
+   },
    {
       "brand": "Samsung",
       "codename": "crownlte",
