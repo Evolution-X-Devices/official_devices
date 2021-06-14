@@ -1,0 +1,27 @@
+! CLEAN FLASH REQUIRED DUE TO SWITCH TO SELINUX ENFORCING !
+! ANY ATTEMPT TO UPDATE VIA OTA WILL FAIL !
+
+Device changes:
+SELinux Enforcing (yay)
+Updated some audio configs
+Switched to Audio HAL v5 to fix audio on older sdm660 devices
+Updated some blobs from jasmine V11.0.23.0.QDIMIXM
+Refactored all properties to fix a few remaining denials
+Updated BT blobs from phoenix_sprout-11-RKQ1.201123.002
+Reworked SEPolicy to get rid of all final neverallows
+Cleaned up init scripts
+Updated ZRAM configs
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.8 - Pinnacle
+June security patches
+SystemUI: Added reading mode tile
+Settings: Smart charging has been renamed to Adaptive charging
+Updated translations
+Evolver: Added status bar notification and music ticker features
+Evolver: Added lockscreen background blur feature
+Completely nuked Lockscreen Charging info
+Removed font changes unrelated to Carbon's FontService
+GApps: Updated from RQ3A.210605.005
+pixelstyle: fonts: Updated Inter to v3.18
+Many more smaller improvements and bugfixes as always :D
