@@ -1,0 +1,157 @@
+#KEEP_EVOLVING #Violet
+
+==============================
+Device changes:
+==============================
+Disable Ui Touch Sound by default
+Disable bluetooth by default
+Force show network traffic indicator on statusbar
+Fix 24bit audio playback
+Add Hifi mixer controls
+Enable native audio
+Fixed Green screen on cast
+Fixed scrolling getting stuck while touching the Fingerprint
+
+------------------------------
+ROM changes:
+==============================
+Add exfat utilities for mkfs and fsck
+Completely nuke Lockscreen Charging info feature
+Evolver: Add Status bar notification & music ticker feature
+Evolver: Add lock screen background blur feature
+Evolver: Hide LS blur option if homescreen and LS wallpaper are different
+Evolver: Introduce OS navbar styles for 3 button nav
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+KillZramBackingDevice: Return immediately if backing_dev is none
+MiuiCompactPanel: Add upstream changes
+SystemUI: Add missing updateChargingIndication after r38 merge
+SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+Update translations
+Upstream WFD fixes in frameworks/av
+Upstream some Google fixes from master branch
+VolumePanel: Add changes for live volume steps
+VolumePanel: Add upstream changes
+kernel: Pass absolute path for KCONFIG_ALLCONFIG
+plugins: Fix AOSPExpanded plugin crash with Swift Installer
+plugins: Fix infinite expanding and apply unlinking to MIUI panel
+sepolicy: Fix rest of the theme_prop denials
+vendor: themes: Update Clear Theme
+Evolver: Remove feature allowing to disable Night Light when FOD is on screen
+Evolver: Separate Display Cutout into its own category and hide on non-notch devices
+Settings: Add switch last app to gesture actions
+SystemUI: Re-enable privacy indicators
+phone: Add option for setting device phone number 
+Add Bluetooth and Wi-Fi timeout features
+Add a one minute timeout to global actions dialog
+Add madvising of .odex, .vdex and .art files
+Add national roaming for o2 & E-Plus in germany
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+Bluetooth: Don't assign codecs to a size fixed array
+Bluetooth: Reimplement SBC Dual Channel in a saner way
+Bluetooth: follow system theme in dialogs
+Bluetooth: sync dialog layout for consistency
+Camera2: Notify fps as Session Based Parameter
+Clean up custom font overlays
+Core: tweak some QQS dimens
+Doze-on-charge: Improvements
+EvolutionUtils: Change temperature to float
+Evolver: Add more FOD animations
+Evolver: Bring back Lock screen charging info feature
+Evolver: Custom Rounded Corner and Padding preferences
+Evolver: Implement FOD icon animation
+Evolver: LockscreenCharging: Bring in °F/°C toggle
+Evolver: Power menu background opacity
+Evolver: Remove font preview after adding Font Settings
+Evolver: Remove theming QS with wallpaper colors feature (breaks SystemUI)
+Evolver: make app volume rows optional
+Explicitly make SBC Dual Channel an optional (HD) codec
+FaceUnlock: Drop lockouts completely
+Fix screenshot sharing with longshot and launcher
+FodAnimationResources: Update OP Cosmos animation
+Game mode updates
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+Handle landscape and portrait display for PIP rotation
+IMS: Fix issue with answering call for some 3rd party apps
+Import Carbon’s FontService (dynamic theme fonts support)
+Import Descendant’s Seamless Clock Switch feature
+LiveDisplaySettings: Unlock Reading Mode whenever is possible
+Make isUidIsolated public
+Make releaseSomeActivities() a oneway call
+MediaActionSound: Don't enforce playback of audio
+Merge June 2021 security patches
+PixelPropsUtils: Switch to Marlin for Google Photos
+PixelPropsUtils: Update to June 2021 fingerprint
+ReadingModeTile: Drop dependency on wellbeing app
+Revert "EventLog: Disable event writing in production builds"
+Screenrecord: Add an option to record for longer
+Settings: Add missing icons in Network and Internet
+Settings: Add preference for one shot auto-brightness
+Settings: Consolidate smart charging under 'Adaptive Charging'
+Settings: Improve Double-tap strings
+Settings: LiveDisplay: Add color mode preview from AOSP Settings
+Settings: Move app compatibility preference to apps and notifications
+Settings: Settings observer fail to unregister
+Settings: Use MD2 icon for Playstore
+Settings: Use model & hardware as device codename fragment
+Settings: backup: add back-arrow to actionbar
+Settings: remove Bluetooth related text from DNS-dialog
+Settings: use framework text colors for SwitchBar
+Snap: api2: add QR scanner mode
+Snap: api2: reduce unneeded animations
+Snap: api2: update promode icons
+Snap: api2: use nicer icons in settings
+Stop downloads delegated from UIDs blocked by network policy
+SystemUI: Add Cellular tile icon from OOS
+SystemUI: Add VPN tile
+SystemUI: Add animated OneUI FOD icons
+SystemUI: Add animated OxygenOS FOD icon
+SystemUI: Add reading mode tile
+SystemUI: Import VoLTE & VoWiFi icons from Vivo X60 Pro
+SystemUI: QS: minimize detail view to middle of the button
+SystemUI: Redesign VoWiFi icons
+SystemUI: Remove unused resources
+SystemUI: Use EFFECT_HEAVY_CLICK for back swipe gestures
+SystemUI: Use MD2 icon for running services in QS
+SystemUI: VPN tile: Collapse panel when opening app
+SystemUI: add app volume row to volume dialog (stock panel only)
+SystemUI: avoid double ripple in QS detail view
+SystemUI: use matching padding on both sides of QS detail title
+ThemeOverlayController: Reload homeApp on cutout mode change
+TypeClock: Align owner info as per the clock style
+Update translations
+Use BinderDeathDispatcher for alarm listeners
+VolumePluginManager: More fixes toggling panel
+Watchdog: increase default timeout by 30 seconds
+Watchdog: run emergency sync before killing system
+apns-conf: Add TPG Singapore configs
+apns: Add AT&T 310-280 ids
+apns: Remove T-Mobile UK
+base: Edit persist.camera.privapp.list to match with current property
+base: Redo Pocket mode view like OOS
+build: check_boot_jars: Whitelist lineage LiveDisplay
+camera: Workaround for GCC-compiled HAL3 driver
+clock: Improve Type (Alt) clock
+config: Actually disable strict mode for non eng builds
+config: Combine priv app permission files into one
+config: Re-organize props
+core: check if the logical light is null before using it
+device_config: Enable recents text selection for Pixel Launcher users
+fixup! SBC Dual Channel (SBC HD Audio) support
+fwb: Allow temp overriding state of battery led
+fwb: Start device specific popup camera service conditionally
+gapps: Update from RQ3A.210605.005
+healthd: Add support for HVDCP_3P5 chargers
+maybePruneOldTraces: bail if modification times change
+overlays: Add leaf icon shape
+overlays: Update Accent colors
+pixelstyle: config: Enable DRM service
+pixelstyle: config: Move gestural overlay to vendor
+pixelstyle: config: Remove redundant props
+pixelstyle: config: Turn off storage manager
+pixelstyle: overlay: Update SystemUI strings
+sepolicy: legacy: Add write permission to proc file system
+sepolicy: public/file.te: add 'allow proc_net proc:filesystem associate'
+vendor: Prepend all non-duplicate lines from original apn file before custom apn file
+vendor: apns: Add IPV4V6 to O2 Germany
+version: Bump to 5.8 Pinnacle
+wifi: optionally reset the interface after setMacAddress
