@@ -1,0 +1,17 @@
+[DEVICE]
+• Applied low incall volume fix patch
+• MotoActions adaptive icon color
+• Uprev kernel version to v0.6969
+• Power on display asynchronously as early as possible
+• Added boeffla wakelock blocker
+• Do not acquire ipa wakelocks
+• More performance and battery improvements
+
+[SOURCE]
+• Version bumped to 5.8
+• June security patch
+• More changes
+
+Found bug? Report ONLY in https://t.me/EvolutionXSanders by tagging @marshmello_61
+
+#KeepEvolving
