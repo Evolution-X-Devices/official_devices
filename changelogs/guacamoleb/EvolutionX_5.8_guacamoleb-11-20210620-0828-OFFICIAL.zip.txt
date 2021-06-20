@@ -1,0 +1,37 @@
+Device:
+
+Upstreamed kernel from 4.14.232 -> 4.14.236
+Some sepolicy improvements
+Imported rounded corners config from OOS11
+Enabled "config_roundedCornerMultipleRadius"
+Few other overlay changes related to corners
+
+Rom:
+
+Settings: Allow changing face unlock method when locked
+Replace redundant nav gesture options with Immersive Navigation
+AppLock: Don't trigger if starting new intent of current running package
+AppLock: Improve strings and cleanup
+AppLock: Update tasks snapshot when needed
+Upstream QTI BT changes from LA.QSSI.11.0.r1-12300-qssi.0 CAF tag
+Evolver: Allow hiding FOD on doze
+Remove Font changes unrelated to Carbon's FontService
+Upstream WFD fixes in frameworks/av
+Completely nuke Lockscreen Charging info feature
+Evolver: Introduce OS navbar styles
+Evolver: Add lock screen background blur feature
+Evolver: Add Status bar notification & music ticker feature
+Evolver: Remove feature allowing to disable Night Light when FOD is on screen
+Merge June 2021 security patches
+version: Bump to 5.8 Pinnacle
+PixelPropsUtils: Switch to Marlin for Google Photos
+gms: Include Pixel-specific apps only for the Pixels
+Evolver: Custom Rounded Corner and Padding preferences
+Evolver: Power menu background opacity
+Evolver: Remove font preview after adding Font Settings
+Update translations
+Evolver: Implement FOD icon animation
+Game mode updates
+Settings: Consolidate smart charging under 'Adaptive Charging'
+SystemUI: VPN tile: Collapse panel when opening app
+More!
