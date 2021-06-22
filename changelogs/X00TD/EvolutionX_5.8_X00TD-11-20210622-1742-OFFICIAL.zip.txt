@@ -1,0 +1,50 @@
+Version: 5.8: Pinnacle
+Merged June security patch
+Fixed vibration in qpnp vibration based kernels
+Enabled Adaptive sleep (Screen Attention)
+Fixed wifi deepsleep
+Fixed low mic volume in calls
+Fixed mic and assistant concurrency issues
+Added Motodolby V3
+Consolidated smart charging under 'Adaptive Charging'
+Disallowed certain power menu items while in lock task mode
+Allow changing face unlock method when locked
+Upstreamed OTA Updater app changes from PE
+Replaced redundant nav gesture options with Immersive Navigation
+Improved applock
+Fixed clock icon in certain icon packs
+Improved pocket mode layout
+Added AlarmsBlocker
+Added WakelockBlocker
+Removed dead code from Telephony which uses wakelock
+Made clock layouts aware of the media playing state
+Removed Font changes unrelated to Carbon's FontService
+Added generic symlink to access userdata sysfs
+Completely nuked Lockscreen Charging info feature
+Upstream some Google fixes from master branch
+Added changes for live volume steps
+Added Status bar notification & music ticker feature
+Fixed rest of the theme_prop denials
+Added option for setting device phone number
+Added color mode preview from AOSP Settings
+Added Cellular tile icon from OOS
+Used MD2 icon for Playstore
+Added back-arrow to actionbar
+Switched to Marlin fp for Google Photos
+Added write permission to proc file system
+Improved Type (Alt) clock
+Used MD2 icon for running services in QS
+Cleaned up custom font overlays
+Imported Descendant’s Seamless Clock Switch feature
+Added preference for one shot auto-brightness
+Updated translations
+Redesigned VoWiFi icons
+Improvements on gaming mode
+Fixed screenshot sharing with longshot and launcher
+Improved Double-tap strings
+Added missing icons in Network and Internet
+Added Bluetooth and Wi-Fi timeout features
+Added VPN tile
+Imported VoLTE & VoWiFi icons from Vivo X60 Pro
+Fix issue with answering call for some 3rd party apps
+Screenrecord: Add an option to record for longer
