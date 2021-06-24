@@ -1,0 +1,15 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.273
+  * CAF tag `LA.UM.9.3.r1-02300-sdm845.0`
+  * fixed the touchscreen lock-up after a reboot by switching back to generic drm notifiers
+  * upstream fixes on ld-option
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Made auto brightness transitions even smoother by further reducing brightness ramp rates
+- Dropped unnecessary permissions on qvr external sensor nodes
+- Dropped some deprecated flags
+
+**Evolution X Update**
+- Navigation gesture bar hiding options are merged into "Immersive navigation" toggle
+- Switched back to the original Pixel launcher. Some bugs caused by the previous patched launcher may need a clean flash to disappear.
+- Misc fixes
