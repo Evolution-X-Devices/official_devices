@@ -1,0 +1,103 @@
+Device changes:
+==============================
+wifi: smarter decisions on whether to use a 2- or 5Ghz AP 
+wifi: Enable LPRX by default 
+wifi: Enable 2.4GHz channel bonding
+wlan: enable QPower and Deep Sleep at the same time
+wlan: Enable DFS channel scanning in P2P search.
+wlan: Relax WiFi re-association RSSI thresholds. 
+Fixed vibration vibration strength values restore on reboot
+Misc changes on zram and many optimization
+------------------------------
+ROM changes:
+==============================
+6/25
+Settings: Export the gravity of the fingerprint enroll animation
+custom_apns: Add double quote in custom APN name check
+
+6/22
+SystemUI: Properly align owner info to the 3 left aligned clocks
+
+6/21
+FODCircleView: Improve position update
+QSCustomizer: Properly apply changes with header image enabled
+QSDetail: Fix QS detail panel with header image enabled
+Revert to original Pixel Launcher
+SystemUI: QS: Decrease vertical padding between QS tiles
+fixup! DisplayPowerController: make brightness ramp rate overlay-able
+
+6/20
+AmbientDisplay: Unregister proximity when screen off FOD is active
+DozeTriggers: Update setListening usage
+FODCircleView: fixup AOD fingerprint support
+Make Volume Panel divider transparent
+PowerManager: Add proximity check on wake feature
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+SystemUI: Fix GamingModeTile long press
+SystemUI: handle camera launch gesture from keyhandler
+SystemUI: Improve ScreenRecord Dialog layout
+Update MIUI White FOD icon to latest
+base: lockscreen: Fix left custom shortcut always launching Dialer/Contacts
+fixup! Clock: Align owner info as per the clock style
+
+6/19
+Disallow certain power menu items while in lock task mode
+LiveDisplay: Mark all pending intents as immutable
+Settings: Allow changing face unlock method when locked
+Upstream OTA Updater app changes from PE
+
+6/18
+Replace redundant nav gesture options with Immersive Navigation
+Settings: Remove back swipe deadzone feature (breaks gestures)
+Use EVOLUTION_FINGERPRINT to signal OTA upgrades
+
+6/17
+AppLock: Don't trigger if starting new intent of current running package
+AppLock: Improve strings and cleanup
+AppLock: Update tasks snapshot when needed
+IconPack{Kai,Victor}: Fix clock icon
+SystemUI: Improve pocket mode layout
+VolumeDialog: Fix touch area on captions and ringer button when on landscape
+fixup! base: SystemUI: fix volume dialog issue
+
+6/16
+CameraService: Default to HAL1 for OPCam if not specified
+Evolver: Add AlarmsBlocker
+Evolver: Add WakelockBlocker
+Evolver: Rework Alarm & Wakelock blocker fragments
+Removing dead code from Telephony which uses wakelock
+Settings: Remove DSU Loader if unsupported
+SystemUI: Make clock layouts aware of the media playing state
+Upstream QTI BT changes from LA.QSSI.11.0.r1-12300-qssi.0 CAF tag
+soong: Whitelist locale
+
+6/14
+Adaptive Charging: Make it optional
+Evolver: Allow hiding FOD on doze
+Filter GalleryDatab*
+Filter out QTI performance spam
+Modifying /dev/memcg permissions
+Remove Font changes unrelated to Carbon's FontService
+Set /system/etc/init.d/* permissions
+Set permissions on /system/addon.d/ and files within
+Shut up camera and wcnss debug output
+Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+adb_root: Make encryption action an argument to mkdir
+add generic symlink to access userdata sysfs
+cameraservice: Avoid calling getSystemCameraKind if the camera was not mapped yet
+config: Remove exfat tools
+debuggerd: add Evolution X version to tombstones
+fixup! DozeSensors: Only use proximity sensor if supported
+healthd: Add support for HVDCP_3P5 chargers
+rootdir: init.rc: use default dirty writeout policy
+set /system/etc/init.d/* permission
+
+6/13
+Evolver: Hide LS blur option if homescreen and LS wallpaper are different
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+Upstream WFD fixes in frameworks/av
+SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+bionic: Enable -O
+kernel: Pass absolute path for KCONFIG_ALLCONFIG
+libm: Support -ffp-contract=fast
