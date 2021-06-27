@@ -1,0 +1,9 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * reverted a CAF upstream commit that broke cdsp. Camera issues should be fixed
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Optimized ThermalUtils to avoid unnecessary thermal engine service restart
+- Boosted the microphone volume in certain use cases (e.g. voice message and voice/video call in Telegram)
+
+**Evolution X Update**
+- Tuned the brightness slider animation duration
