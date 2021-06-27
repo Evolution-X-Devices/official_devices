@@ -1,0 +1,28 @@
+Device changes:
+==============================
+Fixed random reboots
+Fixed kcal values reset on boot
+Misc changes
+------------------------------
+ROM changes:
+==============================
+6/27
+Add Zygotehooks.indefiniteThreadSuspensionOK
+Add a better getLastQueuedBuffer
+Add zygote native fork loop
+Allow Seamless rotation while PIP is active
+Camera: Master callback mode support for MCX raw
+Drop the maximum recommended log size from 16MiB to 8MiB
+Evolver: Introduce Android 12 Style Switches
+Fix PixelCopy & BQ crop
+PixelPropsUtils: Make build property spoofing more reliable
+Upstream ART improvements
+Zygote: Add Arm pointer authentication keychange support
+codec2 codecs: always specify range of buffers
+config: Strip off some debug packages
+core: Remove overscroll shadow for all
+vendor: Include makefile with art definitions
+
+6/25
+AntiFlickerTile: Fix error in handleRefreshState
+LockIcon: Fix drawable log warning
