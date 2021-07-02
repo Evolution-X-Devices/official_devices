@@ -1,0 +1,64 @@
+- Device Changelog:
+
+0. Switched to User build.
+0.5. Rebased almost everything over @ramisky common trees.
+1. Improved lockscreen padding, thanks @ejbtrd.
+2. Fixed fast charging (reporting is derped, it charges fast with 1st party charger).
+3. Better battery & performance thanks @floatp0int.
+4. Initiate Apollon rebrand.
+5. Fixed AAC and aptX thanks to @dobsgw & @DennySPb.
+6. Switched to Pixel Power HAL thanks to @Ayrton990 & @Dyneteve
+7. Added vibrations to QS/shelf & on keyboard ticker.
+8. Fixed led blinking.
+9. Fixed wakelocks not suspending (what u guys call smp2p), thanks to @Ayrton990.
+10. Fixed echo issue in VoIP speaker calls
+11.  Smooth RefreshRate switching
+12. Imported brightness configs values from MIUI (expect Higher peak brightness levels) thanks to @dobsgw
+13. Fixed 144hz's vsync errors (144hz works properly now), thanks to @ramisky again.
+
+- Rom Changelog:
+
+Changelog list
+
+7/21
+Add Android S Clocks
+Add support to see if there are visible notifications in ClockPlugin
+Add support to Slice in ClockPlugin
+Catch SQLiteFullException in AccountManagerService
+Eliminate potential deadlock in AccessibilityCache
+Introduce Fluid V2 lock clock
+Settings: Move back Evolution X version to firmware version fragment
+SystemUI: Add OnePlus Roman, Minimal and Numbers clock styles
+zygote: Use tmpArgBuffer instead of argsBuffer to prevent NPE
+
+6/29
+BrightnessController: tune the slider animation duration
+Plugins: Don't show captions info tooltip
+base: set scrolling friction to 0.006f
+
+6/28
+Consolidate LineageHardwareManager
+DozeTriggers: Add provision to pulse without proximity check
+FODCircleView/FODAnimation: Clean ups and improvements
+Introduce 2.1 LiveDisplay interface with IAntiFlicker support
+base: Add bool to enable/disable doze by default
+fixup! CameraDeviceClient: fix recognition of Y16 format
+fixup! Introduce anti flicker mode in LiveDisplay
+livedisplay: 2.1: Fix interfaces order
+sepolicy: Add uclamp file nodes to proc_sched
+sepolicy: Allow permissive backuptools on user builds
+sepolicy: Allow vendor_init to set proc_sched sysfs
+sepolicy: Another theme_prop denials
+sepolicy: Fix some ActivityManager denials
+sepolicy: Optionally build sepolicy_freeze_test
+
+6/27
+Add Zygotehooks.indefiniteThreadSuspensionOK
+Add zygote native fork loop
+Allow Seamless rotation while PIP is active
+Camera: Master callback mode support for MCX raw
+Drop the maximum recommended log size from 16MiB to 8MiB
+Evolver: Introduce Android 12 Style Switches
+PixelPropsUtils: Make build property spoofing more reliable
+Upstream ART improvements
+
