@@ -1,0 +1,84 @@
+Device changes:
+==============================
+init: Update redfin FP to RQ3A.210705.001
+audio: enforce 24-bit audio for offload playback
+light: brightness scaling improvements
+power: Switched back to libperfmgr
+Enable idle_state mechanism
+Upstreamed kernel to 4.14.238
+Some misc changes and improvements
+------------------------------
+ROM changes:
+==============================
+7/8
+Merge July security patches
+PixelPropsUtils: Update to July 2021 fingerprint
+
+7/7
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+Remove WFD upstream changes
+Settings: Update font picker title string
+
+7/6
+CarSystemUI: Pass FODCircleView to StatusBar constructor
+DataSwitchTile: collapse notification panel onClick
+FODCircleView: Hide if fingerprint detection stops
+Settings: Remove empty category from Security Settings
+SystemUI: Give network traffic more padding
+base: prevent that double tap to sleep triggers panel expand
+
+7/5
+SystemUI: Don't enable FOD when strong auth is required
+Use Asus Stitchimage as default screenshot service
+
+7/4
+AppErrorDialog: Add content type header when making POST request to pasty
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: Fix battery percent padding
+SystemUI: Move percentage to left of battery
+config: Do not force iorap by default
+
+7/3
+Evolver: Nuke Lock screen shortcut feature
+Remove zygote related changes
+
+7/2
+AndroidSClockController: fix IndexOutOfBoundsException
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+IconPackRounded: Use correct icon for notification and ring volume
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+SystemUI: Add a config to show correct VoLTE/VoWiFi icons
+SystemUI: BrightnessSlider: Scale animation duration with defined BrightnessRampRate
+SystemUI: Fix showing duplicated charging status after r38 merge
+services: BrightnessAnimator: Make ramp rate non-linear for very low values
+
+7/1
+Add Android S Clocks
+Add support to see if there are visible notifications in ClockPlugin
+Add support to Slice in ClockPlugin
+Introduce Fluid V2 lock clock
+Settings: Move back Evolution X version to firmware version fragment
+SystemUI: Add OnePlus Roman, Minimal and Numbers clock styles
+
+6/29
+BrightnessController: tune the slider animation duration
+Plugins: Don't show captions info tooltip
+base: set scrolling friction to 0.006f
+
+6/28
+Consolidate LineageHardwareManager
+DozeTriggers: Add provision to pulse without proximity check
+FODCircleView/FODAnimation: Clean ups and improvements
+Introduce 2.1 LiveDisplay interface with IAntiFlicker support
+base: Add bool to enable/disable doze by default
+fixup! CameraDeviceClient: fix recognition of Y16 format
+fixup! Introduce anti flicker mode in LiveDisplay
+livedisplay: 2.1: Fix interfaces order
+sepolicy: Add uclamp file nodes to proc_sched
+sepolicy: Allow permissive backuptools on user builds
+sepolicy: Allow vendor_init to set proc_sched sysfs
+sepolicy: Another theme_prop denials
+sepolicy: Fix some ActivityManager denials
+sepolicy: Optionally build sepolicy_freeze_test
