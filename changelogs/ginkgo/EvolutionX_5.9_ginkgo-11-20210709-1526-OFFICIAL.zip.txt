@@ -1,0 +1,33 @@
+Device changes:
+==============================
+Updated stock blobs from MIUI 21.7.5
+Updated CAF blobs from LA.UM.9.11.r1-03900-NICOBAR.0
+Kernel upstreamed to 4.14.238
+Fixed tiktok, QQ and other apps crash due to vulkan
+Fixed magisk issue with some banking apps
+Added LED indicator for offline charging
+Reduce schedtune boosting for lesser heat
+Freed some RAM from useless virtual framebuffer
+Switched to QTI health implementation
+------------------------------
+ROM changes:
+==============================
+Merge July security patches
+Add Android S Clocks
+Add support to Slice in ClockPlugin
+Add support to see if there are visible notifications in ClockPlugin
+AndroidSClockController: fix IndexOutOfBoundsException
+AppErrorDialog: Add content type header when making POST request to pasty
+Introduce Fluid V2 lock clock
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+PixelPropsUtils: Update to July 2021 fingerprint
+Remove WFD upstream changes
+Remove zygote related changes
+Settings: Move back Evolution X version to firmware version fragment
+Settings: Remove empty category from Security Settings
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: BrightnessSlider: Scale animation duration with defined BrightnessRampRate
+SystemUI: Don't enable FOD when strong auth is required
+SystemUI: Fix battery percent padding
+SystemUI: Fix showing duplicated charging status after r38 merge
