@@ -1,0 +1,23 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.274
+  * made msm_serial_hs and Bluetooth threads RT to improve Bluetooth buffer copy speed and avoid scheduling delays in kernel
+  * disabled dfps in JDI panel to prevent dfps from messing with vsync timers. Animations should feel smoother
+  * moved geni_i2c driver init to async
+  * Enabled DRBG_HASH and DRBG_CTR as recommended by NIST SP 800-90A
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Correctly set cpu_dma_latency in hexadecimal
+- Enabled camera api v2 for Snap
+  * this enables several new features and fixes the glitches when using filters
+- Adjusted the previous microphone volume boost to apply to both microphones
+  * this should alleviate the distorted or unbalanced audio recordings in some cases
+- Fixed the statusbar padding after the introduction of custom rounded corner radius option from previous builds
+- Correctly applied the custom doze package
+
+**Evolution X Update**
+- July security patch
+- android S lockscreen clock style
+- android 12 switch style
+- Switched to Asus Stitchimage as default screenshot service
+- Several font updates
+- Misc fixes
