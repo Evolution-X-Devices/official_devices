@@ -1,0 +1,105 @@
+- Device changelog:
+
+- Switched kernel to Etherious (thanks @SonalSingh18)
+- Updated build fingerprint to Redfin July
+- Switched to prebuilt audio hal (Fixes all audio related issues)
+- Fixed some Hotword Enrollment issues
+- Fixed vibrations issues
+- Tons of other fixes i'm surly forgot about them all.
+
+- Rom changelog:
+
+7/8
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Merge July security patches
+PixelPropsUtils: Update to July 2021 fingerprint
+
+7/7
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+Remove WFD upstream changes
+Settings: Update font picker title string
+
+7/6
+CarSystemUI: Pass FODCircleView to StatusBar constructor
+DataSwitchTile: collapse notification panel onClick
+FODCircleView: Hide if fingerprint detection stops
+Settings: Remove empty category from Security Settings
+SystemUI: Give network traffic more padding
+base: prevent that double tap to sleep triggers panel expand
+
+7/5
+SystemUI: Don't enable FOD when strong auth is required
+Use Asus Stitchimage as default screenshot service
+
+7/4
+AppErrorDialog: Add content type header when making POST request to pasty
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: Fix battery percent padding
+SystemUI: Move percentage to left of battery
+config: Do not force iorap by default
+
+7/3
+Evolver: Nuke Lock screen shortcut feature
+Remove zygote related changes
+
+7/2
+AndroidSClockController: fix IndexOutOfBoundsException
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+IconPackRounded: Use correct icon for notification and ring volume
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+
+Device Side
+Switch to EvoX perf+ kernel
+rootdir: Relocate DeviceExtras & Adaptive Charging rules
+DeviceExtras: Add USB 2.0 force FastCharge toggle & QS
+Don't ship maps, recorder and safteyhub by default
+fix smart charging
+Hide sRGB toggle in developer options
+Enable color mode & set display calibration on color mode settings
+ 51  changelogs/instantnoodlep/EvolutionX_5.9_instantnoodlep-11-20210708-0201-OFFICIAL.zip.txt 
+@@ -0,0 +1,51 @@
+7/8
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Merge July security patches
+PixelPropsUtils: Update to July 2021 fingerprint
+
+7/7
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+Remove WFD upstream changes
+Settings: Update font picker title string
+
+7/6
+CarSystemUI: Pass FODCircleView to StatusBar constructor
+DataSwitchTile: collapse notification panel onClick
+FODCircleView: Hide if fingerprint detection stops
+Settings: Remove empty category from Security Settings
+SystemUI: Give network traffic more padding
+base: prevent that double tap to sleep triggers panel expand
+
+7/5
+SystemUI: Don't enable FOD when strong auth is required
+Use Asus Stitchimage as default screenshot service
+
+7/4
+AppErrorDialog: Add content type header when making POST request to pasty
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: Fix battery percent padding
+SystemUI: Move percentage to left of battery
+config: Do not force iorap by default
+
+7/3
+Evolver: Nuke Lock screen shortcut feature
+Remove zygote related changes
+
+7/2
+AndroidSClockController: fix IndexOutOfBoundsException
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+IconPackRounded: Use correct icon for notification and ring volume
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+
