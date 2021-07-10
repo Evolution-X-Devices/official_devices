@@ -1,0 +1,61 @@
+Device Changelog:
+
+- Introducing High Touch Polling Rate support aka 240hz touch sampling rate (thnx Ramii)
+- Switch primary audio output to 24bit 
+- Disabled Volte HD notification
+- Override HPH HQ to be HIFI audio
+- StatusBar padding fixes
+- Switched Manifest to target-level 5
+- Fixed NFC for transit cards (eg. Troika) (thx xyyx)
+- Enable exFAT-linux (thx Arter97)
+- Fixed WFD (thx to SebaUbuntu)
+- Update redfin fingerprint to July
+
+
+Rom ChangeLog:
+
+7/10
+AndroidSClockController: set clock text color based on wallpapers
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+SystemUI: Move percentage to original placement
+Upstream fixes to Updater app
+vendor: Inline versioning to Google
+
+7/9
+AndroidSClockController: fix NPE in onAnimationUpdate
+AndroidSClockController: fix NPE in setSlice
+Evolver: Add Flashlight blink on incoming calls feature
+Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk
+IDE clock: fix the C++ syntax and format
+Properly scale touch input window through resolution changes
+Revert "stagefright: remove Miracast sender code"
+base: enable doze by default
+fw_av: Attempt to fix screencast for our legacy qti devices
+
+7/8
+BiometricPrompt: Automatically add padding to incorporate FOD
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Forbid content from MmsFileProvider in Bluetooth Share
+Merge July security patches
+PixelPropsUtils: Update to July 2021 fingerprints
+
+7/7
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+Remove WFD upstream changes
+Settings: Update font picker title string
+
+7/6
+CarSystemUI: Pass FODCircleView to StatusBar constructor
+DataSwitchTile: collapse notification panel onClick
+FODCircleView: Hide if fingerprint detection stops
+Settings: Remove empty category from Security Settings
+SystemUI: Give network traffic more padding
+base: prevent that double tap to sleep triggers panel expand
+
+7/5
+SystemUI: Don't enable FOD when strong auth is required
+Use Asus Stitchimage as default screenshot service
