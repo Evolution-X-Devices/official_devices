@@ -1,0 +1,17 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.275
+  * also disabled dfps for EBBG panels
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Addressed the slow fix in GPS
+  * a "fix" in GNSS terminology means the device is able to connect to a good number of satellites and keep an accurate track of its longitude and latitude
+  * previously the phone may have trouble getting a fix sometimes despite having good signal-to-noise ratio
+- Fixed the issue of broken screen brightness adjustment in some apps
+- Updated VPP, Media Codecs, CACert, Display, Adreno, WFD, msm_irqbalance, Time Services, TEE, TUI, Peripheral Manager, ESE, and DRM blobs from OnePlus6 android11 open beta
+
+**Evolution X Update**
+- android S clock style now syncs the text color with your wallpaper
+- Fixed syntax and format in IDE clock
+- Introduced hooks to display lyrics in statusbar
+- Several more volume panel styles
+- Build versioning now adheres to Google recommended style
