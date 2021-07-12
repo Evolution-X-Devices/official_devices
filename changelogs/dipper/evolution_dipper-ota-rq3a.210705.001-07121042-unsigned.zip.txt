@@ -1,0 +1,14 @@
+* Device Changes *
+Kernel Improvements
+Pixel powerhal tuning
+Blobs updated from MIUI China Stable V12.0.4.0
+Face Unlock is working but uses Selfie instead of IR camera
+More improvements
+
+* Source Changes *
+July Security patch
+Android S lockscreen clock style
+Android 12 switch style
+Switched to Asus Stitchimage as default screenshot service
+Several font updates
+Misc fixes
