@@ -211,6 +211,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "alioth",
+      "name": "POCO F3",
+      "supported_versions": [
+         {
+            "maintainer_name": "Aggelos Savvopoulos (DarkAngelGR)",
+            "maintainer_url": "https://forum.xda-developers.com/m/darkangelgr.8065843/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/a11-official-evolution-x-v5-9-for-alioth-aliothin.4307387/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "apollo",
       "name": "Mi 10T",
       "supported_versions": [
