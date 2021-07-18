@@ -1,0 +1,83 @@
+Device:
+
+None
+
+Note: No device specific changes this month as I've spent my limited free time lately working on getting full OOS11 blobs and changes going. It is pretty close. Just need to find some time to fix a couple of small things and test more. So hopefully next months release will include all of this
+
+Rom:
+
+AndroidSClockController: fix NPE in onAnimationUpdate
+AndroidSClockController: fix NPE in setSlice
+AndroidSClockController: set clock text color based on wallpapers
+BiometricPrompt: Automatically add padding to incorporate FOD
+Evolver: Add Flashlight blink on incoming calls feature
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk
+IDE clock: fix the C++ syntax and format
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+Upstream fixes to Updater app
+base: enable doze by default (fix notifications not waking up the screen)
+fw_av: Attempt to fix screencast for our legacy qti devices
+vendor: Inline versioning to Google
+Add support to see if there are visible notifications in ClockPlugin
+AppErrorDialog: Add content type header when making POST request to pasty
+DataSwitchTile: collapse notification panel onClick
+Evolver: Nuke Lock screen shortcut feature
+FODCircleView: Hide if fingerprint detection stops
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+IconPackRounded: Use correct icon for notification and ring volume
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+Introduce Fluid V2 lock clock
+Merge July security patches
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+PixelPropsUtils: Update to July 2021 fingerprint
+Remove WFD upstream changes
+Remove zygote related changes
+Settings: Move back Evolution X version to firmware version fragment
+Settings: Remove empty category from Security Settings
+Settings: Update font picker title string
+SystemUI: Add OnePlus Roman, Minimal and Numbers clock styles
+SystemUI: Add a config to show correct VoLTE/VoWiFi icons
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: BrightnessSlider: Scale animation duration with defined BrightnessRampRate
+SystemUI: Don't enable FOD when strong auth is required
+SystemUI: Fix battery percent padding
+SystemUI: Fix showing duplicated charging status after r38 merge
+SystemUI: Give network traffic more padding
+Use Asus Stitchimage as default screenshot service
+base: prevent that double tap to sleep triggers panel expand
+services: BrightnessAnimator: Make ramp rate non-linear for very low values
+Add Zygotehooks.indefiniteThreadSuspensionOK
+Allow Seamless rotation while PIP is active
+AntiFlickerTile: Fix error in handleRefreshState
+BrightnessController: tune the slider animation duration
+Camera: Master callback mode support for MCX raw
+DozeTriggers: Add provision to pulse without proximity check
+FODCircleView/FODAnimation: Clean ups and improvements
+Fix PixelCopy & BQ crop
+LockIcon: Fix drawable log warning
+PixelPropsUtils: Make build property spoofing more reliable
+PixelPropsUtils: Properly make Google Photos backup in original quality
+Settings: Export the gravity of the fingerprint enroll animation
+Upstream ART improvements
+Zygote: Add Arm pointer authentication keychange support
+base: Add bool to enable/disable doze by default
+base: set scrolling friction to 0.006f
+codec2 codecs: always specify range of buffers
+core: Remove overscroll shadow for all
+custom_apns: Add double quote in custom APN name check
+fixup! CameraDeviceClient: fix recognition of Y16 format
+sepolicy: Add uclamp file nodes to proc_sched
+sepolicy: Allow permissive backuptools on user builds
+sepolicy: Allow vendor_init to set proc_sched sysfs
+sepolicy: Another theme_prop denials
+sepolicy: Fix some ActivityManager denials
+sepolicy: Optionally build sepolicy_freeze_test
+vendor: Include makefile with art definitions
