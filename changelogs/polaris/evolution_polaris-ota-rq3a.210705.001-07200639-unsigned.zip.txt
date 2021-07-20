@@ -1,0 +1,20 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * an upstream fix for PS5 controller HID driver
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- QDCM rework and Wide Color Gamut support
+  * cleaned up and modified qdcm calibration configs for JDI and EBBG panels
+  * properly enabled DCI P3 wide color gamut support across the system. Your screen is now able to display more colors, and colors are more accurate.
+  * colors in HDR videos are also fixed. HDR videos will be rendered in the correct color space with proper dynamic range.
+- Fixed the color mode logic in display HAL
+  * your screen now correctly returns to the previous color profile after playing an HDR video or displaying DCI P3 content
+  * you do not need to worry about which color profile you use. Even if you use an sRGB profile most of the time, the screen will temporarily switch to a proper profile when the content is HDR or DCI P3, and switch back afterwards
+  * additional color mode code to ensure color profile stays the same after reboot
+- Replaced writepid with corresponding task_profiles command
+- Updated firmware and blobs from MIUI China Stable V12.5.1.0
+- Updated Widevine and SCVE blobs from OnePlus6 android11 open beta
+
+**Evolution X Update**
+- Volume panel styles updates
+- Lockscreen bypass toggle for face unlock is back
+- Misc fixes
