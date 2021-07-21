@@ -1,0 +1,28 @@
+
+Device:
+
+Major audio improvements
+Fixed NETLINK wakelock issue
+Enabled blurs
+Fixed Powershare logspam and crashes
+Add High Touch Polling Rate support
+Removed unused stuff
+
+
+Rom:
+
+7/18
+
+OosPanel, P404Panel: Add missing style fallback
+
+ShapeShiftPanel: Add alarm volume slider
+
+ShapeShiftPanel: Redesign output switcher UI
+
+settingslib: Tile: Add more checks if mMetaData is null
+
+
+7/16
+
+Evolver: Turn off QS battery estimate by default
+
