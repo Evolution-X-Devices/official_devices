@@ -1,0 +1,56 @@
+Eid Mubarak :)
+
+This build you're receiving is evolution_violet-ota-rq3a.210705.001-07211617.zip
+
+CLEAN FLASH IS MUST!!!
+
+==============================
+Device changes:
+==============================
+Signed build
+Added LiveDisplay
+Added icon for Thermal Profiles
+
+------------------------------
+ROM changes:
+==============================
+AndroidSClockController: fix NPE in onAnimationUpdate
+AndroidSClockController: fix NPE in setSlice
+AndroidSClockController: set clock text color based on wallpapers
+BiometricPrompt: Automatically add padding to incorporate FOD
+Evolver: Add Flashlight blink on incoming calls feature
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk
+Forbid content from MmsFileProvider in Bluetooth Share
+IDE clock: fix the C++ syntax and format
+Properly scale touch input window through resolution changes
+Revert "stagefright: remove Miracast sender code"
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+SystemUI: Move percentage to original placement
+Upstream fixes to Updater app
+base: enable doze by default (fix notifications not waking up the screen)
+fw_av: Attempt to fix screencast for our legacy qti devices
+vendor: Inline versioning to Google
+Add Android S Clocks
+Add support to Slice in ClockPlugin
+Add support to see if there are visible notifications in ClockPlugin
+AndroidSClockController: fix IndexOutOfBoundsException
+AppErrorDialog: Add content type header when making POST request to pasty
+CarSystemUI: Pass FODCircleView to StatusBar constructor
+DataSwitchTile: collapse notification panel onClick
+Evolver: Nuke Lock screen shortcut feature
+FODCircleView: Hide if fingerprint detection stops
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+IconPackRounded: Use correct icon for notification and ring volume
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+Introduce Fluid V2 lock clock
+Merge July security patches
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+PixelPropsUtils: Update to July 2021 fingerprint
