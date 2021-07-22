@@ -1,0 +1,67 @@
+Device Changelog:
+- Switched to Quantic kernel
+- Fixed some mic problems
+- Improved speaker volumes
+- Other audio fixes
+- Enabled display color management
+- Sync color modes with sunfish
+- Enabled call recording
+- More tuning for statusbar padding
+- Enabled IORap 
+- Enabled IORapd prefetching
+- Enabled Pre-rendering 
+- Imported Lights changes from sm8150-common
+
+Rom Changelog:
+
+7/18
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
+
+7/16
+Evolver: Turn off QS battery estimate by default
+
+7/14
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+DataSwitchTile: Improve the code
+Restore "bypass lockscreen after face unlock" preference
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
+
+7/12
+Bluetooth: Add option to change eSCO Transport Unit Size to 16
+Revert blur-related changes in frameworks/native
+PrivacyChip: Do not change view on expand
+fixup! Add Android S Clocks
+
+7/11
+Drop Extended, Add ShapeShift, P404 and OOS Volume panel styles
+Evolver: Add Status bar Lyric feature
+Evolver: On-The-Go Mode feature to Power menu options
+LyricTicker: hide TickerView after created
+Makefile: Remove Evolution X guard
+OmniStyle: Optimize images
+PhoneStatusBarPolicy: Show battery level for all devices
+PocketJudge: Allow to register vendor proximity sensor
+ResetPropsUtils: hook Apps for status bar lyric
+SystemUI: LyricTextView: add delay for text scrolling
+SystemUI: Properly align owner info on Android S clocks
+SystemUI: QS: Add On-The-Go Tile
+VolumePanel: Drop aosp plugin
+base: unhide flags used for status bar lyric
+fwb: silence *negative delta from freq time proc* log spam
+layout: android-s-clock: remove drop shadows
+optimize Notification ticker
+services: VibratorService: Add support for intensity control with Oneplus haptics motor
+vendor: Enable backuptool in some conditions
+
+7/10
+AndroidSClockController: set clock text color based on wallpapers
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+SystemUI: Move percentage to original placement
+Upstream fixes to Updater app
+vendor: Inline versioning to Google
+vendor: Revert to old OP Slate style
