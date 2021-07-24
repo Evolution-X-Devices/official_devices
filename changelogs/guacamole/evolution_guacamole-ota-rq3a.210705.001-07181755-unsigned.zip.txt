@@ -1,0 +1,523 @@
+=======================
+Device Changes
+======================= 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! YOU MUST CLEAN FLASH THIS BUILD !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+This includes formatting userdata!
+
+There is no way around it, back up and clean flash. 
+This includes the new OnePlus encryption and updated blobs.
+Please use the FBEv2 version of TWRP to decrypt userdata.
+
+- Updated with OOS 11 stable
+- Dropped sdcardfs
+- Enabled fbev2
+- Switched to Gulch kernel
+- Revamped DeviceSettings
+- Removed OxygenOS Camera and Gallery (violates Code of Conduct, sorry)
+
+Special thanks to @darknanobot for the help!
+
+=======================
+Rom Changes
+=======================
+
+7/18
+Drop the O_NOFOLLOW flag
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
+
+7/16
+Evolver: Turn off QS battery estimate by default
+
+7/14
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+DataSwitchTile: Improve the code
+Restore "bypass lockscreen after face unlock" preference
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
+
+7/12
+Bluetooth: Add option to change eSCO Transport Unit Size to 16
+Revert blur-related changes in frameworks/native
+PrivacyChip: Do not change view on expand
+
+7/11
+Drop Extended, Add ShapeShift, P404 and OOS Volume panel styles
+Evolver: Add Status bar Lyric feature
+Evolver: On-The-Go Mode feature to Power menu options
+LyricTicker: hide TickerView after created
+Makefile: Remove Evolution X guard
+OmniStyle: Optimize images
+PhoneStatusBarPolicy: Show battery level for all devices
+PocketJudge: Allow to register vendor proximity sensor
+ResetPropsUtils: hook Apps for status bar lyric
+SystemUI: LyricTextView: add delay for text scrolling
+SystemUI: Properly align owner info on Android S clocks
+SystemUI: QS: Add On-The-Go Tile
+VolumePanel: Drop aosp plugin
+base: unhide flags used for status bar lyric
+fwb: silence *negative delta from freq time proc* log spam
+layout: android-s-clock: remove drop shadows
+optimize Notification ticker
+services: VibratorService: Add support for intensity control with Oneplus haptics motor
+vendor: Enable backuptool in some conditions
+
+7/10
+AndroidSClockController: set clock text color based on wallpapers
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+SystemUI: Move percentage to original placement
+Upstream fixes to Updater app
+vendor: Inline versioning to Google
+vendor: Revert to old OP Slate style
+
+7/9
+AndroidSClockController: fix NPE in onAnimationUpdate
+AndroidSClockController: fix NPE in setSlice
+Evolver: Add Flashlight blink on incoming calls feature
+Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk
+IDE clock: fix the C++ syntax and format
+Properly scale touch input window through resolution changes
+Revert "stagefright: remove Miracast sender code"
+base: enable doze by default (fix notifications not waking up the screen)
+fw_av: Attempt to fix screencast for our legacy qti devices
+
+7/8
+BiometricPrompt: Automatically add padding to incorporate FOD
+FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+FODCircleView: Set dim behind fod base layer
+Forbid content from MmsFileProvider in Bluetooth Share
+Merge July security patches
+PixelPropsUtils: Update to July 2021 fingerprints
+
+7/7
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+Remove WFD upstream changes
+Settings: Update font picker title string
+
+7/6
+CarSystemUI: Pass FODCircleView to StatusBar constructor
+DataSwitchTile: collapse notification panel onClick
+FODCircleView: Hide if fingerprint detection stops
+Settings: Remove empty category from Security Settings
+SystemUI: Give network traffic more padding
+base: prevent that double tap to sleep triggers panel expand
+
+7/5
+SystemUI: Don't enable FOD when strong auth is required
+
+7/4
+AppErrorDialog: Add content type header when making POST request to pasty
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: Fix battery percent padding
+SystemUI: Move percentage to left of battery
+config: Do not force iorap by default
+
+7/3
+Evolver: Nuke Lock screen shortcut feature
+Remove zygote related changes
+
+7/2
+AndroidSClockController: fix IndexOutOfBoundsException
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+IconPackRounded: Use correct icon for notification and ring volume
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+SystemUI: Add a config to show correct VoLTE/VoWiFi icons
+SystemUI: BrightnessSlider: Scale animation duration with defined BrightnessRampRate
+SystemUI: Fix showing duplicated charging status after r38 merge
+services: BrightnessAnimator: Make ramp rate non-linear for very low values
+
+7/1
+Add Android S Clocks
+Add support to see if there are visible notifications in ClockPlugin
+Add support to Slice in ClockPlugin
+Introduce Fluid V2 lock clock
+Settings: Move back Evolution X version to firmware version fragment
+SystemUI: Add OnePlus Roman, Minimal and Numbers clock styles
+
+6/29
+BrightnessController: tune the slider animation duration
+Plugins: Don't show captions info tooltip
+base: set scrolling friction to 0.006f
+
+6/28
+Consolidate LineageHardwareManager
+DozeTriggers: Add provision to pulse without proximity check
+FODCircleView/FODAnimation: Clean ups and improvements
+Introduce 2.1 LiveDisplay interface with IAntiFlicker support
+base: Add bool to enable/disable doze by default
+fixup! CameraDeviceClient: fix recognition of Y16 format
+fixup! Introduce anti flicker mode in LiveDisplay
+livedisplay: 2.1: Fix interfaces order
+sepolicy: Add uclamp file nodes to proc_sched
+sepolicy: Allow permissive backuptools on user builds
+sepolicy: Allow vendor_init to set proc_sched sysfs
+sepolicy: Another theme_prop denials
+sepolicy: Fix some ActivityManager denials
+sepolicy: Optionally build sepolicy_freeze_test
+
+6/27
+Allow Seamless rotation while PIP is active
+Camera: Master callback mode support for MCX raw
+Drop the maximum recommended log size from 16MiB to 8MiB
+Evolver: Introduce Android 12 Style Switches
+PixelPropsUtils: Make build property spoofing more reliable
+Upstream ART improvements
+config: Strip off some debug packages
+vendor: Include makefile with art definitions
+
+6/25
+AntiFlickerTile: Fix error in handleRefreshState
+LockIcon: Fix drawable log warning
+Settings: Export the gravity of the fingerprint enroll animation
+custom_apns: Add double quote in custom APN name check
+
+6/22
+SystemUI: Properly align owner info to the 3 left aligned clocks
+
+6/21
+FODCircleView: Improve position update
+QSCustomizer: Properly apply changes with header image enabled
+QSDetail: Fix QS detail panel with header image enabled
+Revert to original Pixel Launcher
+SystemUI: QS: Decrease vertical padding between QS tiles
+fixup! DisplayPowerController: make brightness ramp rate overlay-able
+
+6/20
+AmbientDisplay: Unregister proximity when screen off FOD is active
+DozeTriggers: Update setListening usage
+FODCircleView: fixup AOD fingerprint support
+Make Volume Panel divider transparent
+PowerManager: Add proximity check on wake feature
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+SystemUI: Fix GamingModeTile long press
+SystemUI: handle camera launch gesture from keyhandler
+SystemUI: Improve ScreenRecord Dialog layout
+Update MIUI White FOD icon to latest
+base: lockscreen: Fix left custom shortcut always launching Dialer/Contacts
+fixup! Clock: Align owner info as per the clock style
+
+6/19
+Disallow certain power menu items while in lock task mode
+LiveDisplay: Mark all pending intents as immutable
+Settings: Allow changing face unlock method when locked
+Upstream OTA Updater app changes from PE
+
+6/18
+Replace redundant nav gesture options with Immersive Navigation
+Settings: Remove back swipe deadzone feature (breaks gestures)
+Use EVOLUTION_FINGERPRINT to signal OTA upgrades
+
+6/17
+AppLock: Don't trigger if starting new intent of current running package
+AppLock: Improve strings and cleanup
+AppLock: Update tasks snapshot when needed
+IconPack{Kai,Victor}: Fix clock icon
+SystemUI: Improve pocket mode layout
+VolumeDialog: Fix touch area on captions and ringer button when on landscape
+fixup! base: SystemUI: fix volume dialog issue
+
+6/16
+CameraService: Default to HAL1 for OPCam if not specified
+Evolver: Add AlarmsBlocker
+Evolver: Add WakelockBlocker
+Evolver: Rework Alarm & Wakelock blocker fragments
+Removing dead code from Telephony which uses wakelock
+Settings: Remove DSU Loader if unsupported
+SystemUI: Make clock layouts aware of the media playing state
+Upstream QTI BT changes from LA.QSSI.11.0.r1-12300-qssi.0 CAF tag
+soong: Whitelist locale
+
+6/14
+Adaptive Charging: Make it optional
+Evolver: Allow hiding FOD on doze
+Filter GalleryDatab*
+Filter out QTI performance spam
+Modifying /dev/memcg permissions
+Remove Font changes unrelated to Carbon's FontService
+Set /system/etc/init.d/* permissions
+Set permissions on /system/addon.d/ and files within
+Shut up camera and wcnss debug output
+Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+adb_root: Make encryption action an argument to mkdir
+add generic symlink to access userdata sysfs
+cameraservice: Avoid calling getSystemCameraKind if the camera was not mapped yet
+config: Remove exfat tools
+debuggerd: add Evolution X version to tombstones
+fixup! DozeSensors: Only use proximity sensor if supported
+healthd: Add support for HVDCP_3P5 chargers
+rootdir: init.rc: use default dirty writeout policy
+set /system/etc/init.d/* permission
+
+6/13
+Evolver: Hide LS blur option if homescreen and LS wallpaper are different
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+Upstream WFD fixes in frameworks/av
+SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+bionic: Enable -O
+kernel: Pass absolute path for KCONFIG_ALLCONFIG
+libm: Support -ffp-contract=fast
+
+6/12
+Completely nuke Lockscreen Charging info feature
+Evolver: Introduce OS navbar styles
+KillZramBackingDevice: Return immediately if backing_dev is none
+MiuiCompactPanel: Add upstream changes
+Upstream some Google fixes from master branch
+VolumePanel: Add changes for live volume steps
+VolumePanel: Add upstream changes
+plugins: Fix AOSPExpanded plugin crash with Swift Installer
+plugins: Fix infinite expanding and apply unlinking to MIUI panel
+
+6/10
+Add exfat utilities for mkfs and fsck
+Evolver: Add lock screen background blur feature
+Evolver: Add Status bar notification & music ticker feature
+SystemUI: Add missing updateChargingIndication after r38 merge
+sepolicy: Fix rest of the theme_prop denials
+
+6/9
+Evolver: Remove feature allowing to disable Night Light when FOD is on screen
+Evolver: Separate Display Cutout into its own category and hide on non-notch devices
+FODCircleView: Restore DIM_BEHIND and dim amount to 0.0f on base view
+Settings: Add switch last app to gesture actions
+SystemUI: Re-enable privacy indicators
+phone: Add option for setting device phone number
+
+6/8
+Merge June 2021 security patches
+PixelPropsUtils: Update to June 2021 fingerprint
+Settings: use framework text colors for SwitchBar
+gapps: Update from RQ3A.210605.005
+healthd: Add support for HVDCP_3P5 chargers
+pixelstyle: config: Enable DRM service
+version: Bump to 5.8 Pinnacle
+
+6/7
+FodAnimationResources: Update OP Cosmos animation
+Settings: LiveDisplay: Add color mode preview from AOSP Settings
+Settings: Use MD2 icon for Playstore
+SystemUI: Add Cellular tile icon from OOS
+build: check_boot_jars: Whitelist lineage LiveDisplay
+config: Combine priv app permission files into one
+config: Re-organize props
+
+6/6
+FODCircleView: Fix position if cutout is hidden
+camera: Workaround for GCC-compiled HAL3 driver
+
+6/5
+Settings: backup: add back-arrow to actionbar
+config: Actually disable strict mode for non eng builds
+core: check if the logical light is null before using it
+
+6/4
+Watchdog: increase default timeout by 30 seconds
+Watchdog: run emergency sync before killing system
+
+6/3
+Add madvising of .odex, .vdex and .art files
+Bluetooth: Reimplement SBC Dual Channel in a saner way
+Explicitly make SBC Dual Channel an optional (HD) codec
+FaceUnlock: Drop lockouts completely
+Make releaseSomeActivities() a oneway call
+MediaActionSound: Don't enforce playback of audio
+
+6/2
+PixelPropsUtils: Switch to Marlin for Google Photos
+gms: Include Pixel-specific apps only for the Pixels
+gms: Make carrier-related apps optional
+sepolicy: legacy: Add write permission to proc file system
+sepolicy: public/file.te: add 'allow proc_net proc:filesystem associate'
+vendor: apns: Add IPV4V6 to O2 Germany
+
+6/1
+clock: Improve Type (Alt) clock
+
+5/31
+Evolver: Custom Rounded Corner and Padding preferences
+Evolver: notch-city: Add 3 mode display cutout handler
+ScreenDecorations: Also hide notch for Hide mode
+ScreenDecorations: Apply cutout on lockscreen
+ScreenDecorations: Don't draw cutouts in immerse
+ScreenDecorations: Remove the red debug color
+StatusBar: Remove notification panel padding in immersive mode
+SystemUI: avoid double ripple in QS detail view
+SystemUI: QS: minimize detail view to middle of the button
+SystemUI: Use MD2 icon for running services in QS
+SystemUI: use matching padding on both sides of QS detail title
+ThemeOverlayController: Reload homeApp on cutout mode change
+TypeClock: Align owner info as per the clock style
+base: notch-city: Dejank immersive mode with QS panel
+
+5/30
+Clean up custom font overlays
+Evolver: Power menu background opacity
+Evolver: Remove font preview after adding Font Settings
+Import Carbon’s FontService (dynamic theme fonts support)
+Import Descendant’s Seamless Clock Switch feature
+Settings: Add preference for one shot auto-brightness
+SystemUI: Use EFFECT_HEAVY_CLICK for back swipe gestures
+
+5/29
+Use BinderDeathDispatcher for alarm listeners
+Update translations
+maybePruneOldTraces: bail if modification times change
+
+5/28
+fwb: Allow temp overriding state of battery led
+fwb: Start device specific popup camera service conditionally
+
+5/27
+Add a one minute timeout to global actions dialog
+
+5/26
+Bluetooth: Don't assign codecs to a size fixed array
+Evolver: Remove theming QS with wallpaper colors feature (breaks SystemUI)
+SystemUI: Redesign VoWiFi icons
+fixup! SBC Dual Channel (SBC HD Audio) support
+vendor: Prepend all non-duplicate lines from original apn file before custom apn file
+For FOD devices only
+SystemUI: Add animated OneUI FOD icons
+SystemUI: Add animated OxygenOS FOD icon
+
+5/23
+Game mode updates
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+pixelstyle: overlay: Update SystemUI strings
+
+5/22
+Fix screenshot sharing with longshot and launcher
+Make isUidIsolated public
+Settings: Improve Double-tap strings
+Stop downloads delegated from UIDs blocked by network policy
+SystemUI: Remove unused resources
+
+5/21
+Revert "EventLog: Disable event writing in production builds"
+base: add @hide comment to pass through api check
+wifi: optionally reset the interface after setMacAddress
+For FOD devices only
+Evolver: Implement FOD icon animation
+
+5/20
+Bluetooth: follow system theme in dialogs
+Bluetooth: sync dialog layout for consistency
+Camera2: Notify fps as Session Based Parameter
+EvolutionUtils: Change temperature to float
+base: Edit persist.camera.privapp.list to match with current property
+base: Redo Pocket mode view like OOS
+
+5/19
+Doze-on-charge: Improvements
+Settings: Add missing icons in Network and Internet
+Settings: Consolidate smart charging under 'Adaptive Charging'
+Settings: Move app compatibility preference to apps and notifications
+Settings: Settings observer fail to unregister
+Settings: Use model & hardware as device codename fragment
+SystemUI: VPN tile: Collapse panel when opening app
+For FOD devices only
+Evolver: Add more FOD animations
+
+5/18
+Add Bluetooth and Wi-Fi timeout features
+Settings: remove Bluetooth related text from DNS-dialog
+apns: Add AT&T 310-280 ids
+
+5/17
+SystemUI: Add VPN tile
+SystemUI: Import VoLTE & VoWiFi icons from Vivo X60 Pro
+VolumePluginManager: More fixes toggling panel
+For OP devices only
+Evolver: Alert Slider: Add toggle to disable notifications
+Upstream Alert Slider changes from crDroid
+
+5/16
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+Handle landscape and portrait display for PIP rotation
+IMS: Fix issue with answering call for some 3rd party apps
+Screenrecord: Add an option to record for longer
+pixelstyle: config: Move gestural overlay to vendor
+pixelstyle: config: Remove redundant props
+pixelstyle: config: Turn off storage manager
+
+5/15
+Add national roaming for o2 & E-Plus in germany
+Core: tweak some QQS dimens
+LiveDisplaySettings: Unlock Reading Mode whenever is possible
+ReadingModeTile: Drop dependency on wellbeing app
+SystemUI: Add reading mode tile
+device_config: Enable recents text selection for Pixel Launcher users
+overlays: Add leaf icon shape
+pixelstyle: fonts: Update Inter to v3.18
+
+5/14
+Snap: api2: add QR scanner mode
+Snap: api2: reduce unneeded animations
+Snap: api2: update promode icons
+Snap: api2: use nicer icons in settings
+apns: Remove T-Mobile UK
+apns-conf: Add TPG Singapore configs
+overlays: Update Accent colors
+
+5/13
+Evolver: make app volume rows optional
+SystemUI: add app volume row to volume dialog (stock panel only)
+overlays: Add Inter font style
+
+5/12
+Settings: Remove dependency on pref object for peak refresh rate isAvailable()
+
+5/11
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: Update preference videos
+base: SystemUI: fix NPE in PowerShareTile
+
+5/10
+Evolver: Update about section
+SystemUI: Fix DND QS panel background
+wm: don't move home stack to front in freeform mode
+
+5/9
+Update translations
+backuptool: Map extra dynamic partitions for Addon.d V3
+backuptool: use correct BLK_PATH on a-only dynamic partitions devices
+
+5/7
+HwAudioSource: wrong native handle check
+Remove wtf about JobScheduler.Background
+Snap: api2: close mode switcher on back-keypress
+Snap: api2: close mode switcher on promode events
+Snap: api2: correct format-setting icon
+Snap: use translucent control background on 16:9
+surfaceflinger: add property debug.sf.disable_hwc_overlays
+use more loadDrawableAsUser in MediaDataManager
+
+5/6
+Add kill button to notification conversation guts
+Remove Heads Up snooze feature (broken)
+Set notification opacity for smart replies
+SystemUI: Update carrier label margin right after setting the padding
+Upstream blur changes from ProtonAOSP
+manifest: Don't track AOSP Settings search
+pixelstyle: overlay: Define blur radius in device-independent pixels
+
+5/5
+Allow media art with enabled facelock lockscreen bypass
+ARM64: FP16.compare() intrinsic for ARMv8
+Keyguard: analog clock: update positioning
+Link dialog radius to config_dialogCornerRadius
+Make popup menus more rounded
+SystemUI: use simple check for isFaceDisabled
+XML Pull Parser optimizations
+gms: Bring back DocumentsUIGoogle
+vendor: Remove AOSP DocumentsUI overlay
