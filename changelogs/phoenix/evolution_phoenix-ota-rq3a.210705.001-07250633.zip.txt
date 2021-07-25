@@ -1,0 +1,48 @@
+Device changes:
+==============================
+Enabled camera api v2 for Snap(brings several new features and fixes the filter)
+Update clear speaker audio from MIUI 12
+Update blobs from miui PHOENIX 21.7.14
+Update graphic stack from LA.UM.9.1.r1-09600-SMxxx0.0
+Drop iorapd
+Set voice call Volume step to 11 as per stock
+Added missing BT props from stock
+Update display props from stock
+Nuked old cutout switch implementation. new cutout fill switch will be in evolver>themes>hide display cutout
+and some improvements
+------------------------------
+ROM changes:
+==============================
+7/25
+ColorBucket: Nuke Clear Spring style
+Evolver: Allow devices to hide black fill-in for display cutout
+Settings: Revert Search bar style changes
+SystemUI: Add time refresh capabilities for S clock controllers
+SystemUI: Refresh QS page indicator layout when number of pages changes
+
+7/24
+InputManagerService: Flag when an injected event is a real input
+Use the original device ID when the injected event is unchanged
+
+7/23
+BatteryMeterView: Fix logcat warning spam
+
+7/22
+Cleanup Zygote and USAP leftover changes
+Update translations
+
+7/18
+Drop the O_NOFOLLOW flag
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
+
+7/16
+Evolver: Turn off QS battery estimate by default
+
+7/14
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+DataSwitchTile: Improve the code
+Restore "bypass lockscreen after face unlock" preference
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
