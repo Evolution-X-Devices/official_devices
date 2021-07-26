@@ -1,0 +1,76 @@
+Device Changelog: 
+
+-  Etherious upstream
+- Import dexpreopt bits from guacamoleb tree
+- Disable slow blur effect to avoid laggish blur effect
+- Disable VSync for CPU rendered apps
+- Misc fixes and performance improvements
+
+
+Rom Changelog: 
+
+7/26
+MediaResume: Set it to 0 by default to avoid UI glitch
+SettingsProvider: use READ_DEVICE_CONFIG permission
+SystemUI: Port the lockscreen bouncer from Android 12 Beta 2
+
+7/25
+ColorBucket: Nuke Clear Spring style
+Evolver: Allow devices to hide black fill-in for display cutout
+Settings: Bring back old nav gesture options
+Settings: Revert Search bar style changes
+SystemUI: Add time refresh capabilities for S clock controllers
+SystemUI: Refresh QS page indicator layout when number of pages changes
+
+7/24
+InputManagerService: Flag when an injected event is a real input
+Use the original device ID when the injected event is unchanged
+
+7/23
+BatteryMeterView: Fix logcat warning spam
+
+7/22
+Cleanup Zygote and USAP leftover changes
+Update translations
+
+7/18
+Drop the O_NOFOLLOW flag
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
+
+7/16
+Evolver: Turn off QS battery estimate by default
+
+7/14
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+DataSwitchTile: Improve the code
+Restore "bypass lockscreen after face unlock" preference
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
+
+7/12
+Bluetooth: Add option to change eSCO Transport Unit Size to 16
+Revert blur-related changes in frameworks/native
+PrivacyChip: Do not change view on expand
+
+7/11
+Drop Extended, Add ShapeShift, P404 and OOS Volume panel styles
+Evolver: Add Status bar Lyric feature
+Evolver: On-The-Go Mode feature to Power menu options
+LyricTicker: hide TickerView after created
+Makefile: Remove Evolution X guard
+OmniStyle: Optimize images
+PhoneStatusBarPolicy: Show battery level for all devices
+PocketJudge: Allow to register vendor proximity sensor
+ResetPropsUtils: hook Apps for status bar lyric
+SystemUI: LyricTextView: add delay for text scrolling
+SystemUI: Properly align owner info on Android S clocks
+SystemUI: QS: Add On-The-Go Tile
+VolumePanel: Drop aosp plugin
+base: unhide flags used for status bar lyric
+fwb: silence *negative delta from freq time proc* log spam
+layout: android-s-clock: remove drop shadows
+optimize Notification ticker
+services: VibratorService: Add support for intensity control with Oneplus haptics motor
+vendor: Enable backuptool in some conditions
