@@ -1,0 +1,101 @@
+  
+2021-07-30
+
+DEVICE:
+
+  * umi: org.ifaa.android.manager: Access mlipay hal via a binder service
+  * umi: update carrier configs
+  * umi: overlay: Don't use light sensor for pocket lock
+  * umi: display: enable wide color display and HDR capabilities
+  * umi: parts: Add DC-Dimming QS tile
+  * umi: parts: implement dc dimming preference
+  * umi: nuke GcamGo  and bring back Snap
+  * umi: Implement SunlightEnhancement LiveDisplay HAL
+  * umi: selinux: allow powershare get fs attribute
+
+KERNEL:
+
+  * dsi_display: Introduce exposure adjustment driver
+  * dsi_display: Add support for high brightness mode (HBM)
+  * mmc: Disable SPI CRC
+  * drivers: xiaomi_touch: add a sysfs node to bump touch sample rate
+  * and more..
+
+ROM:
+
+7/28
+
+Evolver: Cleanup and improvements
+
+Settings: Add Android 12 search bar style toggle
+
+SystemUI: NetworkTraffic: Add notch check and allow devices to override
+
+SystemUI: NetworkTraffic: Minor refinements
+
+SystemUI: NetworkTrafficSB: Reduce font size a bit
+
+SystemUI: Reduce status bar network speed margins
+
+base: Improve FPS Info output formatting and performance
+
+fonts: Fix reference to Noto Sans Javanese
+
+7/27
+
+AccentUtils: Improve code
+
+
+7/26
+
+MediaResume: Set it to 0 by default to avoid UI glitch
+
+SettingsProvider: use READ_DEVICE_CONFIG permission
+
+
+7/25
+
+ColorBucket: Nuke Clear Spring style
+
+Evolver: Allow devices to hide black fill-in for display cutout
+
+Settings: Bring back old nav gesture options
+
+Settings: Revert Search bar style changes
+
+SystemUI: Add time refresh capabilities for S clock controllers
+
+SystemUI: Refresh QS page indicator layout when number of pages changes
+
+
+7/23
+
+BatteryMeterView: Fix logcat warning spam
+
+
+7/22
+
+Cleanup Zygote and USAP leftover changes
+
+Update translations
+
+
+7/18
+
+Drop the O_NOFOLLOW flag
+
+OosPanel, P404Panel: Add missing style fallback
+
+ShapeShiftPanel: Add alarm volume slider
+
+ShapeShiftPanel: Redesign output switcher UI
+
+settingslib: Tile: Add more checks if mMetaData is null
+
+
+7/16
+
+Evolver: Turn off QS battery estimate by default
+
+
+
