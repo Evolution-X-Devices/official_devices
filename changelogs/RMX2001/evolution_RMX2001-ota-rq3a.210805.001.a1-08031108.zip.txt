@@ -1,0 +1,59 @@
+******** CLEAN FLASH IS MUST ********
+
+MANUALLY FLASH THIS BUILD IN RECOVERY CLEAN FLASH IS MUST.
+
+Device changes:
+==============================
+Signed build
+Fixed Ok Google detection
+Added support for Realme Dirac
+Compiled with clang 11
+Switched to N.E.O.L.I.T-V2 as default kernel
+Enable IORap app launch prefetching
+Update redfin FP to RQ3A.210805.001
+Some misc changes and improvements
+------------------------------
+ROM changes:
+==============================
+8/3
+Merge August 2021 Android security patches
+MiuiCompact Panel: Add alarm volume slider
+PixelPropsUtils: Update to August 2021 fingerprint
+
+8/2
+Do not show charging animation when disconnecting
+SystemUI: Remove unnecessary battery meter view impl in keyguard statusbar
+fixup! Charging sounds
+
+8/1
+Evolver: Rounded Corners: Cleanup and improvements
+Graphics: Fix NPE on GradientDrawable
+QS: RebootTile: Remember last mode
+SystemUI: Fix NPE on Volume panel plugins
+
+7/31
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+Settings: Add vibration patterns from OOS, Intensities and In-call Feedback
+Settings: Move custom vib pattern to its own preference
+Settings: Respect default vibration strength
+Settings: Update vibration patterns and add haptic feedback intensity
+Telecomm: Update ringer vibration patterns
+Telecomm: Use EFFECT_CLICK for vibrate on call connect
+fixup! Telecomm: In-call vibration haptics options
+
+7/28
+Evolver: Cleanup and improvements
+Settings: Add Android 12 search bar style toggle
+SystemUI: NetworkTraffic: Add notch check and allow devices to override
+SystemUI: NetworkTraffic: Minor refinements
+SystemUI: NetworkTrafficSB: Reduce font size a bit
+SystemUI: Reduce status bar network speed margins
+base: Improve FPS Info output formatting and performance
+fonts: Fix reference to Noto Sans Javanese
+
+7/27
+AccentUtils: Improve code
+
+7/26
+MediaResume: Set it to 0 by default to avoid UI glitch
+SettingsProvider: use READ_DEVICE_CONFIG permission
