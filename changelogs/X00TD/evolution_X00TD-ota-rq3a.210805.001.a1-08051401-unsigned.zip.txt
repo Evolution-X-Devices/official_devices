@@ -1,0 +1,60 @@
+Device changes:
+==============================
+Initial Official Build
+Removed more unnecesarry GApps to make .zip smaller
+Synced With Latest Darkonah Changes
+Added ZenParts
+
+------------------------------
+ROM changes:
+==============================
+AccentUtils: Improve code
+BatteryMeterView: Fix logcat warning spam
+Cleanup Zygote and USAP leftover changes
+ClockertinoClock: Add time refresh capabilities on AoD
+ColorBucket: Nuke Clear Spring style
+DataUsageView: Improvements and clean up
+Do not show charging animation when disconnecting
+Evolver: Allow devices to hide black fill-in for display cutout
+Evolver: Cleanup and improvements
+Evolver: Rounded Corners: Cleanup and improvements
+Graphics: Fix NPE on GradientDrawable
+InterruptionStateProvider: disable debugging
+MediaResume: Set it to 0 by default to avoid UI glitch
+Merge August 2021 Android security patches
+MiuiCompact Panel: Add alarm volume slider
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+PixelPropsUtils: Update to August 2021 fingerprint
+QS: RebootTile: Remember last mode
+Settings: Add Android 12 search bar style toggle
+Settings: Add preference for preferred refresh rate
+Settings: Add vibration patterns from OOS, Intensities and In-call Feedback
+Settings: Bring back old nav gesture options
+Settings: Move custom vib pattern to its own preference
+Settings: Move refresh rate settings into a separate fragment
+Settings: Respect default vibration strength
+Settings: Revert Search bar style changes
+Settings: Update vibration patterns and add haptic feedback intensity
+Settings: display: Add wake on plug switch
+SettingsProvider: use READ_DEVICE_CONFIG permission
+SystemUI: Add ability to change font style for new clocks
+SystemUI: Add time refresh capabilities for S clock controllers
+SystemUI: Fix NPE on Volume panel plugins
+SystemUI: Fix volume panel animation when on left side
+SystemUI: NetworkTraffic: Add notch check and allow devices to override
+SystemUI: NetworkTraffic: Minor refinements
+SystemUI: NetworkTrafficSB: Reduce font size a bit
+SystemUI: Reduce status bar network speed margins
+SystemUI: Refresh QS page indicator layout when number of pages changes
+SystemUI: Remove unnecessary battery meter view impl in keyguard statusbar
+Telecomm: Update ringer vibration patterns
+Telecomm: Use EFFECT_CLICK for vibrate on call connect
+Update translations
+VibratorService: bypass AppOps check
+ZipUtils: use FileChannel#size
+base: Improve FPS Info output formatting and performance
+fixup! Charging sounds
+fixup! Telecomm: In-call vibration haptics options
+fonts: Fix reference to Noto Sans Javanese
+overlays: Add an OxygenOS icon pack
+telephony: Make IMS method updateToState accessible
