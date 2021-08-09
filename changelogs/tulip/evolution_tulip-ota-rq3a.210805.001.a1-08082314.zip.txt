@@ -1,0 +1,164 @@
+------------------------------------
+        ¡¡¡ ATTENTION !!!
+ROM SWITCHED TO FILE DISK ENCRYPTION
+     CLEAN FLASH IS MANDATORY
+------------------------------------
+
+Device changes:
+====================================
+Custom EAS kernels issue fixed
+Switched to FDE (CLEAN FLASH)
+Fixed incorrect values of battery % (Thanks Joey for disabling estimate battery on evolver by default)
+Added some props to improve battery backup
+Added blur support (disabled by default)
+Imported XiaomiParts and XiaomiDoze
+Updated qti-telephony-common from LA.UM.9.6.2.r1-04100-89xx.0
+Updated most of IMS blobs from LA.UM.9.6.2.r1-02500-89xx.0 and LA.UM.9.6.2.r1-04100-89xx.0
+Updated lib-imsvtcore from mojito
+Removed some duplicated blobs
+Data partition now supports f2fs format
+Fixed more sepolicy denials
+Control energy aware feature is controlled by debugfs again (Fixes a duplicated spam on logs)
+Moved dummy libqti-perfd-client code to C
+NoCutoutOverlay is now a system package (Fixed weird bugs of notch hiding)
+Disabled NearbyMessaging and Discovery services (Were decreasing WiFi speed)
+Reworked APEX
+Re-enabled hwc vds in surface flinger (Fixes incorrect data/wifi use values and probably screencast)
+FPS Info redesigned (Now on XiaomiParts and improved how it looks)
+Enabled volte/vowifi/vilte for entire 460 mcc (Required for India & UP Airtel)
+Disabled ROM inbuilt LiveDisplay (We already have Kcal on XiaomiParts)
+RAM management improved a lot
+Kernel: Upstream to 4.4.279
+Kernel: Enabled PRLMK and ZRAM_writeback
+Kernel: Merged Tag 1.0.20210606 of wireguard
+Kernel: Merged Tag LA.UM.9.2.r1-03400-SDMxx0.0
+Kernel: Merged Tag LA.UM.9.2.r1-03500-SDMxx0.0
+Kernel: Fixed null pointer dereference in htt_rx_amsdu_rx_in_order_pop_ll() (Fixes random freezes)
+Kernel: Fixed reboots while reading/writing on SD Card from PC (SD Cards could get fucked cuz this, now works properly)
+Kernel: Config updated to 1.1
+Kernel: Some other improvements
+Other stability improvements as always
+
+ROM changes:
+====================================
+8/9
+Alert Slider: check for existing dialog before creating new
+KeyStore: Prevent NPE with trust manager service
+
+8/8
+Evolver: Add Rounded Corner styles
+Settings: Create new preview for dark theme styles
+Settings: Update Security Settings drawables from Android 12
+require unlocking to use hotspot quick tile
+require unlocking to use work mode tile
+soong: move header override to compiler.go
+telephony: show ICCID by default for all
+
+8/6
+AndroidSDP3ClockController: fix IndexOutOfBoundsException
+Settings: ColorBucketPreference: Nuke SettingsObserver
+SystemUI: Left align AOD notifications when required
+fixup! SystemUI: Left align owner info on some clocks
+fixup! keyguard: Introduce Android 12 ShapeShift clock
+
+
+8/5
+AppLock: Fix biometric prompt disappearing if app launched from resolver
+Evolver: Replace media notification background with artwork
+FODCircleView: Don't show on top of assistant UI
+FODCircleView: Ignore assistant UI when showing bouncer
+Improvements to QS player background artwork
+SystemUI: ditch unnecessary scaling in media notification background
+base: Match NFC statusbar icon with QS one
+display: Make Night Light transition more gradual
+keyguard: Introduce new Android 12 clock
+keyguard: Left align lock icon when required
+
+8/4
+ClockertinoClock: Add time refresh capabilities on AoD
+DataUsageView: Improvements and clean up
+Settings: Add preference for preferred refresh rate
+Settings: Move refresh rate settings into a separate fragment
+Settings: display: Add wake on plug switch
+SystemUI: Add ability to change font style for new clocks
+SystemUI: Fix volume panel animation when on left side
+VibratorService: bypass AppOps check
+ZipUtils: use FileChannel#size
+overlays: Add an OxygenOS icon pack
+telephony: Make IMS method updateToState accessible
+
+8/3
+InterruptionStateProvider: disable debugging
+Merge August 2021 Android security patches
+MiuiCompact Panel: Add alarm volume slider
+PixelPropsUtils: Update to August 2021 fingerprint
+
+8/2
+Do not show charging animation when disconnecting
+SystemUI: Remove unnecessary battery meter view impl in keyguard statusbar
+fixup! Charging sounds
+
+8/1
+Evolver: Rounded Corners: Cleanup and improvements
+Graphics: Fix NPE on GradientDrawable
+QS: RebootTile: Remember last mode
+SystemUI: Fix NPE on Volume panel plugins
+
+7/31
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+Settings: Add vibration patterns from OOS, Intensities and In-call Feedback
+Settings: Move custom vib pattern to its own preference
+Settings: Respect default vibration strength
+Settings: Update vibration patterns and add haptic feedback intensity
+Telecomm: Update ringer vibration patterns
+Telecomm: Use EFFECT_CLICK for vibrate on call connect
+fixup! Telecomm: In-call vibration haptics options
+
+7/28
+Evolver: Cleanup and improvements
+Settings: Add Android 12 search bar style toggle
+SystemUI: NetworkTraffic: Add notch check and allow devices to override
+SystemUI: NetworkTraffic: Minor refinements
+SystemUI: NetworkTrafficSB: Reduce font size a bit
+SystemUI: Reduce status bar network speed margins
+base: Improve FPS Info output formatting and performance
+fonts: Fix reference to Noto Sans Javanese
+
+
+7/27
+AccentUtils: Improve code
+
+7/26
+MediaResume: Set it to 0 by default to avoid UI glitch
+SettingsProvider: use READ_DEVICE_CONFIG permission
+
+7/25
+ColorBucket: Nuke Clear Spring style
+Evolver: Allow devices to hide black fill-in for display cutout
+Settings: Bring back old nav gesture options
+Settings: Revert Search bar style changes
+SystemUI: Add time refresh capabilities for S clock controllers
+SystemUI: Refresh QS page indicator layout when number of pages changes
+
+7/23
+BatteryMeterView: Fix logcat warning spam
+
+7/22
+Cleanup Zygote and USAP leftover changes
+Update translations
+
+7/18
+Drop the O_NOFOLLOW flag
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
+
+7/16
+Evolver: Turn off QS battery estimate by default
+
+7/14
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+DataSwitchTile: Improve the code
+Restore "bypass lockscreen after face unlock" preference
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
