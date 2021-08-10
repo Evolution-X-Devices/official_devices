@@ -1,17 +1,17 @@
 {
-   "datetime": 1626777548,
+   "datetime": 1628465687,
    "donate_url": "https://www.paypal.me/jjpprrrr",
    "error": false,
-   "filehash": "4ee4664501a102746f883dea8463c459",
-   "filename": "evolution_polaris-ota-rq3a.210705.001-07200639-unsigned.zip",
+   "filehash": "f4c710484f23c176f65d9a32e4c53bf6",
+   "filename": "evolution_polaris-ota-rq3a.210805.001.a1-08081935-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0-polaris-official-evolution-x-emerald-12-12-20.4101193/",
-   "id": "20c9a6a168dfbf5459220463a08f9e9890db2a03d6d77fe2ac72a0d5dacd8f24",
+   "id": "362bc2b51f3751a292d511b9c49031653bb95e244f23b3c4bc262172daa63f08",
    "maintainer": "Chenyang Zhong (jjpprrrr)",
    "maintainer_url": "https://forum.xda-developers.com/m/jjpprrrr.9585779/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1743893132,
+   "size": 1743619925,
    "telegram_username": "jjpprrrr",
-   "url": "https://sourceforge.net/projects/evolution-x/files/polaris/evolution_polaris-ota-rq3a.210705.001-07200639-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/polaris/evolution_polaris-ota-rq3a.210805.001.a1-08081935-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }

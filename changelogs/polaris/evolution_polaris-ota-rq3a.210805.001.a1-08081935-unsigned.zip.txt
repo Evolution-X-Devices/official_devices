@@ -1,0 +1,22 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.279
+  * CAF tag `LA.UM.9.3.r1-02800-sdm845.0`
+  * backported symbol export inside assembly from upstream
+  * backported modern annotations for assembly functions from upstream
+  * backported the latest version of ARM's optimized routines for arm64 from mainline kernel (Linux 5.13): memcmp, strcmp, strlen, strncmp, memcpy, memmove, and memchr
+  * backported support for tagged userspace pointers from upstream
+  * enabled driver for the Steam controller
+  * backported SELinux fixes and android-specific patches from Linux 4.14
+  * enabled fast multipliers and flatmem for arm64
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Updated WFD, DPM, IMS, and RIL system blobs from `LA.QSSI.11.0.r1-12100-qssi.0`
+- Updated display and media HAL from `LA.UM.9.3.r1-02800-sdm845.0`
+
+**Evolution X Update**
+- August security patch
+- Rounded corner styles for system dialogs
+- Hotspot and Work mode QS tiles only work after device is unlocked
+- A new clock style
+- A new OOS icon pack
+- Many under-the-hood fixes
