@@ -1,0 +1,61 @@
+Device changes:
+==============================
+
+No more flashing MODIFIED ZIP
+Cleanup fstab's
+Set proper model property based on region
+Cleaup devicesettings
+Update to August 2021 fingerprint
+
+------------------------------
+ROM changes:
+==============================
+Evolver: Introduce Brightness slider styles
+Evolver: Re-implement toggle to hide lock icon on lock screen
+LockIcon: Don't center on bouncer
+AudioSystem: startAudioSource: ensure port handle initialized
+BatteryMeterView: make sure to update battery text
+MediaCarouselController: update background when settings are changed
+Evolver: Add simple fade filter to the media artwork
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+keyguard: Fix null text on 12 clock after dismissing media
+vendor: Remove OPScreenRecord
+Alert Slider: check for existing dialog before creating new
+KeyStore: Prevent NPE with trust manager service
+Evolver: Add Rounded Corner styles
+Settings: Create new preview for dark theme styles
+Settings: Update Security Settings drawables from Android 12
+require unlocking to use hotspot quick tile
+require unlocking to use work mode tile
+soong: move header override to compiler.go
+telephony: show ICCID by default for all
+AndroidSDP3ClockController: fix IndexOutOfBoundsException
+Settings: ColorBucketPreference: Nuke SettingsObserver
+SystemUI: Left align AOD notifications when required
+fixup! SystemUI: Left align owner info on some clocks
+fixup! keyguard: Introduce Android 12 ShapeShift clock
+AppLock: Fix biometric prompt disappearing if app launched from resolver
+Evolver: Replace media notification background with artwork
+FODCircleView: Don't show on top of assistant UI
+FODCircleView: Ignore assistant UI when showing bouncer
+Improvements to QS player background artwork
+SystemUI: ditch unnecessary scaling in media notification background
+base: Match NFC statusbar icon with QS one
+display: Make Night Light transition more gradual
+keyguard: Introduce new Android 12 clock
+keyguard: Left align lock icon when required
+ClockertinoClock: Add time refresh capabilities on AoD
+DataUsageView: Improvements and clean up
+Settings: Add preference for preferred refresh rate
+Settings: Move refresh rate settings into a separate fragment
+Settings: display: Add wake on plug switch
+SystemUI: Add ability to change font style for new clocks
+SystemUI: Fix volume panel animation when on left side
+VibratorService: bypass AppOps check
+ZipUtils: use FileChannel#size
+overlays: Add an OxygenOS icon pack
+telephony: Make IMS method updateToState accessible
+InterruptionStateProvider: disable debugging
+Merge August 2021 Android security patches
+MiuiCompact Panel: Add alarm volume slider
+PixelPropsUtils: Update to August 2021 fingerprint

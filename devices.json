@@ -182,6 +182,20 @@
       ]
    },
    {
+      "brand": "Realme",
+      "codename": "RMX206X",
+      "name": "Realme 6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Sukrut4778",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-realme-6-pro-official-evolution-x-aosp-11-08-21.4218881"
+         }
+      ]
+   },
+   {
       "brand": "Xiaomi",
       "codename": "alioth",
       "name": "POCO F3",
