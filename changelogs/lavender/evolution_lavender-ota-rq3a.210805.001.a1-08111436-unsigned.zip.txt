@@ -1,0 +1,25 @@
+Device changes:
+Fully rebased device tree for increased stability
+Fixed network traffic in statusbar
+Slightly reworked DeviceSettings
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.9.1 - Infinity
+August security patches
+Fonts: Added OnePlus Sans
+Android S clock color can now set based on wallpaper
+The option to skip lockscreen after face unlock has been brought back
+Added Android 12 searchbar style toggle
+Evolver: Cleanup and improvements
+SystemUI: Fixed NPE on Volume panel plugins
+Evolver: Rounded Corners: Cleanup and improvements
+overlays: Added an OxygenOS icon pack
+SystemUI: Fixed volume panel animation when on left side
+DataUsageView: Improvements and clean up
+keyguard: Introduced new Android 12 clock
+Evolver: Replace media notification background with artwork
+AppLock: Fix biometric prompt disappearing if app launched from resolver
+Settings: Update Security Settings drawables from Android 12
+Evolver: Added Rounded Corner styles
+Evolver: Introduced Brightness slider styles
+Many smaller improvements and bugfixes :D
