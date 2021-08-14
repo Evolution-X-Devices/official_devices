@@ -1,0 +1,72 @@
+Maintainer changeover.
+
+DEVICE:
+
+To use this release you need:
+
+- update your firmware to 12.5.5
+- CLEAN FLASH
+
+ROM:
+
+8/11
+
+Evolver: Introduce Brightness slider styles
+
+Evolver: Re-implement toggle to hide lock icon on lock screen
+
+LockIcon: Don't center on bouncer
+
+
+8/10
+
+AudioSystem: startAudioSource: ensure port handle initialized
+
+BatteryMeterView: make sure to update battery text
+
+MediaCarouselController: update background when settings are changed
+
+Evolver: Add simple fade filter to the media artwork
+
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+
+keyguard: Fix null text on 12 clock after dismissing media
+
+vendor: Remove OPScreenRecord
+
+
+8/9
+
+Alert Slider: check for existing dialog before creating new
+
+KeyStore: Prevent NPE with trust manager service
+
+
+8/8
+
+Evolver: Add Rounded Corner styles
+
+Settings: Create new preview for dark theme styles
+
+Settings: Update Security Settings drawables from Android 12
+
+require unlocking to use hotspot quick tile
+
+require unlocking to use work mode tile
+
+soong: move header override to compiler.go
+
+telephony: show ICCID by default for all
+
+
+8/6
+
+AndroidSDP3ClockController: fix IndexOutOfBoundsException
+
+Settings: ColorBucketPreference: Nuke SettingsObserver
+
+SystemUI: Left align AOD notifications when required
+
+fixup! SystemUI: Left align owner info on some clocks
+
+fixup! keyguard: Introduce Android 12 ShapeShift clock
