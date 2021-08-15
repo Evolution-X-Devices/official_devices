@@ -1,0 +1,63 @@
+Happy Independence Day To All Our Indian Users :)
+
+Dirty Flash?? 
+Yes sir
+
+==============================
+Device changes:
+==============================
+Update Blobs to LA.UM.9.1.r1-10200-SMxxx0.0
+Addressed some denials
+Import Finetuned ACDB configs
+Checkout audio configs from LA.UM.9.1.r1-10600-SMxxx0.0
+
+------------------------------
+ROM changes:
+==============================
+AccentUtils: Improve code
+ColorBucket: Nuke Clear Spring style
+Do not show charging animation when disconnecting
+Evolver: Cleanup and improvements
+Graphics: Fix NPE on GradientDrawable
+MediaResume: Set it to 0 by default to avoid UI glitch
+Merge August 2021 Android security patches
+MiuiCompact Panel: Add alarm volume slider
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+PixelPropsUtils: Update to August 2021 fingerprint
+QS: RebootTile: Remember last mode
+Settings: Add Android 12 search bar style toggle
+Settings: Add vibration patterns from OOS, Intensities and In-call Feedback
+Settings: Bring back old nav gesture options
+Settings: Move custom vib pattern to its own preference
+Settings: Respect default vibration strength
+Settings: Update vibration patterns and add haptic feedback intensity
+SettingsProvider: use READ_DEVICE_CONFIG permission
+SystemUI: Add time refresh capabilities for S clock controllers
+SystemUI: Fix NPE on Volume panel plugins
+SystemUI: NetworkTraffic: Add notch check and allow devices to override
+SystemUI: NetworkTraffic: Minor refinements
+SystemUI: NetworkTrafficSB: Reduce font size a bit
+SystemUI: Reduce status bar network speed margins
+SystemUI: Refresh QS page indicator layout when number of pages changes
+SystemUI: Remove unnecessary battery meter view impl in keyguard statusbar
+Telecomm: Update ringer vibration patterns
+Telecomm: Use EFFECT_CLICK for vibrate on call connect
+base: Improve FPS Info output formatting and performance
+fixup! Charging sounds
+fixup! Telecomm: In-call vibration haptics options
+fonts: Fix reference to Noto Sans Javanese
+BatteryMeterView: Fix logcat warning spam
+Bluetooth: Add option to change eSCO Transport Unit Size to 16
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+Cleanup Zygote and USAP leftover changes
+DataSwitchTile: Improve the code
+Evolver: Turn off QS battery estimate by defaultDrop the O_NOFOLLOW flag
+OosPanel, P404Panel: Add missing style fallback
+PrivacyChip: Do not change view on expand
+Restore "bypass lockscreen after face unlock" preference
+Revert blur-related changes in frameworks/native
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
+Update translations
+settingslib: Tile: Add more checks if mMetaData is null
