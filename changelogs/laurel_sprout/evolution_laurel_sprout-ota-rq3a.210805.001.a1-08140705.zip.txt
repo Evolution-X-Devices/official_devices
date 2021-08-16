@@ -1,0 +1,205 @@
+Note:
+==============================
+This Build is Android 11 firmware based.
+
+You all will receive OTA Updates with Android 11 firmware support. So Android 10 firmware users don't update blindly.
+
+It is a signed build. Everyone is required to clean flash to experience the best output.
+
+You can expect incrimental OTA updates form next time.
+
+Anything regarding FOD is random, so don't expect any specific response. Two users on same build have different response.
+------------------------------
+Device changes:
+==============================
+Vector icons for AOD in XiaomiParts
+
+Offline charging LED indicator
+------------------------------
+ROM changes:
+==============================
+8/14
+TtsEngines: avoid crashes caused by null engine name
+
+8/11
+Evolver: Introduce Brightness slider styles
+Evolver: Re-implement toggle to hide lock icon on lock screen
+LockIcon: Don't center on bouncer
+
+8/10
+AudioSystem: startAudioSource: ensure port handle initialized
+BatteryMeterView: make sure to update battery text
+MediaCarouselController: update background when settings are changed
+Evolver: Add simple fade filter to the media artwork
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+keyguard: Fix null text on 12 clock after dismissing media
+vendor: Remove OPScreenRecord
+
+8/9
+Alert Slider: check for existing dialog before creating new
+KeyStore: Prevent NPE with trust manager service
+
+8/8
+Evolver: Add Rounded Corner styles
+Settings: Create new preview for dark theme styles
+Settings: Update Security Settings drawables from Android 12
+require unlocking to use hotspot quick tile
+require unlocking to use work mode tile
+soong: move header override to compiler.go
+telephony: show ICCID by default for all
+
+8/6
+AndroidSDP3ClockController: fix IndexOutOfBoundsException
+Settings: ColorBucketPreference: Nuke SettingsObserver
+SystemUI: Left align AOD notifications when required
+fixup! SystemUI: Left align owner info on some clocks
+fixup! keyguard: Introduce Android 12 ShapeShift clock
+
+
+8/5
+AppLock: Fix biometric prompt disappearing if app launched from resolver
+Evolver: Replace media notification background with artwork
+FODCircleView: Don't show on top of assistant UI
+FODCircleView: Ignore assistant UI when showing bouncer
+Improvements to QS player background artwork
+SystemUI: ditch unnecessary scaling in media notification background
+base: Match NFC statusbar icon with QS one
+display: Make Night Light transition more gradual
+keyguard: Introduce new Android 12 clock
+keyguard: Left align lock icon when required
+
+8/4
+ClockertinoClock: Add time refresh capabilities on AoD
+DataUsageView: Improvements and clean up
+Settings: Add preference for preferred refresh rate
+Settings: Move refresh rate settings into a separate fragment
+Settings: display: Add wake on plug switch
+SystemUI: Add ability to change font style for new clocks
+SystemUI: Fix volume panel animation when on left side
+VibratorService: bypass AppOps check
+ZipUtils: use FileChannel#size
+overlays: Add an OxygenOS icon pack
+telephony: Make IMS method updateToState accessible
+
+8/3
+InterruptionStateProvider: disable debugging
+Merge August 2021 Android security patches
+MiuiCompact Panel: Add alarm volume slider
+PixelPropsUtils: Update to August 2021 fingerprint
+
+8/2
+Do not show charging animation when disconnecting
+SystemUI: Remove unnecessary battery meter view impl in keyguard statusbar
+fixup! Charging sounds
+
+8/1
+Evolver: Rounded Corners: Cleanup and improvements
+Graphics: Fix NPE on GradientDrawable
+QS: RebootTile: Remember last mode
+SystemUI: Fix NPE on Volume panel plugins
+
+7/31
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+Settings: Add vibration patterns from OOS, Intensities and In-call Feedback
+Settings: Move custom vib pattern to its own preference
+Settings: Respect default vibration strength
+Settings: Update vibration patterns and add haptic feedback intensity
+Telecomm: Update ringer vibration patterns
+Telecomm: Use EFFECT_CLICK for vibrate on call connect
+fixup! Telecomm: In-call vibration haptics options
+
+7/28
+Evolver: Cleanup and improvements
+Settings: Add Android 12 search bar style toggle
+SystemUI: NetworkTraffic: Add notch check and allow devices to override
+SystemUI: NetworkTraffic: Minor refinements
+SystemUI: NetworkTrafficSB: Reduce font size a bit
+SystemUI: Reduce status bar network speed margins
+base: Improve FPS Info output formatting and performance
+fonts: Fix reference to Noto Sans Javanese
+
+
+7/27
+AccentUtils: Improve code
+
+7/26
+MediaResume: Set it to 0 by default to avoid UI glitch
+SettingsProvider: use READ_DEVICE_CONFIG permission
+
+7/25
+ColorBucket: Nuke Clear Spring style
+Evolver: Allow devices to hide black fill-in for display cutout
+Settings: Bring back old nav gesture options
+Settings: Revert Search bar style changes
+SystemUI: Add time refresh capabilities for S clock controllers
+SystemUI: Refresh QS page indicator layout when number of pages changes
+
+7/23
+BatteryMeterView: Fix logcat warning spam
+
+7/22
+Cleanup Zygote and USAP leftover changes
+Update translations
+
+7/18
+Drop the O_NOFOLLOW flag
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
+
+7/16
+Evolver: Turn off QS battery estimate by default
+
+7/14
+CarSystemUI: Exclude FODCircleViewImpl from UI components
+DataSwitchTile: Improve the code
+Restore "bypass lockscreen after face unlock" preference
+SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
+
+7/12
+Bluetooth: Add option to change eSCO Transport Unit Size to 16
+Revert blur-related changes in frameworks/native
+PrivacyChip: Do not change view on expand
+
+7/11
+Drop Extended, Add ShapeShift, P404 and OOS Volume panel styles
+Evolver: Add Status bar Lyric feature
+Evolver: On-The-Go Mode feature to Power menu options
+LyricTicker: hide TickerView after created
+Makefile: Remove Evolution X guard
+OmniStyle: Optimize images
+PhoneStatusBarPolicy: Show battery level for all devices
+PocketJudge: Allow to register vendor proximity sensor
+ResetPropsUtils: hook Apps for status bar lyric
+SystemUI: LyricTextView: add delay for text scrolling
+SystemUI: Properly align owner info on Android S clocks
+SystemUI: QS: Add On-The-Go Tile
+VolumePanel: Drop aosp plugin
+base: unhide flags used for status bar lyric
+fwb: silence *negative delta from freq time proc* log spam
+layout: android-s-clock: remove drop shadows
+optimize Notification ticker
+services: VibratorService: Add support for intensity control with Oneplus haptics motor
+vendor: Enable backuptool in some conditions
+
+7/10
+AndroidSClockController: set clock text color based on wallpapers
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+SystemUI: Move percentage to original placement
+Upstream fixes to Updater app
+vendor: Inline versioning to Google
+vendor: Revert to old OP Slate style
+
+7/9
+AndroidSClockController: fix NPE in onAnimationUpdate
+AndroidSClockController: fix NPE in setSlice
+Evolver: Add Flashlight blink on incoming calls feature
+Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk
+IDE clock: fix the C++ syntax and format
+Properly scale touch input window through resolution changes
+Revert "stagefright: remove Miracast sender code"
+base: enable doze by default (fix notifications not waking up the screen)
+fw_av: Attempt to fix screencast for our legacy qti devices
