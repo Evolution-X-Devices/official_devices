@@ -1,0 +1,25 @@
+NOTES: 
+1. ALWAYS BACKUP BEFORE UPDATING.
+2. Flash the vendor provided in the channel to experience all the points mentioned in the device changelog.
+3. If the user is DECRYPTED, don't forget to flash the DFE zip after flashing the Vendor (vendor_20_3.img) provided.
+4. If the user is PERMISSIVE, it is highly recommended to go enforcing before updating.
+
+Device changes:
+==============================
+- Fixed NFC
+- Fixed Google Play System Update and FPS Info for enforcing builds
+- Better Deep Sleep
+- Upstreamed kernel to 4.9.273 (by Kailash)
+- Fixed OK Google Detection
+- Misc Stability Fixes
+
+------------------------------
+ROM changes:
+==============================
+- Merge August 2021 Android security patches
+- Evo version bumped to 5.9.1 Infinity
+- Rounded Corners: Cleanup and improvements
+- Add Android 12 search bar style toggle
+- Add Android S style clock and switches
+- Applock Updates
+- Many many more changes!
