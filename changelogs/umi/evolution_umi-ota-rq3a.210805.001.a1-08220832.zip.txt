@@ -1,0 +1,84 @@
+  
+2021-08-22
+
+To use this release you need:
+
+- update your firmware to 12.5.6
+
+DEVICE:
+
+  * umi/cmi: update blobs and firmware to 12.5.6
+  * sm8250-common: audio: use AOSP volume tables
+  * Revert "sm8250-common: Switch audio policy to LA.UM.9.12.r1-08300-SMxx50.0"
+  * Revert "sm8250-common: audio: Switch to Qualcomm sound effects"
+  * sm8250-common: sepolicy: allow HBM to work
+  * sm8250-common: parts:  Add HBM qs tile
+  * sm8250-common: parts: Implement HBM switch
+  * Revert "sm8250-common: Implement SunlightEnhancement LiveDisplay HAL"
+  * sm8250-common: remove duplicated overlay
+  * Revert "sm8250-common: update audio props"
+  * sm8250-common: audio: audio: Remove effects that won't load
+  * sm8250-common: audio:  Remove USE_XML_AUDIO_POLICY_CONF
+  * sm8250-common: audio: cleanup config
+  * sm8250-common: parts: add localization from MIUI MiSound settings
+  * sm8250-common: parts: use single dirac_default string resource
+  * sm8250-common: parts: remove surplus headset pref value
+  * sm8250-common: parts: simplify DiracUtils initialization
+  * sm8250-common: parts: remove unused method in DiractUtils
+  * sm8250-common: parts: do not set Dirac settings during init
+  * sm8250-common: parts: add logging facility for Dirac sound enhancer
+  * sm8250-common: parts: use misoundfx effect uuid for Dirac sound enhancer
+  * sm8250-common: parts: Prevent NPE before DiracSound is initialized
+  * sm8250-common: parts: Add DiracSound backend
+  * sm8250-common: parts: Introduce Dirac preferences
+  * sm8250-common: system.prop: set prop for NFC DT
+  * sm8250-common: drop appended dtb kernel image
+  * sm8250-common: overlay: Force show network traffic on statusbar
+
+
+
+
+ROM:
+
+8/22
+
+MediaControlPanel: Slight rework on media art player
+
+SystemUI: Disable all-caps for smart reply button text
+
+SystemUI: Fix overlays resetting on every reboot
+
+TwilightService: Save and use last fetched location
+
+core: Wipe package cache on upgrade even on user build
+
+
+8/21
+
+base: SystemUI: halt LyricTicker after statusbar lyric disabled
+
+
+8/20
+
+AdaptiveCharging: Make sure resume level is lower than suspend level
+
+
+8/18
+
+Fix reading /proc/locks when lock is held by another process
+
+
+8/17
+
+FODCircleView: Always update FODAnimation position
+
+Reduce NotificationHistoryDatabase logspam
+
+SystemUI: overlay statusbar nfc icon in oos icon pack
+
+Update translations
+
+
+8/14
+
+TtsEngines: avoid crashes caused by null engine name
