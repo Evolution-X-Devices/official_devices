@@ -1,0 +1,60 @@
+Device:
+IMPORTANT: You MUST clean flash this build!! Please visit the xda thread for new installation instructions!
+BACKUP!
+
+
+Upgraded to full OOS 11 blobs
+Synced fstab with OOS 11
+Set default Settings.Global.DEVICE_NAME according to OOS
+Updated audio configs from OOS 11
+Enabled fbev2
+Dropped sdcardfs
+Switched to Lineage kernel (at least for now)
+Update build description from OOS 11
+Updated in pinned files
+Updated public.libraries.txt from OOS 11
+fod and touch: Aligned Android.bp with sm8250-common
+Build libtinycompress from source
+Set vibrator gain to 0x55 on boot
+Imported QTI vibrator HAL
+Implemented OOS style effects for LED vibrator
+Removed some unused/deprecated board flags
+Fixed permissions for ultrasound node
+Fixed permissions for /dev/input/event11
+Vibrator: Synced with upstream
+Switched to OOS volume steps
+Set BOARD_SUPPORTS_SOUND_TRIGGER to true
+Updated audio props
+Updated BT config
+Switched to prebuilt vendor libdisplayconfig.qti.so
+Enabled Project ID Quota support on userdata
+More stuff here and there that I forget
+
+Rom:
+
+Fix reading /proc/locks when lock is held by another process
+FODCircleView: Always update FODAnimation position
+Reduce NotificationHistoryDatabase logspam
+SystemUI: overlay statusbar nfc icon in oos icon pack
+Update translations
+Evolver: Introduce Brightness slider styles
+Evolver: Re-implement toggle to hide lock icon on lock screen
+LockIcon: Don't center on bouncer
+Evolver: Add Rounded Corner styles
+Settings: Create new preview for dark theme styles
+Settings: Update Security Settings drawables from Android 12
+require unlocking to use hotspot quick tile
+AppLock: Fix biometric prompt disappearing if app launched from resolver
+Evolver: Replace media notification background with artwork
+FODCircleView: Don't show on top of assistant UI
+FODCircleView: Ignore assistant UI when showing bouncer
+Improvements to QS player background artwork
+DataUsageView: Improvements and clean up
+Merge August 2021 Android security patches
+PixelPropsUtils: Update to August 2021 fingerprint
+SystemUI: Fix NPE on Volume panel plugins
+Evolver: Cleanup and improvements
+Settings: Add Android 12 search bar style toggle
+AccentUtils: Improve code
+ColorBucket: Nuke Clear Spring style
+More!
