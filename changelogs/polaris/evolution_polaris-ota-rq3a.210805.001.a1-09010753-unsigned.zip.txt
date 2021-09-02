@@ -1,0 +1,17 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.281
+  * fixed -mcpu target for kryo385 by dropping the dot product instructions
+  * tweaked the haptic intensity for the tick effect
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Rewrote the QTI aidl vibrator HAL to implement haptic effects for QPNP Haptics driver
+  * the vibrator can now perform predefined haptic effects instead of doing duration-based vibrations only
+  * some operations (the back gesture for example) will have new haptic feedbacks; some existing haptic feedbacks are more accurate and concise, like the long press on home screen and the silent/vibrate toggle in the volume panel
+- Enabled ThinLTO and Whole Program Devirtualization for display HAL
+
+**Evolution X Update**
+- A new gaming mode implementation
+- Option to choose among several brightness slider styles
+- Added Cloudflare DNS as a private DNS provider
+- Some improvements in volume panel styles
+- Misc fixes
