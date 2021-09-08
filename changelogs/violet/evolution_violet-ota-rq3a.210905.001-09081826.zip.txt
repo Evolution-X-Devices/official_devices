@@ -1,0 +1,40 @@
+Dirty Flash?? 
+Yes sir
+
+==============================
+Device changes:
+==============================
+Addressed some IMS logspam
+Increase Zram size to 3gigs
+Fixed Network Speed indicator
+Fixed incall volume control while in loudspeaker
+
+------------------------------
+ROM changes:
+==============================
+Merged Sept 2021 Android security patches
+PixelPropsUtils: Update to September 2021 fingerprint
+PixelPropsUtils: switch from redfin (Pixel 5) to barbet (Pixel 5a).
+Camera: fix possible nullptr on setCallbacks
+Settings: Adjust one shot auto-brightness strings
+Settings: Default device name to marketname if available
+Settings: notifications: Add title for Advanced settings
+SettingsProvider: Set device name to marketname if available
+WifiApConfigStore: Use device model as default hotspot SSID
+btif: Use marketname as BT device name if available
+sepolicy: Expose faceunlock prop for all
+sepolicy: Expose hal1 camera list prop
+wifi: Use marketname as hotspot SSID if available
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+GamingMode: Hide danmaku container immediately when config is changed
+GamingMode: Hide floating button after periods of time
+GamingMode: Limit the button coordinate to the inside of screen only
+PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+Settings: Allow to disable permissions hub
+SUPL: Don't send IMSI / Phone number to SUPL server
+SystemUI: Limit Keyguard charging stats updates
+base: SystemUI: add delete action for partial screenshot notification
+base: FPS Info: Make new formatting works with old kernel
+Add the support of the three fields in MMS/SMS database
+PowerUI: Mute logcat spam
