@@ -1,0 +1,174 @@
+Device changes:
+==============================
+Update build fp to RQ3A.210905.001
+Update graphics from LA.UM.9.1.r1-10900-SMxxx0.0
+Update blobs from 21.9.1
+Label sepolicy related to thermals in exTHmUI's GameMode performance control
+Launch Dirac activity on long QS tile press
+Add script for exTHmUI's GameMode performance control
+Add support for LCD HBM and CABC
+Kang memory optimizations from atoll
+Kang app compaction props from lahaina
+Add battery props from stock
+Override ccodec property in vendor
+Add Notch Bar Killer overlay
+nfc: Update flags for switching to NXP legacy MIFARE HAL
+nfc: Update storage path to /data/vendor/nfc
+Add proximityCheckOnWake
+allocate dedicated pcm node for in call recording
+Don't pin launcher app in memory
+Import batterysecret service from stock
+Boost GPU to max for expensive rendering
+Import CN translations
+Labelled many sepolicy denials
+Many misc changes and improvements
+------------------------------
+ROM changes:
+==============================
+9/7
+Merged Sept 2021 Android security patches
+PixelPropsUtils: Update to September 2021 fingerprint
+PixelPropsUtils: switch from redfin (Pixel 5) to barbet (Pixel 5a).
+
+9/7
+Camera: fix possible nullptr on setCallbacks
+Settings: Adjust one shot auto-brightness strings
+Settings: Default device name to marketname if available
+Settings: notifications: Add title for Advanced settings
+SettingsProvider: Set device name to marketname if available
+WifiApConfigStore: Use device model as default hotspot SSID
+btif: Use marketname as BT device name if available
+sepolicy: Expose faceunlock prop for all
+sepolicy: Expose hal1 camera list prop
+wifi: Use marketname as hotspot SSID if available
+
+9/6
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+
+8/31
+GamingMode: Hide danmaku container immediately when config is changed
+GamingMode: Hide floating button after periods of time
+GamingMode: Limit the button coordinate to the inside of screen only
+PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+Settings: Allow to disable permissions hub
+SUPL: Don't send IMSI / Phone number to SUPL server
+SystemUI: Limit Keyguard charging stats updates
+base: SystemUI: add delete action for partial screenshot notification
+
+8/28
+base: FPS Info: Make new formatting works with old kernel
+
+8/25
+Add the support of the three fields in MMS/SMS database
+PowerUI: Mute logcat spam
+
+8/24
+Add Cloudflare DNS as a private DNS provider
+Add IPv6 handling to dns cleartext allowlist
+Evolver: Update MIUI FOD animation names
+OOSPanel: Improve it
+P404Panel, ShapeShiftPanel: Don't show captions info tooltip
+Settings: Add support for global cleartext penalties
+Settings: DT2Doze: Move Preference to gesture settings
+Settings: Private DNS: add adguard DNS to private DNS
+kernel: Fix vdso32 building for 4.19+ kernels
+plugin: Set miui tap target size back to 46dip
+
+8/23
+APN: Fix Three UK / FreedomPop APN (MCC 234 MNC 20)
+Evolver: GamingMode: Add option for customizing menu opacity
+Evolver: Switch to exTHmUI’s GamingMode support
+Settings: Fix A12 Searchbar Style layout
+SystemUI: Make A12 DP3 clock bigger
+SystemUI: Remove QS drag handle
+SystemUI: export screenrecord.RecordingService for GamingMode
+SystemUI: move RecordingService into main process
+fixup! Keyguard: Allow disabling fingerprint wake-and-unlock
+overlays: overlay brightness thumb in oos icon pack
+overlays: sync some dimens in oos pack
+
+8/22
+MediaControlPanel: Slight rework on media art player
+SystemUI: Disable all-caps for smart reply button text
+SystemUI: Fix overlays resetting on every reboot
+TwilightService: Save and use last fetched location
+core: Wipe package cache on upgrade even on user build
+
+8/21
+base: SystemUI: halt LyricTicker after statusbar lyric disabled
+
+8/20
+AdaptiveCharging: Make sure resume level is lower than suspend level
+
+8/18
+Fix reading /proc/locks when lock is held by another process
+
+8/17
+FODCircleView: Always update FODAnimation position
+Reduce NotificationHistoryDatabase logspam
+SystemUI: overlay statusbar nfc icon in oos icon pack
+Update translations
+
+8/14
+TtsEngines: avoid crashes caused by null engine name
+
+8/11
+Evolver: Introduce Brightness slider styles
+Evolver: Re-implement toggle to hide lock icon on lock screen
+LockIcon: Don't center on bouncer
+
+8/10
+AudioSystem: startAudioSource: ensure port handle initialized
+BatteryMeterView: make sure to update battery text
+MediaCarouselController: update background when settings are changed
+Evolver: Add simple fade filter to the media artwork
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+keyguard: Fix null text on 12 clock after dismissing media
+vendor: Remove OPScreenRecord
+
+8/9
+Alert Slider: check for existing dialog before creating new
+KeyStore: Prevent NPE with trust manager service
+
+8/8
+Evolver: Add Rounded Corner styles
+Settings: Create new preview for dark theme styles
+Settings: Update Security Settings drawables from Android 12
+require unlocking to use hotspot quick tile
+require unlocking to use work mode tile
+soong: move header override to compiler.go
+telephony: show ICCID by default for all
+
+8/6
+AndroidSDP3ClockController: fix IndexOutOfBoundsException
+Settings: ColorBucketPreference: Nuke SettingsObserver
+SystemUI: Left align AOD notifications when required
+fixup! SystemUI: Left align owner info on some clocks
+fixup! keyguard: Introduce Android 12 ShapeShift clock
+
+
+8/5
+AppLock: Fix biometric prompt disappearing if app launched from resolver
+Evolver: Replace media notification background with artwork
+FODCircleView: Don't show on top of assistant UI
+FODCircleView: Ignore assistant UI when showing bouncer
+Improvements to QS player background artwork
+SystemUI: ditch unnecessary scaling in media notification background
+base: Match NFC statusbar icon with QS one
+display: Make Night Light transition more gradual
+keyguard: Introduce new Android 12 clock
+keyguard: Left align lock icon when required
+
+8/4
+ClockertinoClock: Add time refresh capabilities on AoD
+DataUsageView: Improvements and clean up
+Settings: Add preference for preferred refresh rate
+Settings: Move refresh rate settings into a separate fragment
+Settings: display: Add wake on plug switch
+SystemUI: Add ability to change font style for new clocks
+SystemUI: Fix volume panel animation when on left side
+VibratorService: bypass AppOps check
+ZipUtils: use FileChannel#size
+overlays: Add an OxygenOS icon pack
+telephony: Make IMS method updateToState accessible
