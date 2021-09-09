@@ -1,0 +1,44 @@
+Device changes:
+==============================
+* Updated MIUI blobs from MIUI 12.0.2.0.RCOMIXM 
+* Updated CAF blobs from LA.UM.9.11.r1-04500-NICOBAR.0
+* Boost I/O during bootup to improve boot speed
+* Boost CPU during wake for faster faceunlock
+* Increased default f2fs checkpoint interval
+* Increased hispeed freq for big cluster
+* Disabled conservative PL boost
+* Reverted AOSP's old VM settings tweaks
+* Added hbm and cabc mode in xiaomiparts
+* Upstreamed kernel to v4.14.246
+* Relaxed GPU undervolt a bit
+* merge LA.UM.9.11.r1-04700-NICOBAR.0 caf tag
+------------------------------
+ROM changes:
+==============================
+Camera: fix possible nullptr on setCallbacks
+Check for vintf compatibility early in generation process
+GamingMode: Hide danmaku container immediately when config is changed
+GamingMode: Hide floating button after periods of time
+GamingMode: Limit the button coordinate to the inside of screen only
+Merge September 2021 Android security patches
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+PixelPropsUtils: Update to September 2021 fingerprint
+PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+PowerUI: Mute logcat spam
+SUPL: Don't send IMSI / Phone number to SUPL server
+Settings: Adjust one shot auto-brightness strings
+Settings: Allow to disable permissions hub
+Settings: Default device name to marketname if available
+Settings: notifications: Add title for Advanced settings
+SettingsProvider: Set device name to marketname if available
+SystemUI: Limit Keyguard charging stats updates
+Version: Bump to 5.9.2 Sanctuary
+WifiApConfigStore: Use device model as default hotspot SSID
+base: SystemUI: add delete action for partial screenshot notification
+blur: Increase max number of render passes
+btif: Use marketname as BT device name if available
+build: Warn about prebuilt apk in PRODUCT_COPY_FILES
+sepolicy: Expose faceunlock prop for all
+sepolicy: Expose hal1 camera list prop
+wifi: Use marketname as hotspot SSID if available
