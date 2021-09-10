@@ -1,0 +1,53 @@
+Device changes:
+==============================
+* Switched To File Based Encryption (FBE)
+* Switched from QTI powerhal to Pixel's EAS Powerhal
+* Updated Wfd blobs from phoenix_sprout:11/RKQ1.201123.002/210641533e0c8:user/release-keys and Yeah Wfd fixed
+* Switch to mock thermal
+* Disable postrender cleanup
+* Added Google Photos App upon user's Request
+* Picked Some Chromatix Blobs from ASUS_X00TD-17.2017.2012.438
+* Switched to Camera2
+* Dropped nvram_btwifi
+* Moved ZenParts to System Settings
+* Silenced Some dmesg logspams
+* Disbled Iorapd Tracing With Perfetto
+* Added Boeffla wakelock blocker in Kernel
+
+Thanks to :
+ Vivekachooz for kernel base, Our Sidhant Parmar, testers.
+ 
+Notes :
+* Flash fberemove.zip if you dont want encryption
+* Users Need to Format Data After Flashing. So Backup Your Data Before Flashing
+* Use twrp 3.5 which is saved in group notes
+------------------------------
+ROM changes:
+==============================
+Camera: fix possible nullptr on setCallbacks
+Check for vintf compatibility early in generation process
+GamingMode: Hide danmaku container immediately when config is changed
+GamingMode: Hide floating button after periods of time
+GamingMode: Limit the button coordinate to the inside of screen only
+Merge September 2021 Android security patches
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+PixelPropsUtils: Update to September 2021 fingerprint
+PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+PowerUI: Mute logcat spam
+SUPL: Don't send IMSI / Phone number to SUPL server
+Settings: Adjust one shot auto-brightness strings
+Settings: Allow to disable permissions hub
+Settings: Default device name to marketname if available
+Settings: notifications: Add title for Advanced settings
+SettingsProvider: Set device name to marketname if available
+SystemUI: Limit Keyguard charging stats updates
+Version: Bump to 5.9.2 Sanctuary
+WifiApConfigStore: Use device model as default hotspot SSID
+base: SystemUI: add delete action for partial screenshot notification
+blur: Increase max number of render passes
+btif: Use marketname as BT device name if available
+build: Warn about prebuilt apk in PRODUCT_COPY_FILES
+sepolicy: Expose faceunlock prop for all
+sepolicy: Expose hal1 camera list prop
+wifi: Use marketname as hotspot SSID if available
