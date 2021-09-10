@@ -1,0 +1,145 @@
+Device changes:
+==============================
+Fixed random reboots
+Boost I/O during bootup to improve boot speed
+Optimised app launches
+Optimised ui lags
+Updated kernel to N.E.O.L.I.T-V3
+Added zram
+Updated redfin FP to September
+Fixed network toggle in status bar
+Some misc changes under the hood
+--------------------------------------------------
+ROM changes:
+==============================
+9/9
+
+Evolver: Update default FOD to A12 version
+
+FOD: Remove color filter from fod icons
+
+FOD: Use A12 fingerprint icon by default
+
+gms: Update Calculator and Clock from A12 Beta 5
+
+vendor: config: DEVICE_PACKAGE_OVERLAYS -> PRODUCT_PACKAGE_OVERLAYS
+
+
+9/8
+
+Check for vintf compatibility early in generation process
+
+Merge September 2021 Android security patches
+
+PixelPropsUtils: Update to September 2021 fingerprint
+
+Ticker: Adapt sysui notif context change for getIcon
+
+Version: Bump to 5.9.2 Sanctuary
+
+
+9/7
+
+Settings: Adjust one shot auto-brightness strings
+
+Settings: Default device name to marketname if available
+
+Settings: notifications: Add title for Advanced settings
+
+SettingsProvider: Set device name to marketname if available
+
+WifiApConfigStore: Use device model as default hotspot SSID
+
+btif: Use marketname as BT device name if available
+
+sepolicy: Expose faceunlock prop for all
+
+sepolicy: Expose hal1 camera list prop
+
+wifi: Use marketname as hotspot SSID if available
+
+
+9/6
+
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+
+
+8/31
+
+GamingMode: Hide danmaku container immediately when config is changed
+
+GamingMode: Hide floating button after periods of time
+
+GamingMode: Limit the button coordinate to the inside of screen only
+
+PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+
+Settings: Allow to disable permissions hub
+
+SUPL: Don't send IMSI / Phone number to SUPL server
+
+SystemUI: Limit Keyguard charging stats updates
+
+base: SystemUI: add delete action for partial screenshot notification
+
+
+8/28
+
+base: FPS Info: Make new formatting works with old kernel
+
+
+8/25
+
+Add the support of the three fields in MMS/SMS database
+
+PowerUI: Mute logcat spam
+
+
+8/24
+
+Add Cloudflare DNS as a private DNS provider
+
+Add IPv6 handling to dns cleartext allowlist
+
+Evolver: Update MIUI FOD animation names
+
+OOSPanel: Improve it
+
+P404Panel, ShapeShiftPanel: Don't show captions info tooltip
+
+Settings: Add support for global cleartext penalties
+
+Settings: DT2Doze: Move Preference to gesture settings
+
+Settings: Private DNS: add adguard DNS to private DNS
+
+kernel: Fix vdso32 building for 4.19+ kernels
+
+plugin: Set miui tap target size back to 46dip
+
+
+8/23
+
+APN: Fix Three UK / FreedomPop APN (MCC 234 MNC 20)
+
+Evolver: GamingMode: Add option for customizing menu opacity
+
+Evolver: Switch to exTHmUI’s GamingMode support
+
+Settings: Fix A12 Searchbar Style layout
+
+SystemUI: Make A12 DP3 clock bigger
+
+SystemUI: Remove QS drag handle
+
+SystemUI: export screenrecord.RecordingService for GamingMode
+
+SystemUI: move RecordingService into main process
+
+fixup! Keyguard: Allow disabling fingerprint wake-and-unlock
+
+overlays: overlay brightness thumb in oos icon pack
+
+overlays: sync some dimens in oos pack
