@@ -1,0 +1,127 @@
+Note:
+==============================
+This Build is Android 11 firmware based.
+
+You all will receive OTA Updates with Android 11 firmware support. So Android 10 firmware users don't update blindly.
+
+It is a signed build. Everyone is required to clean flash (last time) to experience the best output.
+
+You can expect incrimental OTA updates form next time (we require a file from older build which we don't have currently that's why can't provide incremental ota this time, now I have saved that file already).
+
+Anything regarding FOD is random, so don't expect any specific response. Two users on same build have different response.
+------------------------------
+Device changes:
+==============================
+Bluetooth aptX working fine (imported from Coral).
+(however, LDAC is not working)
+
+Handle ScreenOffFOD
+
+Fixed voice call volume not changing.
+
+Fixed NetworkTraffic indicator on statusbar.
+------------------------------
+ROM changes:
+==============================
+9/11
+Evolver: Nuke Notifications/Power menu background opacity feature
+Settings: Add Hotspot client manager from exTHmUI
+Settings: Bring back 'Do not validate' option in CA certificate spinner
+Settings: Privacy chip toggle requires SystemUI restart
+Settings: Remove support for global cleartext penalties
+netd: add MAC address firewall
+netd: fix: the order of firewallSetMACAddressRule api
+vendor: Remove force build fingerprint
+
+9/9
+Evolver: Update default FOD to A12 version
+FOD: Remove color filter from fod icons
+FOD: Use A12 fingerprint icon by default
+gms: Update Calculator and Clock from A12 Beta 5
+vendor: config: DEVICE_PACKAGE_OVERLAYS -> PRODUCT_PACKAGE_OVERLAYS
+
+9/8
+Check for vintf compatibility early in generation process
+Merge September 2021 Android security patches
+PixelPropsUtils: Update to September 2021 fingerprint
+Ticker: Adapt sysui notif context change for getIcon
+Version: Bump to 5.9.2 Sanctuary
+
+9/7
+Settings: Adjust one shot auto-brightness strings
+Settings: Default device name to marketname if available
+Settings: notifications: Add title for Advanced settings
+SettingsProvider: Set device name to marketname if available
+WifiApConfigStore: Use device model as default hotspot SSID
+btif: Use marketname as BT device name if available
+sepolicy: Expose faceunlock prop for all
+sepolicy: Expose hal1 camera list prop
+wifi: Use marketname as hotspot SSID if available
+
+9/6
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+
+8/31
+GamingMode: Hide danmaku container immediately when config is changed
+GamingMode: Hide floating button after periods of time
+GamingMode: Limit the button coordinate to the inside of screen only
+PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+Settings: Allow to disable permissions hub
+SUPL: Don't send IMSI / Phone number to SUPL server
+SystemUI: Limit Keyguard charging stats updates
+base: SystemUI: add delete action for partial screenshot notification
+
+8/28
+base: FPS Info: Make new formatting works with old kernel
+
+8/25
+Add the support of the three fields in MMS/SMS database
+PowerUI: Mute logcat spam
+
+8/24
+Add Cloudflare DNS as a private DNS provider
+Add IPv6 handling to dns cleartext allowlist
+Evolver: Update MIUI FOD animation names
+OOSPanel: Improve it
+P404Panel, ShapeShiftPanel: Don't show captions info tooltip
+Settings: Add support for global cleartext penalties
+Settings: DT2Doze: Move Preference to gesture settings
+Settings: Private DNS: add adguard DNS to private DNS
+kernel: Fix vdso32 building for 4.19+ kernels
+plugin: Set miui tap target size back to 46dip
+
+8/23
+APN: Fix Three UK / FreedomPop APN (MCC 234 MNC 20)
+Evolver: GamingMode: Add option for customizing menu opacity
+Evolver: Switch to exTHmUI’s GamingMode support
+Settings: Fix A12 Searchbar Style layout
+SystemUI: Make A12 DP3 clock bigger
+SystemUI: Remove QS drag handle
+SystemUI: export screenrecord.RecordingService for GamingMode
+SystemUI: move RecordingService into main process
+fixup! Keyguard: Allow disabling fingerprint wake-and-unlock
+overlays: overlay brightness thumb in oos icon pack
+overlays: sync some dimens in oos pack
+
+8/22
+MediaControlPanel: Slight rework on media art player
+SystemUI: Disable all-caps for smart reply button text
+SystemUI: Fix overlays resetting on every reboot
+TwilightService: Save and use last fetched location
+core: Wipe package cache on upgrade even on user build
+
+8/21
+base: SystemUI: halt LyricTicker after statusbar lyric disabled
+
+8/20
+AdaptiveCharging: Make sure resume level is lower than suspend level
+
+8/18
+Fix reading /proc/locks when lock is held by another process
+
+8/17
+FODCircleView: Always update FODAnimation position
+Reduce NotificationHistoryDatabase logspam
+SystemUI: overlay statusbar nfc icon in oos icon pack
+Update translations
