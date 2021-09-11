@@ -1,0 +1,22 @@
+Device changes:
+Dropped Thermal 1.0 and ThermalController in favor of Thermal 2.0 mock
+Replaced proprietary libqti-perfd-client with an OSS version for fingerprint readers
+EAS now gets enabled after boot completes, instead of early-boot
+Cleaned up makefiles and props
+Updated RIL from LA.UM.9.11.r1-03900-NICOBAR.0 and removed old RIL shim
+Added a proper config.fs mapping for imsdaemon
+Updated camera.provider to 2.6
+Adressed SELinux denials related to the new RIL stack and a few perfomance issues
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.9.2 - Sanctuary
+September security patches
+PixelPropUtils: Fixed SafetyNet by spoofing our device as a Pixel2 for GMS
+Keyguard: Fingerprint wake-and-unlock can now be disabled
+Evolver: Switched to GamingMode from exTHmUI
+Settings: DT2Doze: Moved Preference to gesture settings
+Settings: Add support for global cleartext penalties
+Added Cloudflare DNS as a private DNS provider
+gms: Updated Calculator and Clock from A12 Beta 5
+Settings: Added Hotspot client manager from exTHmUI
+Many bugfixes and various other improvements :D
