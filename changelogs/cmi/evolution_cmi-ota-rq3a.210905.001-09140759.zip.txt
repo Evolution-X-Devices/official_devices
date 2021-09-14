@@ -1,0 +1,73 @@
+  
+2021-08-10
+
+To use this release you need:
+
+- update your firmware to 12.5.7
+
+
+DEVICE:
+
+  * sm8250-common: wifi: Add parameters for Hotspot 2.0
+  * sm8250-common: Enable wifi 6GHz band
+  * sm8250-common: sepolicy: allow HBM to work
+  * sm8250-common: parts:  Add HBM qs tile
+  * sm8250-common: parts: Implement HBM switch
+
+KERNEL:
+
+  * latest linux stable
+
+ROM:
+
+9/14
+
+PixelPropsUtils: Improve code
+
+PixelPropsUtils: Invite streaming apps to the party
+
+SystemUI: Don't show charging animation if battery is charged
+
+
+9/13
+
+Disallow click to partial screenshot right after screenshot is taken
+
+FOD: Use sharper fod yellow pressed icon
+
+Settings: Don't show fp wake unlock preference for FOD devices
+
+SMP: Reject pairing if public_key.x match
+
+SystemUI: rework status bar burn-in protection controller
+
+
+9/12
+
+Settings: Legacy WFD output video mode settings
+
+Statusbar brightness control: fix changes not happening
+
+SystemUI: Redesign Media Player View
+
+fixup! SystemUI: Show bluetooth battery level when available
+
+
+9/11
+
+Evolver: Nuke Notifications/Power menu background opacity feature
+
+Settings: Add Hotspot client manager from exTHmUI
+
+Settings: Bring back 'Do not validate' option in CA certificate spinner
+
+Settings: Privacy chip toggle requires SystemUI restart
+
+Settings: Remove support for global cleartext penalties
+
+netd: add MAC address firewall
+
+netd: fix: the order of firewallSetMACAddressRule api
+
+vendor: Remove force build fingerprint
+
