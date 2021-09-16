@@ -1,0 +1,32 @@
+  
+2021-08-16
+
+To use this release you need:
+
+- update your firmware to 12.5.7
+
+
+DEVICE:
+
+  * update to pass safetynet
+
+
+ROM:
+
+9/16
+
+GestureNavigationSettings: Fix default values
+
+SystemUI: Unblock gestural navigation on clearScreenshot()
+
+
+9/15
+
+AndroidSClocks: Beautify it
+
+SystemUI: Change MediaPlayer margin to Android S style
+
+
+9/14
+
+SystemUI: Don't show charging animation if battery is charged
