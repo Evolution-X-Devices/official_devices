@@ -1,0 +1,26 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+
+==============================
+Device changes:
+------------------------------
+
+Fix CTS failing
+Upstream kernel to 4.9.282 (by Kailash)
+Misc Changes
+
+==============================
+ROM changes:
+------------------------------
+
+Bump version to 5.9.2 Sanctuary
+Merge September Security Patch
+AndroidSClocks: Beautify them
+Disallow click to partial screenshot right after screenshot is taken
+GestureNavigationSettings: Fix default values
+SMP: Reject pairing if public_key.x match
+Statusbar brightness control: fix changes not happening
+SystemUI: Change MediaPlayer margin to Android S style
+SystemUI: Don't show charging animation if battery is charged
+SystemUI: Enable three icon switching within QS DND tile
+SystemUI: Redesign Media Player View
+base: use a double click effect for charging if there is no amplitude control support
