@@ -1,0 +1,18 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.282
+  * reduced the intensity of TICK haptic effect
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Improved the double click haptic feedback to actually feel like a double click
+  * you can try it by putting a wrong finger on the fingerprint sensor
+- Added the missing libvpphcp.so
+- Tweaked the default thermal profile to hotplug two big CPU cores when the device is really hot
+  * in terms of thermal mitigation, offlining two CPU cores is a lot more effective than throttling frequencies
+  * when the device is under thermal pressure, having two big cores at relatively higher frequencies is generally more advantageous than having four big cores with lower frequencies
+  * the gaming profile (under Settings/Battery/Thermal profiles) remains unchanged
+
+**Evolution X Update**
+- September security patch
+- SafetyNet should be passing again
+- Hotspot client manager
+- Misc fixes
