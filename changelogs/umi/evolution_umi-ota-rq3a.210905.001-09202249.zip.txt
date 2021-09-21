@@ -1,0 +1,36 @@
+  
+2021-09-21
+
+To use this release you need:
+
+- CLEAN FLASH
+- update your firmware to 12.5.7
+
+
+DEVICE:
+
+  * sm8250-common: move display configs where they belong
+  * sm8250-common: move media configs where they belong
+  * sm8250-common: Switch audio policy to LA.UM.9.12.r1-08300-SMxx50.0
+  * sm8250-common: move audio config where it belongs
+  * sm8250-common: Switch to media_profiles_vendor from OP9R
+
+KERNEL:
+
+  * update to fix issue with ram managment
+
+ROM:
+
+9/19
+
+FOD: Adjust A12 FP icon stroke color
+
+9/18
+
+Evolver: Move rounded corners back to Themes category
+Evolver: Remove toggle to disable charging animation
+Evolver: Reorganize and add dividers
+Settings: Add resource network_5G_lte support
+Settings: Combine Double Tap settings into a single fragment
+Settings: Enable NetworkScan for 5G SA
+Settings: make navbar visibility tweaks more distinct
