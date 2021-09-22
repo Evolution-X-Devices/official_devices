@@ -1,0 +1,48 @@
+Device:
+
+Use average linear light for ALS correction
+Update ODM features list from latest OOS
+Few other small tweaks here and there
+
+Rom:
+
+FOD: Adjust A12 FP icon stroke color
+Evolver: Move rounded corners back to Themes category
+Evolver: Remove toggle to disable charging animation
+Evolver: Reorganize and add dividers
+Settings: Add resource network_5G_lte support
+Settings: Combine Double Tap settings into a single fragment
+Settings: Enable NetworkScan for 5G SA
+Settings: Make navbar visibility tweaks more distinct
+GestureNavigationSettings: Fix default values
+SystemUI: Enable three icon switching within QS DND tile
+SystemUI: Unblock gestural navigation on clearScreenshot()
+TaskSnapshotController: avoid NPE
+base: Use a double click effect for charging if there is no amplitude control support
+vendor: add OTA script to delete package cache
+AndroidSClocks: Beautify it
+SystemUI: Change MediaPlayer margin to Android S style
+SystemUI: Don't show charging animation if battery is charged
+Disallow click to partial screenshot right after screenshot is taken
+FOD: Use sharper fod yellow pressed icon
+SystemUI: rework status bar burn-in protection controller
+SystemUI: Redesign Media Player View
+Evolver: Nuke Notifications/Power menu background opacity feature
+Settings: Add Hotspot client manager from exTHmUI
+Evolver: Update default FOD to A12 version
+FOD: Remove color filter from fod icons
+FOD: Use A12 fingerprint icon by default
+gms: Update Calculator and Clock from A12 Beta 5
+Merge September 2021 Android security patches
+PixelPropsUtils: Update to September 2021 fingerprint
+Version: Bump to 5.9.2 Sanctuary
+PixelPropsUtils: Do not spoof the device as a Pixel for Pixel Buds
+PixelPropsUtils: Spoof Pixel 2 for GMS (aka Safetynet fix)
+GamingMode: Hide danmaku container immediately when config is changed
+GamingMode: Hide floating button after periods of time
+GamingMode: Limit the button coordinate to the inside of screen only
+Add Cloudflare DNS as a private DNS provider
+Settings: DT2Doze: Move Preference to gesture settings
+Evolver: Switch to exTHmUI’s GamingMode support
+Settings: Fix A12 Searchbar Style layout
+fixup! Keyguard: Allow disabling fingerprint wake-and-unlock
