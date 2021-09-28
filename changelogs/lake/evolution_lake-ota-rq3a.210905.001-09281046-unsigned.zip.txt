@@ -1,0 +1,27 @@
+Device changes:
+==============================
+
+Increase Mic Volume
+Fixed WFD (Wi-Fi Display)
+Fixed wierd behavior when listening to a whatsapp audio and switch to another app.
+Changed Kernel from Pixel-Experience's kernel to latest Cybertron Kernel.
+*all overclock that come with cybertron was removed*
+Blur is more smooth than before
+Fixed FPS INFO
+Fixed some graphic glitches
+
+
+------------------------------
+ROM changes:
+==============================
+Evolver: Add seekbar for Left/Right statusbar Paddings
+LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+September security patches
+PixelPropUtils: Fixed SafetyNet by spoofing our device as a Pixel2 for GMS
+Keyguard: Fingerprint wake-and-unlock can now be disabled
+Settings: DT2Doze: Moved Preference to gesture settings
+Settings: Add support for global cleartext penalties
+Added Cloudflare DNS as a private DNS provider
+gms: Updated Calculator and Clock from A12 Beta 5
+Settings: Added Hotspot client manager from exTHmUI
+Many bugfixes and various other improvements :D
