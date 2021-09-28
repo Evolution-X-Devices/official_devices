@@ -71,20 +71,6 @@
    },
    {
       "brand": "Motorola",
-      "codename": "sanders",
-      "name": "Moto G5S Plus",
-      "supported_versions": [
-         {
-            "maintainer_name": "Mayur Varde",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9134270",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-evolution-x-moto-g5s-plus-24-11-20-t4194279"
-         }
-      ]
-   },
-   {
-      "brand": "Motorola",
       "codename": "liber",
       "name": "One Fusion+",
       "supported_versions": [
