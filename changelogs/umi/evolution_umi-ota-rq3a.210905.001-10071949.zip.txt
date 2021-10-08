@@ -1,0 +1,113 @@
+  
+2021-09-21
+
+To use this release you need:
+
+- update your firmware to 12.5.8
+
+
+DEVICE:
+
+  * Minor update to match MIUI 12.5.8
+  * Final A11 release
+
+KERNEL:
+
+  * kernel rebased to fix issue with ram managment
+
+ROM:
+
+10/3
+
+VolumeDialogImpl: Prevent Ringer Mode from changing by volume slider on OnePlus devices
+
+apns: Update APNs for Chinese carriers
+
+
+9/30
+
+BrightnessSynchronizer: make brightness tolerance overlay-able
+
+Fix google widget timing issue
+
+SystemUI: fix volume dialog position on TV
+
+
+9/27
+
+FODCircleView: use onTimeChanged for burn-in protection
+
+LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+
+KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+
+SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+
+SystemUI: NetworkTraffic: Remove notch check
+
+
+9/26
+
+FOD: Use sharper fod green pressed icon
+
+Settings: Improve A12-styled Search bar layout
+
+SystemUI: Fix stuttering/jank related to media player control buttons
+
+SystemUI: Reorder default QS Tiles
+
+
+9/25
+
+AudioFlinger: Make Direct AudioTrack behavior more flexible for underrun
+
+Camera: allow device to append camera parameters
+
+EdgeBackGestureHandler: use tick instead of heavy tick for back gesture
+
+Fix some haptic issues with gestural navigation
+
+GamingMode: Fix danmaku container layoutParam on config changed
+
+GamingMode: Fix views obscuring other window that needs interaction
+
+GamingMode: Mark date/time format strings as non-translatable
+
+Settings: Refactor firmware version window
+
+SystemUI: LyricTicker: Follow status bar padding
+
+SystemUI: Ticker: Follow status bar padding
+config: Adjust some values
+
+config: Cleanup additional gralloc bits
+
+config: Remove force build fingerprint
+
+
+9/23
+
+PixelPropsUtils: Remove some packages
+
+
+9/22
+
+Evolver: Add left and right virtual buttons while typing (for old navbar layout)
+
+Evolver: Add toggle for floating notification dismiss button
+
+Evolver: GamingMode: Add option to disable menu overlay
+
+Evolver: Launch EasterEgg activity when logo is clicked in about section
+
+FODCircleView: Update animation position on circle showing when dreaming
+
+PixelPropsUtils: bring samsung accessory service to the list
+
+Settings: Add our Easter Egg into our ROM version preference
+
+Settings: Make IME button space optional
+
+SystemUI: Bring back AOSP Cellular tile icon
+
+SystemUI: Update battery info every second when device is charging
