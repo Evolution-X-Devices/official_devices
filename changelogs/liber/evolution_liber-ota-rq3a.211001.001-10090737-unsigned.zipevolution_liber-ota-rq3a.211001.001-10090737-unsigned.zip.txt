@@ -1,0 +1,28 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+
+==============================
+Device changes:
+------------------------------
+Added Enable swipe fp for notifications 
+Google Assistant button Remapping
+
+==============================
+Other changes:
+------------------------------
+Added moto actions in sm6150-common(No need of seperate hardware/motorola)
+
+==============================
+ROM changes:
+------------------------------
+
+BrightnessSynchronizer: make brightness tolerance overlay-able
+FODCircleView: use onTimeChanged for burn-in protection
+Fix google widget timing issue
+KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+Merge Android 11 October 2021 security patch
+SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+SystemUI: NetworkTraffic: Remove notch check
+SystemUI: fix volume dialog position on TV
+VolumeDialogImpl: Prevent Ringer Mode from changing by volume slider on OnePlus devices
+apns: Update APNs for Chinese carriers
