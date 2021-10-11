@@ -1,0 +1,32 @@
+==============================
+Device changes:
+------------------------------
+Fixed QS Incorrect battery level
+Update qti-telephony-common from LA.UM.9.6.2.r1-04100-89xx.0
+Add PixelLiveWallpaper
+Moved telephony, FM, ANT+ related blobs and packages to /system_ext 
+Update qti-telephony-common from LA.UM.9.6.2.r1-04100-89xx.0
+Enable volte and vowifi for more mnc of 404,405 mcc
+Synced with latest VELOCITY kernel changes
+
+==============================
+ROM changes:
+------------------------------
+
+BrightnessSynchronizer: make brightness tolerance overlay-able
+FODCircleView: use onTimeChanged for burn-in protection
+Fix google widget timing issue
+KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+Merge Android 11 October 2021 security patch
+SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+SystemUI: NetworkTraffic: Remove notch check
+SystemUI: fix volume dialog position on TV
+VolumeDialogImpl: Prevent Ringer Mode from changing by volume slider on OnePlus devices
+apns: Update APNs for Chinese carriers
+
+===============================
+NOTE:
+-------------------------------
+
+Those who want to lock bootloader, Kindly Flash latest PE Recovery before locking
