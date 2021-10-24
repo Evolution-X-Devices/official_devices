@@ -1,0 +1,28 @@
+Device changes:
+Tuned ZRAM perfomance
+Updated Widevine blobs from jasmine V11.0.28.0.QDMIXM
+Updated graphics blobs from taimen RP1A.201005.004
+Cleaned up the device tree quite a bit
+Addressed some general SELinux denials
+Moved TetheringOverlay and WifiOverlay to vendor as per AOSP docs
+VoLTE and VoWiFi is now enabled for all carriers, regardless of known support
+Reconfigured DexPreopt to be quicker
+Enabled scroll pre-rendering for added smoothness
+Fixed echo in VoIP calls and fixed mic issues for some apps
+Switched to new IR HIDL/HAL
+Improved fingeprint unlock speed
+Dropped broken QCOM WFD
+A lot more stuff, there's been ! 93 commits ! in the common device-tree alone since the last release
+-------------------------------------------------------
+Source changes:
+EvolutionX 5.9.3 - Ocean
+November security patches
+SystemUI: Redesigned media player view
+Beautified Android S clocks
+Evolver: Moved rounded corners back to Themes
+Added the EvolutionX easter egg :)
+Settings: Improved A12-style Search bar layout
+SystemUI: Fixed stutter/jank related to media player controls
+Updated APNs for Chinese carriers
+Settings: Added Hotspot WPA3 settings
+Many bugfixes and various other improvements :D
