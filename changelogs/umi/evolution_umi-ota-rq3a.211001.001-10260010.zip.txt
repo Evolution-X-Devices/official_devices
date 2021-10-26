@@ -1,0 +1,41 @@
+  
+2021-26-10
+
+To use this release you need:
+
+- update your firmware to 12.5.8
+
+
+KERNEL:
+
+  * Fixed all issues from previous release
+
+ROM:
+
+10/16
+
+Add wifi standard to WifiEntry.ConnectedInfo
+
+Nfc: Type confusion due to race condition on tag type change
+
+PixelPropsUtils: Update to October 2021 fingerprint
+
+QSMedia: Align media player buttons properly
+
+Settings: Add Hotspot WPA3 Settings
+
+Settings: Display WiFi Version number
+
+Settings: Change Network detail string form TYPE to Type
+
+SystemUI: Increase top padding of media switch
+
+apn: Fix FreedomPop UK
+
+apn: Update Vodafone NL
+
+apn: Update giffgaff APN
+
+fixup! missing changes haptic issues with gestural navigation
+
+vendor: gms: Add pixel_experience_2021_midyear.xml
