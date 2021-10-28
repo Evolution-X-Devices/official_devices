@@ -1,0 +1,150 @@
+====================================
+       CLEAN FLASH MANDATORY!
+             FDE TO FBE
+ READ TELEGRAM GROUP FOR MORE INFO
+====================================
+
+Device changes:
+====================================
+Trees rebased (I removed a lot of unnecessary commits)
+Back to FBE encryption (Do a clean flash or flash dm verity + DFE after the update)
+Custom EAS kernels are finally fixed using FBE!
+Fixed the weird hang (this time 100%)
+Switched to AOSP WFD
+Imported IR HAL
+Some power-libperfmgr improvements
+Switched to LineageOS kernel (HMP)
+Kernel upstreamed to 4.4.289
+Brutal improvement of RAM consumption and performance
+More misc changes
+
+Final Android 11 release, see you on snow!
+
+ROM changes:
+====================================
+10/16
+Add wifi standard to WifiEntry.ConnectedInfo
+Nfc: Type confusion due to race condition on tag type change
+PixelPropsUtils: Update to October 2021 fingerprint
+QSMedia: Align media player buttons properly
+Settings: Add Hotspot WPA3 Settings
+Settings: Display WiFi Version number
+Settings: Change Network detail string form TYPE to Type
+SystemUI: Increase top padding of media switch
+apn: Fix FreedomPop UK
+apn: Update Vodafone NL
+apn: Update giffgaff APN
+fixup! missing changes haptic issues with gestural navigation
+vendor: gms: Add pixel_experience_2021_midyear.xml
+
+10/9
+Merge Android 11 October 2021 security patch
+
+10/3
+VolumeDialogImpl: Prevent Ringer Mode from changing by volume slider on OnePlus devices
+apns: Update APNs for Chinese carriers
+
+9/30
+BrightnessSynchronizer: make brightness tolerance overlay-able
+Fix google widget timing issue
+SystemUI: fix volume dialog position on TV
+
+9/27
+FODCircleView: use onTimeChanged for burn-in protection
+LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+SystemUI: NetworkTraffic: Remove notch check
+
+9/26
+FOD: Use sharper fod green pressed icon
+Settings: Improve A12-styled Search bar layout
+SystemUI: Fix stuttering/jank related to media player control buttons
+SystemUI: Reorder default QS Tiles
+
+9/25
+AudioFlinger: Make Direct AudioTrack behavior more flexible for underrun
+Camera: allow device to append camera parameters
+EdgeBackGestureHandler: use tick instead of heavy tick for back gesture
+Fix some haptic issues with gestural navigation
+GamingMode: Fix danmaku container layoutParam on config changed
+GamingMode: Fix views obscuring other window that needs interaction
+GamingMode: Mark date/time format strings as non-translatable
+Settings: Refactor firmware version window
+SystemUI: LyricTicker: Follow status bar padding
+SystemUI: Ticker: Follow status bar padding
+config: Adjust some values
+config: Cleanup additional gralloc bits
+config: Remove force build fingerprint
+
+9/23
+PixelPropsUtils: Remove some packages
+
+9/22
+Evolver: Add left and right virtual buttons while typing (for old navbar layout)
+Evolver: Add toggle for floating notification dismiss button
+Evolver: GamingMode: Add option to disable menu overlay
+Evolver: Launch EasterEgg activity when logo is clicked in about section
+FODCircleView: Update animation position on circle showing when dreaming
+PixelPropsUtils: bring samsung accessory service to the list
+Settings: Add our Easter Egg into our ROM version preference
+Settings: Make IME button space optional
+SystemUI: Bring back AOSP Cellular tile icon
+SystemUI: Update battery info every second when device is charging
+
+9/19
+FOD: Adjust A12 FP icon stroke color
+
+9/18
+Evolver: Move rounded corners back to Themes category
+Evolver: Remove toggle to disable charging animation
+Evolver: Reorganize and add dividers
+Settings: Add resource network_5G_lte support
+Settings: Combine Double Tap settings into a single fragment
+Settings: Enable NetworkScan for 5G SA
+Settings: Make navbar visibility tweaks more distinct
+
+9/16
+GestureNavigationSettings: Fix default values
+SystemUI: Enable three icon switching within QS DND tile
+SystemUI: Unblock gestural navigation on clearScreenshot()
+TaskSnapshotController: avoid NPE
+base: Use a double click effect for charging if there is no amplitude control support
+vendor: add OTA script to delete package cache
+
+9/15
+AndroidSClocks: Beautify it
+SystemUI: Change MediaPlayer margin to Android S style
+
+9/14
+SystemUI: Don't show charging animation if battery is charged
+
+9/13
+Disallow click to partial screenshot right after screenshot is taken
+FOD: Use sharper fod yellow pressed icon
+Settings: Don't show fp wake unlock preference for FOD devices
+SMP: Reject pairing if public_key.x match
+SystemUI: rework status bar burn-in protection controller
+
+9/12
+Settings: Legacy WFD output video mode settings
+Statusbar brightness control: fix changes not happening
+SystemUI: Redesign Media Player View
+fixup! SystemUI: Show bluetooth battery level when available
+
+9/11
+Evolver: Nuke Notifications/Power menu background opacity feature
+Settings: Add Hotspot client manager from exTHmUI
+Settings: Bring back 'Do not validate' option in CA certificate spinner
+Settings: Privacy chip toggle requires SystemUI restart
+Settings: Remove support for global cleartext penalties
+netd: add MAC address firewall
+netd: fix: the order of firewallSetMACAddressRule api
+vendor: Remove force build fingerprint
+
+9/9
+Evolver: Update default FOD to A12 version
+FOD: Remove color filter from fod icons
+FOD: Use A12 fingerprint icon by default
+gms: Update Calculator and Clock from A12 Beta 5
+vendor: config: DEVICE_PACKAGE_OVERLAYS -> PRODUCT_PACKAGE_OVERLAYS
