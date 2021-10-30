@@ -1,0 +1,49 @@
+Device:
+
+NOTE: This is likely the last Android 11 build/update
+-Just a few minor tweaks this month
+
+Rom:
+
+Add wifi standard to WifiEntry.ConnectedInfo
+Nfc: Type confusion due to race condition on tag type change
+PixelPropsUtils: Update to October 2021 fingerprint
+QSMedia: Align media player buttons properly
+Settings: Add Hotspot WPA3 Settings
+Settings: Display WiFi Version number
+Settings: Change Network detail string form TYPE to Type
+SystemUI: Increase top padding of media switch
+apn: Fix FreedomPop UK
+apn: Update Vodafone NL
+apn: Update giffgaff APN
+fixup! missing changes haptic issues with gestural navigation
+vendor: gms: Add pixel_experience_2021_midyear.xml
+Merge Android 11 October 2021 security patch
+VolumeDialogImpl: Prevent Ringer Mode from changing by volume slider on OnePlus devices
+apns: Update APNs for Chinese carrier
+BrightnessSynchronizer: make brightness tolerance overlay-able
+Fix google widget timing issue
+SystemUI: fix volume dialog position on TV
+FODCircleView: use onTimeChanged for burn-in protection
+LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+SystemUI: NetworkTraffic: Remove notch check
+FOD: Use sharper fod green pressed icon
+Settings: Improve A12-styled Search bar layout
+SystemUI: Fix stuttering/jank related to media player control buttons
+SystemUI: Reorder default QS Tiles
+AudioFlinger: Make Direct AudioTrack behavior more flexible for underrun
+Camera: allow device to append camera parameters
+EdgeBackGestureHandler: use tick instead of heavy tick for back gesture
+Fix some haptic issues with gestural navigation
+GamingMode: Fix danmaku container layoutParam on config changed
+GamingMode: Fix views obscuring other window that needs interaction
+GamingMode: Mark date/time format strings as non-translatable
+Settings: Refactor firmware version window
+SystemUI: LyricTicker: Follow status bar padding
+SystemUI: Ticker: Follow status bar padding
+config: Adjust some values
+config: Cleanup additional gralloc bits
+config: Remove force build fingerprint
+PixelPropsUtils: Remove some packages
