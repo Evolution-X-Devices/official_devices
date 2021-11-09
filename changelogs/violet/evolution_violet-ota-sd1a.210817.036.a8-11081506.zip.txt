@@ -1,0 +1,18 @@
+Note: Rom is decrypted by default 
+Encrypted users have to format data to flash this build because encrytion is broken for now in A12 violet
+Recommended OrangeFox A12 recovery(Unofficial one)
+
+==============================
+Flashing Steps
+==============================
+Wipe cache,dalvik cache,system,vendor,data
+Flash rom
+Reboot
+
+Device changes:
+==============================
+None
+------------------------------
+ROM changes:
+==============================
+Initial Android 12 Release
