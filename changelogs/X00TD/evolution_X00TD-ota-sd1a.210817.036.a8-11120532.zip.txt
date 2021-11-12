@@ -1,0 +1,18 @@
+==============================
+Note
+==============================
+Build is Permissive
+Rom is decrypted by default 
+Encrypted users have to format data to flash this build because encrytion is broken for now
+
+==============================
+Flashing Steps
+==============================
+Wipe cache,dalvik cache,system,vendor,data
+Flash rom
+Reboot
+
+==============================
+Changelogs
+==============================
+Initial Android 12 build
