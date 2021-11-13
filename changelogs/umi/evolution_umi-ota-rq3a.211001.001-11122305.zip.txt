@@ -1,0 +1,18 @@
+  
+2021-11-13
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+
+
+KERNEL:
+
+  * Fixed issues from previous release
+  * Rebased kernel on latest caf tag
+
+ROM:
+
+  * My Birthday release (13/11) :)
+  * Final A11 release
+
