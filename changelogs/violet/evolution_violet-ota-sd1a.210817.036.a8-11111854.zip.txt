@@ -1,0 +1,35 @@
+Note: Rom is decrypted by default 
+You can dirty flash if your on previous EvolutionX a12 build
+Recommended OrangeFox A12 recovery(Unofficial one)
+
+Device changes:
+==============================
+Switch to Azure prebuilt kernel
+Enable 64-bit inode version support for ext4
+Support F2FS compressions and garbage collector
+Implement build signing
+Cleanup redundant policies
+Add physical button/sensor locations
+------------------------------
+ROM changes:
+==============================
+Revert "NotificationShade should animate away on MODE_UNLOCK_COLLAPSING"
+Delegate DeviceConfig permissions to custom provisioning service
+Evolver: Add better battery styles and customizations
+Evolver: Add toggle to disable battery estimates in QS
+Evolver: Bring back old style mobile data indicators
+Evolver: Remove extra array for network traffic
+Evolver: Statusbar brightness control
+Import SystemUIGoogleOverlay
+Settings: Allow to customize notification led light
+Settings: Fix notification led crashing notif led window
+Settings: Forward port lock pattern grid size
+Settings: Forward port pattern visibility settings
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: QS: Add CPUInfo toggle tile
+SystemUI: Remove nav bar background in QS customizer
+SystemUI: Update Bluetooth battery level assets
+Themes: Fix volume panel not following monet colors
+core: Blacklist P21 experience system feature from Google Photos
