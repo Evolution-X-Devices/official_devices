@@ -1,0 +1,11 @@
+**Device Changes:**
+- Etude kernel: Op.11 No.5
+  * Linux 4.9.290
+  * DO NOT use a third party kernel without proper support for Pixel thermal hal
+- Fixed the smoothness of brightness transitions
+  * brightness now changes in the smallest steps possible, so lower brightness range adjustment no longer feels choppy
+  * the effect is similar to the hack at the end of android10, but the implementation is much better
+
+**Evolution X Update**
+- November security patch
+- Misc fixes and improvements
