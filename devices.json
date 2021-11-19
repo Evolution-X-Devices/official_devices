@@ -412,10 +412,10 @@
       "supported_versions": [
          {
             "maintainer_name": "Hemant Sachdeva",
-            "maintainer_url": "https://forum.xda-developers.com/m/hemant-sachdeva.7888530/",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/official-rom-11-evolutionx-5-4-04-02-2021.4193431/"
+            "maintainer_url": "https://github.com/HemantSachdeva",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/official-rom-12-evolutionx-6-0-18-11-2021.4193431/"
          }
       ]
    },

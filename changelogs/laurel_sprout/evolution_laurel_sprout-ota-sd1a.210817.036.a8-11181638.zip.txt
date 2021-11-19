@@ -1,0 +1,8 @@
+Initial Android 12 Release.
+
+Things you should know:
+SELinux status is permissive.
+Safetynet passes out of the box.
+Switched to ICE encryption because AES is not working.
+FOD works fine (with those lockscreen wallpaper hacks).
+XiaomiParts included.
