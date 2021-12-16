@@ -1,0 +1,100 @@
+  
+2021-12-16
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+
+DEVICE:
+
+  * Fod fixes 
+  * Dynamic thermal is back
+  * Minor changes
+
+KERNEL:
+
+  * Merged CAF LA.UM.9.12.r1-13500.01-SMxx50.QSSI12.0 tag
+
+ROM:
+
+12/17
+
+Evolver: Add VoWiFi icon support
+
+Evolver: Optional VoWiFi icon styles
+
+
+12/16
+
+PixelPropsUtils: Invite streaming apps to the party
+
+SystemUI: theme: Override modulated dark QS background color
+
+
+12/15
+
+NavigationBar: Prevent a rare crash
+
+vendor: apns: Add auth_type explanation
+
+vendor: apns: Correct Telia
+
+vendor: apns: Fix wrong IPV4 protocols
+
+vendor: apns: Remove unused "spn" attribute
+
+
+12/14
+
+Add show|hide udfps view callbacks to IBiometricsFingerprint@2.3
+
+Partially merge December 2021 security patches
+
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+
+PixelPropsUtils: Update raven fingerprint to December 2021
+
+Settings: Double tap to trigger doze
+
+Settings: DoubleTapGesture: Use new material-you illustration preference
+
+Settings: VolumeMusicControl: Use new material-you illustration preference
+
+SystemUI: follow colorSurface for alertslider background
+
+SystemUI: implement alertslider dialogs
+
+SystemUI: rewrite alertslider classes in kt and improve overall
+
+services: fonts: use a simple sha512 hash based file verification system
+
+
+12/13
+
+PackageInfo: Optimize ApplicationInfo creation
+
+SystemUI: Reduce screenshot dismiss delay to 2 seconds
+
+
+12/12
+
+Allow additional padding for center clock
+
+Make center clock follow paddingTop
+
+QSPanel: Don't crash when not using media player
+
+SystemUI: Fix NPE in NotificationPanelViewController
+
+SystemUI: Fix signal bar icon overlay issue
+
+timedetector: Disable lower bound check
+
+
+12/11
+
+Camera:Fix the memory leak caused during HFR mode
+
+Toast: fix layer leak
+
+ViewRootImpl:Fix CountDownLatch.await block
