@@ -1,0 +1,144 @@
+NOTE: Do not dirty flash from Android 11. Do clean flash.
+Use latest TWRP from noted in device group.
+Device changes:
+==============================
+Updated FP to SQ1D.211205.016.A1
+Uprev to 2.3 FP HAL
+Added FPS Info
+and some misc changes
+------------------------------
+ROM changes:
+==============================
+12/17
+Evolver: Add VoWiFi icon support
+Evolver: Add optional VoWiFi icon styles
+Merge final December 2021 security patches
+Settings: Add custom vibration intensity preferences
+Settings: Align user avatar with homepage title
+SystemUI: Restart SystemUI on changing combined signal icons
+SystemUIGoogle: Update from SQ1D.211205.016.A1
+
+12/16
+PixelPropsUtils: Invite streaming apps to the party
+SystemUI: theme: Override modulated dark QS background color
+
+12/15
+NavigationBar: Prevent a rare crash
+vendor: apns: Add auth_type explanation
+vendor: apns: Correct Telia
+vendor: apns: Fix wrong IPV4 protocols
+vendor: apns: Remove unused "spn" attribute
+
+12/14
+Add show|hide udfps view callbacks to IBiometricsFingerprint@2.3
+Partially merge December 2021 security patches
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+PixelPropsUtils: Update raven fingerprint to December 2021
+Settings: Double tap to trigger doze
+Settings: DoubleTapGesture: Use new material-you illustration preference
+Settings: VolumeMusicControl: Use new material-you illustration preference
+SystemUI: follow colorSurface for alertslider background
+SystemUI: implement alertslider dialogs
+SystemUI: rewrite alertslider classes in kt and improve overall
+services: fonts: use a simple sha512 hash based file verification system
+
+12/13
+PackageInfo: Optimize ApplicationInfo creation
+SystemUI: Reduce screenshot dismiss delay to 2 seconds
+
+12/12
+Allow additional padding for center clock
+Make center clock follow paddingTop
+QSPanel: Don't crash when not using media player
+SystemUI: Fix NPE in NotificationPanelViewController
+SystemUI: Fix signal bar icon overlay issue
+timedetector: Disable lower bound check
+
+12/11
+Camera:Fix the memory leak caused during HFR mode
+Toast: fix layer leak
+ViewRootImpl:Fix CountDownLatch.await block
+
+12/9
+SystemUI: use google sans font for lockscreen clock
+base: Add Touch HIDL support
+config: Disable Async MTE on System Server
+device_config: Import missing configs from ProtonAOSP
+device_config: Show setting to disable location indicators
+device_config: Update Live Caption configs for Pixel 6
+fwb: silence statx boot spam
+vendor: Add custom grayscale icons and maps for PixelLauncher
+vendor: charger: Import latest offline charging animation
+
+12/8
+Evolver: Allow hiding call strength icons
+Evolver: Allow to suppress notifications sound/vibration if screen is on
+SystemUI: Update keyguard clock metrics for GSans Clock font
+Update translations
+
+12/7
+Evolver: Add ability to toggle bluetooth battery level
+Evolver: Add case to quick pull down status bar anywhere
+NotificationPanelViewController: Fix DT2S gesture handling
+NotificationPanelViewController: set FLAG_IMMUTABLE for edge lightning
+Permissions: Grant Mediascanner access permissions to external storage
+
+12/6
+ActivityThread: Remove Failed to find provider info logspam
+PowerUI: Mute logcat spam
+Reduce NotificationHistoryDatabase logspam
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+core: check if the logical light is null before using it
+overlay: SystemUI: Use Monet colors for power menu
+remove duplicate hide battery feature from tuner
+
+12/5
+NetworkProviderSettings: Prevent Wifi Manager NPE
+Settings: Make Quick Unlock compatible with long PIN/Password
+SystemUI: updated bluetooth icons from oos
+
+12/4
+Evolver: Add Ambient Edge Lighting settings
+Evolver: Add DND & Rate settings to flash on call
+Evolver: Add Flashlight blink on incoming calls
+Evolver: Allow hiding notification headers
+Evolver: Allow scheduling always on display
+Evolver: Allow to flash on call only when entirely silent
+Evolver: AODSchedule: Add support for mixed time & sun modes
+PixelPropsUtils: Whitelist Google Dialer
+Screenrecord: Update custom settings dialog drawables
+Settings: Allow customizing volume dialog timeout
+
+12/3
+Evolver: Adapt master switch layout to A12
+PixelPropsUtils: Spoof Pixel XL for Google Photos
+Settings: allow changing the length of gesture navbar
+TtsEngines: avoid crashes caused by null engine name
+base: TtsEngines: fix yet another NPE
+fonts: Redo custom fonts
+fonts: update with SD1A Raven
+overlays: declare the right overlay category
+
+12/2
+Allow changing monet settings from The Evolver
+Evolver: Add back theming stuff
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Make font overlay persistent across reboots
+Settings: OverlayCategoryPreferenceController: Sort overlays by name
+
+12/1
+Evolver: Clean up power menu options
+Fix an issue in NPMS blockedReasons computation logic
+Fix the case where restricted mode allowed reasons are ignored
+SystemUI: Don't confuse rotation with orientation
+styles: Use user fonts for Material UI themes
+
+11/28
+KeyStore: Add getApplicationContext method required for Asus Devices
+SystemUI: Use new privacy indicators for location
+
+11/25
+Re-implement Volume Long Press Skip Tracks feature
+Settings: Allow hiding navbar
+SystemUI: Fix NetworkTraffic UI on expanded QS
+SystemUI: Use DT2W setting also to wake from AOD
