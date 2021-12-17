@@ -1,0 +1,57 @@
+=====================================
+Device Changelogs:
+=====================================
+Build is Enforcing and decrypted !
+Updated DRM blobs from ddv_sprout  and Fixed DRM issues
+Switched to AOSP WFD
+Fixed Chrome Crashing Issues
+Added ZenParts
+Fixed StatusBar padding
+Powerhint Improvements
+Fixed Audio recording in video mode for some gcams 
+power-libperfmgr: Update from android-12.0.0_r13
+
+=====================================
+Kernel Changelogs:
+=====================================
+Merged tag "LA.UM.9.2.r1-03700-SDMxx0.0"
+Switched to Non LED Based Vibration
+net: Import wireguard v1.0.20211208
+Introduced cpu_input_boost
+Suppress some logspams 
+Introduced devfreq_boost
+
+=====================================
+ROM Changelogs:
+=====================================
+Evolver: Add VoWiFi icon support
+Evolver: Optional VoWiFi icon styles
+PixelPropsUtils: Invite streaming apps to the party
+SystemUI: theme: Override modulated dark QS background color
+NavigationBar: Prevent a rare crash
+vendor: apns: Add auth_type explanation
+vendor: apns: Correct Telia
+vendor: apns: Fix wrong IPV4 protocols
+vendor: apns: Remove unused "spn" attribute
+Add show|hide udfps view callbacks to IBiometricsFingerprint@2.3
+Partially merge December 2021 security patches
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+PixelPropsUtils: Update raven fingerprint to December 2021
+Settings: Double tap to trigger doze
+Settings: DoubleTapGesture: Use new material-you illustration preference
+Settings: VolumeMusicControl: Use new material-you illustration preference
+SystemUI: follow colorSurface for alertslider background
+SystemUI: implement alertslider dialogs
+SystemUI: rewrite alertslider classes in kt and improve overall
+services: fonts: use a simple sha512 hash based file verification system
+PackageInfo: Optimize ApplicationInfo creation
+SystemUI: Reduce screenshot dismiss delay to 2 seconds
+Allow additional padding for center clock
+Make center clock follow paddingTop
+QSPanel: Don't crash when not using media player
+SystemUI: Fix NPE in NotificationPanelViewController
+SystemUI: Fix signal bar icon overlay issue
+timedetector: Disable lower bound check
+Camera:Fix the memory leak caused during HFR mode
+Toast: fix layer leak
+ViewRootImpl:Fix CountDownLatch.await block
