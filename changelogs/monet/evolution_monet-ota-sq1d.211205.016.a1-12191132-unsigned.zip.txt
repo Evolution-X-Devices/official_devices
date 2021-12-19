@@ -1,0 +1,121 @@
+NOTE: Use the latest A11 firmware for your device variant as it is required.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+
+Device changes:
+==============================
+sm7250-common: Align android.software.vulkan.deqp.level with stock
+sm7250-common: Re-configure CPU variant according to GS101
+sm7250-common: Move renderengine to threaded skia
+sm7250-common: Fix parts in S
+sm7250-common: fingerprint: Add on show\hide udfps overlays
+sm7250-common: Remove config_jitzygoteBootImagePinnerServiceFiles list
+sm7250-common: Enable vibration multiple intensities
+sm7250-common: remove unwanted packages
+sm7250-common: Switch rendering to SkiaVK
+sm7250-common: Source APNs from Pixel CarrierSettings
+sm7250-common: wifi: Disable RX wakelock feature
+sm7250-common: wifi: Ignore tracking if any NUD failure occurs
+sm7250-common: wifi: Enable nl broadcast logging and disable packet logging
+sm7250-common: wifi: Relax WiFi re-association RSSI thresholds
+sm7250-common: Add more DPM props
+sm7250-common: use phase offsets as duration.
+sm7250-common: rootdir: Set default thermal profile to '0'
+sm7250-common: Build mock hidl power stats
+sm7250-common: Add a PowerHAL extension
+sm7250-common: Switch to QTI Power HAL
+*also updated more blobs to CAF
+------------------------------
+ROM changes:
+==============================
+Evolver: Add VoWiFi icon support
+Evolver: Add optional VoWiFi icon styles
+Merge final December 2021 security patches
+Settings: Add custom vibration intensity preferences
+Settings: Align user avatar with homepage title
+SystemUI: Restart SystemUI on changing combined signal icons
+SystemUIGoogle: Update from SQ1D.211205.016.A1
+PixelPropsUtils: Invite streaming apps to the party
+SystemUI: theme: Override modulated dark QS background color
+NavigationBar: Prevent a rare crash
+vendor: apns: Add auth_type explanation
+vendor: apns: Correct Telia
+vendor: apns: Fix wrong IPV4 protocols
+vendor: apns: Remove unused "spn" attribute
+Add show|hide udfps view callbacks to IBiometricsFingerprint@2.3
+Partially merge December 2021 security patches
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+PixelPropsUtils: Update raven fingerprint to December 2021
+Settings: Double tap to trigger doze
+Settings: DoubleTapGesture: Use new material-you illustration preference
+Settings: VolumeMusicControl: Use new material-you illustration preference
+SystemUI: follow colorSurface for alertslider background
+SystemUI: implement alertslider dialogs
+SystemUI: rewrite alertslider classes in kt and improve overall
+services: fonts: use a simple sha512 hash based file verification system
+PackageInfo: Optimize ApplicationInfo creation
+SystemUI: Reduce screenshot dismiss delay to 2 seconds
+Allow additional padding for center clock
+Make center clock follow paddingTop
+QSPanel: Don't crash when not using media player
+SystemUI: Fix NPE in NotificationPanelViewController
+SystemUI: Fix signal bar icon overlay issue
+timedetector: Disable lower bound check
+Camera:Fix the memory leak caused during HFR mode
+Toast: fix layer leak
+ViewRootImpl:Fix CountDownLatch.await block
+SystemUI: use google sans font for lockscreen clock
+base: Add Touch HIDL support
+config: Disable Async MTE on System Server
+device_config: Import missing configs from ProtonAOSP
+device_config: Show setting to disable location indicators
+device_config: Update Live Caption configs for Pixel 6
+fwb: silence statx boot spam
+vendor: Add custom grayscale icons and maps for PixelLauncher
+vendor: charger: Import latest offline charging animation
+Evolver: Allow hiding call strength icons
+Evolver: Allow to suppress notifications sound/vibration if screen is on
+SystemUI: Update keyguard clock metrics for GSans Clock font
+Update translations
+Evolver: Add ability to toggle bluetooth battery level
+Evolver: Add case to quick pull down status bar anywhere
+NotificationPanelViewController: Fix DT2S gesture handling
+NotificationPanelViewController: set FLAG_IMMUTABLE for edge lightning
+Permissions: Grant Mediascanner access permissions to external storage
+ActivityThread: Remove Failed to find provider info logspam
+PowerUI: Mute logcat spam
+Reduce NotificationHistoryDatabase logspam
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+core: check if the logical light is null before using it
+overlay: SystemUI: Use Monet colors for power menu
+remove duplicate hide battery feature from tuner
+NetworkProviderSettings: Prevent Wifi Manager NPE
+Settings: Make Quick Unlock compatible with long PIN/Password
+SystemUI: updated bluetooth icons from oos
+Evolver: Add Ambient Edge Lighting settings
+Evolver: Add DND & Rate settings to flash on call
+Evolver: Add Flashlight blink on incoming calls
+Evolver: Allow hiding notification headers
+Evolver: Allow scheduling always on display
+Evolver: Allow to flash on call only when entirely silent
+Evolver: AODSchedule: Add support for mixed time & sun modes
+PixelPropsUtils: Whitelist Google Dialer
+Screenrecord: Update custom settings dialog drawables
+Settings: Allow customizing volume dialog timeout
+Evolver: Adapt master switch layout to A12
+PixelPropsUtils: Spoof Pixel XL for Google Photos
+Settings: allow changing the length of gesture navbar
+TtsEngines: avoid crashes caused by null engine name
+base: TtsEngines: fix yet another NPE
+fonts: Redo custom fonts
+fonts: update with SD1A Raven
+overlays: declare the right overlay category
+Allow changing monet settings from The Evolver
+Evolver: Add back theming stuff
+Settings: Improve OverlayCategoryPreferenceController for icon packs
+Settings: Make font overlay persistent across reboots
+Settings: OverlayCategoryPreferenceController: Sort overlays by name
+Evolver: Clean up power menu options
+Fix an issue in NPMS blockedReasons computation logic
+Fix the case where restricted mode allowed reasons are ignored
+SystemUI: Don't confuse rotation with orientation
+styles: Use user fonts for Material UI themes
