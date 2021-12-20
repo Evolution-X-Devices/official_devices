@@ -1,0 +1,17 @@
+The latest Evolution-X based on Android 12 is now rolling out!
+
+NOTE: OTA updating would fail. Do not dirty flash from Android 11. Clean Flash is necessary.
+
+==============================
+Device changes:
+==============================
+- Initial Release based on Android 12
+- Implemented Signed Build
+- Added padding so clock doesn't cutout
+- Upstream kernel to 4.9.292 (by Kailash)
+
+==============================
+ROM changes:
+==============================
+- Evo 6.0 Snow based on Android 12
+- December Security Patch
