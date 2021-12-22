@@ -1,0 +1,69 @@
+Device changes:
+==============================
+Kernel upstreamed to 4.14.258 and merged LA.UM.9.11.r1-05000-NICOBAR.QSSI12.0 CAF tag
+Switched to pixel libperfmgr for boosting
+Enabled FUSE passthrough mode
+Updated miui blobs to V12.5.1.0.RCOMIXM
+Fixed a bug with volume control on compressed audio playback
+Switched to Vulkan UI renderer
+------------------------------
+ROM changes:
+==============================
+ActivityThread: Remove Failed to find provider info logspam
+Allow additional padding for center clock
+Camera:Fix the memory leak caused during HFR mode
+Evolver: Add VoWiFi icon support
+Evolver: Add ability to toggle bluetooth battery level
+Evolver: Add case to quick pull down status bar anywhere
+Evolver: Add optional VoWiFi icon styles
+Evolver: Allow hiding call strength icons
+Evolver: Allow to suppress notifications sound/vibration if screen is on
+Merge December 2021 security patches
+NavigationBar: Prevent a rare crash
+NetworkProviderSettings: Prevent Wifi Manager NPE
+NotificationPanelViewController: Fix DT2S gesture handling
+NotificationPanelViewController: set FLAG_IMMUTABLE for edge lightning
+PackageInfo: Optimize ApplicationInfo creation
+Permissions: Grant Mediascanner access permissions to external storage
+PixelPropsUtils: Invite streaming apps to the party
+PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+PowerUI: Mute logcat spam
+QSPanel: Don't crash when not using media player
+Reduce NotificationHistoryDatabase logspam
+Settings: Add custom vibration intensity preferences
+Settings: Align user avatar with homepage title
+Settings: Bring back Double tap to trigger doze
+Settings: DoubleTapGesture: Use new material-you illustration preference
+Settings: Improve protected sensitive info in about phone
+Settings: Make Quick Unlock compatible with long PIN/Password
+Settings: VolumeMusicControl: Use new material-you illustration preference
+SystemUI: Fix NPE in NotificationPanelViewController
+SystemUI: Fix signal bar icon overlay issue
+SystemUI: No longer use DT2W setting to wake from AOD (resolves battery drain issues)
+SystemUI: Reduce screenshot dismiss delay to 2 seconds
+SystemUI: Restart SystemUI on changing combined signal icons
+SystemUI: Update keyguard clock metrics for GSans Clock font
+SystemUI: follow colorSurface for alertslider background
+SystemUI: theme: Override modulated dark QS background color
+SystemUI: updated bluetooth icons from oos
+SystemUI: use google sans font for lockscreen clock (requires GSans Magisk module)
+SystemUIGoogle: Update from SQ1D.211205.016.A1
+Toast: fix layer leak
+Update translations
+ViewRootImpl:Fix CountDownLatch.await block
+config: Disable Async MTE on System Server
+core: check if the logical light is null before using it
+device_config: Import missing configs from ProtonAOSP
+device_config: Show setting to disable location indicators
+device_config: Update Live Caption configs for Pixel 6
+fwb: silence statx boot spam
+overlay: SystemUI: Use Monet colors for power menu
+remove duplicate hide battery feature from tuner
+services: fonts: use a simple sha512 hash based file verification system
+timedetector: Disable lower bound check
+vendor: Add custom grayscale icons and maps for PixelLauncher
+vendor: apns: Add auth_type explanation
+vendor: apns: Correct Telia
+vendor: apns: Fix wrong IPV4 protocols
+vendor: apns: Remove unused "spn" attribute
+vendor: charger: Import latest offline charging animation
