@@ -1,0 +1,18 @@
+Note: 
+- Formatting data and clean flash are required if you come from android 11. Please do not update through OTA if you are on android 11.
+- Encryption is disabled for various reasons. You can keep using the latest TWRP or OrangeFox, but please follow the clean flash guide carefully.
+
+**Device Changes:**
+- Etude kernel: Op.12 No.1
+  * Linux 4.9.294
+  * Merged CAF tag `LA.UM.10.3.r1-00500-sdm845.0`
+  * DO NOT use another kernel. Just don't.
+- Raised the minimal CPU frequencies for INTERACTION hint
+  * reduce jank when scrolling through lots of images and videos
+- Enabled haptic feedback when pulling down notification panel from the status bar
+- Dropped unused entries from mixer paths and audio platform info config
+- Many other fixes and improvements from my other android 12 builds
+
+**Evolution X Update**
+- December security patch
+- Various features are added back gradually
