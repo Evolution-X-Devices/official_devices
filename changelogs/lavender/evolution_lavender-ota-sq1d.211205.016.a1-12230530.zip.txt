@@ -1,0 +1,30 @@
+Device changes:
+A lot of stuff has been adapted for A12 (stuff like changing API levels, AIDL versions etc.)
+Switched to QTI keymaster, updated gatekeeper
+Stopped building ATRACE cuz' it doesn't work
+Uprevved radio and DRM
+Switched to Audio HAL v7
+Updated SEPolicy rules for A12
+Nuked datastatusnotification.apk, because it broke dual SIM
+Cleaned up Bluetooth stuff to be fully "AOSP-ified", added LC3 support for bluetoothaudio
+Dropped TetheringOverlay because we use BPF in kernel now, thus we don't need it
+Moved the lights HAL from HIDL to AIDL
+Added graphics.allocator@3.0/@4.0
+Added prebuilt cgroups/task_profiles to fix CPU power management under A12
+Switched to AIDL Pixel Powerstats HAL, because the old one doesn't work under A12
+Decommonized partition sizes for each sdm660 device (to be able to ship more GApps etc.)
+Rearranged props from ProductConfig to BoardConfig to fix props being set in 2nd stage init
+Updated some props to fix ScreenRecord stutter in A12
+Updated init scripts to abide by A12 docs
+Removed some obsolete Zygote configs from overlays
+Adapted IFAAManager for A12
+Adapted DeviceSettings to the Android 12 Settings style
+Added back thermal settings into DeviceSettings
+Updated and cleaned up powerhint
+Switched to QTI Thermal and Health HALs
+Many more smaller changes :)
+-------------------------------------------------------
+Source changes:
+EvolutionX 6.0 - Snow
+December security patches
+Basically everything has been redone, so it's really hard to list changes here, however, quite a bit of customization has been introduced by now
