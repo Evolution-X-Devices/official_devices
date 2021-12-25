@@ -1,0 +1,27 @@
+Notes: 
+Rom is decrypted by default
+You need to format data for this build because of F2FS compression and upstream stuffs from panchajanya1999 sir
+No format data, No support :)
+
+Flashing steps:
+Wipe cache, dalvik cache, system, data, vendor
+Flash Rom
+Format data
+Reboot
+
+Enjoy your christmas with EvolutionX violet update ;)
+
+This build you're receiving is evolution_violet-ota-sq1d.211205.016.a1-12240707.zip.
+
+Changes:
+Latest Evolution X source changes
+Updated Blobs of gps, Alaram, Time, DSP, QMI, CNE, Radio, ImsRadio
+Updated Azure kernel to latest
+Added back Dirac and FPS Info
+Tuned vibration 
+Added RGB color mode
+Added neural networks
+Added notch bar killer
+Improved perfomance and stability
+Addressed some logspams
+Fixed offline charging animation
