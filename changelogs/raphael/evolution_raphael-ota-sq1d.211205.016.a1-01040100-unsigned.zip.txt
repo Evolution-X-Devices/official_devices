@@ -1,0 +1,62 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+NOTE: Use the latest A11 firmware for your device variant as it is required.
+
+Device changes:
+==============================
+Add notification LED support
+Define acdb ids for voice recorder (fixes Google Recorder issue)
+Disable blanks after doze (fixes Android 12 lockscreen animation)
+Disable night light on FOD by default
+Disable WiFi Aware feature
+Don't set build fingerprint
+Enable TARGET_QTI_USB_SUPPORTS_AUDIO_ACCESSORY
+Enable support for Bluetooth hearing aids
+Let system start up popup camera service
+Refactor Power HAL extension
+Revert ADSP & CDSP blobs to avoid nonstop crashes (fixes battery drain)
+Set VENDOR_SECURITY_PATCH to platform
+Set config_wifiDisplaySupportsProtectedBuffers to false
+Upstream to latest Soviet kernel
+------------------------------
+ROM changes:
+==============================
+Advanced nav gestures: improve code and fix glitches
+Allow back swipe on bottom screen if launcher is showing
+Allow extended/"L" back swipe to trigger actions/app/activities
+AppErrors: Respect appsNotReportingCrashes for ANRs
+BatteryMeterView: Remove the icon view if we are not using it
+BatteryMeterView: fix NPE when changing the scale factor
+Camera: Ignore torch status update for aux or composite camera
+CompositionEngine: Request device composition for the Udfps touched layer
+Core: Extend Pixel experience Blacklist For Google Photos (fixes unlimited storage dialog)
+Evolver: Add Vivo X60 Pro VoLTE Icon
+Evolver: Allow user to disable night light on FOD
+Evolver: Bring back FOD pressed colors
+Evolver: Bring back Power Menu Torch option
+Evolver: Forward-port notification counters
+Evolver: Move Ambient Music Ticker to Settings app
+Evolver: Remove unwanted VoLTE/VoWiFi icons
+Extended swipe: show a double arrow when almost triggered
+Fix concurrency issue with BatteryUsageStats
+Fix net traffic view being white on QQS Header
+Implement backup/restore for network policy
+Include saved battery history chunks into BatteryUsageStats parcel
+InputMethodUtils: Fix system bootloop when no IME found
+LongSwipeGestures: Vibrate on action if gesture haptic feedback enabled
+Restore cache clean up code in PackageManagerService
+Split network policy XML parsing into read/write helper functions
+SystemUI: Add missing initial call to updateResources in brightness mirror
+SystemUI: Fix keyguard clock/status and AOD layouts without smartspace
+SystemUI: Hide clock in qqs headerbase: Edit persist.camera.privapp.list to match with current property
+SystemUI: Mute a rare SystemUI crash in NavigationBarView
+SystemUI: Remove unused resources
+ThemeOverlayApplier: Catch a potential NPE
+UI: Adjust default navbar layouts
+UI: Use SNAP_FIXED_RATIO for multi-window globally
+camera: Skip HFR checks for privileged apps
+fwb: Allow temp overriding state of battery led
+fwb: Start device specific popup camera service conditionally
+gms: Don't include prebuilt YouTube and YT Music
+gms: Include Adaptive charging sysconfig
+gms: grant gms WRITE_DEVICE_CONFIG permission
