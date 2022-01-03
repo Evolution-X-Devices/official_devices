@@ -1,0 +1,29 @@
+Note: 
+- Formatting data and clean flash are required if you come from android 11. Please do not update through OTA if you are on android 11.
+- Encryption is disabled for various reasons. You can keep using the latest TWRP or OrangeFox, but please follow the clean flash guide carefully.
+- Dirty flash is fine from previous EvoX android 12 builds
+
+**Device Changes:**
+- Etude kernel: Op.12 No.1
+  * Linux 4.9.295
+  * merged CAF tag `LA.UM.9.8.r1-04400-SDM710.0`
+  * backported optimizations on qrwlock from mainline kernel
+  * backported optimized spinning loop in osq lock
+  * reduced cache line size back to 64KB to avoid occasional network packet allocation performance issue
+  * dropped unnecessary ndelay in kernel timers because we have queued spinlock
+  * DO NOT use another kernel. Just don't.
+- Updated DPM, IMS, and RIL system blobs from `LA.QSSI.12.0.r1-05100-qssi.0`
+  * missing ringback tone (the one after a call is connected and before the other side picks it up) in some carriers should be fixed
+- Switched to CAF's latest IMS RCS implementation
+- Updated display HAL and sepolicy from `LA.UM.10.3.r1-00600-sdm845.0`
+- Telephoto lens should be selectable in certain gcam ports
+  * tested on BSG's 8.1 gcam; BSG's 8.3 does not use the aux camera yet, as the time of writing
+
+**Evolution X Update**
+- Disabled the extra call strength icons in the expanded status bar
+- Updated the default wallpaper and brought back the Papers app
+- Unlimited backup for Google Photos should be working again
+- Customizations for icon shapes
+- Different status bar signal and WiFi icon styles
+- Extended or L shape back swipe gestures
+- Misc fixes for things like SystemUI crashes
