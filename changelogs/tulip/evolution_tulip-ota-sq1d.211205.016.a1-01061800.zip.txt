@@ -1,0 +1,34 @@
+====================================
+       CLEAN FLASH MANDATORY!
+   UPDATE TO NEW ANDROID VERSION
+ READ TELEGRAM GROUP FOR MORE INFO
+====================================
+
+Device changes:
+====================================
+Initial Android 12 build
+Updated overlays and remove_packages list
+Adapted IFAAManager to Android 12
+Updated pinner list for Android 12
+Droped some flags and overlays
+Droped QTI datastusnotification (breaks dual sim on android 12)
+Build all vendor HIDL HAL libs needed for Android 12
+Update rootdir to match with Android 12 requeriments
+Switched to AIDL light HAL
+Switched to AOSP bluetooth stack
+Updated and improved powerhint
+Updated libsdmcolor and libsdmextension from LA.UM.8.2.r1-07500-sdm660.0
+Updated sepolicy for android 12
+Imported AIDL powersats HAL
+Switched to Audio HAL v7
+All EAS impl done on kernel, switched to EAS kernel
+All BPF backport done on kernel (needed for Android 12)
+Rebranded kernel to Radical Ice
+Upstreamed kernel to 4.4.298
+More and more and more changes...
+
+ROM changes:
+====================================
+EvolutionX 6.0 - Snow
+December security patches
+Basically everything has been redone, so it's really hard to list changes here
