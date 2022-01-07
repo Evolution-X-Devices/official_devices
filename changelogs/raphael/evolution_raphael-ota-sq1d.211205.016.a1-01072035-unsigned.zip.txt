@@ -1,0 +1,31 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+NOTE: Use the latest A11 firmware for your device variant as it is required.
+
+Device changes:
+==============================
+Allow using promixity sensor on doze
+Exempt ImsService from location indicators
+Try to fix L1 for those who lost it
+------------------------------
+ROM changes:
+==============================
+Change protocol from IPV6 to IP for Telus
+Evolver: Port brightness slider changes
+Evolver: allow toggling location privacy indicator
+MediaDataManager: use safe cast to avoid NPE
+PixelPropUtils: Update redfin fp to January 2022
+Settings: Bring back DarkMode/ColorBucket
+Settings: DarkMode: Improve DarkMode/ColorBucket handling
+SystemUI: Apply monet to fingerprint authentication ripple animation
+SystemUI: allow devices override audio panel location
+SystemUIGoogle: Add HIGH_SAMPLING_RATE_SENSORS permission for columbus
+Update SystemUIGoogle
+Update overlays from SQ1A.220105.002
+WifiDisplaySource: allow overriding max wfd resolution with prop
+build: Always use release-keys (might fix root detection on some banking apps)
+common: allow mediaserver to get media_wfd_prop
+fixup! Ambient music: pulse on new music tracks and Now Playing info
+graphics: Override system fonts with user-selected overlays
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+services: WindowOrientationListener: bail out if rotation resolver service instance is null
