@@ -1,0 +1,93 @@
+Device Changes
+Clean Rebase of Device Trees
+Rootdir Cleanup, Remove most of CAF boosts
+Enable support of USB Audio
+Added Refresh Rate Quick Settings toggle 
+Updated Audio Supported sample rates
+Remade QTI Haptics, Set all modes to High by default
+Dropped Xiaomi TouchSensor modifications
+Audio: Aligned to 0-3 core (Only small 1.8Ghz cores)
+Imported updated Wi-Fi configs from Miui 13.0.2.0
+Removed unsupported Audio configurations
+Primary Audio output bumped to AUDIO_FORMAT_PCM_24_BIT_PACKED
+Removed part of unneeded Rootdir inits for libraries
+Disabled vsync for CPU rendered Apps
+Updated manifests, with adding part of missing declarations
+Build android.hardware.usb from sources
+Dropped instances limits from inputs
+Fixed Offline Charging animation (When phone is off, connecting to charger - showing Percentage and battery icon)
+Build sound_trigger.primary.kona from sources
+Dropped liba2dpoffload prebuilts (Now using source built BT audio offload)
+Dropped duplicated OMX blobs from Device Vendor
+Updated Hardware/qcom-caf CAF tags: 
+Media and Display: LA.UM.9.12.r1-13600-SMxx50.0
+Audio: Latest LA.UM.9.12.r1-13500.01-SMxx50.QSSI12.0
+
+ROM Changes
+Settings: add NPE check for SetupWizard usage
+Settings: Fix up panel theme and layout
+Settings: Make signal & wifi icon overlay persistent across reboots
+Settings: stop logspill from ProcessStats
+Settings: Temp remove broken reset battery stats feature
+Settings: Add proximity check on wake preference
+Settings: Improve battery stats reset strings
+Settings: Update fingerprint strings to match the rest of AOSP
+SystemUI: LocationTile: Be affected by the secure tiles toggle
+SystemUI: Properly adapt new switches in screenrec dialog
+Add settings to toggle the phantom process monitoring in dev options
+Battery Styles: Fix landscape battery size
+Battery Styles: Fix percentage view on landscape battery
+Make QS brightness slider animation more subtle
+PixelPropUtils: Add GamesProps
+PixelPropUtils: Bail out early when required
+PixelPropUtils: Consolidate google app checks
+PixelPropUtils: Extend list of packages to keep
+Settings: Allow toggling floating rotation button
+SystemUI: fix black qqs on keyguard in light theme
+Add config overlay to force enable multi resolution for camera
+ColorUtils: Prevent crash if alpha component is translucent
+VolumeDialogControllerImpl: Stop log spam with no caption service
+Add missing Google Sans fonts in system
+DisplayDeviceRepository: Don't spam log when display state changes
+Evolver: Add ability to turn off Gaming macro when screen is off
+Evolver: Add Gaming Macro QS tile settings
+Settings: Bring back Adaptive Playback
+VolumeDialog: notifyVisible after the volume panel is fully hidden
+vendor: Remove redundant Google Sans font overlay
+BatteryMeterView: Fix NPE that occurs when onDensityOrFontScaleChanged() is called
+Brightness slider: Use proper icon names
+Evolver: Disable QS battery estimates by default
+Settings: GestureTweaksSettings: fix after removing assistant from extended swipe options
+Settings: Make ColorBucket overlays persistent across reboots
+Settings: only set phone number if it's not empty
+Settings: Refactor Wifi Calling description text
+Settings: SystemNavigationGestureSettings: fix back gesture edge insets resetting back when full screen gestures is enabled
+SystemUI: NotificationShadeWindowViewController: initialize all the settings variables (fixes dt2w on doze)
+base: fix list style alert dialog to use system font
+base: set alert dialog message to use system font
+overlays: Add an OxygenOS icon pack
+Change protocol from IPV6 to IP for Telus
+MediaDataManager: use safe cast to avoid NPE
+PixelPropUtils: Update redfin fp to January 2022
+SystemUI: Apply monet to fingerprint authentication ripple animation
+SystemUIGoogle: Add HIGH_SAMPLING_RATE_SENSORS permission for columbus
+Update SystemUIGoogle
+Update overlays from SQ1A.220105.002
+WifiDisplaySource: allow overriding max wfd resolution with prop
+build: Always use release-keys
+common: allow mediaserver to get media_wfd_prop
+fixup! Ambient music: pulse on new music tracks and Now Playing info
+1/4
+Evolver: allow toggling location privacy indicator
+Evolver: Port brightness slider changes
+Settings: Bring back ColorBucket
+Settings: DarkMode: Improve DarkMode/ColorBucket handling
+SystemUI: allow devices override audio panel location
+graphics: Override system fonts with user-selected overlays
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+services: WindowOrientationListener: bail out if rotation resolver service instance is null
+Advanced nav gestures: improve code and fix glitches
+Allow back swipe on bottom screen if launcher is showing
+Allow extended/"L" back swipe to trigger actions/app/activities
+BatteryMeterView: fix NPE when changing the scale factor
+And more...
