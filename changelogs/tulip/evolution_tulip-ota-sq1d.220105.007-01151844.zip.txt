@@ -1,0 +1,100 @@
+Device changes:
+====================================
+Reverted Audio HAL v7 uprev
+Back to QTI USB Audio HAL (fixes reboots when connecting wired headsets to the people it was happening to)
+Reworked XiaomiParts (Now it's distributed by parts in the settings)
+Color flickering can be reduced now thanks to KCAL
+Fixed max volume always even after change the volume steps values
+KCAL and Sound Control impl done on kernel
+Kernel upstream to 4.4.299
+Other improvements
+
+ROM changes:
+====================================
+1/15
+AuthRippleController: always finish the LightRevealScrim
+GamingModeTile: Don't store state in settings
+GamingModeTile: Only restore enabled settings
+Evolver: GamingMode: Add night light and brightness level
+Evolver: Navbar: Lock layout and arrow keys if the 3-buttons navbar isn't in use
+Evolver: Navbar Settings: Add a footer pref to show a hint message
+Evolver: Pulse initial checkin for Android 12
+Evolver: Remove old lock screen visualizer toggles
+Evolver: Remove redundant line for Combined Signal icons
+Merge Pixel January 2021 security patches
+PixelPropsUtils: update raven fp from SQ1D.220105.007 build
+Pulse: Add more NPE checks
+Pulse: Extend to Ambient Screen
+Pulse: Fix up navbar layout logic
+
+1/14
+IconPackRounded: Use correct icon for notification and ring volume
+overlays: Add unlinked ringtone and notification volume icons
+overlays: oos: Add dummy icons to fix preview
+overlays: oos: Add status bar bluetooth icons
+overlays: oos: Adjust width and height for dnd and vibrate icons
+overlays: oos: Fix edit icon color in Settings
+
+1/13
+Settings: add NPE check for SetupWizard usage
+Settings: Fix up panel theme and layout
+Settings: Make signal & wifi icon overlay persistent across reboots
+Settings: stop logspill from ProcessStats
+Settings: Temp remove broken reset battery stats feature
+
+1/12
+Settings: Add proximity check on wake preference
+SystemUI: LocationTile: Be affected by the secure tiles toggle
+SystemUI: Properly adapt new switches in screen recorder dialog
+
+1/11
+Add settings to toggle the phantom process monitoring in dev options
+Battery Styles: Fix landscape battery size
+Battery Styles: Fix percentage view on landscape battery
+Make QS brightness slider animation more subtle
+PixelPropsUtils: Bail out early when required
+PixelPropsUtils: Consolidate google app checks
+PixelPropsUtils: Extend list of packages to keep
+Settings: Allow toggling floating rotation button
+SystemUI: fix black qqs on keyguard in light theme
+
+1/10
+Add config overlay to force enable multi resolution for camera
+ColorUtils: Prevent crash if alpha component is translucent
+VolumeDialogControllerImpl: Stop log spam with no caption service
+
+1/9
+Add missing Google Sans fonts in system
+DisplayDeviceRepository: Don't spam log when display state changes
+Evolver: Add ability to turn off Gaming macro when screen is off
+Evolver: Add Gaming Macro QS tile settings
+Settings: Bring back Adaptive Playback
+VolumeDialog: notifyVisible after the volume panel is fully hidden
+vendor: Remove redundant Google Sans font overlay
+
+1/8
+BatteryMeterView: Fix NPE that occurs when onDensityOrFontScaleChanged() is called
+Brightness slider: Use proper icon names
+Evolver: Disable QS battery estimates by default
+Settings: GestureTweaksSettings: fix after removing assistant from extended swipe options
+Settings: Make ColorBucket overlays persistent across reboots
+Settings: only set phone number if it's not empty
+Settings: Refactor Wifi Calling description text
+Settings: SystemNavigationGestureSettings: fix back gesture edge insets resetting back when full screen gestures is enabled
+SystemUI: NotificationShadeWindowViewController: initialize all the settings variables (fixes dt2w on doze)
+base: fix list style alert dialog to use system font
+base: set alert dialog message to use system font
+overlays: Add an OxygenOS icon pack
+
+1/7
+Change protocol from IPV6 to IP for Telus
+MediaDataManager: use safe cast to avoid NPE
+PixelPropUtils: Update redfin fp to January 2022
+SystemUI: Apply monet to fingerprint authentication ripple animation
+SystemUIGoogle: Add HIGH_SAMPLING_RATE_SENSORS permission for columbus
+Update SystemUIGoogle
+Update overlays from SQ1A.220105.002
+WifiDisplaySource: allow overriding max wfd resolution with prop
+build: Always use release-keys
+common: allow mediaserver to get media_wfd_prop
+fixup! Ambient music: pulse on new music tracks and Now Playing info
