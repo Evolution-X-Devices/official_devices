@@ -1,0 +1,62 @@
+NOTE: Do not dirty flash from Android 11. Do clean flash.
+Use latest TWRP from noted in device group.
+
+Device changes:
+==============================
+Update init build FP to SQ1D.220105.007
+overlay tethering and wifi stack from Google
+Misc changes and improvements
+------------------------------
+ROM changes:
+==============================
+1/15
+AuthRippleController: always finish the LightRevealScrim
+GamingModeTile: Don't store state in settings
+GamingModeTile: Only restore enabled settings
+Evolver: GamingMode: Add night light and brightness level
+Evolver: Navbar: Lock layout and arrow keys if the 3-buttons navbar isn't in use
+Evolver: Navbar Settings: Add a footer pref to show a hint message
+Evolver: Pulse initial checkin for Android 12
+Evolver: Remove old lock screen visualizer toggles
+Evolver: Remove redundant line for Combined Signal icons
+Merge Pixel January 2021 security patches
+PixelPropsUtils: update raven fp from SQ1D.220105.007 build
+Pulse: Add more NPE checks
+Pulse: Extend to Ambient Screen
+Pulse: Fix up navbar layout logic
+
+1/14
+IconPackRounded: Use correct icon for notification and ring volume
+overlays: Add unlinked ringtone and notification volume icons
+overlays: oos: Add dummy icons to fix preview
+overlays: oos: Add status bar bluetooth icons
+overlays: oos: Adjust width and height for dnd and vibrate icons
+overlays: oos: Fix edit icon color in Settings
+
+1/13
+Settings: add NPE check for SetupWizard usage
+Settings: Fix up panel theme and layout
+Settings: Make signal & wifi icon overlay persistent across reboots
+Settings: stop logspill from ProcessStats
+Settings: Temp remove broken reset battery stats feature
+
+1/12
+Settings: Add proximity check on wake preference
+SystemUI: LocationTile: Be affected by the secure tiles toggle
+SystemUI: Properly adapt new switches in screen recorder dialog
+
+1/11
+Add settings to toggle the phantom process monitoring in dev options
+Battery Styles: Fix landscape battery size
+Battery Styles: Fix percentage view on landscape battery
+Make QS brightness slider animation more subtle
+PixelPropsUtils: Bail out early when required
+PixelPropsUtils: Consolidate google app checks
+PixelPropsUtils: Extend list of packages to keep
+Settings: Allow toggling floating rotation button
+SystemUI: fix black qqs on keyguard in light theme
+
+1/10
+Add config overlay to force enable multi resolution for camera
+ColorUtils: Prevent crash if alpha component is translucent
+VolumeDialogControllerImpl: Stop log spam with no caption service
