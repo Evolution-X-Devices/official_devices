@@ -1,0 +1,16 @@
+INITIAL A12 BUILD
+
+[KERNEL CHANGES FROM v0.69 +4]
+Kernel uprved to v0.69 +6:
+• Merged linux patch v4.14.262
+• Merged tag 'LA.UM.9.1.r1-11500-SMxxx0.0' in kernel (sagarmakhar)
+• Schedutil as default cpu governor
+• Might increase the tcp speed
+• kbuild: avoid excessively long argument lists
+• Optimization to schedutil
+• sdmmagpie: Remove unused 36 MiB memdump region
+• ashmem: Rewrite to improve clarity and performance
+• iommu: msm: Rewrite to improve clarity and performance
+• Affine fingerprint service to big cpus (lil bit faster fp)
+• Performance and battery improvements
+• Hell lot of things. See here: https://github.com/mello-kernel/kernel_realme_sm7125/tree/roms
