@@ -1,0 +1,10 @@
+Fix installation through TWRP
+Evolver: Add volume panel on left toggle
+Evolver: Allow disabling qs on secure lock screen
+Evolver: Allow toggling camera/mic privacy indicator
+Reduce padding use by privacy indicator resources
+ThemeOverlayApplier: Apply wifi and signal icon styles last
+hosts: Block OTA downloading from GMS
+vendor: Add drawable XMLs for themed icons
+Evolver: GamingMode: Add night light and brightness level
+And more...
