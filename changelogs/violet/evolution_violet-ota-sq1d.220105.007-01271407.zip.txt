@@ -1,0 +1,14 @@
+This build you're receiving is evolution_violet-ota-sq1d.220105.007-01271407.zip
+
+Notes:
+Rom is encrypted by default now :)
+AOSP Recovery is now shipped as default
+
+Changes:
+Latest Evolution X source changes
+Default Kernel is Xcalibur+
+Import Google changes on DEC7 Volume
+Fixed Encryption
+Fixed a distrubing sound at very low volume(Wired Earphones)
+Boost audio output a bit
+Improved perfomance and stability
