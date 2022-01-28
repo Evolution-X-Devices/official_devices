@@ -1,0 +1,32 @@
+Note: 
+- Formatting data and clean flash are required if you come from android 11. Please do not update through OTA if you are on android 11.
+- Encryption is disabled for various reasons. You can keep using the latest TWRP or OrangeFox, but please follow the clean flash guide carefully.
+- Dirty flash is fine from previous unofficial EvoX android 12 builds
+- When switching to other ROMs, you may need to re-flash the required firmware, if the ROM you are going to flash does not include one.
+
+**Device Changes:**
+- Initial Official Build
+- Etude kernel: Op.12 No.2
+  * Linux 4.9.298
+  * built with the latest Clang 14 and ThinLTO
+  * DO NOT use another kernel. Just don't.
+- Implemented a boost after fingerprint authentication to speed up the unlocking process and avoid animation janks
+- Switched to QTI BT stack
+- Enabled Quick Tap
+  * you can trigger certain actions by double tapping the back of the phone
+  * enable it in Settings/System/Gestures/Quick tap
+- Switched to Skia Vulkan as HWUI renderer
+  * the GL renderer has memory allocation/deallocation issues that sometimes crash apps like Twitter when you scroll through lots of images and videos. This is also happening on stock Pixel 6
+  * Vulkan does not seem to have this issue for now, and it has much less jitter. Some apps like Spotify may still not be fully smooth in certain scrolls, due to a combination of app implementation and AOSP android 12 issues
+- Went back to audio HAL v5 to match our prebuilt audio HAL
+- Add Camera Go as main Camera
+
+**Evolution X Update**
+- January security patch
+- Fixed a SystemUI crash when connecting to certain Bluetooth devices or plugging in a headphone
+- Fixed the dark notification background bug in certain scenarios
+- Fixed the battery saver QS tile being out of sync with the actual battery saver toggle
+- Fixed the battery icon flickering when using certain gestures
+- Screen-off animations
+- Some ripple animation updates
+- Game Space from exthmui
