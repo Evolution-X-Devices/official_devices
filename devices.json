@@ -562,14 +562,14 @@
    {
       "brand": "Xiaomi",
       "codename": "whyred",
-      "name": "Redmi Note 5",
+      "name": "Redmi Note 5 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Zeeshan Ahmed",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-eleanor-t4191635"
+            "maintainer_name": "Sudhir Yadav (TheSanty)",
+            "maintainer_url": "https://forum.xda-developers.com/m/sudhiryadav.8623468",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-whyred-official-evolution-x-snow-01-28-22.4395129"
          }
       ]
    }
