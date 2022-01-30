@@ -42,6 +42,20 @@
       ]
    },
    {
+      "brand": "Lenovo",
+      "codename": "zippo",
+      "name": "Z6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Chema Funtan",
+            "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-zippo-official-evolution-x-snow.4244883"
+         }
+      ]
+   },
+   {
       "brand": "LG",
       "codename": "judyln",
       "name": "G7 ThinQ",
