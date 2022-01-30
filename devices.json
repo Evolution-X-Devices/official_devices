@@ -586,5 +586,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-whyred-official-evolution-x-snow-01-28-22.4395129"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "Sweet",
+      "name": "Redmi Note 10 Pro / Max",
+      "supported_versions": [
+         {
+            "maintainer_name": "Zaid Khan (@zaidkhan0997)",
+            "maintainer_url": "https://forum.xda-developers.com/m/zaidkhan0997.9099781",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-sweet-official-evolution-x-snow-01-30-22.4395847"
+         }
+      ]
    }
 ]
