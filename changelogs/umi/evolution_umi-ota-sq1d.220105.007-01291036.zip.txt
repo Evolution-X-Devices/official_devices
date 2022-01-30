@@ -1,0 +1,97 @@
+  
+2022-01-30
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+
+DEVICE:
+
+  * umi/cmi: Minor changes
+
+ROM:
+
+1/29
+
+Evolver: Launch default music player on headset connect
+
+base: NPE in ImageWallpaper
+
+
+1/28
+
+SystemUI: FPSInfoService: initialize fpsInfoView without posting in handler
+
+overlay: SystemUI: Remove power menu shadow
+
+
+1/27
+
+Deprecate LiveDisplay and LOS FOD stuff
+
+PixelPropsUtils: Whitelist ARCore
+
+SystemUI: rewrite fps info tile in kt and bind service to the tile
+
+
+1/26
+
+Settings: Import missing lottie swipe fingerprint from redfin
+
+SystemUI: rewrite FPSInfoService in kt from scratch
+
+UdfpsResources: Add more UDFPS icons
+
+UdfpsResources: Convert remaining png to webp
+
+apps: Build Repainter integration service
+
+overlay: Add config for Repainter integration service
+
+overlay: core: Use accent color for progress bar background
+
+sepolicy: Nuke LiveDisplay and Lineage FOD
+
+sepolicy: Resolve turbo_adapter denial
+
+
+1/25
+
+Evolver: Rename FP pressed color default to Cyan
+
+GamingMode: LockGestureTile: load state from preferences in init
+
+GamingMode: remove overlay menu switch
+
+overlay: core: Add chroma to light surface highlight color
+
+
+1/24
+
+Battery Styles: Set proper battery style on init
+
+Fix incorrect SID matching for bio prompts
+
+Evolver: Remove Expanded option for network traffic
+
+Evolver: Themes: Rearrange the categories
+
+IconPackKaiAndroidOverlay: fix for carriers using 5 bars of signal
+
+QuickSettings: Use tick instead of vibrate for normal tap on qs tile
+
+SystemUI: Limit keyguard charging stats updates
+
+SystemUI: Keyguard: Check for a null errString
+
+SystemUI: Make sure notification icons are sticked to the left
+
+SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod
+
+base: InputManager: handle housed stylus event
+
+gms: Remove non-battery TurboAdapter
+
+neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
+
+overlays: Add acherus icon pack
