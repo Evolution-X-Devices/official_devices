@@ -2,7 +2,7 @@
    {
       "brand": "Xiaomi",
       "codename": "raphael",
-      "name": "Mi 9T Pro",
+      "name": "Mi 9T Pro / Redmi K20 Pro",
       "supported_versions": [
          {
             "maintainer_name": "Joey Huab",
@@ -38,6 +38,20 @@
             "version_code": "twelve",
             "version_name": "Twelve",
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3981601"
+         }
+      ]
+   },
+   {
+      "brand": "Lenovo",
+      "codename": "zippo",
+      "name": "Z6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Chema Funtan",
+            "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-zippo-official-evolution-x-snow.4244883"
          }
       ]
    },
@@ -562,14 +576,28 @@
    {
       "brand": "Xiaomi",
       "codename": "whyred",
-      "name": "Redmi Note 5",
+      "name": "Redmi Note 5 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Zeeshan Ahmed",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-eleanor-t4191635"
+            "maintainer_name": "Sudhir Yadav (TheSanty)",
+            "maintainer_url": "https://forum.xda-developers.com/m/sudhiryadav.8623468",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-whyred-official-evolution-x-snow-01-28-22.4395129"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "sweet",
+      "name": "Redmi Note 10 Pro / Max",
+      "supported_versions": [
+         {
+            "maintainer_name": "Zaid Khan (@zaidkhan0997)",
+            "maintainer_url": "https://forum.xda-developers.com/m/zaidkhan0997.9099781",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-sweet-official-evolution-x-snow-01-30-22.4395847"
          }
       ]
    }
