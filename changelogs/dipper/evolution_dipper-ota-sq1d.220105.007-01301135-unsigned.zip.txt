@@ -1,0 +1,18 @@
+Note: 
+- Formatting data and clean flash are required if you come from android 11. Please do not update through OTA if you are on android 11.
+(**fix**)
+[Some users reporting issues in installation process]
+[If you were able to successfully install, please, ask you to redo the installation process. I'm sorry for the inconvenience.]
+- Now really encryption is disabled - for various reasons. You can keep using the latest TWRP or OrangeFox, but please follow the clean flash guide carefully. (See XDA forum/device group)
+
+
+**Device Changes:**
+- Etude kernel: Op.12 No.2
+  * Linux 4.9.299
+  * built with the latest Clang 14 and ThinLTO
+  * DO NOT use another kernel. Just don't.
+
+
+**Evolution X Update**
+- January security patch
+- Synchronized with the latest Source updates (01/30/2022)
