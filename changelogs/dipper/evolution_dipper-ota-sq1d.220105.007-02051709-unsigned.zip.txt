@@ -1,0 +1,20 @@
+Note: 
+- Formatting data and clean flash are required if you come from android 11. Please do not update through OTA if you are on android 11.
+
+- Don't flash Gapps or Firmware. All included.
+
+- To clean install steps look XDA thread.
+
+** Device Changes **
+- Etude kernel: Op.12 No.2
+  * Linux 4.9.299
+  * built with the latest Clang 14 and ThinLTO
+  * DO NOT use another kernel. Just don't.
+- Overlay: Change the slide of brightness value
+- Overlay: Update Status bar padding
+- Overlay: Add some old values from dipper (Evolution X 11)
+- Overlay: Removed some uncessary PixelExperience commands
+
+** Evolution X Update **
+- January security patch
+- Synchronized with the latest Source updates (04/02/2022)[See XDA forum]
