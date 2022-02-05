@@ -1,0 +1,36 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+NOTE: Use the latest A11 firmware for your device variant as it is required.
+
+Device changes:
+==============================
+Disable Adaptive Connectivity preference
+Remove some unnecessary props added in previous build
+Revert audio and bluetooth changes (to avoid deep sleep issues)
+Upstream latest Soviet changes
+Use DMIC instead of UNPROCESSED for recorder
+------------------------------
+ROM changes:
+==============================
+DefaultPermissionGrant: Fix google search crash
+Evolver: Add dividers to some preferences
+Evolver: Add new Black theme
+Evolver: Allow disabling ripple effect on unlock
+Evolver: Bring back Launch default music player on headset connect feature
+Evolver: Move Monet settings to separate fragment
+FingerprintManager: Fix NPE due to sensorProps
+KeyguardIndication: Fix glitchy charging info on the lock screen
+Navbar: Fix issue where pill disappears in gestural mode
+Settings: Add LTE only setting
+Settings: Add the missing android title for top_level_settings
+Settings: Cache current context before creating a new user
+Settings: Drawables: Dark mode support for app installation restriction icon
+Settings: NFC: Get outer NFC preference to listen for changes
+Settings: Remove broken back gesture height settings
+Switch to a better Network Traffic implementation
+SystemUI: FPSInfoService: initialize fpsInfoView without posting in handler
+Update translations
+apns: Add DITO PH
+apns: Add Unifi
+base: Fix NPE in ImageWallpaper
+overlay: SystemUI: Remove power menu shadow

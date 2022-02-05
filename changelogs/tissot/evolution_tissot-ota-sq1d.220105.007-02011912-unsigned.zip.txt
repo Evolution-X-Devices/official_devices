@@ -1,0 +1,33 @@
+Device changes:
+==============================
+None
+------------------------------
+ROM changes:
+==============================
+DefaultPermissionGrant: Fix google search crash
+Evolver: Add dividers to some preferences
+Evolver: Add new black theme
+Evolver: Allow disabling ripple effect on unlock
+Evolver: Launch default music player on headset connect
+Evolver: Move Monet settings to separate fragment
+Evolver: Refactor Themes fragment
+Evolver: Remove broken Status bar padding seekbars
+FingerprintManager: Fix NPE due to sensorProps
+Fixes ubsan shift-out-of-bounds SIGABRT
+KeyguardIndication: Fix glitchy charging info on lockscreen
+Navbar: Fix issue where pill disappears in gestural mode
+Settings: Add LTE only setting
+Settings: Add missing Gestures nav actions
+Settings: Add missing android title for top_level_settings
+Settings: Cache current context before creating a new user
+Settings: Drawables: Dark mode support for app installation restriction icon
+Settings: NFC: Get outer NFC preference to listen for changes
+Settings: Remove back gesture height settings
+Switch to a better Network Traffic implementation
+SystemUI: FPSInfoService: initialize fpsInfoView without posting in handler
+Update translations
+Zygote: Fix an issue when emptying the usap pool
+apns: Add DITO PH
+apns: Add Unifi
+base: Fix NPE in ImageWallpaper
+libgui: Dispatch vsync when receiving vsync timeout
