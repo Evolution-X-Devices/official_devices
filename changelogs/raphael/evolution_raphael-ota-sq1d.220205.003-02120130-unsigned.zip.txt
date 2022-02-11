@@ -1,0 +1,62 @@
+NOTE ALWAYS BACKUP BEFORE UPDATING.
+NOTE Do not dirty flash from Android 11. Best to clean flash.
+NOTE Use the latest A11 firmware for your device variant as it is required.
+
+Device changes
+==============================
+Re-implement proper QTI Bluetooth stack
+Remove duplicate display configsflags
+Remove obsolete debug.sf.disable_backpressure property
+Upstream to latest Soviet Star (v4.14.265)
+audio: Add built-inBack mic and remove TelePhony Rx from primary input
+audio: Update supported sampling rates
+audio: Use primary input sources for voip_tx
+bt: security: Use-After-Free in btm_sec_[dis]connected
+sepolicy: Allow camera HAL to getset vendor_video_prop
+sepolicy: Attach more vendor_property_type to properties
+sepolicy: move radio_control_prop into proper file
+------------------------------
+ROM changes
+==============================
+Backport 'Add ability to disable GL draws'
+Cancel the existing recents animation before any initialization
+ColorBucket: Remove PitchBlack overlays (different from the ‘real’ Black theme)
+EasterEgg: Fix some warnings
+Evolver: Add VoLTE icon from Motorola
+Evolver: Add user toggle for streaming apps
+Evolver: Implement cutout force fullscreen
+Fix BatteryStats counts foreground activity time
+Fix NPE with cutout force full screen
+Fix an instance of -Wunused-but-set-variable
+Fix full draw power usage increase issue
+HwRemoteBinder: fix race for concurrent binderDied
+Lazy load Properties::isDrawingEnabled
+QSTiles: Re-write Caffeine tile in Kotlin
+QSTiles: Re-write On-The-Go tile in Kotlin
+QSTiles: Re-write Sync tile in Kotlin
+Settings: Add activity for cutout force fullscreen
+Settings: Migrate encryption settings xml to NestedScrollView
+Settings: Migrate interstitial encryption settings xml to NestedScrollView
+Settings: Move Extra Dim feature to Display
+Settings: Support per-app volume
+Settings: Use List Preference for Dark mode
+StrictMode: Don't enable extra features for userdebug builds
+SystemUI: Display a toast when a screenshot is deleted
+SystemUI: Fix method for disabling unlock ripple animation
+SystemUI: Introduce ColumbusCompatibilityHelper
+SystemUI: Make center clock layout safe insets aware
+SystemUI: Make center clock shift with rest of the status bar items
+SystemUI: MediaOutputDialogFactory Accept null package name
+SystemUI: Remove excess margin from data saver icon
+SystemUIGoogle: Build android.frameworks.stats
+SystemUIGoogle: Fix StatusBarGoogle injection and cleanup code
+SystemUIGoogle: Import proto deps for columbus CHRE impl
+SystemUIGoogle: Optimize proguard rules
+Update SystemUIGoogle
+Update some translations
+base: Remove duplicate WRITE_APN_SETTINGS permission for SystemUI
+fixup! Screenrecord: add blinking stop dot and low-quality options
+fixup! SystemUI: On-The-Go Mode
+init: Set persist.sys.usb.config properly
+vendor: Hide blank preference in Settings  Accessibility
+vendor: Set persist.sys.usb.config conditionally
