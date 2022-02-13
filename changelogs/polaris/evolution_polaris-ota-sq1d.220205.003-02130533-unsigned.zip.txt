@@ -1,0 +1,30 @@
+Note: 
+- Formatting data and clean flash are required if you come from android 11. Please do not update through OTA if you are on android 11.
+- Encryption is disabled for various reasons. You can keep using the latest TWRP or OrangeFox, but please follow the clean flash guide carefully.
+- Dirty flash is fine from previous EvoX android 12 builds
+- When switching to other ROMs, you may need to re-flash the required firmware, if the ROM you are going to flash does not include one.
+
+**Device Changes:**
+- Etude kernel: Op.12 No.2
+  * Linux 4.9.301 and CAF tag `LA.UM.10.3.r1-00900-sdm845.0`
+  * removed 2 bytes of padding in network buffers
+  * upstreamed generic locking/refcount from 4.14
+  * ported arm64-specific fast refcount checking
+  * enabled HID WACOM driver
+  * wireguard 1.0.20211208
+  * DO NOT use another kernel. Just don't.
+- Properly disabled surfaceflinger backpressure propagation to reduce jank in certain scenarios
+  * we had it disabled on android 11, but a change in surfaceflinger property on android 12 accidentally enabled it again
+- Updated parts to newer APIs like TaskStackListener and TaskInfo
+  * also fixed some harmless log spams caused by SElinux
+- Whitelisted an intent broadcast for the new ims.apk
+- Dropped obsolete eBPF prop
+
+**Evolution X Update**
+- February security patch
+- Added Repainter for fine tuning Monet colors
+- An option to disable unlock ripple effect
+- Switched to a new traffic indicator implementation
+- Removed extended swipe gesture due to issues with normal back gesture
+- Refactored many Evolver settings
+- Toggles for disabling certain spoofs
