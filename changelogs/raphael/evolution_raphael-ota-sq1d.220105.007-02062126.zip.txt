@@ -1,0 +1,104 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+NOTE: Use the latest A11 firmware for your device variant as it is required.
+
+New changes from the 1st 2/6 build:
+==============================
+Evolver: User toggle for unlimited ph0t0s st0rage
+PixelPropsUtils: Switch back raven spoof for Gboard
+ScreenshotHelper: ignore timeout when taking partial screenshots
+Switch to signed builds
+
+Device changes:
+==============================
+Adjust camera aux list (Removed LOS snap from list because access to aux cause the app to bug)
+Bluetooth: Switch to QTI Bluetooth stack (Enables aptX Adaptive and aptX TWS+ support. If having issues, toggle off "Disable BT A2DP Hardware Offload" in Dev options)
+BoardConfig: Reconfigure Display flags
+Build DRM vendor HIDL
+Build audio.primary.default
+Build custom audio amplifier
+Build necessary camera libs
+Clear persist.vendor.usb.config on boot
+Configure vibrator kernel nodes for QTI vibrator HAL (resolves very weak haptics during notifications & calls)
+Configure zram from separate fstab
+Disable serial console notification
+Don't apply persist.vendor.usb.config
+Enable QCRIL radio power saving
+Graphics: Use Vulkan for UI rendering (fixes quick scrolling in apps)
+Increase audio HAL buffer size to 240
+Match QVA static overlay configs for BT
+Remove wait_for_keymaster and all references
+Set aaudio.mmap_policy into 1 (Fixes audio in Chrome with Soundcloud)
+Set statusbar top padding to 0 for landscape
+Some minor NFC changes (completely disable for raphaelin)
+Split component-overrides to support pure AOSP/QTI BT stack
+audio: Don't advertise vorbis offloading support
+audio: Drop instances from record_24
+audio: add offload gapless support flag
+audio: fixup audio io policy voip_rx flags
+audio: upgrade audio.usb.default from v1 to v2
+fstab: Correct zram parameter names
+fstab: Switch zram swap to /data/per_boot
+ims: update lib-imsvideocodec.so from alioth S dump (fixes the missing symbol error in ims_media_jni)
+overlay: Exempt cne from location indicators
+overlay: Snap: Enable camera API v2
+overlay: Update config_ims_rcs_package to use new ImsService
+parts: Add bass booster preset for MiSound
+parts: Dirac fixes
+parts: Handle more error for dirac
+parts: Set android:exported to true in manifest
+permissions: Apply latest supported deqp levels for Vulkan & OpenGL
+props: Don't write binary XML files
+props: Update RIL props
+props: Update the transcoding operating rate
+props: add ro.gfx.driver.1 (for proper msmnile gpu drivers support)
+rootdir: Add chown for audio folder
+rootdir: Don't configure zram in init.qcom.post_boot.sh
+rootdir: Enforce S new launch debugfs restrictions
+rootdir: Properly label qvr_external_sensor fd
+rootdir: tune audio-app and set to 0-3 cores
+sepolicy: Add F2FS sysfs permission
+sepolicy: Add missing labels
+sepolicy: Add sepolicy for kernel to access /data/per_boot/zram_swap
+sepolicy: Address gmscore_app denials
+sepolicy: Address new denials
+sepolicy: Address vendor_qti_init_shell denials
+sepolicy: Allow ioctl to zram_swap for performance
+sepolicy: Allow power stats HAL to access IIO sysfs nodes
+sepolicy: Allow recovery to access /sys/fs/pstore/*
+sepolicy: Allow vendor_init to set init_service_status_prop
+sepolicy: Fix hardware denial
+sepolicy: Label android.hardware.drm@1.4-service.clearkey
+sepolicy: Suppress harmless denials
+sepolicy: Suppress sysfs wakeup denials spam
+sepolicy: Update boot time error
+wifi: Enable DFS channel scanning in P2P search (Fixes P2P when connected to 5GHz access point)
+wifi: Switch gEnablePowerSaveOffload to 5 (should improve VoIP calls performance)
+wifi: wpa_supplicant(overlay): Increase max bss count
+------------------------------
+ROM changes:
+==============================
+Evolver: Bring back Optional screenshot type toggle
+Evolver: Improve Secure QS tile behavior toggle
+Evolver: Refactor Notification settings fragment
+Evolver: Refactor Status bar icons preference category
+Evolver: Refactor Themes fragment
+Fixes ubsan shift-out-of-bounds SIGABRT
+PixelPropsUtils: Remove Play Store spoof
+PixelPropsUtils: Spoof redfin for GBoard
+Remove Advanced nav/Extended swipe gestures
+Return Back Gesture height settings
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+Settings: BluetoothDeviceDetailsFragment: fix edit menu icon tint
+Settings: Disable Storage Manager
+Settings: Improve code for time spent in app
+Settings: add title for Beam main switch
+Settings: fingerprint: hide link icon when there's no link
+SystemUI: Update NFC tile drawable
+SystemUI: Use same NFC icon as that in QS tile
+SystemUI: add public setting keys for monet tunables
+VolumeDialog: Display default row when active row is notification
+VolumeDialog: Don't hide the default stream when adjusting the music stream
+Zygote: Fix an issue when emptying the usap pool
+libgui: Dispatch vsync when receiving vsync timeout

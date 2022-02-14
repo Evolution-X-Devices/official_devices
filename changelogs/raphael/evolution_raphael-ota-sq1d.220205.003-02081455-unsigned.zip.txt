@@ -1,0 +1,28 @@
+NOTE: ALWAYS BACKUP BEFORE UPDATING.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+NOTE: Use the latest A11 firmware for your device variant as it is required.
+
+Device changes:
+==============================
+Switch back to unsigned builds to avoid issues arising from flashing other kernels
+Upstream latest Soviet kernel changes
+audio: Update supported sampling rates
+rootdir: use sunfish cpusets
+sepolicy: Allow camera HAL to get/set vendor_video_prop
+sepolicy: Allow permissioncontroller_app to find tethering_service
+------------------------------
+ROM changes:
+==============================
+Evolver: Improve toggle for unlimited ph0t0s st0rage
+Merge February 2022 security patches
+PixelPropsUtils: Update to February 2022 fingerprints
+QS: Use Settings.Panel intent for Volume Tile
+QS: Use Settings.Panel intents for WiFi and NFC
+Remove broken Back Gesture height settings
+Settings: Add preference for one shot auto-brightness
+sepolicy_vndr: Remove duplicate hwservice_contexts
+sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
+sepolicy_vndr: legacy: Update vendor property types
+sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
+sepolicy_vndr: qva: Update vendor property types
+zygote: Enable USAP by default for S

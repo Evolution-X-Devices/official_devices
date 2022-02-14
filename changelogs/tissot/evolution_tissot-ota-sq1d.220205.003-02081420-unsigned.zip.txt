@@ -1,0 +1,39 @@
+Device changes:
+==============================
+Add OpenGL ES and update Vulkan dEQP feature flags
+Modify Vulkan and OpenGL versions to 2020-03-01
+Move ueventd.qcom.rc to /vendor/etc
+Remove android.hardware.graphics.composer@2.1-impl
+Use generic arch variant
+------------------------------
+ROM changes:
+==============================
+Evolver: Bring back Optional screenshot type toggle
+Evolver: Improve Secure QS tile behavior toggle
+Evolver: Refactor Notification settings fragment
+Evolver: Refactor Status bar icons preference category
+Evolver: Update SearchIndexable for our fragments
+Evolver: User toggle for unlimited ph0t0s st0rage
+Merge February 2022 security patches
+PixelPropsUtils: Update to February 2022 fingerprints
+QS: Use Settings.Panel intent for Volume Tile
+QS: Use Settings.Panel intents for WiFi and NFC
+Remove Advanced nav/Extended swipe gestures
+Remove broken Back Gesture height settings
+ScreenshotHelper: ignore timeout when taking partial screenshots
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+Settings: Add preference for one shot auto-brightness
+Settings: BluetoothDeviceDetailsFragment: fix edit menu icon tint
+Settings: Disable Storage Manager
+Settings: Improve code for time spent in app
+Settings: fingerprint: hide link icon when there's no link
+SystemUI: add public setting keys for monet tunables
+VolumeDialog: Display default row when active row is notification
+VolumeDialog: Don't hide the default stream when adjusting the music stream
+sepolicy_vndr: Remove duplicate hwservice_contexts
+sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
+sepolicy_vndr: legacy: Update vendor property types
+sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
+sepolicy_vndr: qva: Update vendor property types
+zygote: Enable USAP by default for S
