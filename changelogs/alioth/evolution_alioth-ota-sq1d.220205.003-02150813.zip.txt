@@ -1,0 +1,40 @@
+Device Changelog:
+- Added support of QTI BT stack and switch on it
+- Set higher priority on C2 Codecs vs OMX one
+- Enable QCRil power saving
+- Removed some logcat spams when BT Device connected
+- Updated Radio props
+- Disabled CDMA and World Phone bools (Cleaned up choose network type in settings)
+- Build more media C2 Codecs dependencies
+- Label DRM 1.4 Sepolicy
+- Add vendor version of media C2 Codecs version 1.2
+- Enabled  CameraAPI V2 for Snap Camera
+- Provide  android.frameworks.sencorservice to vendor
+- Address and fix a lot of Selinux denials
+- Added Android 12 Touch feature compilation
+- Fixed Wi-Fi enable and connection time
+- Update RIL and IPA blobs
+- Declare missing RIL blobs in manifests, now mobile networks may work faster and more stable
+- Removed LED declaration from trees, as our device does not have one
+- Enabled QuickTap support
+- Updated notch overlays from gourami
+- Display correct charging speed
+- Added force 120hz mode for low brightness , now screen colours may be more correct
+- Added more correct night light colours
+- Qcom-caf: Display, media and audio drivers updated to LA.UM.9.12.r1-13800-SMxx50.0
+- Switch to Arrow Kernel
+
+Source Changelog:
+- core: Rework the Photos features blacklist again
+- Evolver: User toggle for Photos unlimited storage
+- Evolver: User toggle for games/streaming apps
+- Evolver: Implement cutout force fullscreen
+- Fix BatteryStats counts foreground activity time
+- Fix full draw power usage increase issue
+- fixup! SystemUI: On-The-Go Mode
+- Settings: Turn on haptic feedback on back gesture by default
+- SystemUI: Display a toast when a screenshot is deleted
+- SystemUI: Remove excess margin from data saver icon
+- PixelPropsUtils: Update to February 2022 fingerprints
+- Merge February 2022 security patches
+- And more...
