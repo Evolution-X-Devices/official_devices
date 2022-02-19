@@ -1,0 +1,23 @@
+Device Changelog:
+- Fix Deep Sleep caused by BT
+- Build BluetoothQti
+- QTI BT: Match stock behaviour flags
+- QTI BT: Disable requirement of FM Radio stack
+- Declate android.hardware.gnss.IGnss/default AIDL
+- WiFi: Update to android.hardware.wifi@1.5.
+- Update vendor.display.config & vendor.qti.hardware.display.* targets
+- Update libcodec2_hidl compilation flags
+- libcodec2_hidl: Compile 64bit version of 1.0, both versions of 1.2
+- Added libdrm.vendor blobs
+- Added libwifi-hal 64bit
+
+Source Changelog:
+- Merge Pixel r32 Feb 2022 security patches
+- PixelPropsUtils: Update Raven to 2nd February 2022 Security patch fingerprint
+- PixelPropsUtils: Remove Pubg New State from GamesProps
+- core: Refactor Pixel 2021 features availability and PixelProps spoofing
+- vold: add support for more filesystems for public storage
+- Settings: Nuke ColorBucketPreference and overlays
+- Settings: Nuke custom vibration intensity preferences
+- SystemUI: Fix circle battery styles QS tinting
+- And more...

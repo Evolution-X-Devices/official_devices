@@ -1,17 +1,17 @@
 {
-   "datetime": 1644891779,
+   "datetime": 1645217673,
    "donate_url": "https://www.paypal.me/asavvo01",
    "error": false,
-   "filehash": "4652d5a6e6e3f4eaeaf0fb71f6ec8b46",
-   "filename": "evolution_alioth-ota-sq1d.220205.003-02150813.zip",
+   "filehash": "03301ec467823f05e5682a43fb523424",
+   "filename": "evolution_alioth-ota-sq1d.220205.004-02190913.zip",
    "forum_url": "https://forum.xda-developers.com/t/a12-official-evolution-x-for-poco-f3-alioth.4373131/",
-   "id": "2675c7b7b907c0ba4d1b4cda7460880001c82b0ba8ed5f72b10ae7b32012bf1a",
+   "id": "64a25b1618355b42e977f7034dd9101587199c39d30ebb7446fd544db5643b43",
    "maintainer": "Aggelos Savvopoulos (DarkAngelGR)",
    "maintainer_url": "https://forum.xda-developers.com/m/darkangelgr.8065843/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1906432873,
+   "size": 1903819074,
    "telegram_username": "DarkAngelGR",
-   "url": "https://sourceforge.net/projects/evolution-x/files/alioth/evolution_alioth-ota-sq1d.220205.003-02150813.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/alioth/evolution_alioth-ota-sq1d.220205.004-02190913.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
