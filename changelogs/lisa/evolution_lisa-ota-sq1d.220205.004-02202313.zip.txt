@@ -1,0 +1,62 @@
+-- Device Side Changes
+-Add support for Incremental OTA!
+-Declare OpenGL ES dEQP level 
+-Disable VSync for CPU rendered apps
+-Extend buffer size to 256kb for offload playback 
+-Enable AOSP surfaceflinger
+-Enable app launch prefetching
+-Enable camera API v2
+-Enable FUSE passthrough by default 
+-Enable hapticTextHandle
+-Enable high fps sf early phase offsets from raven (Pixel 6)
+-Enable H/W Composition 
+-Explicitly enable IORap nad IORapd prefetching 
+-Fix issues with MI Thermal daemon (heating when charging)
+-Force triple frame buffers 
+-Import vendor.qti.memory.pasrmanager@1.1.so from stock
+-Import { DOM, Nerual, SDM Vision, QSEE, QCC, QTEE, Time, Peripheral Manager } blobs from SKQ1.211006.001-V13.0.5.0.SKOEUXM (MIUI 13)
+-Kill some IMS loggging
+-Make fastrpc_shell_3 publicly available
+-Optimise dex flags
+-Override heap growth limit to 256M 
+-Performance tuning (init)
+-Remove ipa fw loading in post-fs
+-Set default GPU power level
+-Set haptics overlays to max
+-Switch to lisa's own graphics firmware
+-Switch to lisa's own perf stack
+-Switch to QuickSilver kernel by GR
+-Updated JIT list for pinned blobs
+-Use dex2oat64 on coral/flame 
+
+-- Source Side Changes
+-Settings: add menu item to toggle app lock debugging
+-services: applock: fix showing unlock prompt for non visible packages
+-Settings: Introduce App lock
+-NotificationManagerService: Disable channel warning toast by default
+-Pocket lock: Improve on UDFPS devices
+-Settings: Restore AOSP fingerprint enrolling layouts
+-fingerprint: Rework enrollment screen
+-Merge Pixel r32 Feb 2022 security patches
+-PixelPropsUtils: Update Raven to 2nd February 2022 Security patch fingerprint
+-PixelPropsUtils: Remove Pubg New State from GamesProps
+-core: Refactor Pixel 2021 features availability and PixelProps spoofing
+-gms: Move back to P2020 Personalization services
+-vold: add support for more filesystems for public storage
+-Settings: Nuke ColorBucketPreference and overlays
+-Settings: Nuke custom vibration intensity preferences
+-SystemUI: DetailDialog: do not explicitly specify type parameters for setOnClickListener lambda
+-SystemUI: Fix circle battery styles QS tinting
+-SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+-base: Declare cutout utils
+-themes: Nuke ColorBucket overlays
+-vendor: overlay: Force disable ambient music components
+-Update some translations
+-Fix ManagedServices concurrent ArrayIndexOutOfBoundsException
+-init: fix to set sd device label correctly for FS
+-init: mount_handler: detect main block device more reliably
+-init.rc: use /sys/class/block instead of /sys/devices/virtual/block
+-media: update path for vendor specific config files
+-overlays: Add Outline iconpack
+-overlays: Add more icon shape overlays
+-vold: Accept Linux GPT partitions on external SD cards
