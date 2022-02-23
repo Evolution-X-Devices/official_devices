@@ -628,5 +628,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-0-official-cepheus-evolution-x-snow-6-0-02-19-2022.4404821"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "vayu",
+      "name": "Poco X3 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "elizabethangelalorenza",
+            "maintainer_url": "https://forum.xda-developers.com/m/elizabethangelalorenza.7923660",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-official-evolution-x-poco-x3-pro-vayu.4368817"
+         }
+      ]
    }
 ]
