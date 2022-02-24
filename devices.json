@@ -642,5 +642,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-official-evolution-x-poco-x3-pro-vayu.4368817"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "MI439",
+      "name": "Redmi 7A/8/8A/8A Dual",
+      "supported_versions": [
+         {
+            "maintainer_name": "JaswalAshish (JaswalAshish)",
+            "maintainer_url": "https://forum.xda-developers.com/m/ashish11948.11817917/",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-mi439-official-evolution-x-snow-24-02-2022.4407201/"
+         }
+      ]
    }
 ]
