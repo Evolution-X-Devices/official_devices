@@ -1,0 +1,197 @@
+  
+2022-02-26
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+
+DEVICE:
+
+  * sm8250-common: Rename config_udfps_hbm_type
+  * sm8250-common: Import audio configs from vendor
+  * sm8250-common: overlay: Don't show Mobile plan preference item
+
+
+
+ROM:
+
+2/26
+
+Add option to change eSCO Transport Unit Size to 16
+
+Evolver: Remove UDFPS pressed color options
+
+Evolver: Remove volume panel on left toggle and switch to maintainer-set overlay
+
+SystemUI: Fix an NPE in KeyguardMessageArea
+
+SystemUI: Remove unnecessary showVoLTEIcon config
+
+Remove navbar inset for UDFPS BiometricPrompt
+
+Workaround to support low-area UDFPS on BP
+
+
+2/25
+
+SystemUI: AuthBiometricFaceView: Don't spam log
+
+SystemUI: Don't store pending ControlAction if the device is locked
+
+
+2/24
+
+Give hardcoded permission for oplus.permission
+
+Settings: AppLockSettingsPC: call super class method if preference click is not handled
+
+SystemUI: Adjust default QS tiles
+
+
+2/23
+
+SystemUI: Block face authentication when device is in pocket mode
+
+SystemUI: Fix issues related to SystemUIGoogle and Udfps
+
+
+2/22
+
+Introduce App lock for S
+
+Introduce Face Unlock for S
+
+Settings: ColumbusLowSensitivityPreferenceController: Disable if using ap sensor
+
+Settings: exclude app lock subsettings from recents
+
+VolumeDialog: Fix live caption tooltip when on left side
+
+base: Fix carrier label being white on keyguard when using a light wallpaper
+
+fixup! BiometricScheduler: Cancel operation if not idle
+
+optimizations
+
+overlay: core: Disable OtaSuggestionSummaryProvider from GMS
+
+overlay: Don't disable Google Play Updates
+
+vendor: Disable blur on app-launch
+
+vendor: update GMS updater component disable list
+
+
+2/21
+
+Fix deadlock issue
+
+Fix edit button in screenshot share activity
+
+PixelPropsUtils: Bypass hw attestation on newer pixel devices
+
+Settings: AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+
+Settings: Add missing icons in network and internet menu
+
+Settings: Add a menu item to toggle app lock debugging
+
+Settings: Applock: use property access syntax wherever applicable
+
+Settings: Move the "Adaptive Playback" option to Sound Settings
+
+SystemUI: match brightness slider track height with the progress drawable
+
+base: match track height of volume slider with progress drawable
+
+core: Allow overriding device/model/name properties
+
+llkd: Include llkd-debuggable.rc in eng builds only
+
+services: applock: fix showing unlock prompt for non-visible packages
+
+vendor: Enable multi-user across all devices
+
+vendor: Fix NFC animation background
+
+
+2/20
+
+NotificationManagerService: Disable channel warning toast by default
+
+rro_overlays: Update default wallpaper
+
+
+2/19
+
+Settings: Restore AOSP fingerprint enrolling layouts
+
+fingerprint: Rework enrollment screen
+
+
+2/18
+
+Merge Pixel r32 Feb 2022 security patches
+
+PixelPropsUtils: Update Raven to 2nd February 2022 Security patch fingerprint
+
+PixelPropsUtils: Remove Pubg New State from GamesProps
+
+core: Refactor Pixel 2021 features availability and PixelProps spoofing
+
+gms: Move back to P2020 Personalization services
+
+vold: add support for more filesystems for public storage
+
+
+2/17
+
+Settings: Nuke ColorBucketPreference and overlays
+
+Settings: Nuke custom vibration intensity preferences
+
+SystemUI: DetailDialog: do not explicitly specify type parameters for setOnClickListener lambda
+
+SystemUI: Fix circle battery styles QS tinting
+
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+
+base: Declare cutout utils
+
+themes: Nuke ColorBucket overlays
+
+vendor: overlay: Force disable ambient music components
+
+Update some translations
+
+
+2/16
+
+Fix ManagedServices concurrent ArrayIndexOutOfBoundsException
+
+init: fix to set sd device label correctly for FS
+
+init: mount_handler: detect main block device more reliably
+
+init.rc: use /sys/class/block instead of /sys/devices/virtual/block
+
+media: update path for vendor specific config files
+
+overlays: Add Outline iconpack
+
+overlays: Add more icon shape overlays
+
+vold: Accept Linux GPT partitions on external SD cards
+
+vold: add support for Linux Native MBR partition types
+
+
+2/15
+
+DataSwitchTile: Fix issue when subId is non-binary
+
+DataSwitchTile: Resolve initial tile state
+
+Restore support with RadioConfig@1.0 dsds clients
+
+core: Rework the Photos features blacklist again
