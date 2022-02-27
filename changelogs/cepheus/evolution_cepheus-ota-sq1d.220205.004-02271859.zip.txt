@@ -1,0 +1,43 @@
+Notes
+==============================
+ALWAYS BACKUP BEFORE UPDATING.
+THIS BUILD IS THE FIRST TO BE SIGNED, YOU MUST DO A CLEAN FLASH
+
+
+Device changes
+==============================
+- Pixon kernel updated to V3.2 (Linux 4.14.267)
+- Implement build signing
+- Add support for volte and vowifi for Free (French carrier)
+- Overlay: switch UDFPS pressed color to green
+
+
+ROM changes:
+==============================
+- PixelPropsUtils: Whitelist YouTube app
+- SoundSettings: Add charging vibration settings
+- SystemUI: Block UDFPS authentication in pocket mode UI
+- SystemUI: Fix missing volume dialog track
+- Updater: Add changelog button
+- charging: Allow using vibration without sounds
+- Evolver: Remove UDFPS pressed color options
+- Evolver: Remove volume panel on left toggle
+- SystemUI: Adjust default QS tiles
+- SystemUI: Fix issues related to SystemUIGoogle and Udfps
+- Introduce App lock for S
+- Introduce Face Unlock for S
+- base: Fix carrier label being white on keyguard when using a light wallpaper
+- overlay: core: Disable OtaSuggestionSummaryProvider from GMS
+- overlay: Don't disable Google Play Updates
+- vendor: Disable blur on app-launch
+- vendor: update GMS updater component disable list
+- Fix edit button in screenshot share activity
+- Settings: AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+- Settings: Add missing icons in network and internet menu
+- Settings: Move the "Adaptive Playback" option to Sound Settings
+- SystemUI: match brightness slider track height with the progress drawable
+- vendor: Enable multi-user across all devices
+- vendor: Fix NFC animation background
+- rro_overlays: Update default wallpaper
+- Settings: Restore AOSP fingerprint enrolling layouts
+- fingerprint: Rework enrollment screen
