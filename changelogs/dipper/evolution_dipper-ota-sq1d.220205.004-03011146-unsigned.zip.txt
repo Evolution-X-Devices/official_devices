@@ -1,0 +1,521 @@
+=======================
+     2022/03/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+a45255cd40dd Pulse: Use a config for FPS
+2646639b25cf SystemUI: Enable VoLTE/VoWiFi icons by default [1/2]
+7b9b1f9e78fc WalletActivity: Don't explicitly request face auth
+04cac21983e9 Reset face auth on occluding app when authenticated
+de32803f3c6c SystemUI: Improve pt-br translation for fingerprint_dialog_use_fingerprint_instead
+4854578bfc1f FaceService: Allow our face unlock to be used on third-party apps
+1a9cb59b9fa3 [1/2] Allow changing face unlock method when locked
+215e156e00c1 base: Remove AOSP translations of face vendor error messages
+b9c97db8c2a1 SystemUI: Tell user when face unlock detection is running
+f6f30237dee5 KeyguardBouncer: Don't delay showing if face auth running
+d540687eb807 base: do not use new lockscreen layout for bypass
+21cb97ab4f10 Add idle lockout message for FaceUnlock
+1c822b0f43f3 SystemUI: Allow listening for face only on pin/pass view
+e03642f45da2 SystemUIGoogle: Don't start FaceNotificationService if using custom face impl
+e144337ff541 Initial import of Face Unlock for S
+1695e7d72fc2 VolumeDialog: Fix live caption tooltip when on left side
+5ccbd3bb246f NotificationManagerService: Disable channel warning toast by default
+e87b82501f15 PixelPropsUtils: Bypass hw attestation on newer pixel devices
+ca841709a8be PixelPropsUtils: Whitelist YouTube app
+4bacc0503708 PixelPropsUtils: Remove Pubg New State from GamesProps
+f6fce271fc56 PixelPropsUtils: Update Raven to 2nd February 2022 Security patch fingerprint
+8514c70f3f0c core: Refactor Pixel 2021 features availability and PixelProps spoofing
+62fe30391f69 BiometricScheduler: Cancel operation if not idle
+d2dd5a592d78 Biometrics: Allow disabling of fingerprint cleanups
+bee24cf80583 udfps: Allow to configure hbm overlay type
+9b7b5e7dcc91 udfps: Implement default udfps hbm provider
+d604a7daf17d Block UDFPS auth in pocket mode
+48dbebe4e673 Remove navbar inset for UDFPS BiometricPrompt
+199cc1e190fc Workaround to support low-area UDFPS on BP
+8583ecf2482c charging: Allow using vibration without sounds
+502f82d5e0bb services: applock: suppresss bubble up with a different flag
+dad1155c47c5 services: AppLockManagerService: add data scheme to package uninstall intent filter
+5cbf3888a788 services: AppLockManagerService: group user validity and device security check into a single method
+a798cde34589 services: AppLockManagerService: always check configuration before hiding notification contents
+a5f829279bca services: applock: lock all packages when device is locked
+0628b577cc63 services: AppLockManagerService: remove usage of unlockScheduledPackage
+10c3b1fdde4b Revert "base: applock: allow locking apps immediately [1/2]"
+c6916c270193 services: AppLockManagerService: fix a few possible lock re-entry suspension
+1aed49b34f9a base: applock: allow locking apps immediately [1/2]
+77c3a49f5570 services: AppLockManagerService: handle multiple users properly
+969ff37b2985 services: applock: allow opting out of biometrics [1/2]
+30741a7d2833 services: applock: disable for work profile apps
+92ceaf169e04 services: AppLockManagerService: ignore calls from managed profiles
+03ac27ed64a7 services: AppLockManagerService: use hashcode of pkg name as request code
+38c407a6ddcd services: AppLockManagerService: use lazy initialization instead of lateinit and other optimisations
+a1167409f2b8 services: applock: fix showing unlock prompt for non visible packages
+708457ffaa95 base: introduce app lock [1/4]
+e87f2ac4a3cf SystemUI: match brightness slider track height with the progress drawable
+41ce42c444b2 SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+77d6a5324b0b SystemUI: DetailDialog: do not explicitly specify type parameters for setOnClickListener lambda
+b9a44cafc168 SystemUI: Fix an NPE in KeyguardMessageArea
+a8d8b47debcd SystemUI: Don't store pending ControlAction if the device is locked
+3f30a0ad5c9c SystemUI: Disable ringer button if alert slider is present.
+02c2cd7cbaff SystemUI: AuthBiometricFaceView: Don't spam log
+7e69a7ec9440 SystemUI: Adjust default QS tiles
+3dfdff8a632b base: SystemUI: Fix circle battery QS tinting
+5dd24113731f base: Fix carrier label being white on keyguard when using a light wallpaper.
+e71fe495d1f0 SystemUI: Remove unnecessary showVoLTEIcon config.
+908db3543bfc overlays: Generate add'l wifi gen icons for Outline iconpack.
+363847bf486a overlays: Fix missing animation crash in Outline pack
+659b014f738b overlays: Add Outline iconpack
+fb82ecf1a8ca overlays: Add more icon shape overlays
+047ea86afd46 User toggle for StreamProp [1/2]
+b5c866dbfe4b User toggle for GamesProp [1/2]
+a09f8ac41373 fixup! User toggle for unlimited photos storage [1/2]
+9726b9bba8a8 PixelPropsUtils: Invite streaming apps to the party
+6aa90590a97c PixelPropsUtils: Add GamesProps
+7d4b3fbfdd7f Give hardcoded permission for oplus.permission
+e856a81e9f72 CutoutUtils: Improve logic
+1172c012b836 base: Declare cutout utils
+a65f857868b8 base: Show USB icon in ADB notification
+bdc250649972 base: Show USB icon in notification instead of generic system icon
+263f969cb38b DataSwitchTile: Resolve initial tile state
+c5450a78dd5a DataSwitchTile: Fix issue when subId is non-binary
+2f2496c9a784 QSTiles: Re-write Sync tile in Kotlin
+814889b9092b QSTiles: Re-write Caffeine tile in Kotlin
+ce093ce70704 QSTiles: Re-write On-The-Go tile in Kotlin
+9a3e6418f691 fixup! SystemUI: On-The-Go Mode (1/2)
+3d1ec8ce9481 fixup! SystemUI: Fix method for disabling unlock ripple animation
+89c9be840de9 Fix edit button in screenshot share activity
+72bd28a0853f Fix deadlock issue.
+8322dabd366c Lazy load Properties::isDrawingEnabled.
+14cd549a0602 Backport 'Add ability to disable GL draws'.
+2e9b8dfcebbf Fix an instance of -Wunused-but-set-variable.
+4131575a29aa Fix full draw  power usage increase issue
+1d1f71bfb818 Fix ManagedServices concurrent ArrayIndexOutOfBoundsException
+ac0a1ae20930 Fix BatteryStats counts foreground activity time.
+9f015224567a HwRemoteBinder: fix race for concurrent binderDied
+c8e2b77ea22c Fix NPE with cutout force full screen
+49556e17452d fwb: Implement cutout force full screen [1/2]
+cd2e984632a1 Cancel the existing recents animation before any initialization
+2fa57a1915d7 New Crowdin updates
+5019d6944d58 [SQUASH] Huge clean up of unnecessary stuff
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+88a3811 Evolver: Enable VoLTE/VoWiFi icons by default [2/2]
+1474e70 New Crowdin updates (#184)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+c5bc4e96e6 Settings: Bring back Advanced nav gestures [2/2]
+20c6659809 Settings: Battery: Make battery temp preference looks like others
+882fd2bf17 Battery: show battery temp on power summary
+d38be99c14 SoundSettings: Add charging vibration settings
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+d3082b4a config: Remove duplicate PRODUCT_MINIMIZE_JAVA_DEBUG_INFO
+
+
+=======================
+     2022/02/28
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+34df18f Add unsigned check
+a187381 Add changelog button
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+9e8ec2d6 tasks: Guard unsigned
+27760ba6 config: Add property to indicate signed/unsigned
+bd106285 tasks & tools: Fix-up
+
+
+=======================
+     2022/02/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+214119cfad59 Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/frameworks/base into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+30e0580 New Crowdin updates (#183)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GamingMode/commits/refs/heads/snow
+
+1a76247 New Crowdin updates (#7)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+df2af994cf New Crowdin updates (#80)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+c73583c Revert "Updater: Convert to blueprint"
+4f5f370 New Crowdin updates (#37)
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/snow
+
+e41379c6 New Crowdin updates (#9)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+41a05cc3 tools: Do not create changelog if the folder does not exist
+01781cd9 tasks: Add changelog creation to tasks
+8ed06393 tools: Use AOSP env var for out directory
+d3852049 tools: Improvement to the changelog script
+18f6d141 Revert "tools: Nuke changelog"
+
+
+=======================
+     2022/02/26
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+90f6e88 [SQUASH] Clean up some commits
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+e14f1000c Add option to change eSCO Transport Unit Size to 16
+
+
+=======================
+     2022/02/25
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel/commits/refs/heads/snow
+
+a1271d5 pixel: Disable userdebug diagnostics
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+78ec839 manifest: Track our own fork of hardware/google/pixel
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+60d388eeb7 Settings: AppLockSettingsPC: call super class method if preference click is not handled
+
+
+=======================
+     2022/02/24
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+c917295 manifest: Track FaceUnlock repos
+868cd93 manifest: Track vendor/qcom/opensource/fm-commonsys from LOS
+4d7ea93 manifest: Remove GrapheneOS-Camera
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+7ecab44 New Crowdin updates (#182)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+2345711515 Settings: Revert bug report changes
+b6fb23f1fe Settings: Allow using face as auth method for apps
+b73825c4e8 [2/2] Allow changing face unlock method when locked
+59620da1fc Initial import of Face Unlock for S
+168de75d3b ColumbusLowSensitivityPreferenceController: Disable if using ap sensor
+7d5150e4a4 Settings: applock: handle biometric prompt activity launch from preference controller
+74e53939af Settings: applock: allow opting out of biometrics [2/2]
+726d754109 Settings: exclude app lock subsettings from recents
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+533fc692 Exclude some files from artifact path requirements
+03dae036 overlay: Don't disable Google Play Updates.
+6ce2e672 overlay: core: Disable OtaSuggestionSummaryProvider from GMS
+ef0d2d9a vendor: update GMS updater component disable list
+5208843f vendor: Change icons for FM Radio apps
+6144f914 vendor: Refactor how our overlays work
+137df41b vendor: Remove GrapheneOS-Camera
+
+
+=======================
+     2022/02/23
+=======================
+
+* Repository: /commits/refs/heads/lineage-19.0
+
+c38001e FM: Set `provides_uses_lib` for qcom.fmradio module
+
+
+=======================
+     2022/02/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+8b103b942b AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+03a309bb2f Settings: Move "Adaptive Playback" option to Sound Settings.
+139490422b Settings: Added missing icons in network and internet menu
+dbf5bee9e4 Settings: applock: use property access syntax wherever applicable
+caa8f9f94a Settings: add menu item to toggle app lock debugging
+77fe3c4f27 Settings: introduce app lock [3/4]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+78c0e9e9 vendor: Disable blur on app-launch
+
+
+=======================
+     2022/02/21
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+3a0129bfb core: Allow overriding device/model/name properties
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+fe8178676 Add Init_rc to Product_variables.Eng
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+d6424d78d8 Camera: Master callback mode support for MCX raw
+a052686847 Camera: Support raw stream creation for priviledged APPs
+d96c0d7076 camera: Workaround for GCC-compiled HAL3 drivers
+7024a53046 libstagefright: Allow HFR-60 in HAL-3 recording
+7197f8250a Camera: Flush Improvements - Result drain optimization
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+7b24765 Evolver: Import BasePreferenceController and DashboardFragment from Krypton
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/snow
+
+a8e18ef Cleanup resources and improve UX
+51bc17f Add missing perms
+4414e14 Refactor deps structure
+4be660d Cleanup vendor impl
+302e800 Changes for Android 12
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+82ab7020b llkd: Include llkd-debuggable.rc in eng builds only
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+2559cbed version: Uprev to 6.1
+89b4abcf vendor: Restore FaceUnlock
+997b0ccc vendor: enable multi-user across all devices
+b730769b vendor: Fix NFC animation background
+
+
+=======================
+     2022/02/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+03b53443de Merge rest of privileged client camera stream bypass
+b3d358711c [fixup!] libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+a2d511b6ba libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+861caf58c6 Reintroduce 'public void TelephonyMetrics.writeRilSendSms(int, int, int, int)'. (#8)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+954771b07c fingerprint: Rework enrollment screen
+9f824b0e7d Settings: Restore AOSP fingerprint enrolling layouts
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+45db919e rro_overlays: Update default wallpaper!
+
+
+=======================
+     2022/02/19
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+7c18f57 sepolicy: introduce app lock [2/4]
+
+* Repository: https://github.com/Evolution-X/packages_apps_GamingMode/commits/refs/heads/snow
+
+94abaf9 GamingMode: don't show notification overlay for secure notifications
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+5ec2eea vold: Accept Linux GPT partitions on external SD cards
+ede63d6 vold: Build exfatprogs & declare support of exFAT.
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+00e8ede4 vendor: introduce app lock [4/4]
+
+
+=======================
+     2022/02/18
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+7585156e6 Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+dc2ed3ef24 Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/frameworks/av into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+2853e84983 Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/frameworks/native into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+c75804d31f Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/frameworks/opt/telephony into snow
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+9b928cc Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/manifest into snow
+c15de55 Manifest for Android 12.0.0 Release 32 (SQ1D.220205.004)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+591a15f49c Merge tag 'android-12.0.0_r32' of https://android.googlesource.com/platform/packages/apps/Settings into snow
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+43900ebe6 init: mount_handler: detect main block device more reliably
+a4ef8ad46 init.rc: use /sys/class/block instead of /sys/devices/virtual/block
+5924c7275 init: fix to set sd device label correctly for FS
+a123bb3d8 init: Set persist.sys.usb.config properly
+506cc2490 Revert "Format formattable partitions if mount fails"
+12fc54749 init: Add more properties to spoof.
+dcb2b5dcd init: Report valid verified boot for SafetyNet checks
+c66919fae init.rc: Disable native stats collection service
+1cfbb6981 init.rc: don't start console unless asked to
+cfc089b1d camera: Add L-compatible camera feature enums
+dc796d307 init: always allow local.prop overrides
+c45282556 Set permissions on /system/addon.d/ and files within.
+22cc02ad5 Set /system/etc/init.d/* permissions
+a759feda5 init: Weaken property override security for the init extension
+e84aa398c remount: Fix failure for system-as-root
+7dc50bedf fastboot: Revert to Android 11 method of checking lock status
+da6d11203 Add exfat utilities for mkfs and fsck
+1d7d2814b Camera: Add feature extensions
+fc4bac5ea init: don't skip starting a service with no domain if permissive
+6035a521e healthd: Add DASH charger type
+517960d28 healthd: Add support for HVDCP_3P5 chargers
+fda16e2f0 healthd: Reinitialize mChargerNames for every battery update
+0708b0e7b healthd: Add support for HVDCP_3 chargers
+5bb742fa7 init: Convert evolution product variables to soong config variables
+cfe75c76c init: Add vendor-specific initialization hooks.
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+633e199 Utils: Add missing exfat
+e845624 vold: add support for more filesystems for public storage
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+7541f46 gms: Remove non-battery TurboAdapter
+
+* Repository: /commits/refs/heads/lineage-19.0
+
+09fc534 fmapp2: don't destroy notification channel on stop
+
+
+=======================
+     2022/02/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+735fcbd New Crowdin updates (#181)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+23602a906c New Crowdin updates (#79)
+99d5b0dd19 [SQUASH] Settings: Remove several broken stuff [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+490ad11 New Crowdin updates (#36)
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/snow
+
+310d277c New Crowdin updates (#8)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+301967b0 themes: Nuke ColorBucket overlays
+f0404d61 vendor: Hide blank preference in Settings > Acessibility
+c3d25a10 vendor: overlay: Force disable ambient music components
+37c5f2f3 vendor: Set persist.sys.usb.config conditionally
+
+* Repository: /commits/refs/heads/lineage-19.0
+
+236462a FM: Rename vendor.bluetooth.soc to vendor.qcom.bluetooth.soc
+e5235d6 FM: add vendor tag for vendor property value
+43ea645 FM: Add backward compatiblity support for oreo FM configs
+48daea7 FM: adaptive icon
+4af27b7 FM: Revamp notifications
+e1f5250 FM: Fix KHz->kHz
+85fd266 FM: Convert regional band arrays to string references
+a0597cf FM: Update India bands
+efcfe8b FM: Fix headphone icon
+468446e FM: Fix settings UI bugs
+de8435e FM: Localization of band types
+fdfe286 FM: improved band selection
+517d503 FM: Select band based on country
+1962a57 FM: Keep track of scanned frequencies in service
+2a8f46b FM: Ensure scan state is kept in sync
+d137beb FM: The collect channel disappear when quit FM
+2b40136 FM: Fix status text to reflect when FM is enabled.
+07d55e6 FM: Launch station list automatically after scan
+a59870b FM: reenable radio text visibility after station info updated
+511f9a5 FM: Store tag num/value in sequence
+e4a01cf FM: retune last frequency when resume after call
+667a5fc FM: materialize
+dcc3fcc FM: add Indonesia
+ca74c9c FM: Cleanup resources
+7acd863 FM: Add property to force use internal antenna
+1827d00 FM: Switch file extension to aac
+671f8c8 FM: Call unregister in onPause
+2b309b6 FM: Scanned frequencies are saved in ascending ordering
+b7fa2ac FM: Re-add RDS fields to UI
+d5ac6e0 FM: Make default country an overlay
+ee7e0ed FM: Restore seek arrows
+19cac3e FM: Re-vamp UI
+915ba50 FM: fm_hci/helium: Exclude from OSS builds
+1f7be89 FM: Fix include paths
+6f0580b FM: Break bootclasspath dependency
+4747192 jni: Resolve -Wwritable-strings warnings in helium FW library variables
+2b5af2a jni: Resolve V4L2_CID_AUDIO_MUTE redefinitions
+37e836b jni: Resolve equality comparisons with extraneous parentheses
+db3e362 jni: Ignore unused parameters from APIs
+cf817ca jni: Remove unused variables
+bb6320d jni: Resolve FM_DEVICE_PATH R/O open flag
+3f5c1a4 Allow library to be used by apps directly
+0dc0a0c Revert "Fm: Use btconfigstore interface to fetch vendor features"
+ee1d1c0 Revert "FM: Use btconfigstore interface to fetch vendor features"
+1da056e Revert "Fm: Use btconfigstore interface to fetch vendor features"
+8088aa3 Revert "Fm: Use btconfigstore interface to fetch vendor property"
+
+
+=======================
+     2022/02/16
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+b6e8055 manifest: Track our fork of system/media
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/snow
+
+8c0b9433 media: update path for vendor specific config files
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-19.0
+
+2c5c8df extract_utils: sort the package list before writing blueprints
+3521e25 extract_utils: Remove support for /sbin
+
+
