@@ -1,0 +1,16 @@
+Device Changelog:
+~ Fix Hotspot
+~ Address several denials
+~ Switch to new implementation of Dolby Atmos
+
+Source Changelog:
+~ Settings: Bring back fixed Advanced nav gestures
+~ Updater: Add changelog button
+~ Introduce App lock for S
+~ Introduce Face Unlock for S
+~ overlay: Don't disable Google Play Updates
+~ Settings: AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+~ Settings: Add missing icons in network and internet menu
+~ Settings: Move the "Adaptive Playback" option to Sound Settings
+~ rro_overlays: Update default wallpaper
+
