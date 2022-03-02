@@ -1,0 +1,24 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Dirty flash is fine from previous unofficial EvoX android 12 builds
+
+**Device Changes:**
+Enable setting to require harder taps for quick-tap gesture
+Support multiple levels of vibration intensity
+
+**Evolution X Update**
+Bring back Click to take partial screenshot
+Implement partial screenshot for screenshot power menu long press
+Bring back vibration intensity preferences
+Block UDFPS auth in pocket mode
+Make battery temp preference looks like others
+Show battery temp on power summary
+Bring back fixed Advanced nav gestures
+Disable Lock screen Pulse by default
+Enable VoLTE/VoWiFi icons by default
+PixelPropsUtils: Whitelist YouTube app
+Add charging vibration settings
+SystemUI: Fix missing volume dialog track
+Updater: Add changelog button
+charging: Allow using vibration without sounds
