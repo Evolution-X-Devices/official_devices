@@ -1,0 +1,133 @@
+  
+2022-03-05
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+
+DEVICE:
+
+  * minor changes
+
+KERNEL:
+
+  * Merged LA.UM.9.12.1..r1-00700.01-SMxx50.QSSI12.0 tag.
+
+ROM:
+
+3/5
+
+Fix AoD animation on Udfps unlock
+
+PixelPropsUtils: avoid spoofing Shamim GCam
+
+PixelPropsUtils: Whitelist Google Dialer
+
+base: grant storage permissions for Updater
+
+
+3/4
+
+Settings: Remove useless USB page header
+
+Settings: Revert to AOSP vibration intensity preferences
+
+SystemUI: 12L style SystemUI dialogs
+
+SystemUI: Android 13 inspired Media Output Picker
+
+SystemUI: Fix media output seekbar in dark mode
+
+
+3/3
+
+AutoAODService: Improve some code
+
+Change the wakeup alarms for "light-doze-maintenance step" to non-wakeup alarms
+
+Clock: Don't hide the expanded QS clock
+
+Clock: Fix auto-hiding for center and right clock
+
+Evolver: Override VoLTE icon with VoWiFi when available
+
+SystemUI: Block face authentication when device is in pocket mode
+
+SystemUI: Fix uneven DND icon padding in status bar
+
+SystemUI: Remove excess margin in few status bar icons
+
+SystemUI: use simple check for isFaceDisabled
+
+prebuilt: import theme icons overlay
+
+vendor: Import PixelDocumentsUIGoogleOverlay
+
+vendor: Import SystemUIGoogleOverlay
+
+
+3/2
+
+Add config to exempt telephony-related app from location indicators
+
+ColorUtils: Fix out-of-gamut Oklab blending
+
+Evolver: Add device controls shortcut to power menu
+
+Evolver: Arrange Edge lightning color modes correctly
+
+Evolver: Bring back Click to take partial screenshot
+
+Evolver: Hide LED section for unsupported devices
+
+Implement partial screenshot for screenshot power menu long press
+
+Link dialog radius to config_dialogCornerRadius
+
+SystemUI: Add powershare QS tile
+
+apns: Drop I-Wireless APN
+
+apns: Drop Solavei
+
+apns: Update Net10 APNs
+
+apns: Update U.S. T-Mobile APNs and add DUN tethering
+
+apns: Update 'wholesale' APNs
+
+
+3/1
+
+Biometrics: Allow disabling of fingerprint cleanups
+
+BiometricScheduler: Cancel operation if not idle
+
+Block UDFPS auth in pocket mode
+
+Pulse: Set current Refresh rate as FPS animation value
+
+Settings: Battery: Make battery temp preference looks like others
+
+Settings: Battery: Show battery temp on power summary
+
+Settings: Bring back fixed Advanced nav gestures
+
+SystemUI: Disable Lock screen Pulse by default
+
+SystemUI: Enable VoLTE/VoWiFi icons by default
+
+WalletActivity: Don't explicitly request face auth
+
+
+2/27
+
+PixelPropsUtils: Whitelist YouTube app
+
+SoundSettings: Add charging vibration settings
+
+SystemUI: Fix missing volume dialog track
+
+Updater: Add changelog button
+
+charging: Allow using vibration without sounds
