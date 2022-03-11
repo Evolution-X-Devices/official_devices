@@ -1,0 +1,21 @@
+NOTE: Use the latest A11 monet firmware as it is required.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+
+Highlights:
+- Initial 12.1 Android build
+It's a new android version release so a lot of features were stripped out in favor of stability and battery life.
+Face unlock is going to be returned in consequent versions.
+
+Device changes:
+==============================
+sm7250-common: powerhint: Nuke CPU boosting nodes
+sm7250-common: Use lolz clang for kernel
+sm7250-common: Stop building mock thermal
+sm7250-common: permissions for mi_thermald
+sm7250-common: Add uceservice@2.3 to FCM
+sm7250-common: sepolicy: Address vendor_qtidataservices_app denial
+------------------------------
+ROM changes:
+==============================
+3/9
+Start of features migration for Android 12.1
