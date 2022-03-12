@@ -1,0 +1,63 @@
+  
+2022-03-12
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+- CLEAN FLASH IS ADVISED !!
+
+DEVICE:
+
+  * Revert "sm8250-common: fingerprint: Add on show\hide udfps overlays"
+  * sm8250-common: tune surface flinger refresh rate timers
+  * sm8250-common: set Surfaceflinger refresh rate timers
+  * sm8250-common: switch to Surfaceflinger content detection API
+  * sm8250-common: parts:  import doze icons from PixelDoze
+  * sm8250-common: Build missing sensor packages
+  * sm8250-common: Update AUDIO_DEVICE_OUT_EARPIECE from CAF LA.UM.9.12.r1-14000-SMxx50.0
+  * sm8250-common: audio: Drop instances from record_24
+  * sm8250-common: audio: Drop instances from primary input
+
+ROM:
+
+3/12
+
+Add Settings services to location indicator whitelist
+
+Add support for call recording
+
+Do not show camera indicator for Face Unlock service
+
+Scramble pin: fix scrambling after 12L
+
+Update themed icon overlay
+
+VolumeDialog: Left align VolumeDialog for OnePlus devices by default
+
+core: Add recents home button long press action
+
+net: fix NPE when reading IP configurations
+
+services: Whitelist Nfc Service from clipboard toasts
+
+
+3/11
+
+Evolver: Add navbar layout inversion tuning
+
+Evolver: Drop monet settings
+
+Settings: update SUW theming for 12
+
+SystemUI: Drop colorkt-based dynamic theme engine for Monet
+
+overlay: Default to night mode
+
+overlay: Set biometrics colors to accent
+
+rro_overlays: Import drawables from Lawnicons
+
+
+3/9
+
+Start of features migration for Android 12.1
