@@ -1,0 +1,28 @@
+NOTE: Use the latest A11 monet firmware as it is required.
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+
+Highlights:
+- Face unlock
+- AOSP monet engine
+- OTA bug should be fixed
+- More basic customizaiton
+
+ROM changes:
+==============================
+3/12
+Add Settings services to location indicator whitelist
+Do not show camera indicator for Face Unlock service
+Scramble pin: fix scrambling after 12L
+VolumeDialog: Left align VolumeDialog for OnePlus devices by default
+core: Add recents home button long press action
+net: fix NPE when reading IP configurations
+services: Whitelist Nfc Service from clipboard toasts
+
+3/11
+Evolver: Add navbar layout inversion tuning
+Evolver: Drop monet settings
+Settings: update SUW theming for 12
+SystemUI: Drop colorkt-based dynamic theme engine for Monet
+overlay: Default to night mode
+overlay: Set biometrics colors to accent
+rro_overlays: Import drawables from Lawnicons
