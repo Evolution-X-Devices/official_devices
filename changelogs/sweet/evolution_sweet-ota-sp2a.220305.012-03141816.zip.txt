@@ -1,0 +1,72 @@
+Device changes:
+==============================
+• First Android 12L Build
+• Updated blobs from MIUI 13 v13.0.2.0 Global
+• Fixed OK Google
+• Updated GPS to LA.UM.9.1.r1-11500-SMxxx0.0
+• Fixed OTA updates
+• Switch to Sleepy Kernel
+------------------------------
+ROM changes:
+==============================
+Add Settings services to location indicator whitelist
+Do not show camera indicator for Face Unlock service
+Do not show location indicator for bluetooth, tethering and SystemUI packages
+Evolver: Add navbar layout inversion tuning for 3 button nav
+Evolver: Drop monet settings
+Fix AoD animation on Udfps unlock
+Merge March 2022 security patches (Android 12.1)
+PixelPropsUtils: Whitelist Google Dialer
+PixelPropsUtils: avoid spoofing Shamim GCam
+Scramble pin: fix scrambling after 12L
+Settings: Address a memory leak
+Settings: Allow editing all APNs and APN types
+Settings: AppVolumeSlice: Allow querying icon of apps installed by any user
+Settings: Battery: Implement background process killer
+Settings: Change back gesture height intervals
+Settings: Implement cutout force full screen
+Settings: Support dark mode on 'Vision Settings'
+Settings: update SUW theming for 12
+Start of features migration for Android 12.1
+SystemUI: Drop colorkt-based dynamic theme engine for Monet
+apns: update Telenor Mobilsurf
+base: grant storage permissions for Updater
+core: Add recents home button long press action
+net: fix NPE when reading IP configurations
+overlay: Default to night mode
+overlay: Set biometrics colors to accent
+rro_overlays: Import drawables from Lawnicons
+services: Whitelist Nfc Service from clipboard toasts
+==============================
+Add support for call recording
+Allow cellbroadcastreceiver to read phone state
+Block annoying status bar call strength icon
+Do not lock when biometric lock status is cleared (might fix FP-keystore2 issues)
+Evolver: Add a toggle for combined signal icons in status bar
+Evolver: Allow toggling location privacy indicator
+Evolver: Allow toggling Udfps haptic feedback
+FW: Use rounded corners in system UI
+Import Crowdin translations from 12.0
+Pixel Launcher: Update themed icons overlay
+Screenrecord: Bring back blinking stop, LQ and Longer options
+Settings: Add option to enable AOD on charging only
+Settings: Disable doze on charge preference when doze always on is enabled
+Settings: Set Cell Broadcast Receiver package to "com.google.android.cellbroadcastreceiver"
+Settings: Show memory usage in app info
+Settings: Update Evolver summary to reflect update to 12.1
+SettingsLib: Update LTE+ icon as per new Silk design
+SystemUI: Add AOD QS tile
+SystemUI: Add tile to show volume panel
+SystemUI: Bring back FPS Info Overlay & Tile
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+SystemUI: HeadsUpTile: Open Heads Up fragment on long click
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Introduce DataSwitchTile
+SystemUI: res array for status bar blocked icons
+fw/b: remove duplicate hide battery feature from tuner
+net: fix NPE when reading IP configurations
+overlay: Change global actions gestures defaults
+overlay: Default to full gesture navigation
+overlay: Update rounded corner dimens from redfin
+overlay: Use old NTP server in China
+
