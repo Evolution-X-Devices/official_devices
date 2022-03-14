@@ -1,0 +1,23 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Only clean flash has been tested. Please don't report issues if you didn't clean Data.
+- Big thanks to @kanstmablason for all what I picked in device and vendor, specially his great job updating from CAF blobs
+
+**Device Changes:**
+- Update many blobs from LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user
+- Go back to QTI WFD
+- Update QtiRadio HAL to v2.6.
+- Uprev LPA to 1.2
+- Update UCE service HAL to v2.3
+- Update IMS Factory to v1.1
+- Update Data Factory to v2.3
+- Update IBluetoothAudioProvidersFactory to v2.1
+- Add mwqemadapter to manifest
+- Add missing extphone libraries
+
+
+**Evolution X Update**
+- Google's security patch from March
+- Rebase to Android 12L
+- Some features may be missing, they will be added as time goes on but not ecerything will be back
