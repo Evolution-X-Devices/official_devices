@@ -1,0 +1,367 @@
+Device changes:
+====================================
+Device and kernel tree rebase
+Switch to LineageOS xiaomi common libperfmgr (Previous from ArrowOS)
+Back to Google's prebuilt cgroups and task_profiles
+Fixed Jiosaavn app crashes
+Improved Display Colors (KCAL) UI (thanks @Ardjlon)
+Droped redundant overlays
+Moved to WALT scheduler
+A lot of EAS impl improvements
+Merged LA.UM.7.2.c25-04700-sdm660.0 tag of qcacld-3.0
+Disabled audit on kernel
+Switched to SLMK
+Kernel upstream to 4.4.302
+Localversion updated to 1.2 and EOL :')
+Other minor improvements
+
+ROM changes:
+====================================
+3/13
+Allow cellbroadcastreceiver to read phone state
+Block annoying status bar call strength icon
+Evolver: Add a toggle for combined signal icons in status bar
+Evolver: Allow toggling location privacy indicator
+Evolver: Allow toggling Udfps haptic feedback
+FW: Use rounded corners in system UI
+Settings: Add option to enable AOD on charging only
+Settings: Disable doze on charge preference when doze always on is enabled
+Settings: Set Cell Broadcast Receiver package to "com.google.android.cellbroadcastreceiver"
+SettingsLib: Update LTE+ icon as per new Silk design
+SystemUI: Add qs AOD tile
+SystemUI: Add tile to show volume panel
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Introduce DataSwitchTile
+fw/b: remove duplicate hide battery feature from tuner
+
+3/12
+Add Settings services to location indicator whitelist
+Add support for call recording
+Do not show camera indicator for Face Unlock service
+Pixel Launcher: Update themed icons overlay
+Scramble pin: fix scrambling after 12L
+VolumeDialog: Left align VolumeDialog for OnePlus devices by default
+core: Add recents home button long press action
+net: fix NPE when reading IP configurations
+services: Whitelist Nfc Service from clipboard toasts
+
+3/11
+Evolver: Add navbar layout inversion tuning
+Evolver: Drop monet settings
+Settings: update SUW theming for 12
+SystemUI: Drop colorkt-based dynamic theme engine for Monet
+overlay: Default to night mode
+overlay: Set biometrics colors to accent
+rro_overlays: Import drawables from Lawnicons
+
+3/9
+Start of features migration for Android 12.1
+
+3/6
+Do not show location indicator for bluetooth, tethering and SystemUI packages
+Settings: Change back gesture height intervals
+apns: update Telenor Mobilsurf
+
+3/5
+Fix AoD animation on Udfps unlock
+PixelPropsUtils: avoid spoofing Shamim GCam
+PixelPropsUtils: Whitelist Google Dialer
+base: grant storage permissions for Updater
+
+3/4
+Settings: Remove useless USB page header
+Settings: Revert to AOSP vibration intensity preferences
+SystemUI: 12L style SystemUI dialogs
+SystemUI: Android 13 inspired Media Output Picker
+SystemUI: Fix media output seekbar in dark mode
+
+3/3
+AutoAODService: Improve some code
+Change the wakeup alarms for "light-doze-maintenance step" to non-wakeup alarms
+Clock: Don't hide the expanded QS clock
+Clock: Fix auto-hiding for center and right clock
+Evolver: Override VoLTE icon with VoWiFi when available
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Fix uneven DND icon padding in status bar
+SystemUI: Remove excess margin in few status bar icons
+SystemUI: use simple check for isFaceDisabled
+prebuilt: import theme icons overlay
+vendor: Import PixelDocumentsUIGoogleOverlay
+vendor: Import SystemUIGoogleOverlay
+
+3/2
+Add config to exempt telephony-related app from location indicators
+ColorUtils: Fix out-of-gamut Oklab blending
+Evolver: Add device controls shortcut to power menu
+Evolver: Arrange Edge lightning color modes correctly
+Evolver: Bring back Click to take partial screenshot
+Evolver: Hide LED section for unsupported devices
+Implement partial screenshot for screenshot power menu long press
+Link dialog radius to config_dialogCornerRadius
+SystemUI: Add powershare QS tile
+apns: Drop I-Wireless APN
+apns: Drop Solavei
+apns: Update Net10 APNs
+apns: Update U.S. T-Mobile APNs and add DUN tethering
+apns: Update 'wholesale' APNs
+
+3/1
+Biometrics: Allow disabling of fingerprint cleanups
+BiometricScheduler: Cancel operation if not idle
+Block UDFPS auth in pocket mode
+Pulse: Set current Refresh rate as FPS animation value
+Settings: Battery: Make battery temp preference looks like others
+Settings: Battery: Show battery temp on power summary
+Settings: Bring back fixed Advanced nav gestures
+SystemUI: Disable Lock screen Pulse by default
+SystemUI: Enable VoLTE/VoWiFi icons by default
+WalletActivity: Don't explicitly request face auth
+
+2/27
+PixelPropsUtils: Whitelist YouTube app
+SoundSettings: Add charging vibration settings
+SystemUI: Fix missing volume dialog track
+Updater: Add changelog button
+charging: Allow using vibration without sounds
+
+2/26
+Add option to change eSCO Transport Unit Size to 16
+Evolver: Remove UDFPS pressed color options
+Evolver: Remove volume panel on left toggle and switch to maintainer-set overlay
+SystemUI: Fix an NPE in KeyguardMessageArea
+SystemUI: Remove unnecessary showVoLTEIcon config
+Remove navbar inset for UDFPS BiometricPrompt
+Workaround to support low-area UDFPS on BP
+
+2/25
+SystemUI: AuthBiometricFaceView: Don't spam log
+SystemUI: Don't store pending ControlAction if the device is locked
+
+2/24
+Give hardcoded permission for oplus.permission
+Settings: AppLockSettingsPC: call super class method if preference click is not handled
+SystemUI: Adjust default QS tiles
+
+2/23
+SystemUI: Fix issues related to SystemUIGoogle and Udfps 
+
+2/22
+Introduce App lock for S
+Introduce Face Unlock for S
+Settings: ColumbusLowSensitivityPreferenceController: Disable if using ap sensor
+Settings: exclude app lock subsettings from recents
+VolumeDialog: Fix live caption tooltip when on left side
+base: Fix carrier label being white on keyguard when using a light wallpaper
+fixup! BiometricScheduler: Cancel operation if not idle
+optimizations
+overlay: core: Disable OtaSuggestionSummaryProvider from GMS
+overlay: Don't disable Google Play Updates
+vendor: Disable blur on app-launch
+vendor: update GMS updater component disable list
+
+2/21
+Fix deadlock issue
+Fix edit button in screenshot share activity
+PixelPropsUtils: Bypass hw attestation on newer pixel devices
+Settings: AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+Settings: Add missing icons in network and internet menu
+Settings: Add a menu item to toggle app lock debugging
+Settings: Applock: use property access syntax wherever applicable
+Settings: Move the "Adaptive Playback" option to Sound Settings
+SystemUI: match brightness slider track height with the progress drawable
+core: Allow overriding device/model/name properties
+llkd: Include llkd-debuggable.rc in eng builds only
+services: applock: fix showing unlock prompt for non-visible packages
+vendor: Enable multi-user across all devices
+vendor: Fix NFC animation background
+
+2/20
+NotificationManagerService: Disable channel warning toast by default
+rro_overlays: Update default wallpaper
+
+2/19
+Settings: Restore AOSP fingerprint enrolling layouts
+fingerprint: Rework enrollment screen
+
+2/18
+Merge Pixel r32 Feb 2022 security patches
+PixelPropsUtils: Update Raven to 2nd February 2022 Security patch fingerprint
+PixelPropsUtils: Remove Pubg New State from GamesProps
+core: Refactor Pixel 2021 features availability and PixelProps spoofing
+gms: Move back to P2020 Personalization services
+vold: add support for more filesystems for public storage
+
+2/17
+Settings: Nuke ColorBucketPreference and overlays
+Settings: Nuke custom vibration intensity preferences
+SystemUI: DetailDialog: do not explicitly specify type parameters for setOnClickListener lambda
+SystemUI: Fix circle battery styles QS tinting
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+base: Declare cutout utils
+themes: Nuke ColorBucket overlays
+vendor: overlay: Force disable ambient music components
+Update some translations
+
+2/16
+Fix ManagedServices concurrent ArrayIndexOutOfBoundsException
+init: fix to set sd device label correctly for FS
+init: mount_handler: detect main block device more reliably
+init.rc: use /sys/class/block instead of /sys/devices/virtual/block
+media: update path for vendor specific config files
+overlays: Add Outline iconpack
+overlays: Add more icon shape overlays
+vold: Accept Linux GPT partitions on external SD cards
+vold: add support for Linux Native MBR partition types
+
+2/15
+DataSwitchTile: Fix issue when subId is non-binary
+DataSwitchTile: Resolve initial tile state
+Restore support with RadioConfig@1.0 dsds clients
+core: Rework the Photos features blacklist again
+
+2/14
+GamingMode: NotificationOverlayController: mark overlay as untouchable and non-focusable
+GamingMode: upgrade gradle plugin and dependencies
+Updater: Convert to blueprint
+
+2/13
+Evolver: User toggle for Photos unlimited storage
+Evolver: User toggle for games/streaming apps
+SystemUI: Disable ringer button if alert slider is present
+
+2/12
+Updater: Implement custom OTA URL
+Updater: Uprev gradle and imported missing res
+Updater: Uprev to API 31
+base: Show USB icon in ADB notification
+base: Show USB icon in notification instead of generic system icon
+bt: security: Use-After-Free in btm_sec_[dis]connected
+telephony: Release wakelock if setRadioCapability is not supported
+telephony: Update external card state based on current app
+
+2/11
+Backport 'Add ability to disable GL draws'
+Cancel the existing recents animation before any initialization
+Evolver: Implement cutout force fullscreen
+Fix BatteryStats counts foreground activity time
+Fix NPE with cutout force full screen
+Fix an instance of -Wunused-but-set-variable
+Fix full draw power usage increase issue
+HwRemoteBinder: fix race for concurrent binderDied
+Lazy load Properties::isDrawingEnabled
+QSTiles: Re-write Caffeine tile in Kotlin
+QSTiles: Re-write On-The-Go tile in Kotlin
+QSTiles: Re-write Sync tile in Kotlin
+Settings: Add activity for cutout force fullscreen
+Settings: Migrate encryption settings xml to NestedScrollView
+Settings: Migrate interstitial encryption settings xml to NestedScrollView
+Settings: Move Extra Dim feature to Display
+Settings: Support per-app volume
+Settings: Use List Preference for Dark mode
+SystemUI: Make center clock layout safe insets aware
+SystemUI: Make center clock shift with rest of the status bar items
+Update some translations
+base: Remove duplicate WRITE_APN_SETTINGS permission for SystemUI
+fixup! SystemUI: On-The-Go Mode
+
+2/10
+ColorBucket: Remove PitchBlack overlays (different from the ‘real’ Black theme)
+EasterEgg: Fix some warnings
+Settings: Turn on haptic feedback on back gesture by default
+StrictMode: Don't enable extra features for userdebug builds
+SystemUI: Display a toast when a screenshot is deleted
+SystemUI: MediaOutputDialogFactory: Accept null package name
+SystemUI: Remove excess margin from data saver icon
+gms: Add Pixel dependencies sysconfigs (for specific Pixel devices only)
+init: Set persist.sys.usb.config properly
+vendor: Hide blank preference in Settings > Accessibility
+vendor: Set persist.sys.usb.config conditionally
+
+2/9
+Evolver: Add VoLTE icon from Motorola
+PixelPropsUtils: Remove spoofing for currently supported Pixels
+SystemUI: Fix method for disabling unlock ripple animation
+SystemUI: Introduce ColumbusCompatibilityHelper
+SystemUIGoogle: Build android.frameworks.stats
+SystemUIGoogle: Fix StatusBarGoogle injection and cleanup code
+SystemUIGoogle: Import proto deps for columbus CHRE impl
+SystemUIGoogle: Optimize proguard rules
+Update SystemUIGoogle
+fixup! Screenrecord: add blinking stop dot and low-quality options
+vendor: CarrierSettings: Update from SQ1A.220205.002
+
+2/8
+Evolver: Alert Slider: Add toggle to disable notifications (OnePlus devices only)
+Evolver: Update SearchIndexable for our fragments
+Evolver: Update SwitchPreference for CPU overlay toggle
+Merge February 2022 security patches
+PixelPropsUtils: Update to February 2022 fingerprints
+Re-implement Alert Slider (OnePlus devices only)
+fixup! base: add CPU info overlay
+sepolicy_vndr: Remove duplicate hwservice_contexts
+sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
+sepolicy_vndr: legacy: Update vendor property types
+sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
+sepolicy_vndr: qva: Update vendor property types
+zygote: Enable USAP by default for S
+
+2/7
+Settings: Add preference for one-shot auto-brightness
+QS: Use Settings.Panel intent for Volume Tile
+QS: Use Settings.Panel intents for WiFi and NFC
+
+2/6
+ScreenshotHelper: ignore timeout when taking partial screenshots
+SystemUI: add public setting keys for monet tunables
+VolumeDialog: Display default row when the active row is a notification
+VolumeDialog: Don't hide the default stream when adjusting the music stream
+
+2/5
+Settings: add a title for Beam main switch
+Settings: BluetoothDeviceDetailsFragment: fix edit menu icon tint
+Settings: Disable Storage Manager
+
+2/4
+Evolver: Improve Secure QS tile behavior toggle
+Settings: Improve code for time spent in-app
+
+2/3
+Remove Advanced nav/Extended swipe gestures
+SystemUI: Update NFC tile drawable
+SystemUI: Use same NFC icon as that in QS tile
+
+2/2
+Evolver: Bring back Optional screenshot type toggle
+Evolver: Refactor Notification settings fragment
+Evolver: Refactor Status bar icons preference category
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+Settings: fingerprint: hide link icon when there's no link
+
+2/1
+Evolver: Refactor Themes fragment
+Fixes ubsan shift-out-of-bounds SIGABRT
+Zygote: Fix an issue when emptying the usap pool
+libgui: Dispatch vsync when receiving vsync timeout
+
+1/31
+Evolver: Add dividers to some preferences
+Evolver: Add new black theme
+KeyguardIndication: Fix glitchy charging info on lockscreen
+Switch to a better Network Traffic implementation
+Update translations
+
+1/30
+DefaultPermissionGrant: Fix google search crash
+Evolver: Allow disabling ripple effect on unlock
+Evolver: Move Monet settings to separate fragment
+FingerprintManager: Fix NPE due to sensorProps
+Navbar: Fix issue where pill disappears in gestural mode
+Settings: Add missing android title for top_level_settings
+Settings: Add LTE only setting
+Settings: Cache current context before creating a new user
+Settings: Drawables: Dark mode support for app installation restriction icon
+Settings: NFC: Get outer NFC preference to listen for changes
+apns: Add DITO PH
+apns: Add Unifi
