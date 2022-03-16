@@ -1,0 +1,16 @@
+This build you're receiving is evolution_violet-ota-sp2a.220305.012-03161452.zip
+
+Notes:
+Clean is recommend but if you want you can dirty flash :)
+Firmware is prebuilt
+
+Device changes:
+============================
+Removed option of pocket mode
+Switched to Qualcomm sound effects
+Add script for exTHmUI's GameMode performance control
+------------------------------
+ROM changes:
+==============================
+Rebase to Android 12L
+Some features may be missing, they will be added as time goes on but not ecerything will be back
