@@ -1,0 +1,38 @@
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+
+Highlights:
+- Initial 12.1 Android build
+
+Device changes:
+==============================
+sdm439-common: Upstream Vulkan dEQP level to 2021
+sdm439-common: Makefile: Build new ANT HAL interface
+sdm439-common: sepolicy: Fix neverallows
+sdm439-common: build the HIDL interfaces that were removed from VNDK
+------------------------------
+ROM changes:
+==============================
+- Updated to latest March security patch (12.1)
+- Face Unlock and fixes from PE
+- App lock from Krypton
+- Fixes from LOS 19.0
+- Fixes from AOSPA sapphire
+- Fixes from Arrow 12.0
+- QTI BT stack support
+- Alert slider from crDroid (OnePlus exclusive)
+- Safetynet/PixelPropsUtils stuff
+- GamingMode from exthmui
+- 3 finger swipe to screenshot
+- Adaptive Playback from AOSPA
+- Volume long press skips music tracks
+- OOS style Network traffic
+- Advance power menu
+- On-The-Go
+- Custom QS tiles
+- Per-app Volume feature
+- Fullscreen gestures aka Hide gestural navbar
+- Remove monet settings and pure black theme in favor of using AOSP Monet
+- Battery icon styles
+- VoLTE/VoWiFi icons
+- Multi SIM ringtone
+- Screen off animation
