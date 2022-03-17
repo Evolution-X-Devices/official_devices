@@ -1,0 +1,76 @@
+Notes
+==============================
+ALWAYS BACKUP BEFORE UPDATING.
+THIS BUILD IS BASED ON A12.1, A CLEAN FLASH IS HIGHTLY RECOMMENDED
+
+
+Device changes
+==============================
+- Update Wi-Fi to android.hardware.wifi@1.5
+- Build media Codec2 modules
+- Update libcodec2_hidl targets
+- Sync mediacodecs with LA.UM.9.12.r1-13800-SMxx50.0
+- Adapt status bar height for Android 12.1
+- Pixon kernel updated to V3.3 (Linux 4.14.268)
+
+
+ROM changes
+==============================
+- March 2022 patches + Android 12.1 (A12L)
+- Evolver: Show SystemUI restart dialog after toggling black theme
+- Battery Styles: Hide plus when showing battery percentage inside icon
+- Battery Styles: Introduce full circle battery style
+- Sharesheet: Display two rows of max ranked targets
+- SystemUI: Hide tuner icon in QS panel
+- Settings: Show memory usage in app info
+- Settings: Wake on plug
+- SystemUI: Disable broken WiFi/Cellular Data QS tiles
+- apns: Add Orange IA
+- overlay: Change global actions gestures defaults
+- overlay: Default to full gesture navigation
+- overlay: Update rounded corner dimens from redfin
+- overlay: Use old NTP server in China
+- Block annoying status bar call strength icon
+- FW: Use rounded corners in system UI
+- Settings: Add option to enable AOD on charging only
+- SettingsLib: Update LTE+ icon as per new Silk design
+- SystemUI: Add qs AOD tile
+- SystemUI: Add tile to show volume panel
+- SystemUI: Introduce DataSwitchTile
+- fw/b: remove duplicate hide battery feature from tuner
+- Add support for call recording
+- Do not show camera indicator for Face Unlock
+- Pixel Launcher: Update themed icons overlay
+- core: Add recents home button long press action
+- Evolver: Add navbar layout inversion tuning
+- Evolver: Drop monet settings
+- overlay: Default to night mode
+- overlay: Set biometrics colors to accent
+- rro_overlays: Import drawables from Lawnicons
+- Do not show location indicator for bluetooth, tethering and SystemUI packages
+- Settings: Change back gesture height intervals
+- apns: update Telenor Mobilsurf
+- Fix AoD animation on Udfps unlock
+- PixelPropsUtils: avoid spoofing Shamim GCam
+- PixelPropsUtils: Whitelist Google Dialer
+- base: grant storage permissions for Updater
+- Settings: Remove useless USB page header
+- Settings: Revert to AOSP vibration intensity preferences
+- SystemUI: 12L style SystemUI dialogs
+- SystemUI: Android 13 inspired Media Output Picker
+- SystemUI: Fix media output seekbar in dark mode
+- Clock: Don't hide the expanded QS clock
+- Clock: Fix auto-hiding for center and right clock
+- SystemUI: Fix uneven DND icon padding in status bar
+- SystemUI: Remove excess margin in few status bar icons
+- Evolver: Bring back Click to take partial screenshot
+- apns: Drop I-Wireless APN
+- apns: Drop Solavei
+- apns: Update Net10 APNs
+- apns: Update U.S. T-Mobile APNs and add DUN tethering
+- apns: Update 'wholesale' APNs
+- Settings: Battery: Make battery temp preference looks like others
+- Settings: Battery: Show battery temp on power summary
+- Settings: Bring back fixed Advanced nav gestures
+- SystemUI: Disable Lock screen Pulse by default
+- SystemUI: Enable VoLTE/VoWiFi icons by default
