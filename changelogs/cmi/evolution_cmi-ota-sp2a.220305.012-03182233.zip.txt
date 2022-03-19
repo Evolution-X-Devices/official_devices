@@ -1,0 +1,143 @@
+  
+2022-03-19
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+- CLEAN FLASH IS ADVISED !!
+
+DEVICE:
+
+  * lockscreen reboots should be fixed now (clean flash required)
+  * sm8250-common: sepolicy: resolve some more denials
+  * sm8250-common: permissions for mi_thermald
+  * sm8250-common: overlay: Adapt status_bar_height to Sv2
+
+ROM:
+
+3/19
+
+Keyguard: don't use large clock on landscape except for tablets
+
+
+3/18
+
+Bring back Advanced Nav Gestures
+
+Bring back separate Mobile data/WiFi QS tiles
+
+Evolver: Bring back Status bar clock customization
+
+Evolver: Bring back HW Keys customization
+
+Evolver: Bring back Navbar toggle
+
+NavigationBar: Prevent a rare crash
+
+Settings: Only show gesture navigation if device has a software nav bar
+
+SystemUI: Battery: Use old format
+
+SystemUI: add FloatingRotationButton for hw-key devices
+
+
+3/16
+
+AuthService: Add support for workaround side fps props
+
+EvolutionUtils: Import restart systemui api
+
+Evolver: Bring back Pitch black theme
+
+Evolver: Show SystemUI restart dialog after toggling black theme
+
+
+3/15
+
+Battery icon: fix requestLayout() calls spam when in lock screen
+
+BatteryMeterView: Move null check to the beginning of the method
+
+Battery Styles: Hide plus when showing battery percentage inside icon
+
+Battery Styles: Introduce full circle battery style
+
+Battery Styles: Set proper battery style on init
+
+Evolver: Bring back Themes category
+
+Evolver: Bring back lock screen media artwork toggle
+
+Evolver: Bring back lock screen media artwork blur level
+
+QuickStatusBarHeaderController: Remove setIgnoreTunerUpdates
+
+Sharesheet: Display two rows of max ranked targets
+
+SystemUI: Hide tuner icon in QS panel
+
+
+3/14
+
+Evolver: Bring back Battery/Notif LED settings
+
+Evolver: Bring back option to Display Data Disabled Indicator Icon
+
+Evolver: Bring back Roaming Indicator toggle
+
+Evolver: Bring back Toast icon toggle
+
+Evolver: Bring back Volume key cursor control
+
+Settings: Fix the failing strings
+
+Settings: Show memory usage in app info
+
+Settings: Wake on plug
+
+SystemUI: res array for status bar blocked icons
+
+apns: Add Orange IA
+
+overlay: Change global actions gestures defaults
+
+overlay: Default to full gesture navigation
+
+overlay: Update rounded corner dimens from redfin
+
+overlay: Use old NTP server in China
+
+
+3/13
+
+Allow cellbroadcastreceiver to read phone state
+
+Block annoying status bar call strength icon
+
+Evolver: Add a toggle for combined signal icons in status bar
+
+Evolver: Allow toggling location privacy indicator
+
+Evolver: Allow toggling Udfps haptic feedback
+
+FW: Use rounded corners in system UI
+
+Settings: Add option to enable AOD on charging only
+
+Settings: Disable doze on charge preference when doze always on is enabled
+
+Settings: Set Cell Broadcast Receiver package to "com.google.android.cellbroadcastreceiver"
+
+SettingsLib: Update LTE+ icon as per new Silk design
+
+SystemUI: Add qs AOD tile
+
+SystemUI: Add tile to show volume panel
+
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+
+SystemUI: Implement burn-in protection for status/navbar
+
+SystemUI: Introduce DataSwitchTile
+
+fw/b: remove duplicate hide battery feature from tuner
