@@ -1,17 +1,17 @@
 {
-   "datetime": 1647239758,
+   "datetime": 1647856391,
    "donate_url": "https://www.paypal.me/chfondia",
    "error": false,
-   "filehash": "5612fcef4234bb96d65654fa10bc542a",
-   "filename": "evolution_zippo-ota-sp2a.220305.012-03142135-unsigned.zip",
+   "filehash": "1bc8b57fca0f0b144039d632853e9257",
+   "filename": "evolution_zippo-ota-sp2a.220305.012-03211053-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-zippo-official-evolution-x-snow.4244883",
-   "id": "3ff42775cc37707e8f0734a6e64b6c19a6ded0cd310cc948ccfc412af541f4b7",
+   "id": "25bdc7d7709751806f88d5e635e0811d65b8debfb5b78bdb7ca2ca4777254128",
    "maintainer": "Chema Funtan",
    "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1702966631,
+   "size": 1406445228,
    "telegram_username": "chematelegram",
-   "url": "https://sourceforge.net/projects/evolution-x/files/zippo/evolution_zippo-ota-sp2a.220305.012-03142135-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/zippo/evolution_zippo-ota-sp2a.220305.012-03211053-unsigned.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
