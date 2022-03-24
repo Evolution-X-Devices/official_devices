@@ -1,0 +1,219 @@
+==============================
+CLEAN FLASH RECOMMENDED...
+==============================
+
+Device changes:
+==============================
+Initial build Based on Android 12.1
+parts: Introduce refresh rate tile
+Dropped Prebuilt APEX
+Clean-up audio config
+Import QTI Codec2 HAL and switch to Codec2 by default
+Many improvements and changes
+
+
+ROM changes:
+==============================
+3/24
+Evolver: Bring back QS brightness slider options
+Port ambient Now Playing container from Pixel
+Refactor Ringtone.playFallbackRingtone
+Settings: Update phone numbers when IMS registered
+Settings: add sim status listener in about phone
+Settings: move Extra Dim feature to display
+SystemUI: EvolutionKeyguardSliceProvider: cleanup
+SystemUI: Unblock alarm and vibrate status bar icons
+SystemUI: res array for statusbar blocked icons
+VolumeDialog: Clean up unused dynamic in addRow
+
+3/23
+PixelPropsUtils: Whitelist YouTube apps
+Settings: Bring back haptic feedback on back gesture
+Settings: Remove divider from Battery Manager
+Settings: update PowerUsageFeatureProviderGoogle to 12L
+SystemUI: Update Smartspace assets to 12L
+SystemUI: Flags: Properly enable Smartspace transition
+SystemUI: catch up to 12L SystemUIDefaultModule
+audio: add support for extended formats
+fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+media: Define MPEG-H Encoder Format
+
+3/22
+Evolver: Bring back Flashlight blink on incoming calls
+Evolver: Bring back Monet settings
+GestureTweaksSettings: fix after removing assistant from extended swipe options
+Merge Pixel 6 Pro March security patches
+PixelPropsUtils: Update to SP2A.220305.013.A3
+Settings: Add more trigger actions/app/activities
+version: Uprev to 6.2.2
+
+3/21
+Evolver: Allow to disable qs footer warnings
+Evolver: Bring back Pulse
+Evolver: QS footer icon visibilities
+FaceService: Downgrade strength to STRENGTH_WEAK
+FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+PowerProfile: allow overriding default power profile
+Settings: Disable face enroll on Setup Wizard
+Settings: Don't change nouns in summaries to lower case for German
+SystemUI: Show mobile data indicator when VoLTE icon enabled
+
+3/20
+Add dalvik-heap device configs for 8/12/16 GiB devices
+AutofillManager: Turn off logging by default
+BugFix: HWASAN: Fix stack-buffer-overflow
+CameraServiceProxy: Loosen UID check conditionally
+CarrierConfigManager: Enable payphone call blocking option
+Change the order of Notification writeToParcel
+CollapsedStatusbar: Fix phantom spaces in status bar
+ColorUtils: Prevent crash if alpha component is translucent
+Don't throw exception if admin is null
+Evolver: allow disabling qs on secure lockscreen
+EvolutionUtils: Add check if device supports compass
+Fix: if anrApp is null, Null pointer exception occurred, Anr trace capture failed
+Fix EventLog string class problem in ViewRootImpl#enqueueInputEvent()
+Fix autogroupsummary bug
+Fix potential race condition problem
+Fixed a crash in settings in tts engine selection screen
+Make center clock follow paddingTop
+Make sure we close system dialogs on the thread which it's created
+MediaArtworkProcessor: Use less blur, zoom & alpha on keyguard
+Parcel: remove use of getOpenAshmemSize
+Properly apply dark theming to clock
+QS: Add CPUInfo toggle tile
+QS: Add and use Bluetooth Panel instead of full Settings
+QS: Add and use Mobile Data panel
+QuickStatusBarHeader: Update for new mClockDateView
+Reduce padding use by privacy indicator resources
+Restore cache clean up code in PackageManagerService
+Screenshot: Remove text from expanded screenshot chip
+Settings: Apply SUW button theming to WiFi page
+Settings: Enable Quick Wallet settings for all devices with NFC
+Settings: Implement RoutinesActionBroadcastReceiver
+Settings: Network setup UI changes for SUW
+Settings: Update settings animations
+Settings: Update some lottie animations
+Settings: use PowerUsageFeatureGoogle
+SettingsLib: Don't show system overlays on apps list
+Shorten wait time for shutdown time optimization
+SoundPool: Update queue only if streamID matches
+SystemUI: Add Compass tile and disable long click
+SystemUI: AuthController: Fix ripple animation for side fp devices
+SystemUI: AuthController: Fix NPE due to isPowerbuttonFps()
+SystemUI: Better QS detail clip animation
+SystemUI: Fix SystemUI Crash
+SystemUI: Grant additional permissions for smartspace
+SystemUI: Invoke keyguard exit animation
+SystemUI: integrate smartspace and backgesture provider
+SystemUI: Nuke oriented navbar handle
+SystemUI: Open WifiPanel on LongClick
+SystemUI: Prevent loop with display timeout
+SystemUI: Use geometric 6 and 9 glyphs in PIN entry keypad
+SystemUI: add missing initial call to updateResources in brightness mirror
+SystemUI: add resource dimen for all screenshot ui radiuses
+SystemUI: inject WiredChargingRippleController
+SystemUI: unify screenshot and record corner dimens
+SystemUI: use proper themed divider in notification channel editor dialog
+Toast: fix layer leak
+Use alphaoptimized layout for icons on left
+ViewGroup: Remove child parent when a new view is added
+ViewRootImpl: Fixed memory leak caused by viewrootImpl objects
+base: Use vector drawable for tab_selected_holo
+base: add CPU info overlay
+base: fix list style alert dialog to use system font
+core: PinSet: Cache pin algorithms
+fonts: add OneUISans
+graphics: Override system fonts with user-selected overlays
+libmedia_jni: Changing MediaPlayer RefBase object creation as per RefBase recommendation
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+services: WindowOrientationListener: bail out if rotation resolver service instance is null
+services: fonts: use a simple sha512 hash based file verification system
+styles: Use user fonts for Material UI themes
+version: Uprev to 6.2.1
+
+3/19
+Keyguard: don't use large clock on landscape except for tablets
+
+3/18
+Bring back Advanced Nav Gestures
+Bring back separate Mobile data/WiFi QS tiles
+Evolver: Bring back Status bar clock customization
+Evolver: Bring back HW Keys customization
+Evolver: Bring back Navbar toggle
+NavigationBar: Prevent a rare crash
+Settings: Only show gesture navigation if device has a software nav bar
+SystemUI: Battery: Use old format
+SystemUI: add FloatingRotationButton for hw-key devices
+
+3/16
+AuthService: Add support for workaround side fps props
+EvolutionUtils: Import restart systemui api
+Evolver: Bring back Pitch black theme
+Evolver: Show SystemUI restart dialog after toggling black theme
+
+3/15
+Battery icon: fix requestLayout() calls spam when in lock screen
+BatteryMeterView: Move null check to the beginning of the method
+Battery Styles: Hide plus when showing battery percentage inside icon
+Battery Styles: Introduce full circle battery style
+Battery Styles: Set proper battery style on init
+Evolver: Bring back Themes category
+Evolver: Bring back lock screen media artwork toggle
+Evolver: Bring back lock screen media artwork blur level
+QuickStatusBarHeaderController: Remove setIgnoreTunerUpdates
+Sharesheet: Display two rows of max ranked targets
+SystemUI: Hide tuner icon in QS panel
+
+3/14
+Evolver: Bring back Battery/Notif LED settings
+Evolver: Bring back option to Display Data Disabled Indicator Icon
+Evolver: Bring back Roaming Indicator toggle
+Evolver: Bring back Toast icon toggle
+Evolver: Bring back Volume key cursor control
+Settings: Fix the failing strings
+Settings: Show memory usage in app info
+Settings: Wake on plug
+SystemUI: res array for status bar blocked icons
+apns: Add Orange IA
+overlay: Change global actions gestures defaults
+overlay: Default to full gesture navigation
+overlay: Update rounded corner dimens from redfin
+overlay: Use old NTP server in China
+
+3/13
+Allow cellbroadcastreceiver to read phone state
+Block annoying status bar call strength icon
+Evolver: Add a toggle for combined signal icons in status bar
+Evolver: Allow toggling location privacy indicator
+Evolver: Allow toggling Udfps haptic feedback
+FW: Use rounded corners in system UI
+Settings: Add option to enable AOD on charging only
+Settings: Disable doze on charge preference when doze always on is enabled
+Settings: Set Cell Broadcast Receiver package to "com.google.android.cellbroadcastreceiver"
+SettingsLib: Update LTE+ icon as per new Silk design
+SystemUI: Add qs AOD tile
+SystemUI: Add tile to show volume panel
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Introduce DataSwitchTile
+fw/b: remove duplicate hide battery feature from tuner
+
+3/12
+Add Settings services to location indicator whitelist
+Add support for call recording
+Do not show camera indicator for Face Unlock service
+Pixel Launcher: Update themed icons overlay
+Scramble pin: fix scrambling after 12L
+VolumeDialog: Left align VolumeDialog for OnePlus devices by default
+core: Add recents home button long press action
+net: fix NPE when reading IP configurations
+services: Whitelist Nfc Service from clipboard toasts
+
+3/11
+Evolver: Add navbar layout inversion tuning
+Evolver: Drop monet settings
+Settings: update SUW theming for 12
+SystemUI: Drop colorkt-based dynamic theme engine for Monet
+overlay: Default to night mode
+overlay: Set biometrics colors to accent
+rro_overlays: Import drawables from Lawnicons
