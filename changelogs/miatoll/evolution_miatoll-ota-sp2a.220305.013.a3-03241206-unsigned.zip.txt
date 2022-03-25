@@ -1,0 +1,88 @@
+==============================
+CLEAN FLASH RECOMMENDED & ALONG WITH LATEST FIRMWARE...
+==============================
+
+Device changes:
+==============================
+Initial build Based on Android 12.1
+Clean-up audio config
+Using DFC Kernel
+March Sequrity Patch
+Enforcing Build
+CTS passes by default
+Bankings apps are working fine
+Disable VSync for CPU rendered apps
+Disable slow blur effect to avoid laggish blur 
+Better ram management
+Many improvements and changes
+
+
+ROM changes:
+==============================
+3/25
+Add Sound Search tile
+Evolver: Add bug report shortcut to Power menu
+Evolver: Add support for clock auto-hiding
+Evolver: Allow toggling camera/mic privacy indicator
+Evolver: Bring back hiding notification headers toggle
+Evolver: Bring back scheduling of Always on Display
+Evolver: Bring back Status bar logos
+Evolver: Bring back UDFPS icons and animations
+Fix up hiding camera/location indicators for known packages
+Settings: Add preference for one shot auto-brightness
+Settings: Bring back Bluetooth/WiFi timeout features
+Status bar: Update notification count icons
+ThemeUtils: Make it compatible for all targets
+base: Fix location privacy indicator getting stuck
+base: Update API for disabling gestural navigation
+fwb: Guard some functions against face unlock
+
+Evolver: Allow to disable qs footer warnings
+Evolver: Bring back Pulse
+Evolver: QS footer icon visibilities
+FaceService: Downgrade strength to STRENGTH_WEAK
+FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+PowerProfile: allow overriding default power profile
+Settings: Disable face enroll on Setup Wizard
+Evolver: Bring back QS brightness slider options
+Port ambient Now Playing container from Pixel
+Refactor Ringtone.playFallbackRingtone
+Settings: Update phone numbers when IMS registered
+Settings: add sim status listener in about phone
+Settings: move Extra Dim feature to display
+SystemUI: EvolutionKeyguardSliceProvider: cleanup
+SystemUI: Unblock alarm and vibrate status bar icons
+SystemUI: res array for statusbar blocked icons
+VolumeDialog: Clean up unused dynamic in addRow
+
+3/23
+PixelPropsUtils: Whitelist YouTube apps
+Settings: Bring back haptic feedback on back gesture
+Settings: Remove divider from Battery Manager
+Settings: update PowerUsageFeatureProviderGoogle to 12L
+SystemUI: Update Smartspace assets to 12L
+SystemUI: Flags: Properly enable Smartspace transition
+SystemUI: catch up to 12L SystemUIDefaultModule
+audio: add support for extended formats
+fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+media: Define MPEG-H Encoder Format
+
+3/22
+Evolver: Bring back Flashlight blink on incoming calls
+Evolver: Bring back Monet settings
+GestureTweaksSettings: fix after removing assistant from extended swipe options
+Merge Pixel 6 Pro March security patches
+PixelPropsUtils: Update to SP2A.220305.013.A3
+Settings: Add more trigger actions/app/activities
+version: Uprev to 6.2.2
+
+3/21
+Evolver: Allow to disable qs footer warnings
+Evolver: Bring back Pulse
+Evolver: QS footer icon visibilities
+FaceService: Downgrade strength to STRENGTH_WEAK
+FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+PowerProfile: allow overriding default power profile
+Settings: Disable face enroll on Setup Wizard
+Settings: Don't change nouns in summaries to lower case for German
+SystemUI: Show mobile data indicator when VoLTE icon enabled
