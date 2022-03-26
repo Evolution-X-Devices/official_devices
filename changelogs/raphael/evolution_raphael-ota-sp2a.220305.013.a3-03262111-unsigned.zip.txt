@@ -1,0 +1,135 @@
+Device changes:
+==============================
+Upstream to latest Soviet kernel changes (v4.14.272)
+------------------------------
+ROM changes:
+==============================
+Add dalvik-heap device configs for 8/12/16 GiB devices
+AutofillManager: Turn off logging by default
+BugFix: HWASAN: Fix stack-buffer-overflow
+CarrierConfigManager: Enable payphone call blocking option
+Change the order of Notification writeToParcel
+ColorUtils: Prevent crash if alpha component is translucent
+Don't throw an exception if the admin is null
+EvolutionUtils: Add check if the device supports compass
+Evolver: Add bug report shortcut to Power menu
+Evolver: Add reTicker feature
+Evolver: Add support for clock auto-hiding
+Evolver: Allow to disable qs footer warnings
+Evolver: Allow toggling camera/mic privacy indicator
+Evolver: Bring back Flashlight blink on incoming calls
+Evolver: Bring back Monet settings
+Evolver: Bring back Pulse
+Evolver: Bring back QS brightness slider options
+Evolver: Bring back Status bar logos
+Evolver: Bring back UDFPS icons and animations
+Evolver: Bring back hiding notification headers toggle
+Evolver: Bring back lock screen album art filters
+Evolver: Bring back minimal Ambient Edge Lighting
+Evolver: Bring back scheduling of Always on Display
+Evolver: QS Column count and QS hide label settings
+Evolver: QS footer icon visibilities
+Evolver: allow disabling qs on secure lock screen
+FaceService: Downgrade strength to STRENGTH_WEAK
+FingerprintEnrollEnrolling: Set proper dialog message when the user touches fp icon
+Fix EventLog string class problem in ViewRootImpl#enqueueInputEvent()
+Fix autogroupsummary bug
+Fix potential race condition problem
+Fix up hiding camera/location indicators for known packages
+Fix: if anrApp is null, Null pointer exception occurred, Anr trace capture failed
+Fixed a crash in settings in tts engine selection screen
+Framelayout: Fix NPE when view is missing
+GestureTweaksSettings: fix after removing assistant from extended swipe options
+Make center clock follow paddingTop
+Make sure we close system dialogs on the thread which it's created
+MediaArtworkProcessor: Use less blur, zoom & alpha on keyguard
+Merge Pixel 6 Pro March security patches
+Parcel: remove use of getOpenAshmemSize
+PixelPropsUtils: Add NHS App props spoofing
+PixelPropsUtils: Add game props for mobile legends
+PixelPropsUtils: Update to SP2A.220305.013.A3
+PixelPropsUtils: Whitelist YouTube apps
+PixelPropsUtils: only spoof raven to gms
+Port ambient Now Playing container from Pixel
+PowerProfile: allow overriding default power profile
+Properly apply dark theming to the clock
+QS: Add CPUInfo toggle tile
+QS: Add and use Bluetooth Panel instead of full Settings
+QS: Add and use Mobile Data panel
+QuickStatusBarHeader: Update for new mClockDateView
+Reduce padding use by privacy indicator resources
+Refactor Ringtone.playFallbackRingtone
+Restore cache clean up code in PackageManagerService
+Screenshot: Remove text from expanded screenshot chip
+Settings: Add more trigger actions/app/activities
+Settings: Add preference for one-shot auto-brightness
+Settings: Apply SUW button theming to WiFi page
+Settings: Bring back Bluetooth/WiFi timeout features
+Settings: Bring back haptic feedback on back gesture
+Settings: Disable face enroll on Setup Wizard
+Settings: Don't change nouns in summaries to lower case for German
+Settings: Enable Quick Wallet settings for all devices with NFC
+Settings: Implement RoutinesActionBroadcastReceiver
+Settings: Network setup UI changes for SUW
+Settings: Remove divider from Battery Manager
+Settings: Update phone numbers when IMS registered
+Settings: Update settings animations
+Settings: Update some lottie animations
+Settings: add sim status listener in about phone
+Settings: move Extra Dim feature to display
+Settings: update PowerUsageFeatureProviderGoogle to 12L
+Settings: use PowerUsageFeatureGoogle
+SettingsLib: Don't show system overlays on apps list
+Shorten wait time for shutdown time optimization
+SoundPool: Update queue only if streamID matches
+Status bar: Update notification count icons
+SystemUI: Add Compass tile and disable long click
+SystemUI: Add switch data saver icon
+SystemUI: Better QS detail clip animation
+SystemUI: EvolutionKeyguardSliceProvider: cleanup
+SystemUI: Fix SystemUI Crash
+SystemUI: Flags: Properly enable Smartspace transition
+SystemUI: Grant additional permissions for Google Smartspace
+SystemUI: Invoke keyguard exit animation
+SystemUI: Make media view less-gore when artwork bg is enabled
+SystemUI: Nuke oriented navbar handle
+SystemUI: Open WifiPanel on LongClick
+SystemUI: Prevent loop with display timeout
+SystemUI: Show mobile data indicator when VoLTE icon enabled
+SystemUI: Unblock alarm and vibrate status bar icons
+SystemUI: Update Smartspace assets to 12L
+SystemUI: Use geometric 6 and 9 glyphs in PIN entry keypad
+SystemUI: add missing initial call to updateResources in brightness mirror
+SystemUI: add resource dimen for all screenshot UI radiuses
+SystemUI: catch up to 12L SystemUIDefaultModule
+SystemUI: inject WiredChargingRippleController
+SystemUI: integrate smartspace and backgesture provider
+SystemUI: match brightness slider track height with the progress drawable
+SystemUI: res array for status bar blocked icons
+SystemUI: res array for status bar blocked iconsAdd Sound Search tile
+SystemUI: unify screenshot and record corner dimens
+SystemUI: use properly themed divider in notification channel editor dialog
+ThemeUtils: Make it compatible for all targets
+Toast: fix layer leak
+Use alphaoptimized layout for icons on left
+ViewGroup: Remove child parent when a new view is added
+ViewRootImpl: Fixed memory leak caused by viewrootImpl objects
+audio: add support for extended formats
+base: Fix location privacy indicator getting stuck
+base: Grant SafetyHub some core permissions on the first boot
+base: Update API for disabling gestural navigation
+base: Use vector drawable for tab_selected_holo
+base: add CPU info overlay
+base: fix list style alert dialog to use system font
+core: PinSet: Cache pin algorithms
+fonts: add OneUISans
+fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+fwb: Guard some functions against face unlock
+graphics: Override system fonts with user-selected overlays
+libmedia_jni: Changing MediaPlayer RefBase object creation as per RefBase recommendation
+libs: PipTaskOrganizer: do not start to fade out animation for pip if surfacecontrol leash is null
+media: Define MPEG-H Encoder Format
+services: WindowOrientationListener: bail out if rotation resolver service instance is null
+services: fonts: use a simple sha512 hash-based file verification system
+styles: Use user fonts for Material UI themes
+version: Uprev to 6.2.2
