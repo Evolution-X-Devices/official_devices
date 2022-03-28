@@ -1,0 +1,306 @@
+  
+2022-03-28
+
+
+To use this release you need:
+
+- update your firmware to 12.5.10
+
+DEVICE:
+
+  * minor changes
+
+ROM:
+
+3/27
+
+Evolver: Bring back Ambient Edge Lighting
+
+Evolver: Bring back bluetooth battery level toggle
+
+Fix status bar clock hiding implementation
+
+PixelPropsUtils: Refactor after switching gms to raven
+
+base: improve three finger gesture code
+
+
+3/26
+
+Evolver: Add reTicker feature
+
+Evolver: Bring back lock screen album art filters
+
+Evolver: QS Column count and QS hide label settings
+
+Framelayout: Fix NPE when view is missing
+
+PixelPropsUtils: Add NHS App props spoofing
+
+PixelPropsUtils: Add game props for mobile legends
+
+SystemUI: Add switch data saver icon
+
+SystemUI: Make media view less-gore when artwork bg is enabled
+
+
+3/25
+
+Add Sound Search tile
+
+Evolver: Add bug report shortcut to Power menu
+
+Evolver: Add support for clock auto-hiding
+
+Evolver: Allow toggling camera/mic privacy indicator
+
+Evolver: Bring back hiding notification headers toggle
+
+Evolver: Bring back scheduling of Always on Display
+
+Evolver: Bring back Status bar logos
+
+Evolver: Bring back UDFPS icons and animations
+
+Fix up hiding camera/location indicators for known packages
+
+Settings: Add preference for one shot auto-brightness
+
+Settings: Bring back Bluetooth/WiFi timeout features
+
+Status bar: Update notification count icons
+
+ThemeUtils: Make it compatible for all targets
+
+base: Fix location privacy indicator getting stuck
+
+base: Update API for disabling gestural navigation
+
+fwb: Guard some functions against face unlock
+
+
+3/24
+
+Evolver: Bring back QS brightness slider options
+
+PixelPropsUtils: only spoof raven to gms
+
+Refactor Ringtone.playFallbackRingtone
+
+Settings: Update phone numbers when IMS registered
+
+Settings: add sim status listener in about phone
+
+Settings: move Extra Dim feature to display
+
+SystemUI: EvolutionKeyguardSliceProvider: cleanup
+
+SystemUI: Unblock alarm and vibrate status bar icons
+
+SystemUI: match brightness slider track height with the progress drawable
+
+SystemUI: res array for statusbar blocked icons
+
+
+3/23
+
+PixelPropsUtils: Whitelist YouTube apps
+
+Settings: Bring back haptic feedback on back gesture
+
+Settings: Remove divider from Battery Manager
+
+Settings: update PowerUsageFeatureProviderGoogle to 12L
+
+SystemUI: Update Smartspace assets to 12L
+
+SystemUI: Flags: Properly enable Smartspace transition
+
+SystemUI: catch up to 12L SystemUIDefaultModule
+
+audio: add support for extended formats
+
+fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+
+media: Define MPEG-H Encoder Format
+
+
+3/22
+
+Evolver: Bring back Flashlight blink on incoming calls
+
+Evolver: Bring back Monet settings
+
+GestureTweaksSettings: fix after removing assistant from extended swipe options
+
+Merge Pixel 6 Pro March security patches
+
+PixelPropsUtils: Update to SP2A.220305.013.A3
+
+Settings: Add more trigger actions/app/activities
+
+version: Uprev to 6.2.2
+
+
+3/21
+
+Evolver: Allow to disable qs footer warnings
+
+Evolver: Bring back Pulse
+
+Evolver: QS footer icon visibilities
+
+FaceService: Downgrade strength to STRENGTH_WEAK
+
+FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+
+PowerProfile: allow overriding default power profile
+
+Settings: Disable face enroll on Setup Wizard
+
+Settings: Don't change nouns in summaries to lower case for German
+
+SystemUI: Show mobile data indicator when VoLTE icon enabled
+
+
+3/20
+
+Add dalvik-heap device configs for 8/12/16 GiB devices
+
+AutofillManager: Turn off logging by default
+
+BugFix: HWASAN: Fix stack-buffer-overflow
+
+CameraServiceProxy: Loosen UID check conditionally
+
+CarrierConfigManager: Enable payphone call blocking option
+
+Change the order of Notification writeToParcel
+
+ColorUtils: Prevent crash if alpha component is translucent
+
+Don't throw exception if admin is null
+
+Evolver: allow disabling qs on secure lockscreen
+
+EvolutionUtils: Add check if device supports compass
+
+Fix: if anrApp is null, Null pointer exception occurred, Anr trace capture failed
+
+Fix EventLog string class problem in ViewRootImpl#enqueueInputEvent()
+
+Fix autogroupsummary bug
+
+Fix potential race condition problem
+
+Fixed a crash in settings in tts engine selection screen
+
+Make center clock follow paddingTop
+
+Make sure we close system dialogs on the thread which it's created
+
+MediaArtworkProcessor: Use less blur, zoom & alpha on keyguard
+
+Parcel: remove use of getOpenAshmemSize
+
+Properly apply dark theming to clock
+
+QS: Add CPUInfo toggle tile
+
+QS: Add and use Bluetooth Panel instead of full Settings
+
+QS: Add and use Mobile Data panel
+
+QuickStatusBarHeader: Update for new mClockDateView
+
+Reduce padding use by privacy indicator resources
+
+Restore cache clean up code in PackageManagerService
+
+Screenshot: Remove text from expanded screenshot chip
+
+Settings: Apply SUW button theming to WiFi page
+
+Settings: Enable Quick Wallet settings for all devices with NFC
+
+Settings: Implement RoutinesActionBroadcastReceiver
+
+Settings: Network setup UI changes for SUW
+
+Settings: Update settings animations
+
+Settings: Update some lottie animations
+
+Settings: use PowerUsageFeatureGoogle
+
+SettingsLib: Don't show system overlays on apps list
+
+Shorten wait time for shutdown time optimization
+
+SoundPool: Update queue only if streamID matches
+
+SystemUI: Add Compass tile and disable long click
+
+SystemUI: AuthController: Fix ripple animation for side fp devices
+
+SystemUI: AuthController: Fix NPE due to isPowerbuttonFps()
+
+SystemUI: Better QS detail clip animation
+
+SystemUI: Fix SystemUI Crash
+
+SystemUI: Grant additional permissions for smartspace
+
+SystemUI: Invoke keyguard exit animation
+
+SystemUI: integrate smartspace and backgesture provider
+
+SystemUI: Nuke oriented navbar handle
+
+SystemUI: Open WifiPanel on LongClick
+
+SystemUI: Prevent loop with display timeout
+
+SystemUI: Use geometric 6 and 9 glyphs in PIN entry keypad
+
+SystemUI: add missing initial call to updateResources in brightness mirror
+
+SystemUI: add resource dimen for all screenshot ui radiuses
+
+SystemUI: inject WiredChargingRippleController
+
+SystemUI: unify screenshot and record corner dimens
+
+SystemUI: use proper themed divider in notification channel editor dialog
+
+Toast: fix layer leak
+
+Use alphaoptimized layout for icons on left
+
+ViewGroup: Remove child parent when a new view is added
+
+ViewRootImpl: Fixed memory leak caused by viewrootImpl objects
+
+base: Use vector drawable for tab_selected_holo
+
+base: add CPU info overlay
+
+base: fix list style alert dialog to use system font
+
+core: PinSet: Cache pin algorithms
+
+fonts: add OneUISans
+
+graphics: Override system fonts with user-selected overlays
+
+libmedia_jni: Changing MediaPlayer RefBase object creation as per RefBase recommendation
+
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+
+services: WindowOrientationListener: bail out if rotation resolver service instance is null
+
+services: fonts: use a simple sha512 hash based file verification system
+
+styles: Use user fonts for Material UI themes
+
+version: Uprev to 6.2.1
