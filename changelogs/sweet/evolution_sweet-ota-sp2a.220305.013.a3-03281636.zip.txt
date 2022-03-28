@@ -1,0 +1,79 @@
+Device changes:
+==============================
+- Sync main display cutout from stock
+- Set an overlay to indicate power button FPS
+- Disable slow blur effect to avoid laggish blur effect
+- Add night display color temperature calibration from Coral
+- Add KeyHandler for side-mounted fingerprint key
+- overlay: Set physical button/sensor locations
+- Define OEM fast charge sysfs node
+- decrease status bar top padding value
+- Add front-facing camera protection
+- devicesettings: Fix "dirac_hifi_enable_title" string
+- devicesettings: Add per app maximum refresh rate
+- Reduce screenshot delay to 0
+- Configure side fingerprint sensor properties
+- Nuke CutoutRingService
+- Expose aux camera globally
+------------------------------
+ROM changes:
+==============================
+- Evolver: Bring back Ambient Edge Lighting
+- Evolver: Bring back bluetooth battery level toggle
+- Fix status bar clock hiding implementation
+- PixelPropsUtils: Refactor after switching gms to raven
+- Evolver: Add reTicker feature
+- Evolver: Bring back lock screen album art filters
+- Evolver: QS Column count and QS hide label settings
+- PixelPropsUtils: Add NHS App props spoofing
+- PixelPropsUtils: Add game props for mobile legends
+- SystemUI: Add switch data saver icon
+- SystemUI: Make media view less-gore when artwork bg is enabled
+- Add Sound Search tile
+- Evolver: Add bug report shortcut to Power menu
+- Evolver: Add support for clock auto-hiding
+- Evolver: Allow toggling camera/mic privacy indicator
+- Evolver: Bring back hiding notification headers toggle
+- Evolver: Bring back scheduling of Always on Display
+- Evolver: Bring back Status bar logos
+- Evolver: Bring back UDFPS icons and animations
+- Fix up hiding camera/location indicators for known packages
+- Settings: Add preference for one shot auto-brightness
+- Settings: Bring back Bluetooth/WiFi timeout features
+- Status bar: Update notification count icons
+- base: Fix location privacy indicator getting stuck
+- Evolver: Bring back QS brightness slider options
+- PixelPropsUtils: only spoof raven to gms
+- Settings: Update phone numbers when IMS registered
+- Settings: move Extra Dim feature to display
+- PixelPropsUtils: Whitelist YouTube apps
+- Settings: Bring back haptic feedback on back gesture
+- SystemUI: Update Smartspace assets to 12L
+- Evolver: Bring back Flashlight blink on incoming calls
+- Evolver: Bring back Monet settings
+- Merge Pixel 6 Pro March security patches
+- version: Uprev to 6.2.2
+- Evolver: Allow to disable qs footer warnings
+- Evolver: Bring back Pulse
+- Evolver: QS footer icon visibilities
+- FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+- Settings: Disable face enroll on Setup Wizard
+- Settings: Don't change nouns in summaries to lower case for German
+- SystemUI: Show mobile data indicator when VoLTE icon enabled
+- Evolver: allow disabling qs on secure lockscreen
+- Properly apply dark theming to clock
+- QS: Add CPUInfo toggle tile
+- QS: Add and use Bluetooth Panel instead of full Settings
+- QS: Add and use Mobile Data panel
+- Screenshot: Remove text from expanded screenshot chip
+- Settings: Update settings animations
+- Settings: Update some lottie animations
+- Settings: use PowerUsageFeatureGoogle
+- SettingsLib: Don't show system overlays on apps list
+- SystemUI: Add Compass tile and disable long click
+- fonts: add OneUISans
+- graphics: Override system fonts with user-selected overlays
+- styles: Use user fonts for Material UI themes
+- Bring back Advanced Nav Gestures
+- Bring back separate Mobile data/WiFi QS tiles
+- Evolver: Bring back Status bar clock customization
