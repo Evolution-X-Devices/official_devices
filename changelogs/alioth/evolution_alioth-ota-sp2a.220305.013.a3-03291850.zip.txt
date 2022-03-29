@@ -1,0 +1,61 @@
+Device Changelog:
+~ Updates to latest NOkernel source
+~ Build soundtrigger HAL from source
+~ Update powerhint
+~ Address some WiFi denials
+~ Fix Video Calling
+~ Enforce 24-bit audio offload playback
+
+ROM Changelog:
+~ Port changes from SystemUIGoogle/SettingsGoogle (Quick Tap, Game Dashboard, Smartspace)
+~ Evolver: Bring back Ambient Edge Lighting
+~ Evolver: Bring back bluetooth battery level toggle
+~ PixelPropsUtils: Refactor after switching gms to raven
+~ Evolver: Add reTicker feature
+~ Evolver: Bring back lock screen album art filters
+~ Evolver: QS Column count and QS hide label settings
+~ Evolver: Add support for clock auto-hiding
+~ Evolver: Allow toggling camera/mic privacy indicator
+~ Settings: Add preference for one shot auto-brightness
+~ Settings: Bring back Bluetooth/WiFi timeout features
+~ Evolver: Bring back QS brightness slider options
+~ Settings: Bring back haptic feedback on back gesture
+~ SystemUI: Update Smartspace assets to 12L
+~ Evolver: Bring back Flashlight blink on incoming calls
+~ Evolver: Bring back Monet settings
+~ Merge Pixel 6 Pro March security patches
+~ PixelPropsUtils: Update to SP2A.220305.013.A3
+~ Evolver: Allow to disable qs footer warnings
+~ Evolver: Bring back Pulse
+~ Evolver: QS footer icon visibilities
+~ Settings: Disable face enroll on Setup Wizard
+~ SystemUI: Show mobile data indicator when VoLTE icon enabled
+~ Evolver: allow disabling qs on secure lockscreen
+~ Properly apply dark theming to clock
+~ QS: Add CPUInfo toggle tile
+~ QS: Add and use Bluetooth Panel instead of full Settings
+~ QS: Add and use Mobile Data panel
+~ Screenshot: Remove text from expanded screenshot chip
+~ Settings: Apply SUW button theming to WiFi page
+~ Settings: Enable Quick Wallet settings for all devices with NFC
+~ Settings: Implement RoutinesActionBroadcastReceiver
+~ Settings: Network setup UI changes for SUW
+~ Settings: Update settings animations
+~ Settings: Update some lottie animations
+~ Settings: use PowerUsageFeatureGoogle
+~ SettingsLib: Don't show system overlays on apps list
+~ SystemUI: Add Compass tile and disable long click
+~ SystemUI: AuthController: Fix ripple animation for side fp devices
+~ SystemUI: integrate smartspace and backgesture provider
+~ SystemUI: Nuke oriented navbar handle
+~ SystemUI: Open WifiPanel on LongClick
+~ base: add CPU info overlay
+~ fonts: add OneUISans
+~ graphics: Override system fonts with user-selected overlays
+~ styles: Use user fonts for Material UI themes
+~ Bring back Advanced Nav Gestures
+~ Bring back separate Mobile data/WiFi QS tiles
+~ Evolver: Bring back HW Keys customization
+~ Evolver: Bring back Navbar toggle
+~ Evolver: Bring back Pitch black theme
+
