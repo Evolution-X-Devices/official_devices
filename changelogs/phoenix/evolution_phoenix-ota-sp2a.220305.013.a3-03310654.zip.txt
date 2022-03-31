@@ -1,0 +1,56 @@
+Device changes:
+==============================
+Fixed side fps position
+Switch to qti bt stack for aptx and other codec
+quick tap and game dashboard is back
+
+ROM changes:
+==============================
+3/30
+Fix res after newer SettingsGoogle import
+SystemUI: Nuke redundant Now Playing/Smartspace assets
+fixup! Camera: Ignore torch status update for aux or composite camera
+fixup! QS footer icon visibilities (aka QS footer power menu toggle)
+
+3/29
+PixelPropsUtils: Selectively enable GPhotos spoof for Pixel devices
+SystemUI: fix initial notif shade layout on split mode
+SystemUI: use default dialogCornerRadius for qs customize title
+
+3/28
+Port changes from SystemUIGoogle/SettingsGoogle (Quick Tap, Game Dashboard, Smartspace)
+
+3/27
+Evolver: Bring back Ambient Edge Lighting
+Evolver: Bring back bluetooth battery level toggle
+Fix status bar clock hiding implementation
+PixelPropsUtils: Refactor after switching gms to raven
+base: improve three finger gesture code
+
+3/26
+Evolver: Add reTicker feature
+Evolver: Bring back lock screen album art filters
+Evolver: QS Column count and QS hide label settings
+Framelayout: Fix NPE when view is missing
+PixelPropsUtils: Add NHS App props spoofing
+PixelPropsUtils: Add game props for mobile legends
+SystemUI: Add switch data saver icon
+SystemUI: Make media view less-gore when artwork bg is enabled
+
+3/25
+Add Sound Search tile
+Evolver: Add bug report shortcut to Power menu
+Evolver: Add support for clock auto-hiding
+Evolver: Allow toggling camera/mic privacy indicator
+Evolver: Bring back hiding notification headers toggle
+Evolver: Bring back scheduling of Always on Display
+Evolver: Bring back Status bar logos
+Evolver: Bring back UDFPS icons and animations
+Fix up hiding camera/location indicators for known packages
+Settings: Add preference for one shot auto-brightness
+Settings: Bring back Bluetooth/WiFi timeout features
+Status bar: Update notification count icons
+ThemeUtils: Make it compatible for all targets
+base: Fix location privacy indicator getting stuck
+base: Update API for disabling gestural navigation
+fwb: Guard some functions against face unlock
