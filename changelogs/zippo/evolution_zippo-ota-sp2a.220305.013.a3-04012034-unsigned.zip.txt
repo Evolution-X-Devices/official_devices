@@ -1,0 +1,18 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+
+**Device Changes:**
+- Nothing relevant
+
+**Evolution X Update**
+
+- Bring back QQS brightness slider
+- fixup! QS footer icon visibilities (aka QS footer power menu toggle)
+- Port changes from SystemUIGoogle/SettingsGoogle (Quick Tap, Game Dashboard, Smartspace)
+- Evolver: Bring back Ambient Edge Lighting
+- Evolver: Bring back bluetooth battery level toggle
+- Fix status bar clock hiding implementation
+- PixelPropsUtils: Refactor after switching gms to rave
+- Revert changes in QS tiles settings, back to previous disposition.
