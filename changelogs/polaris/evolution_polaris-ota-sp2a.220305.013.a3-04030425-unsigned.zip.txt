@@ -1,0 +1,22 @@
+**Device Changes:**
+- Etude kernel: Op.12 No.2
+  * Linux 4.9.309 and CAF tag `LA.UM.10.3.r1-01000-sdm845.0`
+  * set compiler flag to optimize for cortex-a55 to avoid performance regression on the in-order little cluster
+  * built with the latest LLVM Clang 15.0
+  * DO NOT use another kernel. Just don't.
+- Changed soong build flags for Kryo385 (Qualcomm's codename for sdm845's CPU clusters)
+  * added a previously missing nodotprod flag
+  * optimize for cortex-a55 instruction model to avoid performance regression on the little cluster
+- Properly override system product name
+- Dropped deprecated binder flag
+- Adapted aux camera prop sepolicy for the new change
+- Brought back qcom wfd implementation
+
+**Evolution X Update**
+- Initial android 12.1 release
+- March security patch
+- Added face unlock
+- Note that the feature set is not identical to previous builds based on android 12.0. There may be some new features, and previous features may have been adapted or are not present.
+
+**Known Issues**
+- Rounded corners are broken. It does not seem to be an issue on the device side, as debug info reports correct values
