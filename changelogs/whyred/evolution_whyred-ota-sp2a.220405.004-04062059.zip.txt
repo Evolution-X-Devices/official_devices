@@ -1,0 +1,494 @@
+=======================
+     2022/04/06
+=======================
+
+* Repository: https://github.com/TheSanty/device_xiaomi_sdm660-common/commits/snow
+
+5368ce6 sdm660-common: Build QTI Perf Vendor Variant
+7cb15a5 sdm660-common: Remove atrace hal * Kernel doesn't support tracing  F DEBUG   : Cmdline: /vendor/bin/hw/android.hardware.atrace@1.0-service  F DEBUG   : pid: 1693, tid: 1693, name: android.hardwar  >>> /vendor/bin/hw/android.hardware.atrace@1.0-service <<<  F DEBUG   : Abort message: 'Check failed: stat(tracefs_event_root_.c_str(), &st) == 0 tracefs must be mounted at either/sys/kernel/tracing or /sys/kernel/debug/tracing'
+e312a26 Revert "sdm660-common: Remove Some Google Packages"
+
+* Repository: https://github.com/TheSanty/device_xiaomi_whyred/commits/snow
+
+8838e83 whyred: Enabled updateable APEX
+6e2ad91 whyred: Set `TARGET_USES_FULL_GAPPS` to false
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+567e239a overlay: Block GMS chimera service to fix drain
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+fb5a898 gms: Update
+
+* Repository: https://github.com/LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc/commits/refs/heads/lineage-19.1
+
+737fb2d8 Do not set default contactless application without user interaction
+
+
+=======================
+     2022/04/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+088b9f8575 cameraserver: fix deadlock scenario in torchModeStatusChanged callback.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+d7422cd Evolver: Remove QS clock toggle
+
+
+=======================
+     2022/04/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+248bac5de Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/build into snow
+68289d171 Disable Traceur for non eng-builds
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+918693460d Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/frameworks/av into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+59e68c01c03a PixelPropsUtils: Update fingerprints to April 2022 release
+5f7c82c8f7d2 Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/frameworks/base into snow
+87c268958bdd SystemUI: Fix the unlock sound played repeatedly
+9df15ebe80d5 SystemUI: Whitelist new priv-app permissions
+22c83bdd67d8 [SQUASH] SystemUI: fix qs tiles init on split notification shade open
+44d6bdb27ec9 base: notifications: set emphasized button bg to accentColor
+965f5028af62 SystemUI: buttons should no longer be textAllCaps
+b2586abd1367 SystemUI: thread protect keyguard callbacks
+ec17aee51dd4 KeyguardIndication: Fix glitchy charging info on lockscreen
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+f448c4a Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/manifest into snow
+41624cb Manifest for Android 12.1.0 Release 4
+b634a01 Manifest for Android 12.1.0 Release 3
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/snow
+
+36f03c3b Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/packages/apps/Nfc into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+13deb6d677 Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/packages/apps/Settings into snow
+a232ff6bca Settings: Fix NPE when launching accessibility settings from GMS SUW
+a953a83076 Settings: Accessibility wants fullscreen, too!
+df155fabfb Settings: Allow using legacy VPN types
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/snow
+
+117e72a1 Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/packages/providers/MediaProvider into snow
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+6603a460b Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/system/bt into snow
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_system_bt/commits/refs/heads/snow
+
+65299cc4c Security fix OOB read due to invalid count in stack/avrc/avrc_pars_ct
+0bcac3e2c Changed HID_DEV_MTU_SIZE from 64 to 512
+
+
+=======================
+     2022/04/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+4e8bb113cf78 Revert "Separate mute and vibrate icons in status bar"
+71c33455035a SystemUI: PlayerViewHolder: add a null check on handler
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+ce0c4cd Evolver: Pull app lock preferences from Settings [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+725733c437 Settings: Move app lock preferences to Evolver [1/2]
+
+
+=======================
+     2022/04/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-19.1
+
+83f4fd8e generic: Don't dontaudit vendor_persist_camera_prop read denials
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+0c143f96c955 Camera: Prevent crash with prebuilt camera metadata
+3e18b7f1506e SystemUI: Always disable rotation on lockscreen
+f5b18582be9e SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+c59d4a4995fe WallpaperService: Fix half black wallpaper after rotating quickly
+e52fc8525492 Call log limit 500=>5000
+59e33ef39e41 base: Fix black screen issue due to wallpaper decoding exceptions
+7e5fcf90f066 Watchdog: run emergency sync before killing system
+bc664ac367e6 BluetoothUtils: disable useless logspam
+1e8eb819439d MonoToggleTile: Use secondary label to indicate mode
+dba0c0566e40 Mono/Stereo QS tile: Add long click intent
+fbeca2224780 SystemUI: Add Mono audio tile (aka headphone in one ear only)
+2da90bc62eb9 Keep recent tasks for more time in memory
+46c598ddcca9 Permissions: Grant Download Provider access permissions to external storage
+81ffba6c2609 Grant Wellbeing the SUSPEND_APPS perm if already declared
+130ff2943d85 Increase Zenmode max hour limit from 12 to 24
+557d548718b4 base: Remove unnecessary videos
+4451c064f25e base: Delete media tests
+237bf96f7439 base: Allow choosing a custom vibration pattern [1/3]
+cc92731aeafb base: Add vibration patterns from OOS [1/3]
+3996cd646645 New Crowdin updates (#272)
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+6c94a5355 telephony: limit setSignalStrengthReportingCriteria
+a21ec20ae Fix data detach isn't informed
+5c9f487b0 Fix the data of nDDS sub can't be tore down
+f84a99e48 Fix DDS switch type on call end
+bba716a6a Stop evaluating default data SUB before SUB info is ready
+6692c7f26 Telephony: Add null check for operator
+edbb796ec Telephony: Fix crash while updating Operator Name
+3c490cec0 UiccSlot: Validate hotswap restart prompt component properly
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+84168de manifest: Track packages/apps/FaceUnlockService from PE
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+df2cd9fe33 Settings: Move custom vib pattern to its own preference
+070d4a0f88 Settings: Follow new ringtone vibration patterns
+6a2e59adb4 Settings: Preview ringtone vibration pattern
+0951278550 Settings: Allow choosing a custom vibration pattern [3/3]
+20d4a8e873 Settings: Add vibration patterns from OOS [3/3]
+611d5b96fb New Crowdin updates (#88)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+9579558 New Crowdin updates (#5)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+5ede17e60 Telecomm: Update vibration patterns
+ba21f75e6 Telecomm: Add a null check to custom ring vibration
+5bb7b28f8 Telecomm: Allow choosing a custom vibration pattern [2/3]
+5de760504 Telecomm: Add vibration patterns from OOS [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+ccde5455 vendor: Pass mka argument to m
+6fc74e4f vendor: Make mka a function again
+e1bc8371 Fix nvidia enhancements soong conversion
+86149e87 vendor: move mka definition above brunch
+4280edef Revert "vendor: add BUILD_RRO_SYSTEM_PACKAGE target"
+
+
+=======================
+     2022/04/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+69f8a11d10f4 AutoAODService: Use Calendar.add instead of Calendar.roll
+de27338d224f Brightness slider: Fix issues with media mode
+59723c7645b8 Brightness slider: Use proper icon names
+9acb66f8b4b8 Bring back QQS brightness slider
+70a69ac4554b Fixes and clean up for QS brightness slider customizations
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+89abe71 msm8953: Split msm8953 from UM_3_18_FAMILY [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+d0bd141 Evolver: Cleanup for 12.1
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+7035fe90 msm8953: Split msm8953 from UM_3_18_FAMILY [2/2]
+
+* Repository: https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl/commits/lineage-19.1-sn100x
+
+95b8949b SN100x/halimpl/libnxpparser: Guard with soong namespace
+
+
+=======================
+     2022/03/31
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+e10841c1c407 [SQUASH] SystemUI: Revert Brightness slider changes for QQS
+879fb8a779d3 Revert "PixelPropsUtils: Selectively enable GPhotos spoof for Pixel devices"
+
+
+=======================
+     2022/03/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+5d6a957fcc72 PixelPropsUtils: Remove fortnite from Games spoof
+65f9c2735f82 SystemUI: Nuke redundant Now Playing/Smartspace assets
+13e0159fcfd1 fixup! QS footer icon visibilities [1/2]
+f9c73936e987 fixup! Camera: Ignore torch status update for aux or composite camera
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+eaa279c manifest: Track vendor/pixel-framework from PE directly
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+bb38cbb New Crowdin updates (#188)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+cddc90e4dc Settings: Re-enable stock lock options for App lock
+012a9521e2 Settings: Revert to AOSP vibration intensity preferences
+e976dde84e Fix res after newer SettingsGoogle import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+cb19284d overlay: [temporary] don't report statementservice crashes
+2feb7c64 vendor: Clean up SystemUI overlays
+883c4458 config: Re-enable optional UdfpsResources package
+
+
+=======================
+     2022/03/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+dbb2a7400cc4 PixelPropsUtils: Selectively enable GPhotos spoof for Pixel devices
+10136a44d7b1 SystemUI: fix initial notif shade layout on split mode
+7fb25737c48b SystemUI: use default dialogCornerRadius for qs customize title
+e6bc291dc80a [SQUASH] SystemUI: Adjust to SystemUIGoogle changes
+a423baf28a4f SystemUIGoogle: Don't start FaceNotificationService if using custom face impl
+7d0a3132cb88 SystemUI: Introduce ColumbusCompatibilityHelper
+269aead1380c SystemUIGoogle: Import dagger dependencies
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+bef0e67e5e ColumbusLowSensitivityPreferenceController: Disable if using ap sensor
+e3ab9efa55 Settings: Add Columbus preference on gestures
+a5a4b41b28 SettingsGoogle: Comment some overlays
+5b9f8ee15d Port changes from SettingsGoogle
+
+* Repository: https://github.com/PixelExperience/vendor_pixel-framework/commits/twelve
+
+93de229 Fix opa layout
+7dd4720 Fix fc on wifi settings
+
+
+=======================
+     2022/03/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+017ad75878c7 Port changes from SystemUIGoogle
+
+* Repository: https://github.com/PixelExperience/packages_apps_FaceUnlockService/commits/twelve
+
+1c5594a Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+9bdf004f04 Rearrange density options under Settings/Display
+3097ee9884 Settings: Bluetooth timeout feature (2/2)
+2f5ca4e65b Settings: Wi-Fi timeout feature (2/2)
+adfb5a7328 Settings: Add preference for one shot auto-brightness [2/2]
+d858fd439b Settings: Update phone numbers when IMS registered.
+8a84914290 Settings: add sim status listener in about phone
+c020364a19 Settings: move Extra Dim feature to display
+b721fe205f Settings: Remove divider from Battery Manager
+37ac5b0a8c Settings: Add more trigger actions/app/activities
+e7e2623dee Settings: Optional haptic feedback on back gesture [1/2]
+11f2c8c1d1 New Crowdin updates (#86)
+
+* Repository: https://github.com/PixelExperience/vendor_pixel-framework/commits/twelve
+
+ec4b2f0 Update from SP2A.220305.012
+
+
+=======================
+     2022/03/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+1b820733950c Ambient Pulse Lights: add layout style for top n bottom [1/2]
+a84a330c0f2a Ambient Pulse Lights: Add light width [1/2]
+82fd1cf5cc06 SystemUI: Ambient Edge Pulse style [1/2]
+567c8d2e8070 NotificationLights: add reverse animation direction
+13192ef621c6 Revert "base: Only allow edge lights on AOD when AOD is enabled [1/2]"
+ab11f42a57ce SystemUI: Edge lighting code improvements
+7932483c10ad SystemUI: Pulse edge light for all doze triggers [1/2]
+1b255d7f035f NotificationPanelViewController: set FLAG_IMMUTABLE for edge lighting
+f2f1ba9bf68a base: Fix edge lights when sensitive notification content is hidden
+7fac4e7f4273 base: Only allow edge lights on AOD when AOD is enabled [1/2]
+7fd72f850b0c base: Ensure edge lighting is off when we are done with repeats
+5fe0f96776f2 base: Allow using wallpaper color for notification pulse
+f814c8169d64 base: Add animation duration & repeat count for notification pulse
+661bf41ecf35 base: Reorginize light pulse color options in one setting
+37ee5f92bfbe SystemUI: fix notification light pulse for repeating notifications
+e2fa0a3e291c SystemUI: fix possible case where aod stays on after notification pulse
+82fa8a66bf55 base: Support using notification color for pulse light
+4ef853eb8efb SystemUI: day 0 notification light pulse fixes
+eb28b544423b base: Add custom color to ambient pulse notification lights
+4664f3e02661 base: Add timeout for ambient notification pulse
+3404d4f43ace SystemUI: Add Ambient Lights always on hide aod content option
+47cfb21ded95 base: Cleanup notification pulse values
+826eb2ddca08 SystemUI: replace pulse light drawable with our own vector
+6cc54b1c9e6b SystemUI: kill any leftover notification pulse on new pulse start
+c815c794791c base: Pulse light accent color option
+f721bc7b144f base: Trigger pulse light only for notifications
+1f01b271ea41 base: add Pulse and Ambient notification bars
+7c2a5e8ca4d2 TwilightService: Save and use last fetched location
+070c0b7243b5 TwilightService: Use temporary TwilightState when location is not available
+5a8e264dd756 Add ability to toggle bluetooth battery level [1/2]
+2b17442f46dd MediaArtworkProcessor: Use less blur, zoom & alpha on keyguard
+4f9951314794 Lockscreen no blur option: fix SysUI FC
+a78219f4cc8b Lockscreen art blur: smaller seekbar range and allow no blur [1/2]
+1e903a792457 Lockscreen blur level: code fixes
+69d4c588156b base: configure lock screen media artwork blur level [1/2]
+05c6da29fb43 PixelPropsUtils: Refactor after switching gms to raven
+29210acce584 PixelPropsUtils: Add game props for mobile legends
+69cf70e64ab8 PixelPropsUtils: Add NHS App props spoofing
+90b91936e14c SystemUI: Add switch data saver icon
+6293308c085c Add Lockscreen album art filter [1/2]
+46a866eff94c SystemUI: Make media view less-gore when artwork bg is enabled
+c2fad4c041e4 [SQUASH] SystemUI: media notification background customizations [1/2]
+fb7e8d1e50ce [SQUASH] Remove Lockscreen art blur changes
+629a3561f87d Reticker: Remove some logging
+fbc459570fbf Feature: reticker [1/2]
+e94be836f35c QuickStatusBarHeader: Fix clickability issue with privacy indicator
+f4209f5c402f Framelayout: Fix NPE when view is missing
+ac986013db83 Revert "Use position tunable to hide clock as well"
+3cadaaa19f49 base: improve three finger gesture code
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+fc7820a manifest: Track more repos from ArrowOS 12.1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+98574dc New Crowdin updates (#187)
+
+
+=======================
+     2022/03/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+a1bad7fb9ef2 base: Improve notification header toggle
+6709dc1fd5f1 base: Allow hiding notification headers [1/2]
+5ece1610803d AutoAODService: Improve some code
+aa4ca25493c2 AutoAODService: Slightly improve code and docs
+3edbc021be5a AutoAODService: Account for disabled doze
+f3b57383e4ae AutoAODService: Add support for mixed time & sun modes [1/2]
+63611dfd2948 base: Allow scheduling always on display [1/2]
+75779471f474 SystemUI: import Now Playing from SQ1D
+facfaff84261 Solid render: Round lines [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+e0dbc58 Fix unsigned check logic
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+52f078c2e fastboot: Fallback to "raw" partition type if fastboot hal isn't present
+
+
+=======================
+     2022/03/25
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+5516971ac Merge tag 'android-12.1.0_r2' of https://android.googlesource.com/platform/build/soong into snow
+189f45459 Disable clang-tidy
+06446850b PATH tools: allow python 3.10
+12f92be22 kryo385: add the missing nodotprod and use a55 for all
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+66b6541d5381 Bring back UDFPS icons and animations [1/3]
+071125ec02fb base: Bluetooth timeout feature (1/2)
+2b1e7569a55e base: Wi-Fi timeout feature (1/2)
+ee62ac5eff5a AutoBrightness: Add support for one shot auto-brightness [1/2]
+047fe434bec7 [SQUASH] Custom logo customizations [1/2]
+876c3e3c5dba ThemeUtils: Make it compatible for all targets
+214d7fd2f8a9 Add option to auto hide status-bar clock
+c873a07272dd frameworks: Add support for clock auto-hiding
+015c41bf7373 Allow toggling camera/mic privacy indicator [1/2]
+2f9fd4c6767f Fix up hiding camera/location indicators for known packages
+5dbb9b8ef8e6 base: Fix location privacy indicator getting stuck
+78c683b5402b base: Update API for disabling gestural navigation
+f736032f4fe6 Status bar: Update notification count icons
+609e3ca135cc fwb: Guard some functions against face unlock
+8c529f807b99 SoundSearchTile: Update intent flags for the apps
+1df99c9e1b8f SoundSearchTile: Extend the use
+8109a9da0e00 Add Google Sound Search tile
+34a0d8377d1a Power menu: Add Bug report shortcut
+6d7e0b5f98d9 New Crowdin updates (#267)
+eba2618db9e3 New Crowdin updates (#266)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+c4f9fa7 New Crowdin updates (#186)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GamingMode/commits/refs/heads/snow
+
+8583df3 New Crowdin updates (#9)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+8856cb6 New Crowdin updates (#4)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+44806b86 soong: Update camera_in_mediaserver_defaults
+
+
+=======================
+     2022/03/24
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+43e01a79e687 SystemUI: match brightness slider track height with the progress drawable
+ff564a623a38 KeyEvent.java: Use home key as wake up key.
+add42e4f6cfb PixelPropsUtils: only spoof raven to gms
+52a48209101c QSPanel: Don't crash when not using media player
+d5327d14b2e2 SystemUI: Correctly update brightness slider settings
+b3a96030ef83 base: QS brightness slider settings: tunables -> Settings
+4dac800814b6 SystemUI: QSAnimator: Properly animate bottom brightness slider
+edd878edc220 BrightnessMirrorController: Don't show auto brightness icon when it's disabled
+cdb5ce5e731a [SQUASH] SystemUI: Port brightness slider changes
+edb3d46892be media: Define MPEG-H Encoder Format
+ec4979b101ca audio: add support for extended formats
+f6b425400533 Refactor Ringtone.playFallbackRingtone
+51319c387ee6 PixelPropsUtils: Whitelist YouTube apps
+4539cef30b2c Keyguard: Allow disabling fingerprint wake-and-unlock
+e15ce6c88b3a SystemUI: Unblock alarm and vibrate status bar icons
+4d74bfd3d3fe SystemUI: res array for statusbar blocked icons
+cf37df7f4c74 SystemUI: EvolutionKeyguardSliceProvider: cleanup
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-19.1
+
+a345780 extract_utils: export SIGSCAN
+ebae91b extract_utils: Support extracting from super.img
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+a4685192 envsetup: Remove threads argument from mka
+
+
