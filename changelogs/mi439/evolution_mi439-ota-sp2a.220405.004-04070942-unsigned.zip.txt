@@ -1,0 +1,54 @@
+NOTE: Do not dirty flash from Android 11. Best to clean flash.
+
+Highlights:
+- Initial 12.1 Android build
+
+Device changes:
+==============================
+- sdm439-common: overlay: Settings: Enable multiple vibration strength
+- sdm439-common: Update libsdm-color from PAN_sprout 
+- sdm439-common: Introduce KCAL and Dirac feature back 
+- sdm439-common: Fix compilation after adding dirac back
+- sdm439-common: parts: Implement Clear Speaker 
+- sdm439-common: parts: Update clear speaker audio from MIUI 12 
+- sdm439-common: parts: Add headphones warning for clear speaker 
+- sdm439-common: Speed preopt Pixel Launcher 
+- sdm439-common: Disable APEX compression 
+- sdm439-common: force internal FM antenna support 
+- sdm439-common: Clean up remove_packages
+------------------------------
+ROM changes:
+==============================
+=======================
+     2022/04/08
+=======================
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+a225e19b7dac os: Process: Fix wrong code in isThreadInProcess
+85d7ace8e0ba SystemUI: QuickStatusBarHeaderController: Remove ColorExtractor listener
+7b63d28647d4 fonts: Use variable font for Roboto Regular
+0b2c5f8ae712 base: Update few drawables
+b6855b503e13 base: Use MD2 icon for missed call notification
+7e7a254c7b7c base: Update some icons to MD2
+8cba4a6063f8 base: Update ic_doc_folder drawable to MD2
+90faf27cec2c Notifications: Make USB-Debugging notification less important
+c8ea8c2fb89a Add more notification channels to be blockable
+f8b5b2cd2f9a SystemServer: Only enable fd leak tracker on eng
+3a54c0838cb6 Catch IllegalArgumentException for invalid phone id
+4eb976d03e97 Fix Wakelock issue
+306a0ebbdab9 (Point) Only calculate sin and cos once
+c1e4ffe27b0b Don't update OverScroller fling state if improper time passed
+e1ce7c0c318d SQLite: Do integrity_check only once
+7920b2971b09 ActivityThread: Prevent surface hang up when screen on and screen off
+b4567d72b2f8 DisplayPowerController: Fix incall proximity not turning off display
+7ae724ef9c6b SystemUI: restart timeout causes black screen
+b44c076b9fa0 AlarmManager: Handle all gms exact alarm denials
+60505ae8003a AlarmManagerService: null check the alarm operation
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/snow
+
+c8f0a75 Keystore 2.0: Add CREATION_DATETIME only for Keymint V1 and higher.
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+fb5a898 gms: Update
