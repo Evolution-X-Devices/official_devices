@@ -1,0 +1,35 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL 
+
+**Device Changes:**
+- Kernel updated with changes from CAF
+- Import patched adreno blobs for v617
+- Don't include GCam in stock apps
+
+**Evolution X Update**
+
+- Merge April 2022 security patches
+- PixelPropsUtils: Update fingerprints to April 2022 release
+- SystemUI: Always disable rotation on lockscreen
+- SystemUI: Add Mono audio tile (aka headphone in one ear only)
+- Settings: Allow choosing a custom vibration pattern
+- Settings: Add vibration patterns from OOS
+- Settings: Move app lock preferences to Evolver
+- QTI BT: Changed HID_DEV_MTU_SIZE from 64 to 512 for Amiibo support
+- KeyguardIndication: Fix glitchy charging info on lock screen
+- SystemUI: Fix the unlock sound played repeatedly
+- SystemUI: Make the volume dialog expandable
+- Settings: Battery charge warning
+- Evolver: Hide Status bar on Lock screen
+- Evolver: Bring back volume panel on left toggle
+- Evolver: Allow hiding apps from launcher
+- AOD: Sleep when proximity is covered for 3 secs
+- base: Grant Gapps permissions on boot
+- base: Add system app whitelist for applock
+- SystemUI: Show daily data usage in QS footer
+- Evolver: Remove color picker for custom Logo
+- SystemUI: Face Unlock animation
+- Evolver: Remove charging animation toggle
