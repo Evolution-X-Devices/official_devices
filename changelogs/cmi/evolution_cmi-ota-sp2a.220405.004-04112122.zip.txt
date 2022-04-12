@@ -1,0 +1,77 @@
+  
+2022-04-11
+
+
+To use this release you need:
+
+- Have MIUI firmware to 12.5.10
+
+DEVICE:
+
+  * sm8250-common: use stock rounded corners radius
+  * sm8250-common: overlay: Force FaceUnlockService to use cameraid 1 to fix reboots to recovery
+
+
+ROM:
+
+4/11
+
+Evolver: Move screen off animation to Misc category
+
+Evolver: Use correct key for Status bar clock auto hide launcher
+
+Settings: Make IME button space optional
+
+SystemUI: Add VPN tile
+
+SystemUI: Animate cutout padding for QS clock
+
+SystemUI: Enable status bar burn-in protection by default
+
+SystemUI: Update BT battery level from OOS
+
+
+4/10
+
+Catch SQLiteFullException in AccountManagerService
+
+Close the FileStream to avoid resource leak
+
+Evolver: Remove charging animation toggle
+
+Fix chip visibility in split shade header
+
+SystemUI: Face Unlock animation
+
+config: Disable GMS OTA popup
+
+unregister FileCleanupReceiver when disableHistory
+
+
+4/9
+
+Evolver: Remove color picker for custom Logo
+
+PixelPropsUtils: Avoid spoofing for Pixel Buds
+
+PixelPropsUtils: Use Mi 11 Ultra for games prop
+
+Settings: security: Add fingerprint wake unlock mode list preference
+
+ShortcutPackage: do not spam logcat
+
+StatusBar: Kill old privacy indicator icons completely
+
+SystemUI: Show daily data usage in QS footer
+
+UIModeTile: Collapse after change UI mode
+
+base: Add system app whitelist for applock
+
+base: Grant Gapps permissions on boot
+
+base: Grant storage permissions for Papers app
+
+base: log spill when dragging
+
+sepolicy: Allow apps to read auxiliary camera properties
