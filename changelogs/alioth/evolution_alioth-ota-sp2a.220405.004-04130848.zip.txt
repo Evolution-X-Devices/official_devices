@@ -1,0 +1,24 @@
+Device Changelog:
+~ Update to latest NOkernel (from source)
+~ Upver to android.hardware.usb@1.3
+~ rro_overlays: Update wifi package name from Google
+~ Update Adreno Drivers to v615
+
+ROM Changelog:
+~ Settings: Allow to hide arrow for back gesture
+~ Settings: Make IME button space optional
+~ SystemUI: Add VPN tile
+~ SystemUI: Update BT battery level from OOS
+~ PixelPropsUtils: Use Mi 11 Ultra for games prop
+~ SystemUI: Show daily data usage in QS footer
+~ base: Add system app whitelist for applock
+~ base: Grant Gapps permissions on boot
+~ Evolver: Allow hiding apps from launcher
+~ Evolver: Bring back volume panel on left toggle
+~ Settings: Battery charge warning
+~ SystemUI: Make the volume dialog expandable 
+~ Merge April 2022 security patches
+~ QTI BT: Changed HID_DEV_MTU_SIZE from 64 to 512 for Amiibo support
+~ Settings: Add vibration patterns from OOS
+~ Settings: Allow choosing a custom vibration pattern
+~ Bring back QQS brightness slider
