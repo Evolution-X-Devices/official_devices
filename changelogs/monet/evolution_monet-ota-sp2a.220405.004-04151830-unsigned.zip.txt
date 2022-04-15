@@ -1,0 +1,99 @@
+IMPORTANT NOTE: We're switching to encryption, like it's done in any normal ROM. It means YOU CAN'T DIRTY FLASH THIS BUILD OR IT WON'T BOOT.
+Yes, this also means TWRP will see internal storage as gibberish. But they still boot and you can still use any recovery you like, just be aware that you can flash anything only through adb sideload or OTG.
+Thus, I recommend installing PE/Los recovery alongside to have seamless OTA updates.
+This is for your security.
+Accordingly, the installation instruction for this build is as follows:
+1) Backup everything you need using Google/Migrate/MTP or any other tool.
+2) Flash this build through any recovery
+3) In recovery, press FORMAT DATA
+Consequent updates will not require doing this again.
+
+Highlights:
+- Deep sleep fixed
+- Encryption enforced
+- Misc performance improvements
+
+ROM changes:
+==============================
+4/15
+prebuilt: fix APN for Vodafone NL
+
+4/14
+Settings: Fixup start padding for battery usage graph
+overlay: Disable AiAiTranslationService usage
+overlay: show all icons in collapsed statusbar
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+
+4/13
+Evolver: applock: intercept activity in a better way
+Fix the issue of transition animation splash screen in split screen mode
+QSPanel: Fix NPE in updateViewPositions()
+base: add missing device config permissions for settings
+
+4/12
+Settings: Allow to hide arrow for back gesture
+StatusBar: dismiss qs when screen is going off if showing
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+config: Disable remote keyguard animation until it's fixed
+config: Move keylayout to /product
+config: Move permissions & sysconfig to /product
+fix google widget timing issue
+
+4/11
+Evolver: Move screen off animation to Misc category
+Evolver: Use correct key for Status bar clock auto hide launcher
+Settings: Make IME button space optional
+SystemUI: Add VPN tile
+SystemUI: Animate cutout padding for QS clock
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Update BT battery level from OOS
+
+4/10
+Catch SQLiteFullException in AccountManagerService
+Close the FileStream to avoid resource leak
+Evolver: Remove charging animation toggle
+Fix chip visibility in split shade header
+SystemUI: Face Unlock animation
+config: Disable GMS OTA popup
+unregister FileCleanupReceiver when disableHistory
+
+4/9
+Evolver: Remove color picker for custom Logo
+PixelPropsUtils: Avoid spoofing for Pixel Buds
+PixelPropsUtils: Use Mi 11 Ultra for games prop
+ShortcutPackage: do not spam logcat
+StatusBar: Kill old privacy indicator icons completely
+SystemUI: Show daily data usage in QS footer
+UIModeTile: Collapse after change UI mode
+base: Add system app whitelist for applock
+base: Grant Gapps permissions on boot
+base: Grant storage permissions for Papers app
+base: log spill when dragging
+sepolicy: Allow apps to read auxiliary camera properties
+
+4/8
+AOD: Sleep when proximity is covered for 3 secs
+Evolver: Allow hiding apps from launcher
+Evolver: Bring back volume panel on left toggle
+Evolver: Hide Status bar on Lock screen
+Fix wakelock under-locked issue
+Settings: Battery charge warning
+SystemUI: Make the volume dialog expandable
+
+4/7
+ActivityThread: Prevent surface hang up when screen on and screen off
+Add more notification channels to be blockable
+AlarmManager: Handle all gms exact alarm denials
+AlarmManagerService: null check the alarm operation
+Catch IllegalArgumentException for invalid phone id
+DisplayPowerController: Fix incall proximity not turning off display
+Don't update OverScroller fling state if improper time passed
+Fix Wakelock issue
+Keystore 2.0: Add CREATION_DATETIME only for Keymint V1 and higher
+Notifications: Make USB-Debugging notification less important
+SQLite: Do integrity_check only once
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: QuickStatusBarHeaderController: Remove ColorExtractor listener
+SystemUI: restart timeout causes black screen
+fonts: Use variable font for Roboto Regular
+os: Process: Fix wrong code in isThreadInProcess
