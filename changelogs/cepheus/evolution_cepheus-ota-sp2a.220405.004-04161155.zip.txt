@@ -1,0 +1,82 @@
+Notes
+==============================
+ALWAYS BACKUP BEFORE UPDATING.
+Do not dirty flash from Android 11. The best is to clean flash.
+Dirty flash from previous A12L build should be OK.
+Try a clean flash if you encounter issues.
+
+
+Device changes
+==============================
+- Pixon kernel updated to V3.6 (Linux 4.14.274)
+- Nuke unneeded config
+- fix deprecated power profile items
+- Use Azure Clang to compile kernel
+- Use LVMM tools to compile kernel
+
+
+ROM changes
+==============================
+- udfps: Disable Night Light when showUdfpsOverlay
+- Evolver: Bring back HeadsUp blocklist/stoplist/snooze/timeout
+- prebuilt: fix APN for Vodafone NL
+- Settings: Fixup start padding for battery usage graph
+- overlay: show all icons in collapsed statusbar
+- vendor: rro_overlays: Remove Pixel's rounded corner overlay
+- Fix the issue of transition animation splash screen in split screen mode
+- base: add missing device config permissions for settings
+- Settings: Allow to hide arrow for back gesture
+- StatusBar: dismiss qs when screen is going off if showing
+- base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+- config: Disable remote keyguard animation until it's fixed
+- fix google widget timing issue
+- Evolver: Move screen off animation to Misc category
+- Settings: Make IME button space optional
+- SystemUI: Add VPN tile
+- SystemUI: Animate cutout padding for QS clock
+- SystemUI: Update BT battery level from OOS
+- Evolver: Remove charging animation toggle
+- Fix chip visibility in split shade header
+- SystemUI: Face Unlock animation
+- config: Disable GMS OTA popup
+- Evolver: Remove color picker for custom Logo
+- PixelPropsUtils: Avoid spoofing for Pixel Buds
+- PixelPropsUtils: Use Mi 11 Ultra for games prop
+- ShortcutPackage: do not spam logcat
+- StatusBar: Kill old privacy indicator icons completely
+- SystemUI: Show daily data usage in QS footer
+- UIModeTile: Collapse after change UI mode
+- base: Add system app whitelist for applock
+- AOD: Sleep when proximity is covered for 3 secs
+- Evolver: Allow hiding apps from launcher
+- Evolver: Bring back volume panel on left toggle
+- Evolver: Hide Status bar on Lock screen
+- Settings: Battery charge warning
+- SystemUI: Make the volume dialog expandable
+- SystemUI: restart timeout causes black screen
+- Merge April 2022 security patches
+- PixelPropsUtils: Update fingerprints to April 2022 release
+- SystemUI: Fix the unlock sound played repeatedly
+- KeyguardIndication: Fix glitchy charging info on lock screen
+- QTI BT: Changed HID_DEV_MTU_SIZE from 64 to 512 for Amiibo support
+- Settings: Allow using legacy VPN types
+- Revert "Separate mute and vibrate icons in status bar"
+- BluetoothUtils: disable useless logspam
+- Call log limit 500=>5000
+- Camera: Prevent crash with prebuilt camera metadata
+- Keep recent tasks for more time in memory
+- Settings: Add vibration patterns from OOS
+- Settings: Allow choosing a custom vibration pattern
+- SystemUI: Add Mono audio tile (aka headphone in one ear only)
+- SystemUI: Always disable rotation on lockscreen
+- SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+- Telecomm: Update vibration patterns
+- Telephony: Fix crash while updating Operator Name
+- WallpaperService: Fix half black wallpaper after rotating quickly
+- base: Fix black screen issue due to wallpaper decoding exceptions
+- base: Remove unnecessary videos
+- Bring back QQS brightness slider
+- PixelPropsUtils: Remove Fortnite from Games spoof
+- fixup! QS footer icon visibilities (aka QS footer power menu toggle)
+- SystemUI: fix initial notif shade layout on split mode
+- Port changes from SystemUIGoogle/SettingsGoogle (Quick Tap, Game Dashboard, Smartspace)
