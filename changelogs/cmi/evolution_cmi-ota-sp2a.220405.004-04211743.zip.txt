@@ -1,0 +1,63 @@
+  
+2022-04-21
+
+
+To use this release you need:
+
+- Have MIUI firmware to 12.5.10
+
+DEVICE:
+
+  * umi/cmi: drop soundtrigger hardware module ( ok google fix )
+  * sm8250-common: Update powerhint
+  * sm8250-common: fix deprecated power profile items
+  * sm8250-common: props: Use HintManager for HWUI
+
+ROM:
+
+4/21
+
+base: Grant NETWORK_STACK permissions for Dialer
+
+
+4/19
+
+Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+
+Allow SBC as HD audio codec in Bluetooth device configuration
+
+Explicitly make SBC Dual Channel an optional (HD) codec
+
+
+4/18
+
+Allow provisioning package to retrieve subGrp, clear its own config
+
+Evolver: Allow hiding system apps that appear in launcher
+
+Evolver: Hidden apps toggle does not require launcher restart anymore
+
+Settings: Add TalkBack accessibility service
+
+Settings: Add toggle to switch between AOSP/Google battery graphs
+
+Settings: Align user avatar with homepage title
+
+Settings: Remove empty Security status header
+
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+
+Treat default value that wasn't found as empty value
+
+fixup! Evolver: applock: intercept activity in a better way
+
+fuelgauge: Update clean up for estimate
+
+fuelgauge: Use Enhanced Battery Prediction from Turbo
+
+
+4/17
+
+Evolver: Introduce OOS style notification clear all button
+
+Settings: Disable tips and support
