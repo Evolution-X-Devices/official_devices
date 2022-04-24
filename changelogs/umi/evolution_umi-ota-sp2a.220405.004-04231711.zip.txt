@@ -1,0 +1,46 @@
+  
+2022-04-24
+
+
+To use this release you need:
+
+- Have MIUI firmware to 12.5.10
+
+DEVICE:
+
+  * umi/cmi: minor changes
+
+ROM:
+
+4/23
+
+Evolver: Add application downgrade feature
+
+Evolver: Add window ignore secure feature
+
+Re-implement optional haptic feedback on back gesture
+
+Settings: Add Battery Capacity info and make resources overlayable
+
+nativedisplay: fix the flicker issue in streaming video
+
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+
+
+4/22
+
+Add keylayout mapping for Xbox360 compatible controllers
+
+Evolver: Bring back Status bar brightness control
+
+Grant NETWORK_STACK permissions for Dialer
+
+SystemUI: Fix alarm icon
+
+SystemUI: Whitelist PREVENT_POWER_KEY permission
+
+Update translations
+
+make DownloadManager.query() a no-op when INTERNET permission is revoked
+
+version: Uprev to 6.3 (codename Snow-v2)
