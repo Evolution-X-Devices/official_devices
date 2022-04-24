@@ -1,0 +1,61 @@
+Device side changes:
+Switched to N0kernel.
+Battery idle dran & active drain improvements.
+HWUI optimizations.
+Switched to VulkanUi for rendering.
+Enabled battery health in battery settings section.
+Dropped some tracing services.
+Switched to USB 3.1 HAL.
+Removed cam2.
+Switched to proton clang.
+Reduced ss delay to 0.
+Fixed fp location.
+Misc optimizations and improvements.
+
+
+Source side changes:
+4/23
+Evolver: Add application downgrade feature
+Evolver: Add window ignore secure feature
+Re-implement optional haptic feedback on back gesture
+Settings: Add Battery Capacity info and make resources overlayable
+nativedisplay: fix the flicker issue in streaming video
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+
+4/22
+Add keylayout mapping for Xbox360 compatible controllers
+Evolver: Bring back Status bar brightness control
+Grant NETWORK_STACK permissions for Dialer
+SystemUI: Fix alarm icon
+SystemUI: Whitelist PREVENT_POWER_KEY permission
+Update translations
+make DownloadManager.query() a no-op when INTERNET permission is revoked
+version: Uprev to 6.3 (codename Snow-v2)
+
+4/18
+Allow provisioning package to retrieve subGrp, clear its own config
+Evolver: Allow hiding system apps that appear in launcher
+Evolver: Hidden apps toggle does not require launcher restart anymore
+Settings: Add TalkBack accessibility service
+Settings: Add toggle to switch between AOSP/Google battery graphs
+Settings: Align user avatar with homepage title
+Settings: Remove empty Security status header
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+Treat default value that wasn't found as empty value
+fixup! Evolver: applock: intercept activity in a better way
+fuelgauge: Update clean up for estimate
+fuelgauge: Use Enhanced Battery Prediction from Turbo
+
+4/17
+Evolver: Introduce OOS style notification clear all button
+Settings: Disable tips and support
+
+4/16
+Add smart idle maintenance service
+DeviceGroup: Check RSI data with filtered scan results
+DisplayPowerController: Don't apply brightness adjustment if NaN
+HeadsUp: Move timeout option to SettingsObserver instead
+Move PackageManager new user logic after dispatching
+Settingslib: Remove a reflect method that can never succeed
+SystemUI: Fix pulseOut fails before fully pulsing
+udfps: Disable Night Light when showUdfpsOverlay
