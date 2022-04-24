@@ -1,0 +1,38 @@
+Notes
+==============================
+ALWAYS BACKUP BEFORE UPDATING.
+Do not dirty flash from Android 11. The best is to clean flash.
+Dirty flash from previous A12L build should be OK.
+Try a clean flash if you encounter issues.
+
+
+Device changes
+==============================
+- Switch to AOSP  Bluetooth stack
+- Add overlays for battery health
+- Disable redir_party_num that was causing issues when receiving calls over voLTE or voWifi
+- Change default GPU idle timeout to 58ms
+- power: Decrease launch boost to 3sec
+- Import power_profile from coral
+- Disable blurs settings in dev options
+- fstab: Enable 64-bit inode version support for ext4
+- fix screen recorder lag
+- Various other minor tweaks and fixes (to try) to improve perfs and reduce battery drain
+
+
+ROM changes
+==============================
+- Evolver: Add application downgrade feature
+- Evolver: Add window ignore secure feature
+- Re-implement optional haptic feedback on back gesture
+- Settings: Add Battery Capacity info and make resources overlayable
+- nativedisplay: fix the flicker issue in streaming video
+- vendor: rro_overlays: Remove Pixel's rounded corner overlay
+- Add keylayout mapping for Xbox360 compatible controllers
+- Evolver: Bring back Status bar brightness control
+- Grant NETWORK_STACK permissions for Dialer
+- SystemUI: Fix alarm icon
+- SystemUI: Whitelist PREVENT_POWER_KEY permission
+- Update translations
+- make DownloadManager.query() a no-op when INTERNET permission is revoked
+- version: Uprev to 6.3 (codename Snow-v2)
