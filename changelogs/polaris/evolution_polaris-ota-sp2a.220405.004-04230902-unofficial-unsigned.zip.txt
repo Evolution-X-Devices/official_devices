@@ -1,0 +1,20 @@
+**Device Changes:**
+- Etude kernel: Op.12 No.3
+  * Linux 4.9.311
+  * CodeLinaro tag `LA.UM.10.3.r1-01700-sdm845.0`
+  * Enabled Spectre BHB mitigation
+  * adapted qcom's kgsl perf counter change to non-privileged scratch buffer
+  * ported compiler friendly vectorization for XOR from mainline kernel
+  * ported arm64-specific crc32_be optimization from mainline kernel
+  * ported Arm Optimized Routines for strcmp and strncmp from mainline kernel
+  * merged and adapted lots of branch prediction hardening code from android common kernel
+  * fixed qcom's PSCI BP hardening mitigation for kryo2xx/3xx cores
+  * DO NOT use another kernel. Just don't.
+- Fixed rounded corners
+
+**Evolution X Update**
+- April security patch
+- Heads-up notification blocklist/snooze/timeout
+- Option to hide IME button space
+- OOS style notification clear button
+- Many more misc stuff
