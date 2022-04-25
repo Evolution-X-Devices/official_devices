@@ -1,0 +1,40 @@
+[DEVICE]
+- Added realme Dirac
+- Fixed udfps (FOD) to work on AOD
+- Fixed hyper orange night light
+- Fixed screen black out at minimum brightness
+- Enable QPower and deep sleep together (amazing power savings)
+- Enable QCRIL radio power saving
+- Add night display color temperature calibration from Pixel devices
+- Built kernel with proton clang
+- Removed prebuilt youtube and youtube music
+- audio: Enable 24-bit for primary output
+- audio: Offload 24 bits playback supports mp3/aac format
+- Enabled pre rendering feature for smooth scrolling
+
+[KERNEL]
+- Rebased kernel but named same as previous with version uprev to 0.69 +13
+- Improved charging speed (WIP)
+- Fixed the usb transfer bug present in previous kernel release
+- Added KCal (display calibration) support
+- Added boeffla wakelock blocker
+- Updated wakelock blocker list to block all possible wakelocks causing idle drains
+- Added and updated net wireguard
+- Enabled westwood tcp congestion for better internet speed
+- More tuned westwood tcp for more better internet speed
+- Added blu_schedutil governor (schedutil governor from Pixel devices)
+- Force applications to use TCP_NODELAY to improve network
+- Added and updated zen, maple anxiety, sio, sioplus, tripndroid, fiops IO scheduler
+- Optimized Console FrameBuffer for upto 70% increase in Performance
+- Added kernel space battery saver mode
+- Disable cpu boost, iowait boost and gpu boost if battery saver is on
+- Fixed the issue where settings -> battery section shows "Connected, not charging" even though it is not connected
+- alarmtimer: Minimize wakeup time
+- Fix slow charge while screen is on
+- Enabled and added simple low memory killer
+- Implement early fingerprint wake up optimization
+- Many more optimizations for Evolution-X to improve performance battery balance
+
+[ROM]
+- Rebased 12L/12.1 source
+- Version bumped to Snow v3 6.3
