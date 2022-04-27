@@ -1,0 +1,27 @@
+This build you're receiving is evolution_mi439-ota-sp2a.220405.004-04262213-unsigned.zip
+
+Notes:
+- Rom is encrypted by default
+- You can dirty flash from previous build
+
+Device changes:
+==============================
+- minor fixes and improvements
+
+==============================
+ROM changes
+==============================
+- Evolver: Add application downgrade feature
+- Evolver: Add window ignore secure feature
+- Re-implement optional haptic feedback on back gesture
+- Settings: Add Battery Capacity info and make resources overlayable
+- nativedisplay: fix the flicker issue in streaming video
+- vendor: rro_overlays: Remove Pixel's rounded corner overlay
+- Add keylayout mapping for Xbox360 compatible controllers
+- Evolver: Bring back Status bar brightness control
+- Grant NETWORK_STACK permissions for Dialer
+- SystemUI: Fix alarm icon
+- SystemUI: Whitelist PREVENT_POWER_KEY permission
+- Update translations
+- make DownloadManager.query() a no-op when INTERNET permission is revoked
+- version: Uprev to 6.3 (codename Snow-v2)
