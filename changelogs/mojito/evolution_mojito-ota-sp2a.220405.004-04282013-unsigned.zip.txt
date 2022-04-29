@@ -1,0 +1,25 @@
+==========================================
+Notes:
+==========================================
+- Always backup your data.
+- Do Clean Flash if you are coming from any build.
+- Use any firmware version, 12.0.X or 12.5.X doesn't matter.
+- If you're DFE user, don't forget to flash DFE file .zip after flashing ROM (before reboot to system).
+
+==========================================
+Device Changelog:
+==========================================
+- Initial Official release
+- Set physical button location
+- Set overlay to indicate power button fps
+- Adapt status bar height for A12L
+- Beautify rounded corners
+- Enable IORAP
+- Import gps hal from LA.UM.9.1.r1-11800-SMxxx0.0
+- Drop ifaa manager
+
+==========================================
+ROM Changelog:
+==========================================
+- Bumped to 6.3
+- Merge April 2022 security patch
