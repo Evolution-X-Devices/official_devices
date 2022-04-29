@@ -1,0 +1,62 @@
+Changelog:
+==============================
+Don't pin renderscript
+libperfmgr.rc: correct audio HAL property name
+
+Source changelog:
+==============================
+4/29
+AppDataUsage: Handle apps without INTERNET permission
+PMS and WMS deadlock when uninstalling APP
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+Settings: Add hotspot setting to allow VPN upstreams
+Settings: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+SystemUI: Fix PIN scramble setting discrepancy
+SystemUI: fix MediaProjection cast crash
+UdfpsController: Fix position if cutout is hidden
+base: add zen mode off hook to prevent problems with ringer mode
+
+4/28
+Settings: Remove DSU Loader if unsupported
+SystemUI: Add API for runtime taskbar config on phones
+SystemUI: Allow overlaying max system icons
+UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+linker: Add support for opening zip files by fd paths
+
+4/26
+Settings: Update package details to match S style
+
+4/25
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
+
+4/23
+Evolver: Add application downgrade feature
+Evolver: Add window ignore secure feature
+Re-implement optional haptic feedback on back gesture
+Settings: Add Battery Capacity info and make resources overlayable
+nativedisplay: fix the flicker issue in streaming video
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+
+4/22
+Add keylayout mapping for Xbox360 compatible controllers
+Evolver: Bring back Status bar brightness control
+Grant NETWORK_STACK permissions for Dialer
+SystemUI: Fix alarm icon
+SystemUI: Whitelist PREVENT_POWER_KEY permission
+Update translations
+make DownloadManager.query() a no-op when INTERNET permission is revoked
+version: Uprev to 6.3 (codename Snow-v2)
+
+4/18
+Allow provisioning package to retrieve subGrp, clear its own config
+Evolver: Allow hiding system apps that appear in launcher
+Evolver: Hidden apps toggle does not require launcher restart anymore
+Settings: Add TalkBack accessibility service
+Settings: Add toggle to switch between AOSP/Google battery graphs
+Settings: Align user avatar with homepage title
+Settings: Remove empty Security status header
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+Treat default value that wasn't found as empty value
+fixup! Evolver: applock: intercept activity in a better way
+fuelgauge: Update clean up for estimate
+fuelgauge: Use Enhanced Battery Prediction from Turbo
