@@ -280,6 +280,48 @@
       ]
    },
    {
+      "brand": "Samsung",
+      "codename": "starlte",
+      "name": "Samsung Galaxy S9",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pham Nguyen Gia Khiem",
+            "maintainer_url": "https://forum.xda-developers.com/m/cyderxda.11350071/",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-starlte-star2lte-official-evolution-x-04-29-2022.4438717/"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "star2lte",
+      "name": "Samsung Galaxy S9+",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pham Nguyen Gia Khiem",
+            "maintainer_url": "https://forum.xda-developers.com/m/cyderxda.11350071/",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-starlte-star2lte-official-evolution-x-04-29-2022.4438717/"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "crownlte",
+      "name": "Samsung Galaxy Note 9",
+      "supported_versions": [
+         {
+            "maintainer_name": "Pham Nguyen Gia Khiem",
+            "maintainer_url": "https://forum.xda-developers.com/m/cyderxda.11350071/",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-crownlte-official-evolution-x-04-29-2022.4438705/"
+         }
+      ]
+   },
+   {
       "brand": "Xiaomi",
       "codename": "alioth",
       "name": "POCO F3",

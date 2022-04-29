@@ -1,0 +1,19 @@
+==========================================
+Notes:
+==========================================
+- Always backup your data.
+- Do Clean Flash if you are coming from any build.
+
+==========================================
+Device Changelog:
+==========================================
+- Initial Official release
+- Set physical button location
+- Adapt status bar height for A12L
+- Enable IORAP
+
+==========================================
+ROM Changelog:
+==========================================
+- Bumped to 6.3
+- Merge April 2022 security patch
