@@ -1,0 +1,22 @@
+Your EvoX has recived an UPDATE
+If you`re still using A11 please
+ALWAYS IN A BIG UPGRADE DO A CLEAN FLASH
+Dirty flash are okay from 12 or 12.1 builds
+BUT... Make an little backup
+This compilation no have encryption
+so please follow the clean flash steps in XDA
+(if you doing this first time)
+
+Device changes
+update overlays (removed rounded corners... it`s just temporary)
+update some wifi things
+update other some minor things
+update kernel Etude Op.12 No.3
+Kernel Linux 4.9.312
+
+ROM changes
+Add DNS (ad guard and cloudflare)
+update to aosp Apex
+updated to latest Evo source
+
+Enjoy the update *-*
