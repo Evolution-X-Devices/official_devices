@@ -1,0 +1,33 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL 
+
+**Device Changes:**
+- Disable phantom process monitoring
+- Enable Zygote preforking
+- Add GPU frequencies in powerhint
+- Disable Bluetooth by default
+- Update USB HAL to V1.3 implementation
+- Turn on compressed apex
+- Disable vsync for CPU rendered Apps
+- power: Decrease launch boost to 3sec
+- Merge LA.UM.9.1.c11-28500-SMxxx0.QSSI12.0 tag in kernel
+- Uprev kernel version to "v2"
+- Import wireguard-linux-compat v1.0.20211208
+- Enable wireguard
+- wireguard: Fix redefinition skb_mark_not_on_list
+
+**Evolution X Update**
+
+- Uprev to 6.3 (codename Snow-v2)
+- Fix alarm icon
+- Bring back Status bar brightness control
+- Re-implement optional haptic feedback on back gesture
+- Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
+- Update package details to match S style
+- Remove DSU Loader if unsupported
+- UdfpsController: Fix position if cutout is hidden
+- Add hotspot setting to allow VPN upstreams
+- Add AdGuard and Cloudflare DNS as private DNS providers
