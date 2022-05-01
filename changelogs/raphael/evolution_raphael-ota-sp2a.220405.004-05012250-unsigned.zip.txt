@@ -1,0 +1,54 @@
+This is Android 12.1 with April 2022 security patches
+
+Notes:
+==============================
+This build switches to AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps after updating.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+Declare WiFi Aware support to WiFi HAL
+Enable asynchronous library events in WPA supplicant
+Enable blur (Disable blurs during app launch)
+Enable mainline artifact path enforcement
+Enforce native interfaces of product partition as VNDK
+Re-configure CPU variant according to GS101
+Remove gc_urgent from powerhint (causes log spam)
+Suppress sysfs wakeup denials spam
+Switch to using AOSP apex
+Turn on PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE
+Use azure clang for kernel compile
+Use latest Soviet kernel
+overlay: Increase no. of visible max notifications icons
+overlay: Update max visible system icons
+sepolicy: Address some denials for libperfmgr
+use s2idle
+------------------------------
+ROM changes:
+==============================
+Evolver: Color coded battery indication
+Evolver: Introduce QS transparency level
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
+PMS and WMS deadlock when uninstalling APP
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+Settings: Add hotspot setting to allow VPN upstreams
+Settings: Remove string array resource sim_color_light in translations
+Settings: Update package details to match S style
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+SystemUI: Allow overlaying max system icons
+SystemUI: Bring back dual-tone light and dark themes for QS
+SystemUI: Fix PIN scramble setting discrepancy
+SystemUI: fix MediaProjection cast crash
+UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+audio: Verify that hal implements get_audio_port before calling
+base: Battery style improvements
+base: add zen mode off hook to prevent problems with ringer mode
+development: disable DSULoader
+device_config: Save discrete app op history for more permissions
+linker: Add support for opening zip files by fd paths
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
