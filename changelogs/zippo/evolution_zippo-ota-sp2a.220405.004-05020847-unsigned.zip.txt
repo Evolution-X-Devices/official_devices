@@ -1,0 +1,32 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+- Fixed mobile data
+- Revert change in minimum GPU frequency and set it back to 257MHz
+
+**Evolution X Update**
+
+5/2
+Add Mediatek IMS to location indicator whitelist
+SystemUI: Let screenshot window ignore screen decorations
+fixup! Camera: Skip stream size check for whitelisted apps
+
+5/1
+Evolver: Color coded battery indication
+Evolver: Introduce QS transparency level
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+SystemUI: Bring back dual-tone light and dark themes for QS
+base: Battery style improvements
+development: disable DSULoader
+
+4/30
+Settings: Remove string array resource sim_color_light in translations
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
