@@ -1,0 +1,92 @@
+  
+2022-05-02
+
+
+To use this release you need:
+
+- CLEAN FLASH
+- Have MIUI firmware to 13.0.4.0
+
+DEVICE:
+
+  * umi/cmi: initial use of A12 MIUI blobs ( credits @chaptsand )
+
+ROM:
+
+5/2
+
+Add Mediatek IMS to location indicator whitelist
+
+SystemUI: Let screenshot window ignore screen decorations
+
+fixup! Camera: Skip stream size check for whitelisted apps
+
+
+5/1
+
+Evolver: Color coded battery indication
+
+Evolver: Introduce QS transparency level
+
+SoftAp: add Hidden SSID preference
+
+SoftAp: add back AP Band preference into tether settings
+
+SoftAp: add client manager
+
+SoftAp: add more bands to band preference
+
+SoftAp: add support for setting shutdown timeout
+
+SystemUI: Bring back dual-tone light and dark themes for QS
+
+base: Battery style improvements
+
+development: disable DSULoader
+
+
+4/30
+
+Settings: Remove string array resource sim_color_light in translations
+
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
+
+
+4/29
+
+PMS and WMS deadlock when uninstalling APP
+
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+
+Settings: Add hotspot setting to allow VPN upstreams
+
+SystemUI: Fix PIN scramble setting discrepancy
+
+SystemUI: fix MediaProjection cast crash
+
+UdfpsController: Fix position if cutout is hidden
+
+audio: Verify that hal implements get_audio_port before calling
+
+base: add zen mode off hook to prevent problems with ringer mode
+
+device_config: Save discrete app op history for more permissions
+
+
+4/28
+
+SystemUI: Allow overlaying max system icons
+
+UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+
+linker: Add support for opening zip files by fd paths
+
+
+4/26
+
+Settings: Update package details to match S style
+
+
+4/25
+
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
