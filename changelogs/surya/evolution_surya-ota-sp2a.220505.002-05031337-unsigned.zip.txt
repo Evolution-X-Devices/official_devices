@@ -1,0 +1,162 @@
+=======================
+     2022/05/03
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+103825011 Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+677c257 Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/manifest into snow
+2bc59ba Manifest for Android 12.1.0 Release 5 (SP2A.220505.002)
+
+
+=======================
+     2022/05/02
+=======================
+
+
+=======================
+     2022/05/01
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/snow
+
+cfa690a8 Allow hal_sensors read sensors_dbg_prop
+de5832ab sepolicy_vndr: legacy: Label QTI USB HAL
+9ac38ad0 sepolicy_vndr: qva: Update QTI USB HAL to v1.3
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+b611a26 manifest: Track multiple forks
+
+
+=======================
+     2022/04/30
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-19.1
+
+43f2083 common: Add QTI embmssl to prebuilt HIDL interfaces
+
+
+=======================
+     2022/04/29
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/snow
+
+c242d0d0a getaddrinfo: Use Cloudflare DNS instead of Google DNS
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+7a519d21a paths: Allow soong_zip to be called
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+c1bdc94 manifest: Track external/exfatprogs from Proton
+
+
+=======================
+     2022/04/28
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/snow
+
+3da0635d1 linker: Add support for opening zip files by fd paths
+
+
+=======================
+     2022/04/27
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+8066954 manifest: Track hardware/qcom-caf/bt from LOS 19.1-caf branch
+
+
+=======================
+     2022/04/26
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+0d3dc2621 Add ability to enable scudo-free 32-bit libc variant.
+43eca6fed paths: enable curl for kernel wireguard
+b95291e90 Prepend header jar for sharded javac compilation
+8cb5a9333 soong: increase heap size for metalava
+799862b61 Disable compound-token-split-by-macro warning
+f241f87cb soong: whitelist ld.lld and llvm-ar
+92d8e691f Disable clang-tidy
+f081c110c PATH tools: allow python 3.10
+bc2389b4e kryo385: add the missing nodotprod and use a55 for all
+b942cad15 Add Init_rc to Product_variables.Eng
+3c7b5b427 Add exported-to-kati namespaces to root namespace
+9dfdec712 soong: Whitelist squash
+715779833 Revert "Remove TEMPORARY_DISABLE_PATH_RESTRICTIONS"
+4d644ff6c Remove workaround for Qualcomm Kryo 385
+49578471f soong: Allow Flex, Bison and M4 to be used
+de18458b7 sandbox_linux: set CCACHE_DIR as a writable path
+7d134fa93 soong: Allow arm-linux-androidkernel-{as,ld}
+78ea2e371 cleanbuild: Add `recovery_kernel` to installclean files
+373bfe2cd cleanbuild: Add `install` to installclean files
+cb5dfd10f cleanbuild: add *.zip.md5sum to installclean_files
+ca41ca8b3 check_boot_jars: Add IFAA Manager to whitelist
+faf1dfbe2 Add qcom.fmradio and org.codeaurora.internal to allowlist
+cacaf1c8b soong: Whitelist locale
+639f171b0 soong: Add equivalent for LOCAL_EXPORT_CFLAGS
+c8d7b090e soong: Add PathForSourceRelaxed
+ac74046de soong: Whitelist cpio for prebuilt ramdisk extraction
+580867a4a soong: Remove HOST_* vars except HOST_OS from BannerVars
+8f1f77aba soong: allow overriding header files
+5085f5499 soong: whitelist ccache
+cc6ef55c0 soong: whitelist brotli
+4ffd8253e soong: Whitelist nproc
+c9795730c soong: use absolute path for OUT_DIR
+5037241b3 soong: Add EVO_VERSION to dumpvars
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-19.1-caf-sm8250
+
+4eeaa00b0 Merge tag 'LA.UM.9.12.r1-13500.01-SMxx50.QSSI12.0' of http://source.codeaurora.org/quic/la/platform/hardware/qcom/display into HEAD
+
+
+=======================
+     2022/04/25
+=======================
+
+
+=======================
+     2022/04/24
+=======================
+
+
+=======================
+     2022/04/23
+=======================
+
+
+=======================
+     2022/04/22
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/snow
+
+5db0f847e Merge tag 'android-12.1.0_r4' of https://android.googlesource.com/platform/bionic into snow
+fa9fea5f9 Add ability to build scudo-free 32-bit libc variant.
+
+
+=======================
+     2022/04/21
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+308f9f7fb soong: Add ability to build scudo-free 32-bit libc variant.
+
+
+=======================
+     2022/04/20
+=======================
+
+
