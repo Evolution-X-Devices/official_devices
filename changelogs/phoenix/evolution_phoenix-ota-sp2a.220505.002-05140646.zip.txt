@@ -1,0 +1,112 @@
+Changelog
+===========================
+5/13
+Add more core Google apps to system app whitelist for applock
+Evolver: Allow to force black qs background in dark theme
+Evolver: Remove broken click to partial screenshot feature
+PixelPropsUtils: Use Mi 11 Ultra for Tencent Games
+Update translations
+
+5/12
+Add various system packages to indicator exemptions
+Clean up whitelisted packages in privacy indicator controller
+PixelPropsUtils: Spoof some Google apps to raven
+Settings: Check wifi direct feature for showing preferences
+Settings: Remove conflicting color modes array
+SystemUI: Fix power menu light/dark theme switching
+SystemUI: fix black qqs on keyguard in light theme
+ThemedIcons: Update and add Repainter
+frameworks: Exempt location packages from location indicators
+fs_mgr: Allow remounts with Magisk installed
+init: Skip interface duplicates if service is an override
+libsparse: Add simg2img_static target for host
+telephony: Bring back "Fix loading SIM phonebook redundantly"
+telephony: Handle that an operator numeric can be null
+
+5/10
+QSFooter: Set tuner icon to always be invisible
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+config: Copy bootanimation to system/media for pixel devices
+
+5/9
+Don't report existing menu key if it was remapped
+Evolver: hw keys: Fix custom app selection dialog
+HWKeys: Disable haptic on keyguard
+HardkeyActionHandler: Adapt to Android 11
+Navbar: Patch navigation bar to emulate hw keys
+Settings: Extended Swipe Gestures: Add show recents option
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Always refresh power menu on UI mode change
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: Remove colorSurfaceHeader dependency from framework
+fixup! Hardware key: Customization support
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+vendor: Add back livedisplay permissions
+vendor: Don't enforce inclusion of common compatibility matrix
+
+5/8
+Add Google Search and Google Location History to location indicator whitelist
+PixelPropsUtils: Refactor & clean up
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Telecomm: Provide required permissions for Telephony
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+libsysutils: Hide NetlinkListener error in recovery
+prebuilt: apns-conf: Checkout to LOS
+
+5/7
+config: Allow Fullscreen Gesture overlay on phones only
+
+5/6
+Provide required permissions for cellbroadcastreceiver
+RIL: Fix manual network selection with old modem
+SystemUI: Strict lock screen rotation
+
+5/5
+Battery: Color coded battery indication for Landscape icons
+Properly update view for reTicker
+base: fix deadlock between activity manager and power manager
+
+5/4
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+Display actual charge tech in battery settings
+Evolver: Battery Styles: Introduce Battery Landscape
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Move high touch sensitivity and hovering to InputService
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+Settings: Display: Add High Touch Polling Rate Support
+SystemUI: Only apply tuning changes when the fragment is attached
+fwb: Import SwipeToScreenshot implementation from MIUI
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+
+5/3
+Add Phone Services to location indicator whitelist
+Merge May 2022 security patches
+PixelPropsUtils: Refactor implementation
+PixelPropsUtils: Update fingerprints to May 2022 release
+add com.android.bluetooth to indicator exemptions
+add com.android.phone to indicator exemptions
+base: Change default udfps vendor code to 22
+overlay: core: Suppress System UI ANRs
+
+5/2
+Add Mediatek IMS to location indicator whitelist
+SystemUI: Let screenshot window ignore screen decorations
+fixup! Camera: Skip stream size check for whitelisted apps
+
+5/1
+Evolver: Color coded battery indication
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+base: Battery style improvements
+development: disable DSULoader
+
+4/30
+Settings: Remove string array resource sim_color_light in translations
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
