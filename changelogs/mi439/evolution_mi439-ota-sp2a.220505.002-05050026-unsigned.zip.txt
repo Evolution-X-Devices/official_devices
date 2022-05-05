@@ -1,0 +1,34 @@
+This build you're receiving is evolution_mi439-ota-sp2a.220505.002-05050026-unsigned.zip with May 2022 security patches
+
+Notes:
+- Rom is encrypted by default
+- You can dirty flash from previous build
+- Added Graphene cam as prebuilt 
+- Added FMRadio too
+
+Device changes:
+==============================
+- minor fixes and improvements
+
+==============================
+ROM changes
+==============================
+Add Phone Services to location indicator whitelist
+Evolver: Color coded battery indication
+Merge May 2022 security patches
+PixelPropsUtils: Refactor implementation
+PixelPropsUtils: Update fingerprints to May 2022 release
+Settings: Remove string array resource sim_color_light in translations
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+SystemUI: Let screenshot window ignore screen decorations
+add com.android.bluetooth to indicator exemptions
+add com.android.phone to indicator exemptions
+base: Battery style improvements
+development: disable DSULoader
+fixup! Camera: Skip stream size check for whitelisted apps
+overlay: core: Suppress System UI ANRs
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0 
