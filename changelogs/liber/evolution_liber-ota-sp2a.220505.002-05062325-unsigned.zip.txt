@@ -1,0 +1,22 @@
+This is Android 12.1 with May 2022 security patches
+This is an Initial Build
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+Added QuickTap
+------------------------------
+ROM changes:
+==============================
+Battery: Color coded battery indication for Landscape icons
+Evolver: Bring back Landscape battery styles
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Properly update view for reTicker
+SystemUI: Only apply tuning changes when the fragment is attached
+fwb: Import SwipeToScreenshot implementation from MIUI
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
