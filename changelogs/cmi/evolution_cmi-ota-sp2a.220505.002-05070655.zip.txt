@@ -1,0 +1,106 @@
+  
+2022-05-07
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.3.0
+
+DEVICE:
+
+  * sm8250-common: config displayModeMappings
+  * sm8250-common: Implement vendor.lineage.powershare@1.0 HAL
+  * sm8250-common: parts: Add DC-Dimming QS tile
+  * Revert "sm8250-common: parts: Implement HBM switch"
+  * Revert "sm8250-common: parts:  Add HBM qs tile"
+  * sm8250-common: Implement SunlightEnhancement LiveDisplay HAL
+
+KERNEL:
+
+  * techpack: display: add a correction to dimlayer interpolation
+  * techpack: display: temporary disable DC dimming when in fod_hbm mode
+  * techpack: display: temporary disable DC dimming when in hbm mode
+  * techpack: display: adapt exposure adjustment methods to sm8250
+  * techpack: display: Let exposure adjustment switchable via sysfs
+  * techpack: display: Introduce exposure adjustment driver
+  * defconfig: regen
+  * drivers: xiaomi_touch: add a sysfs node to bump touch sample rate
+  * Merge tag 'LA.UM.9.12.1.r1-01300-SMxx50.QSSI12.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into LA.UM.9.12.1.r1-XXXX-SMxx50.QSSI12.0
+  * Merge tag 'LA.UM.9.12.1.r1-01300-SMxx50.QSSI12.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into LA.UM.9.12.1.r1-XXXX-SMxx50.QSSI12.0
+  * Merge tag 'LA.UM.9.12.1.r1-01300-SMxx50.QSSI12.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into LA.UM.9.12.1.r1-XXXX-SMxx50.QSSI12.0
+  * Merge tag 'LA.UM.9.12.1.r1-01300-SMxx50.QSSI12.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into LA.UM.9.12.1.r1-XXXX-SMxx50.QSSI12.0
+
+ROM:
+
+
+5/7
+
+config: Allow Fullscreen Gesture overlay on phones only
+
+
+5/6
+
+Evolver: Add "Enable taskbar" toggle
+
+Provide required permissions for cellbroadcastreceiver
+
+RIL: Fix manual network selection with old modem
+
+Settings: Hide settings that don't work when taskbar is enabled
+
+SystemUI: Strict lock screen rotation
+
+config: Switch to PixelLauncherIconsOverlay
+
+
+5/5
+
+Battery: Color coded battery indication for Landscape icons
+
+Properly update view for reTicker
+
+base: fix deadlock between activity manager and power manager
+
+
+5/4
+
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+
+Display actual charge tech in battery settings
+
+Evolver: Battery Styles: Introduce Battery Landscape
+
+Increase Zygote command buffer size to 32k
+
+Introduce LiveDisplay from Lineage
+
+Move high touch sensitivity and hovering to InputService
+
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+
+Settings: Display: Add High Touch Polling Rate Support
+
+SystemUI: Only apply tuning changes when the fragment is attached
+
+fwb: Import SwipeToScreenshot implementation from MIUI
+
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+
+
+5/3
+
+Add Phone Services to location indicator whitelist
+
+Merge May 2022 security patches
+
+PixelPropsUtils: Refactor implementation
+
+PixelPropsUtils: Update fingerprints to May 2022 release
+
+add com.android.bluetooth to indicator exemptions
+
+add com.android.phone to indicator exemptions
+
+base: Change default udfps vendor code to 22
+
+overlay: core: Suppress System UI ANRs
