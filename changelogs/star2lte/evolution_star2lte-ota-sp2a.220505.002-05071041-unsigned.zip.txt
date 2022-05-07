@@ -1,0 +1,62 @@
+2022-05-07
+
+NOTE: To use this build, clean flash is compulsory.
+
+DEVICE:
+- Switched to new OSS base, clean and adapted from LineageOS OSS trees.
+- Adapted Exynos LiveDisplay from LineageOS hardware_samsung.
+- Improved Dolby Atmos.
+- Uprev audio HAL to V7.
+- Fixed bluetooth calls properly.
+- Added stock APN config for better LTE experience.
+- Crownlte: Fixed Note9 S-Pen detecting wrong X-Y axis on landscape mode.
+
+KERNEL:
+- Upstreamed kernel to 4.9.312
+
+ROM:
+5/7
+
+config: Allow Fullscreen Gesture overlay on phones only
+
+5/6
+
+Evolver: Add "Enable taskbar" toggle
+Provide required permissions for cellbroadcastreceiver
+RIL: Fix manual network selection with old modem
+Settings: Hide settings that don't work when taskbar is enabled
+SystemUI: Strict lock screen rotation
+config: Switch to PixelLauncherIconsOverlay
+
+
+5/5
+
+Battery: Color coded battery indication for Landscape icons
+Properly update view for reTicker
+base: fix deadlock between activity manager and power manager
+
+
+5/4
+
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+Display actual charge tech in battery settings
+Evolver: Battery Styles: Introduce Battery Landscape
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Move high touch sensitivity and hovering to InputService
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+Settings: Display: Add High Touch Polling Rate Support
+SystemUI: Only apply tuning changes when the fragment is attached
+fwb: Import SwipeToScreenshot implementation from MIUI
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+
+5/3
+
+Add Phone Services to location indicator whitelist
+Merge May 2022 security patches
+PixelPropsUtils: Refactor implementation
+PixelPropsUtils: Update fingerprints to May 2022 release
+add com.android.bluetooth to indicator exemptions
+add com.android.phone to indicator exemptions
+base: Change default udfps vendor code to 22
+overlay: core: Suppress System UI ANRs
