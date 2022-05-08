@@ -1,0 +1,144 @@
+Highlights:
+- May security patch
+- Implemented Pixel Thermal HAL
+- USB settings fixed
+- Minor battery improvements
+- Minor GPS improvements
+
+ROM changes:
+==============================
+5/8
+Add Google Search and Google Location History to location indicator whitelist
+PixelPropsUtils: Refactor & clean up
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Telecomm: Provide required permissions for Telephony
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+libsysutils: Hide NetlinkListener error in recovery
+prebuilt: apns-conf: Checkout to LOS
+
+5/7
+config: Allow Fullscreen Gesture overlay on phones only
+
+5/6
+Evolver: Add "Enable taskbar" toggle
+Provide required permissions for cellbroadcastreceiver
+RIL: Fix manual network selection with old modem
+Settings: Hide settings that don't work when taskbar is enabled
+SystemUI: Strict lock screen rotation
+
+5/5
+Battery: Color coded battery indication for Landscape icons
+Properly update view for reTicker
+base: fix deadlock between activity manager and power manager
+
+5/4
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+Display actual charge tech in battery settings
+Evolver: Battery Styles: Introduce Battery Landscape
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Move high touch sensitivity and hovering to InputService
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+Settings: Display: Add High Touch Polling Rate Support
+SystemUI: Only apply tuning changes when the fragment is attached
+fwb: Import SwipeToScreenshot implementation from MIUI
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+
+5/3
+Add Phone Services to location indicator whitelist
+Merge May 2022 security patches
+PixelPropsUtils: Refactor implementation
+PixelPropsUtils: Update fingerprints to May 2022 release
+add com.android.bluetooth to indicator exemptions
+add com.android.phone to indicator exemptions
+base: Change default udfps vendor code to 22
+overlay: core: Suppress System UI ANRs
+
+5/2
+Add Mediatek IMS to location indicator whitelist
+SystemUI: Let screenshot window ignore screen decorations
+fixup! Camera: Skip stream size check for whitelisted apps
+
+5/1
+Evolver: Color coded battery indication
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+base: Battery style improvements
+development: disable DSULoader
+
+4/30
+Settings: Remove string array resource sim_color_light in translations
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
+
+4/29
+PMS and WMS deadlock when uninstalling APP
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+Settings: Add hotspot setting to allow VPN upstreams
+SystemUI: fix MediaProjection cast crash
+UdfpsController: Fix position if cutout is hidden
+audio: Verify that hal implements get_audio_port before calling
+base: add zen mode off hook to prevent problems with ringer mode
+device_config: Save discrete app op history for more permissions
+
+4/28
+SystemUI: Allow max system icons overlay
+UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+linker: Add support for opening zip files by fd paths
+
+4/26
+Settings: Update package details to match S style
+
+4/25
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
+
+4/23
+Evolver: Add application downgrade feature
+Evolver: Add window ignore secure feature
+Re-implement optional haptic feedback on back gesture
+Settings: Add Battery Capacity info and make resources overlayable
+nativedisplay: fix the flicker issue in streaming video
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+
+4/22
+Add keylayout mapping for Xbox360 compatible controllers
+Evolver: Bring back Status bar brightness control
+Grant NETWORK_STACK permissions for Dialer
+SystemUI: Fix alarm icon
+SystemUI: Whitelist PREVENT_POWER_KEY permission
+Update translations
+make DownloadManager.query() a no-op when INTERNET permission is revoked
+version: Uprev to 6.3 (codename Snow-v2)
+
+4/18
+Allow provisioning package to retrieve subGrp, clear its own config
+Evolver: Allow hiding system apps that appear in launcher
+Evolver: Hidden apps toggle does not require launcher restart anymore
+Settings: Add TalkBack accessibility service
+Settings: Add toggle to switch between AOSP/Google battery graphs
+Settings: Align user avatar with homepage title
+Settings: Remove empty Security status header
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+Treat default value that wasn't found as empty value
+fixup! Evolver: applock: intercept activity in a better way
+fuelgauge: Update clean up for estimate
+fuelgauge: Use Enhanced Battery Prediction from Turbo
+
+4/17
+Evolver: Introduce OOS style notification clear all button
+Settings: Disable tips and support
+
+4/16
+DeviceGroup: Check RSI data with filtered scan results
+DisplayPowerController: Don't apply brightness adjustment if NaN
+HeadsUp: Move timeout option to SettingsObserver instead
+Move PackageManager new user logic after dispatching
+Settingslib: Remove a reflect method that can never succeed
+SystemUI: Fix pulseOut fails before fully pulsing
+udfps: Disable Night Light when showUdfpsOverlay
+
+4/15
+Do not lock when biometric lock status is cleared
+Evolver: Bring back HeadsUp blocklist/stoplist/snooze/timeout
