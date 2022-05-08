@@ -1,0 +1,14 @@
+**Device Changes:**
+- Etude kernel: Op.12 No.3
+  * Linux 4.9.312
+  * enabled ARMv8.1-a LSE atomics
+  * fixed and optimized spectre-v2 mitigation enable logic
+- Fixed the battery info in Settings/Battery
+- Brought back LiveDisplay
+- Brought WfdCommon and IFAA back in tree and enabled generic mouse input for Qualcomm's WiFi Display
+
+**Evolution X Update**
+- May security patch
+- Color-coded battery icon
+- WiFi AP related customizations, like hidden SSID support, AP band preference, and client manager
+- Misc fixes
