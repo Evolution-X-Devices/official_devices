@@ -1,0 +1,616 @@
+If you`re comming from A11 do an clean install
+flash from previour build A12 or A12.1 are fine
+no flash firmware. all included.
+
+Chagelog of Device (Dipper)
+Update fingerprint hal to 2.3
+Fixed minnor errors
+Add livedisplay support
+Kernle Etude Op.12 No.3
+Linux 4.9.312
+
+Changelog ROM
+Update to May Security Patch
+Back to white qs
+A lot of corrections
+
+=======================
+     2022/05/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+3724f65abb58 SystemUI: Add HBM provider for UDFPS on Pixel devices
+167cd67cb249 SystemUI: Import Pixel display interfaces (1/2)
+5b26cee5c7ac systemui: Don't allow the end user to disable SystemUI Tuner
+c6037c816f5b QSFooter: Set tuner icon to always be invisible
+82b46d93d842 SystemUI: Reduce scrim color animation duration to 375 ms
+5f2b50c8e050 SystemUI: Remove colorSurfaceHeader dependency from framework
+9d7606ab23c4 SystemUI: Add dual-tone light and dark themes for QS
+e73ddaf22d52 SystemUI: Initialize QS tiles in inactive state
+a61e5eddc26b SystemUI: Follow light/dark theme in quick settings
+ac9154d05bd0 Revert "Do not re-inflate QS and SB when CONFIG_UI_MODE"
+88d6a5170735 Revert "Make QS always use dark theme colors"
+d8175bf62cc4 SystemUI: Always refresh power menu on UI mode change
+08ed6584cd1f Add show recents option [1/2]
+9533085e7dd7 fixup! Hardware key: Customization support
+591c857d15b6 Navbar: Patch navigation bar to emulate hw keys
+f60a1018316e HardkeyActionHandler: Adapt to Android 11
+4a205153ce6e HWKeys: Disable haptic on keyguard
+9c70735561c2 Don't report existing menu key if it was remapped. [2/3]
+506e1acdff9e Revert "Remove bool dependency for XXX charging."
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+1557dc7 manifest: Track our own fork of vendor/pixel-framework
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+d42e0c9 Evolver: hw keys: Fix custom app selection dialog
+427d15e Evolver: Fix hw keys
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+cdac358221 Add show recents option [2/2]
+28f7fad3cf [SQUASH] Revert multiple commits
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+8cb2189a config: Copy bootanimation to system/media for pixel devices
+9c7a9e58 overlay: SystemUI: Use default surface colors for power menu buttons
+6127d990 overlay: SystemUI: Follow light/dark theme in power menu
+2049965b overlay: core: Add chroma to light surface highlight color
+e1f9da23 vendor: Don't enforce inclusion of common compatibility matrix
+a15c8d44 vendor: Add back livedisplay permissions
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/snow
+
+427c02d remove hardware/google/pixel/display Class
+
+
+=======================
+     2022/05/08
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+e9675892e729 PixelPropsUtils: Refactor & clean up (Part 2)
+f61f54e64740 Add Google Search and Google Location History to location indicator whitelist
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+b9bd0a8a config: Add TARGET_USES_MINI_GAPPS flag for low-end devices
+5e08a734 ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+1dbb8ed7 prebuilt: apns-conf: Checkout to LOS
+d94f8c6e [SQUASH] Revert multiple commits
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+52b7295 gms: Add gms_mini for low-end devices
+
+
+=======================
+     2022/05/07
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+f313cc0c recovery: Remove more user / userdebug checks
+500b6495 recovery: Allow invalid signature and downgrade on user build
+1ef4188d recovery: Update to Evolution X logos
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+d77d4c178c64 fwb: Add toggle for screenshot timestamp EXIF metadata [1/2]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+f55c901 manifest: Track recovery-related forks from LOS
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+123c94c3d0 Settings: Add toggle for screenshot timestamp EXIF metadata [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+ed2b4d16a Telecomm: Provide required permissions for Telephony
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+cdc88d45b libsysutils: Hide NetlinkListener error in recovery
+
+
+=======================
+     2022/05/06
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+0ff85f13 UI changes for PixelExperience
+58429234 Initial rebrand
+05993e6d recovery: Disable downgrade check
+28f55a54 install: Use ro.system_ext.build.fingerprint for incremental
+11b3b89e install: Use ro.product.build.fingerprint for incremental
+02c2f9db recovery: Use ro.build.product to detect the device codename
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+43a403cd9e8b core: Add ENABLE_TASKBAR setting
+d12627afd465 SystemUI: Add API for runtime taskbar config
+817c5bd5e393 SystemUI: Strict lockscreen rotation
+289f1a2a8c24 frameworks/base: Provide required permissions for cellbroadcastreceiver
+e77d45685050 build: Don't check for fingerprint mismatch
+bd8292305388 base: fix deadlock between activity manager and power manager
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+5926f160d2 RIL: Fix manual network selection with old modem
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+e5c3c7d Evolver: Add "Enable taskbar" toggle
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+b8a635e63e Settings: Hide settings that don't work when taskbar is enabled
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+68c7312eb reboot: allow opting-in to fastbootd
+97cb5ac5a core: mark libsysutils and libdiskconfig recovery_available
+54d68be9a fs_mgr: mount: don't set the block device as ro for recovery
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/snow
+
+64df9868d sepolicy: Allow recovery to alter /
+f2168793d sepolicy: whitelist recovery from node creation neverallow
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/snow
+
+68cf5a6d update_engine: Run backuptool only in debuggable builds
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+f9b85892 config: Allow Fullscreen Gesture overlay on phones only
+
+
+=======================
+     2022/05/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+e4c0bf415032 Properly update view for reTicker
+4cc7b32c00dc [RE-PICK] Feature: reticker [1/2]
+34071bb786ff media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+d6dfb566531f Increase Zygote command buffer size to 32k.
+39abac7700d9 Added changes to avoid Null Pointer Exception
+d1ab7d524b97 Display Turbo charging in battery settings [1/2]
+f0618a6c1874 Display actual charge tech in battery settings [1/2]
+ba41b37b9336 BatteryService: Add support for oem fast charger detection
+dbb1264c2274 BatteryService: add Turbo power charging support
+be96f6f6e19b BatteryService: Add VOOC charging support
+801f8e522d2f BatteryService: Add Warp charging support
+f8e7551de534 BatteryService: add dash charging support
+5601d4301c67 fwb: Import SwipeToScreenshot implementation from MIUI
+8e49b3262ce8 SystemUI: Add anti flicker tile
+aad5978f0206 Introduce anti flicker mode in LiveDisplay
+a549214aeb42 SystemUI: Add reading mode tile
+c91ae114124d SystemUI: Add LiveDisplay tile
+78141c362a18 Introduce LiveDisplay from Lineage
+843c74e03e56 Introduce high touch polling rate feature control
+3dce7a74ff8a LineageHardwareManager: Introduce keys swap feature support
+9bcb999fd724 Move high touch sensitivity and hovering to InputService
+239974c3bacf [RE-PICK] base: Add Touch HIDL support
+2f446f61782a SystemUI: Only apply tuning changes when the fragment is attached
+1867e0e7fc33 base: Change default udfps vendor code to 22
+4b49248b06f2 add com.android.phone to indicator exemptions
+be280bb0c76f add com.android.bluetooth to indicator exemptions
+bb937f4ae8dd PixelPropsUtils: Refactor implementation
+82c20488a223 udfps: Implement framework dimming support
+eade6dec3c6e fw/b: Add capability to allow tethering to use VPN upstreams [1/3]
+6e17e3f6c9fe base: add zen mode off hook to prevent problems with ringer mode
+aff76008f607 base: Add support for window ignore secure [1/2]
+69c49c728648 base: Add support for application downgrade [1/2]
+978f815e1029 UdfpsController: Fix position if cutout is hidden
+5e86444cd934 Optional haptic feedback on back gesture [1/2]
+de7a1006410e SystemUI: fix MediaProjection cast crash
+5f56c7c48919 SystemUI: Let screenshot window ignore screen decorations
+8448cacfb933 SystemUI: Allow overlaying max system icons
+3a96d235af9a SystemUI: Add back charging ripple [2]
+04ecb2856874 SystemUI: Add back charging ripple
+509582222e10 Battery bolt: Preserve unicode bolt color
+e0103eb2611f Battery: Color coded battery indication [1/2]
+2aaebf23c747 Battery Styles: Introduce Battery Landscape [1/2]
+
+* Repository: https://github.com/LineageOS/android_hardware_xiaomi/commits/refs/heads/lineage-19.1
+
+3b1a4a6 IFAAService: Move from FOD to UDFPS naming convention
+aaa03ac interfaces: mtdservice: Initial dump
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+c46cc33 Evolver: Color coded battery indication [2/2]
+e92012c Evolver: Cleanup for 12.1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+98176df UpdateInstaller: Set file permissions on uncrypt ota package
+
+
+=======================
+     2022/05/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+88e9c3f7a Replace qti_kernel_headers with generated_kernel_headers
+621141ec0 Replace device_kernel_headers with generated_kernel_headers
+17013d8a1 soong: allow overriding header files
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+172e2ee1fe Bug fix for libmediautils_fuzzer_scheduling_policy_service
+a725dbae9b Codec2: queue a empty work to HAL to wake up allocation thread
+8601792f10 Camera: Update crop info in onHeicFormatChanged
+afc79eb52d Codec2Client: add nullptr check before accessing Configurable name
+11a31c8504 mediaresourcemanager_fuzzer: Bug Fix
+cade8d394e CCodec: query color transfer request only when configured
+e460d04408 codec2 hidl plugin: fix FilterWrapper param issues
+39be7d6e30 codec2: move static libcodec2_vndk dependencies into a default
+9c0bdc4740 Codec2: Support locking vendor formats with gralloc4
+9594089a00 stagefright: add new Dolby Vision Levels
+e3eebeddf7 stagefright/extrators: Dolby Vision mp4 extractor update
+ef43249d6b Codec2: optimize plane copy for formats with depth > 8
+10b3a8694d Remove volume_group conversions from PolicyAidlConversion
+be685f1e5c stagefright: remove OMX dependency from Utils.cpp
+8ab1b89657 stagefright: MPEG4Writer: add support for Dolby Vision
+e328f7aa80 codec2: query supported pixel formats from Codec2InfoBuilder
+2ec936901d ColorConverter: convert P010 to RGBA_1010102
+34dbcc0b96 FrameDecoder:Add format details for RGBA1010102
+4951b13539 codec2: Add flexible 10-bit YUV support
+0d79ea0a1b MediaCodec: Add HDR metrics.
+132bfa6883 Fix mediaserver crash issue
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+987702cd7c25 Battery Style Improvements
+0249c390ce02 Add Mediatek IMS to location indicator whitelist
+f43969ef2839 Add Phone Services to location indicator whitelist
+c7d52c4ef15f SystemUI: Whitelist PREVENT_POWER_KEY permission
+93c66e44c93f PMS and WMS deadlock when uninstalling APP
+a594577e8781 Make smart idle maint's period changable
+0956e7633143 Dark Theme "TURN ON UNTIL SUNRISE" is not retained after reboot
+7503c95b8aad BatteryStatsService: Fix wrong arguments passed to noteBluetoothScanStoppedFromSourceLocked.
+c911a9ebdb5c PixelPropsUtils: Update fingerprints to May 2022 release
+fc064f165e3a Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/frameworks/base into snow
+115e70349e90 [SQUASH] Revert some commits
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/snow
+
+8d7dc69 Add null check for mProvider
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+26cf39ab9d nativedisplay: fix the flicker issue in streaming video
+3a5e6ccd8a installd: Skip profile preparation if primary.prof does not exist
+34d26616b5 SF: make RefreshRateOverlay a trusted overlay
+f85fa028f2 swapchain: Fix MAILBOX and SHARED presentation modes
+0270628e75 Inline GetPhysicalDeviceProperties2 into QueryPresentationProperties
+290adbf8e5 libbinder: do not always compute open ashmem size
+8807bc8791 Fully delete duplicate entries inside LatencyTracker
+aba1d8595c libgui: reset buffer count to max slots instead of returning BAD_VALUE.
+659c20a35a REThreaded: convert gen- and delete-Textures to no-ops
+a4f92cbd1f GLConsumer: add HW_TEXTURE usage when create texture
+92b453a5bb SF: adjust kNonExactMatchingPenalty
+0b156d110f SF: give a higher score to frame rates which exact matches
+45db956e86 Tune RefreshRateConfigs for fractional refresh rates
+6e17107f20 Fix error for compiler update
+acde47cdc2 Fix batterystats update on sensor connection cleanup
+5cc5864645 Vulkan: Work-around Android start-up race condition
+bc20ea904b Migrate mount/umount operations to a dedicated mMountsLock.
+a63fcf243e Remove unnecessary locks.
+
+* Repository: https://github.com/LineageOS/android_hardware_xiaomi/commits/refs/heads/lineage-19.1
+
+8d12cc2 IFAAService: Mark processCmd param as inout
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+48b3a86 manifest: Track device/qcom/common from PE-devices
+ff361f9 manifest: Switch to LOS fork of sm8350 HALs
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+1bb85a9 New Crowdin updates (#194)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+1bc4ec3ae5 Settings: Display 'Turbo charging' for Turbo charge in battery settings [2/2]
+ff5c05ea1d Settings: Display 'VOOC charging' for vooc charge in battery settings [2/2]
+729b0b781d Settings: Display 'Warp charging' for warp charge in battery settings [2/2]
+4f775f6b18 Settings: Display 'Dash charging' for dash charge in battery settings [2/2]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+e212c196 tasks: Add changelog generation target
+cdadd5c6 tasks: Add stable OTA target
+
+
+=======================
+     2022/05/03
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+5bd1353 sepolicy: label IHighTouchPollingRate touch service
+0b71cbb Revert "sepolicy: Deprecate LiveDisplay"
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/snow
+
+6530b8f Introduce IHighTouchPollingRate
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+277953f manifest: Track hardware_lineage_livedisplay from PE
+325118e manifest: Switch LOS fork of hardware/xiaomi
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+792b9eebfc fixup! Settings: Add three-fingers-swipe to screenshot [2/2]
+97dd9a24c7 Settings: Changes for LiveDisplay
+04eb3967b1 Settings: Display: Add High Touch Polling Rate Support
+d12e521039 Settings: Add high touch sensitivity and touchscreen hovering toggles
+7cc79d12ff Revert "Set Cell Broadcast Receiver package to "com.google.android.cellbroadcastreceiver"."
+55be488abf Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/apps/Settings into snow
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/snow
+
+604f49126 Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/system/sepolicy into snow
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+073cbabc vendor: framework_manifest: declare support for IHighTouchPollingRate
+fa095791 config: device_framework_matrix: Remove inscreen and power HAL entries
+c83fea14 vendor: Add framework compatibility matrix for Lineage HALs.
+3b52c044 version: Uprev to 6.3.1
+68f12c4a overlay: core: Suppress System UI ANRs
+da533024 rro_overlays: Google Make Apex-related overlays rely on TARGET_SHIP_PREBUILT_APEX
+
+
+=======================
+     2022/05/02
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+ed6ddc48 fixup! volume_manager: Move bind/mount failure from ERROR to WARNING
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+103825011 Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+677c257 Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/manifest into snow
+2bc59ba Manifest for Android 12.1.0 Release 5 (SP2A.220505.002)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+302f7d9fe4 New Crowdin updates (#94)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+e2fd88dfb Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/services/Telecomm into snow
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+67f624a55 Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/system/bt into snow
+
+
+=======================
+     2022/05/01
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/snow
+
+cfa690a8 Allow hal_sensors read sensors_dbg_prop
+de5832ab sepolicy_vndr: legacy: Label QTI USB HAL
+9ac38ad0 sepolicy_vndr: qva: Update QTI USB HAL to v1.3
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+90b5b5b112aa New Crowdin updates (#281)
+
+* Repository: https://github.com/LineageOS/android_hardware_xiaomi/commits/refs/heads/lineage-19.1
+
+5eb7d26 IFAAService: Initial implementation
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+b611a26 manifest: Track multiple forks
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+dd0931e Evolver: Add window ignore secure feature [2/2]
+0059fb6 Evolver: Add application downgrade feature [2/2]
+5c151fe New Crowdin updates (#192 & #193)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+402d41c2b8 SoftAp: add client manager
+6a6ed615bc SoftAp: add support for setting shutdown timeout
+f9b166c209 Settings: add TextView for summary into SeekBarDialogPreference
+b75125d086 SoftAp: add back AP Band preference into tether settings
+4519b71147 SoftAp: add more bands to band preference
+a3feb89c11 SoftAp: add Hidden SSID preference
+a4c4de727d development: disable DSULoader
+2bea0e1fff Settings: Move blur toggle to Display options.
+f17cf1af3e Settings: Remove string array resource sim_color_light in translations
+54a50aca4b Settings: Add AdGuard DNS as a private DNS Provider
+ca225fe4b6 Settings: Add Cloudflare DNS as a private DNS provider
+1a841f2403 Settings: Add hotspot setting to allow VPN upstreams [3/3]
+9c4ab31e1e Settings: Restyle that horrible sim select dialog
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/snow
+
+5095b8468 DnsUtils: Use Cloudflare DNS instead of Google DNS
+3d429bbd5 NetworkDiagnostics: Use Cloudflare DNS instead of Google DNS
+a9c5a2954 Tethering: Use Cloudflare DNS instead of Google DNS
+4a535b6bc Add AdGuard DNS as a private DNS provider
+712727bb1 Add Cloudflare DNS as a private DNS provider
+36d2e1da0 setUidsAllowedOnRestrictedNetworks: Modify UID enforcement to check app id
+5d6768b2b Remove DUN requirement for tethering
+5198c5fb7 Connectivity: Add capability to allow tethering to use VPN upstreams [2/3]
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+7a8c188 vold: do not set gc sleep time with zero dirty segments
+a2ec29a vold: remove overprovision area from free segments
+90cc9bd vold: add gc period in setGCUrgentPace
+
+
+=======================
+     2022/04/30
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-19.1
+
+43f2083 common: Add QTI embmssl to prebuilt HIDL interfaces
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+3a70624e prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
+
+
+=======================
+     2022/04/29
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/snow
+
+eec3dda20 audio: Verify that hal implements get_audio_port before calling
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+78e5e8ac device_config: Save discrete app op history for more permissions
+
+
+=======================
+     2022/04/28
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/snow
+
+c242d0d0a getaddrinfo: Use Cloudflare DNS instead of Google DNS
+3da0635d1 linker: Add support for opening zip files by fd paths
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+7a519d21a paths: Allow soong_zip to be called
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/snow
+
+ac74bd3 Cloudflare and AdGuard DNS (#1)
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+c1bdc94 manifest: Track external/exfatprogs from Proton
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/snow
+
+f46c59c30 PermissionController: Show up to 7 days of permission usage history
+d531a9df3 PermissionController: Enable usage timeline for all permission groups
+47c2414ab SystemUI: Use new privacy indicators for location
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/snow
+
+a1417c03e Wifi: Add mVerboseLoggingEnabled variable
+a702ff2a3 Wifi: Add ExternalCallbackTracker class
+92ff06bc5 WifiManager: Add StaState API
+c88e0b544 wifi: Add StaState API
+cf02e5891 Clean up the Wifi internal state when chip reconfiguration fails.
+2fb92a7d9 Wifi: Ingore miracast scan from connectivity manager
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/snow
+
+a1015539 apexd: fallback to buffered IO when filesystem doesn't support DIO
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+d00337e Add interfaces required by smart idle maintenance service
+e7a84d0 vold: add support for Linux Native MBR partition types
+512ed7f vold: Accept Linux GPT partitions on external SD cards
+f009aa7 vold: Build exfatprogs & declare support of exFAT.
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+fbc0ba50 vendor: Transform apex overlays into RRO overlays
+
+
+=======================
+     2022/04/27
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+8066954 manifest: Track hardware/qcom-caf/bt from LOS 19.1-caf branch
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+f91258059f New Crowdin updates (#92)
+
+
+=======================
+     2022/04/26
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+0d3dc2621 Add ability to enable scudo-free 32-bit libc variant.
+43eca6fed paths: enable curl for kernel wireguard
+b95291e90 Prepend header jar for sharded javac compilation
+8cb5a9333 soong: increase heap size for metalava
+799862b61 Disable compound-token-split-by-macro warning
+f241f87cb soong: whitelist ld.lld and llvm-ar
+92d8e691f Disable clang-tidy
+f081c110c PATH tools: allow python 3.10
+bc2389b4e kryo385: add the missing nodotprod and use a55 for all
+b942cad15 Add Init_rc to Product_variables.Eng
+3c7b5b427 Add exported-to-kati namespaces to root namespace
+9dfdec712 soong: Whitelist squash
+715779833 Revert "Remove TEMPORARY_DISABLE_PATH_RESTRICTIONS"
+4d644ff6c Remove workaround for Qualcomm Kryo 385
+49578471f soong: Allow Flex, Bison and M4 to be used
+de18458b7 sandbox_linux: set CCACHE_DIR as a writable path
+7d134fa93 soong: Allow arm-linux-androidkernel-{as,ld}
+78ea2e371 cleanbuild: Add `recovery_kernel` to installclean files
+373bfe2cd cleanbuild: Add `install` to installclean files
+cb5dfd10f cleanbuild: add *.zip.md5sum to installclean_files
+ca41ca8b3 check_boot_jars: Add IFAA Manager to whitelist
+faf1dfbe2 Add qcom.fmradio and org.codeaurora.internal to allowlist
+cacaf1c8b soong: Whitelist locale
+639f171b0 soong: Add equivalent for LOCAL_EXPORT_CFLAGS
+c8d7b090e soong: Add PathForSourceRelaxed
+ac74046de soong: Whitelist cpio for prebuilt ramdisk extraction
+580867a4a soong: Remove HOST_* vars except HOST_OS from BannerVars
+8f1f77aba soong: allow overriding header files
+5085f5499 soong: whitelist ccache
+cc6ef55c0 soong: whitelist brotli
+4ffd8253e soong: Whitelist nproc
+c9795730c soong: use absolute path for OUT_DIR
+5037241b3 soong: Add EVO_VERSION to dumpvars
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-19.1-caf-sm8250
+
+4eeaa00b0 Merge tag 'LA.UM.9.12.r1-13500.01-SMxx50.QSSI12.0' of http://source.codeaurora.org/quic/la/platform/hardware/qcom/display into HEAD
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+549a82b149 Settings: Update package details to match S style
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+2a3f7b9 New Crowdin updates (#8)
+
+
