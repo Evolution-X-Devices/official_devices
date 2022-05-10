@@ -1,0 +1,9 @@
+Changelogs:
+- Update Surfaceflinger props
+- Set debug.sf.latch_unsignaled to 1
+
+
+Note :
+- Flash MIUI 13.0.5.0 Firmware 
+- Enforcing | Encrypted
+- Legion X kernel inlined
