@@ -1,0 +1,61 @@
+Device changes:
+==============================
+- Switched to Arian's common tree
+- Update GPS from LA.UM.9.1.r1-11800-SMxxx0.0
+- Fixed IR blaster
+- Fixed issues with the status bar
+- Slightly increased the status bar height (to how it was on older builds)
+- Fixed some more issues with camera
+- Fixed the fingerprint wake-up animation
+- Fixed the low-mic issues that some people had using a few apps
+- Fixed some issues with dirac
+- Removed HBM for now due to issues with brightness
+- Updated vibration patterns
+- Updated deprecated screen power items
+- Added a few missing blobs
+- Misc. fixes and changes
+
+Credit :- 
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+------------------------------
+ROM changes:
+==============================
+Add Google Search and Google Location History to location indicator whitelist
+Battery: Color coded battery indication for Landscape icons
+Don't report existing menu key if it was remapped
+Evolver: Add "Enable taskbar" toggle
+Evolver: Battery Styles: Introduce Battery Landscape
+Evolver: hw keys: Fix custom app selection dialog
+HWKeys: Disable haptic on keyguard
+HardkeyActionHandler: Adapt to Android 11
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Navbar: Patch navigation bar to emulate hw keys
+PixelPropsUtils: Refactor & clean up
+Properly update view for reTicker
+Provide required permissions for cellbroadcastreceiver
+RIL: Fix manual network selection with old modem
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Settings: Hide settings that don't work when taskbar is enabled
+Settings: Swipe gestures: Add show recents option
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Always refresh power menu on UI mode change
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: Only apply tuning changes when the fragment is attached
+SystemUI: Remove colorSurfaceHeader dependency from framework
+SystemUI: Strict lock screen rotation
+Telecomm: Provide required permissions for Telephony
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+base: fix deadlock between activity manager and power manager
+fixup! Hardware key: Customization support
+fwb: Import SwipeToScreenshot implementation from MIUI
+libsysutils: Hide NetlinkListener error in recovery
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+prebuilt: apns-conf: Checkout to LOS
+vendor: Add back livedisplay permissions
+vendor: Don't enforce inclusion of common compatibility matrix
