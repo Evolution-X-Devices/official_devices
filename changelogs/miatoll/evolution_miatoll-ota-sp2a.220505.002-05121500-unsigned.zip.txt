@@ -1,0 +1,112 @@
+This is Android 12.1 with May 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+
+Device changes:
+==============================
+import renderscript drivers from crosshatch 
+Enable usage of dex2oat64 * Use 
+prop: Enable hal buffer management 
+Disable VSync for CPU rendered apps 
+Enable Power HAL interaction boost 
+Change the weight of blkio background group 
+apply runtime blkio settings 
+audio: Increase In-call earpiece volume
+overlay: Add config_wallpaperMaxScale 
+init: Remove unused tcp property change actions 
+Enable PRODUCT_FS_COMPRESSION
+Fix fsmgr flag for F2FS Compression 
+overlays: Sync pinner config with sunfish
+Disable ART debug and optimize dexpreopt 
+Slightly increase the minimum brightness level 
+add custom msm_irqbalance.conf 
+overlay: Update SideFps overlays 
+wifi: Enable nl broadcast logging and disable packet l… 
+Modify automatic brightness 
+overlay: Enable config_forceMultiResolution 
+sepolicy: Fix OTA auto-flashing with encrypted f2fs. 
+overlay: Update config_safe_media_volume_index 
+Set media vol steps to 25 
+powerhint: Decrease launch boost to 3sec 
+powerhint: disable UFS gating work in touch and app la… 
+powerhint: Remove SchedTune boost node 
+powerhint: Boost big cluster on interaction 
+powerhint: Avoid boosting to max freq 
+powerhint: Lower schedtune boost 
+powerhint: Adapt for atoll 
+powerhint: Remove EnergyAware node 
+powerhint: Remove unused parts 
+powerhint: Remove Google-specific camera hints 
+powerhint: Don't restrict CPU idle levels 
+Import powerhint.json 
+rootdir: Add recovery partition to fstab 
+Disable remote keyguard animation until it's fixed 
+Revert "Disable remote keyguard animation until it's f… 
+wifi: Disable all logging 
+wifi: Remove TxPower2g and 5g from config file 
+vibrator: Increase default amplitude values 
+props: Enable GL comp backpressure 
+props: Enable CNE module 
+Enable asynchronous library events in WPA supplicant 
+Disable remote keyguard animation until it's fixed 
+rootdir: tune zram performance 
+Enable zram writeback 
+Remove zram cold page writeback file 
+Enable display white balance 
+props: Use HintManager for HWUI 
+rootdir: Set 50% Zram size
+Redirect keycode 96 to CAMERA 
+Implement keyhandler for fingerprint shutter 
+overlay: Ignore cne in location indicator 
+overlay: Adjust statusbar paddings 
+overlay: Set physical location of side fps 
+[SQUASH] audio: cleanup audio configs 
+Switch to Vulkan UI renderer 
+miatoll: overlay: Offload WM shell to another thread 
+Enable iorapd tracing with perfetto 
+sepolicy: Label more wakeup nodes 
+sepolicy: Address camera denials 
+Use FUSE passthrough mode by default 
+Build thermal 2.0 hal
+Drop QTI Thermal
+------------------------------
+ROM changes:
+==============================
+Add various system packages to indicator exemptions
+Clean up whitelisted packages in privacy indicator controller
+Evolver: Force black qs background in dark theme 
+Fix Google One backups
+PixelPropsUtils: Refactor & clean up
+PixelPropsUtils: Spoof some Google apps to raven
+Provide required permissions for cellbroadcastreceiver
+QSFooter: Set tuner icon to always be invisible
+RIL: Fix manual network selection with old modem
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Settings: Check wifi direct feature for showing preferences
+Settings: Extended Swipe Gestures: Add show recents option
+Settings: Remove conflicting color modes array
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Always refresh power menu on UI mode change
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+SystemUI: Fix power menu light/dark theme switching
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: Remove colorSurfaceHeader dependency from framework
+SystemUI: Strict lock screen rotation
+Telecomm: Provide required permissions for Telephony
+ThemedIcons: Update and add Repainter
+Updated translations
+frameworks: Exempt location packages from location indicators
+fs_mgr: Allow remounts with Magisk installed
+init: Skip interface duplicates if service is an override
+libsparse: Add simg2img_static target for host
+libsysutils: Hide NetlinkListener error in recovery
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+prebuilt: apns-conf: Checkout to LOS
+telephony: Bring back "Fix loading SIM phonebook redundantly"
+telephony: Handle that an operator numeric can be null
+vendor: Add back livedisplay permissions
