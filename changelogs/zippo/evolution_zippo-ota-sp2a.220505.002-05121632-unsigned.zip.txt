@@ -1,0 +1,42 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+- Added LiveDisplay
+- Switch to LiveDisplay's implementation for HBM (automatic mode included)
+- Filter and remap display modes (remove the non-working ones and rename the others to make them more user friendly)
+- Support blurs and disable them during app launch to avoid lags and glitches
+
+**Evolution X Update**
+
+Merge May 2022 security patches
+PixelPropsUtils: Update fingerprints to May 2022 release
+ThemedIcons: Update and add Repainter
+QSFooter: Set tuner icon to always be invisible
+Evolver: hw keys: Fix custom app selection dialog
+Navbar: Patch navigation bar to emulate hw keys
+Settings: Extended Swipe Gestures: Add show recents option
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Follow light/dark theme in quick settings
+overlay: SystemUI: Follow light/dark theme in power menu
+Add Google Search and Google Location History to location indicator whitelist
+Settings: Add toggle for screenshot timestamp EXIF metadata
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+RIL: Fix manual network selection with old modem
+Properly update view for reTicker
+Display actual charge tech in battery settings
+Evolver: Battery Styles: Introduce Battery Landscape
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+fwb: Import SwipeToScreenshot implementation from MIUI
+Add Phone Services to location indicator whitelist
+Evolver: Color coded battery indication
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+
