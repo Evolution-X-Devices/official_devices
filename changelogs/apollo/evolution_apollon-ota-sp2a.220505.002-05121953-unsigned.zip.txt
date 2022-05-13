@@ -1,0 +1,112 @@
+This is Android 12.1 with May 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+CLEAN FLASH IS A MUST.
+APOLLOEEAGlobal_V13.0.2.0.SJDEUXM FW IS A MUST.
+
+Device changes:
+==============================
+- Update Display Stack from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
+- Add TASchedtuneBoost support
+- Regenerated vendor to S environment
+- Imported all apollo specific vendor blobs from APOLLOEEAGlobal_V13.0.2.0.SJDEUXM
+- Imported Dirac
+- Fully rewored parts
+- Limited voltage of battery to 4.45 to prevent overvolting causes inaccurate battery capacity
+- Immensity kernel as default with ThinLTO and moar optimizations
+- Updated Audio blobs from Miui 13.0.4.0 Global Europe
+- Updated Bluetooth (A2DP) blobs from Miui 13.0.4.0 Global Europe
+- Updated Bluetooth blobs from Miui 13.0.4.0 Global Europe
+- Updated CDSP blobs from Miui 13.0.4.0 Global Europe
+- Updated Charger (Mi Turbo Charge) blobs from Miui 13.0.4.0 Global Europe
+- Updated CNE blobs from Miui 13.0.4.0 Global Europe
+- Updated Consumer IR blobs from Miui 13.0.4.0 Global Europe
+- Updated Display (SDM) blobs from Miui 13.0.4.0 Global Europe 
+- Updated DPM blobs from Miui 13.0.4.0 Global Europe
+- Updated DRM (QSEECom) blobs from Miui 13.0.4.0 Global Europe 
+- Updated DRM (Widevine) blobs from Miui 13.0.4.0 Global Europe 
+- Updated Graphics (Adreno) blobs from Miui 13.0.4.0 Global Europe 
+- Updated Graphics (Adreno firmware) blobs from Miui 13.0.4.0 Global Europe 
+- Updated Graphics (Vulkan) blobs from Miui 13.0.4.0 Global Europe 
+- Updated GNSS blobs from Miui 13.0.4.0 Global Europe
+- Updated IMS blobs from Miui 13.0.4.0 Global Europe
+- Updated IPA firmware blobs from Miui 13.0.4.0 Global Europe 
+- Updated Listen blobs from Miui 13.0.4.0 Global Europe
+- Updated Media configs blobs from Miui 13.0.4.0 Global Europe 
+- Updated Media blobs from Miui 13.0.4.0 Global Europe
+- Updated Mlipay blobs from Miui 13.0.4.0 Global Europe
+- Updated NVRAM blobs from Miui 13.0.4.0 Global Europe
+- Updated Power-off alarm blobs from Miui 13.0.4.0 Global Europe
+- Updated QMI (qti_whitelist) blob from Miui 13.0.4.0 Global Europe
+- Updated RIL blobs from Miui 13.0.4.0 Global Europe
+- Updated Thermal blobs from Miui 13.0.4.0 Global Europe
+- Updated Time services blobs from Miui 13.0.4.0 Global Europe 
+- Updated VPP blobs from Miui 13.0.4.0 Global Europe
+- Imported Configstore from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+- Imported Display blobs from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+- Imported Power-off charging daemon from Miui 13.0.4.0 Global Europe
+- Imported CACertService.apk from Miui 13.0.4.0 Global Europe
+- Build opensource Kona soundtrigger HAL
+- Move msm-irqbalance.conf to device tree
+- Move mediacodec-seccomp.policy to device tree
+- Imported Media (Codec2) blobs from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+- Imported Media (Miui Prebuilts) from Miui 13.0.4.0 Global Europe
+- Imported missing CNE blobs from Miui 13.0.4.0 Global Europe
+- Imported missing nqnfcinfo prebuilt from Miui 13.0.4.0
+- Import VulkanAPI Layers from Google Pixel 5
+- rootdir: Add missing mi_thermald definition
+- Provide android.frameworks.sensorservice@1.0 on vendor
+- Guard (remove) qti thermal 2.0 service hals
+- Import SF offsets from Coral
+- solve radio denials
+- add mlstrustedsubject attribute to parts 
+- Address denials for parts
+- Address init denial
+- Allow system_server to get app_zygote pgid 
+- allow parts to get SettingsLib prop
+- Address mi thermal denial
+- Zram denials fixup
+- ro.build.flavor is build_prop
+- Fix hardware denial
+- Don't error out when C2D conversion failed
+------------------------------
+ROM changes:
+==============================
+Add various system packages to indicator exemptions
+Clean up whitelisted packages in privacy indicator controller
+Evolver: Force black qs background in dark theme 
+Fix Google One backups
+PixelPropsUtils: Refactor & clean up
+PixelPropsUtils: Spoof some Google apps to raven
+Provide required permissions for cellbroadcastreceiver
+QSFooter: Set tuner icon to always be invisible
+RIL: Fix manual network selection with old modem
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Settings: Check wifi direct feature for showing preferences
+Settings: Extended Swipe Gestures: Add show recents option
+Settings: Remove conflicting color modes array
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Always refresh power menu on UI mode change
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+SystemUI: Fix power menu light/dark theme switching
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: Remove colorSurfaceHeader dependency from framework
+SystemUI: Strict lock screen rotation
+Telecomm: Provide required permissions for Telephony
+ThemedIcons: Update and add Repainter
+Updated translations
+frameworks: Exempt location packages from location indicators
+fs_mgr: Allow remounts with Magisk installed
+init: Skip interface duplicates if service is an override
+libsparse: Add simg2img_static target for host
+libsysutils: Hide NetlinkListener error in recovery
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+prebuilt: apns-conf: Checkout to LOS
+telephony: Bring back "Fix loading SIM phonebook redundantly"
+telephony: Handle that an operator numeric can be null
+vendor: Add back livedisplay permissions
