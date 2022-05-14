@@ -1,0 +1,140 @@
+  
+2022-05-14
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.4.0
+
+DEVICE:
+
+  * sm8250-common: Drop radio properties that are already default
+  * sm8250-common: Pick up display HAL makefiles
+  * sm8250-common: sepolicy: Label a2dp prop
+  * sm8250-common: prop: Enable blur
+  * sm8250-common: Move to common Xiaomi touch HIDL
+
+KERNEL:
+
+  * small udfps fixes
+
+ROM:
+
+5/14
+
+Settings: Remove Google Cell Broadcast Receiver package config
+
+core: Disable LiveDisplay display mode by default
+
+overlays: Acherus: Use correct path for some icons
+
+rro_overlays: Build NowPlayingOverlay for Pixels by default
+
+rro_overlays: Create ApexSettingsOverlay
+
+
+5/13
+
+Add more core Google apps to system app whitelist for applock
+
+Evolver: Allow to force black qs background in dark theme
+
+Evolver: Remove broken click to partial screenshot feature
+
+PixelPropsUtils: Use Mi 11 Ultra for Tencent Games
+
+Update translations
+
+
+5/12
+
+Add various system packages to indicator exemptions
+
+Clean up whitelisted packages in privacy indicator controller
+
+PixelPropsUtils: Spoof some Google apps to raven
+
+Settings: Check wifi direct feature for showing preferences
+
+Settings: Remove conflicting color modes array
+
+SystemUI: Fix power menu light/dark theme switching
+
+SystemUI: fix black qqs on keyguard in light theme
+
+ThemedIcons: Update and add Repainter
+
+frameworks: Exempt location packages from location indicators
+
+fs_mgr: Allow remounts with Magisk installed
+
+init: Skip interface duplicates if service is an override
+
+libsparse: Add simg2img_static target for host
+
+telephony: Bring back "Fix loading SIM phonebook redundantly"
+
+telephony: Handle that an operator numeric can be null
+
+
+5/10
+
+QSFooter: Set tuner icon to always be invisible
+
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+
+config: Copy bootanimation to system/media for pixel devices
+
+
+5/9
+
+Don't report existing menu key if it was remapped
+
+Evolver: hw keys: Fix custom app selection dialog
+
+HWKeys: Disable haptic on keyguard
+
+HardkeyActionHandler: Adapt to Android 11
+
+Navbar: Patch navigation bar to emulate hw keys
+
+Settings: Extended Swipe Gestures: Add show recents option
+
+SystemUI: Add dual-tone light and dark themes for QS
+
+SystemUI: Always refresh power menu on UI mode change
+
+SystemUI: Follow light/dark theme in quick settings
+
+SystemUI: Initialize QS tiles in inactive state
+
+SystemUI: Remove colorSurfaceHeader dependency from framework
+
+fixup! Hardware key: Customization support
+
+overlay: SystemUI: Follow light/dark theme in power menu
+
+overlay: SystemUI: Use default surface colors for power menu buttons
+
+overlay: core: Add chroma to light surface highlight color
+
+vendor: Add back livedisplay permissions
+
+vendor: Don't enforce inclusion of common compatibility matrix
+
+
+5/8
+
+Add Google Search and Google Location History to location indicator whitelist
+
+PixelPropsUtils: Refactor & clean up
+
+Settings: Add toggle for screenshot timestamp EXIF metadata
+
+Telecomm: Provide required permissions for Telephony
+
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+
+libsysutils: Hide NetlinkListener error in recovery
+
+prebuilt: apns-conf: Checkout to LOS
