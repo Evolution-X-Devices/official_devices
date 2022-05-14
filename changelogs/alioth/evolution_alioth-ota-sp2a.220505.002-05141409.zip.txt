@@ -1,0 +1,57 @@
+Device Changes:
+Full rework of device trees from scratch on top of LineageOS 19.1
+Full clean rework of vendor from scratch on top of LineageOS 19.1
+Import and fix QTI BT Stack
+Fix ScreenRecorder to be 120Hz 120FPS
+Import back updated Display stack, hardware/qcom-caf/display as usual latest LA.UM.9.12.r1-14100.01-SMxx50.QSSI13.0
+Imported back 24bit audio Enforcement for all apps
+Imported back fixes for USB Audio
+Imported back all Parts modifications:
+Remove MotoDolby in favor of Mi Sound
+SourceBuild vendor.qti.hardware.audiohalext@1.0
+Set default Settings.Global.DEVICE_NAME according to MIUI
+Configure display cutout
+Make less statusbar padding
+Declare default screen density 420 Dpi
+Update blobs from Miui Alioth 13.0.4.0 Global Europe
+Update mixer_paths from Miui 13.0.4.0 Global Europe 
+Import Enrire pack of audio configs from Miui 13.0.4.0
+Use MIUI poweroff charging animation
+Enable Miui Notch overlay
+Drop Atrace compilation 
+Fix scaling of dynamic refresh rate to be more properly
+And more...
+
+ROM Changes:
+Evolver: Allow to force black qs background in dark theme
+PixelPropsUtils: Use Mi 11 Ultra for Tencent Games
+Add various system packages to indicator exemptions
+PixelPropsUtils: Spoof some Google apps to raven
+SystemUI: Fix power menu light/dark theme switching
+ThemedIcons: Update and add Repainter
+frameworks: Exempt location packages from location indicators
+Settings: Extended Swipe Gestures: Add show recents option
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Follow light/dark theme in quick settings
+overlay: SystemUI: Follow light/dark theme in power menu
+vendor: Don't enforce inclusion of common compatibility matrix
+PixelPropsUtils: Refactor & clean up
+Settings: Add toggle for screenshot timestamp EXIF metadata
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+prebuilt: apns-conf: Checkout to LOS
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+Evolver: Battery Styles: Introduce Battery Landscape
+Introduce LiveDisplay from Lineage
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+Settings: Display: Add High Touch Polling Rate Support
+fwb: Import SwipeToScreenshot implementation from MIUI
+Merge May 2022 security patches
+PixelPropsUtils: Refactor implementation
+PixelPropsUtils: Update fingerprints to May 2022 release
+Evolver: Color coded battery indication
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+And more...
