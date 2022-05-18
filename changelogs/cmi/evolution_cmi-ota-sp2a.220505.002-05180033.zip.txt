@@ -1,0 +1,132 @@
+  
+2022-05-18
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.3.0
+
+DEVICE:
+
+  * sm8250-common: overlay: match statusbar to MIUI
+  * sm8250-common: Enforce native interfaces of product partition as VNDK
+  * sm8250-common: gps: update from UMI_V13.0.4.0.SJBCNXM
+  * sm8250-common: move gps configs to correct directory
+  * sm8250-common: sepolicy: Allow platform app to find SoterService
+  * sm8250-common: Build mtdservice interface lib from source
+  * sm8250-common: Switch to source-built mlipay interface
+
+ROM:
+
+5/18
+
+Settings: Add setup UI for minimum delay between an app's notification sounds
+
+Settings: Desktop backup password: Tint buttons to match system theme
+
+Settings: Fix Android Beam switch bar content
+
+Settings: Fix WifiSettings FC when rotating screen
+
+Settings: Improve battery stats reset strings
+
+Settings: NetworkProviderSettings: Fixup uninitialized mWifiManager
+
+Settings: Only use FP enrollment for SUW
+
+Settings: Port "Battery Usage Alerts" feature from factory images
+
+Settings: PowerUsageSummary: open advanced usage on header click
+
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+
+Settings: Use correct icon to reset battery stats
+
+Settings: Use font configs instead fonts directly
+
+core: Wipe package cache on upgrade even on user build
+
+5/17
+
+SystemUI: Export RecordingService for External Usage
+
+SystemUI: Show notification row only when unlinked from ringer volume
+
+SystemUI: TaskHelper: Adapt theme changed for 12L
+
+config: Fix backuptool path
+
+overlay: Add com.android.printspooler to indicator exemptions
+
+
+5/16/22
+
+Add "ro.hardware.egl_legacy" for ANGLE system driver
+
+BatteryService: Fix battery led not turning off when unplugged at 100%
+
+Check ACCELEROMETER_ROTATION_ANGLES for current user
+
+DSU: Only try to install on sdcard if the filesystem in use is vfat
+
+Evolver: Allow enabling compact layout of 3 button navigation bar
+
+Keystore 2.0: Add CREATION_DATETIME only for Keymint V1 and higher.
+
+NavigationBarInflaterView: fix concurrent unsafe variable leads to nohint overlay reload forever
+
+Nuke Light theme for QS panel
+
+Replace fullscreen gestures with hide gestural navigation hint bar from LOS
+
+Settings: Add Reset battery stats button
+
+Settings: Change Evolution X version preference behavior
+
+Settings: Configurable 0, 90, 180 and 270 degree rotation
+
+Settings: Relocate rotation angle settings to another fragment
+
+SystemUI: Add missing call to init isDeviceProvisioned in PhoneStatusBarPolicy
+
+SystemUI: Blurs: allow blur even when GFX acceleration is disabled
+
+SystemUI: Catch IllegalArgumentException in updateHint()
+
+SystemUI: Make isTablet() use correct API for getting window metrics
+
+SystemUI: Split status bar icon controls for vibrate and mute
+
+Update SysUI to be compatible with latest Jetpack libraries
+
+Use Unix epoch time for build number
+
+core: Disable Dalvik lock contention logging
+
+keystore: Rate limit attestation for Google Play Services
+
+use more loadDrawableAsUser in MediaDataManager
+
+version: Uprev to 6.4 (Snow-Relapse)
+
+
+5/15
+
+Call setBrightness when user stops swiping on statusbar
+
+Fix bluetooth percentage not showing on battery widget
+
+NavigationBarView: Show floating rotation if 2-button nav mode enabled
+
+PackageManagerService: Protect forced enabled components at runtime
+
+PermissionManager: fix NPE in getIndicatorExemptedPackages
+
+SystemUI: migrate status bar manual brightness to float
+
+SystemUI: unify statusbar manual & auto brightness code
+
+apn: Grameenphone uses APN 'gpinternet'
+
+fix ProcessCpuTracker.java file sLoadComparator issue
+
