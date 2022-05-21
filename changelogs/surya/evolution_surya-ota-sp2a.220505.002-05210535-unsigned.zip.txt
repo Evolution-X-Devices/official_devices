@@ -1,0 +1,187 @@
+Device Changelog
+
+-Fixed CPU Throttling in XiaomiParts Game Mode
+-Tuned Stereo sound effect
+-Checkout audio io policy from stock
+-Change VSYNC duration
+-Disable ro.surface_flinger.max_frame_buffer_acquired_buffers
+-Several performance improvements
+
+
+Source Changelog
+
+
+=======================
+     2022/05/21
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+84b11742 New Crowdin updates (#286)
+
+* Repository: https://github.com/PixelExperience/packages_apps_FaceUnlockService/commits/refs/heads/twelve
+
+93ea759 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+811063f New Crowdin updates (#1)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+366dc46 New Crowdin updates (#97)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+e91ab96 overlay: core: Add CNE indicator exemption role
+
+
+=======================
+     2022/05/20
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+e01e668 Evolver: Color coded battery indication [2/2]
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+7b17ddf gms: Fix conditionals for Pixels
+
+
+=======================
+     2022/05/19
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+c7681c5 manifest: Switch GamingMode to GameSpace
+
+
+=======================
+     2022/05/18
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+cbf0aa2 build: Add backuptool by default
+
+
+=======================
+     2022/05/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/snow
+
+7951cce Merge tag 'android-12.1.0_r5' of https://android.googlesource.com/platform/packages/providers/MediaProvider into snow
+
+
+=======================
+     2022/05/16
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+dc610b0 libstagefright: Adding NULL check for codec instance
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+dd59e60 nativedisplay: fix the flicker issue in streaming video
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/snow
+
+44fda60 Keystore 2.0: Add CREATION_DATETIME only for Keymint V1 and higher.
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+52a506b vold: do not set gc sleep time with zero dirty segments
+
+
+=======================
+     2022/05/15
+=======================
+
+
+=======================
+     2022/05/14
+=======================
+
+
+=======================
+     2022/05/13
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/snow
+
+d3153ac art: add kryo785 architecture variant.
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/snow
+
+10639f9 Dynamic handling of memcpy based on BTI support
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+a24ddd0 soong: add kryo785 architecture variant for arm64.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+5cfd22e New Crowdin updates (#41)
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/snow
+
+7248d37 New Crowdin updates (#11)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+2bab93f fs_mgr: Don't assume partitions replaced by DSU are logical already
+
+
+=======================
+     2022/05/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+172ad6a Handle that an operator numeric can be null
+
+* Repository: https://github.com/LineageOS/android_hardware_xiaomi/commits/refs/heads/lineage-19.1
+
+c6a4249 Revert "megvii: Initial stub libraries"
+
+
+=======================
+     2022/05/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-19.1
+
+9b77e83 Automatic translation import
+
+
+=======================
+     2022/05/10
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/snow
+
+427c02d remove hardware/google/pixel/display Class
+
+
+=======================
+     2022/05/09
+=======================
+
+
+=======================
+     2022/05/08
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+f313cc0 recovery: Remove more user / userdebug checks
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+ed2b4d1 Telecomm: Provide required permissions for Telephony
+
+
