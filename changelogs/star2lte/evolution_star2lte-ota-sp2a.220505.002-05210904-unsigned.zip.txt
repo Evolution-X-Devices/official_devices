@@ -1,0 +1,165 @@
+2022-05-21
+
+DEVICE:
+- Fixed bluetooth calls properly again.
+- Remove unused soundtrigger hal.
+- Dropped renderscript blobs.
+- Reduced interaction powerhint freq for lttle cluster to 832000 to save power.
+
+KERNEL:
+- Upstreamed to 4.9.315.
+- Ported R37P0 GPU Driver.
+- Added adaptive power policy (R35P0).
+- lowmemorykiller: reduce debug level.
+- Silence log spam when a CPU is brought up.
+- Silences WLAN, PCIe, and CPU suspend state kernel messages.
+- Remove PM QoS latency latest.
+- touchscreen: Require low latency.
+- Make scheduling period more efficient.
+- Start killing wakelocks after 120s of idle.
+- Purged linux on dex.
+- Allow userspace to set triple usermode.
+- Optimized Console FrameBuffer for upto 70% increase in Performance.
+- Overall Performance improved.
+
+ROM
+
+5/21
+AudioDeviceBroker: handle back to back device change requests
+Fix dialog exit animation
+GameSpace: Do not hardcode font to sans-serif
+Settings: Add back increasing ring feature
+Settings: Fix misspelling on hotspot string
+Telecomm: Fix few issues with Blink with call
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+
+5/20
+Evolver: Remove QQS brightness slider customization
+SystemUI: Remove Evolver QS Tile
+SystemUI: onLongClick Settings button for The Evolver
+TriStateUi: Adapt new status bar height api
+overlay: core: Add CNE indicator exemption role
+rro_overlays: SystemUIGoogleOverlay: Remove Evolver as default QS tile
+version: Rebrand 6.4 into Omega
+
+5/19
+DisplayPowerController: avoid updating settings when adjustment is NaN
+Evolver: Pulse: Custom gravity and Center mirrored
+Evolver: Pulse: Extend to QS Panel
+Evolver: Pulse: Vertical mirror
+Partially revert "Wake up to lock screen when bouncer is visible"
+Pulse: correctly stop it on screen OFF events
+Settings: Configurable Navbar Radius
+Switch GamingMode to GameSpace
+prebuilt: add APN for GT
+prebuilt: add APN for We4G Israel
+
+5/18
+Evolver: Remove screen off animations
+Settings: Add setup UI for minimum delay between an app's notification sounds
+Settings: Desktop backup password: Tint buttons to match system theme
+Settings: Fix Android Beam switch bar content
+Settings: Fix WifiSettings FC when rotating screen
+Settings: Improve battery stats reset strings
+Settings: Only use FP enrollment for SUW
+Settings: Port "Battery Usage Alerts" feature from factory images
+Settings: PowerUsageSummary: open advanced usage on header click
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+Settings: Use correct icon to reset battery stats
+Settings: Use font configs instead fonts directly
+core: Wipe package cache on upgrade even on user build
+
+5/17
+SystemUI: Export RecordingService for External Usage
+SystemUI: Show notification row only when unlinked from ringer volume
+SystemUI: TaskHelper: Adapt theme changed for 12L
+config: Fix backuptool path
+overlay: Add com.android.printspooler to indicator exemptions
+
+5/16/
+Add "ro.hardware.egl_legacy" for ANGLE system driver
+BatteryService: Fix battery led not turning off when unplugged at 100%
+Check ACCELEROMETER_ROTATION_ANGLES for current user
+DSU: Only try to install on sdcard if the filesystem in use is vfat
+Evolver: Allow enabling compact layout of 3 button navigation bar
+Keystore 2.0: Add CREATION_DATETIME only for Keymint V1 and higher.
+NavigationBarInflaterView: fix concurrent unsafe variable leads to nohint overlay reload forever
+Nuke Light theme for QS panel
+Replace fullscreen gestures with hide gestural navigation hint bar from LOS
+Settings: Add Reset battery stats button
+Settings: Change Evolution X version preference behavior
+Settings: Configurable 0, 90, 180 and 270 degree rotation
+Settings: Relocate rotation angle settings to another fragment
+SystemUI: Add missing call to init isDeviceProvisioned in PhoneStatusBarPolicy
+SystemUI: Blurs: allow blur even when GFX acceleration is disabled
+SystemUI: Catch IllegalArgumentException in updateHint()
+SystemUI: Make isTablet() use correct API for getting window metrics
+SystemUI: Split status bar icon controls for vibrate and mute
+Update SysUI to be compatible with latest Jetpack libraries
+Use Unix epoch time for build number
+core: Disable Dalvik lock contention logging
+keystore: Rate limit attestation for Google Play Services
+use more loadDrawableAsUser in MediaDataManager
+version: Uprev to 6.4 (Snow-Relapse)
+
+5/15
+Call setBrightness when user stops swiping on statusbar
+Fix bluetooth percentage not showing on battery widget
+NavigationBarView: Show floating rotation if 2-button nav mode enabled
+PackageManagerService: Protect forced enabled components at runtime
+PermissionManager: fix NPE in getIndicatorExemptedPackages
+SystemUI: migrate status bar manual brightness to float
+SystemUI: unify statusbar manual & auto brightness code
+apn: Grameenphone uses APN 'gpinternet'
+fix ProcessCpuTracker.java file sLoadComparator issue
+
+5/14
+Settings: Remove Google Cell Broadcast Receiver package config
+core: Disable LiveDisplay display mode by default
+overlays: Acherus: Use correct path for some icons
+rro_overlays: Build NowPlayingOverlay for Pixels by default
+rro_overlays: Create ApexSettingsOverlay
+
+5/13
+Add more core Google apps to system app whitelist for applock
+Evolver: Remove broken click to partial screenshot feature
+Update translations
+
+5/12
+Add various system packages to indicator exemptions
+Clean up whitelisted packages in privacy indicator controller
+PixelPropsUtils: Spoof some Google apps to raven
+Settings: Check wifi direct feature for showing preferences
+Settings: Remove conflicting color modes array
+ThemedIcons: Update and add Repainter
+frameworks: Exempt location packages from location indicators
+fs_mgr: Allow remounts with Magisk installed
+init: Skip interface duplicates if service is an override
+libsparse: Add simg2img_static target for host
+telephony: Bring back "Fix loading SIM phonebook redundantly"
+telephony: Handle that an operator numeric can be null
+
+5/10
+QSFooter: Set tuner icon to always be invisible
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+config: Copy bootanimation to system/media for pixel devices
+
+5/9
+Don't report existing menu key if it was remapped
+Evolver: hw keys: Fix custom app selection dialog
+HWKeys: Disable haptic on keyguard
+HardkeyActionHandler: Adapt to Android 11
+Navbar: Patch navigation bar to emulate hw keys
+Settings: Extended Swipe Gestures: Add show recents option
+fixup! Hardware key: Customization support
+vendor: Add back livedisplay permissions
+vendor: Don't enforce inclusion of common compatibility matrix
+
+5/8
+Add Google Search and Google Location History to location indicator whitelist
+PixelPropsUtils: Refactor & clean up
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Telecomm: Provide required permissions for Telephony
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+libsysutils: Hide NetlinkListener error in recovery
+prebuilt: apns-conf: Checkout to LOS
