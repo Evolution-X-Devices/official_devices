@@ -1,0 +1,64 @@
+Device changes:
+==============================
+- Updated blobs to V13.0.9.0.SKFEUXM
+- Switched to Vulkan UI renderer
+- Removed iorap due to (probably) causing some heating/drain
+- Improved RAM management
+- Addressed more denials
+- Reintroduced HBM and anti flicker mode
+- Fixed an issue where sometimes unlocking would get stuck on the lock screen clock
+- Fixed the charging issues a few people had (disconnecting)
+- Changes to power_profile.xml for better battery usage information and estimates
+- Increased ZRAM to 3GB
+- Updated kernel and compiled using the latest proton clang
+- More misc. changes and fixes
+
+Credit :- 
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+------------------------------
+ROM changes:
+==============================
+AudioDeviceBroker: handle back to back device change requests
+DisplayPowerController: avoid updating settings when adjustment is NaN
+Evolver: Nuke Network Traffic feature
+Evolver: Pulse: Custom gravity and Center mirrored
+Evolver: Pulse: Extend to QS Panel
+Evolver: Pulse: Vertical mirror
+Evolver: Remove QQS brightness slider customization
+Evolver: Remove screen off animations
+Fix dialog exit animation
+GameSpace: Do not hardcode font to sans-serif
+Partially revert "Wake up to lock screen when bouncer is visible"
+Pulse: correctly stop it on screen OFF events
+Revert NFC icons to AOSP versions
+Settings: Add back increasing ring feature
+Settings: Add setup UI for minimum delay between an app's notification sounds
+Settings: Configurable Navbar Radius
+Settings: Desktop backup password: Tint buttons to match system theme
+Settings: Fix Android Beam switch bar content
+Settings: Fix WifiSettings FC when rotating screen
+Settings: Fix misspelling on hotspot string
+Settings: Improve battery stats reset strings
+Settings: Only use FP enrollment for SUW
+Settings: Port "Battery Usage Alerts" feature from factory images
+Settings: PowerUsageSummary: open advanced usage on header click
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+Settings: Use correct icon to reset battery stats
+Settings: Use font configs instead fonts directly
+Switch GamingMode to GameSpace
+SystemUI: Export RecordingService for External Usage
+SystemUI: Remove Evolver QS Tile
+SystemUI: Show notification row only when unlinked from ringer volume
+SystemUI: TaskHelper: Adapt theme changed for 12L
+SystemUI: onLongClick Settings button for The Evolver
+Telecomm: Fix few issues with Blink with call
+TriStateUi: Adapt new status bar height api
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+core: Wipe package cache on upgrade even on user build
+overlay: Add com.android.printspooler to indicator exemptions
+overlay: core: Add CNE indicator exemption role
+prebuilt: add APN for GT
+prebuilt: add APN for We4G Israel
+rro_overlays: SystemUIGoogleOverlay: Remove Evolver as default QS tile
+version: Rebrand 6.4 into Omega
