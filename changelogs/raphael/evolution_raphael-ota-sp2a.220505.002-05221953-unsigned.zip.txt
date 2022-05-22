@@ -1,0 +1,60 @@
+This is Android 12.1 with May 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+LiveDisplay: Drop picture adjustment (not working)
+Build some NFC packages
+Switch back to Pixel Thermals
+Upstream to latest Soviet kernel
+------------------------------
+ROM changes:
+==============================
+AudioDeviceBroker: handle back to back device change requests
+DisplayPowerController: avoid updating settings when adjustment is NaN
+Evolver: Nuke Network Traffic feature
+Evolver: Pulse: Custom gravity and Center mirrored
+Evolver: Pulse: Extend to QS Panel
+Evolver: Pulse: Vertical mirror
+Evolver: Remove QQS brightness slider customization
+Evolver: Remove screen off animations
+Fix dialog exit animation
+GameSpace: Do not hardcode font to sans-serif
+Partially revert "Wake up to lock screen when bouncer is visible"
+Pulse: correctly stop it on screen OFF events
+Revert NFC icons to AOSP versions
+Settings: Add back increasing ring feature
+Settings: Add setup UI for minimum delay between an app's notification sounds
+Settings: Configurable Navbar Radius
+Settings: Desktop backup password: Tint buttons to match system theme
+Settings: Fix Android Beam switch bar content
+Settings: Fix WifiSettings FC when rotating screen
+Settings: Fix misspelling on hotspot string
+Settings: Improve battery stats reset strings
+Settings: Only use FP enrollment for SUW
+Settings: Port "Battery Usage Alerts" feature from factory images
+Settings: PowerUsageSummary: open advanced usage on header click
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+Settings: Use correct icon to reset battery stats
+Settings: Use font configs instead fonts directly
+Switch GamingMode to GameSpace
+SystemUI: Export RecordingService for External Usage
+SystemUI: Remove Evolver QS Tile
+SystemUI: Show notification row only when unlinked from ringer volume
+SystemUI: TaskHelper: Adapt theme changed for 12L
+SystemUI: onLongClick Settings button for The Evolver
+Telecomm: Fix few issues with Blink with call
+TriStateUi: Adapt new status bar height api
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+core: Wipe package cache on upgrade even on user build
+overlay: Add com.android.printspooler to indicator exemptions
+overlay: core: Add CNE indicator exemption role
+prebuilt: add APN for GT
+prebuilt: add APN for We4G Israel
+rro_overlays: SystemUIGoogleOverlay: Remove Evolver as default QS tile
+version: Rebrand 6.4 into Omega
