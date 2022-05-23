@@ -1,0 +1,114 @@
+  
+2022-05-23
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.3.0
+
+DEVICE:
+
+  * sm8250-common: livedisplay: Uprev to 2.1
+  * sm8250-common: Add interface info to .rc files
+  * sm8250-common: livedisplay: Drop unnecessary nullptr checks
+  * sm8250-common: livedisplay: Use modules from common implementation
+  * sm8250-common: livedisplay: drop display modes
+  * Revert "sm8250-common: config displayModeMappings"
+  * sm8250-common: rootdir: set parameters accordingly to kernel
+  * sm8250-common: Unset TARGET_USES_QTI_CAMERA_DEVICE
+
+ROM:
+
+5/23
+
+Check for null callerPackage in getStorageEncryptionStatus
+
+Evolver: Add Battery Bar
+
+Evolver: Bring back Screen off Animations
+
+Fix QS clock being white on light theme
+
+NightDisplay Settings: Use List Preference for NightLight settings
+
+PixelPropsUtils: Keep only gms for Raven spoof
+
+RefreshRateTile: Fix min refresh rate to 60hz in auto mode
+
+Settings: Bring back pocket lock toggle
+
+SystemUI: Introduce refresh rate tile
+
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+
+SystemUI: Remove unnecessary showVoLTEIcon config
+
+SystemUI: UdfpsController: Disable Night Light on keyguard
+
+UdfpsResources: Add McLaren and Mi icons
+
+gms: Add Connectivity thermal manager support
+
+
+5/22
+
+GameSpace: Bring in lockGesture tile
+
+Revert NFC icons to AOSP versions
+
+
+5/21
+
+AudioDeviceBroker: handle back to back device change requests
+
+Fix dialog exit animation
+
+GameSpace: Do not hardcode font to sans-serif
+
+Settings: Add back increasing ring feature
+
+Settings: Fix misspelling on hotspot string
+
+Telecomm: Fix few issues with Blink with call
+
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+
+
+5/20
+
+Evolver: Remove QQS brightness slider customization
+
+SystemUI: Remove Evolver QS Tile
+
+SystemUI: onLongClick Settings button for The Evolver
+
+TriStateUi: Adapt new status bar height api
+
+overlay: core: Add CNE indicator exemption role
+
+rro_overlays: SystemUIGoogleOverlay: Remove Evolver as default QS tile
+
+version: Rebrand 6.4 into Omega
+
+
+5/19
+
+DisplayPowerController: avoid updating settings when adjustment is NaN
+
+Evolver: Pulse: Custom gravity and Center mirrored
+
+Evolver: Pulse: Extend to QS Panel
+
+Evolver: Pulse: Vertical mirror
+
+Partially revert "Wake up to lock screen when bouncer is visible"
+
+Pulse: correctly stop it on screen OFF events
+
+Settings: Configurable Navbar Radius
+
+Switch GamingMode to GameSpace
+
+prebuilt: add APN for GT
+
+prebuilt: add APN for We4G Israel
