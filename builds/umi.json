@@ -1,17 +1,17 @@
 {
-   "datetime": 1653301890,
+   "datetime": 1653560004,
    "donate_url": "https://www.paypal.me/yarpiin",
    "error": false,
-   "filehash": "63b7f6d8f462ac39add798327d2d0b75",
-   "filename": "evolution_umi-ota-sp2a.220505.002-05231131.zip",
+   "filehash": "dc47edc7639a4eb1c9e8dfa138cdb410",
+   "filename": "evolution_umi-ota-sp2a.220505.002-05261113.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-0-umi-cmi-official-evolution-x.4272743/",
-   "id": "779718bf88b14ddb121ac638f7da55d0981e6130e0b42854b86d4f240082bb90",
+   "id": "14ea0cd982e7c97a66804eb04da05c63f584daa0258f0515a8669594d13c760c",
    "maintainer": "Slaw Handzlik (yarpiin)",
    "maintainer_url": "https://github.com/yarpiin",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2389715954,
+   "size": 2389691027,
    "telegram_username": "yarpiin",
-   "url": "https://sourceforge.net/projects/evolution-x/files/umi/evolution_umi-ota-sp2a.220505.002-05231131.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/umi/evolution_umi-ota-sp2a.220505.002-05261113.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }

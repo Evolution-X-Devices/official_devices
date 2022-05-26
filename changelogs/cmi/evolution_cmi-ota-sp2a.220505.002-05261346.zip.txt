@@ -1,0 +1,51 @@
+  
+2022-05-26
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.3.0
+
+DEVICE:
+
+  * sm8250-common: Add google camera to aux camera props
+  * sm8250-common: system_prop: Remove Gboard annoying spacing
+  * sm8250-common: rootdir: bring back zram post boot setup
+  * sm8250-common: Set proper cpusets for kona
+  * sm8250-common: provide support for callscreening for kona/lito.
+
+
+ROM:
+
+5/27
+
+Disable auth ripple and fingerprint vib by default
+
+
+5/26
+
+Evolver: Bring back VoLTE/VoWiFi icon styles
+
+SystemUI: Screenshot: open the screenshot instead of edit
+
+fastboot: Print OemCmdHandler return message on success
+
+
+5/25
+
+SystemUI: Screenshot: Avoid NPE while getting app label
+
+pocket lock: Increase pocket lock screen to 15 seconds
+
+
+5/24
+
+Battery Styles: Fix percentage view on landscape battery
+
+Evolver: Add back big dotted and big circle battery indicator
+
+Evolver: Add temperature warning toggle
+
+SystemUI: Integrate Google Lens into Screenshot UI
+
+SystemUI: Reset QS on UI mode change
