@@ -1,0 +1,26 @@
+This build you're receiving is evolution_violet-ota-sp2a.220505.002-05261725.zip
+
+Notes:
+Rom is encrypted by default
+Gapps, Firmware And AOSP Recovery is shipped by default
+This build switches to AOSP apex and disables Google Play system updates. Uninstall 'Main components' and 'Support components' apps after updating. IF YOU DON'T HAVE THOSE APPS, then you don't have to do anything
+
+Optimization
+    Increased system stability
+    Reduced system lag
+    Fingerprint ripple animation
+    Live wallpapers
+System
+    Stable Evolution X based on Android 12L/12.1
+    Updated Android Security Patch to May 2022. Increased system security
+Audio
+    Fixed low mic volume on voip calls
+    Fixed in-call volume controls
+    Increase in-call earpiece volume
+Security
+    Kernel: Upstreamed kernel
+Others
+    Updated some system blobs
+    Added battery health option(inside settings>battery)
+    Bring back Clear Speaker option(inside Sound & vibration>clear speaker)
+    Latest Evolution X source
