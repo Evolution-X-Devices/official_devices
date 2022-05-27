@@ -1,0 +1,72 @@
+Device changes:
+==============================
+- Sync with latest source
+- Add Moto Dolby 
+- Fix sound cracking in some apps 
+
+Credit :- 
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+------------------------------
+ROM changes:
+==============================
+Battery Styles: Fix percentage view on landscape battery
+Check for null callerPackage in getStorageEncryptionStatus
+Evolver: Add back big dotted and big circle battery indicator
+Evolver: Add temperature warning toggle
+Settings: Bring back pocket lock toggle
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: Remove unnecessary showVoLTEIcon config
+SystemUI: Reset QS on UI mode change
+UdfpsResources: Add McLaren and Mi icons
+Update translations
+pocket lock: Increase pocket lock screen to 15 seconds
+AudioDeviceBroker: handle back to back device change requests
+DisplayPowerController: avoid updating settings when adjustment is NaN
+Evolver: Add Battery Bar
+Evolver: Bring back Screen off Animations
+Evolver: Pulse: Custom gravity and Center mirrored
+Evolver: Pulse: Extend to QS Panel
+Evolver: Pulse: Vertical mirror
+Evolver: Remove QQS brightness slider customization
+Evolver: Remove screen off animations
+Fix QS clock being white on light theme
+Fix dialog exit animation
+GameSpace: Do not hardcode font to sans-serif
+NightDisplay Settings: Use List Preference for NightLight settings
+Partially revert "Wake up to lock screen when bouncer is visible"
+PixelPropsUtils: Keep only gms for Raven spoof
+Pulse: correctly stop it on screen OFF events
+Revert NFC icons to AOSP versions
+Settings: Add back increasing ring feature
+Settings: Add setup UI for minimum delay between an app's notification sounds
+Settings: Configurable Navbar Radius
+Settings: Desktop backup password: Tint buttons to match system theme
+Settings: Fix Android Beam switch bar content
+Settings: Fix WifiSettings FC when rotating screen
+Settings: Fix misspelling on hotspot string
+Settings: Improve battery stats reset strings
+Settings: Only use FP enrollment for SUW
+Settings: Port "Battery Usage Alerts" feature from factory images
+Settings: PowerUsageSummary: open advanced usage on header click
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+Settings: Use correct icon to reset battery stats
+Settings: Use font configs instead fonts directly
+Switch GamingMode to GameSpace
+SystemUI: Export RecordingService for External Usage
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+SystemUI: Remove Evolver QS Tile
+SystemUI: Show notification row only when unlinked from ringer volume
+SystemUI: TaskHelper: Adapt theme changed for 12L
+SystemUI: UdfpsController: Disable Night Light on keyguard
+SystemUI: onLongClick Settings button for The Evolver
+Telecomm: Fix few issues with Blink with call
+TriStateUi: Adapt new status bar height api
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+core: Wipe package cache on upgrade even on user build
+overlay: Add com.android.printspooler to indicator exemptions
+overlay: core: Add CNE indicator exemption role
+prebuilt: add APN for GT
+prebuilt: add APN for We4G Israel
+rro_overlays: SystemUIGoogleOverlay: Remove Evolver as default QS tile
+version: Rebrand 6.4 into Omega
