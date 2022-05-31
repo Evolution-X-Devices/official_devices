@@ -1,0 +1,36 @@
+Device Changes:
+Bring back MotoDolby with updated config from Alioth TM
+Fix WiFi Display green image
+Address several denials
+And more improvements done
+
+ROM Changes:
+Evolver: Bring back VoLTE/VoWiFi icon styles
+Evolver: Add back big dotted and big circle battery indicator
+SystemUI: Integrate Google Lens into Screenshot UI
+Evolver: Add Battery Bar
+Evolver: Bring back Screen off Animations
+Settings: Bring back pocket lock toggle
+SystemUI: Introduce refresh rate tile
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+SystemUI: UdfpsController: Disable Night Light on keyguard
+gms: Add Connectivity thermal manager support
+Settings: Add back increasing ring feature
+Evolver: Remove QQS brightness slider customization
+SystemUI: onLongClick Settings button for The Evolver
+version: Rebrand 6.4 into Omega
+Evolver: Pulse: Custom gravity and Center mirrored
+Evolver: Pulse: Extend to QS Panel
+Evolver: Pulse: Vertical mirror
+Settings: Configurable Navbar Radius
+Switch GamingMode to GameSpace
+Evolver: Allow enabling compact layout of 3 button navigation bar
+Nuke Light theme for QS panel
+Replace fullscreen gestures with hide gestural navigation hint bar from LOS
+Settings: Add Reset battery stats button
+Settings: Change Evolution X version preference behavior
+Settings: Configurable 0, 90, 180 and 270 degree rotation
+keystore: Rate limit attestation for Google Play Services
+version: Uprev to 6.4 (Snow-Relapse)
+Fix bluetooth percentage not showing on battery widget
+
