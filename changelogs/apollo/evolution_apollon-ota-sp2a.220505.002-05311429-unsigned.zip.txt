@@ -1,0 +1,107 @@
+Device Side:
+=====================================
+- All blobs updated from MIUI-APOLLOEEA-13.0.6.0
+- Kernel upstreamed to 4.19.245 & compiled with SDClang 14.1.2
+- Final sepolicy rules for Ks/mdm_helper support (Ported from Sony Devices and Adapted for Xiaomi 8250)
+- audio: Use QCOM implementation for audio effects
+- Inherit Build time optimizations for platform
+- Fixed USB dac 
+- Import & adapt qti vibrator effects
+- Updated and improved props from latest Miui
+- Improved Ultrasound Proximity Sensor behavior
+- Latest kernel upstreams 
+- Fixed wrong battery capacity report 
+- Updated Dolby Atmos
+- Disable showing BatteryHealth info in Settings
+- Drop deprecated power profile configs 
+- Declare default screen density
+- set Night Display Default Color Temperature
+- Import display calibration blobs from HelluvaOS
+- Import stock HVDCP props 
+- Update Service Tracker QTI Impl from 13.0.6.0 Europe Miui
+- Update Listen Blobs from Miui 13.0.6.0 Europe Miui
+- Update IPA firmware Blobs from 13.0.6.0 Europe Miui
+- Update ssrec Blobs from 13.0.6.0 Europe Miui
+- Update ADSP Blobs from 13.0.6.0 Europe Miui
+- Update cnss-daemon from  13.0.3.0 Global Miui
+- Update RIL blobs from 13.0.3.0 Global Miui
+- releasetools: Print a read-able message while flashing
+- Update surfaceflinger props 
+- Apply 64-bit inode version support 
+- start bootanimation on late-fs 
+- Set 50% Zram size
+- Remove zram cold page writeback file 
+- Enable zram writeback 
+- tune zram performance 
+- Properly label qvr_external_sensor fd
+- Correct wi-fi permissions
+- Provide proper permissions for audio folder
+- Disable vendor.lowi by default
+- Disable adsprpcd 
+- Sepolicy: Further improve mdm_helper sepolicy
+- Delete non-existing ssr_[setup/debug/ramdump] 
+- Remove duplicate "start logd" 
+- Clean up non-existing cpu_boost nodes 
+- Drop QTI camera device usage 
+- Remove 5g_mode_pref for 4G Only Support 
+- Drop ims-vt prop and overlay 
+- Import LMK props from stock 
+- Label thermal_hbm_disabled 
+- disable phantom process monitoring
+- Remove config_jitzygoteBootImagePinnerServiceFiles list 
+- Use stop instead of setprop for console 
+- Disable serial console notification 
+- Disable some gms components for better WiFi speeds 
+=====================================
+
+Notes:
+==============================
+- Dirty flash is fine.
+- Required fw now is 13.0.6.0 EEA 
+- Don't forget to set dynamic thermal profile as default using kernel manager apps like fkm (in fkm-> Kernel settings-> miscellaneous-> thermal profile-> dynamic and turn the switch on)
+- This release using new camera blobs from latest miui which introduce better camera experience in overall situation, this was confirmed by the testing done by gcam devs/testers of apollo gcam group
+------------------------------
+
+ROM changes:
+==============================
+Disable auth ripple and fingerprint vib by default
+Evolver: Bring back VoLTE/VoWiFi icon styles
+SystemUI: Screenshot: open the screenshot instead of edit
+fastboot: Print OemCmdHandler return message on success
+SystemUI: Screenshot: Avoid NPE while getting app label
+pocket lock: Increase pocket lock screen to 15 seconds
+Battery Styles: Fix percentage view on landscape battery
+Evolver: Add back big dotted and big circle battery indicator
+Evolver: Add temperature warning toggle
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: Reset QS on UI mode change
+Check for null callerPackage in getStorageEncryptionStatus
+Evolver: Add Battery Bar
+Evolver: Bring back Screen off Animations
+Fix QS clock being white on light theme
+NightDisplay Settings: Use List Preference for NightLight settings
+PixelPropsUtils: Keep only gms for Raven spoof
+RefreshRateTile: Fix min refresh rate to 60hz in auto mode
+Settings: Bring back pocket lock toggle
+SystemUI: Introduce refresh rate tile
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+SystemUI: Remove unnecessary showVoLTEIcon config
+SystemUI: UdfpsController: Disable Night Light on keyguard
+UdfpsResources: Add McLaren and Mi icons
+gms: Add Connectivity thermal manager support
+GameSpace: Bring in lockGesture tile
+Revert NFC icons to AOSP versions
+AudioDeviceBroker: handle back to back device change requests
+Fix dialog exit animation
+GameSpace: Do not hardcode font to sans-serif
+Settings: Add back increasing ring feature
+Settings: Fix misspelling on hotspot string
+Telecomm: Fix few issues with Blink with call
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
+Evolver: Remove QQS brightness slider customization
+SystemUI: Remove Evolver QS Tile
+SystemUI: onLongClick Settings button for The Evolver
+TriStateUi: Adapt new status bar height api
+overlay: core: Add CNE indicator exemption role
+rro_overlays: SystemUIGoogleOverlay: Remove Evolver as default QS tile
+version: Rebrand 6.4 into Omega
