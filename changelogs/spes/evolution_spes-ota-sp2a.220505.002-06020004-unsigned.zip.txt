@@ -1,0 +1,15 @@
+==========================================
+Device Changelog:
+==========================================
+- First Official build
+- Now come with less GApps
+- Offline charging fixed
+- Add some props to improve battery life
+- Improve deepsleep on Bluetooth/Mobile data
+- Fixed jittery UI during screen recorder
+- Use night display color temperature calibration from Pixel 4
+- Some change on perf configs to improve performance
+- Use GPU to render UI animations
+- Remove blur and Pixel charging animation
+- Now device with recognized as "Redmi Note 11" when plug in to usb
+- More

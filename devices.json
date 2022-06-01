@@ -726,5 +726,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/beta-rom-12-1-official-evolution-x-for-xiaomi-mi-11-05-04-22.4441407"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "spes",
+      "name": "Redmi Note 11",
+      "supported_versions": [
+         {
+            "maintainer_name": "Duy Hoang (etylix)",
+            "maintainer_url": "https://forum.xda-developers.com/m/etylix.8079544/",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-evolution-x-6-3-spes-spesn-13-05-2022.4451865/   "
+         }
+      ]
    }
 ]
