@@ -1,0 +1,17 @@
+-------------
+ROM Side:
+-------------
+Evo 6.4 Omega
+May Security Patch
+Switch GamingMode to GameSpace
+Evolver: Pulse: Extend to QS Panel
+Evolver: Add Battery Bar
+SystemUI: Integrate Google Lens into Screenshot UI
+Evolver: Bring back VoLTE/VoWiFi icon styles
+
+-------------
+Device Side:
+-------------
+Add back FM Radio and LiveDisplay
+Add Safailnet to pass cts while unrooted
+Switch back to 4.9.292 Kernel (by Kailash)
