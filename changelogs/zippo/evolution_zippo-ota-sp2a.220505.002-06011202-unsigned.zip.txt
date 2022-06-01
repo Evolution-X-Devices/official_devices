@@ -1,0 +1,51 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+- Enable haptics for text cursor
+- Modify automatic brightness
+- Decommonize FM related audio cflag 
+- Add BOARD_HAS_QCA_FM_SOC cflag
+- Add missing FM prop
+- Remove blurs
+- sepolicy: Address Soter denials
+- sepolicy: Attach vendor_property_type to properties
+- Change radio0 permissions
+
+**Evolution X Update**
+- Rebrand 6.4 into Omega
+- Evolver: Remove QS panel transparency
+- Evolver: Remove QQS brightness bar
+- Nuke Light theme for QS panel
+- Evolver: Remove broken click to partial screenshot feature
+- SystemUI: Remove Evolver QS Tile
+- Shortcut to The Evolver long-cliking the Settings icon
+- Fix battery percentage view on landscape battery
+- Fix QS clock being white on light theme
+- Fix WifiSettings FC when rotating screen
+- Fix bluetooth percentage not showing on battery widget
+- Add various system packages to indicator exemptions
+- Open the screenshot instead of edit
+- Split status bar icon controls for vibrate and mute
+- Disable Night Light while unlocking
+- Disable auth ripple and fingerprint vib by default
+- Update translations
+- Settings: Add pocket lock toggle
+- Evolver: Add back big dotted and big circle battery indicator
+- Evolver: Add temperature warning toggle
+- Evolver: Add Battery Bar
+- Settings: Add Reset battery stats button
+- Switch GamingMode to GameSpace
+- GameSpace: Add lockGesture tile
+- Integrate Google Lens into Screenshot UI
+- Evolver: Pulse: Custom gravity and Center mirrored
+- Evolver: Pulse: Extend to QS Panel
+- Evolver: Pulse: Vertical mirror
+- Settings: Configurable Navbar Radius
+- Evolver: Bring back VoLTE/VoWiFi icon styles
+- Evolver: Bring back Screen off Animations
+- Add McLaren and Mi UDFPS icons
+- Evolver: Allow enabling compact layout of 3 button navigation bar
