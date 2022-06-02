@@ -1,0 +1,22 @@
+-- CLEAN FLASH MUST --
+
+------------
+ROM Side:
+-------------
+Evo 6.5 Omega
+June Security Patch
+Improve IME space feature
+Set lockscreen clock font dynamically
+Switch GamingMode to GameSpace
+Evolver: Pulse: Extend to QS Panel
+Evolver: Add Battery Bar
+SystemUI: Integrate Google Lens into Screenshot UI
+Evolver: Bring back VoLTE/VoWiFi icon styles
+
+-------------
+Device Side:
+-------------
+Enforcing and Decrypted Build (Thanks Marc)
+Fixed Doze
+Add back FM Radio and LiveDisplay
+Switch back to 4.9.292 Kernel (by Kailash)
