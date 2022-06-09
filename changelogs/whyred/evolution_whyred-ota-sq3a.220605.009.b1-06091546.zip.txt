@@ -1,0 +1,109 @@
+
+6/8
+Hide the "Show the vibrate icon in the Status Bar" setting
+PreviewInflater: Fix issue with google dialer widget on keyguard
+Settings: Improve IME space feature
+Show the vibrate icon in the Status Bar by default
+SystemUI: Fix NPE for per-app volume
+Update ThemedIcons
+
+6/7
+Merge June 2022 security patches
+PixelPropsUtils: Update fingerprints to June 2022 release
+Settings: Add Remove space under keyboard feature
+Settings: Fix gestures saving parameters
+fastboot: Hide bootloader/baseband/hw versions if empty
+fastboot: Prefer ro.boot.hardware.revision for hw-revision
+fixup! Missing changes haptic issues with gestural navigation
+version: Uprev to 6.5
+
+6/6
+QSFooter: Launch The Evolver when long clicking settings
+Settings: Remove IME button space toggle
+SystemUI: Hide OOS clear all if panel visible because Headsup
+SystemUI: Hide OOS clear all if reticker enable
+SystemUI: Use App icon for per-app volume
+
+6/5
+Add group audio to vendor.media.omx service
+Screenrecord: Allow to reduce 3 second screen record timer
+Screenrecord: Save pref for skip timer switch
+Screenrecord: Slightly optimize loading/saving preferences
+Screenrecord: Update layout to the new spec
+Screenrecord: Use proper drawable for bigger file size limit option
+SettingsLib: CollapsingToolbarBaseActivity: Increase scrim transition duration
+SystemUI: KeyguardClock: Use google sans instead of harmony
+SystemUI: Set lockscreen clock font dynamically
+SystemUI: Use color accent for charging animation
+SystemUI: Use lighter material you shades for charging animation
+VolumePanel: Avoid multiple animations on touch spam
+VolumePanel: Pass touch outside of volume panel
+Wire up default fonts with font engine
+base: Use font configs instead hardcoded fonts
+core: Fix showing Toast icons for legacy apps
+improve PendingIntent security check compatibility
+
+6/4
+Evolver: Remove Status bar Logo feature
+Fix Wi-Fi timeout string issue in Settings search
+Skip checking SystemUI's permission for observing sensor privacy
+SystemUI: QSAnimator: Hide secondary label in QQS
+overlay: Use config_locationExtraPackageNames for indicator exemptions
+
+6/2
+BatteryStatsImpl: Guard against OOB
+Call CardDatabaseHelper.getInstance() when used and not in onCreate
+Codec2: guard the dummy work signal to lahaina only
+Datausage: Fix NPE in preference controller
+Don't build useless html viewer
+Evolver: Add 14 new VoLTE icons
+Fix daveys when latch_unsignaled is used
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+Only update the compat system UI visibility if the source is valid
+PixelPropsUtils: Exclude recorder from pixel props
+Settings: Fix loading iconpack-based Wellbeing icon
+SystemUI: Add left padding for keyguard slices
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: Re-inflate keyguard statusbar on theme change
+base: overlay: Fix volume panel arrow in Viktor and Sam icon packs
+base: use a double click effect for charging if there is no amplitude control support
+build: Override host metadata
+fwb: GLSurfaceView: Be less picky about EGLConfig alpha sizes
+kernel: build: Wipe DTB/O OBJs before build
+libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib
+overlay: Exclude ImsService from location indicators
+
+5/27
+Disable auth ripple and fingerprint vib by default
+
+5/26
+Evolver: Bring back VoLTE/VoWiFi icon styles
+SystemUI: Screenshot: open the screenshot instead of edit
+fastboot: Print OemCmdHandler return message on success
+
+5/25
+SystemUI: Screenshot: Avoid NPE while getting app label
+pocket lock: Increase pocket lock screen to 15 seconds
+
+5/24
+Battery Styles: Fix percentage view on landscape battery
+Evolver: Add back big dotted and big circle battery indicator
+Evolver: Add temperature warning toggle
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: Reset QS on UI mode change
+
+5/23
+Check for null callerPackage in getStorageEncryptionStatus
+Evolver: Add Battery Bar
+Evolver: Bring back Screen off Animations
+Fix QS clock being white on light theme
+NightDisplay Settings: Use List Preference for NightLight settings
+PixelPropsUtils: Keep only gms for Raven spoof
+RefreshRateTile: Fix min refresh rate to 60hz in auto mode
+Settings: Bring back pocket lock toggle
+SystemUI: Introduce refresh rate tile
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+SystemUI: Remove unnecessary showVoLTEIcon config
+SystemUI: UdfpsController: Disable Night Light on keyguard
+UdfpsResources: Add McLaren and Mi icons
+gms: Add Connectivity thermal manager support
