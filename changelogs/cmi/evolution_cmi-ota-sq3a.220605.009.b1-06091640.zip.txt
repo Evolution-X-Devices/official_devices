@@ -1,0 +1,171 @@
+  
+2022-06-09
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.3.0
+
+DEVICE:
+
+  * sm8250-common: Fix status bar height again
+  * sm8250-common: Move xiaomi specific init rc to /vendor/etc/init/hw
+  * sm8250-common: Sepolicy: Make proper label for RIL props as Radio Props
+  * sm8250-common: rootdir: Remove unused imports from init.qcom.rc
+  * sm8250-common: parts: Fix thermal profile build for android-12
+  * sm8250-common: parts: Add dynamic thermal profile implementation
+  * sm8250-common: Update ims symlink path
+  * sm8250-common: Declare WiFi Aware support to WiFi HAL
+  * sm8250-common: Disable proximity sensor check before pulsing
+  * sm8250-common: Remove vendor RenderScript implementation.
+  * sm8250-common: props: RIL edits for battery life.
+
+KERNEL:
+
+  * Merge tag 'LA.UM.9.12.1.r1-01500-SMxx50.QSSI12.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19
+  * Thermal driver improvements
+  * add support for exfat fs
+  * minor charging tweaks
+
+ROM:
+
+6/8
+
+Hide the "Show the vibrate icon in the Status Bar" setting
+
+PreviewInflater: Fix issue with google dialer widget on keyguard
+
+Settings: Improve IME space feature
+
+Show the vibrate icon in the Status Bar by default
+
+SystemUI: Fix NPE for per-app volume
+
+Update ThemedIcons
+
+
+6/7
+
+Merge June 2022 security patches
+
+PixelPropsUtils: Update fingerprints to June 2022 release
+
+Settings: Add Remove space under keyboard feature
+
+Settings: Fix gestures saving parameters
+
+fastboot: Hide bootloader/baseband/hw versions if empty
+
+fastboot: Prefer ro.boot.hardware.revision for hw-revision
+
+fixup! Missing changes haptic issues with gestural navigation
+
+version: Uprev to 6.5
+
+
+6/6
+
+QSFooter: Launch The Evolver when long clicking settings
+
+Settings: Remove IME button space toggle
+
+SystemUI: Hide OOS clear all if panel visible because Headsup
+
+SystemUI: Hide OOS clear all if reticker enable
+
+SystemUI: Use App icon for per-app volume
+
+
+6/5
+
+Add group audio to vendor.media.omx service
+
+Screenrecord: Allow to reduce 3 second screen record timer
+
+Screenrecord: Save pref for skip timer switch
+
+Screenrecord: Slightly optimize loading/saving preferences
+
+Screenrecord: Update layout to the new spec
+
+Screenrecord: Use proper drawable for bigger file size limit option
+
+SettingsLib: CollapsingToolbarBaseActivity: Increase scrim transition duration
+
+SystemUI: KeyguardClock: Use google sans instead of harmony
+
+SystemUI: Set lockscreen clock font dynamically
+
+SystemUI: Use color accent for charging animation
+
+SystemUI: Use lighter material you shades for charging animation
+
+VolumePanel: Avoid multiple animations on touch spam
+
+VolumePanel: Pass touch outside of volume panel
+
+Wire up default fonts with font engine
+
+base: Use font configs instead hardcoded fonts
+
+core: Fix showing Toast icons for legacy apps
+
+improve PendingIntent security check compatibility
+
+
+6/4
+
+Evolver: Remove Status bar Logo feature
+
+Fix Wi-Fi timeout string issue in Settings search
+
+Skip checking SystemUI's permission for observing sensor privacy
+
+SystemUI: QSAnimator: Hide secondary label in QQS
+
+overlay: Use config_locationExtraPackageNames for indicator exemptions
+
+
+6/2
+
+BatteryStatsImpl: Guard against OOB
+
+Call CardDatabaseHelper.getInstance() when used and not in onCreate
+
+Codec2: guard the dummy work signal to lahaina only
+
+Datausage: Fix NPE in preference controller
+
+Don't build useless html viewer
+
+Evolver: Add 14 new VoLTE icons
+
+Fix daveys when latch_unsignaled is used
+
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+
+Only update the compat system UI visibility if the source is valid
+
+PixelPropsUtils: Exclude recorder from pixel props
+
+Settings: Fix loading iconpack-based Wellbeing icon
+
+SystemUI: Add left padding for keyguard slices
+
+SystemUI: Calculate paged QS tiles height properly
+
+SystemUI: Re-inflate keyguard statusbar on theme change
+
+base: overlay: Fix volume panel arrow in Viktor and Sam icon packs
+
+base: use a double click effect for charging if there is no amplitude control support
+
+build: Override host metadata
+
+fwb: GLSurfaceView: Be less picky about EGLConfig alpha sizes
+
+kernel: build: Wipe DTB/O OBJs before build
+
+libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib
+
+overlay: Exclude ImsService from location indicators
