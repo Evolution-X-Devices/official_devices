@@ -1,0 +1,23 @@
+=======================
+Device
+=======================
+- Now come with firmware (from 13.0.5.0)
+- Simplize refresh rate setting
+- Switch to SkiaGL Threaded renderer
+- Trying to fix NFC (untested)
+- Use a custom thermal config to improve charging speed (From whyred - Inferno thermal)
+- Add per-app thermal config at Settings - System
+- Fix screen recorder lag
+- Move to Xiaomi power AIDL HAL
+- Improve overall smoothness, especially at 60hz (Now we have 90hz flicker bug after reboot, turn off and on the to fix)
+- More
+
+=======================
+ROM
+=======================
+- Version uprev to 6.5
+- June security patch
+- Bring back VoLTE/VoWiFi icon styles
+- Launch The Evolver when long clicking settings
+- Add remove IME space under keyboard feature
+- Fixes
