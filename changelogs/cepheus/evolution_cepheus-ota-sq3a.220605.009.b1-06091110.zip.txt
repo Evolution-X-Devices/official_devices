@@ -1,0 +1,77 @@
+==============================
+Notes:
+
+ALWAYS BACKUP BEFORE UPDATING.
+Do not dirty flash from Android 11. The best is to clean flash.
+Dirty flash from previous A12L build should be OK.
+Try a clean flash if you encounter issues.
+
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+=========================================
+Device changes:
+
+- Switch to Soviet kernel - Linux 4.14.281 (Thanks Niviann for bringing back support for Cepheus)
+- Switch to AOSP apex and disable Google Play system updates
+- Add support for wifi aware
+- Add night display color temperature calibration from Coral
+- Add FPS info overlay
+- Use back OpenGL for UI rendering
+- Use back rom default max cached process number
+- Build IFAA Service from source
+- CarrierConfig: update from 5800 QSSI
+- Enable LZ4 compression for ramdisks
+- parts: Use directBootAware
+- BoardConfig: Use prebuilt dtbo for now (Fix green tint issue)
+- fingerprint: apply a boost after fp is authenticated
+
+=========================================
+Rom changes:
+
+- Update ThemedIcons
+- Merge June 2022 security patches
+- PixelPropsUtils: Update fingerprints to June 2022 release
+- Settings: Add Remove space under keyboard feature
+- version: Uprev to 6.5
+- QSFooter: Launch The Evolver when long clicking settings
+- SystemUI: Use App icon for per-app volume
+- SystemUI: Set lockscreen clock font dynamically
+- Evolver: Bring back VoLTE/VoWiFi icon styles
+- PixelPropsUtils: Exclude recorder from pixel props
+- Evolver: Add back big dotted and big circle battery indicator
+- SystemUI: Integrate Google Lens into Screenshot UI
+- Evolver: Add Battery Bar
+- Evolver: Bring back Screen off Animations
+- Settings: Bring back pocket lock toggle
+- SystemUI: Network Traffic: Stop scheduling updates when screen off
+- SystemUI: UdfpsController: Disable Night Light on keyguard
+- Settings: Add back increasing ring feature
+- Evolver: Remove QQS brightness slider customization
+- Evolver: Pulse: Custom gravity and Center mirrored
+- Evolver: Pulse: Extend to QS Panel
+- Evolver: Pulse: Vertical mirror
+- Settings: Configurable Navbar Radius
+- Switch GamingMode to GameSpace
+- Evolver: Allow enabling compact layout of 3 button navigation bar
+- Nuke Light theme for QS panel
+- Replace fullscreen gestures with hide gestural navigation hint bar from LOS
+- Settings: Add Reset battery stats button
+- Settings: Change Evolution X version preference behavior
+- Settings: Configurable 0, 90, 180 and 270 degree rotation
+- Fix bluetooth percentage not showing on battery widget
+- Update translations
+- Add various system packages to indicator exemptions
+- frameworks: Exempt location packages from location indicators
+- Settings: Extended Swipe Gestures: Add show recents option
+- PixelPropsUtils: Refactor & clean up
+- prebuilt: apns-conf: Checkout to LOS
+- Evolver: Battery Styles: Introduce Battery Landscape
+- Introduce LiveDisplay from Lineage
+- SystemUI: Use color accent for charging animation
+- SystemUI: Use lighter material you shades for charging animation
+- Evolver: Color coded battery indication
+- Disable auth ripple and fingerprint vib by default
+- Various fixes and tweaks
