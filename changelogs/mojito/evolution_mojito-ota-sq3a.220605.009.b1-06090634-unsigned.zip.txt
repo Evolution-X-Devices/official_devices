@@ -1,0 +1,77 @@
+This is Android 12.1 with June 2022 security patches
+
+Notes:
+==============================
+Flash MIUI 13.0.7.0 fw
+Flash using ofox recovery
+WestCoast kernel inlined
+
+Device changes:
+==============================
+mojito: Switch to source-built mlipay & mtdservice interface
+mojito: Fix status bar height again 
+
+ROM changes:
+==============================
+Add group audio to vendor.media.omx service
+BatteryStatsImpl: Guard against OOB
+Call CardDatabaseHelper.getInstance() when used and not in onCreate
+Codec2: guard the dummy work signal to lahaina only
+Datausage: Fix NPE in preference controller
+Disable auth ripple and fingerprint vib by default
+Don't build useless html viewer
+Evolver: Add 14 new VoLTE icons
+Evolver: Bring back VoLTE/VoWiFi icon styles
+Evolver: Remove Status bar Logo feature
+Fix Wi-Fi timeout string issue in Settings search
+Fix daveys when latch_unsignaled is used
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+Merge June 2022 security patches
+Only update the compat system UI visibility if the source is valid
+PixelPropsUtils: Exclude recorder from pixel props
+PixelPropsUtils: Update fingerprints to June 2022 release
+QSFooter: Launch The Evolver when long clicking settings
+Screenrecord: Allow to reduce 3 second screen record timer
+Screenrecord: Save pref for skip timer switch
+Screenrecord: Slightly optimize loading/saving preferences
+Screenrecord: Update layout to the new spec
+Screenrecord: Use proper drawable for bigger file size limit option
+Settings: Fix loading iconpack-based Wellbeing icon
+Settings: Fix gestures saving parameters
+Settings: Improve Remove space under keyboard feature
+SettingsLib: CollapsingToolbarBaseActivity: Increase scrim transition duration
+Skip checking SystemUI's permission for observing sensor privacy
+SystemUI: Add left padding for keyguard slices
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: Hide OOS clear all if panel visible because Headsup
+SystemUI: Hide OOS clear all if reticker enable
+SystemUI: KeyguardClock: Use google sans instead of harmony
+SystemUI: QSAnimator: Hide secondary label in QQS
+SystemUI: Re-inflate keyguard statusbar on theme change
+SystemUI: Screenshot: Avoid NPE while getting app label
+SystemUI: Screenshot: open the screenshot instead of edit
+SystemUI: Set lockscreen clock font dynamically
+SystemUI: Use App icon for per-app volume
+SystemUI: Use color accent for charging animation
+SystemUI: Use lighter material you shades for charging animation
+VolumePanel: Avoid multiple animations on touch spam
+VolumePanel: Pass touch outside of volume panel
+Wire up default fonts with font engine
+base: Use font configs instead hardcoded fonts
+base: overlay: Fix volume panel arrow in Viktor and Sam icon packs
+base: use a double click effect for charging if there is no amplitude control support
+build: Override host metadata
+core: Fix showing Toast icons for legacy apps
+biometrics: Adapt code for 12.1.0_r8 merge
+fastboot: Hide bootloader/baseband/hw versions if empty
+fastboot: Prefer ro.boot.hardware.revision for hw-revision
+fastboot: Print OemCmdHandler return message on success
+fixup! Missing changes haptic issues with gestural navigation
+fwb: GLSurfaceView: Be less picky about EGLConfig alpha sizes
+improve PendingIntent security check compatibility
+kernel: build: Wipe DTB/O OBJs before build
+libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib
+overlay: Exclude ImsService from location indicators
+overlay: Use config_locationExtraPackageNames for indicator exemptions
+pocket lock: Increase pocket lock screen to 15 seconds
+version: Uprev to 6.5
