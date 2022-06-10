@@ -1,0 +1,242 @@
+=======================
+     2022/06/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+0c812439 New Crowdin updates (#296)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+322dd51 Evolver: Toggle data usage view on QS footer [2/2]
+
+* Repository: https://github.com/PixelExperience/packages_apps_FaceUnlockService/commits/refs/heads/twelve
+
+aedf18a Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+692704f New Crowdin updates (#106)
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-19.1
+
+58851a0 extract_utils: Add a script to reorder blobs list
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+b7c0122 envsetup: Add sort-blobs-list
+
+
+=======================
+     2022/06/09
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+59e03ce gms: Remove P1/P2 from GRIL
+
+* Repository: https://github.com/Evolution-X/vendor_nxp_opensource_packages_apps_Nfc/commits/refs/heads/snow
+
+ae5accd OOB read in phNciNfc_RecvMfResp()
+
+
+=======================
+     2022/06/08
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+78fe3c2 New Crowdin updates (#3)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/snow
+
+db09811 Update from SQ3A.220605.009.B1
+
+
+=======================
+     2022/06/07
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+dbdfabe Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/bootable/recovery into snow
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+bf35e11 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+d28439a Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/build/soong into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+080b1e0 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/frameworks/av into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+2de86c1 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/frameworks/native into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+f99941f Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/frameworks/opt/telephony into snow
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/snow
+
+7542d57 fastboot: Implement oem getprop command
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel/commits/refs/heads/snow
+
+b94349f Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/hardware/google/pixel into snow
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/snow
+
+76a1fe7 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/hardware/interfaces into snow
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/snow
+
+615a1e6 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/hardware/libhardware into snow
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-19.1
+
+01ed0fc Add reverse engineered nqnfcinfo binary
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+4566915 manifest: Track vendor/nxp/opensource/commonsys/packages/apps/Nfc for now
+
+* Repository: https://github.com/Evolution-X/packages_apps_Bluetooth/commits/refs/heads/snow
+
+da6b550 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/apps/Bluetooth into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/snow
+
+98c75b2 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/apps/Nfc into snow
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/snow
+
+32ec1da Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/modules/Connectivity into snow
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/snow
+
+5d2cc7d Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/modules/Permission into snow
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/snow
+
+18ed647 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/modules/Wifi into snow
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/snow
+
+51f0e5b Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into snow
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/snow
+
+4b3c1c0 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/providers/MediaProvider into snow
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+b6b59fd Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/services/Telecomm into snow
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/snow
+
+24c7457 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/packages/services/Telephony into snow
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/snow
+
+d52a48e Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/apex into snow
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+4447db0 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/bt into snow
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+bcfdbe4 fastboot: Prefer ro.boot.hardware.revision for hw-revision
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/snow
+
+5fd7fe2 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/media into snow
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/snow
+
+a9690ea Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/security into snow
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/snow
+
+34d6c3b Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/sepolicy into snow
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+778f145 Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/vold into snow
+
+
+=======================
+     2022/06/06
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+5e2aa76 New Crowdin updates (#43)
+
+
+=======================
+     2022/06/05
+=======================
+
+
+=======================
+     2022/06/04
+=======================
+
+
+=======================
+     2022/06/03
+=======================
+
+
+=======================
+     2022/06/02
+=======================
+
+
+=======================
+     2022/06/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-19.1-caf-sm8350
+
+5decb6c Merge tag 'LA.UM.9.14.r1-19200.02-LAHAINA.QSSI13.0' into lineage-19.1-caf-sm8350
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-19.1-caf-sm8350
+
+054d906 Merge tag 'LA.UM.9.14.r1-19200.02-LAHAINA.QSSI13.0' into lineage-19.1-caf-sm8350
+
+
+=======================
+     2022/05/31
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+f2e4a12 components: Include adreno-legacy for msm8953
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/snow
+
+253b20e sepolicy: Add permission for cnss-daemon to write in persist folder
+
+
+=======================
+     2022/05/30
+=======================
+
+
+=======================
+     2022/05/29
+=======================
+
+
+=======================
+     2022/05/28
+=======================
+
+
