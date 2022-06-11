@@ -1,0 +1,7 @@
+This build you're receiving is evolution_violet-ota-sq3a.220605.009.b1-06111211.zip and it's a Hotfix build
+
+Notes:
+Rom is encrypted by default
+Gapps, Firmware And AOSP Recovery is shipped by default
+
+Fixed a issue where cache partition was unable to get mount 
