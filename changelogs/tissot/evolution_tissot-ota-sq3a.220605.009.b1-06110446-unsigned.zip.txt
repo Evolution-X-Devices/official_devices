@@ -1,0 +1,106 @@
+This is Android 12.1 with June 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+Add a check before adding dependencies
+CarrierConfig: update from 5800 QSSI
+Disable APEX compression
+Force disable updatable APEX
+Move dpm shim into a subdir
+Remove ipacm-diag
+Update GPS config for S
+libshim: shim libgui's surface constructor
+media: Update Google media codecs
+media: Update and drop deprecated media codec
+parts: Use directBootAware
+properties: don't latch unsignal buffers
+rro_overlays: Move CarrierConfig to RRO
+
+------------------------------
+ROM changes:
+==============================
+Add group audio to vendor.media.omx service
+Battery Styles: Fix percentage view on landscape battery
+BatteryStatsImpl: Guard against OOB
+Call CardDatabaseHelper.getInstance() when used and not in onCreate
+Check for null callerPackage in getStorageEncryptionStatus
+Codec2: guard the dummy work signal to lahaina only
+Disable auth ripple and fingerprint vib by default
+ElectronBeam: Fix SystemUI FatalException with Netflix and certain use cases
+Evolver: Add 14 new VoLTE icons
+Evolver: Add Battery Bar
+Evolver: Add back big dotted and big circle battery indicator
+Evolver: Add temperature warning toggle
+Evolver: Bring back Screen off Animations
+Evolver: Bring back VoLTE/VoWiFi icon styles
+Evolver: Remove Status bar Logo feature
+Evolver: Toggle data usage view on QS footer
+Fix QS clock being white on light theme
+Fix Wi-Fi timeout string issue in Settings search
+Fix daveys when latch_unsignaled is used
+Hide the "Show the vibrate icon in the Status Bar" setting
+IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+Limit SafetyNet workarounds to unstable GMS process
+Merge June 2022 security patches
+NightDisplay Settings: Use List Preference for NightLight settings
+Only update the compat system UI visibility if the source is valid
+PixelPropsUtils: Exclude recorder from pixel props
+PixelPropsUtils: Update fingerprints to June 2022 release
+PreviewInflater: Fix issue with google dialer widget on keyguard
+QSFooter: Launch The Evolver when long clicking settings
+Screenrecord: Allow to reduce 3 second screen record timer
+Screenrecord: Save pref for skip timer switch
+Screenrecord: Slightly optimize loading/saving preferences
+Screenrecord: Update layout to the new spec
+Screenrecord: Use proper drawable for bigger file size limit option
+SettingsLib: CollapsingToolbarBaseActivity: Increase scrim transition duration
+Settings: Add Remove space under keyboard feature
+Settings: Bring back pocket lock toggle
+Settings: Improve IME space feature
+Settings: Fix gestures saving parameters
+Settings: Fix loading iconpack-based Wellbeing icon
+Show the vibrate icon in the Status Bar by default
+Skip checking SystemUI's permission for observing sensor privacy
+SystemUI: Add left padding for keyguard slices
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: Fix NPE for per-app volume
+SystemUI: Hide OOS clear all if panel visible because Headsup
+SystemUI: Hide OOS clear all if reticker enable
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+SystemUI: QSAnimator: Hide secondary label in QQS
+SystemUI: Re-inflate keyguard statusbar on theme change
+SystemUI: Remove unnecessary showVoLTEIcon config
+SystemUI: Reset QS on UI mode change
+SystemUI: Screenshot: Avoid NPE while getting app label
+SystemUI: Screenshot: open the screenshot instead of edit
+SystemUI: Set lockscreen clock font dynamically
+SystemUI: Use App icon for per-app volume
+SystemUI: Use color accent for charging animation
+SystemUI: Use lighter material you shades for charging animation
+Update ThemedIcons
+VolumePanel: Avoid multiple animations on touch spam
+VolumePanel: Pass touch outside of volume panel
+Wire up default fonts with font engine
+base: Use font configs instead hardcoded fonts
+base: overlay: Fix volume panel arrow in Viktor and Sam icon packs
+base: use a double click effect for charging if there is no amplitude control support
+build: Override host metadata
+core: Fix showing Toast icons for legacy apps
+fastboot: Hide bootloader/baseband/hw versions if empty
+fastboot: Prefer ro.boot.hardware.revision for hw-revision
+fastboot: Print OemCmdHandler return message on success
+fixup! Missing changes haptic issues with gestural navigation
+fwb: GLSurfaceView: Be less picky about EGLConfig alpha sizes
+improve PendingIntent security check compatibility
+kernel: build: Wipe DTB/O OBJs before build
+libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib
+overlay: Exclude ImsService from location indicators
+overlay: Use config_locationExtraPackageNames for indicator exemptions
+pocket lock: Increase pocket lock screen to 15 seconds
