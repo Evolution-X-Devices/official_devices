@@ -1,0 +1,28 @@
+Notes
+
+==============================
+ALWAYS BACKUP BEFORE UPDATING.
+Do not dirty flash from Android 11. The best is to clean flash.
+Dirty flash from previous A12L build should be OK.
+Try a clean flash if you encounter issues.
+
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+=========================================
+Device changes:
+
+- Update graphics blobs from from LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0
+- Fix screen not locking directly after unlocking using fod
+
+=========================================
+Rom changes:
+
+- ElectronBeam: Fix SystemUI FatalException with Netflix and certain use cases
+- FooterActions: Add haptic click when long pressing settings icon
+- Settings: Also disable navbar hint state if IME space is hidden
+- SystemUI: add haptic feedback for qs tiles
+- Evolver: Toggle data usage view on QS footer
+- Limit SafetyNet workarounds to unstable GMS process
