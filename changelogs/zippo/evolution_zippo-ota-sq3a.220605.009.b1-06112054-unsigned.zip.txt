@@ -1,0 +1,32 @@
+Notes: 
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+
+
+**Evolution X Update**
+- Uprev to 6.5
+- Merge June 2022 security patches
+- Fix the issue for some apps crashing (HDFC, Mir4 and others)
+- Add haptic feedback for qs tiles
+- Evolver: Toggle data usage view on QS footer
+- Improve IME space feature
+- Show the vibrate icon in the Status Bar by default and hide the setting
+- Update ThemedIcons
+- Settings: Add Remove space under keyboard feature
+- Launch The Evolver when long clicking settings in QS panel and add haptic click for it
+- Hide OOS clear all if panel visible because Headsup or reticker enabled
+- Use App icon for per-app volume
+- Screenrecord: Allow to reduce 3 second screen record timer
+- Screenrecord: Save pref for skip timer switch
+- Set lockscreen clock font dynamically
+- Use color accent for charging animation
+- Fix showing Toast icons for legacy apps
+- Evolver: Remove Status bar Logo feature
+- Hide secondary label in QQS
+- Evolver: Add 14 new VoLTE icons
+- Settings: Fix loading iconpack-based Wellbeing icon
+- Fix volume panel arrow in Viktor and Sam icon packs
