@@ -1,0 +1,21 @@
+Hotfix build
+
+- Fixed overheating issues, especially on charging
+- Fixed "your device is too hot" issues
+- Added Smart Pixels feature
+
+NOTE: If you use magisk, you now need a special adapted build of magisk: https://drive.google.com/file/d/1Qc4kHv6IPlxzLjeXBgziZjFLbOXoMHjH/view?usp=sharing
+It is going to be fixed in the future releases of Magisk.
+
+ROM changes:
+==============================
+6/12
+SystemUI: Refactor MobileSignalController implementation
+media: fix ImageReader to handle P010 images
+overlay: add cell broadcast service indicator exemption
+
+6/11
+ElectronBeam: Fix SystemUI FatalException with Netflix and certain use cases
+FooterActions: Add haptic click when long pressing settings icon
+Settings: Also disable navbar hint state if IME space is hidden
+SystemUI: add haptic feedback for qs tiles
