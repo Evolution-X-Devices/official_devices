@@ -1,0 +1,53 @@
+=======================
+Notes
+=======================
+For spesn user with NFC:
+- Please flash firmware for your device via TWRP for NFC to work(no matter what's to flash first)
+- You can download firmware-only file here: https://xiaomifirmwareupdater.com/firmware/spesn/
+- If NFC still not working, you need to back to stock rom with miflash first, then flash this Evolution X build
+=======================
+Device
+=======================
+- Fixed NFC
+- Fixed fast charging issue
+- Back to stock thermal configs
+- Improve rounded corner
+- Enabled smart pixels support
+- Improve RAM management
+- More
+
+=======================
+ROM
+=======================
+6/15
+Settings: Long press to copy wifi password
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Optimize the selected WFD route preference summary
+
+6/14
+Add upstream fixes to ElectronBeam screen-off animation
+Fix crash with protected content with ElectronBeam/Scale screen-off animation
+Evolver: Bring back QQS brightness slider
+Evolver: Bring back Status bar logo customizations
+SystemUI: FPSInfoService: get statusbar insets ignoring visibility
+SystemUI: Refactor brightness slider paddings
+SystemUI: cleanup fps info tile and service
+Update translations
+Use brightness icon matching with slider redesign
+services: AppLockManagerService: ignore uninstall intent if app is being replaced
+
+6/12
+Evolver: Bring back Smart Pixels (per-device compatibility)
+SystemUI: Refactor MobileSignalController implementation
+media: fix ImageReader to handle P010 images
+overlay: add cell broadcast service indicator exemption
+
+6/11
+FooterActions: Add haptic click when long pressing settings icon
+Settings: Also disable navbar hint state if IME space is hidden
+SystemUI: add haptic feedback for qs tiles
+
+6/10
+Evolver: Toggle data usage view on QS footer
+Limit SafetyNet workarounds to unstable GMS process
+PixelPropsUtils: Press F for bonito and sargo
