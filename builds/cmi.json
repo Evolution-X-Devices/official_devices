@@ -1,17 +1,17 @@
 {
-   "datetime": 1654789214,
+   "datetime": 1655444600,
    "donate_url": "https://www.paypal.me/yarpiin",
    "error": false,
-   "filehash": "0d132c49469ea11a68c1b2ef1a7669e4",
-   "filename": "evolution_cmi-ota-sq3a.220605.009.b1-06091640.zip",
+   "filehash": "5904313c7a862bca64f8bedafc15e9c0",
+   "filename": "evolution_cmi-ota-sq3a.220605.009.b1-06170643.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-0-umi-cmi-official-evolution-x.4272743/",
-   "id": "3c84fbb111d47a3e3191cc75bcaf2f0af19f2666c819d3bdbd1786c92a1ec09a",
+   "id": "014a2bc03fec854a8d7caf4e0e7c91323e282f986b5b5baa94c9c6a80350d2c6",
    "maintainer": "Slaw Handzlik (yarpiin)",
    "maintainer_url": "https://github.com/yarpiin",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2369411619,
+   "size": 2386623702,
    "telegram_username": "yarpiin",
-   "url": "https://sourceforge.net/projects/evolution-x/files/cmi/evolution_cmi-ota-sq3a.220605.009.b1-06091640.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/cmi/evolution_cmi-ota-sq3a.220605.009.b1-06170643.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }

@@ -1,0 +1,125 @@
+  
+2022-06-17
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.4.0
+
+DEVICE:
+
+  * sm8250-common: minor changes
+
+ROM:
+
+6/17
+
+AlarmManagerService: Reduce log level wtf -> w
+
+InputWrapper: Opt out early if session == null
+
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+
+SystemUI: Make popup menus more rounded
+
+neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
+
+
+6/16
+
+CarrierSettings: Update from SQ3A.220605.009.A1
+
+GameSpace: Add battery remaining text
+
+GameSpace: Add memory info in game overlay
+
+GameSpace: Add tiles layout for portrait mode
+
+GameSpace: Add time/date in panel view
+
+GameSpace: Fix per game configure icon on light theme
+
+GameSpace: Redesign layout with time/date views
+
+GameSpace: Redesign overlay with battery text and time views
+
+GameSpace: Set default panel view opacity to 100%
+
+Settings: Disable "SIM card lock" when the SIM card is PUK-blocked
+
+Settings: Don’t translate battery_stats_clear string
+
+Settings: Fix default value for IME space
+
+
+6/15
+
+BluetoothControllerImpl: fetch battery level from any device
+
+BluetoothControllerImpl: synchronize mConnectedDevices access
+
+Evolver: Allow setting battery percent view on left
+
+Evolver: Battery Styles: Add customization for QS
+
+PhoneStatusBarPolicy: Show battery level for all devices
+
+Settings: Long press to copy wifi password
+
+Settings: Make NetworkScanHelper max search time customizable
+
+Settings: Optimize the selected WFD route preference summary
+
+Update prebuilt gapps to June patch release versions
+
+
+6/14
+
+Add upstream fixes to ElectronBeam screen-off animation
+
+Fix crash with protected content with ElectronBeam/Scale screen-off animation
+
+Evolver: Bring back QQS brightness slider
+
+Evolver: Bring back Status bar logo customizations
+
+SystemUI: FPSInfoService: get statusbar insets ignoring visibility
+
+SystemUI: Refactor brightness slider paddings
+
+SystemUI: cleanup fps info tile and service
+
+Update translations
+
+Use brightness icon matching with slider redesign
+
+services: AppLockManagerService: ignore uninstall intent if app is being replaced
+
+
+6/12
+
+Evolver: Bring back Smart Pixels (per-device compatibility)
+
+SystemUI: Refactor MobileSignalController implementation
+
+media: fix ImageReader to handle P010 images
+
+overlay: add cell broadcast service indicator exemption
+
+
+6/11
+
+FooterActions: Add haptic click when long pressing settings icon
+
+Settings: Also disable navbar hint state if IME space is hidden
+
+SystemUI: add haptic feedback for qs tiles
+
+
+6/10
+
+Evolver: Toggle data usage view on QS footer
+
+Limit SafetyNet workarounds to unstable GMS process
+
+PixelPropsUtils: Press F for bonito and sargo
