@@ -1,0 +1,27 @@
+This is Android 12.1 with June 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+None
+------------------------------
+ROM changes:
+==============================
+ElectronBeam: Fix SystemUI FatalException with Netflix and certain use cases
+Evolver: Toggle data usage view on QS footer
+Fix issue with app crashing (HDFC, games, etc.)
+FooterActions: Add haptic click when long pressing settings icon
+Hide the "Show the vibrate icon in the Status Bar" setting
+Limit SafetyNet workarounds to unstable GMS process
+PreviewInflater: Fix issue with google dialer widget on keyguard
+Settings: Also disable navbar hint state if IME space is hidden
+Settings: Improve IME space feature
+Show the vibrate icon in the Status Bar by default
+SystemUI: Fix NPE for per-app volume
+SystemUI: add haptic feedback for qs tiles
+Update ThemedIcons
