@@ -1,0 +1,18 @@
+This build you're receiving is evolution_violet-ota-sq3a.220605.009.b1-06211637.zip
+
+Notes:
+Rom is encrypted by default
+Gapps, Firmware And AOSP Recovery is shipped by default
+
+Optimization
+    Increased system stability
+    Reduced system lag
+System
+    Stable Evolution X based on Android 12L/12.1
+    Updated Android Security Patch to May 2022. Increased system security
+Audio
+    Increase earpiece volume a little bit
+Security
+    Kernel: Switched to inline Azure kernel
+Others
+    Updated some gps and radio stuffs 
