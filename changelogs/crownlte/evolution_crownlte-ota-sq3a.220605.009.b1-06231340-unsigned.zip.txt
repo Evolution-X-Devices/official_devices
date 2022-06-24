@@ -1,0 +1,44 @@
+DEVICE:
+- Switched to GCamGO as stock camera
+- Slightly modified night light slider
+- Switched to SkiaGL threaded
+- Fixed status bar glitch "again"
+- Switched to new gnss / OMX blobs from N770F
+- Used calibrated LUX sensor for autobrightness
+- Recognizing more APNs out of the box
+KERNEL:
+- Upstreamed to 4.9.319
+- Ported N770FXXU8GVE4 Changes
+
+=====================================================
+ROM: 
+6/23
+Re-enable remote keyguard animation
+SystemUI: Fix double unlock sound issue
+gms: Disable obdm support on non-qcom pixels
+gms: Include P2021 walls as optional package
+
+6/21
+Evolver: Bring back animations to quick settings tiles
+
+6/19
+Evolver: Bring back Transparent QS customization
+Evolver: Import RenderingJitter test from FWB
+Evolver: Insert screen off fod toggle into UDFPS settings
+Evolver: Logo: Add amogus icon
+Evolver: Rework media artwork notification
+SystemUI: Fix daily data view in QS footer
+Update several APNs from SQ3A.220605.009.B1
+apns: Remove user_editable="false" for user visible APNs
+base: Do not reset keyguard going away state
+kernel: Avoid unnecessary savedefconfig
+kernel: Clean up kernel copy recipes
+kernel: Ensure dtb(o) always get rebuilt
+kernel: Remove unneeded MKDTIMG dependency
+
+6/17
+AlarmManagerService: Reduce log level wtf -> w
+InputWrapper: Opt out early if session == null
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+SystemUI: Make popup menus more rounded
+neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
