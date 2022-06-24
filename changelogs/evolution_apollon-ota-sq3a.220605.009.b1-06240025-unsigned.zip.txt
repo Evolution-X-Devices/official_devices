@@ -1,0 +1,74 @@
+Device Side:
+=====================================
+- All blobs updated from MIUI-APOLLOEEA-13.0.7.0
+- Misc performance & stability optimizations
+
+=====================================
+
+Notes:
+==============================
+- Dirty flash is fine.
+- Required fw now is 13.0.7.0 EEA 
+- Don't forget to set dynamic thermal profile as default using kernel manager apps like fkm (in fkm-> Kernel settings-> miscellaneous-> thermal profile-> dynamic and turn the switch on)
+- This release using new camera blobs from latest miui which introduce better camera experience in overall situation, this was confirmed by the testing done by gcam devs/testers of apollo gcam group
+------------------------------
+
+
+ROM changes:
+==============================
+6/23
+Re-enable remote keyguard animation
+SystemUI: Fix double unlock sound issue
+gms: Disable obdm support on non-qcom pixels
+gms: Include P2021 walls as optional package
+
+6/21
+Evolver: Bring back animations to quick settings tiles
+
+6/19
+Evolver: Bring back Transparent QS customization
+Evolver: Import RenderingJitter test from FWB
+Evolver: Insert screen off fod toggle into UDFPS settings
+Evolver: Logo: Add amogus icon
+Evolver: Rework media artwork notification
+SystemUI: Fix daily data view in QS footer
+Update several APNs from SQ3A.220605.009.B1
+apns: Remove user_editable="false" for user visible APNs
+base: Do not reset keyguard going away state
+kernel: Avoid unnecessary savedefconfig
+kernel: Clean up kernel copy recipes
+kernel: Ensure dtb(o) always get rebuilt
+kernel: Remove unneeded MKDTIMG dependency
+
+6/17
+AlarmManagerService: Reduce log level wtf -> w
+InputWrapper: Opt out early if session == null
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+SystemUI: Make popup menus more rounded
+neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
+
+6/16
+CarrierSettings: Update from SQ3A.220605.009.A1
+GameSpace: Add battery remaining text
+GameSpace: Add memory info in game overlay
+GameSpace: Add tiles layout for portrait mode
+GameSpace: Add time/date in panel view
+GameSpace: Fix per game configure icon on light theme
+GameSpace: Redesign layout with time/date views
+GameSpace: Redesign overlay with battery text and time views
+GameSpace: Set default panel view opacity to 100%
+Settings: Disable "SIM card lock" when the SIM card is PUK-blocked
+Settings: Don’t translate battery_stats_clear string
+Settings: Fix default value for IME space
+
+6/15
+BluetoothControllerImpl: fetch battery level from any device
+BluetoothControllerImpl: synchronize mConnectedDevices access
+Evolver: Allow setting battery percent view on left
+Evolver: Battery Styles: Add customization for QS
+PhoneStatusBarPolicy: Show battery level for all devices
+Settings: Long press to copy wifi password
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Optimize the selected WFD route preference summary
+Update prebuilt gapps to June patch release versions
+
