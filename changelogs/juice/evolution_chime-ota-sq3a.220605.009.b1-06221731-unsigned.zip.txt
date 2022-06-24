@@ -1,0 +1,37 @@
+Device Changelog:
+- Initial OSS build.
+
+ROM:
+
+6/21
+
+Evolver: Bring back animations to quick settings tiles
+
+
+6/19
+
+Evolver: Bring back Transparent QS customization
+
+Evolver: Import RenderingJitter test from FWB
+
+Evolver: Insert screen off fod toggle into UDFPS settings
+
+Evolver: Logo: Add amogus icon
+
+Evolver: Rework media artwork notification
+
+SystemUI: Fix daily data view in QS footer
+
+Update several APNs from SQ3A.220605.009.B1
+
+apns: Remove user_editable="false" for user visible APNs
+
+base: Do not reset keyguard going away state
+
+kernel: Avoid unnecessary savedefconfig
+
+kernel: Clean up kernel copy recipes
+
+kernel: Ensure dtb(o) always get rebuilt
+
+kernel: Remove unneeded MKDTIMG dependency
