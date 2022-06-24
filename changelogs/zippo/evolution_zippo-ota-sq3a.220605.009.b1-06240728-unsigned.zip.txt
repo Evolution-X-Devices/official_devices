@@ -1,0 +1,35 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+- Bring back blurs (toggable under Display settings)
+- Support Smart Pixels
+
+**Evolution X Update**
+- Evolver: Bring back animations to quick settings tiles
+- Evolver: Bring back Transparent QS customization
+- Evolver: Import RenderingJitter test from FWB
+- Evolver: Allow setting battery percent view on left
+- Evolver: Battery Styles: Add customization for QS
+- Evolver: Bring back Smart Pixels
+- Evolver: Bring back QQS brightness slider
+- Evolver: Bring back Status bar logo customizations
+- Evolver: Logo: Add amogus icon
+- SystemUI: Fix daily data view in QS footer
+- SystemUI: Make popup menus more rounded
+- SystemUI: Add haptic feedback for qs tiles
+- SystemUI: Fix double unlock sound issue
+- GameSpace: Add battery remaining text
+- GameSpace: Add memory info in game overlay
+- GameSpace: Add tiles layout for portrait mode
+- GameSpace: Add time/date in panel view
+- GameSpace: Fix per game configure icon on light theme
+- GameSpace: Redesign layout with time/date views
+- GameSpace: Redesign overlay with battery text and time views
+- GameSpace: Set default panel view opacity to 100%
+- Add support for External EXT4/F2FS storage
+- gms: Include P2021 walls as optional package
+- FooterActions: Add haptic click when long pressing settings icon
+- Update translations
