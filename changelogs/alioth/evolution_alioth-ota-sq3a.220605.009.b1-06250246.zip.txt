@@ -1,0 +1,33 @@
+Device Changelog:
+Switch to EROFS file system
+Enable readahead for system partitions
+Latest NOkernel
+Label selinux denials
+And other changes...
+
+ROM Changelog:
+Re-enable remote keyguard animation
+SystemUI: Fix double unlock sound issue
+Evolver: Bring back animations to quick settings tiles
+Evolver: Import RenderingJitter test from FWB
+Update several APNs from SQ3A.220605.009.B1
+Evolver: Allow setting battery percent view on left
+Evolver: Battery Styles: Add customization for QS
+Update prebuilt gapps to June patch release versions
+Add upstream fixes to ElectronBeam screen-off animation
+Fix crash with protected content with ElectronBeam/Scale screen-off animation
+Evolver: Bring back QQS brightness slider
+Evolver: Bring back Status bar logo customizations
+services: AppLockManagerService: ignore uninstall intent if app is being replaced
+Settings: Also disable navbar hint state if IME space is hidden
+SystemUI: add haptic feedback for qs tiles
+Evolver: Toggle data usage view on QS footer
+Limit SafetyNet workarounds to unstable GMS process
+Settings: Improve IME space feature
+Update ThemedIcons
+Merge June 2022 security patches
+Settings: Add Remove space under keyboard feature
+version: Uprev to 6.5
+QSFooter: Launch The Evolver when long clicking settings
+SystemUI: Use App icon for per-app volume
+
