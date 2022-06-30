@@ -1,0 +1,29 @@
+**Device Changes:**
+- Etude kernel: Op.12 No.4
+  * Linux 4.9.319
+  * merged CL tag `LA.UM.9.8.r1-05000-SDM710.0` into the main kernel and `LA.UM.8.3.c25-06200-sdm845.0` into qcacld-3.0
+  * built with Prelude Clang based on the latest LLVM Clang 15 source
+  * fixed lots of warnings from Clang 15
+  * backported lz4's fast decompress loop from upstream lz4 1.9.3, which offers 10% throughput increase in zram lz4 decompression
+  * imported the latest exFAT kernel driver backport from mainline kernel and switched to this driver for exFAT from the old unmaintained sdFAT driver
+  * DO NOT use another kernel. Just don't.
+- Disabled redir_party_num. This should fix the issue of incorrect incoming caller phone number format for some carriers.
+- Dropped an unused DRM build flag
+- Updated deprecated screen power items in power profile
+- Fixed a statusbar height issue after June's patch
+- Switched back to GL for HWUI renderer (from Vulkan)
+  * display artifacts when playing videos in some apps should be fixed
+- Moved to qcom's unified USB init scripts
+- Used the cgroup and task_profile configs from system directly
+
+**Evolution X Update**
+- June security patch
+- Added a button to reset battery usage stats
+- GameSpace updates
+- Option to configure navbar radius
+- Some more pulse options in Evolver
+- Added battery bar
+- More VoLTE icons
+- Option to skip 3 second timer in screen record
+- More statusbar and QS customizations
+- Brought back lockscreen charging info
