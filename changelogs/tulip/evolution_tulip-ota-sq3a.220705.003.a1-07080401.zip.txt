@@ -1,0 +1,80 @@
+This is Android 12.1 with July 2022 security patches
+
+Device changes:
+====================================
+None ¯\_( ͡° ͜ʖ ͡°)_/¯
+
+
+ROM changes:
+====================================
+7/8
+gms: Add missing call for Quick Tap flag
+gms: Build Carrier apps only for Pixel devices
+gms: Build Pixel2021 walls for everyone
+gms: Remove Drive, Gmail, Maps, OemDmTrigger
+
+7/7
+Bluetooth: Allow sending any file via Bluetooth
+Evolver: Enable auth ripple and fingerprint vib by default
+Merge July 2022 security patches
+PixelPropsUtils: Update fingerprints to July 2022 release
+themes: Add W33d icon styles
+themes: Introduce and update navbar styles
+
+7/6
+Evolver: Option to disable music track title in QS tile
+MediaPlayer: Shift background shade to system_accent1_400
+NetworkStatsHistory: Prevent IllegalArgumentException
+QS: Add Locale Tile
+QS: Add Music QS Tile
+QS: improve tile state consistency
+SystemUI: Avoid NPE in volume dialog
+SystemUI: Bring in drawables for status bar icon toggles
+SystemUI: disable keyguard screen off animation if we use split notification shade
+common: Allow camera HAL to read auxiliary camera properties
+
+7/5
+Factor out preference-in-storage check to overridable method
+PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+Settings: Fix NPE on isUdfps
+Settings: Improve AP strings
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+SystemUI: More rounded corners
+SQLiteDatabase: Catch corrupt exception during transaction
+Updater: Cleanup download dir after reboot
+Updater: Enable user data cleaning
+apns: Add China Broadnet (CBN) support
+base: wm: Follow rounded corners by split divider corner size
+
+7/4
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+QuickStatusBarHeader: Link date in QS status bar with clock
+SystemUI: Battery Styles: Do not apply SB battery meter style changes for QS battery meter
+core: Don't spoof props in recovery mode
+core: Refactor workaround SafetyNet check
+prebuilt: de-duplicate and rework 460:02 and 460:09
+prebuilt: rework APN for 425:01
+prebuilt: rework APNs for KPN (204:08)
+
+7/3
+SystemUI: Fix QS mobile icon disappearing on theme switch
+
+7/1
+SystemUI: Clean up and fix QQS Brightness slider padding
+
+6/30
+Evolver: Bring back Lockscreen Charging info
+Evolver: Remove lock screen media art blur level (buggy)
+Evolver: Remove status bar notification count (buggy)
+Evolver: Make notification artwork background toggleable
+SystemUI: Fix notification view not updating on ui mode change
+SystemUI: Media notification: Remove blur customizations
+SystemUI: Rework media notification view
+Update translations
+
+6/29
+SystemUI: Clean up and fix Status bar Logo feature
+SystemUI: Fix suspicious spaces around mobile icons
+SystemUI: Introduce 5G toggle in internet connectivity dialog
+Update SMS short code list for Bahrain
+Update SMS short code list for Mexico and Colombia
