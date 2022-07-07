@@ -1,0 +1,21 @@
+This build you're receiving is evolution_violet-ota-sq3a.220705.003.a1-07071231.zip
+
+Notes:
+Rom is encrypted by default.
+Gapps And Firware are shipped by default.
+AOSP Recovery is no more shipped by default.
+Either use AOSP Recovery or Joker's latest TWRP for Encryption.
+
+Optimization
+    Increased system stability
+    Reduced system lag
+    Optimize app opening times(by IORAP feature)
+System
+    Stable Evolution X based on Android 12L/12.1
+    Updated Android Security Patch to July 2022. Increased system security
+Audio
+    Fixed some echo related issues in in-call speaker
+Others
+    Tuned Thermal configs a bit(i want all your opinions for this if it got better or worse or nothing changed)
+    Tuned Keyboard haptics
+    Fixed System>System update>Changelog button
