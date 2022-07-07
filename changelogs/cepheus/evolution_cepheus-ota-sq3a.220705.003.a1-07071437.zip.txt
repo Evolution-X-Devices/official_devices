@@ -1,0 +1,110 @@
+Notes
+
+==============================
+ALWAYS BACKUP BEFORE UPDATING.
+Do not dirty flash from Android 11. The best is to clean flash.
+Dirty flash from previous A12L build should be OK.
+Try a clean flash if you encounter issues.
+
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+If you experience green tint issues, you can simply switch back to 60Hz refresh rate using the QS tile
+
+=========================================
+Device changes:
+
+- Fix statusbar height
+- Enable refresh rate controls
+- Use back prebuilt IFAAService
+- overlay: Disable Adaptive Connectivity preference
+- overlay: enable VoLTE support for Three
+- overlay: enable VoLTE support for Indosat and XL Axiata
+- CarrierConfig: Enable VoLTE support for Telkomsel (Indonesia)
+- sepolicy: Fix OTA auto-flashing with encrypted f2fs
+- Disable Zram Writeback
+- overlay: Decouple suspend from screen state 
+- overlay: Enable auto brightness while dozing
+- Use back source built dtbo (green tint issue is now gone)
+- Kernel updated (Linux 4.14.284)
+- Bring back live display (without antiflicker for now)
+- Switch back to QTI bluetooth stack (fixes dirac)
+- parts: sync strigs with A12
+- parts: Add icons
+- parts: add more presets
+- parts: Dirac fixes
+- parts: Handle more error for dirac
+
+=========================================
+Rom changes:
+
+- Merge July 2022 security patches
+- PixelPropsUtils: Update fingerprints to July 2022 release
+- Evolver: Option to disable music track title in QS tile
+- QS: Add Locale Tile
+- QS: Add Music QS Tile
+- QS: improve tile state consistency
+- SystemUI: Bring in drawables for status bar icon toggles
+- PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+- Updater: Cleanup download dir after reboot
+- Updater: Enable user data cleaning
+- QuickStatusBarHeader: Fix clickability issue with privacy indicator
+- QuickStatusBarHeader: Link date in QS status bar with clock
+- SystemUI: Battery Styles: Do not apply SB battery meter style changes for QS battery mete
+- core: Refactor workaround SafetyNet check
+- SystemUI: Clean up and fix QQS Brightness slider padding
+- Evolver: Bring back Lockscreen Charging info
+- Evolver: Make notification artwork background toggleable
+- SystemUI: Rework media notification view
+- SystemUI: Clean up and fix Status bar Logo feature
+- SystemUI: Fix suspicious spaces around mobile icons
+- base: EasterEgg: Implement Android 12L Easter Egg
+- vendor: Add overlay to fix app icon font on PixelLauncher
+- AudioService: Fix issue with linked notification volume
+- Evolver: Bring back click to take partial screenshot feature
+- Settings: Add preference for toggling the wallpaper zooming animation
+- Evolver: Remove transparency QS options (still buggy)
+- Switch back to original charging animation background
+- Add support for External EXT4/F2FS storage
+- SystemUI: Fix few issues with toggling privacy indicators
+- Re-enable remote keyguard animation
+- SystemUI: Fix double unlock sound issue
+- Evolver: Bring back animations to quick settings tiles
+- Evolver: Import RenderingJitter test from FWB
+- Update several APNs from SQ3A.220605.009.B1
+- Evolver: Allow setting battery percent view on left
+- Evolver: Battery Styles: Add customization for QS
+- Update prebuilt gapps to June patch release versions
+- Add upstream fixes to ElectronBeam screen-off animation
+- Fix crash with protected content with ElectronBeam/Scale screen-off animation
+- Evolver: Bring back QQS brightness slider
+- Evolver: Bring back Status bar logo customizations
+- Bluetooth: Allow sending any file via Bluetooth
+- Evolver: Enable auth ripple and fingerprint vib by default
+- apns: Add China Broadnet (CBN) support
+- core: Don't spoof props in recovery mode
+- SystemUI: Fix QS mobile icon disappearing on theme switch
+- Evolver: Remove lock screen media art blur level (buggy)
+- Evolver: Remove status bar notification count (buggy)
+- SystemUI: Fix notification view not updating on ui mode change
+- SystemUI: Media notification: Remove blur customizations
+- Update translations
+- Evolver: Insert screen off fod toggle into UDFPS settings
+- Evolver: Logo: Add amogus icon
+- Evolver: Rework media artwork notification
+- SystemUI: Fix daily data view in QS foote
+- SystemUI: Make popup menus more rounded
+- CarrierSettings: Update from SQ3A.220605.009.A1
+- GameSpace: Add battery remaining text
+- GameSpace: Add memory info in game overlay
+- GameSpace: Add tiles layout for portrait mode
+- GameSpace: Add time/date in panel view
+- GameSpace: Fix per game configure icon on light theme
+- GameSpace: Redesign layout with time/date views
+- GameSpace: Redesign overlay with battery text and time views
+- GameSpace: Set default panel view opacity to 100%
+- PhoneStatusBarPolicy: Show battery level for all devices
+- Settings: Long press to copy wifi password
+- Various fixes
