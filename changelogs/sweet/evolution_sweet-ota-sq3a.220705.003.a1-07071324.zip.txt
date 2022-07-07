@@ -1,0 +1,83 @@
+This is Android 12.1 with July 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Special Note:
+==============================
+• A clean flash is STRONGLY recommend. (Format Data Needed DFE Won't work)
+• Only flash it using these recoveries. No other recovery will work. (https://t.me/RedmiNote10ProChannel/1176)
+• VantomKernel is the default kernel
+• The latest MIUI 13 firmware for your region is recommended
+• Switched to EROFS (Enhanced read only file system)
+• Enabled F2FS compression (Needs a clean flash if you are coming from may build)
+------------------------------
+Device changes:
+==============================
+- Rebased on the latest xiaomi-sm6150 sources
+- Switched to user builds
+- Updated blobs from miui_SWEETEEAGlobal_V13.0.10.0.SKFEUXM
+- Added support for JAPAN region (M2101K6R)
+- Added back thermal profiles
+- Added Neural Networks and Snapdragon Computer Vision Engine stack
+- Change cache partition to f2fs
+- Fixed the always on display flicker
+- Fixed camera interface on ViLTE calls
+- Fixed a few issues with the microphone
+- Fixed an issue with AI mode messing up cores frequency (thanks pulkit for helping)
+- Fixed Google Recorder
+- Removed Dolby Atmos
+- Some other audio changes
+- SEPolicy fixes
+- LiveDisplay fixes
+- Fix miui Camera ( use this only https://t.me/hmnote10pro/1836 so AI mode won't break stuff )
+- Updated kernel
+- Switched to QTI bluetooth
+- Recovery now flashes stuff properly
+- Labeled more wakeup nodes
+- Switch SchedTune to UClamp
+- Updated VantomKernel
+- Other misc. changes and fixes
+Credit :- 
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+------------------------------
+ROM changes:
+==============================
+Bluetooth: Allow sending any file via Bluetooth
+Evolver: Option to disable music track title in QS tile
+Factor out preference-in-storage check to overridable method
+MediaPlayer: Shift background shade to system_accent1_400
+Merge July 2022 security patches
+NetworkStatsHistory: Prevent IllegalArgumentException
+PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+PixelPropsUtils: Update fingerprints to July 2022 release
+QS: Add Locale Tile
+QS: Add Music QS Tile
+QS: improve tile state consistency
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+QuickStatusBarHeader: Link date in QS status bar with clock
+SQLiteDatabase: Catch corrupt exception during transaction
+Settings: Fix NPE on isUdfps
+Settings: Improve AP strings
+SystemUI: Avoid NPE in volume dialog
+SystemUI: Battery Styles: Do not apply SB battery meter style changes for QS battery meter
+SystemUI: Bring in drawables for status bar icon toggles
+SystemUI: Clean up and fix QQS Brightness slider padding
+SystemUI: Fix QS mobile icon disappearing on theme switch
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+SystemUI: More rounded corners
+SystemUI: disable keyguard screen off animation if we use split notification shade
+Updater: Cleanup download dir after reboot
+Updater: Enable user data cleaning
+apns: Add China Broadnet (CBN) support
+base: wm: Follow rounded corners by split divider corner size
+common: Allow camera HAL to read auxiliary camera properties
+core: Don't spoof props in recovery mode
+core: Refactor workaround SafetyNet check
+prebuilt: de-duplicate and rework 460:02 and 460:09
+prebuilt: rework APN for 425:01
+prebuilt: rework APNs for KPN (204:08)
