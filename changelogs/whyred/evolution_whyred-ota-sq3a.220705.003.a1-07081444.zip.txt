@@ -1,0 +1,188 @@
+Evolution X Official Changelog list
+
+7/8
+gms: Add missing call for Quick Tap flag
+gms: Build Carrier apps only for Pixel devices
+gms: Build Pixel2021 walls for everyone
+gms: Remove Drive, Gmail, Maps, OemDmTrigger
+
+7/7
+Bluetooth: Allow sending any file via Bluetooth
+Evolver: Enable auth ripple and fingerprint vib by default
+Merge July 2022 security patches
+PixelPropsUtils: Update fingerprints to July 2022 release
+themes: Add W33d icon styles
+themes: Introduce and update navbar styles
+
+7/6
+Evolver: Option to disable music track title in QS tile
+MediaPlayer: Shift background shade to system_accent1_400
+NetworkStatsHistory: Prevent IllegalArgumentException
+QS: Add Locale Tile
+QS: Add Music QS Tile
+QS: improve tile state consistency
+SystemUI: Avoid NPE in volume dialog
+SystemUI: Bring in drawables for status bar icon toggles
+SystemUI: disable keyguard screen off animation if we use split notification shade
+common: Allow camera HAL to read auxiliary camera properties
+
+7/5
+Factor out preference-in-storage check to overridable method
+PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+Settings: Fix NPE on isUdfps
+Settings: Improve AP strings
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+SystemUI: More rounded corners
+SQLiteDatabase: Catch corrupt exception during transaction
+Updater: Cleanup download dir after reboot
+Updater: Enable user data cleaning
+apns: Add China Broadnet (CBN) support
+base: wm: Follow rounded corners by split divider corner size
+
+7/4
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+QuickStatusBarHeader: Link date in QS status bar with clock
+SystemUI: Battery Styles: Do not apply SB battery meter style changes for QS battery meter
+core: Don't spoof props in recovery mode
+core: Refactor workaround SafetyNet check
+prebuilt: de-duplicate and rework 460:02 and 460:09
+prebuilt: rework APN for 425:01
+prebuilt: rework APNs for KPN (204:08)
+
+7/3
+SystemUI: Fix QS mobile icon disappearing on theme switch
+
+7/1
+SystemUI: Clean up and fix QQS Brightness slider padding
+
+6/30
+Evolver: Bring back Lockscreen Charging info
+Evolver: Remove lock screen media art blur level (buggy)
+Evolver: Remove status bar notification count (buggy)
+Evolver: Make notification artwork background toggleable
+SystemUI: Fix notification view not updating on ui mode change
+SystemUI: Media notification: Remove blur customizations
+SystemUI: Rework media notification view
+Update translations
+
+6/29
+SystemUI: Clean up and fix Status bar Logo feature
+SystemUI: Fix suspicious spaces around mobile icons
+SystemUI: Introduce 5G toggle in internet connectivity dialog
+Update SMS short code list for Bahrain
+Update SMS short code list for Mexico and Colombia
+
+6/28
+Handle non-exist permission group correctly for pm list permissions
+base: EasterEgg: Implement Android 12L Easter Egg
+base: Provide missing permissions for SystemUI
+base: Provide required permissions for cellbroadcastreceiver
+core: Fix menu popup ripple
+device_config: Disable always screen on
+vendor: Add overlay to fix app icon font on PixelLauncher
+
+6/26
+AudioService: Fix issue with linked notification volume
+Don't build QuickSearchBox
+Evolver: Bring back click to take partial screenshot feature
+Fix potential error for sys.platform
+Settings: Add preference for toggling the wallpaper zooming animation
+SystemUI: screenshot: add delay for long-press partial screenshot
+SystemUI: screenshot: add extra crop boundaries
+SystemUI: screenshot: close QS after launching long screenshot activity
+SystemUI: screenshot: disable magnification for partial screenshots
+SystemUI: screenshot: open long screenshot activity for partial screenshots
+SystemUI: screenshot: remove duplicate clamping on move action
+SystemUI: screenshot: remove misplaced call to set crop view padding
+
+6/25
+Evolver: Remove transparency QS options (still buggy)
+Switch back to original charging animation background
+
+6/24
+Add support for External EXT4/F2FS storage
+Evolver: Add rotationX animation to quick settings tiles
+GameSpace: Improve strings
+SystemUI: Fix few issues with toggling privacy indicators
+SystemUI: logo: Re-align amogus icon
+services: fix a synchronization issue in CachedAppOptimizer
+
+6/23
+Re-enable remote keyguard animation
+SystemUI: Fix double unlock sound issue
+gms: Disable obdm support on non-qcom pixels
+gms: Include P2021 walls as optional package
+
+6/21
+Evolver: Bring back animations to quick settings tiles
+
+6/19
+Evolver: Import RenderingJitter test from FWB
+Evolver: Insert screen off fod toggle into UDFPS settings
+Evolver: Logo: Add amogus icon
+Evolver: Rework media artwork notification
+SystemUI: Fix daily data view in QS footer
+Update several APNs from SQ3A.220605.009.B1
+apns: Remove user_editable="false" for user visible APNs
+base: Do not reset keyguard going away state
+
+6/17
+AlarmManagerService: Reduce log level wtf -> w
+InputWrapper: Opt out early if session == null
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+SystemUI: Make popup menus more rounded
+neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
+
+6/16
+CarrierSettings: Update from SQ3A.220605.009.A1
+GameSpace: Add battery remaining text
+GameSpace: Add memory info in game overlay
+GameSpace: Add tiles layout for portrait mode
+GameSpace: Add time/date in panel view
+GameSpace: Fix per game configure icon on light theme
+GameSpace: Redesign layout with time/date views
+GameSpace: Redesign overlay with battery text and time views
+GameSpace: Set default panel view opacity to 100%
+Settings: Disable "SIM card lock" when the SIM card is PUK-blocked
+Settings: Don’t translate battery_stats_clear string
+Settings: Fix default value for IME space
+
+6/15
+BluetoothControllerImpl: fetch battery level from any device
+BluetoothControllerImpl: synchronize mConnectedDevices access
+Evolver: Allow setting battery percent view on left
+Evolver: Battery Styles: Add customization for QS
+PhoneStatusBarPolicy: Show battery level for all devices
+Settings: Long press to copy wifi password
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Optimize the selected WFD route preference summary
+Update prebuilt gapps to June patch release versions
+
+6/14
+Add upstream fixes to ElectronBeam screen-off animation
+Fix crash with protected content with ElectronBeam/Scale screen-off animation
+Evolver: Bring back QQS brightness slider
+Evolver: Bring back Status bar logo customizations
+SystemUI: FPSInfoService: get statusbar insets ignoring visibility
+SystemUI: Refactor brightness slider paddings
+SystemUI: cleanup fps info tile and service
+Update translations
+Use brightness icon matching with slider redesign
+services: AppLockManagerService: ignore uninstall intent if app is being replaced
+
+6/12
+Evolver: Bring back Smart Pixels (per-device compatibility)
+SystemUI: Refactor MobileSignalController implementation
+media: fix ImageReader to handle P010 images
+overlay: add cell broadcast service indicator exemption
+
+6/11
+FooterActions: Add haptic click when long pressing settings icon
+Settings: Also disable navbar hint state if IME space is hidden
+SystemUI: add haptic feedback for qs tiles
+
+6/10
+Evolver: Toggle data usage view on QS footer
+Limit SafetyNet workarounds to unstable GMS process
+PixelPropsUtils: Press F for bonito and sargo
+
