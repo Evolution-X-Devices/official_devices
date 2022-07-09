@@ -740,5 +740,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-evolution-x-6-3-spes-spesn-13-05-2022.4451865/"
          }
       ]
-   }
+},
+{
+      "brand": "OnePlus",
+      "codename": "avicii",
+      "name": "Nord",
+      "supported_versions": [
+         {
+            "maintainer_name": "Sreeshankar K",
+            "maintainer_url": "https://t.me/SkSanju2002"
+            "version_code": "twelve"
+            "version_name": "Twelve"
+            "xda_thread": "https://forum.xda-developers.com/t/evolution-x-rom-based-on-android-12-for-oneplus-nord-ac2001-avicii.4466553"
+         }
+      ]
+   },
 ]
