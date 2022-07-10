@@ -1,0 +1,105 @@
+=======================
+Notes
+=======================
+- CLEAN FLASH REQUIRED
+- Use TWRP 3.6.2/Evolution X recovery from July
+
+=======================
+Device
+=======================
+July build changelog
+
+What's fixed
+- Fixed status bar glitch for apps that access internal resource dimen
+- Fixed device name can't be changed
+- Fixed pressing power button sometime not turn off the screen (Goodix)
+- Fixed mic not working in recorder apps
+- Fixed video recording not working in some apps
+- Fixed ping issues by disable some GMS services
+- Fixed slow charging issues
+- Fixed "USB Connected" even disconnected
+- Add overlays to completely cover punch hole and corner aliasing
+
+
+What's improved
+- Update blobs/kernel from 13.0.11.0_11
+- Some tunning for smoothness/performance
+- Improve RAM managment
+- Improve night light
+- Improve boot speed
+- Allow more app to be cached (64)
+- Compact cached app heaps in the background
+- remove IO read_ahead_kb tune
+- set readahead_size_kb=128 to system, vendor and data
+- set default animation speed to 1.1
+- Remove data/wifi tile from default qs (we already have internet tile)
+- "Turbo charging" will show on lock screen when charging speed is from 21w
+- ZRAM size bump to 75%
+- Unpin launcher/camera in memory
+
+
+What's added/removed
+- Added Dirac
+- Bluetooth is now disabled by default
+- Replace Camera2 with Gcam Go (Shamim V3)
+- Move to Pixel Launcher Mod with dt2s
+- Optimize default homescreen layout
+- Remove FM radio and Android Auto (Can be install from Play Store)
+- Added Google Voice Recorder and Gmail
+- Re-enable wallpaper zooming
+- Added Hey Google support
+- Added smart pixels support
+- Enable subtle tick vibration when revealing shelf (not so working)
+- Added Pixel Wallpaper 2021
+- Added FPS info overlay (Now fps show on game mode)
+
+What's not tested
+- Vowifi
+
+=======================
+ROM Source
+=======================
+Source changelog by 11/7
+
+fonts: Add san francisco display font
+themes: Add new signal icon packs
+themes: Add new udfps icons
+themes: UdfpsAnimations Improvements
+themes: UdfpsIcons: Optimize drawables by converting to webp
+gms: Build Pixel2021 walls for everyone
+Merge July 2022 security patches
+PixelPropsUtils: Update fingerprints to July 2022 release
+themes: Add W33d icon styles
+themes: Introduce and update navbar styles
+Evolver: Option to disable music track title in QS tile
+QS: Add Locale Tile
+QS: Add Music QS Tile
+QS: improve tile state consistency
+SystemUI: Bring in drawables for status bar icon toggles
+PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+Updater: Cleanup download dir after reboot
+Updater: Enable user data cleaning
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+QuickStatusBarHeader: Link date in QS status bar with clock
+SystemUI: Battery Styles: Do not apply SB battery meter style changes for QS battery meter
+core: Refactor workaround SafetyNet check
+Evolver: Bring back Lockscreen Charging info
+Evolver: Make notification artwork background toggleable
+SystemUI: Rework media notification view
+SystemUI: Clean up and fix Status bar Logo feature
+SystemUI: Fix suspicious spaces around mobile icons
+SystemUI: Introduce 5G toggle in internet connectivity dialog
+base: EasterEgg: Implement Android 12L Easter Egg
+vendor: Add overlay to fix app icon font on PixelLauncher
+AudioService: Fix issue with linked notification volume
+Evolver: Bring back click to take partial screenshot feature
+Settings: Add preference for toggling the wallpaper zooming animation
+Evolver: Remove transparency QS options (still buggy)
+Switch back to original charging animation background
+Add support for External EXT4/F2FS storage
+SystemUI: Fix few issues with toggling privacy indicators
+Re-enable remote keyguard animation
+SystemUI: Fix double unlock sound issue
+Evolver: Bring back animations to quick settings tiles
+Evolver: Import RenderingJitter test from FWB
+Update several APNs from SQ3A.220605.009.B1
