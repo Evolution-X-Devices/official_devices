@@ -1,0 +1,24 @@
+DEVICE:
++ Fixed a critical issue in the kernel that makes devices heating and drain more battery.
+
+KERNEL:
++ Switched back to 4.9.319 kernel to reduce logs.
+
+===============================
+ROM: 
+7/9
+SystemUI: Add current divider config for lockscreen charging
+permissions: Update Settings app allowlist
+permissions: Update SettingsProvider permissions
+fonts: Add san francisco display font
+themes: Add new signal icon packs
+themes: Add new udfps icons
+themes: Refactor directories
+themes: UdfpsAnimations Improvements
+themes: UdfpsIcons: Optimize drawables by converting to webp
+
+7/8
+gms: Add missing call for Quick Tap flag
+gms: Build Carrier apps only for Pixel devices
+gms: Build Pixel2021 walls for everyone
+gms: Remove Drive, Gmail, Maps, OemDmTrigger
