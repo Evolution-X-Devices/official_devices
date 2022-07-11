@@ -1,0 +1,25 @@
+Device Changes:
+Switch to Immensity kernel
+Enable IORAPD Readahead
+Update blobs from MIUI 13.0.4.0 Global
+Fix Quick Pair
+
+ROM Changes:
+PixelPropsUtils: GameProps: Hide Apex Legends as Mi11
+PixelPropsUtils: Spoof play store once again
+fonts: Add san francisco display font
+themes: Add new signal icon packs
+gms: Build Pixel2021 walls for everyone
+Merge July 2022 security patches
+PixelPropsUtils: Update fingerprints to July 2022 release
+themes: Add W33d icon styles
+themes: Introduce and update navbar styles
+Evolver: Option to disable music track title in QS tile
+QS: Add Locale Tile
+QS: Add Music QS Tile
+QS: improve tile state consistency
+SystemUI: Bring in drawables for status bar icon toggles
+PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+Updater: Cleanup download dir after reboot
+Updater: Enable user data cleaning
+And more...
