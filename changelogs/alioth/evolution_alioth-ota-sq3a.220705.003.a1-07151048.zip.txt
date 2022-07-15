@@ -1,0 +1,14 @@
+Device Changes:
+Enable 24-bit audio
+Audio prop updates
+Update Audio Configs from LA.UM.9.12.r1-14300-SMxx50.0 and MIUI
+Updated Immensity kernel
+Compile kernel using source clang (users can now install custom kernels without issues)
+
+ROM Changes:
+Evolver: Bring back Alarm & Wakelock blocker feature
+Evolver: Bring back Sensor block package list feature
+Settings: Add setting for timeout-reboot
+Keyguard Clock: Use google sans only for faulty fonts
+ThemedIcons: Bring some more icons
+And more...
