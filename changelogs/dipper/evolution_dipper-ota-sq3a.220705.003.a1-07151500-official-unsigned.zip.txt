@@ -1,0 +1,554 @@
+# Update 12.1 (12L)
+In first place, this build is stable.
+If you come from androi 11 do clean install.
+This build uses kaymaster from Perseus
+so you need use a custom firmware avaible in device group 
+this build as mouted cust to metadata
+you will need a compatible custom recovery avaible in device group
+# Device changes - Dipper 
+Update sound platform
+changed to pixel bases
+update kernel Etude Op.12 No.4
+Linus 4.9.322
+Merged July security patch 
+a lot of changes inside rom 
+the rest of changelog here 
+
+=======================
+     2022/07/15
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Bluetooth/commits/refs/heads/snow
+
+9647682d8 Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/packages/apps/Bluetooth into snow
+fb4251a11 Bluetooth: Allow sending any file via Bluetooth
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+6efc8fa New Crowdin updates (#214)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+a394525ec2 New Crowdin updates (#116)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+a1513a8e config: Use $(abspath .) instead of $(shell pwd)
+
+
+=======================
+     2022/07/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+c53288e3 Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/bootable/recovery into snow
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+80e37ca common: FCM: core-utils: Update vendor.display.color version to 1.8
+901e6e4 common: FCM: Add support to hardware: nfc 1.2 and radio 1.5
+5558761 Revert "vendor: perf: Setup foreground CPU Sets for BENGAL."
+e71a32c Revert: vendor: init: e335efb, 7e5d4f882b31a101b3164f3bc6cb709dca7e9c2a  and 431c121
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+f0d74f5b3ade SystemUI: Add support for timeout-reboot
+322b291ed5b5 Add AlarmsBlocker [1/2]
+f697ea640891 Add WakelockBlocker [1/2]
+7404866ac79f Make sensor block package list configurable [1/2]
+a10824f6bb43 base: Add Accelerometer and Linear Acceleration sensors in blocking list
+3a522280606e FWB: Sensor block per-package switch (1/2)
+fc4a301a1c8a SystemSensorManager: sensor block per-package
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+e02b579 Evolver: BlockSensors: Fix/update the way Footer info is added
+1c5ee5f Evolver: AlarmBlocker|WakelockBlocker: Remove some stray logging
+a2a255c Evolver: Rework Alarm & Wakelock blocker fragments
+38cfcd2 Evolver: Add AlarmsBlocker [2/2]
+bf48675 Evolver: Add WakelockBlocker [2/2]
+023a289 Evolver: Make sensor block package list configurable [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+c10b287f8c Settings: Update all classes which inherit from TogglePreferenceController (12.1.0_r1)
+d9db3dff49 Settings: Toast insulter: Add new insults
+861ef36223 Settings: Add support to open device maintainer's telegram
+2ec348b888 Settings: Convert one-handed mode to a PrimarySwitchPreference
+4ea1fb58aa Settings: Add setting for timeout-reboot
+158c63db7c AppLock: Make timeout strings translatable
+61d6c7d86e Settings: DevicePicker: Adapt to S style
+8b4be1b8d2 Settings: Use ListPreference instead of DropDownPreference
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+296a2b50 soong: Add TARGET_USES_EGL_DISPLAY_ARRAY conditional
+
+
+=======================
+     2022/07/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+87c1a16e5fdb base: ChooserActivity: Don't show image edit button on multiple targets
+75a3d260ebe9 New Crowdin updates (#307)
+9d7ca90198f3 DeviceIdleJobsController: don't ignore whitelisted system apps
+501e352f0b14 SystemUI: CastTile: Open cast settings on long click
+d48aca144f9d Extend splash screen exception list to SC-V2
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+9f65b23e1c Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/frameworks/native into snow
+d30d4a4981 EGL: Conditionally revert commit a9550f3
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+0d88ab6 New Crowdin updates (#213)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+00ff9ef New Crowdin updates (#11)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+7dde7f175e New Crowdin updates (#114)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/snow
+
+126381045 Wifi: Add mVerboseLoggingEnabled variable
+e230b3048 Wifi: Add ExternalCallbackTracker class
+36cd9e1db WifiManager: Add StaState API
+5289c2657 wifi: Add StaState API
+a8c1708b7 Clean up the Wifi internal state when chip reconfiguration fails.
+7365ea33c Wifi: Ingore miracast scan from connectivity manager
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+4112fb2 New Crowdin updates (#13)
+0204923 Automatic translation import
+a4cebe2 Automatic translation import
+e2b0a76 devicesettings: Add moto gesture strings
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+6559e0a9 prebuilt: import APNs for CBN (中国广电)
+294e81fc Revert "apns: Add China Broadnet (CBN) support"
+f491b59d themes: fonts: Import fallback variant of Roboto
+a10abd7c ThemedIcons: Bring some more icons
+
+
+=======================
+     2022/07/12
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+6fae167 vendor: perf: Update bengal perf configs
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+e062529240 Camera: Skip stream size check for whitelisted apps
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+3ef1bfbf719e fonts: Use fallback variant of Roboto
+825f04f42d29 services: AppLockManagerService: fix an oob exception
+3d845c01c4b3 base: Prevent NPE for Demo mode
+5c3f095337d8 Camera: Update HighFrameRate GPU flags
+0b5fc5b49331 fixup! Camera: Skip stream size check for whitelisted apps
+fe7cf50ace73 Keyguard Clock: Use google sans only for faulty fonts
+251d3f83d445 core: Optimize download/upload animations
+622915758036 [SQUASH] Revert several commits
+
+
+=======================
+     2022/07/11
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+bb03dfe Drop rules for adb_root
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+7e5d4f8 Device config: unset radio rat on property
+431c121 vendor: init: Stop all qcrilds on APQ target
+e335efb vendor: init: Remove code for starting legacy ril
+f94046c vendor: init: rootdir: Replace usage of ro.build.product with ro.board.platform
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+41e74e218c16 BootAnimation: Check for resolution override
+4f678219b071 PixelPropsUtils: Spoof play store once again
+ad44c86f47dc PixelPropsUtils: GameProps: Hide Apex Legends as Mi11
+
+
+=======================
+     2022/07/10
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+5079b44 vendor: init: init: remove getprop commands for fixing avc denials
+40801b8 vendor: init: init.qcom.post_boot: Enable support for divar apq
+7f5047d vendor: init: early-boot: add socid for Diwar APQ
+bff48bb vendor: init: common: Remove media netflix prop
+b0adc4c vendor: init: Set property to disable cdsprpcd daemon in post boot
+5b02c42 vendor: init: ueventd: Add support for ipa_lnx_stats_ioctl
+dcf9f1e vendor: init: ueventd: Set permissions for KGSL sysfs node
+0082b68 vendor: init: init_qcom.rc: Set permission to access panel boot param node
+8db85af vendor: init: Enforce android-S new launch debugfs restrictions.
+a0fbe5c vendor: init: ueventd: set permissions to rawdump node
+7d04c39 permission: Adding com.skyhook.blp into the whitelist
+b00773d permissions: Remove com.qualcomm.qti.presenceappSub2 from whitelist
+c16883c config.fs: qcc-tr: define new AID for qcc-trd
+a72d4a0 common: Build framework detect libs according to LA.VENDOR.1.0.r1-14600-WAIPIO.QSSI13.0
+633ce11 common: Improve flags to define the usage of hals
+b15b025 common: Enable PROVIDES_POWERHAL to all devices
+333eddd common: permissions: Add basic hotword permissions
+e765aa0 common: Bring-in QTI Privapp and whitelist permissions.
+3e6a40b common: Update config.fs from LA.UM.9.14.r1-17700-LAHAINA.0
+11ec6c4 common: fix symlinks once and for all
+2d85bc5 media-legacy: copy media_profiles to vendor/etc as well
+a2a1a2c common: Move all system side properties to /system_ext
+5458cb8 common: props: PROPERTY_OVERRIDES >> VENDOR_PROPERTIES
+a060de2 vendor: perf: Setup foreground CPU Sets for BENGAL.
+0e4a539 vendor: nq-nfc: Fix  sn100x halimpl directory
+
+* Repository: https://github.com/ArrowOS/android_hardware_qcom_wlan/commits/arrow-12.1-caf
+
+884a059 Merge tag 'LA.UM.9.14.r1-19800.01-LAHAINA.QSSI12.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into HEAD
+
+* Repository: https://github.com/ArrowOS/android_vendor_codeaurora_telephony/commits/refs/heads/arrow-12.1
+
+b7ff6f6 Merge tag 'LA.QSSI.12.0.r1-07800.01-qssi.0' of https://git.codelinaro.org/clo/la/platform/vendor/codeaurora/telephony into HEAD
+
+
+=======================
+     2022/07/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+0b1107c6b88b permissions: Update SettingsProvider permissions
+159fa32fd48c permissions: Update Settings app allowlist
+037c2c4d0caf Reload navbar icons on changing style [1/2]
+04320e9a0e51 Add support for Navbar styles
+ce8b214eb1eb QS: improve tile state consistency
+3f62d0a284cc QS: Locale Tile
+47004b180a00 MusicTile: Clean up redundant code
+231408403190 Option to disable music track title in QS tile [1/2]
+f3a7f15911a4 QS: Add Music QS Tile
+f4a19b58843a base: SystemUI: Allow flags to be overrideable
+6b7c3f2c6f21 SystemUI: Add current divider config for lockscreen charging
+25ee22403867 [SQUASH] Revert several commits
+c21b366ce1c1 New Crowdin updates (#305 & #306)
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-19.1
+
+6e292bb Add vendor.qti.hardware.vpp 1.4 to vendor framework compat matrix
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+0d80428 vold: fix the range of stopped state of idleMaint
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+7f8ea204 themes: UdfpsIcons: Optimize drawables by converting to webp
+2341c99b themes: Add more UDFPS icons from realme 3.0
+1bb40dba themes: Add new/requested udfps icons
+bb417aee themes: Add lots of signal icon
+725a2971 themes: fonts: Add san francisco display font
+b7a5cee8 themes: Update navbar styles
+5aa3d5fe themes: Switch to Android.bp
+308d8627 themes: navbar styles: Fix colors for light colored navbar
+11ea5363 themes: Introduce navbar styles
+363e7236 themes: Add W33d icon styles
+b4b3cd87 themes: Refactor directories
+15c58222 [SQUASH] Clean up some commits
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+4df03d2 gms: Drop PlayAutoInstallConfig
+
+
+=======================
+     2022/07/08
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commits/refs/heads/lineage-19.1
+
+1b983da4 Partially revert "gralloc: Fix issue with mmap/munmap meta due to reserved size"
+
+
+=======================
+     2022/07/07
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+2d48663 evolution: Checkout to LineageOS
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+44a039cb4847 PixelPropsUtils: Update fingerprints to July 2022 release
+fdcb7c43cfdc Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/frameworks/base into snow
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/snow
+
+3f187cc08 Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/hardware/interfaces into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+0c794fe Evolver: Reload navbar icons on changing style [2/2]
+7c87236 Evolver: Add Navbar styles
+7056b64 Evolver: Enable auth ripple and fingerprint vib by default
+
+* Repository: https://github.com/PixelExperience/packages_apps_FaceUnlockService/commits/refs/heads/twelve
+
+f99f599 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+d69abd82ab New Crowdin updates (#113)
+aa058edb5c Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/packages/apps/Settings into snow
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/snow
+
+f7a9d85 Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/system/security into snow
+
+
+=======================
+     2022/07/06
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+13fc18b5d Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+99a3233 common: Allow camera HAL to read auxiliary camera properties
+7cf6dc1 RIP Snap
+cad0dc7 Drop rules for gallery app
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/snow
+
+7bb1f559 SEPolicy.mk: evolution
+e262f76f legacy: allow cnd to get wifi_hal_props
+de8bc399 generic: add app_data_file_type to vendor_imshelper_app_data_file
+da553f70 legacy: add app_data_file_type to imshelper_app_data_file
+7847a983 sepolicy_vndr: generic: Fix compile after merge
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+ebb7d4d8bc Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/frameworks/av into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+2e9c67c74d38 New Crowdin updates (#304)
+7c0ae35d2eb7 SystemUI: Avoid NPE in volume dialog
+9e456cadc116 SystemUI: Bring in drawables for statusbar icon toggles
+1993e9a08a46 SystemUI: disable keyguard screen off animation if we use split notification shade
+b32f12a21525 MediaPlayer: Shift background shade to system_accent1_400
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+3af01535c Checking 'phoneId' when sim status is changed
+930fca9f4 Allow 0 ms window for serverside manipulation
+3e58a21c8 Release PDU session id when setup data call fails
+eb4af191a Handle that an operator numeric can be null
+e893a2bf9 Bring back "Fix loading SIM phonebook redundantly"
+e278810fd telephony: limit setSignalStrengthReportingCriteria
+dd123d962 Fix data detach isn't informed
+50b12907c Fix the data of nDDS sub can't be tore down
+c49d19d7d Fix DDS switch type on call end
+5381605bf Stop evaluating default data SUB before SUB info is ready
+3647d8bc2 Telephony: Add null check for operator
+523f97951 Telephony: Fix crash while updating Operator Name
+82b995a6b IMS: Fix incall MMI code failure after turning volte off
+ad84f1928 Reintroduce 'public void TelephonyMetrics.writeRilSendSms(int, int, int, int)'. (#8)
+df80e61f4 RIL: Fix manual network selection with old modem
+267f68afd UiccSlot: Validate hotswap restart prompt component properly
+f0bc01e13 Restore support with RadioConfig@1.0 dsds clients.
+c20f8eed6 Update external card state based on current app
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-19.1-caf-sm8250
+
+5b61833d1 Merge tag 'LA.UM.9.12.r1-14300-SMxx50.0' into staging/lineage-19.1_merge-LA.UM.9.12.r1-14300-SMxx50.0
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+13c4cc4 Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/manifest into snow
+a9d544d Manifest for Android 12.1.0 Release 11
+30145c3 Manifest for Android 12.1.0 Release 10
+57e8b85 Manifest for Android 12.1.0 Release 9
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+3134987 Evolver: Option to disable music track title in QS tile [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/snow
+
+e836b28de SystemUI: Use new privacy indicators for location
+43b2806c5 PermissionController: Show up to 7 days of permission usage history
+837a6e00e PermissionController: Enable usage timeline for all permission groups
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+310f58542 Merge tag 'android-12.1.0_r11' of https://android.googlesource.com/platform/system/bt into snow
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+3736aada4 core: Lockscreen Charging (2/3)
+bc8b5b7df fastboot: Prefer ro.boot.hardware.revision for hw-revision
+b58d17add fastboot: Print OemCmdHandler return message on success
+f1249e0b0 fs_mgr: Don't assume partitions replaced by DSU are logical already
+3d5fdb82b libsparse: Add simg2img_static target for host
+912f3f698 init: Skip interface duplicates if service is an override
+ed485fa7e fs_mgr: Allow remounts with Magisk installed
+d50202d77 libsysutils: Hide NetlinkListener error in recovery
+e43e6ab7d reboot: allow opting-in to fastbootd
+8f2a5c104 core: mark libsysutils and libdiskconfig recovery_available
+41f8bc0c7 fs_mgr: mount: don't set the block device as ro for recovery
+3dbd4ae96 Fix a race condition in Service::Start()
+5dacceb89 fastboot: stop trying to determine bootloader unlock status from /proc/cmdline
+cdcbccd9a ashmem: int/size_t and slight modernization.
+70e5448b6 cutils: only support safe list iteration.
+116aba69a libfs_avb: Disable dm-verity when AVB is permissive
+3fff77384 Revert "libfs_avb: verifying vbmeta digest early"
+2ee3ffcdd healthd: cover devices that have voltage_max file with value of 0
+3fba2ba2c fastboot: Fallback to "raw" partition type if fastboot hal isn't present
+572e8966e fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+1bff2d9e8 rootdir: Look for ODM & vendor ueventd entries in ETC too.
+af501b309 llkd: Include llkd-debuggable.rc in eng builds only
+a8f36d97b init: mount_handler: detect main block device more reliably
+83580550f init.rc: use /sys/class/block instead of /sys/devices/virtual/block
+8f14e3b82 init: fix to set sd device label correctly for FS
+09f508156 init: Set persist.sys.usb.config properly
+8fca38bae Revert "Format formattable partitions if mount fails"
+cf0e6ce09 core: Don't spoof props in recovery mode
+aa5e3b66c init: Check for fastbootd before spoofing safetynet props
+7b368a22f core: Add more props for snet spoofing
+3ef494b92 init: Only set safetynet props if not eng build
+b3f4c3fe7 init: Weaken property override security only when spoofing safetynet
+46f9c3154 init: add vendor.*  keys to spoof safetynet
+fc157e200 init: workaround SafetyNet check
+a3ae22697 init: Weaken property override security for the init extension
+baba2b11a init.rc: Disable native stats collection service
+0a825a006 init.rc: don't start console unless asked to
+ef64372d5 camera: Add L-compatible camera feature enums
+f2de61752 init: always allow local.prop overrides
+bd10de0c4 Set permissions on /system/addon.d/ and files within.
+de3537514 Set /system/etc/init.d/* permissions
+cff434cb4 init: Weaken property override security for the init extension
+1c195e9ba remount: Fix failure for system-as-root
+7dc491eef fastboot: Revert to Android 11 method of checking lock status
+756858f23 Add exfat utilities for mkfs and fsck
+4c4a58626 Camera: Add feature extensions
+22ab30acb init: don't skip starting a service with no domain if permissive
+d2b4d10c1 healthd: Add DASH charger type
+3250c7e9a init: Convert evolution product variables to soong config variables
+705039aec init: Add vendor-specific initialization hooks.
+bfd2a23bc Set the I/O scheduler of loop devices to 'none'
+092054a69 healthd: Add support for HVDCP_3P5 chargers
+1972ea5a1 healthd: Reinitialize mChargerNames for every battery update
+47bd1ec52 healthd: Add support for HVDCP_3 chargers
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+d1d9386e version: Uprev to 6.6
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_packages_apps_Bluetooth/commits/refs/heads/snow
+
+7677c1e01 Bluetooth: Allow sending any file via Bluetooth
+7447643c1 Bluetooth: Add REQUEST_INSTALL_PACKAGES permission to install apk
+8f4d007b4 Bluetooth: Opp: Allow to receive any type of file
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_system_bt/commits/refs/heads/snow
+
+afe616036 Security: Fix out of bound read in AT_SKIP_REST
+2d205bf0d Check Avrcp packet vendor length before extracting length
+7a2f6bb49 Security: Fix out of bound write in HFP client
+fb97e0dc4 Add .gitupstream file
+
+
+=======================
+     2022/07/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+f2d181bf2385 NetworkStatsHistory: Prevent IllegalArgumentException
+b95eebc6ca4c SystemUI: More rounded corners
+dc8e1d5fe2e5 fixup - Limit SafetyNet workarounds to unstable GMS process
+e59d95208c8d base: wm: Follow rounded corners by split divider corner size
+f7f7747a4f15 SystemUI: Fix issue that log can't be enabled in MobileSignalController
+3a5a4d73fa99 SQLiteDatabase: Catch corrupt exception during transaction
+5026ec615ba9 Factor out preference-in-storage check to overridable method.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+a1b8a31b75 Settings: Improve AP strings
+d13d37af16 Settings: Fix NPE on isUdfps
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+0303095 Updates: Cleanup download dir after reboot
+27f519b Enable user data cleaning
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+ebdfc056 apns: Add China Broadnet (CBN) support
+
+
+=======================
+     2022/07/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+a2ed70ce84 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+e2b04e428132 QuickStatusBarHeader: Fix clickability issue with privacy indicator
+898e34f44d3a QuickStatusBarHeader: Link date in QS statusbar with clock
+8968bb46c352 New Crowdin updates (#303)
+7e3b83a30816 SystemUI: Battery Styles: Do not apply SB battery meter style changes for QS battery meter
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+e4645cf New Crowdin updates (#212)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+7dff99b devicesettings: Add more Dirac presets strings
+f4df84c devicesettings: Add MiSound scenes strings
+a145cba devicesettings: Create a summary for LCD HBM
+7378c53 Improve powershare strings
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+05b8d9bb vendor: soong: Add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+5d92f4cd prebuilt: de-duplicate and rework 460:02 and 460:09
+19632386 prebuilt: rework APNs for KPN (204:08)
+b4211dfe prebuilt: rework APN for 425:01
+
+
+=======================
+     2022/07/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+c9f7bb1f29a8 SystemUI: Fix QS mobile icon disappearing on theme switch
+
+
+=======================
+     2022/07/02
+=======================
+
+
