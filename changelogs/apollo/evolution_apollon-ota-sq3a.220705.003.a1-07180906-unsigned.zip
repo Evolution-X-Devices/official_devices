@@ -1,0 +1,90 @@
+This is Android 12.1 with July 2022 security patches
+
+Notes:
+==============================
+This build requires u to flash latest firmware before updating to it, latest fw for EEA region is 13.0.8.0 and for global devices flash 13.0.5.0 global fw both firmwares are fully supported.
+
+Device changes:
+==============================
+Regenerated all blobs from APOLLOEEAGlobal_V13.0.8.0.SJDEUXM and 13.0.5.0 Global 
+Removed all lmi/alioth blobs (complete apollo blobs powered vendor)
+Imported new thermal configs from APOLLOEEAGlobal_V13.0.8.0.SJDEUXM
+Imported Charger, batterysecret and mithermal from Update power profile from V13.0.8.0.SJDEUXM
+Updated IMS to latest apollo stack & added its all deps (newer one than other miKona devices)
+Updated Ril to latest apollo stack from APOLLOEEAGlobal_V13.0.8.0.SJDEUXM
+Imported MiSound Effect eq. from APOLLOEEAGlobal_V13.0.8.0.SJDEUXM and declare/add all its deps (better sound in all outputs devices now)
+Removed improper alioth common vibrations blobs and replaced by apollo's updated ones
+Removed improper alioth gps blobs and replaced by apollo's updated ones
+Removed improper alioth OMX blobs and replaced by apollo's updated ones
+WFD fixes and improvements
+Fixed Bluetooth Quick Pair
+Switch to QTI Health Hal
+Fixed status bar paddings
+Switched to n0kernel
+Sepolicy: Further improve Mi_Thermald sepolicy
+Sepolicy: Import & Improve qtidataservices Sepolicy
+Rootdir: Remove unexported property trigger
+Move audio.offload.gapless.enabled to system.props 
+Enable Iorapd Readahead
+Move device config props to kona.mk
+Declare smart idle maint's period
+BT: Enable persist.vendor.btstack.connect.peer_earbud Feature
+Resync with DT & ADSP modules (aptX) from Miui 13.0.8.0 Apollo
+Audio: Enforce stock AUDIO_FORMAT_PCM_8_24_BIT to primary input
+Update all MediaConfigs from Miui 13.0.5.0 Apollo
+Apollo Specific vendor: Updated blobs from Miui 13.0.5.0 Apollo
+
+------------------------------
+ROM changes:
+==============================
+Settings: Add toggle to enable ADB root
+SystemUI: Allow limiting AOD & ambient display refresh rate
+SystemUI: Lockscreen clock improvements
+fonts: Import Roboto fallback font modification
+themes: fonts: Add JTLeonor font
+themes: fonts: Add nothingdot font style
+themes: fonts: Introduce pixelwars font
+BootAnimation: Check for resolution override
+Evolver: Notification media artwork: Better fade filter
+Require CONFIG_HID_PLAYSTATION for DualSense key layout
+Settings: Add toggle to set captive portal settings
+themes: fonts: Add ProductSans VH
+Evolver: BlockSensors: Fix/update the way Footer info is added
+Evolver: Bring back Alarm & Wakelock blocker feature
+Evolver: Bring back Sensor block package list feature
+Settings: AppLock: Make timeout strings translatable
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: DevicePicker: Adapt to S style
+Settings: Toast insulter: Add new insults
+Settings: Update all classes which inherit from TogglePreferenceController
+Settings: Use ListPreference instead of DropDownPreference
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Extend splash screen exception list to SC-V2
+SystemUI: CastTile: Open cast settings on long click
+base: ChooserActivity: Don't show image edit button on multiple targets
+prebuilt: import APNs for CBN
+Camera: Update HighFrameRate GPU flags
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Evolver: BlockSensors: Fix/update the way Footer info is added
+Evolver: Bring back Alarm & Wakelock blocker feature
+Evolver: Bring back Sensor block package list feature
+Extend splash screen exception list to SC-V2
+Keyguard Clock: Use google sans only for faulty fonts
+PixelPropsUtils: GameProps: Hide Apex Legends as Mi11
+PixelPropsUtils: Spoof play store once again
+Settings: Add setting for timeout-reboot
+Settings: AppLock: Make timeout strings translatable
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: DevicePicker: Adapt to S style
+Settings: Toast insulter: Add new insults
+Settings: Update all classes which inherit from TogglePreferenceController
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: CastTile: Open cast settings on long click
+ThemedIcons: Bring some more icons
+base: ChooserActivity: Don't show image edit button on multiple targets
+base: Prevent NPE for Demo mode
+core: Optimize download/upload animations
+fixup! Camera: Skip stream size check for whitelisted apps
+fonts: Use fallback variant of Roboto
+prebuilt: import APNs for CBN
+services: AppLockManagerService: fix an oob exception
