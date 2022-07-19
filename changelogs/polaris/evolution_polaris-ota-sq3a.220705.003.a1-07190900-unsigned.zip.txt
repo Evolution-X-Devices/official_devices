@@ -1,0 +1,25 @@
+**Device Changes:**
+- Etude kernel: Op.12 No.4
+  * Linux 4.9.323
+  * massive backport of the kernel random number generator stack from upstream common kernel
+  * fixed several conflicts caused by the random stack backport
+  * disabled qcom's early random initializer because it is no longer needed
+  * use ascii-armor canary to prevent buffer overflow from overwriting canary in fork
+  * Wireguard 1.0.20220627 to go with the new random stack
+  * fixed several section mismatches in qcom's regulator drivers
+  * fixed an incorrect asoc bound check that potentially causes echo in speaker-mode phone calls
+  * DO NOT use another kernel. Just don't.
+- Moved the fingerprint HAL process out of system-background task group for cpuset
+  * this should significantly reduce the fingerprint unlock latency in some cases
+- Corrected the audio HAL service name in power HAL's restart script
+
+**Evolution X Update**
+- July security patch
+- Fixed the issue of Google's SystemUpdate constantly retrying in the background, draining battery and building heat.
+- Added some new fonts, including NothingDot
+- Toggle to enable adb root
+- Brought back alarm & wakelock blocker
+- Brought back sensor block package list
+- More themed icons
+- Several more QS tiles, including Locale tile and Music tile
+- Misc fixes
