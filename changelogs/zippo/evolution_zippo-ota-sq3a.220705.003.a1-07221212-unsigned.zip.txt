@@ -1,0 +1,37 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+- Add link for maintainer's Telegram URL
+- Support Smart Charge
+
+**Evolution X Update**
+- Evolver: Add toggle to disable charging animation
+- Settings:Bring back Smart Charging feature
+- GameSpace: Adjust views to avoid overlap
+- GameSpace: Drop disable heads up option
+- GameSpace: Expose icon in launcher
+- GameSpace: Fix default ringer mode value
+- GameSpace: Let's take advantage of reTicker
+- GameSpace: Port in-game danmaku feature
+- SystemUI: media_view: align song and artist name text
+- Evolver: Removing spoof for streaming apps
+- themes: fonts: Add Roboto Condensed
+- Settings: Add toggle to enable ADB root
+- SystemUI: Lockscreen clock improvements
+- themes: fonts: Add JTLeonor font
+- themes: fonts: Add nothingdot font style
+- themes: fonts: Introduce pixelwars font
+- themes: fonts: Add ProductSans VH
+- Evolver: Bring back Alarm & Wakelock blocker feature
+- Evolver: Bring back Sensor block package list feature
+- Settings: Toast insulter: Add new insults
+- SystemUI: CastTile: Open cast settings on long click
+- prebuilt: import APNs for CBN
+- ThemedIcons: Bring some more icons
+- core: Optimize download/upload animations
+- fonts: Add san francisco display font
+- themes: Add new signal icon packs
+- themes: Add new udfps icons
