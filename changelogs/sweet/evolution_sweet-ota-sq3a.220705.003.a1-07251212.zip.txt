@@ -1,0 +1,75 @@
+This is Android 12.1 with July 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Special Note:
+==============================
+• A clean flash is STRONGLY recommend. (Format Data Needed DFE Won't work)
+• Only flash it using these recoveries. No other recovery will work. (https://t.me/RedmiNote10ProChannel/1176)
+• VantomKernel is the default kernel
+• The latest MIUI 13 firmware for your region is recommended
+• Switched to EROFS (Enhanced read only file system)
+• Enabled F2FS compression (Needs a clean flash if you are coming from may build)
+------------------------------
+Device changes:
+==============================
+- Fixed an issue with the microphone being too quiet in some apps
+- Import new display calibration file from MIUI V13.0.10.0.SKFEUXM
+- Update the s5kgw3 camera libraries from MIUI V13.0.5.0.SKFINXM
+- Revert changes for cache partition
+- Remove some prebuild gapps
+- Imported a few missing display blobs
+- Fixed an issue where the google recorder didn't want to work for some users
+- Address Xiaomi's displayfeature & citsensorservice denials
+- Upstreamed kernel
+- Other fixes and  improvements
+Credit :- 
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+------------------------------
+ROM changes:
+==============================
+permissions: Update Settings app allowlist
+permissions: Update SettingsProvider permissions
+fonts: Add san francisco display font
+themes: Add new signal icon packs
+themes: Add new udfps icons
+themes: UdfpsAnimations Improvements
+themes: UdfpsIcons: Optimize drawables by converting to webp
+Camera: Update HighFrameRate GPU flags
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Evolver: BlockSensors: Fix/update the way Footer info is added
+Evolver: Bring back Alarm & Wakelock blocker feature
+Evolver: Bring back Sensor block package list feature
+Extend splash screen exception list to SC-V2
+Keyguard Clock: Use google sans only for faulty fonts
+PixelPropsUtils: GameProps: Hide Apex Legends as Mi11
+PixelPropsUtils: Spoof play store once again
+Settings: Add setting for timeout-reboot
+Settings: AppLock: Make timeout strings translatable
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: DevicePicker: Adapt to S style
+Settings: Toast insulter: Add new insults
+Settings: Update all classes which inherit from TogglePreferenceController
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: CastTile: Open cast settings on long click
+ThemedIcons: Bring some more icons
+base: ChooserActivity: Don't show image edit button on multiple targets
+base: Prevent NPE for Demo mode
+core: Optimize download/upload animations
+fixup! Camera: Skip stream size check for whitelisted apps
+fonts: Use fallback variant of Roboto
+prebuilt: import APNs for CBN
+services: AppLockManagerService: fix an oob exception
+Evolver: Add toggle to disable charging animation
+Settings:Bring back Smart Charging feature
+GameSpace: Adjust views to avoid overlap
+GameSpace: Drop disable heads up option
+GameSpace: Expose icon in launcher
+GameSpace: Fix default ringer mode value
+GameSpace: Let's take advantage of reTicker
+GameSpace: Port in-game danmaku feature
