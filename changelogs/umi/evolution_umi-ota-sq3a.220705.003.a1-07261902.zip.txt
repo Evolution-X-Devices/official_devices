@@ -1,0 +1,217 @@
+  
+2022-07-27
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.4.0
+- Format data if you came from non encrypted Rom version
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: removed doze auto brightness
+  * sm8250-common: enabled support for smart charging
+  * sm8250-common: Minor updates
+
+KERNEL:
+
+  * sm8250: Rebased on LA.UM.9.12.r1-14400-SMxx50.0 tag
+
+ROM:
+
+7/27
+
+Evolver: Secondary color for lockscreen clock toggle
+
+PackageManagerService: Load APKs from system_ext/framework
+
+LockscreenCharging: Add divisor current overlay
+
+LockscreenCharging: Calculate power from voltage and current
+
+Settings: AdbRootPreferenceController: Set isAvailable() to true
+
+SystemUI: Fix current formatting on lockscreen
+
+SystemUI: respect statusbar left padding in QS clock & keyguard carrier
+
+Update battery info every second when device is charging
+
+permissions: Grant ACCESS_FINE_LOCATION to broadcast receiver intents
+
+permissions: Update cellbroadcastreceiver allowlist
+
+themes: fonts: Import Oppo Sans
+
+
+7/26
+
+add missing display cutout overlays
+
+
+7/25
+
+GameSpace: Fix issue with multiple users
+
+KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+
+LayoutInflater: remove less frequently used apps
+
+Settings: Add a preference to battery optimization page
+
+Settings: Allow to skip confirmation in biometric auth dialog
+
+Settings: Battery: Show unavailable instead of 0.0℃ for battery temp
+
+SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+
+SystemUI: Remove user setup check for alarm icon
+
+Turn off carrier provisioning by default to allow tethering
+
+development: Enable force resizable activities by default
+
+development: Enable freeform windows by default
+
+overlays: Add notch bar killer
+
+overlays: Add notch bar killer for left-notch devices
+
+reTicker: Do not show when content/icon is null
+
+
+7/24
+
+PixelPropsUtils: Fix issue with text select and copy
+
+SettingsProvider: Handle WRITE_DEVICE_CONFIG permission denial for gms
+
+base: Force fullscreen for Google Dialer
+
+
+7/23
+
+Fix inaccuracy in biometric timeout
+
+
+7/22
+
+Evolver: Add toggle to disable charging animation
+
+Settings: Bring back Smart Charging feature
+
+
+7/20
+
+GameSpace: Add do not change option to ringer mode
+
+GameSpace: Adjust views to avoid overlap
+
+GameSpace: Change tile enabled/disabled case for consistency
+
+GameSpace: Drop disable heads up option
+
+GameSpace: Expose icon in launcher
+
+GameSpace: Fix default ringer mode value
+
+GameSpace: Fix panel view not losing focus when touching outside
+
+GameSpace: Let's take advantage of reTicker
+
+GameSpace: Port in-game danmaku feature
+
+GameSpace: Properly filter duplicated notification
+
+GameSpace: Re-sort ringer mode
+
+GameSpace: Remove unimplemented method from Danmaku service
+
+SystemUI: media_view: align song and artist name text
+
+
+7/19
+
+Evolver: Remove spoof feature for streaming apps
+
+SystemUI: doze: add config for double tap sensors and long press sensors that need a proximity check
+
+SystemUI: set white color for media actions button background
+
+core: Remove P21 experience system feature check
+
+fixup! PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+
+themes: fonts: Add Roboto Condensed
+
+themes: fonts: Add Roboto overlay
+
+themes: fonts: Add a Headline-only version of nothing font overlay
+
+themes: fonts: Improve Linotte font
+
+themes: fonts: Update Comfortaa font
+
+themes: fonts: Update SamsungOne font
+
+
+7/18
+
+Skip less boring notification check when reTicker mode is active
+
+fixup! Less boring heads up option
+
+
+7/17
+
+Settings: Add toggle to enable ADB root
+
+SystemUI: Allow limiting AOD & ambient display refresh rate
+
+SystemUI: Lockscreen clock improvements
+
+fonts: Import Roboto fallback font modification
+
+themes: fonts: Add JTLeonor font
+
+themes: fonts: Add nothingdot font style
+
+themes: fonts: Introduce pixelwars font
+
+
+7/16
+
+BootAnimation: Check for resolution override
+
+Evolver: Notification media artwork: Better fade filter
+
+Require CONFIG_HID_PLAYSTATION for DualSense key layout
+
+
+7/15
+
+themes: fonts: Add ProductSans VH
+
+
+7/14
+
+Evolver: BlockSensors: Fix/update the way Footer info is added
+
+Evolver: Bring back Alarm & Wakelock blocker feature
+
+Evolver: Bring back Sensor block package list feature
+
+Settings: AppLock: Make timeout strings translatable
+
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+
+Settings: DevicePicker: Adapt to S style
+
+Settings: Toast insulter: Add new insults
+
+Settings: Update all classes which inherit from TogglePreferenceController
+
+Settings: Use ListPreference instead of DropDownPreference
+
+
