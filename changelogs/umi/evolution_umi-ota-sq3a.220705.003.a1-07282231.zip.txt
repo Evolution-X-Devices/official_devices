@@ -1,0 +1,35 @@
+  
+2022-07-29
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.4.0
+- Format data if you came from non encrypted Rom version
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: audio: Import stock mixer paths modifications for sound trigger
+  * sm8250-common: Build OSS sound trigger HAL
+  * sm8250-common: init: Fix memory parameters for non-QCOM targets
+  * Partialy Revert "sm8250-common: Sepolicy: Make proper label for RIL props as Rad>
+  * sm8250-common: media: upstream to media profiles to LA.UM.9.12.r1-14400-SMxx50.0
+  * sm8250-common: add c2 codec manifest
+  * sm8250-common: fixed issue with some camera apps crashing when switched to 4K recording
+  * sm8250-common: fixed issue with some camera apps crashing when switched to front camera recording
+
+ROM:
+
+7/29
+
+SystemUI: Respect Statusbar left padding in keyguard carrier
+
+SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+
+
+7/28
+
+BatteryService: Switch Warp charging status path to an overlay
+
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
