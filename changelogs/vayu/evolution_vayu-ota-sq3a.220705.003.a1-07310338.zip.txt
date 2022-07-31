@@ -12,8 +12,8 @@ Notes:
 ==============================
 Device Changelog:
 ==============================
-- Add Smart Charging support
 - Update CarrierConfig from 5800 QSSI
+- Remove Smart Charging support (safety reason)
 - props: Import LMKD props from Google gki
 - props: Extend buffer audio size to 256kb for offload playback
 - props: Enable persist.vendor.audio.fluence.voicerec 
@@ -29,7 +29,6 @@ ROM Changelog:
 - PixelPropsUtils: Fix issue with text select and copy
 - Evolver: Secondary color for lockscreen clock toggle
 - Evolver: Add toggle to disable charging animation
-- Settings: Bring back Smart Charging feature
 - Settings: Add a preference to battery optimization page
 - Settings: Move Notch Cutout to Display
 - Settings: Add missing display cutout overlays
