@@ -1,0 +1,78 @@
+  
+2022-08-06
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.4.0
+- Format data if you came from non encrypted Rom version
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: no major changes
+
+KERNEL:
+
+  * sm8250: Rebased on 'LA.UM.9.12.r1-14400-SMxx50.QSSI12.0'
+  * sm8250: major improvment in battery life ( credits @chaptsand )
+
+ROM:
+
+8/5
+
+Bump to r20 raven patch
+
+PixelPropsUtils: Bump to r20 raven build fingerprint
+
+Update translations
+
+apns: Update mobily APN for prepaid connection
+
+version: Uprev to 6.6.1
+
+
+8/4
+
+SystemUI: VolumeDialogImpl: Fix inactive rows tint
+
+Write permission synchronization for com.android.systemui
+
+core: Add dark mode support for colorAccentPrimary
+
+
+8/3
+
+Evolver: Bring back Status bar Lyric feature
+
+PixelPropsUtils: Hook MusicPlayers for StatusBar Lyric
+
+Settings: gestures: Add page for Screen-Off UDFPS
+
+SettingsLib: Fix user profile photo picker crash
+
+
+8/2
+
+core: Add telephony stack to allowed service state packages
+
+
+8/1
+
+AnimatableClockController: Add misans to broken fonts
+
+Evolver: Added 9 more battery styles
+
+Evolver: Import Wi-Fi standard icon
+
+Settings: convert hotspot timeout preference to a list preference
+
+Settings: default to GlifV3Theme
+
+SystemUI: GlobalActionsDialogLite: switch to AOSP's Flashlightcontroller
+
+Use Tuner API for reTicker settings
+
+reTicker: Cleanup
+
+themes: fonts: Add misans overlay
