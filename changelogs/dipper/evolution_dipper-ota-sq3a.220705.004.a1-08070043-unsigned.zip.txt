@@ -1,0 +1,281 @@
+# Warning
+For you, who using my ROM, Thank you!!!
+You come now, thanks for choosing EvoX
+For who cones from A11 or 12 old builds.
+DO CLEAN FLASH AND USE CORRECT FILES TO CLEAN INSTALL!
+In newer builds are fine flash dirty or OTA update.
+
+# Device side
+Change Pixel thermal to sdm845
+Build not have encryption yet
+Update sound and more improviments
+Update surface flinger and more
+Build without Firmware
+But with gapps
+Fixed error in security settings.
+Update kernel Etude Op.12 No.4
+Linux 4.9.325
+
+# ROM side
+=======================
+     2022/08/07
+=======================
+
+
+=======================
+     2022/08/06
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+60a505a7e Merge tag 'android-12.1.0_r20' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+4f4e17a05544 New Crowdin updates (#310)
+95e97f884758 PixelPropsUtils: Bump to r20 raven build fingerprint
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+e7a1723 Merge tag 'android-12.1.0_r20' of https://android.googlesource.com/platform/manifest into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+00421fc New Crowdin updates (#216)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+60a877f New Crowdin updates (#14)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+fce75334cf New Crowdin updates (#118)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+b1694b54 version: Uprev to 6.6.1
+d734e271 apns: Update mobily APN for prepaid connection
+
+
+=======================
+     2022/08/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+471c1592ee65 Revert "Skip checking SystemUI's permission for observing sensor privacy"
+42ed02e1dacb Revert "Fix wakelock under-locked issue"
+f8cf841723cc Write permission synchronization for com.android.systemui.
+2dd4be81d047 SystemUI: VolumeDialogImpl: Fix inactive rows tint
+e5aad2343aa6 core: Add dark mode support for `colorAccentPrimary`
+680f76d3ade2 SettingsLib: Fix user profile photo picker crash
+a56a82212f2f PixelPropsUtils: Hook MusicPlayers for StatusBar Lyric
+8d4aaa5fec50 [SQUASH] SystemUI: Introduce StatusBar Lyric for Android 12L [1/2]
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-19.1
+
+929c9b9 Allow re-using extracted content
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-19.1
+
+0565ea9 Automatic translation import
+
+
+=======================
+     2022/08/04
+=======================
+
+
+=======================
+     2022/08/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+4f8d97ec7e31 core: Add telephony stack to allowed service state packages
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+651af95 Manifest for Android 12.1.0 Release 20
+146fb12 Manifest for Android 12.1.0 Release 19
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+d1bf9ab Evolver: Introduce StatusBar Lyric for Android 12L [2/2]
+3a21f4f Evolver: Remove SystemUI restart prompt for reTicker
+d973aef Evolver: Added 9 more battery styles [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+684fc5b GameSpace: Fix crash when "Device & app notifications" access is allowed
+
+
+=======================
+     2022/08/02
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+ff782b9ee9ef use SharedPreferences to save verify results
+cf05765e0319 Battery Styles: Added 9 more battery styles [1/2]
+10ac8dfd251b reTicker: Cleanup
+1a666c7048db Use Tuner API for reTicker settings
+c5220632479c AnimatableClockController: Add misans to broken fonts
+915fe54898b6 base: Import Wi-Fi standard icon [1/2]
+325f594e5f6f SystemUI: GlobalActionsDialogLite: switch to AOSP's Flashlightcontroller
+fbeb3649a8d8 Revert "PMS and WMS deadlock when uninstalling APP"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+5be419d Evolver: Import Wi-Fi standard icon [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+12d93c5256 Settings: default to GlifV3Theme
+886ccfcaa9 Revert "Settings: update SUW theming for 12"
+9050610869 Settings: convert hotspot timeout preference to a list preference
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+d18b2518 themes: fonts: misans: overlay light/regular font family
+9abb9b1b themes: fonts: Add misans overlay
+
+
+=======================
+     2022/08/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+1c683a67814d base: Add missing priv-app permissions
+
+
+=======================
+     2022/07/31
+=======================
+
+
+=======================
+     2022/07/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+a660c0c25c84 SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+
+
+=======================
+     2022/07/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+b2b398a83506 SystemUI: Respect Statusbar left padding in keyguard carrier
+c3bb95b666f6 Revert "SystemUI: respect statusbar left padding in QS clock & keyguard carrier"
+cf99d1ff2e95 BatteryService: Switch Warp charging status path to an overlay
+c1d37dce158a SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+
+
+=======================
+     2022/07/28
+=======================
+
+
+=======================
+     2022/07/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+07edd5f7b9b5 Update battery info every second when device is charging
+dffd4fa7f81f LockscreenCharging: Add divisor current overlay
+c059547d957a LockscreenCharging: Calculate power from voltage and current
+1f177fae1dd3 SystemUI: Fix current formatting on lockscreen
+6152666a2f0c Revert "SystemUI: Add current divider config for lockscreen charging"
+7a489bb9741b SystemUI: respect statusbar left padding in QS clock & keyguard carrier
+d3e9435f2e59 PackageManagerService: Load APKs from system_ext/framework
+67011edcc572 permissions: Grant `ACCESS_FINE_LOCATION` to broadcast receiver intents
+3a90de2db6b4 permissions: Update cellbroadcastreceiver allowlist
+f9ca62d569ef SystemUI: Secondary color for lockscreen clock toggle [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+96fbcb5 Evolver: Secondary color for lockscreen clock toggle [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+2953222 New Crowdin updates (#13)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+81f2e25168 AdbRootPreferenceController: Set `isAvailable()` to true
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/snow
+
+edf0010e0 setUidsAllowedOnRestrictedNetworks: Modify UID enforcement to check app id
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+90443369 themes: fonts: Import Oppo Sans
+
+
+=======================
+     2022/07/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+0d2ecea9e2bd add missing display cutout overlays
+3a14cfd85cfe NetworkPolicyManagerService: turn this into just a warning
+dd7692724999 overlays: Add notchbar killer for left-notch devices
+c961173b087b overlays: Add notch bar killer
+3e1f8a54083c Turn off carrier provisioning by default to allow tethering
+0fbfb63bbea5 Revert "Remove fixed grant of READ_PHONE_STATE and cleanup"
+ed09f02a2d11 LayoutInflater: remove less frequently used apps
+bbd5aef24009 GameSpace: Fix issue with multiple users
+c50882933a2b [REPICK] SettingsProvider: Handle WRITE_DEVICE_CONFIG permission denial for gms
+fa2ee1570b0a reTicker: Do not show when content/icon is null
+44656d839a14 base: Force fullscreen for Google Dialer
+ef00800784d8 base: Allow to skip confirmation in biometric auth dialog [1/2]
+4d26385ebaed SystemUI: Remove user setup check for alarm icon
+4b992f6d5a9a SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+a98b425b61b4 KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+8d75f95 GameSpace: Fix inconsistencies for multi-user usage
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+7fc6062443 Battery: Add summary to some preferences
+f0f97f0180 Settings: Add a preference to battery optimization page
+8c7fbd9e3c Settings: Move Notch Cutout to Display
+f286757533 Settings: Allow to skip confirmation in biometric auth dialog [2/2]
+3655f7f4ed Battery: Show unavailable instead of 0.0℃ for battery temp
+6aa6666d51 development: Enable force resizable activities by default
+d595c62820 development: Enable freeform windows by default
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/snow
+
+8435aec9b DnsUtils: Use Cloudflare DNS instead of Google DNS
+9da19a619 NetworkDiagnostics: Use Cloudflare DNS instead of Google DNS
+939797214 Tethering: Use Cloudflare DNS instead of Google DNS
+58bec5980 Add AdGuard DNS as a private DNS provider
+3b601cecd Add Cloudflare DNS as a private DNS provider
+8ecc56008 Remove DUN requirement for tethering
+5aba1ed76 Connectivity: Add capability to allow tethering to use VPN upstreams [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+26941c32 config: Drop unnecessary permissions whitelist
+
+
+=======================
+     2022/07/25
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+dd836bfd4194 PixelPropsUtils: Fix issue with text select and copy
+
+
