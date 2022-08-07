@@ -1,0 +1,38 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- Clean flash if your current version is from February or earlier.
+- Don't change GPU renderer to OpenGL
+
+**Device Changes:**
+
+
+**Evolution X Update**
+- version: Uprev to 6.6.1
+- PixelPropsUtils: Bump to r20 raven build fingerprint
+- Update translations
+- apns: Update mobily APN for prepaid connection
+- SystemUI: VolumeDialogImpl: Fix inactive rows tint
+- core: Add dark mode support for colorAccentPrimary
+- Evolver: Bring back Status bar Lyric feature
+- PixelPropsUtils: Hook MusicPlayers for StatusBar Lyric
+- Settings: gestures: Add page for Screen-Off UDFPS
+- SettingsLib: Fix user profile photo picker crash
+- Evolver: Added 9 more battery styles
+- Evolver: Import Wi-Fi standard icon
+- themes: fonts: Add misans overlay
+- SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+- SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+- Evolver: Secondary color for lockscreen clock toggle
+- LockscreenCharging: Calculate power from voltage and current
+- Update battery info every second when device is charging
+- themes: fonts: Import Oppo Sans
+- GameSpace: Fix issue with multiple users
+- Settings: Add a preference to battery optimization page
+- Settings: Battery: Show unavailable instead of 0.0℃ for battery temp
+- SystemUI: Remove user setup check for alarm icon
+- Turn off carrier provisioning by default to allow tethering
+- development: Enable force resizable activities by default
+- development: Enable freeform windows by default
+- overlays: Add notch bar killer
+- PixelPropsUtils: Fix issue with text select and copy
+- base: Force fullscreen for Google Dialer
