@@ -1,0 +1,108 @@
+Note: The build you are receving is evolution_starlte-ota-sq3a.220705.004.a1-08080919-unsigned.zip.
+The build is unencrypted by default and shipped with GApps.
+
+Changelogs:
+DEVICE:
+- Reverted HWComposer and SurfaceFlinger due to some heat & flickering.
+- fstab: Set ZRAM to 50%.
+- Imported new N770F sensors, gnss and meida.
+
+KERNEL:
+- Upstreamed to 4.9.325
+- Renamed kernel into ルミン.
+- Imported r39p0 mail driver.
+- Added MoroSound option in kernel manager. (Needs rooted)
+- r32p1: Added sustainable frequency.
+- printk: silence TEE logs from userspace.
+- printk: silence healthd message from userspace.
+- dm-android-verity: permanently disable verification.
+- drivers: media: Import N770FXXU8GVE4 driver.
+- Patched SafetyNet flags.
+- Fix CVE-2019-8912.
+- And many more....
+
+==========================================
+ROM: 
+8/5
+Bump to r20 raven patch
+PixelPropsUtils: Bump to r20 raven build fingerprint
+Update translations
+apns: Update mobily APN for prepaid connection
+version: Uprev to 6.6.1
+
+8/4
+SystemUI: VolumeDialogImpl: Fix inactive rows tint
+Write permission synchronization for com.android.systemui
+core: Add dark mode support for colorAccentPrimary
+
+8/3
+Evolver: Bring back Status bar Lyric feature
+PixelPropsUtils: Hook MusicPlayers for StatusBar Lyric
+Settings: gestures: Add page for Screen-Off UDFPS
+SettingsLib: Fix user profile photo picker crash
+
+8/2
+core: Add telephony stack to allowed service state packages
+
+8/1
+AnimatableClockController: Add misans to broken fonts
+Evolver: Added 9 more battery styles
+Evolver: Import Wi-Fi standard icon
+Settings: convert hotspot timeout preference to a list preference
+Settings: default to GlifV3Theme
+SystemUI: GlobalActionsDialogLite: switch to AOSP's Flashlightcontroller
+Use Tuner API for reTicker settings
+reTicker: Cleanup
+themes: fonts: Add misans overlay
+
+7/29
+SystemUI: Respect Statusbar left padding in keyguard carrier
+SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+
+7/28
+BatteryService: Switch Warp charging status path to an overlay
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+
+7/27
+Evolver: Secondary color for lockscreen clock toggle
+PackageManagerService: Load APKs from system_ext/framework
+LockscreenCharging: Add divisor current overlay
+LockscreenCharging: Calculate power from voltage and current
+Settings: AdbRootPreferenceController: Set isAvailable() to true
+SystemUI: Fix current formatting on lockscreen
+SystemUI: respect statusbar left padding in QS clock & keyguard carrier
+Update battery info every second when device is charging
+permissions: Grant ACCESS_FINE_LOCATION to broadcast receiver intents
+permissions: Update cellbroadcastreceiver allowlist
+themes: fonts: Import Oppo Sans
+
+7/26
+add missing display cutout overlays
+
+7/25
+GameSpace: Fix issue with multiple users
+KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+LayoutInflater: remove less frequently used apps
+Settings: Add a preference to battery optimization page
+Settings: Allow to skip confirmation in biometric auth dialog
+Settings: Battery: Show unavailable instead of 0.0℃ for battery temp
+SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+SystemUI: Remove user setup check for alarm icon
+Turn off carrier provisioning by default to allow tethering
+development: Enable force resizable activities by default
+development: Enable freeform windows by default
+overlays: Add notch bar killer
+overlays: Add notch bar killer for left-notch devices
+reTicker: Do not show when content/icon is null
+
+7/24
+PixelPropsUtils: Fix issue with text select and copy
+SettingsProvider: Handle WRITE_DEVICE_CONFIG permission denial for gms
+base: Force fullscreen for Google Dialer
+
+7/23
+Fix inaccuracy in biometric timeout
+
+7/22
+Evolver: Add toggle to disable charging animation
+Settings: Bring back Smart Charging feature
