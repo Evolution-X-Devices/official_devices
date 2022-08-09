@@ -1,0 +1,116 @@
+Changelog:
+=====================================================
+8/9
+Settings: Allow user configurable fingerprint wake-and-unlock
+Settings: Follow navbar color in base
+
+8/8
+CameraManager: Make the workaround completely optional
+IllustrationPreference: Hide illustration when we fail to play anim
+Merge August 2022 security patches
+SystemUI: Remove trace counter from ScrimState
+SystemUI: Show the ripple on face auth if skip lockscreen enabled
+display: Restore brightness adjustment on boot
+sepolicy: Allow Settings app to change WFD resolution
+sepolicy: Allow apps to access usap pool
+sepolicy: Allow platform_app syslog_read
+sepolicy: Allow system_server to get app_zygote pgid
+sepolicy: Allow updater to read data files
+sepolicy: Label skip unconfigure prop
+version: Uprev to 6.7
+
+8/5
+Bump to r22 raven patch
+PixelPropsUtils: Bump to r22 raven build fingerprint
+Update translations
+apns: Update mobily APN for prepaid connection
+
+8/4
+Write permission synchronization for com.android.systemui
+
+8/3
+Evolver: Bring back Status bar Lyric feature
+PixelPropsUtils: Hook MusicPlayers for StatusBar Lyric
+Settings: gestures: Add page for Screen-Off UDFPS
+SettingsLib: Fix user profile photo picker crash
+
+8/2
+core: Add telephony stack to allowed service state packages
+
+8/1
+AnimatableClockController: Add misans to broken fonts
+Evolver: Added 9 more battery styles
+Evolver: Import Wi-Fi standard icon
+Settings: convert hotspot timeout preference to a list preference
+Settings: default to GlifV3Theme
+SystemUI: GlobalActionsDialogLite: switch to AOSP's Flashlightcontroller
+Use Tuner API for reTicker settings
+reTicker: Cleanup
+themes: fonts: Add misans overlay
+
+7/29
+SystemUI: Respect Statusbar left padding in keyguard carrier
+SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+
+7/28
+BatteryService: Switch Warp charging status path to an overlay
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+
+7/27
+Evolver: Secondary color for lockscreen clock toggle
+PackageManagerService: Load APKs from system_ext/framework
+LockscreenCharging: Add divisor current overlay
+LockscreenCharging: Calculate power from voltage and current
+Settings: AdbRootPreferenceController: Set isAvailable() to true
+SystemUI: Fix current formatting on lockscreen
+SystemUI: respect statusbar left padding in QS clock & keyguard carrier
+Update battery info every second when device is charging
+permissions: Grant ACCESS_FINE_LOCATION to broadcast receiver intents
+permissions: Update cellbroadcastreceiver allowlist
+themes: fonts: Import Oppo Sans
+
+7/26
+add missing display cutout overlays
+
+7/25
+GameSpace: Fix issue with multiple users
+KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+LayoutInflater: remove less frequently used apps
+Settings: Add a preference to battery optimization page
+Settings: Allow to skip confirmation in biometric auth dialog
+Settings: Battery: Show unavailable instead of 0.0℃ for battery temp
+SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+SystemUI: Remove user setup check for alarm icon
+Turn off carrier provisioning by default to allow tethering
+development: Enable force resizable activities by default
+development: Enable freeform windows by default
+overlays: Add notch bar killer
+overlays: Add notch bar killer for left-notch devices
+reTicker: Do not show when content/icon is null
+
+7/24
+PixelPropsUtils: Fix issue with text select and copy
+SettingsProvider: Handle WRITE_DEVICE_CONFIG permission denial for gms
+base: Force fullscreen for Google Dialer
+
+7/23
+Fix inaccuracy in biometric timeout
+
+7/22
+Evolver: Add toggle to disable charging animation
+Settings: Bring back Smart Charging feature
+
+7/20
+GameSpace: Add do not change option to ringer mode
+GameSpace: Adjust views to avoid overlap
+GameSpace: Change tile enabled/disabled case for consistency
+GameSpace: Drop disable heads up option
+GameSpace: Expose icon in launcher
+GameSpace: Fix default ringer mode value
+GameSpace: Fix panel view not losing focus when touching outside
+GameSpace: Let's take advantage of reTicker
+GameSpace: Port in-game danmaku feature
+GameSpace: Properly filter duplicated notification
+GameSpace: Re-sort ringer mode
+GameSpace: Remove unimplemented method from Danmaku service
+SystemUI: media_view: align song and artist name text
