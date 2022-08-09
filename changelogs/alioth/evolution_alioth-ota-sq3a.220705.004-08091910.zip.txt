@@ -1,0 +1,29 @@
+!! CLEAN FLASH IS NECESSARY !!
+
+Device Changes:
+Switch to Hardware Accelerated Dolby
+Reconfigure Power Profile Configuration
+Import Display calibration blobs from HelluvaOS
+Address SELinux denials
+Switch to sourcebuilt soundtrigger HAL
+And more...
+
+ROM Changes:
+Partially merge August Security patch
+Uprev to 6.7
+Settings: Follow navbar color in base
+Evolver: Bring back Status bar Lyric feature
+Evolver: Added 9 more battery styles
+Evolver: Import Wi-Fi standard icon
+Settings: convert hotspot timeout preference to a list preference
+themes: fonts: Add misans overlay
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+Evolver: Secondary color for lockscreen clock toggle
+themes: fonts: Import Oppo Sans
+GameSpace: Fix issue with multiple users
+Settings: Add a preference to battery optimization page
+Settings: Allow to skip confirmation in biometric auth dialog
+development: Enable force resizable activities by default
+development: Enable freeform windows by defaul
+GameSpace: Port in-game danmaku feature
+And more...
