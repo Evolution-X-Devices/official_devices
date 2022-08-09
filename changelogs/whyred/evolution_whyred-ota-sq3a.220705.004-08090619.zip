@@ -1,0 +1,58 @@
+Evolution X Official Changelog list
+
+8/9
+Set navbar color for device default settings theme
+Settings: Allow user configurable fingerprint wake-and-unlock
+Settings: Follow navbar color in base
+
+8/8
+CameraManager: Make the workaround completely optional
+IllustrationPreference: Hide illustration when we fail to play anim
+Merge August 2022 security patches
+SystemUI: Remove trace counter from ScrimState
+SystemUI: Show the ripple on face auth if skip lockscreen enabled
+display: Restore brightness adjustment on boot
+sepolicy: Allow Settings app to change WFD resolution
+sepolicy: Allow apps to access usap pool
+sepolicy: Allow platform_app syslog_read
+sepolicy: Allow system_server to get app_zygote pgid
+sepolicy: Allow updater to read data files
+sepolicy: Label skip unconfigure prop
+version: Uprev to 6.7
+
+8/5
+Bump to r22 raven patch
+PixelPropsUtils: Bump to r22 raven build fingerprint
+Update translations
+apns: Update mobily APN for prepaid connection
+
+8/4
+Write permission synchronization for com.android.systemui
+
+8/3
+Evolver: Bring back Status bar Lyric feature
+PixelPropsUtils: Hook MusicPlayers for StatusBar Lyric
+Settings: gestures: Add page for Screen-Off UDFPS
+SettingsLib: Fix user profile photo picker crash
+
+8/2
+core: Add telephony stack to allowed service state packages
+
+8/1
+AnimatableClockController: Add misans to broken fonts
+Evolver: Added 9 more battery styles
+Evolver: Import Wi-Fi standard icon
+Settings: convert hotspot timeout preference to a list preference
+Settings: default to GlifV3Theme
+SystemUI: GlobalActionsDialogLite: switch to AOSP's Flashlightcontroller
+Use Tuner API for reTicker settings
+reTicker: Cleanup
+themes: fonts: Add misans overlay
+
+7/29
+SystemUI: Respect Statusbar left padding in keyguard carrier
+SystemUI: VolumeDialogImpl: Change bg tint for inactive rows
+
+7/28
+BatteryService: Switch Warp charging status path to an overlay
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
