@@ -1,0 +1,42 @@
+Note: The build you are receving is evolution_star2lte-ota-sq3a.220705.004-08121559-unsigned.zip.
+The ROM is unencrypted and shipped with GApps by default.
+
+Changelogs:
+DEVICE:
+- Fixed both rotation / auto-rotation not working.
+
+ROM:
+8/12
+Evolver: Add master switch strings for new MainSwitchPreferences
+Settings: Adjust master switch strings for new MainSwitchPreference
+SystemUI: Implement sleep for pickup gesture
+
+8/11
+DeviceInfoUtils: Read security patch from org.evolution.build_security_patch
+Evolver: Add SystemPropertySwitchPreference
+Evolver: Improve app list fragment
+Evolver: Introduce {Global,Secure,System}MainSwitchPreference
+Evolver: Use MainSwitchPreference when applicable
+Evolver: Use SystemPropertySwitchPreference for Photos/Games props
+KeyguardUpdateMonitor: Destroy our settings observer when necessary
+Screenrecord: Allow to select AVC codec profile level
+Set default value of config_supportsScreenOffUdfps to false
+Settings: Add SettingsLibMainSwitchPreference library
+SettingsLib: Fix nav bar color on certain apps
+SettingsLib: fixup Big dotted circle integer value
+vendor: Add EVO_SECURITY_PATCH prop
+
+8/10
+AnimatableClockController: Sync with fonts overlay changes
+Evolver: Bring back Notification counter feature
+Evolver: Bring back QS tiles/layout customization
+Evolver: Make colored Statusbar Icons optional
+Evolver: Remove status bar lyric feature (buggy for now)
+recovery: Only warn on SPL downgrade
+themes: fonts: Fix, import and update more fonts
+themes: fonts: Refresh shipped vendor fonts
+
+8/9
+Set navbar color for device default settings theme
+Settings: Allow user configurable fingerprint wake-and-unlock
+Settings: Follow navbar color in base
