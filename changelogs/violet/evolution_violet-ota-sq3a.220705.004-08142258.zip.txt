@@ -1,0 +1,57 @@
+This build you're receiving is evolution_violet-ota-sq3a.220705.004-08142258.zip
+
+Wishing you all a very happy Indian 75th Independence Day :)
+
+NOTES:
+Rom is encrypted by default.
+Gapps, ANXCamera And Firmware are shipped by default.
+Zip size increased by 200mb why? ANXCamera is here sir!
+AOSP Recovery is no more shipped by default.
+Either use AOSP Recovery or Joker's latest TWRP for Encryption.
+Dirty Flash is possible.
+
+Device Changelogs
+
+Added ANXCamera by default
+Added Raise to wake gesture option(Settings>Display>Ambient Display)
+Added Smart Charging option(Settings>Battery>Smart Charging)
+Addressed some denials
+Fixed Changelogs option in system updater(it was leading to wrong path)
+
+Source Changelogs
+
+AnimatableClockController: Sync with fonts overlay changes
+Bump to r22 raven patch
+CameraManager: Make the workaround completely optional
+DeviceInfoUtils: Read security patch from org.evolution.build_security_patch
+Evolver: Bring back Notification counter feature
+Evolver: Bring back QS tiles/layout customization
+Evolver: Make colored Statusbar Icons optional
+Evolver: Remove status bar lyric feature (buggy for now)
+IllustrationPreference: Hide illustration when we fail to play anim
+KeyguardUpdateMonitor: Destroy our settings observer when necessary
+Merge August 2022 security patches
+PixelPropsUtils: Bump to r22 raven build fingerprint
+Screenrecord: Allow to select AVC codec profile level
+Set default value of config_supportsScreenOffUdfps to false
+Set navbar color for device default settings theme
+Settings: Allow user configurable fingerprint wake-and-unlock
+Settings: Follow navbar color in base
+SettingsLib: Fix nav bar color on certain apps
+SettingsLib: Fix user profile photo picker crash
+SystemUI: Remove trace counter from ScrimState
+SystemUI: Show the ripple on face auth if skip lockscreen enabled
+Update translations
+Write permission synchronization for com.android.systemui
+apns: Update mobily APN for prepaid connection
+core: Add telephony stack to allowed service state packages
+display: Restore brightness adjustment on boot
+recovery: Only warn on SPL downgrade
+sepolicy: Allow Settings app to change WFD resolution
+sepolicy: Allow apps to access usap pool
+sepolicy: Allow platform_app syslog_read
+sepolicy: Allow system_server to get app_zygote pgid
+sepolicy: Allow updater to read data files
+sepolicy: Label skip unconfigure prop
+vendor: Add EVO_SECURITY_PATCH prop
+version: Uprev to 6.7
