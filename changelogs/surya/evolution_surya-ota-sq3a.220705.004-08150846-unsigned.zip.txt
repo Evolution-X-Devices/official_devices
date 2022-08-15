@@ -1,0 +1,146 @@
+=======================
+     2022/08/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+490f3108 Lockscreen Album Filter: Make LS media filter blur radius configurable [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+5ed611d Evolver: Make LS media filter blur radius configurable [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+0adba29 Don't reset A2DP offload when disabling developer settings
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+fed49b8 config: Add blur flag and props
+
+
+=======================
+     2022/08/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+6424299 blur: Reduce max cross fade radius for OpenGL
+
+* Repository: https://github.com/LineageOS/android_system_qcom/commits/refs/heads/lineage-19.1
+
+ddd4779 qsap: Always build as vendor module
+
+
+=======================
+     2022/08/13
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+ece7a1d perf: yupik: Use max frequency for main 2 second app launch boost
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+02c7487 Add AC4Tbl params for dolby AC4 decoder [1/2]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+cd03b48 README: Add disclaimer
+
+
+=======================
+     2022/08/12
+=======================
+
+
+=======================
+     2022/08/11
+=======================
+
+* Repository: https://github.com/PixelExperience/packages_apps_FaceUnlockService/commits/refs/heads/twelve
+
+b588bbf Automatic translation import
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+6cdbe7e Removing bonded device when auth fails due to missing keys
+
+
+=======================
+     2022/08/10
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+9b30c27 Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/bootable/recovery into snow
+
+
+=======================
+     2022/08/09
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+3f9151a Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+d36c4a8 Allow apps to access usap pool
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_system_bt/commits/refs/heads/snow
+
+5d32ead Removing bonded device when auth fails due to missing keys
+
+
+=======================
+     2022/08/08
+=======================
+
+* Repository: https://github.com/LineageOS/android_prebuilts_tools-lineage/commits/refs/heads/lineage-19.1
+
+94c16e0 Remove lz4 prebuilts
+
+
+=======================
+     2022/08/07
+=======================
+
+
+=======================
+     2022/08/06
+=======================
+
+
+=======================
+     2022/08/05
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+60a877f New Crowdin updates (#14)
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-19.1
+
+929c9b9 Allow re-using extracted content
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-19.1
+
+0565ea9 Automatic translation import
+
+
+=======================
+     2022/08/04
+=======================
+
+
+=======================
+     2022/08/03
+=======================
+
+
+=======================
+     2022/08/02
+=======================
+
+
