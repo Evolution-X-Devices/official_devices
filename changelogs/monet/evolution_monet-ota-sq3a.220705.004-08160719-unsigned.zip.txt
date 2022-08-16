@@ -1,0 +1,30 @@
+Highlights:
+- SafetyNet fixed
+- Issues with some media playback fixed
+- Fixed and inlined some overlays with Pixel 5 for stability and performance
+
+NOTE: If you use magisk, you now need a special adapted build of magisk: https://drive.google.com/file/d/1i644x0FJszNGJ1Qr1C53fWJBm6inSbyu/view?usp=sharing
+It is going to be fixed in the future releases of Magisk.
+
+ROM changes:
+==============================
+8/16
+DisplayPowerController: avoid using dim brightness for doze pulse
+Further increase blur radius for glass blur effect
+PixelPropsUtils: Update fingerprints to Android 13 August 2022 release
+core: Add telephony stack to privacy indicator whitelist
+
+8/15
+Don't reset A2DP offload when disabling developer settings
+Evolver: Make LS media filter blur radius configurable
+PixelPropsUtils: Correctly spoof pixel props
+
+8/14
+Evolver: Bring back lockscreen media art blur filters
+Evolver: Transparent QS customization
+NotificationMediaManager: Increase blur radius for blur media filters
+SystemUI: match brightness slider track height with the progress drawable
+SystemUI: Switch notification background to monet on heads up
+
+8/13
+Remove Kscope authored features
