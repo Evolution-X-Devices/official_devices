@@ -1,0 +1,75 @@
+This is Android 12.1 with August 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Special Note:
+==============================
+• A clean flash is STRONGLY recommend. (Format Data Needed DFE Won't work)
+• Only flash it using these recoveries. No other recovery will work. (https://t.me/RedmiNote10ProChannel/1176)
+• VantomKernel is the default kernel
+• The latest MIUI 13 firmware for your region is recommended
+• Switched to EROFS (Enhanced read only file system)
+• Enabled F2FS compression (Needs a clean flash if you are coming from may build)
+------------------------------
+Device changes:
+==============================
+- Added "MIUI CAMERA" Prebuild
+- Update blobs from sweet V13.0.12.0.SKFMIXM
+- Fixed some RAM-related issues
+- Fixed an issue with the headphones volume controls not working with wired headsets
+- Fixed Fingerprint Wake-up Animation
+- Fixed Refreshrate issue
+- Few changes regarding vibration
+- Upstreamed kernel to 4.14.290
+- Fixed an issue with the phone not being able to go to sleep due to smp2p_sleepstate
+- Switch audio HAL to V7
+- Optimize shutdown time ( Power Off )
+- Enable usage of dex2oat64 and Optimise dex flags
+- Enable IORAP feature ( Improve application launch time )
+- Other fixes and  improvements
+Credit :- 
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+ROM changes:
+==============================
+AnimatableClockController: Sync with fonts overlay changes
+Bump to r22 raven patch
+CameraManager: Make the workaround completely optional
+DeviceInfoUtils: Read security patch from org.evolution.build_security_patch
+Evolver: Bring back Notification counter feature
+Evolver: Bring back QS tiles/layout customization
+Evolver: Make colored Statusbar Icons optional
+Evolver: Remove status bar lyric feature (buggy for now)
+IllustrationPreference: Hide illustration when we fail to play anim
+KeyguardUpdateMonitor: Destroy our settings observer when necessary
+Merge August 2022 security patches
+PixelPropsUtils: Bump to r22 raven build fingerprint
+Screenrecord: Allow to select AVC codec profile level
+Set default value of config_supportsScreenOffUdfps to false
+Set navbar color for device default settings theme
+Settings: Allow user configurable fingerprint wake-and-unlock
+Settings: Follow navbar color in base
+SettingsLib: Fix nav bar color on certain apps
+SettingsLib: Fix user profile photo picker crash
+SystemUI: Remove trace counter from ScrimState
+SystemUI: Show the ripple on face auth if skip lockscreen enabled
+Update translations
+Write permission synchronization for com.android.systemui
+apns: Update mobily APN for prepaid connection
+core: Add telephony stack to allowed service state packages
+display: Restore brightness adjustment on boot
+recovery: Only warn on SPL downgrade
+sepolicy: Allow Settings app to change WFD resolution
+sepolicy: Allow apps to access usap pool
+sepolicy: Allow platform_app syslog_read
+sepolicy: Allow system_server to get app_zygote pgid
+sepolicy: Allow updater to read data files
+sepolicy: Label skip unconfigure prop
+vendor: Add EVO_SECURITY_PATCH prop
+version: Uprev to 6.7
