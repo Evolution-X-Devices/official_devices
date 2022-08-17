@@ -1,0 +1,44 @@
+=======================
+Notes
+=======================
+- CLEAN FLASH RECOMMENDED
+- Use TWRP 3.6.2/Evolution X recovery from July
+
+=======================
+Device
+=======================
+August build #2 changelog
+
+- Properly fixed flickering after reboot at 90hz
+- Revert some changes that make flickering on some apps
+
+=======================
+ROM Source
+=======================
+Source changelog by 11/8
+
+8/16
+DisplayPowerController: avoid using dim brightness for doze pulse
+Further increase blur radius for glass blur effect
+PixelPropsUtils: Update fingerprints to Android 13 August 2022 release
+core: Add telephony stack to privacy indicator whitelist
+
+8/15
+Don't reset A2DP offload when disabling developer settings
+Evolver: Make LS media filter blur radius configurable
+PixelPropsUtils: Correctly spoof pixel props
+
+8/14
+Evolver: Bring back lockscreen media art blur filters
+Evolver: Transparent QS customization
+NotificationMediaManager: Increase blur radius for blur media filters
+SystemUI: match brightness slider track height with the progress drawable
+SystemUI: Switch notification background to monet on heads up
+
+8/13
+Remove Kscope authored features
+
+8/12
+Evolver: Add master switch strings for new MainSwitchPreferences
+Settings: Adjust master switch strings for new MainSwitchPreference
+SystemUI: Implement sleep for pickup gesture

@@ -1,17 +1,17 @@
 {
-   "datetime": 1660227872,
+   "datetime": 1660665155,
    "donate_url": "https://paypal.me/etylix0",
    "error": false,
-   "filehash": "36a59dc2acb2b25fb41b3dcfbddc174b",
-   "filename": "evolution_spes-ota-sq3a.220705.004-08111955-unsigned.zip",
+   "filehash": "ab3f8bbc950272d4fef6cd4af4c88224",
+   "filename": "evolution_spes-ota-sq3a.220705.004-08162123-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-1-evolution-x-6-3-spes-spesn-13-05-2022.4451865/",
-   "id": "0f6158b141d305c1802d02b365d69ac730077bb54a9ea941161d616516f58eab",
+   "id": "c15a5f325c3ddb435ef982fe80bb29e0663b8f7b8bd2bd279e86be9a62208733",
    "maintainer": "Duy Hoang (etylix)",
    "maintainer_url": "https://forum.xda-developers.com/m/etylix.8079544/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1737828752,
+   "size": 1730460245,
    "telegram_username": "etylix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/spes/evolution_spes-ota-sq3a.220705.003.a1-07110000-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/spes/evolution_spes-ota-sq3a.220705.004-08162123-unsigned.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
