@@ -1,0 +1,388 @@
+# Warning
+For you, who using my ROM, Thank you!!!
+You come now, thanks for choosing EvoX
+For who cones from A11 or 12 old builds.
+DO CLEAN FLASH AND USE CORRECT FILES TO CLEAN INSTALL!
+Install correct files of installation (Firmware and recovery)
+In newer builds are fine flash dirty or OTA update.
+
+# Device changes
+Kernel upstreamed to 4.9.325
+Fixed minor things
+
+# ROM changes
+=======================
+     2022/08/18
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+7c9e722 bt: Remove guards for FM interface
+cb637e7 common: Add initial support for 5.10 targets
+
+
+=======================
+     2022/08/17
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+8fc7a5d bt: Build common packages
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+e6d951df8fe0 BACKPORT: DO NOT MERGE Only clamp off brightness from DOZE_INITIALIZED
+50a6973dcf31 Revert "DisplayPowerController: avoid using dim brightness for doze pulse"
+
+
+=======================
+     2022/08/16
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+0473e4702 Bump Security String to 2022-08-05
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+722e8d7 bt: Disable BT A2DP AAC whitelist
+d488fe7 gps: Define backup NTP server property
+eb78183 common: Build vndservicemanager
+c91bb0e audio: Build Qualcomm common audio overlay
+3ded3b0 system: audio: Fix Inherit QSSI audio makefiles
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+6a288d7f33b2 Revert "DeviceInfoUtils: Read `org.evolution.build_security_patch` for security patch"
+0ef2d09a7dfd PixelPropsUtils: Update fingerprints to Android 13 August 2022 release
+5b7679c457a9 Further increase blur radius for glass blur effect
+9b4890e1c163 core: Add telephony stack to privacy indicator whitelist
+0a55b22c92f2 DisplayPowerController: avoid using dim brightness for doze pulse
+
+
+=======================
+     2022/08/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+490f310879ae Lockscreen Album Filter: Make LS media filter blur radius configurable [1/2]
+8e5feb49fd10 PixelPropsUtils: Correctly spoof pixel props
+8d5d2f566248 Only allow the system server to connect to sync adapters
+dc537bc86b61 Stop using invalid URL to prevent unexpected crash
+c222f5d7dd0c Remove package title from notification access confirmation intent
+7e51c792de34 Make CheckOp return allowed if any attr tag for a package is excluded
+74821fa0e6f2 Allow system server uid to bypass location restriction
+d6c5863a31da Disallow privileged apps to bypass location restriction
+a182ed83a9f3 DO NOT MERGE. Add a permissions check to LocationManagerService.
+e7ca9a992d9f Clear mInterface before calling resetIkeState()
+b51f187573b4 Make sure callingPackage belongs to callingUid when checking BG-FGS restrictions.
+05e86998e07a DO NOT MERGE Suppress notifications when device enter lockdown
+12e5c6b1e254 Allow shell uid without checking the package name.
+c7f0a4d38559 Allow apps receiving MediaSession callbacks to start FGS from BG.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+5ed611d Evolver: Make LS media filter blur radius configurable [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+0adba29f48 Don't reset A2DP offload when disabling developer settings
+
+
+=======================
+     2022/08/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+0b9b58dc8134 blur: Bump blur radius to 75px
+c4745262d800 NotificationMediaManager: Increase blur radius for blur media filters
+4d68f98c1200 SystemUI: Switch notification background to monet on heads up
+f958a94e5aaa SystemUI: match brightness slider track height with the progress drawable
+d5d2c87b207c SystemUI: Set custom scrim alpha in ScrimState
+8515cdc2a8c8 ScrimController: User Tuner API to apply custom alpha
+92ce126af762 SystemUI: Transparent QS customization
+cab77062a4a3 Set default value of config_supportsScreenOffUdfps to false
+e76171786c99 KeyguardUpdateMonitor: Destroy our settings observer when necessary
+b8a37e3ed7ad DeviceInfoUtils: Read `org.evolution.build_security_patch` for security patch
+7808456502ad Screenrecord: Allow to select AVC codec profile level
+60f1895a8945 Status bar: Update notification count overlay
+4852a2319f61 Status bar: Update notification count icons
+536dd479f3e5 SystemUI: Refactor colored statusbar icons
+6f7be2646375 SystemUI: Refactor notification counter
+d8bc9dff09d6 Show infinity for large notification counts
+70b7f144e9fd SystemUI: Forward-port notification counters [1/2]
+b00618c73451 Make colored Statusbar Icons optional [1/2]
+dc5618ba9c36 StatusBarIconView: use app icons instead of provided notif one
+3ef59c3b5fc7 SystemUI: Fixes/Improvements for QS tiles count settings
+9f9f0064a44c SystemUI: Cleanup QS tile count settings
+f03d5bc11dfa SystemUI: Fix qs customizer corner radius
+ba96d9cf5a82 SystemUI: Reduce qs tile padding
+48f9e10a6b93 TileAdapter: Report 3 columns for qs customizer
+4312b12b8132 SystemUI: Fix wrong context for mNumColumns
+8a95a15f74c4 SystemUI: Adapt DotOs qs tile changes for qs tile count settings
+51b96e5edbe9 QS tile count settings: Fixes and improvements for landscape settings
+51f8ad64ef16 SystemUI: QS tile count settings code fixup
+160a26be9840 SystemUI: Increase QS tile corner radius
+7e0a6e6701b6 SystemUI: Improve QS tile count settings
+9cd141b42740 SystemUI: Refactor qs tile count settings
+ffd7e22df033 SystemUI: Fix qs tile vertical layout scrolling
+ffa9761d0d87 [1/2] SystemUI: qs hide label setting
+56769dcdeb39 [1/2] SystemUI: qs columns count settings
+db1ffae903dc SystemUI: add OmniSettingService Hooks
+80c3c78a1d4a SystemUI: Show the ripple on face auth if skip lockscreen enabled
+a4b43aa26e52 SystemUI: Implement sleep for pickup gesture
+7b064b016d2a SystemUI: Remove trace counter from ScrimState
+29e957310974 Set navbar color for device default settings theme
+d4d511e7ab05 SettingsLib: Fix nav bar color on certain apps
+d8cd8fe383e3 SettingsLib: Fix user profile photo picker crash
+a17326840c1a core: Add telephony stack to allowed service state packages
+80f3be7f187c PixelPropsUtils: Bump to r22 raven build fingerprint
+27018c8fbbfb CameraManager: Make the workaround completely optional
+3447a797b189 AnimatableClockController: Sync with fonts overlay changes
+bbd72d9ec07b IllustrationPreference: Hide illustration when we fail to play anim
+b14d209a2eef Keyguard: Allow user configurable fingerprint wake-and-unlock
+fb168a55a458 Write permission synchronization for com.android.systemui.
+eeb1a48370bd use SharedPreferences to save verify results
+e124a7b66ada [SQUASH] Combine multiple reverts
+ab735688f0d4 Battery Styles: Added 9 more battery styles [1/2]
+9f3df07eacbd New Crowdin updates (#310 & #312)
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+6424299919 blur: Reduce max cross fade radius for OpenGL
+8d8a6da550 blur: skia: Switch to Glass blur effect
+b4b1eb1b34 skia: blur: Downscale source FBO to 20% size
+46fab26549 blur: Downscale source FBO to 20% size
+f3a1640bd4 blur: Limit blur to the two frontmost layers
+5f77bacf41 blur: Invalidate newly-bound framebuffers before rendering
+1e3bb713db blur: Calculate vertices in vertex shader instead of using VBO
+8d401f74c2 blur: Interpolate tap UV coordinates in vertex shader
+6cb383399e blur: Reduce floating-point precision for UV coordinates
+86998f5f5d blur: Downscale image before blurring
+8b90ab5192 blur: Only set constant shader uniforms once
+f38791fa4d blur: Dither output using triangular RGB blue noise
+d6ce698cef blur: Skip processing of alpha channel by swizzling RGB
+a3d4e8e773 blur: Improve terminology used in mix shader
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+cec00f7 Evolver: Transparent QS customization
+83af74c Evolver: Bring back lockscreen media art blur filters
+f315fc4 [SQUASH] Evolver: Remove most Kscope authored commits
+09937d6 New Crowdin updates (#217, #218, #219, #220, & #221)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+eb69339ea9 Extract app label from component name in notification access confirmation UI
+c2b4b13c3e [DO NOT MERGE] Fix can't change notification sound for work profile.
+4883fab652 [DO NOT MERGE] Fix Settings crash when setting a null ringtone
+1aa25c5ead RESTRICT AUTOMERGE Fix: policy enforcement for location wifi scanning
+4412599693 Do not let guest user disable secuer nfc via SettingsSlice
+8c1ea55fe7 RESTRICT AUTOMERGE Make bluetooth not discoverable via SliceDeepLinkTrampoline
+a889f69571 Verify ringtone from ringtone picker is audio
+8f3dbb52c3 Settings: Follow navbar color in base
+bf03200461 Settings: Allow user configurable fingerprint wake-and-unlock
+f24db4773b Settings: Adjust master switch strings for new MainSwitchPreferences
+c8ec3161a0 Settings: Add SettingsLibMainSwitchPreference library
+9927fa8fbb Settings: Add androidx.lifecycle_lifecycle-runtime-ktx library
+fc4f663718 New Crowdin updates (#118, #119, #120, #121, #122, #123, #124, & #125)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+d17974f New Crowdin updates (#15)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+fed49b81 config: Add blur flag and props
+
+
+=======================
+     2022/08/13
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+ece7a1d perf: yupik: Use max frequency for main 2 second app launch boost
+9ac8c8f perf: Do not allow restricted tasks to run on big cores
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+02c7487be7 Add AC4Tbl params for dolby AC4 decoder [1/2]
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+4d847dbcc6 Add AC4Tbl params for dolby AC4 decoder [2/2]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+cd03b48 README: Add disclaimer
+
+* Repository: https://github.com/LineageOS/android_system_qcom/commits/refs/heads/lineage-19.1
+
+ddd4779 qsap: Always build as vendor module
+
+
+=======================
+     2022/08/12
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+f2ebb87 Evolver: Use MainSwitchPreference when applicable
+
+
+=======================
+     2022/08/11
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+77f54ea system: bt: Remove BluetoothDsDaService.apk
+9734d75 vendor: init: Stop all qcrilds on APQ target
+ee0147f perf: Upgrade perf configs to LA.UM.9.11.r1-05600-NICOBAR.QSSI12.0-1
+e4e4da7 perf: copy task_profiles from system/core for 5.4
+92f6afb vendor: Build bt HIDL vendor variants on qcom/common
+3f6c88a display: separate into system and vendor components
+a8aa999 gps: separate into system and vendor components
+e715b7b bt: Move board makefile inclusion back to system component
+ba65960 bt: separate into system and vendor components
+64ab3f2 audio: separate audio into system and vendor
+5d751a1 vendor: init: common: Fix DCVS settings for Gen3 targets
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+eeece0d Evolver: Use SystemPropertySwitchPreference for Photos/Games props
+eb18b7f Evolver: add SystemPropertySwitchPreference
+a7db3ed Evolver: Introduce {Global,Secure,System}MainSwitchPreference
+311cee0 Evolver: improve app list fragment
+b2ef049 Evolver: Make colored Statusbar Icons optional [2/2]
+8fa4a6a Evolver: Forward-port notification counters [2/2]
+
+* Repository: https://github.com/PixelExperience/packages_apps_FaceUnlockService/commits/refs/heads/twelve
+
+b588bbf Automatic translation import
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+6cdbe7e21 Removing bonded device when auth fails due to missing keys
+c5bb2443a l2cap: Verify number of channels in the CoC request
+20f8f64c7 Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/system/bt into snow
+99e298e57 VolumeControl is not interesting on S
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+8d8e079a vendor: Add EVO_SECURITY_PATCH prop
+
+
+=======================
+     2022/08/10
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+9b30c279 Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/bootable/recovery into snow
+c4566b00 recovery: Only warn on SPL downgrade
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+a107811312 Avoid read out of bounds
+27918907bb Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/frameworks/av into snow
+0985e56b62 Camera: Skip stream size check for whitelisted apps
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+ef1a3b33ce RESTRICT AUTOMERGE SurfaceFlinger: fix a potential race condition in stealReceiveChannel
+8f548161a3 DO NOT MERGE: SurfaceControl: Ensure unused fields are zeroed
+8a36603590 Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/frameworks/native into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+a2a3de8 Evolver: qs tiles/layout customizations
+0510eb7 New Crowdin updates (#216)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+55738905 themes: fonts: Fix, import and update more fonts
+344ae7dc themes: fonts: Refresh shipped vendor fonts
+
+
+=======================
+     2022/08/09
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/snow
+
+d36c4a8 Allow apps to access usap pool
+454b467 sepolicy: Label skip unconfigure prop
+6e86e70 sepolicy: Allow Settings app to change WFD resolution
+9833324 Allow updater to read data files
+868e15b sepolicy: Allow system_server to get app_zygote pgid
+
+* Repository: https://github.com/LineageOS/android_system_qcom/commits/refs/heads/lineage-19.1
+
+c61e35d qsap: Add wifi_qsap_set_tx_power
+9cfce3a qsap: Allow devices to use a local version of this
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+71bd2fb2 version: Uprev to 6.7
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_system_bt/commits/refs/heads/snow
+
+5d32ead7b Removing bonded device when auth fails due to missing keys
+
+
+=======================
+     2022/08/08
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+3f9151a6f Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+562a70f Merge tag 'android-12.1.0_r22' of https://android.googlesource.com/platform/manifest into snow
+
+* Repository: https://github.com/LineageOS/android_prebuilts_tools-lineage/commits/refs/heads/lineage-19.1
+
+94c16e0 Remove lz4 prebuilts
+
+
+=======================
+     2022/08/07
+=======================
+
+
+=======================
+     2022/08/06
+=======================
+
+
+=======================
+     2022/08/05
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+05d1ecc Manifest for Android 12.1.0 Release 22
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/snow
+
+60a877f New Crowdin updates (#14)
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-19.1
+
+929c9b9 Allow re-using extracted content
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+d734e271 apns: Update mobily APN for prepaid connection
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-19.1
+
+0565ea9 Automatic translation import
+
+
