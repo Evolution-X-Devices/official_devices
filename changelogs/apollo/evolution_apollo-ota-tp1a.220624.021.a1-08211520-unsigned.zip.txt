@@ -1,0 +1,28 @@
+This is Android 13 with August 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+This build uses FBE V2 Encryption type.
+Required FW is latest EEA or Global FW.
+Clean flash is a must.
+
+Device changes:
+==============================
+Initial Android 13 Build.
+
+------------------------------
+ROM changes:
+==============================
+Bring back several QS tiles (PowerShare, Caffeine, Ambient Display, USB Tethering, Sync, Sound, Heads Up, Reboot/Recovery/Power off, Volume panel)
+Bring up Evolver for A13 (Screen off animations, Photos/Gaming spoof, etc)
+Evolver: Bring back UDFPS haptic feedback toggle, unlock ripple toggle, and status bar icons menu
+Port UDFPS changes from 12.1 (thanks to ArrowOS)
+Settings: Add proximity check on wake toggle
+Settings: Add screenshot sound toggle
+Settings: Bring back refresh rate settings
+Settings: Enable OTA support
+Update Google app packages and configs
+config: Disable blur flag and props
+evolution: CarrierSettings: Initial update for Tiramisu
+evolution: rro_overlays: Initial update for Tiramisu
