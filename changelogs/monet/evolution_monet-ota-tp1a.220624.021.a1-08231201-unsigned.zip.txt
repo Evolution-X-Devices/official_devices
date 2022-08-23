@@ -1,0 +1,28 @@
+Using MIUI 13 firmware is recommended
+
+Highlights:
+- Initial A13 release
+- Clean flash is recommended, but dirty should work as well
+- No major issues found
+
+NOTE: If you use magisk, you need a special adapted build of magisk: https://drive.google.com/file/d/1i644x0FJszNGJ1Qr1C53fWJBm6inSbyu/view?usp=sharing
+It is going to be fixed in the future releases of Magisk.
+
+ROM changes:
+==============================
+8/21
+Port UDFPS changes from 12.1 (thanks to ArrowOS)
+config: Disable blur flag and props
+evolution: CarrierSettings: Initial update for Tiramisu
+evolution: rro_overlays: Initial update for Tiramisu
+
+8/19
+Bring back several QS tiles (PowerShare, Caffeine, Ambient Display, USB Tethering, Sync, Sound, Heads Up, Reboot/Recovery/Power off, Volume panel)
+Bring up Evolver for A13 (Screen off animations, Photos/Gaming spoof, etc)
+Settings: Add proximity check on wake toggle
+Settings: Add screenshot sound toggle
+Settings: Bring back refresh rate settings
+Settings: Enable OTA support
+
+8/18
+Initial Android 13 changes
