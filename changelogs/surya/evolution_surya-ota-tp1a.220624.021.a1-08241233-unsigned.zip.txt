@@ -1,0 +1,253 @@
+Device Changelog
+
+- Initial A13 Build
+- Enforcing Build
+- Disabled decryption
+
+=======================
+     2022/08/24
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e653f819 AutoAODService: Use Calendar.add instead of Calendar.roll
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+47ea3bc [TMP] Evolver: Clean up for A13
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+0917474 Settings: Remove divider from Battery Manager
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+4e7be3b Fix few issues with Blink with call
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+859bfa6 update_engine: Do not attempt to run backuptool in recovery
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+ea6c15e config: adb insecure by default
+
+
+=======================
+     2022/08/23
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+ce7eab7 art: Disable debug tracing on production builds
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+a6b0392 soong: add kryo785 architecture variant for arm64.
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+ca9a080 manifest: Initial A13 manifest (Evolution X 7.0)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+a2bee85 Telephony: Add ERI configuration for U.S. Cellular
+
+* Repository: /commits/refs/heads/tiramisu
+
+b4ffb5bd3 Revert "Check vendor namespace for SPHAL namespace"
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/tiramisu
+
+1310e73 gms: Add Pixel dependencies sysconfigs
+
+
+=======================
+     2022/08/22
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+5dc71ac Add $(PRODUCT_OUT)/install to INTERNAL_RECOVERYIMAGE_FILES
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/tiramisu
+
+cecfa66 Revert "libsepol: Make an unknown permission an error in CIL"
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+0681d9f Partial revert "Move unused classes out of stagefright foundataion"
+
+
+=======================
+     2022/08/21
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+f4ef6dd libc: Add TARGET_ALTERNATIVE_FUTEX_WAITERS
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+591f26b InputDispatcher: allow to intercept a specific event key
+
+* Repository: /commits/refs/heads/tiramisu
+
+5574a86c9 Remove DUN requirement for tethering
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+b18ad75 Allow ignore neverallows in user builds
+
+
+=======================
+     2022/08/20
+=======================
+
+
+=======================
+     2022/08/19
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/twelve
+
+613bab4 common: Update FCM to LA.QSSI.12.0.r1-08600-qssi.0
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+4ce9039 sepolicy_vndr: Fix qtr_sdk_use macro definition
+
+* Repository: https://github.com/Evolution-X/packages_apps_SettingsIntelligence/commits/refs/heads/tiramisu
+
+5cf0ad0 SettingsIntelligence: Search: Skip showing a few packages
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+954312a Updates: Disable startup provider.
+
+
+=======================
+     2022/08/18
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+4574f9c NFC: Adding new vendor specific interface to NFC Service
+
+* Repository: /commits/refs/tags/android-13.0.0_r3
+
+640d704 Revert "delete gBn/sConstructorMap"
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/tiramisu
+
+1bfd0e2 mkbootimg: add support for --dt
+
+
+=======================
+     2022/08/17
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+d5cc064 recovery: Only warn on SPL downgrade
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+00de3d4 tinycompress: Convert evolution product variables to soong config variables
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/tiramisu
+
+33dbd5c usbaudio: handle sample rate overrides in proxy_prepare()
+
+* Repository: /commits/refs/heads/tiramisu
+
+4fc732d6c core: Lockscreen Charging (2/3)
+5072e63c2 fastboot: Prefer ro.boot.hardware.revision for hw-revision
+0a527679d fastboot: Print OemCmdHandler return message on success
+f61d6eefe libsparse: Add simg2img_static target for host
+9d92cd451 fs_mgr: Allow remounts with Magisk installed
+ab27e61cf libsysutils: Hide NetlinkListener error in recovery
+43a366fb2 reboot: allow opting-in to fastbootd
+24ed535a1 core: mark libsysutils and libdiskconfig recovery_available
+1d6b1cf1b fs_mgr: mount: don't set the block device as ro for recovery
+f1a700afb fastboot: stop trying to determine bootloader unlock status from /proc/cmdline
+a910b74c6 ashmem: int/size_t and slight modernization.
+e58b7e517 libfs_avb: Disable dm-verity when AVB is permissive
+b42dda55f Revert "libfs_avb: verifying vbmeta digest early"
+b80caa856 healthd: cover devices that have voltage_max file with value of 0
+cc33fcc02 fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+800fcf858 rootdir: Look for ODM & vendor ueventd entries in ETC too.
+da969968b llkd: Include llkd-debuggable.rc in eng builds only
+a2804f5cc init: Set persist.sys.usb.config properly
+7d7e3b0ed Revert "Format formattable partitions if mount fails"
+257ce3410 core: Don't spoof props in recovery mode
+20686dccf init: Check for fastbootd before spoofing safetynet props
+3f299b377 core: Add more props for snet spoofing
+2117aa1d4 init: Only set safetynet props if not eng build
+f6cd4745e init: Weaken property override security only when spoofing safetynet
+cb49d0ee5 init: add vendor.*  keys to spoof safetynet
+a8abfd959 init: workaround SafetyNet check
+0ce73bfec init: Weaken property override security for the init extension
+e8165c71d init.rc: Disable native stats collection service
+3ff67a467 init.rc: don't start console unless asked to
+020a18cc5 camera: Add L-compatible camera feature enums
+9b7a310ce init: always allow local.prop overrides
+99a1d6967 Set permissions on /system/addon.d/ and files within.
+a5fab27c3 Set /system/etc/init.d/* permissions
+c23b50661 init: Weaken property override security for the init extension
+2878a88c5 fastboot: Revert to Android 11 method of checking lock status
+49670c36e Camera: Add feature extensions
+674cc5e24 init: don't skip starting a service with no domain if permissive
+90fcef222 healthd: Add DASH charger type
+ef3b11cdc init: Convert evolution product variables to soong config variables
+b2fbcc4cc init: Add vendor-specific initialization hooks.
+6a35ed3bf healthd: Add support for HVDCP_3P5 chargers
+48591d5fb healthd: Reinitialize mChargerNames for every battery update
+49288e192 healthd: Add support for HVDCP_3 chargers
+16c74d304 Updating async trace for track trace symbols from T/U to G/H
+9da9925a4 libsnapshot: Fix vts_libsnapshot_test for GRF with Vendor on S
+ad7a4809f Implement GetRootOfTrust
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+630a31d keystore: Rate limit attestation for Google Play Services
+
+
+=======================
+     2022/08/16
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+e2787bf light: Remove ndk_platform backend. Use the ndk backend.
+
+* Repository: https://github.com/ArrowOS/android_vendor_qcom_opensource_vibrator/commits/arrow-13.0
+
+7af442a aidl: Remove ndk_platform backend. Use the ndk backend.
+
+
+=======================
+     2022/08/15
+=======================
+
+
+=======================
+     2022/08/14
+=======================
+
+
+=======================
+     2022/08/13
+=======================
+
+
+=======================
+     2022/08/12
+=======================
+
+
+=======================
+     2022/08/11
+=======================
+
+
