@@ -1,0 +1,13 @@
+This build you're receiving is evolution_violet-ota-tp1a.220624.021.a1-08271932.zip
+
+Notes:
+Rom is encrypted by default.
+If you want to be decrypted then flash dfe_v4 after flashing the ROM.
+Gapps And Firmware are shipped with Rom.
+AOSP Recovery is not shipped by default.
+CTS passes by default.
+Either use AOSP Recovery or Joker's latest Android 13 TWRP for Encryption.
+Clean Flash Mandatory(If you report things without clean flashing, I will simply ignore you).
+
+Changelogs:
+Initial build based on Android 13 :)
