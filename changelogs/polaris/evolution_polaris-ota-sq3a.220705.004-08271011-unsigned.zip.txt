@@ -1,0 +1,28 @@
+**Device Changes:**
+- Etude kernel: Op.12 No.4
+  * Linux 4.9.326
+  * merged `LA.UM.10.3.r1-01700-sdm845.0` into techpack/audio
+  * updated exFAT driver
+  * fixed a race condition in qcom's early random pool initialization
+  * re-enabled qcom's early random initialization
+  * cleaned up several unused drivers and firmware in kernel
+  * dropped unnecessary virtual framebuffer support
+  * DO NOT use another kernel. Just don't.
+- Enabled Smart Charging
+  * you can now set thresholds of battery percentage for starting and stopping charging
+- Fixed the issue of notification pulse in ambient display having very dim brightness
+  * this is a bug introduced by Google after android 12.1 in March
+  * if you let the screen time out on the lockscreen, when a notification comes in later, the screen wakes up to an incorrect dim brightness instead of the doze brightness. Our LCD panel's dim brightness is really really dim, which is why the notifications are barely visible
+  * At first I fixed it with my own patch, but later I discovered that Google was aware of this issue and had had a patch for it since February. Google, in their infinite wisdom, decided to not merge the fix into android 12.1 and let everyone suffer from this bug for months. The proper fix was eventually released with android 13 a couple of days ago, so I reverted my patch and backported Google's fix to android 12.1.
+- Dropped the unnecessary virtual framebuffer from kernel cmdline
+- Removed the boot-time IO read ahead tuning and settled on a static read-ahead value for dm devices
+  * Google claims that some of the values may not be properly reset after boot, so an aggressively large boot-time read-ahead value may persist after boot and incur more memory pressure
+- Fixed the issue of "Optimization profile" app list sometimes not showing all the apps
+  * also improved the layout and the overall smoothness when scrolling
+
+**Evolution X Update**
+- August security patch
+- Added and fixed more fonts
+- More battery styles
+- Several QS related customizations
+- Misc fixes
