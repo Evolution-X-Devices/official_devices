@@ -1,0 +1,15 @@
+Welcome come to Android 13!
+This is Evolution X 7.0 based on Android 13 with August security patch
+
+
+Notes
+- Clean flash from 12.1 is not required
+- Please use TWRP 3.6.2 or Evolution recovery
+
+
+Device changes
+- Initial bring up for Android 13
+- Re-tunning brightness
+- Show 4G for all 
+- Enable haptics text cursor 
+- Clean up some useless Wi-Fi configs
