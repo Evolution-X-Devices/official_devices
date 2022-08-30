@@ -1,0 +1,119 @@
+If you have any playback/sound issues, make sure you are using MIUI 12.5.6.0 firmware 
+
+Lowered volume steps from 30 to 25
+Improved system stability
+
+NOTE: If you use magisk, you need a special adapted build of magisk: https://drive.google.com/file/d/1i644x0FJszNGJ1Qr1C53fWJBm6inSbyu/view?usp=sharing
+It is going to be fixed in the future releases of Magisk.
+
+ROM changes:
+==============================
+8/25
+Evolver: Add Hide Status bar on Lock screen toggle
+Evolver: Allow enabling compact layout of navigation bar
+Evolver: Custom logo customizations
+Fix Wakelock issue
+Hide the "Show the vibrate icon in the Status Bar" setting
+Port "Battery Usage Alerts" feature from factory images
+PreviewInflater: Fix issue with google dialer widget on keyguard
+QS: Add Music QS Tile
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+Settings: Add hotspot setting to allow VPN upstreams
+Settings: Add pocket lock toggle
+Settings: Add preference for toggling the wallpaper zooming animation
+Settings: Allow to hide arrow for back gesture
+Settings: DevicePicker: Adapt to S style
+Settings: Display auto rotate settings instead of toggle
+Settings: Fixup start padding for battery usage graph
+Settings: Long press to copy wifi password
+Settings: Observe auto brightness mode changes
+Settings: Remove divider from Battery Manager
+Settings: Smart Charging
+Settings: Update package details to match S style
+Settings: Use List Preference for NightLight settings
+Settings: Use font configs instead fonts directly
+Settings: check wifi direct feature for showing preferences
+Settings: move Extra Dim feature to display
+SoftAp: add Hidden SSID preference
+SoftAp: add client manager
+SystemUI: Add VPN tile
+SystemUI: Switch notification background to monet on heads up
+Turn off carrier provisioning by default to allow tethering
+Wire up default fonts with font engine
+base: Do not reset keyguard going away state
+base: Use font configs instead hardcoded fonts
+development: Enable force resizable activities by default
+development: Enable freeform windows by default
+pocket lock: Increase to 15 sec the pocket lock screen
+
+8/24
+Add Google Sound Search tile
+Bring back Screen off UDFPS
+ColorUtils: Prevent crash if alpha component is translucent
+EnhancedEstimates: Get estimates from Device Health Services
+Evolver: Add Flashlight blink on incoming calls
+Evolver: Add Lockscreen album art filter
+Evolver: Add Secure QS tile toggle
+Evolver: Add Volume key cursor control
+Evolver: Add double tap to sleep gesture
+Evolver: Add double tap to sleep on lockscreen
+Evolver: Add kill button to notification guts
+Evolver: Add navbar layout inversion tuning
+Evolver: Add option to Display Data Disabled Indicator Icon
+Evolver: Add quick settings pull down with one finger
+Evolver: Add roaming indicator toggle
+Evolver: Add runtime configurable audio panel location
+Evolver: Allow disabling qs on secure lockscreen
+Evolver: Allow scheduling always on display
+Evolver: Allow to disable qs footer warnings
+Evolver: Allow to enable Lockscreen Media Art
+Evolver: Allow to suppress notifications sound/vibration if screen is ON
+Evolver: Allow using 4G icon instead LTE
+Evolver: Bring back Network traffic
+Evolver: Bring back Power menu options
+Evolver: Bring back Status bar brightness control
+Evolver: Bring back old style mobile data indicators
+Evolver: Hide power menu on secure lockscreen
+Evolver: Incall vibration options
+Evolver: Launch default music player on headset connect
+Evolver: Less boring heads up option
+Evolver: Live Volume Steps
+Fix Google Photos unlimited backup
+Fix screen flickering when using one handed mode
+PowerUI: Mute logcat spam
+QSPanel: Don't crash when not using media player
+Reduce NotificationHistoryDatabase logspam
+Restore cache clean up code in PackageManagerService
+Screenshot: Remove scroll chip button text
+Settings: Add Wake on plug toggle
+Settings: Add option to scramble pin layout when unlocking
+Settings: Allow changing the length of gesture navbar
+Settings: Bring back Immersive Navbar (full screen gestures)
+Settings: Bring back Smart Pause
+Settings: Double tap to trigger doze
+Settings: Forward port lockscreen quick unlock
+Settings: Phone ringtone setting for Multi SIM device
+Settings: Port Volume Long Press Skip Tracks
+SettingsProvider: Set device name to marketname if available
+Stop Microsoft apps from crashing without INTERNET permission
+StrictMode: Don't enable extra features for userdebug builds
+SystemUI: Add colors to assistant animation
+SystemUI: Better QS detail clip animation
+SystemUI: Block annoying statusbar call strength icon
+SystemUI: Bring back separate wifi & data QS tiles
+SystemUI: Dismiss keyguard on boot if disabled by current profile
+SystemUI: Dismiss screenshot window on touch outside
+SystemUI: Enable lockscreen media artwork even if qs media is enabled
+SystemUI: Enable session-based media actions for all apps
+SystemUI: Fix double unlock sound issue
+SystemUI: Forward-port smartspace to Android 13
+SystemUI: HeadsUpTile: Open Heads Up fragment on long click
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+SystemUI: Make battery & clock clickable again in QuickStatusBarHeader
+SystemUI: Prevent loop with display timeout
+SystemUI: Respect Statusbar left padding in keyguard carrier
+TtsEngines: avoid crashes caused by null engine name
+core: Wipe package cache on upgrade even on user build
+display: Don't spam log when display state changes
+services: Whitelist Nfc Service from clipboard toasts
+telephony: show ICCID by default for all
