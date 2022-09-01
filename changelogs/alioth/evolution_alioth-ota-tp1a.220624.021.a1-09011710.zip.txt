@@ -1,0 +1,16 @@
+Device Changes:
+Switch to NOkernel
+Implement Mi Sound
+Remove HelluvaOS Display Calibration 
+Import Display configs from MIUI
+Add HBM settings under Display
+Update Audio blobs amd props from 13.0.5.0
+
+Source Changes: 
+Evolver: Bring back double tap/long press power to toggle torch
+Evolver: Bring back QQS brightness slider options
+SystemUI: Make the volume dialog expandable
+Forward port Lineage related stuff
+Evolver: Status bar Clock background chip
+Settings: Introduce Silent media mute preference
+And more...
