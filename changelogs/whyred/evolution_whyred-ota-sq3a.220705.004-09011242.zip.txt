@@ -1,0 +1,55 @@
+Evolution X Official Changelog list
+
+8/16
+Further increase blur radius for glass blur effect
+PixelPropsUtils: Update fingerprints to Android 13 August 2022 release
+core: Add telephony stack to privacy indicator whitelist
+
+8/15
+Don't reset A2DP offload when disabling developer settings
+Evolver: Make LS media filter blur radius configurable
+PixelPropsUtils: Correctly spoof pixel props
+
+8/14
+Evolver: Bring back lockscreen media art blur filters
+Evolver: Transparent QS customization
+NotificationMediaManager: Increase blur radius for blur media filters
+SystemUI: match brightness slider track height with the progress drawable
+SystemUI: Switch notification background to monet on heads up
+
+8/13
+Remove Kscope authored features
+
+8/12
+Evolver: Add master switch strings for new MainSwitchPreferences
+Settings: Adjust master switch strings for new MainSwitchPreference
+SystemUI: Implement sleep for pickup gesture
+
+8/11
+Evolver: Add SystemPropertySwitchPreference
+Evolver: Improve app list fragment
+Evolver: Introduce {Global,Secure,System}MainSwitchPreference
+Evolver: Use MainSwitchPreference when applicable
+Evolver: Use SystemPropertySwitchPreference for Photos/Games props
+KeyguardUpdateMonitor: Destroy our settings observer when necessary
+Screenrecord: Allow to select AVC codec profile level
+Set default value of config_supportsScreenOffUdfps to false
+Settings: Add SettingsLibMainSwitchPreference library
+SettingsLib: Fix nav bar color on certain apps
+SettingsLib: fixup Big dotted circle integer value
+vendor: Add EVO_SECURITY_PATCH prop
+
+8/10
+AnimatableClockController: Sync with fonts overlay changes
+Evolver: Bring back Notification counter feature
+Evolver: Bring back QS tiles/layout customization
+Evolver: Make colored Statusbar Icons optional
+Evolver: Remove status bar lyric feature (buggy for now)
+recovery: Only warn on SPL downgrade
+themes: fonts: Fix, import and update more fonts
+themes: fonts: Refresh shipped vendor fonts
+
+8/9
+Set navbar color for device default settings theme
+Settings: Allow user configurable fingerprint wake-and-unlock
+Settings: Follow navbar color in base
