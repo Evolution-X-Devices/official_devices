@@ -1,0 +1,95 @@
+This is Android 13 with August 2022 security patches
+
+Notes:
+==============================
+Required FW is latest EEA or Global FW.
+Dirty flash is okay.
+
+Device changes:
+==============================
+- Implemented High Brightness Mode (under setting > display)
+- OSS sound trigger HAL 
+- Fixed AAPT config 
+- Updated N0kernel to latest sources
+- Modify kgsl idle timer to 58ms
+- Set proper cpusets for kona 
+- Force 32bit audio output
+- Set xiaomi thermal data path 
+- Partly update rootdir from munch V13.0.4.0.SLMMIXM
+- Update CarrierConfig from munch V13.0.4.0.SLMMIXM
+- Enable support for IEEE80211AX 
+- WifiResCommon: Update from munch 
+- Show "Turbo charging" instead of "Charging rapidly"
+- Switch to Display Stack from APOLLOGlobal_V13.0.5.0
+- Audio Effects: Checkout to Miui Apollo 13.0.5.0
+- Rework thermals sepolicy
+- Set media volume steps to 15
+- Add missing Crypto props 
+- Increase audio buffering & Hal Period Multipler
+- Add OZO 3 channel support from OnePlus
+- Import OzoProcessing from Miui Apollo 13.0.5.0 
+- Update to IHostapdVendor 1.3 & ISupplicantVendor 2.3
+- Update QCOM Display Targets
+- Switch back to AOSP BT Stack 
+- Update init script to use Supplicant AIDL
+
+------------------------------
+ROM changes:
+==============================
+SystemUI: NavigationBar: disable secondary handle
+SystemUI: Update additional navbar dimens for Android 13
+Utils: Adapt WiFi only check to A12
+Camera: allow camera to use power key as shutter\
+Evolver: Allow disabling QS battery estimates
+Evolver: Bring back Battery light customization
+Evolver: Bring back HW Keys customization
+Evolver: Bring back LED light options
+SystemUI: Remove Music QS Tile
+Settings: Add back increasing ring feature
+Settings: Add switch for linked ring and media notification volumes
+SystemUI: Show notification row when it's unlinked to ringer volume
+Evolver: Bring back double tap/long press power to toggle torch
+Evolver: Bring back QQS brightness slider options
+Evolver: Status bar Clock background chip
+Pre-grant Updater app with Notification permission by default
+Settings: Implement muting media volume on silent or vibrate mode
+Settings: Introduce Silent media mute preference
+SystemUI: Make the volume dialog expandable
+config: Move the bootanimation to a build package
+Forward port Lineage related stuff (LiveDisplay, Anti-flicker, etc)
+Evolver: Add Hide Status bar on Lock screen toggle
+Evolver: Allow enabling compact layout of navigation bar
+Evolver: Custom logo customizations
+Fix Wakelock issue
+Hide the "Show the vibrate icon in the Status Bar" setting
+Port "Battery Usage Alerts" feature from factory images
+PreviewInflater: Fix issue with google dialer widget on keyguard
+QS: Add Music QS Tile
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+Settings: Add hotspot setting to allow VPN upstreams
+Settings: Add pocket lock toggle
+Settings: Add preference for toggling the wallpaper zooming animation
+Settings: Allow to hide arrow for back gesture
+Settings: DevicePicker: Adapt to S style
+Settings: Display auto rotate settings instead of toggle
+Settings: Fixup start padding for battery usage graph
+Settings: Long press to copy wifi password
+Settings: Observe auto brightness mode changes
+Settings: Remove divider from Battery Manager
+Settings: Smart Charging
+Settings: Update package details to match S style
+Settings: Use List Preference for NightLight settings
+Settings: Use font configs instead fonts directly
+Settings: check wifi direct feature for showing preferences
+Settings: move Extra Dim feature to display
+SoftAp: add Hidden SSID preference
+SoftAp: add client manager
+SystemUI: Add VPN tile
+SystemUI: Switch notification background to monet on heads up
+Turn off carrier provisioning by default to allow tethering
+Wire up default fonts with font engine
+base: Do not reset keyguard going away state
+base: Use font configs instead hardcoded fonts
+development: Enable force resizable activities by default
+development: Enable freeform windows by default
+pocket lock: Increase to 15 sec the pocket lock screen
