@@ -1,0 +1,52 @@
+Merge September 2022 security patches
+version: Uprev to 7.1
+sm8250-common: Compile kernel with Clang 14.0.6
+sm8250-common: Patch com.qti.chi.override.so:
+enables 48MP RAW10 Capture on third party camera apps
+enables long exposure capture support on all package names
+removes the 1/30s shutter speed cap from the viewfinder on third party camera apps
+enables support for the MFNR viewfinder on auxiliary lenses
+Evolver: Bring back GameSpace
+Bring back additional Screen recorder options
+Bring back per-app volume feature
+Evolver: Bring back click to take partial screenshot
+Evolver: Bring back daily usage in QS footer
+Evolver: Bring back reTicker feature
+Evolver: Bring back status bar battery styles
+Evolver: Bring back status bar clock options
+Evolver: Bring back volume rocker wake
+Evolver: Re-introduce Smart Pulldown
+Evolver: Introduce status bar and QS clock size feature
+Settings: Add preference for one shot auto-brightness
+Settings: Bring back IME space feature
+SystemUI: Bring back Data Sim QS
+SystemUI: Bring back Refresh rate tile
+SystemUI: screenshot: add extra crop boundaries
+SystemUI: screenshot: remove duplicate clamping on move action
+SystemUI: screenshot: remove misplaced call to set crop view padding
+SystemUI: Update Bluetooth battery level assets
+base: Prevent NPE for Demo mode
+Add various system packages to indicator exemptions
+AudioService: Remove Analog Dock from fixed-volume devices
+BootAnimation: Check for resolution override
+Don't pass repeated back key events to app if custom action is set up
+Don't skip theme application if it's already current
+Keyguard: Treat messages to lock with priority
+Keyguard: don't use large clock on landscape
+QS: LocationTile: make it cycle modes
+Settings: Add option to cycle through ringer modes
+Settings: Align user avatar with homepage title
+Settings: Check isVoiceCapable for Calls&SMS category
+Settings: Don’t disable ls device controls based on secure lock
+Settings: Fix duplicated baseband string on all devices
+Settings: Follow navbar color in base
+Sharesheet: Display two rows of max ranked targets
+SystemUI: add FloatingRotationButton for hw-key devices
+SystemUI: Don't store pending ControlAction if the device is locked
+SystemUI: Fix QS mobile icon disappearing on theme switch
+SystemUI: ic_brightness_*: drawables get surface color
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+SystemUI: Redraw display cutout on overlay changes
+base: ChooserActivity: Don't show image edit button on multiple targets
+core: Add telephony stack to allowed service state packages
+rro_overlays: Remove PixelConfigOverlay2021
