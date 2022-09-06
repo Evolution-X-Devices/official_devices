@@ -1,0 +1,106 @@
+This is Android 13 with September 2022 security patches
+
+Notes:
+==============================
+Don't dirty flash from A12.1 to A13.
+
+Device changes:
+==============================
+Wifi: Enable support for IEEE80211AX
+sepolicy: Remove debugfs related rules
+------------------------------
+ROM changes:
+==============================
+Add various system packages to indicator exemptions
+AudioService: Remove Analog Dock from fixed-volume devices
+BootAnimation: Check for resolution override
+Bring back additional Screen recorder options
+Bring back per-app volume feature
+Camera: allow camera to use power key as shutter\
+Cellular tile: don't show disable confirmation dialog
+Don't pass repeated back key events to app if custom action is set up
+Don't skip theme application if it's already current
+Download: Add support to manually pause/resume download
+Evolver: Add back Lockscreen Charging info
+Evolver: Add back support for window ignore secure
+Evolver: Allow disabling QS battery estimates
+Evolver: Bring back Battery light customization
+Evolver: Bring back GameSpace
+Evolver: Bring back HW Keys customization
+Evolver: Bring back LED light options
+Evolver: Bring back click to take partial screenshot
+Evolver: Bring back daily data usage in QS footer
+Evolver: Bring back reTicker feature
+Evolver: Bring back status bar battery styles
+Evolver: Bring back status bar clock options
+Evolver: Bring back volume rocker wake
+Evolver: Introduce status bar and QS clock size feature
+Evolver: Re-introduce Smart Pulldown
+FingerprintManager: return "Try again" by default
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+Keyguard - Treat messages to lock with priority
+Keyguard: allow large clock on tablets
+Keyguard: don't use large clock on landscape
+Merge September 2022 security patches
+NavigationModeController: Mute debug logging
+QS: LocationTile: make it cycle modes
+Settings: Add back increasing ring feature
+Settings: Add option to cycle through ringer modes
+Settings: Add preference for one shot auto-brightness
+Settings: Add switch for linked ring and media notification volumes
+Settings: Add toggle to enable ADB root
+Settings: Align user avatar with homepage title
+Settings: Apply SUW button theming to WiFi page
+Settings: Bring back IME space feature
+Settings: Check isVoiceCapable for Calls&SMS category
+Settings: Don't reset A2DP offload when disabling developer settings
+Settings: Don’t disable ls device controls based on secure lock
+Settings: Enable notifications led light by default
+Settings: Fingerprint: hide link icon when there's no link
+Settings: Fix duplicated baseband string on all devices
+Settings: Follow navbar color in base
+Settings: Forward port lock pattern grid size
+Settings: Forward port pattern visibility settings
+Settings: Improve gesture bar length option
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Network setup UI changes for SUW
+Settings: Only show gesture navigation if device has a software nav bar
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: use Glif themed button bar
+Sharesheet: Display two rows of max ranked targets
+SystemUI: Add AOD QS tile
+SystemUI: Add bootloader option to 'Reboot' tile
+SystemUI: Add support for persistent usb drive notification
+SystemUI: Allow privileged system apps to access screenshot service
+SystemUI: Allow snoozing SD card notification unconditionally
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Don't store pending ControlAction if the device is locked
+SystemUI: Fix QS mobile icon disappearing on theme switch
+SystemUI: Introduce Data Switch QS Tile
+SystemUI: Make isTablet() use correct API for getting window metrics
+SystemUI: NavigationBar: disable secondary handle
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+SystemUI: Redraw display cutout on overlay changes
+SystemUI: Remove Music QS Tile
+SystemUI: Remove spaces from screenshot app filename
+SystemUI: Require unlocking to use Reboot tile
+SystemUI: Show notification row when it's unlinked to ringer volume
+SystemUI: Update Bluetooth battery level assets
+SystemUI: Update additional navbar dimens for Android 13
+SystemUI: add FloatingRotationButton for hw-key devices
+SystemUI: disable keyguard screen off animation if we use split notification shade
+SystemUI: ic_brightness_*: drawables get surface color
+SystemUI: screenshot: add extra crop boundaries
+SystemUI: screenshot: remove duplicate clamping on move action
+SystemUI: screenshot: remove misplaced call to set crop view padding
+Utils: Adapt WiFi only check to A12
+base: ChooserActivity: Don't show image edit button on multiple targets
+base: Prevent NPE for Demo mode
+common: Add a system property for System UI compiler filter
+core: Add telephony stack to allowed service state packages
+overlay: Update Immersive Navigation values
+rro_overlays: Remove PixelConfigOverlay2021
+version: Uprev to 7.1
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
