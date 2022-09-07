@@ -1,0 +1,28 @@
+Device Changes:
+Switch back to Immensity
+Fix sound issues on wired (hi-fi still breaks it)
+Update Display stack from 13.0.5.0
+Build missing SoundTrigger 2.0
+Import LDAC and LHDC prebuilts
+
+ROM Changes:
+Merge September 2022 security patches
+Evolver: Bring back Edge Lighting feature
+PixelPropsUtils: Fix up GMS workaround logic
+PixelPropsUtils: Update fingerprints to September 2022 release
+SystemUI: FPS Info Overlay & Tile
+SystemUI: Implement burn-in protection for status/navbar
+version: Uprev to 7.1
+Evolver: Bring back GameSpace
+Bring back additional Screen recorder options
+Bring back per-app volume feature
+Evolver: Bring back daily data usage in QS footer
+Evolver: Bring back reTicker feature
+Evolver: Bring back status bar battery styles
+Evolver: Bring back status bar clock options
+Evolver: Bring back volume rocker wake
+Evolver: Re-introduce Smart Pulldown
+Evolver: Introduce status bar and QS clock size feature
+Settings: Add preference for one shot auto-brightness
+Settings: Bring back IME space feature
+And more...
