@@ -1,0 +1,45 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- You may update with dirty install from previous version but clean is recommended
+
+**Device Changes:**
+- Switch to kernel 4.14.292-Laboratory from Einar
+
+**Evolution X Update**
+
+Merge September 2022 security patches
+version: Uprev to 7.1
+Evolver: Bring back GameSpace
+Bring back additional Screen recorder options
+Bring back per-app volume
+Evolver: Bring back click to take partial screenshot
+Evolver: Bring back daily data usage in QS footer
+Evolver: Bring back reTicker
+Evolver: Bring back status bar battery styles
+Evolver: Bring back status bar clock options
+Evolver: Bring back volume rocker wake
+Evolver: Re-introduce Smart Pulldown
+Evolver: Introduce status bar and QS clock size feature
+Settings: Add preference for one shot auto-brightness
+Settings: Bring back IME space
+Keyguard: don't use large clock on landscape
+QS: LocationTile: make it cycle modes
+Settings: Add option to cycle through ringer modes
+Download: Add support to manually pause/resume download
+Evolver: Add back Lockscreen Charging info
+Evolver: Add back support for window ignore secure
+Settings: Add toggle to enable ADB root
+Settings: Improve gesture bar length option
+SystemUI: Add AOD QS tile
+SystemUI: Add bootloader option to 'Reboot' tile
+SystemUI: Introduce Data Switch QS Tile
+SystemUI: Require unlocking to use Reboot tile
+Evolver: Allow disabling QS battery estimates
+SystemUI: Remove Music QS Tile
+Settings: Add back increasing ring feature
+Settings: Add switch for linked ring and media notification volumes
+Evolver: Bring back double tap/long press power to toggle torch
+Evolver: Bring back QQS brightness slider options
+SystemUI: Make the volume dialog expandable
+Forward port LiveDisplay
+
