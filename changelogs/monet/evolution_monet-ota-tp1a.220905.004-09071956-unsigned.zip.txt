@@ -1,0 +1,139 @@
+- September security patch
+- Fixed bluetooth calls etc. issues
+- Updated display and graphics drivers to latest CAF
+- Minor stability and performance improvements
+
+If you have any playback/sound issues, make sure you are using MIUI 12.5.6.0 firmware 
+
+NOTE: If you use magisk, you need a special adapted build of magisk: https://drive.google.com/file/d/1i644x0FJszNGJ1Qr1C53fWJBm6inSbyu/view?usp=sharing
+It is going to be fixed in the future releases of Magisk.
+
+ROM changes:
+==============================
+9/7
+Evolver: Bring back Edge Lighting feature
+Merge September 2022 security patches
+Paint: Enable subpixel text positioning by default
+PixelPropsUtils: Fix up GMS workaround logic
+PixelPropsUtils: Update fingerprints to September 2022 release
+SystemUI: FPS Info Overlay & Tile
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returned null
+base: add API for disabling gestural navigation
+monet: Fix overly low chroma for tones below 90
+version: Uprev to 7.1
+
+9/6
+Evolver: Bring back GameSpace
+
+9/5
+Bring back additional Screen recorder options
+Bring back per-app volume feature
+Evolver: Bring back click to take partial screenshot
+Evolver: Bring back daily data usage in QS footer
+Evolver: Bring back reTicker feature
+Evolver: Bring back status bar battery styles
+Evolver: Bring back status bar clock options
+Evolver: Bring back volume rocker wake
+Evolver: Re-introduce Smart Pulldown
+Evolver: Introduce status bar and QS clock size feature
+Settings: Add preference for one shot auto-brightness
+Settings: Bring back IME space feature
+SystemUI: screenshot: add extra crop boundaries
+SystemUI: screenshot: remove duplicate clamping on move action
+SystemUI: screenshot: remove misplaced call to set crop view padding
+SystemUI: Update Bluetooth battery level assets
+base: Prevent NPE for Demo mode
+
+9/4
+Add various system packages to indicator exemptions
+AudioService: Remove Analog Dock from fixed-volume devices
+BootAnimation: Check for resolution override
+Don't pass repeated back key events to app if custom action is set up
+Don't skip theme application if it's already current
+Keyguard - Treat messages to lock with priority
+Keyguard: allow large clock on tablets
+Keyguard: don't use large clock on landscape
+QS: LocationTile: make it cycle modes
+Settings: Add option to cycle through ringer modes
+Settings: Align user avatar with homepage title
+Settings: Check isVoiceCapable for Calls&SMS category
+Settings: Don’t disable ls device controls based on secure lock
+Settings: Fix duplicated baseband string on all devices
+Settings: Follow navbar color in base
+Sharesheet: Display two rows of max ranked targets
+SystemUI: add FloatingRotationButton for hw-key devices
+SystemUI: Don't store pending ControlAction if the device is locked
+SystemUI: Fix QS mobile icon disappearing on theme switch
+SystemUI: ic_brightness_*: drawables get surface color
+SystemUI: Make isTablet() use correct API for getting window metrics
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+SystemUI: Redraw display cutout on overlay changes
+base: ChooserActivity: Don't show image edit button on multiple targets
+core: Add telephony stack to allowed service state packages
+rro_overlays: Remove PixelConfigOverlay2021
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+9/3
+Cellular tile: don't show disable confirmation dialog
+Download: Add support to manually pause/resume download
+Evolver: Add back Lockscreen Charging info
+Evolver: Add back support for window ignore secure
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+FingerprintManager: return "Try again" by default
+NavigationModeController: Mute debug logging
+Settings: Add toggle to enable ADB root
+Settings: Apply SUW button theming to WiFi page
+Settings: Don't reset A2DP offload when disabling developer settings
+Settings: Enable notifications led light by default
+Settings: Fingerprint: hide link icon when there's no link
+Settings: Forward port lock pattern grid size
+Settings: Forward port pattern visibility settings
+Settings: Improve gesture bar length option
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Network setup UI changes for SUW
+Settings: Only show gesture navigation if device has a software nav bar
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: use Glif themed button bar
+SystemUI: Add AOD QS tile
+SystemUI: Add bootloader option to 'Reboot' tile
+SystemUI: Add support for persistent usb drive notification
+SystemUI: Allow privileged system apps to access screenshot service
+SystemUI: Allow snoozing SD card notification unconditionally
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Introduce Data Switch QS Tile
+SystemUI: NavigationBar: disable secondary handle
+SystemUI: Remove spaces from screenshot app filename
+SystemUI: Require unlocking to use Reboot tile
+SystemUI: Update additional navbar dimens for Android 13
+SystemUI: disable keyguard screen off animation if we use split notification shade
+Utils: Adapt WiFi only check to A12
+common: Add a system property for System UI compiler filter
+overlay: Update Immersive Navigation values
+
+9/2
+Camera: allow camera to use power key as shutter
+Evolver: Allow disabling QS battery estimates
+Evolver: Bring back Battery light customization
+Evolver: Bring back HW Keys customization
+Evolver: Bring back LED light options
+SystemUI: Remove Music QS Tile
+
+9/1
+Settings: Add back increasing ring feature
+Settings: Add switch for linked ring and media notification volumes
+SystemUI: Show notification row when it's unlinked to ringer volume
+
+8/31
+Evolver: Bring back double tap/long press power to toggle torch
+Evolver: Bring back QQS brightness slider options
+Pre-grant Updater app with Notification permission by default
+Settings: Implement muting media volume on silent or vibrate mode
+Settings: Introduce Silent media mute preference
+SystemUI: Make the volume dialog expandable
+config: Move the bootanimation to a build package
+
+8/28
+Forward port Lineage related stuff (LiveDisplay, Anti-flicker, etc)
