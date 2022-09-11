@@ -1,0 +1,87 @@
+This is Android 13 with September 2022 security patches
+
+Notes:
+==============================
+Drity flash from older A13 build is fine.
+required fw is latest a11 fw for ur device.
+
+Device changes:
+==============================
+Allow system_server to write fastcharge node
+Define OEM fast charge sysfs node
+Allow system_server to read fastcharge node
+Remove TASchedtuneHighCap 
+Misc fixes and improvements
+------------------------------
+ROM changes:
+==============================
+Add support to manually pause/resume downloads
+Allow adjusting screen density to smaller sizes
+AOD: Sleep when proximity is covered for 3 secs
+AutofillManager: Turn off logging by default
+AutoFillUI: Don't show a "null" toast
+Call setBrightness when user stops swiping on statusbar
+Fix colors on DocumentsUI
+Evolver: Bring back animations to quick settings tiles
+Evolver: Bring back Haptic Feedback to QS tiles toggle
+Evolver: Bring back interpolators to qs tiles animation
+Evolver: Bring back Toast icon toggle
+Evolver: QuickSettings: Allow changing vibration duration
+KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+Make Build.TYPE and Build.FINGERPRINT consistent for apps
+NavigationBarEdgePanel: Make the gesture duration always valid
+ParcelFileDescriptor: Stop the panic
+Settings: Add clang version to firmware_version
+Settings: Add missing animations for gestures and features
+Settings: Add Security Hub from Pixel devices
+Settings: add TextView for summary into SeekBarDialogPreference
+Settings: Bring back LTE Only Mode
+Settings: Follow system theme for SD card activities
+Settings: Implement cutout force full screen
+Settings: SoftAp: add client manager
+Settings: SoftAp: add Hidden SSID preference
+Settings: SoftAp: add support for setting shutdown timeout
+Settings: support black theme for dark mode
+SQLite: Do integrity_check only once
+SQLiteDatabase: Catch corrupt exception during transaction
+SystemUI: Enable smart replies for apps that target APIs lower than 28
+SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+SystemUI: migrate status bar manual brightness to float
+SystemUI: Name Cellular Tile based on carrier
+SystemUI: Only apply tuning changes when the fragment is attached
+SystemUI: unify status bar manual & auto brightness code
+ThemedIcons: Update
+base: Force fullscreen for Google Dialer
+base: make per-app work with multi audio focus
+fixup! EnhancedEstimates: Get estimates from Device Health Services
+fixup! Show user's Google avatar on the homepage
+AODTile: Add back config check for aod available
+AODTile: add option to enable AOD on charging only
+AODTile: cycle through AOD states
+Bring back FM radio support
+ColorStateList: Switch to ZCAM for lightness modulation
+ColorUtils: Fix out-of-gamut Oklab blending
+Enable Volume Long Press Skip Tracks by default
+Evolver: Add separate tunable for QS clock
+InsetsStateController/LayoutInflater/LocalServices/SystemServiceRegistry/ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Keep recent tasks for more time in memory
+QuickStatusBarHeader: Link date in QS statusbar with clock
+PackageInfo: Optimize ApplicationInfo creation
+PixelPropsUtils: Refactor once again (fix missing apps on Play store)
+PixelPropsUtils: fixup! spoofing properties for samsung apps
+Settings: add option to enable AOD on charging only
+SystemUI: Reduce scrim color animation duration to 375 ms
+SystemUI: Speed up actions expansion animation
+Update Gapps to Sep 2022 sec patch versions
+Update translations
+WallpaperColors: Use CIELAB for light/dark wallpaper detection
+appop: Save discrete app op history for more permissions
+base: Remove aosp's 'show battery percentage' setting
+config: Disable StrictMode in non-eng builds
+fixup! base: volume key music control
+graphics: Add ZCAM implementation with sRGB interface
+graphics: Blend ARGB colors using Oklab
+pre-grant POST_NOTIFICATIONS to the clock app
+pre-grant POST_NOTIFICATIONS to more system apps
+rro_overlays: Remove SystemUIGoogleOverlay
+sepolicy: Label ro.vendor.fm.use_audio_session
