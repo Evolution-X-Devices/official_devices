@@ -1,0 +1,26 @@
+This is Android 13 with September 2022 security patches
+
+Notes:
+==============================
+Dirty flash from Android 12.1 to Android 13 at your own risk.
+Dirty flash from older A13 builds is fine.
+We're not responsible for any issues that this may cause.
+
+Device changes:
+==============================
+None
+------------------------------
+ROM changes:
+==============================
+CastTile: Fix availability of Cast Quick Setting Tile
+Evolver: Bring back bluetooth battery level status bar icon
+Evolver: Bring back colored status bar icons
+Evolver: Bring back navbar styles
+Evolver: Bring back QS battery estimates
+Evolver: Remove QS battery options
+Switch to AttestationHooks for spoofing GMS/Play store
+Switch to older implementation of FPSInfoService (fixes SystemUI crash)
+SystemUI: Animate cutout padding for QS clock
+SystemUI: Fix QS header animation in RTL mode
+SystemUI: Fix crash in cast tile for non-carrier wifi
+SystemUI: only block call strength sb icon

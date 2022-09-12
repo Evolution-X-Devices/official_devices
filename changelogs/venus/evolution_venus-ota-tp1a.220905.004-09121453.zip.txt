@@ -2,8 +2,9 @@ This is Android 13 with September 2022 security patches
 
 Notes:
 ==============================
-Dirty flash from A12.1 to A13 at your own risk.
-Drity flash from older A13 builds is fine.
+Dirty flash from Android 12.1 to Android 13 at your own risk.
+Dirty flash from older A13 builds is fine.
+We're not responsible for any issues that this may cause.
 
 Device changes:
 ==============================
@@ -11,41 +12,46 @@ None
 ------------------------------
 ROM changes:
 ==============================
+AOD: Sleep when proximity is covered for 3 secs
 Add support to manually pause/resume downloads
 Allow adjusting screen density to smaller sizes
-AOD: Sleep when proximity is covered for 3 secs
-AutofillManager: Turn off logging by default
 AutoFillUI: Don't show a "null" toast
-Call setBrightness when user stops swiping on statusbar
-Fix colors on DocumentsUI
-Evolver: Bring back animations to quick settings tiles
+AutofillManager: Turn off logging by default
 Evolver: Bring back Haptic Feedback to QS tiles toggle
-Evolver: Bring back interpolators to qs tiles animation
+Evolver: Bring back QS battery estimates
 Evolver: Bring back Toast icon toggle
+Evolver: Bring back animations to quick settings tiles
+Evolver: Bring back interpolators to qs tiles animation
+Evolver: Bring back navbar styles
 Evolver: QuickSettings: Allow changing vibration duration
+Evolver: Remove QS battery options
+Fix colors on DocumentsUI
 KernelCpuUidActiveTimeReader: Do not spam log with negative active time
 Make Build.TYPE and Build.FINGERPRINT consistent for apps
 NavigationBarEdgePanel: Make the gesture duration always valid
 ParcelFileDescriptor: Stop the panic
+SQLite: Do integrity_check only once
+SQLiteDatabase: Catch corrupt exception during transaction
+Settings: Add Security Hub from Pixel devices
 Settings: Add clang version to firmware_version
 Settings: Add missing animations for gestures and features
-Settings: Add Security Hub from Pixel devices
-Settings: add TextView for summary into SeekBarDialogPreference
 Settings: Bring back LTE Only Mode
 Settings: Follow system theme for SD card activities
 Settings: Implement cutout force full screen
-Settings: SoftAp: add client manager
 Settings: SoftAp: add Hidden SSID preference
+Settings: SoftAp: add client manager
 Settings: SoftAp: add support for setting shutdown timeout
+Settings: add TextView for summary into SeekBarDialogPreference
 Settings: support black theme for dark mode
-SQLite: Do integrity_check only once
-SQLiteDatabase: Catch corrupt exception during transaction
+Switch to AttestationHooks for spoofing GMS/Play store
+Switch to older implementation of FPSInfoService (fixes SystemUI crash)
+SystemUI: Animate cutout padding for QS clock
 SystemUI: Enable smart replies for apps that target APIs lower than 28
+SystemUI: Fix QS header animation in RTL mode
 SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
-SystemUI: migrate status bar manual brightness to float
 SystemUI: Name Cellular Tile based on carrier
 SystemUI: Only apply tuning changes when the fragment is attached
-SystemUI: unify status bar manual & auto brightness code
+SystemUI: only block call strength sb icon
 ThemedIcons: Update
 base: Force fullscreen for Google Dialer
 base: make per-app work with multi audio focus
