@@ -1,0 +1,24 @@
+!!! CLEAN FLASH IS NECESSARY !!!
+
+Device Changes:
+Clean up trees and rebased from latest LineageOS ones
+Use latest Immensity kernel available
+Make ripple animation smoother
+Fix Dolby and Mi Sound on Bluetooth
+And some other improvements
+
+ROM Changes:
+Evolver: Battery Styles: Bring back customization for QS
+KeyguardIndication: Fix glitchy charging info on lock screen
+SystemUI: Clean up and fix status bar logo feature
+Use alphaoptimized layout for icons on left
+Evolver: Bring back HeadsUp snooze and timeout options
+Evolver: Bring back HeadsUp blocklist/stoplist
+Settings: Add charging vibration settings
+device_config: Checkout to sc-qpr3 branch of ProtonAOSP
+fixup! base: Lockscreen Charging
+base: fix pm cache directory invalidate on new builds
+fixup! SystemUI: Fix shutter sound
+Bring in SettingsGoogle/SystemUIGoogle from PE
+Settings: Add toggle to switch between AOSP/Google battery graphs
+And more...
