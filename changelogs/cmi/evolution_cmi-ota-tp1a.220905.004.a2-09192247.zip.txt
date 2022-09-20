@@ -1,0 +1,847 @@
+  
+2022-09-20
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.4.0
+- Format data
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: Initial A13 Release
+
+KERNEL:
+
+  * sm8250: Rebased on 'LA.UM.9.12.r1-14500-SMxx50'
+
+ROM:
+
+9/20
+
+Calm down attention service logspam
+
+EnhancedEstimates: Get estimates from Device Health Services
+
+Evolver: Bring back privacy indicators toggles
+
+NfcA: Fix an NPE in constructor
+
+PixelPropsUtils: bring back all changes from Build.FINGERPRINT to Build.TIME
+
+Settings: Add missing summary for Display size and text
+
+Settings: Link location indicators toggle in privacy settings
+
+Settings: PowerUsageSummary: open advanced usage on header click
+
+SystemUI: Add missing init for isDeviceProvisioned in PhoneStatusBarPolicy
+
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+
+SystemUI: Get rid of unnecessary broadcast for IMS
+
+SystemUI: Kill old privacy indicator icons completely
+
+SystemUI: Use ImsStateCallback instead of FeatureConnector
+
+base: Add Multi usb controller for Asus devices
+
+
+9/19
+
+AlertSlider: Allow UI to work with multiple resolutions
+
+Catch IllegalArgumentException for invalid phone id
+
+Fix action bar font family on material themes
+
+Fix crash occurred due to null pointer exception
+
+KeyguardIndication: Fix glitchy charging info on lock screen
+
+Settings: Allow Configuring Navbar Radius
+
+StatusBarIconController: Guard yet another function from cast exception
+
+SystemUI: Allow using tuner API for Global settings
+
+SystemUI: Clean up and fix status bar logo feature
+
+SystemUI: More rounded corners
+
+SystemUI: Tiny expanding improvement
+
+ThemeOverlayController: Remove repeated monet check
+
+Use alphaoptimized layout for icons on left
+
+base: use a double click effect for charging if there is no amplitude control support
+
+core: Fix menu popup ripple
+
+core: Fix null pointer Issue
+
+fixup! frameworks: Add support for clock auto-hiding
+
+
+9/18
+
+Reland "Don't enable jdwp by default on userdebug builds""
+
+Save user preferred resolution into persistent data store
+
+SystemUI: Re-inflate keyguard status bar on theme change
+
+SystemUI: Set heap tracking default also with a property like all the other flags
+
+SystemUI: Use max Display.Mode in AuthController as well
+
+base: AudioService: bail out if ringer mode is not recognized
+
+base: Disable LiveDisplay display mode by default
+
+base: Disable LiveDisplay low power consumption by default
+
+
+9/17
+
+apns: Clean up Austrian carriers
+
+
+9/16
+
+Evolver: Bring back HeadsUp snooze and timeout options
+
+Evolver: Bring back HeadsUp blocklist/stoplist
+
+Fix Dark Theme "TURN ON UNTIL SUNRISE" not retained after reboot
+
+Fixes crash/race condition when destroyActivity
+
+Improve PendingIntent security check compatibility
+
+Settings: Add charging vibration settings
+
+Settings: remove preference if availableColorModes is empty
+
+Telecomm: Use double vibration on call hang-up
+
+device_config: Checkout to sc-qpr3 branch of ProtonAOSP
+
+fixup! Disable/Enable screenshot sound
+
+fixup! base: Lockscreen Charging
+
+
+9/15
+
+Fix Udfps unlock animation
+
+Settings: Disable "SIM card lock" when the SIM card is PUK-blocked
+
+base: fix pm cache directory invalidate on new builds
+
+base: remove useless pm cache hack
+
+bring back all changes from Build.FINGERPRINT to Build.TIME
+
+rro_overlays: Convert AOSP NetworkStack overlay to an RRO package
+
+telephony: Ignore PLMN bit when SPN is required
+
+
+9/14
+
+Avoid Settings app NPE on broken packages
+
+Bring in SettingsGoogle/SystemUIGoogle from PE
+
+Settings: Add toggle to switch between AOSP/Google battery graphs
+
+Settings: Add Game Space preference in Apps category
+
+Settings: Move proguard flags for the Evolver
+
+fixup! SystemUI: Fix shutter sound
+
+exec spawning: don't close the binder connection when the app crashes
+
+vendor: CarrierSettings: Update from TP1A.220905.004
+vendor: apex: Update from TP1A.220905.004
+
+
+9/13
+
+PixelPropsUtils: Replace Gboard with Google One
+
+Settings: Remove the Automatic ota check option but be sure it's disabled
+
+core: Pixel experience Blacklist For Google Photos for Android 13
+
+vendor: Update audio from TP1A.220624.021
+
+vendor: Update setupwizard props from TP1A.220624.021
+
+vendor: overlay: SettingsLib: Override headline font family
+
+
+9/12
+
+CastTile: Fix availability of Cast Quick Setting Tile
+
+Evolver: Bring back bluetooth battery level status bar icon
+
+Evolver: Bring back colored status bar icons
+
+Evolver: Bring back navbar styles
+
+Evolver: Bring back QS battery estimates
+
+Evolver: Remove QS battery options
+
+Switch to AttestationHooks for spoofing GMS/Play store
+
+SystemUI: Animate cutout padding for QS clock
+
+SystemUI: Fix QS header animation in RTL mode
+
+SystemUI: Fix crash in cast tile for non-carrier wifi
+
+SystemUI: only block call strength sb icon
+
+
+9/11
+
+Add support to manually pause/resume downloads
+
+Allow adjusting screen density to smaller sizes
+
+AOD: Sleep when proximity is covered for 3 secs
+
+AutofillManager: Turn off logging by default
+
+AutoFillUI: Don't show a "null" toast
+
+Fix colors on DocumentsUI
+
+Evolver: Bring back animations to quick settings tiles
+
+Evolver: Bring back Haptic Feedback to QS tiles toggle
+
+Evolver: Bring back interpolators to qs tiles animation
+
+Evolver: Bring back Toast icon toggle
+
+Evolver: QuickSettings: Allow changing vibration duration
+
+KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+
+Make Build.TYPE and Build.FINGERPRINT consistent for apps
+
+NavigationBarEdgePanel: Make the gesture duration always valid
+
+ParcelFileDescriptor: Stop the panic
+
+Settings: Add clang version to firmware_version
+
+Settings: Add missing animations for gestures and features
+
+Settings: Add Security Hub from Pixel devices
+
+Settings: add TextView for summary into SeekBarDialogPreference
+
+Settings: Bring back LTE Only Mode
+
+Settings: Follow system theme for SD card activities
+
+Settings: Implement cutout force full screen
+
+Settings: SoftAp: add client manager
+
+Settings: SoftAp: add Hidden SSID preference
+
+Settings: SoftAp: add support for setting shutdown timeout
+
+Settings: support black theme for dark mode
+
+SQLite: Do integrity_check only once
+
+SQLiteDatabase: Catch corrupt exception during transaction
+
+SystemUI: Enable smart replies for apps that target APIs lower than 28
+
+SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+
+SystemUI: Name Cellular Tile based on carrier
+
+SystemUI: Only apply tuning changes when the fragment is attached
+
+ThemedIcons: Update
+base: Force fullscreen for Google Dialer
+
+base: make per-app work with multi audio focus
+
+fixup! Show user's Google avatar on the homepage
+
+
+9/10
+
+Evolver: Add separate tunable for QS clock
+
+QuickStatusBarHeader: Link date in QS status bar with clock
+
+Settings: Bring back IME space feature
+
+Settings: Bring back gesture height option
+
+pre-grant POST_NOTIFICATIONS to the clock app
+
+pre-grant POST_NOTIFICATIONS to more system apps
+
+
+9/9
+
+Keep recent tasks for more time in memory
+
+PixelPropsUtils: Refactor once again
+
+base: Remove aosp's 'show battery percentage' setting
+
+config: Disable StrictMode in non-eng builds
+
+fixup! base: volume key music control
+
+
+9/8
+
+AODTile: Add back config check for aod available
+
+AODTile: add option to enable AOD on charging only
+
+AODTile: cycle through AOD states
+
+Bring back FM radio support
+
+ColorStateList: Switch to ZCAM for lightness modulation
+
+ColorUtils: Fix out-of-gamut Oklab blending
+
+Enable Volume Long Press Skip Tracks by default
+
+PackageInfo: Optimize ApplicationInfo creation
+
+PixelPropsUtils: fixup! spoofing properties for samsung apps
+
+Settings: add option to enable AOD on charging only
+
+SystemUI: Reduce scrim color animation duration to 375 ms
+
+SystemUI: Speed up actions expansion animation
+
+InsetsStateController/LayoutInflater/LocalServices/SystemServiceRegistry/ThemedResourceCache: Replace ArrayMap with HashMap for performance
+
+Update Gapps to Sep 2022 sec patch versions
+
+WallpaperColors: Use CIELAB for light/dark wallpaper detection
+
+appop: Save discrete app op history for more permissions
+
+graphics: Add ZCAM implementation with sRGB interface
+
+graphics: Blend ARGB colors using Oklab
+
+rro_overlays: Remove SystemUIGoogleOverlay
+
+
+9/7
+
+Evolver: Bring back Edge Lighting feature
+
+Merge September 2022 security patches
+
+Paint: Enable subpixel text positioning by default
+
+PixelPropsUtils: Fix up GMS workaround logic
+
+PixelPropsUtils: Update fingerprints to September 2022 release
+
+SystemUI: FPS Info Overlay & Tile
+
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returned null
+
+base: add API for disabling gestural navigation
+
+monet: Fix overly low chroma for tones below 90
+
+version: Uprev to 7.1
+
+
+9/6
+
+Evolver: Bring back GameSpace
+
+
+9/5
+
+Bring back additional Screen recorder options
+
+Bring back per-app volume feature
+
+Evolver: Bring back click to take partial screenshot
+
+Evolver: Bring back daily data usage in QS footer
+
+Evolver: Bring back reTicker feature
+
+Evolver: Bring back status bar battery styles
+
+Evolver: Bring back status bar clock options
+
+Evolver: Bring back volume rocker wake
+
+Evolver: Re-introduce Smart Pulldown
+
+Evolver: Introduce status bar and QS clock size feature
+
+Settings: Add preference for one shot auto-brightness
+
+SystemUI: screenshot: add extra crop boundaries
+
+SystemUI: screenshot: remove duplicate clamping on move action
+
+SystemUI: screenshot: remove misplaced call to set crop view padding
+
+SystemUI: Update Bluetooth battery level assets
+
+base: Prevent NPE for Demo mode
+
+
+9/4
+
+Add various system packages to indicator exemptions
+
+AudioService: Remove Analog Dock from fixed-volume devices
+
+BootAnimation: Check for resolution override
+
+Don't pass repeated back key events to app if custom action is set up
+
+Don't skip theme application if it's already current
+
+Keyguard - Treat messages to lock with priority
+
+Keyguard: allow large clock on tablets
+
+Keyguard: don't use large clock on landscape
+
+QS: LocationTile: make it cycle modes
+
+Settings: Add option to cycle through ringer modes
+
+Settings: Align user avatar with homepage title
+
+Settings: Check isVoiceCapable for Calls&SMS category
+
+Settings: Don’t disable ls device controls based on secure lock
+
+Settings: Fix duplicated baseband string on all devices
+
+Settings: Follow navbar color in base
+
+Sharesheet: Display two rows of max ranked targets
+
+SystemUI: add FloatingRotationButton for hw-key devices
+
+SystemUI: Don't store pending ControlAction if the device is locked
+
+SystemUI: Fix QS mobile icon disappearing on theme switch
+
+SystemUI: ic_brightness_*: drawables get surface color
+
+SystemUI: Make isTablet() use correct API for getting window metrics
+
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+
+SystemUI: Redraw display cutout on overlay changes
+
+base: ChooserActivity: Don't show image edit button on multiple targets
+
+core: Add telephony stack to allowed service state packages
+
+rro_overlays: Remove PixelConfigOverlay2021
+
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+
+9/3
+
+Cellular tile: don't show disable confirmation dialog
+
+Download: Add support to manually pause/resume download
+
+Evolver: Add back Lockscreen Charging info
+
+Evolver: Add back support for window ignore secure
+
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+
+FingerprintManager: return "Try again" by default
+
+NavigationModeController: Mute debug logging
+
+Settings: Add toggle to enable ADB root
+
+Settings: Apply SUW button theming to WiFi page
+
+Settings: Don't reset A2DP offload when disabling developer settings
+
+Settings: Enable notifications led light by default
+
+Settings: Fingerprint: hide link icon when there's no link
+
+Settings: Forward port lock pattern grid size
+
+Settings: Forward port pattern visibility settings
+
+Settings: Improve gesture bar length option
+
+Settings: Make FRP go through ChooseLockPatternSize if needed
+
+Settings: Make NetworkScanHelper max search time customizable
+
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+
+Settings: Network setup UI changes for SUW
+
+Settings: Only show gesture navigation if device has a software nav bar
+
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+
+Settings: use Glif themed button bar
+
+SystemUI: Add AOD QS tile
+
+SystemUI: Add bootloader option to 'Reboot' tile
+
+SystemUI: Add support for persistent usb drive notification
+
+SystemUI: Allow privileged system apps to access screenshot service
+
+SystemUI: Allow snoozing SD card notification unconditionally
+
+SystemUI: Always disable rotation on lockscreen
+
+SystemUI: Introduce Data Switch QS Tile
+
+SystemUI: NavigationBar: disable secondary handle
+
+SystemUI: Remove spaces from screenshot app filename
+
+SystemUI: Require unlocking to use Reboot tile
+
+SystemUI: Update additional navbar dimens for Android 13
+
+SystemUI: disable keyguard screen off animation if we use split notification shade
+
+Utils: Adapt WiFi only check to A12
+
+common: Add a system property for System UI compiler filter
+
+overlay: Update Immersive Navigation values
+
+
+9/2
+
+Camera: allow camera to use power key as shutter
+
+Evolver: Allow disabling QS battery estimates
+
+Evolver: Bring back Battery light customization
+
+Evolver: Bring back HW Keys customization
+
+Evolver: Bring back LED light options
+
+SystemUI: Remove Music QS Tile
+
+
+9/1
+
+Settings: Add back increasing ring feature
+
+Settings: Add switch for linked ring and media notification volumes
+
+SystemUI: Show notification row when it's unlinked to ringer volume
+
+
+8/31
+
+Evolver: Bring back double tap/long press power to toggle torch
+
+Evolver: Bring back QQS brightness slider options
+
+Pre-grant Updater app with Notification permission by default
+
+Settings: Implement muting media volume on silent or vibrate mode
+
+Settings: Introduce Silent media mute preference
+
+SystemUI: Make the volume dialog expandable
+
+config: Move the bootanimation to a build package
+
+
+8/28
+
+Forward port Lineage related stuff (LiveDisplay, Anti-flicker, etc)
+
+
+8/25
+
+Evolver: Add Hide Status bar on Lock screen toggle
+
+Evolver: Allow enabling compact layout of navigation bar
+
+Evolver: Custom logo customizations
+
+Fix Wakelock issue
+
+Hide the "Show the vibrate icon in the Status Bar" setting
+
+Port "Battery Usage Alerts" feature from factory images
+
+PreviewInflater: Fix issue with google dialer widget on keyguard
+
+QS: Add Music QS Tile
+
+QuickStatusBarHeader: Fix clickability issue with privacy indicator
+
+Settings: Add hotspot setting to allow VPN upstreams
+
+Settings: Add pocket lock toggle
+
+Settings: Add preference for toggling the wallpaper zooming animation
+
+Settings: Allow to hide arrow for back gesture
+
+Settings: DevicePicker: Adapt to S style
+
+Settings: Display auto rotate settings instead of toggle
+
+Settings: Fixup start padding for battery usage graph
+
+Settings: Long press to copy wifi password
+
+Settings: Observe auto brightness mode changes
+
+Settings: Remove divider from Battery Manager
+
+Settings: Smart Charging
+
+Settings: Update package details to match S style
+
+Settings: Use List Preference for NightLight settings
+
+Settings: Use font configs instead fonts directly
+
+Settings: check wifi direct feature for showing preferences
+
+Settings: move Extra Dim feature to display
+
+SoftAp: add Hidden SSID preference
+
+SoftAp: add client manager
+
+SystemUI: Add VPN tile
+
+SystemUI: Switch notification background to monet on heads up
+
+Turn off carrier provisioning by default to allow tethering
+
+Wire up default fonts with font engine
+
+base: Do not reset keyguard going away state
+
+base: Use font configs instead hardcoded fonts
+
+development: Enable force resizable activities by default
+
+development: Enable freeform windows by default
+
+pocket lock: Increase to 15 sec the pocket lock screen
+
+
+8/24
+
+Add Google Sound Search tile
+
+Bring back Screen off UDFPS
+
+ColorUtils: Prevent crash if alpha component is translucent
+
+EnhancedEstimates: Get estimates from Device Health Services
+
+Evolver: Add Flashlight blink on incoming calls
+
+Evolver: Add Lockscreen album art filter
+
+Evolver: Add Secure QS tile toggle
+
+Evolver: Add Volume key cursor control
+
+Evolver: Add double tap to sleep gesture
+
+Evolver: Add double tap to sleep on lockscreen
+
+Evolver: Add kill button to notification guts
+
+Evolver: Add navbar layout inversion tuning
+
+Evolver: Add option to Display Data Disabled Indicator Icon
+
+Evolver: Add quick settings pull down with one finger
+
+Evolver: Add roaming indicator toggle
+
+Evolver: Add runtime configurable audio panel location
+
+Evolver: Allow disabling qs on secure lockscreen
+
+Evolver: Allow scheduling always on display
+
+Evolver: Allow to disable qs footer warnings
+
+Evolver: Allow to enable Lockscreen Media Art
+
+Evolver: Allow to suppress notifications sound/vibration if screen is ON
+
+Evolver: Allow using 4G icon instead LTE
+
+Evolver: Bring back Network traffic
+
+Evolver: Bring back Power menu options
+
+Evolver: Bring back Status bar brightness control
+
+Evolver: Bring back old style mobile data indicators
+
+Evolver: Hide power menu on secure lockscreen
+
+Evolver: Incall vibration options
+
+Evolver: Launch default music player on headset connect
+
+Evolver: Less boring heads up option
+
+Evolver: Live Volume Steps
+
+Fix Google Photos unlimited backup
+
+Fix screen flickering when using one handed mode
+
+PowerUI: Mute logcat spam
+
+QSPanel: Don't crash when not using media player
+
+Reduce NotificationHistoryDatabase logspam
+
+Restore cache clean up code in PackageManagerService
+
+Screenshot: Remove scroll chip button text
+
+Settings: Add Wake on plug toggle
+
+Settings: Add option to scramble pin layout when unlocking
+
+Settings: Allow changing the length of gesture navbar
+
+Settings: Bring back Immersive Navbar (full screen gestures)
+
+Settings: Bring back Smart Pause
+
+Settings: Double tap to trigger doze
+
+Settings: Forward port lockscreen quick unlock
+
+Settings: Phone ringtone setting for Multi SIM device
+
+Settings: Port Volume Long Press Skip Tracks
+
+SettingsProvider: Set device name to marketname if available
+
+Stop Microsoft apps from crashing without INTERNET permission
+
+StrictMode: Don't enable extra features for userdebug builds
+
+SystemUI: Add colors to assistant animation
+
+SystemUI: Better QS detail clip animation
+
+SystemUI: Block annoying statusbar call strength icon
+
+SystemUI: Bring back separate wifi & data QS tiles
+
+SystemUI: Dismiss keyguard on boot if disabled by current profile
+
+SystemUI: Dismiss screenshot window on touch outside
+
+SystemUI: Enable lockscreen media artwork even if qs media is enabled
+
+SystemUI: Enable session-based media actions for all apps
+
+SystemUI: Fix double unlock sound issue
+
+SystemUI: Forward-port smartspace to Android 13
+
+SystemUI: HeadsUpTile: Open Heads Up fragment on long click
+
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+
+SystemUI: Make battery & clock clickable again in QuickStatusBarHeader
+
+SystemUI: Prevent loop with display timeout
+
+SystemUI: Respect Statusbar left padding in keyguard carrier
+
+TtsEngines: avoid crashes caused by null engine name
+
+core: Wipe package cache on upgrade even on user build
+
+display: Don't spam log when display state changes
+
+services: Whitelist Nfc Service from clipboard toasts
+
+telephony: show ICCID by default for all
+
+
+8/21
+
+Port UDFPS changes from 12.1 (thanks to ArrowOS)
+
+config: Disable blur flag and props
+
+evolution: CarrierSettings: Initial update for Tiramisu
+
+evolution: rro_overlays: Initial update for Tiramisu
+
+
+8/19
+
+Bring back several QS tiles (PowerShare, Caffeine, Ambient Display, USB Tethering, Sync, Sound, Heads Up, Reboot/Recovery/Power off, Volume panel)
+
+Bring up Evolver for A13 (Screen off animations, Photos/Gaming spoof, etc)
+
+Settings: Add proximity check on wake toggle
+
+Settings: Add screenshot sound toggle
+
+Settings: Bring back refresh rate settings
+
+Settings: Enable OTA support
+
+
+8/18
+
+Initial Android 13 changes
