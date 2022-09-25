@@ -684,5 +684,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r3-official-evolution-x-7-0-for-redmi-note-11-nfc.4485855/"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "veux",
+      "name": "Redmi Note 11 Pro Plus",
+      "supported_versions": [
+         {
+            "maintainer_name": "Ashish Jaswal (jaswal_ashish11)",
+            "maintainer_url": "https://forum.xda-developers.com/m/ashish11948.11817917/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-veux-peux-official-evolution-x-09-25-22.4497785/"
+         }
+      ]
    }
 ]
