@@ -1,0 +1,178 @@
+  
+2022-09-30
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.5.0
+- Format data
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: Migrate to Xiaomi power AIDL HAL
+  * sm8250-common: Audio Improvements
+  * sm8250-common: Add DC Dimming QS tile
+  * sm8250-common: Rework Overlays
+  * many more ...
+
+ROM:
+
+9/29
+
+DeviceIdleJobsController: don't ignore whitelisted system apps
+
+Evolver: Bring back Wi-Fi standard icon feature
+
+Fix black screen issue due to wallpaper decoding exceptions
+
+MotionEvent: Add backwards compatible initialize() function
+
+Settings: Add optional Build status info
+
+Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+
+Settings: Allow toggling floating rotation button
+
+Settings: Hide Build maintainer info if not set
+
+Settings: Optional haptic feedback on back gesture
+
+Settings: Set Build date to be unselectable
+
+Settings: applock: fix unlock prompt disappearing when trying to open apps
+
+Settings: use a new task stack for app lock fragments
+
+SystemUI: Allow limiting AOD & ambient display refresh rate
+
+SystemUI: Calculate paged QS tiles height properly
+
+SystemUI: CastTile: Open cast settings on long click
+
+SystemUI: HACK: Fix random wakeup when just sleeping
+
+themes: fonts: Add Cool Jazz
+
+services: applock: allow background authentication
+
+
+9/28
+
+Don't build CaptivePortalLoginGoogle/CaptivePortalLoginOverlay
+
+Evolver: Bring back Navbar visibility toggle
+
+Evolver: Remove faulty privacy indicator implementation
+
+SystemUI: Properly apply dark theming to clock
+
+Zygote: Disable debug
+
+Zygote: Install seccomp filter regardless of selinux status
+
+fixup! frameworks: Add support for clock auto-hiding
+
+sepolicy: Allow webview_zygote to read /dev/ion
+
+
+9/27
+
+SystemUI: Fix pulseOut fails before fully pulsing
+
+
+9/26
+
+Evolver: Bring back App lock feature
+
+Evolver: Bring back Hidden apps feature
+
+Fix NPE with void android.view.VelocityTracker.clear()
+
+PixelPropsUtils: Spoof device as Pixel for Wallpapers app
+
+Settings: Improve force fullscreen settings fragment
+
+Settings: Kang duplicate baseband fix from CAF
+
+SystemUI: FPSInfoService: extend LifecycleService and fix overlay not being visible in secondary user
+
+SystemUI: FPSInfoService: get status bar insets ignoring visibility
+
+SystemUI: cleanup fps info tile and service
+
+SystemUI: fix MediaProjection cast crash
+
+SystemUI: rewrite FPSInfoService in kt from scratch and bind service with tile
+
+fixup! Settings: add option to enable AOD on charging only
+
+overlay: SystemUI: force dark theme on global actions dialog
+
+
+9/25
+
+Add check for empty TTS engine name
+
+Add missing INTERACT_ACROSS_USERS_FULL permission
+
+Always show APN settings on CDMA carriers
+
+Disable FP lockouts
+
+Disable bluetooth by default
+
+Fix SystemUI build for kotlin 1.7.0
+
+Fix unqualified-std-cast-call compiler warning
+
+IllustrationPreference: Hide illustration when we fail to play anim
+
+PackageInstaller: Remove side padding from the dialog
+
+Remove wtf if no display nits mapping exists
+
+Settings: ScreenResolutionFragment: Restart SystemUI on res change
+
+SystemUI: Allow UdfpsAnimations to work with multiple resolutions
+
+SystemUI: Avoid altering page indicator layout when hiding qs footer icons
+
+fixup! SystemUI: Enable NFC quick settings tile
+
+
+9/24
+
+Evolver: UDFPS: Bring back customization options
+
+Settings: Add sim status listener in about phone
+
+Settings: Call CardDatabaseHelper.getInstance() when used and not in onCreate
+
+Settings: Fix ExtraText lint errors
+
+Settings: Fix SIM name in Network Details to show the selected SIM
+
+SystemUI: Fix QS customizer corner radius
+
+
+9/22
+
+Do not preload ThreadLocalRandom class
+
+Evolver: Bring back OOS style notification clear all button feature
+
+Evolver: Bring back QS footer icon visibilities
+
+QSPanel: Fix NPE in updateViewPositions()
+
+
+9/21
+
+PixelPropsUtils: Fix issue with text select and copy
+
+Settings: Move screen off UDFPS toggle to security lock screen settings
+
+SystemUI: Show battery level for all devices
+
+gms: Add RECORD_AUDIO permission to googlequicksearchbox
