@@ -1,0 +1,94 @@
+  
+2022-10-04
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.7.0
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: Force HAL1 on meta apps
+  * sm8250-common: init: set custom post boot kernel values
+  * sm8250-common: ship with GCam Go
+  * sm8250-common: increase clock start padding
+
+KERNEL:
+
+  * sm8250-common: drop custom doze implementation
+
+ROM:
+
+
+10/5
+
+Evolver: Add toggle for media projection indicator
+
+Evolver: Bring back privacy indicators toggles
+
+Skip checking SystemUI's permission for observing sensor privacy
+
+SystemUI: Kill old privacy indicator icons completely
+
+
+10/4
+
+Evolver: AppLockSettingsPC: use DashboardFragment as the type for host
+
+Evolver: applock: early return in setChecked if backing field has the same value
+
+Merge October 2022 security patches
+
+PixelPropsUtils: Update fingerprints to October 2022 release
+
+SecuritySettings: properly remove security status header
+
+Settings: relocate app lock preference to advanced security settings
+
+Settings: remove security status group if empty
+
+SystemUI: QuickStatusBarHeader: use proper shade for secondary color of circle battery icon
+
+gms: Update gapps
+
+services: applock: fix data migration and change secure notification parameter name
+
+vendor: CarrierSettings: Update from TP1A.221005.002
+
+vendor: apex: Update from TP1A.221005.002
+
+vendor: rro_overlays: Configure face unlock acquire ignorelist
+
+version: Uprev to 7.2
+
+
+10/3
+
+Evolver: Replace QS data usage with customizable footer text
+
+Settings: BiometricFragment: respect background authentication request in source prompt info
+
+core: ProcessState: prevent an NPE from crashing system server
+
+services: ActiveServices: drop uid check when notifying newly registered callbacks
+
+services: AppLockConfig: fix a derp in hidePackage()
+
+
+10/2
+
+AlertSlider: Add resources for refresh rate modes
+
+
+10/1
+
+Evolver: Add Power menu animations
+
+Evolver: Allow Power/reboot menu transparency
+
+base: merge hidden app feature with applock
+
+sepolicy: Allow recovery to read sysfs_perdev_minors
+
+sepolicy: Grant necessary ioctls to recovery for external sd
