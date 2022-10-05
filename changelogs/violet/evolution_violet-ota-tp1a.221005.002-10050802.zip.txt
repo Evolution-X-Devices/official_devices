@@ -1,0 +1,56 @@
+This build you're receiving is evolution_violet-ota-tp1a.221005.002-10050802.zip
+
+Notes:
+Rom is encrypted by default.
+If you want to be decrypted, flash dfe_v4 after flashing the ROM.
+Gapps And Firmware are shipped default with Rom.
+AOSP Recovery is not shipped by default.
+CTS passes by default.
+Either use AOSP Recovery or Joker's latest Android 13 TWRP
+Dirty Flash is possible.
+
++++++++++++++++++++++
++  Device Side      +
++++++++++++++++++++++
+Increase In-call earpiece volume 
+Update System and Adreno blobs
+Fix offline charging LED indicator
+
++++++++++++++++++
++ Source Side   +
++++++++++++++++++
+Evolver: AppLockSettingsPC: use DashboardFragment as the type for host
+Evolver: applock: early return in setChecked if backing field has the same value
+Merge October 2022 security patches
+PixelPropsUtils: Update fingerprints to October 2022 release
+SecuritySettings: properly remove security status header
+Settings: relocate app lock preference to advanced security settings
+Settings: remove security status group if empty
+SystemUI: QuickStatusBarHeader: use proper shade for secondary color of circle battery icon
+gms: Update gapps
+services: applock: fix data migration and change secure notification parameter name
+vendor: CarrierSettings: Update from TP1A.221005.002
+vendor: apex: Update from TP1A.221005.002
+vendor: rro_overlays: Configure face unlock acquire ignorelist
+version: Uprev to 7.2
+Evolver: Replace QS data usage with customizable footer text
+Settings: BiometricFragment: respect background authentication - - request in source prompt info
+core: ProcessState: prevent an NPE from crashing system server
+services: ActiveServices: drop uid check when notifying newly registered callbacks
+services: AppLockConfig: fix a derp in hidePackage()
+AlertSlider: Add resources for refresh rate modes
+Evolver: Add Power menu animations
+Evolver: Allow Power/reboot menu transparency
+base: merge hidden app feature with applock
+sepolicy: Allow recovery to read sysfs_perdev_minors
+sepolicy: Grant necessary ioctls to recovery for external sd
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Evolver: Bring back Wi-Fi standard icon feature
+Fix black screen issue due to wallpaper decoding exceptions
+MotionEvent: Add backwards compatible initialize() function
+Settings: Add optional Build status info
+Settings: Allow toggling floating rotation button
+Settings: Hide Build maintainer info if not set
+Settings: Optional haptic feedback on back gesture
+Settings: Set Build date to be unselectable
+Settings: applock: fix unlock prompt disappearing when trying to open apps
