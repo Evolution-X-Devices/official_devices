@@ -1,0 +1,48 @@
+~ Device Changes:
+Improve Audio Configs
+Update Audio Configs from 13.0.8.0 EEA
+Update to latest Immensity kernel
+Fix Voice Recorder
+SEPolicy improvements
+Powerhint improvements
+Enable suspend on charge
+Fix NFC tag reading
+Import Charging props
+And more...
+
+ROM Changes:
+Settings: Adjust playback control gesture preferences
+Settings: Allow choosing volume key music control activation delay
+SystemUI: screenrecord: Add an option to use HEVC
+Updater: Allow starting activities from background
+Updater: Don't show thousands of days
+Updater: Use monet colors
+base: get the most of the media artwork colors
+EvoEgg: Update Launcher icon and use monet colors
+Settings: Use monet colors for Evolution X Unbound Logo
+SettingsGoogle: Sync with Evolution X changes
+SystemUI: Integrate Google Lens into Screenshot UI
+zygote: Enable USAP by default
+Evolver: Add toggle for media projection indicator
+Evolver: Bring back privacy indicators toggles
+Evolver: Changelog: Rework with Activity
+Settings: Randomize The Evolver's summary
+Merge October 2022 security patches
+PixelPropsUtils: Update fingerprints to October 2022 release
+gms: Update gapps
+Evolver: Replace QS data usage with customizable footer text
+Evolver: Bring back Wi-Fi standard icon feature
+Settings: Allow toggling floating rotation button
+Settings: Optional haptic feedback on back gesture
+Settings: applock: fix unlock prompt disappearing when trying to open apps
+Settings: use a new task stack for app lock fragments
+themes: fonts: Add Cool Jazz
+Evolver: Bring back Navbar visibility toggle
+Evolver: Remove faulty privacy indicator implementation
+SystemUI: Properly apply dark theming to clock
+fixup! frameworks: Add support for clock auto-hiding
+Evolver: Bring back App lock feature
+Evolver: Bring back Hidden apps feature
+Settings: Improve force fullscreen settings fragment
+SystemUI: cleanup fps info tile and service
+SystemUI: rewrite FPSInfoService in kt from scratch and bind service with tile
