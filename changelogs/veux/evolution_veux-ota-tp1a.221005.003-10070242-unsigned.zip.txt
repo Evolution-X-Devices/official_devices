@@ -1,0 +1,249 @@
+This build you're receiving is evolution_veux-ota-tp1a.221005.003-10070242-unsigned.zip
+
+==========================================
+Notes:
+==========================================
+Gapps And Firmware are shipped default with Rom.
+AOSP Recovery is shipped by default.
+CTS passes by default.
+Do Clean Flash if you are coming from any build.
+Dirty Flash is possible.
+
+==========================================
+Device Changelog:
+==========================================
+veux: parts: Thermal profile user interface improvements 
+veux: Import XiaomiParts from sm8250 
+veux: sepolicy: Silence system_suspend denials
+veux: overlay: Import new dimens from munch 
+veux: Do not balance msm_drm and kgsl-3d0 IRQs 
+veux: Move msm_irqbalance.conf to dt
+veux: sepolicy: Allow system_app to access zram sysfs nodes 
+veux: sepolicy: Allow apps and camera HAL access to secure ADSP domain
+veux: sepolicy: Allow neural networks HAL to read ADSP properties 
+veux: sepolicy: Make fastrpc_shell_3 publicly available 
+veux: gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti), 
+veux: gpt-utils: Do fsync after writing partition entries 
+veux: gpt-utils: Add product to ab partition list
+veux: gpt-utils: Drop unused sparse_crc32
+veux: bootctrl: Update to Boot Control HAL v1.2
+veux: bootctrl: Remove bootctrl.xiaomi_holi target  
+veux: Tweak color mode and drop saturated input 
+
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2022/10/07
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/tiramisu
+
+85ed1e2 sepolicy-legacy-um: Update drm service executables file_contexts
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+2947c45 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e5cd1510 privapp-permissions: Grant missing TelephonyProvider perm.
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+83b81a8 iconloaderlib: Invalidate icon cache between OS releases
+
+* Repository: https://github.com/Evolution-X/libcore/commits/refs/heads/tiramisu
+
+e345d11 Don't enable memory-mapped coverage for child zygote.
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+f534f57 manifest: Initial A13 manifest (Evolution X 7.2)
+
+* Repository: https://github.com/Evolution-X/packages_apps_EvoEgg/commits/refs/heads/tiramisu
+
+c40a49f EvoEgg: Update Launcher icon and Logo color
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+2005c33 Evolver: Changelog: Rework with Activity [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+daec00e Settings: Use monet colors for Evolution X Unbound Logo
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+4f55db8 Updater: Use monet colors
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+c472d8c SettingsGoogle: Sync with Evolution X changes
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_display/commits/refs/heads/tiramisu
+
+3d8f08f qdMetadata: Ignore UNUSED parameter * Fixes following log spam:   E qdmetadata: paramType 32 not supported
+
+
+=======================
+     2022/10/06
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+004914e releasetools: Support erofs on non-dynamic partitions
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-20.0
+
+583ef74 Merge tag 'LA.QSSI.13.0.r1-07100-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-07100-qssi.0
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/refs/heads/lineage-20.0
+
+86d7c7a Merge tag 'LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8150
+
+fadd556 Merge tag 'LA.UM.9.1.r1-12600.01-SMxxx0.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.1.r1-12600.01-SMxxx0.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8150
+
+e793701 Merge tag 'LA.UM.9.1.r1-12600.01-SMxxx0.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.1.r1-12600.01-SMxxx0.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8250
+
+658ce2d Merge tag 'LA.UM.9.12.r1-14700.01-SMxx50.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-14700.01-SMxx50.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8250
+
+08e5039 Merge tag 'LA.UM.9.12.r1-14700.01-SMxx50.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-14700.01-SMxx50.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+8b1b5fd Merge tag 'LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6d5062a build: Show OTA json generation text
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+dd74b60 Merge tag 'LA.QSSI.13.0.r1-07100-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-07100-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+ef7a0ab Merge tag 'LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+c1ad2a6 Merge tag 'LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-17200-WAIPIO.QSSI13.0
+
+
+=======================
+     2022/10/05
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+1b2a03f system: overlay: Remove supports BLE peripheral mode overlay
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+29c11ed Merge tag 'android-13.0.0_r8' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+ce958bf Merge tag 'android-13.0.0_r8' of https://android.googlesource.com/platform/frameworks/opt/telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+476f240 Merge tag 'android-13.0.0_r8' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+8918747 Merge tag 'android-13.0.0_r8' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+0b61a61 Merge tag 'android-13.0.0_r8' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+9423deb Merge tag 'android-13.0.0_r8' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+
+=======================
+     2022/10/04
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_ntfs-3g/commits/lineage-19.1
+
+7471d64 config.h: Update version to 2022.5.17
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/tiramisu
+
+e2e8162 gms: Don't build CaptivePortalLoginGoogle
+
+
+=======================
+     2022/10/03
+=======================
+
+
+=======================
+     2022/10/02
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+8a9e7d9 sepolicy: Grant neccesary ioctls to recovery for external sd
+
+
+=======================
+     2022/10/01
+=======================
+
+
+=======================
+     2022/09/30
+=======================
+
+
+=======================
+     2022/09/29
+=======================
+
+
+=======================
+     2022/09/28
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8150_display/commits/refs/heads/tiramisu
+
+f2f4169 display-product.mk: compilation fix for ks sync path change
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+cffe070 Allow webview_zygote to read /dev/ion
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+ebdf73f extract-utils: egrep: warning: egrep is obsolescent; using grep -E
+
+
+=======================
+     2022/09/27
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+537680c Use double vibration on call hang-up
+
+
+=======================
+     2022/09/26
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+64be63e Revert "Use turbine instead of kapt for kotlin annotation processors"
