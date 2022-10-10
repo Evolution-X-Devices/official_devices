@@ -1,0 +1,164 @@
+  
+2022-10-10
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.5.0
+- Use correct recovery
+
+DEVICE:
+
+  * umi: Switch to legacy sepolicy_vndr
+  * Revert "umi: sepolicy: Label telephony services"
+  * Revert "sm8250-common: Import light aidl from caf and build lights.kona"
+  * Revert "sm8250-common: Update ndk shared libs"
+  * sm8250-common: sepolicy: resolve remaning denials
+
+ROM:
+
+10/10
+
+Allow devices to configure the blanking delay on displays
+
+Evolver: Bring back optional Smart Pixels feature
+
+Evolver: Fix Battery bar default values
+
+Fix long click intent for Smart Pixels tile
+
+Nuke backuptool support
+
+QS: Add and use Bluetooth Panel instead of full Settings
+
+QS: Add and use Mobile Data panel
+
+QS: Use Mobile Data panel for CellularTile
+
+Settings: Add AdGuard DNS as a private DNS Provider
+
+Settings: Add Cloudflare DNS as a private DNS provider
+
+Settings: Add back DataUsageSlice
+
+Settings: Create new preview for dark theme
+
+Settings: Fix data usage display on mobile panel
+
+Settings: Make some random summaries translatable
+
+Settings: actually fix font for PanelUI
+
+Settings: Fix NullPointerException when renaming a fingerprint
+
+SystemUI: Open WifiPanel on LongClick
+
+
+10/7
+
+BatteryMeterView: Fix NPE that occurs when onDensityOrFontScaleChanged() is called
+
+Settings: Adjust playback control gesture preferences
+
+Settings: Allow choosing volume key music control activation delay
+
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+
+Settings: Default to GlifV3Theme
+
+Settings: Don't hardcode playback control delay unit
+
+Settings: Use separate primary switch title for Playback control
+
+SystemUI: Fix SystemUI Crash
+
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+
+SystemUI: screenrecord: Add an option to use HEVC
+
+SystemUI: screenrecord: Use sdcard icon for file size limit toggle
+
+Updater: Allow starting activities from background
+
+Updater: Don't show thousands of days
+
+Updater: No need to install every update
+
+Updater: Open Local changelog instead of URL
+
+Updater: Replace jcenter with mavenCentral
+
+Updater: Use monet colors
+
+Updater: We don't do upgrades
+
+base: Suppress telephony crashing platform
+
+base: get the most of the media artwork colors
+
+biometrics: Fix udfps races
+
+core: Fix toast background color not changing with theme
+
+development: Address NPE when removing preferences out of developer options
+
+privapp-permissions: Grant missing TelephonyProvider perm
+
+view: add null check for dispatch touch view
+
+
+10/6
+
+BackupAgent: Add backup shared mode
+
+BluetoothControllerImpl: fetch battery level from any device
+
+BluetoothControllerImpl: synchronize mConnectedDevices access
+
+EvoEgg: Update Launcher icon and use monet colors
+
+EvolutionUtils: Add support for changing dpi
+
+Fix MtpDatabase multithreading NullPointerException
+
+Fix incorrect context classloader initialization in system_server
+
+InputWrapper: Opt out early if session == null
+
+LayoutInflater: remove less frequently used apps
+
+PackageManager: Add configuration to specify vendor platform signatures
+
+ProcessList: Silence lmkd retries logspam
+
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+
+Settings: Add a preference to battery optimization page
+
+Settings: Add summary to daily battery usage charge toggle
+
+Settings: Bring back optional Battery Health section
+
+Settings: Change dpi on changing screen resolution
+
+Settings: Use monet colors for Evolution X Unbound Logo
+
+SettingsGoogle: Sync with Evolution X changes
+
+SystemUI: Integrate Google Lens into Screenshot UI
+
+SystemUI: UdfpsAnimation: Don't run scaleFactor on mAnimationSize
+
+WallpaperService: Fix half black wallpaper after rotating quickly
+
+base: Update ic_doc_folder drawable to MD2
+
+build: execute changelog generator script
+
+config: Allow gms to access persistent data partition
+
+fix error com.google.android.gms.persistent
+
+tools: Copy Changelog.txt to /system/etc
+
+wm: Passing a new ArraySet instance to avoid crash
