@@ -1,0 +1,535 @@
+DEVICE:
+- Bring back 1440p EvolutionX bootanimation.
+- Fixed Camera bug.
+- Encrypted by default, so a clean flash with format data is required!
+- exynos9810-common: Build libexynosutils, libion.
+- exynos9810-common: Import RIL from N770FXXS8EUI4 stack.
+- exynos9810-common: Import gs101 memtrack HAL.
+- exyns9810-common: overlay: back to stock status bar heights.
+- Upstreamed kernel to 4.9.327 and some improvements.
+
+================================================================
+ROM: 
+10/13
+Add ABS_MT_SLOT config to virtual touch screen
+Add interface for battery stats reset
+Evolver: Bring back Pulse
+PixelPropsUtils: Spoof cheetah for Adaptive VPN
+PixelPropsUtils: Switch from raven fp to cheetah
+Power menu: change the flashlight drawable
+Settings: Enable smart charging reset battery stats toggle
+Settings: Swap intro with toggle for Adaptive Playback settings
+audio_amplifier: Add hook for amplifier calibration
+core: Blacklist P22 experience system feature from Google Photos
+gms: Update from cheetah
+
+10/12
+Evolver: Bring back CPU info overlay toggle
+Evolver: Bring back On-The-Go Mode power menu entry
+Evolver: Bring back toggle to disable wireless charging animation
+InternetDialog: Launch mobile network settings on long press
+SystemUI: Add hotspot toggle in QS internet dialog
+QS: Add CPUInfo toggle tile
+QS: Add On-The-Go Tile
+
+10/11
+Evolver: Bring back status bar lyric feature
+Evolver: Spoof props for status bar lyric
+HeadsUp: Change heads up timeout to seconds
+
+10/10
+Allow devices to configure the blanking delay on displays
+Evolver: Bring back optional Smart Pixels feature
+Evolver: Fix Battery bar default values
+Fix long click intent for Smart Pixels tile
+Nuke backuptool support
+QS: Add and use Bluetooth Panel instead of full Settings
+QS: Add and use Mobile Data panel
+QS: Use Mobile Data panel for CellularTile
+Settings: Add AdGuard DNS as a private DNS Provider
+Settings: Add Cloudflare DNS as a private DNS provider
+Settings: Add back DataUsageSlice
+Settings: Create new preview for dark theme
+Settings: Fix data usage display on mobile panel
+Settings: Make some random summaries translatable
+Settings: actually fix font for PanelUI
+Settings: Fix NullPointerException when renaming a fingerprint
+SystemUI: Open WifiPanel on LongClick
+
+10/7
+BatteryMeterView: Fix NPE that occurs when onDensityOrFontScaleChanged() is called
+Settings: Adjust playback control gesture preferences
+Settings: Allow choosing volume key music control activation delay
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: Default to GlifV3Theme
+Settings: Don't hardcode playback control delay unit
+Settings: Use separate primary switch title for Playback control
+SystemUI: Fix SystemUI Crash
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+SystemUI: screenrecord: Add an option to use HEVC
+SystemUI: screenrecord: Use sdcard icon for file size limit toggle
+Updater: Allow starting activities from background
+Updater: Don't show thousands of days
+Updater: No need to install every update
+Updater: Open Local changelog instead of URL
+Updater: Replace jcenter with mavenCentral
+Updater: Use monet colors
+Updater: We don't do upgrades
+base: Suppress telephony crashing platform
+base: get the most of the media artwork colors
+biometrics: Fix udfps races
+core: Fix toast background color not changing with theme
+development: Address NPE when removing preferences out of developer options
+privapp-permissions: Grant missing TelephonyProvider perm
+view: add null check for dispatch touch view
+
+10/6
+BackupAgent: Add backup shared mode
+BluetoothControllerImpl: fetch battery level from any device
+BluetoothControllerImpl: synchronize mConnectedDevices access
+EvoEgg: Update Launcher icon and use monet colors
+EvolutionUtils: Add support for changing dpi
+Fix MtpDatabase multithreading NullPointerException
+Fix incorrect context classloader initialization in system_server
+InputWrapper: Opt out early if session == null
+LayoutInflater: remove less frequently used apps
+PackageManager: Add configuration to specify vendor platform signatures
+ProcessList: Silence lmkd retries logspam
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+Settings: Add a preference to battery optimization page
+Settings: Add summary to daily battery usage charge toggle
+Settings: Bring back optional Battery Health section
+Settings: Change dpi on changing screen resolution
+Settings: Use monet colors for Evolution X Unbound Logo
+SettingsGoogle: Sync with Evolution X changes
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: UdfpsAnimation: Don't run scaleFactor on mAnimationSize
+WallpaperService: Fix half black wallpaper after rotating quickly
+base: Update ic_doc_folder drawable to MD2
+build: execute changelog generator script
+config: Allow gms to access persistent data partition
+fix error com.google.android.gms.persistent
+tools: Copy Changelog.txt to /system/etc
+wm: Passing a new ArraySet instance to avoid crash
+
+10/5
+Evolver: Add toggle for media projection indicator
+Evolver: Bring back privacy indicators toggles
+Evolver: Changelog: Rework with Activity
+Settings: Randomize The Evolver's summary
+SystemUI: AOD Tile: Register battery observer in main thread
+SystemUI: Avoid altering page indicator layout when hiding qs footer icons
+SystemUI: BatteryMeterView: Set white tint in darkmode
+SystemUI: CustomTile: add a null check before loadDrawable invocation in default icon
+SystemUI: Kill old privacy indicator icons completely
+SystemUI: Remove spacer in QS footer
+
+10/4
+Evolver: AppLockSettingsPC: use DashboardFragment as the type for host
+Evolver: applock: early return in setChecked if backing field has the same value
+Merge October 2022 security patches
+PixelPropsUtils: Update fingerprints to October 2022 release
+SecuritySettings: properly remove security status header
+Settings: relocate app lock preference to advanced security settings
+Settings: remove security status group if empty
+SystemUI: QuickStatusBarHeader: use proper shade for secondary color of circle battery icon
+gms: Update gapps
+services: applock: fix data migration and change secure notification parameter name
+vendor: CarrierSettings: Update from TP1A.221005.002
+vendor: apex: Update from TP1A.221005.002
+vendor: rro_overlays: Configure face unlock acquire ignorelist
+version: Uprev to 7.2
+
+10/3
+Evolver: Replace QS data usage with customizable footer text
+Settings: BiometricFragment: respect background authentication request in source prompt info
+core: ProcessState: prevent an NPE from crashing system server
+services: ActiveServices: drop uid check when notifying newly registered callbacks
+services: AppLockConfig: fix a derp in hidePackage()
+
+10/2
+AlertSlider: Add resources for refresh rate modes
+
+10/1
+Evolver: Add Power menu animations
+Evolver: Allow Power/reboot menu transparency
+base: merge hidden app feature with applock
+sepolicy: Allow recovery to read sysfs_perdev_minors
+sepolicy: Grant necessary ioctls to recovery for external sd
+
+9/29
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Evolver: Bring back Wi-Fi standard icon feature
+Fix black screen issue due to wallpaper decoding exceptions
+MotionEvent: Add backwards compatible initialize() function
+Settings: Add optional Build status info
+Settings: Allow toggling floating rotation button
+Settings: Hide Build maintainer info if not set
+Settings: Optional haptic feedback on back gesture
+Settings: Set Build date to be unselectable
+Settings: applock: fix unlock prompt disappearing when trying to open apps
+Settings: use a new task stack for app lock fragments
+SystemUI: Allow limiting AOD & ambient display refresh rate
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: CastTile: Open cast settings on long click
+SystemUI: HACK: Fix random wakeup when just sleeping
+themes: fonts: Add Cool Jazz
+services: applock: allow background authentication
+
+9/28
+Don't build CaptivePortalLoginGoogle/CaptivePortalLoginOverlay
+Evolver: Bring back Navbar visibility toggle
+Evolver: Remove faulty privacy indicator implementation
+SystemUI: Properly apply dark theming to clock
+fixup! frameworks: Add support for clock auto-hiding
+sepolicy: Allow webview_zygote to read /dev/ion
+
+9/27
+SystemUI: Fix pulseOut fails before fully pulsing
+
+9/26
+Evolver: Bring back App lock feature
+Evolver: Bring back Hidden apps feature
+Fix NPE with void android.view.VelocityTracker.clear()
+PixelPropsUtils: Spoof device as Pixel for Wallpapers app
+Settings: Improve force fullscreen settings fragment
+Settings: Kang duplicate baseband fix from CAF
+SystemUI: FPSInfoService: extend LifecycleService and fix overlay not being visible in secondary user
+SystemUI: FPSInfoService: get status bar insets ignoring visibility
+SystemUI: cleanup fps info tile and service
+SystemUI: fix MediaProjection cast crash
+SystemUI: rewrite FPSInfoService in kt from scratch and bind service with tile
+fixup! Settings: add option to enable AOD on charging only
+overlay: SystemUI: force dark theme on global actions dialog
+
+9/25
+Add check for empty TTS engine name
+Add missing INTERACT_ACROSS_USERS_FULL permission
+Always show APN settings on CDMA carriers
+Disable FP lockouts
+Disable bluetooth by default
+Fix SystemUI build for kotlin 1.7.0
+Fix unqualified-std-cast-call compiler warning
+IllustrationPreference: Hide illustration when we fail to play anim
+PackageInstaller: Remove side padding from the dialog
+Remove wtf if no display nits mapping exists
+Settings: ScreenResolutionFragment: Restart SystemUI on res change
+SystemUI: Allow UdfpsAnimations to work with multiple resolutions
+SystemUI: Avoid altering page indicator layout when hiding qs footer icons
+fixup! SystemUI: Enable NFC quick settings tile
+
+9/24
+Evolver: UDFPS: Bring back customization options
+Settings: Add sim status listener in about phone
+Settings: Call CardDatabaseHelper.getInstance() when used and not in onCreate
+Settings: Fix ExtraText lint errors
+Settings: Fix SIM name in Network Details to show the selected SIM
+SystemUI: Fix QS customizer corner radius
+
+9/22
+Do not preload ThreadLocalRandom class
+Evolver: Bring back OOS style notification clear all button feature
+Evolver: Bring back QS footer icon visibilities
+QSPanel: Fix NPE in updateViewPositions()
+
+9/21
+PixelPropsUtils: Fix issue with text select and copy
+Settings: Move screen off UDFPS toggle to security lock screen settings
+SystemUI: Show battery level for all devices
+gms: Add RECORD_AUDIO permission to googlequicksearchbox
+
+9/20
+Calm down attention service logspam
+NfcA: Fix an NPE in constructor
+PixelPropsUtils: bring back all changes from Build.FINGERPRINT to Build.TIME
+Settings: Add missing summary for Display size and text
+Settings: PowerUsageSummary: open advanced usage on header click
+SystemUI: Add missing init for isDeviceProvisioned in PhoneStatusBarPolicy
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+SystemUI: Get rid of unnecessary broadcast for IMS
+SystemUI: Use ImsStateCallback instead of FeatureConnector
+base: Add Multi usb controller for Asus devices
+
+9/19
+AlertSlider: Allow UI to work with multiple resolutions
+Catch IllegalArgumentException for invalid phone id
+Fix action bar font family on material themes
+Fix crash occurred due to null pointer exception
+KeyguardIndication: Fix glitchy charging info on lock screen
+Settings: Allow Configuring Navbar Radius
+StatusBarIconController: Guard yet another function from cast exception
+SystemUI: Allow using tuner API for Global settings
+SystemUI: Clean up and fix status bar logo feature
+SystemUI: More rounded corners
+SystemUI: Tiny expanding improvement
+ThemeOverlayController: Remove repeated monet check
+Use alphaoptimized layout for icons on left
+base: use a double click effect for charging if there is no amplitude control support
+core: Fix menu popup ripple
+core: Fix null pointer Issue
+
+9/18
+Reland "Don't enable jdwp by default on userdebug builds""
+Save user preferred resolution into persistent data store
+SystemUI: Re-inflate keyguard status bar on theme change
+SystemUI: Set heap tracking default also with a property like all the other flags
+SystemUI: Use max Display.Mode in AuthController as well
+base: AudioService: bail out if ringer mode is not recognized
+base: Disable LiveDisplay display mode by default
+base: Disable LiveDisplay low power consumption by default
+
+9/17
+apns: Clean up Austrian carriers
+
+9/16
+Evolver: Bring back HeadsUp snooze and timeout options
+Evolver: Bring back HeadsUp blocklist/stoplist
+Fix Dark Theme "TURN ON UNTIL SUNRISE" not retained after reboot
+Fixes crash/race condition when destroyActivity
+Improve PendingIntent security check compatibility
+Settings: Add charging vibration settings
+Settings: remove preference if availableColorModes is empty
+Telecomm: Use double vibration on call hang-up
+device_config: Checkout to sc-qpr3 branch of ProtonAOSP
+fixup! Disable/Enable screenshot sound
+fixup! base: Lockscreen Charging
+
+9/15
+Fix Udfps unlock animation
+Settings: Disable "SIM card lock" when the SIM card is PUK-blocked
+base: fix pm cache directory invalidate on new builds
+base: remove useless pm cache hack
+bring back all changes from Build.FINGERPRINT to Build.TIME
+rro_overlays: Convert AOSP NetworkStack overlay to an RRO package
+telephony: Ignore PLMN bit when SPN is required
+
+9/14
+Avoid Settings app NPE on broken packages
+Bring in SettingsGoogle/SystemUIGoogle from PE
+Settings: Add toggle to switch between AOSP/Google battery graphs
+Settings: Add Game Space preference in Apps category
+Settings: Move proguard flags for the Evolver
+fixup! SystemUI: Fix shutter sound
+exec spawning: don't close the binder connection when the app crashes
+vendor: CarrierSettings: Update from TP1A.220905.004
+vendor: apex: Update from TP1A.220905.004
+
+9/13
+PixelPropsUtils: Replace Gboard with Google One
+Settings: Remove the Automatic ota check option but be sure it's disabled
+core: Pixel experience Blacklist For Google Photos for Android 13
+vendor: Update audio from TP1A.220624.021
+vendor: Update setupwizard props from TP1A.220624.021
+vendor: overlay: SettingsLib: Override headline font family
+
+9/12
+CastTile: Fix availability of Cast Quick Setting Tile
+Evolver: Bring back bluetooth battery level status bar icon
+Evolver: Bring back colored status bar icons
+Evolver: Bring back navbar styles
+Evolver: Bring back QS battery estimates
+Evolver: Remove QS battery options
+Switch to AttestationHooks for spoofing GMS/Play store
+SystemUI: Animate cutout padding for QS clock
+SystemUI: Fix QS header animation in RTL mode
+SystemUI: Fix crash in cast tile for non-carrier wifi
+SystemUI: only block call strength sb icon
+
+9/11
+Add support to manually pause/resume downloads
+Allow adjusting screen density to smaller sizes
+AOD: Sleep when proximity is covered for 3 secs
+AutofillManager: Turn off logging by default
+AutoFillUI: Don't show a "null" toast
+Fix colors on DocumentsUI
+Evolver: Bring back animations to quick settings tiles
+Evolver: Bring back Haptic Feedback to QS tiles toggle
+Evolver: Bring back interpolators to qs tiles animation
+Evolver: Bring back Toast icon toggle
+Evolver: QuickSettings: Allow changing vibration duration
+KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+Make Build.TYPE and Build.FINGERPRINT consistent for apps
+NavigationBarEdgePanel: Make the gesture duration always valid
+ParcelFileDescriptor: Stop the panic
+Settings: Add clang version to firmware_version
+Settings: Add missing animations for gestures and features
+Settings: Add Security Hub from Pixel devices
+Settings: add TextView for summary into SeekBarDialogPreference
+Settings: Bring back LTE Only Mode
+Settings: Follow system theme for SD card activities
+Settings: Implement cutout force full screen
+Settings: SoftAp: add client manager
+Settings: SoftAp: add Hidden SSID preference
+Settings: SoftAp: add support for setting shutdown timeout
+Settings: support black theme for dark mode
+SQLite: Do integrity_check only once
+SQLiteDatabase: Catch corrupt exception during transaction
+SystemUI: Enable smart replies for apps that target APIs lower than 28
+SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+SystemUI: Name Cellular Tile based on carrier
+SystemUI: Only apply tuning changes when the fragment is attached
+ThemedIcons: Update
+base: Force fullscreen for Google Dialer
+base: make per-app work with multi audio focus
+fixup! Show user's Google avatar on the homepage
+
+9/10
+Evolver: Add separate tunable for QS clock
+QuickStatusBarHeader: Link date in QS status bar with clock
+Settings: Bring back IME space feature
+Settings: Bring back gesture height option
+pre-grant POST_NOTIFICATIONS to the clock app
+pre-grant POST_NOTIFICATIONS to more system apps
+
+9/9
+Keep recent tasks for more time in memory
+PixelPropsUtils: Refactor once again
+base: Remove aosp's 'show battery percentage' setting
+config: Disable StrictMode in non-eng builds
+fixup! base: volume key music control
+
+9/8
+AODTile: Add back config check for aod available
+AODTile: add option to enable AOD on charging only
+AODTile: cycle through AOD states
+Bring back FM radio support
+ColorStateList: Switch to ZCAM for lightness modulation
+ColorUtils: Fix out-of-gamut Oklab blending
+Enable Volume Long Press Skip Tracks by default
+PackageInfo: Optimize ApplicationInfo creation
+PixelPropsUtils: fixup! spoofing properties for samsung apps
+Settings: add option to enable AOD on charging only
+SystemUI: Reduce scrim color animation duration to 375 ms
+SystemUI: Speed up actions expansion animation
+InsetsStateController/LayoutInflater/LocalServices/SystemServiceRegistry/ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Update Gapps to Sep 2022 sec patch versions
+WallpaperColors: Use CIELAB for light/dark wallpaper detection
+appop: Save discrete app op history for more permissions
+graphics: Add ZCAM implementation with sRGB interface
+graphics: Blend ARGB colors using Oklab
+rro_overlays: Remove SystemUIGoogleOverlay
+
+9/7
+Evolver: Bring back Edge Lighting feature
+Merge September 2022 security patches
+Paint: Enable subpixel text positioning by default
+PixelPropsUtils: Fix up GMS workaround logic
+PixelPropsUtils: Update fingerprints to September 2022 release
+SystemUI: FPS Info Overlay & Tile
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returned null
+base: add API for disabling gestural navigation
+monet: Fix overly low chroma for tones below 90
+version: Uprev to 7.1
+
+9/6
+Evolver: Bring back GameSpace
+
+9/5
+Bring back additional Screen recorder options
+Bring back per-app volume feature
+Evolver: Bring back click to take partial screenshot
+Evolver: Bring back reTicker feature
+Evolver: Bring back status bar battery styles
+Evolver: Bring back status bar clock options
+Evolver: Bring back volume rocker wake
+Evolver: Re-introduce Smart Pulldown
+Evolver: Introduce status bar and QS clock size feature
+Settings: Add preference for one shot auto-brightness
+SystemUI: screenshot: add extra crop boundaries
+SystemUI: screenshot: remove duplicate clamping on move action
+SystemUI: screenshot: remove misplaced call to set crop view padding
+SystemUI: Update Bluetooth battery level assets
+base: Prevent NPE for Demo mode
+
+9/4
+Add various system packages to indicator exemptions
+AudioService: Remove Analog Dock from fixed-volume devices
+BootAnimation: Check for resolution override
+Don't pass repeated back key events to app if custom action is set up
+Don't skip theme application if it's already current
+Keyguard - Treat messages to lock with priority
+Keyguard: allow large clock on tablets
+Keyguard: don't use large clock on landscape
+QS: LocationTile: make it cycle modes
+Settings: Add option to cycle through ringer modes
+Settings: Align user avatar with homepage title
+Settings: Check isVoiceCapable for Calls&SMS category
+Settings: Don’t disable ls device controls based on secure lock
+Settings: Fix duplicated baseband string on all devices
+Settings: Follow navbar color in base
+Sharesheet: Display two rows of max ranked targets
+SystemUI: add FloatingRotationButton for hw-key devices
+SystemUI: Don't store pending ControlAction if the device is locked
+SystemUI: Fix QS mobile icon disappearing on theme switch
+SystemUI: ic_brightness_*: drawables get surface color
+SystemUI: Make isTablet() use correct API for getting window metrics
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+SystemUI: Redraw display cutout on overlay changes
+base: ChooserActivity: Don't show image edit button on multiple targets
+core: Add telephony stack to allowed service state packages
+rro_overlays: Remove PixelConfigOverlay2021
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+
+9/3
+Cellular tile: don't show disable confirmation dialog
+Download: Add support to manually pause/resume download
+Evolver: Add back Lockscreen Charging info
+Evolver: Add back support for window ignore secure
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+FingerprintManager: return "Try again" by default
+NavigationModeController: Mute debug logging
+Settings: Add toggle to enable ADB root
+Settings: Apply SUW button theming to WiFi page
+Settings: Don't reset A2DP offload when disabling developer settings
+Settings: Enable notifications led light by default
+Settings: Fingerprint: hide link icon when there's no link
+Settings: Forward port lock pattern grid size
+Settings: Forward port pattern visibility settings
+Settings: Improve gesture bar length option
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Network setup UI changes for SUW
+Settings: Only show gesture navigation if device has a software nav bar
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: use Glif themed button bar
+SystemUI: Add AOD QS tile
+SystemUI: Add bootloader option to 'Reboot' tile
+SystemUI: Add support for persistent usb drive notification
+SystemUI: Allow privileged system apps to access screenshot service
+SystemUI: Allow snoozing SD card notification unconditionally
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Introduce Data Switch QS Tile
+SystemUI: NavigationBar: disable secondary handle
+SystemUI: Remove spaces from screenshot app filename
+SystemUI: Require unlocking to use Reboot tile
+SystemUI: Update additional navbar dimens for Android 13
+SystemUI: disable keyguard screen off animation if we use split notification shade
+Utils: Adapt WiFi only check to A12
+common: Add a system property for System UI compiler filter
+overlay: Update Immersive Navigation values
+
+9/2
+Camera: allow camera to use power key as shutter
+Evolver: Allow disabling QS battery estimates
+Evolver: Bring back Battery light customization
+Evolver: Bring back HW Keys customization
+Evolver: Bring back LED light options
+SystemUI: Remove Music QS Tile
+
+9/1
+Settings: Add back increasing ring feature
+Settings: Add switch for linked ring and media notification volumes
+SystemUI: Show notification row when it's unlinked to ringer volume
+
+8/31
+Evolver: Bring back double tap/long press power to toggle torch
+Evolver: Bring back QQS brightness slider options
+Pre-grant Updater app with Notification permission by default
+Settings: Implement muting media volume on silent or vibrate mode
+Settings: Introduce Silent media mute preference
+SystemUI: Make the volume dialog expandable
+config: Move the bootanimation to a build package
+
+8/28
+Forward port Lineage related stuff (LiveDisplay, Anti-flicker, etc)
