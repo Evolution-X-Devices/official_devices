@@ -1,0 +1,33 @@
+Device Changes:
+Updated to latest Immensity kernel
+Add Smart Pixels
+Add Smart Charging
+Add Battery Stats
+Update Boot HAL to v1.2
+Fix WFD crash
+And more overall improvements
+
+ROM Changes:
+Evolver: Add extended monet themes
+Evolver: Allow changing system themes
+Evolver: Volume dialog timeout
+Settings: Bring back Battery charge warning
+Settings: Configurable 0, 90, 180 and 270 degree rotation
+Settings: Show more APK details on App info screen
+SystemUIGoogle: Use Google home icon on home controls lockscreen if app is installed
+core: Blacklist P21+ experience system feature from Photos spoof
+Merge Pixel 7/7 Pro October 2022 security patches (android-13.0.0_r11)
+vendor: overlay: Sync with TP1A.221005.002
+PixelPropsUtils: Spoof cheetah for Adaptive VPN
+PixelPropsUtils: Switch from raven fp to cheetah
+Evolver: Bring back Pulse
+Evolver: Bring back CPU info overlay toggle
+Evolver: Bring back On-The-Go Mode power menu entry
+Evolver: Bring back toggle to disable wireless charging animation
+InternetDialog: Launch mobile network settings on long press
+SystemUI: Add hotspot toggle in QS internet dialog
+QS: Add CPUInfo toggle tile
+QS: Add On-The-Go Tile
+Evolver: Bring back status bar lyric feature
+Evolver: Spoof props for status bar lyric
+
