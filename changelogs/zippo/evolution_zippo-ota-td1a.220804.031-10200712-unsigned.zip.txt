@@ -1,0 +1,42 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- You may update with dirty install from previous version but clean is recommended
+
+**Device Changes:**
+
+Enable Smart Pixels
+Switch from Snap to GCamGOPrebuilt-V3
+
+**Evolution X Update**
+
+Evolver: Add extended monet themes
+Evolver: Allow changing system themes
+Evolver: Allow to swap volume buttons rotation based
+Evolver: Bring back optional Udfps haptic feedback toggle
+Evolver: Volume dialog timeout
+Settings: Bring back Battery charge warning
+Settings: Configurable 0, 90, 180 and 270 degree rotation
+Settings: Show more APK details on App info screen
+Settings: Use a separate icon for the Notification category
+SystemUI: Set Quick QS pulldown to off by default
+Merge Pixel 7/7 Pro October 2022 security patches (android-13.0.0_r11)
+Evolver: Bring back Pulse
+Settings: Enable smart charging reset battery stats toggle
+Evolver: Bring back CPU info overlay toggle
+Evolver: Bring back On-The-Go Mode power menu entry
+InternetDialog: Launch mobile network settings on long press
+SystemUI: Add hotspot toggle in QS internet dialog
+QS: Add CPUInfo toggle tile
+QS: Add On-The-Go Tile
+Evolver: Bring back status bar lyric feature
+HeadsUp: Change heads up timeout to seconds
+Evolver: Bring back Smart Pixels
+Evolver: Fix Battery bar default values
+QS: Add and use Bluetooth Panel instead of full Settings
+QS: Add and use Mobile Data panel
+QS: Use Mobile Data panel for CellularTile
+Settings: Add AdGuard DNS as a private DNS Provider
+Settings: Add Cloudflare DNS as a private DNS provider
+Settings: Create new preview for dark theme
+Settings: Fix data usage display on mobile panel
+SystemUI: Open WifiPanel on LongClick
