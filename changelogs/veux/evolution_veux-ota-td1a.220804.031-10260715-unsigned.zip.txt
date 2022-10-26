@@ -1,0 +1,295 @@
+This build you're receiving is evolution_veux-ota-td1a.220804.031-10260715-unsigned.zip
+
+==========================================
+Notes:
+==========================================
+Sd Card is working back & Recover touch is fixed too.
+Gapps And Firmware are shipped default with Rom.
+AOSP Recovery is shipped by default.
+CTS passes by default.
+Do Clean Flash if you are coming from any build.
+Dirty Flash is possible.
+
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2022/10/26
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+f2841b5 Move recovery_update_prop to system_internal_prop
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+a90c548c New Crowdin updates (#354)
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+af5936a manifest: Track more repos from LOS 20.0
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+6ccc9f2 Evolver: Refactor for Tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+c1604e6 New Crowdin updates (#191)
+
+
+=======================
+     2022/10/25
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4ca2245 common: Enable TARGET_FWK_SUPPORTS_FULL_VALUEADDS to all
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+40fa6d8 Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+79cc61f kernel: do not hard-code LD, AR when TARGET_KERNEL_CLANG_VERSION is set
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+7193b2b SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2022/10/24
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/tiramisu
+
+5820569 sepolicy-legacy-um: Update drm service executables file_contexts
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+2d33acd SEPolicy.mk: evolution
+
+
+=======================
+     2022/10/23
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+f688f85 Revert "camera: Allow to use boottime as timestamp reference"
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+42b6db3 Pass correct value to setPreferredNetworkType() for RIL version < 1.4
+
+
+=======================
+     2022/10/22
+=======================
+
+* Repository: https://gitlab.com/the-muppets/proprietary_vendor_firmware/commits/lineage-20
+
+fb9378c hotdogb: Import firmware from OOS 11.F.17
+
+
+=======================
+     2022/10/21
+=======================
+
+
+=======================
+     2022/10/20
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+6c5dc15 gms: Match gms_mini order with gms_full
+
+
+=======================
+     2022/10/19
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+96e9d4d Add support for separate kernels for boot and recovery [2/2]
+
+
+=======================
+     2022/10/18
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+36d1939 recovery: Only warn on SPL downgrade
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+f6cb3e3 Don't verify payload signatures in recovery
+
+
+=======================
+     2022/10/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+b1deeb9 Revert "Enable A/B perf mode by default"
+
+
+=======================
+     2022/10/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_frameworks_opt_timezonepicker/commits/refs/heads/lineage-20.0
+
+b33ea5b Merge tag 'android-13.0.0_r11' into staging/lineage-20.0_merge-android-13.0.0_r11
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+56fbdef extract_utils: Sync adb pull paths with local extract
+
+
+=======================
+     2022/10/15
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+323042a art: Disable debug tracing on production builds
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+a28c0ce Add ability to build scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+0cd665b Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/build/soong into tiramisu
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/tiramisu
+
+7549422 Revert "libsepol: Make an unknown permission an error in CIL"
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+579d148 tinycompress: Convert evolution product variables to soong config variables
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+569b6e6 Cloudflare and AdGuard DNS
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+bfb95bc iconloaderlib: Invalidate icon cache between OS releases
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+2318e44 Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+9e3870f Support P010 with Gralloc2 on Gralloc1 passthrough
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/tiramisu
+
+94cec38 audio_amplifier: Add hook for amplifier calibration
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+bf0345c NFC: Adding new vendor specific interface to NFC Service
+
+* Repository: https://github.com/Evolution-X/packages_apps_SettingsIntelligence/commits/refs/heads/tiramisu
+
+c85cb02 SettingsIntelligence: bring back all changes from Build.FINGERPRINT to Build.TIME [2/4]
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+907174a gd: hci: Ignore unexpected status events
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+6019d74 Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+872b646 PermissionController: Enable usage timeline for all permission groups
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+021a105 Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+ff0ae09 Squashed import of adb root patches
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+0000667 Make adbroot_aidl_interface-ndk available for adbd
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+5ddcaa7 Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+9af629e Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+e81760d Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+d86589d Merge tag 'android-13.0.0_r11' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+d3537ef core: Lockscreen Charging (2/3)
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+81fa128 libhidlmemory: mark as recovery_available
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/tiramisu
+
+fca96b0 Revert "Disallow shrinking threadpool size once started."
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/tiramisu
+
+a001ea5 logcat: Map '-C' to 'logcat -v color'
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+c9e07d2 media: update path for vendor specific config files
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+f481bed keystore: Rate limit attestation for Google Play Services
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/tiramisu
+
+2acf846 mkbootimg: add support for --dt
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+abd446e Fix the group permissions of the sdcard root.
+
+
+=======================
+     2022/10/14
+=======================
+
+
+=======================
+     2022/10/13
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8250
+
+45ceff8 audio_amplifier: Change the enable amplifier function location
+
+
+
+
