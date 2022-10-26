@@ -1,0 +1,34 @@
+	- Erofs and performance fixes
+- Evolution source updates
+- Cleaned up dolby once and for all
+- sm8250-common: Neural Networks: Declare same versions 1.3@qti
+- sm8250-common: Regenerate Framework Compability Matrix
+- sm8250-common: Overlays: Update PinnerService for SystemUIGoogle
+- hardware/qcom-caf/sm8250: Update to LA.UM.9.15.r1-06700-KAMORTA.QSSI13.0 (Newer changes vs kona)
+- Inherit Pixel Carrier settings
+- Cleanup Audio Policy changes, rn close to stock Xiaomi Ones
+- sm8250-common: Custom SoundTrigger Environment flags
+- sm8250-common: Proprietary files: Fix path for LDAC & LHDC prebuilts
+- sm8250-common: Props: Switch to AutoSingleLayer Android 13 Setting (https://source.android.com/docs/core/graphics/unsignaled-buffer-latch)
+- sm8250-common: Hardcode media codecs deps compilation
+- sm8250-common: Add xiaomi cit sensor service
+- sm8250-common: Update to Boot Control HAL v1.2
+- sm8250-common: gpt-utils: Do fsync after writing partition entries
+- sm8250-common: gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti)
+- sm8250-common: rebase to latest los changes
+- sm8250-common: Rename rild.libpath for treble compliance
+- sm8250-common: sepolicy: label vendor.rild.libpath as vendor_radio_prop
+- sm8250-common: sepolicy: Label some RIL property
+- sm8250-common: Sepolicy: Initial dontaudit rules
+- sm8250-common: props: Disable Skia tracing by default
+- sm8250-common: init.qcom.rc: Add support for tracefs when !CONFIG_DEBUG_FS
+- sm8250-common: init: qcom: Move auto PIL for CVP to post boot_completed
+- sm8250-common: init: Remove debugfs
+- sm8250-common: init.qcom.rc: Create data vendor folder for NFC
+- sm8250-common: init: Remove racey printk setups 
+- sm8250-common: init_qcom.rc: Set permission to access panel boot param node
+- sm8250-common: props: Kill IMS logspam with fire- sm8250-common: Rootdir: Disable vendor_modprobe commands
+- sm8250-common: Build Codec2 Packages on vendor
+- sm8250-common: powerhint: Decrease launch boost to 3sec
+- sm8250-common: parts: Add missing proguard.flags
+- sm8250-common: Drop Qualcomm WFD
