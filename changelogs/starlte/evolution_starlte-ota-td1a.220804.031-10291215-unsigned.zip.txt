@@ -1,0 +1,139 @@
+NOTE: A clean flash and format data by using EvolutionX recovery is a MUST!
+
+DEVICE:
+- Switch to EROFS for /system and /vendor.
+- Enabled SamsungDAP (Dolby Atmos).
+- Bring back Smart Pixels.
+- props: Disable client composition cache.
+- Disable gms components for better WiFi speeds.
+- Fixed laggy bootanimation.
+- Overall smoothness improved.
+- Upstreamed kernel to 4.9.330
+- Rebased trees and kernel.
+
+==========================================
+ROM:
+10/29
+CameraDeviceImpl: Don't crash when checking input configuration failed
+
+10/28
+BatteryService: Switch Dash charging status path to an overlay
+BrightnessController: Don't update slider from DisplayManager callback if user is changing brightness
+Camera: Allow skipping input configuration check
+Camera: Expose aux camera if packagename is null
+EventLog: Disable event writing in production builds
+Fix DozeLogger NPE crash when DozeMachine.State is null
+Fix crash when init QrCamera to start preview
+Fix crash when trying to dismiss dialog
+Link dialog radius to config_dialogCornerRadius
+Remove Safety Center tile from default tiles
+Settings: Adjust gesture navigation settings title
+Settings: Fix incorrect switch status when user stay in NightDisplaySettings page while scheduled night lights on
+Settings: Fix show system status lost when switching dark theme
+Settings: Protect sensitive data on the about phone
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: BurnInProtectionController: offset less aggressively
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Limit keyguard charging stats updates
+SystemUI: QuickStatusBarHeader: Fix clickability issue with privacy indicator
+SystemUI: Re-implement burn-in protection for status/navbar
+base: Disable some DEBUG log spill
+base: Don't send interaction hint for unnecessary events
+config: Downscale task snapshots to 80%
+fixup! biometrics: allow to disable unused fingerprints cleanup
+telephony: Provide a default executor
+
+10/27
+Enable backup service by default for all users
+Evolver: Controllable squiggle animation
+ListView: Disable dividers by default
+Settings: Remove broken LTE only mode
+SystemUI: Add charging icon to the charging animation
+SystemUI: Improve charging animation's color palette
+SystemUI: Play all charging animator sets at the same time
+base: TtsEngines: fix yet another NPE
+
+10/26
+Settings: add animation to dark mode preference
+Settings: buttons text should no longer be allCaps
+Settings: drop divider in dark mode screen
+
+10/25
+PixelPropsUtils: Don't spoof euicc
+SystemUI: Logo: Avoid NPE
+
+10/24
+GlobalActions: Update the default actions to match the stock experience
+GlobalActionsDialog: Implement partial screenshot for screenshot power menu long press
+GlobalActionsDialog: Never show emergency without telephony support
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+Settings: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+SystemUI: screenshot: add delay for long-press partial screenshot
+
+10/23
+Fix NPE with 1.0 and 1.1 CardStatus
+Pass correct value to setPreferredNetworkType() for RIL version < 1.4
+Pulse: Detach pulse view only when attached
+Settings: Fix up panel theme and layout
+Settings: Regulatory: Fullscreen instead of AlertDialog
+
+10/22
+Evolver: Pulse: Implement pulse color based album art
+SystemUI: Always show screenshot dismiss button
+SystemUI: Fix tuner pref for bluetooth
+SystemUI: Make edit button click ripple effect rounded
+SystemUI: Refactor status bar bluetooth icon
+SystemUI: Use red color for low bluetooth battery
+ThemedIcons: Add Desmos icon
+Update translations
+overlays: Stop building NotoSerif font
+
+10/21
+Settings: Remove optional haptic feedback on back gesture toggle
+SystemUI: Require haptic feedback on back gesture
+SystemUI: Use proper Resolver background color
+
+10/20
+SystemUI: Add missing location permission
+
+10/18
+Evolver: Add extended monet themes
+Evolver: Allow changing system themes
+Evolver: Allow to swap volume buttons rotation based
+Evolver: Bring back optional Udfps haptic feedback toggle
+Evolver: Volume dialog timeout
+Settings: Bring back Battery charge warning
+Settings: Configurable 0, 90, 180 and 270 degree rotation
+Settings: Fix bluetooth pan memory leakage
+Settings: Fix disabled sub showing as Active in Settings > Mobile network
+Settings: Show more APK details on App info screen
+Settings: Use a separate icon for the Notification category
+Settings: Use proper string for designed maximum battery capacity
+vendor: common: Exclude ntfs-3g from artifact path requirement
+
+10/17
+SystemUI: Set Quick QS pulldown to off by default
+SystemUIGoogle: Use Google home icon on home controls lockscreen if app is installed
+core: Blacklist P21+ experience system feature from Photos spoof
+
+10/16
+PixelPropsUtils: Update pixel devices list
+
+10/15
+QSTileHost: Add reloadAllTiles method
+QSTileHost: Don't recreate tiles when LiveDisplay gets initialized
+Merge Pixel 7/7 Pro October 2022 security patches (android-13.0.0_r11)
+frameworks: Add device controls shortcut to power menu
+keylayout: Add config for 8bitdo pro 2
+vendor: apex: Update from TD1A.220804.031
+vendor: CarrierSettings: Update from TD1A.220804.031
+vendor: overlay: Sync with TP1A.221005.002
+
+10/14
+PixelPropsUtils: Spoof cheetah for Adaptive VPN
+PixelPropsUtils: Switch from raven fp to cheetah
+Power menu: change the flashlight drawable
+QCOM: Use legacy-um ipacm for all legacy UM platforms
+QCOM: msm8953: Use legacy-um ipacm
+kernel: Allow passing empty DTB to mkbootimg via board-flag
+soong: generator: Replace android.SourceDepTag usage with IsSourceDepTagWithOutputTag
