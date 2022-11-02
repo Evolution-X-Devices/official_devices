@@ -1,0 +1,31 @@
+Device Changes:
+Fix rounded corner pixels
+Remove CAF Input Boost
+Address denials
+Optimize dex flags and package manager dexopt properties
+Update power profile config
+
+ROM Changes:
+Evolver: Bring back 9 more battery styles
+Settings: Add an activity for saved Bluetooth devices fragment
+Settings: Add quick mute gesture
+Settings: Add vibration patterns from OOS
+Settings: Allow choosing a custom vibration pattern
+Settings: Custom vibration pattern per notification channel
+Settings: Move custom vib pattern to its own preference
+Link dialog radius to config_dialogCornerRadius
+Settings: Protect sensitive data on the about phone
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: BurnInProtectionController: offset less aggressively
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Limit keyguard charging stats updates
+SystemUI: Re-implement burn-in protection for status/navbar
+Evolver: Controllable squiggle animation
+Settings: Remove broken LTE only mode
+SystemUI: Logo: Avoid NPE
+GlobalActions: Update the default actions to match the stock experience
+GlobalActionsDialog: Implement partial screenshot for screenshot power menu long press
+Evolver: Pulse: Implement pulse color based album art
+SystemUI: Refactor status bar bluetooth icon
+Update translations
+And more...
