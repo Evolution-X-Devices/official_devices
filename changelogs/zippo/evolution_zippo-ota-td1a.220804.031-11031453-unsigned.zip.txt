@@ -1,0 +1,136 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- You may update with dirty install from previous version but clean is recommended
+
+**Device Changes:**
+
+- Switch to Aperture camera. Still you can download GCamGOPrebuilt-V3 and install it as user app. Grab it from here:
+https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/raw/tiramisu/GCamGOPrebuilt-V3.apk
+- Set USB product string to 'Lenovo Z6 Pro'
+
+**Evolution X Update**
+
+11/3
+AuthRippleController: Always finish the LightRevealScrim
+AuthRippleController: Only update sensor location when necessary
+CutoutFullScreenController: force full screen important apps
+Settings: Fix crash when input illegal proxy port number
+Settings: Fix crash when showing error dialog in NetworkRequestDialogActivity
+Settings: Fix NPE crash in TextToSpeechSettings
+Settings: Fix NPE crash in UwbPreferenceController and optimize the lifecycle observer adding
+condition in page
+Settings: Fix potential NPE crash in ConversationHeaderPreferenceController
+Settings: Fix the IllegalArgumentException from RecyclerView
+Settings: Mark DataUsageState as nullable to avoid potential NPE risk
+SystemUI: Improve fp ripple animation color
+base: Stop the spamming of background start not allowed
+themes: UdfpsResources: Add more resources from Realme RMX3392
+themes: UdfpsResources: Remove Aurora and OP Cosmos
+
+11/2
+StrictMode: Enable by default only in ENG builds
+SystemUI: Properly set onclick listener for battery
+config: Enable QR scanner shortcut in lock screen
+
+11/1
+BatteryStatsImpl: Guard against OOB
+Evolver: Bring back 9 more battery styles
+Set callback before hal connection to avoid NPE on startup
+Settings: Add an activity for saved Bluetooth devices fragment
+Settings: Add fallback summary text if there is no matching screen timeout value
+Settings: Add quick mute gesture
+Settings: Add vibration patterns from OOS
+Settings: Allow choosing a custom vibration pattern
+Settings: Custom vibration pattern per notification channel
+Settings: Fix compile warnings due to non-varargs call of varargs method
+Settings: Move custom vib pattern to its own preference
+SystemUI: Darken circle battery background on expanded QS
+SystemUI: Disable all-caps for smart reply button text
+base: Reduce horizontal spacing around location icon
+
+10/30
+AlertSlider: Add resources for a few display oriented controllers
+
+10/29
+CameraDeviceImpl: Don't crash when checking input configuration failed
+
+10/28
+BatteryService: Switch Dash charging status path to an overlay
+BrightnessController: Don't update slider from DisplayManager callback if user is changing
+brightness
+Camera: Allow skipping input configuration check
+Camera: Expose aux camera if packagename is null
+EventLog: Disable event writing in production builds
+Fix DozeLogger NPE crash when DozeMachine.State is null
+Fix crash when init QrCamera to start preview
+Fix crash when trying to dismiss dialog
+Link dialog radius to config_dialogCornerRadius
+Remove Safety Center tile from default tiles
+Settings: Adjust gesture navigation settings title
+Settings: Fix incorrect switch status when user stay in NightDisplaySettings page while
+scheduled night lights on
+Settings: Fix show system status lost when switching dark theme
+Settings: Protect sensitive data on the about phone
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: BurnInProtectionController: offset less aggressively
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Limit keyguard charging stats updates
+SystemUI: Re-implement burn-in protection for status/navbar
+base: Disable some DEBUG log spill
+base: Don't send interaction hint for unnecessary events
+config: Downscale task snapshots to 80%
+fixup! biometrics: allow to disable unused fingerprints cleanup
+telephony: Provide a default executor
+
+10/27
+Enable backup service by default for all users
+Evolver: Controllable squiggle animation
+ListView: Disable dividers by default
+Settings: Remove broken LTE only mode
+SystemUI: Add charging icon to the charging animation
+SystemUI: Improve charging animation's color palette
+SystemUI: Play all charging animator sets at the same time
+base: TtsEngines: fix yet another NPE
+
+10/26
+Settings: add animation to dark mode preference
+Settings: buttons text should no longer be allCaps
+Settings: drop divider in dark mode screen
+10/25
+PixelPropsUtils: Don't spoof euicc
+SystemUI: Logo: Avoid NPE
+
+10/24
+GlobalActions: Update the default actions to match the stock experience
+GlobalActionsDialog: Implement partial screenshot for screenshot power menu long
+press
+GlobalActionsDialog: Never show emergency without telephony support
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+Settings: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+SystemUI: screenshot: add delay for long-press partial screenshot
+
+10/23
+Fix NPE with 1.0 and 1.1 CardStatus
+Pass correct value to setPreferredNetworkType() for RIL version < 1.4
+Pulse: Detach pulse view only when attached
+Settings: Fix up panel theme and layout
+Settings: Regulatory: Fullscreen instead of AlertDialog
+
+10/22
+Evolver: Pulse: Implement pulse color based album art
+SystemUI: Always show screenshot dismiss button
+SystemUI: Fix tuner pref for bluetooth
+SystemUI: Make edit button click ripple effect rounded
+SystemUI: Refactor status bar bluetooth icon
+SystemUI: Use red color for low bluetooth battery
+ThemedIcons: Add Desmos icon
+Update translations
+overlays: Stop building NotoSerif font
+
+10/21
+Settings: Remove optional haptic feedback on back gesture toggle
+SystemUI: Require haptic feedback on back gesture
+SystemUI: Use proper Resolver background color
+
+10/20
+SystemUI: Add missing location permission
