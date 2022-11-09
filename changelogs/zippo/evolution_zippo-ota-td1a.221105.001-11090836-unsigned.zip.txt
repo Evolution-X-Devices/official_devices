@@ -1,0 +1,20 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- You may update with dirty install from previous version but clean is recommended
+
+**Device Changes:**
+
+- Switch to "Laboratory" kernel by Einar G. (4.14.298)
+- Switch to trb clang
+- Add GPU OC & UV in kernel
+
+**Evolution X Update**
+
+- version: Uprev to 7.3
+- Merge November 2022 security patches
+- Implement Face Unlock from PE
+- GameSpace: Notify in-coming call number when receiving/rejecting call
+- GameSpace: Port auto answer/reject calls feature
+- SystemUI: Add VPNTethering tile
+- Settings: Allow disabling clipboard overlay
+- Settings: Ambient Music Ticker - Allow to pulse on new tracks
