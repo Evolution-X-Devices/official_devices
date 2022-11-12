@@ -1,0 +1,25 @@
+This is Android 13 with November 2022 security patches
+
+Notes:
+==============================
+- 4.19 ROM | just use 4.19 kernels and 4.19 recovery
+
+ROM changes:
+==============================
+Add ABS_MT_SLOT config to virtual touch screen
+Add interface for battery stats reset
+Evolver: Bring back CPU info overlay toggle
+Evolver: Bring back On-The-Go Mode power menu entry
+Evolver: Bring back Pulse
+Evolver: Bring back toggle to disable wireless charging animation
+InternetDialog: Launch mobile network settings on long press
+QS: Add CPUInfo toggle tile
+QS: Add On-The-Go Tile
+Settings: Enable smart charging reset battery stats toggle
+Settings: Swap intro with toggle for Adaptive Playback settings
+SystemUI: Add hotspot toggle in QS internet dialog
+audio_amplifier: Add hook for amplifier calibration
+------------------------------
+Device changes:
+==============================
+Initial 4.19 build
