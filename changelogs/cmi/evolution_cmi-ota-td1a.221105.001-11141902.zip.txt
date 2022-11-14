@@ -1,0 +1,383 @@
+  
+2022-11-14
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.5.0
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: fingerprint: also disable fod hbm on cancel()
+  * sm8250-common: dont use LLVM Binutils for kernel compilation
+  * sm8250-common: parts: Write backlight only when triggering autohbm on
+  * sm8250-common: Create IMS symlinks
+  * sm8250-common: init: Checkout to LA.UM.9.12.r1-14800-SMxx50.QSSI13.0
+  * sm8250-common: sepolicy: Fix wireless charging label
+  * sm8250-common: udfps: s/hander/handler
+  * sm8250-common: Migrate vendor.camera.aux.packagelist to overlay
+  * sm8250-common: Add faceunlock package to aux cam list
+  * sm8250-common: overlay: Force FaceUnlockService to use cameraid 1
+  * sm8250-common: drop Megvii
+  * sm8250-common: Drop component overrides
+  * Revert "sm8250-common: props: Disable NR when LTE is selected"
+  * sm8250-common: sepolicy: resolve some more denials
+  * sm8250-common: sepolicy: Fix faceunlock denial
+  * sm8250-common: props: Disable vsync for CPU rendered Apps
+
+ROM:
+
+11/14
+
+SystemUI: fix SliceView layout
+
+
+11/13
+
+Fix freeform window resize not working on multiple displays
+
+Settings: Allow to skip confirmation in biometric auth dialog
+
+Settings: Expose saved devices fragment via intent
+
+Settings: Link smallest width options in display settings
+
+SystemUI: New per-app volume icon
+
+SystemUI: Re-implement new Bluetooth dialog
+
+SystemUI: VolumeDialogControllerImpl: make sure to load linked notification state as well
+
+bootanimation: Always use normal bootanimation
+
+charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+
+config: Disable Now Playing widget
+
+services: SystemServer: remove redundant startService for lineage hardware service
+
+services: lineage: publish binder service only at onStart phase and use super class context
+
+
+11/12
+
+BatteryStatsService: limit logspam
+
+Evolver: Make combined signal icons configurable at runtime
+
+Fix for NullPointerException in SmsMessage
+
+Fix long press skip track changing volume issue
+
+Fix potential crash when exit splash screen
+
+Settings: Fix potential crash in AppAllServicesPreferenceController
+
+Syncronize framework and ImsStack operation for ImsFeatureStatusCallback
+
+SystemUI: Disable clock auto hide feature for QS
+
+SystemUI: Perform soft reboot when enabling combined signal icons
+
+SystemUI: Remove Bluetooth dialog
+
+Use a better implementation for hide IME space feature
+
+base: Make NavigationBar to use Hidden IME Space only on gesture bar
+
+
+11/11
+
+Update translations
+
+sepolicy: vendor: Allow Bluetooth APEX to work with GMS
+
+
+11/9
+
+GameSpace: Long click Settings icon to open Settings Dashboard
+
+GameSpace: Notify in-coming call number when receiving/rejecting call
+
+GameSpace: Port auto answer/reject calls feature
+
+Re-implement Face Unlock from PE
+
+kernel: Only add GCC to PATH when using GNU binutils
+
+kernel: Override LD_LIBRARY_PATH only on <5.10
+
+kernel: Remove TARGET_KERNEL_MODULES error
+
+kernel: Remove darwin support
+
+kernel: Support copying modules to vendor_kernel_boot
+
+
+11/8
+
+AudioService: catch RuntimeException for IServiceManager.getService
+
+Change the default value of sync mode to NORMAL
+
+Merge November 2022 security patches
+
+PixelPropsUtils: Update fingerprints to November 2022 release
+
+Settings: Remove offsets from Evo X logo
+
+Sync hardware/xiaomi changes from LOS
+
+Sync sepolicy-legacy-um and sepolicy_vndr-legacy-um changes from LOS
+
+SystemUI: Add VPNTethering tile
+
+SystemUI: Check whether the selected WFD route is available
+
+apns: Added IA APN types to all default type APNs
+
+apns: Format xml spacing
+
+core: Treat reboot boot mode same as normal one
+
+fixup! Do not dismiss keyguard after SIM PUK unlock
+
+vendor: apex: Update from TD1A.221105.001
+
+version: Uprev to 7.3
+
+
+11/7
+
+Settings: Allow disabling clipboard overlay
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+
+TrafficStats: Stop the spam
+
+Update various corner radiuses to align with AOSP apps
+
+
+11/5
+
+PixelPropsUtils: Get package name from context instead of app
+
+camera: Allow extending aux list/excludelist
+
+
+11/4
+
+AlertWindowNotification: Correctly load app label
+
+Allow screen unpinning on devices without navbar
+
+AmbientIndicationContainer: Fix possible NPE
+
+Fix NPE when finishing remote animation
+
+Fix screen unpinning text on devices that have gestures on fp sensor
+
+SettingsGoogle: Update resources from cheetah
+
+SystemUIGoogle: Update resources from cheetah
+
+lmkd: fix the cgroup attribute name to MemCgroupEventControl
+
+reTicker: Do not jump to app when clicked in games
+
+vendor: rro_overlays: Update from cheetah
+
+
+11/3
+
+AuthRippleController: Always finish the LightRevealScrim
+
+AuthRippleController: Only update sensor location when necessary
+
+CutoutFullScreenController: force full screen important apps
+
+Settings: Fix crash when input illegal proxy port number
+
+Settings: Fix crash when showing error dialog in NetworkRequestDialogActivity
+
+Settings: Fix NPE crash in TextToSpeechSettings
+
+Settings: Fix NPE crash in UwbPreferenceController and optimize the lifecycle observer adding condition in page
+
+Settings: Fix potential NPE crash in ConversationHeaderPreferenceController
+
+Settings: Fix the IllegalArgumentException from RecyclerView
+
+Settings: Mark DataUsageState as nullable to avoid potential NPE risk
+
+SystemUI: Improve fp ripple animation color
+
+base: Stop the spamming of background start not allowed
+
+themes: UdfpsResources: Add more resources from Realme RMX3392
+
+themes: UdfpsResources: Remove Aurora and OP Cosmos
+
+
+11/2
+
+StrictMode: Enable by default only in ENG builds
+
+SystemUI: Properly set onclick listener for battery
+
+
+11/1
+
+BatteryStatsImpl: Guard against OOB
+
+Evolver: Bring back 9 more battery styles
+
+Set callback before hal connection to avoid NPE on startup
+
+Settings: Add an activity for saved Bluetooth devices fragment
+
+Settings: Add fallback summary text if there is no matching screen timeout value
+
+Settings: Add quick mute gesture
+
+Settings: Add vibration patterns from OOS
+
+Settings: Allow choosing a custom vibration pattern
+
+Settings: Custom vibration pattern per notification channel
+
+Settings: Fix compile warnings due to non-varargs call of varargs method
+
+Settings: Move custom vib pattern to its own preference
+
+SystemUI: Darken circle battery background on expanded QS
+
+SystemUI: Disable all-caps for smart reply button text
+
+base: Reduce horizontal spacing around location icon
+
+
+10/30
+
+AlertSlider: Add resources for a few display oriented controllers
+
+
+10/29
+
+CameraDeviceImpl: Don't crash when checking input configuration failed
+
+
+10/28
+
+BatteryService: Switch Dash charging status path to an overlay
+
+BrightnessController: Don't update slider from DisplayManager callback if user is changing brightness
+
+Camera: Allow skipping input configuration check
+
+Camera: Expose aux camera if packagename is null
+
+EventLog: Disable event writing in production builds
+
+Fix DozeLogger NPE crash when DozeMachine.State is null
+
+Fix crash when init QrCamera to start preview
+
+Fix crash when trying to dismiss dialog
+
+Link dialog radius to config_dialogCornerRadius
+
+Remove Safety Center tile from default tiles
+
+Settings: Adjust gesture navigation settings title
+
+Settings: Fix incorrect switch status when user stay in NightDisplaySettings page while scheduled night lights on
+
+Settings: Fix show system status lost when switching dark theme
+
+Settings: Protect sensitive data on the about phone
+
+Settings: Use ListPreference instead of DropDownPreference
+
+SystemUI: BurnInProtectionController: offset less aggressively
+
+SystemUI: Enable status bar burn-in protection by default
+
+SystemUI: Limit keyguard charging stats updates
+
+SystemUI: Re-implement burn-in protection for status/navbar
+
+base: Disable some DEBUG log spill
+
+base: Don't send interaction hint for unnecessary events
+
+config: Downscale task snapshots to 80%
+
+fixup! biometrics: allow to disable unused fingerprints cleanup
+
+telephony: Provide a default executor
+
+
+10/27
+
+Enable backup service by default for all users
+
+Evolver: Controllable squiggle animation
+
+ListView: Disable dividers by default
+
+Settings: Remove broken LTE only mode
+
+SystemUI: Add charging icon to the charging animation
+
+SystemUI: Improve charging animation's color palette
+
+SystemUI: Play all charging animator sets at the same time
+
+base: TtsEngines: fix yet another NPE
+
+
+10/26
+
+Settings: add animation to dark mode preference
+
+Settings: buttons text should no longer be allCaps
+
+Settings: drop divider in dark mode screen
+
+
+10/25
+
+PixelPropsUtils: Don't spoof euicc
+
+SystemUI: Logo: Avoid NPE
+
+
+10/24
+
+GlobalActions: Update the default actions to match the stock experience
+
+GlobalActionsDialog: Implement partial screenshot for screenshot power menu long press
+
+GlobalActionsDialog: Never show emergency without telephony support
+
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+
+Settings: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+
+SystemUI: screenshot: add delay for long-press partial screenshot
+
+
+10/23
+
+Fix NPE with 1.0 and 1.1 CardStatus
+
+Pass correct value to setPreferredNetworkType() for RIL version < 1.4
+
+Pulse: Detach pulse view only when attached
+
+Settings: Fix up panel theme and layout
+
+Settings: Regulatory: Fullscreen instead of AlertDialog
+
+
