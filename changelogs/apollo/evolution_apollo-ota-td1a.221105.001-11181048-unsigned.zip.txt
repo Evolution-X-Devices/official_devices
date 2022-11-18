@@ -1,0 +1,85 @@
+This is Android 13 with November 2022 (r13) security patches
+
+Notes:
+==============================
+- Dirty flash from Android 12.1 to Android 13 at your own risk.
+- Dirty flash from older A13 builds is fine.
+
+Device changes:
+==============================
+- Import QTI MediaCodecs
+- Compile out libcodec2 and android.hardware.media.c2 deps
+- Also import libstagefright qtiflacdec
+- Compile Audio Alsa & Debugging (On debug builds) Extensions
+- Remove config_jitzygoteBootImagePinnerServiceFiles list
+- Update PinnerService for SystemUIGoogle
+- Provide Sepolicy and overlays for FPS Counter access
+- Import missing Audio-Hardware libs
+- Allow citsensorservice use sysfs_leds
+- Remove RAW channel
+- Add Palm Sensor to TouchScreen GenFS
+- Miscellaneous changes and optimizations
+------------------------------
+
+ROM changes:
+==============================
+Evolver: Bring back Button backlight brightness for hw key devices
+EventLog: Re-enable event writing in production builds
+Evolver: Remove toggle for squiggle animation
+Fallback ESC to BACK
+Settings: InstalledApp: Hide GooglePlay icon for webapps
+SystemUI: fix showing device controls on lock screen
+SystemUI: migrate statusbar manual brightness to float
+SystemUI: unify statusbar manual & auto brightness code
+base: Rework lock gesture feature
+SystemUI: fix SliceView layout
+Fix freeform window resize not working on multiple displays
+Settings: Allow to skip confirmation in biometric auth dialog
+Settings: Expose saved devices fragment via intent
+Settings: Link smallest width options in display settings
+SystemUI: New per-app volume icon
+SystemUI: Re-implement new Bluetooth dialog
+SystemUI: VolumeDialogControllerImpl: make sure to load linked notification state as well
+bootanimation: Always use normal bootanimation
+charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+config: Disable Now Playing widget
+services: SystemServer: remove redundant startService for lineage hardware service
+services: lineage: publish binder service only at onStart phase and use super class context
+BatteryStatsService: limit logspam
+Evolver: Make combined signal icons configurable at runtime
+Fix for NullPointerException in SmsMessage
+Fix long press skip track changing volume issue
+Fix potential crash when exit splash screen
+Settings: Fix potential crash in AppAllServicesPreferenceController
+Syncronize framework and ImsStack operation for ImsFeatureStatusCallback
+SystemUI: Disable clock auto hide feature for QS
+SystemUI: Perform soft reboot when enabling combined signal icons
+SystemUI: Remove Bluetooth dialog
+Use a better implementation for hide IME space feature
+base: Make NavigationBar to use Hidden IME Space only on gesture bar
+Update translations
+sepolicy: vendor: Allow Bluetooth APEX to work with GMS
+GameSpace: Long click Settings icon to open Settings Dashboard
+GameSpace: Notify in-coming call number when receiving/rejecting call
+GameSpace: Port auto answer/reject calls feature
+Re-implement Face Unlock from PE
+kernel: Only add GCC to PATH when using GNU binutils
+kernel: Override LD_LIBRARY_PATH only on <5.10
+kernel: Remove TARGET_KERNEL_MODULES error
+kernel: Remove darwin support
+kernel: Support copying modules to vendor_kernel_boot
+AudioService: catch RuntimeException for IServiceManager.getService
+Change the default value of sync mode to NORMAL
+Merge November 2022 security patches
+PixelPropsUtils: Update fingerprints to November 2022 release
+Settings: Remove offsets from Evo X logo
+Sync hardware/xiaomi changes from LOS
+Sync sepolicy-legacy-um and sepolicy_vndr-legacy-um changes from LOS
+SystemUI: Add VPNTethering tile
+SystemUI: Check whether the selected WFD route is available
+apns: Added IA APN types to all default type APNs
+apns: Format xml spacing
+core: Treat reboot boot mode same as normal one
+fixup! Do not dismiss keyguard after SIM PUK unlock
+vendor: apex: Update from TD1A.221105.001
+version: Uprev to 7.3
