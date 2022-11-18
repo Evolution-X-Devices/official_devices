@@ -1,0 +1,172 @@
+Dirty flash is okay from previous builds.
+Don't flaah over A12 or 12.1 ROMs or other ROM no EvolutionX.
+Cust partition mounted as System_ext no flash another
+kernel without propely support and no flash other kernel
+you will loose support.
+
+*Device changes*
+Kernel Etude Op.13 No.2
+Kernel upstrem to 4.9.333
+Add Face Unlock IR 
+a tons of changes. Enjoy!!
+
+ROM changes ----
+=======================
+     2022/11/18
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+f014fa1d recovery: init: Add console service
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/refs/heads/lineage-20.0
+
+28fa79ac sepolicy_vndr: qva: Update QTI USB HAL to v1.3
+39c8cfa1 sepolicy_vndr: qva: Allow vendor_cnd to read wifi_hal_prop
+84c19040 sepolicy_vndr: generic: Add app_data_file_type to vendor_radio_data_file
+8960ec41 sepolicy_vndr: generic: Fix compilation issues for newer upgrade
+c22980cb sepolicy_vndr: Switch to SYSTEM_EXT_{PUBLIC,PRIVATE}_SEPOLICY_DIRS
+b5a3b785 sepolicy_vndr: Switch to BOARD_VENDOR_SEPOLICY_DIRS
+2c42125f sepolicy_vndr: Include Lineage-specific QCOM sepolicy
+b47a0816 sepolicy_vndr: Remove QCOM guards
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+bbaa19395b cameraserver: Fix floating point truncation for getUHRMaxJpegBufferSize
+73f1bc5aa5 Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
+1eddb8cbfb Camera: Avoid roundBufferDimensionsNearest for AIDE2 YUV streams
+5e97a4071d Camera: Master callback mode support for MCX raw
+4bf40859fe fixup! Camera: Skip stream size check for whitelisted apps.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+a408f2a8a2 New Crowdin updates (#220)
+
+
+=======================
+     2022/11/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+98f82bae6d12 fwb: Re-introduce keyboard backlight brightness control
+da78176831ee PowerManager: Allow to distinguish different keypresses
+f9d2eb80ec70 PowerManagerService: Allow to light up buttons only when pressed
+9db87b9f686f fw/b: Button backlight brightness
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+14b7ee575f InputDispatcher: On keypress, deliver keycode to pokeUserActivity
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+d0643a8 Evolver: Refactor for Tiramisu
+
+
+=======================
+     2022/11/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_gptfdisk/commits/refs/heads/lineage-20.0
+
+2912864 Fix hybrid MBR recognition on --android-dump
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+6576c51c26b1 [SQUASH] Revert multiple commits
+17775a182f6b base: Rework lock gesture feature
+46627cf230f3 Fallback ESC to BACK
+5fafd7d7f153 SystemUI: fix showing device controls on lock screen
+c90259d625fd SystemUI: unify statusbar manual & auto brightness code
+ac346520e833 SystemUI: migrate statusbar manual brightness to float
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+684e6b4804 InstalledApp: Hide GooglePlay icon for webapps
+1202f2d0fa New Crowdin updates (#211-#219)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+c9c2231 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2022/11/15
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+a9e3174 vendor: init: Fix condition for init legacy devices
+e6ee152 vendor: perf: Set common cpuset to audio-app
+1178f43 vendor: init: Fix Invalid section keyword found after f9f83796b322dd65ae77bbc1e6e4c2b34f31e75f
+4ca69ba system: overlay: Remove support bluetooth_hfp_inband_ringing overlay
+8a61a72 common: sepolicy: Allow mediaserver to access QSPM HAL
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+233dd32c97 Settings: Link smallest width options in display settings
+
+
+=======================
+     2022/11/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+8fb7d6f2aef8 SystemUI: fix SliceView layout
+74fa60748da4 Fix freeform window resize not working on multiple displays
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+38b5654 SettingsGoogle: Sync with Face Unlock changes
+
+
+=======================
+     2022/11/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+fc083439744a SystemUI: Implement Bluetooth dialog
+2b02660905fb SystemUI: New per-app volume icon
+d7f4e5b3f611 services: lineage: publish binder service only at onStart phase and use super class context
+11dbcf9cc93b services: SystemServer: remove redundant startService for lineage hardware service
+425047e7b4e5 SystemUI: Introduce preferred network tile
+366addca4ba0 SystemUI: VolumeDialogControllerImpl: make sure to load linked notification state as well
+cf8a6ff18d0e bootanimation: Always use normal bootanimation
+7171eda9efd5 base: add missing device config permissions for settings
+83abf19d995f base: Allow to skip confirmation in biometric auth dialog [1/2]
+4f0071e7ac42 SystemUI: Make Lens work without independent package installed
+170f7a19a193 SystemUI: Perform soft reboot when enabling combined signal icons
+c724aaa95238 SystemUI: Make combined signal icons configurable at runtime [1/2]
+239b7e32ac9c Revert "SystemUI: allow to set combined statusbar icons with a config"
+cdab135d1b0b base: Make NavigationBar to use Hidden IME Space only on gesture bar
+4de1ec572fa7 Fix for NullPointerException in SmsMessage
+14ebfa62bb44 BatteryStatsService: limit logspam
+921e19c8e272 Fix potential crash when exit splash screen
+04dbf8c28f50 Syncronize framework and ImsStack operation for ImsFeatureStatusCallback.
+d2d50d7d33fd SystemUI: Disable clock auto hide feature for QS
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+c97b7ea Aperture: Remove unnecessary type declarations in CameraManager
+d2c2858 Aperture: Override navigationBarColor for main activity theme
+f270639 Aperture: Use context instead of activity ref in CameraManager
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1263e340cb Settings: Expose saved devices fragment via intent
+1f5d647a18 Settings: Allow to skip confirmation in biometric auth dialog [2/2]
+a60a1df70e Fix potential crash in AppAllServicesPreferenceController
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+58f89f15 config: Disable Now Playing widget
+9ef4dfab charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+2a8d8f6 SystemUIGoogle: Sync with Evolution X changes
+733aaff SystemUIGoogle: Update resources from cheetah
+0939118 SettingsGoogle: Update resources from cheetah
+588509b AmbientIndicationContainer: Fix possible NPE
