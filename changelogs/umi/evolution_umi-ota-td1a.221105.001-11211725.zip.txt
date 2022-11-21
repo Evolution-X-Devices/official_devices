@@ -1,0 +1,104 @@
+  
+2022-11-21
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.7.0
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: Set doze_display_state_supported to false
+  * sm8250-common: drop OSS sountriger
+  * sm8350-common: use strong effect for heavyclick
+  * sm8350-common: vibrator: simplify effects flow
+  * sm8250-common: Set default USB name
+  * sm8260-common: Drop PRODUCT_BUILD_SUPER_PARTITION
+  * sm8250-common: remove Aperture
+
+KERNEL:
+
+  * ARM64: dts: J2: Skip entering NOLP while FOD on
+  * techpack: display: refactor fod dim lut handling
+  * arm64: dts: j2: tweak dim alpha little bit
+
+
+ROM:
+
+11/21
+
+Call setBrightness when user stops swiping on statusbar
+
+
+11/20
+
+Add wrapped key support
+
+PixelPropsUtils: Merge back AttestationHooks into PixelPropsUtils
+
+PixelPropsUtils: Remove spoofing for currently supported Pixel devices
+
+PixelPropsUtils: Restrict P21+ features usage for 2021+ Pixel devices only
+
+config: Enable R8 code shrinking for system_server and SystemUI
+
+config: Exclude SystemUI tests
+
+config: Include partner_modules with GMS builds
+
+config: conditionally flatten apexes
+
+config: dedupe vndk libraries
+
+overlay: leave emergency button with red background
+
+
+11/19
+
+Evolver: Allow toggling Netflix spoofing
+
+Fix NPE in SystemUI
+
+Fix ViewConfiguration's ArrayIndexOutOfBoundsException
+
+Fix the logic of parsing profilebootclasspath flags
+
+Pocket Mode: don't enable by default
+
+ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+
+fixup! Add build support for XZ ramdisks
+
+overlay: Add and update pinner configuration
+
+
+11/18
+
+ImeFocusController: Prevent a rare NPE
+
+recovery: init: Add console service
+
+
+11/17
+
+Evolver: Bring back Button backlight brightness for hw key devices
+
+
+11/16
+
+EventLog: Re-enable event writing in production builds
+
+Evolver: Remove toggle for squiggle animation
+
+Fallback ESC to BACK
+
+Settings: InstalledApp: Hide GooglePlay icon for webapps
+
+SystemUI: fix showing device controls on lock screen
+
+SystemUI: migrate statusbar manual brightness to float
+
+SystemUI: unify statusbar manual & auto brightness code
+
+base: Rework lock gesture feature

@@ -1,17 +1,17 @@
 {
-   "datetime": 1668452532,
+   "datetime": 1669061115,
    "donate_url": "https://www.paypal.me/yarpiin",
    "error": false,
-   "filehash": "b9b39bff40d77779943025c2225ea571",
-   "filename": "evolution_cmi-ota-td1a.221105.001-11141902.zip",
+   "filehash": "89b0f81593585ffc808c545a654b0639",
+   "filename": "evolution_cmi-ota-td1a.221105.001-11212005.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-umi-cmi-official-evolution-x.4272743/",
-   "id": "d15297b88803f39a3281608a93e9ec5d0ed0885a1b4da87c2c0a97dd95069a16",
+   "id": "f2ff20b26c9e41e1e7643370024a4cf7d0d8fb892edb58237228326e7a876b78",
    "maintainer": "Slaw Handzlik (yarpiin)",
    "maintainer_url": "https://github.com/yarpiin",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2461375242,
+   "size": 2453589016,
    "telegram_username": "yarpiin",
-   "url": "https://sourceforge.net/projects/evolution-x/files/cmi/evolution_cmi-ota-td1a.221105.001-11141902.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/cmi/evolution_cmi-ota-td1a.221105.001-11212005.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
