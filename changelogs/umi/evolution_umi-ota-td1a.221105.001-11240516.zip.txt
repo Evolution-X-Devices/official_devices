@@ -1,0 +1,58 @@
+  
+2022-11-24
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.7.0
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: overlay: Don't use light sensor for pocket lock
+
+KERNEL:
+
+  * defconfig: regen
+  * sched/walt: eval_need code and trace cleanup
+  * sched/walt: Improve the scheduler
+  * sched/walt: Improve the scheduler
+  * sched/walt: Improve the scheduler
+  * sched/walt: Check if necessary for sched_boost modify
+  * walt: Set default window size to 8ms
+  * sched/rt: Change default SCHED_RR timeslice from 100 ms to 1 jiffy
+  * sched/core: Use SCHED_RR in place of SCHED_FIFO for all users
+  * sched: do not allocate window cpu arrays separately
+  * sysctl: promote several nodes out of CONFIG_SCHED_DEBUG
+  * defconfig: regen
+  * techpack: audio: cs35l41: Get rid of xlog
+  * arm64: dts: kona-v2: Tweak energy model
+  * sched: Ideally use 10ms scheduling periods
+  * sched: Reduce the opportunity for sleepers to preempt
+  * schedutil: enforce realtime priority
+  * sched/features: Fix hrtick reprogramming
+  * ANDROID: sched: fair: balance for single core cluster
+  * sched/core: Allow the remote scheduler tick to be started on CPU0
+  * gpu: adreno: Increase data processing limit
+  * drm: drm_match_cea_mode always return 0
+  * msm: kgsl: Parallelization of kgsl_3d_init
+
+
+ROM:
+
+11/22
+
+SystemUI: cleanup bluetooth dialog impl
+
+bluetooth: abandon app local certificate
+
+build: Add bluetooth and sdk_sandbox to default key map
+
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+
+services: AppLockManagerService: use the og calling uid for target intent
+
+
+11/21
+
+Call setBrightness when user stops swiping on statusbar
