@@ -1,0 +1,28 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- You may update with dirty install from previous version but clean is recommended
+
+**Device Changes:**
+
+- Support and enable IncrementalFS
+- Fix CPU temperature divider in system info
+- Support the new settings for multiple vibration intensities
+- Update kernel to 4.14.300
+- Update lz4 module and improve decompression
+
+
+**Evolution X Update**
+
+- Use a better implementation for hide IME space feature
+- SystemUI: Disable clock auto hide feature for QS
+- Fix long press skip track changing volume issue
+- Evolver: Make combined signal icons configurable at runtime
+- charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+- config: Disable Now Playing widget
+- SystemUI: New per-app volume icon
+- Settings: Allow to skip confirmation in biometric auth dialog
+- Fix freeform window resize not working on multiple displays
+- base: Rework lock gesture feature
+- Evolver: Remove toggle for squiggle animation
+- Evolver: Allow toggling Netflix spoofing
+- Add wrapped key support
