@@ -1,17 +1,17 @@
 {
-   "datetime": 1667415295,
+   "datetime": 1669631300,
    "donate_url": "https://www.paypal.me/asavvo01",
    "error": false,
-   "filehash": "e98151b220f7d9694932a81e0d8c0c2b",
-   "filename": "evolution_alioth-ota-td1a.220804.031-11021854.zip",
+   "filehash": "1d5c7d242fcb5f8b5b5b6eb4bc5f3f5d",
+   "filename": "evolution_alioth-ota-td1a.221105.001-11281028.zip",
    "forum_url": "https://forum.xda-developers.com/t/a13-evolution-x-for-poco-f3-mi-11x-alioth-official.4483449/",
-   "id": "89ab1025e9224ddcda777869da9c9626548682d3bd4f45bfa8be88611ee8fa22",
+   "id": "fb82a2bfefbfd46faf759ba064eca92946538a4d88047bf68aeaea1e5591c0cd",
    "maintainer": "Aggelos Savvopoulos (DarkAngelGR)",
    "maintainer_url": "https://forum.xda-developers.com/m/darkangelgr.8065843/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2070563136,
+   "size": 2097209331,
    "telegram_username": "DarkAngelGR",
-   "url": "https://sourceforge.net/projects/evolution-x/files/alioth/evolution_alioth-ota-td1a.220804.031-11021854.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/alioth/evolution_alioth-ota-td1a.221105.001-11281028.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

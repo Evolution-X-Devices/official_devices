@@ -1,0 +1,38 @@
+Device Changes:
+Add support for Xiaomi Misys
+Update Public Libraries from Miui Alioth 13.0.6.0 Mi
+Add props needed for MI Camera
+Fix sound cracking issue
+Update volume table from Google Pixel 7 Pro
+And much more...
+
+ROM Chnages:
+Add wrapped key support
+PixelPropsUtils: Merge back AttestationHooks into PixelPropsUtils
+Evolver: Allow toggling Netflix spoofing
+Evolver: Remove toggle for squiggle animation
+Settings: InstalledApp: Hide GooglePlay icon for webapps
+base: Rework lock gesture feature
+Settings: Allow to skip confirmation in biometric auth dialog
+SystemUI: New per-app volume icon
+SystemUI: Re-implement new Bluetooth dialog
+charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+Evolver: Make combined signal icons configurable at runtime
+Fix long press skip track changing volume issue
+SystemUI: Remove Bluetooth dialog
+Use a better implementation for hide IME space feature
+GameSpace: Notify in-coming call number when receiving/rejecting call
+GameSpace: Port auto answer/reject calls feature
+Re-implement Face Unlock from PE
+Merge November 2022 security patches
+PixelPropsUtils: Update fingerprints to November 2022 release
+SystemUI: Add VPNTethering tile
+version: Uprev to 7.3
+Settings: Allow disabling clipboard overlay
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+PixelPropsUtils: Get package name from context instead of app
+camera: Allow extending aux list/excludelist
+SettingsGoogle: Update resources from cheetah
+SystemUIGoogle: Update resources from cheetah
+vendor: rro_overlays: Update from cheetah
+And much more...
