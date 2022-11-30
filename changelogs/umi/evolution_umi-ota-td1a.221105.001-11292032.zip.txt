@@ -1,0 +1,62 @@
+  
+2022-11-29
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.7.0
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: minor udfps improvements
+
+
+11/30
+
+fixup! PixelPropsUtils: Get package name from context instead of app
+
+gms: Update Pixel Launcher to Nov patch version
+
+
+11/28
+
+Updater: Check if network is really metered
+
+Updater: Drop usage of NetworkInfo
+
+Updater: Move PreferenceManager to AndroidX
+
+
+11/27
+
+AudioService: Fix issue with linked notification volume
+
+Bluetooth: Optionally disable LE_READ_BUFFER_SIZE_V2 and LE_SET_HOST_FEATURE
+
+PixelPropsUtils: Misc changes
+
+SystemUI: Add Compass tile
+
+SystemUI: Fix QS compass tile spam & instability
+
+SystemUI: Remove charging icon from the charging animation
+
+Telephony: Fix the record output
+
+base: wm: Follow rounded corners by split divider corner size
+
+healthd: Fix charger_res_images_vendor install location
+
+
+11/23
+
+DisplayUtils: Introduce getScaleFactor
+
+Fix for Pixel Udfps to release peak refresh rate
+
+SystemUI: Add HBM provider for UDFPS on Pixel devices
+
+SystemUI: Import Pixel display interfaces
+
+UdfpsAnimations: Migrate to DisplayUtils.getScaleFactor
