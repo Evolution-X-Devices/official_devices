@@ -1,0 +1,142 @@
+This build you're receiving is evolution_veux-ota-td1a.221105.001-12040804-unsigned.zip
+
+==========================================
+Notes:
+==========================================
+Fixed NFC
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps And Firmware are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2022/12/04
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+7c2f68c Updater: Move PreferenceManager to AndroidX
+
+
+=======================
+     2022/12/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commits/refs/heads/lineage-20.0
+
+5882b16 st-hal: Correct reversed struct definitions
+
+
+=======================
+     2022/12/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+309fc59 Retain launcher icon on migration from Camera2
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+577934d New Crowdin updates (#226-#310)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+d2f9a37 New Crowdin updates (#20)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+3fcde2e New Crowdin updates (#211-#222)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+6397996 New Crowdin updates (#20)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+cfda051 vendor: config: common: Build BtHelper
+
+
+=======================
+     2022/12/01
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+8405a56 Make recovery/fastbootd USB VID/PID configurable.
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+95fa041 Set default recovery USB vendor/product IDs.
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+51cc14e BtHelper: AirPodsBatteryInitializer: Check whether the device is Airpods first
+
+
+=======================
+     2022/11/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+d1489d40 fixup! PixelPropsUtils: Get package name from context instead of app
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+fe633b2 gms: Update NexusLauncherRelease
+
+=======================
+     2022/11/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+50b2216 cameraserver: Fix floating point truncation for getUHRMaxJpegBufferSize
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+e30e10b lineage: Sync hardware/lineage/compat
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+d3a6533 healthd: Fix charger_res_images_vendor install location
+
+* Repository: https://gitlab.com/the-muppets/proprietary_vendor_firmware/commits/lineage-20
+
+7ccb6a3 lemonadep: Import firmware from OOS 11.C.66
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+06b50f3 SystemUIGoogle: Sync with Evolution X changes
+
+
+=======================
+     2022/11/26
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-20.0
+
+e386376 compat: Add libcamera_metadata shim for stripping out system camera cap
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+dd6c6ce Automatic translation import
+
+
+=======================
+     2022/11/25
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+9fa0ca9 Add more DNS providers [1/3]
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+d17493f Add more DNS providers [2/3]
+
+
