@@ -1,0 +1,70 @@
+Notes:
+==============================
+Don't dirty flash from A12.1 to A13.
+Clean flash recommended this time
+
+Device changes:
+==============================
+- Switch BtAudio to AIDL
+- Migrate vendor.camera.aux.packagelist to sdk overlay
+- Configure aux camera for Aperture Cam
+- Enable 24-bit for primary output and deep buffer
+- Import media_codecs_vendor.xml from sweet
+- Import OnePlus Dolby
+- Add touch improvements sysprops
+- rootdir: Clear package_cache after dirty flash
+- Other fixes and  improvements
+Credit :-
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+Kernel changes: by itsshashanksp
+==============================
+- Bug fixes & performance improvement.
+- Added ln8000 charging driver for Fast charging.
+- Fixed broken Deepsleep issue randomly.
+- Merged Linux tag V4.14.300.
+------------------------------
+ROM changes:
+==============================
+Evolver: Bring back AlarmsBlocker/WakelockBlocker
+Evolver: Drop Combined signal icons
+Evolver: Drop Less boring Heads up
+Evolver: Drop Power menu dialog dim/opacity options
+Evolver: Drop Smart Pixels support
+Evolver: Drop Smart Pulldown
+Evolver: Drop WiFi standard icon feature
+Fix app crashes for apps and games like Xbox Game Pass
+GameSpace: Update takeScreenshot API in ScreenUtils
+Merge December 2022 security patches
+PhoneWindowManager: Pocket Judge: Handle torch power gestures
+PixelPropsUtils: Update fingerprints to December 2022
+PixelPropsUtils: spoof nothing smartcenter to pixel
+QS: LocationTile: make it cycle modes (fix Location QS tile)
+QS Tiles: Drop Preferred Network type
+Rebase to Android 13 QPR1 (r16)
+Screenrecord: Add summary for HEVC encoding
+Settings: Avoid enforcing weird backgrounds
+Settings: Drop hide arrow for back gesture feature
+Settings: Reset battery stats
+SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model (fix for WiFI and Data QS tiles)
+SystemUI: DreamTile: Enable for everyone
+SystemUI: Fix suspicious spaces around mobile icons
+Telecomm: Fix dark navigationBar background in some telephony settings pages
+Update translations
+base: Pocket Judge: Don't block dialer UI
+base: Pocket judge should not block device key handling
+gms: Bring back CaptivePortalLoginGoogle
+gms: Don’t build Google Battery for everyone
+themes: fonts: Remove FontNothingDotHeadlineOverlay
+themes: fonts: Remove FontRobotoOverlay
+vendor: CarrierConfigs: Import carrier-specific MCC configuration
+vendor: CarrierSettings: Update from TQ1A.221205.012
+vendor: Drop pixel-framework for now
+vendor: apex: Update from TQ1A.221205.012
+vendor: config: Add support for more Carriers
+vendor: config: common: Build BtHelper (for AirPods support)
+vendor: overlay: Import branded VPN translations
+vendor: rro_overlays: Configure the clock font family type
+version: Rename 7.4 to Kaldereta
