@@ -1,0 +1,188 @@
+THIS UPDATE REQUIRES A MANDATORY CLEAN FLASH. DO BACKUP YOUR DATA BEFORE UPDATING AND DO A CLEAN FLASH. SORRY FOR THE INCONVENIENCE, THIS WILL NOT BE REQUIRED FURTHER ON.
+
+- December security patch
+- Vulkan issues fixed (fixes emulators etc.)
+- Blobs updated to MIUI 13.0.4.0
+
+NOTE: USING MIUI 13 FW IS MANDATORY NOW. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+ROM changes:
+==============================
+
+12/14
+Add absent sim info to locked screen text
+Evolver: Bring back Less boring Heads up
+QSTileHost: Fix crashes with tiles like Anti flicker
+Remove RESET_BATTERY_STATS permission for resetting stats
+SystemUI: Re-enable session-based media actions for all apps
+
+12/13
+Evolver: Drop Combined signal icons
+Evolver: Drop Power menu dialog dim/opacity options
+Evolver: Drop Smart Pixels support
+Evolver: Drop Smart Pulldown
+Evolver: Drop WiFi standard icon feature
+Fix app crashes for apps and games like Xbox Game Pass
+GameSpace: Update takeScreenshot API in ScreenUtils
+QS: LocationTile: make it cycle modes (fix Location QS tile)
+QS Tiles: Drop Preferred Network type
+Settings: Drop hide arrow for back gesture feature
+SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model (fix for WiFI and Data QS tiles)
+SystemUI: DreamTile: Enable for everyone
+SystemUI: Fix suspicious spaces around mobile icons
+Telecomm: Fix dark navigationBar background in some telephony settings pages
+gms: Bring back CaptivePortalLoginGoogle
+gms: Don’t build Google Battery for everyone
+vendor: Drop pixel-framework for now
+version: Rename 7.4 to Kaldereta
+
+12/12
+vendor: rro_overlays: Configure the clock font family type
+
+12/11
+PhoneWindowManager: Pocket Judge: Handle torch power gestures
+Rebase to Android 13 QPR1 (r16)
+base: Pocket Judge: Don't block dialer UI
+
+12/7
+vendor: CarrierConfigs: Import carrier-specific MCC configuration
+vendor: CarrierSettings: Update from TQ1A.221205.012
+vendor: apex: Update from TQ1A.221205.012
+vendor: config: Add support for more Carriers
+vendor: overlay: Import branded VPN translations
+
+12/6
+Merge December 2022 security patches
+PixelPropsUtils: Update fingerprints to December 2022
+Screenrecord: Add summary for HEVC encoding
+themes: fonts: Remove FontRobotoOverlay
+version: Uprev to 7.4
+
+12/5
+Avoid deadlock between ShortcutPackage and ShortcutService
+Evolver: Bring back AlarmsBlocker/WakelockBlocker
+Fix bluetooth tile show blank
+Fix an issue that the FoldStateListener induces a memory leak
+PixelPropsUtils: spoof nothing smartcenter to pixel
+Settings: Avoid enforcing weird backgrounds
+Settings: Reset battery stats
+base: Pocket judge should not block device key handling
+display: Add custom screen resolution setting
+
+12/2
+Update translations
+vendor: config: common: Build BtHelper (for AirPods support)
+
+12/1
+themes: fonts: Remove FontNothingDotHeadlineOverlay
+
+11/30
+fixup! PixelPropsUtils: Get package name from context instead of app
+gms: Update Pixel Launcher to Nov patch version
+
+11/28
+Updater: Check if network is really metered
+Updater: Drop usage of NetworkInfo
+Updater: Move PreferenceManager to AndroidX
+
+11/27
+AudioService: Fix issue with linked notification volume
+Bluetooth: Optionally disable LE_READ_BUFFER_SIZE_V2 and LE_SET_HOST_FEATURE
+PixelPropsUtils: Misc changes
+SystemUI: Add Compass tile
+SystemUI: Fix QS compass tile spam & instability
+SystemUI: Remove charging icon from the charging animation
+Telephony: Fix the record output
+base: wm: Follow rounded corners by split divider corner size
+healthd: Fix charger_res_images_vendor install location
+
+11/23
+DisplayUtils: Introduce getScaleFactor
+Fix for Pixel Udfps to release peak refresh rate
+SystemUI: Add HBM provider for UDFPS on Pixel devices
+SystemUI: Import Pixel display interfaces
+UdfpsAnimations: Migrate to DisplayUtils.getScaleFactor
+
+11/22
+SystemUI: cleanup bluetooth dialog impl
+bluetooth: abandon app local certificate
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+services: AppLockManagerService: use the og calling uid for target intent
+
+11/21
+Call setBrightness when user stops swiping on statusbar
+
+11/20
+Add wrapped key support
+PixelPropsUtils: Merge back AttestationHooks into PixelPropsUtils
+PixelPropsUtils: Remove spoofing for currently supported Pixel devices
+PixelPropsUtils: Restrict P21+ features usage for 2021+ Pixel devices only
+config: Enable R8 code shrinking for system_server and SystemUI
+config: Exclude SystemUI tests
+config: Include partner_modules with GMS builds
+config: conditionally flatten apexes
+config: dedupe vndk libraries
+overlay: leave emergency button with red background
+
+11/19
+Evolver: Allow toggling Netflix spoofing
+Fix NPE in SystemUI
+Fix ViewConfiguration's ArrayIndexOutOfBoundsException
+Fix the logic of parsing profilebootclasspath flags
+Pocket Mode: don't enable by default
+ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+fixup! Add build support for XZ ramdisks
+overlay: Add and update pinner configuration
+
+11/18
+ImeFocusController: Prevent a rare NPE
+recovery: init: Add console service
+
+11/17
+Evolver: Bring back Button backlight brightness for hw key devices
+
+11/16
+EventLog: Re-enable event writing in production builds
+Evolver: Remove toggle for squiggle animation
+Fallback ESC to BACK
+Settings: InstalledApp: Hide GooglePlay icon for webapps
+SystemUI: fix showing device controls on lock screen
+SystemUI: migrate statusbar manual brightness to float
+SystemUI: unify statusbar manual & auto brightness code
+base: Rework lock gesture feature
+
+11/14
+SystemUI: fix SliceView layout
+
+11/13
+Fix freeform window resize not working on multiple displays
+Settings: Allow to skip confirmation in biometric auth dialog
+Settings: Expose saved devices fragment via intent
+Settings: Link smallest width options in display settings
+SystemUI: New per-app volume icon
+SystemUI: Re-implement new Bluetooth dialog
+SystemUI: VolumeDialogControllerImpl: make sure to load linked notification state as well
+bootanimation: Always use normal bootanimation
+charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+config: Disable Now Playing widget
+services: SystemServer: remove redundant startService for lineage hardware service
+services: lineage: publish binder service only at onStart phase and use super class context
+
+11/12
+BatteryStatsService: limit logspam
+Evolver: Make combined signal icons configurable at runtime
+Fix for NullPointerException in SmsMessage
+Fix long press skip track changing volume issue
+Fix potential crash when exit splash screen
+Settings: Fix potential crash in AppAllServicesPreferenceController
+Syncronize framework and ImsStack operation for ImsFeatureStatusCallback
+SystemUI: Disable clock auto hide feature for QS
+SystemUI: Perform soft reboot when enabling combined signal icons
+SystemUI: Remove Bluetooth dialog
+Use a better implementation for hide IME space feature
+base: Make NavigationBar to use Hidden IME Space only on gesture bar
+
+11/11
+Update translations
+sepolicy: vendor: Allow Bluetooth APEX to work with GMS
+
