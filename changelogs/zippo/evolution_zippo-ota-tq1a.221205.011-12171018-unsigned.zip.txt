@@ -1,0 +1,28 @@
+- Firmware 12.5.365 is required
+- Format Data if you come from Android 11.
+- You may update with dirty install from previous version but clean is recommended
+
+**Device Changes:**
+
+- Fix parts for compilation after QPR1 merge
+- Move to libhidl shim in hardware/lineage/compat
+- Fix hyper orange night light
+- Update kernel to 4.14.302
+
+**Evolution X Update**
+
+- version: Uprev to 7.4
+- version: Rename 7.4 to Kaldereta
+- Merge December 2022 security patches
+- PixelPropsUtils: Update fingerprints to December 2022
+- Rebase to Android 13 QPR1 (r16)
+- Update translations
+- Settings: Reset battery stats
+- Evolver: Bring back AlarmsBlocker/WakelockBlocker
+- themes: fonts: Remove FontRobotoOverlay
+- base: Pocket Judge: Don't block dialer UI
+- SystemUI: Fix suspicious spaces around mobile icons
+- Settings: Update Security Hub from Pixel devices
+- Settings: Update Lottie animations from December patch
+- Settings: Bring back toggle to switch between AOSP/Google battery graphs
+- Fix Smart Pixels making FOD not to work
