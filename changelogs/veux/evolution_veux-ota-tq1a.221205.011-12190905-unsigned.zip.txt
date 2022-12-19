@@ -1,0 +1,205 @@
+This build you're receiving is evolution_veux-ota-td1a.221105.001-12040804-unsigned.zip
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+Added OnePlus Dolby.
+AOSP Recovery is shipped by default.
+Gapps And Firmware are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2022/12/19
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+0123db42 SystemUI: Match lockscreen clock font with system
+
+
+=======================
+     2022/12/18
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+1d11ccf manifest: Track NXP NFC repos from PE
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+1d25fe0 Aperture: Update com.google.android.material to 1.8.0-beta01
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+70a8c01 overlay: Set config_clockFontFamily to empty string
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+5c13442 kebab/lemonades: Ship OOS13 F.10 abl.img to bypass BL unlocked warning
+
+
+=======================
+     2022/12/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+3a4524a BLASTBufferQueue: Comment out lines causing log spam
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1c433e0 Settings: Redo "Good news, `encryptable=footer` is broken"
+
+
+=======================
+     2022/12/16
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+d2708dc Evolver: Refactor for Tiramisu
+
+
+=======================
+     2022/12/15
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+a10d7a8 Remove length validation for WifiSsid
+
+=======================
+     2022/12/13
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+493ba20 vendor: media: Add C2 audio props to bengal
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+b122138 cameraserver: Fix floating point truncation for getUHRMaxJpegBufferSize
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+d082db9 GameSpace: Update takeScreenshot API in ScreenUtils
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+c3e9e51 Fix dark navigationBar background in some telephony settings pages
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+edcd85b gms: Match gms_mini order with gms_full
+
+=======================
+     2022/12/07
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+f2439b3 recovery: Only warn on SPL downgrade
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+13c4636 fixup! bluetooth: abandon app local certificate
+
+
+=======================
+     2022/12/06
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+518dd1c Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/art into tiramisu
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+f7bce88 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/bionic into tiramisu
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+3c093d7 Set default recovery USB vendor/product IDs.
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+d7a420b Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/build/soong into tiramisu
+
+* Repository: https://github.com/LineageOS/android_external_wpa_supplicant_8/commits/refs/heads/lineage-20.0
+
+cf434de Merge tag 'android-13.0.0_r16' into staging/lineage-20.0_merge-android-13.0.0_r16
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+b938b8d Provide a default executor
+
+* Repository: https://github.com/LineageOS/android_frameworks_opt_timezonepicker/commits/refs/heads/lineage-20.0
+
+f36e5ab Merge tag 'android-13.0.0_r16' into staging/lineage-20.0_merge-android-13.0.0_r16
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+1de73b8 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+a116566 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+44b395d Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+816c9dd Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+55f6dbe Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/modules/adb into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+a152387 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/modules/common into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+1339bc3 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+0b3f55e Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+fb4e399 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+44f1024 healthd: Fix charger_res_images_vendor install location
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+f39a241 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/system/media into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_memory_lmkd/commits/refs/heads/tiramisu
+
+f053f19 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/system/memory/lmkd into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+2257a20 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/system/security into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+93229e7 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+9fccdd8 Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/system/update_engine into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+274e46c Merge tag 'android-13.0.0_r16' of https://android.googlesource.com/platform/system/vold into tiramisu
