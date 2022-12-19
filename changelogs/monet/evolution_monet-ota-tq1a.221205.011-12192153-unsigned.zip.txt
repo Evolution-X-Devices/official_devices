@@ -1,0 +1,43 @@
+NOTE: USING MIUI 13 FW IS MANDATORY. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+ROM changes:
+==============================
+
+12/17
+BLASTBufferQueue: Comment out lines causing log spam
+ContrastColorUtil: Suppress log spam
+Keyguard: allow large clock on tablets
+Keyguard: don't use large clock on landscape
+SystemUI: Add display mode provider for UDFPS on Pixel devices
+SystemUI: Fix com.android.systemui.statusbar.StatusBarIconView cannot be cast to com.android.systemui.statusbar.StatusBarMobileView
+SystemUI: Match lockscreen clock font with system
+overlay: Set config_clockFontFamily to empty string
+
+12/16
+SidefpsController: Apply ScaleFactor to sensorLocationY
+fwb: Disable Smart Pixels on UDFPS
+
+12/15
+NetworkTraffic: Don't leave empty spaces when hiding network traffic text
+Remove length validation for WifiSsid
+Screenshot: Unregister task listener on destroy
+Settings: Bring back hide arrow for back gesture feature
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+fingerprint: Rework enrollment screen
+
+12/14
+Add absent sim info to locked screen text
+Evolver: Bring back Less boring Heads up
+Evolver: Bring back Smart Pixels support
+Fix Internet dialog hotspot toggle crash
+Fix SIM PIN issue
+Fix Torch QS tile issue (Drop Flashlight Strength Tile)
+keyguard: Actually kill Fancy Colon
+NotificationInterrupt: Clean up for isSnoozedPackage
+QSTileHost: Fix crashes with tiles like Anti flicker
+Remove RESET_BATTERY_STATS permission for resetting stats
+Settings: Bring back toggle to switch between AOSP/Google battery graphs
+Settings: Update Lottie animations from December patch
+Settings: Update Security Hub from Pixel devices
+Slightly optimize less boring apps check for heads up
+SmartPixels: Fix BatteryController dependency crash
