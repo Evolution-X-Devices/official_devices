@@ -1,0 +1,10 @@
+Note: 
+- Formatting data and clean flash are REQUIRED if you come from android 12. Please do not update through OTA if you are on android 12.
+- You can OTA or dirty flash from previous EvoX android 13 builds.
+- Partition scheme has been switched to retrofit dynamic partitioning because polaris is running out of system partition space. No actual re-partition is involved. Instead, the physical system and vendor partition is mapped together to form a logical "super" partition. The size of super partition equals the sum of the physical system and vendor partitions. After that, logical system and vendor partitions are created on top of this super partition. In this way, we are essentially redistributing space between the physical system and vendor partition to accommodate for the increase in size of system libraries and prebuilt apps.
+- Encryption is enabled.
+- The firmware is included with a different keymaster.img from perseus. DO NOT flash your own firmware.
+- Formatting data and flashing with EvoX is verified and recommended by me. The latest release of OrangeFox recovery for dynamic partitions may work as well. If you encountered issue using OrangeFox, please contact OrangeFox maintainer for support.
+- To switch to other ROMs, format data in EvoX recovery first, and then install another recovery. You may need to re-flash the required firmware, if the ROM you are going to flash does not include one.
+
+Please refer to my website for details. https://jjpprrrr.com/evox/12240732/
