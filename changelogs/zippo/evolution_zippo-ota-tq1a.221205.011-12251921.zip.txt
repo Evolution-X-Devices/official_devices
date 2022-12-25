@@ -1,0 +1,32 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Move to signed builds
+- Include firmware
+
+**Evolution X Update**
+
+- Switch to Evolution X Launcher and ThemePicker
+- Add Parallel Space
+- Launcher3: Update default apps
+- Launcher3: Rework hotseat and all apps search bar
+- Launcher3: Redesign hotseat QSB
+- Launcher3: QsbLayout: Do not apply same width adjustment
+- Launcher3: Limit the number of search results (to fix text overlap)
+- Launcher3: Add toggle to show/hide app drawer search bar
+- Launcher3: Add toggle for memory info view
+- Launcher3: Add support for themed icons
+- Launcher3: Add support for custom themed icon pack
+- themes: fonts: Bring back FontRobotoOverlay and FontNothingDotHeadlineOverlay
+- themes: fonts: Add separate Google Sans overlay with proper clock style
+- Settings: Integrate ThemePicker and WallpaperPicker2
+- Launcher3: Update dynamic app icon
+- Launcher3: Move away from colorkt
+- Launcher3: Add 4x4 grid option
+- Launcher3: Add toggle to disable scroll vibration
+- Settings: Introduce new Hide app feature
+- overlay: Set config_clockFontFamily to empty string
+- SystemUI: Match lockscreen clock font with system
+- Settings: Fix typo in settings namespace for QR scanner on lock screen
+- Update translations
