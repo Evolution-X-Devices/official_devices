@@ -1,0 +1,87 @@
+DON'T FLASH OVER ANDROID 12 OR 12.1
+Flaah from previous build (A13) are fine.
+Cust partition are mounted as system_ext partition
+
+*Device changes*
+Etude kernel: Op.13 No.2
+-Linux 4.9.336
+-built with the latest LLVM Clang 16
+-guarded a deprecated clang-specific auto zero variable initialization flag
+-a few fixes for compressed apex and encryption
+-picked a few fixes for qcacld and sdcardfs
+-changed f2fs defaults to match the default tuning values in AOSP
+-aligned Clang ThinLTO flags with mainline kernel to take advantage of thinlto-cache
+-link vdso32 with -z noexecstack to avoid warnings in bfd from the latest GNU binutils
+DO NOT use another kernel. Just don’t.
+
+Enabled compressed apex
+Significantly simplified the system-side IMS blobs
+Override Pixel thermal HAL service initialization to fix boot issues after android 13 QPR1 merge
+
+*ROM changes*
+Evolver: Nuke Live Volume steps
+camera: Expose aux cameras in third party apps
+Avoid Settings app NPE on broken packages
+Bring back Parallel space support
+FaceUnlockService: CameraUtil: Dont go frenzy when camera not found
+NavigationBarEdgePanel: Make the gesture duration always valid
+Settings: Introduce new Hide app feature
+Settings: appinfo: Show warning when hiding/unhiding the app
+Switch back to multiple listeners in RecentTasksController
+ThemePicker: Grant missing wallpaper permissions
+aapt: Speed up the style pruning
+base: Grant storage permission to ThemePicker
+base: Whitelist DocumentsUIGoogle for Parallel space
+base: Whitelist OPlusExtras for Parallel space
+overlays: FontNotoSerifSourceOverlay: Have a sane label
+sepolicy: Allow documents UI to access storage
+sepolicy: Allow platform_app to bypass the FUSE layer
+sepolicy: legacy: Restore generic hal_usb rules
+DozeSensors: Dont set proximity sensor listening if not registered
+Launcher3: Add toggle to disable scroll vibration
+Launcher3: Bring back 4x4 grid option
+Launcher3: Fix app icon font
+Launcher3: Fix NPE for QuickStep hotseat prediction controller
+Launcher3: Move away from colorkt
+Launcher3: Update dynamic app icon
+PixelPropsUtils: Spoof Pixel 7 Pro to SMS Organizer
+Settings: Fix typo in settings namespace for QR scanner on lock screen
+Settings: Desktop backup password: Tint buttons to match system theme
+Settings: Display: Improve screen-off udfps phrasing
+Settings: Integrate ThemePicker and WallpaperPicker2
+Settings: Set styles/wallpaper picker action name
+Settings: Update configs for SettingsIntelligenceGoogle
+Settings: Use AOSP 'ok' strings for reset battery stats
+Settings: Use correct icon to reset battery stats
+StatusBarIconController: Avoid crash due to incorrect casting
+SystemUI: Use red color for low bluetooth battery
+SystemUI: Write initial value of SHOW_QR_CODE_SCANNER_SETTING on first call
+Update translations
+fixup! Launcher3: Adapt home settings UI to Android 12 style
+themes: fonts: Add separate Google Sans overlay with proper clock style
+themes: fonts: Bring back FontRobotoOverlay and FontNothingDotHeadlineOverlay
+vendor: overlay: Add Launcher3 to config_defaultListenerAccessPackages
+Launcher3: Add support for custom themed icon pack
+Launcher3: Add support for themed icons
+Launcher3: Add toggle for memory info view
+Launcher3: Add toggle to show/hide app drawer search bar
+Launcher3: InfoBottomSheet: Fix NPE with AppTransitionManager
+Launcher3: Limit the number of search results (to fix text overlap)
+Launcher3: QsbLayout: Do not apply same width adjustment
+Launcher3: Redesign hotseat QSB
+Launcher3: Rework hotseat and all apps search bar
+Launcher3: Update default apps
+Remove error messages from LoadLocalizedBitmap
+APM: Restore S, R and Q behavior respectively for telephony audio
+Battery: make fill path rounded
+Switch to Evolution X Launcher and ThemePicker
+SystemUI: Add API for runtime taskbar config
+SystemUI: BcSmartspaceView: Allow setting current page
+SystemUI: Hide oos clear all if reticker enable
+SystemUI: clock_default_large: Don't hardcode monospace font
+SystemUI: fixup! Hide OOS clear all if panel visible because Heads up
+base: Allow Launcher3 to use android.permission.FORCE_STOP_PACKAGES
+vendor: rro_overlays: Comment out Google CaptivePortalLogin
+vendor: rro_overlays: Nuke config_recentsComponentName override
+vendor: rro_overlays: Target Launcher3 & ThemePicker
+vendor: themes: Add Evolution Themes stub
