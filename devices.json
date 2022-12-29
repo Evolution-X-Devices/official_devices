@@ -810,5 +810,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-lavender-official-evolution-x-11-11-22.4517803/"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "pyxis",
+      "name": "Mi 9 Lite",
+      "supported_versions": [
+         {
+            "maintainer_name": "CSSABLACK",
+            "maintainer_url": "https://forum.xda-developers.com/m/czarsuperstar-gmail-com.2892269/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-evolution-x-for-pyxis-7-4-coming-soon.4535297/"
+         }
+      ]
    }
 ]
