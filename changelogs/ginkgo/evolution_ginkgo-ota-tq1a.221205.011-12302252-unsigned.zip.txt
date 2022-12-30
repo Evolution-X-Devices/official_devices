@@ -1,0 +1,92 @@
+This is Android 13 with December 2022 (r16) security patches
+
+Notes:
+==============================
+- Initial Official Build
+- Shipped with a fully working MiCam (with portrait and 48mp fixed)
+- Gapps are already included
+- Recommended to use latest ofox unofficial
+- Clean Flash Recommended
+- Safetynet passes and banking apps work
+
+Device changes:
+==============================
+ginkgo: add check & formattable for cache flags
+ginkgo: sepolicy: Fixup another sysfs wakeup denial
+ginkgo: Drop deprecated iorap stuff
+ginkgo: props: Disable redir_party_num
+ginkgo: Switch to SkiaGL Threaded
+ginkgo: sepolicy: Address init denial
+ginkgo: sepolicy: Address telephony denies
+ginkgo: parts: move parts to system
+ginkgo: pin : Use pie chromatix libs for better camera quality
+ginkgo: libperfmgr: move to source side hal
+ginkgo: audio: fixup audio io policy voip_rx flags
+ginkgo: Enable GL comp backpressure 
+ginkgo: Enable zygote critical window
+ginkgo: Increase active layer timeout to 1s
+ginkgo: Enable 48MP mode in MiuiCamera
+ginkgo: Add blkio tuning from sunfish
+ginkgo: Switch to legacy sepolicy_vndr
+ginkgo: wifi: Disable RX wakelock feature
+ginkgo: audio: Increase In-call earpiece volume
+ginkgo: audio: Fix low mic volume on voip
+
+------------------------------
+
+ROM changes:
+==============================
+Add null pointer check to avoid system crash
+KeyguardIndication: Fix glitchy charging info on lock screen and AOD
+Send enhanced sco setup cmd only for wcn3990
+Add e2fsck/resize2fs/tune2fs to recovery/vendor_ramdisk
+Avoid NetworkPolicyLogger NullPointException
+Avoid Settings app NPE on broken packages
+Bring back Parallel space support
+Evolver: Nuke Live Volume steps (broken on A13 QPR1)
+Evolver: Remove Status bar and QS date customization
+FaceUnlockService: CameraUtil: Dont go frenzy when camera not found
+Guard in short-circuit evaluations for stringSplit methods
+Launcher3: Add GCam GO to default_workspace_4x5
+Launcher3: Add background chip for memory info view
+Launcher3: Enable Lens toggle by default
+Launcher3: Match dimens with Pixel Launcher
+Launcher3: Move suggestions preference from misc to main menu
+Launcher3: Refresh themed icons check via Build.TIME instead
+Launcher3: Update activity for Aperture camera shortcut
+Launcher3: Update default layouts from Pixel Launcher
+NavigationBarEdgePanel: Make the gesture duration always valid
+Remove fs utilities from init_boot module list
+Settings: Change Google battery graph toggle string
+Settings: Fix USB OTG hot plug out nndexOutOfBoundsException
+Settings: Fix memory leak on SensorPrivacyManager Listener
+Settings: Fix restore default apn dialog sometimes not dismissed
+Settings: Introduce new Hide app feature
+Settings: appinfo: Show warning when hiding/unhiding the app
+Switch back to multiple listeners in RecentTasksController
+SystemUI: Add more notification snooze times
+SystemUI: Bring back dynamic VoLTE & VoWiFi icons
+SystemUI: Ensure keyguard statusbar is gone when not showing
+SystemUI: Fix VPN icon failed reloading after disabling
+SystemUI: Improvements for dynamic VoLTE & VoWiFi icons
+SystemUI: Old style mobile indicator layout fixes
+SystemUI: Remove existing icon group if its overriding
+SystemUI: Set launcher activity name to Launcher3
+ThemePicker: Grant missing wallpaper permissions
+Update translations
+Updates: Change to daily checks
+aapt: Fix compiler warning (clobbered by longjmp)
+aapt: Speed up the style pruning
+aapt: add check for untranslatable "string-array"s
+audio: Don't play sound effects if stream is muted
+base: Grant storage permission to ThemePicker
+base: Whitelist DocumentsUIGoogle for Parallel space
+base: Whitelist OPlusExtras for Parallel space
+base: app widgets fix update check from Build.FINGERPRINT to Build.TIME
+base: rescue party: check isDisabled on all public API
+camera: Expose aux cameras in third party apps
+iconloaderlib: Update icon cache via Build.TIME instead
+overlays: FontNotoSerifSourceOverlay: Have a sane label
+sepolicy: Allow documents UI to access storage
+sepolicy: Allow platform_app to bypass the FUSE layer
+sepolicy: legacy: Restore generic hal_usb rules
