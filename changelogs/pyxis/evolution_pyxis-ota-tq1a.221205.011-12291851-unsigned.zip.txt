@@ -1,0 +1,181 @@
+Build type: Monthly
+Device: Xiaomi 11 Pro (pyxis)
+Device maintainer: CSSABLACK
+Required firmware: V12.5.3.0.RFCEUXM
+
+* Initial official build with OTA support
+
+* Source side changes
+
+=======================
+     2022/12/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+1fcf0f6d KeyguardIndication: Fix glitchy charging info on AOD
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+51c3a71 manifest: Track NXP NFC repos from crDroid
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+16feda6 Evolver: Refactor for Tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+8bcb82b New Crowdin updates (#127-#250)
+
+
+=======================
+     2022/12/28
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+a85f24f Remove fs utilities from init_boot module list
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+c3c5fbc iconloaderlib: Update icon cache via Build.TIME instead
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+7545266 Launcher3: Update layouts from Pixel Launcher
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+3b4a686 Updates: Change to daily checks
+
+
+=======================
+     2022/12/27
+=======================
+
+
+=======================
+     2022/12/26
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+94d19fe Camera: Update HIDL overrideFormat from HAL
+
+
+=======================
+     2022/12/25
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+fa9dcf0 sepolicy: Allow platform_app to bypass the FUSE layer
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+e25fad1 sdm845: label vbmeta_vendor_[ab]
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+174a36c camera: Expose aux cameras in third party apps
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+4ebad08 Revert "Retain launcher icon on migration from Camera2"
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+279fbdd CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+79ac974 New Crowdin updates (#21)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d5fba9d New Crowdin updates (#9)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+c093d97 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+343c652 vendor: Build parallel space
+
+
+=======================
+     2022/12/24
+=======================
+
+
+=======================
+     2022/12/23
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+6742eb6 Remove error messages from LoadLocalizedBitmap
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+b61373d common: sepolicy: Enable sepolicy rules to all
+
+
+=======================
+     2022/12/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+fde1e76 Wallpaperpicker: fix overlapping when scrolling
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+e34e690 gms: Make way for Launcher3
+
+
+=======================
+     2022/12/21
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+44fe584 Use UIDFaker to ensure Credentials_test cleans up setting UID
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+709ea07 BtHelper: Initial support for showing battery separately
+
+
+=======================
+     2022/12/20
+=======================
+
+
+=======================
+     2022/12/19
+=======================
+
+
+=======================
+     2022/12/18
+=======================
+
+
+=======================
+     2022/12/17
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+5c13442 kebab/lemonades: Ship OOS13 F.10 abl.img to bypass BL unlocked warning
+
+* Repository: https://github.com/crdroidandroid/android_vendor_nxp_opensource_packages_apps_Nfc/commits/13.0
+
+130d2a0 Merge pull request #1 from garry-rogov/13.0
+
+
+=======================
+     2022/12/16
+=======================
