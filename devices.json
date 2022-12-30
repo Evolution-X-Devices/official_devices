@@ -824,5 +824,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-pyxi-official-evolution-x-12-30-22.4535297/"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "mido",
+      "name": "Redmi Note 4/4X",
+      "supported_versions": [
+         {
+            "maintainer_name": "Nalinish Ranjan",
+            "maintainer_url": "https://forum.xda-developers.com/m/nalinish-05.11157831/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-mido-official-evolution-x-12-30-22.4535383/"
+         }
+      ]
    }
 ]

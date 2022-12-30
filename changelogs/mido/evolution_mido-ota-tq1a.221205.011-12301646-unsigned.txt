@@ -1,0 +1,119 @@
+This is Android 13 with December 2022 (r16) security patches
+
+Notes:
+==============================
+- Initial Official Build
+- FBE (File based encryption) enabled by default *
+- * use updated TWRP
+- Use zeelog's lineageos method to flash the rom or follow the following steps given here: [Guide](https://raw.githubusercontent.com/NRanjan-17/Evolution-X-Releases/main/install_guide.md)
+- Clean Flash Recommended
+- Always dirty flash at your own risk.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+
+Device changes:
+==============================
+mido: Move audio configs under new location
+mido: props: Disable SF client composition cache
+mido: Disable HWC composition strategy prediction
+mido: Disable continuous transaction tracing on all build types
+mido: overlay: Update multiple vibration strength levels overlay for 13
+mido: Disable Skia tracing by default
+mido: Disable Async MTE on System Server
+mido: Drop rild libargs property
+mido: sepolicy: legacy: Allow init write to discard_max_bytes
+QCamera2: Update jpeg exif flash mode data properly
+QCamera2: mm-jpeg-interface: exif: supply full AE data in exif
+mido: remove DEVICE_PROVISIONED
+mido: Ditch rild.libpath prop
+mido: Ditch persist.rild.nitz_* props
+mido: audio: fix VTS
+mido: Remove references to a2dp module
+wifi: Enable set channel on NDP setup
+wifi: Configure correct overlay configuration.
+wifi: smarter decisions on whether to use a 2- or 5Ghz AP
+mido: enable wpa3 security feature for hotspot
+mido: Enable WPA2 to WPA3 auto-upgrade
+mido: Disable proprietary APE parser
+mido: Disable proprietary MKV parser
+mido: Update supported qcom parsers
+mido: Sort blobs list
+mido: init: bump zram max_comp_streams to 8
+mido: overlay: Restore pre a13 battery warning threshold
+mido: Set block_binder_thread_on_incoming_calls in product.prop
+mido: Do not block binder thread on incoming calls
+mido: Speed profile services and wifi-service to reduce RAM and storage
+mido: sepolicy: Change label for various graphics libs
+mido: overlay: Improve pinner configuration
+mido: Move qti_whitelist.xml to /system_ext
+manifest: Adding bluetooth a2dp & audio manifest entries
+sepolicy: Address qti_init_shell denial
+mido: store TaskSnapshot in 16 bit pixel format to save memory
+mido: AOSP WFD doesn't support protected Wi-Fi Display buffers
+Revert "mido: Disable ALMK and PPR on all targets"
+Revert "mido: rootdir: Use default allocstall threshold on k4.9"
+Revert "mido: Tune zram & swappinness"
+Revert "init: Limit cpufreq rate via down-/up_rate_limit_us knobs."
+Revert "mido: init: Apply aggressive write caching."
+[SQUASH] Revert vibration intensity toggle [temp]
+mido: parts: Fix compilation for QPR1 merge
+mido: Update fp/dec to Dec 2022
+mido: Drop config_setColorTransformAccelerated
+
+------------------------------
+
+ROM changes:
+==============================
+Add null pointer check to avoid system crash
+KeyguardIndication: Fix glitchy charging info on lock screen and AOD
+Send enhanced sco setup cmd only for wcn3990
+Add e2fsck/resize2fs/tune2fs to recovery/vendor_ramdisk
+Avoid NetworkPolicyLogger NullPointException
+Avoid Settings app NPE on broken packages
+Bring back Parallel space support
+Evolver: Nuke Live Volume steps (broken on A13 QPR1)
+Evolver: Remove Status bar and QS date customization
+FaceUnlockService: CameraUtil: Dont go frenzy when camera not found
+Guard in short-circuit evaluations for stringSplit methods
+Launcher3: Add GCam GO to default_workspace_4x5
+Launcher3: Add background chip for memory info view
+Launcher3: Enable Lens toggle by default
+Launcher3: Match dimens with Pixel Launcher
+Launcher3: Move suggestions preference from misc to main menu
+Launcher3: Refresh themed icons check via Build.TIME instead
+Launcher3: Update activity for Aperture camera shortcut
+Launcher3: Update default layouts from Pixel Launcher
+NavigationBarEdgePanel: Make the gesture duration always valid
+Remove fs utilities from init_boot module list
+Settings: Change Google battery graph toggle string
+Settings: Fix USB OTG hot plug out nndexOutOfBoundsException
+Settings: Fix memory leak on SensorPrivacyManager Listener
+Settings: Fix restore default apn dialog sometimes not dismissed
+Settings: Introduce new Hide app feature
+Settings: appinfo: Show warning when hiding/unhiding the app
+Switch back to multiple listeners in RecentTasksController
+SystemUI: Add more notification snooze times
+SystemUI: Bring back dynamic VoLTE & VoWiFi icons
+SystemUI: Ensure keyguard statusbar is gone when not showing
+SystemUI: Fix VPN icon failed reloading after disabling
+SystemUI: Improvements for dynamic VoLTE & VoWiFi icons
+SystemUI: Old style mobile indicator layout fixes
+SystemUI: Remove existing icon group if its overriding
+SystemUI: Set launcher activity name to Launcher3
+ThemePicker: Grant missing wallpaper permissions
+Update translations
+Updates: Change to daily checks
+aapt: Fix compiler warning (clobbered by longjmp)
+aapt: Speed up the style pruning
+aapt: add check for untranslatable "string-array"s
+audio: Don't play sound effects if stream is muted
+base: Grant storage permission to ThemePicker
+base: Whitelist DocumentsUIGoogle for Parallel space
+base: Whitelist OPlusExtras for Parallel space
+base: app widgets fix update check from Build.FINGERPRINT to Build.TIME
+base: rescue party: check isDisabled on all public API
+camera: Expose aux cameras in third party apps
+iconloaderlib: Update icon cache via Build.TIME instead
+overlays: FontNotoSerifSourceOverlay: Have a sane label
+sepolicy: Allow documents UI to access storage
+sepolicy: Allow platform_app to bypass the FUSE layer
+sepolicy: legacy: Restore generic hal_usb rules
