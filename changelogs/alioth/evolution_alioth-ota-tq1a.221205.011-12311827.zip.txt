@@ -1,0 +1,21 @@
+Happy New Year to everyone!
+
+Device Changes:
+Switch to EXT4 for system partitions (no more EROFS)
+Clean up thr trees
+Re-implement procedure of Dolby loadup
+Drop picture adjustment
+Add AntiFlicker
+Audio configs updates
+
+ROM Changes:
+Launcher3: Enable Lens toggle by default
+Launcher3: Match dimens with Pixel Launcher
+Launcher3: Update default layouts from Pixel Launcher
+SystemUI: Bring back dynamic VoLTE & VoWiFi icons
+SystemUI: Improvements for dynamic VoLTE & VoWiFi icons
+SystemUI: Set launcher activity name to Launcher3
+Bring back Parallel space support
+Settings: Introduce new Hide app feature
+Rebase to Android 13 QPR1 (r16)
+And many more...
