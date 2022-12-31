@@ -1,0 +1,32 @@
+This is Android 13 with December 2022 (r16) security patches
+
+Notes:
+==============================
+- Clean flash mandatory
+- Reverted back to k4.4
+- For more smoothness disable blur and wallpaper zoom
+
+Changelogs:
+==============================
+- Fixed Led 
+- Fixed random reboot issue
+- Fixed hyperorange night light
+- Defined multiple vibration intensity levels config for T
+- Enabled vsync and disabled backpressure for more smoothness
+- Updated alarm & time services from LA.UM.9.6.2.r1-03600-89xx.0
+
+ROM changes:
+==============================
+APM: Restore S, R and Q behavior respectively for telephony audio
+Battery: make fill path rounded
+Switch to Evolution X Launcher and ThemePicker
+SystemUI: Add API for runtime taskbar config
+SystemUI: BcSmartspaceView: Allow setting current page
+SystemUI: Hide oos clear all if reticker enable
+SystemUI: clock_default_large: Don't hardcode monospace font
+SystemUI: fixup! Hide OOS clear all if panel visible because Heads up
+base: Allow Launcher3 to use android.permission.FORCE_STOP_PACKAGES
+vendor: rro_overlays: Comment out Google CaptivePortalLogin
+vendor: rro_overlays: Nuke config_recentsComponentName override
+vendor: rro_overlays: Target Launcher3 & ThemePicker
+vendor: themes: Add Evolution Themes stub
