@@ -31,6 +31,3 @@ SystemUI: Revert to old Bluetooth QS tile
 fixup! Improvements for dynamic VoLTE & VoWiFi icons
 themes: fonts: Remove broken Antipasto Pro
 vendor: Bring back and update SettingsGoogle/SystemUIGoogle to A13 QPR1
-
-
-
