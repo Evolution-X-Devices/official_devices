@@ -1,0 +1,41 @@
+This is Android 13 with December 2022 (r16) security patches
+Build Date: 2/Jan/2023
+
+Notes:
+==============================
+- Only Dirty flash or update via OTA if you are coming from evolution_mido-ota-tq1a.221205.011-12301646-unsigned.zip (previous release) if coming from unofficial or other builds better do a clean flash
+- FBE (File based encryption) enabled by default *
+- * use updated TWRP (https://github.com/zeelog/device_mido_twrp/releases/tag/2.0)
+- Use zeelog's lineageos method to flash the rom or follow the following steps given here: [Guide](https://raw.githubusercontent.com/NRanjan-17/Evolution-X-Releases/main/install_guide.md)
+- Clean Flash Recommended
+- Always dirty flash at your own risk.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+
+Device changes:
+==============================
+None
+------------------------------
+
+ROM changes:
+==============================
+Launcher3: Add a preference to manually restart the launcher
+Launcher3: Fix taskbar crash without QSB
+Launcher3: Implement LocalColorExtractor using monet theme engine
+Launcher3: Import bcsmartspace lib
+Launcher3: LocalColorExtractor: Adapt for 12L changes
+Launcher3: LocalColorExtractor: Disable local colors when using system presets
+Launcher3: Move restart check to home page
+Launcher3: Remove memory info view (unreliable)
+Launcher3: bcsmartspace: Import translations
+PixelPropsUtils: Use redfin props for extra packages
+Settings: Bring back Quick Tap support
+SystemUI: Revert to old Bluetooth QS tile
+fixup! Improvements for dynamic VoLTE & VoWiFi icons
+themes: fonts: Remove broken Antipasto Pro
+vendor: Bring back and update SettingsGoogle/SystemUIGoogle to A13 QPR1
+Bluetooth: legacy: Split header for hci legacy definitions
+Build NfcNci for AOSP NFC
+Launcher3: IconPalette: Don't crash when the app gives us an invalid color
+Launcher3: Set default app drawer opacity to 100%
+Launcher3: Specify the component name to start the picker
+ParallelSpace: Allow devices to overlay whitelist/blocklist apps
