@@ -1,0 +1,222 @@
+This build you're receiving is evolution_veux-ota-tq1a.230105.001.a2-01041432-unsigned.zip
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps And Firmware are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2023/01/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+d1c86be Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+9ede0de Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/build/soong into tiramisu
+
+* Repository: /commits/tiramisu
+
+d38cf2d veux: sepolicy: label goodix debug fingerprint properties
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+2aff967 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+1ce3c0f7 PixelPropsUtils: Update fingerprints to January 2023 release
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+d1d789b Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/frameworks/opt/telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+b2d2f80 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/manifest into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+5b0dfa7 New Crowdin updates (#13)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+9564e60 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Settings into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+205c492 ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.001.A2
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+671bf7e Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+dcd73b4 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+334392d Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+bbb65db Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+e8a0571 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+6b0fd94 healthd: Fix charger_res_images_vendor install location
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+b85aa6a Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/system/libhidl into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/tiramisu
+
+f6dbcab Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/system/libhwbinder into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/tiramisu
+
+09cfea1 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/system/logging into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+968ef59 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/system/security into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+93a4ce2 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/tiramisu
+
+7a2add7 Merge tag 'android-13.0.0_r20' of https://android.googlesource.com/platform/system/tools/mkbootimg into tiramisu
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+5453162 vendor: apex: Update from TQ1A.230105.002
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+4cad6fc gms: Make way for Launcher3
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+b0f8c16 SystemUIGoogle: Update nga/assist lib
+
+
+=======================
+     2023/01/03
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+431e58f sepolicy: Allow Launcher3 to access zram
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b4af850 Aperture: Ask for GPS permission only on the first launch
+
+
+=======================
+     2023/01/02
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+6cffc6c Add more DNS providers [1/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+8afdc85 Evolver: Refactor for Tiramisu
+
+
+=======================
+     2023/01/01
+=======================
+
+* Repository: https://github.com/PixelExperience/vendor_nxp_opensource_commonsys_packages_apps_Nfc/commits/thirteen
+
+ad34196 NfcService: Sync with QPR1 AOSP changes
+
+=======================
+     2022/12/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+c3c5fbc iconloaderlib: Update icon cache via Build.TIME instead
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+3b4a686 Updates: Change to daily checks
+
+
+=======================
+     2022/12/27
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+94d19fe Camera: Update HIDL overrideFormat from HAL
+
+
+=======================
+     2022/12/26
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+e25fad1 sdm845: label vbmeta_vendor_[ab]
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+279fbdd CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+79ac974 New Crowdin updates (#21)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+c093d97 Automatic translation import
+
+=======================
+     2022/12/24
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+b61373d common: sepolicy: Enable sepolicy rules to all
+
+
+=======================
+     2022/12/23
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+6742eb6 Remove error messages from LoadLocalizedBitmap
+
+
+=======================
+     2022/12/22
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+44fe584 Use UIDFaker to ensure Credentials_test cleans up setting UID
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+fde1e76 Wallpaperpicker: fix overlapping when scrolling
