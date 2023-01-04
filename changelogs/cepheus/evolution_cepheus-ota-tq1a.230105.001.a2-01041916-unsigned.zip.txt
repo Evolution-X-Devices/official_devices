@@ -1,0 +1,5 @@
+- Install latest firmware
+- Clean install required
+- No Retrofit and no EROFS so make sure to use a compatible recovery, TWRP is recommended
+
+- Initial A13 build
