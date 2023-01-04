@@ -1,0 +1,30 @@
+Merge January 2023 security patches (13.0_r20)
+PixelPropsUtils: Update fingerprints to January 2023 release
+SystemUIGoogle: Update nga/assist lib (fix assistant swipe crash)
+ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.001.A2
+Version: Update to 4.5
+themes: fonts: Remove broken Antipasto Pro
+vendor: CarrierSettings: Update from TQ1A.230105.002
+vendor: apex: Update from TQ1A.230105.002
+vendor: gapps: Update from TQ1A.230105.002
+Launcher3: Add a preference to manually restart the launcher
+Launcher3: Fix taskbar crash without QSB
+Launcher3: Implement LocalColorExtractor using monet theme engine
+Launcher3: Import bcsmartspace lib
+Launcher3: LocalColorExtractor: Adapt for 12L changes
+Launcher3: LocalColorExtractor: Disable local colors when using system presets
+Launcher3: Move restart check to home page
+Launcher3: Remove memory info view (unreliable)
+Launcher3: bcsmartspace: Import translations
+PixelPropsUtils: Use redfin props for extra packages
+Settings: Bring back Quick Tap support
+SystemUI: Revert to old Bluetooth QS tile
+fixup! Improvements for dynamic VoLTE & VoWiFi icons
+themes: fonts: Remove broken Antipasto Pro
+vendor: Bring back and update SettingsGoogle/SystemUIGoogle to A13 QPR1
+Bluetooth: legacy: Split header for hci legacy definitions
+Launcher3: IconPalette: Don't crash when the app gives us an invalid color
+Launcher3: Set default app drawer opacity to 100%
+Launcher3: Specify the component name to start the picker
+ParallelSpace: Allow devices to overlay whitelist/blocklist apps
+Add null pointer check to avoid system crash
