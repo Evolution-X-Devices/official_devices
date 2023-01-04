@@ -1,0 +1,29 @@
+This is Android 13 with December 2022 (r20) security patches
+Build Date: 4/Jan/2023
+
+Notes:
+==============================
+- Only Dirty flash or update via OTA if you are coming from previous evolution x official encrypted build if coming from unofficial or other builds better do a clean flash
+- FBE (File based encryption) enabled by default *
+- * use updated TWRP (https://github.com/zeelog/device_mido_twrp/releases/tag/2.0)
+- Use zeelog's lineageos method to flash the rom or follow the following steps given here: [Guide](https://raw.githubusercontent.com/NRanjan-17/Evolution-X-Releases/main/install_guide.md)
+- Clean Flash Recommended
+- Always dirty flash at your own risk.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+
+Device changes:
+==============================
+None
+------------------------------
+
+ROM changes:
+==============================
+Merge January 2023 security patches (13.0_r20)
+PixelPropsUtils: Update fingerprints to January 2023 release
+SystemUIGoogle: Update nga/assist lib (fix assistant swipe crash)
+ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.001.A2
+Version: Update to 4.5
+themes: fonts: Remove broken Antipasto Pro
+vendor: CarrierSettings: Update from TQ1A.230105.002
+vendor: apex: Update from TQ1A.230105.002
+vendor: gapps: Update from TQ1A.230105.002
