@@ -1,0 +1,31 @@
+This is Android 13 with January 2023 (r20) security patches
+
+Build type: Monthly
+Device: Xiaomi Mi 9 Lite (pyxis)
+Device maintainer: CSSABLACK
+Required firmware: V12.5.3.0.RFCEUXM
+
+* NOTES: If you use Magisk and Fcrypt 
+then you must downlown the ROM manually
+and flash it through Twrp and then the
+respectable zips after then tap wipe cache
+and reboot
+if you don't use root or any mods then ota
+should work just fine
+
+* Device changes:
+==============================
+Added DeviceDoze and removed Parts
+------------------------------
+
+* Source side changes
+==============================
+Merge January 2023 security patches (13.0_r20)
+PixelPropsUtils: Update fingerprints to January 2023 release
+SystemUIGoogle: Update nga/assist lib (fix assistant swipe crash)
+ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.001.A2
+Version: Update to 4.5
+themes: fonts: Remove broken Antipasto Pro
+vendor: CarrierSettings: Update from TQ1A.230105.002
+vendor: apex: Update from TQ1A.230105.002
+vendor: gapps: Update from TQ1A.230105.002
