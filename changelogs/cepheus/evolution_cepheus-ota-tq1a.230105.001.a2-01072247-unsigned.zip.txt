@@ -1,0 +1,20 @@
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery, TWRP is recommended
+
+**Device Changes:**
+
+- Switch to Pixel's libperfmgr
+- Fix laggy UI and improve smoothness
+- Support VoLTE and VoWiFi
+- Update keymaster, DPM, IMS and RIL blobs
+- Stop including the firmware in the ROM file
+
+**Evolution X Update**
+
+- fonts: Add config_clockFontFamily to custom font overlays
+- Evolver: Allow choosing a custom background color seed
+- Evolver: Allow a more granular control over shades
+- Evolver: Add some native monet settings
+- Evolver: Add support for Lockscreen clock fonts
