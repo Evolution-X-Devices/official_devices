@@ -1,0 +1,38 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Back to unsigned builds
+- Stop including the firmware
+- Enable the quick tap gesture 
+
+**Evolution X Update**
+
+- Version: Update to 7.5
+- Merge January 2023 security patches (13.0_r20)
+- PixelPropsUtils: Update fingerprints to January 2023 release
+- camera: Expose aux cameras in third party apps
+- Evolver: Nuke Live Volume steps (broken on A13 QPR1)
+- SystemUI: Set launcher activity name to Launcher3
+- SystemUI: Add more notification snooze times
+- Settings: Change Google battery graph toggle string
+- Launcher3: Add background chip for memory info view
+- SystemUI: Show the alarm icon on QS as well
+- SystemUI: Old style mobile indicator layout fixes
+- SystemUI: Improvements for dynamic VoLTE & VoWiFi icons
+- SystemUI: Bring back dynamic VoLTE & VoWiFi icons
+- Launcher3: Update default layouts from Pixel Launcher
+- Launcher3: Match dimens with Pixel Launcher
+- Launcher3: Enable Lens toggle by default
+- vendor: Bring back and update SettingsGoogle/SystemUIGoogle to A13 QPR1
+- themes: fonts: Remove broken Antipasto Pro
+- SystemUI: Revert to old Bluetooth QS tile
+- Settings: Bring back Quick Tap support
+- Launcher3: Remove memory info view (unreliable)
+- Launcher3: Fix taskbar crash without QSB
+- Launcher3: Add a preference to manually restart the launcher
+- Evolver: Allow choosing a custom background color seed
+- Evolver: Allow a more granular control over shades
+- Evolver: Add support for Lockscreen clock fonts
+- Evolver: Add some native monet settings
+- Update translations
