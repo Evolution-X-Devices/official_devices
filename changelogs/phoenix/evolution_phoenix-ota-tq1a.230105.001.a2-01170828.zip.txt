@@ -1,0 +1,158 @@
+==============================================
+Changelog:
+==============================================
+1/17
+Evolver: LockScreen: Avoid joining strings with + in a loop
+Evolver/Settings: Use proper grammar/check correct spelling
+Fix PermissionHelper NullPointerException
+Settings: Re-arrange and add ordering in battery preferences
+ThemePicker: grid_section_view: Center it like the rest
+apex: Allow overriding prefer and add required frameworks
+base: treewide: Disable debug logging
+fix NullPointException when pkg is null
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+rro_overlays: Enable Safety Protection
+rro_overlays: Update face unlock configuration
+soong: Add support to set vendor tag with client package name
+vendor: Update CarrierSettings database
+
+1/16
+Enable pulse on new tracks by default
+Bring back SimpleDeviceConfig and update to A13
+Remove QS transparency feature
+Launcher3: Keep hotseat bottom spacing for taskbar devices
+Launcher3: Remove ugly 4x4 grid option
+ParallelSpace: Allow/block essential apps without overlay
+Settings: Add sliders for color balance adjustment
+Settings: Show current value of color balance sliders
+SystemUI: Redesign lockscreen bottom buttons
+UdfpsResources: Add Genshin Impact Character icons
+Update translations
+base: fix list style alert dialog to use system font
+base: styles: Use user fonts for Material UI themes
+clockfont: Copy all fonts for lockscreen clock font
+device_config: Enable smart actions in the clipboard overlay
+device_config: Globally enable the new photo picker
+fwb: guard power calculator spam with debug
+graphics: Override system fonts with user-selected overlays
+overlay: SettingsLib: No longer override headline font family
+
+1/15
+Evolver: Allow setting bottom keyguard shortcuts
+Evolver: Extend DashboardFragment instead of SettingsPreferenceFragment
+Evolver: Move AOD schedule back to Lockscreen fragment
+Settings: Allow the user to change the BackupTransport
+SystemUIGoogle: Add missing permission for Smartspace
+SystemUIGoogle: Power: disable some debug services
+SystemUIGoogle: Use system font for smartspace
+config: Enable QR scanner shortcut on lockscreen
+config: Make building TouchGestures optional
+packages: Build Seedvault
+vendor: Add permissions for lineagehw
+
+1/14
+Evolver: Add back missing setMax method in CustomSeekBarPreference
+Evolver: Configurable lockscreen clock color
+Evolver: Preference: Add CustomSecureSettingMainSwitchPreference
+
+1/13
+Evolver: Add support for GMS switch
+Evolver: Allow to change QS tile label text size
+Evolver: Bring back QS footer data usage
+Evolver: Bring back QS tile layout settings
+Evolver: HUN importance selector
+Evolver: Remove QS footer text customization
+FPSInfoService: Revamp FPS counter
+Fix exception caused by system app setting wallpaper
+GCamGOPrebuilt: Override GoogleCamera from gms
+GameSpace: Hide icon from launcher
+QS: Add and use Bluetooth Panel instead of full Settings
+ParallelSpace: Enable google services by default
+Settings: Follow Accent color on search button
+Settings: Introduce automated Sleep Mode
+Settings: Update battery temp & health strings
+SystemUI: Don't force small clock when media isn't allowed on keyguard
+SystemUI: Hide notifications when quickly expanding QS
+SystemUI: Implement sleep for pickup gesture
+WifiDisplaySource: allow overriding max wfd resolution with prop
+WifiDisplaySource: raise supported resolution to 1920x1080p60
+gms: GoogleCamera: Adjust make file and delete unneeded stub apk
+udfps: Allow devices to pulse onFingerDown instead of waking the screen
+
+1/12
+Evolver: Bring back notification counters
+Evolver: Remove Power menu flashlight option
+Settings: Remove Quick Mute gesture
+
+1/11
+KernelCpuUidTimeReader: Always check if remove_uid_range file exists
+ThemePicker: Unify font & icon label sizes, scroll the text
+fixup! camera: Skip HFR checks for privileged apps
+
+1/10
+Evolver: Add an ability to blink flashlight for notifications
+Launcher3: Adjust suggestions row vertical padding
+Launcher3: Do not limit the number of search results
+Launcher3: Do not skip search animation for app icons
+Settings: Align the long press behavior on secondary sim
+Settings: Allow customizing default notification vibration pattern
+Settings: Allow disabling color inversion pref via overlay
+Settings: Allow setting wake for notification separately from doze
+Settings: Allow toggling NFC sounds
+Settings: Allow toggling in-call notifications
+Settings: Fix NPE crash in UwbPreferenceController and optimize the lifecycle observer adding condition in page
+Settings: Fix NullPointerException when renaming a fingerprint
+Settings: Fix always return first package for mock location app in developer options
+Settings: Fix crash when input illegal proxy port number
+Settings: Fix crash when showing error dialog in NetworkRequestDialogActivity
+Settings: Fix permissions for internal links
+Settings: Fix potential NPE crash in ConversationHeaderPreferenceController
+Settings: Fix the IllegalArgumentException from RecyclerView
+Settings: Mark DataUsageState as nullable to avoid potential NPE risk
+SystemUI: Fix default data SIM resetting after reboot
+java_sdk_library_import: Copy all prebuilt properties to child modules
+vendor: fix check for picking up partner_modules
+
+1/9
+AutoAODService: Better check for doze enablement
+Delay display DOZE on LS => AOD only if blanking is not needed
+Evolver: Bring back Wi-Fi standard icon
+Fix an issue that the FoldStateListener induces a memory leak
+KeyguardIndication: Set wakelock on doze only when required
+Launcher3: CustomSeekBarPreference: Improve seekbar drawables
+Settings: Remove Intent selector from 2-pane deep link Intent
+audio_hal_interface: Optionally use sysbta HAL
+base: Pocket Judge: Don't go to sleep while on call
+
+1/7
+SystemUI: Introduce camera & flashlight keyguard affordance
+fixup! SystemUI: Remove existing icon group if its overriding
+hwui: renderthread/CanvasContext: Reduce the timeout for dequeueing buffers
+
+1/6
+BtHelper: Add more product images for metadata icons
+BtHelper: Apply rightLeft check to usingLeft/usingRight
+Evolver: Add some native monet settings
+Evolver: Add support for Lockscreen clock fonts
+Evolver: Allow a more granular control over shades
+Evolver: Allow choosing a custom background color seed
+Evolver: CustomSeekBarPreference: Improve seekbar drawables
+FeatureFlags: Enable systemui volume panel by default
+Intent: Fix launch of permission revoke activity from playstore
+Launcher3: Enable keyguard animation
+NotificationPlayer: use AUDIOFOCUS_GAIN_TRANSIENT instead of AUDIOFOCUS_GAIN in looping mode
+Revert "Remove navbar inset for UDFPS BiometricPrompt"
+Settings: Fix layout battery UsageView
+base: dont call roundStorageSize on Storage API for getting sizes
+camera: Add backwards-compatible CaptureResultExtras constructor
+clockfont: Add separate Google Sans and NothingDot overlays
+config: Enable SystemUIDialog volume panel by default
+fixup - SystemUI: Make the volume dialog expandable
+fixup! SystemUI: Enable session-based media actions for all apps
+fixup! fixup! Improvements for dynamic VoLTE & VoWiFi icons
+fonts: Add config_clockFontFamily to custom font overlays
+overlay: Set default status bar height to 28dp
+prebuilt: Nuke obsolete custom_fonts package
+sepolicy_vndr: legacy: Add support for AIDL widevine hal
+sepolicy_vndr: restore iwlan hwservice
+vendor: tools: Fix changelog generation for codenames with underscores
