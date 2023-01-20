@@ -1,0 +1,54 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Remove AntiFlicker from livedisplay and support the ROM's DC Dimming with automated mode (Settings/Display)
+- Merge v4.14.303 in kernel 
+
+**Evolution X Update**
+
+- Evolver: Bring back Wi-Fi standard icon
+- SystemUI: Fix default data SIM resetting after reboot
+- Settings: Allow toggling in-call notifications
+- Settings: Allow toggling NFC sounds
+- Settings: Allow setting wake for notification separately from doze
+- Settings: Allow customizing default notification vibration pattern
+- Launcher3: Do not limit the number of search results
+- Launcher3: Adjust suggestions row vertical padding
+- Evolver: Add an ability to blink flashlight for notifications
+- ThemePicker: Unify font & icon label sizes, scroll the text
+- Settings: Remove Quick Mute gesture
+- Evolver: Remove Power menu flashlight option
+- Evolver: Bring back notification counters
+- SystemUI: Hide notifications when quickly expanding QS
+- SystemUI: Don't force small clock when media isn't allowed on keyguard
+- Settings: Update battery temp & health strings
+- Settings: Introduce automated Sleep Mode
+- QS: Add and use Bluetooth Panel instead of full Settings
+- Evolver: Remove QS footer text customization
+- Evolver: Heads-Up notifications importance selector
+- Evolver: Bring back QS tile layout settings
+- Evolver: Bring back QS footer data usage
+- Evolver: Allow to change QS tile label text size
+- Evolver: Add support for GMS switch
+- Evolver: Configurable lockscreen clock color
+- SystemUIGoogle: Use system font for smartspace
+- Evolver: Move AOD schedule back to Lockscreen fragment
+- SystemUI: Redesign lockscreen bottom buttons
+- Evolver: Allow setting bottom keyguard shortcuts
+- Bring back SimpleDeviceConfig and update to A13
+- device_config: Globally enable the new photo picker
+- device_config: Enable smart actions in the clipboard overlay
+- clockfont: Copy all fonts for lockscreen clock font
+- Update translations
+- UdfpsResources: Add Genshin Impact Character icons for fingerprint
+- Settings: Add sliders for color balance adjustment
+- Launcher3: Remove ugly 4x4 grid option
+- Remove QS transparency feature
+- Enable pulse on new tracks by default
+- Settings: Re-arrange and add ordering in battery preferences
+- Settings: Introduce automated DC Dimming
+- Re-implement ‘Phone ringtone setting for Multi SIM device’
+- RingtoneManager: Set a default ringtone for the SIM 2
+- PermissionController: Always enable location accuracy feature
+- ParallelSpace: Add Android Auto to block list
