@@ -1,0 +1,32 @@
+This is Android 13 with January 2023 (r20) security patches
+
+Notes:
+==============================
+- Inbuilt cam works fine, if you want a good gcam use BSG cam(also you may face random freeze but rare)
+- For a better performance, disable unused apps, disable Wallpaper zooming & scrolling
+
+Device changes:
+==============================
+- DeviceSettings: Fix compilation for QPR1 merge
+- Remove deprecated TARGET_USES_QTI_CAMERA_DEVICE
+- Disable QTI perf lock usage in camera HAL
+- Add smart charging
+- Add offline charging LED indicator
+- Update liboemcrypto from V12.5.3.0.QFGMIXM
+
+ROM changes:
+==============================
+DisplayModeDirector: Allow to enforce user selected resolution
+Evolver: Allow forcing a single bottom keyguard shortcut
+MobileSignalController: Do not duplicate SPN and PLMN
+ParallelSpace: Add Android Auto to block list
+PermissionController: Always enable location accuracy feature
+Re-implement ‘Phone ringtone setting for Multi SIM device’
+RingtoneManager: Set a default ringtone for the SIM 2
+ServiceRecord: Don't post running notification for oplus camera
+Settings: Enable SIM card ringtone only if slot not empty
+Settings: Improve MSIM Ringtone on devices with ESIM
+Settings: Introduce automated DC Dimming
+Settings: Use AOSP translations for MSIM ringtone
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: QS footer data usage improvements and cleanup
