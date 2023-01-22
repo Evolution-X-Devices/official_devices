@@ -42,6 +42,34 @@
       ]
    },
    {
+      "brand": "Google",
+      "codename": "cheetah",
+      "name": "Pixel 7 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "HurtCopain",
+            "maintainer_url": "https://forum.xda-developers.com/m/hurt-copain.12125255/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "tba"
+         }
+      ]
+   },
+   { 
+      "brand": "Google",
+      "codename": "panther",
+      "name": "Pixel 7",
+      "supported_versions": [
+         {
+            "maintainer_name": "HurtCopain",
+            "maintainer_url": "https://forum.xda-developers.com/m/hurt-copain.12125255/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "tba"
+         }
+      ]
+   },   
+   {
       "brand": "Asus",
       "codename": "X00TD",
       "name": "Zenfone Max Pro M1",
