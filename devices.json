@@ -85,6 +85,20 @@
    },
    {
       "brand": "Asus",
+      "codename": "X01BD",
+      "name": "Zenfone Max Pro M2",
+      "supported_versions": [
+         {
+            "maintainer_name": "Sonal Singh",
+            "maintainer_url": "https://forum.xda-developers.com/m/sonalsingh18.8425394",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "tba"
+         }
+      ]
+   },
+   {
+      "brand": "Asus",
       "codename": "Z01R",
       "name": "Zenfone 5Z",
       "supported_versions": [
