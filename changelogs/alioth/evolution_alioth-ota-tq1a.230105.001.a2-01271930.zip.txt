@@ -1,0 +1,44 @@
+Device Changes:
+Import AOSPA Power Profile Configs
+Audio Configs Tuning
+Switch to MIUI Vibrator Hal
+
+ROM Changes:
+Bluetooth: Disable robust caching for client side (fixes BT issues with most devices)
+BLASTBufferQueue: Limit logspam
+PixelPropsUtils: Use actual device model name
+PixelPropsUtils: Use spoofBuildGms for FP and model alteration
+Evolver: Introduce Google TV remote controls keyguard affordance
+PermissionController: Always enable location accuracy feature
+SystemUI: QS footer data usage improvements and cleanup
+Evolver/Settings: Use proper grammar/check correct spelling
+Settings: Re-arrange and add ordering in battery preferences
+Bring back SimpleDeviceConfig and update to A13
+Remove QS transparency feature
+Settings: Add sliders for color balance adjustment
+SystemUI: Redesign lockscreen bottom buttons
+Update translations
+clockfont: Copy all fonts for lockscreen clock font
+device_config: Enable smart actions in the clipboard overlay
+device_config: Globally enable the new photo picker
+Evolver: Allow setting bottom keyguard shortcuts
+Evolver: Move AOD schedule back to Lockscreen fragment
+Settings: Allow the user to change the BackupTransport
+Evolver: Configurable lockscreen clock color
+Evolver: Add support for GMS switch
+Evolver: Bring back QS footer data usage
+Evolver: Bring back QS tile layout settings
+QS: Add and use Bluetooth Panel instead of full Settings
+Settings: Introduce automated Sleep Mode
+SystemUI: Hide notifications when quickly expanding QS
+Evolver: Bring back notification counters
+Evolver: Remove Power menu flashlight option
+Settings: Remove Quick Mute gesture
+ThemePicker: Unify font & icon label sizes, scroll the text
+Evolver: Add an ability to blink flashlight for notifications
+Settings: Allow customizing default notification vibration pattern
+Settings: Allow disabling color inversion pref via overlay
+Settings: Allow setting wake for notification separately from doze
+Settings: Allow toggling NFC sounds
+Settings: Allow toggling in-call notifications
+And more...
