@@ -1,0 +1,195 @@
+This build you're receiving is evolution_veux-ota-tq1a.230105.001.a2-01291041-unsigned.zip
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps And Firmware are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2023/01/29
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+ecdcfe8 Revert "vendor: Introduce Go Edition overlays"
+
+
+=======================
+     2023/01/28
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+c754f66 Aperture: Use a proper divider
+
+
+=======================
+     2023/01/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+aa440f05 NotificationChannel: Correctly restore flashlight pattern enablement
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+e022bfd New Crowdin updates (#273)
+
+
+=======================
+     2023/01/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+06d8dfe Multiple work profile badge colors for Launcher3
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+9fe9842 BLASTBufferQueue: Limit logspam
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+b037800 New Crowdin updates (#226-#365)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+891b7b1 Launcher3: Multiple work profile badge colors for Launcher3
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+9f42289 kebab/lemonades: Ship OOS13 F.10 abl.img to bypass BL unlocked warning
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+aea8cf5 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/01/25
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+a9b26c2 Revert "build: set custom fingerprint in ro.build.fingerprint too"
+
+* Repository: https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/commits/refs/heads/tiramisu
+
+4ce1810 GCamGOPrebuilt: Override GoogleCamera
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+2a5530c liblp: Allow to flash on bigger block device
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+ef3d2d4 Handle key parameter conversion for FBE_ICE tag
+
+
+=======================
+     2023/01/24
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+0caa3f3 Revert "Enable robust caching for client side by default"
+
+
+=======================
+     2023/01/23
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_TouchGestures/commits/refs/heads/tiramisu
+
+9c0b465 TouchGestures: Refactor & add support for launching Google maps & search
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+5608846 gms: Remove blobs/packages conflicting with Pixel vendor
+
+
+=======================
+     2023/01/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+e066950 Updater: Add POST_NOTIFICATIONS permission & pre-grant it
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+313c1cd BACKPORT: Add bluetooth disable enhanced SCO connection
+
+
+=======================
+     2023/01/20
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+bf51f35 sepolicy_vndr: restore iwlan hwservice
+
+
+=======================
+     2023/01/19
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+be3581b PermissionController: Always enable location accuracy feature
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+1a04143 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+
+=======================
+     2023/01/18
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0857cd1 fixup! sepolicy: Introduce automated DC Dimming [3/3]
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Seedvault/commits/refs/heads/lineage-20.0
+
+840b8a3 Merge branch 'android13' of https://github.com/seedvault-app/seedvault into lineage-20.0
+
+
+=======================
+     2023/01/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+beb7557 StagefrightRecorder: Add "set-title" parameter
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+ba973cc Nfc: Allow toggling NFC sounds [2/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+387c99d ThemePicker: grid_section_view: Center it like the rest
+
+
+=======================
+     2023/01/16
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+e9f5aff New Crowdin updates (#22)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ParallelSpace/commits/refs/heads/tiramisu
+
+3932256 New Crowdin updates (#1)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+7cdaf9e New Crowdin updates (#21)
