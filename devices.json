@@ -112,6 +112,34 @@
       ]
    },
    {
+      "brand": "Google",
+      "codename": "coral",
+      "name": "Google pixel 4XL",
+      "supported_versions": [
+         {
+           "maintainer_name": "BolaRamy",
+           "maintainer_url": "https://forum.xda-developers.com/m/bolaalex.11160823/",
+           "version_code": "thirteen",
+           "version_name": "Thirteen",
+           "xda_thread": "https://forum.xda-developers.com/t/rom-a13-unofficial-evolution-x-7-5-pixel-4-4xl-flame-coral-01-21-23.4545757/"
+          },
+       ]
+     },
+     {
+        "brand": "Google",
+        "codename": "flame",
+        "name": "Google pixel 4",
+        "supported_versions": [
+           {
+               "maintainer_name": "BolaRamy",
+               "maintainer_url": "https://forum.xda-developers.com/m/bolaalex.11160823/"
+               "version_code": "thirteen",
+               "version_name": "Thirteen",
+               "xda_thread": " https://forum.xda-developers.com/t/rom-a13-ricedroid-10-1-obbattu-unofficial-aosp-pixel4-4xl-flame-coral.4546755/#post-88063603"
+              },
+           ]
+    },
+    {
       "brand": "Asus",
       "codename": "X00TD",
       "name": "Zenfone Max Pro M1",
