@@ -922,5 +922,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-mido-official-evolution-x-12-30-22.4535383/"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "rosemary",
+      "name": "Redmi Note 10S/11 SE / POCO M5s",
+      "supported_versions": [
+         {
+            "maintainer_name": "Beru Kobayashi",
+            "maintainer_url": "https://forum.xda-developers.com/m/windowz414.9468504/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-rosemary-secret-maltose-evolution-x-tiramisu-for-redmi-note-10s-11-se-poco-m5s.4548143/"
+         }
+      ]
    }
 ]
