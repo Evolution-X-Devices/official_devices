@@ -1,0 +1,84 @@
+This is Android 13 with February 2023 security patches (13.0_r30)
+
+Notes:
+==============================
+- Clean Flash required.
+- No OTA since We are switching to Dynamic Partitions
+- Instruction to switch from Classical to Dynamic
+  is the same as install instruction for Los Pyxis
+
+Device changes:
+==============================
+Changed to Dynamic Partitions
+------------------------------
+ROM changes:
+==============================
+2/7
+Merge February 2023 security patches (13.0_r30)
+PixelPropsUtils: Update fingerprints to February 2023 release
+Ringer: Rewrite flashlight blink on incoming calls
+Telecomm: ignore JVM IDE stuff
+WifiDisplaySource: allow overriding max wfd resolution with prop
+WifiDisplaySource: raise supported resolution to 1920x1080p60
+fixup! Camera: Skip stream size check for whitelisted apps
+version: Update to 7.6 (Sinigang)
+
+2/6
+Launcher3: Add toggle for memory info view
+Launcher3: Enable local colors for popup menu items
+Launcher3: Improve spacing above and below dock searchbar
+Launcher3: Open running services activity when clicking meminfo view
+Launcher3: Rework MeminfoView available ram calculation
+Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY
+Settings: Give "Double tap to trigger doze" better strings
+
+2/5
+Launcher3: themedicons: Update LMC8.4 themed icons
+PixelPropsUtils: Refactor
+Remove Seedvault
+SystemUI: Grant additional permissions for smartspace
+SystemUI: Open google weather on tapping smartspace
+SystemUI: Update smartspace to 13-QPR1
+device_config: Add back ml back gesture
+device_config: Force enable Gboard assistant typing and suggestions
+device_config: Update smartspace flags to QPR1
+
+1/31
+UdfpsUtils: Use config_supportsUdfps to check for all Udfps devices
+Update translations
+
+1/30
+Change mODICaptionsTooltipView null check occasion to avoid potential crash
+Fix NPE when finishing remote animation
+Fix disabling power menu completely on secured lock screen
+Settings: Remove BackupTransport changes
+SystemUI: Let screenshot window ignore screen decorations
+core: Fix suspend failure for privileged system components
+core: Whitelist misc system apps
+
+1/29
+AppOpsService: Don't log stack traces for isolated processes
+Launcher3: Allow widgets to have 1 row as minimum size
+Settings: Allow making Navigation Pill thinner
+ShutdownThread: flag off debug logging
+SystemUI: Do not show dismiss button on headsup
+SystemUI: Fix expanded QS clock color
+SystemUI: Re-evaluate theme when adjusting status bar clock text size
+
+1/27
+NotificationChannel: Correctly restore flashlight pattern enablement
+
+1/26
+Evolver: Disable lockscreen album art by default
+Launcher3: Clean up AssistantIconView
+Launcher3: Multiple work profile badge colors for Launcher3
+Settings: Show/hide TouchGestures preference via res boolean
+SystemUI: fix duplicated creation of KeyguardStatusBarViewController
+use max_adj to control process final adj
+vendor: Expose TouchGestures preference via rro overlay
+
+1/25
+ParallelSpace: Blocklist FM Radio apps
+ParallelSpace: Switch to our setup wizard
+base: Add `@Readable` for RINGTONE2 and RINGTONE2_CACHE
+
