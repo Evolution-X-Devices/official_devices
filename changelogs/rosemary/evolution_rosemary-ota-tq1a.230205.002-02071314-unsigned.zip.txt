@@ -1,0 +1,31 @@
+- Install MIUI 12.5.16.0.RKLMIXM prior installation.
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+
+**Device Changes:**
+
+- Some other minor improvements (check trees at Github)
+
+**Evolution X Update**
+
+- version: Update to 7.6 (Sinigang)
+- Merge February 2023 security patches (13.0_r30)
+- PixelPropsUtils: Update fingerprints to February 2023 release
+- Launcher3: Add toggle for memory info view
+- Launcher3: Open running services activity when clicking meminfo view
+- Launcher3: Improve spacing above and below dock searchbar
+- Launcher3: themedicons: Update LMC8.4 themed icons
+- SystemUI: Open google weather on tapping smartspace
+- SystemUI: Update smartspace to 13-QPR1
+- Fix disabling power menu completely on secured lock screen
+- Launcher3: Allow widgets to have 1 row as minimum size
+- Settings: Allow making Navigation Pill thinner
+- SystemUI: Fix expanded QS clock color
+- Evolver: Disable lockscreen album art by default
+- ParallelSpace: Blocklist FM Radio apps
+- Bluetooth: Disable robust caching for client side (fixes BT issues with most devices)
+- Evolver: Add warning for Navbar visibility toggle
+- PixelPropsUtils: Use actual device model name
+- Evolver: Introduce Google TV remote controls keyguard affordance
+- vendor: Remove CarrierSettings
+- ParallelSpace: Add Android Auto to block list
