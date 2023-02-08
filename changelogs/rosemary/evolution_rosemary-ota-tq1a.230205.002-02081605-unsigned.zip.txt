@@ -1,0 +1,12 @@
+- Install MIUI 12.5.16.0.RKLMIXM prior installation.
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+
+**Device Changes:**
+
+- Some other minor improvements (check trees at Github)
+
+**Evolution X Update**
+
+- Removed Parallel Space
+- Updated GMS repos
