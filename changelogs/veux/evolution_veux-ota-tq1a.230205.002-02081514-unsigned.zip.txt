@@ -1,0 +1,121 @@
+This build you're receiving is evolution_veux-ota-tq1a.230205.002-02081514-unsigned.zip comes with February security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps And Firmware are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelog:
+==========================================
+=======================
+     2023/02/08
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+ee81ec9 bionic: use jemalloc by default and allow opt-in to scudo (3/3)
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+5698b64 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+c976c1e build: soong: use jemalloc by default and allow opt-in to scudo (2/3)
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+18ab8a76 SystemUI: Support smartspace animation for pixel launcher
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+0baeb20 Revert "iconloaderlib: add support for custom themed icon pack [1/3]"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+7e17e22 manifest: Initial A13 manifest (Evolution X 7.6)
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+5003810 Aperture: Redo settings appbar using M3 guidelines
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+e8b7800 New Crowdin updates (#226-#368)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+1eea7d3 Revert "Launcher3: add support for custom themed icon pack [3/3]"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+5510280 New Crowdin updates (#127-#280)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d27ed11 Revert "ThemePicker: add support for custom themed icon pack [2/3]"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+2576a24 Revert "Enable A/B perf mode by default"
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+1dd4e78 debuggerd: Remove scudo headers from debuggerd tests
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+4458b78 apex: Update from TQ1A.230205.002
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+a1eed28 Merge branch 'tiramisu' into 'tiramisu'
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+79165e0 gms: Remove blobs/packages conflicting with Pixel vendor
+
+
+=======================
+     2023/02/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+1b9f3c2 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+c839dee Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+37cd11c Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+dd4e3b6 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+8a916bc Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+9ad051d New Crowdin updates (#22)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+1fcd186 Fix dark navigationBar background in some telephony settings pages
+
+
+=======================
+     2023/02/06
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+4271548 SettingsGoogle: Sync with Evolution X changes
