@@ -1,0 +1,36 @@
+- WARN: Parallel Space has been removed, do backup whatever you want to keep from the cloned apps since they will be gone after the update
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Switch from Aperture to GCam (BSG MGC_8.1.101_A9_GV2b_MGC)
+- Merge v4.14.305 and LA.UM.9.1.c11-48400-SMxxx0.QSSI13.0 in kernel
+- Add dynamic per-app thermals in parts (Settings/Battery menu)
+
+**Evolution X Update**
+
+- version: Update to 7.6.1 (Adobo)
+- core: Make CTS/Play Integrity pass again
+- Remove Parallel space support
+- Update gms
+- version: Update to 7.6 (Sinigang)
+- Merge February 2023 security patches (13.0_r30)
+- PixelPropsUtils: Update fingerprints to February 2023 release
+- Launcher3: Add toggle for memory info view
+- Launcher3: Open running services activity when clicking meminfo view
+- Launcher3: Improve spacing above and below dock searchbar
+- Launcher3: themedicons: Update LMC8.4 themed icons
+- SystemUI: Open google weather on tapping smartspace
+- SystemUI: Update smartspace to 13-QPR1
+- Fix disabling power menu completely on secured lock screen
+- Launcher3: Allow widgets to have 1 row as minimum size
+- Settings: Allow making Navigation Pill thinner
+- SystemUI: Fix expanded QS clock color
+- Evolver: Disable lockscreen album art by default
+- ParallelSpace: Blocklist FM Radio apps
+- Bluetooth: Disable robust caching for client side (fixes BT issues with most devices)
+- Evolver: Add warning for Navbar visibility toggle
+- PixelPropsUtils: Use actual device model name
+- Evolver: Introduce Google TV remote controls keyguard affordance
+- vendor: Remove CarrierSettings
+- ParallelSpace: Add Android Auto to block list
