@@ -1,0 +1,16 @@
+- WARN: Parallel Space has been removed, do backup whatever you want to keep from the cloned apps since they will be gone after updating the ROM.
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Merge LA.UM.9.1.c11-48400-SMxxx0.QSSI13.0 in kernel
+
+**Evolution X Update**
+
+- version: Update to 7.6.1 (Adobo)
+- core: Make CTS/Play Integrity pass again
+- Remove Parallel space support
+- Update gms
