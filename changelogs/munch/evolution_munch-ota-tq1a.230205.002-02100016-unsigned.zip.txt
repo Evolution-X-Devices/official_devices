@@ -1,0 +1,813 @@
+- SafetyNet fixed
+- Kernel, Battery, Performance fixes and improvements
+- Feb security patch
+- Source Upstreamed
+
+
+=======================
+     2023/02/10
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+8ce8ca465 bionic: use jemalloc by default and allow opt-in to scudo (3/3)
+6e6fe93d6 Verify that allocated memory is always zeroed.
+cfec70fc2 Switch to jemalloc memory allocator
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+5640871c9 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+670b92a56 build: soong: use jemalloc by default and allow opt-in to scudo (2/3)
+
+* Repository: https://github.com/akash07k/device_xiaomi_munch/commits/EvolutionX
+
+b08bc02 munch: EvolutionX bringup
+
+* Repository: https://github.com/akash07k/sm8250/commits/WIP
+
+e7d216e Revert "sm8250-common: props: Disable client composition cache"
+533bfa7 sm8250-common: Update audio props
+1aec311 Revert "sm8250-common: set aaudio.mmap_policy to 1"
+2aa36c1 sm8250-common: rootdir: Drop references for qcrilNr_prebuilt.db
+48bca61 sm8250-common: rootdir: Remove useless esepmdaemon
+a04578e sm8250-common: rootdir: Remove useless qseeproxydaemon
+ce8af39 sm8250-common: rootdir: Remove useless qvop-daemon
+b5eab18 sm8250-common: rootdir: Remove useless ssgqmigd
+5ef4f4d sm8250-common: rootdir: Remove useless ptt_socket_app
+6eb6954 sm8250-common: rootdir: Remove useless sensingdaemon
+1f6ba31 sm8250-common: overlay: Allow more cached apps in the background * Google has provisioned this on the Pixel 5 (RQ1A.201205.010) to utilize   the 8 GB of RAM better, and I have also observed that a lightweight   selection of apps was hitting the cached app limit before exhausting RAM   on another device with 8 GB of RAM
+496a7a4 sm8250-common: overlay: Compact cached app heaps in the background * Background ART heap compaction for cached apps has been recommended for   Android Go devices for a while, and Google has enabled it for the Pixel   5 on RQ1A.201205.010. This feature should help fit more cached apps in   memory
+99966ef sm8250-common: Update pinner configuration
+1935bdb sm8250-common: set aaudio.mmap_policy to 1
+98c2269 sm8250-common: Satisfy selinux props permission check
+44278c8 sm8250-common: Swich to AOSP wifi supplicant
+cd40401 sm8250-common: Drop advanced phase offsets prop
+bc597c2 sm8250-common: wifi: Don't ignore out gEnableConcurrentSTA
+a1e5bb2 sm8250-common: props: Use HintManager for HWUI
+71c7f1b sm8250-common: Label idle_state sysfs nodes
+82c0932 sm8250-common: Limit AOD refresh rate to 60hz
+b8115e9 sm8250-common: sepolicy: Rename sysfs_battery_supply ---> vendor_sysfs_battery_supply
+ed0ff0b sm8250-common: Update powerhint
+deeac9e sm8250-common: Add xiaomi cit sensor service
+c72322c sm8250-common: audio: Don't advertise vorbis offloading support
+d518e70 sm8250-common: audio: Disable ULL mode
+493f81f sm8250-common: Adress a bunch of denials
+3c4268a sm8250-common: wifi: Remove TxPower2g and 5g
+3f0a0f2 sm8250-common: audio: fixup audio io policy voip_rx flags
+3b37c90 sm8250-common: sepolicy: Label qcom extcon sysfs
+1aec4ab sm8250-common: gpt-utils: rely on device_kernel_headers
+1c33be0 sm8250-common: Audio: Checkout From Caf - move audio props into properties - roll back usb v1
+8881ac6 sm8250-common: Increase reserved partition size for GMS builds too because some users flash additional addons
+3bb48ef sm8250-common: Reserve the size for GMS if `NO_GMS` is set
+a83698b sm8250-common: Sepolicy: Add Palm Sensor to TouchScreen GenFS
+0cf505f sm8250-common: sepolicy: update graphics_composer rules
+c4c4dc3 sm8250-common: sepolicy: Label some RIL property
+e4907ae sm8250-common: sepolicy: Address telephony denials
+a651ee9 sm8250-common: Enable SSR for all subsytem types
+58d7480 sm8250-common: Props: Import Blur props from Miui
+b868085 sm8250-common: Rewrite MSADP policies
+5174150 sm8250-common: Props: Disable fm in btconfigstore
+dc0ad12 sm8250-common: audio: Drop FM tuner
+4772d63 Revert "Revert "sm8150-common: audio: Use QCOM implementation for audio effects""
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+cd2e25d8fcdd core: Make CTS/Play Integrity pass again
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+8f5b60676 debuggerd: Remove scudo headers from debuggerd tests
+0887be96f debuggerd: Disable scudo usage
+a70f13ee0 Fix scudo fault address processing.
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+eeef2bd5 version: Update to 7.6.1 (Adobo)
+238bdca6 apex: Update from TQ1A.230205.002
+7e6f538f apex: Update certificates and fix building with modules disabled
+
+
+=======================
+     2023/02/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+18ab8a76f613 SystemUI: Support smartspace animation for pixel launcher
+f9190fcff7ab [SQUASH] base: Remove parallel space [2/3]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+7e17e22 manifest: Initial A13 manifest (Evolution X 7.6)
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+5003810 Aperture: Redo settings appbar using M3 guidelines
+a290b23 Aperture: Reformat code
+c02cafd Aperture: Add support for Assistant actions
+d5ed0c1 Aperture: Use ?attr/isLightTheme for light status bar
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+e8b7800 New Crowdin updates (#226-#368)
+3eb6693 [SQUASH] Evolver: Remove parallel space [3/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+53e3aade26 Revert "Launcher3: Add support for parallel space"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+5510280f6a New Crowdin updates (#127-#280)
+939c6bba68 Settings: Allow making Navigation Pill thinner [2/2]
+6559f2da5d Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY
+04a591271b Settings: Show/hide TouchGestures preference via res boolean
+cafe6b5b3d Settings: Allow disabling color inversion support [2/2]
+6a366ec20a Settings: Match contextual card dimensions with search bar
+e335f58ddb Settings: Introduce automated DC Dimming [2/3]
+1f67eaf3f2 Settings: Re-arrange and add ordering in battery preferences
+c0216ef61d Settings: Update BatteryHealth implementation
+dfac0b170e Settings: Use proper grammar/check correct spelling [1/2]
+3656b35044 Settings: Show current value of color balance sliders
+fbe2eff926 Settings: Add sliders for color balance adjustment
+de3678b969 Settings: Add preference for TouchGestures
+69ddf53351 Settings: Introduce automated Sleep Mode [2/2]
+0da7e728ce Settings: Follow Accent color on search button
+69a53ed861 Settings: Update battery temp & health strings
+57459a04f8 Settings: Add an ability to blink flashlight for notifications [2/3]
+241ff7e599 Settings: Allow setting wake for notification separately from doze [2/2]
+31ecdefa4c Settings: Allow disabling color inversion pref via overlay
+ca3131d680 Settings: Allow toggling NFC sounds [3/3]
+6bba2e0bf7 Settings: Allow toggling in-call notifications
+70754ace36 Settings: Allow customizing default notification vibration pattern [2/2]
+49406ee8ea Minor changes to remove duplicates and add needed strings
+32f13d81dc Settings: Create face confirmation activity
+ae59cbad9d Settings: Create a ActivityDirector to optionally use SettingsGoogleFutureFaceEnroll
+3102b09b4f align the long press behavior on secondary sim
+7e0724f4dd Fix crash when input illegal proxy port number
+e57922ccdd Fix crash when showing error dialog in NetworkRequestDialogActivity
+6ad1b5c795 Mark DataUsageState as nullable to avoid potential NPE risk
+f81e9dbcb3 Fix the IllegalArgumentException from RecyclerView
+9f9094c4c5 Fix potential NPE crash in ConversationHeaderPreferenceController
+c52b44524e Fix NPE crash in TextToSpeechSettings
+5b30779a85 Fix NPE crash in UwbPreferenceController and optimize the lifecycle observer adding condition in page
+5973553e6c Fix always return first package for mock location app in developer options.
+af8ae1314e Fix permissions for internal links.
+a14405aa51 Fix NullPointerException when renaming a fingerprint
+3a530c9b29 Settings: Build status summary should never be translated
+eb0f05c2ad Settings: Fix restore default apn dialog sometimes not dismissed.
+21a4775cd9 Fix memory leak on SensorPrivacyManager Listener
+de57b43c91 Fix USB OTG hot plug out nndexOutOfBoundsException
+a64d75d0b4 Settings: Change Google battery graph toggle string
+9b4705b742 Settings: appinfo: Show warning when hiding/unhiding the app
+7092d58b53 Improve discoverability of Hidden apps in the Apps list of Settings
+8c29259c9e Hide app feature
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+b7219b2 ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.002 9325679
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+c096abcd packages: Remove parallel space [1/3]
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+79165e0 gms: Remove blobs/packages conflicting with Pixel vendor
+
+
+=======================
+     2023/02/08
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+013d0a752 envsetup: Source vendorsetups after running roomservice in lunch
+0305413d7 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+1b9f3c245d Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+98633dba143c Toast app icon display is inconsistent for system apps
+fe452f7e886f Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+c839dee6c5 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+37cd11cdf Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+bbeafe4 Manifest for Android 13.0.0 Release 30 (TQ1A.230205.002)
+9d5319d Manifest for Android 13.0.0 Release 29 (TQ1A.230205.001.D2)
+0d4e5e0 Manifest for Android 13.0.0 Release 28 (TQ1A.230205.001.B2)
+ab89bf2 Manifest for Android 13.0.0 Release 27 (TQ1A.230205.001.A2)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+b1fc9558d8 Launcher3: Don't show split screen options when window animations are disabled
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+76dbf40f23 Settings: Desktop backup password: Tint buttons to match system theme
+f2674885c1 Settings: Update configs for SettingsIntelligenceGoogle
+68a67bd244 Settings: Set styles/wallpaper picker action name
+fe76a39327 Settings: Integrate ThemePicker and WallpaperPicker2
+92a67be3c1 Settings: display: improve screen-off udfps phrasing
+28af6eb7b2 Settings: fix typo in settings namespace for qr scanner on ls
+2a165525b6 Settings: Use AOSP 'ok' strings for reset battery stats
+992a39add0 Settings: Use correct icon to reset battery stats
+c41af9e7f0 [HACK] Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+aeaebb1d5e Settings: Redo "Good news, `encryptable=footer` is broken"
+48d224d804 Settings: refactor hardcoded radius of ActionPrimaryButton to resource
+fa979d3d68 fingerprint: Rework enrollment screen
+49de2f19be Settings: Allow to hide arrow for back gesture [2/2]
+dfe7d39277 Add toggle to switch between AOSP/Google battery graphs
+ba26d9baed Settings: Add Security Hub from Pixel devices
+9624283e21 Fix long click intent for Smart Pixels tile [2/2]
+89e06905e6 Call CardDatabaseHelper.getInstance() when used and not in onCreate
+9af634aeb0 Battery: show battery temp on power summary
+d7719b4e5a Settings: Reset battery stats [2/3]
+03f5e6bce3 Settings: Avoid enforcing weird backgrounds
+4727c94d9f display: Add custom screen resolution setting
+260850a842 InstalledApp: Hide GooglePlay icon for webapps
+1c09f9daf7 Settings: Link smallest width options in display settings
+f61726075a Settings: Expose saved devices fragment via intent
+de7e872db8 Settings: Allow to skip confirmation in biometric auth dialog [2/2]
+54bee191e4 Settings: VolumeMusicControl: Use new material-you illustration preference
+27d4ad036e Settings: Forward Port Volume Long Press Skip Tracks [2/2]
+ff5a2e877b Settings: Gestures: Make IME button optional
+6d17c61f72 Settings: Disable face enroll on Setup Wizard
+99432a070a [2/2] Allow changing face unlock method when locked
+2b497d59ac Settings: Allow using face as auth method for apps
+435d127ec5 Initial import of Face Unlock for T
+b8f6a17925 Settings: Ambient Music Ticker - Allow to pulse on new tracks [2/2]
+6799fab560 Settings: Allow disabling clipboard overlay [2/2]
+e081b12504 Settings: Custom vibration pattern per notification channel [2/2]
+767017e068 Settings: Move custom vib pattern to its own preference
+6fbaa55763 Settings: Follow new ringtone vibration patterns
+3c48f55192 Settings: Preview ringtone vibration pattern
+644f41b94a Settings: Allow choosing a custom vibration pattern [3/3]
+86c6fb7a78 Settings: Add vibration patterns from OOS [3/3]
+774b030793 Settings: Adjust gesture navigation settings title
+450238eb29 Settings: Use ListPreference instead of DropDownPreference
+5cefa9635a Settings: Protect sensitive data on the about phone
+58806c1f18 settings: drop divider in dark mode screen
+df564dff8e Settings: add animation to dark mode preference
+02b51b4e96 Settings: buttons text should no longer be allCaps
+7dd1c72b8b Settings: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+ba26a47372 Settings: Fix up panel theme and layout
+3a4e215726 Settings: Regulatory: Fullscreen instead of AlertDialog
+e99499e0e9 Settings: Battery charge warning [2/2]
+438aa1cd7a Settings: Allow changing system themes [2/2]
+40db2e3d16 show more APK details on App info screen
+1cbbbbb8eb Settings: Use a separate icon for the Notification category
+84542d8410 Settings: Use proper string for designed maximum battery capacity
+657d15a270 Fix disabled sub showing as Active in Settings > Mobile network
+8fcf17dc77 Settings: Fix bluetooth pan memory leakage
+1f1bf11abf Settings: Relocate rotation angle settings to another fragment
+fe470898f1 Check ACCELEROMETER_ROTATION_ANGLES for current user
+df4608de0a Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]
+9931f1ce8b fuelgauge: Update clean up for estimate
+ba50938c73 fuelgauge: Use Enhanced Battery Prediction from Turbo
+3222fcd17e Settings: Make some random summaries translatable
+67756e6d2b Settings: Add more DNS providers [3/4]
+2c0871e23e Settings: Add AdGuard DNS as a private DNS Provider
+9c1fcf2ab6 Settings: Add Cloudflare DNS as a private DNS provider
+223b9148e3 Settings: Fix data usage display on mobile panel
+2b246ed670 Settings: MobileDataPanel: Remove VoLTE slice
+c99f09858d Settings: Add back DataUsageSlice
+1bbc4f77d9 Settings: panels: Improvements
+668cb5b9a4 Settings: panels: Add Mobile Data panel
+1f01085a26 Settings: actually fix font for PanelUI
+ea0978baa5 Settings: Add a preference to battery optimization page
+a92773b5a1 BatteryHealth: Make layout more consistent
+a91407f2e4 BatteryHealth: Make it optional
+21e489ed1c BatteryHealth: Make resources overlayable
+e3416c4c0a BatteryHealth: Add Battery Capacity info
+a309f2d8cd Settings: default to GlifV3Theme
+c0ed266eea Settings: Changelog: Rework with Activity [1/2]
+bd35bd3f37 Settings: Randomize The Evolver's summary
+a6f9fe7855 SecuritySettings: properly remove security status header
+3d63abac9d Settings: relocate app lock preference to advanced security settings
+6925dcbe7b Settings: remove security status group if empty
+1995225208 BiometricFragment: respect background authentication request in source prompt info
+d1cc56f41f Settings: Add optional Build status info
+6b7d3aad56 Settings: Allow toggling floating rotation button [2/2]
+343c6914bf Settings: applock: fix unlock prompt disappearing when trying to open apps
+1cd71c0f60 Settings: use a new task stack for app lock fragments
+e39118efc6 Settings: introduce app lock [3/4]
+83339c6d38 Settings: Improve force fullscreen settings fragment
+977eb75f9c Settings: ScreenResolutionFragment: Restart SystemUI on res change
+f737be1c1c Allow to quickly open Running Services from QS panel [2/2]
+91aa827a09 Settings: Add missing summary for Display size and text
+24dba6c865 Settings: Allow Configuring Navbar Radius [2/2]
+fb56802194 SoundSettings: Add charging vibration settings
+5c710951ad Settings: remove preference if availableColorModes is empty
+fa9045f1db Settings: bring back all changes from Build.FINGERPRINT to Build.TIME [4/4]
+814d0a24d2 Disable "SIM card lock" when the SIM card is PUK-blocked
+adb01d05f7 Settings: Add Game Space support
+da0b14a69d Settings: Relocate proguard flags for the Evolver
+6f8759adcf Remove the Automatic ota check option but be sure it's disabled
+4851d7bb49 Settings: tether: do not set shutdown timeout if <=0
+1d0be1c329 Settings: convert hotspot timeout preference to a list preference
+2fc7bea4ca SoftAp: add client manager
+4367140a0f SoftAp: add support for setting shutdown timeout
+513cf88080 Settings: add TextView for summary into SeekBarDialogPreference
+d33a445b9b SoftAp: add Hidden SSID preference
+338f5796f4 Settings: Add clang version to firmware_version
+a0cef85ade Settings: One does not simply become a Developer
+6932469c9d Settings: Implement cutout force full screen [2/2]
+6f3d84cdac Settings: Change back gesture height intervals
+c5d425f4d2 Settings: Fix gestures saving parameters
+ecb9b31d71 Settings: navigation mode settings [2/2]
+ed7bf6480d Settings: add option to enable AOD on charging only [2/2]
+3c6e228b3a Settings: Introduce Silent media mute preference
+a8b746d020 Settings: Pulse Volume Panel on un/mute [2/2]
+867406e1cc Settings: Make mute media on silent play nice with Smart Pause [2/2]
+1af45a43b3 Settings: Mute media only on silent [2/2]
+2dd4614e3a Settings: Implement muting media volume on silent or vibrate mode
+378d45e069 Settings: Add preference for one shot auto-brightness
+4a9865f743 AppVolumeSlice: Allow querying icon of apps installed by any user
+38b64e2b2c Settings: support per-app volume [3/3]
+f5b36cd745 Settings: Follow navbar color in base
+dae24aeec3 Settings: Add option to cycle through ringer modes [2/2]
+dce4343ac8 Settings: use mIsBatteryPresent for visibility of top level battery setting
+3833af662c Settings: dont disable ls device controls based on secure lock
+f2f1c54406 Settings: check isVoiceCapable for Calls&SMS category
+08887b41c9 Settings: Align user avatar with homepage title
+ace89cd711 AdbRootPreferenceController: Use ADBRootService::isSupported()
+75d095c3bf Add toggle to enable ADB root
+a010e1e136 Settings: Make NetworkScanHelper max search time customizable
+2f2e3c222f Settings: Make FRP go through ChooseLockPatternSize if needed
+469b4eaf9d Settings: Make setup wizard go through ChooseLockPatternSize if needed
+75bf79824a Settings: Remove hardcoded extras from ChooseLockPatternSize
+a61e2625eb Settings: Forward port pattern visibility settings (2/2)
+957c8324c3 Settings: Forward port lock pattern grid size (2/2)
+b20f62a68a Don't reset A2DP offload when disabling developer settings
+1ecabc32b0 Settings: Apply SUW button theming to WiFi page
+472e8b5761 Settings: Network setup UI changes for SUW
+469d4c3fd1 Settings: use Glif themed button bar
+9ec34f168c Settings: Enable notifications led light by default [2/2]
+bf4cde5b00 Settings: Gestural: Improvement [2/2]
+21a7bc68c1 Settings: Improve gesture bar length [2/2]
+2b0e6e4786 Settings: Add back increasing ring feature (2/3)
+4a583b0c84 Settings: Add switch for linked ring and media notification volumes
+4e8130efdc Settings: Changes for LiveDisplay
+5b72cf9a75 Settings: Display: Add High Touch Polling Rate Support
+8de7c566ea Settings: Add high touch sensitivity and touchscreen hovering toggles
+91d7180026 Settings: Combine Wifi/Bluetooth timeout arrays
+779c195cd6 Settings: Bluetooth timeout feature (2/2)
+8b818a72f8 Fix Wi-Fi timeout string issue in Settings search
+b719504ab5 Settings: Wi-Fi timeout feature (2/2)
+6b32414d01 Settings: Update all classes which inherit from TogglePreferenceController (12.1.0_r1)
+c6ababe28b Settings: DevicePicker: Adapt to S style
+f3f9db0058 Settings: Add preference for toggling the wallpaper zooming animation
+5ab6e32a20 Settings: Add hotspot setting to allow VPN upstreams [3/3]
+9b4079a93e Settings: Use font configs instead fonts directly
+338fe91718 Settings: Display 'Turbo charging' for Turbo charge in battery settings [2/2]
+94f22cee96 Settings: Display 'VOOC charging' for vooc charge in battery settings [2/2]
+ed3dd1064b Settings: Display 'Warp charging' for warp charge in battery settings [2/2]
+d0597d0d2e Settings: Display 'Dash charging' for dash charge in battery settings [2/2]
+8be87e23bb Settings: check wifi direct feature for showing preferences
+8bb36335c0 Settings: disable tips and support
+acd0cfc0e2 Settings: Add pocket lock toggle
+d1cf65140a development: Enable force resizable activities by default
+cdc9743f1c development: Enable freeform windows by default
+5483432e65 Settings: Smart Charging (2/4)
+4700199e63 Port "Battery Usage Alerts" feature from factory images
+d7d7c21046 NightDisplay Settings: Use List Preference for NightLight settings
+6f7a3cb1dc Settings: Long press to copy wifi password
+4b4aac8213 Hide the "Show the vibrate icon in the Status Bar" setting
+2d02faefb6 Settings: Remove divider from Battery Manager
+4db012b7d6 Settings: Observe auto brightness mode changes
+7abf200127 Settings: Display auto rotate settings instead of toggle
+bee288483f Settings: Fixup start padding for battery usage graph
+5d1d2a8eb9 Settings: Move blur toggle to Display options.
+c7336b7978 Settings: move Extra Dim feature to display
+f6302ace92 Settings: Fix the failing strings
+23eb7bbf6e Settings: Wake on plug [2/2]
+0a53d09f83 Settings: Expose Heads Up settings page
+d37e3a0183 Settings: Make overlays persistent across reboots
+cb171f8bcf Settings: Improve OverlayCategoryPreferenceController for icon packs
+a7330462be Settings: Allow editing all APNs and APN types
+c3eb70694a Settings: fix rest of the edit menu icon tint
+bcebfd5a57 Settings: Address a memory leak
+2b39f3b4b2 Settings: Fix loading iconpack-based Wellbeing icon
+af4146196e Settings: Fix Android Beam switch bar content
+10225f1134 Settings: Allow using legacy VPN types
+6d2d7f3f61 Settings: allow changing the length of gesture navbar [2/2]
+d2811d45d0 Settings: allow hiding navbar [3/3]
+6543b255be Make Quick Unlock compatible with long PIN/Password [2/2]
+52e90c5533 Keyguard: Forward port lockscreen quick unlock (2/2)
+8c3501a688 Settings: Add option to scramble pin layout when unlocking (1/2)
+8b84684efd Settings: Allow user configurable fingerprint wake-and-unlock
+c06b8fba87 Settings: DoubleTapGesture: Use new material-you illustration preference
+41e97fc9fc Settings: Double tap to trigger doze [2/2]
+a8556d0779 Settings: Improve MSIM Ringtone on devices with ESIM
+c1599fcca6 Settings: Use AOSP translations for MSIM ringtone
+0e4e8adc95 Settings: Enable SIM card ringtone only if slot not empty
+a4765b1b3c Settings: Phone ringtone setting for Multi SIM device [2/3]
+87fc0885d6 AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+5ec92b5329 Settings: Move "Adaptive Playback" option to Sound Settings.
+07315e5e3c AdaptivePlayback: Add a intro text to the fragment
+fd89a76adc Settings: Introduce Adaptive Playback [2/2]
+4563ba398b Settings: Only use FP enrollment for SUW
+28cd1a9391 Settings: Fix NPE on isUdfps
+8c202c69ab Settings: Allow toggling screen off fod [2/2]
+290eec826b Settings: allow disable of screenshot shutter sound [2/2]
+6cc8a70e7c Settings: Add FastCharge preference into Battery settings
+9078dcdca5 Settings: Import RenderingJitter test from FWB [1/2]
+51d95a1fa1 SystemUpdatePreferenceController: Refactor for Evolution X Updater
+465c7953d8 Settings: Alter Smooth Display summary to match actual refresh rate
+7f3587c2d3 Restore AOSP PeakRefreshRatePreferenceController
+fe35e6b6d1 Settings: Allow devices to disable minimum refresh rate
+36455e5f47 Settings: Use actual default refresh rate
+a9995d7693 Allow user to select low power refresh rate [2/2]
+d994fadcab Settings: Add toggle for 60Hz refresh rate on battery saver
+02fdd9dfdc Settings: Add preference for maximum screen refresh rate
+13388b31e1 Settings: Add preference for KEY_MIN_REFRESH_RATE
+85cb16f8db Settings: Add proximity check on wake preference
+85901ee91e Settings: Add more required libraries
+08d15a242a Settings: Add Glide library
+d7684be4a2 Settings: Switch to VERSION.INCREMENTAL instead of FINGERPRINT
+1bfb75cecc Settings: Integrate The Evolver into Settings
+9ae129cff1 Remove empty Security status header
+75a0805128 Settings: Update some lottie animations
+834f8f212b Settings: Update settings animations
+e9d9bce256 Settings: import missing lottie animations
+f3aeee8652 fixup: update dummy lottie animation to avoid crash
+e28f15295b Settings: Enable Quick Wallet settings for all devices with NFC
+6510eb305a Settings: Add three-fingers-swipe to screenshot [2/2]
+579b4f9baa Remove useless USB page header
+3f357d6578 Settings: Revert bug report changes
+f6313541b6 Settings: Added missing icons in network and internet menu
+dd195aa6b1 Settings: Use List Preference for Dark mode
+d738bd2ef6 Settings: Migrate interstitial encryption settings xml to NestedScrollView.
+71de414e08 Settings: Disable Storage Manager.
+d403dea781 Settings: Improve code for time spent in app
+958e71cd66 Settings: Add missing android title for top_level_settings
+295685d9fd NFC: Get outer NFC preference to listen for changes
+d2ca0c0a0e Drawables: Dark mode support for app installation restriction icon
+2e8fed731a WifiDisplaySettings: Fix some NPE
+6a17f6432e Settings: Hardcode moduleProvider to com.google.android.modulemetadata.
+45ee5c782d Settings: stop logspill from ProcessStats
+90a26043b0 Don't change nouns in summaries to lower case for German
+d3ca6b3e30 Settings: Whitelist WRITE_DEVICE_CONFIG permission
+f902759123 Settings: Drop custom preferenceFragmentCompatStyle
+4fc7d75491 Settings: Set device name from marketname if available
+2fcb0b6e24 Settings: Add missing icons in Network and Internet
+b9739329f5 Settings: Add drawable for Private DNS
+0a302d3253 Settings: OverlayCategoryPreferenceController: Sort overlays by name
+f72f1c5fc3 AppInfo: Add time spent in app from Wellbeing
+91a2ad81da Settings: Fix invalid private DNS help text if URI is missing
+6f3ea7a94b Settings: Add support to open device maintainer's telegram
+7d5832f347 Settings: Change Evolution X version preference behavior
+9fb96479f6 Settings: Show About phone instead of Android version in header
+3ccf604bff Settings: Don't show module version if isn't a date
+66326a952e Settings: Use MD2 icon for Playstore
+1c7b6bcd21 Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+7739af60b6 Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+1211743a21 Settings: AnimationScale: Fix force close when not using english
+adea3609a2 Settings: Use seekbar to allow setting arbitrary animation values
+716fea05c6 Settings: Enable gesture settings
+94b78aec42 InstalledAppDetails: fix refreshing storage summary after force stop
+59f61bb86d Settings: Add custom pref for devices with custom doze packages
+736cc37582 Disable notification channel warnings by default
+d51cd5c896 InstalledApp: show link to Google Play
+00d9cecfac Settings: Add missing gesture and battery animations
+35638a8268 Notification log improvements
+351df87877 Expose the notification log
+c592ecde2f DisplaySettings: font size in 5% steps from 80% to 130%
+193b4703b3 Add back arrow to Desktop backup password
+2ec610279f QS dev tiles: Don't set them to active area
+bade7ee4da Settings: Check if we have any color modes declared in overlay
+b6f9de5c29 WiFi: Remove country code checking.
+38ac2af30d Settings: Hide unsupported USB modes automatically
+bffa0b591b Settings: Add back SELinux info
+aaa4ec56a5 Settings: Add Build maintainer entry to Firmware version window
+54f0aff0d7 Settings: Add Build date entry to Firmware version window
+5b3c0cd695 Settings: Add Evolution X Version to Firmware version window
+491b6d519d Settings: Make ROM banner clickable
+57b1230c1a Unlock mobile network settings when airplane mode is on
+029e3748a0 Expand abbreviation in average memory usage string
+835f5ed8f4 Settings: Add missing animations for gestures and features
+338a3a9c64 Settings: Add platform and RAM to Model & Hardware
+44889db9d8 Settings: Allow sorting Applications by size
+6524252b7b Settings: Add config for SuggestionServiceComponent
+61f8780e6d Show user's Google avatar on the homepage
+0a1759f462 DevelopmentSettings: Remove system update and other prefs
+cfe39710e2 Open app when clicking on icon in App Info
+d1983b09c8 Settings: Toast insulter: Add new insults
+d5038ffbf5 Developer options toast insulter
+b509ab445f Make kernel version clickable
+d8dfb1a68b Settings: Change kernel preference behavior
+ccdfa4c807 Settings: Show full proc/version information
+1893721079 Fix inconsistent USB preference screen title
+83475bf709 Enable FeatureFlags on "user" builds too
+318e5f4f82 Settings: Fix duplicated baseband string on all devices.
+700b4adef9 BasebandVersionPreferenceController: Trim baseband if needed
+6ef8d53447 Settings: Remove offsets from Evo X logo
+2204c1f63c Settings: Use monet colors for Evolution X Unbound Logo
+b6a55eb655 About: Add Evolution X logo inside firmware version
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+dd4e3b653d Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+8a916bc24 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+9ad051d New Crowdin updates (#22)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+1fcd186dc Fix dark navigationBar background in some telephony settings pages
+7a1c2e2a7 Telecomm: Add back increasing ring feature (3/3)
+670c94ee7 Telecomm: Provide required permissions for Telephony
+c8196f66c Ringer: Rewrite flashlight blink on incoming calls
+398c4fe2d Ringer: There should really not be an observer here
+1ef9cbc8f Telecomm: Add DND & Rate settings to flash on call [2/3]
+36753ad7d Telecomm: Allow to flash on call only when entirely silent [2/3]
+e097c2bd2 Telecomm: Add Flashlight blink on incoming calls [2/3]
+2eec4e1e3 Use double vibration on call hang-up
+c0287554b Incall vibration options [2/3]
+7c4ca168b Telecomm: Update vibration patterns
+add5392f7 Telecomm: Add a null check to custom ring vibration
+851be2648 Telecomm: Allow choosing a custom vibration pattern [2/3]
+e2875fba3 Telecomm: Add vibration patterns from OOS [2/3]
+adb5fcd54 Telecomm: ignore JVM IDE stuff
+4913c1c15 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+74785d8f0 CallLog: Get rid of warning
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+c2098e373 liblp: Allow to flash on bigger block device
+469da356c init: Use `IsRecoveryMode()` for normal boot checks
+eff199e1b Revert "core: Don't spoof props in recovery mode"
+a7f851ba0 Revert "core: Treat reboot boot mode same as normal one"
+50c43b82d healthd: Fix charger_res_images_vendor install location
+3bd425e96 Add wrapped key support
+edea23057 init: Spoof more props
+c9fba456b core: Treat reboot boot mode same as normal one
+cb1b01697 core: Lockscreen Charging (2/3)
+49c8f441a fastboot: Prefer ro.boot.hardware.revision for hw-revision
+ef3ca277d fastboot: Print OemCmdHandler return message on success
+6673018ea libsparse: Add simg2img_static target for host
+4fd00573d fs_mgr: Allow remounts with Magisk installed
+453db63ea libsysutils: Hide NetlinkListener error in recovery
+55c1fc1d3 reboot: allow opting-in to fastbootd
+425365f19 core: mark libsysutils and libdiskconfig recovery_available
+81b9f7edd fs_mgr: mount: don't set the block device as ro for recovery
+06accfbd3 fastboot: stop trying to determine bootloader unlock status from /proc/cmdline
+b6923cc72 ashmem: int/size_t and slight modernization.
+ad814a7eb libfs_avb: Disable dm-verity when AVB is permissive
+93ba2b6fb Revert "libfs_avb: verifying vbmeta digest early"
+9e369c58c healthd: cover devices that have voltage_max file with value of 0
+ec9cb5390 fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+ce6af8789 rootdir: Look for ODM & vendor ueventd entries in ETC too.
+a6f3098bd llkd: Include llkd-debuggable.rc in eng builds only
+d5f41e16a init: Set persist.sys.usb.config properly
+b6b666d13 Revert "Format formattable partitions if mount fails"
+b13158d39 core: Don't spoof props in recovery mode
+726b57502 init: Check for fastbootd before spoofing safetynet props
+473bbbb1b core: Add more props for snet spoofing
+d40e43e1d init: Only set safetynet props if not eng build
+d1eaea5c5 init: Weaken property override security only when spoofing safetynet
+ec8982f4c init: add vendor.*  keys to spoof safetynet
+2fcb48004 init: workaround SafetyNet check
+212c35cef init: Weaken property override security for the init extension
+9f1384f69 init.rc: Disable native stats collection service
+0c3037e06 init.rc: don't start console unless asked to
+40f3bb5f2 camera: Add L-compatible camera feature enums
+5c7c7d305 init: always allow local.prop overrides
+ef988dab3 Set permissions on /system/addon.d/ and files within.
+e5e72050c Set /system/etc/init.d/* permissions
+f94bf4031 init: Weaken property override security for the init extension
+1e12e52c9 fastboot: Revert to Android 11 method of checking lock status
+bfa0f4bdf Camera: Add feature extensions
+879211dc1 init: don't skip starting a service with no domain if permissive
+550317a8b healthd: Add DASH charger type
+e46a48e83 init: Convert evolution product variables to soong config variables
+b97c704bd init: Add vendor-specific initialization hooks.
+7cc3febed healthd: Add support for HVDCP_3P5 chargers
+1161ede22 healthd: Reinitialize mChargerNames for every battery update
+74ff21770 healthd: Add support for HVDCP_3 chargers
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+a1eed28 Merge branch 'tiramisu' into 'tiramisu'
+
+
+=======================
+     2023/02/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+d3dc3670a3 libcameraservice: HAX for depth sensor on ginkgo [2/2]
+606af1ea4f WifiDisplaySource: allow overriding max wfd resolution with prop
+da56780630 WifiDisplaySource: raise supported resolution to 1920x1080p60
+24bbe0fe29 fixup! Camera: Skip stream size check for whitelisted apps
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+f504496accc9 PixelPropsUtils: Update fingerprints to February 2023 release
+602ed4d4abd8 Revert "Camera: Prevent crash with prebuilt camera metadata"
+d1328b8b5177 fixup! Camera: Skip stream size check for whitelisted apps
+390c876f6eb8 SystemUI: rename bcsmartspace-google module
+927dac661965 SystemUI: Open google weather on tapping smartspace
+be0aa96dfce8 SystemUI: Update smartspace to 13-QPR1
+ba9e7b6e74d8 SystemUI: Grant additional permissions for smartspace
+705dd63da985 Revert "[SQUASH] SystemUI: Remove Smartspace"
+18ade0d0d406 PixelPropsUtils: Refactor
+1c2d1d878a59 Change mODICaptionsTooltipView null check occasion to avoid potential crash
+21c0dbd1c9f1 core: Fix suspend failure for privileged system components
+162bec859627 core: Whitelist misc system apps
+e3ab71f86f60 Fix NPE when finishing remote animation
+e9a58d223fd8 Fix disabling power menu completely on secured lock screen
+6a3ae542d396 SystemUI: Let screenshot window ignore screen decorations
+30e9c224a452 SystemUI: Do not show dismiss button on headsup
+10decad95496 SystemUI: Fix expanded QS clock color
+8b1e14265da2 SystemUI: Re-evaluate theme when adjusting status bar clock text size
+13a43c75aac8 SystemUI: Allow making Navigation Pill thinner [1/2]
+0f9496487947 ShutdownThread: flag off debug logging
+e9c71be0d83c AppOpsService: Don't log stack traces for isolated processes
+8366e987d2dd UdfpsUtils: Use config_supportsUdfps to check for all Udfps devices
+ff50e71bdc90 New Crowdin updates (#402-#404)
+892b8410f83a base: Update copyright year
+a95dac2f92c0 Revert "QS: Add and use Bluetooth Panel instead of full Settings"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+c1eca3ee8d Launcher3: Open running services activity when clicking meminfo view
+ea5d0034ab Launcher3: Rework MeminfoView available ram calculation
+a6d10ec82e Launcher3: Place memory info below action buttons
+3edbba1a84 Launcher3: Add background chip for memory info view
+64e1046749 Launcher3: Add config to place memory info below action buttons
+c6f3603b03 Launcher3: Add toggle for memory info view
+121f114daf Launcher3: Display memory info above overview actions
+d9d1cfd70f Launcher3: Introduce memory info in overview
+d32d8599bb Launcher3: Enable local colors for popup menu items
+131c1e9dfe Launcher3: Improve spacing above and below dock searchbar
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+72f8ed53 version: Update to 7.6 (Sinigang)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+4271548 SettingsGoogle: Sync with Evolution X changes
+8ff3215 SystemUIGoogle: Remove Smartspace
+
+
+=======================
+     2023/02/06
+=======================
+
+* Repository: https://github.com/akash07k/device_xiaomi_munch/commits/EvolutionX
+
+161b8f3 munch: provide support for callscreening for kona/lito.
+2a66abc munch: Add device-specific ACDB Loader
+dae7b53 munch: overlay: Update rounded corner adjustment
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+8361807 Aperture: Fix photo -> video shutter button color transition
+c9a4dc6 Aperture: Make video duration text more readable
+2fe339d Aperture: Use M3 colors for shutter button
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+b5310ba Evolver: Update copyright year
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+af2a5edb1f Launcher3: themedicons: Update LMC8.4 themed icons
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+8b78fdf64f Revert "Enable robust caching for client side by default"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+2a1c681e [SQUASH] vendor: Remove Seedvault [1/2]
+ba551fbc device_config: Enable Translate action for pixel launcher overview
+576bf8b3 device_config: Force enable Gboard assistant typing and suggestions
+89ca165e device_config: Update smartspace flags to QPR1
+6de29027 device_config: Enable more Pixel launcher search features
+fe61a18d device_config: Add back ml back gesture
+
+
+=======================
+     2023/02/05
+=======================
+
+
+=======================
+     2023/02/04
+=======================
+
+
+=======================
+     2023/02/03
+=======================
+
+
+=======================
+     2023/02/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+8bc073f Aperture: Fix lint error in string containing '%' sign
+cc51ebb Aperture: Remove unused string
+d2bb840 Aperture: Add ripple animation for QR CardView
+af8d7de Aperture: Add Wi-Fi QR handling
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+ce1d8f37fa Updated some ES translations
+
+
+=======================
+     2023/02/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+abf6bb5 Aperture: Use @android:color/{black,white}
+1abba95 Aperture: Set navigation bar color to black
+b836b48 Aperture: Add DPP QR handling
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+bb7b668be2 New Crowdin updates (#17)
+
+
+=======================
+     2023/01/31
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+d8763a9c overlay: Move App lock whitelisting to core
+
+
+=======================
+     2023/01/30
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+4994bc1ed9 Allow widgets to have 1 row as minimum size
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+72faae9e vendor: Expose TouchGestures preference via rro overlay
+00f56875 Use a RegEx to get carrier instead of XML parsing
+4b803651 Include `carrier=` in carrier match string
+b9335917 Fix custom_apns script
+9e598346 kernel: Force disable LLVM CUDA
+
+
+=======================
+     2023/01/29
+=======================
+
+* Repository: https://github.com/akash07k/device_xiaomi_munch/commits/EvolutionX
+
+a7831a1 munch: Enable ADB by default for debugging purposes
+405bab4 munch: Only include GMS if they exist and `NO_GMS` is not `true`
+4d38955 munch: props: Move ro.vendor.audio.voice.volume.boost to common tree
+
+
+=======================
+     2023/01/28
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+c754f66 Aperture: Use a proper divider
+80c8de1 Aperture: Enable translucent navigation bar in settings
+cc3d0e2 Aperture: Draw under display cutouts
+205364a Aperture: Simplify camera mode buttons themes
+ccb8028 Aperture: Don't set Roboto Mono everywhere
+3d2073f Aperture: Give light theme on settings for light mode users
+72781eb Aperture: Get proper M3 dialogs in settings
+6523bb6 Aperture: Set status bar background color to transparent in settings
+f8a86a0 Aperture: Get dynamic colors going
+
+
