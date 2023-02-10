@@ -1,0 +1,43 @@
+raviole: Enable pocketmode
+raviole: Show screen off FOD setting
+raviole: Enable smart pixels
+raviole: Hide led light settings in the evolver
+core: Make CTS/Play Integrity pass again
+version: Update to 7.6.1 (Adobo)
+Remove Parallel space support
+SystemUI: Support smartspace animation for Pixel Launcher
+Update gms
+apex: Update from TQ1A.230205.002
+Merge February 2023 security patches (13.0_r30)
+PixelPropsUtils: Update fingerprints to February 2023 release
+Ringer: Rewrite flashlight blink on incoming calls
+Telecomm: ignore JVM IDE stuff
+WifiDisplaySource: allow overriding max wfd resolution with prop
+WifiDisplaySource: raise supported resolution to 1920x1080p60
+fixup! Camera: Skip stream size check for whitelisted apps
+version: Update to 7.6 (Sinigang)
+Launcher3: Add toggle for memory info view
+Launcher3: Enable local colors for popup menu items
+Launcher3: Improve spacing above and below dock searchbar
+Launcher3: Open running services activity when clicking meminfo view
+Launcher3: Rework MeminfoView available ram calculation
+Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY
+Settings: Give "Double tap to trigger doze" better strings
+Launcher3: themedicons: Update LMC8.4 themed icons
+PixelPropsUtils: Refactor
+Remove Seedvault
+SystemUI: Grant additional permissions for smartspace
+SystemUI: Open google weather on tapping smartspace
+SystemUI: Update smartspace to 13-QPR1
+device_config: Add back ml back gesture
+device_config: Force enable Gboard assistant typing and suggestions
+device_config: Update smartspace flags to QPR1
+UdfpsUtils: Use config_supportsUdfps to check for all Udfps devices
+Update translations
+Change mODICaptionsTooltipView null check occasion to avoid potential crash
+Fix NPE when finishing remote animation
+Fix disabling power menu completely on secured lock screen
+Settings: Remove BackupTransport changes
+SystemUI: Let screenshot window ignore screen decorations
+core: Fix suspend failure for privileged system components
+core: Whitelist misc system apps
