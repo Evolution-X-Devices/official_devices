@@ -1,0 +1,158 @@
+Notes:
+==============================
+Don't dirty flash from A12.1 to A13.
+Clean flash needed this time
+
+Device changes:
+==============================
+- clean-up trees
+- rebase trees from common
+- Update blobs from MIUI V13.0.15.0.SKFMIXM
+- Update the s5kgw3 camera libraries from MIUI V13.0.9.0.SKFINXM
+- Uprev IQtiRadio with v2.6
+- Uprev ImsRadio version to 1.7
+- Uprev Bluetooth Audio HIDL to 2.1
+- Uprev IFactory version to 2.3.
+- Update GPS to LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0
+- Revert gps PROXY_APP_PACKAGE_NAME OEM change
+- Improved adaptive refresh rate
+- Disable SF composition prediction model
+- Disable redir_party_num
+- MiuiCamera v4.3.004180.4 is included
+- VantomKernel is the default kernel
+- Other fixes and  improvements
+Credit :-
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+
+ROM changes:
+==============================
+Bring back SimpleDeviceConfig and update to A13
+Enable pulse on new tracks by default
+Evolver/Settings: Use proper grammar/check correct spelling
+Evolver: Allow setting bottom keyguard shortcuts
+Evolver: Extend DashboardFragment instead of SettingsPreferenceFragment
+Evolver: LockScreen: Avoid joining strings with + in a loop
+Evolver: Move AOD schedule back to Lockscreen fragment
+Fix PermissionHelper NullPointerException
+Launcher3: Keep hotseat bottom spacing for taskbar devices
+Launcher3: Remove ugly 4x4 grid option
+ParallelSpace: Allow/block essential apps without overlay
+Remove QS transparency feature
+Settings: Add sliders for color balance adjustment
+Settings: Allow the user to change the BackupTransport
+Settings: Re-arrange and add ordering in battery preferences
+Settings: Show current value of color balance sliders
+SystemUI: Redesign lockscreen bottom buttons
+SystemUIGoogle: Add missing permission for Smartspace
+SystemUIGoogle: Power: disable some debug services
+SystemUIGoogle: Use system font for smartspace
+ThemePicker: grid_section_view: Center it like the rest
+UdfpsResources: Add Genshin Impact Character icons
+Update translations
+apex: Allow overriding prefer and add required frameworks
+base: fix list style alert dialog to use system font
+base: styles: Use user fonts for Material UI themes
+base: treewide: Disable debug logging
+clockfont: Copy all fonts for lockscreen clock font
+config: Enable QR scanner shortcut on lockscreen
+config: Make building TouchGestures optional
+device_config: Enable smart actions in the clipboard overlay
+device_config: Globally enable the new photo picker
+fix NullPointException when pkg is null
+fwb: guard power calculator spam with debug
+graphics: Override system fonts with user-selected overlays
+overlay: SettingsLib: No longer override headline font family
+packages: Build Seedvault
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+rro_overlays: Enable Safety Protection
+rro_overlays: Update face unlock configuration
+soong: Add support to set vendor tag with client package name
+vendor: Add permissions for lineagehw
+vendor: Update CarrierSettings database
+BACKPORT: Add bluetooth disable enhanced SCO connection
+BACKPORT: floss: Disable enhanced sco connection via sysprop
+DisplayModeDirector: Allow to enforce user selected resolution
+Evolver: Introduce Google TV remote controls keyguard affordance
+Fix crash when comparing messages
+Fix potential NPE when MessagingMessage's message is null
+MobileSignalController: Do not duplicate SPN and PLMN
+ParallelSpace: Add Android Auto to block list
+PermissionController: Always enable location accuracy feature
+PixelPropsUtils: Set shipping level to 32 for devices >=33
+Re-implement ‘Phone ringtone setting for Multi SIM device’
+RingtoneManager: Set a default ringtone for the SIM 2
+ServiceRecord: Don't post running notification for oplus camera
+Settings: Enable SIM card ringtone only if slot not empty
+Settings: Improve MSIM Ringtone on devices with ESIM
+Settings: Match contextual card dimensions with search bar
+Settings: Use AOSP translations for MSIM ringtone
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: Import V6 pixel display interfaces (for Pixels only)
+SystemUI: QS footer data usage improvements and cleanup
+gms: Disable dexpreopt for most Google apps
+gms: Remove blobs/packages conflicting with Pixel vendor
+vendor: Remove CarrierSettings
+Launcher3: Add toggle for memory info view
+Launcher3: Enable local colors for popup menu items
+Launcher3: Improve spacing above and below dock searchbar
+Launcher3: Open running services activity when clicking meminfo view
+Launcher3: Rework MeminfoView available ram calculation
+Launcher3: themedicons: Update LMC8.4 themed icons
+Merge February 2023 security patches (13.0_r30)
+PixelPropsUtils: Refactor
+PixelPropsUtils: Update fingerprints to February 2023 release
+Remove Seedvault
+Ringer: Rewrite flashlight blink on incoming calls
+Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY
+Settings: Give "Double tap to trigger doze" better strings
+SystemUI: Grant additional permissions for smartspace
+SystemUI: Open google weather on tapping smartspace
+SystemUI: Update smartspace to 13-QPR1
+Telecomm: ignore JVM IDE stuff
+WifiDisplaySource: allow overriding max wfd resolution with prop
+WifiDisplaySource: raise supported resolution to 1920x1080p60
+device_config: Add back ml back gesture
+device_config: Force enable Gboard assistant typing and suggestions
+device_config: Update smartspace flags to QPR1
+fixup! Camera: Skip stream size check for whitelisted apps
+version: Update to 7.6 (Sinigang)
+Remove Parallel space support
+SystemUI: Support smartspace animation for Pixel Launcher
+Update gms
+Updater: Disable A/B perf mode by default
+core: Make CTS/Play Integrity pass again
+version: Update to 7.6.1 (Adobo)
+Avoid Installer APP ANR when starting install in main thread
+CachedAppOptimizer: Pageout File pages during system compaction
+Camera: Avoid possible NPE after extension session configuration
+Camera: Fix size list parceling
+Camera: Remove 3 processed streams combination for stream use case
+Evolver: Remove OOS style notification clear all button
+Fix background activity start
+Handle graceful exit with constants
+Launcher3: Refresh themed icons after OTA updates instead
+LocalImageResolver: flag off debug logging
+NotificationShade: Make blur crossfading more gradual
+PowerStatsService: Prevent NPE in BatteryTrigger
+Safely handle the case of BroadcastOptions being null
+Settings: Battery usage UI: use a fallback name for unknown components
+Settings: Bring back LTE Only Mode
+Settings: Ditch parentActivityName and custom configChanges
+Settings: Do not map Evolver to developer settings
+Settings: Fix LTE Only mode on World Mode
+Settings: Remove check of Build Status for using OTA
+Settings: Sync Reverse charging and Pixel battery addons pref with pixel-framework
+Settings: Sync Security Hub pref with pixel-framework
+SystemUI: Fix Smartspace typo
+SystemUI: Link UI elements radii to dialogCornerRadius attribute
+Toast: Solve the NPE problem in session.java
+UI: Adjust default navbar layouts
+Update notchbarkiller overlays
+config: Change UNOFFICIAL to COMMUNITY builds
+config: Disable Async MTE on System Server
+overlay: Set dynamic icon components for Clock and Calendar
+overlay: Set launcher and themepicker packages to Evo Launcher and AOSP ThemePicker
+vendor: theme: AndroidBlackTheme: Turn more color components to black
