@@ -1,0 +1,40 @@
+Device changes:
+==============================
+Included MiCam with portrait and 48mp fixed
+Add Overlays For Battery Health (Charge Cycles) Under Battery Settings
+
+------------------------------
+
+ROM changes:
+==============================
+Avoid Installer APP ANR when starting install in main thread
+CachedAppOptimizer: Pageout File pages during system compaction
+Camera: Avoid possible NPE after extension session configuration
+Camera: Fix size list parceling
+Camera: Remove 3 processed streams combination for stream use case
+Evolver: Remove OOS style notification clear all button
+Fix background activity start
+Handle graceful exit with constants
+Launcher3: Refresh themed icons after OTA updates instead
+LocalImageResolver: flag off debug logging
+NotificationShade: Make blur crossfading more gradual
+PowerStatsService: Prevent NPE in BatteryTrigger
+Safely handle the case of BroadcastOptions being null
+Settings: Battery usage UI: use a fallback name for unknown components
+Settings: Bring back LTE Only Mode
+Settings: Ditch parentActivityName and custom configChanges
+Settings: Do not map Evolver to developer settings
+Settings: Fix LTE Only mode on World Mode
+Settings: Remove check of Build Status for using OTA
+Settings: Sync Reverse charging and Pixel battery addons pref with pixel-framework
+Settings: Sync Security Hub pref with pixel-framework
+SystemUI: Fix Smartspace typo
+SystemUI: Link UI elements radii to dialogCornerRadius attribute
+Toast: Solve the NPE problem in session.java
+UI: Adjust default navbar layouts
+Update notchbarkiller overlays
+config: Change UNOFFICIAL to COMMUNITY builds
+config: Disable Async MTE on System Server
+overlay: Set dynamic icon components for Clock and Calendar
+overlay: Set launcher and themepicker packages to Evo Launcher and AOSP ThemePicker
+vendor: theme: AndroidBlackTheme: Turn more color components to black
