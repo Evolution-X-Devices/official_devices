@@ -1,0 +1,145 @@
+This build you're receiving is evolution_veux-ota-tq1a.230205.002-02120722-unsigned.zip comes with February security patch.
+==========================================
+Notes:
+==========================================
+Hotfix Update fixes safety net.
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps And Firmware are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/02/12
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+e430506 bionic: use jemalloc by default and allow opt-in to scudo (3/3)
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+0fe3c36 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+459dcdb build: soong: use jemalloc by default and allow opt-in to scudo (2/3)
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+e9da0a9 common: Track device/qcom/wlan
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+1dda7c7b data: Add missing systemui permissions
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+ef0a6c1 Multiple work profile badge colors for Launcher3
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+e923ae3 Launcher3: Add more permissions to manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6372a77 New Crowdin updates (#127-#281)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+ebb8843 debuggerd: Remove scudo headers from debuggerd tests
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+c1cd550 sepolicy: allow system_server to set tethering properties
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+7a3e9ff config: Add missing permissions for [SystemUI/Settings]Google
+
+
+=======================
+     2023/02/11
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+9d7670c cheetah: TQ1A.230205.002
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+8f82158 SystemUIGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/02/10
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+b2853ed New Crowdin updates (#226-#369)
+
+
+=======================
+     2023/02/09
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+7e17e22 manifest: Initial A13 manifest (Evolution X 7.6)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+b7219b2 ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.002 9325679
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+79165e0 gms: Remove blobs/packages conflicting with Pixel vendor
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commits/refs/heads/lineage-20.0
+
+e0f8d46 interfaces: Add perf 2.3 interface
+
+
+=======================
+     2023/02/08
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+5003810 Aperture: Redo settings appbar using M3 guidelines
+
+
+=======================
+     2023/02/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+1b9f3c2 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+c839dee Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+37cd11c Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+dd4e3b6 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+8a916bc Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+9ad051d New Crowdin updates (#22)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+1fcd186 Fix dark navigationBar background in some telephony settings pages
