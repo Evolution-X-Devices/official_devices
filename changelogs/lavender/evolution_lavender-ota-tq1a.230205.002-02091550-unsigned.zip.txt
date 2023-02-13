@@ -1,0 +1,22 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Stick with the default kernel for better gcam experience.
+- For no freezes -> USE GCAMGO.
+
+Device changes:
+==============================
+- Fixed Audio amplify (DEVICESETTINGS).
+- Debloated.
+- Fixed night light.
+- Minor improvements.
+------------------------------
+
+ROM changes:
+==============================
+Remove Parallel space support
+SystemUI: Support smartspace animation for Pixel Launcher
+Update gms
+core: Make CTS/Play Integrity pass again
+version: Update to 7.6.1 (Adobo)
