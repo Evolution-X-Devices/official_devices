@@ -1,0 +1,17 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk.
+- We're not responsible for any issues that this may cause.
+
+Device changes:
+==============================
+MIUI Camera: Fix broken Documents mode (Add missing libOpenCL.so)
+------------------------------
+
+ROM changes:
+==============================
+Settings: Bring back battery graph toggle
+Update system_vold to A13_r30 changes
+Update translations
