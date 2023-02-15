@@ -1,0 +1,48 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI artifacts.
+
+Device changes:
+==============================
+CarrierConfig: Enable voLTE/voWIFI/ViLTE for entire 460 mcc [Enable ViLTE for Airtel (India) and VoWiFi & ViLTE for Airtel (UP)]
+Fix encryption issue with recoveries
+Switch to Leica + MIUI variant of MIUI Camera port by @itzdfplayer
+------------------------------
+
+ROM changes:
+==============================
+Add BT LE headset check for voice call to update the icon
+Add YCBCR_P010 in switch content in ImageUtil getNumPlanes
+Add back button for freeform window
+Add minimize & pip buttons to freeform windows
+Always make mouse cursor show on external display if it exists
+Bump timeout for display rotation
+Delay tryToRebind if application exit reason is LMK
+DisplayWindowSettings: Don’t check for forceDesktopMode for freeform
+Do not ignore background vibrations from shell
+EasterEgg: allow using toy without unlocking
+Fix phone restarts after SD card formatted as internal storage
+Fix pip error, from split-screen to pip in landscape
+Format conference participant phone numbers to national for Japan
+GLSurfaceView: report draw finished after first onDrawFrame in GLThread
+InputManager: add cursor change listener
+InputManager: allow to force NULL cursor
+Make sure parallel broadcasts enforce excluded permissions
+Only show pip button if activity supports it
+PixelPropUtils: spoof Snapchat
+Resolve the NullPointerException in ExitTransitionCoordinator.java
+Settings: Global VPN feature
+SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+SystemUI: Fix clock text color on combined qs header
+SystemUI: global actions: fix icon position on multi-line action
+base: UsbDeviceManager: Allow overriding USB class denials
+core: Port CLO's Framework Boost and guard it with overlay
+core: res: config: speed up tooltip animations
+fixup! GameSpace: Update takeScreenshot API in ScreenUtils
+fixup! base: allow disabling ripple effect on unlock
+vendor: Update overlays from cheetah: TQ1A.230205.002
