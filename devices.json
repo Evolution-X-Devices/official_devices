@@ -407,6 +407,20 @@
    },
    {
       "brand": "Realme",
+      "codename": "bladerunner",
+      "name": "Realme X50 Pro 5G",
+      "supported_versions": [
+         {
+            "maintainer_name": "Gaganpreet Singh",
+            "maintainer_url": "https://forum.xda-developers.com/m/igaganpreetsingh.11934127",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-bladerunner-official-evolution-x-17-02-23.4554937"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
       "codename": "RMX1971",
       "name": "Realme 5 Pro",
       "supported_versions": [
