@@ -1,0 +1,48 @@
+gs101: Enable adaptive charging feature 
+Unlimited Google Photos storage feature now working again
+gs101: Expose Clear calling & Now playing
+Evolver: Use a new QS tiles count & vertical layout settings implementation
+GoogleConfigOverlay: Set default Call Redirection/Screening package to Google Dialer
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SystemUIGoogle: Unset google_camera_app_package_name
+SystemUIGXOverlay: unset camera gesture package
+SystemUI: Fix qs tile vertical layout scrolling
+udfps: framework_dimming: No need to return newDimAmount
+Add BT LE headset check for voice call to update the icon
+Add back button for freeform window
+Add minimize & pip buttons to freeform windows
+Add YCBCR_P010 in switch content in ImageUtil getNumPlanes
+Always make mouse cursor show on external display if it exists
+Bump timeout for display rotation
+Delay tryToRebind if application exit reason is LMK
+DisplayWindowSettings: Don’t check for forceDesktopMode for freeform
+Do not ignore background vibrations from shell
+EasterEgg: allow using toy without unlocking
+Fix pip error, from split-screen to pip in landscape
+Format conference participant phone numbers to national for Japan
+GLSurfaceView: report draw finished after first onDrawFrame in GLThread
+InputManager: add cursor change listener
+InputManager: allow to force NULL cursor
+Make sure parallel broadcasts enforce excluded permissions
+Only show pip button if activity supports it
+Resolve the NullPointerException in ExitTransitionCoordinator.java
+SystemUI: Fix clock text color on combined qs header
+SystemUI: global actions: fix icon position on multi-line action
+base: UsbDeviceManager: Allow overriding USB class denials
+core: res: config: speed up tooltip animations
+fixup! base: allow disabling ripple effect on unlock
+fixup! GameSpace: Update takeScreenshot API in ScreenUtils
+PixelPropUtils: spoof Snapchat
+Settings: Global VPN feature
+SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+vendor: Update overlays from cheetah: TQ1A.230205.002
+Fix the shadow problem caused by layer parent switching
+Remove BLASTBufferQueue debug log line
+SystemUI: screenshot: Also post a notification with a preview
+SF: Allow force fallback to Light HAL for brightness
+SF: Allow forcing HWC brightness support
+SF: Don't enable expensive rendering for unknown dataspace
+Updater: Remove setPerformanceMode call
+overlay: Set default status bar height to 28dp
+telephony: Check for LTE_CA in physical channel config
+telephony: Use case insensitive check for plmn-spn
