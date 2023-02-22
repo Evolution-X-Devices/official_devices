@@ -1,0 +1,54 @@
+- WARN: Parallel Space has been removed, do backup whatever you want to keep from the cloned apps since they will be gone after updating the ROM.
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Build stone camera blobs from source
+- Drop aptx blobs since they are included in source now
+- Use AOSP USB v2 audio HAL
+
+**Evolution X Update**
+
+- vendor: theme: AndroidBlackTheme: Turn more color components to black
+- Settings: Sync Security Hub pref with pixel-framework
+- Settings: Remove check of Build Status for using OTA
+- Settings: Bring back LTE Only Mode
+- config: Add blur props and flag
+- Increase blur radius to 65px for SystemUI and Launcher3
+- SystemUI: Blur the power menu and sub-menus
+- QS: Add Locale Tile
+- DefaultPermissionGrant: Fix google search crash
+- SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+- Settings: Global VPN feature
+- PixelPropUtils: spoof Snapchat
+- fixup! base: allow disabling ripple effect on unlock
+- SettingsGoogle: Follow monet color in settings icon like AOSP
+- Evolver: Use a new QS tiles count & vertical layout settings implementation
+- themes: Add more signal icons
+- SystemUIGoogle: Refactor Smartspace dagger stuff
+- Prevent apps from crashing if internet permission is revoked
+- Launcher3/SystemUIGoogle: Update smartspace to 13-QPR1
+- Evolver: Custom QS panel styles
+- SystemUI: Update lyric ticker on post notification
+- Launcher3: Optional music search toggle for QSB
+- Launcher3: Add separate category for At A Glance
+- display: Make Night Light transition more gradual
+- clockfonts: Add more styles for lockscreen clock
+- clockfonts: Add 50+ New Fonts for LS Clock
+- Evolver: Redesign LS Clockpicker
+- Evolver: Bring back Combined signal icons toggle
+- SystemUI: Hide wifi standard icon if not connected to wifi
+- vendor: charger: Import latest offline charging animation
+- Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids
+- Launcher3: Make music search icon colorful
+- Launcher3: Fix crash when placing widgets
+- Launcher3: Bring back locking tasks to recents
+- Evolver: Bring in Combined QS headers feature (QS expand will lag a bit)
+- Evolver: Disable QS clock/date options when Combined QS headers is enabled
+- Evolver: Bring back reworked OOS style notification clear all button
+- Bring back Private Compute Services prebuilt app (fixes downloading Live Captions)
+- Bring back Ambient Music Ticker (fixes issues with music during AOD)
+- 
