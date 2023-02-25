@@ -1,0 +1,29 @@
+
+This is Android 13 with February 2023 (r30) security patches
+
+Device changes:
+==============================
+Removed some additional Gapps 
+Reverted WAIPIO Drivers To Adreno Stock (Fixes Screen Cast Issues)
+Fixed MiCam ultrawide
+------------------------------
+
+ROM changes:
+==============================
+BcSmartspaceTemplateDataUtils: Add UiThread annotation (fixes crashing/music playback issues while using AoD; fixes missing music info in ambient/AoD)
+Bring back Parallel Space support
+Evolver: Restore Custom QS panel styles
+PixelPropsUtils: Don't declare propsToChange as static
+PixelPropsUtils: misc changes
+Remove support for custom themed icon pack
+SystemUI: Fix a race condition on reticker's visibility
+SystemUI: Refactor notification reticker
+SystemUI: Restore default biometric listener behavior
+apn: Add Wintel
+apn: Don't set type default for Vodafone MMS 404/43
+fonts: Remove config_clockFontFamily from Google Sans overlay
+gms: Add missing READ_DEVICE_CONFIG permission for System Intelligence
+hosts: Block OTA downloading from GMS
+overlay: Add google OTA to global disabledComponent
+services: core: Temporaily handle NullPointerException in PackageManagerService
+version: Update to 7.6.2 (Tapsilog)
