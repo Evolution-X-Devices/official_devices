@@ -1,0 +1,37 @@
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Fix issues with Camera and Play Store after clean flashing
+- Tweak the values for night light
+- Add the missing vendor.qti.imsrtpservice@3.1 needed for carrier video calling
+- Drop unnecessary ims system blobs
+- Restore vendor bluetooth props
+- Remove unused persist.bluetooth.a2dp_offload.cap property
+- Remove dsp. prefix from audio and video power profiles
+- Show memory usage in app info
+- Merge 4.14.306 in kernel
+- Fix log spam caused by wrong paired PM operation for ICNSS
+
+**Evolution X Update**
+
+- version: Update to 7.6.2 (Tapsilog)
+- Fix status bar landscape touch issues
+- Bring back Parallel Space support
+- Evolver: Restore Custom QS panel styles
+- Launcher3: Redesign recents app buttons
+- Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids)
+- Launcher3: Add kill App button to recents overview
+- Evolver: Move pulse on new tracks from Settings
+- Bring back Private Compute Services prebuilt app (fixes downloading Live Captions; reinstall Android System Intelligence app from Play store)
+- Bring back Ambient music ticker pulse
+- hosts: Block OTA downloading from GMS
+- SystemUI: Refactor notification reticker
+- gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+- SystemUI: QSPanel: Enable split notification shade in landscape with normal density
+- SystemUI: Bring back Bluetooth dialog
+- SystemUI: Make Bluetooth dialog tile optional
+- SystemUI: Fix optional ripple animation issue
