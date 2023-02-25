@@ -1,0 +1,701 @@
+This update fixes the battery issues which were present since some time now.
+Clean flash is strongly recommended
+
+- Changed the kernel to N0 kernel
+- Many changes which will improve battery, performance etc.
+- Dirty flash at your own risk
+
+=======================
+     2023/02/25
+=======================
+
+* Repository: https://github.com/akash07k/munch/commits/fresh
+
+21e11a8 munch: EvolutionX bringup
+
+* Repository: https://github.com/akash07k/sm8250/commits/fresh
+
+6bf199a Revert "sm8250-common: Add Moto dolby support"
+52ffe8d Revert "sm8150-common: Update dax-default"
+316491e Revert "Revert "Revert "sm8150-common: audio: Use QCOM implementation for audio effects"""
+556f0d2 Revert "sm8250-common: Update dolby config"
+b98f1ae Revert "sm8250-common: Dolby: Disable volume leveler"
+96702f4 sm8250-common: Dolby: Disable volume leveler
+f07ac9f sm8250-common: Update dolby config
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+98caf6440640 SettingsProvider: Remove backup for some feature settings
+94538c744714 Use profile's power button/timeout lock settings
+86ed194f057f Fix unlocking of multiple work profiles at boot
+efaa4b345773 Fix Open With dialog within a work profile
+74bb7a458ced Add additional work profile badge colors and labels
+03b62e510c31 Always allow overriding the number of work profiles
+c899ca1c5363 SystemUI: QSPanel: Enable split notification shade in landscape with normal density
+5de7fe4a14c1 SystemUI: Make Bluetooth dialog tile optional
+c5ee37ba9226 SystemUI: Bring back Bluetooth dialog
+3a0b3c89ab2c ParallelSpace: Add back {OPlus|Device}Extras to block list
+545476795daa services: core: Temporaily handle NullPointerException in PackageManagerService
+c8212a953660 PixelPropsUtils: misc changes
+44b1f30331ef PixelPropsUtils: Don't declare propsToChange as static
+b16b28abd77d AttestationHooks: Spoof raven to gms.persistent
+e740d44ac733 SystemUI: QS customizations settings [1/2]
+f68479cd5eb3 [SQUASH] Custom QS panel styles [1/3]
+237be583854c Fix stuck screen from display change timeout
+610235d449f8 Add BT LE headset check for voice call to update the icon
+ce080c84ed38 UI can Enable/Disable VCP and CSIP
+69932ead8538 fwb: remove spammy wallet lockscreen icon error
+881a050508ff base: Allow locking tasks to recents [1/2]
+b3686d693ce3 Set alert dialog message to use system font
+889f80fa92dc ColorContoller: Fix getting default accent color
+81d88a57db89 ClockRegistry: Remove clock id checks except default
+1672ac94cf86 display: Make Night Light transition more gradual
+dfbab9a59713 wm: Avoid system crash due to usage of released layer
+4c3b5244bc42 permissions: Pre-grant google restore permissions
+91e3ae310581 hwui: Prevent systemui crash caused by segfault
+4d6ba7080c02 Prevent apps from crashing if internet permission is revoked.
+76c3602c0236 InputMethodManager: Prevent unnecessary invocation of IME
+352580dd0177 SystemUI: Fix a race condition on reticker's visibility
+4688f0fb3e58 SystemUI: Refactor notification reticker
+01a9e4dcafb0 SystemUI: Rework OOS style notification clear all button
+4a1d2c457af6 SystemUI: Restore default biometric listener behavior
+5748d5984494 SystemUI: Hide wifi standard icon if not connected to wifi
+6a72542b18b4 SystemUI: Fix optional ripple animation issue
+b7e99f18e622 SystemUI: Lockscreen clock format settings [1/2]
+a160fab0a032 SystemUI: Combined signal icons toggle [1/2]
+ae2ad1b54437 SystemUI: Restore Combined signal icons support
+3796af1904b6 SystemUI: Update lyric ticker on post notification
+7ac26f6ce2a2 BrightnessUtils: Allow maintainer to set desired brightness curve impl
+36255438e230 base: Fix brightness slider curve for some devices
+ef65743b83d7 BrightnessController: update icon state for auto bg icon
+fd3ae4fca7a2 Battery Style Improvements
+b177f0eb0719 Battery bolt: Preserve unicode bolt color
+8698b7c1f8b4 udfps: framework_dimming: No need to return newDimAmount
+6f4fc472263b Global VPN feature [1/2]
+de43ea2bd503 SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+ae5690f0f3c4 BoostFramework: Guard it with overlay
+7b2bce53fcdc OverScroller: Import BoostFramework.ScrollOptimizer
+05ecec6eedb3 Filter multi-layer cases for pre-rendering
+0f56de445c26 perf: Add lock protection for initialization in ScrollOptimizer
+5027d9f21342 core: Port CLO's Framework Boost
+5e2fda76cfd5 base: Grant OnePlus and MIUI Gallery storage permissions
+5304460631aa DefaultPermissionGrant: Fix google search crash
+d6eb683b8420 SystemUI: Use secondary label for language QS tile
+14af0eab52e7 QS: Locale Tile
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+f10bc66 manifest: Track our own system/apex
+bdcf0d1 manifest: Initial A13 manifest (Evolution X 7.6.1)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+6a2a880 New Crowdin updates (#226-#391)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+0a55d75d72 Launcher3: Redesign recents app buttons
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+09da6556c3 New Crowdin updates (#127-#287)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+aee2f6d0 overlay: Partially disable gms chimera service
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+ab44704 gms: Stop building Chrome and PixelLiveWallpaperPrebuilt
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+aa8eb8f SettingsGoogle: Sync with Evolution X changes
+c0a3010 SystemUIGoogle: Sync with Evolution X changes
+c7ad908 SystemUIGoogle: Fix deprecated quality check
+5ea6b50 SystemUIGoogle: Update adaptive charging description to match normal charging indication
+688fe19 SettingsGoogle: Follow monet color in settings icon like AOSP
+1e32fdb SystemUIGoogle: power: disable some debug services
+330b82f SystemUIGoogle: Use system font for smartspace
+f027858 SystemUIGoogle: Add missing permission for Smartspace.
+5a27697 SettingsGoogle: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+
+
+=======================
+     2023/02/24
+=======================
+
+* Repository: https://github.com/akash07k/sm8250/commits/fresh
+
+0bc7c44 sm8250-common: Add an RRO to show default KProfiles Mode
+f5bad45 sm8150-common: Build KProfiles
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+67065ace82fc SystemUI: Increase blur radius to 65px
+5e288ec74b69 SystemUI: Also blur power sub-menus
+ca79f3346635 SystemUI: Blur the power menu
+bd473ffc1078 SystemUI: Blurs: allow blur even when GFX acceleration is disabled
+edd759f345af NotificationShade: Make blur crossfading more gradual
+cdafe6c8ba99 AntiFlickerTile: Fix error in handleRefreshState
+82f98806c38b data: Add missing systemui permissions
+9888747f3879 Camera: Fix size list parceling
+bdacc8c8bc05 Camera: Remove 3 processed streams combination for stream use case
+451f396cd875 LocalImageResolver: flag off debug logging
+93384d189d55 CameraManager: Handle NPE with ActivityThread.currentOpPackageName()
+752fdb30776f fixup! Camera: Skip stream size check for whitelisted apps
+4f3bae44f4e4 SystemUI: Support smartspace animation for pixel launcher
+5a339744de4c Toast app icon display is inconsistent for system apps
+1e9e111305ea Change mODICaptionsTooltipView null check occasion to avoid potential crash
+99feec0a1818 core: Whitelist misc system apps
+4275a33efbf5 Fix NPE when finishing remote animation
+2bef8772a28b Fix disabling power menu completely on secured lock screen
+705b3af20733 SystemUI: Let screenshot window ignore screen decorations
+672ed7d32117 SystemUI: Re-evaluate theme when adjusting status bar clock text size
+9633431b4ad3 SystemUI: Allow making Navigation Pill thinner [1/2]
+643e4014e4a7 ShutdownThread: flag off debug logging
+7379e1f10da3 UdfpsUtils: Use config_supportsUdfps to check for all Udfps devices
+8694c21d2184 NotificationChannel: Correctly restore flashlight pattern enablement
+4d298c490039 [BugFixed][OOM_ADJ] use max_adj to control process final adj
+1a46cf1b7161 SystemUI: Disable lockscreen album art by default [1/2]
+17eab34cec88 SystemUI: Import V6 pixel display interfaces
+9d3da91787cf SystemUI: Unblock alarm and vibrate status bar icons
+1d45d121337f SystemUI: Fix alarm icon
+3aaa62d45734 base: Allow disabling color inversion support [1/2]
+b54689aa4fcd SystemUI: Introduce Google TV remote controls keyguard affordance [1/2]
+ecdb0bc13c4f Fix potential NPE when MessagingMessage's message is null
+f04abc33dcb7 Fix crash when comparing messages
+bfc187fccc56 SystemUI: Calculate paged QS tiles height properly
+d10a359e2937 SystemUI: QS footer data usage improvements and cleanup
+95565d08bb06 MobileSignalController: Do not duplicate SPN and PLMN
+c446c29c08f1 RingtoneManager: Set a default ringtone for the SIM 2
+04537d0ba87d base: Add `@Readable` for RINGTONE2 and RINGTONE2_CACHE
+5a76cfa8f6dd base: Phone ringtone setting for Multi SIM device [1/3]
+55fb81141b74 AttestationHooks: Spoof device as Pixel XL for Google Photos
+e7017f281b55 core: Make CTS/Play Integrity pass again
+89cbdb02d8fd PixelPropsUtils: Update fingerprints to February 2023 release
+6c0e95772bf6 PixelPropsUtils: spoof snapchat
+5ffbdffcbdb3 PixelPropsUtils: Use Xiaomi 11T for Clash of Clans
+356b15c81c4e ParallelSpace: Switch to our setup wizard
+c6244c1170eb ParallelSpace: Blocklist FM Radio apps
+08cf4b68a0ee ParallelSpace: Switch to our OTA package
+6189a83f9245 ParallelSpace: Add Android Auto to block list
+c21c471e3f56 [SQUASH] Revert multiple commits
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+5c0ad92 Multiple work profile badge colors for Launcher3
+a4ea16d ClockDrawableWrapper: Set DISABLE_SECONDS to false
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+68122084aa blur: Reduce max cross fade radius for OpenGL
+aa6b0755db blur: Invalidate newly-bound framebuffers before rendering
+8985765fd1 blur: Calculate vertices in vertex shader instead of using VBO
+5b01d174c8 blur: Interpolate tap UV coordinates in vertex shader
+539dbd5348 blur: Reduce floating-point precision for UV coordinates
+ca0bacb263 blur: Downscale image before blurring
+6520f090d7 blur: Only set constant shader uniforms once
+f8b0861964 blur: Dither output using triangular RGB blue noise
+73f10ff794 blur: Skip processing of alpha channel by swizzling RGB
+bff8eec18b blur: Improve terminology used in mix shader
+44a0b3b0ca blur: Limit blur to the two frontmost layers
+10c9c18a65 SF: Allow forcing HWC brightness support
+b7f0e5192b SF: Allow force fallback to Light HAL for brightness
+5b9696d4d0 Remove BLASTBufferQueue debug log line
+b6368375c5 Revert "BLASTBufferQueue: Limit logspam"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+2006673 Evolver: Move pulse on new tracks from Settings
+2041537 Evolver: Adjust QSLayoutUtils after repick
+57ef366 Evolver: Custom QS panel styles [3/3]
+29c48f7 Evolver: Combined signal icons toggle [2/2]
+3d6856d Evolver: Lockscreen clock format settings [2/2]
+4e0fe15 Evolver: Redesign LS Clockpicker
+15c6c1b Evolver: Refactor qs tiles layout fragment
+c7c3aa5 Evolver: QS hide label setting [2/2]
+f4b391d Evolver: QS tiles count & vertical layout settings [2/2]
+193f547 [SQUASH] Evolver: Remove previous QS tile layout implementation [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+c7d34d7119 [SQUASH] Launcher3: Revert Smartspace to pre-13-QPR1
+c820a68c74 Launcher3: Hide developer option
+d4a51b5962 Launcher3: Shorten Spanish translation
+66d7dbec78 Launcher3: Add kill App button to recents overview
+5931c177d3 Launcher3: Allow locking tasks to recents [2/2]
+8fd119b732 Launcher3: No Calendarwidget 4x4 widget displayed
+baec376f44 Launcher3: device_profiles: catch up to 13
+4a1d06da1a Launcher3: meminfo: Replace deprecated BigDecimal methods
+d5693173d8 Launcher3: Make music search icon colorful
+4f97a30258 Launcher3: Fix nonsense smartspace span in some workspaces
+0622b62a27 Launcher3: Fix widget add screen on dark theme
+3d2db2ed84 Launcher3: Fix crash when placing widgets
+73b998ccb6 Launcher3: Allow changing feature flags on user builds
+427e24bd03 Launcher3: Remove unnecessary icon modification for taskbar in dark style
+76d18fa33f Launcher3: Add category for At A Glance
+8e8330a91e Launcher3: Optional music search toggle for QSB
+2d17bc410a Launcher3: Open google weather on tapping smartspace
+68ec3fb635 Launcher3: Update smartspace to 13-QPR1
+340bb25165 Launcher3: Increase default blur radius to 65px
+7d46ce60ce Launcher3: Updates from Pixel Launcher
+2baac26546 Launcher3: Bring back 4x4 grid option
+d5af814414 Launcher3: Add more permissions to manifest
+076768965b Launcher3: Add ACCESS_SURFACE_FLINGER permission to manifest
+76c9b1da77 New Crowdin updates (#20-#22)
+1205a4122d Revert "Launcher3: add support for custom themed icon pack [3/3]"
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d51e780 ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.002
+fb009d2 ThemePicker: grid_section_view: Center it like the rest
+6bdcd84 ThemePicker: Unify font & icon label sizes, scroll the text
+161c0af ThemePicker: Grant missing wallpaper permissions
+9841fbf New Crowdin updates (#7-#10)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+4c4a49063 hosts: Block OTA downloading from GMS
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6c59b166 version: Update to 7.6.2 (Tapsilog)
+5902b926 packages: Bring back Parallel space [2/4]
+8e0771c3 themes: Custom QS panel styles [2/3]
+20316528 themes: Remove config_clockFontFamily from Google Sans overlay
+c217f045 apn: Add Wintel
+43d2423b overlay: Add google OTA to global disabledComponent
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+1b38afa BcSmartspaceTemplateDataUtils: Add UiThread annotation
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+3f1adaf usb: Add interface specifiers to USB/USB gadget services
+
+
+=======================
+     2023/02/23
+=======================
+
+* Repository: https://github.com/EmanuelCN/kernel_xiaomi_sm8250/commits/munch
+
+1b1c58a1e81d mm: reclaim more pages to find free pages in compaction There were many order-3 fail allocation report while VM had lots of *reclaimable* memory.
+8dab7c954b2d devfreq: memlat: Don't ignore extremely latency sensitive workloads The ratio value that's compared against ratio_ceil tunable can be 0 for workloads that are extremely latency sensitive. So, we can't ignore cores that have a ratio of 0 (which was done to ignore idle cores). So, stop ignoring cores with a ratio of 0 and instead check for instruction or frequency being 0 to identify idle cores.
+e926785299ed iommu: msm: Rewrite to improve clarity and performance
+d204d7672161 soc: qcom: watchdog_v2: Fix build on !RT systems
+f9bfd574b9fd soc: qcom: watchdog_v2: Optimize IPI pings to reduce system jitter
+225976f2ab06 smp: Make generic_exec_single() public
+d894784748b5 arm64: dts: Fixup devfreq nodes
+c7aaac6df5fb mm: Fix truncated major/minor output in PID maps
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+cfcfa274 apn: Don't set type default for Vodafone MMS 404/43
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+5583e65 rosemary: Initial firmware
+
+
+=======================
+     2023/02/22
+=======================
+
+* Repository: https://github.com/akash07k/munch/commits/fresh
+
+f963862 munch: overlay: Update overlays such as status bar padding, burnin protection etc.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+c2dfb923c1 Settings: Move pulse on new tracks to Evolver
+ffc59249d5 Revert "Settings: Add clang version to firmware_version"
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+0b982a94 Improve logic around pre-allocation loop devices
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+671b583b themes: UIStyle: fix settings icons being invisible in Clear theme
+4eb0dfbb vendor: charger: Import latest offline charging animation
+74961967 overlay: Enable config_setColorTransformAccelerated by default
+7d41c9e8 vendor: Add GoogleSansMedium font
+b1d7a490 clockfonts: Add 50+ New Fonts for LS Clock
+97b980a3 fonts: Add more lockscreen clock fonts
+e3f06bbc clockfont: Replace Sedgwick Ave with Permanent Marker
+83e7b001 fonts/clockfonts: updates
+7ded253c fonts: More fonts for our system
+be9902c2 fonts: add 404 variant of Circular-Std
+91ab7398 clockfonts: Add more styles for lockscreen clock
+
+
+=======================
+     2023/02/21
+=======================
+
+
+=======================
+     2023/02/20
+=======================
+
+* Repository: https://github.com/akash07k/sm8250/commits/fresh
+
+fec4d9a sm8250-common: Update to Boot Control HAL v1.2
+6e8aa4f sm8250-common: Update powerhint
+862e4e4 sm8250-common: Update vendor security patch level
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+4f329a49b41c New Crowdin updates (#386-#406)
+c091375c9b44 base: Update copyright year
+06f2ad8cfb98 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+
+
+=======================
+     2023/02/19
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4991c85 [DNM] Revert "common: sepolicy: Label ro.vendor.fm.use_audio_session property"
+09ecad4 common: Force all include
+3802e11 common: Defin vendor/aosp FCM
+
+* Repository: https://github.com/akash07k/munch/commits/fresh
+
+e03fa0a munch: Build with GMS unless set explicitly
+854579b munch: LineageOS bringup
+ba892cd munch: Enable ADB by default for debugging purposes
+43ff721 munch: Update kernel defconfig for NoKernel
+
+* Repository: https://github.com/akash07k/sm8250/commits/fresh
+
+385705e sm8250-common: remove duplicate genfs entries
+838e3c0 sm8250-common: Remove duplicate vendor.audio.voice.volume.boost
+b591e38 sm8250-common: Use armv8-2a as 2ND arch
+58cdca4 sm8250-common: Change to lineage
+e6350de sm8250-common: Removed libdisplayconfig.qti.vendor and libhidl modules
+68ee235 sm8250-common: Changed the bootloader name to munch instead of kona
+53b3371 sm8250-common: Import more Video Calls related props
+18ec4a3 sm8250-common: Enable QCRIL radio power saving
+c245780 sm8250-common: Remove duplicate dataroaming prop
+e3bac67 Revert "Revert "sm8150-common: audio: Use QCOM implementation for audio effects""
+ede418d sm8150-common: Update dax-default
+7dd0294 sm8250-common: Add Moto dolby support
+47f2351 sm8250-common: audio: Drop FM tuner
+f8b14e4 sm8250-common: Add media audio from MIUI
+a8aaf2a sm8250-common: Build with LTO
+0034212 sm8250-common: Compile with clang
+78e2862 sm8250-common: Don't use LZ4 compression for ramdisk
+d7110e1 sm8250-common: Update kernel path
+d03fc9b sm8250-common: proprietary-files: Import missing Neural networks lib
+e52a585 sm8250-common: props: RIL edits for battery life.
+
+* Repository: https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/commits/refs/heads/tiramisu
+
+4e8e558 GCamGOPrebuilt: Add GCamGOPrebuilt-V4
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6cd5005c vendor: fix NexusLauncher for tablet mode & follow system taskbar size
+07d1729e themes: Add more signal icons
+2bbb8d47 rro_overlays: Add Miui Camera to config overlays [1/2]
+356d0f7d SystemUIGXOverlay: unset camera gesture package
+003c819a vendor: Refactor
+fd402746 config: Add blur props and flag
+35f071cd config: Disable blur on app-launch
+e92e7ab8 config: Disable Async MTE on System Server
+5440eaf1 config: Add missing permissions for {SystemUI|Settings}Google
+168ac15a config: BoardConfigQcom: Allow use of Specific FM HAL if needed
+ce9f2344 config: Remove Updater from ota.mk
+9528bfe0 config: move to community builds
+
+
+=======================
+     2023/02/18
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+f4c919fb8 Revert "build: set custom fingerprint in ro.build.fingerprint too"
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4cd70e7 common: sepolicy: Give QCOM TEE directory access to tmpfs
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+02ae0d9 SystemUIGoogle: Refactor Smartspace dagger stuffs
+
+
+=======================
+     2023/02/17
+=======================
+
+* Repository: https://github.com/EmanuelCN/kernel_xiaomi_sm8250/commits/munch
+
+b68be115b092 arm64: generate dtb.img from dtbs
+7c40102bccb5 pinctrl: msm: Restore some barriers to prevent reordering of I/O writes
+bef0a1e6e681 pinctrl: msm: Remove explicit barriers from mmio ops where unneeded
+5de937110d50 arm64: lse: Prefetch operands to speed up atomic operations
+45b411130e7b Revert "arm64: lse: fix LSE atomics with LLVM's integrated assembler"
+0299fde561c2 defconfig: Enable ARCH_HAS_REFCOUNT_FULL
+98591fe95126 arm64: debug: Separate debug hooks based on target exception level
+7186f67b8808 FROMLIST: arm64: kernel: implement fast refcount checking
+3477392b5fe7 cpuidle: lpm-levels: convert PSCI return value to boolean correctly
+c19416e59ae0 cpuidle: Hardcode `stop_tick`
+152bc9f63020 cpuidle: Make latency notifier no-op
+d6edb858d360 cpuidle: lpm-levels: Remove tracing from hot path
+9f7ad44fffab Revert "drivers: lpm-levels: Use cpu_do_idle for shallower LPM entry"
+2efa38a0ec1d cpuidle: lpm-levels: Use WFI only
+41211a70d71e cpuidle: lpm-levels: Remove duplicated code
+5aee3fdb29af cpuidle: lpm-levels: Remove sleep bias feature
+9378ee90722f cpuidle: lpm-levels: Remove idle prediction feature
+8c80dd11d110 cpuidle: lpm-levels: Convert sync_lock to raw spin lock
+7386c74e4be9 Revert "cpuidle: lpm-levels: Only cancel the bias timer when it's used"
+1d66670f292c Revert "cpuidle: lpm-levels: Allow exit latencies equal to target latencies"
+32858ce0d782 Revert "lpm-levels: Remove unused code used for debugging"
+97c1037f163a Revert "lpm-levels: Hardcode lpm_prediction and lpm_ipi_prediction"
+81c04ca9bc45 defconfig: Disable audit
+81990c40b50f selinux: Remove audit dependency
+89809464b25b selinux/avc: Only log denials
+e8188337fa7f defconfig: Disable UTS namespace This is debug bloat.
+7d7e1dcf8306 defconfig: Disable EDAC Qualcomm's LLCC controller does not have an error IRQ line on lito and instead polls to check memory banks for errors every 5 seconds, which is inefficient and will add to system jitter.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+8149eea29d Settings: Remove DSU Loader if unsupported
+3feff5170f Settings: remove duplicate build number from firmware dialogue
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+fa83ac14 Add function to get index mask from output channel mask.
+04ba6d73 Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+22cb0e1f audio: Reserve audio format constant for APTX QLEA
+f03f29ee media: update path for vendor specific config files
+c848a332 Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/system/media into tiramisu
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+01bfab03 overlay: Set dynamic icon components for Clock and Calendar
+cb28c58e vendor: theme: AndroidBlackTheme: Turn more color components to black
+bf67dd8f GoogleConfigOverlay: Set default Call Redirection/Screening package to Google Dialer
+15817286 version: Update to 7.6.1 (Adobo)
+e4c27048 packages: Remove parallel space [1/3]
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+16845a7 SystemUIGoogle: Update smartspace to 13-QPR1
+
+
+=======================
+     2023/02/16
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+a953b2a09 bluetooth: audiocodecs: add 16 bit sample rate for APTX offloading
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+636f225 Aperture: Do not store photos captured via other apps
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+6915405871 AptX: use "legacy" apex name
+e1d331b866 Fix more tidy error
+77fdf75c05 Enable tidy for aptx and aptxHD
+e961e6972f Apply and fix clang-tidy on aptx and aptxhd
+2b9652f7c1 Add regression test for aptx
+65d8ee99f5 Link AptX and AptXHD encoder into Bt
+0ec76bd6d3 Apply format on aptx and aptxhd
+8345ba5990 Add AptX and AptXHD Headers
+f028d71324 Add encoder for aptX and encoder for aptX HD source code.
+f9ccb28176 Fix folder name
+a529b69600 Add aptx and aptxhd folder
+
+
+=======================
+     2023/02/15
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+0e173571b envsetup: Source vendorsetups after running roomservice in lunch
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+ac8a2ce2f soong: Add EVO_BUILD_TYPE to dumpvars
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+be96723 Aperture: Insta hide secondaryTopBarLayout on camera mode change
+bb105d0 Aperture: Make SecondaryTopBarButton square
+42bc070 Aperture: Set SecondaryTopBarButton height to wrap_content
+dd63b4a Aperture: Remove OIS handling
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+84fab3c732 Global VPN feature [2/2]
+b2ba19a664 Settings: Add Default USB Configuration
+
+
+=======================
+     2023/02/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+264ee508 recovery: rewrite slot switch logic using bootcontrol APIs
+71b2dc58 recovery: add support for changing slots
+07c53beb recovery: display current filesystem when going to format
+9b563365 recovery: add the option to choose the filesystem for /data
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9baba9b system: overlay: perf: Enable BoostFramework
+1154f28 vendor: bt: Use USE_DEVICE_SPECIFIC_FM
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+96a74f9c6c telephony: Use case insensitive check for plmn-spn
+cc4e0da03b telephony: Check for LTE_CA in physical channel config
+4dfe23b1ae Provide a default executor
+b2a555fa0c Conditionally revert "Block Binder thread until incoming call process completes"
+bc4d984dcc Pass correct value to setPreferredNetworkType() for RIL version < 1.4
+dc4320f603 Fix NPE with 1.0 and 1.1 CardStatus
+95d401beda Change the location of lock
+86ad3c6243 Protect against NPE during RTT call sessions
+48d3dfce17 Add toString() to prevent IllegalAccessException.
+49cfa9d3dc Using overrideServiceState after applying PhysicalChannelConfigList
+b6f6d0ba94 Fix data detach isn't informed
+da94edbc3d Telephony: Add null check for operator
+2406f12c8b Telephony: Fix crash while updating Operator Name
+28bef03633 IMS: Fix incall MMI code failure after turning volte off
+2fed3b5aae Reintroduce 'public void TelephonyMetrics.writeRilSendSms(int, int, int, int)'.
+be6a0bd35c Ignore PLMN bit when SPN is required
+e1fd641733 telephony: Disable handling audio direction changes on IMS calls.
+86c1d0c388 RIL: Fix manual network selection with old modem
+d6bf314a40 Restore support with RadioConfig@1.0 dsds clients.
+219548502f Update external card state based on current app
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+a49561347 Support P010 with Gralloc2 on Gralloc1 passthrough
+3e70d4171 audio: Verify that hal implements get_audio_port before calling
+179df8a58 wifi: Add provision to create/remove dynamic interface(s).
+50fc169ce Mark android.hardware.security.dice as system_ext_specific
+69cc5c638 keymasterV4_0: Tags support for FBE wrapped key.
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+8458a89 fixup! GameSpace: Update takeScreenshot API in ScreenUtils
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+5b752ea43 PermissionController: Always enable location accuracy feature
+14dbcc3f0 PermissionController: Enable usage timeline for all permission groups
+c203af5a2 SystemUI: Use new privacy indicators for location
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+2c285d0 Handle key parameter conversion for FBE_ICE tag
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+b557f7d96 BACKPORT: Add bluetooth disable enhanced SCO connection
+b6baf01ea sepolicy: allow system_server to set tethering properties
+0b61caea8 Give mediaprovider_app mlstrustedsubject
+b31825e13 Allow ignore neverallows in user builds
+614dbdaaa fixup! private: Exempt system_app from adbd_config_prop neverallow
+63dc168ec private: Exempt system_app from adbd_config_prop neverallow
+13c251e8c sepolicy: do not include BOARD_PLAT_* sepolicy dirs
+ee0055237 sepolicy: Add sdcard_posix_contextmount_type attribute
+a964c2c8f sepolicy: Allow recovery to alter /
+9c418de17 sepolicy: whitelist recovery from node creation neverallow
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+6ba338a1 Don't verify payload signatures in recovery
+7a50f1f2 update_engine: Always disable signature and downgrade checks
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+fc7ee26 vold: Accept Linux GPT partitions on external SD cards
+fa9b96e Fix the group permissions of the sdcard root.
+7ae08a8 vold ext4/f2fs: do not use dirsync if we're mounting adopted storage
+d514815 vold: Mount ext4/f2fs portable storage with sdcard_posix
+c3f2642 vold: Honor mount options for ext4/f2fs partitions
+1659d57 vold: Support internal storage partitions
+40ed12a vold: Fix fsck on public volumes
+c7f54b7 vold: add support for more filesystems for public storage
+3f9b93a vold: skip first disk change when converting MBR to GPT
+3aaa38d Fix for CTS test CtsAppSecurityHostTestCases
+08768fa vold: Bring in more wrapped key changes
+dc61fd3 vold: Enable legacy support for wrapped key
+cb60675 system: vold: Use wrapped key for metadata encryption
+
+
+=======================
+     2023/02/13
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+006c733 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+7c43505 Remove setPerformanceMode call
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+644f56b00b Revert "Enable robust caching for client side by default"
+88bb2942ac Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/packages/modules/Bluetooth into HEAD
+cc4d984a98 BACKPORT: floss: Disable enhanced sco connection via sysprop
+1c5414932e Revert "Send enhanced sco setup cmd only for wcn3990"
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+0ada6fd Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+dcca002 Automatic translation import
+
+
+=======================
+     2023/02/12
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+e9da0a9 common: Track device/qcom/wlan
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+b8907a00f7 SF: Don't enable expensive rendering for unknown dataspace
+a911b9e10d blur: Downscale source FBO to 20% size
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+9ac9374061 Launcher3: Don't show split screen options when window animations are disabled
+ab17960c1b Launcher3: Open running services activity when clicking meminfo view
+da3d164585 Launcher3: Rework MeminfoView available ram calculation
+38ca3359bb Launcher3: Place memory info below action buttons
+8f571a57d1 Launcher3: Add background chip for memory info view
+9d1e655ba0 Launcher3: Add config to place memory info below action buttons
+5b297d62af Launcher3: Add toggle for memory info view
+88488e2579 Launcher3: Display memory info above overview actions
+d7ffe7462b Launcher3: Introduce memory info in overview
+4cb0d08f04 Launcher3: Enable local colors for popup menu items
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+4c9363084b Settings: Show SoC Model rather than value of ro.board.platform if available
+781c295127 Settings: Align TotalRAMPreferenceController with MemoryUsagePreferenceController from dev settings
+
+
