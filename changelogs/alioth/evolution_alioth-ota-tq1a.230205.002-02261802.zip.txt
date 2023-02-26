@@ -1,0 +1,27 @@
+Device Changes
+Improve powerhint
+Update display blobs from LA.UM.9.12.r1-15100-SMxx50.QSSI13.0
+Switch to NOkernel
+Drop HBM
+And more changes...
+
+ROM Changes:
+Merge February 2023 security patches (13.0_r30) 
+PixelPropsUtils: Update fingerprints to February 2023 release 
+Update gms core: Make CTS/Play Integrity pass again vendor: theme: 
+AndroidBlackTheme: Turn more color components to black SystemUI: 
+Fix Smartspace typo Settings: Sync Security Hub pref with 
+pixel-framework Settings: Sync Reverse charging and Pixel battery 
+addons pref with pixel-framework Settings: Remove check of Build 
+Status for using OTA Settings: Bring back LTE Only Mode Launcher3: 
+Refresh themed icons after OTA updates instead config: Add blur 
+props and flag SystemUI: Increase blur radius to 65px SystemUI: 
+Blurs: allow blur even when GFX acceleration is disabled SystemUI: 
+Blur the power menu Launcher3: Increase default blur radius to 
+65px
+QS: Add Locale Tile
+Launcher3: Increase default blur radius to 65px
+vendor: Update overlays from cheetah: TQ1A.230205.002
+PixelPropUtils: spoof Snapchat
+Evolver: Bring back reworked OOS style notification clear all button
+
