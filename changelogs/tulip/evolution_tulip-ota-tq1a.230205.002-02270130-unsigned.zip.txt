@@ -1,0 +1,11 @@
+This is Android 13 with Febuary 2023 security patches
+
+Device changes:
+====================================
+Apply aggressive write caching. 
+Enable zram writeback
+kernel: Switch to QTI haptic
+Switch default camera app to Aperture
+Update CNE, DPM, Radio, QMI blobs from ddv_sprout
+Use lz4 compression for zram and ramdisk
+Zram size is 75% of physical RAM now
