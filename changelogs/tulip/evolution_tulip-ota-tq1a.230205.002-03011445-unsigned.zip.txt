@@ -1,0 +1,8 @@
+This is Android 13 with Febuary 2023 security patches
+
+Device changes:
+====================================
+Adjust status bar padding
+kernel: Compile with clang 16.0.0
+kernel: drop TTL/HMARK target support
+Fix freeze issue on some users
