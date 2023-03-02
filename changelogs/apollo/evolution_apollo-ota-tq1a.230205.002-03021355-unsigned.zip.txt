@@ -1,0 +1,150 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Dirty flash from older A13 builds is fine.
+- Required firmware is EEA 13.0.12.0
+Device changes:
+==============================
+* Fixed vibration intensity steps
+* Fixed minor battery drains
+* Updated kernel
+* Updated audio configs from latest miui
+* Fixed huge media vol. Steps
+* Fixed mic issues
+* Performance improvements
+* Fixed some touch issues
+------------------------------
+
+ROM changes:
+==============================
+Evolution X Official Changelog list
+
+3/2
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+Codec2: guard the dummy work signal to lahaina only
+Codec2: queue a empty work to HAL to wake up allocation thread
+SystemUI: Stop using marquee on qs tiles label
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+kernel: Force disable LLVM HIP
+
+2//27
+PixelPropsUtils: Don't spoof some apps
+
+2/26
+GameSpace: Remove dim layer from the panel view
+KeyguardMediaViewController: Cleanup and add proper annotations
+
+2/25
+Fix status bar landscape touch issues
+Launcher3: Redesign recents app buttons
+SettingsProvider: Remove backup for some feature settings
+SystemUI: Fix optional ripple animation issue
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+overlay: Partially disable gms chimera service
+
+2/24
+Bring back Parallel Space support
+Evolver: Restore Custom QS panel styles
+PixelPropsUtils: Don't declare propsToChange as static
+PixelPropsUtils: misc changes
+Remove support for custom themed icon pack
+SystemUI: Restore default biometric listener behavior
+apn: Add Wintel
+apn: Don't set type default for Vodafone MMS 404/43
+fonts: Remove config_clockFontFamily from Google Sans overlay
+gms: Add missing READ_DEVICE_CONFIG permission for System Intelligence
+hosts: Block OTA downloading from GMS
+overlay: Add google OTA to global disabledComponent
+services: core: Temporaily handle NullPointerException in PackageManagerService
+version: Update to 7.6.2 (Tapsilog)
+
+2/23
+Bring back Ambient music ticker pulse
+Bring back Private Compute Services prebuilt app (fixes downloading Live Captions; reinstall Android System Intelligence app from Play store)
+Evolver: Move pulse on new tracks from Settings
+Launcher3: Add kill App button to recents overview
+Launcher3: Hide developer options
+Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids)
+Launcher3: Shorten Spanish translation
+
+2/22
+Evolver: Bring back reworked OOS style notification clear all button
+Improve logic around pre-allocation loop devices
+Launcher3: Fix crash when placing widgets
+Launcher3: Fix nonsense smartspace span in some workspaces
+Launcher3: Fix widget add screen on dark theme
+Launcher3: Make music search icon colorful
+Launcher3: No Calendarwidget 4x4 widget displayed
+Launcher3: device_profiles: catch up to 13
+Launcher3: meminfo: Replace deprecated BigDecimal methods
+Set alert dialog message to use system font
+SystemUI: remove spammy wallet lockscreen icon error
+permissions: Pre-grant google restore permissions
+themes: UIStyle: fix settings icons being invisible in Clear theme
+vendor: charger: Import latest offline charging animation
+
+2/21
+ColorContoller: Fix getting default accent color
+Launcher3: Updates from Pixel Launcher
+SystemUI: Hide wifi standard icon if not connected to wifi
+overlay: Enable config_setColorTransformAccelerated by default
+
+2/20
+Evolver: Bring back Combined signal icons toggle
+Evolver: Lockscreen clock format settings
+Evolver: Redesign LS Clockpicker
+clockfonts: Add 50+ New Fonts for LS Clock
+clockfonts: Add more styles for lockscreen clock
+display: Make Night Light transition more gradual
+
+2/19
+Battery bolt: Preserve unicode bolt color
+Battery Style Improvements
+Launcher3: Add separate category for At A Glance
+Launcher3: Optional music search toggle for QSB
+Launcher3: Update some strings from latest Pixel Launcher
+SystemUI: Update lyric ticker on post notification
+SystemUIGoogle: Add missing MANAGE_SMARTSPACE permission
+SystemUIGoogle: Update adaptive charging description to match normal charging indication
+
+2/18
+AttestationHooks: Spoof device as Pixel XL for Google Photos (fixes spoofing for Pixel devices)
+BrightnessController: update icon state for auto bg icon
+Fix issue that Youtube application shows black screen
+Launcher3/SystemUIGoogle: Update smartspace to 13-QPR1
+Prevent apps from crashing if internet permission is revoked
+SystemUI: Use updated Smartspace from pixel-fw
+SystemUIGoogle: Refactor Smartspace dagger stuff
+vendor: fix NexusLauncher for tablet mode & follow system taskbar size
+
+2/17
+Settings: Remove DSU Loader if unsupported
+Settings: Remove duplicate build number from firmware dialogue
+themes: Add more signal icons
+
+2/16
+BrightnessUtils: Allow maintainer to set desired brightness curve impl
+Evolver: Use a new QS tiles count & vertical layout settings implementation
+GoogleConfigOverlay: Set default Call Redirection/Screening package to Google Dialer
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SystemUIGoogle: Unset google_camera_app_package_name
+SystemUIGXOverlay: unset camera gesture package
+SystemUI: Fix qs tile vertical layout scrolling
+Update translations
+udfps: framework_dimming: No need to return newDimAmount
+
+2/15
+Fix phone restarts after SD card formatted as internal storage
+SystemUI: global actions: fix icon position on multi-line action
+core: res: config: speed up tooltip animations
+fixup! base: allow disabling ripple effect on unlock
+
+2/14
+PixelPropUtils: spoof Snapchat
+Settings: Global VPN feature
+SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+core: Port CLO's Framework Boost and guard it with overlay
+vendor: Update overlays from cheetah: TQ1A.230205.002
+
