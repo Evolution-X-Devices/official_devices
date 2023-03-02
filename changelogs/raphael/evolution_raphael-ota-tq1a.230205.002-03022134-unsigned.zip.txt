@@ -1,0 +1,48 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI artifacts.
+
+Device changes:
+==============================
+CarrierConfig: Enable voLTE/voWIFI/ViLTE for entire 460 mcc
+fingerprint: return ACQUIRED_GOOD on ACQUIRED_VENDOR
+overlay/SysUI: disable prox for sensors
+overlay: Enable IMS feature flags for supported carriers
+overlay: Improve carrier mnc attributes for Indian carriers
+overlay: update CarrierConfig from star V14.0.6.0.TKACNXM
+sepolicy: address vendor init getattr denial
+sepolicy: Allow user apps to read proc/zoneinfo files
+------------------------------
+
+ROM changes:
+==============================
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+Codec2: guard the dummy work signal to lahaina only
+Codec2: queue a empty work to HAL to wake up allocation thread
+Fix status bar landscape touch issues
+GameSpace: Remove dim layer from the panel view
+KeyguardMediaViewController: Cleanup and add proper annotations
+Launcher3: Redesign recents app buttons
+PixelPropsUtils: Don't spoof some apps
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SettingsProvider: Remove backup for some feature settings
+SystemUI: Fix optional ripple animation issue
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Re-implement Bluetooth dialog
+SystemUI: Stop using marquee on qs tiles label
+apn: AMC now is ONE Albania
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+overlay: Partially disable gms chimera service
+tinycompress: Add support for compress_set_codec_params API
+tinycompress: plugin: Set codec params in SETUP state
