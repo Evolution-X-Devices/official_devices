@@ -1,0 +1,9 @@
+This is Android 13 with Febuary 2023 security patches
+
+Device changes:
+====================================
+Fix QS Tile Flickers
+Fixed Freezes on app switch 
+Enabled Ram Sleep On IDLE (Improves Idle Drain Significantly)
+Fixed major power-hal denials
+Fixed volume bug (volume recording high even on below 20)
