@@ -1006,5 +1006,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-rosemary-secret-maltose-evolution-x-tiramisu-for-redmi-note-10s-11-se-poco-m5s.4548143/"
          }
       ]
+   },
+   {
+      "brand": "Google",
+      "codename": "taimen",
+      "name": "Pixel 2XL",
+      "supported_versions": [
+         {
+            "maintainer_name": "Asriadi Rahim",
+            "maintainer_url": "https://forum.xda-developers.com/m/anno.8072142/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-taimen-official-evolution-x-7-6-2.4560857/"
+         }
+      ]
    }
 ]
