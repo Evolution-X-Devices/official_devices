@@ -1,0 +1,16 @@
+sdm845-common: Expose pocketmode
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Re-implement Bluetooth dialog
+apn: AMC now is ONE Albania
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+tinycompress: Add support for compress_set_codec_params API
+tinycompress: plugin: Set codec params in SETUP state
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+SystemUI: Stop using marquee on qs tiles label
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+PixelPropsUtils: Don't spoof some apps
