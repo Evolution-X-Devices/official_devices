@@ -1009,6 +1009,20 @@
    },
    {
       "brand": "Google",
+      "codename": "walleye",
+      "name": "Pixel 2",
+      "supported_versions": [
+         {
+            "maintainer_name": "Asriadi Rahim",
+            "maintainer_url": "https://forum.xda-developers.com/m/anno.8072142/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-walleye-official-evolution-x-7-6-2.4562215/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
       "codename": "taimen",
       "name": "Pixel 2XL",
       "supported_versions": [
