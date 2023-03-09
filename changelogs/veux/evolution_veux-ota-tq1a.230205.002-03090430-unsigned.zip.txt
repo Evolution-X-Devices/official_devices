@@ -1,0 +1,172 @@
+This build you're receiving is evolution_veux-ota-tq1a.230205.002-03090430-unsigned.zip comes with February security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/03/09
+=======================
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+f09da5b tinycompress: plugin: Set codec params in SETUP state
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+a85bea2 Codec2: guard the dummy work signal to lahaina only
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+7950fe38 Revert "Camera: Allow skipping input configuration check"
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+6f594ad Camera: Update HIDL overrideFormat from HAL
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+42020af Evolver: Custom fp icon
+
+
+=======================
+     2023/03/08
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+066144e themes: Add removed iconpacks as WiFi and Signal overlays
+
+
+=======================
+     2023/03/07
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+9c29f9f Launcher3: Use ic_screenshot for recents screenshot drawable again
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+9724a2a extract-utils: Allow overriding VENDOR with VENDOR_COMMON
+
+
+=======================
+     2023/03/06
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+c999542 Exclude Gallery2
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+3715b1d iconloaderlib: add support for custom themed icon pack [1/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+e429177 ThemePicker: add support for custom themed icon pack [2/3]
+
+
+=======================
+     2023/03/05
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+ccb9039 Aperture: Use WiFi QR parsing implementation from ZXing
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+5c649c8 New Crowdin updates (#23)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ParallelSpace/commits/refs/heads/tiramisu
+
+dff2761 New Crowdin updates (#2)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+d4820c2 New Crowdin updates (#127-#290)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+2b2f204 New Crowdin updates (#23)
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+d72e94f gms: Stop building PixelLiveWallpaperPrebuilt and Photos for gms_mini
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+bef2296 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/03/04
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+0e401a0 New Crowdin updates (#49)
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+d4eda0f rosemary: Initial firmware
+
+
+=======================
+     2023/03/03
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+60092e1 common: trust: Add sepolicy for dwc3 usb_data_enabled
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+badc533 Controller: Warn on LeSetEventMask error codes
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+51ad947 first_stage_mount: Skip dm-verity setup if AVB is not enabled
+
+
+=======================
+     2023/03/02
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9335db0 vendor: perf-legacy: Enable performance mode on atoll
+
+
+=======================
+     2023/02/26
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+f10bc66 manifest: Track our own system/apex
+
+
+=======================
+     2023/02/25
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+6812208 blur: Reduce max cross fade radius for OpenGL
+
+
+=======================
+     2023/02/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+3f1adaf usb: Add interface specifiers to USB/USB gadget services
