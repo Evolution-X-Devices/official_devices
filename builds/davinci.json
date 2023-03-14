@@ -1,17 +1,17 @@
 {
-   "datetime": "1678533158",
+   "datetime": "1678800920",
    "donate_url": "",
    "error": "false",
-   "filehash": "9e89eab6809f22050c16928050536da0",
-   "filename": "evolution_davinci-ota-tq1a.230205.002-03111116-unsigned.zip",
+   "filehash": "b50d808763244812c5393d33e49c7777",
+   "filename": "evolution_davinci-ota-tq1a.230205.002-03141338-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-davinci-official-evolution-x-12-31-22.4535949/",
-   "id": "c1506d945bf467208ca76d9c8150967b75ef5fdca22700aacd9d075d728bf404",
+   "id": "7111a4f9bb1f0397d4ef74c5a0e9739ced93467ab58b928790362e4a305fd919",
    "maintainer": "Ahmed Fouad",
    "maintainer_url": "https://t.me/AMWolfstein",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2006237098,
+   "size": 2006618869,
    "telegram_username": "AMWolfstein",
-   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/evolution_davinci-ota-tq1a.230205.002-03111116-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/evolution_davinci-ota-tq1a.230205.002-03141338-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
