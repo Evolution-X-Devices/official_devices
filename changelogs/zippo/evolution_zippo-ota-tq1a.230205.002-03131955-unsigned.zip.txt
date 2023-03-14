@@ -1,0 +1,37 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Switch to kernel rebased on LOS QCOM sm8150 by Marc Bourgoin and upstreamed to v.4.14.309
+
+**Evolution X Update**
+
+- version: Update to 7.6.2 (Tapsilog)
+- Settings: Bring back LTE Only Mode
+- SystemUI: Blur the power menu and sub-menus
+- QS: Add Locale Tile
+- Evolver: Use a new QS tiles count & vertical layout settings implementation
+- Evolver: Custom QS panel styles
+- Launcher3: Optional music search toggle for QSB
+- display: Make Night Light transition more gradua
+- Evolver: Redesign LS Clockpicker and add 50+ new fonts and more styles
+- Launcher3: fix missing At a Glance in higher grids
+- Evolver: Bring in Combined QS headers feature
+- Bring back Ambient Music Ticker (fixes issues with music during AOD)
+- Launcher3: Add kill App button to recents overview
+- Launcher3: Redesign recents app buttons
+- Fix status bar landscape touch issues
+- SystemUI: Re-implement Bluetooth dialog with long-click method
+- Update translations
+- Evolver: Import more status bar logo styles
+- Launcher3: Bring back support for custom themed icon pack
+- SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+- Settings: Re-implement ‘Remove IME space under keyboard’ feature
+- Less boring heads up: Don't skip heads up for most messaging apps
+- Evolver: Custom UDFPS icon feature
+- Launcher3: Update AppLock API and integrate hidden apps
+- Launcher3: Switch to AppLock API for protected apps
+- Evolver/Settings: Move back App Lock impl to Settings app
+Evolver/Settings
+- Fix issues when YouTube and other apps entering PIP mode
+- Evolver: Remove OOS style notification clear all button
