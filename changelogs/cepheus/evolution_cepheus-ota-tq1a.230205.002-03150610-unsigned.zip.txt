@@ -1,0 +1,28 @@
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Upstream kernel to v4.14.309
+- Update lz4 module
+- Increase fingerprint enrollment progress radius because big-thumb people matter
+
+**Evolution X Update**
+
+- Fix status bar landscape touch issues
+- Fix QS panel flicker
+- SystemUI: Re-implement Bluetooth dialog with LongClick method
+- Update translations
+- Evolver: Import more status bar logo styles
+- Evolver: Configurable media notification and lockscreen blur radius
+- Launcher3: Bring back support for custom themed icon pack
+- SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+- base: Improve IME space feature overlay
+- Settings: Re-implement ‘Remove IME space under keyboard’ feature
+- Less boring heads up: Don't skip heads up for most messaging apps
+- Evolver: Custom UDFPS icon feature
+- Update AppLock API and integrate hidden and protected apps in Settings/Security
+- Fix issues when YouTube and other media apps entering PiP mode
+- Evolver: Remove OOS style notification clear all button
