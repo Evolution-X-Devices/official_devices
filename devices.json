@@ -687,15 +687,15 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "mi439",
+      "codename": "Mi439",
       "name": "Redmi 7A/8/8A/8A Dual",
       "supported_versions": [
          {
-            "maintainer_name": "Ashish Jaswal (jaswal_ashish11)",
-            "maintainer_url": "https://forum.xda-developers.com/m/ashish11948.11817917/",
+            "maintainer_name": "Janak Niraula (janakniraula_2017)",
+            "maintainer_url": "https://forum.xda-developers.com/m/janakniraula.12437313/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-7-2-for-mi439.4502311/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-mi439-official-evolution-x-03-31-23.4570575/"
          }
       ]
    },
