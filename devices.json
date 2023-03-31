@@ -421,6 +421,20 @@
    },
    {
       "brand": "Realme",
+      "codename": "RMX199X",
+      "name": "Realm X2",
+      "supported_versions": [
+         {
+            "maintainer_name": "𝕳𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑_𝕽",
+            "maintainer_url": "https://forum.xda-developers.com/m/rjtangpos.11038077/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-a13-evolution-x-for-realme-x2-v7-6-2-unofficial.4562889/"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
       "codename": "RMX2170",
       "name": "Realme 7 Pro",
       "supported_versions": [
