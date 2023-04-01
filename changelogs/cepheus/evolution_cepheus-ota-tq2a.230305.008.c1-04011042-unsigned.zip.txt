@@ -1,0 +1,18 @@
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine but clean is recommended
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Upstream kernel to v4.14.311
+
+**Evolution X Update**
+
+- version: Update to 7.7 (Lechon)
+- Merge March 2023 security patches (13.0_r35)
+- Update translations
+- Switch default launcher to Pixel Launcher
+- Remove Parallel Space (coming back soon with A13)
+- Remove QS layout settings
+- Remove QS panel styles
