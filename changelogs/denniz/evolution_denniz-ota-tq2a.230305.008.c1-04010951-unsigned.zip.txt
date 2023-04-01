@@ -1,0 +1,8 @@
+Update 20230401
+- Initial official release
+- March 2023 security patch
+- Tuned Auto brightness
+- Implemented proximity sensor in AOD
+- Airplane mode triggers ims restarting (please use if you lose VoLTE)
+- Fixed in-call volume issue
+- Fixed udfps not recognized in AOD

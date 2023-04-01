@@ -406,6 +406,20 @@
       ]
    },
    {
+      "brand": "OnePlus",
+      "codename": "denniz",
+      "name": "OnePlus Nord2",
+      "supported_versions": [
+         {
+            "maintainer_name": "lahaina",
+            "maintainer_url": "https://twitter.com/RMX3031_cn",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-for-oneplus-nord-2-5g-denniz.4531989/"
+         }
+      ]
+   },
+   {
       "brand": "Realme",
       "codename": "bladerunner",
       "name": "Realme X50 Pro 5G",
