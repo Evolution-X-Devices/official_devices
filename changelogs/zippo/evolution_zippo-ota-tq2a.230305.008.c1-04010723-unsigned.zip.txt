@@ -1,0 +1,17 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to v4.14.311
+- Enable lz4 and zstd algorithms
+- Update lz4 module
+
+**Evolution X Update**
+
+- version: Update to 7.7 (Lechon)
+- Merge March 2023 security patches (13.0_r35)
+- Update translations
+- Switch default launcher to Pixel Launcher
+- Remove Parallel Space (coming back soon with A13)
+- Remove QS layout settings
+- Remove QS panel styles
