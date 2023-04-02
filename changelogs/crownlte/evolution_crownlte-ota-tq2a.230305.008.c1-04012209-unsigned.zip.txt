@@ -1,0 +1,321 @@
+NOTE: Please consider do a full clean flash, DO NOT update it using OTA.
+================================================================
+DEVICE:
++ Switched to a whole new clean, stock trees.
++ Kernel switched to stock 4.9.118
++ Uses lz4 as default compressor for zram.
++ Further improvements.
+
+================================================================
+ROM:
+4/2
+AppLock: Fix hidden apps reset after reboot
+base: Do not reset keyguard going away state
+display: Don't reset brightness adjustment on clearUserDataPoints()
+
+4/1
+AppProfiler: dont be so hectic on cpu battery stats
+Don't fail setDeviceConnectionState if not implemented in hal
+Doze-on-charge: Add few improvements
+DragSurface: destroy surfacecontrol in view site
+Fix binderDied of an app can not be triggered in some cases
+Fix watchdog when NaN lux is reported
+Fixes crash/race condition when destroyActivity
+Make sure view is laid out before calling createBitmap
+Make sure width and height are not zero before calling createBitmap
+SystemUI: Avoid unnecessary keyguard indication controller recreation
+SystemUI: Fix black screen after DOZE
+SystemUI: Follow status bar battery style is QS
+SystemUI: Open mobile data usage from qsfooter
+SystemUIGoogle: Inject Smart Pixels as CoreStartable interface
+ZygoteInit: Disable debug and tracing
+bugfix: automatic notification permission request breaks in some cases
+config: Enable QR scanner shortcut in lock screen
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+
+3/31
+Evolver: Bring back Photos spoof and keep it off by default
+Evolver: Remove QS layout customization
+CachedAppOptimizer : Fix compaction configuration being ignored
+KeyguardIndication: Set wakelock on doze only when required
+Perf: Fix the issue that activity boost duration abnormal
+PixelPropsUtils: Spoof back part of Google Apps to Pixel 5
+Settings: Refresh "Device details" after resuming
+Stagbin implementation for posting error logs
+SystemUI: Do not translate FPS to other languages
+SystemUI: Skip screenrecord dialog when long pressing the QS tile
+SystemUI: screenrecord: Remember last used blinking dot position
+SystemUIGoogle: AmbientIndication: Fixed layout issue for Now Playing indication
+
+3/30
+Evolver: Bring back Pulse support
+Evolver: Bring back Smart Pixels
+
+3/29
+AppLock: Allow locking all apps visible in launcher
+AppLock: Update API
+AttestationHooks: Drop Google Photos spoofing
+AttestationHooks: Spoof encrypted device for Health Connect
+CompanionDeviceManager: This uses the MANAGE_COMPANION_DEVICES permission
+Disable Ambient on wake gesture when incall
+EdgeLight: Fix up applying custom color
+Evolver: Allow to choose lockscreen or Ambient on wake gestures
+Evolver: Fix Edge light option dependency
+Evolver: Show Ambient display category for device with tap or double tap sensors
+Settings: Add more trigger actions/app/activities
+Settings: Allow enabling ethernet tethering independent of link state
+libcameraservice: fix HAX for depth sensor on ginkgo (Adapt for A13 QPR2)
+udfps: Implement default udfps display mode provider
+vendor: Remove Evolution Themes stub
+
+3/28
+AttestationHooks: Fix issues
+Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+gms: Add missing permission for Pixel Launcher
+
+3/27
+PixelPropsUtils: Spoof user build
+PixelPropsUtils: Spoof userdebug to Pixel Launcher
+SystemUI: qs: footer: Launch The Evolver when long clicking settings
+Update timezone database from LOS
+
+3/26
+PixelPropsUtils: Don't spoof Google Fi
+PixelPropsUtils: Don't spoof Google One
+PixelPropsUtils: Simplify GoogleCamera whitelisting
+device_config: Don’t use new privacy indicators for location
+
+3/23
+AttestationHooks: Spoof Pixel 7 Pro to some Google apps
+Evolver: Drop Netflix spoofing
+Settings: Hide SFPS wakeup setting when it's not supported
+inputflinger: allow disabling input devices via idc
+
+3/22
+Add property to disable APCF extended features
+SystemUI: DreamTile: Enable for everyone
+SystemUI: Make edit button click ripple effect rounded
+SystemUI: Show the alarm icon on QS as well
+config: Don’t build NavigationBarMode2ButtonOverlay
+fixup! Show the vibrate icon in the Status Bar by default
+overlay: Relocate config_displayLightSensorType to no-rro
+vendor: Update overlays from March release
+
+3/19
+Evolver: Disable/remove some features for A13 QPR2
+Remove Screenshot sound code completely
+Settings: Remove Screenshot sound toggle
+SF: Fix display on Pixel 4
+SystemUI: Update Heads up tile for A13 QPR2
+overlay: Set config_displayLightSensorType to android.sensor.light
+
+3/18
+SystemUI: Remove Combined signal icons support again
+SystemUI: Remove Dynamic VoLTE & VoWiFi icons
+core: Declare default display light sensor
+fixup! overlay: add the default pinner service files overlay
+gms: Update from TQ2A.230305.008.C1
+manifest: Stop tracking several repos
+overlay: Restore QS padding in portrait
+sepolicy: Allow recovery to read to all sdcard filesystems
+vendor: Switch back to Pixel Launcher and Google Wallpapers
+
+3/14
+Merge March 2023 security patches (13.0_r35)
+PixelPropsUtils: Update fingerprints to March 2023 release
+rro_overlays: Update from TQ2A.230305.008.C1
+version: Update to 7.7 (Lechon)
+
+3/12
+AppOpsService: Don't log stack traces for isolated processes
+Frameworks: Enable VoNR by default
+
+3/11
+AppLock: Slightly bigger icon size
+Evolver: Remove OOS style notification clear all button
+Fix NPE when pip onAnimationEnd
+Fix profile provisioning check in secondary users
+Fix secondary user crash with system user locked
+Ignore AGPS toggle during user-initiated emergency calls
+Remove sensitive info from SUPL requests
+Settings: Avoid saving length as in a sql db for quick unlock
+
+3/10
+AppLock: Allow locking all apps visible in launcher
+AppLock: Update API
+Camera: Fix null pointer access
+ConfigurationController: Prevent app crash caused by null configuration
+Evolver/Settings: Move back App Lock impl to Settings app
+Evolver/Settings: Use better main switch title strings
+Fix ‘Pause is getting scheduled 2 times’ PIP issue
+Fix ‘Youtube application when moving to PIP animation was very bad’ issue
+Fix pip error, from split-screen to pip in landscape
+Fix the pip bounds error when entering pip mode
+Launcher3: Switch to AppLock API for protected apps
+Launcher3: Update AppLock API and integrate hidden apps
+Updates: Remove fetching of changelog
+hwui: Prevent systemui crash caused by segfault
+
+3/9
+Allow required Android Auto permissions
+Camera: Update HIDL overrideFormat from HAL
+Evolver: Add Heads up toggle dependency for HUN
+Evolver: Custom UDFPS icon feature
+Evolver: Remove changelog preference
+Evolver: Use SystemSettingMainSwitchPreference for Battery bar settings
+Less boring heads up: Don't skip heads up for most messaging apps
+Settings: Don't randomize The Evolver's summary anymore
+Settings: Re-implement ‘Remove IME space under keyboard’ feature
+Settings: Use SystemSettingMainSwitchPreference for Battery Charge warning
+Settings: Use TopIntroPreference instead of footer for some preferences
+Updates: Remove changelog button
+Updates: Use Evo's logo within app window
+base: Improve IME space feature overlay
+
+3/8
+AttestationHooks: Spoof device as Pixel 5 for Google Photos by default
+Camera: Avoid possible NPE after extension session configuration
+Camera: Fix size list parceling
+Camera: Remove 3 processed streams combination for stream use case
+PixelPropsUtils: Don't spoof for Pixel 2 and 3 series
+overlays: Fix switch thumb for Outline iconpack
+
+3/7
+Allow profile owner to set user_setup_complete secure setting
+Launcher3: Use ic_screenshot for recents screenshot drawable again
+PixelPropsUtils: Don't spoof for Pixel 2 and 3 series
+PhoneStatusBarTransitions: Always animate battery out at the same rate
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+base: overlays: Fixed ! cutting signal icons in restored themes
+overlays: iconpacks: Update launcher screenshot fill color
+themes: Add removed iconpacks as WiFi and Signal overlays
+
+3/6
+AttestationHooks: Spoof cheetah to gms.ui and gms.learning
+AttestationHooks: Spoof raven to gms.persistent
+Exclude Gallery2
+Pre-grant some prebuilt google app permissions
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+
+3/5
+Launcher3: Bring back support for custom themed icon pack
+Launcher3: Fix a potential NPE when buildAnimationController is called
+Launcher3: Fix potential ConcurrentModificationException
+Launcher3: Restore blur depth on configuration change
+ParallelSpace: Block telecom server package
+ViewGroup: Remove child parent when a new view is added
+audio: Fix HAL reply handling in CompressedOffloadOutputStreamTest
+btaudio: aidl: Support offloading all LDAC qualities
+
+3/4
+Evolver: Configurable media notification and lockscreen blur radius
+Evolver: Fade filter for lockscreen media artwork
+Evolver: Fade filter for media notification
+Evolver: Import more status bar logo styles
+Evolver: Resolve NPE when opening iconpacks pref
+Evolver: Rework media artwork and blur implementation
+Improve renderscript allocation and usage
+JobScheduler: Stop leaking user information
+Update translations
+device_config: Update now playing to 2/19/23
+gms: Stop building Photos for gms_mini
+
+3/3
+InputMethodManager: Prevent unnecessary invocation of IME
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: Re-implement Bluetooth dialog
+apn: AMC now is ONE Albania
+core: Fix suspend failure for privileged system components
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+permissions: Pre-grant google restore permissions
+
+3/2
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+SystemUI: Stop using marquee on qs tiles label
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+
+2//27
+PixelPropsUtils: Don't spoof some apps
+
+2/26
+GameSpace: Remove dim layer from the panel view
+KeyguardMediaViewController: Cleanup and add proper annotations
+
+2/25
+Fix status bar landscape touch issues
+Launcher3: Redesign recents app buttons
+SettingsProvider: Remove backup for some feature settings
+SystemUI: Fix optional ripple animation issue
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+overlay: Partially disable gms chimera service
+
+2/24
+Bring back Parallel Space support
+Evolver: Restore Custom QS panel styles
+PixelPropsUtils: Don't declare propsToChange as static
+PixelPropsUtils: misc changes
+Remove support for custom themed icon pack
+SystemUI: Restore default biometric listener behavior
+apn: Add Wintel
+apn: Don't set type default for Vodafone MMS 404/43
+fonts: Remove config_clockFontFamily from Google Sans overlay
+gms: Add missing READ_DEVICE_CONFIG permission for System Intelligence
+hosts: Block OTA downloading from GMS
+overlay: Add google OTA to global disabledComponent
+services: core: Temporaily handle NullPointerException in PackageManagerService
+version: Update to 7.6.2 (Tapsilog)
+
+2/23
+Bring back Ambient music ticker pulse
+Bring back Private Compute Services prebuilt app (fixes downloading Live Captions; reinstall Android System Intelligence app from Play store)
+Evolver: Move pulse on new tracks from Settings
+Launcher3: Add kill App button to recents overview
+Launcher3: Hide developer options
+Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids)
+Launcher3: Shorten Spanish translation
+
+2/22
+Evolver: Bring back reworked OOS style notification clear all button
+Improve logic around pre-allocation loop devices
+Launcher3: Fix crash when placing widgets
+Launcher3: Fix nonsense smartspace span in some workspaces
+Launcher3: Fix widget add screen on dark theme
+Launcher3: Make music search icon colorful
+Launcher3: No Calendarwidget 4x4 widget displayed
+Launcher3: device_profiles: catch up to 13
+Launcher3: meminfo: Replace deprecated BigDecimal methods
+Set alert dialog message to use system font
+SystemUI: remove spammy wallet lockscreen icon error
+themes: UIStyle: fix settings icons being invisible in Clear theme
+vendor: charger: Import latest offline charging animation
+
+2/21
+ColorContoller: Fix getting default accent color
+Launcher3: Updates from Pixel Launcher
+SystemUI: Hide wifi standard icon if not connected to wifi
+overlay: Enable config_setColorTransformAccelerated by default
+
+2/20
+Evolver: Bring back Combined signal icons toggle
+Evolver: Lockscreen clock format settings
+Evolver: Redesign LS Clockpicker
+clockfonts: Add 50+ New Fonts for LS Clock
+clockfonts: Add more styles for lockscreen clock
+display: Make Night Light transition more gradual
+
+2/19
+Battery bolt: Preserve unicode bolt color
+Battery Style Improvements
+Launcher3: Add separate category for At A Glance
+Launcher3: Optional music search toggle for QSB
+Launcher3: Update some strings from latest Pixel Launcher
+SystemUI: Update lyric ticker on post notification
+SystemUIGoogle: Add missing MANAGE_SMARTSPACE permission
+SystemUIGoogle: Update adaptive charging description to match normal charging indication
