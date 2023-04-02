@@ -1,0 +1,14 @@
+{
+    "brand": "Realme",
+    "codename": "RMX2020",
+    "name": "Realme C3 / Narzo 10A",
+    "supported_versions": [
+       {
+          "maintainer_name": "Koushik Dey",
+          "maintainer_url": "https://forum.xda-developers.com/m/koushikdey.11163757",
+          "version_code": "thirteen",
+          "version_name": "Thirteen",
+          "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-rmx2020-evolution-x-7-7-02-04-2023.4571587/"
+       }
+    ]
+ }
