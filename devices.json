@@ -757,6 +757,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "begonia",
+      "name": "Redmi Note 8 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "shhhamik",
+            "maintainer_url": "https://t.me/shhhamik",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "munch",
       "name": "Poco F4",
       "supported_versions": [
