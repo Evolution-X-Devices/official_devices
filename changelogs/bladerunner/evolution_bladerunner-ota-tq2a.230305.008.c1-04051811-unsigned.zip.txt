@@ -3,6 +3,7 @@ This is Android 13 with March 2023 (r35) security patches
 Notes:
 ==============================
 - Report bugs with logs
+- (google app search is now fixed)
 
 Device changes:
 ==============================
@@ -38,44 +39,56 @@ ROM changes:
 
 * Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
 
-c8119c0a0449 Treat process group creation failure due to a dead process as non-fatal
-ba53a9ff8a81 Reset stack guard after fork from Zygote
-6c645f746506 Treat failure to create a process group as fatal
-e41c42f52f99 Cleanup and consistency around system server profiling.
-7632a3126573 Reduce the memory usage of the ProtoLogToFile
-3acbcac66ad6 [Bugfix]check whitelisted packages exclude nonsystem app
-9cfe6e3d218a WindowProcessController: Fix potential memory leak
-91a29e178392 [WMS][Bugfix] Catch exception when dump local window.
-0649d435f06c prevent crash with pin protected user and taskview
-a4090c442ae6 [WMS][Bugfix] Fix hang when dumping local window.
-1bb866788b48 Do not kill the server process itself
-f46b75ff5db7 Fix erroneous self deletion on SkImage creation failure
-e0f4b3300631 Only create clip bound object when RenderNode is not quick rejected
-016b9c3e9855 Shrink by 0.5 for YUV TextViews
-5f40cddadcd5 Touch is not working
-79cf314da710 Activity not finishing even after pressing back key
-e4a89410e411 System crash during dismissing split in multi-user scenario
-c2b943d2c7dd SystemUI: allow set combined QS with config
-bbf47b34b8fb SystemUI: Use lighter material you shades for charging animation
-20b26e53bf05 SystemUI: Use color accent for charging animation
-72a626991381 SystemUI: Block few clock customizations in QS header
-9acd7537dc81 Revert "PixelPropUtils: spoof snapchat"
-40e848021d0d Fix viewing app info dashboard of hidden work app
-52c01a3bc302 Fix: Firewall: NMS inverts default rule behavior
-f668184d13b1 base: Live Volume Steps [1/2]
-0966993d7514 AppLock: Fix hidden apps reset after reboot
-f677bc7c9af3 base: Do not reset keyguard going away state
-83404a1dbf11 Doze-on-charge: Add few improvements
-c8523bcd0c67 Biometrics: Allow disabling of fingerprint cleanups
-4f4c0c8724f5 [SQUASH] Clean up
-bd574722de03 opengl: Don't request render in GLSurfaceView.GLThread ctr
-fbfbd49decdc AppProfiler: dont be so hectic on cpu battery stats
-3753377e3586 bugfix: automatic notification permission request breaks in some cases
-af2b362f7cc0 config: Enable QR scanner shortcut in lock screen
-7aa244267602 Don't fail setDeviceConnectionState if not implemented in hal
-2a0624393036 [TMP][SQUASH] Remove clock/date customization for QS
-8f0c10371530 SystemUI: Lockscreen clock color settings [1/2]
-2cd9d7d3a685 SystemUI: Make clock & battery clickable again
+f141f7d793e0 SystemUI: Allow user to customize max visible notification icons [1/2]
+98fefe8b16f7 SystemUI: global actions: fix icon position on multi-line action
+0694d702617a SystemUI: Link style elements to config_dialogCornerRadius
+c91b9998653e SystemUI: Display 2 rows when using 3 columns
+9c46adf8010f SystemUI: Allow to change QS tile label text size [1/2]
+3490546bae3e QSTileViewImpl: Clean up init
+96bfbf93417c SystemUI: Update and fix QS tile layout settings
+9aac4b8d5a90 SystemUI: Improve vertical QS tile layout & animation
+c3aa02b2c97c SystemUI: Tune QS tile dimensions
+191c8754c217 SystemUI: Fix qs tile vertical layout scrolling
+566f496f642d SystemUI: Add QS tile layout settings [1/2]
+e5fdbe757669 SystemUI: allow set combined QS with config
+38deb4834989 SystemUI: Use lighter material you shades for charging animation
+6f1e893dc809 SystemUI: Use color accent for charging animation
+8b2e0c0d864b SystemUI: Block few clock customizations in QS header
+8a2e3e98bc90 Fix viewing app info dashboard of hidden work app
+1362481ea49c Fix: Firewall: NMS inverts default rule behavior
+1edd89ef7dd7 base: Live Volume Steps [1/2]
+db16c65d6eea AppLock: Fix hidden apps reset after reboot
+aebaf42bc962 base: Do not reset keyguard going away state
+2e58bc5cf10b Doze-on-charge: Add few improvements
+43fb3dc454f3 Biometrics: Allow disabling of fingerprint cleanups
+b0a0b6c4d3eb [SQUASH] Clean up
+1dc3a7973047 opengl: Don't request render in GLSurfaceView.GLThread ctr
+6c63273a6ed9 AppProfiler: dont be so hectic on cpu battery stats
+618fbf98214c bugfix: automatic notification permission request breaks in some cases
+b86665d7ac70 config: Enable QR scanner shortcut in lock screen
+d63ad1869cff Don't fail setDeviceConnectionState if not implemented in hal
+7e56f147c8e0 [TMP][SQUASH] Remove clock/date customization for QS
+8e7905f00385 SystemUI: Lockscreen clock color settings [1/2]
+329675ec6516 SystemUI: Make clock & battery clickable again
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+4fecb01 New Crowdin updates (#226-#419)
+eedd180 Evolver: Allow user to customize max visible notification icons [2/2]
+b6cde01 Evolver: Allow to change QS tile label text size [2/2]
+f2f8ef7 Evolver: Add QS tile layout settings [2/2]
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+f2b2c49 gms: Switch to Pixel 5 versions of Pixel Launcher and ASI for all
+
+
+=======================
+     2023/04/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
 82403f777d84 SystemUI: Follow status bar battery style in QS
 a873dbd289f8 SystemUI: Fix black screen after DOZE
 165698996b73 SystemUI: Avoid unnecessary keyguard indication controller recreation
@@ -95,7 +108,6 @@ b1d1c9dbef SF: Avoiding unnecessary frame skip to reduce janks.
 
 * Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
 
-3f81437 New Crowdin updates (#226-#418)
 8af37ae Evolver: Lockscreen clock color settings [2/2]
 a10e29f Evolver: Live Volume Steps [2/2]
 22375c1 Evolver: Fix up custom seekbar pref disabled color views
@@ -113,15 +125,6 @@ acf69b4e adb: Look for shell executable in alternate places
 
 bf36ffa5 overlay: Disable AiAiTranslationService usage
 c20d0de2 apn: update for T Star, Vibo and AURORA
-
-* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
-
-f2b2c49 gms: Switch to Pixel 5 versions of Pixel Launcher and ASI for all
-
-
-=======================
-     2023/04/04
-=======================
 
 
 =======================
@@ -148,6 +151,11 @@ f9d19367b6 media: Add timelapse 8k UHD Camcorder profile to quality map
 2d89aff6c9 media: Add changes to pick target specific media xml's
 a558d74dec audio: add encoding support for linear PCM format
 
+
+=======================
+     2023/04/01
+=======================
+
 * Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
 
 a60f208544e7 SystemUI: UdfpsController: Disable Night Light on keyguard
@@ -162,14 +170,6 @@ b195d28d1a45 udfps: Trigger onFingerDown with regular action down events too
 b4a26c6de779 udfps: Implement default udfps display mode provider
 1ee4dee5dc8f UdfpsUtils: Use config_supportsUdfps to check for all Udfps devices
 11760e988e8d core: Utils: Add method to check udfps support
-
-
-=======================
-     2023/04/01
-=======================
-
-* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
-
 a57badcf9187 Stagbin implementation for posting error logs
 d0c7b7c9c631 Revert "core: Switch to Pasty for copying crash logs"
 5288192b8628 SystemUI: screenrecord: Remember last used blinking dot position
@@ -909,6 +909,26 @@ e063fdba03a8 Fix bug Device that can't support adoptable storage cannot read the
 ade416105b08 base: Wi-Fi timeout feature (1/2)
 d5f299d7a7e5 Turn off carrier provisioning by default to allow tethering
 e79299d50c54 fw/b: Add capability to allow tethering to use VPN upstreams [1/3]
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+03fcf0c Light: Add null check for lights smart pointer
+ee057aa megvii: hack to mount libmegface_vendor as libmegface
+4bd5dcc aidl: light: Override QTI light HAL
+de4b511 [SQUASH] Remove IFAAService implementation
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+179059f SystemUIGoogle: Inject Smart Pixels as CoreStartable interface
+6bcbe74 pixel-fw: Remove Google Elmyra
+
+
+=======================
+     2023/03/31
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
 975104d4b45d base: Use font configs instead hardcoded fonts
 e3e739697325 Wire up default fonts with font engine
 34b3cdf56e1f base: Export bodyFontFamily and bodyFontFamilyMedium symbols
@@ -1040,23 +1060,6 @@ a70459e06e53 RingtoneManager: Set a default ringtone for the SIM 2
 d4f6caf4ed38 SystemUI: Introduce Adaptive Playback [1/2]
 1d3386d27876 SystemUI: handle camera launch gesture from keyhandler
 
-* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
-
-03fcf0c Light: Add null check for lights smart pointer
-ee057aa megvii: hack to mount libmegface_vendor as libmegface
-4bd5dcc aidl: light: Override QTI light HAL
-de4b511 [SQUASH] Remove IFAAService implementation
-
-* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
-
-179059f SystemUIGoogle: Inject Smart Pixels as CoreStartable interface
-6bcbe74 pixel-fw: Remove Google Elmyra
-
-
-=======================
-     2023/03/31
-=======================
-
 * Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
 
 d0f7e836a2 Suppress codecvt deprecation warnings
@@ -1152,6 +1155,30 @@ ca9c7385 [RE-PICK] device_config: Convert location indicators to soft config
      2023/03/28
 =======================
 
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+9829b61 Aperture: Ensure output is truncated
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+3b3f4925 [TMP] Revert "themes: Custom QS panel styles [2/3]"
+eb11ce7e SimpleDeviceConfig: Remove pixel launcher configs
+52781d68 fixup! overlay: add the default pinner service files overlay
+0ca24f9c Revert "device_config: Use new privacy indicators for location"
+a0f589ac Revert "config: Build NavigationBarMode2ButtonOverlay"
+5bc0f767 vendor: Update overlays from March release
+47029988 overlay: Relocate config_displayLightSensorType to no-rro
+4e9b16bf overlay: Set config_displayLightSensorType to android.sensor.light
+c4e608ec overlay: Restore QS padding in portrait.
+e4117f7f rro_overlays: Update from TQ2A.230305.008.C1
+48c67ba0 vendor: Switch back to Pixel Launcher
+204080fe version: Update to 7.7 (Lechon)
+
+
+=======================
+     2023/03/27
+=======================
+
 * Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
 
 7596f110d Merge tag 'android-13.0.0_r35' of https://android.googlesource.com/platform/bionic into tiramisu
@@ -1176,7 +1203,6 @@ c2e7d4c Cloudflare and AdGuard DNS
 
 * Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
 
-9829b61 Aperture: Ensure output is truncated
 c02478f Aperture: Ignore already deleted last saved uri
 
 * Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
@@ -1216,30 +1242,6 @@ d44974a vold: Bring in more wrapped key changes
 07fafbd vold: Enable legacy support for wrapped key
 dd19e70 system: vold: Use wrapped key for metadata encryption
 
-* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
-
-3b3f4925 [TMP] Revert "themes: Custom QS panel styles [2/3]"
-eb11ce7e SimpleDeviceConfig: Remove pixel launcher configs
-52781d68 fixup! overlay: add the default pinner service files overlay
-0ca24f9c Revert "device_config: Use new privacy indicators for location"
-a0f589ac Revert "config: Build NavigationBarMode2ButtonOverlay"
-5bc0f767 vendor: Update overlays from March release
-47029988 overlay: Relocate config_displayLightSensorType to no-rro
-4e9b16bf overlay: Set config_displayLightSensorType to android.sensor.light
-c4e608ec overlay: Restore QS padding in portrait.
-e4117f7f rro_overlays: Update from TQ2A.230305.008.C1
-48c67ba0 vendor: Switch back to Pixel Launcher
-204080fe version: Update to 7.7 (Lechon)
-
-
-=======================
-     2023/03/27
-=======================
-
-* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
-
-3f4e72b0d Revert "frameworks: Update HIDL overrideFormat from HAL"
-
 
 =======================
      2023/03/26
@@ -1249,13 +1251,13 @@ e4117f7f rro_overlays: Update from TQ2A.230305.008.C1
 
 b979954 common: Suspend in charger mode after charging finishes
 
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+3f4e72b0d Revert "frameworks: Update HIDL overrideFormat from HAL"
+
 * Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/refs/heads/lineage-20.0
 
 ac823d9fd gralloc: Fix Compilation errors
-
-* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
-
-2487a06 Aperture: Force CameraX to create new VideoCapture instance
 
 * Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
 
@@ -1289,11 +1291,8 @@ e048fed3 gralloc: Fix Compilation errors
 
 * Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
 
+2487a06 Aperture: Force CameraX to create new VideoCapture instance
 8eec113 Aperture: Update CameraX to 1.3.0-alpha05
-
-* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
-
-745f370 Automatic translation import
 
 * Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
 
@@ -1316,10 +1315,6 @@ cbfe921b Merge tag 'LA.VENDOR.1.0.r1-20700-WAIPIO.0' into staging/lineage-20.0_m
 
 c21bca14 Merge tag 'LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
 
-* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
-
-5e40e1fedf inputflinger: allow disabling input devices via idc
-
 * Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8250
 
 0242c27a1 Merge tag 'LA.UM.9.12.r1-15200-SMxx50.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-15200-SMxx50.QSSI13.0
@@ -1331,6 +1326,10 @@ c21bca14 Merge tag 'LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0' into staging/lineage-2
 * Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
 
 b382a88 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+745f370 Automatic translation import
 
 * Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commits/refs/heads/lineage-20.0
 
@@ -1366,84 +1365,9 @@ b89a8fa Merge tag 'LA.VENDOR.1.0.r1-20700-WAIPIO.0' into staging/lineage-20.0_me
      2023/03/23
 =======================
 
-* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
 
-1b3a4383f51d base: Remove unnecessary videos
-44ff5ab78b9a base: Delete media tests
-c1f5a7d2ca96 fwb: SystemUI: Remove GarbageMonitor tile
-51912e9b0387 use SharedPreferences to save verify results
-a47d8c1b5c78 EasterEgg: Fix some warnings
-2e7d344ac392 SystemUI: Bring in drawables for statusbar icon toggles
-08a00c36a80a SystemUI: Add switch data saver icon
-3fb00871883c base: SystemUI: add VPN to the icon blacklist in tuner
-5dbada39148e Adapt tuner prefs to S settings style
-89c7b239df38 fwb: Seperate statusbar from tuner and launch externally
-0ef70b0bfd09 Add back button to demo mode fragment
-825f986c99ae TunerService: Add parseInteger failsafe method
-33903d053a7e TunerServiceImpl: Blacklist Settings.System from tuner reset
-9707b1d4fd35 SystemUI: tuner: Allow Tuner API for System settings
-513aeb6f2df7 TunerService: Prevent NPE with tunable
-bd27bc3a2415 Tuner: Don't clear out prefs, it's not disabled
-1ad8895d6f66 base: SystemUI: enable tuner and show in Settings
-cc4d01fba964 systemui: Don't allow the end user to disable SystemUI Tuner
-51141a7a5df4 SettingsLib: Update LTE+/4G+ icon as per new Silk design
-3a55b8b7aaef SystemUI: Allow overlaying max notification icons
-57744de6f01d BiometricScheduler: Cancel operation if not idle
-248985887cac Biometrics: Allow disabling of fingerprint cleanups
-da49a7deee1d fwb: webview: Add appropriate logging
-0af5d7a6ad3e sysUI: remove dup perm
-6c0532abb2fe Add "android.permission.READ_PHONE_STATE" to manifest
-85ac42f8e4b9 Enable Binder Proxy Tracking by Uid only on eng builds
-600ebb7bc8c3 CarrierConfigManager: Enable LTE+ icon
-8f2248e89f57 SystemUI: Add left padding for keyguard slices
-fee99e8d205c SystemUI: Display a toast when a screenshot is deleted
-629a0a426fa0 EvolutionUtils: Add isVoiceCapableMethod for in-call vibrations
-c86c9d39cf1a Add a sendKeycode api to EvolutionUtils
-d44c0125b1f9 Utils: Method to detect a notch'd device
-a1fa7d968b44 Add api to toggle flashlight and check if device has flashlight
-d2f0336138d2 Camera: Remove 3 processed streams combination for stream use case
-82726cd7f5f8 Camera: Avoid possible NPE after extension session configuration
-acc1cf65caec fixup! camera: Skip HFR checks for privileged apps.
-a18f9fdbe313 camera: Allow extending aux list/excludelist
-335dd902f270 Camera: Expose aux camera if packagename is null
-9cf99e302925 Guard in short-circuit evaluations for stringSplit methods.
-c7e8588b8515 Camera: Don't crash when trying to disable shutter sound
-14dd30d44714 Camera: Don't throw exceptions when value pairs have spaces in them
-1315a500917d Camera: Add feature extensions
-342e67aac0c6 Add config overlay to force enable multi resolution for camera
-9d80b7a719f8 CameraManager: HAX for depth sensor on ginkgo [1/2]
-093a65deb4a3 Camera: Clearing exception for Extended Face
-ec6a29c763b9 Camera: Extend face detection
-46660c569a01 base: Edit persist.camera.privapp.list to match with current property
-a37da3756d64 Camera: Ignore torch status update for aux or composite camera
-76cbb87598c4 camera: Skip HFR checks for privileged apps.
-f8f077f447e2 camera2: Add methods for backward compatibility
-6e5d70a99295 CameraManager: Fixup exposing aux camera to apps
-222b2e8079d2 Fix Photosphere/Camera FCs
-669ea92be87f Allow sending vendor- or device-specific commands to the camera HAL.
-9b0cacf1deca Camera2: Notify fps as Session Based Parameter
-1b731657a0d7 Camera: Skip stream size check for whitelisted apps
-8de12652741c camera: Allow selected camera apps to skip unconfigure
-460579edeef3 Camera: Replace packageblacklist with packageexcludelist
-e0333fd15283 camera: Support exposing aux camera to apps
-e52dd4ed291d SystemUI: Use Settings.Panel intent for Volume Tile
-7992ba41938e SystemUI: Add tile to show volume panel
-96a0dfbc2565 SystemUI: Extend reboot tile to add power off
-3cbbeb761c18 SystemUI: Add Reboot/Recovery QS Tile
-94e6505b3a88 SystemUI: Update icon for Heads up tile.
-b736e801583b SystemUI: Add heads up tile
-68123fc2eb4f SystemUI: QS: SoundTile: Don't toggle DND
-d83c948e7e67 SystemUI: Update SoundTile
-cdcaa6ef2eb8 SystemUI: Add Sound tile to Quick Settings
-629971756653 SystemUI: Add Sync QS Tile
-48d2cccdefae SystemUI: Add USB Tether tile
-f0e8cbce36e9 SystemUI: AmbientTile: Default the setting to 1
-8439af40cea8 SystemUI: AmbientTile: Actually start using SecureSetting
-05ea8fc2046f SystemUI: AmbientTile: Use SecureSetting to change doze setting
-5a47e31bcf0b SystemUI: AmbientTile: Don't hardcode display settings intent
-be3995d4651d SystemUI: Add AmbientDisplay tile
-0b5a84513eae SystemUI: Add caffeine QS tile
-eaf71ed5ddf7 SystemUI: Add powershare QS tile
+5e40e1fedf inputflinger: allow disabling input devices via idc
 
 * Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
 
@@ -1462,14 +1386,5 @@ f89f1d1 Revert "nfc: extns: Drop NXP NFC legacy interface"
 * Repository: https://github.com/PixelExperience/vendor_nxp_secure_element/commits/thirteen
 
 a171c5a secure_element: Guard with soong namespace
-
-* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
-
-9f2f7bb SystemUIGoogle: Fix deprecated quality check
-796bbcc SettingsGoogle: Follow monet color in settings icon like AOSP
-1f845df SystemUIGoogle: power: disable some debug services
-b119fb4 SystemUIGoogle: Use system font for smartspace
-907ce8a SystemUIGoogle: Add missing permission for Smartspace.
-03dd178 SettingsGoogle: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
 
 
