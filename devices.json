@@ -476,6 +476,20 @@
       ]
    },
    {
+      "brand": "Realme",
+      "codename": "rmx3371",
+      "name": "Realme Q5 Pro/ Gt Neo 3T",
+      "supported_versions": [
+         {
+            "maintainer_name": "Abhishek Shukla",
+            "maintainer_url": "https://github.com/abhis699",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
       "brand": "Samsung",
       "codename": "starlte",
       "name": "Samsung Galaxy S9",
