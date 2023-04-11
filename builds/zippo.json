@@ -1,17 +1,17 @@
 {
-   "datetime": 1680333763,
+   "datetime": 1681213131,
    "donate_url": "https://www.paypal.me/chfondia",
    "error": false,
-   "filehash": "07a5d6589545d6cd18928bd35cd70af3",
-   "filename": "evolution_zippo-ota-tq2a.230305.008.c1-04010723-unsigned.zip",
+   "filehash": "b8b7344f39f683a19a22388a93b6b3df",
+   "filename": "evolution_zippo-ota-tq2a.230405.003.e1-04111138-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-zippo-official-evolution-x-08-26-22.4484739",
-   "id": "a192eaad8ea0df574bf7c92ca608fa6fcf29ae32269aa376cb33422206cf839d",
+   "id": "1329c426050fbe0e22ae80b8f3f4ad9c4f1bf306736ffb1cc966c7406e1f63ed",
    "maintainer": "Chema Funtan",
    "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2054043120,
+   "size": 2054026591,
    "telegram_username": "chematelegram",
-   "url": "https://sourceforge.net/projects/evolution-x/files/evolution_zippo-ota-tq2a.230305.008.c1-04010723-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/zippo/evolution_zippo-ota-tq2a.230405.003.e1-04111138-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

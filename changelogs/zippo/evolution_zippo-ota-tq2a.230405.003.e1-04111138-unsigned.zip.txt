@@ -1,0 +1,38 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to v4.14.312
+
+**Evolution X Update**
+
+- version: Update to 7.8 (Sisig)
+- Merge April 2023 security patches (13.0_r41)
+- PixelPropsUtils: Update fingerprints to April 2023 release
+- device_config: Remove extra pixel launcher search features (removes battery drain)
+- SystemUI: Open mobile data usage from qsfooter
+- SystemUI: Follow status bar battery style in QS
+- SystemUI: Fix black screen after DOZE
+- Doze-on-charge: Add few improvements
+- SystemUI: Make clock & battery clickable again
+- Evolver: Bring back Lockscreen clock color setting for QPR2
+- Evolver: Bring back Live Volume Steps
+- AppLock: Fix hidden apps reset after reboot
+- apn: update for T Star, Vibo and AURORA
+- PixelPropsUtils: Remove Snapchat spoof
+- SystemUI: Block few clock customizations in QS header
+- SystemUI: Link style elements to config_dialogCornerRadius
+- SystemUI: Display 2 rows when using 3 columns
+- Evolver: Allow user to customize max visible notification icons
+- Evolver: Bring back Allow to change QS tile label text size
+- Evolver: Bring back Notification Counters
+- Evolver: Bring back QS tile layout settings
+- SystemUI: Enable Partial Screensharing
+- SystemUI: Match collapsed qs header height with status bar
+- config: Disable ADB authentication
+- SystemUI: Switch to better daily data usage impl
+- SystemUI: Use better icon for camera keyguard affordance
+- SettingsLib: Fix nav bar color on certain apps
+- Settings: Add a toggle to force LTE_CA
+- Settings: Add switch preference for AGPS
+- Settings: Add toggle for connectivity check
