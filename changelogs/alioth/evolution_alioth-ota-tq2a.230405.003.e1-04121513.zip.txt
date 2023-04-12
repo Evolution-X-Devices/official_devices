@@ -1,0 +1,24 @@
+!!! MUST BE ON LATEST MIUI 14 FIRMWARE !!!
+
+Device Changes:
+sm8250-commmon: CarrierConfig: Enable voLTE/voWIFI/ViLTE for IDC Moldova
+Kernel: Rebase on latest updates: ASB-2023-03-05_4.19-stable & LA.UM.9.12.r1-15200-SMxx50.QSSI13.0
+sm8250-common: CarrierConfig: Enable vonr for Airtel and Jio
+sm8250-common: CarrierConfig: Enable voLTE/voWIFI/ViLTE for Sri Lankan Networks
+sm8250-common: CarrierConfig: enable VoLTE and VoWIFI support for Movistar
+Update blobs from MIUI 14
+Fix VubratorFeature
+And some othee improvements
+
+ROM Changes:
+Merge April 2023 security patches (13.0_r41)
+Evolver: Re-organize entries
+SystemUI: Enable camera & flashlight keyguard affordance
+PixelPropsUtils: Update fingerprints to April 2023 release
+device_config: Remove extra pixel launcher search features (removes battery drain)
+version: Update to 7.8 (Sisig)
+Set navbar color for device default settings theme
+SystemUI: Enable Partial Screensharing
+Evolver: Bring back Notification Counters
+Evolver: Bring back QS tile layout settings
+And many more that I can't post here as it will take too long tbh
