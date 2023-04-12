@@ -1,0 +1,12 @@
+Changelog:
+- Initial Official Build
+- March 2023 Security Patch
+- Update Audio HIDL to 7.1
+- Upstream Kernel to 4.14.311
+- Kang auto brightness configuration from begonia
+- Load fpsgo kmodule at boot
+- store TaskSnapshot in 16 bit pixel format to save memory
+- Force HWC copy for virtual displays
+- Enable MAC randomization
+- Update few MTK IMS blobs from RMX2020 A11 and Provide a proper shim for libsink
+- Refactor and Fixup RealmeParts

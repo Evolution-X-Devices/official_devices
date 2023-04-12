@@ -1,0 +1,63 @@
+Merge April 2023 security patches (13.0_r41)
+PixelPropsUtils: Update fingerprints to April 2023 release
+​Dismiss recording notification on stop
+SettingsLib: Update 5G+ icon to Silk design
+SystemUI: Grant READ_PHONE_STATE permission
+device_config: Remove extra pixel launcher search features (removes battery drain issues)
+version: Update to 7.8 (Sisig)
+Bluetooth: Add system properties to config audio codec priority
+GameSpace: safely update rootBarView's LayoutParam
+GameSpace: update deprecated API usages
+GameSpace: use relative-location on landscape as well
+NetworkProviderSettings: Fixup uninitialized mWifiManager
+Set navbar color for device default settings theme
+Settings: Add a toggle to force LTE_CA
+Settings: Add switch preference for AGPS
+Settings: Add toggle for connectivity check
+Settings: AGPS: Mention that it's ignored during user-initiated emergency calls
+Settings: Enable ActivityResultLauncher for keyguard
+Settings: Follow navbar color in base
+Settings: Only one channel is reserved for WifiP2pSettings
+Settings: Update Glide library
+SettingsLib: Fix nav bar color on certain apps
+SystemUI: Reduce keyguard indication text padding
+SystemUI: Switch to better daily data usage impl
+SystemUI: Use better icon for camera keyguard affordance
+Use IPv4v6 as default protocol when APN setting is not available
+config: Disable ADB authentication
+gms: Pixel Launcher: Add ACCESS_SURFACE_FLINGER permission to manifest
+init: Make an error message more informative
+sepolicy: Label system properties to config audio codec priority
+HACK: telephony: Conditionally force enable LTE_CA
+HACK: telephony: Force Class 0 SMS to Class 1
+SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+SystemUI: Match collapsed qs header height with status bar
+SystemUI: Turn on UMO turbulence noise and surface ripple by default
+SystemUI: keyguard: preview: Catch InterruptedException
+overlay: Disable immersive mode confirmation
+overlay: Enable Wi-Fi by default on first boot
+soong: Bring bootloader_message_offset back
+udfps: Forward port Boost framework hook
+Screenrecord: Save preferences for permission dialog
+fixup! Screenrecord: Allow to reduce 3 second screen record timer
+fixup! SystemUI: Export RecordingService for External Usage
+Evolver: Disable secure tiles on lockscreen switch if whole QS is already disabled
+SystemUI: Enable Partial Screensharing
+Evolver: Allow user to customize max visible notification icons
+Evolver: Bring back Allow to change QS tile label text size
+Evolver: Bring back Notification Counters
+Evolver: Bring back QS tile layout settings
+SystemUI: Allow set combined QS with config
+SystemUI: Display 2 rows when using 3 columns
+SystemUI: Global actions: fix icon position on multi-line action
+SystemUI: Link style elements to config_dialogCornerRadius
+SystemUI: Show infinity for large notification counts
+SystemUI: Use lighter material you shades for charging animation
+PixelPropsUtils: Remove Snapchat spoof
+SystemUI: Block few clock customizations in QS header
+apn: update for T Star, Vibo and AURORA
+overlay: Disable AiAiTranslationService usage
+Fix: Firewall: NMS inverts default rule behavior
+Fix viewing app info dashboard of hidden work app
+AppLock: Fix hidden apps reset after reboot
+Evolver: Bring back Live Volume Steps

@@ -1,0 +1,263 @@
+Notes:
+==============================
+Don't dirty flash from A12.1 to A13.
+Clean flash needed this time
+Use latest MIUI 14.x firmware
+Use latest recovery (https://t.me/RedmiNote10ProChannel/1254) 
+
+Device changes:
+==============================
+- Source rebased with March security patches 
+- Update the s5kgw3 camera libraries from MIUI V13.0.10.0.SKFINXM
+- Update miuicamera from 14.0.1.0.TKFMIXM
+- Drop prebuilt libcameraservice
+- Adjust status bar and icons padding
+- Address sepolicy denials
+- Disable activity freezer
+- Limit AOD & Ambient display refresh rate to 60hz
+- Update blobs from 14.0.2.0TKFEUXM
+- Import HotwordEnrollment blobs
+- Added translations for XiaomiParts
+- Speed up auto brightness ramp up
+- Included a possible fix for NFC for JAPAN variants
+- Other fixes and  improvements
+Credit :-
+               Arian, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+
+ROM changes:
+==============================
+AntiFlickerTile: Fix error in handleRefreshState
+CarrierConfig: Support commas in MNC attribute
+DefaultPermissionGrant: Fix google search crash
+Filter multi-layer cases for pre-rendering
+Fix getStorageVolumes to return public volumes visible to userIdSharingMedia with
+Fix screenshot sharing failure after the recent task is opened
+Fix the shadow problem caused by layer parent switching
+Launcher3: Add missing permissions to manifest
+Launcher3: Increase default blur radius to 65px
+OverScroller: Import BoostFramework.ScrollOptimizer
+QS: Add Locale Tile
+SF: Allow force fallback to Light HAL for brightness
+SF: Allow forcing HWC brightness support
+SF: Don't enable expensive rendering for unknown dataspace
+Settings: Revert battery graph toggle changes
+SystemUI: Also blur power sub-menus
+SystemUI: Blur the power menu
+SystemUI: Blurs: allow blur even when GFX acceleration is disabled
+SystemUI: Increase blur radius to 65px
+SystemUI: Use secondary label for language QS tile
+SystemUI: screenshot: Also post a notification with a preview
+Updater: Remove setPerformanceMode call
+base: Grant MIUI Gallery storage permissions
+base: Grant OnePlus Gallery storage permissions
+blur: Downscale source FBO to 20% size
+config: Add Blur props and enable flag by default
+config: Add missing permissions for [SystemUI/Settings]Google
+config: Remove gxoverlay prop
+core: Port CLO's Framework Boost
+data: Add missing systemui permissions
+overlay: Set default status bar height to 28dp
+perf: Add lock protection for initialization in ScrollOptimizer
+rro_overlays: Remove NowPlayingOverlay (for Pixels)
+sepolicy: allow system_server to set tethering properties
+telephony: Check for LTE_CA in physical channel config
+telephony: Use case insensitive check for plmn-spn
+Add BT LE headset check for voice call to update the icon
+Add YCBCR_P010 in switch content in ImageUtil getNumPlanes
+Add back button for freeform window
+Add minimize & pip buttons to freeform windows
+Always make mouse cursor show on external display if it exists
+Bump timeout for display rotation
+Delay tryToRebind if application exit reason is LMK
+DisplayWindowSettings: Don’t check for forceDesktopMode for freeform
+Do not ignore background vibrations from shell
+EasterEgg: allow using toy without unlocking
+Evolver: Use a new QS tiles count & vertical layout settings implementation
+Fix phone restarts after SD card formatted as internal storage
+Fix pip error, from split-screen to pip in landscape
+Format conference participant phone numbers to national for Japan
+GLSurfaceView: report draw finished after first onDrawFrame in GLThread
+GoogleConfigOverlay: Set default Call Redirection/Screening package to Google Dialer
+InputManager: add cursor change listener
+InputManager: allow to force NULL cursor
+Make sure parallel broadcasts enforce excluded permissions
+Only show pip button if activity supports it
+PixelPropUtils: spoof Snapchat
+Resolve the NullPointerException in ExitTransitionCoordinator.java
+Settings: Global VPN feature
+SettingsGoogle: Follow monet color in settings icon like AOSP
+SystemUI: Don't open power menu from QS too if disabled by user on secure lockscreen
+SystemUI: Fix clock text color on combined qs header
+SystemUI: Fix qs tile vertical layout scrolling
+SystemUI: global actions: fix icon position on multi-line action
+SystemUIGXOverlay: unset camera gesture package
+SystemUIGoogle: Unset google_camera_app_package_name
+Update translations
+base: UsbDeviceManager: Allow overriding USB class denials
+bluetooth: audiocodecs: add 16 bit sample rate for APTX offloading
+core: Port CLO's Framework Boost and guard it with overlay
+core: res: config: speed up tooltip animations
+fixup! GameSpace: Update takeScreenshot API in ScreenUtils
+fixup! base: allow disabling ripple effect on unlock
+vendor: Update overlays from cheetah: TQ1A.230205.002
+Bring back Ambient music ticker pulse
+Bring back Private Compute Services prebuilt app (fixes downloading Live Captions; reinstall Android System Intelligence app from Play store)
+Evolver: Move pulse on new tracks from Settings
+Evolver: Remove QS panel styles (fixes status bar touch issues in landscape)
+Launcher3: Add kill App button to recents overview
+Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids)
+Launcher3: Shorten Spanish translation
+SystemUIGoogle: Revert Smartspace to pre-13-QPR1 (fixes crashing/music playback issues while using AoD; music info will be missing again from ambient/AoD)
+Add additional work profile badge colors and labels
+Always allow overriding the number of work profiles 
+Fix Open With dialog within a work profile
+Fix unlocking of multiple work profiles at boot
+KeyguardMediaViewController: Cleanup and add proper annotations (fix SystemUI crash while playing music in AOD)
+Launcher3: Remove lock tasks feature
+PixelPropsUtils: Don't spoof some apps to cheetah (fixes Meet camera issues)
+SettingsProvider: Remove backup for some feature settings (might fix restoring Settings during Google restore)
+SystemUI: Do not add lens screenshot without google package enabled
+SystemUI: Remove BT dialog QS tile
+SystemUI: Remove split shade notifications on landscape
+Use profile's power button/timeout lock settings
+ViewGroup: Remove child parent when a new view is added
+device_config: Don’t use new privacy indicators for location
+overlay: Partially disable gms chimera service
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+Codec2: guard the dummy work signal to lahaina only
+Codec2: queue a empty work to HAL to wake up allocation thread
+Evolver: Configurable media notification and lockscreen blur radius
+Evolver: Fade filter for lockscreen media artwork
+Evolver: Fade filter for media notification
+Evolver: Resolve NPE when opening iconpacks pref
+Evolver: Rework media artwork and blur implementation
+Fix status bar landscape touch issues
+GameSpace: Remove dim layer from the panel view
+Improve renderscript allocation and usage
+JobScheduler: Stop leaking user information
+KeyguardMediaViewController: Cleanup and add proper annotations
+Launcher3: Redesign recents app buttons
+PixelPropsUtils: Don't spoof some apps
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SettingsProvider: Remove backup for some feature settings
+SystemUI: Fix optional ripple animation issue
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Re-implement Bluetooth dialog
+SystemUI: Stop using marquee on qs tiles label
+apn: AMC now is ONE Albania
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+fixup! permissions: Pre-grant google restore permissions (attempt to fix google restore issue)
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+overlay: Partially disable gms chimera service
+tinycompress: Add support for compress_set_codec_params API
+tinycompress: plugin: Set codec params in SETUP state
+Allow profile owner to set user_setup_complete secure setting
+AttestationHooks: Spoof cheetah to gms.ui and gms.learning
+AttestationHooks: Spoof device as Pixel 5 for Google Photos by default
+AttestationHooks: Spoof raven to gms.persistent
+Evolver: Allow locking all apps visible in launcher
+Evolver: Configurable media notification and lockscreen blur radius
+Evolver: Fade filter for lockscreen media artwork
+Evolver: Fade filter for media notification
+Evolver: Import more status bar logo styles
+Evolver: Resolve NPE when opening iconpacks pref
+Evolver: Rework media artwork and blur implementation
+Evolver: Update AppLock API
+Exclude Gallery2
+Improve renderscript allocation and usage
+InputMethodManager: Prevent unnecessary invocation of IME
+JobScheduler: Stop leaking user information
+Launcher3: Bring back support for custom themed icon pack
+Launcher3: Fix a potential NPE when buildAnimationController is called
+Launcher3: Fix potential ConcurrentModificationException
+Launcher3: Restore blur depth on configuration change
+Launcher3: Switch to AppLock API for protected apps
+Launcher3: Use ic_screenshot for recents screenshot drawable again
+ParallelSpace: Block telecom server package
+PhoneStatusBarTransitions: Always animate battery out at the same rate
+PixelPropsUtils: Don't spoof for Pixel 2 and 3 series
+PixelPropsUtils: Spoof Samsung Accessory apps
+Pre-grant some prebuilt google app permissions
+Revert reticker implementation (fixes flickers in notification panel)
+SystemUI: Fix QS expand lag when VoLTE/VoWiFi icons are enabled
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: Re-implement Bluetooth dialog
+Update translations
+ViewGroup: Remove child parent when a new view is added
+apn: AMC now is ONE Albania
+audio: Fix HAL reply handling in CompressedOffloadOutputStreamTest
+base: overlays: Fixed ! cutting signal icons in restored themes
+btaudio: aidl: Support offloading all LDAC qualities
+core: Fix suspend failure for privileged system components
+device_config: Update now playing to 2/19/23
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+gms: Stop building Photos for gms_mini
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+overlays: Fix switch thumb for Outline iconpack
+overlays: iconpacks: Update launcher screenshot fill color
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+permissions: Pre-grant google restore permissions
+themes: Add removed iconpacks as WiFi and Signal overlays
+Allow required Android Auto permissions
+Camera: Update HIDL overrideFormat from HAL
+Evolver: Add Heads up toggle dependency for HUN
+Evolver: Custom UDFPS icon feature
+Evolver: Remove changelog preference
+Evolver: Use SystemSettingMainSwitchPreference for Battery bar settings
+Less boring heads up: Don't skip heads up for most messaging apps
+Settings: Don't randomize The Evolver's summary anymore
+Settings: Re-implement ‘Remove IME space under keyboard’ feature
+Settings: Use SystemSettingMainSwitchPreference for Battery Charge warning
+Settings: Use TopIntroPreference instead of footer for some preferences
+Updates: Remove changelog button
+Updates: Use Evo's logo within app window
+base: Improve IME space feature overlay
+Allow required Android Auto permissions
+AppLock Allow locking all apps visible in launcher
+AppLock Slightly bigger icon size
+AppLock Update API
+AppOpsService Don't log stack traces for isolated processes
+Camera Fix null pointer access
+Camera Update HIDL overrideFormat from HAL
+ConfigurationController Prevent app crash caused by null configuration
+EvolverSettings Move back App Lock impl to Settings app
+EvolverSettings Use better main switch title strings
+Evolver Add Heads up toggle dependency for HUN
+Evolver Custom UDFPS icon feature
+Evolver Remove OOS style notification clear all button
+Evolver Remove changelog preference
+Evolver Use SystemSettingMainSwitchPreference for Battery bar settings
+Fix NPE when pip onAnimationEnd
+Fix pip error, from split-screen to pip in landscape
+Fix profile provisioning check in secondary users
+Fix secondary user crash with system user locked
+Fix the pip bounds error when entering pip mode
+Fix ‘Pause is getting scheduled 2 times’ PIP issue
+Fix ‘Youtube application when moving to PIP animation was very bad’ issue
+Frameworks Enable VoNR by default
+Ignore AGPS toggle during user-initiated emergency calls
+Launcher3 Switch to AppLock API for protected apps
+Launcher3 Update AppLock API and integrate hidden apps
+Less boring heads up Don't skip heads up for most messaging apps
+Remove sensitive info from SUPL requests
+Settings Avoid saving length as in a sql db for quick unlock
+Settings Don't randomize The Evolver's summary anymore
+Settings Re-implement ‘Remove IME space under keyboard’ feature
+Settings Use SystemSettingMainSwitchPreference for Battery Charge warning
+Settings Use TopIntroPreference instead of footer for some preferences
+Updates Remove changelog button
+Updates Remove fetching of changelog
+Updates Use Evo's logo within app window
+base Improve IME space feature overlay
+hwui Prevent systemui crash caused by segfault

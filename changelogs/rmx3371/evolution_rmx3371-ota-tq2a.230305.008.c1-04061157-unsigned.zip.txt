@@ -1,0 +1,261 @@
+==========================================
+Notes:
+==========================================
+- Always backup your data.
+- Clean Flash Recommended
+- SafetyNet Passes by default
+==========================================
+Device Changelog:
+==========================================
+* Initial official release
+* March Security patch and qpr2 changes
+* Added Prebuilt Gcam
+* Changed UDFPS positions for better enrollment
+* Fixed Brightness issues
+* Disabled combined qs which caused lags in status bar
+=======================
+     2023/04/06
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+bbebd8e4 [Bugfix]fix NullPointException when pkg is null
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+a30e8f6 New Crowdin updates (#226-#422)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+bb6e0c6 GameSpace: Switch Xuse-experimental flags into opt-in
+
+
+=======================
+     2023/04/05
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+f2b2c49 gms: Switch to Pixel 5 versions of Pixel Launcher and ASI for all
+
+
+=======================
+     2023/04/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+b1d1c9d SF: Avoiding unnecessary frame skip to reduce janks.
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+acf69b4 adb: Look for shell executable in alternate places
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+bf36ffa overlay: Disable AiAiTranslationService usage
+
+
+=======================
+     2023/04/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+780187d SessionConfigurationUtils: Allow privileged camera apps to create raw streams for raw capable cameras
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+3e438d6 manifest: Initial A13 manifest (Evolution X 7.7)
+
+
+=======================
+     2023/04/02
+=======================
+
+
+=======================
+     2023/04/01
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+03fcf0c Light: Add null check for lights smart pointer
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+09c751c Support extracting from sparsechunk super images
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+179059f SystemUIGoogle: Inject Smart Pixels as CoreStartable interface
+
+
+=======================
+     2023/03/31
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6047b9c Refresh "Device details" after resuming
+
+
+=======================
+     2023/03/30
+=======================
+
+
+=======================
+     2023/03/29
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+002af46 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+929a07c sepolicy_vndr: restore iwlan hwservice
+
+
+=======================
+     2023/03/28
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+9829b61 Aperture: Ensure output is truncated
+
+
+=======================
+     2023/03/27
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+7596f11 Merge tag 'android-13.0.0_r35' of https://android.googlesource.com/platform/bionic into tiramisu
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/tiramisu
+
+c33a21b Revert "libsepol: Make an unknown permission an error in CIL"
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+cfce003 tinycompress: plugin: Set codec params in SETUP state
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+332f6c6 Add more DNS providers [1/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+db1e82d CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/tiramisu
+
+4d6f66a Revert "Disallow shrinking threadpool size once started."
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+9396119 Handle key parameter conversion for FBE_ICE tag
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/tiramisu
+
+b4ef87c mkbootimg: add support for --dt
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+9627772 Don't verify payload signatures in recovery
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+97862ab vold: Accept Linux GPT partitions on external SD cards
+
+
+=======================
+     2023/03/26
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+b979954 common: Suspend in charger mode after charging finishes
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+3f4e72b Revert "frameworks: Update HIDL overrideFormat from HAL"
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/refs/heads/lineage-20.0
+
+ac823d9 gralloc: Fix Compilation errors
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+fcc9013 rosemary: Initial firmware
+
+
+=======================
+     2023/03/25
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-msm8998
+
+13a4965 gralloc: Fix Compilation errors
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sdm845
+
+bf38af8 gralloc: Fix Compilation errors
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8150
+
+7f1207d gralloc: Fix Compilation errors
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_sdm845_display/commits/lineage-20.0
+
+e048fed gralloc: Fix Compilation errors
+
+
+=======================
+     2023/03/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-20.0
+
+2bcf130 Merge tag 'LA.QSSI.13.0.r1-09400-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-09400-qssi.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8250
+
+0242c27 Merge tag 'LA.UM.9.12.r1-15200-SMxx50.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-15200-SMxx50.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+6a6e46f Merge tag 'LA.VENDOR.1.0.r1-20700-WAIPIO.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-20700-WAIPIO.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commits/refs/heads/lineage-20.0
+
+a07bc5f Merge tag 'LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commits/refs/heads/lineage-20.0
+
+2493524 Merge tag 'LA.QSSI.13.0.r1-09400-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-09400-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr/commits/lineage-20.0-legacy-um
+
+bb0df39 Merge tag 'LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+775cfd9 Merge tag 'LA.QSSI.13.0.r1-09400-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-09400-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commits/refs/heads/lineage-20.0
+
+4ca4338 Merge tag 'LA.QSSI.13.0.r1-09400-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-09400-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+adbcfe8 Merge tag 'LA.VENDOR.1.0.r1-20700-WAIPIO.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-20700-WAIPIO.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+b89a8fa Merge tag 'LA.VENDOR.1.0.r1-20700-WAIPIO.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-20700-WAIPIO.0
+
+

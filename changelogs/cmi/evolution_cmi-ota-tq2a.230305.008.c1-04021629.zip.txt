@@ -1,0 +1,18 @@
+  
+2023-04-02
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 13.0.6.0
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: add support for miui camera
+  * sm8250-common: remove duplicated sepolicy wake contexts
+
+
+ROM:
+
+  * Merge latest EvolutionX changes - too many to list ;)

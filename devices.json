@@ -135,7 +135,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4547009/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-07-2023.4547009/"
          }
       ]
    },
@@ -149,7 +149,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4547009/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-07-2023.4547009/"
          }
       ]
    },
@@ -159,11 +159,11 @@
       "name": "Pixel 6a",
       "supported_versions": [
          {
-            "maintainer_name": "lahaina",
-            "maintainer_url": "https://twitter.com/RMX3031_cn",
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4547009/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-07-2023.4547009/"
          }
       ]
    },
@@ -275,7 +275,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-02-28-2022.4509185/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-08-2022.4509185/"
          }
       ]
    },
@@ -289,7 +289,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-02-28-2022.4509185/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-08-2022.4509185/"
          }
       ]
    },
@@ -303,7 +303,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-02-28-2023.4509195/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-08-2023.4509195/"
          }
       ]
    },
@@ -317,7 +317,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-02-28-2023.4509195/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-08-2023.4509195/"
          }
       ]
    },
@@ -387,7 +387,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-05-2023.4388391/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-09-2023.4388391/"
          }
       ]
    },
@@ -401,7 +401,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-05-2023.4388391/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-evolution-x-7-7-04-09-2023.4388391/"
          }
       ]
    },
@@ -435,11 +435,25 @@
    },
    {
       "brand": "Realme",
-      "codename": "RMX199X",
-      "name": "Realm X2",
+      "codename": "RMX2020",
+      "name": "Realme C3/ Narzo 10A",
       "supported_versions": [
          {
-            "maintainer_name": "𝕳𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑_𝕽",
+            "maintainer_name": "Koushik Dey",
+            "maintainer_url": "https://github.com/Koushikdey2003",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r35-official-rmx2020-evolution-x-7-7-02-04-2023.4571587/"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
+      "codename": "RMX199X",
+      "name": "Realme X2",
+      "supported_versions": [
+         {
+            "maintainer_name": "𝓗𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑_𝕽",
             "maintainer_url": "https://forum.xda-developers.com/m/rjtangpos.11038077/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -458,6 +472,20 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/android-13-rmx2170-evolution-x-for-realme-7-pro-official-rom.4485719/"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
+      "codename": "rmx3371",
+      "name": "Realme Q5 Pro/ Gt Neo 3T",
+      "supported_versions": [
+         {
+            "maintainer_name": "Abhishek Shukla",
+            "maintainer_url": "https://github.com/abhis699",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": ""
          }
       ]
    },
@@ -738,6 +766,20 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-veux-peux-official-evolution-x-03-29-23.4497785/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "begonia",
+      "name": "Redmi Note 8 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Shamik",
+            "maintainer_url": "https://t.me/shhhamik",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": ""
          }
       ]
    },
