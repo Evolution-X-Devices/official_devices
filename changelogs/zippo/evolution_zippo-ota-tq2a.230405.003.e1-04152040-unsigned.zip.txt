@@ -1,0 +1,18 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Merge LA.UM.9.1.r1-13400-SMxxx0.QSSI12.0 from CAF
+
+**Evolution X Update**
+
+- Evolver: Re-organize entries
+- SystemUI: Fix QS header alignment with status bar
+- base: Fix smart charging bug
+- Evolver: Bring back QS panel styles
+- Evolver: Bring back OOS style notification clear all button styles
+- Evolver: Bring back Netflix spoof
+- Evolver: Bring back Dynamic VoLTE & VoWiFi icons
+- Evolver: Bring back Configurable lockscreen album art blur radius
+- SystemUI: Rework media artwork implementation
+- SystemUI: Align the qs carrier text to its gravity bias
