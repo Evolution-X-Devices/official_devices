@@ -1,0 +1,132 @@
+Notes:
+==============================
+Don't dirty flash from A12.1 to A13.
+Clean flash needed this time
+Use latest MIUI 14.x firmware
+Use latest recovery (https://t.me/RedmiNote10ProChannel/1549) 
+
+Device changes:
+==============================
+- Updated blobs from sweet V14.0.1.0.TKFMIXM
+- Repatched IMS from sweet V14.0.1.0.TKFMIXM
+- Updated the s5kgw3 camera libraries from MIUI V14.0.1.0.TKFINXM
+- Updated Adreno to LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0
+- Adjusted status bar padding
+- Fixed EGL symlink
+- No More erofs support
+- Updated XiaomiParts translations
+- Adjust status bar padding
+- Switch Aghisna kernel ( build with cosmic clang 
+Credit :-
+               Arian, Adarsh, RooGhz720 for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+
+ROM changes:
+==============================
+PixelPropsUtils: Remove Snapchat spoof
+SystemUI: Block few clock customizations in QS header
+apn: update for T Star, Vibo and AURORA
+Evolver: Allow user to customize max visible notification icons
+Evolver: Bring back Allow to change QS tile label text size
+Evolver: Bring back Notification Counters
+Evolver: Bring back QS tile layout settings
+SystemUI: Allow set combined QS with config
+SystemUI: Display 2 rows when using 3 columns
+SystemUI: Global actions: fix icon position on multi-line action
+SystemUI: Link style elements to config_dialogCornerRadius
+SystemUI: Show infinity for large notification counts
+SystemUI: Use lighter material you shades for charging animation
+SystemUI: Enable Partial Screensharing
+Evolver: Disable secure tiles on lockscreen switch if whole QS is already disabled
+Screenrecord: Save preferences for permission dialog
+fixup! Screenrecord: Allow to reduce 3 second screen record timer
+fixup! SystemUI: Export RecordingService for External Usage
+HACK: telephony: Conditionally force enable LTE_CA
+HACK: telephony: Force Class 0 SMS to Class 1
+SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+SystemUI: Match collapsed qs header height with status bar
+SystemUI: Turn on UMO turbulence noise and surface ripple by default
+SystemUI: keyguard: preview: Catch InterruptedException
+overlay: Disable immersive mode confirmation
+overlay: Enable Wi-Fi by default on first boot
+soong: Bring bootloader_message_offset back
+udfps: Forward port Boost framework hook
+Bluetooth: Add system properties to config audio codec priority
+GameSpace: safely update rootBarView's LayoutParam
+GameSpace: update deprecated API usages
+GameSpace: use relative-location on landscape as well
+NetworkProviderSettings: Fixup uninitialized mWifiManager
+Set navbar color for device default settings theme
+Settings: Add a toggle to force LTE_CA
+Settings: Add switch preference for AGPS
+Settings: Add toggle for connectivity check
+Settings: AGPS: Mention that it's ignored during user-initiated emergency calls
+Settings: Enable ActivityResultLauncher for keyguard
+Settings: Follow navbar color in base
+Settings: Only one channel is reserved for WifiP2pSettings
+Settings: Update Glide library
+SettingsLib: Fix nav bar color on certain apps
+SystemUI: Reduce keyguard indication text padding
+SystemUI: Switch to better daily data usage impl
+SystemUI: Use better icon for camera keyguard affordance
+Use IPv4v6 as default protocol when APN setting is not available
+config: Disable ADB authentication
+gms: Pixel Launcher: Add ACCESS_SURFACE_FLINGER permission to manifest
+init: Make an error message more informative
+sepolicy: Label system properties to config audio codec priority
+​​Dismiss recording notification on stop
+Merge April 2023 security patches (13.0_r41)
+PixelPropsUtils: Update fingerprints to April 2023 release
+SettingsLib: Update 5G+ icon to Silk design
+SystemUI: Grant READ_PHONE_STATE permission
+device_config: Remove extra pixel launcher search features (removes battery drain)
+version: Update to 7.8 (Sisig)
+Evolver: Re-organize entries
+SystemUI: Enable camera & flashlight keyguard affordance
+display: Disable refresh rate switching with DC Dimming
+telephony: Add ICCID into CarrierIdentifier
+SystemUI: Align QS header with status bar
+SystemUI: Fix QS header alignment with status bar
+Native: VibratorFeature: Import Xiaomi Android 13 Changes 
+SystemUI: Align QS header with status bar
+SystemUI: flags: Enable new output switcher
+SystemUI: Fix QS header alignment with status bar
+Updater: Remove "what's new" text
+Allow toggling VoWiFi while roaming by default
+Evolver: Bring back Configurable lockscreen album art blur radius​​
+Evolver: Bring back Dynamic VoLTE & VoWiFi icons
+Evolver: Bring back Netflix spoof
+Evolver: Bring back OOS style notification clear all button styles
+Evolver: Bring back QS panel styles
+Evolver: Remove FP auth vibration toggles
+InputDevices: Fix Hungarian language overlay
+MetaKeyKeyListener: Disable locking of toggled modifier keys
+PixelPropsUtils: Add support for Asphalt 9
+Settings: Add secondary Smart charging availability condition
+SystemUI: Hide oos clear all if reticker enable 
+SystemUI: Prevent InternetDialog crashing system
+SystemUI: Reset QS on UI mode change
+base: Fix smart charging bug
+Evolver: Bring back Fade filter for lockscreen media artwork
+PixelPropsUtils: move snapchat to walleye spoofing
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Align the qs carrier text to its gravity bias
+SystemUI: Rework media artwork implementation
+Fix crash with HW assist button
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+base: Introduce PowerOffAlarmService
+libs: hwui: Silence OpenGL swap behavior failures
+overlay: Frameworks: Separate controls for notification and ringtone volumes
+BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+Fix NPE when store brightness and displayDevice is null
+InternetDialog: Require unlocking to turn on hotspot
+PixelPropsUtils: Use OP 8 PRO for Mobile legends
+PowerOffAlarmService: Add a toast indication of alarm status
+SystemUI: flags: Disable Monochromatic themes
+SystemUIGoogle: Disable Adaptive charging logging
+base: Add SmartSwitchChanged api
+base: Support for device specific input Filter
+base: Try loading input filter only if specified
+overlay: Move default status bar height to no-rro
