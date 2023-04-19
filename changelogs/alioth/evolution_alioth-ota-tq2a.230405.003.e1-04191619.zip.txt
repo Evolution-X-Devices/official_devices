@@ -1,0 +1,38 @@
+Device Changes:
+Switch to latest Nexus kernel compiled with Clang 17
+Add HBM
+Add Smart Charging
+Remove unneeded hints from powerhint
+Remove CAF Input boost
+Fix LDAC
+Disable QTI Perf lock for camera
+Switch to AVC 3.1 for screen recording
+Update thermal configs from v14.0.7.0.TKHEUXM
+Add 150MHz GPU freq to powerhint
+Add KProfiles
+Enable UFS powersaving after boot
+Add blkio tuning from sunfish
+Enable ro.hwui.render_ahead
+Enable TWS+ support
+Enable Qualcomm TrueWireless™ Stereo
+Report max frequency to tencent games
+Update RIL props for battery life.
+Tune Dalvik values
+Tune Adaptive Suspend parameters
+Update power profile config
+
+ROM Changes:
+Bring back Evo X Launcher, ThemePicker and WallpaperPicker2
+permissions: Pre-grant google restore permissions
+overlay: Import themed icons from crDroid for our launcher
+Settings: Add switch to unlink ringtone and notifications volume
+PixelPropsUtils: Cleanup
+Launcher3: Match default apps/dimens/layouts with Pixel Launcher
+ThemePicker: Expose quick affordances section on default UI
+overlay: Target Evo X Launcher/AOSP ThemePicker
+SystemUI: flags: Disable Monochromatic themes
+SystemUIGoogle: Disable Adaptive charging logging
+base: Add SmartSwitchChanged api
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+base: Introduce PowerOffAlarmService
+
