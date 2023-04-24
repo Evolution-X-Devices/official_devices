@@ -1,0 +1,200 @@
+This is  April 2023 security patches (13.0_r41)
+
+=======================
+Device side Changes: 
++updated with the latest changes
+From Cera 
++Enable Jemalloc
+changes
+
+NOTE: YOU CAN DIRTY
+FLASH BUT CLEAN FLASH IS 
+RECOMMENED. PLEASE FORMAT 
+YOUR DATA. THANK YOU 
+FOR SELECTING EVOLUTION X
+=======================
+ROM Sources Changes
+=======================
+     2023/04/24
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+14efb499 SystemUI/AuthRippleView: Less Boring Dwell Ripple
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+5dcb779 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+8965e67 [DNM] Evolver: Remove disabling unlock ripple [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+ad3ff8b New Crowdin updates (#42)
+
+skipping vendor/firmware/
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+64b4992 Automatic translation import
+
+
+=======================
+     2023/04/23
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+761e4ca New Crowdin updates (#306)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d9ab48e New Crowdin updates (#1-#13)
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+c53f02c WallpaperPicker2: fix overlapping when scrolling
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+5781e29 Revert "Revert "config: Build NavigationBarMode2ButtonOverlay""
+
+skipping vendor/firmware/
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+bf7b4bc gms: Switch back to Evo X Launcher
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+c1f20a4 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/04/22
+=======================
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/21
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/tiramisu-jem
+
+a070823 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+1692c1c Fix an issue that the sensor privacy does not apply to the new camera clients
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/19
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+ed23f09 common: Introduce support to all SoC family
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/18
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+55c9e1b Multiple work profile badge colors for Launcher3
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+84223e1 manifest: Track repos for jemalloc changes
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+9089e12 audio_hal/aidl: Don't fallback to SW encoding when HW is supported
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/17
+=======================
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/16
+=======================
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/15
+=======================
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/14
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+91a122b Updates: Remove "what's new" text
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+4649965 Native: VibratorFeature: Import Xiaomi Android 13 Changes
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/12
+=======================
+
+skipping vendor/firmware/
+
+=======================
+     2023/04/11
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/tiramisu-jem
+
+6d609ee build: soong: use jemalloc by default and allow opt-in to scudo (2/3)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+e9d6dca Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+3a10dc9 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+356fa0a Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/tiramisu-jem
+
+58b4c06 debuggerd: Remove scudo headers from debuggerd tests
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+915de93 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+skipping vendor/firmware/
+
