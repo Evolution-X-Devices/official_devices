@@ -1,0 +1,22 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.213
+
+**Evolution X Update**
+
+- Settings: Add a toggle to separate controls for notification and ringtone volumes
+- Fix power-off alarm with Google clock
+- Bring back Evo X Launcher, ThemePicker and WallpaperPicker2
+- Settings: FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+- Launcher3: Match default apps/dimens/layouts with Pixel Launcher
+- Launcher3: Remove default at a glance widget for higher grids
+- Fix an issue that the sensor privacy does not apply to the new camera clients
+- SystemUI: Fix pocket lock after 13 QPR1
+- Evolver: add QS Header Images
+- Fix some games crashing- blur: Switch to glass blur effect
+- Launcher3: Make recents buttons chips
+- Bring back NavigationBarMode2Button
+- Update translations
+- Evolver: Bring back Fingerprint authentication vibration

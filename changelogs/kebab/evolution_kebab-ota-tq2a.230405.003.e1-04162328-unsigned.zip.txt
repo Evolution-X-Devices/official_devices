@@ -1,0 +1,162 @@
+============================================
+This build will update you to April ASB
+
+Please update to OSS F.63 firmware before
+or after flashing this build. It is not
+required to boot, although it is recomended.
+
+Always back up your data!
+============================================
+Fix crash with HW assist button
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+base: Introduce PowerOffAlarmService
+libs: hwui: Silence OpenGL swap behavior failures
+overlay: Frameworks: Separate controls for notification and ringtone volumes
+Evolver: Bring back Fade filter for lockscreen media artwork
+PixelPropsUtils: move snapchat to walleye spoofing
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Align the qs carrier text to its gravity bias
+SystemUI: Rework media artwork implementation
+Allow toggling VoWiFi while roaming by default
+Evolver: Bring back Configurable lockscreen album art blur radius​​
+Evolver: Bring back Dynamic VoLTE & VoWiFi icons
+Evolver: Bring back Netflix spoof
+Evolver: Bring back OOS style notification clear all button styles
+Evolver: Bring back QS panel styles
+Evolver: Remove FP auth vibration toggles
+InputDevices: Fix Hungarian language overlay
+MetaKeyKeyListener: Disable locking of toggled modifier keys
+PixelPropsUtils: Add support for Asphalt 9
+Settings: Add secondary Smart charging availability condition
+SystemUI: Hide oos clear all if reticker enable 
+SystemUI: Prevent InternetDialog crashing system
+SystemUI: Reset QS on UI mode change
+Native: VibratorFeature: Import Xiaomi Android 13 Changes 
+SystemUI: Align QS header with status bar
+SystemUI: flags: Enable new output switcher
+SystemUI: Fix QS header alignment with status bar
+Updater: Remove "what's new" text
+Evolver: Re-organize entries
+SystemUI: Enable camera & flashlight keyguard affordance
+display: Disable refresh rate switching with DC Dimming
+telephony: Add ICCID into CarrierIdentifier
+​​Dismiss recording notification on stop
+Merge April 2023 security patches (13.0_r41)
+PixelPropsUtils: Update fingerprints to April 2023 release
+SettingsLib: Update 5G+ icon to Silk design
+SystemUI: Grant READ_PHONE_STATE permission
+device_config: Remove extra pixel launcher search features (removes battery drain)
+version: Update to 7.8 (Sisig)
+Bluetooth: Add system properties to config audio codec priority
+GameSpace: safely update rootBarView's LayoutParam
+GameSpace: update deprecated API usages
+GameSpace: use relative-location on landscape as well
+NetworkProviderSettings: Fixup uninitialized mWifiManager
+Set navbar color for device default settings theme
+Settings: Add a toggle to force LTE_CA
+Settings: Add switch preference for AGPS
+Settings: Add toggle for connectivity check
+Settings: AGPS: Mention that it's ignored during user-initiated emergency calls
+Settings: Enable ActivityResultLauncher for keyguard
+Settings: Follow navbar color in base
+Settings: Only one channel is reserved for WifiP2pSettings
+Settings: Update Glide library
+SettingsLib: Fix nav bar color on certain apps
+SystemUI: Reduce keyguard indication text padding
+SystemUI: Switch to better daily data usage impl
+SystemUI: Use better icon for camera keyguard affordance
+Use IPv4v6 as default protocol when APN setting is not available
+config: Disable ADB authentication
+gms: Pixel Launcher: Add ACCESS_SURFACE_FLINGER permission to manifest
+init: Make an error message more informative
+sepolicy: Label system properties to config audio codec priority
+HACK: telephony: Conditionally force enable LTE_CA
+HACK: telephony: Force Class 0 SMS to Class 1
+SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+SystemUI: Match collapsed qs header height with status bar
+SystemUI: Turn on UMO turbulence noise and surface ripple by default
+SystemUI: keyguard: preview: Catch InterruptedException
+overlay: Disable immersive mode confirmation
+overlay: Enable Wi-Fi by default on first boot
+soong: Bring bootloader_message_offset back
+udfps: Forward port Boost framework hook
+Screenrecord: Save preferences for permission dialog
+fixup! Screenrecord: Allow to reduce 3 second screen record timer
+fixup! SystemUI: Export RecordingService for External Usage
+Evolver: Disable secure tiles on lockscreen switch if whole QS is already disabled
+SystemUI: Enable Partial Screensharing
+Evolver: Allow user to customize max visible notification icons
+Evolver: Bring back Allow to change QS tile label text size
+Evolver: Bring back Notification Counters
+Evolver: Bring back QS tile layout settings
+SystemUI: Allow set combined QS with config
+SystemUI: Display 2 rows when using 3 columns
+SystemUI: Global actions: fix icon position on multi-line action
+SystemUI: Link style elements to config_dialogCornerRadius
+SystemUI: Show infinity for large notification counts
+SystemUI: Use lighter material you shades for charging animation
+PixelPropsUtils: Remove Snapchat spoof
+SystemUI: Block few clock customizations in QS header
+apn: update for T Star, Vibo and AURORA
+overlay: Disable AiAiTranslationService usage
+Fix: Firewall: NMS inverts default rule behavior
+Fix viewing app info dashboard of hidden work app
+AppLock: Fix hidden apps reset after reboot
+Evolver: Bring back Live Volume Steps
+Evolver: Bring back Lockscreen clock color setting for QPR2
+SessionConfigurationUtils: Allow privileged camera apps to create raw streams for raw capable cameras
+SystemUI: Make clock & battery clickable again
+base: Do not reset keyguard going away state
+display: Don't reset brightness adjustment on clearUserDataPoints()
+AppProfiler: dont be so hectic on cpu battery stats
+Don't fail setDeviceConnectionState if not implemented in hal
+Doze-on-charge: Add few improvements
+DragSurface: destroy surfacecontrol in view site
+Fix binderDied of an app can not be triggered in some cases
+Fix watchdog when NaN lux is reported
+Fixes crash/race condition when destroyActivity
+Make sure view is laid out before calling createBitmap
+Make sure width and height are not zero before calling createBitmap
+SystemUI: Avoid unnecessary keyguard indication controller recreation
+SystemUI: Fix black screen after DOZE
+SystemUI: Follow status bar battery style in QS
+SystemUI: Open mobile data usage from qsfooter
+SystemUIGoogle: Inject Smart Pixels as CoreStartable interface
+ZygoteInit: Disable debug and tracing
+bugfix: automatic notification permission request breaks in some cases
+config: Enable QR scanner shortcut in lock screen
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+Evolver: Bring back Photos spoof and keep it off by default
+Evolver: Remove QS layout customization
+CachedAppOptimizer : Fix compaction configuration being ignored
+KeyguardIndication: Set wakelock on doze only when required
+Perf: Fix the issue that activity boost duration abnormal
+PixelPropsUtils: Spoof back part of Google Apps to Pixel 5
+Settings: Refresh "Device details" after resuming
+Stagbin implementation for posting error logs
+SystemUI: Do not translate FPS to other languages
+SystemUI: Skip screenrecord dialog when long pressing the QS tile
+SystemUI: screenrecord: Remember last used blinking dot position
+SystemUIGoogle: AmbientIndication: Fixed layout issue for Now Playing indication
+Evolver: Bring back Pulse support
+Evolver: Bring back Smart Pixels
+AppLock: Allow locking all apps visible in launcher
+AppLock: Update API
+AttestationHooks: Drop Google Photos spoofing
+AttestationHooks: Spoof encrypted device for Health Connect
+CompanionDeviceManager: This uses the MANAGE_COMPANION_DEVICES permission
+Disable Ambient on wake gesture when incall
+EdgeLight: Fix up applying custom color
+Evolver: Allow to choose lockscreen or Ambient on wake gestures
+Evolver: Fix Edge light option dependency
+Evolver: Show Ambient display category for device with tap or double tap sensors
+Settings: Add more trigger actions/app/activities
+Settings: Allow enabling ethernet tethering independent of link state
+udfps: Implement default udfps display mode provider
+vendor: Remove Evolution Themes stub
+AttestationHooks: Fix issues
+Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+gms: Add missing permission for Pixel Launcher
+PixelPropsUtils: Spoof user build
+PixelPropsUtils: Spoof userdebug to Pixel Launcher
+SystemUI: qs: footer: Launch The Evolver when long clicking settings

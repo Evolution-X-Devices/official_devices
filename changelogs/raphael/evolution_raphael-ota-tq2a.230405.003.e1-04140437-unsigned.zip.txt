@@ -1,0 +1,99 @@
+This is Android 13 (QPR2) with April 2023 (r41) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+Drop mock hidl power stats
+Drop high refresh rate support to fix FOD unlock
+Upstream kernel changes
+overlay: Fix hyper orange night light
+sepolicy: give adbd sys_admin access
+utilize task_profiles.json + cgroups.json
+------------------------------
+
+ROM changes:
+==============================
+4/14
+Evolver: Bring back QS panel styles
+Evolver: Remove FP auth vibration toggles
+InputDevices: Fix Hungarian language overlay
+MetaKeyKeyListener: Disable locking of toggled modifier keys
+Settings: Add secondary Smart charging availability condition
+SystemUI: Enable monochromatic monet style
+base: Fix smart charging bug
+
+4/13
+Native: VibratorFeature: Import Xiaomi Android 13 Changes 
+SystemUI: Align QS header with status bar
+SystemUI: flags: Enable new output switcher
+SystemUI: Fix QS header alignment with status bar
+Updater: Remove "what's new" text
+
+4/12
+Evolver: Re-organize entries
+SystemUI: Enable camera & flashlight keyguard affordance
+display: Disable refresh rate switching with DC Dimming
+telephony: Add ICCID into CarrierIdentifier
+
+4/11
+​​Dismiss recording notification on stop
+Merge April 2023 security patches (13.0_r41)
+PixelPropsUtils: Update fingerprints to April 2023 release
+SettingsLib: Update 5G+ icon to Silk design
+SystemUI: Grant READ_PHONE_STATE permission
+device_config: Remove extra pixel launcher search features (removes battery drain)
+version: Update to 7.8 (Sisig)
+
+4/10
+Bluetooth: Add system properties to config audio codec priority
+GameSpace: safely update rootBarView's LayoutParam
+GameSpace: update deprecated API usages
+GameSpace: use relative-location on landscape as well
+NetworkProviderSettings: Fixup uninitialized mWifiManager
+Set navbar color for device default settings theme
+Settings: Add a toggle to force LTE_CA
+Settings: Add switch preference for AGPS
+Settings: Add toggle for connectivity check
+Settings: AGPS: Mention that it's ignored during user-initiated emergency calls
+Settings: Enable ActivityResultLauncher for keyguard
+Settings: Follow navbar color in base
+Settings: Only one channel is reserved for WifiP2pSettings
+Settings: Update Glide library
+SettingsLib: Fix nav bar color on certain apps
+SystemUI: Reduce keyguard indication text padding
+SystemUI: Switch to better daily data usage impl
+SystemUI: Use better icon for camera keyguard affordance
+Use IPv4v6 as default protocol when APN setting is not available
+config: Disable ADB authentication
+gms: Pixel Launcher: Add ACCESS_SURFACE_FLINGER permission to manifest
+init: Make an error message more informative
+sepolicy: Label system properties to config audio codec priority
+
+4/9
+HACK: telephony: Conditionally force enable LTE_CA
+HACK: telephony: Force Class 0 SMS to Class 1
+SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+SystemUI: Match collapsed qs header height with status bar
+SystemUI: Turn on UMO turbulence noise and surface ripple by default
+SystemUI: keyguard: preview: Catch InterruptedException
+overlay: Disable immersive mode confirmation
+overlay: Enable Wi-Fi by default on first boot
+soong: Bring bootloader_message_offset back
+udfps: Forward port Boost framework hook
+
+4/8
+Screenrecord: Save preferences for permission dialog
+fixup! Screenrecord: Allow to reduce 3 second screen record timer
+fixup! SystemUI: Export RecordingService for External Usage
+
+4/7
+Evolver: Disable secure tiles on lockscreen switch if whole QS is already disabled
+
+4/6
+SystemUI: Enable Partial Screensharing

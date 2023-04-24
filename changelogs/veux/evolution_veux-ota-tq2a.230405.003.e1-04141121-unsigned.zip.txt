@@ -1,0 +1,149 @@
+This build you're receiving is evolution_veux-ota-tq2a.230405.003.e1-04141121-unsigned.zip comes with April security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/04/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+ce65f757 Revert "Only create clip bound object when RenderNode is not quick rejected"
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+4649965 Native: VibratorFeature: Import Xiaomi Android 13 Changes
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+98b0814 New Crowdin updates (#226-#431)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+bb176db Settings: Add secondary Smart charging availability condition
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+91a122b Updates: Remove "what's new" text
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+e4f3ea7 Revert "[TMP] Revert "themes: Custom QS panel styles [2/3]""
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+8b23da0 SystemUIGoogle: Add ims-common lib to support VOLTE & VOWIFI icons
+
+
+=======================
+     2023/04/11
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+4edb122 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+92cbba5 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/build/soong into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+285ad07 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+4fca6a1 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/manifest into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+047b97b Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+e9d6dca Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+3a10dc9 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+356fa0a Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+8ef969e init: Make an error message more informative
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+915de93 Merge tag 'android-13.0.0_r41' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+105a823 gms: Add missing sysconfigs for Pixels
+
+
+=======================
+     2023/04/10
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+a5741ab Aperture: Add toggle for FFC horizontal flip
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+66663dc GameSpace: safely update rootBarView's LayoutParam
+
+
+=======================
+     2023/04/09
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+2e68153 recovery: Allow custom bootloader msg offset in block misc
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+244a032 firmware: Guard it [1/2]
+
+
+=======================
+     2023/04/07
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+ba7d243 New Crowdin updates (#24)
+
+
+=======================
+     2023/04/04
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+acf69b4 adb: Look for shell executable in alternate places
+
+
+=======================
+     2023/04/01
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+03fcf0c Light: Add null check for lights smart pointer
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+09c751c Support extracting from sparsechunk super images

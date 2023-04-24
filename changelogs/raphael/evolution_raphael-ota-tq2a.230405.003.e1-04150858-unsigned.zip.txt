@@ -1,0 +1,22 @@
+This is Android 13 (QPR2) with April 2023 (r41) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+Remove Kami Display OC Calibration
+Remove refresh rate support (to fix FOD unlock once again)
+audio: Update audio policy configuration from vayu
+configs: audio: Fix mic issues in apps like WhatsApp
+------------------------------
+
+ROM changes:
+==============================
+4/15
+PixelPropsUtils: move snapchat to walleye spoofing
+SystemUI: Align the qs carrier text to its gravity bias

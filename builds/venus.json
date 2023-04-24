@@ -1,17 +1,17 @@
 {
-   "datetime": 1678677902,
+   "datetime": 1682274539,
    "donate_url": "https://linktr.ee/Stallix",
    "error": false,
-   "filehash": "2d2f7367d0e060fcb0bf9e3e718e8ab2",
-   "filename": "evolution_venus-ota-tq1a.230205.002-03130325-unsigned.zip",
+   "filehash": "8b81b0f64193a045096daf9a02794045",
+   "filename": "evolution_venus-ota-tq2a.230405.003.e1-04231829-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-venus-official-evolution-x-12-13-22.4490535/",
-   "id": "55b4dd9f7cb04bcfe46e4505e49882ccc06bf79e11f27d1851b319d357c8a411",
+   "id": "c4b1cec539a2195b38d4c69b4f3ca0ff1b95ef4e07b280b1310a0e527fad4fc7",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2480284773,
+   "size": 2423852171,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/venus/evolution_venus-ota-tq1a.230205.002-03130325-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/venus/evolution_venus-ota-tq2a.230405.003.e1-04231829-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
