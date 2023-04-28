@@ -1,0 +1,161 @@
+This is  April 2023 security patches (13.0_r41)
+
+=======================
+Device side Changes: 
++Revert Hotword enrollment
+
+NOTE: YOU CAN DIRTY
+FLASH BUT CLEAN FLASH IS 
+RECOMMENED. PLEASE FORMAT 
+YOUR DATA. THANK YOU 
+FOR SELECTING EVOLUTION X
+=======================
+     2023/04/28
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0c0f3df sepolicy: Label LinearmotorVibratorService
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+ac846e0b services: Add a system property for linearmotor service
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+433dd28 New Crowdin updates (#226-#442)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+4d4e8a3 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/04/27
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+87817cb New Crowdin updates (#307)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+a0c2f2f qcom: set TARGET_USES_QCOM_AUDIO_AR for the UM 5.10 family
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+ef61811 FM2: Slight design adjustments
+
+
+=======================
+     2023/04/26
+=======================
+
+
+=======================
+     2023/04/25
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+7d580fe Light: Add null check for lights smart pointer
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+5e225d9 Aperture: Use gradient background for exposure slider
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+11db62b New Crowdin updates (#38-#42)
+
+
+=======================
+     2023/04/24
+=======================
+
+
+=======================
+     2023/04/23
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d9ab48e New Crowdin updates (#1-#13)
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+c53f02c WallpaperPicker2: fix overlapping when scrolling
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+bf7b4bc gms: Switch back to Evo X Launcher
+
+
+=======================
+     2023/04/22
+=======================
+
+
+=======================
+     2023/04/21
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/tiramisu-jem
+
+a070823 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+
+
+=======================
+     2023/04/20
+=======================
+
+
+=======================
+     2023/04/19
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+1692c1c Fix an issue that the sensor privacy does not apply to the new camera clients
+
+
+=======================
+     2023/04/18
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+ed23f09 common: Introduce support to all SoC family
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+55c9e1b Multiple work profile badge colors for Launcher3
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+84223e1 manifest: Track repos for jemalloc changes
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+9089e12 audio_hal/aidl: Don't fallback to SW encoding when HW is supported
+
+
+=======================
+     2023/04/17
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+2584200 firmware: Guard it [1/2]
+
+
+=======================
+     2023/04/16
+=======================
+
+
+=======================
+     2023/04/15
+=======================
+
+
