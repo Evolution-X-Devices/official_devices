@@ -1,0 +1,19 @@
+**Device Changes:**
+- Etude kernel: Op.13 No.2
+  * built with the latest LLVM Clang 16.0.2 stable
+  * backported configurable per-cgroup PSI tracking
+  * merged two network related fixes from android common kernel upstream
+  * merged `LA.UM.8.3.c25-07800-sdm845.0` into qcacld and qcacmn
+  * stopped suppressing all unused argument warnings for clang and removed some arguments from the Makefile
+  * DO NOT use another kernel. Just don't.
+- Disabled per-cgroup PSI accounting to avoid performance overhead because android does not need it.
+- Enabled WiFi Reg Changed event that was disabled in upstream by default.
+- Switched to the new open source aptX and aptXHD encoders in the BT stack.
+
+**Evolution X Update**
+- April security patch
+- The source is rebased after QPR2. Old features may be missing, and new features may show up.
+
+**Known Issues**
+- Qualcomm's WiFi Display (WFD) works fine. However, if you have a saved WFD connection, you may see the screen cast logo appear in statusbar after a reboot. Just press disconnect from the screen cast QS tile if that happens.
+- If you enable bubble for app notifications, the translucent background may flicker when the bubble is activated.
