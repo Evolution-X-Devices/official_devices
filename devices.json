@@ -449,6 +449,20 @@
    },
    {
       "brand": "Realme",
+      "codename": "bladerunner_48m",
+      "name": "Realme X50 Pro 5G Play",
+      "supported_versions": [
+         {
+            "maintainer_name": "Gaganpreet Singh",
+            "maintainer_url": "https://forum.xda-developers.com/m/igaganpreetsingh.11934127",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r41-rmx2072-bladerunner_48m-official-evolution-x-01-05-23.4581235"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
       "codename": "RMX2020",
       "name": "Realme C3/ Narzo 10A",
       "supported_versions": [
