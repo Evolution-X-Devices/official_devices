@@ -1,0 +1,150 @@
+This build you're receiving is evolution_veux-ota-tq2a.230505.002-05031609-unsigned.zip comes with May security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/05/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+0b0e421 Merge tag 'android-13.0.0_r43' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+318eca34 [SQUASH] PixelPropsUtils: Multiple updates
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+289ad5f Merge tag 'android-13.0.0_r43' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+4f4f41a Revert "Aperture: Set video framerate button enabled only on one place"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+567db49 New Crowdin updates (#226-#444)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+ed2896f config: Add extra privapp-permissions.
+
+
+=======================
+     2023/05/02
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+a481908 Merge tag 'android-13.0.0_r43' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/external_cldr/commits/refs/heads/tiramisu
+
+d7a76b7 DO NOT MERGE Update Android CLDR data from 2022f to 2022g. [T]
+
+* Repository: https://github.com/Evolution-X/external_icu/commits/refs/heads/tiramisu
+
+f3df766 DO NOT MERGE Update Android TZDB from 2022g to 2023a [T]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+2fc61f7 manifest: Track other repos for sm8350
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+e89af4b New Crowdin updates (#312)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+6dcacf0 Merge tag 'android-13.0.0_r43' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+4e4818f Merge tag 'android-13.0.0_r43' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+46de2be init: Make an error message more informative
+
+* Repository: https://github.com/Evolution-X/system_timezone/commits/refs/heads/tiramisu
+
+a5de520 DO NOT MERGE Update Android TZDB from 2022g to 2023a [T]
+
+
+=======================
+     2023/05/01
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+edc9f1b Launcher3: Always show all apps label instead of line
+
+
+=======================
+     2023/04/30
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_EvoEgg/commits/refs/heads/tiramisu
+
+bde445a EvoEgg: Exclude from Google backup
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+2e0766c SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/04/29
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+1c154d1 libc: Do not nullify `__dtoa_locks`
+
+
+=======================
+     2023/04/28
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0c0f3df sepolicy: Label LinearmotorVibratorService
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+ef61811 FM2: Slight design adjustments
+
+
+=======================
+     2023/04/25
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+7d580fe Light: Add null check for lights smart pointer
+
+
+=======================
+     2023/04/23
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d9ab48e New Crowdin updates (#1-#13)
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+c53f02c WallpaperPicker2: fix overlapping when scrolling
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+bf7b4bc gms: Switch back to Evo X Launcher
