@@ -1,0 +1,26 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.314
+
+**Evolution X Update**
+
+- Update to 7.9 (Kare-kare)
+- Merge May 2023 security patches (13.0_r43)
+- Dynamically adjust Lockscreen clock font spacing
+- Fix the screenshot icon color in Recents
+- Remove brightness slider top margin
+- Fix the magenta battery icon turning back to white
+- Move radio info (*#*#4636#*#*) from Evolver to Device Info
+- Fix power for torch gesture skips power wake events
+- PowerOffAlarmService: Turn the toast into a notification
+- Make QS Header Image less intrusive with codebase
+- Fix duplicated creation of KeyguardStatusBarViewController
+- Pocket mode: Update style to latest OOS specs
+- system_timezone: update to aml_tz4_331314020
+- DataSwitchTile: Show active sim as tile current state
+- Remove spammy wallet lockscreen icon error
+- QRCodeScannerController: Use Lens as fallback activity
+- Evolver: Add brightness slider styles
+- Use certified properties for Snapchat
