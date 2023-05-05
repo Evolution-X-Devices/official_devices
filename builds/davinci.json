@@ -1,17 +1,17 @@
 {
-   "datetime": "1682608236",
+   "datetime": "1683230463",
    "donate_url": "paypal.me/AMWolfstein",
    "error": "false",
-   "filehash": "a8b98e8813e551c0d088be94d4b48737",
-   "filename": "evolution_davinci-ota-tq2a.230405.003.e1-04271513-unsigned.zip",
+   "filehash": "974e380627e6a9ea93cc0b2b07c3d527",
+   "filename": "evolution_davinci-ota-tq2a.230505.002-05042003-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-davinci-official-evolution-x-12-31-22.4535949/",
-   "id": "07d0387508f5c03ef4ca80352ef18e8f532ec3a7cce3b6f86fe624f13d0c17d0",
+   "id": "f957cf60196c4bc9fb4d6e97701cdd8b3d14585f5e497199c7db7c9ef4460e19",
    "maintainer": "Ahmed Fouad",
    "maintainer_url": "https://t.me/AMWolfstein",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2032250120,
+   "size": 2034893934,
    "telegram_username": "AMWolfstein",
-   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/evolution_davinci-ota-tq2a.230405.003.e1-04271513-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/evolution_davinci-ota-tq2a.230505.002-05042003-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
