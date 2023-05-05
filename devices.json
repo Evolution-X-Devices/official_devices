@@ -113,6 +113,20 @@
    },
    {
       "brand": "Google",
+      "codename": "sunfish",
+      "name": "Pixel 4a",
+      "supported_versions": [
+         {
+            "maintainer_name": "lahaina",
+            "maintainer_url": "https://twitter.com/RMX3031_cn",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-for-pixel-4a-sunfish.4575971/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
       "codename": "redfin",
       "name": "Pixel 5",
       "supported_versions": [
