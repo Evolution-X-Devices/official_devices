@@ -1,0 +1,46 @@
+This is Android 13 (QPR2) with May 2023 (r43) security patches
+
+Notes:
+==============================
+- Google backup restore is still broken for Settings backups. Restoring apps/games/contacts still works.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+Bring back Refresh rate support (60/72/81/90)
+Disable optimal display refresh rate (thanks to @onettboots)
+Update to latest Soviet kernel
+rro_overlays: Exclude from Google backup
+sepolicy: Allow mediaprovider app to find radio service
+------------------------------
+
+ROM changes:
+==============================
+5/2
+AttestationHooks: Use certified properties for Snapchat
+Discard snapshots after dropping updatable APEX support
+DisplayPowerController: Don't apply brightness adjustment if NaN
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+SystemUI: Catch the remaining exceptions when re-inflating the qs panel
+SystemUI: Prevent another OOB when creating tile views
+UdfpsDisplayMode: Make using Optimal display refresh rate optional
+fwb: remove spammy wallet lockscreen icon error
+wm: Fix a possible race condition for onRecentTaskRemoved
+version: Update to 7.9 (Kare-kare)
+
+5/1
+DataSwitchTile: Fix issue when subId is non-binary
+DataSwitchTile: Resolve initial tile state
+DataSwitchTile: Show active sim as tile current state
+FlashlightController: Disable sending intent
+KeyguardStatusBarView: Clean up cruft
+Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+Launcher3: Always show all apps label instead of line
+Launcher3: Prevent double press behavior for overview actions
+View: Prevent NPEs when initiating surface drag

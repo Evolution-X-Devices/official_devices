@@ -1,0 +1,19 @@
+This is Android 13 (QPR2) with May 2023 (r43) security patches
+
+Notes:
+==============================
+- Google backup restore is still broken for Settings backups. Restoring apps/games/contacts still works.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+sepolicy: Address `Google Battery HAL' denial
+------------------------------
+
+ROM changes:
+==============================
+5/4
+Resolve issues with stories/reels causing random reboots
+PixelPropsUtils: Fix issue with Google Photos backup counting towards storage

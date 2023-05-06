@@ -1,0 +1,72 @@
+This is Android 13 (QPR2) with April 2023 (r41) security patches
+
+Notes:
+==============================
+- This build does not have refresh rate support.
+- Google backup restore is still broken for Settings backups. Restoring apps/games/contacts still works.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+Adjust some brightness values
+Update to latest Soviet kernel
+------------------------------
+
+ROM changes:
+==============================
+5/1
+KeyguardStatusBarView: Clean up cruft
+View: Prevent NPEs when initiating surface drag
+
+4/30
+Fix transistent task mode app compatibility issue
+EvoEgg: Exclude from Google backup
+HWUI: reset buffer state only for ES3 context
+SystemUI: Enable cast tile without Wi-Fi connection
+WindowManager: finally proper desktop mode handling
+overlays: Exclude from Google backup
+
+4/29
+Settings: Introduce Pointer acceleration setting​​
+Settings: Introduce Transistent task mode setting
+system_timezone: update to aml_tz4_331314020
+
+4/28
+base: Add mock oplus LinearmotorVibratorService
+sepolicy: Label LinearmotorVibratorService
+services: Add a system property for linearmotor service
+
+4/27
+Pocket mode: Update style to latest OOS specs
+QSPanel: Prevent systemui crash when adjusting tiles height
+Remove the artificial 500 call log limit
+ThemeOverlayController: Don't enable neutral overlay on boot as well
+ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+qcom: Add taro platform
+qcom: Include vendor/qcom/opensource/display namespace only for <5.10 platforms
+qcom: set TARGET_USES_QCOM_AUDIO_AR for the UM 5.10 family
+
+4/26
+OOMAdjuster: Reconfigure proactive kills condition check
+OOMAdjuster: Resolve disk read violations
+PixelPropsUtils: Spoof Snapchat to Pixel XL
+SystemUI: Avoid systemui crash on init
+SystemUI: Fix duplicated creation of KeyguardStatusBarViewController
+​​SystemUI: Make QS Header Image less intrusive with codebase
+base: PowerOffAlarmService: Add a notification
+fixup! Keyguard: Add option to scramble pin layout when unlocking
+overlay: Remove UDFPS enroll stage thresholds
+
+4/25
+PhoneWindowManager: Fix power for torch gesture skips power wake events
+Settings: Add back illustration to face settings
+Settings: Don't sort user profiles by serial number, sort alphabetically
+Settings: Move radio info (*#*#4636#*#*) into device info from Evolver
+Settings: Hide radio info if device don't support voice
+SettingsLib: Use WHITE color instead MAGENTA for Battery Drawable
+SystemUI: Only apply tuning changes when the fragment is attached
+SystemUI: Remove brightness slider top margin
+libs: hwui: Avoid system crash if font contains invalid/null font data
+overlays: iconpacks: Update launcher screenshot fill color

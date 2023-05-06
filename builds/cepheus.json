@@ -1,17 +1,17 @@
 {
-   "datetime": 1682227431,
+   "datetime": 1683140408,
    "donate_url": "https://www.paypal.me/chfondia",
    "error": false,
-   "filehash": "53a5eb1caf6b518365e3b2713d2d8c08",
-   "filename": "evolution_cepheus-ota-tq2a.230405.003.e1-04230527-unsigned.zip",
+   "filehash": "fc6dd16f6ded5877407ed4a5cad117ca",
+   "filename": "evolution_cepheus-ota-tq2a.230505.002-05031901-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-cepheus-official-evolution-x-01-04-23.4537331/",
-   "id": "57a35c298b10eb3f802897456f5fc0a5d612cdc9d3919706f886b0adc17046d2",
+   "id": "97ef69410341c6058e23ca435cb7b0a7063b784932522746b2c20c2d51af9b29",
    "maintainer": "Chema Funtan",
    "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1837136158,
+   "size": 1910683166,
    "telegram_username": "chematelegram",
-   "url": "https://sourceforge.net/projects/evolution-x/files/cepheus/evolution_cepheus-ota-tq2a.230405.003.e1-04230527-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/cepheus/evolution_cepheus-ota-tq2a.230505.002-05031901-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

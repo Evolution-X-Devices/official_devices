@@ -1,0 +1,203 @@
+NOTE: USING MIUI 13 FW IS MANDATORY. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+ROM changes:
+==============================
+
+5/2
+AttestationHooks: Use certified properties for Snapchat
+Discard snapshots after dropping updatable APEX support
+DisplayPowerController: Don't apply brightness adjustment if NaN
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+SystemUI: Catch the remaining exceptions when re-inflating the qs panel
+SystemUI: Prevent another OOB when creating tile views
+UdfpsDisplayMode: Make using Optimal display refresh rate optional
+fwb: remove spammy wallet lockscreen icon error
+wm: Fix a possible race condition for onRecentTaskRemoved
+version: Update to 7.9 (Kare-kare)
+
+5/1
+DataSwitchTile: Fix issue when subId is non-binary
+DataSwitchTile: Resolve initial tile state
+DataSwitchTile: Show active sim as tile current state
+FlashlightController: Disable sending intent
+KeyguardStatusBarView: Clean up cruft
+Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+Launcher3: Always show all apps label instead of line
+Launcher3: Prevent double press behavior for overview actions
+View: Prevent NPEs when initiating surface drag
+
+4/30
+Fix transistent task mode app compatibility issue
+EvoEgg: Exclude from Google backup
+HWUI: reset buffer state only for ES3 context
+SystemUI: Enable cast tile without Wi-Fi connection
+WindowManager: finally proper desktop mode handling
+overlays: Exclude from Google backup
+
+4/29
+Settings: Introduce Pointer acceleration setting​​
+Settings: Introduce Transistent task mode setting
+system_timezone: update to aml_tz4_331314020
+
+4/28
+base: Add mock oplus LinearmotorVibratorService
+sepolicy: Label LinearmotorVibratorService
+services: Add a system property for linearmotor service
+
+4/27
+Pocket mode: Update style to latest OOS specs
+QSPanel: Prevent systemui crash when adjusting tiles height
+Remove the artificial 500 call log limit
+qcom: Add taro platform
+qcom: Include vendor/qcom/opensource/display namespace only for <5.10 platforms
+qcom: set TARGET_USES_QCOM_AUDIO_AR for the UM 5.10 family
+
+4/26
+OOMAdjuster: Reconfigure proactive kills condition check
+OOMAdjuster: Resolve disk read violations
+SystemUI: Avoid systemui crash on init
+SystemUI: Fix duplicated creation of KeyguardStatusBarViewController
+​​SystemUI: Make QS Header Image less intrusive with codebase
+base: PowerOffAlarmService: Add a notification
+fixup! Keyguard: Add option to scramble pin layout when unlocking
+overlay: Remove UDFPS enroll stage thresholds
+
+4/25
+PhoneWindowManager: Fix power for torch gesture skips power wake events
+Settings: Add back illustration to face settings
+Settings: Don't sort user profiles by serial number, sort alphabetically
+Settings: Move radio info (*#*#4636#*#*) into device info from Evolver
+Settings: Hide radio info if device don't support voice
+SettingsLib: Use WHITE color instead MAGENTA for Battery Drawable
+SystemUI: Only apply tuning changes when the fragment is attached
+SystemUI: Remove brightness slider top margin
+libs: hwui: Avoid system crash if font contains invalid/null font data
+overlays: iconpacks: Update launcher screenshot fill color
+
+4/24
+Camera: Bump up the extension jpeg processor blob size
+Launcher3: Prevent shake listener from running when not in view
+SystemUI: Dynamically adjust Lockscreen clock font spacing
+
+4/23
+ActivityThread: Prevent a NPE caused by null configuration
+ConfigurationController: Prevent app crash on orientation change
+Evolver: Bring back Fingerprint authentication vibration
+Launcher3: Add NPE check in TaskbarDragController
+Launcher3: Let's keep 2-button nav alive for a little longer
+Launcher3: Move restart check to home page
+Launcher3: Remove overview scrolling scale animation
+Launcher3: Show a toast when restarting the launcher
+Launcher3: ​​Skip glitchy search animation
+SystemUI: Prevent OOB when reinflating QS panel with notifications
+ThemePicker: Use pixel themes stub package
+WallpaperPicker2: Fix overlapping when scrolling
+WallpaperPicker2: Follow UI styles
+WallpaperPicker2: Remove the use of smaller images for thumbnails
+Update translations
+base: Fix issues with linked volumes
+config: Bring back NavigationBarMode2ButtonOverlay
+fix: isMultiUserSupported in TestDevice does not reflect real value
+oom: Enable proactive kills only on modern kernels
+os: Process: Fix wrong code in isThreadInProcess
+
+4/22
+Fix getRootTask may be null led to client NPE
+Fix potential crash when TaskDisplayArea is null
+Fix task info null crash
+Fix unqualified-std-cast-call compiler warning
+Fixed process can't start because of mPendingStart is true problem
+HWUI: reset buffer state after MakeCurrent
+Launcher3: Make recents buttons chips
+Launcher3: SystemShortcuts: Fix fc with InfoBottomSheet
+Restoring SDR brightness immediately when entering dim state if the device is in HDR brightness scale mode
+Return with error logs instead of exception for unexpected nsi
+base: Fix corny blur rendering bug
+blur: Switch to glass blur effect
+
+4/21
+Add Launcher3 permissions
+AttestationHooks/PixelPropsUtils: Get package name from context instead of app
+Evolver: QS Header Image
+PixelPropsUtils: Allow Spoofing of Pixel 7 Pro for Pixel devices
+SystemUI: Fix pocket lock after 13 QPR1
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+rro_overlays: Remove NexusLauncherResOverlay
+
+4/20
+Fix an issue that the sensor privacy does not apply to the new camera clients
+Notifications channels are not locked at first boot
+config: Add TARGET_USES_PICO_GAPPS flag
+
+4/19
+Add a suspension check to SuspendedAppActivity
+Fix sfps arrow color in overlay
+Launcher3: Remove default at a glance widget for higher grids
+Launcher3: Match default apps/dimens/layouts with Pixel Launcher
+PixelPropsUtils: Cleanup
+PixelPropsUtils: Spoof ROG Phone 3 for FIFA Mobile
+Settings: Add switch to unlink ringtone and notifications volume
+Settings: Fingerprint: hide link icon when there's no link
+Settings: FingerprintEnroll: Add config for dedicated side mounted fps
+Settings: FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+permissions: Pre-grant google restore permissions
+wm: Prevent NPE for springanimation
+
+4/18
+Bring back Evo X Launcher, ThemePicker and WallpaperPicker2
+Do not crash webview if its group creation fails due to a dead process
+Fix com.android.server.wm.TaskFpsCallbackController#unregisterListener method NEVER works
+ThemePicker: Expose quick affordances section on default UI
+ThemePicker: quickaffordance: Fix UninitializedPropertyAccessException
+Use SecureRandom instead of java.util.Random
+overlay: Target Evo X Launcher/AOSP ThemePicker
+vendor: SimpleDeviceConfig: Update now playing configs
+
+4/17
+BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+Fix NPE when store brightness and displayDevice is null
+Fix warnings from static analysis tool
+NotificationMenuRow: fix logspam
+PixelPropsUtils: Use OP 8 PRO for Mobile legends
+SystemUI: flags: Disable Monochromatic themes
+SystemUIGoogle: Disable Adaptive charging logging
+base: Add SmartSwitchChanged api
+base: Support for device specific input Filter
+base: Try loading input filter only if specified
+overlay: Move default status bar height to no-rro
+soong: Add TARGET_NEEDS_OPLUS_VENDOR_TAG
+
+4/16
+Fix crash with HW assist button
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+base: Introduce PowerOffAlarmService
+libs: hwui: Silence OpenGL swap behavior failures
+overlay: Frameworks: Separate controls for notification and ringtone volumes
+
+4/15
+Evolver: Bring back Fade filter for lockscreen media artwork
+PixelPropsUtils: move snapchat to walleye spoofing
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Align the qs carrier text to its gravity bias
+SystemUI: Rework media artwork implementation
+​​
+4/14
+Allow toggling VoWiFi while roaming by default
+Evolver: Bring back Configurable lockscreen album art blur radius​​
+Evolver: Bring back Dynamic VoLTE & VoWiFi icons
+Evolver: Bring back Netflix spoof
+Evolver: Bring back OOS style notification clear all button styles
+Evolver: Bring back QS panel styles
+Evolver: Remove FP auth vibration toggles
+InputDevices: Fix Hungarian language overlay
+MetaKeyKeyListener: Disable locking of toggled modifier keys
+PixelPropsUtils: Add support for Asphalt 9
+Settings: Add secondary Smart charging availability condition
+SystemUI: Hide oos clear all if reticker enable 
+SystemUI: Prevent InternetDialog crashing system
+SystemUI: Reset QS on UI mode change
+base: Fix smart charging bug

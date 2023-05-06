@@ -1,0 +1,33 @@
+This is Android 13 with May 2023 security patches
+
+Device changes:
+====================================
+Upstreamed Kernel To v4.14.314
+Brought back combined qs header
+Fixed Issues with USB File Transfer For Some Users
+Fixed Issues with AndroidAuto
+Fixed Hyper Orange Night Light
+
+ROM Changes:
+====================================
+5/2
+AttestationHooks: Use certified properties for Snapchat
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+SystemUI: Prevent another OOB when creating tile views
+wm: Fix a possible race condition for onRecentTaskRemoved
+version: Update to 7.9 (Kare-kare)
+
+5/1
+DataSwitchTile: Fix issue when subId is non-binary
+DataSwitchTile: Resolve initial tile state
+DataSwitchTile: Show active sim as tile current state
+FlashlightController: Disable sending intent
+KeyguardStatusBarView: Clean up cruft
+Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+Launcher3: Always show all apps label instead of line
+Launcher3: Prevent double press behavior for overview actions
+View: Prevent NPEs when initiating surface drag

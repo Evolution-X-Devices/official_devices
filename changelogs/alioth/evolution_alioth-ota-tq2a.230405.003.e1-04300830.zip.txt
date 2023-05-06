@@ -1,0 +1,32 @@
+Birthday Update Release
+
+Device Changes:
+Fix MI Cam front video
+Switch to AOSP surfaceflinger
+Enable Rich Communications Service
+Update props for more smoothness
+Update Nexus kernel to support DC Dimming and updated to latest source
+Cleaned up the trees a bit
+And more...
+
+ROM Changes:
+WindowManager: finally proper desktop mode handling
+overlays: Exclude from Google backup
+Settings: Introduce Pointer acceleration setting​​
+Settings: Introduce Transistent task mode setting
+system_timezone: update to aml_tz4_331314020
+Pocket mode: Update style to latest OOS specs
+SystemUI: Fix optional ripple animation issue
+ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+base: PowerOffAlarmService: Add a notification
+PhoneWindowManager: Fix power for torch gesture skips power wake events
+Settings: Move radio info (*#*#4636#*#*) into device info from Evolver
+SettingsLib: Use WHITE color instead MAGENTA for Battery Drawable
+SystemUI: Only apply tuning changes when the fragment is attached
+SystemUI: Remove brightness slider top margin
+overlays: iconpacks: Update launcher screenshot fill color
+SystemUI: Dynamically adjust Lockscreen clock font spacing
+Evolver: Bring back Fingerprint authentication vibration
+Launcher3: Let's keep 2-button nav alive for a little longer
+Launcher3: Show a toast when restarting the launcher
+And more...
