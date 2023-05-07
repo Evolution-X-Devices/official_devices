@@ -1,0 +1,10 @@
+=======================
+     2023/05/07
+=======================
+
+Changelog:
+- May security path
+- Enable ro.hwui.render_ahead (especially qs pulldown on a13 qpr2)
+- Flatten APEXs for performance
+- Bring back evox launcher
+- Misc improvements
