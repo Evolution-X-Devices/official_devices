@@ -755,11 +755,11 @@
       "name": "POCO F1",
       "supported_versions": [
          {
-            "maintainer_name": "Tejas",
+            "maintainer_name": "Tejas Singh",
             "maintainer_url": "https://github.com/Charsi-Tejas",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-xiaomi-poco-f1.4575587/",
+            "xda_thread": "",
             "device_group": "@EvolutionXBeryllium"
          }
       ]
@@ -920,11 +920,11 @@
       "name": "Redmi Note 8",
       "supported_versions": [
          {
-            "maintainer_name": "Tejas",
+            "maintainer_name": "Tejas Singh",
             "maintainer_url": "https://github.com/Charsi-Tejas",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-redmi-note-8-8t.4535315",
+            "xda_thread": "",
             "device_group": "@EvolutionXGinkgo"
          }
       ]
