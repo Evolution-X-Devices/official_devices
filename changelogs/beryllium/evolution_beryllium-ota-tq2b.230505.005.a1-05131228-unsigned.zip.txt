@@ -1,0 +1,51 @@
+This is Android 13 with May 2023 security patches
+
+Device changes:
+==============================
+Include MICam (Fully Working)
+Disabled combined qs header with no empty space while qs not expanded (Completely Fixes QS Lag/Slutters)
+Pick up USB configurations from QCOM
+Remove virtual framebuffer
+------------------------------
+
+ROM changes:
+==============================
+5/13
+Evolver: Fix UDFPS NPE
+Merge Pixel 7a May 2023 security patches (13.0_r49)
+SystemUI: Adjust qqs top margin dimension
+SystemUI: Hide notification icon area if headsup is visible
+SystemUI: Remove haptics from brightness slider
+
+5/12
+Introduce isDeviceClassMatched() to align BluetoothClass comparison
+SystemUI: flags: Set more flags via config
+
+5/11
+Evolver: Increase QS header images max limit
+SystemUI: Import more QS Header resources
+base: Force full screen for Spotify
+core: Disable RescueParty by default
+hwui: Prevent a null pointer on renderthread
+
+5/9
+VolumeDialog: Round-ify volume app icon
+
+5/7
+Add handling of permanent disabled sims
+AudioDeviceBroker: Fix not setting proper call volume for LE Headset
+Crash when enabling show_operator_name_in_statusbar_bool
+Device asks for PUK code instead of SIM PIN
+Evolver: Remove config dependency for ambient wake gestures
+fixup! Allow disabling pointer acceleration
+fixup! AttestationHooks: Get package name from context instead of app
+hwui: Fix multiple definitions of NativeFamilyBuilder
+prevent crash with pin protected user and taskview
+
+5/6
+QRCodeScannerController: Check for google package availability
+Select the proper request list size
+​​camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors
+
+5/5
+PixelPropsUtils: Multiple updates
