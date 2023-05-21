@@ -1,0 +1,185 @@
+This build you're receiving is evolution_veux-ota-tq2b.230505.005.a1-05201653-unsigned.zip comes with May security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/05/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+5e736ef9 wm: Fix menu only opening once on legacy apps
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+ccaa2ba New Crowdin updates (#226-#455)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+05e418b Revert "Launcher3: Enable Transient Taskbar"
+
+
+=======================
+     2023/05/19
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+3952fc7 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+3acb443 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+8149442 manifest: Track desktop mode repos
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+ff0f156 config: Build desktop mode packages
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+38b080d rosemary: Initial firmware
+
+
+=======================
+     2023/05/18
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+36cf95f Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/build/soong into tiramisu
+
+* Repository: https://github.com/Evolution-X/libcore/commits/refs/heads/tiramisu
+
+2dff41f Fix race condition in java.security.Provider
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+700ed35 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Settings into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+88c41cc Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+0291c04 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+
+
+=======================
+     2023/05/17
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_unrar/commits/refs/heads/lineage-20.0
+
+45b4c78 unrar: Move to /system_ext
+
+
+=======================
+     2023/05/16
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4087200 vendor: audio: Use TARGET_HALS_PATH/audio to audio-hal
+
+* Repository: https://github.com/LineageOS/android_external_rsync/commits/refs/heads/lineage-20.0
+
+cdb7e98 rsync: Move to /system_ext
+
+* Repository: https://github.com/LineageOS/android_external_zstd/commits/refs/heads/lineage-20.0
+
+e6a035a zstd: Move to /system_ext
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+60fb22e New Crowdin updates (#1-#4)
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+0ddd8ec Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/system/apex into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/tiramisu
+
+661c5e5 partition_tools: extend lpunpack for split partitions
+
+
+=======================
+     2023/05/15
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+78e3fca Automatic translation import
+
+
+=======================
+     2023/05/14
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_FMRadio/commits/refs/heads/tiramisu
+
+6bb58fb FMRadio: fix record activity timer being off after a while
+
+
+=======================
+     2023/05/13
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+15b01ba Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+4900841 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+
+=======================
+     2023/05/12
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/tiramisu
+
+c10c457 sepolicy-legacy-um: Update drm service executables file_contexts
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+2366840 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+6ffd7e7 sepolicy_vndr: restore iwlan hwservice
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+40b7941 Specify we read and write pixel launcher settings
+
+
+=======================
+     2023/05/09
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_services_VncFlinger/commits/refs/heads/tiramisu
+
+d7b56ef fix rotated input in mirror mode not working
+
+
+=======================
+     2023/05/07
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_DesktopMode/commits/refs/heads/tiramisu
+
+da4211f remove desktop mode illustration
