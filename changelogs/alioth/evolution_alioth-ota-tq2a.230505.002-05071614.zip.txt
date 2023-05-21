@@ -1,0 +1,17 @@
+Device Changes:
+Update surfaceflinger props
+Optimize dexeopt
+Increase audio Hal buffer to 240
+Wifi driver tweaks
+Add back media configs
+Add vibrator firmware files
+
+ROM Changes:
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+UdfpsDisplayMode: Make using Optimal display refresh rate optional
+version: Update to 7.9 (Kare-kare)
+

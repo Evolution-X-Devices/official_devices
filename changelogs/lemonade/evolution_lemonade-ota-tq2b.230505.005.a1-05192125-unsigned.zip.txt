@@ -1,0 +1,346 @@
+Set default lockscreen large clock text size to 250dp
+Add back button for freeform window
+Add minimize & pip buttons to freeform windows
+Avoid vsync enabled when in DOZE mode (AOD)
+Camera: Avoid unnecessary close of buffer acquire fence fds
+CameraService: Fix deadlock in binder death cleanup
+Fix an issue that a free memory is accessed
+Fix unintended buffer canceling
+Hide DismissView when receiving ACTION_CANCEL event
+InputManager: add cursor change listener
+InputManager: allow to force NULL cursor
+Introduce proper Desktop Mode within Display settings (from LibreMobileOS)
+Only show pip button if activity supports it
+Pocket mode: Fix pocket view bg not updating after wallpaper change
+Skip dumping backtraces for cached processes
+SystemUI: Disable touch events for dismiss all button if not visible
+SystemUI: fix freeform transition visual issue
+cameraserver: Correct camera1 -> api2 shim layer handling for video stabilization
+cameraserver: clear all requests and signal mRequestSignal from RequestThread during disconnect()
+cameraservice: fix deadlock in onewayhidl onPhysicalCameraStatusChanged
+config: Build desktop mode packages
+config: Inherit window_extensions.mk
+services: Properly handle file stream when verifying fonts
+sf: Reset validateWasSkipped in PostCommit phase
+wm: rewrite/fix window change animation
+Add QS battery customization in LargeScreenShadeHeader
+Add new UrlConnectionTest for TLS 1.3
+Apply wakelock for notification sound
+Evolver: CustomFPImage: Retain the previously set image if selection is canceled
+Evolver: Sync QS battery customization changes
+Fix ConntrackSocketTest#testIpv4ConntrackSocket flaky
+Fix race condition in java.security.Provider
+Introduce trimMemory to AppIconCacheManager
+Launcher3: Fix crash in TransformParams
+Launcher3: HotseatEduController: Guard against some odd & rare NPE
+NetworkInfo: Prevent a NPE caused by null Network type
+Reduce refresh times for non-persistent MACs
+Revert "AudioService: do not log sound effects in audio dumpsys"
+Settings: Align main thread checking by calling ThreadUtils
+Settings: Amend "Reset notification importance" list item style
+Settings: Clean up Settings to allow a2dp, hfp, and le audio to be simultaneously connected on the same device
+Settings: Do not crash when duplication found in merged imsi list
+Settings: Enable ethernet data usage when FEATURE_USB_HOST is present
+Settings: Fix NPE in BluetoothPairingController when comparing BluetoothClass
+Settings: Hide TTS search results if no TTS engine is available
+Settings: Override onTrimMemory to apply trimMemory in AppIconCacheManager
+Settings: Refactor AppPicker page to adopt Settings main theme
+Settings: To fix the footer link is not clickable in the Bluetooth Settings
+Settings: fix WifiUtils:isNetworkLockedDown() null pointer issue
+Speed-up KXmlSerializer with features.html#indent-output
+SystemUI: Remove change to Match collapsed qs header height with status bar
+WiFiInfo: Fix crash on google setup wizard
+core: Switch back to Pasty for copying crash logs
+fixup! overlay: SystemUI: Offload WM shell to another thread
+soong: Whitelist llvm-addr2line
+soong: Whitelist python3.11
+version: Update to 7.9.1 (Lumpia)
+Update translations
+Camera: Always release the extension session after configuration
+Camera: Avoid holding locks during advanced extension initialization
+Camera: Quit extension handler thread during release
+Camera: Release advanced extension references
+Evolver: Decrease QS header images max limit
+Evolver: Move lockscreen clock customization to lockscreen settings
+Evolver: Remove HeadsUp blacklists and importance selector
+ExifInterface: Catch IOException caused by invalid image
+Extend kill button to notification conversation guts
+Fix memory leak in GroupExpansionManager
+Fix null-deref crash while fuzzing
+Fix the memory leak during high speed recording
+Fix typo in Dynamic coloring section
+LessBoring: fixup LessBoring preventing bubbles
+Hookup GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE
+NotificationInterrupt: Clean up for isSnoozedPackage
+SystemUI: Small cleanup for 'Lockscreen text size' commit
+VolumeDialogImpl: Reconfigure handling of animation/jank listeners
+apn: Update mcc525
+appwidget: Catch IllegalStateException when retrieving providers profiles
+manifest: Track lynx tag and additional modules
+qcom: Use full QTI gralloc struct for GKI 2.0 targets
+Allow overlaying font spacing for lockscreen clock
+Evolver: Lock screen clock top margin settings
+Evolver: Lock screen text size settings
+Launcher3: Add missing end tag in priv-app permissions xml
+Launcher3: Fix monkey crash in RecentsLaunchAnimator
+SystemUI: Ignore font padding for large ls clock
+SystemUI: Restore default lockscreen clock text sizes
+TaskPersister: silence spammy message
+ViewConfiguration: Prevent ArrayIndexOutOfBoundsException
+services: Fix ArrayIndexOutOfBoundsException on `updateContentCaptureOptions`
+services: Fix NPE caused by null connectionToken
+themes: Configure font spacing for various clock fonts
+Force mouse event as touch
+Launcher3: Setup icon pack's launchIntent
+Launcher3: Use SelectorWithWidgetPreference for icon pack's selection
+Launcher3: Use overridden IconProvider instance consistently
+PixelPropsUtils: Introduce ROG Phone 6
+PixelPropsUtils: Update supported pixel code names
+Settings: fix NetworkProviderSettings crash
+SystemUI: fix transparent navigation bar keys in secondary display
+Track the updated FMRadio app for legacy devices
+WallpaperPicker2: Add fit strategy chooser (incl. high quality)
+config: Re-enable rsync
+config: common: Build zstd cmdline tools
+config: common: unrar undead
+fixup! Allow disabling pointer acceleration
+inputflinger: add absolute mouse input support
+Evolver: Fix UDFPS NPE
+Merge Pixel 7a May 2023 security patches (13.0_r49)
+SystemUI: Adjust qqs top margin dimension
+SystemUI: Remove haptics from brightness slider
+Introduce isDeviceClassMatched() to align BluetoothClass comparison
+SystemUI: flags: Set more flags via config
+Evolver: Increase QS header images max limit
+SystemUI: Import more QS Header resources
+base: Force full screen for Spotify
+core: Disable RescueParty by default
+VolumeDialog: Round-ify volume app icon
+Add handling of permanent disabled sims
+AudioDeviceBroker: Fix not setting proper call volume for LE Headset
+Crash when enabling show_operator_name_in_statusbar_bool
+Device asks for PUK code instead of SIM PIN
+Evolver: Remove config dependency for ambient wake gestures
+fixup! Allow disabling pointer acceleration
+fixup! AttestationHooks: Get package name from context instead of app
+hwui: Fix multiple definitions of NativeFamilyBuilder
+prevent crash with pin protected user and taskview
+QRCodeScannerController: Check for google package availability
+Select the proper request list size
+​​camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors
+PixelPropsUtils: Multiple updates
+config: Add extra privapp-permissions
+config: Grant android.permission.WRITE_DEVICE_CONFIG to gms
+AttestationHooks: Use certified properties for Snapchat
+Discard snapshots after dropping updatable APEX support
+DisplayPowerController: Don't apply brightness adjustment if NaN
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+SystemUI: Catch the remaining exceptions when re-inflating the qs panel
+SystemUI: Prevent another OOB when creating tile views
+UdfpsDisplayMode: Make using Optimal display refresh rate optional
+fwb: remove spammy wallet lockscreen icon error
+wm: Fix a possible race condition for onRecentTaskRemoved
+version: Update to 7.9 (Kare-kare)
+DataSwitchTile: Fix issue when subId is non-binary
+DataSwitchTile: Resolve initial tile state
+DataSwitchTile: Show active sim as tile current state
+FlashlightController: Disable sending intent
+KeyguardStatusBarView: Clean up cruft
+Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+Launcher3: Always show all apps label instead of line
+Launcher3: Prevent double press behavior for overview actions
+View: Prevent NPEs when initiating surface drag
+Fix transistent task mode app compatibility issue
+EvoEgg: Exclude from Google backup
+HWUI: reset buffer state only for ES3 context
+SystemUI: Enable cast tile without Wi-Fi connection
+WindowManager: finally proper desktop mode handling
+overlays: Exclude from Google backup
+Settings: Introduce Pointer acceleration setting​​
+Settings: Introduce Transistent task mode setting
+system_timezone: update to aml_tz4_331314020
+base: Add mock oplus LinearmotorVibratorService
+sepolicy: Label LinearmotorVibratorService
+services: Add a system property for linearmotor service
+Pocket mode: Update style to latest OOS specs
+QSPanel: Prevent systemui crash when adjusting tiles height
+Remove the artificial 500 call log limit
+qcom: Add taro platform
+qcom: Include vendor/qcom/opensource/display namespace only for <5.10 platforms
+qcom: set TARGET_USES_QCOM_AUDIO_AR for the UM 5.10 family
+OOMAdjuster: Reconfigure proactive kills condition check
+OOMAdjuster: Resolve disk read violations
+SystemUI: Avoid systemui crash on init
+SystemUI: Fix duplicated creation of KeyguardStatusBarViewController
+​​SystemUI: Make QS Header Image less intrusive with codebase
+base: PowerOffAlarmService: Add a notification
+fixup! Keyguard: Add option to scramble pin layout when unlocking
+overlay: Remove UDFPS enroll stage thresholds
+PhoneWindowManager: Fix power for torch gesture skips power wake events
+Settings: Add back illustration to face settings
+Settings: Don't sort user profiles by serial number, sort alphabetically
+Settings: Move radio info (*#*#4636#*#*) into device info from Evolver
+Settings: Hide radio info if device don't support voice
+SettingsLib: Use WHITE color instead MAGENTA for Battery Drawable
+SystemUI: Only apply tuning changes when the fragment is attached
+SystemUI: Remove brightness slider top margin
+libs: hwui: Avoid system crash if font contains invalid/null font data
+overlays: iconpacks: Update launcher screenshot fill color
+Camera: Bump up the extension jpeg processor blob size
+Launcher3: Prevent shake listener from running when not in view
+SystemUI: Dynamically adjust Lockscreen clock font spacing
+ActivityThread: Prevent a NPE caused by null configuration
+ConfigurationController: Prevent app crash on orientation change
+Evolver: Bring back Fingerprint authentication vibration
+Launcher3: Add NPE check in TaskbarDragController
+Launcher3: Let's keep 2-button nav alive for a little longer
+Launcher3: Move restart check to home page
+Launcher3: Remove overview scrolling scale animation
+Launcher3: Show a toast when restarting the launcher
+Launcher3: ​​Skip glitchy search animation
+SystemUI: Prevent OOB when reinflating QS panel with notifications
+ThemePicker: Use pixel themes stub package
+WallpaperPicker2: Fix overlapping when scrolling
+WallpaperPicker2: Follow UI styles
+WallpaperPicker2: Remove the use of smaller images for thumbnails
+Update translations
+base: Fix issues with linked volumes
+config: Bring back NavigationBarMode2ButtonOverlay
+fix: isMultiUserSupported in TestDevice does not reflect real value
+oom: Enable proactive kills only on modern kernels
+os: Process: Fix wrong code in isThreadInProcess
+Fix getRootTask may be null led to client NPE
+Fix potential crash when TaskDisplayArea is null
+Fix task info null crash
+Fix unqualified-std-cast-call compiler warning
+Fixed process can't start because of mPendingStart is true problem
+HWUI: reset buffer state after MakeCurrent
+Launcher3: Make recents buttons chips
+Launcher3: SystemShortcuts: Fix fc with InfoBottomSheet
+Restoring SDR brightness immediately when entering dim state if the device is in HDR brightness scale mode
+Return with error logs instead of exception for unexpected nsi
+base: Fix corny blur rendering bug
+blur: Switch to glass blur effect
+Add Launcher3 permissions
+AttestationHooks/PixelPropsUtils: Get package name from context instead of app
+Evolver: QS Header Image
+PixelPropsUtils: Allow Spoofing of Pixel 7 Pro for Pixel devices
+SystemUI: Fix pocket lock after 13 QPR1
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+rro_overlays: Remove NexusLauncherResOverlay
+Fix an issue that the sensor privacy does not apply to the new camera clients
+Notifications channels are not locked at first boot
+config: Add TARGET_USES_PICO_GAPPS flag
+Add a suspension check to SuspendedAppActivity
+Fix sfps arrow color in overlay
+Launcher3: Remove default at a glance widget for higher grids
+Launcher3: Match default apps/dimens/layouts with Pixel Launcher
+PixelPropsUtils: Cleanup
+PixelPropsUtils: Spoof ROG Phone 3 for FIFA Mobile
+Settings: Add switch to unlink ringtone and notifications volume
+Settings: Fingerprint: hide link icon when there's no link
+Settings: FingerprintEnroll: Add config for dedicated side mounted fps
+Settings: FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+permissions: Pre-grant google restore permissions
+wm: Prevent NPE for springanimation
+Bring back Evo X Launcher, ThemePicker and WallpaperPicker2
+Do not crash webview if its group creation fails due to a dead process
+Fix com.android.server.wm.TaskFpsCallbackController#unregisterListener method NEVER works
+ThemePicker: Expose quick affordances section on default UI
+ThemePicker: quickaffordance: Fix UninitializedPropertyAccessException
+Use SecureRandom instead of java.util.Random
+overlay: Target Evo X Launcher/AOSP ThemePicker
+vendor: SimpleDeviceConfig: Update now playing configs
+BatteryStatsImpl: Avoid dividing by 0.0 in updateWifiState
+Fix NPE when store brightness and displayDevice is null
+Fix warnings from static analysis tool
+NotificationMenuRow: fix logspam
+PixelPropsUtils: Use OP 8 PRO for Mobile legends
+SystemUI: flags: Disable Monochromatic themes
+SystemUIGoogle: Disable Adaptive charging logging
+base: Add SmartSwitchChanged api
+base: Support for device specific input Filter
+base: Try loading input filter only if specified
+overlay: Move default status bar height to no-rro
+soong: Add TARGET_NEEDS_OPLUS_VENDOR_TAG
+Fix crash with HW assist button
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+base: Introduce PowerOffAlarmService
+libs: hwui: Silence OpenGL swap behavior failures
+overlay: Frameworks: Separate controls for notification and ringtone volumes
+Evolver: Bring back Fade filter for lockscreen media artwork
+PixelPropsUtils: move snapchat to walleye spoofing
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Align the qs carrier text to its gravity bias
+SystemUI: Rework media artwork implementation
+Allow toggling VoWiFi while roaming by default
+Evolver: Bring back Configurable lockscreen album art blur radius​​
+Evolver: Bring back Dynamic VoLTE & VoWiFi icons
+Evolver: Bring back Netflix spoof
+Evolver: Bring back OOS style notification clear all button styles
+Evolver: Bring back QS panel styles
+Evolver: Remove FP auth vibration toggles
+InputDevices: Fix Hungarian language overlay
+MetaKeyKeyListener: Disable locking of toggled modifier keys
+PixelPropsUtils: Add support for Asphalt 9
+Settings: Add secondary Smart charging availability condition
+SystemUI: Hide oos clear all if reticker enable 
+SystemUI: Prevent InternetDialog crashing system
+SystemUI: Reset QS on UI mode change
+base: Fix smart charging bug
+Native: VibratorFeature: Import Xiaomi Android 13 Changes 
+SystemUI: Align QS header with status bar
+SystemUI: flags: Enable new output switcher
+SystemUI: Fix QS header alignment with status bar
+Updater: Remove "what's new" text
+Evolver: Re-organize entries
+SystemUI: Enable camera & flashlight keyguard affordance
+display: Disable refresh rate switching with DC Dimming
+telephony: Add ICCID into CarrierIdentifier
+​​Dismiss recording notification on stop
+Merge April 2023 security patches (13.0_r41)
+PixelPropsUtils: Update fingerprints to April 2023 release
+SettingsLib: Update 5G+ icon to Silk design
+SystemUI: Grant READ_PHONE_STATE permission
+device_config: Remove extra pixel launcher search features (removes battery drain)
+version: Update to 7.8 (Sisig)
+Bluetooth: Add system properties to config audio codec priority
+GameSpace: safely update rootBarView's LayoutParam
+GameSpace: update deprecated API usages
+GameSpace: use relative-location on landscape as well
+NetworkProviderSettings: Fixup uninitialized mWifiManager
+Set navbar color for device default settings theme
+Settings: Add a toggle to force LTE_CA
+Settings: Add switch preference for AGPS
+Settings: Add toggle for connectivity check
+Settings: AGPS: Mention that it's ignored during user-initiated emergency calls
+Settings: Enable ActivityResultLauncher for keyguard
+Settings: Follow navbar color in base
+Settings: Only one channel is reserved for WifiP2pSettings
+Settings: Update Glide library
+SettingsLib: Fix nav bar color on certain apps
+SystemUI: Reduce keyguard indication text padding
+SystemUI: Switch to better daily data usage impl
+SystemUI: Use better icon for camera keyguard affordance
+Use IPv4v6 as default protocol when APN setting is not available
+config: Disable ADB authentication
+gms: Pixel Launcher: Add ACCESS_SURFACE_FLINGER permission to manifest
+init: Make an error message more informative
+sepolicy: Label system properties to config audio codec priority
+HACK: telephony: Conditionally force enable LTE_CA
+HACK: telephony: Force Class 0 SMS to Class 1
+SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+SystemUI: Match collapsed qs header height with status bar
+SystemUI: Turn on UMO turbulence noise and surface ripple by default
+SystemUI: keyguard: preview: Catch InterruptedException
+overlay: Disable immersive mode confirmation
+overlay: Enable Wi-Fi by default on first boot
+soong: Bring bootloader_message_offset back
+udfps: Forward port Boost framework hook
+Screenrecord: Save preferences for permission dialog
+fixup! Screenrecord: Allow to reduce 3 second screen record timer
+fixup! SystemUI: Export RecordingService for External Usage

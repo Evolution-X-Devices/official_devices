@@ -1,0 +1,44 @@
+NOTE: ONLY DO OTA IF YOU ARE ON v7.7 OR ON MY 7.9 BETA BUILD.
+HOW TO CLEAN FLASH: MAKE SURE YOU'RE USING LATEST TWRP. (NOT PATCHED ONE)
+SIMPLY FORMAT DATA, WIPE SYSTEM, VENDOR, ODM, DATA, DALVIK/CACHE THEN FLASH ROM -> MAGISK IF NEEDED -> DFE IF NEEDED
+================================================================
+DEVICE CHANGELOGS:
++ Based on official LineageOS trees. (4.9.118 clean kernel, clean trees)
++ Fixed an issue that 4k videos couldn't be played.
++ Fixed an issue that 1st CPU frequencies stays high.
++ Further reduce logs level.
++ Build Aperture instead of GCamGO.
++ Set S-Pen input device type to touchscreen.
++ Configure aux camera for Aperture.
+================================================================
+ROM:
+5/3
+config: Add extra privapp-permissions
+config: Grant android.permission.WRITE_DEVICE_CONFIG to gms
+
+5/2
+AttestationHooks: Use certified properties for Snapchat
+Discard snapshots after dropping updatable APEX support
+DisplayPowerController: Don't apply brightness adjustment if NaN
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+SystemUI: Catch the remaining exceptions when re-inflating the qs panel
+SystemUI: Prevent another OOB when creating tile views
+UdfpsDisplayMode: Make using Optimal display refresh rate optional
+fwb: remove spammy wallet lockscreen icon error
+wm: Fix a possible race condition for onRecentTaskRemoved
+version: Update to 7.9 (Kare-kare)
+
+5/1
+DataSwitchTile: Fix issue when subId is non-binary
+DataSwitchTile: Resolve initial tile state
+DataSwitchTile: Show active sim as tile current state
+FlashlightController: Disable sending intent
+KeyguardStatusBarView: Clean up cruft
+Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+Launcher3: Always show all apps label instead of line
+Launcher3: Prevent double press behavior for overview actions
+View: Prevent NPEs when initiating surface drag

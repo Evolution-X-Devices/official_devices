@@ -1,0 +1,29 @@
+This is Android 13 (QPR2) with May 2023 (r43) security patches
+
+Notes:
+==============================
+- Google backup restore is still broken for Settings backups. Restoring apps/games/contacts still works.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches, if you still facing some flickering turn on blur again.
+- Camera and whatsapp qr working!
+
+Device changes:
+==============================
+- Brought back Battry Health, although it is not accurate anyways :).
+- rootdir: Stop bootanimation service after boot.
+- sepolicy: add camera label's.
+- prop: Enable apk fs-verity.
+- rootdir: Setup all the sub-system as related.
+- Fix google voice recorder
+------------------------------
+
+ROM changes:
+==============================
+Do not backup APKs that do not have allowBackup attr on it's manifests (fixes Google restore error)
+Evolver: Add brightness slider styles
+Merge May 2023 security patches (13.0_r43)
+PixelPropsUtils: Update fingerprints to May 2023 release
+QRCodeScannerController: Use Lens as fallback activity
+UdfpsDisplayMode: Make using Optimal display refresh rate optional
+version: Update to 7.9 (Kare-kare)

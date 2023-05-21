@@ -1,0 +1,34 @@
+NOTE: USING MIUI 13 FW IS MANDATORY. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+Highlights:
+- Fixed unlimited photos spoof
+- Fixed crashes in rare cases
+
+ROM changes:
+==============================
+
+5/9
+VolumeDialog: Round-ify volume app icon
+
+5/7
+Add handling of permanent disabled sims
+AudioDeviceBroker: Fix not setting proper call volume for LE Headset
+Crash when enabling show_operator_name_in_statusbar_bool
+Device asks for PUK code instead of SIM PIN
+fixup! Allow disabling pointer acceleration
+fixup! AttestationHooks: Get package name from context instead of app
+hwui: Fix multiple definitions of NativeFamilyBuilder
+prevent crash with pin protected user and taskview
+
+5/6
+QRCodeScannerController: Check for google package availability
+Select the proper request list size
+SystemUI: add haptics to brightness slider
+​​camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors
+
+5/5
+PixelPropsUtils: Multiple updates
+
+5/3
+config: Add extra privapp-permissions
+config: Grant android.permission.WRITE_DEVICE_CONFIG to gms
