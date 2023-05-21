@@ -1,0 +1,32 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.315
+
+**Evolution X Update**
+
+- Update to 7.9.1 (Lumpia)
+- VolumeDialog: Round-ify volume app icon
+- base: Force full screen for Spotify
+- SystemUI: Import more QS Header resources
+- SystemUI: Remove haptics from brightness slider
+- SystemUI: Adjust qqs top margin dimension
+- Merge Pixel 7a May 2023 security patches (13.0_r49)
+- Launcher3: Setup icon pack's launchIntent
+- themes: Configure font spacing for various clock fonts
+- SystemUI: Restore default lockscreen clock text sizes
+- SystemUI: Ignore font padding for large ls clock
+- Evolver: Lock screen text size settings
+- Evolver: Lock screen clock top margin settings
+- Evolver: Remove HeadsUp blacklists and importance selector
+- Evolver: Move lockscreen clock customization to lockscreen settings
+- core: Switch back to Pasty for copying crash logs
+- WiFiInfo: Fix crash on google setup wizard
+- SystemUI: Remove change to Match collapsed qs header height with status bar
+- Introduce proper Desktop Mode within Display settings (from LibreMobileOS)
+- SystemUI: fix freeform transition visual issue
+- Pocket mode: Fix pocket view bg not updating after wallpaper change
+- Add back button for freeform window
+- PixelPropsUtils: Remove spoofing for Snapchat
+- Evolver: Re-enable left and right virtual buttons while typing
