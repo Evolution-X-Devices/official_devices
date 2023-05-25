@@ -285,9 +285,10 @@ select_changelog_edit_method() {
     2. Vim
     3. Gedit
     4. Emacs
-    5. Enter your own command
-    6. Exit
-    (1-6): " selection
+    5. VSCode
+    6. Enter your own command
+    7. Exit
+    (1-7): " selection
 
     case "$selection" in
         1)
@@ -319,6 +320,13 @@ select_changelog_edit_method() {
             fi
             ;;
         5)
+            if check_command "code"; then
+                clear
+                code --wait changelogs/${codename}/${filename}.txt
+                git_commit
+            fi
+            ;;
+        6)
             clear && display_header
             read -p "Enter a valid program name to open the changelog file (changelogs/${codename}/${filename}.txt): " custom_cmd
             if command -v "$custom_cmd" &>/dev/null; then
@@ -330,7 +338,7 @@ select_changelog_edit_method() {
                 sleep 1
             fi
             ;;
-        6)
+        7)
             clear
             echo -e "${RED}Session ended.${ENDCOLOR}"
             exit 0
