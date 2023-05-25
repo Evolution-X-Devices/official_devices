@@ -286,8 +286,9 @@ select_changelog_edit_method() {
     3. Gedit
     4. Emacs
     5. Enter your own command
-    6. Exit
-    (1-6): " selection
+    6. VSCode
+    7. Exit
+    (1-7): " selection
 
     case "$selection" in
         1)
@@ -331,6 +332,13 @@ select_changelog_edit_method() {
             fi
             ;;
         6)
+            if check_command "code"; then
+                clear
+                code --wait changelogs/${codename}/${filename}.txt
+                git_commit
+            fi
+            ;;
+        7)
             clear
             echo -e "${RED}Session ended.${ENDCOLOR}"
             exit 0
