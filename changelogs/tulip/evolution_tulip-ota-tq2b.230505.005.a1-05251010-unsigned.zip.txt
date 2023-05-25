@@ -1,0 +1,70 @@
+This is Android 13 with May 2023 security patches
+
+Device changes:
+====================================
+None
+
+Rom changes:
+====================================
+5/25
+hwui: Introduce optimized glass blur effect
+renderengine: Introduce optimized glass blur effect
+renderengine: skia: switch to glass blur effect
+
+5/24
+Allow provisioning of multiple work profiles
+Evolver: Fix Media notification artwork fade and blur filter options
+Evolver: Import QS panel layout settings
+Evolver: Set reticker_status default value to true
+Firewall: Support a greater number of apps/uids
+Implement firewall status bar indicator
+Launcher3: fix crash
+PowerStatsService: Prevent NPE in BatteryTrigger.
+ProcessList: Catch Security exception when starting a frozen package
+Settings: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+Settings: Add support for allowing/disallowing apps on restricted networks
+Settings: Add support for global cleartext penalties
+SystemUI: Bring in drawable for statusbar firewall toggle
+SystemUI: Fix reticker notification background
+SystemUI: fix tuner enabling aod on first open
+SystemUI: Handle more exceptions for firewall
+SystemUI: Refactor notification reticker
+SystemUI: Update reticker specs to latest OneUI brief pop up style
+UserManager app installation restrictions
+UserManager unknown source app installation restrictions
+VncFlinger: fix null crash
+VncFlinger: sometimes we are fast, sometimes framework is
+adb_root: Simplify the way we parse enabled state file
+config: Support many users/work profiles
+fixup! Configurable 0, 90, 180 and 270 degree rotation
+services: fix weird launcher3 crash
+version: Update to 7.9.2 (Pancit)
+vibrator: fix log format and level issue
+wm: hacky fix for system_server crash
+
+5/23
+Evolver: Import newer QS panel layout settings impl
+Include build manifest on target
+Remove previous Ambient on wake gesture impls
+Settings: Allow setting wake for notification separately from doze
+Settings: Allow showing Ambient instead of fully waking
+SystemUI: Avoid using null Context in onTuningChanged()
+SystemUI: Fix QS column count on landscape mode
+SystemUI: Fix horizontal scrolling issues
+SystemUI: Fix inconsistent secondary label text size
+SystemUI: Increase QS brightness slider margins
+wm: Fix menu in legacy apps with multiple activities
+
+5/22
+EasterEgg: allow using toy without unlocking
+Launcher3: Add customization to set hotseat background opacity
+Launcher3: Add light theme support for translucent hotseat background
+Launcher3: Allow to control parallax effect and center wallpaper
+Launcher3: recents: Disable lens perf if package is not installed
+VncFlinger: delay sending surface for a bit
+VncFlinger: fix us being too fast for framework
+fixup! SystemUI: Adjust qqs top margin dimension
+wm: block custom activity transit animations
+wm: block task transitions from displaying in freeform
+wm: do not show keyguard windows when mirroring due to dream
+wm: never consume statusbar in freeform mode
