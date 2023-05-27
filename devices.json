@@ -931,15 +931,15 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "ginkgo",
-      "name": "Redmi Note 8",
+      "codename": "ginkgo/willow",
+      "name": "Redmi Note 8/8T",
       "supported_versions": [
          {
             "maintainer_name": "Tejas Singh",
             "maintainer_url": "https://github.com/Charsi-Tejas",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-redmi-note-8-8t.4590251/",
             "device_group": "@EvolutionXGinkgo"
          }
       ]
