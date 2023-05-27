@@ -1,0 +1,44 @@
+[DEVICE]
+ kernel: Merged latest linux patch v4.14.315
+ Enforcing!
+ Address and fix most selinux denials for enforcing for proper working of dolby, hbm, dc dimming, etc
+ Make bottom keyguard margin to px and increase it a little
+ Change cache partition to f2fs
+ Avoid migrating foreground tasks to prime
+ audio: Enable 24-bit for deep buffer
+ Enabled smoother scrolling and better responsiveness
+ Enable pre-rendering
+ Set lmk to kill heaviest task
+ Apply aggressive write caching
+ Updated vibration effects
+ Enable ro.hwui.render_ahead and set it to 20 frames to fix qs panel lag
+ Store Socket ID for drivers
+ Allow vendor init to set SSR property
+ Enable Camera EIS
+ Tune Adaptive Suspend parameters
+ audio: add ACDB IDs for voice recording
+ audio: extend buffer size to 256kb for offload playback
+ Tune wifi bmps listening interval
+ Configured volume steps for more precision
+ Enable BT low power adaptive control feature
+ Fix Biometric dialog corner radius to be rounded
+ Enable HDR and wide color gamut
+ Enable apk fs-verity to fix most banking apps
+ Enable suspend to RAM
+ Optimize native executables for Cortex-A76 CPU
+ Switch to AutoSingleLayer Android 13 Setting
+ Disable vsync for CPU rendered Apps
+ Fixup sb/qs height paddings
+ Disable phantom process monitoring
+ Launch bootanimation early
+ Gave system permissions to kgsl-3d0 nodes
+ Switch to legacy sepolicy_vndr
+ Move to libhidl shim in hardware/lineage/compat
+ Many more under-the-hood changes I cannot mention
+
+[SOURCE]
+ Merged may security patch
+ Version bumped to v7.9.1 Lumpia
+ Includes all the source changes till date
+
+#KeepEvolving
