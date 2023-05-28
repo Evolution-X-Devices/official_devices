@@ -159,7 +159,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r43-official-evolution-x-7-9-05-18-2023.4547009/",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-05-28-2023.4547009/",
             "device_group": "@EvolutionXPixel6"
          }
       ]
@@ -174,7 +174,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r43-official-evolution-x-7-9-05-18-2023.4547009/",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-05-28-2023.4547009/",
             "device_group": "@EvolutionXPixel6"
          }
       ]
@@ -189,7 +189,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r43-official-evolution-x-7-9-05-18-2023.4547009/",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-05-28-2023.4547009/",
             "device_group": "@EvolutionXPixel6"
          }
       ]
@@ -774,7 +774,7 @@
             "maintainer_url": "https://github.com/Charsi-Tejas",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-xiaomi-poco-f1.4590487/",
             "device_group": "@EvolutionXBeryllium"
          }
       ]
@@ -849,7 +849,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/ashish11948.11817917/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-veux-peux-official-evolution-x-05-04-23.4497785/",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-veux-peux-official-evolution-x-05-21-23.4497785/",
             "device_group": "@EvolutionXVeux"
          }
       ]
@@ -932,14 +932,14 @@
    {
       "brand": "Xiaomi",
       "codename": "ginkgo",
-      "name": "Redmi Note 8",
+      "name": "Redmi Note 8/8T",
       "supported_versions": [
          {
             "maintainer_name": "Tejas Singh",
             "maintainer_url": "https://github.com/Charsi-Tejas",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-redmi-note-8-8t.4590251/",
             "device_group": "@EvolutionXGinkgo"
          }
       ]

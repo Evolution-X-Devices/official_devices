@@ -1,0 +1,967 @@
+Update 20230527
+- Synced to latest source (Evolution X 7.9.2 Pancit)
+- Moved parts into OPlusExtras
+- Allow toggles for hyper threading mode. Disable that if you're getting battery drains.
+
+=======================
+     2023/05/27
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+765d74ee5 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/bionic into tiramisu
+e7ce5d84c libc: Do not nullify `__dtoa_locks`
+a3b9857e1 Sync libm with upstream freebsd.
+9500c2e76 Sync with upstream openbsd.
+f2fb6f240 Adjust the calculation method of pc
+367f8c5f6 libc: arm64: Use SIMD-accelerated memcpy
+352f70fe8 Rewrite function definitions with identifier lists
+cc0309677 bionic: Enable -O3
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+9c035c25 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/bootable/recovery into tiramisu
+0e826e66 recovery: Allow custom bootloader msg offset in block misc
+91a3d17f recovery: wipe bootloader message from index 0 when using custom offsets
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e8176713f8ca Add pointer capture callback
+a4ad8532a2c3 base: Disable 5G in battery saver mode [1/3]
+964dc7203b8f hwui: Remove logspam cause by early animation handle check
+c5311c198920 libs: hwui: Optimize pushStaging() performance and memory usage
+dce3e8263890 fixup! libs: hwui: Fix a race condition and null pointer dereference
+958d74bcf211 libs: hwui: Fix a race condition and null pointer dereference
+b6ed05f99f06 hwui: Add NULL pointer check in AnimatorManager::pushStaging
+89f18863bfff base: Add overlay to mock oplus LinearmotorVibratorService
+2f9605b5dd6a Hide hidden apps from all apps except system
+ebc28509b472 fixup! Configurable 0, 90, 180 and 270 degree rotation
+293e5c8f4af3 settings: Enable RestrictedNetworkingMode
+e01182df0beb SystemUI: Handle more exceptions for firewall
+cc7c547cdbea fixup! Implement firewall status bar indicator
+b0a4ed2df028 SystemUI: Bring in drawable for statusbar firewall toggle
+b4909a913a6f Implement firewall status bar indicator
+ba9c436b1f6d Intent firewall enhancement
+63486a71a26d Add support for global cleartext penalties
+5418299db41b Use profile's power button/timeout lock settings
+dfb7660aadff Fix unlocking of multiple work profiles at boot.
+f4fb732a4f7b Fix Open With dialog within a work profile. Also, attempt to prioritize showing the first-found work profile when chooser appears in personal profile (hack, don't think it works).
+57eb7a713b4c Add additional work profile badge colors and labels for a total of 16. Update user/profile type specification to use them and to allow a maximum 16 profiles per parent (supposedly, but that does not seem to work on its own).
+b605c7138616 Always allow overriding the number of work profiles
+abad855b7f72 Add custom handling for backup/restore of UIDS_ALLOWED_ON_RESTRICTED_NETWORKS
+c183954c07c0 Migrate from network isolation to restricted networking mode
+dbdabf5a3708 NetworkPolicyManager: Add POLICY_REJECT_ALL constant
+3ce362941188 Clear calling identity when setting restricted networking mode UID firewall rules
+b5ad1dbf1518 Implement backup/restore for network policy
+f3473334b157 Split network policy XML parsing into read/write helper functions
+48cd30b26108 fw/b: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+b91893d2a6a3 Restricted Networking Mode fixes
+48f65b32f7a4 Remove removed package uids from Restricted Mode's uid allowlist
+170c59312961 Add Restricted Mode uid allowlist setting observer to NetworkPolicyManagerService
+1222848ffe5e Sync hasRestrictedModeAccess with PermissionMonitor in NetworkPolicyManagerService
+9dbeeeb50b98 fixup! fw/b: Add capability to allow tethering to use VPN upstreams [1/3]
+c3a7f6f75d5b vibrator: fix log format and level issue
+4857388580a1 PowerStatsService: Prevent NPE in BatteryTrigger.
+093432ec9cc0 hwui: Introduce optimized glass blur effect [2/2]
+706561ceb55d hwui: Implement glass blur effect
+901f36eff29a ProcessList: Catch Security exception when starting a frozen package
+340667cd00e5 SystemUI: Media notification artwork fade and blur filter [1/2]
+d624e503b339 SystemUI: Increase QS brightness slider margins
+99d7d24da7a5 SystemUI: Update reticker specs to latest OneUI brief pop up style
+4b9748991515 SystemUI: Fix reticker notification background
+9a9aea2ed1ec SystemUI: Refactor notification reticker
+003d3e7fc087 SystemUI: Import more QS Header resources
+256d2dd69b24 SystemUI: Avoid using null Context in onTuningChanged()
+1eed63b60d64 base: Allow showing Ambient instead of fully waking [1/2]
+d598e36c413e base: Allow setting wake for notification separately from doze [1/2]
+b3a3931b0951 services: fix weird launcher3 crash
+cb2270d02c67 SystemUI: fix tuner enabling aod on first open
+dd72f0a14c23 wm: hacky fix for system_server crash
+779fc867a9e1 wm: Fix menu in legacy apps with multiple activities
+d2f5e34a6958 wm: do not show keyguard windows when mirroring due to dream
+c837a30ae59d wm: never consume statusbar in freeform mode
+4b85e4376ee4 wm: block custom activity transit animations
+dffdfcc2492b wm: block task transitions from displaying in freeform
+1f9b13b32df4 wm: add freeform-compatible activity transition animation
+cb85e3988f79 wm: support freeform-specific animation overrides
+67bf4e2f4a76 SystemUI: show ime switcher + cursor keys if we have space
+7d64fcb8fb08 wm: Fix menu only opening once on legacy apps
+78018bbd17af SystemUI: support navbar surface drag-n-drop [1/2]
+891488aeae24 SystemUI: navbar extra keys
+a6ec17bd14d2 SystemUI: Fix position and orientation of arrow keys in navbar
+ab4cd48bf00f SystemUI: add left and right virtual buttons while typing
+229276cb9fb0 wm: rewrite/fix window change animation
+dbd8c92a9b39 SystemUI: fix freeform transition visual issue
+34b3f417e76c SystemUI: fix transparent navigation bar keys in secondary display
+72b822f8e1d7 Force mouse event as touch [1/2]
+f0a1fd48a99a fixup! Allow disabling pointer acceleration
+fd771b8e8a90 SystemUI: fix antiquated TunerActivity bugs
+d5119ccd0ab8 InputManager: allow to force NULL cursor
+6027957c046d InputManager: add cursor change listener
+7e7e16428fd0 EasterEgg: allow using toy without unlocking
+68fab46b55c7 Add back button for freeform window
+b589abd8f9b6 Only show pip button if activity supports it
+7ca9289783be Add minimize & pip buttons to freeform windows
+f412cc556023 Pocket mode: Fix pocket view bg not updating after wallpaper change
+c89af0953cbb ExifInterface: Catch IOException caused by invalid image
+aeb5c3941c71 VolumeDialogImpl: Reconfigure handling of animation/jank listeners
+4edc7f223482 VolumeDialog: Round-ify volume app icon
+5cb44b217e29 appwidget: Catch IllegalStateException when retrieving providers profiles
+5b51feca7334 services: Fix NPE caused by null connectionToken
+f77b97e94c91 services: Fix ArrayIndexOutOfBoundsException on `updateContentCaptureOptions`
+c62d00c51e97 core: Disable RescueParty by default
+a4e4f94862e4 SystemUI: Disable touch events for dismiss all button if not visible
+69458d6169b6 SystemUI: Adjust qqs top margin dimension
+ad15d0c321f8 SystemUI: flags: Set more flags via config
+4a0083f0ddf7 Hide DismissView when receiving ACTION_CANCEL event
+53360e44c1ef Apply wakelock for notification sound
+7ab28a3b3df5 core: Switch to Pasty for copying crash logs
+b272d611ad3e Add QS battery customization in LargeScreenShadeHeader
+aa614ac4b592 Fix the memory leak during high speed recording
+9d5fa9e02188 Fix null-deref crash while fuzzing
+d3efb9d22807 Fix memory leak in GroupExpansionManager
+fc8f70df5956 Extend kill button to notification conversation guts
+faf9f384c494 TaskPersister: silence spammy message
+fae03717a40c Introduce trimMemory to AppIconCacheManager
+0506e82b105d Introduce isDeviceClassMatched() to align BluetoothClass comparison
+5162ff678d06 Fix typo in Dynamic coloring section
+295633ed7c97 base: Force full screen for Spotify
+20b0ff8c6830 AudioDeviceBroker: Fix not setting proper call volume for LE Headset
+f95da53f30fe Allow overlaying font spacing for lockscreen clock
+bdece15b44d4 prevent crash with pin protected user and taskview
+259e4a714c92 Select the proper request list size
+60ee52f5a68a Camera: Decrement image references after 'onNextImageAvailable'
+ed8bd030fbc6 Camera: Quit extension handler thread during release
+fbae0d259423 Camera: Release advanced extension references
+9812b8361ae9 Camera: Always release the extension session after configuration
+f01859c03368 Camera: Avoid holding locks during advanced extension initialization
+bc70832172ad camera2: Add non burst sizes to mandatory streams for ultra high resolution sensors
+1cc99ae8e182 QRCodeScannerController: Check for google package availability
+5da57aff7f59 [SQUASH] PixelPropsUtils: Multiple updates
+35b388ebc067 [SQUASH] Clean up several features
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+58c7f6000a Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/frameworks/opt/telephony into tiramisu
+3b071bba55 telephony: Disable 5G in battery saver mode [2/3]
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+fd07b46ab Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+a538614ae Revert "frameworks: Update HIDL overrideFormat from HAL"
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/tiramisu
+
+28771c13 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/hardware/libhardware into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+2eb253b manifest: Track Desktop Mode repos from LMODroid directly
+932e951 Revert "manifest: Track other repos for sm8350"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+8e79fcb New Crowdin updates (#226-#470)
+f28340d Evolver: Set reticker_status default value to true
+22814e6 Evolver: Re-enable left and right virtual buttons while typing
+df07863 Evolver: Fix UDFPS NPE
+6ebc249 Evolver: Sync QS battery customization changes
+38382b4 Evolver: CustomFPImage: Retain the previously set image if selection is canceled
+76bcc34 Evolver: Move lockscreen clock customization to lockscreen settings
+82e994b Evolver: Increase QS header images max limit
+e4e173e [SQUASH] Evolver: Clean up removed features
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+617ea2bd2d New Crowdin updates (#1-#44)
+ee7d299c84 Launcher3: recents: Disable shake to clear all by default
+e9b7750f11 Launcher3: Fix crash when placing widgets
+baf238d186 Launcher3: Keep hotseat bottom spacing for taskbar devices
+68b7107aaf Launcher3: Fix smartspace visibility on higher grids
+039397467b Launcher3: Expose force monochrome themed icon flag as a user preference
+2c34b3791b Launcher3: fix crash
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+fe825963 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/nattolecats/packages_apps_OneplusParts/commits/tiramisu
+
+5d3925d OneplusParts: Add camera conf & libs downloader
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1b79440bde New Crowdin updates (#303-#317)
+f503cd6057 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/apps/Settings into tiramisu
+09462b0a94 Settings: Disable 5G in battery saver mode [3/3]
+9513ab6e6a AppDataUsage: Update "Background network access" toggle logic
+86ee41497c Use our string for restrict_background
+1a50d006b2 UserManager unknown source app installation restrictions
+f79ca36025 UserManager app installation restrictions
+2633575719 Settings: Add support for global cleartext penalties
+e19c87d33b Work profile lock settings will now affect the active managed profile
+231957811c AppDataUsage: Handle apps without INTERNET permission
+616ab479e5 Settings: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+17fdb15cae Settings: Add support for allowing/disallowing apps on restricted networks
+0952dafbf7 Settings: Allow showing Ambient instead of fully waking [2/2]
+fde4db8c67 Settings: Allow setting wake for notification separately from doze [2/2]
+0c3dde97d3 [SQUASH] Settings: Remove previous Ambient on wake gesture impls [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+6c0c3531c Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+634abb4c2 fixup! Connectivity: Add capability to allow tethering to use VPN upstreams [2/3]
+446899e96 Bypass VPN lockdown for clat initialization
+79bdfe780 Firewall: Support a greater number of apps/uids
+060f157a8 Stop reading UIDS_ALLOWED_ON_RESTRICTED_NETWORKS setting in PermissionMonitor
+8b685f616 setUidsAllowedOnRestrictedNetworks: Modify UID enforcement to check app id
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+c71325a4a Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+f1ba1f2 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/common into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+9a99e191 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+38f0bbeb1 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+fa8a9799e Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+f7059e532 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+be1967cf0 init.rc: tune dirty data writebacks
+182c0fb39 init: Make an error message more informative
+094d4b0cb first_stage_mount: Skip dm-verity setup if AVB is not enabled
+335503945 hosts: Block OTA downloading from GMS
+56cfc3361 liblp: Allow to flash on bigger block device
+55a793ab7 init: Use `IsRecoveryMode()` for normal boot checks
+28b68a062 Revert "core: Don't spoof props in recovery mode"
+af0e54d04 Revert "core: Treat reboot boot mode same as normal one"
+f0af31419 healthd: Fix charger_res_images_vendor install location
+78a57fbc3 Add wrapped key support
+aa85e6342 init: Spoof more props
+528b7de8f core: Treat reboot boot mode same as normal one
+0fe1fcaeb core: Lockscreen Charging (2/3)
+f7d4a9452 fastboot: Prefer ro.boot.hardware.revision for hw-revision
+a0bd01b6f fastboot: Print OemCmdHandler return message on success
+88f5592e5 libsparse: Add simg2img_static target for host
+8a935962f fs_mgr: Allow remounts with Magisk installed
+5c4d81669 libsysutils: Hide NetlinkListener error in recovery
+26b83e28a reboot: allow opting-in to fastbootd
+b1ddd5915 core: mark libsysutils and libdiskconfig recovery_available
+0970207c2 fs_mgr: mount: don't set the block device as ro for recovery
+bdd4df776 fastboot: stop trying to determine bootloader unlock status from /proc/cmdline
+741b10b37 ashmem: int/size_t and slight modernization.
+22e5338bc libfs_avb: Disable dm-verity when AVB is permissive
+f2639c6fc Revert "libfs_avb: verifying vbmeta digest early"
+cb86a06f2 healthd: cover devices that have voltage_max file with value of 0
+c4a9c78ab fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+d39ec616a rootdir: Look for ODM & vendor ueventd entries in ETC too.
+47c90a0f2 llkd: Include llkd-debuggable.rc in eng builds only
+00d607d43 init: Set persist.sys.usb.config properly
+ea1c26202 Revert "Format formattable partitions if mount fails"
+2afe20dc6 core: Don't spoof props in recovery mode
+efc6e1ee9 init: Check for fastbootd before spoofing safetynet props
+26a92a3f0 core: Add more props for snet spoofing
+c4ac53ff6 init: Only set safetynet props if not eng build
+6e41827f9 init: Weaken property override security only when spoofing safetynet
+faa8d7d8b init: add vendor.*  keys to spoof safetynet
+d2e4d2781 init: workaround SafetyNet check
+9035c1667 init: Weaken property override security for the init extension
+5311d3fae init.rc: Disable native stats collection service
+402cd7488 init.rc: don't start console unless asked to
+3f39322e2 camera: Add L-compatible camera feature enums
+0625f2f4f init: always allow local.prop overrides
+f1ccc7836 Set permissions on /system/addon.d/ and files within.
+1b4d4c716 Set /system/etc/init.d/* permissions
+0a1fe49d2 init: Weaken property override security for the init extension
+ba9c17c69 fastboot: Revert to Android 11 method of checking lock status
+9fe589f98 Camera: Add feature extensions
+4f21e0ea2 init: don't skip starting a service with no domain if permissive
+718d21e76 healthd: Add DASH charger type
+8c9f09306 init: Convert evolution product variables to soong config variables
+53d0750b9 init: Add vendor-specific initialization hooks.
+e21faa4ea healthd: Add support for HVDCP_3P5 chargers
+d057408f6 healthd: Reinitialize mChargerNames for every battery update
+182ee30e8 healthd: Add support for HVDCP_3 chargers
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+4031ada Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/system/libhidl into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+43650aec Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/system/media into tiramisu
+a76c5407 Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+c4a0dce9 audio: Reserve audio format constant for APTX QLEA
+b6a3aced media: update path for vendor specific config files
+
+* Repository: https://github.com/Evolution-X/system_memory_lmkd/commits/refs/heads/tiramisu
+
+cc944dc Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/system/memory/lmkd into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+69f9a38ce Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+
+=======================
+     2023/05/26
+=======================
+
+* Repository: https://github.com/nattolecats/device_oneplus_denniz/commits/tiramisu
+
+578c77b denniz: vendorsetup: Refactor
+
+
+=======================
+     2023/05/25
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+790167b31f Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/art into tiramisu
+22c0d1b64e libartbase: mem_map: Retry up to 512 times on mmap() failure
+
+* Repository: https://github.com/nattolecats/device_oneplus_denniz/commits/tiramisu
+
+97287dd denniz: Don't set forcily hyper threading * This reduce lags, but noticed increase battery drains.   Nuke it and we'll make users manually enable this.
+5b9baf5 denniz: Don't include firmware config makefile * Adapt to latest evo
+
+* Repository: https://github.com/LineageOS/android_external_unrar/commits/refs/heads/lineage-20.0
+
+33790f0 unrar: Remove CleanSpec.mk
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+f27d14f826 renderengine: Introduce optimized glass blur effect [1/2]
+7847088fda renderengine: skia: switch to glass blur effect
+
+* Repository: https://github.com/nattolecats/packages_apps_OPlusExtras/commits/tiramisu
+
+2067db8 OPlusExtras: Add shortcut for OneplusParts
+
+* Repository: https://github.com/nattolecats/packages_apps_OneplusParts/commits/tiramisu
+
+c86d2a1 OneplusParts: Hide from settings.category.ia.system * Moved into OPlusExtras.
+5c1681e OneplusParts: Add Hyper-threading toggle support
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+f5896856 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/adb into tiramisu
+775c7cd4 adb_root: Simplify the way we parse enabled state file
+08700f60 adb: Look for shell executable in alternate places
+331601a5 adb: Add ro.adb.secure.recovery handling
+
+* Repository: https://github.com/LMODroid/platform_packages_services_VncFlinger/commits/thirteen
+
+ddaa568 prepare for pointer capture
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+d1fd96d SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/05/24
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+7b6d8a5 vendor: display: Disable SF client composition cache for <5.4 targets
+6b0b6b4 vendor: media-legacy: Replace LOCAL_COPY_HEADERS with headers lib
+e25e74e vendor: perf-legacy: Enable CLO Userspace LMK
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+bdb9e99 manifest: Track our fork of system/netd
+69b372e manifest: fork ManagedProvisioning
+
+* Repository: https://github.com/Evolution-X/packages_apps_ManagedProvisioning/commits/refs/heads/tiramisu
+
+2b42826d Allow provisioning of multiple work profiles
+
+* Repository: https://github.com/Evolution-X/system_netd/commits/refs/heads/tiramisu
+
+8cd108f3 bw: Make background data work as background network access instead
+04204aff system/netd: Add support for global cleartext penalties
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6ed71bdc version: Update to 7.9.2 (Pancit)
+2cffb8e2 config: Support many users/work profiles
+cd8c416f Include build manifest on target
+
+
+=======================
+     2023/05/23
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+ccf0ca8f4117 New Crowdin updates (#435)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+61f946d7ef Launcher3: Allow to control parallax effect and center wallpaper
+078d6c7520 Launcher3: recents: Disable lens perf if package is not installed
+8c59a6cc87 Launcher3: Add customization to set hotseat background opacity
+29353dde9d Launcher3: Add light theme support for translucent hotseat background
+b62eeeddbe Launcher3: animate workspace on pages without smartspace visible
+b7dd32c3f5 Launcher3: support navbar surface drag-n-drop [2/2]
+fd9bc36ec3 Revert "Launcher3: Just say "System" instead of "Unknown" for app source"
+1094944e62 Launcher3: HotseatEduController: Guard against some odd & rare NPE
+faf70ca7d2 Launcher3: Fix monkey crash in RecentsLaunchAnimator
+a707647979 Launcher3: Add missing end tag in priv-app permissions xml
+1dad399a8e Launcher3: Setup icon pack's launchIntent
+f4a50b9706 Launcher3: Use SelectorWithWidgetPreference for icon pack's selection
+94aa1088ba Launcher3: Use overridden IconProvider instance consistently
+eb9f56f348 Launcher3: Always show all apps label instead of line
+dd7ead9cb1 Launcher3: Prevent double press behaviour for overview actions
+594b7c87e6 Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+9759160ab7 Launcher3: Prevent shake listener from running when not in view
+1a7d67ab73 Launcher3: Let's keep 2-button nav alive for a little longer
+78b79d385b Launcher3: Add NPE check in TaskbarDragController
+6e29ce5d7b Launcher3: Show a toast when restarting the launcher
+8f95ffbe8e Launcher3: Move restart check to home page
+14be86d6e5 Skip glitchy search animation
+bf183906ff Revert "Launcher3: Introduce overview scrolling scale animation"
+c744739ef1 Launcher3: Make recents buttons chips
+7235633325 Launcher3: SystemShortcuts: Fix fc with InfoBottomSheet
+892f730cc8 Launcher3: Match layouts from Pixel Launcher
+089e7e64ca Launcher3: Match default apps with Pixel Launcher
+470d7e88b8 Launcher3: Match dimens with Pixel Launcher
+a19f6de2aa Launcher3: Add a particle effect easter egg to main SettingsActivity
+0b11df7523 Launcher3: smartspace: Adapt to 13-QPR2
+3d7a5abd8f Launcher3: Open google weather on tapping smartspace
+52b25170f1 Launcher3: Update smartspace to 13-QPR1
+53bf3cdbcc Launcher3: bcsmartspace: Import translations
+58b0b9e8b2 Launcher3: Import bcsmartspace lib
+7706b49937 Launcher3: Drop enhanced_smartspace_padding_top
+17c170b34c Launcher3: Fixup Smartspace
+028da9735f Launcher3: Fix nonsense smartspace span in some workspaces
+995f2b0fe1 Launcher3: Fix crash in smartspace targets dump
+2ebf046358 Launcher3: Add a toggle for smartspace
+8d58dc1b56 Launcher3: Open google weather on tapping smartspace
+8e6bebc6f5 Launcher3: Implement workspace unlock animation
+eb1fc565ea Launcher3: Bring back WorkspaceUnlockAnim
+c1de2b10e5 Launcher3: Implement Smartspace
+4b1f90d500 Launcher3: Create Custom Launcher
+8c65272044 Fix NPE in FallbackSwipeHandler when getRunningTask() returns null
+5a1ff1ef0c Fix a potential NPE when buildAnimationController is called
+7051c34e58 Fix potential ConcurrentModificationException
+6b5cbaba99 Disable Launcher AIDL_TAG tracing special case
+41132a85dc Launcher3: Updates from Pixel Launcher
+656ad738d7 Launcher3: Bring back 4x4 grid option
+32f7ccd9c5 Launcher3: Add more permissions to manifest
+476809541e Launcher3: Do not skip search animation for app icons
+1a527b87b7 Launcher3: Hide scrollbar when searching All Apps
+
+* Repository: https://github.com/LMODroid/platform_packages_services_VncFlinger/commits/thirteen
+
+5212b89 VncFlinger: fix null crash
+52fe598 VncFlinger: sometimes we are fast, sometimes framework is
+ded338d VncFlinger: delay sending surface for a bit
+
+
+=======================
+     2023/05/22
+=======================
+
+* Repository: https://github.com/LMODroid/platform_packages_services_VncFlinger/commits/thirteen
+
+da429e8 VncFlinger: fix us being too fast for framework
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+034e156a config/common: Fix definition of firmware path
+
+
+=======================
+     2023/05/21
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+76e4072 sepolicy: common: Add rules for FM Radio app properties
+
+* Repository: https://github.com/Evolution-X/packages_apps_FMRadio/commits/refs/heads/tiramisu
+
+7ed4dcf FMRadio: Generalize Built-In FM Antenna support
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commits/refs/heads/lineage-20.0
+
+b0ed704 vibrator: Add support for aw8695_haptic input device
+fafa38a vibrator: Add support for aw8697_haptic input device
+e5fa454 vibrator: Add support for aw8624_haptic input device
+
+
+=======================
+     2023/05/20
+=======================
+
+* Repository: https://github.com/LMODroid/platform_external_tigervnc/commits/thirteen
+
+59667601 fix build
+ecca0791 Merge branch 'master' of github.com:TigerVNC/tigervnc into HEAD
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+3952fc7194 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+e5da3f0024 Fix an issue that a free memory is accessed
+472656e444 Camera: Avoid unnecessary close of buffer acquire fence fds
+ed5da6deec cameraserver: clear all requests and signal mRequestSignal from RequestThread during disconnect().
+0f450725ab CameraService: Fix deadlock in binder death cleanup
+350013f3d7 cameraserver: Correct camera1 -> api2 shim layer handling for video stabilization.
+5dba7ced46 cameraservice: fix deadlock in onewayhidl onPhysicalCameraStatusChanged
+be0b204fa8 Fix an issue that the sensor privacy does not apply to the new camera clients
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+451747312303 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+3acb443edf Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+53ef4378f2 sf: Reset validateWasSkipped in PostCommit phase
+f7662a5c64 Skip dumping backtraces for cached processes
+11c2096190 Avoid vsync enabled when in DOZE mode (AOD).
+e41b0b0682 Fix unintended buffer canceling
+5f0591dbeb Revert "SF: Avoiding unnecessary frame skip to reduce janks."
+1079b6a711 Force mouse event as touch [2/2]
+6645196070 inputflinger: add absolute mouse input support
+ffea20c14b Native: VibratorFeature: Import Xiaomi Android 13 Changes
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+8149442 manifest: Track desktop mode repos
+
+* Repository: https://github.com/LMODroid/platform_packages_services_VncFlinger/commits/thirteen
+
+98b3af8 VncFlinger: fix clipboard sync
+358c23d port to latest tigervnc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+ff0f1562 config: Build desktop mode packages
+92c97d9d config: Inherit window_extensions.mk
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+38b080d rosemary: Initial firmware
+
+
+=======================
+     2023/05/19
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+36cf95f65 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/build/soong into tiramisu
+d1d2680bc soong: Whitelist python3.11
+74f08d66d soong: Whitelist llvm-addr2line
+0b600538c soong: Add EVO_BUILD_TYPE to dumpvars
+
+* Repository: https://github.com/Evolution-X/libcore/commits/refs/heads/tiramisu
+
+2dff41f9d82 Fix race condition in java.security.Provider
+35ac9739a7b Speed-up KXmlSerializer with features.html#indent-output
+c13866e4372 Add new UrlConnectionTest for TLS 1.3.
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+8846e34 manifest: Track our fork of libcore
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+b8b5fbff2d Launcher3: Migrate deprecated getColor to one with Theme
+16dbc41c31 Launcher3: Tone down scrim background to N1 for vibrance
+e22ec59acf Launcher3: Fix crash in SurfaceTransactionApplier
+419049b6bb Launcher3: Fix monkey crash in createSurfaceParams
+bf69ddd79a Launcher3: PageIndicatorDots: null pointer Exception
+bd786ca792 Launcher3: Add light theme for taskbar background
+77a7439e35 Launcher3: Follow all apps background for taskbar slide in view
+b21debe151 Launcher3: Fix WM service access from non-visual context
+7c22881773 Launcher3: Account hotseatBorderSpace into qsbWidth and hotseat padding
+ff93a65ac6 Launcher3: ui: Fix premature short-circuit on end spring anim
+25219ab976 Launcher3: Add vibrate for all overview actions
+49f4df3819 Launcher3: Vibrate on double tap to sleep
+f571d52803 Launcher3: Fix up custom seekbar pref disabled color views
+50ab07767d Launcher3: Prevent clipping by row height reduction
+5bab23d569 Launcher3: Rename strings file
+c63f99c281 Launcher3: Hide developer option
+0c994377a7 Launcher3: No Calendarwidget 4x4 widget displayed
+17a2329307 Launcher3: device_profiles: catch up to 13
+0add8df8ce Launcher3: meminfo: Replace deprecated BigDecimal methods
+37b3c60dee Launcher3: Make music search icon colorful
+fe0955171a Launcher3: Fix widget add screen on dark theme
+ee7e3d2a56 Launcher3: Allow changing feature flags on user builds
+873f3e1592 Launcher3: Increase default blur radius to 65px
+3741aac229 Launcher3: Add ACCESS_SURFACE_FLINGER permission to manifest
+4a611ecdcf Launcher3: Don't show split screen options when window animations are disabled
+dc791e13eb Launcher3: themedicons: Update LMC8.4 themed icons
+0f2fd0960d Launcher3: Allow widgets to have 1 row as minimum size
+5cd40bc089 Launcher3: Remove unnecessary icon modification for taskbar in dark style
+975c2b2ec1 Launcher3: Fix blurry recents issue with live tile
+82a6bb38e7 Launcher3: Adjust suggestions row vertical padding
+1c8b722b23 Launcher3: CustomSeekBarPreference: Improve seekbar drawables
+6d9c3484d9 Launcher3: Enable keyguard animation
+96bec7dc0c Launcher3: themedicons: Update some google apps themed icons
+dae8ea778a Launcher3: themedicons: Update amazaon shopping, prime video and magisk themed icons
+bc8fe3cb58 Launcher3: themedicons: Map OLX Southasia package name to olx themed icon
+b0c964c1fc Launcher3: themedicons: Map LMC 8.4 and GCamGO camera to camera icon
+b459988433 Launcher3: Fix taskbar crash without QSB
+4c3a35a167 Launcher3: Add missing permission
+50c16e1215 Launcher3: LocalColorExtractor: Disable local colors when using system presets
+22c9506ce9 Launcher3: LocalColorExtractor: Adapt for 12L changes
+2c28d08b29 Launcher3: Implement LocalColorExtractor using monet theme engine
+9b9a7a9298 Launcher3: IconPalette: Don't crash when the app gives us an invalid color
+ee13e67cca Launcher3: Specify the component name to start the picker
+08ae7a1c1f Launcher3: Rename home settings title
+3a048bf7d0 Launcher3: Update activity for Aperture camera shortcut
+c6f14f763f Launcher3: Update dynamic app icon
+9b5f344c8e Launcher3: Set default app drawer opacity to 100%
+58e00ca393 Launcher3: Add separate toggle for shake to clear tasks
+95aa64b10b Launcher3: Shake to clear all tasks
+3afc0da5e3 Launcher3: Add a preference to manually restart the launcher
+0d9c7255e4 Launcher3: Move suggestions preference from misc to main menu
+1fefaf4e57 Launcher3: Adapt home settings UI to Android 12 style
+204bd66c30 Launcher3: Fix NPE for QuickStep hotseat prediction controller
+30aedbc0f6 Launcher3: Adjust QSB width to align with hotseat
+b5e08dd58a Launcher3: Pull in screenshot drawable from Pixel
+654ef3f7f7 Launcher3: Optional music search toggle for QSB
+a170afee5d Launcher3: Clean up AssistantIconView
+dd1fee5f75 Launcher3: Refine dock and all apps UI
+87305e7bbb Launcher3: ThemedIcons: Add Desmos icon
+58dbd1fab8 Launcher3: Added themed icons for Profili im, NokoPrint, TouchVPN
+9d955356a1 Launcher3: Theme OnePlus camera
+331fc790cf Launcher3: Specify hour index for clock themed icon
+f575346ead Launcher3: Update themed icons
+50ac958145 Launcher3: Update themed icons
+501f7a05ea Launcher3: Import more themed icons
+f253b53231 Launcher3: Add support for themed icons
+c059467c46 Launcher3: Override QuickSearchBox
+512637afde Launcher3: InfoBottomSheet: Fix NPE with AppTransitionManager
+290c3938dd Launcher3: Improve all apps no search result string
+e05b3de57f Launcher3: Add toggle to show/hide app drawer search bar
+d58ec66c34 Launcher3: Add toggle for memory info view
+48ec809b22 Launcher3: Introduce memory info in overview
+09ae2ab878 Launcher3: Add kill action to app shortcuts popup
+e65eeb938d Launcher3: Fix rtl layout error
+190b87d502 Launcher3: Explicitly disable icon space reserve
+a6a6d000ee Launcher3: Home press on default homescreen -> open drawer
+1249bf81e0 Launcher3: Improve All apps divider view
+6047c6980f Launcher3: Update Crowdin configuration file
+329a7e9920 Launcher3: AndroidManifest: Add missing permission
+075f4cd0d0 Launcher3: Increase end padding for search bar UI
+7736e7d244 Launcher3: Enable One all apps search feature
+1ce12abf61 Launcher3: Disable rounded corners enforcement for widgets
+5ed17218f1 Launcher3: Fix crash on notification icon contrast calculation
+43d08f86b0 Launcher3: make recents rounded for devices without round screen
+f3f8dd2703 Launcher3: Add hotseat bar space only if QSB enabled
+149ff780f2 Launcher3: Do not add more space on hotseat with taskbar
+1931f01a08 Launcher3: Remove scalable grid check for calculating QSB width
+1f0368c4d0 Launcher3: Improve spacing above and below dock searchbar
+d8badf44e6 Launcher3: Clear task snapshots remnants on 'onRecentsAnimationComplete'
+5dfb9374ac Launcher3: Don't discard custom grid on config changes
+f5f90f79ce Launcher3: Multiple work profile badge colors for Launcher3
+6f27fa5b03 Launcher3: Update themed icon map on enabling themed icons
+fa642f2f35 Launcher3: Make it a platform package
+9faa84ed2c Launcher3: Do not set hardcoded colors for widget background
+198db41245 Launcher3: Remove repeated strings in app info
+fbfa62b2cd Launcher3: Switch to icon pack theming preview
+1790bc3b76 Launcher3: Make icon pack support themed icons
+232de48957 Launcher3: Add Icon Pack Support from Shade Launcher [SQUASHED]
+52a9e8b25b Launcher3: Make Bottomsheet AppInfo strings translatable
+a6b100fc1d Launcher3: Just say "System" instead of "Unknown" for app source
+4eef58174f Launcher3: Fix NPE with AppInfoBottomSheet
+a1cf56ecca Launcher3: Add AppInfo Bottom Sheet from Shade Launcher
+e4e599ed41 Launcher3: Refresh themed icons check via Build.TIME instead
+49792281a6 Launcher3: Refresh themed icons after OTA update
+f1d40249ab Launcher3: Ability to toggle themed icons for all apps
+c81dd40bb3 Launcher3: Apply themed icons in all apps drawer
+1180487748 Launcher3: Make spaces more consistent in overview container
+f4cf2243d6 Launcher3: Add toggles for recent quick actions
+57e3c0465a Launcher3: Add Google Lens scan button to recents
+d99a55a996 Launcher3: return if recentsView is null
+60fd2da19d Launcher3: RecentsView: add null check for invocations mFirstFloatingTaskView
+c02da5cff8 Launcher3: Do not limit the number of search results
+3c90355f81 Launcher3: Fix error in TaskbarManager for registering shared prefs
+af3778b83c Launcher3: Add taskbar switch under misc settings
+61a851c763 Launcher3: Add recents and app drawer opacity customization
+bfffc038e1 Launcher3: Hide app suggestion entry if DPS not available
+cf8b2c902f Launcher3: Allow changing app suggestion settings
+5c1a88e363 Launcher3: Introduce overview scrolling scale animation
+faef958f97 Launcher3: Remove blur radius option if not supported
+91d891238a Launcher3: Change resource type for blur radius in DepthController
+550eb9b6ae Launcher3: Add an option to customize blur radius
+16bb597ba3 Launcher3: Make drawer cells square when labels are hidden
+72525c5e0b Launcher3: Add pref to set app drawer row height
+17f01576d9 Launcher3: Add WallpaperManager check to support WSA
+430bae701f Launcher3: Return if launcher is null in notifyRecentsOfOrientation
+e353b9cc1c Launcher3: Avoid NPE in TaskOverlayFactory
+0023f591a9 Launcher3: Allow hiding top shadow on statusbar
+7c685874e4 Launcher3: Add toggle to hide status bar
+0faf0a9f5f Launcher3: Add option to control wallpaper zooming
+6a1d5a3600 Launcher3: Add pref to disable wallpaper scrolling
+5cc80e1a68 Launcher3: Add toggle for translucent hotseat background
+a95cf4c98e Launcher3: Add ripple animation to task menu items
+36f421fe94 Launcher3: Do not attach cleanupScreenshot() to frame update event
+17fe76c8da Launcher3: Stability NullPointer issue
+d9ce7e23a3 Launcher3: Fix icon palette crashes
+80b99e548f Launcher3: AppsSearchContainerLayout: Avoid NPE
+13d73e352a Launcher3: Fix crash launching google app from dock search bar
+837ea17557 Launcher3: Make icons center properly in QSB
+3f8adb16af Launcher3: Update lens icon in hotseat QSB
+82302659d4 Launcher3: Better hotseat searchbar colors
+7ae4995530 Launcher3: Make google icon in dock searchbar clickable
+dc06179dab Launcher3: Add ability to change corner radius of Dock search bar
+4e6363e8f1 Launcher3: Add search bar sub-category
+9fed8542dd Launcher3: Add toggle to theme dock searchbar icons
+a700869ab7 Launcher3: Enable lens icon for dock searchbar
+a7e48f7efd Launcher3: Refine sizes and positions of icons in Dock search bar
+ec1918cd45 Launcher3: Refine qsb icon layout
+5a5340342a Launcher3: Add toggle disable hotseat searchbar
+0e3926bc47 Launcher3: Fix QSB fill colour in dark theme
+541de851a4 Launcher3: Implement Hotseat searchbar
+65e190d421 Launcher3: Follow navbar color in base for settings
+e7a46856f6 Launcher3: Don't apply disabled alpha to search hint
+40e0dacd4f Launcher3: Switch back to tertiary color for search hint
+6db6d5cc8b Launcher3: Fix search bar UI in All Apps
+c1d0167c01 Launcher3: Improve search bar UI in All Apps
+3f61d910ce Launcher3: UI elements color palette changes
+68e18c109c Launcher3: Allow changing max lines for app label
+7257264797 Launcher3: Add icon and icon text size customizations
+c58a4a3895 Launcher3: Import CustomSeekBarPreference from crdroid
+5ef4d7d590 Launcher3: Update UNINSTALL TaskShortcutFactory for QPR1 merge
+abc896c68b Launcher3: Use standard launcher method for uninstalling
+6c3285c4ec Launcher3: Add uninstall button to system shortcuts
+705a21b48c Launcher3: Show clear all button in recents overview
+e4c0c3e241 Launcher3: Re-add priv app permissions
+679db469ff Launcher3: Update pause apps feature dialog
+ad09beb796 Launcher3: Pause apps feature
+84fb68bf92 Launcher3: Make double tap to sleep gesture optional
+8fb8d224fc Launcher3: Double tap on home screen to turn off screen
+c176445577 Launcher3: Restore old homescreen popup settings order
+8ed9d8c1a6 Launcher3: Fix gesture navigation fail to move to bottom
+09223c9ae0 Launcher3: Add resource for home screen rotation default
+8d6d0fbcd8 Launcher3: Restart launcher on google app change
+e13edc75e2 Launcher3: Add restart action for toggling settings
+ad85afd23f Launcher3: Google Feed integration
+46aa4a7e58 Launcher3: add toggle for desktop and drawer labels
+d3ac747a11 Launcher3: Allow disabling workspace edit
+dc55aacd4e Launcher3: Rearrange settings into categories
+9a3f294f9c Launcher3: Use system collapsing toolbar
+7848f3ae74 Launcher3: Use font configs instead hardcoded fonts
+8cef743ff8 Launcher3: Fix NPE with swipe down
+e39e8bff88 Launcher3: Enable crossfade when changing theme
+65ed9427da Launcher3: Fix header protection
+0e10e20376 Launcher3: Use ThemePicker as wallpaper picker
+9f319af28b Launcher3: Update search icon to match Settings
+fe6d249d3b Launcher3: Fix all apps header color in dark mode
+8c0e7c9bd5 Launcher3: Fix all apps view not dismissing
+24ef1bf404 Launcher3: Fix Personal/Work profile tab colors in AllApps
+cbaa668978 Launcher3: Allow resizing any widget
+b6eaf93631 Launcher3Go: Add Go specific default workspace
+d0c1d5d172 Launcher3: Adjust the icon size to the grid size
+6cfecc7d1a Launcher3: Add x8 x10 workspaces
+6cdc852505 Launcher3: Add 2x2 workspace grid option
+633f4726b7 Launcher3: Add 5x6, 5x7 and 6x6 default workspaces
+8667c8d349 Launcher3: Replace 4x4 grid option with a 4x5 one
+e6b374c946 Launcher3: Add support for toggling taskbar
+431b908f17 Launcher3: Update default workspace
+8f0cf85fdb Launcher3: Expose themed icon setting in ThemePicker
+c9b0d85844 Launcher3: Don't discard custom grid on config changes
+8cc7ba3e86 Launcher3: Properly expose GridOptionsProvider
+abf04e61c3 Launcher3: Globally disable debug logging
+2a65f1f341 Launcher3: Disable QSB on first screen by default
+0b12ddbc6f quickstep: Uses android.permission.PACKAGE_USAGE_STATS
+7eaf87b43b Launcher3: Use adaptive icon
+bf0396d581 Launcher3: Change app name to Evolution X Launcher
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+e6a209bc99 Do not crash when duplication found in merged imsi list
+1619912132 Hide TTS search results if no TTS engine is available
+ac77af349c Clean up Settings to allow a2dp, hfp, and le audio to be simultaneously connected on the same device
+99c684898a To fix the footer link is not clickable in the Bluetooth Settings
+2e6f9810f4 Refactor AppPicker page to adopt Settings main theme
+97e8bfba51 fix WifiUtils:isNetworkLockedDown() null pointer issue
+3f77ad1886 Fix NPE in BluetoothPairingController when comparing BluetoothClass
+f16e868408 Amend "Reset notification importance" list item style
+03f6bcbe4f Enable ethernet data usage when FEATURE_USB_HOST is present
+722aa30a1b Align main thread checking by calling ThreadUtils
+ca27bbc135 Override onTrimMemory to apply trimMemory in AppIconCacheManager
+1db80cd844 Settings: fix crash
+14fea5ee52 Pointer acceleration setting
+f9dda4eaa2 Transistent task mode setting
+b3469ddf06 Settings: Hide radio info if device don't support voice
+35cefc7c00 Settings: Expose radio info (*#*#4636#*#*)
+a3da41728d don't sort user profiles by serial number, sort alphabetically
+aff0debed6 Settings: Add back illustration to face settings
+8a05fe3d01 FingerprintEnroll: Add config for dedicated side mounted fps
+5ac814d133 FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+27d7da648b fixup! fingerprint: Rework enrollment screen
+cf05761ec0 fingerprint: hide link icon when there's no link
+70c6563880 Settings: Add switch to unlink ringtone and notifications volume [2/2]
+f4e60654fa Settings: Add secondary Smart charging availability condition
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+bd42df4c7 NetworkInfo: Prevent a NPE caused by null Network type
+d6e1c76c9 Fix ConntrackSocketTest#testIpv4ConntrackSocket flaky
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+0291c04a0f Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+7a354a8d13 WiFiInfo: Fix crash on google setup wizard
+6da46c5750 Reduce refresh times for non-persistent MACs
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+cc066fbd version: Update to 7.9.1 (Lumpia)
+4ab3355d fixup! overlay: SystemUI: Offload WM shell to another thread
+
+
+=======================
+     2023/05/18
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+258f9b32 qcom: Use full QTI gralloc struct for GKI 2.0 targets
+4983c2aa Hookup GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE
+986d88d4 qcom: Add support for kalama platform
+d676b0ef apn: Update mcc525
+
+
+=======================
+     2023/05/17
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_rsync/commits/refs/heads/lineage-20.0
+
+cdb7e988 rsync: Move to /system_ext
+
+* Repository: https://github.com/LineageOS/android_external_unrar/commits/refs/heads/lineage-20.0
+
+45b4c78 unrar: Move to /system_ext
+
+* Repository: https://github.com/LineageOS/android_external_zstd/commits/refs/heads/lineage-20.0
+
+e6a035a8 zstd: Move to /system_ext
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+f109163 manifest: Track our fork of system/extras
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+60fb22e7 New Crowdin updates (#1-#4)
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+0ddd8ec2 Merge tag 'android-13.0.0_r49' of https://android.googlesource.com/platform/system/apex into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/tiramisu
+
+661c5e56 partition_tools: extend lpunpack for split partitions
+15ab815a partition_tools: Add lpunpack_static target
+00c0cf7d bootsignature: includes dt image size for signed boot image
+3e856337 Make sure header version is less than or equal to 4
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+1adea3f1 themes: Configure font spacing for other clock fonts
+46cbc5e9 themes: Configure font spacing for various clock fonts
+
+
+=======================
+     2023/05/16
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+4087200 vendor: audio: Use TARGET_HALS_PATH/audio to audio-hal
+94c9576 vendor: audio: Copy audio_tuning_mixer_tavil to more paths
+5a787cf vendor: init: ueventd: set permissions to rawdump node
+57d5409 vendor: init: Disable cdsp daemon if cdsp defective
+abdfd18 vendor: init: ueventd.qcom.rc: add permission for HDMI CEC.
+102d64a vendor: init: Add Permission for HDMI bridge driver
+64e62e7 vendor: init: Remove media related property
+15e9a60 generate_extra_images.mk: Reduce TARGET_NO_KERNEL breadth
+204256b vendor: init: Cleanup neo and anorak resources
+a303f49 vendor: media: Update media-prop to LA.VENDOR.13.2.1.r1-06400-DIVAR.0
+c0b826c vendor: perf: Update perf configs to LA.VENDOR.13.2.1.r1-06400-DIVAR.0
+2f77ca1 vendor: init: Update kernelscripts to LA.VENDOR.13.2.1.r1-06400-DIVAR.0
+6a033c4 common: Fixup! 8c435a57c676364c775034b936ccfbbda6fe51f3
+3e7dba9 vendor: init: ueventd:: Give audioserver permissions for virt-eavb
+aae0bcc vendor: init: ueventd: set permissions for virt_sndcard_ctl node
+5cb1ca7 vendor: charging: Add condition to use AIDL QTI healthd-ext
+b423af8 vendor: charging: Build QTI healthd-ext HIDL interfaces
+75e30a3 vendor: charging: Move charger service to charging component
+001f9e9 vendor: charging: Build libsuspend
+5edb8e5 vendor: perf-legacy: configs/sm6150: GameOptimizationFeature: Add MinDDR config
+f24391a vendor: perf-legacy: configs/sm6150: perfboostsconfig: Add app resume boost
+7d7b4ce vendor: perf-legacy: configs/sm6150: Enable IO cgroups
+0dc2347 vendor: perf-legacy: configs/sm6150: Enable IOP v3
+eae0e43 vendor: media: Revert 306d32cedc4557a632ea26956e524b6afdcfd490
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+da7544a manifest: lineage: Bring back unrar
+745f9a9 manifest: lineage: Track external/zstd
+7e2bc51 manifest: lineage: Re-enable rsync
+4b58249 manifest: lineage: Track the FMRadio App and dependencies
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+78e3fca Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+89317f40 Add fit strategy chooser (incl. high quality)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+13b519aa config: common: unrar undead
+698abd94 config: common: Build zstd cmdline tools
+c0ccb003 config: Re-enable rsync
+
+
+=======================
+     2023/05/15
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_FMRadio/commits/refs/heads/tiramisu
+
+6bb58fb FMRadio: fix record activity timer being off after a while
+27e8358 FMRadio: match playlist by name instead
+fbfb987 FMRadio: fix monkey using MENU key can start record
+11b7d15 FMRadio: fix listen to recordings
+90c18e9 FMRadio: Play Music is dead - fix saved recordings
+38c21d8 FMRadio: androidx conversion, cleanup makefiles
+
+
+=======================
+     2023/05/14
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_FMRadio/commits/refs/heads/tiramisu
+
+9aa5b91 FMRadio: use notification channels
+
+

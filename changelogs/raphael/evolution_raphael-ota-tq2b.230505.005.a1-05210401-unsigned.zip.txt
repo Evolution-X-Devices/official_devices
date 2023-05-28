@@ -1,0 +1,59 @@
+This is Android 13 with May 2023 (r49) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+Update Leica + MIUI Camera to v1.5.1 (via https://t.me/itzdfplayer_stash)
+------------------------------
+
+ROM changes:
+==============================
+5/21
+Evolver: Re-enable left and right virtual buttons while typing
+FMRadio: Generalize Built-In FM Antenna support
+Launcher3: animate workspace on pages without smartpace visible
+Launcher3: support navbar surface drag-n-drop
+SystemUI: Fix position and orientation of arrow keys in navbar
+SystemUI: fix antiquated TunerActivity bugs
+SystemUI: navbar extra keys
+SystemUI: show ime switcher + cursor keys if we have space
+init.rc: tune dirty data writebacks
+sepolicy: common: Add rules for FM Radio app properties
+
+5/20
+Launcher3: Disable Transient Taskbar
+PixelPropsUtils: Remove spoofing for Snapchat
+wm: Fix menu only opening once on legacy apps
+wm: fix APPEARANCE_LOW_PROFILE_BARS not working in non-fullscreen app
+
+5/19
+Add back button for freeform window
+Add minimize & pip buttons to freeform windows
+Avoid vsync enabled when in DOZE mode (AOD)
+Camera: Avoid unnecessary close of buffer acquire fence fds
+CameraService: Fix deadlock in binder death cleanup
+Fix an issue that a free memory is accessed
+Fix unintended buffer canceling
+Hide DismissView when receiving ACTION_CANCEL event
+InputManager: add cursor change listener
+InputManager: allow to force NULL cursor
+Introduce proper Desktop Mode within Display settings (from LibreMobileOS)
+Only show pip button if activity supports it
+Pocket mode: Fix pocket view bg not updating after wallpaper change
+Skip dumping backtraces for cached processes
+SystemUI: Disable touch events for dismiss all button if not visible
+SystemUI: fix freeform transition visual issue
+cameraserver: Correct camera1 -> api2 shim layer handling for video stabilization
+cameraserver: clear all requests and signal mRequestSignal from RequestThread during disconnect()
+cameraservice: fix deadlock in onewayhidl onPhysicalCameraStatusChanged
+config: Build desktop mode packages
+config: Inherit window_extensions.mk
+services: Properly handle file stream when verifying fonts
+sf: Reset validateWasSkipped in PostCommit phase
+wm: rewrite/fix window change animation

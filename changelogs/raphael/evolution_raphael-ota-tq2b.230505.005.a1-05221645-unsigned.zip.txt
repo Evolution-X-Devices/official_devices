@@ -1,0 +1,33 @@
+This is Android 13 with May 2023 (r49) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+None
+------------------------------
+
+ROM changes:
+==============================
+5/23
+wm: Fix menu in legacy apps with multiple activities
+
+5/22
+EasterEgg: allow using toy without unlocking
+Evolver: Remove QS tile layout settings (causes notif lag; causes status bar touch issues with some games/apps)
+Launcher3: Add customization to set hotseat background opacity
+Launcher3: Add light theme support for translucent hotseat background
+Launcher3: Allow to control parallax effect and center wallpaper
+Launcher3: recents: Disable lens perf if package is not installed
+VncFlinger: delay sending surface for a bit
+VncFlinger: fix us being too fast for framework
+fixup! SystemUI: Adjust qqs top margin dimension
+wm: block custom activity transit animations
+wm: block task transitions from displaying in freeform
+wm: do not show keyguard windows when mirroring due to dream
+wm: never consume statusbar in freeform mode
