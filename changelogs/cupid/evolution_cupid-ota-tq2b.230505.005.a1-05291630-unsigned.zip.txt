@@ -1,0 +1,20 @@
+  
+2023-05-029
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash V14.0.3.0.TLCMIXM firmware
+4. Reboot ( Device will reboot to recovery )
+5. Format Data when asked
+
+DEVICE:
+
+  * sm8450-common: first release
+
+
+ROM:
+
+  * Merge latest EvolutionX changes - too many to list ;)
