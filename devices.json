@@ -988,5 +988,20 @@
             "device_group": "@EvolutionXRosemary"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "cupid",
+      "name": "Xiaomi 12",
+      "supported_versions": [
+         {
+            "maintainer_name": "Slaw Handzlik",
+            "maintainer_url": "https://forum.xda-developers.com/m/yarpiin.5288056/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-cupid-official-evolution-x-05-29-23.4591391/",
+            "device_group": "@EvolutionXCupid"
+         }
+      ]
    }
 ]
