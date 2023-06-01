@@ -1,0 +1,170 @@
+ 
+==========================================
+Notes:
+==========================================
+- Firmware above C05 is not recommended
+==========================================
+Device Changelog:
+==========================================
+* Dropped powerhint
+* Fixed Touch issues in landscape mode #source_side
+* Added smart charging 
+* Decreased fp animation size
+* Fixed battery drain 
+==========================================
+
+Evolution X Official Changelog list
+
+
+5/28
+
+AttestationHooks: Allow spoofing device model for Netflix
+
+Enable copying content for IMEI2
+
+Evolver: add acun and bang brightness slider
+
+Fix NullPointerException in GestureDetector
+
+Increase 5 GHz network signal tolerance
+
+Launcher3: Fix quickstep live tile implementation
+
+Launcher3: Properly end recents animation views
+
+Launcher3: Prevent NPE when using custom themed icons
+
+Properly set Wi-Fi Privacy spinner initial state
+Settings: Extend showing Ambient instead of fully waking to single tap gesture
+
+Settings: Update Glide library to 4.15.1
+
+SystemUI: Stop using marquee on qs tiles label
+
+base: Update mock LinearmotorVibratorService
+
+fixup! inputflinger: add absolute mouse input support
+
+hwui: Thread-safety and null pointer dereference fixups
+
+
+5/27
+
+Add pointer capture callback
+
+kernel: Restore TARGET_KERNEL_VERSION
+
+kernel: Go full LLVM build on 5.10+ kernels
+
+kernel: Allow devices to opt-in for full LLVM build
+
+kernel: Remove darwin support
+
+kernel: Fix clang version override
+
+lineage: kernel: Use getconf instead of nproc
+
+kernel: Changes for 5.10 build without GCC
+
+kernel: Slightly reorder config
+
+kernel: Use consistent spacing
+
+
+5/26
+
+Hide hidden apps from all apps except system
+
+Launcher3: Expose force monochrome themed icon flag as a user preference
+
+Launcher3: Fix crash when placing widgets
+
+Launcher3: Fix smartspace visibility on higher grids
+
+Launcher3: Keep hotseat bottom spacing for taskbar devices
+
+Launcher3: recents: Disable shake to clear all by default
+
+Settings: Disable 5G in battery saver mode
+
+base: Add overlay to mock oplus LinearmotorVibratorService
+
+hwui: Add NULL pointer check in AnimatorManager::pushStaging
+
+hwui: Remove logspam cause by early animation handle check
+
+fixup! libs: hwui: Fix a race condition and null pointer dereference
+
+libs: hwui: Fix a race condition and null pointer dereference
+
+libs: hwui: Optimize pushStaging() performance and memory usage
+
+
+5/25
+
+hwui: Introduce optimized glass blur effect
+
+renderengine: Introduce optimized glass blur effect
+
+renderengine: skia: switch to glass blur effect
+
+
+5/24
+
+Allow provisioning of multiple work profiles
+
+Evolver: Fix Media notification artwork fade and blur filter options
+
+Evolver: Import QS panel layout settings
+
+Evolver: Set reticker_status default value to true
+
+Firewall: Support a greater number of apps/uids
+
+Implement firewall status bar indicator
+
+Launcher3: fix crash
+
+PowerStatsService: Prevent NPE in BatteryTrigger.
+
+ProcessList: Catch Security exception when starting a frozen package
+
+Settings: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+
+Settings: Add support for allowing/disallowing apps on restricted networks
+
+Settings: Add support for global cleartext penalties
+
+SystemUI: Bring in drawable for statusbar firewall toggle
+
+SystemUI: Fix reticker notification background
+
+SystemUI: fix tuner enabling aod on first open
+
+SystemUI: Handle more exceptions for firewall
+
+SystemUI: Refactor notification reticker
+
+SystemUI: Update reticker specs to latest OneUI brief pop up style
+
+UserManager app installation restrictions
+
+UserManager unknown source app installation restrictions
+
+VncFlinger: fix null crash
+
+VncFlinger: sometimes we are fast, sometimes framework is
+
+adb_root: Simplify the way we parse enabled state file
+
+config: Support many users/work profiles
+
+fixup! Configurable 0, 90, 180 and 270 degree rotation
+
+services: fix weird launcher3 crash
+
+version: Update to 7.9.2 (Pancit)
+
+vibrator: fix log format and level issue
+
+wm: hacky fix for system_server crash
