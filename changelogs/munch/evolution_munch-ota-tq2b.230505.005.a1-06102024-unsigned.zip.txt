@@ -1,0 +1,1558 @@
+=======================
+     2023/06/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+461e30666e43 AttestationHooks: Un-spoof GMS while adding google account
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+c66a82c1 overlay: Switch to AttestationHooks for spoofing
+
+
+=======================
+     2023/06/09
+=======================
+
+* Repository: https://github.com/akash07k/device_xiaomi_munch/commits/EvolutionX
+
+cb666ba munch: EvolutionX bringup
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/stable
+
+519092e369b2 configs: `Update`
+0ce77c6a8b71 ARM64: j2: fix panel artifacts on FOD hbm off
+10b0fef4bfdf ARM64: j11: dts: rework hbm commands
+831d52382fa8 ARM64: dts: j11: define timing@1 to allow overclock
+84f1f7827ff8 ARM64: dts: Optimize HBON/OFF commands to remove flickering/flashing while fod
+28933227163f arch: arm64: dts: qcom: Move to qcom fod dispparam implementation
+318b667ee57d arm64: dts: kona: Implement RHEL's Low Latency Kernel cmdline
+76f44eff59ae sched/core: Do not free dead tasks and mm structs asynchronously in finish_task_switch()"
+b71e4310093c configs: Switch to `Cb`
+6bf28e374f64 BACKPORT: livepatch: Use kallsyms_on_each_match_symbol() to improve performance
+24d8806a50b0 BACKPORT: kallsyms: Add helper kallsyms_on_each_match_symbol()
+84bb9db7662d BACKPORT: kallsyms: Reduce the memory occupied by kallsyms_seqs_of_names[]
+c361d6145ec5 BACKPORT: kallsyms: Correctly sequence symbols when CONFIG_LTO_CLANG=y
+0394345f7bb4 BACKPORT: scripts/kallsyms: update usage message of the kallsyms program
+5eaa735d0e21 BACKPORT: kallsyms: ignore all local labels prefixed by '.L'
+b916a28c01b6 BACKPORT: gcc-10 warnings: fix low-hanging fruit
+a74df89da69e BACKPORT: scripts/kallsyms: fix wrong kallsyms_relative_base
+e81910dcbb67 BACKPORT: scripts/kallsyms: fix memory corruption caused by write over-run
+360becfe8026 BACKPORT: scripts/kallsyms: change table to store (strcut sym_entry *)
+4a2288b5b748 BACKPORT: scripts/kallsyms: rename local variables in read_symbol()
+09e44a3eda21 BACKPORT: scripts/kallsyms: fix offset overflow of kallsyms_relative_base
+7277f77638d1 BACKPORT: scripts/kallsyms: remove redundant initializers
+aa1f07d494c6 BACKPORT: scripts/kallsyms: put check_symbol_range() calls close together
+69df37c1d3c4 BACKPORT: scripts/kallsyms: make check_symbol_range() void function
+92828cf7ca8b BACKPORT: scripts/kallsyms: move ignored symbol types to is_ignored_symbol()
+d89d8ae31a2b BACKPORT: scripts/kallsyms: move more patterns to the ignored_prefixes array
+7b96f534ca60 BACKPORT: scripts/kallsyms: skip ignored symbols very early
+5b815f7b7f89 BACKPORT: scripts/kallsyms: add const qualifiers where possible
+c5cd9bff3c4d BACKPORT: scripts/kallsyms: make find_token() return (unsigned char *)
+56572566b912 BACKPORT: scripts/kallsyms: replace prefix_underscores_count() with strspn()
+1d44382b10bc BACKPORT: scripts/kallsyms: add sym_name() to mitigate cast ugliness
+bc1894e798b9 BACKPORT: scripts/kallsyms: remove unneeded length check for prefix matching
+1c0cb921c73c BACKPORT: scripts/kallsyms: remove redundant is_arm_mapping_symbol()
+22ce33f0354d BACKPORT: scripts/kallsyms: set relative_base more effectively
+a2eb39f4bbff BACKPORT: scripts/kallsyms: shrink table before sorting it
+ed9cfd59bbcb BACKPORT: scripts/kallsyms: remove unneeded #ifndef ARRAY_SIZE
+c4941f354c9c BACKPORT: kallsyms: include <asm/bitsperlong.h> instead of <asm/types.h>
+5c8cd69f1735 BACKPORT: kallsyms: remove unneeded memset() calls
+3bb819d9cd6f BACKPORT: kallsyms: add static qualifiers where missing
+9e1f12d91a5a BACKPORT: kallsyms: lower alignment on ARM
+acb6336f2111 BACKPORT: kallsyms: remove left-over Blackfin code
+3247e46fb9a4 kbuild: Increase kallsyms max symbol length
+0c36b11e08d1 BACKPORT: kallsyms: Improve the performance of kallsyms_lookup_name()
+9c230445a20b BACKPORT: kallsyms: Make kallsyms_on_each_symbol generally available
+9d5264c84a0e BACKPORT: kallsyms: Skip the name search for empty string
+96fb22dd21f3 BACKPORT: livepatch: Avoid CPU hogging with cond_resched
+13349a138419 BACKPORT: kallsyms: strip LTO suffixes from static functions
+141931891d0d BACKPORT: kallsyms: strip ThinLTO hashes from static functions
+e4eba4956781 Revert "ANDROID: kallsyms: strip the .cfi postfix from symbols with CONFIG_CFI_CLANG"
+3bddbd459054 Revert "ANDROID: kallsyms: strip hashes from function names with ThinLTO"
+f8a6f6546166 BACKPORT: kallsyms: only build {,module_}kallsyms_on_each_symbol when required
+da28221c54d1 BACKPORT: kallsyms: refactor {,module_}kallsyms_on_each_symbol
+d28873b102a2 BACKPORT: kallsyms: fix type of kallsyms_token_table[]
+17eb03b15f8f BACKPORT: kallsyms: reduce size a little on 64-bit
+ad63d658a603 ipa_v3: Fix enum conversion warnings ../techpack/dataipa/drivers/platform/msm/ipa/ipa_v3/rmnet_ipa.c:510:41: warning: implicit conversion from enumeration type 'enum ipa_ip_type_enum_v01' to different enumeration type 'enum ipa_ip_type' [-Wenum-conversion]         q6_ul_flt_rule_ptr->ip = flt_spec_ptr->ip_type;                                ~ ~~~~~~~~~~~~~~^~~~~~~ ../techpack/dataipa/drivers/platform/msm/ipa/ipa_v3/rmnet_ipa.c:511:45: warning: implicit conversion from enumeration type 'enum ipa_filter_action_enum_v01' to different enumeration type 'enum ipa_flt_action' [-Wenum-conversion]         q6_ul_flt_rule_ptr->action = flt_spec_ptr->filter_action;                                    ~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+f3191ea05c4a drivers: gpu: kgsl: Remove unused variable
+b035c6283d74 kernel: time: Remove unused variable
+d78123bb88ad BACKPORT: string.h: Add str_has_prefix() helper function
+04c60058e022 mm: vmscan: Declare local variables before statement declarations
+331728eb0737 kernel: Remove unused variable
+99085f471445 Revert "msm_performance: Kill userspace boosting"
+4764d830e4b1 Merge branch 'android-4.19-stable' of https://android.googlesource.com/kernel/common into rebase
+
+
+=======================
+     2023/06/08
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+b6ed7ce07f56 SystemUI: Prevent edge lights from being directly shown by screen on and notification callbacks
+d91f3602bc36 [SQUASH] SystemUI: Clean up notification modifications
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/stable
+
+3ecaa3afa572 UPSTREAM: efi: rt-wrapper: Add missing include
+96bc083042d8 BACKPORT: arm64: efi: Execute runtime services from a dedicated stack
+a9acc03ab890 Revert "uapi/linux/const.h: prefer ISO-friendly __typeof__"
+74e5c56b49f4 Merge "Merge 4.19.283 into android-4.19-stable" into android-4.19-stable
+134d76100b3d configs: Disable Unwanted security features
+c411e806b396 configs: Disable redundant Spectre v2 mitigations
+3706a0b0b345 BACKPORT: ANDROID: sched: Exempt paused CPU from nohz idle balance
+eaf551eddf23 build: Switch to Aosp Clang
+2d8e0c88ef50 sched/fair: Compile out NUMA code entirely when NUMA is disabled
+8bec14fc3383 sched/rt: Change default SCHED_RR timeslice from 100 ms to 1 jiffy
+22503baa67f3 sched/core: Use SCHED_RR in place of SCHED_FIFO for all users
+1790feb1fa21 sched/fair: Skip frequency updates if CPU about to idle
+cce0808b3ce7 Revert "sched/fair: Drop always true parameter of update_cfs_rq_load_avg()"
+e792802dfe0f usb: dwc3: Queue wakeup worker from an IRQ worker
+d71808f8458a arm64: Inline the spinlock function family regardless of preemption
+f79ed95620c3 arm64: select HAVE_MOVE_PMD for faster mremap
+f4b2b4e1570d arm64: Kconfig: Unselect REFCOUNT_FULL
+7bda4a6e5daf drivers: kernelsu: Update KernelSU `(v0.6.0)`
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+8d7ea24 New Crowdin updates (#226-#481)
+53a1a0c Evolver: Disable notification and media control features
+
+
+=======================
+     2023/06/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+cef17ed4afaa PixelPropsUtils: Switch Honor of Kings hide to Xiaomi 13 Pro (China)
+e7e20cc5c706 PixelPropsUtils: Use OP9 PRO for LOLM
+a87f7f3edeb8 PixelPropsUtils: OP9R > OP9P
+7f60edcffc29 SoundSearchTile: Do not use Shazam
+6923e72acc1d ApplicationPackageManager: Adjust Tensor workaround
+070d9de1193f New Crowdin updates (#438)
+
+* Repository: https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/commits/refs/heads/tiramisu
+
+b923f62 GCamGOPrebuilt: Add GCamGOPrebuilt-V3_8
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+739f751c93 New Crowdin updates (#322)
+ce965b6d9e New Crowdin updates (#321)
+ab7919d67e New Crowdin updates (#320)
+
+
+=======================
+     2023/06/06
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+dc433afb2fde Hide data limit notfication if data not active nor default
+3aab1b7734ae Avoid NetworkPolicyLogger NullPointException
+0a3195d586c5 fixup! fw/b: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+65180840e4e0 Revert "settings: Enable RestrictedNetworkingMode"
+6f9d3bbb81c5 Ignore BIND_ABOVE_CLIENT for same-process connections
+bf427f2d780b Request correct rendering type for EGL config
+
+
+=======================
+     2023/06/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+0a71f15de2c8 SystemUI: Introduce preferred network tile
+997d66e742c4 Revert "SystemUI: Better QS detail clip animation"
+abec5534a3b9 SystemUI: Restore try-finally condition when reinflating QS panel
+4499e8517109 core: Catch OOB when returning pooled string
+02d9645458ae Add listener once for volume row animation
+a73be35cde42 Revert "VolumeDialogImpl: Reconfigure handling of animation/jank listeners"
+f7750be166f6 base: Minor improvement to the PowerOffAlarmService body string
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+00ac9b1 Aperture: Align versions of all Kotlin components
+bc3d67a Aperture: Downgrade com.google.android.material:material to 1.9.0
+e16427b Aperture: Regenerate blueprints
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+9654d7dd71 Launcher3: Update AppLock API and integrate hidden apps
+8bfbf981fb Launcher3: Switch to AppLock API for protected apps
+8939476385 Launcher3: Improve hidden & protected apps
+85345f0d1e Launcher3: Implement hidden & protected apps
+f0b2333215 Launcher3: Reload icon pack settings fragment on resume
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+62fde7c3 themes: Add more Icon Shapes from `Iconify`
+0c11b4c4 themes: Import signal & wifi icons
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+377f5fa SystemUIGoogle: Sync with Evolution X changes
+e3e64a4 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/06/04
+=======================
+
+* Repository: https://github.com/akash07k/device_xiaomi_sm8250-common/commits/lineage
+
+766a9ea sm8250-common: rootdir: Move audio-app cpuset to 1-2
+28f7042 sm8250-common: overlay: Enable VoNR on Jio 5G
+270a1b4 sm8250-common: overlay: Only allow 5G SA on Jio
+39bd259 sm8250-common: overlay: Ignore CNE in location indicator
+daa5259 sm8250-common: Remove package cache on early boot
+fdde88a sm8250-common: Added 150Mhz support
+4eb65eb sm8250-common: rootdir: Register more game libraries to sched_lib_name
+7c96b58 sm8250-common: Build android.hardware.secure_element@1.0
+37d5a7a sm8250-common: Tone down CamX and CHIUSECASE logging
+8c47d8f sm8250-common: Update and set percentage to 20% for HWUI
+f49908a sm8250-common: props: Use HintManager for HWUI This will send HWUI timings to HintManager for better CPU scheduling. Setting a 30% margin for CPU should heavily reduce CPU loads for HWUI and use GPU for the rest.
+5ac14e0 sm8250-common: Add a system property for System UI compiler filter.
+404eb71 sm8250-common: Enable usage of dex2oat64
+acc31a2 gpt-utils: Check ufs device first before checking partition names
+4864935 fixup! gpt-utils: Update PTN_SWAP_LIST and handle multiimg(oem/qti)
+bd10340 sm8250-common: CarrierConfig: Enable editable_enhanced_4g_lte_bool globally
+f187ad4 sm8250-common: Update CarrierConfig from munch V14.0.1.0.TLMMIXM
+21a566c sm8250-common: Speed profile services and wifi-service to reduce RAM and storage
+7290380 sm8250-common: prop: Enable persist.vendor.audio.fluence.voicerec
+4db429f sm8250-common: Set property to disable adsprpcd_sensorspd service
+e11645d sm8250-common: Enhance audio quality
+a9b283c sm8250-common: Update powerhint
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+0d5596348f66 PixelPropsUtils: Switch Honor of Kings spoof to Redmi K30 Ultra
+2b6489936484 base: Hide ADB and developer setting enable status [1/2]
+bc4906c16c45 Revert "SystemUI: Allow user to customize max visible notification icons [1/2]"
+c0f36432ef1c ParallelSpace: Block more packages
+3b8f5de91e01 Support per-UID VPN lockdown policy
+9f1f8882a0e8 NPMS: Check if UID is disallowed by transports
+843a12d1e1c3 Track and send allowed transports to Connectivity
+b426cc1508d1 Do not consider transports for restricted mode
+6c4283437a96 Stop unsuspending packages in profiles
+547a49e698a6 Add managed profile support for cross profile intents
+9c549f9cee6a services: Allow pause/suspend app feature with parallel space
+e24cc7b228d5 Pause apps feature
+5b9c5225230c services: Suppress double upgrade notification for parallel space
+71feed60bb9e services: Do not turn on multi user switch for new parallel space
+28f3d43720b2 SystemUI: Fix privacy indicator not showing for apps in parallel spaces
+a52a3728846d ParallelSpace: Prevent system crash for blocking notification of blocked apps
+0c18b90874b2 ParallelSpace: Block telecom server package
+de4d3f1b9cc4 ParallelSpace: Add Android Auto to block list
+99631adaf86d ParallelSpace: Allow/block essential apps without overlay
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-20.0
+
+2705439 common: Add QTI vpp 1.1-1.4 to prebuilt HIDL interfaces
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+642d693 Revert "Evolver: Allow user to customize max visible notification icons [2/2]"
+840cd65 Evolver: Bring back support for Parallel space
+
+* Repository: https://github.com/Evolution-X/packages_apps_ParallelSpace/commits/refs/heads/tiramisu
+
+c4b4d54 Revert "Revert "DNM: Remove GMS_ENABLED flag for now""
+d7174b1 Revert "ParallelSpace: Enable google services by default"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+43c614c22d Settings: Hide ADB and developer setting enable status [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+208f4c9 New Crowdin updates (#25)
+bd4dc13 Automatic translation import
+79eaf58 Automatic translation import
+f1a93ba Automatic translation import
+4b39b10 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+e97a054f rro_overlays: Unset config for QR code scanner
+
+
+=======================
+     2023/06/03
+=======================
+
+* Repository: https://github.com/akash07k/device_xiaomi_munch/commits/EvolutionX
+
+58cf7d0 munch: rro_overlays: Set correct device name and hotspot SSID
+d570357 munch: overlay: Convert brightness overlays to integers
+3797f66 munch: overlay: Unlock additional camera framerates
+2a4a564 munch: overlay: Configure aux camera for Aperture
+84e432a munch: overlay: Allow more cached apps in the background
+218560e munch: overlay: Compact cached app heaps in the background
+
+* Repository: https://github.com/akash07k/device_xiaomi_sm8250-common/commits/lineage
+
+d0dbb00 sm8250-common: Build vendor.display.config@1.9
+74e24b3 sm8250-common: init: Avoid migrating foreground tasks to prime
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9a25b0282fa0 ParallelSpace: Allow devices to overlay whitelist/blocklist apps
+6a1edb714d0e ParallelSpace: Mark badge string as not translatable
+8554d7fb1772 services: Fix parallel space crash with third party launcher
+7b42e2233a47 data: Add missing priv-app permissions for parallel space
+6a6c6470ecba ActivityStarter: Resolve launcher intent to parallel owner user
+e18440b12471 services: location: Whitelist parallel space users
+ab3fb120e6bf services: camera: Whitelist parallel space users
+26ca2961c8e6 base: Expose parallel space owner to api
+9d57d8bd841c Whitelist some Packages for Parallel space
+e2c29b74d25d base: Add support for managing files across parallel spaces
+6be12fafcd43 base: Add support for parallel space
+4c9db850a756 SystemUI: Clean up battery callback in CollapsedStatusBar
+b0b0da9ac7a0 SystemUI: Switch to TunerService for CollapsedStatusBar
+13575dae4ea4 Add support for brightness slider themes
+680e7548e013 [SQUASH] SystemUI: Revert previous brightness slider styles [1/2]
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/stable
+
+7ae7a094b912 i2c: dev: Add __user annotation
+a06c5af92840 BACKPORT: random: don't forget compat_ioctl on urandom
+6194861ebd5a BACKPORT: compat_ioctl: add compat_ptr_ioctl()
+41572c2331c6 BACKPORT: android: fix W=1 kernel-doc warnings
+b113930d1ae7 BACKPORT: binder: remove unneeded size check code
+e26a31ec5042 BACKPORT: binder: Gracefully handle BINDER_TYPE_FDA objects with num_fds=0
+e039341e92e0 BACKPORT: binder: Address corner cases in deferred copy and fixup
+05aba0ef0b94 BACKPORT: binder: fix pointer cast warning
+ce1f3f5b4133 BACKPORT: binder: defer copies of pre-patched txn data
+829894b8d9da BACKPORT: binder: read pre-translated fds from sender buffer
+5810558b7bf0 binder: extend kmem cache to binder_task_work_cb and binder_txn_fd_fixup
+8e462ae3f28f binder: Reserve caches for small, high-frequency memory allocations
+9a86bcfa1b11 simple_lmk: Expose paramters to sysfs
+0aa5d053829a BACKPORT: binder: add TF_UPDATE_TXN to replace outdated txn
+01837548e2e5 BACKPORT: ANDROID: binder: fix pending prio state for early exit
+c387b2de9a48 BACKPORT: ANDROID: binder: fix race in priority restore
+c562d3e4767e BACKPORT: ANDROID: binder: switch task argument for binder_thread
+2c2c89318afa BACKPORT: ANDROID: binder: pass desired priority by reference
+d2692c73e281 BACKPORT: ANDROID: binder: fold common setup of node_prio
+1b1d14db3097 BACKPORT: binder: avoid potential data leakage when copying txn
+9f7ebf9a35c6 binder: Import WALT specific codes
+b74e5838c355 binder: one more kzalloc -> kmalloc
+b84ed13e7794 binder: avoid redundant zeroing of twcb and fixup
+d19456107332 binder_alloc: Avoid page memory allocation in high memory
+dced14a9cdf6 binder: Return EFAULT on failing copy_from_user()
+2ef85b9492c7 BACKPORT: Revert "Revert "binder: Prevent context manager from incrementing ref 0""
+e42d16a2d400 BACKPORT: binder: change error code from postive to negative in binder_transaction
+6108641ca886 binder: Promote binder_[return|command]_strings out of CONFIG_ANDROID_BINDER_LOGS
+9c005ecf3fb0 binder: Conditionally compile logging
+81b3d389bd01 binder: Stub out more debugging loggers
+9629c331fafb binder: Stub out debug prints by default
+faf650e31c8f BACKPORT: file: Rename __close_fd_get_file close_fd_get_file
+cb7d2207ebe5 fs: file: Import `__close_fd_get_file()` function
+d5af1edf00c4 binder: Fix compilation on k4.19
+2a9763b66fd9 binder: Checkout to android12-5.10-lts
+867a610cbce3 [SQUASH] binder: Revert previous patches for k5.10 checkout
+a450afcdcfc4 FROMLIST: Revert "Revert "binder: Prevent context manager from incrementing ref 0""
+d099515ebafb [SQUASH] binder: Revert some upstreams from android-4.19-stable
+286f110f7918 [SQUASH] binder: Revert some patches
+9939e830ecbc configs: `Update`
+4de4d65aa683 rcu: Make the grace period workers unbound again
+e4e81b268d7f rcu: Disable laziness if lazy-tracking says so
+3aa706b69cab Revert "CHROMIUM: rcu: Disable lazy if call_rcu() called when GPs expedited"
+830d432cf32a rcu: Track laziness during boot and suspend
+7e3ef9debc77 FROMLIST: net: devinet: Reduce refcount before grace period
+db09332ff916 rcu: Kconfig: Enable RCU_NOCB_CPU_DEFAULT_ALL by default
+7046f6eb2d3b rcu: Kconfig: Enable RCU_LAZY by default
+7b6429c4611b rcu/rcutorture: Use call_rcu_hurry() where needed
+f9f7954b0550 rcu/rcuscale: Use call_rcu_hurry() for async reader test
+a69f137defe3 percpu-refcount: Use call_rcu_hurry() for atomic switch
+ac16205dcc20 scsi/scsi_error: Use call_rcu_hurry() instead of call_rcu()
+46967e0deaa8 rxrpc: Use call_rcu_flush() instead of call_rcu()
+4f45cc566c1b net: Use call_rcu_hurry() for dst_release()
+86435b0cfe76 workqueue: Make queue_rcu_work() use call_rcu_hurry()
+c53c715ff883 CHROMIUM: rcu: Add a minimum time for marking boot as completed
+6f5db9284c5b rcu-tasks: Make rude RCU-Tasks work well with CPU hotplug
+518bb189216a rcu-tasks: Fix synchronize_rcu_tasks() VS zap_pid_ns_processes()
+1778a2021710 rcu-tasks: Remove preemption disablement around srcu_read_[un]lock() calls
+cd078b71743b rcu-tasks: Improve comments explaining tasks_rcu_exit_srcu purpose
+eb625214e611 CHROMIUM: rcu: Disable lazy if call_rcu() called when GPs expedited
+4cec824cbafc FIXUP: BACKPORT: FROMGIT: rcu: Make call_rcu() lazy to save power
+ff472ad5046a FROMGIT: rcu/sync: Use call_rcu_flush() instead of call_rcu
+0ad9f42c8928 BACKPORT: FROMGIT: rcu: Shrinker for lazy rcu
+8e6dbc3f6870 BACKPORT: FROMGIT: rcu: Refactor code a bit in rcu_nocb_do_flush_bypass()
+5428846a9df2 BACKPORT: FROMGIT: rcu: Make call_rcu() lazy to save power
+ae501b2ed16a BACKPORT: FROMGIT: rcu: Fix late wakeup when flush of bypass cblist happens
+fb804d9d715a BACKPORT: FROMGIT: rcu: Fix missing nocb gp wake on rcu_barrier()
+7c78c04523a2 UPSTREAM: rcu/kvfree: Update KFREE_DRAIN_JIFFIES interval
+343970542160 UPSTREAM: rcu/kvfree: Remove useless monitor_todo flag
+7fcd7eb57395 UPSTREAM: kvfree_rcu: Refactor kfree_rcu_monitor()
+2edfadb71079 UPSTREAM: kvfree_rcu: Fix comments according to current code
+836e051f1cc9 UPSTREAM: kvfree_rcu: Use kfree_rcu_monitor() instead of open-coded variant
+d411bba23a8d UPSTREAM: kvfree_rcu: Update "monitor_todo" once a batch is started
+985d37339e2f UPSTREAM: kvfree_rcu: Add a bulk-list check when a scheduler is run
+ab7d961227a0 UPSTREAM: kvfree_rcu: Use [READ/WRITE]_ONCE() macros to access to nr_bkv_objs
+1a504fb244a6 UPSTREAM: kvfree_rcu: Release a page cache under memory pressure
+b3748d49ec73 BACKPORT: FROMLIST: rcu/nocb: Add an option to offload all CPUs on boot
+5411d9e1a480 irq_work: Optimize irq_work_single()
+7f1c9df7cc17 irq_work: Fix IRQ_WORK_BUSY bit clearing
+7a8eec05398b irq_work: Slightly simplify IRQ_WORK_PENDING clearing
+70d03da395ad irq_work: Fix irq_work_claim() memory ordering
+8b9ec423699b irq_work: Convert flags to atomic_t
+6efeb0ee1e84 rcu: Fix compatibility with k4.19
+04251ae3586b Revert "FROMGIT: rcu/tree: Add a trace event for RCU CPU stall warnings"
+30b5486b6da7 Revert "rcu: Fixup noinstr warnings"
+bcb89d8c6372 Revert "rcu: validate arguments for rcu tracepoints"
+a1ed32d9f536 rcu: Call rcu_flavored_clock_irq() after checking urgent RCU-QS
+36f34be34640 rcu: Prevent lockdep-RCU splats on lock acquisition/release
+af90d0d263e7 rcu: Fix __this_cpu_read() lockdep warning in rcu_force_quiescent_state()
+fae05acea956 rcu-tasks: Convert RCU_LOCKDEP_WARN() to WARN_ONCE()
+3225b552eb41 rcu: Back off upon fill_page_cache_func() allocation failure
+f4a68a8540af rcu: Make TASKS_RUDE_RCU select IRQ_WORK
+bf4ec84b6ad2 rcu-tasks: Fix race in schedule and flush work
+0bc41678c29e rcu: Apply callbacks processing time limit only on softirq
+0831361a6d00 rcu: Fix callbacks processing time limit retaining cond_resched()
+24a9631dcac5 rcu: Move expedited grace period (GP) work to RT kthread_worker
+92646f937a2c rcu: Don't deboost before reporting expedited quiescent state
+edc31d787dfb rcu/nocb: Fix missed nocb_timer requeue
+8d24aae72cf1 rcu: Do not report strict GPs for outgoing CPUs
+e445912e7519 rcu: Tighten rcu_advance_cbs_nowake() checks
+c0922a503557 rcu/exp: Mark current CPU as exp-QS in IPI loop second pass
+68158a552839 rcu: Mark accesses to rcu_state.n_force_qs
+649783096150 rcu: Always inline rcu_dynticks_task*_{enter,exit}()
+69214300ae28 rcu: Fix existing exp request check in sync_sched_exp_online_cleanup()
+2e32e631c20d rcu-tasks: Move RTGS_WAIT_CBS to beginning of rcu_tasks_kthread() loop
+faffaf3e17f0 rcutorture: Avoid problematic critical section nesting on PREEMPT_RT
+4926b0553a58 rcu: Fix macro name CONFIG_TASKS_RCU_TRACE
+bb83e85725dc rcu: Fix stall-warning deadlock due to non-release of rcu_node ->lock
+4c7adeaacfe3 rcu: Add lockdep_assert_irqs_disabled() to rcu_sched_clock_irq() and callees
+5482f59c18db rcu: Fix to include first blocked task in stall warning
+8546e9343840 rcu/tree: Handle VM stoppage in stall detection
+9722d365b88c srcu: Provide polling interfaces for Tiny SRCU grace periods
+28ddfd927d5d srcu: Make Tiny SRCU use multi-bit grace-period counter
+f46f0d352488 srcu: Provide internal interface to start a Tiny SRCU grace period
+624d013a3cc8 srcu: Provide polling interfaces for Tree SRCU grace periods
+3d4c9224779c srcu: Provide internal interface to start a Tree SRCU grace period
+aee78c254eca rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
+7a2048181860 rcu-tasks: Don't delete holdouts within trc_inspect_reader()
+3e168ac558e8 rcu: Reject RCU_LOCKDEP_WARN() false positives
+7fb480384d21 srcu: Fix broken node geometry after early ssp init
+f2422b4abe20 rcu: Invoke rcu_spawn_core_kthreads() from rcu_spawn_gp_kthread()
+388a7d8f8ffc rcu: Remove spurious instrumentation_end() in rcu_nmi_enter()
+0342daad785b kvfree_rcu: Use same set of GFP flags as does single-argument
+0c92c382a3a4 FROMGIT: rcu/tree: Add a trace event for RCU CPU stall warnings
+4e082dd276b3 rcu/nocb: Perform deferred wake up before last idle's need_resched() check
+35c1cd4e7fff rcu: Pull deferred rcuog wake up to rcu_eqs_enter() callers
+3845f3b3081f rcu-tasks: Move RCU-tasks initialization to before early_initcall()
+a57d23807d95 rcu/tree: Defer kvfree_rcu() allocation to a clean context
+9b6eff36228a rcu: Allow rcu_irq_enter_check_tick() from NMI
+abcd25230867 rcu,ftrace: Fix ftrace recursion
+579c1ecf4b72 rcu: Don't invoke try_invoke_on_locked_down_task() with irqs disabled
+a2c1fc4045b2 arm64: smp: Tell RCU about CPUs that fail to come online
+984cb002b0db arm64/smp: Move rcu_cpu_starting() earlier
+b261455d405c rcu/tree: docs: document bkvcache new members at struct kfree_rcu_cpu
+40b4becca9bf BACKPORT: rcu/tree: Export rcu_idle_{enter,exit} to modules
+2f2ec4b3dcc6 rcu-tasks: Enclose task-list scan in rcu_read_lock()
+4fdcf85a2af2 rcu-tasks: Fix low-probability task_struct leak
+db63839bd68b rcu-tasks: Fix grace-period/unlock race in RCU Tasks Trace
+d4bddbd28f5f rcu-tasks: Shorten per-grace-period sleep for RCU Tasks Trace
+dbb180f7e590 rcu-tasks: Selectively enable more RCU Tasks Trace IPIs
+aeb0c04196d1 rcu-tasks: Prevent complaints of unused show_rcu_tasks_classic_gp_kthread()
+ccb7665fcfb6 rcu-tasks: Use more aggressive polling for RCU Tasks Trace
+ae5a35a0a832 rcu-tasks: Mark variables static
+63311dd3b651 rcu: Shrink each possible cpu krcp
+469f4f2284b7 rcu/segcblist: Prevent useless GP start if no CBs to accelerate
+c91fd0681cd8 rcutorture: Allow pointer leaks to test diagnostic code
+4fdfe2107c4e rcutorture: Hoist OOM registry up one level
+3bc8f529ec71 refperf: Avoid null pointer dereference when buf fails to allocate
+4d1ef70e9289 rcutorture: Properly synchronize with OOM notifier
+37d0c27f27e3 rcutorture: Properly set rcu_fwds for OOM handling
+77c1465f75c9 rcutorture: Output number of elapsed grace periods
+19126babbaf3 rcutorture: Remove KCSAN stubs
+f45c8140351e rcu: Remove unused "cpu" parameter from rcu_report_qs_rdp()
+237435895e0e rcu: Report QS for outermost PREEMPT=n rcu_read_unlock() for strict GPs
+e61e9e27d6d8 rcu: Execute RCU reader shortly after rcu_core for strict GPs
+4d118179bb1f rcu: Provide optional RCU-reader exit delay for strict GPs
+2b6007aa9427 rcu: IPI all CPUs at GP end for strict GPs
+05e971fef43b rcu: IPI all CPUs at GP start for strict GPs
+1af3e15497e7 rcu: Attempt QS when CPU discovers GP for strict GPs
+a3df15bf5ae9 rcu: Do full report for .need_qs for strict GPs
+bebf15a2301d rcu: Always set .need_qs from __rcu_read_lock() for strict GPs
+416e5373f721 rcu: Force DEFAULT_RCU_BLIMIT to 1000 for strict RCU GPs
+97594d2ad1ff rcu: Restrict default jiffies_till_first_fqs for strict RCU GPs
+9d9115c0dd9e rcu: Reduce leaf fanout for strict RCU grace periods
+57325e4deffc rcu: Add Kconfig option for strict RCU grace periods
+e0cf11f14714 rcuperf: Change rcuperf to rcuscale
+2d30e769634a rcu: Remove unused __rcu_is_watching() function
+e40837e32eac rcu: Make FQS more aggressive in complaining about offline CPUs
+cb3a2e4aa283 rcu: Clarify comments about FQS loop reporting quiescent states
+98136ba96bc1 rcu/nocb: Add a warning for non-GP kthread running GP code
+fea40fbb0a78 rcu: Move rcu_cpu_started per-CPU variable to rcu_data
+e5471d15ed58 rcu: Add READ_ONCE() to rcu_do_batch() access to rcu_cpu_stall_ftrace_dump
+5eefb8a0cd0b rcu: Add READ_ONCE() to rcu_do_batch() access to rcu_kick_kthreads
+2509e470cd9c rcu: Add READ_ONCE() to rcu_do_batch() access to rcu_resched_ns
+cb6a0346b727 rcu: Add READ_ONCE() to rcu_do_batch() access to rcu_divisor
+8ddda921d56c nocb: Remove show_rcu_nocb_state() false positive printout
+b3dd84623336 rcu/tree: Remove CONFIG_PREMPT_RCU check in force_qs_rnp()
+c96f9eaffb54 rcu/tree: Force quiescent state on callback overload
+756967260c1d nocb: Clarify RCU nocb CPU error message
+913900365a42 rcu/trace: Use gp_seq_req in acceleration's rcu_grace_period tracepoint
+46f1a7902cfa rcu: Initialize at declaration time in rcu_exp_handler()
+e5347b854d87 srcu: Remove KCSAN stubs
+de031c7c954b rcu: Remove KCSAN stubs from update.c
+0e146b038f68 rcu: Remove KCSAN stubs
+2b447b0bd385 rcutorture: Check for unwatched readers
+89d2b353ddf4 rcu/rcutorture: Replace 0 with false
+d892fd983313 rcutorture: NULL rcu_torture_current earlier in cleanup code
+fbdfb5870ab6 rcutorture: Add races with task-exit processing
+91c698a6e7ab srcu: Avoid local_irq_save() before acquiring spinlock_t
+206a1940d39c srcu: Fix a typo in comment "amoritized"->"amortized"
+a0cfc6ae3c9e refperf: Rename refperf.c to refscale.c and change internal names
+eab29e52535c refperf: Rename RCU_REF_PERF_TEST to RCU_REF_SCALE_TEST
+5bccfad17fa7 rcu-tasks: Fix synchronize_rcu_tasks_trace() header comment
+d62b920a0ad0 refperf: Add test for RCU Tasks readers
+8c31af84520b refperf: Add test for RCU Tasks Trace readers.
+546607b6462b refperf: Change readdelay module parameter to nanoseconds
+6f010bf91a15 refperf: Work around 64-bit division
+d4a2bd114a47 refperf: Adjust refperf.loop default value
+cdd11f4890d9 refperf: Add read-side delay module parameter
+796afd8a4d73 refperf: Simplify initialization-time wakeup protocol
+ed93f9b3f35d refperf: Label experiment-number column "Runs"
+eca554f7dde0 refperf: Add warmup and cooldown processing phases
+ce6cc20ffbf0 refperf: More closely synchronize reader start times
+c51a95e4c69f refperf: Convert reader_task structure's "start" field to int
+e63801bf4029 refperf: Tune reader measurement interval
+9cd02568d4c9 refperf: Make functions static
+8bff8ce5e2da refperf: Dynamically allocate thread-summary output buffer
+858adc02c38c refperf: Dynamically allocate experiment-summary output buffer
+bdeff0102a8d refperf: Provide module parameter to specify number of experiments
+49c792f641c0 refperf: Convert nreaders to a module parameter
+f3e54f300c19 refperf: Allow decimal nanoseconds
+e8df7f43d3b4 refperf: Hoist function-pointer calls out of the loop
+c4b8403197c5 refperf: Add holdoff parameter to allow CPUs to come online
+1bc8464fc808 rcuperf: Add comments explaining the high reader overhead
+ded26aec6dc6 refperf: Add a test to measure performance of read-side synchronization
+6f9f52d1b0ab rcuperf: Remove useless while loops around wait_event
+7679f0320f3c rcu-tasks: Fix code-style issues
+aa3ef9475e1e rcu-tasks: Conditionally compile show_rcu_tasks_gp_kthreads()
+0f2056445d62 rcu-tasks: Add #include of rcupdate_trace.h to update.c
+e2b1caf15252 rcu-tasks: Make rcu_tasks_postscan() be static
+39872ed7ef54 rcu-tasks: Convert sleeps to idle priority
+f66fcb6277d6 rcu: Support reclaim for head-less object
+0cbc899f240f rcu: Rename *_kfree_callback/*_kfree_rcu_offset/kfree_call_*
+e42aeeae7aa6 rcu/tiny: support vmalloc in tiny-RCU
+b8663ca69d84 rcu/tree: Maintain separate array for vmalloc ptrs
+af07d2828418 rcu/tree: cache specified number of objects
+c2a7e4bb888c rcu/tree: Use static initializer for krc.lock
+382740229706 rcu/tree: Move kfree_rcu_cpu locking/unlocking to separate functions
+d81e3bbc8444 rcu/tree: Simplify KFREE_BULK_MAX_ENTR macro
+faabe11bf7ee rcu/tree: Make debug_objects logic independent of rcu_head
+ab7e34bdb45a rcu/tree: Repeat the monitor if any free channel is busy
+001dc9f0fab2 rcu/tree: Skip entry into the page allocator for PREEMPT_RT
+e9f6b6c55e8f rcu/tree: Keep kfree_rcu() awake during lock contention
+52ad2a8e7ca9 rcu: Fix a kernel-doc warnings for "count"
+74432663d7d7 kernel/rcu/tree.c: Fix kernel-doc warnings
+09da76b35ca3 rcu: grpnum just records group number
+9358baea3ea4 rcu: grplo/grphi just records CPU number
+86a6eced53e8 rcu: gp_max is protected by root rcu_node's lock
+7ac65915daea rcu: Stop shrinker loop
+f8d9861ec2d4 rcu: Replace 1 with true
+e72c40f1b71c rcu: Mark rcu_nmi_enter() call to rcu_cleanup_after_idle() noinstr
+4bc1f24c1c0c rcu: Remove initialized but unused rnp from check_slow_task()
+987111360f8f rcu: Update comment from rsp->rcu_gp_seq to rsp->gp_seq
+feb0194fedbf rcu: Expedited grace-period sleeps to idle priority
+4a999b0c776f rcu: No-CBs-related sleeps to idle priority
+ec7411def299 rcu: Priority-boost-related sleeps to idle priority
+cfc1756fe403 rcu: Grace-period-kthread related sleeps to idle priority
+0f05402e1e39 rcu: Add comment documenting rcu_callback_map's purpose
+8f4b0caaaae0 rcu: Add callbacks-invoked counters
+8a92a0499b57 rcu: Simplify the calculation of rcu_state.ncpus
+8c007e1832b3 rcu: Initialize and destroy rcu_synchronize only when necessary
+86c68a7c189f rcu: Fixup noinstr warnings
+3b8f272c61b4 rcuperf: Fix printk format warning
+2f517951aa13 rcu: Allow for smp_call_function() running callbacks from idle
+25ef929e0852 rcu: Provide rcu_irq_exit_check_preempt()
+fe1bb951779e rcu: Abstract out rcu_irq_enter_check_tick() from rcu_nmi_enter()
+dba47a7b7ff2 rcu: Provide __rcu_is_watching()
+6184d8e10855 rcu: Provide rcu_irq_exit_preempt()
+353bbac73d80 rcu: Make RCU IRQ enter/exit functions rely on in_nmi()
+fb6f3c4613ed rcu/tree: Mark the idle relevant functions noinstr
+0187bc838a53 rcu: constify sysrq_key_op
+6b8ba0dd39dd rcutorture: Convert ULONG_CMP_LT() to time_before()
+cf4d1c1f72a7 rcutorture: Make rcu_fwds and rcu_fwd_emergency_stop static
+185271ad4930 rcu: Allow rcutorture to starve grace-period kthread
+5493c7a0f845 rcutorture: Add flag to produce non-busy-wait task stalls
+2a6ebacb46ef rcutorture: Mark data-race potential for rcu_barrier() test statistics
+cb9dcb9a4106 rcutorture: Add KCSAN stubs
+c0909786aeaa rcu: Remove self-stack-trace when all quiescent states seen
+bae701506f16 rcu: When GP kthread is starved, tag idle threads as false positives
+3278a48534c7 rcu-tasks: Allow standalone use of TASKS_{TRACE_,}RCU
+a3100508edb6 rcu-tasks: Add IPI failure count to statistics
+825733d040ce rcu-tasks: Add count for idle tasks on offline CPUs
+84b68f359ebb rcu-tasks: Add rcu_dynticks_zero_in_eqs() effectiveness statistics
+afcceb36e615 rcu-tasks: Make RCU tasks trace also wait for idle tasks
+13f324460825 rcu-tasks: Handle the running-offline idle-task special case
+618d3a4df4fc rcu-tasks: Disable CPU hotplug across RCU tasks trace scans
+fb6895cdbab6 rcu-tasks: Allow rcu_read_unlock_trace() under scheduler locks
+af4cdca741f5 rcu-tasks: Avoid IPIing userspace/idle tasks if kernel is so built
+339b7c3c8a93 rcu-tasks: Add Kconfig option to mediate smp_mb() vs. IPI
+bb966502d369 rcu-tasks: Add grace-period and IPI counts to statistics
+c1ecb3cd9547 rcu-tasks: Split ->trc_reader_need_end
+326de790b2c9 rcu-tasks: Provide boot parameter to delay IPIs until late in grace period
+dabbfaad3139 rcu-tasks: Add a grace-period start time for throttling and debug
+fa63ddf19ca6 rcu-tasks: Make RCU Tasks Trace make use of RCU scheduler hooks
+f74bca6458d1 rcu-tasks: Make rcutorture writer stall output include GP state
+4bf8fb246cad rcu-tasks: Add RCU tasks to rcutorture writer stall output
+a224d75f4a3d rcu-tasks: Move #ifdef into tasks.h
+a9c4b919f06d rcu-tasks: Add stall warnings for RCU Tasks Trace
+94168a1ccd07 rcutorture: Add torture tests for RCU Tasks Trace
+89670407a14c rcu-tasks: Add an RCU Tasks Trace to simplify protection of tracing hooks
+f83cb04bd6bd rcu-tasks: Code movement to allow more Tasks RCU variants
+20793b78225e rcu-tasks: Further refactor RCU-tasks to allow adding more variants
+e56c82fd3b30 rcu-tasks: Use unique names for RCU-Tasks kthreads and messages
+409c4cb51b58 rcutorture: Add torture tests for RCU Tasks Rude
+4f8404868481 rcu-tasks: Add an RCU-tasks rude variant
+05522b7f1b36 rcu-tasks: Refactor RCU-tasks to allow variants to be added
+4e0baa4bfb64 rcutorture: Add a test for synchronize_rcu_mult()
+dda7d71d352a rcu: Reinstate synchronize_rcu_mult()
+391eeec4891c rcu-tasks: Create struct to hold state information
+092c28b8f418 rcu-tasks: Move Tasks RCU to its own file
+65ad1af6f5a5 rcu: Add per-task state to RCU CPU stall warnings
+a830bcced009 sched/core: Add function to sample state of locked-down task
+c5b361cec15c rcu-tasks: Use context-switch hook for PREEMPT=y kernels
+cce8983a6214 rcu: Add comments marking transitions between RCU watching and not
+6adf03aa6a53 rcutorture: Add test of holding scheduler locks across rcu_read_unlock()
+0eb417689d87 rcu: Don't use negative nesting depth in __rcu_read_unlock()
+2e13c6753409 rcu: Remove unused ->rcu_read_unlock_special.b.deferred_qs field
+0a4c5b8717a9 rcu: Don't set nesting depth negative in rcu_preempt_deferred_qs()
+ef2913215747 rcu: Make rcu_read_unlock_special() safe for rq/pi locks
+525ecc43fd4e rcu: Add KCSAN stubs to update.c
+39374fa727f4 rcu: Add rcu_gp_might_be_stalled()
+0a114983d1ef rcu/tree: Count number of batched kfree_rcu() locklessly
+4e35c5481b35 rcu/tree: Add a shrinker to prevent OOM due to kfree_rcu() batching
+76751a48b2c7 rcuperf: Add ability to increase object allocation size
+f1b0bd5672c7 rcu: Convert rcu_nohz_full_cpu() ULONG_CMP_LT() to time_before()
+7f01a6aa01a3 rcu: Convert rcu_initiate_boost() ULONG_CMP_GE() to time_after()
+488571137368 rcu: Convert ULONG_CMP_GE() to time_after() for jiffy comparison
+1e83cf51fe94 rcu: Replace 1 by true
+d229c7b45e18 rcu: Replace assigned pointer ret value by corresponding boolean value
+bdd48b7cbf2a rcu: Mark rcu_state.gp_seq to detect more concurrent writes
+af2d00779058 rcu: Get rid of some doc warnings in update.c
+86f522ccecd1 rcu: Fix the (t=0 jiffies) false positive
+7fa6e74bbb05 rcu: Expedite first two FQS scans under callback-overload conditions
+d04d396538fd rcu: Use data_race() for RCU CPU stall-warning prints
+fbdc57343e3e rcu: Add WRITE_ONCE() to rcu_node ->boost_tasks
+7ec5613701f0 srcu: Add data_race() to ->srcu_lock_count and ->srcu_unlock_count arrays
+f1ccedda8170 rcu: Add READ_ONCE and data_race() to rcu_node ->boost_tasks
+26bd1ac4c1b6 rcu: Add *_ONCE() and data_race() to rcu_node ->exp_tasks plus locking
+ae81b3cbed6f rcu: Mark rcu_state.ncpus to detect concurrent writes
+23d7bfabb0e8 srcu: Add KCSAN stubs
+47c80e5e15ad rcu: Add KCSAN stubs
+418c1b144289 rcu: Don't acquire lock in NMI handler in rcu_nmi_enter_common()
+5c5de92e3299 rcu: Make rcu_barrier() account for offline no-CBs CPUs
+f4d6dfa3293f rcu: Mark rcu_state.gp_seq to detect concurrent writes
+5a2558db9d7c lockdep: Annotate irq_work
+55a749c8bc1c lockdep: Introduce wait-type checks
+dc1a881cc9da rcutorture: Manually clean up after rcu_barrier() failure
+5f9c78c8a1f2 rcutorture: Make rcu_torture_barrier_cbs() post from corresponding CPU
+ca153ea4ded7 rcuperf: Measure memory footprint during kfree_rcu() test
+454fabf4d0aa rcutorture: Annotation lockless accesses to rcu_torture_current
+32192d060673 rcutorture: Add READ_ONCE() to rcu_torture_count and rcu_torture_batch
+2cacb1388ac4 rcutorture: Fix stray access to rcu_fwd_cb_nodelay
+546d44da35a8 rcutorture: Fix rcu_torture_one_read()/rcu_torture_writer() data race
+e856df5ae112 rcutorture: Suppress boottime bad-sequence warnings
+ec62bda09f92 rcutorture: Allow boottime stall warnings to be suppressed
+a621381eb809 rcutorture: Refrain from callback flooding during boot
+9842e6fffac7 rcutorture: Suppress forward-progress complaints during early boot
+e36e550886d5 srcu: Hold srcu_struct ->lock when updating ->srcu_gp_seq
+f3076a939d92 srcu: Fix process_srcu()/srcu_batches_completed() datarace
+7d701f75312c srcu: Fix __call_srcu()/srcu_get_delay() datarace
+ae4254b0bc78 srcu: Fix __call_srcu()/process_srcu() datarace
+da770892e36d rcu: Add missing annotation for exit_tasks_rcu_finish()
+ba0adaf64921 rcu: Add missing annotation for exit_tasks_rcu_start()
+ac746499c28d rcu-tasks: *_ONCE() for rcu_tasks_cbs_head
+17a4fd256913 rcu: Update __call_rcu() comments
+260d24c9166b rcu: Fix spelling mistake "leval" -> "level"
+87b421fb735a rcu: React to callback overload by boosting RCU readers
+951cf7db8b23 rcu: React to callback overload by aggressively seeking quiescent states
+3dc20c43fd7c rcu: Clear ->core_needs_qs at GP end or self-reported QS
+0c7fe489cf11 rcu: Add a trace event for kfree_rcu() use of kfree_bulk()
+426bef13d057 rcu: Support kfree_bulk() interface in kfree_rcu()
+d58911617477 rcu: Make nocb_gp_wait() double-check unexpected-callback warning
+c2d0d55c6f4a rcu: Tighten rcu_lockdep_assert_cblist_protected() check
+2f504901628a rcu: Optimize and protect atomic_cmpxchg() loop
+eada53ca7cb8 rcu/nocb: Add missing annotation for rcu_nocb_bypass_unlock()
+698bf08daf02 rcu: Add missing annotation for rcu_nocb_bypass_lock()
+258037bd2fab rcu: Don't flag non-starting GPs before GP kthread is running
+9697bf8b5c5e rculist: Add brackets around cond argument in __list_check_rcu macro
+3d74d6520170 rcu: Fix rcu_barrier_callback() race condition
+77c331aaac7b rcu: Add WRITE_ONCE() to rcu_state ->gp_start
+d0055c6622a7 rcu: Remove dead code from rcu_segcblist_insert_pend_cbs()
+0168d880c8ad rcu: Add *_ONCE() to rcu_node ->boost_kthread_status
+cf4cbdcabed4 rcu: Add *_ONCE() to rcu_data ->rcu_forced_tick
+90ebb90cb0b5 rcu: Add READ_ONCE() to rcu_data ->gpwrap
+efd8a3c74336 rcu: Fix typos in file-header comments
+2d1e31e39ea1 rcu: Add *_ONCE() for grace-period progress indicators
+9b9650136ef8 rcu: Add READ_ONCE() to rcu_segcblist ->tails[]
+08c83dbd3933 rcu: Add WRITE_ONCE() to rcu_node ->qsmaskinitnext
+6d7cc77ec374 rcu: Add WRITE_ONCE() to rcu_state ->gp_req_activity
+b867e544e4e9 rcu: Add READ_ONCE() to rcu_node ->gp_seq
+a02d3f7bef8f rcu: Add WRITE_ONCE to rcu_node ->exp_seq_rq store
+a1fc43012c08 rcu: Add WRITE_ONCE() to rcu_node ->qsmask update
+e3bceb56d53f rcu: Provide debug symbols and line numbers in KCSAN runs
+08a4d1613f9a rcu: Fix exp_funnel_lock()/rcu_exp_wait_wake() datarace
+e15a4f7c6b2a rcu: Warn on for_each_leaf_node_cpu_mask() from non-leaf
+a9faa8ed0791 rcuwait: Add @state argument to rcuwait_wait_event()
+911dbde9615c rcu: Forgive slow expedited grace periods at boot time
+467fcf0a317e rcu: Remove unused stop-machine #include
+0128063f07ae srcu: Apply *_ONCE() to ->srcu_last_gp_end
+b63deb3ed1b6 rcu: Switch force_qs_rnp() to for_each_leaf_node_cpu_mask()
+9defaedc1d16 rcu: Move rcu_{expedited,normal} definitions into rcupdate.h
+9b60bf0b44c2 rcu: Move gp_state_names[] and gp_state_getname() to tree_stall.h
+3f74bb3a652d rcu: Remove the declaration of call_rcu() in tree.h
+b2c8d603e434 rcu: Fix tracepoint tracking RCU CPU kthread utilization
+a0ba9f0835f2 rcu: Fix harmless omission of "CONFIG_" from #if condition
+e21c7db30f35 rcu: Avoid tick_dep_set_cpu() misordering
+bb3987d71a70 rcu: Provide wrappers for uses of ->rcu_read_lock_nesting
+9a16e64825f5 rcu: Use READ_ONCE() for ->expmask in rcu_read_unlock_special()
+5666ffb78b00 rcu: Clear ->rcu_read_unlock_special only once
+c34f2cdb3e4e rcu: Clear .exp_hint only when deferred quiescent state has been reported
+67bfc8c350c1 rcu: Rename some instance of CONFIG_PREEMPTION to CONFIG_PREEMPT_RCU
+3e476b01e7ac rcu: Remove kfree_call_rcu_nobatch()
+15a8f33a48f5 rcu: Remove kfree_rcu() special casing and lazy-callback handling
+6cbb3463e6fc rcu: Add support for debug_objects debugging for kfree_rcu()
+ceea1359b0d7 rcu: Add multiple in-flight batches of kfree_rcu() work
+e34136043f1c rcu: Make kfree_rcu() use a non-atomic ->monitor_todo
+5b5a2db6facc rcuperf: Add kfree_rcu() performance Tests
+8c5855418350 rcu: Add basic support for kfree_rcu() batching
+909099d6398a rcu: Mark non-global functions and variables as static
+69c3bfa4de49 rcutorture: Dynamically allocate rcu_fwds structure
+124d4fa86b5b rcutorture: Complete threading rcu_fwd pointers through functions
+23e8c0ba469d rcutorture: Move to dynamic initialization of rcu_fwds
+21b45ffe13c4 rcutorture: Thread rcu_fwd pointer through forward-progress functions
+440273a4be03 rcutorture: Pull callback forward-progress data into rcu_fwd struct
+689d222a1b92 rcu: Make PREEMPT_RCU be a modifier to TREE_RCU
+26d73a14bde8 rcu: Use lockdep rather than comment to enforce lock held
+845a953991f9 rcu/nocb: Fix dump_tree hierarchy print always active
+a0e5bf2bf34a rcu: Enable tick for nohz_full CPUs slow to provide expedited QS
+41ec3da53cf8 rcu: Replace synchronize_sched_expedited_wait() "_sched" with "_rcu"
+7ec50fe61eca rcu: Update tree_exp.h function-header comments
+06350cbdeb48 rcu: Rename sync_rcu_preempt_exp_done() to sync_rcu_exp_done()
+b04756eba6ee rcu: Allow only one expedited GP to run concurrently with wakeups
+a35c2a817de8 rcu: Substitute lookup for bit-twiddling in sync_rcu_exp_select_node_cpus()
+e973aa41f6fe rcu: Fix data-race due to atomic_t copy-by-value
+71d1fb1663bf rcu: Avoid modifying mask_ofl_ipi in sync_rcu_exp_select_node_cpus()
+7fc837a11ec0 rcu: Use *_ONCE() to protect lockless ->expmask accesses
+7abe673abd4c rcu: Suppress levelspread uninitialized messages
+160d5a39f0ec rcu: Fix uninitialized variable in nocb_gp_wait()
+5178844e5617 rcu: Ensure that ->rcu_urgent_qs is set before resched IPI
+950a0d332b15 rcu: Several rcu_segcblist functions can be static
+891aba00b64f rcu: Make kernel-mode nohz_full CPUs invoke the RCU core processing
+0e81d45b1b35 rcu: Confine ->core_needs_qs accesses to the corresponding CPU
+fd299559b304 rcu: Reset CPU hints when reporting a quiescent state
+e99fa54a58eb rcu: Force nohz_full tick on upon irq enter instead of exit
+e2145e58256c rcu: Force tick on for nohz_full CPUs not reaching quiescent states
+98fc7271d360 rcutorture: Make in-kernel-loop testing more brutal
+c0bbd2bdcb5d rcutorture: Separate warnings for each failure type
+f4d0c0b545b5 rcu: Remove unused variable rcu_perf_writer_state
+7b6afa1f2d0c locktorture: Replace strncmp() with str_has_prefix()
+069feb32be74 rcu: Remove unused function rcutorture_record_progress()
+031a4d3d9aa5 rcutorture: Emulate dyntick aspect of userspace nohz_full sojourn
+2ea8eed8ba1f rcu: Make CPU-hotplug removal operations enable tick
+b79f4fac79d6 stop_machine: Provide RCU quiescent state in multi_cpu_stop()
+566ce337541f rcutorture: Force on tick for readers and callback flooders
+2cdf3c711400 rcu: Force on tick when invoking lots of callbacks
+a727a834b8ab time: Export tick start/stop functions for rcutorture
+490e5e6d8f76 nohz: Add TICK_DEP_BIT_RCU
+a9e262fd1262 rcu: Allow rcu_do_batch() to dynamically adjust batch sizes
+5bdf75474acf rcu/nocb: Don't wake no-CBs GP kthread if timer posted under overload
+9473f4f973a4 rcu/nocb: Reduce __call_rcu_nocb_wake() leaf rcu_node ->lock contention
+659c94f5e7a1 rcu/nocb: Reduce nocb_cb_wait() leaf rcu_node ->lock contention
+afe5f2e36df1 rcu/nocb: Advance CBs after merge in rcutree_migrate_callbacks()
+c4d73d553f3a rcu/nocb: Avoid synchronous wakeup in __call_rcu_nocb_wake()
+74db070c90b1 rcu/nocb: Print no-CBs diagnostics when rcutorture writer unduly delayed
+1bbeff464895 rcu/nocb: EXP Check use and usefulness of ->nocb_lock_contended
+eb08cb9c0980 rcu/nocb: Add bypass callback queueing
+8db0550ba678 rcu/nocb: Atomic ->len field in rcu_segcblist structure
+2fc02d0c84e6 rcu/nocb: Unconditionally advance and wake for excessive CBs
+dc45458cabae rcu/nocb: Reduce ->nocb_lock contention with separate ->nocb_gp_lock
+58e06cbd014b rcu/nocb: Reduce contention at no-CBs invocation-done time
+8da19d5b9b56 rcu/nocb: Reduce contention at no-CBs registry-time CB advancement
+db4994f4b41e rcu/nocb: Round down for number of no-CBs grace-period kthreads
+4568920530ce rcu/nocb: Avoid ->nocb_lock capture by corresponding CPU
+b29cb998156e rcu/nocb: Avoid needless wakeups of no-CBs grace-period kthread
+a65fbafac761 rcu/nocb: Make __call_rcu_nocb_wake() safe for many callbacks
+28959c5f03e3 rcu/nocb: Never downgrade ->nocb_defer_wakeup in wake_nocb_gp_defer()
+559c20453e27 rcu/nocb: Enable re-awakening under high callback load
+f0b36b546303 rcu/nohz: Turn off tick for offloaded CPUs
+d8c0f8da6625 rcu/nocb: Suppress uninitialized false-positive in nocb_gp_wait()
+fc056f4d8665 rcu/nocb: Use build-time no-CBs check in rcu_pending()
+6957e8d77b22 rcu/nocb: Use build-time no-CBs check in rcu_core()
+a7e7a9a95cd1 rcu/nocb: Use build-time no-CBs check in rcu_do_batch()
+f05c47304675 rcu/nocb: Remove obsolete nocb_gp_head and nocb_gp_tail fields
+b2452d7294ef rcu/nocb: Remove obsolete nocb_cb_tail and nocb_cb_head fields
+11dd7ba22823 rcu/nocb: Remove obsolete nocb_q_count and nocb_q_count_lazy fields
+304818484a48 rcu/nocb: Remove obsolete nocb_head and nocb_tail fields
+9f0a4da53e77 rcu/nocb: Use rcu_segcblist for no-CBs CPUs
+c5a977e5afff rcu/nocb: Leave ->cblist enabled for no-CBs CPUs
+00fe93922228 rcu/nocb: Allow lockless use of rcu_segcblist_empty()
+fbf0d5074d7b rcu/nocb: Allow lockless use of rcu_segcblist_restempty()
+2ea9c4f389ac rcu/nocb: Remove deferred wakeup checks for extended quiescent states
+abcee6d36687 rcu/nocb: Check for deferred nocb wakeups before nohz_full early exit
+886c6f9a30f0 rcu/nocb: Make rcutree_migrate_callbacks() start at leaf rcu_node structure
+f175d8276b41 rcu/nocb: Add checks for offloaded callback processing
+ba002bfd5ebb rcu/nocb: Use separate flag to indicate offloaded ->cblist
+00a671c2a369 rcu/nocb: Use separate flag to indicate disabled ->cblist
+0b225ed1a522 rcu/nocb: Print gp/cb kthread hierarchy if dump_tree
+9d0009b71e87 rcu/nocb: Rename rcu_nocb_leader_stride kernel boot parameter
+f1e1fd9eb9e6 rcu/nocb: Rename and document no-CB CB kthread sleep trace event
+155b64001d29 rcu/nocb: Rename rcu_organize_nocb_kthreads() local variable
+b0c270c5e6dd rcu/nocb: Rename wake_nocb_leader_defer() to wake_nocb_gp_defer()
+f65cc5bf24e2 rcu/nocb: Rename __wake_nocb_leader() to __wake_nocb_gp()
+b54a192ab90a rcu/nocb: Rename wake_nocb_leader() to wake_nocb_gp()
+7429424707b4 rcu/nocb: Rename nocb_follower_wait() to nocb_cb_wait()
+d659c2a33d49 rcu/nocb: Provide separate no-CBs grace-period kthreads
+e37d98157ae5 rcu/nocb: Update comments to prepare for forward-progress work
+6c9f9f7e8070 rcu/nocb: Rename rcu_data fields to prepare for forward-progress work
+72d6093069b9 rcu: Fix spelling mistake "greate"->"great"
+660dbb3c5f59 rcu: Remove redundant "if" condition from rcu_gp_is_expedited()
+953fa3a6312c rcu/sync: Remove custom check for RCU readers
+f2af1fef24f7 rcu: Add support for consolidated-RCU reader checking
+5743ccdff35d rcu/tree: Fix SCHED_FIFO params
+703a3563757c rcutorture: Aggressive forward-progress tests shouldn't block shutdown
+d4d38968fd36 rcuperf: Make rcuperf kernel test more robust for !expedited mode
+a069b7494284 rcutorture: Emulate userspace sojourn during call_rcu() floods
+7ee09bacc0d3 rcuperf: Fix perf_type module-parameter description
+b4b12d9e4af9 rcu: Remove redundant debug_locks check in rcu_read_lock_sched_held()
+c36b2e75e651 rcu: Change return type of rcu_spawn_one_boost_kthread()
+e9e50e868b65 srcu: Avoid srcutorture security-based pointer obfuscation
+35d5432ce0ac rcu: Add destroy_work_on_stack() to match INIT_WORK_ONSTACK()
+0b7720f74441 rcu: Add kernel parameter to dump trace after RCU CPU stall warning
+ae58ea1a04c6 rcu: Restore barrier() to rcu_read_lock() and rcu_read_unlock()
+4cdd4fb993a3 rcu: Simplify rcu_note_context_switch exit from critical section
+0cedc93d99fa rcu: Make rcu_read_unlock_special() checks match raise_softirq_irqoff()
+e78482a1baec rcu: Simplify rcu_read_unlock_special() deferred wakeups
+6cc0f3574023 rcu/tree: Call setschedule() gp ktread to SCHED_FIFO outside of atomic region
+027a11483d5d rcutorture: Upper case solves the case of the vanishing NULL pointer
+ac5ea6c9295a rcutorture: Dump trace buffer for callback pipe drain failures
+f0625075ec5e rcutorture: Add trivial RCU implementation
+ee2688f6beaa rcutorture: Halt forward-progress checks at end of run
+0ce916265dd4 rcutorture: Give the scheduler a chance on PREEMPT && NO_HZ_FULL kernels
+aa0208397cb4 rcutorture: Exempt tasks RCU from timely draining of grace periods
+670dbdb778ae torture: Allow inter-stutter interval to be specified
+b295469de200 rcutorture: Fix stutter_wait() return value and freelist checks
+a7f60762b0f8 rcutorture: Add cond_resched() to forward-progress free-up loop
+14daebba5884 rcu/sync: Simplify the state machine
+032c3f3eddbf rcu/sync: Kill rcu_sync_type/gp_type
+b7ebf1350936 rcu: Make __call_srcu static
+0d18cb85a5b7 module: Make srcu_struct ptr array as read-only
+05da7a2d9d38 srcu: Remove unused vmlinux srcu linker entries
+d1fbb9610c32 srcu: Allocate per-CPU data for DEFINE_SRCU() in modules
+77240601622c rcu: Fix irritating whitespace error in rcu_assign_pointer()
+44cd198c818e rcu: Upgrade sync_exp_work_done() to smp_mb()
+952528e856b9 rcu: Set a maximum limit for back-to-back callback invocation
+69fc154e447a rcu: Make kfree_rcu() ignore NULL pointers
+def510950c1f rcu: Correctly unlock root node in rcu_check_gp_start_stall()
+7fea99682490 rcu: Dump specified number of blocked tasks
+51acfce518e6 rcu: Remove unused rdp local from synchronize_rcu_expedited()
+40e73d67bcea rcu: Rename rcu_data's ->deferred_qs to ->exp_deferred_qs
+51103b8e2e07 rcu: Add checks for dynticks counters in rcu_is_cpu_rrupt_from_idle()
+e159ed6d8085 rcu: Avoid self-IPI in sync_sched_exp_online_cleanup()
+de1568c40536 rcu: Avoid self-IPI in sync_rcu_exp_select_node_cpus()
+6ac287efb9a2 rcu: Inline invoke_rcu_callbacks() into its sole remaining caller
+ebbee1b3da6a rcu: Use irq_work to get scheduler's attention in clean context
+4f509e1160c8 rcu: Allow rcu_read_unlock_special() to raise_softirq() if in_irq()
+29f1783072c3 rcu: Only do rcu_read_unlock_special() wakeups if expedited
+278929448888 rcu: Check for wakeup-safe conditions in rcu_read_unlock_special()
+93e440928188 rcu: Enable elimination of Tree-RCU softirq processing
+3233dada9135 rcu: validate arguments for rcu tracepoints
+d66bce9bc020 rcutorture: Fix expected forward progress duration in OOM notifier
+62d16db590e6 rcutorture: Remove ->ext_irq_conflict field
+250c8d0c38a3 rcutorture: Make rcutorture_extend_mask() comment match the code
+13de6d5ee9c8 rcu: Fix nohz status in stall warning
+542bb157f9bc rcu: Move forward-progress checkers into tree_stall.h
+097ce23ed6c9 rcu: Move irq-disabled stall-warning checking to tree_stall.h
+819b745b84a9 rcu: Organize functions in tree_stall.h
+51fde1f365a4 rcu: Move FAST_NO_HZ stall-warning code to tree_stall.h
+8e1091e5bc9a rcu: Inline RCU stall-warning info helper functions
+6a018f83270a rcu: Move rcu_print_task_exp_stall() to tree_exp.h
+bede1729caf4 rcu: Inline RCU task stall-warning helper functions
+ace15dc76dfc rcu: Move RCU CPU stall-warning code out of tree.c
+acffa03dbdc8 rcu: Move RCU CPU stall-warning code out of tree_plugin.h
+0532a5285dc4 rcu: Move RCU CPU stall-warning code out of update.c
+d74a0ca4d6fb srcu: Remove cleanup_srcu_struct_quiesced()
+fa99bf7ffe0d srcu: Check for in-flight callbacks in _cleanup_srcu_struct()
+1da76654e5df rcu: Correct READ_ONCE()/WRITE_ONCE() for ->rcu_read_unlock_special
+cf882582fa67 rcu: Fix typo in tree_exp.h comment
+1b64bd777422 rcu: Eliminate redundant NULL-pointer check
+f48c36669bd6 rcu: Fix force_qs_rnp() header comment
+73eb5fa0ff53 rcu: Update jiffies_to_sched_qs and adjust_jiffies_till_sched_qs() comments
+76db83c6d074 rcu: Do a single rhp->func read in rcu_head_after_call_rcu()
+ad35bf04a962 rcu: Default jiffies_to_sched_qs to jiffies_till_sched_qs
+4f21514f5eb7 rcu: Fix self-wakeups for grace-period kthread
+1186b29c91cf rcu: Report error for bad rcu_nocbs= parameter values
+4df062f16df9 rcu: Allow rcu_nocbs= to specify all CPUs
+9ce295d8c800 rcu: Move common code out of if-else block
+32ad14ad3810 rcu: Set rcutree.kthread_prio sysfs access to read-only
+9d3b8f6a12e8 rcu: Make exit_rcu() handle non-preempted RCU readers
+15466da83b11 rcu: rcu_qs -- Use raise_softirq_irqoff to not save irqs twice
+ca682c6f731f rcu: Avoid unnecessary softirq when system is idle
+012494bb66f8 rcu: Unconditionally expedite during suspend/hibernate
+f4ddc808c71f rcuwait: Annotate task_struct with __rcu
+11358d6fb259 sched_domain: Annotate RCU pointers properly
+1b65b3aa30ea sched/cpufreq: Annotate cpufreq_update_util_data pointer with __rcu
+73705822c2e0 rcu/update: Convert to SPDX license identifier
+5cd2f26c52ec rcu/tree: Convert to SPDX license identifier
+86cb838cddac rcu/tiny: Convert to SPDX license identifier
+a1eca2bd2550 rcu/sync: Convert to SPDX license identifier
+c2594f16594c rcu/srcu: Convert to SPDX license identifier
+a7eb207ecf4b rcu/rcutorture: Convert to SPDX license identifier
+5ef014ca6f42 rcu/rcu_segcblist: Convert to SPDX license identifier
+5b27bdde1be6 rcu/rcuperf: Convert to SPDX license identifier
+8a9f36eb8cce rcu/rcu.h: Convert to SPDX license identifier
+f11f46dc1b4b rcuperf: Stop abusing IS_ENABLED()
+989ac06edd6e rcutorture: Add grace period after CPU offline
+0e4003078650 rcutorture: Record grace periods in forward-progress histogram
+423b5580885e srcu: Remove srcu_queue_delayed_work_on()
+b88abba31e18 srcu: Check for invalid idx argument in srcu_read_unlock()
+6ead6ff89280 rcu: Add sparse check to rcu_assign_pointer()
+2fa8b4b4ffcb rcu: Fix obsolete DYNTICK_IRQ_NONIDLE comment
+01270225f5a1 rcu: Repair rcu_nmi_exit() docbook header
+ba186e6ffeb9 rcu: Remove preemption disabling from expedited CPU selection
+89210d2967e2 rcu: Rename rcu_process_callbacks() to rcu_core() for Tree RCU
+c6d4731ccbd2 rcu: Rename rcu_check_callbacks() to rcu_sched_clock_irq()
+4f66e87da677 rcu: Docbook for rcu_head_init() and rcu_head_after_call_rcu()
+c32159c124b6 doc: Fix outdated links
+5bafd727a396 doc: CPU-hotplug notifiers cannot invoke synchronize_srcu() or srcu_barrier()
+c7f7e15bdbbe doc: Now jiffies_till_sched_qs solicits help from cond_resched()
+e67a0e98427d rcu: Prevent needless ->gp_seq_needed update in __note_gp_changes()
+f8b84c9207bc rcu: Add sysrq rcu_node-dump capability
+80892df8a4cd rcu: Protect rcu_check_gp_kthread_starvation() access to ->gp_flags
+de6da1ec443c rcu: Improve diagnostics for failed RCU grace-period start
+594eca96b8bf rcu: Update NOCB comments
+2e2d03816001 rcu: Remove unused rcu_cpu_kthread_cpu per-CPU variable
+33522a755c0f rcu: Move rcu_cpu_has_work to rcu_data structure
+e7d058227e97 rcu: Remove unused rcu_cpu_kthread_loops per-CPU variable
+9c53b9f500ad rcu: Move rcu_cpu_kthread_status to rcu_data structure
+ade2aa1a02eb rcu: Move rcu_cpu_kthread_task to rcu_data structure
+39f9fb7c6b60 rcu: Accommodate zero jiffies_till_first_fqs and kthread kicking
+09b8b3420d75 rcu: Discard separate per-CPU callback counts
+2aec7f134af5 rcu: Inline _synchronize_rcu_expedited() into synchronize_rcu_expedited()
+bbebd270123a rcu: Consolidate PREEMPT and !PREEMPT synchronize_rcu()
+58817b4d1ee8 rcu: Consolidate PREEMPT and !PREEMPT synchronize_rcu_expedited()
+247ff5caf065 rcu: Determine expedited-GP IPI handler at build time
+41ca57729491 rcu: Inline rcu_kthread_do_work() into its sole remaining caller
+62cf01f225ba rcu: Eliminate RCU_BH_FLAVOR and RCU_SCHED_FLAVOR
+936f074f5293 rcu: Inline force_quiescent_state() into rcu_force_quiescent_state()
+76b64d020e29 rcu: Make expedited IPI handler return after handling critical section
+8e3afcec425e rcu: Rename and comment changes due to only one rcuo kthread per CPU
+430897bb66ed time: Move CONTEXT_TRACKING to kernel/time/Kconfig
+8c469c129e51 rcutorture: Don't do busted forward-progress testing
+15e49cff3e7a rcutorture: Use 100ms buckets for forward-progress callback histograms
+28272c698671 rcutorture: Recover from OOM during forward-progress tests
+1b619154348a rcutorture: Print forward-progress test age upon failure
+5bebf989107a rcutorture: Print time since GP end upon forward-progress failure
+6d9607c00bda rcutorture: Print histogram of CB invocation at OOM time
+bdb815d45f94 rcutorture: Print GP age upon forward-progress failure
+2118d563c2db rcu: Print per-CPU callback counts for forward-progress failures
+757f773c88d8 rcu: Account for nocb-CPU callback counts in RCU CPU stall warnings
+3f8614643f75 rcutorture: Dump grace-period diagnostics upon forward-progress OOM
+0074d0604651 rcutorture: Prepare for asynchronous access to rcu_fwd_startat
+25db563f7cef rcutorture: Affinity forward-progress test to avoid housekeeping CPUs
+2576610637c6 rcutorture: Break up too-long rcu_torture_fwd_prog() function
+398ea4ef13b8 rcutorture: Remove cbflood facility
+028e7bd25733 rcutorture: Add call_rcu() flooding forward-progress tests
+3082551d9b84 srcu: Use "ssp" instead of "sp" for srcu_struct pointer
+f0688a2a33ae rcu: Avoid signed integer overflow in rcu_preempt_deferred_qs()
+93e59364d2d1 rcu: Replace this_cpu_ptr() with __this_cpu_read()
+9f6315df8099 rcu: Speed up expedited GPs when interrupting RCU reader
+4d66ca18a241 rcu: Trace end of grace period before end of grace period
+a037c4b2ac4d rcu: Adjust the comment of function rcu_is_watching
+68a9cd79cda0 rcu: Add jiffies-since-GP-activity to show_rcu_gp_kthreads()
+4da882bfbaca rcu: Add state name to show_rcu_gp_kthreads() output
+885f4cc6276e rcu: Parameterize rcu_check_gp_start_stall()
+444ea09eeeba rcu: Avoid double multiply by HZ
+b9d5f51b3432 rcu: Eliminate BUG_ON() for kernel/rcu/update.c
+929459cbabbb rcu: Eliminate BUG_ON() for kernel/rcu/tree_plugin.h
+b28635cff838 rcu: Stop expedited grace periods from relying on stop-machine
+e0a1f0d18fae srcu: Prevent __call_srcu() counter wrap with read-side critical section
+f77344e356fa rcu: Consolidate the RCU update functions invoked by sync.c
+bffe0709020a rcu: Eliminate synchronize_rcu_mult()
+4d3c3eaa7234 rcu: Fix rcu_{node,data} comments about gp_seq_needed
+15690ae5b21d rcu: Remove unused rcu_state externs
+fbaf41ce48ff rcu: Eliminate BUG_ON() for kernel/rcu/tree.c
+5bc51763b367 rcu: Eliminate BUG_ON() for sync.c
+e2aa81ec9f97 srcu: Make early-boot call_srcu() reuse workqueue lists
+aa3315f9097a rcutorture: Test early boot call_srcu()
+c809afd6ac0b srcu: Make call_srcu() available during very early boot
+b9706fdd54b3 rcu: Convert rcu_state.ofl_lock to raw_spinlock_t
+3656d54d0c26 rcu: Remove obsolete ->dynticks_fqs and ->cond_resched_completed
+1c9cd107eb7e rcu: Switch ->dynticks to rcu_data structure, remove rcu_dynticks
+eda734003186 rcu: Switch dyntick nesting counters to rcu_data structure
+342f85ac1fdf rcu: Switch urgent quiescent-state requests to rcu_data structure
+e0275c6f0b31 rcu: Switch lazy counts to rcu_data structure
+61249def24c0 rcu: Switch last accelerate/advance to rcu_data structure
+b58c8d49b264 rcu: Switch ->tick_nohz_enabled_snap to rcu_data structure
+c45193c6cb7d rcu: Merge rcu_dynticks structure into rcu_data structure
+71ed6d9cecfe rcu: Remove unused rcu_dynticks_snap() from Tiny RCU
+b1d908f23104 rcu: Convert "1UL << x" to "BIT(x)"
+3c5df42573c6 rcu: Avoid resched_cpu() when rescheduling the current CPU
+06a610cb318f rcu: More aggressively enlist scheduler aid for nohz_full CPUs
+a29914a612ba rcu: Compute jiffies_till_sched_qs from other kernel parameters
+4d95cacbbea8 rcu: Provide functions for determining if call_rcu() has been invoked
+1b18cb5344e8 rcu: Eliminate ->rcu_qs_ctr from the rcu_dynticks structure
+95dba04b11f0 rcu: Motivate Tiny RCU forward progress
+b7c2356dbd65 rcutorture: Dump reader protection sequence if failures or close calls
+30155fb6db75 rcu: Inline _rcu_barrier() into its sole remaining caller
+41af87cd1f1b rcu: Define rcu_all_qs() only in !PREEMPT builds
+4664cf116e66 rcu: Remove !PREEMPT code from rcu_note_voluntary_context_switch()
+3a01c2acf876 rcu: Clean up flavor-related definitions and comments in update.c
+9d28d7bdf8af rcu: Clean up flavor-related definitions and comments in tree_plugin.h
+a53c3793e300 rcu: Clean up flavor-related definitions and comments in tree_exp.h
+c7d645d839b3 rcu: Clean up flavor-related definitions and comments in tree.c
+7d6da7d1dbee rcu: Clean up flavor-related definitions and comments in tiny.c
+3381d54980d3 rcu: Clean up flavor-related definitions and comments in srcutree.h
+2f06a1de9deb rcu: Clean up flavor-related definitions and comments in rcutorture.c
+bee152b709a2 rcu: Clean up flavor-related definitions and comments in rcu.h
+d6ef42e50b42 rcu: Clean up flavor-related definitions and comments in Kconfig
+2fee30087615 rcu: Remove now-unused rcutorture APIs
+7eccc9d07430 rcuperf: Remove the "rcu_bh" and "sched" torture types
+03bed0eeb05f rcutorture: Remove the "rcu_bh" and "sched" torture types
+464333fd1608 rcu: Stop testing RCU-bh and RCU-sched
+44229d799323 rcutorture: Add RCU-bh and RCU-sched support for extended readers
+8c1add01e8b2 rcu: Consolidate RCU-sched update-side function definitions
+5ea00d2bd61b rcu: Consolidate RCU-bh update-side function definitions
+de9e48da3ec8 rcu: Pull rcu_gp_kthread() FQS loop into separate function
+1b482d38044d rcu: Inline increment_cpu_stall_ticks() into its sole caller
+d7d98380a708 rcu: Fix typo in force_qs_rnp()'s parameter's parameter
+c9645abc4967 rcu: Eliminate initialization-time use of rsp
+d6271e191411 rcu: Eliminate RCU-barrier use of rsp
+3b6510b22923 rcu: Eliminate quiescent-state and grace-period-nonstart use of rsp
+0d7502504378 rcu: Eliminate callback-invocation/invocation use of rsp
+7f773d71ca7e rcu: Eliminate grace-period management code use of rsp
+ca96cc50ce86 rcu: Eliminate stall-warning use of rsp
+a8916a612aa7 rcu: Restructure rcu_check_gp_kthread_starvation()
+3a72cc87cdb0 rcu: Simplify rcutorture_get_gp_data()
+5224ba2da496 rcu: Remove for_each_rcu_flavor() flavor-traversal macro
+d46d5a5ea2bf rcu: Remove last non-flavor-traversal rsp local variable from tree_plugin.h
+e1c0f3136adc rcu: Remove rcu_data structure's ->rsp field
+59cfaff19dd2 rcu: Remove rsp parameter from rcu_node tree accessor macros
+f0d4a733c158 rcu: Remove rsp parameter from expedited grace-period functions
+7b75537424cf rcu: Remove rsp parameter from no-CBs CPU functions
+cd19125ba9b5 rcu: Remove rsp parameter from print_cpu_stall_info()
+0c35841ede17 rcu: Remove rsp parameter from rcu_spawn_one_boost_kthread()
+3567e9e629d0 rcu: Remove rsp parameter from dump_blkd_tasks() and friend
+d45525a637c4 rcu: Remove rsp parameter from rcu_print_detail_task_stall()
+354995b6d3c6 rcu: Remove rsp parameter from rcu_init_one() and friends
+aaf554b8aa28 rcu: Remove rsp parameter from rcu_boot_init_percpu_data() and friends
+5e28b753e3ad rcu: Remove rsp parameter from _rcu_barrier() and friends
+9d80004ad087 rcu: Remove rsp parameter from __rcu_pending()
+ba18fe80f4cd rcu: Remove rsp parameter from __call_rcu() and friend
+7a84db1b3c55 rcu: Remove rsp parameter from __rcu_process_callbacks()
+74525e55dae4 rcu: Remove rsp parameter from rcu_check_gp_start_stall()
+51b1ee28a018 rcu: Remove rsp parameter from force-quiescent-state functions
+df4979ded073 rcu: Remove rsp parameter from rcu_do_batch()
+8143818a4a8c rcu: Remove rsp parameter from CPU hotplug functions
+96990eea5a1a rcu: Remove rsp parameter from rcu_check_quiescent_state()
+c004c0ffa3bb rcu: Remove rsp parameter from rcu_gp_kthread() and friends
+888aa2eec7f8 rcu: Remove rsp parameter from rcu_gp_slow()
+9cb591d04ebd rcu: Remove rsp parameter from note_gp_changes()
+bcbce349b6da rcu: Remove rsp parameter from __note_gp_changes()
+90efa50cb65c rcu: Remove rsp parameter from rcu_advance_cbs()
+e31ab037de62 rcu: Remove rsp parameter from rcu_accelerate_cbs_unlocked()
+13f095904fe1 rcu: Remove rsp parameter from rcu_accelerate_cbs()
+f71448fc004e rcu: Remove rsp parameter from rcu_gp_kthread_wake()
+e307e93256b5 rcu: Remove rsp parameter from rcu_future_gp_cleanup()
+53cde287e029 rcu: Remove rsp parameter from check_cpu_stall()
+053ad400c4b7 rcu: Remove rsp parameter from print_cpu_stall()
+44413da43134 rcu: Remove rsp parameter from print_other_cpu_stall()
+60f63796ed5a rcu: Remove rsp parameter from rcu_stall_kick_kthreads()
+310e68d2e9d4 rcu: Remove rsp parameter from rcu_dump_cpu_stacks()
+0115675864d1 rcu: Remove rsp parameter from rcu_check_gp_kthread_starvation()
+ec8777d519a0 rcu: Remove rsp parameter from record_gp_stall_check_time()
+aefef3eb8d53 rcu: Remove rsp parameter from rcu_get_root()
+4725d10ba3cd rcu: Remove rsp parameter from rcu_gp_in_progress()
+69e4b8445183 rcu: Remove rsp parameter from rcu_report_qs_rdp()
+08011f720fca rcu: Remove rsp parameter from rcu_report_unblock_qs_rnp()
+ab753c094aef rcu: Remove rsp parameter from rcu_report_qs_rsp()
+1b680ee1e1b3 rcu: Remove rsp parameter from rcu_report_qs_rnp()
+962cbd53fd43 rcu: Remove rcu_data_p pointer to default rcu_data structure
+742f7dca490e rcu: Remove rcu_state_p pointer to default rcu_state structure
+c1a6b05d281d rcu: Remove rcu_state structure's ->rda field
+547d7f458c64 rcu: Eliminate rcu_state structure's ->call field
+d01c66c6d536 rcu: Remove RCU_STATE_INITIALIZER()
+a8b33a47df0d rcu: Express Tiny RCU updates in terms of RCU rather than RCU-sched
+303a261db0d5 rcu: Define RCU-sched API in terms of RCU for Tree RCU PREEMPT builds
+4765f4111299 rcu: Fix typo in rcu_get_gp_kthreads_prio() header comment
+1c751a16a3b7 rcu: Drop "wake" parameter from rcu_report_exp_rdp()
+8fac13fa8258 rcu: Update comments and help text for no more RCU-bh updaters
+aa8581ca4d23 rcu: Define RCU-bh update API in terms of RCU
+b6e3509a9572 rcu: Report expedited grace periods at context-switch time
+a17dfb8f7f63 rcu: Apply RCU-bh QSes to RCU-sched and RCU-preempt when safe
+b79303d164a3 rcu: Add warning to detect half-interrupts
+cd9b12ea272d rcu: Remove now-unused ->b.exp_need_qs field from the rcu_special union
+93e36c75b10d rcu: Allow processing deferred QSes for exiting RCU-preempt readers
+eff5abb58473 rcutorture: Test extended "rcu" read-side critical sections
+20065c7d0d1d rcu: Defer reporting RCU-preempt quiescent states when disabled
+2748938c49bc rcu: Refactor rcu_{nmi,irq}_{enter,exit}()
+4ff05f27645d rcutorture: Maintain self-propagating CB only during forward-progress test
+d691a58a973c rcutorture: Check GP completion at stutter end
+68dedf230495 rcutorture: Print forward-progress test interval on error
+5288593067ca rcutorture: Adjust number of reader kthreads per CPU-hotplug operations
+60107b0a64c9 rcutorture: Reduce priority of forward-progress testing
+8f0d51ede7a9 rcutorture: Limit reader duration if irq or bh disabled
+2c8865c78290 rcutorture: Increase rcu_read_delay() longdelay_ms
+3b7bd7ef4e1c rcutorture: Add self-propagating callback to forward-progress testing
+37be006a25f4 rcutorture: Vary forward-progress test interval
+0927bfdd57aa rcutorture: Avoid no-test complaint if too few forward-progress tries
+13170eb4f3b6 rcutorture: Also use GP sequence to judge forward progress
+e501e4cce064 rcutorture: Add forward-progress tests for RCU grace periods
+9d4b02344897 rcuperf: Warn on bad perf type for built-in tests
+01f58954d92b rcutorture: Warn on bad torture type for built-in tests
+4f93d72b95b0 rcutorture: Force occasional reader waits
+19423c5092da serial: msm_serial_hs: Bail out if invalid uport is detected
+8dc406ac7cae serial: msm_serial_hs: Bail out if pinctrl lookup fails
+982b73114e67 serial: msm_serial_hs: Remove sleeping function from interrupt context
+d7e29048f582 serial: msm_serial_hs: Add support for suspend to disk feature
+6e9e75e02d05 serial: msm_serial_hs: Align to HW assisted flow control support
+d4457ddf165a serial: msm_serial_hs: Allow system suspend when no client is active
+f1d4090b919a serial: msm_serial_hs: Do not accept Rx Data till the Rx pipe connect
+6f8dca43921e serial: msm_serial_hs: Keep Rx and Tx path clean while going inactive
+7506b088d770 serial: msm_serial_hs: Modify wakeup handler disablement and processing
+31fa5fad1c9b serial: msm_serial_hs: Optimize the total tty port support
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+e9182a3 manifest: Track ParallelSpace
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+2c4ac11 Evolver: Add brightness slider themes
+2795e6e [SQUASH] Evolver: Revert previous brightness slider styles impl [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+683d152e65 Launcher3: Add support for parallel space
+670a4d5219 New Crowdin updates (#46-#47)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+475651b199 Settings: Add support for parallel space
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+423518fc1 Catching IllegalStateException while device is going to shutdown
+79faa8c59 Keep UID in lockdown when present in any range
+d0666d54c Expose new isUidCurrentlyDisallowedByPolicy
+0de614fae Set allowed UIDs for networks based on policies
+60e9df99b Always drop non-VPN ingress in lockdown mode
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+3e923889 packages: Bring back Parallel space
+93b59d06 themes: Add category for brightness slider themes
+d94dea08 themes: overlays: add acun and bang brightness slider [3/3]
+b7ac1adb themes: Configure font spacing for more clock fonts
+016c2070 Revert "Include build manifest on target"
+
+
+=======================
+     2023/06/02
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0939e91 sepolicy: Move rw_dir_file/create_dir_file macros to public
+98e46bd qcom: Sort sepolicy.mk m4defs
+55a34f6 common: Label ro.vendor.fm.use_audio_session
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+3c41562 common: components: Drop QCOM WFD legacy
+2924e08 common: vendor/display: Only copy feature enabler rc for lahaina
+2fb9e45 common: vendor/init: Don't configure QTI Bservice here
+e2fee1b vnedor: init: ueventd.rc: Add permissions for msm_lsm cdev
+6c9b9a0 vendor: init: Avoid setting permission for /dev/hw_random
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+4b49d79a4f23 SystemUI: Toggle dismiss all visibility before reticker animates
+1a4afedb8980 SystemUI: Refactor reticker feature
+018e4cd5d3a6 SystemUI: Improve dismiss all button visibility
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/stable
+
+7467f413a6bb build: Compile KSU on another function
+8ffe12aa9d57 Revert "configs: Switch to `Cb`"
+5a30fe6f2bfb Revert "arm64: dts: kona: Switch to step-wise thermal governor"
+47499e7bf816 Implement KCAL color calibration
+2ef7fabdf8e1 block: hack read_ahead_kb to be always 128 kB
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+ddb0839d1b Launcher3: Reduce search bar hint text size
+bc97f4d05d Launcher3: Fix bottomsheet info pref alignments
+3cfc4e537c InfoBottomSheet: Fix black screen when clicking source pref
+5737299eb5 Launcher3: Restart launcher on pixel search change
+fb925e866c Launcher3: Show a toast when restarting launcher due to component change
+3c4d9e22af Launcher3: Prioritize pixel search for QSB instead of Google app
+90e71f9bbc Launcher3: Directly open Pixel Search if installed
+78db2ffebe Launcher3: Fix all apps SB's google icon touch detection
+0c8e04bcb7 Launcher3: Rework QSB and all apps search bar
+abc3427dff Launcher3: Improve search bar header protection
+302c2214d6 Launcher3: Adjust icons on dock search bar
+426ef45757 Launcher3: Refactor all apps search bar functionality
+4d77cc26c6 Launcher3: Searchbar UX-related changes
+2a63ce6688 Launcher3: Improve paddings for all apps search bar
+911eab3cf2 Launcher3: Match app searchbar theme with dock searchbar
+ddedeca7b6 Launcher3: Apply corner radius setting for app searchbar
+2284d4f778 Launcher3: fix app icon font
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+8ccc0910a1 New Crowdin updates (#319)
+
+
+=======================
+     2023/06/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+74abbf852c55 SystemUI: Improve QS notification expansion animation
+9c897fe45864 PixelPropsUtils: Add Gameprops for Battlegrounds Mobile India (BGMI)
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b09c4d5 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+50d2d56b1a New Crowdin updates (#318)
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+ca59183 Automatic translation import
+
+
+=======================
+     2023/05/31
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+f777ebd sepolicy: Introduce rw_dir_file()/create_dir_file() macros
+50a59c6 qcom: Drop untrusted app policies
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+f9b4f06f3b frameworks/av: Import Xiaomi Image Tags defenitions
+7aa320c402 CAMX: CHI: Added support for handling jpeg debug data.
+db13421170 camera2 vndk: Improve error handling
+443b2f3051 Av: Camera: Import Xiaomi BufferProducerDetachListener changes
+1c8ca61c4d cameraserver: Let multiple cameras opened by stock camera application
+cfbb0cda22 Changing max SampleRate limits for raw audio decoder
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+1a35f8b5eee5 base: Spoof current storage encryption status [1/2]
+d7131fc533b9 frameworks/base: Import Xiaomi Image Tags defenitions
+af002eac9114 CameraManager: Handle NPE with ActivityThread.currentOpPackageName()
+e98b9a5fcb86 Camera: Fix size list parceling
+c0cd4585d32b camera: Support exposing aux camera to apps
+6fb77ff3477e Camera: Ignore torch status update for aux or compsite camera
+026014f88691 CameraManager: Fixup exposing aux camera to apps
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+7ffe7017eb Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+84be7ba668 Native: Camera: Import Release Slot Xiaomi Changes
+06a1274a47 Native: IPCThreadState: Import Xiaomi Modifications
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+83e3403ca8 Settings: Spoof current storage encryption status [2/2]
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+2059090 gms: Switch back to Evo X Launcher
+
+
+=======================
+     2023/05/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9e7be11e352a Add null pointer check to avoid system crash.
+652a629ce946 hwui: Optimize for performance and memory usage
+aa79dac1d946 SystemUI: Doze: Add config to check proximity on pickup events
+517955251be8 SystemUI: Doze: Add config to check proximity on single tap
+4c29a338aa2d SystemUI: Prevent edge lightning from pulsing outside keyguard/doze
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+3190bfc774 Settings: Make Ambient Display toggle show on single tap sensor
+b4fce06c32 Settings: Don't allow divider for AOSP DT2W
+999be28b95 Settings: Use lottie for AOSP DT2W
+
+
+=======================
+     2023/05/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+5cd75725604e core: ApplicationPackageManager: Remove p21+ features from featuresPixel
+bf4135e040a1 core: block 2021/22 pixel features to ASI and pixel launcher
+6e8b899d27ed ApplicationPackageManager: Extend freeform window feature to all apps
+3e329b3c18a5 Pregrant non-system preloaded apps
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/stable
+
+92d2507bb9c6 msm_performance: Kill userspace boosting
+c8cb990cb8fd block: cfq-iosched: Micro optimize
+4e81ced77ff8 include: blkdev: Enable Write Back Caching
+f200b87635d1 blkdev: switch to SSD mode and entropy gathering
+986b70bf0429 block: Disable add_random
+623765492658 [SQUASH] sched: Revert some commits
+ba20a9da0b76 cpufreq: schedutil: Introduce screen-off rate limits
+5658634c4653 github: Switch branch
+f577e740a4d8 drivers: Don't build KernelSU by default
+43b96d1a1868 build: Added KernelSU support
+78bf5c11a2eb fs: Guard kernelsu ints
+12881e16f20f configs: Enable powersave governor
+293abbb1789b Revert "cpufreq: schedutil: Introduce screen-off rate limits"
+ea80aa4a4524 rtc: pm8xxx: Drop remaining error messages
+33ef5156efc6 BACKPORT: rtc: pm8xxx: drop error messages
+4c6cff37ebd1 BACKPORT: rtc: pm8xxx: use unaligned le32 helpers
+2c756d3264d5 BACKPORT: rtc: pm8xxx: return IRQ_NONE on errors
+b03a60353189 rtc: pm8xxx: Drop one more bogus locking
+62b966fdf08e BACKPORT: rtc: pm8xxx: drop bogus locking
+806adf1c5ef9 BACKPORT: rtc: pm8xxx: use regmap_update_bits()
+5784d80deafb BACKPORT: rtc: pm8xxx: drop spmi error messages
+3d49f601dc03 BACKPORT: rtc: pm8xxx: Disable IRQ in shutdown_cb to fix PBS stuck issue
+d65f66114cb3 BACKPORT: rtc: rtc-pm8xxx: Add support for Hibernate (S2D)
+36d9a4bb2b9d BACKPORT: rtc: rtc-pm8xxx: Retrigger RTC alarm if it's fired before the driver probed
+28470354ace3 BACKPORT: rtc: pm8xxx: Replace spin_lock_irqsave with spin_lock in hard IRQ
+ca1d9c3e3a4a BACKPORT: rtc: rtc-pm8xxx: Read ALARM_EN and update to alarm enabled status
+f227c4ba0f93 Revert "rtc: rtc-pm8xxx: Read ALARM_EN and update to alarm enabled status"
+5352296cd809 BACKPORT: rtc: pm8xxx: stop validating valid alarm time
+f4929a41f8cf BACKPORT: rtc: pm8xxx: : switch to rtc_time64_to_tm/rtc_tm_to_time64
+9b4a9119a03e BACKPORT: rtc: pm8xxx: set range
+8fb8ae600a95 BACKPORT: rtc: pm8xxx: convert to devm_rtc_allocate_device
+3a863f31607c BACKPORT: rtc: Remove dev_err() usage after platform_get_irq()
+7ae24e60732e BACKPORT: rtc: pm8xxx: Switch to use %ptR
+c9da759e0731 Revert "rtc-pm8xxx: Read RTC alarm register and update to alarm enabled status"
+f09ea213ebb0 github: Update branch
+6316e24bf13f Revert "sched/core: Use SCHED_RR in place of SCHED_FIFO for all users"
+d2962b73d93c Revert "sched/rt: Change default SCHED_RR timeslice from 100 ms to 1 jiffy"
+6baf335920e8 trace: Add Kconfig option for trace_printk()
+4d8bfc4240f0 build: Switch to Neutron Clang
+6382c8428ab2 configs: Switch to 250hz tick rate
+4d2defcf6cd2 fpc1020_tee: Reduce time taken for FP to unlock
+b1b1b77ecdf4 fpc1020_tee: Rewire for performance
+24fdc987edb5 fpc1020_tee: Drop excessive usage of mutex locks
+832c12e3c601 BACKPORT: msm: kgsl: Make kgsl_mem_entry_get() return a pointer to the entry
+34d27d66afc9 BACKPORT: msm: kgsl: Allocate memory for sync callbacks using GFP_KERNEL
+8c32d316df0d msm: kgsl: Use DMA APIs for cache operations
+a8f36612c4d7 msm: kgsl: Use DMA APIs for memory pool cache maintenance
+aae2c7a2e1bc msm: kgsl: Stop slab shrinker when no more pages can be reclaimed
+6d171e9e3674 BACKPORT: msm: kgsl: Fix race between kgsl device open and close
+aaf4e4354754 msm: kgsl: disable snapshot crash dump by default
+d543755d3765 Revert "msm: kgsl: Add gpu_frequency trace during SLUMBER entry and exit"
+a2603247553a Revert "msm: kgsl: Add gpu_frequency tracepoint to power trace system"
+762310bc3e09 Revert "msm: kgsl: Mark the scratch buffer as privileged"
+f420ff1b4f17 Revert "msm: kgsl: Zap performance counters across context switches"
+8a3cef313751 msm: kgsl: Use lock-less list for page pools
+58719f50916c msm: kgsl: Relax CPU latency requirements to save power
+1b7fb1214d76 msm: kgsl: Don't try to wait for fences that have been signaled
+dc7950481581 msm: kgsl: Remove POPP
+5b396be8d69a msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input
+fd6972472050 drivers/gpu: msm: Set GPU idle timeout to 58ms
+8c424b258473 mm: Skip toggling preemption on kmap_atomic()
+f36279af8b0b build: Switch to Aosp Clang
+9d140ce068e3 cpufreq: schedutil: Introduce screen-off rate limits
+da57b017b69f Revert "drivers: fingerprint: fpc: Reduce wakelock hold time to 1000 ms"
+4ac73df48ecf Revert "mm: thp: relax __GFP_THISNODE for MADV_HUGEPAGE mappings"
+6aeda9d8d2d4 BACKPORT: dmapool: link blocks across pages
+da43b51ef441 BACKPORT: dmapool: don't memset on free twice
+8288a3002472 BACKPORT: dmapool: simplify freeing
+0549bf61a0e5 BACKPORT: dmapool: consolidate page initialization
+4370ca081d52 BACKPORT: dmapool: rearrange page alloc failure handling
+145fb312c064 BACKPORT: dmapool: move debug code to own functions
+18fcdde0578b BACKPORT: dmapool: speedup DMAPOOL_DEBUG with init_on_alloc
+84c46d7edce2 BACKPORT: dmapool: cleanup integer types
+85df2713a5dd BACKPORT: dmapool: use sysfs_emit() instead of scnprintf()
+1bedf0d820ea BACKPORT: dmapool: remove checks for dev == NULL
+a9a0c7532316 BACKPORT: mm/dmapool.c: revert "make dma pool to use kmalloc_node"
+3fd53dc530e4 BACKPORT: mm/dmapool: use DEVICE_ATTR_RO macro
+685f5177f8ea BACKPORT: mm/dmapool: switch from strlcpy to strscpy
+52d31ae11f61 BACKPORT: mm/dmapool.c: replace hard coded function name with __func__
+bc305aff5860 BACKPORT: mm/dmapool.c: replace open-coded list_for_each_entry_safe()
+068da574535e BACKPORT: mm/dmapool.c: micro-optimisation remove unnecessary branch
+5ac0f0223678 char: adsprpc: Remove Qcom's PM_QoS implementation
+0ab1e70af13a [DNM] tty: Do not move tty_port workqueue to be a kthread
+a85a975bee71 mbcache: Speed up cache entry creation
+daf057929e14 Revert "mbcache: don't reclaim used entries"
+3145fcb47580 Revert "mbcache: add functions to delete entry if unused"
+7dece540536c Revert "ext4: remove EA inode entry from mbcache on inode eviction"
+c56548f5af24 Revert "ext4: unindent codeblock in ext4_xattr_block_set()"
+1c09d53cc227 Revert "ext4: fix race when reusing xattr blocks"
+35618cb8a4ab Revert "mbcache: automatically delete entries from cache on freeing"
+6e8c08ea0c58 Revert "ext4: fix deadlock due to mbcache entry corruption"
+1174fad9582a Revert "mbcache: Avoid nesting of cache->c_list_lock under bit locks"
+cb83c58dbf9e configs: Switch to `Cb`
+f547decd1eba build: Update Zyc clang to `16.0.4`
+4f66c88b8424 treewide: Added KernelSU support `(v0.5.6)`
+1d499448e8ef simple_lmk: Reap anonymous memory from victims
+113b7b6a10cf simple_lmk: Reduce unnecessary wake ups
+4458ba0ba1e4 simple_lmk: Ratelimit the 'no processes available to kill' message
+fede7f05600a drivers: fingerprint: fpc: Reduce wakelock hold time to 1000 ms
+6874fdb46a6a build: Update Aosp Clang to `r487747c (17.0.2)`
+db3fa8040fdf configs: Enable Garbage Collector for user space wakeup sources
+59dc06d36d4b configs: Disable Qualcomm Thermal Limiter
+ff5f67d73442 configs: Switch to `Cib`
+3d14f8ba687b cpu_input_boost: Boost on power key
+3b4e1b780e5c cpu_input_boost: rewrite update_online_cpu_policy function
+fd39539412b4 cpumask: Refactor prime cluster cpumask
+549fa939a6cb cpu_input_boost: Mark boost kthread as performance critical
+de32a2f66d7c cpu_input_boost: use mi drm notifier
+8ed00d06f9bb cpu_input_boost: Expose compile-time settings as module parameters
+d8b2a35a8e0f cpu_input_boost: Allow configuration of sm8250's prime cluster
+a182aa1451ba cpu_input_boost: Introduce driver for event-based CPU boosting
+12c5fc4f7c94 ARM64: dts: K11A: Update reset sequence of alioth display panel
+e05b8cc37cbf ARM64: dts: L11R: Remove 90hz support from munch display panel
+aa32639b9d61 sched/fair: Skip frequency updates if CPU about to idle
+59a8be966ae1 Revert "sched/fair: Drop always true parameter of update_cfs_rq_load_avg()"
+fe8a8ef25983 thermal: Increase thermal trip points to 16
+5b0e1ca1bf21 BACKPORT: cpufreq: schedutil: Avoid using invalid next_freq
+4261b8fb2878 cpufreq: schedutil: Cleanup all iowait_boost code
+857537b73e9d cpufreq_schedutil: remove tracing
+8d987459903a Revert "cpufreq: schedutil: Fix for CR 2040904"
+19bb052eeb1a cpufreq: schedutil: Smoothen WALT predicted load boosting
+95c18b1d2aa1 cpufreq: schedutil: fix check for stale utilization values
+f52d37b47814 cpufreq: schedutil: Inline `sugov_policy_free()`
+1035e2221d2d simple_lmk: Fix victim scheduling priority elevation
+ddd08ae345ac cpufreq: cpu-boost: don't boost if input_boost_ms is <= 0
+da92c7b11c85 cpufreq: cpu-boost: don't boost over user set max freq
+d69cda438a53 drivers: cpu-boost: optimize policy update loop on input cpufreq boost
+e4d64fdee559 cpufreq: cpu-boost: set interval between consecutive boosts to be at least the duration of the boost instead of a bigger value
+27dc84c775c7 Revert "cpufreq: cpu-boost: Add support for powerkey input boost"
+0fc2807e1310 treewide: Nuke irq boost and lpm_disable
+b24e9f3ac73d cpuidle: Do not select menu and ladder governors
+3d1b1e4a77e4 BACKPORT: cpuidle: lpm-levels: convert PSCI return value to boolean correctly
+58a19dd79d92 cpuidle: Hardcode `stop_tick`
+07621f096ed6 Revert "UPSTREAM: sched: idle: Avoid retaining the tick when it has been stopped"
+51bcb56af251 cpuidle: Make latency notifier no-op
+2d9885f2548c cpuidle: lpm-levels: Remove tracing from hot path
+0da993d513b2 Revert "drivers: lpm-levels: Use cpu_do_idle for shallower LPM entry"
+0d38c2227f93 cpuidle: lpm-levels: Use WFI only
+faddc7fd7f26 cpuidle: Mark CPUs idle as late as possible to avoid unneeded IPIs
+4adc4918e793 cpuidle: lpm-levels: Remove duplicated code
+9c26e0fc6077 cpuidle: lpm-levels: Remove sleep bias feature
+8079a19b740d cpuidle: lpm-levels: Remove idle prediction feature
+9722cdab3e61 Revert "cpuidle: lpm-levels: Create parameter to disable LPM from device event"
+38f2165ffcf7 Revert "drivers: Disable touch disable LPM and IRQ boost on non MIUI builds"
+3fd176f4d81e Revert "touchscreen: nt36672c: Enable touch irq boost and disable LPM on MIUI builds"
+0f7256ae0457 drivers: lpm-levels: Fix potential NULL pointer dereference
+7f53b84d9c2a cpuidle: Optimize pm_qos notifier callback and IPI semantics
+27d7e04f1910 cpuidle: lpm-levels: Convert sync_lock to raw spin lock
+b83b0406a6bc BACKPORT: cpuidle: lpm-levels: removing trace calls in idle
+e39ec1049a1a BACKPORT: cpuidle: enter_state: Don't needlessly calculate diff time
+d096d7cbded6 configs: Enable `Polly Clang`
+1a43275968ba Makefile: Use `-polly-invariant-load-hoisting` if CLANG < 16
+04d0b8703b1b [SQUASH] Makefile: Rework on Polly optimizer flags
+3f3422d469cc Makefile: Conditionally use `-polly-postopts` cmdline option
+e087f6ad1119 Makefile: Conditionally use `-polly-reschedule` cmdline option
+f15277595696 Makefile: Conditionally use `-polly-loopfusion-greedy` cmdline option
+58776f062f1b Makefile: Don't pass `-polly-opt-fusion=max` if CLANG > 13.0.0
+a57df0a788f9 kbuild: Add support for Clang's polyhedral loop optimizer
+1f3b2d310948 zsmalloc: remove unnecessary size_class NULL check
+b22bb6b2c727 tty: check before stopping kthread
+afc6428a65f2 msm_serial_hs: make the Bluetooth tty thread RT
+1d3495e51ffc tty: tty_port: Include the correct sched types header
+348d2cdd2596 tty: add tty_port_set_policy function
+3ce8d12806cf tty: tty_buffer: Use kthread_queue_work() for tty_insert_flip_string_and_push_buffer()
+4762f5adef70 tty: tty_buffer: Use upstream function names with kthread as prefix
+e050f5fd7ddd tty: move tty_port workqueue to be a kthread
+e15deda3146a Revert "tasks, sched/core: Ensure tasks are available for a grace period after leaving the runqueue"
+5a324bdbdce1 workqueue: Affine unbound workqueues to little CPUs by default
+4165d99af2ed sched/core: Free dead mm structs asynchronously in finish_task_switch()
+0a7c9a0ff244 sched/core: Free dead tasks asynchronously in finish_task_switch()
+486071cf0ee2 sched/rt: Change default SCHED_RR timeslice from 100 ms to 1 jiffy
+d202902bba3a sched/core: Use SCHED_RR in place of SCHED_FIFO for all users
+c9b527e7f261 msm_serial_hs: Include sched types header
+3c1ef74969df configs: Bump to `rc-3.0`
+1af6d76f8045 arm64: dts: kona: Switch to step-wise thermal governor
+5009b566b914 thermal: Don't register for non-existing thermal zone
+742b20f87db9 thermal: Ignore spurious BCL interrupts whenever BCL is in polling
+4470977f3888 arch_topology: Wire up thermal limit for arch_scale_max_freq_capacity
+e3f856fc6861 drivers: thermal: limits-dcvs: Always build driver
+5676305a720e thermal: msm_lmh_dcvs: fix a lockdep splat
+8521ac27ff5f thermal: add a no-lock version of get_temp for virtual sensors
+e3167e5cdd6b thermal: core: Skip update disabled thermal zones after suspend
+4049b9bf39a0 thermal: qcom: bcl: Return before thermal trip evaluates
+1b7a494eaf9e thermal_core: Use power efficient workqueue
+c54ae7984344 techpack/audio: Kbuild: target User build variants
+54b5d536c9cb techpack: asoc: Add supported formats for all cases
+56b538c5084c techpack/codecs: AAC: Hardcode max_bitrate to 384k
+a534e5fbd1f9 configs: Disable generic ARM cpuidle driver
+414476b32be4 ARM64: dts: L11R: Fix munch battery profile settings
+079133c3f3bd drivers: input: Always inline latency critical functions
+cc28fd512731 drivers: usb: pd: Fix logspam
+68f3af726c65 configs: Remove CPUFreq times driver
+79d2446f25f7 configs: Disable SLUB per-CPU partial caches
+
+
+=======================
+     2023/05/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+8d1e6c30fdfa AttestationHooks: Allow spoofing device model for Netflix
+967ab83f31d1 SystemUI: add acun and bang brightness slider [1/3]
+cf36ce2dbd17 SystemUI: Stop using marquee on qs tiles label
+25898b112b91 base: Update mock LinearmotorVibratorService
+b187c780bf9a Fix NullPointerException in GestureDetector
+c4e4cd829c0d hwui: Thread-safety and null pointer dereference fixups
+3ab4889d75d0 Revert "hwui: Prevent systemui crash caused by segfault"
+1933901b4e49 base: Extend showing Ambient instead of fully waking to single tap gesture [1/2]
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+dfc0cbebd0 fixup! inputflinger: add absolute mouse input support
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+5fc68249e Revert "fpc: keep fpc in system-background"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+18acb38 Evolver: add acun and bang brightness slider [2/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+660f1e9af3 Launcher3: Prevent NPE when using custom themed icons
+4adebe5fd5 Launcher3: Properly end recents animation views
+3eef2a8f69 Launcher3: Fix quickstep live tile implementation
+32dce30735 Revert "Revert "Launcher3: Introduce overview scrolling scale animation""
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+956d7944e0 Settings: Update Glide library to 4.15.1
+4465ea9a46 Settings: Extend showing Ambient instead of fully waking to single tap gesture [2/2]
+8caa4a14aa Enable copying content for IMEI2
+02b5012782 Properly set Wi-Fi Privacy spinner initial state
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+cab54ab0a7 Increase 5 GHz network signal tolerance
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+b696a9fc repopick: Don't ignore change status for query mode (-Q)
+
+

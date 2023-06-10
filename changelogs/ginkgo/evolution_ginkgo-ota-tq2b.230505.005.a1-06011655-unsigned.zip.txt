@@ -1,0 +1,71 @@
+This is Android 13 with May 2023 security patches
+
+Notes:
+==============================
+Micam is included
+Launcher3 aka EvolutionX Launcher is Present
+
+Device changes:
+==============================
+None
+------------------------------
+
+ROM changes:
+==============================
+6/1
+PixelPropsUtils: Add Gameprops for Battlegrounds Mobile India (BGMI)
+SystemUI: Improve QS notification expansion animation
+
+5/31
+CAMX: CHI: Added support for handling jpeg debug data
+Camera: Fix size list parceling
+Camera: Ignore torch status update for aux or composite camera
+Camera: Support exposing aux camera to apps
+camera2 vndk: Improve error handling
+CameraManager: Fixup exposing aux camera to apps
+CameraManager: Handle NPE with ActivityThread.currentOpPackageName()
+Changing max SampleRate limits for raw audio decoder
+Import Xiaomi Image Tags definitions
+Native: Camera: Import Release Slot Xiaomi Changes
+Native: IPCThreadState: Import Xiaomi Modifications
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+cameraserver: Let multiple cameras opened by stock camera application
+gms: Add lynx to whitelist
+gms: Update GoogleCamera
+gms: Move DeviceIntelligenceNetworkPrebuilt to PRESIGNED
+qcom: Drop untrusted app policies
+sepolicy: Introduce rw_dir_file()/create_dir_file() macros
+
+5/30
+Add null pointer check to avoid system crash
+Settings: Don't allow divider for AOSP DT2W
+Settings: Make Ambient Display toggle show on single tap sensor
+Settings: Use lottie for AOSP DT2W
+SystemUI: Doze: Add config to check proximity on pickup events
+SystemUI: Doze: Add config to check proximity on single tap
+SystemUI: Prevent edge lightning from pulsing outside keyguard/doze
+hwui: Optimize for performance and memory usage
+themes: Configure font spacing for more clock fonts
+
+5/29
+ApplicationPackageManager: Extend freeform window feature to all apps
+ApplicationPackageManager: Remove p21 features from featuresPixel
+Pre-grant non-system preloaded apps
+core: block 2021/22 pixel features to ASI and pixel launcher
+
+5/28
+AttestationHooks: Allow spoofing device model for Netflix
+Enable copying content for IMEI2
+Evolver: add acun and bang brightness slider
+Fix NullPointerException in GestureDetector
+Increase 5 GHz network signal tolerance
+Launcher3: Fix quickstep live tile implementation
+Launcher3: Properly end recents animation views
+Launcher3: Prevent NPE when using custom themed icons
+Properly set Wi-Fi Privacy spinner initial state
+Settings: Extend showing Ambient instead of fully waking to single tap gesture
+Settings: Update Glide library to 4.15.1
+SystemUI: Stop using marquee on qs tiles label
+base: Update mock LinearmotorVibratorService
+fixup! inputflinger: add absolute mouse input support
+hwui: Thread-safety and null pointer dereference fixups

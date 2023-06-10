@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Copyright © 2019 Maestro Creativescape
+# Copyright © 2023 Akito Mizukito (Haruka Aita)
 
 ADMINS="@RealAkito @Stallix @Anierin_Bliss"
 COMMIT_AUTHOR="$(git log -1 --format='%an <%ae>')"
@@ -19,7 +20,10 @@ if [ -n "$PULL_REQUEST_NUMBER" ]; then
 else
     git checkout master  > /dev/null
     git pull origin master  > /dev/null
-    sendTG "<b>CI is building...</b> %0A<b>Head:</b> <a href='https://github.com/Evolution-X-Devices/official_devices/commit/${COMMIT_HASH}'>${COMMIT_SMALL_HASH}</a>"
+    # Prevent announcing on CI commit itself
+    if [[ ! "$COMMIT_MESSAGE" =~ "[EvolutionX-CI]" ]]; then
+        sendTG "<b>CI is building...</b> %0A<b>Head:</b> <a href='https://github.com/Evolution-X-Devices/official_devices/commit/${COMMIT_HASH}'>${COMMIT_SMALL_HASH}</a>"
+    fi
 fi
 
 node json_tester.js

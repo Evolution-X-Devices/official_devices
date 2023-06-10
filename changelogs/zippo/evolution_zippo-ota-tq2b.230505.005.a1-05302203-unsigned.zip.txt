@@ -1,0 +1,33 @@
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.316
+
+**Evolution X Update**
+
+- Update to 7.9.2 (Pancit)
+- fixup! SystemUI: Adjust qqs top margin dimension
+- Launcher3: recents: Disable lens perf if package is not installed
+- Launcher3: Allow to control parallax effect and center wallpaper
+- Launcher3: Add customization to set hotseat background opacity
+- SystemUI: Increase QS brightness slider margins
+- Settings: Allow showing Ambient instead of fully waking
+- Settings: Allow setting wake for notification separately from doze
+- Remove previous Ambient on wake gesture impls
+- fixup! Configurable 0, 90, 180 and 270 degree rotation
+- SystemUI: Update reticker specs to latest OneUI brief pop up style
+- Implement firewall status bar indicator
+- Settings: Add support for allowing/disallowing apps on restricted networks
+- Settings: Add support for allowing/disallowing apps on cellular, vpn and wifi networks
+- Evolver: Fix Media notification artwork fade and blur filter options
+- Allow provisioning of multiple work profiles
+- hwui: Introduce optimized glass blur effect
+- Launcher3: recents: Disable shake to clear all by default
+- Launcher3: Fix smartspace visibility on higher grids
+- Launcher3: Expose force monochrome themed icon flag as a user preference
+- Increase 5 GHz network signal tolerance
+- Evolver: add acun and bang brightness slider
+- AttestationHooks: Allow spoofing device model for Netflix
+- ApplicationPackageManager: Extend freeform window feature to all apps
+- themes: Configure font spacing for more clock fonts
