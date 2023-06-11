@@ -1,0 +1,146 @@
+=======================
+     2023/06/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+461e3066 AttestationHooks: Un-spoof GMS while adding google account
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+c66a82c overlay: Switch to AttestationHooks for spoofing
+
+
+=======================
+     2023/06/09
+=======================
+
+
+=======================
+     2023/06/08
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+8d7ea24 New Crowdin updates (#226-#481)
+
+
+=======================
+     2023/06/07
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/commits/refs/heads/tiramisu
+
+b923f62 GCamGOPrebuilt: Add GCamGOPrebuilt-V3_8
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+739f751 New Crowdin updates (#322)
+
+
+=======================
+     2023/06/06
+=======================
+
+
+=======================
+     2023/06/05
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+9654d7d Launcher3: Update AppLock API and integrate hidden apps
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+377f5fa SystemUIGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/06/04
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-20.0
+
+2705439 common: Add QTI vpp 1.1-1.4 to prebuilt HIDL interfaces
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+00ac9b1 Aperture: Align versions of all Kotlin components
+
+* Repository: https://github.com/Evolution-X/packages_apps_ParallelSpace/commits/refs/heads/tiramisu
+
+c4b4d54 Revert "Revert "DNM: Remove GMS_ENABLED flag for now""
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+208f4c9 New Crowdin updates (#25)
+
+
+=======================
+     2023/06/03
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+e828d99 manifest: Track repos for jemalloc changes
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+423518f Catching IllegalStateException while device is going to shutdown
+
+
+=======================
+     2023/06/02
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0939e91 sepolicy: Move rw_dir_file/create_dir_file macros to public
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+3c41562 common: components: Drop QCOM WFD legacy
+
+
+=======================
+     2023/06/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+ca59183 Automatic translation import
+
+
+=======================
+     2023/05/31
+=======================
+
+
+=======================
+     2023/05/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+f9b4f06 frameworks/av: Import Xiaomi Image Tags defenitions
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+7ffe701 Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+2059090 gms: Switch back to Evo X Launcher
+
+
+=======================
+     2023/05/29
+=======================
+
+
+=======================
+     2023/05/28
+=======================
+
+
