@@ -1,0 +1,63 @@
+version: Update to 7.9.3 (Bulalo)
+
+==============================
+Device changes:
+==============================
+June Security patch (QPR3)
+Shipped with Evolution-X kernel 
+Touch haptic enabled by default
+Dolby Atmos Removed
+Increase Stability & performance
+
+Note: Clean flash Mandatory.
+
+------------------------------
+ROM changes:
+==============================
+
+6/21
+DeviceConfig: Enable WallpaperEffects
+Fix NPE when store brightness and displayDevice is null
+Settings: Double tap to trigger doze
+WallpaperPicker2: Add null check for effectsController
+ThemePicker: Apply window insets to quick affordance fragment
+ThemePicker: Fix crash choosing Live Wallpapers
+ThemePicker: Update for tm-qpr3
+Toast: Solve the NPE problem in session.java
+View's mAttachInfo maybe NPE
+View: Prevent NPEs when initiating surface drag
+apn: Add Uno Mobile Italy
+device_config: fixup! and Update now playing to 3055
+fonts: Update from TQ3A.230605.012
+
+6/20
+AmbientIndicationContainer: Fix NullPointerException
+Evolver: Disable some features for A13 QPR3
+Evolver: Drop custom QS panel styles
+Launcher3: Fix Spacing of QSB
+SettingsGoogle: add battery data provider
+SettingsGoogle: Remove google faceunlock for now
+SystemUI: volume_dialog: Move to LaunchableLinearLayout
+SystemUIGoogle: Forward port Smart Space to A13 QPR3
+SystemUIGoogle: Include aosp only modules from ReferenceSystemUIModule
+SystemUIGoogle: Update qs modules for 13 QPR3
+SystemUIGoogle: update to 13 QPR3
+ThemePicker: Fix quick affordance setting padding
+
+6/19
+DozeSensors: We DO want UDFPS to trigger on screen off
+Request correct rendering type for EGL config
+Settings: Do not skip fp authentication for udfps
+Settings: Introduce Smart 5G service
+SystemUI: Add notification volume to VolumePanelDialog
+SystemUI: Apply separate notification volume control flag to VolumePanelDialog
+SystemUI: Enable font scaling QS tile
+SystemUI: Flags: Enable media explicit indicator
+SystemUI: Update NFC icon
+
+6/14
+Partially merge June 2023 security patches (13.0_r52)
+PixelPropsUtils: Update fingerprints to June 2023 release
+Settings: LineageFastCharge: Guard it via overlay
+gms: Update
+overlays: Update from TQ3A.230605.012
