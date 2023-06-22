@@ -1,0 +1,187 @@
+This is Android 13 with June 2023 security patches
+
+Notes:
+==============================
+Micam is included
+Dolby Atmos is included
+Launcher3 aka EvolutionX Launcher is Present
+Clean Flash from previous builds are only recommended and tested since this is another major Android Quaterly Platform Release.
+
+Device changes:
+==============================
+Brought back Combined qs header (expandable qs clock) since pulldown animation lags are allegedly fixed with A13 QPR3
+------------------------------
+
+ROM changes:
+==============================
+6/22
+
+Merged June 2023 (Android 13 QPR3) Security Patches!
+
+KeyguardStatusBarView: Clean up cruft
+
+QS: Open Mobile Data panel on LongClick
+
+SettingsGoogle: Re-enable AOSP Battery percentage toggle for now
+
+SystemUI: Align keyguard carrier text with status bar
+
+SystemUI: Make clock & battery clickable again
+
+SystemUI: Re-enable stock clock tuner toggle
+
+config: Move IAntiFlicker to fqname
+
+6/21
+
+DeviceConfig: Enable WallpaperEffects
+
+Fix NPE when store brightness and displayDevice is null
+
+Settings: Double tap to trigger doze
+
+WallpaperPicker2: Add null check for effectsController
+
+ThemePicker: Apply window insets to quick affordance fragment
+
+ThemePicker: Fix crash choosing Live Wallpapers
+
+ThemePicker: Update for tm-qpr3
+
+Toast: Solve the NPE problem in session.java
+
+View's mAttachInfo maybe NPE
+
+View: Prevent NPEs when initiating surface drag
+
+apn: Add Uno Mobile Italy
+
+device_config: fixup! and Update now playing to 3055
+
+fonts: Update from TQ3A.230605.012
+
+
+6/20
+
+AmbientIndicationContainer: Fix NullPointerException
+
+Evolver: Disable some features for A13 QPR3
+
+Evolver: Drop custom QS panel styles
+
+Launcher3: Fix Spacing of QSB
+
+SettingsGoogle: add battery data provider
+
+SettingsGoogle: Remove google faceunlock for now
+
+SystemUI: volume_dialog: Move to LaunchableLinearLayout
+
+SystemUIGoogle: Forward port Smart Space to A13 QPR3
+
+SystemUIGoogle: Include aosp only modules from ReferenceSystemUIModule
+
+SystemUIGoogle: Update qs modules for 13 QPR3
+
+SystemUIGoogle: update to 13 QPR3
+
+ThemePicker: Fix quick affordance setting padding
+
+
+6/19
+
+DozeSensors: We DO want UDFPS to trigger on screen off
+
+Request correct rendering type for EGL config
+
+Settings: Do not skip fp authentication for udfps
+
+Settings: Introduce Smart 5G service
+
+SystemUI: Add notification volume to VolumePanelDialog
+
+SystemUI: Apply separate notification volume control flag to VolumePanelDialog
+
+SystemUI: Enable font scaling QS tile
+
+SystemUI: Flags: Enable media explicit indicator
+
+SystemUI: Update NFC icon
+
+
+6/14
+
+Partially merge June 2023 security patches (13.0_r52)
+
+PixelPropsUtils: Update fingerprints to June 2023 release
+
+Settings: LineageFastCharge: Guard it via overlay
+
+gms: Update
+
+overlays: Update from TQ3A.230605.012
+
+version: Update to 7.9.3 (Bulalo)
+
+
+6/13
+
+Add BubbleMetadata detection to block FSI
+
+DeviceConfig: Enable Safety protection
+
+Fix issues with setRemotePlaybackInfo
+
+Fix resource leak caused by attributes variable as TypedArray type
+
+HWUI: reset buffer state after MakeCurrent
+
+HWUI: reset buffer state only for ES3 context
+
+Launcher3: Expose transient taskbar settings
+
+Launcher3: Sync blur radius with frameworks
+
+Prevent RemoteViews crashing SystemUi
+
+Remove Activity if it enters PiP without window
+
+Settings: Hide private DNS settings UI unless admin
+
+SettingsLib: Fix a NPE caused by null progress when binding views
+
+SystemUI: Always build in debug feature flags library
+
+SystemUI: Conditionally add debug Compile.java
+
+SystemUI: Make max system status bar icons configurable
+
+SystemUI: Reduce max status icons if right status bar logo is enabled
+
+Use PendingIntent for media click action over lockscreen
+
+Wait for preloading images to complete before inflating notifications
+
+fixup! WindowManager: finally proper desktop mode handling
+
+libs: hwui: Allow adding null animators
+
+libs: hwui: Properly silence the opengl swap failure logspam
+
+services: Properly handle wallpaper clearing/reset
+
+
+6/12
+
+Evolver: Live Volume Steps: Enable additional steps options
+
+Settings: FaceEnroll: Fix circle camera view background color
+
+Launcher3: res: strings: Allow translate app_info_source_unknown
+
+
+6/10
+
+AttestationHooks: Un-spoof GMS while adding google account
+
+overlay: Switch to AttestationHooks for spoofing
