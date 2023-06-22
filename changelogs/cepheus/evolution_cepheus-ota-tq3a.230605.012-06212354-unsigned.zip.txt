@@ -1,0 +1,39 @@
+- Install latest firmware if you're using an older one
+- Clean install required coming from EvolutionX A12 or a different ROM
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Build some camera blobs from source
+- Switch back to Aperture as stock camera replacing GCam
+- Upstream kernel to Linux v4.14.318
+
+**Evolution X Update**
+
+- Update to 7.9.3 (Bulalo)
+- Merge June 2023 security patches (13.0_r52)
+- PixelPropsUtils: Update fingerprints to June 2023 release
+- SystemUIGoogle: update to 13 QPR3
+- SystemUIGoogle: Update qs modules for 13 QPR3
+- SystemUIGoogle: Forward port Smart Space to A13 QPR3
+- Evolver: disable QS panel styles and some clock mods for smoothness
+- SystemUI: Enable font scaling QS tile
+- Evolver: Bring back Parallel space
+- Launcher3: Implement hidden & protected apps
+- Evolver: Add brightness slider themes
+- Settings: Add the option to spoof the storage encryption status
+- Settings: Add the option to hide ADB and developer settings enabled status
+- themes: Import more signal & wifi icons
+- themes: Add more Icon Shapes from Iconify
+- SystemUI: Introduce preferred network tile
+- SystemUI: Refactor reticker feature
+- Remove poweroff-alarm service
+- Evolver: Disable some notification and media control features
+- AttestationHooks: Un-spoof GMS while adding google account
+- Evolver: Live Volume Steps: Enable additional steps options
+- Launcher3: Sync blur radius with frameworks
+- libs: hwui: Properly silence the opengl swap failure logspam
+- fixup! WindowManager: finally proper desktop mode handling
+- Settings: Hide private DNS settings UI unless admin
+- PixelPropsUtils: Add Gameprops for Battlegrounds Mobile India (BGMI)
