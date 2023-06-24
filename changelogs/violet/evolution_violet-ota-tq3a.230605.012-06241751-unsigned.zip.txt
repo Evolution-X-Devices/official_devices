@@ -1,0 +1,62 @@
+version: Update to 7.9.3 (Bulalo)
+
+==============================
+Device changes:
+==============================
+overlay: Do not set default QR component
+Kernel Upstream to 4.14.319 
+
+------------------------------
+ROM changes:
+==============================
+
+6/24
+Disable quick QS pull down by default
+Evolver: Bring back Battery bar
+Evolver: Bring back Battery styles
+Evolver: Bring back Clock customization
+Evolver: Bring back OOS style notification clear all button
+Evolver: Drop Game spoof toggle and spoof games by default
+PixelPropsUtils: Combine with AttestationHooks into a single file
+ProcessList: Catch Security exception when starting a frozen package
+Settings: Remove hide arrow for back gesture toggle
+Status bar notification: Use Material icons for missed calls
+SystemUI: Introduce HD & wifi calling statusbar icons (and remove VoLTE/VoWiFi impl)
+SystemUI: Refresh system icons on theme change
+hwui: Remove logspam cause by early animation handle check
+
+6/23
+Bring back Refresh rate QS tile
+CachedBluetoothDevice: Add missing LeAudioProfile
+CachedBluetoothDevice: Fix detecting connect fail
+Do not mark dun APN types as read only
+Make Lockscreen clock format and clock color settings work again
+PixelPropsUtils: Add emojiwalls and cinematiceffects pkgs
+PixelPropsUtils: Enable new Velvet Weather UI
+Remove Lockscreen charging info
+Settings: Bring back missing Quick Unlock toggle
+SystemUI: Apply surface color to brightness icons
+SystemUI: Follow status bar battery style in QS
+SystemUI: Improve statusbar mobile type icons padding
+SystemUI: Redraw display cutout on overlay changes
+SystemUI: Screenshot: Avoid NPE while getting app label
+SystemUI: Tuner: Only show tuner warning on debuggable builds
+Update notchbarkiller overlays
+display: Don't reset brightness adjustment on clearUserDataPoints()
+soong: Add aapt_version_code default
+themes: fix spacing for ClockFontCafe24Decoshadow
+
+6/22
+KeyguardStatusBarView: Clean up cruft
+QS: Open Mobile Data panel on LongClick
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Check if primitive vibrations are supported in quick affordances
+SystemUI: Don't require AOD for screen off UDFPS
+SystemUI: Enable charger plug-in statusbar chip
+SystemUI: Enable new back gesture affordance
+SystemUI: Make clock & battery clickable again
+SystemUI: Re-enable stock clock tuner toggle
+config: Move IAntiFlicker to fqname
+fixup! SystemUI: Enable customizable lock screen quick affordances
+overlay: Set screenshot work profile files app to DocumentsUI
+udfps: Only set dim behind if framework dimming is actually enabled
