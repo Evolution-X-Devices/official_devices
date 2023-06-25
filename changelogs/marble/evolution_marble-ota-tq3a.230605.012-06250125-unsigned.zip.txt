@@ -1,0 +1,32 @@
+This is Android 13 with June 2023 (r52) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+
+Device changes:
+==============================
+Build default health HIDL recovery impl
+Declare MultiGen LRU & USAP Pool Props
+Enable sustainedPerformanceMode support
+Enable Wide Color Gamut support
+CarrierConfig: Enable editable_enhanced_4g_lte_bool globally
+Remove bdroid_buildcfg.h
+Use FUSE passthrough by default
+Use the ?= operator so BT properties can be overridden
+libinit: Set default USB and Bluetooth name
+overlay: configure SQLite to operate in MEMORY mode 
+overlay: Enable haptic text cursor
+overlay: Set preferred refresh rate on keyguard to 60
+rro_overlays: Make adaptive brightness more stable
+rro_overlays: Set default hotspot ssid for different variant
+------------------------------
+
+ROM changes:
+==============================
+6/25
+Evolver: Bring back Changelog preference
+Evolver: Bring back Custom logo customization
+SettingsLib: Use WHITE color instead MAGENTA for Added Battery Drawables
+SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+overlay: Enable sidefps performant auth by default
