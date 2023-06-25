@@ -1,0 +1,132 @@
+version: Update to 7.9.3 (Bulalo)
+
+==============================
+Device changes:
+==============================
+- vmscan: Reduce swapping aggressiveness to 10
+- Disable client composition cache
+- Tweaks for better RAM management
+- Set Zram and vm space to 200MB
+- overlay: Speed up animations
+- enable ro.hwui.render_ahead
+* Set it to 10 frames 
+
+------------------------------
+ROM changes:
+==============================
+
+=======================
+     2023/06/25
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+618e295 common: Define HALS condition for SDM660-4.19
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+db233317822c SettingsLib: Use WHITE color instead MAGENTA for Battery Drawables
+99d95fb63723 SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+a5c965fa043f fwb: Status bar logos - Linux [1/2]
+3e12e3812356 SystemUI: Import more status bar logo styles [1/2]
+b3ce9e0e7563 [SQUASH] base: Custom logo customizations [1/2]
+f802eb706eb0 Revert "Allow to hide arrow for back gesture [1/2]"
+2e575b717c89 SystemUI: Introduce OOS style notification clear all button [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+3c884f0 Evolver: Import changes to Clock implementation
+e7d7779 Evolver: Disable some features for A13 QPR3
+910cf6e New Crowdin updates (#226-#485)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+7f04bbc60a New Crowdin updates (#49)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+fdef18b6f7 Settings: Declare ChangelogActivity
+fc40a0ea86 New translations evolution_strings.xml (Italian)
+a06b40d6f5 Revert "Settings: Allow to hide arrow for back gesture [2/2]"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+dfa627a7 overlay: Enable sidefps performant auth by default
+
+
+=======================
+     2023/06/24
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9572ad843f42 Status bar notification: Use Material icons for missed calls
+18e7b351cc14 PixelPropsUtils: Combine with AttestationHooks into a single file
+7f4ecc1c7b78 hwui: Remove logspam cause by early animation handle check
+5416d8f4b575 ProcessList: Catch Security exception when starting a frozen package
+2c36a9229982 Make center clock follow paddingTop
+d09279e647e9 Fix issues with center clock
+35c811bfa20a SystemUI: Retune clock paddings
+91cb3d29fe59 Clock: Fix issues with hidden mode
+08775c907be4 Use position tunable to hide clock as well
+053b0a9f4ae8 Add option to auto hide status-bar clock
+a1360653df81 Statusbar clock customizations
+172c352eac70 Add separate tunable for clock seconds
+a70699999b30 frameworks: Add support for clock auto-hiding
+33cd75bd80e4 SystemUI: Add tunables for clock AM/PM style
+79c5caf7965c SystemUI: Add tunables for clock position
+0b17afa1c216 Disable quick QS pull down by default
+0f309a44734b SystemUI: Refresh system icons on theme change
+509490792e45 Battery Styles: Add BatteryBar [1/2]
+51d9174b6416 BatteryMeterView: Fix NPE that occurs when onDensityOrFontScaleChanged() is called.
+8f169048ed2a Battery bolt: Preserve unicode bolt color
+b88b7b9e29bc Battery Styles: Added 9 more battery styles [1/2]
+ead485e24dbf Battery Styles: Add back big dotted and big circle battery indicator
+0483a00f166d Battery: make fill path rounded
+4cae3bc0a016 Battery Styles: Hide plus when showing battery percentage inside icon
+ab8a00a185db Battery Styles: Fix percentage view on landscape battery
+32b047f8d219 BatteryMeterView: Move null check to the beginning of the method.
+4d6c0ba40fd5 Battery Styles: Allow setting percent view on left [1/2]
+62f15222c6c9 Battery Styles: Fix landscape battery size
+b0a44ba9ea6e Battery Styles: Introduce Battery Landscape [1/2]
+8e8d5da72aaa Battery Styles: More clean up
+62d0fbd6d008 Battery Styles: Fix signal icon padding with Hidden style
+c64fb5dfa5d7 Battery Styles: Show a bolt ⚡ when charging
+fa9b0bac8b3a Battery Styles: Introduce full circle battery style
+2697795f6d35 Battery Styles: Readd dotted Circle to Kotlin impl
+4358ff2d4968 Battery Styles: Clean up for more customizations
+0a77133866d2 SystemUI: Bring back good ol' circle battery style
+c4bc925c8cbb SystemUI: Introduce HD & wifi calling statusbar icons
+5eddaaeca8cb [SQUASH] SystemUI: Remove dynamic VoLTE & VoWiFi icons
+b52897c9023d PixelPropsUtils: Enable new Velvet Weather UI
+8e48491afb99 PixelPropsUtils: Add emojiwalls and cinematiceffects pkgs
+3150c2628e38 Update notchbarkiller overlays
+a620b08fbc5f SystemUI: Apply surface color to brightness icons
+0634e618f715 SystemUI: Screenshot: Avoid NPE while getting app label
+73e9042487ea SystemUI: Improve statusbar mobile type icons padding
+14af15b9a9ac CachedBluetoothDevice: Add missing LeAudioProfile
+63a78c701007 CachedBluetoothDevice: Fix detecting connect fail
+106d360181c3 SystemUI: Follow status bar battery style in QS
+93b2efb3098d RefreshRateTile: Improve logic
+1a7e13f49e7a base: added refresh rate tile
+8d8e6416843b SystemUI: Lockscreen clock color settings [1/2]
+f0bf1e96b8bb SystemUI: Lockscreen clock format settings [1/2]
+c55099cffcd9 display: Don't reset brightness adjustment on clearUserDataPoints()
+d89ac1affbc3 Do not mark dun APN types as read only
+8f4babc30886 SystemUI: Tuner: Only show tuner warning on debuggable builds
+3f39a8edbbea SystemUI: Redraw display cutout on overlay changes
+eb395cf5de28 SystemUI: Don't require AOD for screen off UDFPS
+fc4ffbc1dc8b udfps: Only set dim behind if framework dimming is actually enabled
+b12a8a319e87 SystemUI: Enable charger plug-in statusbar chip
+b0fc82666a2e SystemUI: Check if primitive vibrations are supported in quick affordances
+30d7f9111fd4 fixup! SystemUI: Enable customizable lock screen quick affordances
+0224a0458cfa SystemUI: Enable new back gesture affordance
+599b7d327196 SystemUI: Make max system status bar icons configurable
+5b80f21b2167 KeyguardStatusBarView: Clean up cruft
+b3fa811df443 SystemUI: Align keyguard carrier text with status bar
+04fc2a95ab36 [SQUASH] Remove not properly features
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+c72c56c Evolver: Bring back changelog preference
+39c506f Evolver: Update team information

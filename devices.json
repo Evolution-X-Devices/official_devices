@@ -946,6 +946,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "onclite/onc",
+      "name": "Redmi 7/Y3",
+      "supported_versions": [
+         {
+            "maintainer_name": "Noviceyash",
+            "maintainer_url": "https://forum.xda-developers.com/m/noviceyash.12494059/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/13-rom-official-evolution-x-7-9-3-onclite-25-06-2023.4599473/",
+            "device_group": "EvolutionXOnclite"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "ginkgo",
       "name": "Redmi Note 8/8T",
       "supported_versions": [
