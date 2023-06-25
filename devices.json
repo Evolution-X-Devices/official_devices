@@ -871,6 +871,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "onclite",
+      "name": "Redmi 7 / Redmi Y3",
+      "supported_versions": [
+         {
+            "maintainer_name": "Noviceyash",
+            "maintainer_url": "https://forum.xda-developers.com/m/noviceyash.12494059/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/13-rom-official-evolution-x-7-9-3-onclite-25-06-2023.4599473/",
+            "device_group": "EvolutionXOnclite"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "mi439",
       "name": "Redmi 7A / Redmi 8 / Redmi 8A / Redmi 8A Dual",
       "supported_versions": [
@@ -941,21 +956,6 @@
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-violet-official-evolution-x.4586605",
             "device_group": "EvolutionXViolet"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "onclite/onc",
-      "name": "Redmi 7/Y3",
-      "supported_versions": [
-         {
-            "maintainer_name": "Noviceyash",
-            "maintainer_url": "https://forum.xda-developers.com/m/noviceyash.12494059/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/13-rom-official-evolution-x-7-9-3-onclite-25-06-2023.4599473/",
-            "device_group": "EvolutionXOnclite"
          }
       ]
    },
