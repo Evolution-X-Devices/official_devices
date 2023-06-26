@@ -1,0 +1,27 @@
+version: 7.9.3 (Bulalo)
+
+==============================
+Device changes:
+==============================
+Xcalibur kernel (KSU based)
+Remove some packages at build time 
+
+------------------------------
+ROM changes:
+==============================
+
+6/25
+Evolver: Bring back Changelog preference
+Evolver: Bring back Custom logo customization
+Evolver: Remove old style mobile data type (in favor of new HD icon implementation)
+Fix some memory leakage
+Frameworks/base: Fix potential IllegalStateException in RescueParty
+Hide data limit notification if data not active nor default
+PixelPropsUtils: Enable Game spoofing by default
+SettingsGoogle: Guard brightness slider haptic by setting
+SettingsLib: Use WHITE color instead MAGENTA for Added Battery Drawables
+StatusBarSignalPolicy: Set initialized to false on destroy
+SystemUI: Hide notification icon area if headsup is visible
+SystemUI: Make date clickable
+SystemUI: Scale mobile data type icon with font size
+SystemUIGoogle: Forcefully store Cached Estimate (fixes missing estimates in QS)
