@@ -1,0 +1,248 @@
+  
+2023-06-26
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash V14.0.3.0.TLCMIXM firmware
+4. Reboot ( Device will reboot to recovery )
+5. Format Data when asked
+
+DEVICE:
+
+  * cupid: Enable mgame mi_thermald mode
+  * cupid: rro_overlays: Redo cutout overlays
+  * cupid: Switch to HWC for brightness control
+  * cupid: Import more bluetooth overlays from MIUI
+  * cupid: reduce doze brightness
+  * cupid: Decouple interactive state from display
+  * cupid: Set doze_display_state_supported to false
+  * cupid: Disable proximity usage during doze
+  * cupid: reserve 210 Megabytes on each dynamic partition
+
+
+ROM:
+
+
+6/26
+
+IconPack*: Remove ThemePicker overlays
+
+Settings: Hide back gesture options after enabling new back affordance
+
+Settings: Set default animation scales back to 1
+
+SystemUI: Enable Lock screen long-press to open wallpaper picker
+
+SystemUI: Enable new back affordance
+
+SystemUI: SideFpsEventHandler: Don't crash without FingerprintManager
+
+SystemUI: Prevent NPE when checking for powerbutton FPS
+
+WindowProcessController: Fix potential memory leak
+
+[Bugfix]check whitelisted packages exclude nonsystem app
+
+config: Fabricate shipment of Aperture CAM Optional
+
+
+6/25
+
+Evolver: Bring back Changelog preference
+
+Evolver: Bring back Custom logo customization
+
+Evolver: Remove old style mobile data type (in favor of new HD icon implementation)
+
+Fix some memory leakage
+
+Frameworks/base: Fix potential IllegalStateException in RescueParty
+
+Hide data limit notification if data not active nor default
+
+PixelPropsUtils: Enable Game spoofing by default
+
+SettingsGoogle: Guard brightness slider haptic by setting
+
+SettingsLib: Use WHITE color instead MAGENTA for Added Battery Drawables
+
+StatusBarSignalPolicy: Set initialized to false on destroy
+
+SystemUI: Hide notification icon area if headsup is visible
+
+SystemUI: Make date clickable
+
+SystemUI: Scale mobile data type icon with font size
+
+SystemUIGoogle: Forcefully store Cached Estimate (fixes missing estimates in QS)
+
+
+6/24
+
+Disable quick QS pull down by default
+
+Evolver: Bring back Battery bar
+
+Evolver: Bring back Battery styles
+
+Evolver: Bring back Clock customization
+
+Evolver: Drop Game spoof toggle and spoof games by default
+
+ProcessList: Catch Security exception when starting a frozen package
+
+Status bar notification: Use Material icons for missed calls
+
+SystemUI: Introduce HD & wifi calling statusbar icons (and remove VoLTE/VoWiFi impl)
+
+SystemUI: Refresh system icons on theme change
+
+hwui: Remove logspam cause by early animation handle check
+
+
+6/23
+
+Bring back Refresh rate QS tile
+
+CachedBluetoothDevice: Add missing LeAudioProfile
+
+CachedBluetoothDevice: Fix detecting connect fail
+
+Do not mark dun APN types as read only
+
+Make Lockscreen clock format and clock color settings work again
+
+PixelPropsUtils: Add emojiwalls and cinematiceffects pkgs
+
+PixelPropsUtils: Enable new Velvet Weather UI
+
+Remove Lockscreen charging info
+
+Settings: Bring back missing Quick Unlock toggle
+
+SystemUI: Apply surface color to brightness icons
+
+SystemUI: Follow status bar battery style in QS
+
+SystemUI: Improve statusbar mobile type icons padding
+
+SystemUI: Redraw display cutout on overlay changes
+
+SystemUI: Screenshot: Avoid NPE while getting app label
+
+SystemUI: Tuner: Only show tuner warning on debuggable builds
+
+Update notchbarkiller overlays
+
+display: Don't reset brightness adjustment on clearUserDataPoints()
+
+soong: Add aapt_version_code default
+
+themes: fix spacing for ClockFontCafe24Decoshadow
+
+
+6/22
+
+KeyguardStatusBarView: Clean up cruft
+
+QS: Open Mobile Data panel on LongClick
+
+SystemUI: Align keyguard carrier text with status bar
+
+SystemUI: Check if primitive vibrations are supported in quick affordances
+
+SystemUI: Don't require AOD for screen off UDFPS
+
+SystemUI: Enable charger plug-in statusbar chip
+
+SystemUI: Enable new back gesture affordance
+
+SystemUI: Make clock & battery clickable again
+
+SystemUI: Re-enable stock clock tuner toggle
+
+config: Move IAntiFlicker to fqname
+
+fixup! SystemUI: Enable customizable lock screen quick affordances
+
+overlay: Set screenshot work profile files app to DocumentsUI
+
+udfps: Only set dim behind if framework dimming is actually enabled
+
+
+6/21
+
+DeviceConfig: Enable WallpaperEffects
+
+Fix NPE when store brightness and displayDevice is null
+
+WallpaperPicker2: Add null check for effectsController
+
+ThemePicker: Apply window insets to quick affordance fragment
+
+ThemePicker: Fix crash choosing Live Wallpapers
+
+ThemePicker: Update for tm-qpr3
+
+Toast: Solve the NPE problem in session.java
+
+View's mAttachInfo maybe NPE
+
+View: Prevent NPEs when initiating surface drag
+
+apn: Add Uno Mobile Italy
+
+device_config: fixup! and Update now playing to 3055
+
+fonts: Update from TQ3A.230605.012
+
+
+6/20
+
+AmbientIndicationContainer: Fix NullPointerException
+
+Evolver: Disable some features for A13 QPR3
+
+Evolver: Drop custom QS panel styles
+
+Launcher3: Fix Spacing of QSB
+
+SettingsGoogle: add battery data provider
+
+SettingsGoogle: Remove google faceunlock for now
+
+SystemUI: volume_dialog: Move to LaunchableLinearLayout
+
+SystemUIGoogle: Forward port Smart Space to A13 QPR3
+
+SystemUIGoogle: Include aosp only modules from ReferenceSystemUIModule
+
+SystemUIGoogle: Update qs modules for 13 QPR3
+
+SystemUIGoogle: update to 13 QPR3
+
+ThemePicker: Fix quick affordance setting padding
+
+
+6/19
+
+DozeSensors: We DO want UDFPS to trigger on screen off
+
+Request correct rendering type for EGL config
+
+Settings: Do not skip fp authentication for udfps
+
+Settings: Introduce Smart 5G service
+
+SystemUI: Add notification volume to VolumePanelDialog
+
+SystemUI: Apply separate notification volume control flag to VolumePanelDialog
+
+SystemUI: Enable font scaling QS tile
+
+SystemUI: Flags: Enable media explicit indicator
+
+SystemUI: Update NFC icon
