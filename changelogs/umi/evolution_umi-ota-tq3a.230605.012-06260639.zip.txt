@@ -1,0 +1,17 @@
+  
+2023-06-26
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to 14.0.3.0.TJAEUXM (Global)
+- Use correct recovery
+
+DEVICE:
+
+  * sm8250-common: Update to MIUI V14.0.X.0.TJAEUXM (Global)
+
+
+ROM:
+
+  * Merge latest EvolutionX source - too many to list ;)
