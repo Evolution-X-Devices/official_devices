@@ -1,0 +1,38 @@
+- CLEAN INSTALL IS REQUIRED COMING FROM EvolutionX 7.9.2 or earlier version or a different ROM
+- Install latest firmware if you're using an older one
+- Dirty flash from previous build is fine
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.319
+
+**Evolution X Update**
+
+- Evolver: Bring back Clock customization
+- Evolver: Bring back Battery styles
+- Evolver: Bring back Battery bar
+- Evolver: Bring back Custom logo customization
+- Make Lockscreen clock format and clock color settings work again
+- Settings: Add back switch to unlink ringtone and notifications volume
+- Settings: Remove Hide ADB and developer setting enable status (which made some apps to crash)
+- Launcher3: Set default recents background opacity to 100
+- Launcher3: Open running services activity when clicking meminfo view
+- Launcher3: Add background chip for memory info view
+- Launcher3: Hotseat: Fix normal QSB width
+- Evolver: Bring back game spoof toggle
+- SystemUI: Improve statusbar mobile type icons padding
+- SystemUI: Follow status bar battery style in QS
+- Remove Lockscreen charging info
+- SystemUI: Introduce HD & wifi calling statusbar icons (and remove VoLTE/VoWiFi impl)
+- Evolver: Remove old style mobile data type (in favor of new HD icon implementation)
+- Evolver: Drop Game spoof toggle and spoof games by default
+- SystemUI: Make date clickable
+- Evolver: Bring back Changelog preference
+- Settings: Set default animation scales back to 1
+- SystemUI: Block few clock customizations in QS header
+- SystemUI: SoundTile: Open volume panel on long press
+- Remove Transistent task mode setting
+- Remove Proximity check on wake toggle
+- Remove Pointer acceleration setting
+- Remove Desktop Mode
