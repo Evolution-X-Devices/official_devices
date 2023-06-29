@@ -1,0 +1,111 @@
+  
+2023-06-29
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash V14.0.3.0.TLCMIXM firmware
+4. Reboot ( Device will reboot to recovery )
+5. Format Data when asked
+
+DEVICE:
+
+  * cupid: overlay: Add rounded mask configs
+  * cupid: introduce battery-friendly-pocketmode
+  * cupid: Implement vendor.lineage.powershare@1.0 HAL
+  * cupid: overlay: drop pocket mode
+
+ROM:
+
+
+6/29
+
+Add absent sim info to locked screen text
+
+Add handling of permanent disabled sims
+
+GamesPropsUtils: Fix crashing when using Game spoof
+
+GamesPropsUtils: Switch from POCO F4 to POCO F5
+
+GamesPropsUtils: Switch Mobile Legends spoof to POCO F5
+
+KeyguardBouncer: Don't delay showing if face auth running
+
+PixelPropsUtils: Do not spoof restore, pixelmigrate and setupwizard
+
+Settings: Fix setting device name based on market name
+
+ShadeHeaderController: Add date, battery & clock click actions
+
+SystemUI: ClockController: Prevent NPE when clock is hidden
+
+core: Enable wake-and-unlock by default if power button is fps
+
+fixup! Hide SFPS wakeup setting when it's not supported
+
+fixup! Keyguard: Allow user configurable fingerprint wake-and-unlock
+
+gms: Update AiAi
+
+
+6/28
+
+Evolver: Bring back game spoof toggle
+
+Remove Desktop Mode
+
+Remove Pocket Mode
+
+Remove Pointer acceleration setting
+
+Remove Proximity check on wake toggle
+
+Remove Transistent task mode setting
+
+
+6/27
+
+GamesPropsUtils: Spoof BlackShark 4 for Arena Breakout
+
+Launcher3: Add background chip for memory info view
+
+Launcher3: Hotseat: Fix normal QSB width
+
+Launcher3: Open running services activity when clicking meminfo view
+
+Launcher3: Set default recents background opacity to 100
+
+Launcher3: Update recents view meminfo string
+
+Launcher3: Use regular body font for app labels
+
+Launcher3: bugfix: hide "all apps" view when search starts
+
+PixelPropsUtils: Separate Game spoofing into GamesPropsUtils
+
+Settings: Add back switch to unlink ringtone and notifications volume
+
+Settings: Fix resource leakage caused by cursor
+
+Settings: Remove Hide ADB and developer setting enable status
+
+SystemUI: SoundTile: Open volume panel on long press
+
+StatusBarSignalPolicy: Set initialized to false on destroy
+
+SystemUI: Block few clock customizations in QS header
+
+SystemUI: Clean up battery callback in CollapsedStatusBar
+
+SystemUI: Switch to TunerService for CollapsedStatusBar
+
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+
+SystemUIGoogle: Bring back WallpaperNotifier
+
+sepolicy: Label Dolby Sepolicy labels
+
+
