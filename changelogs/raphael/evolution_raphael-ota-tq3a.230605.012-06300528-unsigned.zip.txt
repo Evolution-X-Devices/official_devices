@@ -1,0 +1,46 @@
+This is Android 13 with June 2023 (r52) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+- Leica Camera will be brought back in the future.
+- Double tap to wake will be fixed in the future. Use Lift to wake for now.
+
+Device changes:
+==============================
+parts: Drop proximity check
+------------------------------
+
+ROM changes:
+==============================
+6/30
+Evolver: Bring back lockscreen unlock ripple effect toggle
+fixup! Settings: Show single-touch wakeup setting when config_performantAuthDefault is true
+gms: Add TARGET_IS_PIXEL_6 for DevicePersonalizationPrebuiltPixel2021
+
+6/29
+Add absent sim info to locked screen text
+Add handling of permanent disabled sims
+GamesPropsUtils: Fix crashing when using Game spoof
+GamesPropsUtils: Switch from POCO F4 to POCO F5
+GamesPropsUtils: Switch Mobile Legends spoof to POCO F5
+KeyguardBouncer: Don't delay showing if face auth running
+PixelPropsUtils: Do not spoof restore, pixelmigrate and setupwizard
+Settings: Fix setting device name based on market name
+ShadeHeaderController: Add date, battery & clock click actions
+SystemUI: ClockController: Prevent NPE when clock is hidden
+core: Enable wake-and-unlock by default if power button is fps
+fixup! Hide SFPS wakeup setting when it's not supported
+fixup! Keyguard: Allow user configurable fingerprint wake-and-unlock
+gms: Update AiAi
+
+6/28
+Evolver: Bring back game spoof toggle
+Remove Desktop Mode
+Remove Pocket Mode
+Remove Pointer acceleration setting
+Remove Proximity check on wake toggle
+Remove Transistent task mode setting
