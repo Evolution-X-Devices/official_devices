@@ -1,0 +1,59 @@
+  
+2023-07-01
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash V14.0.3.0.TLCMIXM firmware
+4. Reboot ( Device will reboot to recovery )
+5. Format Data when asked
+
+DEVICE:
+
+  * cupid: update carrier config from marble
+  * cupid: CarrierConfig: Enable editable_enhanced_4g_lte_bool globally
+  * cupid: Disable volte HD notification
+  * cupid: Build iFAA service
+  * cupid: properties: Use the ?= operator so BT properties can be overridden
+  * cupid: overlay: enable couple udfps overlays and change statusbar clock padding
+
+ROM:
+
+7/1
+
+Add felix to Tensor Pixel list
+
+Camera: Prevent crash with prebuilt camera metadata
+
+Merge Pixel Fold June 2023 security patches (13.0_r60)
+
+version: Update to 7.9.4 (Tinola)
+
+
+6/30
+
+Evolver: Bring back lockscreen unlock ripple effect toggle
+
+Launcher3: Fix crash with transient taskbar
+
+Native: Camera: Import Release Slot Xiaomi Changes
+
+Native: IPCThreadState: Import Xiaomi Modifications
+
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+
+av: ACodec: Import support of Pcm32bit channel
+
+av: EngineBase: Import loading of Mi Configs (From Xiaomi)
+
+av: Nuplayer: Declare 24Bit Packed & 32Bit support
+
+gms: Add TARGET_IS_PIXEL_6 for DevicePersonalizationPrebuiltPixel2021
+
+libcameraservice: Import Xiaomi DistortionMapper Modifications
+
+libcameraservice: Import Xiaomi Exif Camera Modifications
+
+libcameraservice: Import Xiaomi Modifications for vendor tags
