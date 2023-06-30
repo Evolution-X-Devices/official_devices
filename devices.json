@@ -256,6 +256,66 @@
    },
    {
       "brand": "OnePlus",
+      "codename": "instantnoodle",
+      "name": "OnePlus 8",
+      "supported_versions": [
+         {
+            "maintainer_name": "Manidweep",
+            "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
+            "device_group": "EvolutionXOnePlus8"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "instantnoodlep",
+      "name": "OnePlus 8 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Manidweep",
+            "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
+            "device_group": "EvolutionXOnePlus8"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "kebab",
+      "name": "OnePlus 8T",
+      "supported_versions": [
+         {
+            "maintainer_name": "Manidweep",
+            "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
+            "device_group": "EvolutionXOnePlus8"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "lemonades",
+      "name": "OnePlus 9R",
+      "supported_versions": [
+         {
+            "maintainer_name": "Manidweep",
+            "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
+            "device_group": "EvolutionXOnePlus8"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
       "codename": "denniz",
       "name": "OnePlus Nord 2 5G",
       "supported_versions": [
