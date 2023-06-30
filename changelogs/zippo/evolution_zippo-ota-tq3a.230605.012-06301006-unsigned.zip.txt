@@ -1,0 +1,56 @@
+- !! CLEAN INSTALL IS REQUIRED !!
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.320
+
+**Evolution X Update**
+
+- Update to 7.9.3 (Bulalo)
+- Merge June 2023 security patches (13.0_r52)
+- PixelPropsUtils: Update fingerprints to June 2023 release
+- SystemUIGoogle: update to 13 QPR3
+- SystemUIGoogle: Update qs modules for 13 QPR3
+- SystemUIGoogle: Forward port Smart Space to A13 QPR3
+- Evolver: disable QS panel styles and some clock mods for smoothness
+- SystemUI: Enable font scaling QS tile
+- Settings: Add the option to spoof the storage encryption status
+- themes: Import more signal & wifi icons
+- themes: Add more Icon Shapes from Iconify
+- SystemUI: Introduce preferred network tile
+- SystemUI: Refactor reticker feature
+- Remove poweroff-alarm service
+- Evolver: Live Volume Steps: Enable additional steps options
+- Settings: Hide private DNS settings UI unless admin
+- Fixed NPE when status bar clock was hidden
+- Evolver: Add brightness slider themes
+- Evolver: Bring back Parallel space
+- Evolver: Bring back Clock customization
+- Evolver: Bring back Battery styles
+- Evolver: Bring back Battery bar
+- Evolver: Bring back Custom logo customization
+- Make Lockscreen clock format and clock color settings work again
+- Settings: Add back switch to unlink ringtone and notifications volume
+- Launcher3: Sync blur radius with frameworks
+- Launcher3: Implement hidden & protected apps
+- Launcher3: Set default recents background opacity to 100
+- Launcher3: Open running services activity when clicking meminfo view
+- Launcher3: Add background chip for memory info view
+- Launcher3: Hotseat: Fix normal QSB width
+- Evolver: Bring back game spoof toggle
+- SystemUI: Improve statusbar mobile type icons padding
+- SystemUI: Follow status bar battery style in QS
+- Remove Lockscreen charging info
+- SystemUI: Introduce HD & wifi calling statusbar icons (and remove VoLTE/VoWiFi impl)
+- Evolver: Remove old style mobile data type (in favor of new HD icon implementation)
+- Evolver: Drop Game spoof toggle and spoof games by default
+- SystemUI: Make date clickable
+- Evolver: Bring back Changelog preference
+- Settings: Set default animation scales back to 1
+- SystemUI: Block few clock customizations in QS header
+- SystemUI: SoundTile: Open volume panel on long press
+- Remove Transistent task mode setting
+- Remove Proximity check on wake toggle
+- Remove Pointer acceleration setting
+- Remove Desktop Mode
