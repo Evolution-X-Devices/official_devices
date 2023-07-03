@@ -710,11 +710,11 @@
       "name": "Redmi K30 / POCO X2",
       "supported_versions": [
          {
-            "maintainer_name": "Chiranth Chiru",
-            "maintainer_url": "https://github.com/chiru2000",
+            "maintainer_name": "Jay Mistry",
+            "maintainer_url": "https://github.com/jaymistry258",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/poco-x2/development/rom-evolutionx-v5-0-poco-x2-redmi-k30-t4180611",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-phoenix-official-evolution-x-tinola-7-9-4-03-07-23.4601951/",
             "device_group": "EvolutionXPhoenix"
          }
       ]
