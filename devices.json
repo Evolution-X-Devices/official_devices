@@ -736,6 +736,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "spes",
+      "name": "Redmi Note 11/NFC",
+      "supported_versions": [
+         {
+            "maintainer_name": "Hoang Pham Anh Duy",
+            "maintainer_url": "https://forum.xda-developers.com/m/etylix.8079544/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-evolution-x-for-the-redmi-note-11-nfc.4485855/",
+            "device_group": "EvolutionXSpes"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "veux",
       "name": "POCO X4 Pro 5G / Redmi Note 11E Pro / Redmi Note 11 Pro 5G / Redmi Note 11 Pro+ 5G",
       "supported_versions": [
