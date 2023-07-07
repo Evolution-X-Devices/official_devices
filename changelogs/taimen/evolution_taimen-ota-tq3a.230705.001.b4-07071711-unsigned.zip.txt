@@ -1,0 +1,9 @@
+=======================
+     2023/07/07
+=======================
+
+Changelog:
+- Jul security path
+- Set slotId# of non-removable esim 
+  (Not sure it will fix the random issue SIM lose or not, try by ur selft)
+- Misc improvements from source
