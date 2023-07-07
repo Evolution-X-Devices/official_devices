@@ -1,0 +1,24 @@
+Say hi to July, again.
+
+Evolution X 7.9.5 based on Android 13 with July 2023 Security Patch (r63)
+(Hotfix build, move back to skiagl to fix artifact glitch)
+
+BUILD INFORMATION
+· Android 13 (r63)
+· Signed user build
+· GCamGO included
+
+NOTES
+· Clean flash is required even come from last build
+· Please enable this Chrome flag to fix the scrolling lag: chrome://flags/#enable-vulkan
+· Please reflash TWRP(flash current or ramdisk) before reboot or you will need to back to stock to boot TWRP
+
+BUILD CHANGELOG
+· Kernel source are here, but it’s the broken one, keep using prebuilt kernel(updated to V14.0.1.0.TGKIDXM).
+· Introducing Camera Indicator. Now a ring will show around the front camera when an app is using it.
+· Improved brightness and adaptive brightness.
+· Improved LMK, powerhint, etc…
+· Adjust some paddings and position for better looking UI.
+· Fixed some previous issues like Zoom green camera and DT2W not working when device is in sleep state.
+· Reworked thermal config. For now the charging speed are better than previous build, up to 43°C. And the Gaming profile will give you more stable gaming experience.
+· More and more that I’m to lazy to write down, experience yourself.
