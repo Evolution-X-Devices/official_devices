@@ -1,0 +1,24 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.320
+
+**Evolution X Update**
+
+- version: Update to 7.9.5 (Chicharon)
+- Merge July 2023 security patches (13.0_r63)
+- PixelPropsUtils: Update fingerprints to July 2023 release
+- Launcher3: Fix crash with transient taskbar
+- Evolver: Bring back lockscreen unlock ripple effect toggle
+- Remove QS panel data usage (solves QS panel lag)
+- SystemUI: Enable new back gesture affordance
+- Settings: Hide back gesture options after enabling new back affordance
+- SystemUI: flags: Enable media player wave/shimmering effects
+- Evolver: Lockscreen clock format settings
+- GamesPropsUtils: Add Gameprops for Battlegrounds Mobile India (BGMI)
+- Settings: Make ADB root available for all
+- Evolver: Battery Styles: Add Landscape iOS battery styles from Iconify
+- Settings: Add default value for IME space
