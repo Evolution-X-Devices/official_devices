@@ -1,0 +1,241 @@
+This is Android 13 with July 2023 (r63) security patches
+
+Device Changes:
+=====================================
+- Upstreamed Kernel to 4.14.318
+- Switched to User Build
+- Fixed Neverallows
+- Switched to newer sepolicy
+- Added erofs
+- Switched to Kernel Based SLMK
+- Dont mount crap oppo partitions
+- Misc improvements and Cleanup
+
+Notes:
+=====================================
+- Clean flash Highly Recommended
+- Use F2FS for now in userdata if you are facing data corruption
+- Use PitchBlack Recovery v4.0 (Ignore Warnings after flash just do reboot system)
+- Don't Update from OTA
+
+Credit: Sarthak Roy & All MTK Devs
+
+ROM Changes:
+===========================
+7/8
+Battery: Don't check cutout for qs battery
+
+7/6
+Merge July 2023 security patches (13.0_r63)
+PixelPropsUtils: Update fingerprints to July 2023 release
+Settings: Add default value for IME space
+version: Update to 7.9.5 (Chicharon)
+
+7/5
+BlastBufferQueque: Import Xiaomi Android 13 BlastBuffer Changes
+Evolver: Battery Styles: Add Landscape iOS battery styles from Iconify
+Settings: Make ADB root available for all
+
+7/4
+GamesPropsUtils: Add Gameprops for Battlegrounds Mobile India (BGMI)
+Set fallback kernel version when source isn't present
+Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
+SystemUI: Fix HD calling icon for RTL layout
+SystemUI: KeyguardUpdateMonitor: Simplify some code
+soong: Add some default values for including prebuilt cameras
+
+7/3
+Evolver: Lockscreen clock format settings
+Settings: Hide back gesture options after enabling new back affordance
+SystemUI: flags: Enable media player wave/shimmering effects
+SystemUI: Enable new back gesture affordance
+pm: Restore the default behavior of pm install
+
+7/2
+IPCThreadState: Import Xiaomi Android 13 robustness modification
+Launcher3: Expose transient taskbar settings
+Piex: Import Xiaomi camera hal changes
+Remove QS panel data usage (solves QS panel lag)
+WiredAccessoryManager: Add support for DP audio
+camera: Add backwards-compatible CaptureResultExtras constructor
+config: Allow overriding ro.support_one_handed_mode
+frameworks: Update HIDL overrideFormat from HAL
+vold: fix failing to format zero-ed out SD card
+
+7/1
+Add felix to Tensor Pixel list
+Camera: Prevent crash with prebuilt camera metadata
+Merge Pixel Fold June 2023 security patches (13.0_r60)
+version: Update to 7.9.4 (Tinola)
+
+6/30
+Evolver: Bring back lockscreen unlock ripple effect toggle
+Launcher3: Fix crash with transient taskbar
+Native: Camera: Import Release Slot Xiaomi Changes
+Native: IPCThreadState: Import Xiaomi Modifications
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+av: ACodec: Import support of Pcm32bit channel
+av: EngineBase: Import loading of Mi Configs (From Xiaomi)
+av: Nuplayer: Declare 24Bit Packed & 32Bit support
+gms: Add TARGET_IS_PIXEL_6 for DevicePersonalizationPrebuiltPixel2021
+libcameraservice: Import Xiaomi DistortionMapper Modifications
+libcameraservice: Import Xiaomi Exif Camera Modifications
+libcameraservice: Import Xiaomi Modifications for vendor tags
+
+6/29
+Add absent sim info to locked screen text
+Add handling of permanent disabled sims
+GamesPropsUtils: Fix crashing when using Game spoof
+GamesPropsUtils: Switch from POCO F4 to POCO F5
+GamesPropsUtils: Switch Mobile Legends spoof to POCO F5
+KeyguardBouncer: Don't delay showing if face auth running
+PixelPropsUtils: Do not spoof restore, pixelmigrate and setupwizard
+Settings: Fix setting device name based on market name
+ShadeHeaderController: Add date, battery & clock click actions
+SystemUI: ClockController: Prevent NPE when clock is hidden
+gms: Update AiAi
+
+6/28
+Evolver: Bring back game spoof toggle
+Remove Desktop Mode
+Remove Pocket Mode
+Remove Pointer acceleration setting
+Remove Proximity check on wake toggle
+Remove Transistent task mode setting
+
+6/27
+GamesPropsUtils: Spoof BlackShark 4 for Arena Breakout
+Launcher3: Add background chip for memory info view
+Launcher3: Hotseat: Fix normal QSB width
+Launcher3: Open running services activity when clicking meminfo view
+Launcher3: Set default recents background opacity to 100
+Launcher3: Update recents view meminfo string
+Launcher3: Use regular body font for app labels
+Launcher3: bugfix: hide "all apps" view when search starts
+PixelPropsUtils: Separate Game spoofing into GamesPropsUtils
+Settings: Add back switch to unlink ringtone and notifications volume
+Settings: Fix resource leakage caused by cursor
+Settings: Remove Hide ADB and developer setting enable status
+SystemUI: SoundTile: Open volume panel on long press
+StatusBarSignalPolicy: Set initialized to false on destroy
+SystemUI: Block few clock customizations in QS header
+SystemUI: Clean up battery callback in CollapsedStatusBar
+SystemUI: Switch to TunerService for CollapsedStatusBar
+SystemUI: VolumeDialog: add support for unlinked ringer streams
+SystemUIGoogle: Bring back WallpaperNotifier
+sepolicy: Label Dolby Sepolicy labels
+
+6/26
+Settings: Set default animation scales back to 1
+SystemUI: SideFpsEventHandler: Don't crash without FingerprintManager
+SystemUI: Prevent NPE when checking for powerbutton FPS
+WindowProcessController: Fix potential memory leak
+[Bugfix]check whitelisted packages exclude nonsystem app
+config: Fabricate shipment of Aperture CAM Optional
+
+6/25
+Evolver: Bring back Changelog preference
+Evolver: Bring back Custom logo customization
+Evolver: Remove old style mobile data type (in favor of new HD icon implementation)
+Fix some memory leakage
+Frameworks/base: Fix potential IllegalStateException in RescueParty
+Hide data limit notification if data not active nor default
+PixelPropsUtils: Enable Game spoofing by default
+SettingsGoogle: Guard brightness slider haptic by setting
+SettingsLib: Use WHITE color instead MAGENTA for Added Battery Drawables
+StatusBarSignalPolicy: Set initialized to false on destroy
+SystemUI: Hide notification icon area if headsup is visible
+SystemUI: Scale mobile data type icon with font size
+
+6/24
+Disable quick QS pull down by default
+Evolver: Bring back Battery bar
+Evolver: Bring back Battery styles
+Evolver: Bring back Clock customization
+Evolver: Drop Game spoof toggle and spoof games by default
+ProcessList: Catch Security exception when starting a frozen package
+Status bar notification: Use Material icons for missed calls
+SystemUI: Introduce HD & wifi calling statusbar icons (and remove VoLTE/VoWiFi impl)
+SystemUI: Refresh system icons on theme change
+hwui: Remove logspam cause by early animation handle check
+
+6/23
+Bring back Refresh rate QS tile
+CachedBluetoothDevice: Add missing LeAudioProfile
+CachedBluetoothDevice: Fix detecting connect fail
+Do not mark dun APN types as read only
+Make Lockscreen clock format and clock color settings work again
+PixelPropsUtils: Add emojiwalls and cinematiceffects pkgs
+PixelPropsUtils: Enable new Velvet Weather UI
+Remove Lockscreen charging info
+Settings: Bring back missing Quick Unlock toggle
+SystemUI: Apply surface color to brightness icons
+SystemUI: Follow status bar battery style in QS
+SystemUI: Improve statusbar mobile type icons padding
+SystemUI: Redraw display cutout on overlay changes
+SystemUI: Screenshot: Avoid NPE while getting app label
+SystemUI: Tuner: Only show tuner warning on debuggable builds
+Update notchbarkiller overlays
+display: Don't reset brightness adjustment on clearUserDataPoints()
+soong: Add aapt_version_code default
+themes: fix spacing for ClockFontCafe24Decoshadow
+
+6/22
+KeyguardStatusBarView: Clean up cruft
+QS: Open Mobile Data panel on LongClick
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Check if primitive vibrations are supported in quick affordances
+SystemUI: Don't require AOD for screen off UDFPS
+SystemUI: Enable charger plug-in statusbar chip
+SystemUI: Re-enable stock clock tuner toggle
+config: Move IAntiFlicker to fqname
+fixup! SystemUI: Enable customizable lock screen quick affordances
+overlay: Set screenshot work profile files app to DocumentsUI
+udfps: Only set dim behind if framework dimming is actually enabled
+
+6/21
+DeviceConfig: Enable WallpaperEffects
+Fix NPE when store brightness and displayDevice is null
+WallpaperPicker2: Add null check for effectsController
+ThemePicker: Apply window insets to quick affordance fragment
+ThemePicker: Fix crash choosing Live Wallpapers
+ThemePicker: Update for tm-qpr3
+Toast: Solve the NPE problem in session.java
+View's mAttachInfo maybe NPE
+View: Prevent NPEs when initiating surface drag
+apn: Add Uno Mobile Italy
+device_config: fixup! and Update now playing to 3055
+fonts: Update from TQ3A.230605.012
+
+6/20
+AmbientIndicationContainer: Fix NullPointerException
+Evolver: Disable some features for A13 QPR3
+Evolver: Drop custom QS panel styles
+Launcher3: Fix Spacing of QSB
+SettingsGoogle: add battery data provider
+SettingsGoogle: Remove google faceunlock for now
+SystemUI: volume_dialog: Move to LaunchableLinearLayout
+SystemUIGoogle: Forward port Smart Space to A13 QPR3
+SystemUIGoogle: Include aosp only modules from ReferenceSystemUIModule
+SystemUIGoogle: Update qs modules for 13 QPR3
+SystemUIGoogle: update to 13 QPR3
+ThemePicker: Fix quick affordance setting padding
+
+6/19
+DozeSensors: We DO want UDFPS to trigger on screen off
+Request correct rendering type for EGL config
+Settings: Do not skip fp authentication for udfps
+Settings: Introduce Smart 5G service
+SystemUI: Add notification volume to VolumePanelDialog
+SystemUI: Apply separate notification volume control flag to VolumePanelDialog
+SystemUI: Enable font scaling QS tile
+SystemUI: Flags: Enable media explicit indicator
+SystemUI: Update NFC icon
+
+6/14
+Partially merge June 2023 security patches (13.0_r52)
+PixelPropsUtils: Update fingerprints to June 2023 release
+Settings: LineageFastCharge: Guard it via overlay
+gms: Update
+overlays: Update from TQ3A.230605.012
+version: Update to 7.9.3 (Bulalo)
