@@ -1,0 +1,59 @@
+ ==========================================
+Notes:
+==========================================
+- Don't Use Firmware above C05
+==========================================
+Device Changelog:
+==========================================
+* Fixed Low Mic volume issues in some apps
+* Disabled stereo speaker for calls
+* Enabled USB Debugging on boot
+* Fixed modem not flashing
+* Fixed video playback on ott apps
+* Imported LDAC blobs from stock
+==========================================
+Evolution X Official Changelog
+
+7/11
+Add FeatureFactoryGoogleImpl & PhenotypeProxy
+Fix multi-user silent notifications on lockscreen
+Update parallel space block list
+fixup! BatteryService: Add support for battery Moto Mods
+fixup! healthd: Reinitialize mChargerNames for every battery update
+fixup! base: Add support for parallel space
+fixup! sepolicy: Address parallel space service
+7/10
+Avoid CalledFromWrongThreadException in BubbleController
+Evolver: Bring back QS panel styles
+Evolver: reTicker: Allow to only show in Landscape mode
+Parallel Space: Update blocklist
+SystemUI: Enable and tune Split notification shade
+SystemUI: Re-tune split shade for QPR3
+SystemUI: Reduce the alpha of color accent alpha drawable
+SystemUI: Use selector drawables for translucent qs themes
+device_config: Remove obsolete Android 11 permission hub overlays
+fixup! Do not allow backups of overlays (should fix Google restore issue)
+fonts: Fix oneplus slate implementation
+fonts: Import nothing font changes from NOS 1.5
+gms: Don't build Cinematic Wallpapers for now
+themes: Import Xperia Icon pack
+7/9
+AuthRippleController: Always finish the LightRevealScrim
+BatteryMeterView: simplify scale logic
+Evolver: Disable configurable lockscreen album art blur radius
+GameSpace: ScreenUtils: Adapt to QPR3
+NetworkPolicyManagerService: Avoid OOB in addSdkSandboxUidsIfNeeded
+PixelPropsUtils: Spoof to Pixel 5a by default
+Settings: Update Android Beam switch title
+Stop building Flipendo (removes Extreme Battery saver)
+SystemUserInfoHelper: Fix crash when switching user
+base: ApplicationPackageManager: Block Tensor features for Recorder
+base: ApplicationPackageManager: Exclude PE 2021 Midyear from tensor pixel list
+gms: Stop building Flipendo
+7/8
+Battery: Don't check cutout for qs battery
+7/6
+Merge July 2023 security patches (13.0_r63)
+PixelPropsUtils: Update fingerprints to July 2023 release
+Settings: Add default value for IME space
+version: Update to 7.9.5 (Chicharon)
