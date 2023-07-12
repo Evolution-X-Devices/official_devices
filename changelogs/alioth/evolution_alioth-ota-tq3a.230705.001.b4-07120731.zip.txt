@@ -1,0 +1,24 @@
+Device Changes: Fix paths for Qualcomm CameraX Vendor Extensions 
+MiuiCamera: move Miui Video Player to product apps, Update prebuilts after rebuild
+Update to latest Redline kernel
+Rework Dirac java code
+Add missing thermal configs
+Import 32bit camera stack
+
+ROM Changes:
+Evolver: Bring back QS panel styles 
+SystemUI: Enable and tune Split notification shade SystemUI: 
+Re-tune split shade for QPR3
+fixup! Do not allow backups of overlays (should fix Google restore issue)
+SettingsGoogle: Update and fix missing res error
+pixel-framework: Update SettingsGoogle lib
+fixup! base: Add support for parallel space
+fixup! sepolicy: Address parallel space service
+Evolver: Bring back QS panel styles
+Evolver: reTicker: Allow to only show in Landscape mode
+SystemUI: Enable and tune Split notification shade
+SystemUI: Re-tune split shade for QPR3
+fixup! Do not allow backups of overlays (should fix Google restore issue)
+Merge July 2023 security patches (13.0_r63)
+PixelPropsUtils: Update fingerprints to July 2023 release
+And more...
