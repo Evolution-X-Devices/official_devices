@@ -1,0 +1,26 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Remove obsolete config for Smart Charging
+- Switch to full GApps
+
+**Evolution X Update**
+
+- Stop building Flipendo (removes Extreme Battery saver)
+- PixelPropsUtils: Spoof to Pixel 5a by default
+- Evolver: Disable configurable lockscreen album art blur radius
+- themes: Import Xperia Icon pack
+- fonts: Import nothing font changes from NOS 1.5
+- fonts: Fix oneplus slate implementation
+- SystemUI: Re-tune split shade for QPR3
+- SystemUI: Enable and tune Split notification shade
+- Evolver: reTicker: Allow to only show in Landscape mode
+- Evolver: Bring back QS panel styles
+- Do not allow backups of overlays (fixes Google restore issue)
+- Launcher3: Add back uninstall button to app shortcuts
+- Evolver: Bring back QS battery customization
+- SystemUI: Apply the icon shapes to the QS tiles
