@@ -7,3 +7,10 @@ Changelog:
 - Set slotId# of non-removable esim 
   (Not sure it will fix the random issue SIM lose or not, try by ur selft)
 - Misc improvements from source
+
+=======================
+     2023/07/16
+=======================
+Changelog:
+- Fixed safetynet
+- Sync with latest source
