@@ -316,6 +316,21 @@
    },
    {
       "brand": "OnePlus",
+      "codename": "martini",
+      "name": "OnePlus 9RT",
+      "supported_versions": [
+         {
+            "maintainer_name": "Mrick343",
+            "maintainer_url": "https://forum.xda-developers.com/m/mrick343.12517809/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-martini-official-evolution-x-07-17-23.4606415/",
+            "device_group": "EvolutionXOnePlus9"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
       "codename": "denniz",
       "name": "OnePlus Nord 2 5G",
       "supported_versions": [
