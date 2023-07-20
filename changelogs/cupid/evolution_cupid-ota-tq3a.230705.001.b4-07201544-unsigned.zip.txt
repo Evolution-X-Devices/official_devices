@@ -1,0 +1,180 @@
+  
+2023-07-20
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+NO NEED TO FLASH FIRMWARE AFTER ROM ANYMORE !!
+
+DEVICE:
+
+  * cupid: overlay: decrease clock padding start
+  * cupid: Import HotwordEnrollment permissions XML
+  * cupid: overlay: Add PixelSetupWizardResTarget
+  * cupid: overlay: Update battery info every second when charging
+  * Revert "cupid: props: Switch to AutoSingleLayer Android 13 Setting"
+  * cupid: Include Firmware images
+
+
+KERNEL:
+
+  * video-driver: merge tag VIDEO.LA.2.0.r1-08600-WAIPIO.0 of  https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-driver
+  * display-drivers: merge tag DISPLAY.LA.2.0.r1-11100-WAIPIO.0 of  https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers
+  * dataipa: merge tag LA.VENDOR.1.0.r1-22700-WAIPIO.QSSI13.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa
+  * camera-kernel: merge tag CAMERA.LA.2.0.r1-10500-WAIPIO.0 of  https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel
+  * power: battery_charger: fix compilation after  KERNEL.PLATFORM.1.0.r1-15400-kernel.0" merge
+  * arm64/dts: waipio-gpu: Undervolt GPU
+  * arm64: dts: waipio-gpu: Enable NAP power saving state
+  * qcacld-3.0: import tag LA.VENDOR.1.0.r1-22700-WAIPIO.QSSI13.0 from https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0
+  * fw-api: mport tag LA.VENDOR.1.0.r1-22700-WAIPIO.QSSI13.0 from https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api
+  * qca-wifi-host-cmn: import tag LA.VENDOR.1.0.r1-22700-WAIPIO.QSSI13.0 from https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn
+  * Merge tag 'KERNEL.PLATFORM.1.0.r1-15400-kernel.0' of https://git.codelinaro.org/clo/la/kernel/msm-5.10 into cupid
+  * Merge commit '7cef793d657b2e1b8426cf97c292a744403984fa' of https://git.codelinaro.org/clo/la/kernel/common
+
+
+ROM:
+
+7/20
+
+Evolver: Bring back customizable QS footer text
+
+Evolver: Bring back kill button to notification guts
+
+Evolver: Bring back Less boring heads up
+
+Evolver: Bring back Status bar Lyrics
+
+Launcher3: Fit settings title into one line
+
+Launcher3: Fix Lens toggle default value
+
+base: Add rounded corners to activity open/close animation
+
+vendor: Refactor Pixel inclusions
+
+
+7/19
+
+Evolver: Enable Photos spoof by default
+
+Now Playing: Updated v3 manifest to version 3059
+
+SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+
+fixup! Settings: Hide SFPS wakeup setting when it's not supported
+
+gms: Import Wallpapers from felix and tangorpro
+
+gms: Replace PixelWallpapers2022 with PixelWallpapers2022a from lynx
+
+
+7/18
+
+BatteryPercentagePreferenceController: Force hide for all devices
+
+Launcher3: Add UNINSTALL shortcut to QuickstepLauncher
+
+PixelPropsUtils: Add tangorpro and felix to Pixel list
+
+core: Catch OOB when returning pooled string
+
+fixup! Launcher3: Pause apps feature
+
+gms: Factor in lynx, tangorpro and felix
+
+
+7/17
+
+Catching IllegalStateException while device is going to shutdown
+
+Evolver: Bring back Pocket mode support
+
+Launcher3: fix crash
+
+Settings: Bring back Double tap to trigger doze
+
+Settings: Bring back Proximity check on wake preference
+
+SystemUI: Refactor reTicker feature
+
+[Bugfix] Fix flicker issue when turn on/off screen with color inversion
+
+
+7/16
+
+Evolver: Add toggle to enable brightness slider haptic feedback
+
+Fix issue ‘Sometimes Screen does not wake up while receiving whatsapp video call’
+
+KeyguardIndication: Set wakelock on doze only when required
+
+Settings: Create a ActivityDirector to optionally use SettingsGoogleFutureFaceEnroll
+
+Settings: Create face confirmation activity
+
+Settings: Fix App lock allow biometric toggle ignored (always on)
+
+Settings: Fix AppEntry.extraInfo ClassCastException
+
+Settings: Fix potential crash in AppAllServicesPreferenceController
+
+Settings: Import missing Face Unlock animation
+
+Settings: Move Vo5G toggle right below VoLTE
+
+SystemUI: Add null check for vibrator in brightness controller
+
+SystemUI: Revert split shade changes
+
+SystemUIGoogle: Fix now playing text alignment
+
+SystemUIGoogle: Trigger an ambient pulse on a new Now Playing track
+
+base: Remove more hardcoded fonts
+
+interfaces: add google_battery AIDL interface
+
+
+7/15
+
+build: Guard more lines related to AOSP ringtones
+
+gms: Correct lynx device check condition
+
+gms: Override Aperture with GCam
+
+
+7/14
+
+Alert Slider: Completely disable service if not supported
+
+Camera: Remove GPS_LOCATION if set() is called with null
+
+CEC: Do not allow null callback
+
+Fix vibration patterns with zero duration steps
+
+PackageManager: Create missing userdata directory
+
+Remove useless variable "mapbase" from screencap
+
+Settings: Remove extra bool for Smart charging
+
+UEventObserver: Fix logging for uevent messages
+
+Update translations
+
+binder: remove dead logging code
+
+core: Suppress ASI system crash dialogs
+
+sepolicy: Allow location read xtra-daemon control property
+
+sepolicy: Restrict access to /sys/devices/soc0/serial_number
+
+suppress SystemUI ANRs

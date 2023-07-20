@@ -1,17 +1,17 @@
 {
-   "datetime": 1689405332,
+   "datetime": 1689864118,
    "donate_url": "https://www.paypal.me/yarpiin",
    "error": false,
-   "filehash": "e6276cb27b996ff6b4dc8e8a429472dc",
-   "filename": "evolution_cupid-ota-tq3a.230705.001.b4-07150817-unsigned.zip",
+   "filehash": "18c2ae7ebcbc81cc97d9f8492ef36207",
+   "filename": "evolution_cupid-ota-tq3a.230705.001.b4-07201544-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0-cupid-official-evolution-x-05-29-23.4591391/",
-   "id": "8106d3029ec8101407a8107cdca921c53b8089840b4bd004e70abfa7eaec4e34",
+   "id": "cce57e976f8ebc8ab5d6d1c2a536a7f93347232264744889d6389f85ffa006e5",
    "maintainer": "Slaw Handzlik (yarpiin)",
    "maintainer_url": "https://github.com/yarpiin",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2608510879,
+   "size": 2728188032,
    "telegram_username": "yarpiin",
-   "url": "https://sourceforge.net/projects/evolution-x/files/cupid/evolution_cupid-ota-tq3a.230705.001.b4-07150817-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/cupid/evolution_cupid-ota-tq3a.230705.001.b4-07201544-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
