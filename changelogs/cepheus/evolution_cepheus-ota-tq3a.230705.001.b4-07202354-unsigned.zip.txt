@@ -1,0 +1,30 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Add MIUI camera (Leica)
+- Update camera IDs for Aperture
+- Switch back to Mini GApps after adding the MIUI camera
+
+**Evolution X Update**
+
+- Evolver: Enable Photos spoof by default
+- Evolver: Bring back Status bar Lyrics
+- Evolver: Bring back Less boring heads up
+- Evolver: Bring back kill button to notification guts
+- Evolver: Bring back customizable QS footer text
+- Evolver: Bring back Status bar brightness control
+- Evolver: Bring back Combined signal icons
+- Evolver: Add toggle to enable brightness slider
+- Launcher3: Add UNINSTALL shortcut to QuickstepLauncher haptic feedback
+- fixup! Launcher3: Pause apps feature
+- SystemUI: Refactor reTicker feature
+- base: Remove more hardcoded fonts
+- SystemUIGoogle: Trigger an ambient pulse on a new Now Playing track
+- Settings: Import missing Face Unlock animation
+- Settings: Fix App lock allow biometric toggle ignored (always on)
+- Fix issue ‘Sometimes Screen does not wake up while receiving whatsapp video call’
+- [Bugfix] Fix flicker issue when turn on/off screen with color inversion
