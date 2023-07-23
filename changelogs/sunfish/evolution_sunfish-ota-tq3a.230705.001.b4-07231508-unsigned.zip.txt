@@ -1,0 +1,747 @@
+Update 20230723
+- July security patches
+- Fixed SafetyNet
+
+* Note: For some reason, Adaptive connectivity and other stuff crashes on boot, but not affects. Please ignore it.
+
+=======================
+     2023/07/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1d25ee6d02 Settings: Prioritize Build maintainer preference
+02529823ec fixup! Hide SFPS wakeup setting when it's not supported
+c3c0f0909d BatteryPercentagePreferenceController: Force hide for all devices
+725f444bbc Settings: Add proximity check on wake preference
+7f9b8f58b1 Settings: DoubleTapGesture: Use new material-you illustration preference
+f1b9f1a4a9 Settings: Double tap to trigger doze [2/2]
+8a1414c6e9 Settings: fix app lock allow biometric toggle ignored (always on)
+
+
+=======================
+     2023/07/21
+=======================
+
+* Repository: /commits/refs/heads/tiramisu
+
+be450e6a13c0 [SQUASH] Reverts for Pixel devices
+6383ab14d17f SystemUI: Restart SystemUI when toggling QS brightness slider haptic option
+7d40d6386c63 SystemUI: Combined signal icons toggle [1/2]
+dd1d83c4eeaa SettingsLib: Restore WIFI_CALL_STRENGTH_ICONS
+e04fe0b776d3 Revert "Revert^2 "Remove support for COMBINED_SIGNAL_ICONS""
+db410323ed1b SystemUI: Statusbar brightness control [1/2]
+7eed69a7260a base: Add rounded corners to activity open/close animation
+222ba83c04ff New Crowdin updates (#451)
+7924fdbe17e8 New Crowdin updates (#450)
+9932460096b5 AudioSystem: Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+aa708fe78b17 AudioSystem: add missing native audio formats
+0e0b121770b0 LessBoring: fixup LessBoring preventing bubbles
+782a71517512 Less boring heads up: Don't skip heads up for most messaging apps
+690fcfaf0263 Slightly optimize less boring apps check for heads up
+2fade6ad1b34 Skip less boring notification check when reTicker mode is active
+fcd8aa522f88 Less boring heads up option [1/2]
+7a8bb47072c9 Extend kill button to notification conversation guts
+99a54a4e554a Add kill button to notification guts [1/2]
+13317e61f99c SystemUI: Allow customizing footer text [1/2]
+5e346de9a806 base: Allow toggling QS footer text [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+995a00b New Crowdin updates (#226-#503)
+eeaf580 Evolver: Changes for A13 QPR3
+0cb7975 Evolver: Re-enable Combined signal icons toggle [2/2]
+fe28d23 Evolver: Allow customizing footer text [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+49ea564f06 Launcher3: Fix Lens toggle default value
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+520e0706f6 Fix potential crash in AppAllServicesPreferenceController
+d8c3ac3b8e Fix AppEntry.extraInfo ClassCastException
+ea4081fa02 [SQUASH] Settings: Clean up removed stuff
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+2699e858 config: Refactor Pixel inclusions
+74948358 prebuilt: Add Google Face Unlock support
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+f1d67d3 gms: Refactor Pixel inclusions
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+e9c6472 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/07/20
+=======================
+
+* Repository: /commits/refs/heads/tiramisu
+
+80058b7c703c [SQUASH] base: Add status bar lyric [1/3]
+5acd236d20c5 New Crowdin updates (#449)
+5cc3b55cf4b0 SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+1542468b067f Revert "Keyguard: Allow user configurable fingerprint wake-and-unlock"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+224c845 Evolver: Add a toggle for QS footer text [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+75426597f0 Launcher3: Fit settings title into one line
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+865c791 SystemUIGoogle: Trigger an ambient pulse on a new Now Playing track
+1134915 SettingsGoogle: Update and fix missing res error
+8ef1575 pixel-framework: Update SettingsGoogle lib
+5002e23 SystemUIGoogle: Forcefully store Cached Estimate
+3ea0d7f SystemUIGoogle: Forward port Smart Space to A13 QPR3
+4e7eab9 SettingsGoogle: add battery data provider
+424343e AmbientIndicationContainer: Fix NullPointerException
+2f315d5 SystemUIGoogle: Include aosp only modules from ReferenceSystemUIModule
+a74730a SystemUIGoogle: update to 13 QPR3
+44b8943 SystemUIGoogle: Update qs modules for 13 QPR3
+
+
+=======================
+     2023/07/19
+=======================
+
+* Repository: /commits/refs/heads/tiramisu
+
+d8ab917061b1 When the sharedUserSetting of the application on /system is different from the sharedUserSetting on /data, we should trust the sharedUserSetting on /system
+6876bb0fd45a core: Catch OOB when returning pooled string
+d5388b755ec0 Pocket mode: Fix pocket view bg not updating after wallpaper change
+eeb3861e7809 fw_base: Pocket Mode: don't enable by default
+3613d5b63f29 PhoneWindowManager: Pocket Judge: Don't mess with power button to reject call
+bcd9cfaf0a52 base: Pocket Judge: Don't go to sleep while on call
+d7ffaa2fd258 pocket mode: Update style to latest OOS specs
+e34515f1965d PocketJudge: Allow to register vendor proximity sensor
+70a54d70f400 PocketLock: Make using light sensor optional
+b1c411b19157 SystemUI: Improve pocket mode layout
+c376dce3c112 base: Redo Pocket mode view like OOS
+9a3a18b80e06 Fix an edge case in KeyguardUpdateMonitor pocket callback
+7e9830280c2b PocketJudge: allow register vendor pocket sensor
+183075a54e02 PocketLock: fix flickering on animations
+16d93dbfc338 Pocket lock: Add config_pocketModeSupported overlay
+6fec95d05139 pocket: introduce pocket bridge
+61ee6fe35a63 pocket: Reduce sleep timeout for pocket lock
+953e3176d3d9 pocket: Use MD2 lock drawable
+74b5de63b3a2 Pocket lock improvements
+02645895eca0 pocket: Fix pocket lock view for display cutouts
+30a1c55709fa pocket: Adjust sleep timeout for pocket lock view to 10 secs
+a0723fa98fe9 PocketService: Adjust light sensor rate to 400ms
+84d717bc2f0d pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
+2a9e7c4ac54b policy: introduce pocket lock
+dd763da11d91 pocket: introduce pocket judge
+f0b7ed8fac42 PowerManager: Add proximity check on wake
+07e2527726d2 base: Double tap to trigger doze [1/2]
+4652df1dd1ca [Bugfix] Fix flicker issue when turn on/off screen with color inversion
+ceb1d90c62e3 Sometimes Screen does not wake up while receiving whatsapp video call
+3d8a97aea29a base: Remove more hardcoded fonts
+564d51bdb99b KeyguardIndication: Set wakelock on doze only when required
+9b27e9a0b267 CEC: Do not allow null callback
+0ec7d6e0d2b7 Camera: Remove GPS_LOCATION if set() is called with null
+852c7499a896 Alert Slider: Completely disable service if not supported
+f2240e1d716b Fix vibration patterns with zero duration steps.
+be5e9904075c binder: remove dead logging code
+290781725bfe Remove useless variable "mapbase" from screencap
+ec67b44c1595 UEventObserver: Fix logging for uevent messages
+3d0492ba7a5f PackageManager: Create missing userdata directory
+8fd777fe05c2 base: Remove some power menu animations
+d221d67a6118 SystemUI: QS battery customizations [1/2]
+5d9c521f9632 Fix system reboot in systm_server caused by SensorPrivacyService
+2f154724820b Fix multi-user silent notifications on lockscreen
+d3074b6e7343 Cleanup 'Update battery info every second when device is charging'
+b42aeee22d1e Make overlay for 'Update battery info every second when device is charging'
+165018e8c6f9 Update battery info every second when device is charging
+07ec1d40b562 Avoid CalledFromWrongThreadException in BubbleController
+5c76a78fac0d SystemUI: Reduce the alpha of color accent alpha drawable
+1260e3fba398 SystemUI: Use selector drawables for translucent qs themes
+c69f246a8ecc Squashed QSPanel style and design changes
+189d3eab6a9e SystemUI: Mark colorBackgroundDrawable as protected
+9b14a9b8c4f0 Update parallel space block list
+2fbc268733dd Parallel Space: Update blocklist
+f0a9116a4506 Battery styles: Add Origami battery icon
+ee91cdeea87a BatteryMeterView: simplify scale logic
+0eff2e62c366 Battery: Don't check cutout for qs battery
+3875ca5a46fa Battery styles: Add Landscape iOS battery styles from Iconify [1/2]
+4d055b20278e AuthRippleController: Always finish the LightRevealScrim
+33f673a54ab2 SystemUserInfoHelper: Fix crash when switching user
+168fcaf95581 NetworkPolicyManagerService: Avoid OOB in addSdkSandboxUidsIfNeeded
+870288605692 Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
+08732b309e11 WiredAccessoryManager: Add support for DP audio
+4ad70c59538b Camera: Clear identity before access device policy manager
+633eab950ada camera: Add backwards-compatible CaptureResultExtras constructor
+d7ac1b62c91e Camera: Prevent crash with prebuilt camera metadata
+0fb646846b86 base: allow disabling ripple effect on unlock [1/2]
+85b131900ec0 KeyguardBouncer: Don't delay showing if face auth running
+89d601822fa4 ShadeHeaderController: Add date, battery & clock click actions
+d08aa3c8de26 Add absent sim info to locked screen text
+2c007301fe5b Add handling of permanent disabled sims
+63b95e78a7c2 SystemUI: ClockController: Prevent NPE when clock is hidden
+18fc06104f38 SystemUI: KeyguardUpdateMonitor: Simplify observer code
+2b04c83c46e5 SystemUI: Fix HD calling icon for RTL layout
+86a924f2927b SystemUI: Enable new back gesture affordance
+3dc1931989f2 SystemUI: flags: Enable media player wave/shimmering effects
+bdbebeab3fd1 GamesPropsUtils: Add Gameprops for Battlegrounds Mobile India (BGMI)
+4a21be86ec32 PixelPropsUtils: Remove pixel tablet spoof for Weather
+9c8f4846c163 PixelPropsUtils: Spoof to Pixel 5a by default
+0711a6dec9f0 PixelPropsUtils: Update fingerprints to July 2023 release
+eb948f6857f6 base: ApplicationPackageManager: Exclude PE 2021 Midyear from tensor pixel list
+01caccb357dc base: ApplicationPackageManager: Block Tensor features for Recorder
+5449a68cc5c8 PixelPropsUtils: Refactor
+ac602aeb0e28 fixup! Add toggle to enable brightness slider haptic feedback [1/2]
+66e21e4632d2 fixup! SystemUI: Add double tap to sleep gesture
+5049acd2915b fixup! BatteryService: Add support for battery Moto Mods
+53246da25d77 fixup! base: Do not allow backups of overlays [1/2]
+250a78b97c82 fixup! base: Add support for parallel space
+89de8f89750c [SQUASH] base: Clean up some changes
+bebf987c7df3 Bump tough-cookie in /packages/SystemUI/scripts/token_alignment
+c677e1b5bae7 New Crowdin updates (#441-#444)
+916d7ef73334 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_sm8350_display/commits/thirteen
+
+be45e723 Merge tag 'LA.UM.9.14.r1-21000-LAHAINA.QSSI12.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into thirteen
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+d39ee55fb7 Launcher3: Add UNINSTALL shortcut to QuickstepLauncher
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+2082b5fe Updated v3 manifest to version 3059
+
+
+=======================
+     2023/07/18
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+eda429c2e0 fixup! Launcher3: Pause apps feature
+79c03ecb0b Launcher3: fix crash
+73ab2d3008 New Crowdin updates (#51)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+74cbf8eb3 Catching IllegalStateException while device is going to shutdown
+
+
+=======================
+     2023/07/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+62aec7b Evolver: Add Pocket judge toggle
+eb22ca4 Evolver: Add toggle to enable brightness slider haptic feedback [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+12f2d15be5 Settings: Move Vo5G toggle right below VoLTE
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+8b1bc9b Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+03d34f7f Revert "DeviceConfig: Enable separated notification volume control"
+
+
+=======================
+     2023/07/16
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+48a499851 build: Guard more lines related to AOSP ringtones
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/tiramisu
+
+ed8468e8 sepolicy-legacy-um: Update drm service executables file_contexts
+3e952e84 legacy: add app_data_file_type to imshelper_app_data_file
+bc8f5b8d sepolicy-legacy-um: Init Evo X
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+a95f7db Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+17c1bd1 Automatic translation import
+
+
+=======================
+     2023/07/15
+=======================
+
+* Repository: /commits/tiramisu
+
+699fd6aa sunfish: init: SafetyNet workaround * Regular tiramisu branch has been moved sf judgement to HARDWARE_BACKED. Since this device can't use tiramisu-pixel so we need to avoid sf fails. * Kanged from: https://github.com/nitrogen-project/device_google_bluejay/commit/f6e9bda07bbcbaa6992b011f10a016ab0ab51fb4
+08210921 sunfish: Force enable ims features * Based on VoEnabler. https://github.com/edgd1er/voenabler
+4d4f6b1e Revert "Implement xtra-daemon control via property"
+25a7ef24 sunfish: proprietary-files: Drop conflicted packages
+24fdca1f sunfish: overlay: Enable Adaptive sleep * Default is off, but Pixel supports this feature. * Override that config with RRO.
+efdd29eb sunfish: Include googlebattery sepolicy
+e95b34b4 sunfish: Bring up Evolution X
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+cc23a461 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+536079b0 sepolicy_vndr: restore iwlan hwservice
+f6a82ea5 legacy: allow cnd to get wifi_hal_props
+4cc6b9c7 generic: add app_data_file_type to vendor_imshelper_app_data_file
+b56b1c1e legacy: add app_data_file_type to imshelper_app_data_file
+a9f8d9e2 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+65bc1dc New Crowdin updates (#24)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+1fe7212605 Launcher3: Increment max number of saved recent apps thumbnails
+5922b13502 Fix launcher ui interface overlap and frozen problem
+cfa6e4c049 Fixing syntax error due to java-version changes
+6afeee41ea Fixing icon cache thrashing due to an unsupported icon
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+487f8c375e Settings: Remove extra bool for Smart charging
+
+
+=======================
+     2023/07/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+b4bb887c0 Add ability to build scudo-free 32-bit libc variant.
+3732fe267 Fix mte build breakage.
+c5b5957ce Fix stack use-after-scope in async_safe_log.
+851f6ba06 Make tmpfile() respect $TMPDIR.
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+ed99b3fb recovery: Add support for touch rotation
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+ef58514e7 Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
+a4ea99780 soong: Add ability to build scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+d7d52bf8e Add ability to enable scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0bea8db Label xtra-daemon control property
+fd19c5b common: Label ro.minui.default_touch_rotation
+
+* Repository: https://github.com/Evolution-X/external_cldr/commits/refs/heads/tiramisu
+
+7380d209 DO NOT MERGE Update Android CLDR data from 2022f to 2022g. [T]
+5e612831 DO NOT MERGE Update Android CLDR data from 2022e to 2022f. [T]
+4ff75e52 DO NOT MERGE Update Android CLDR data from 2022d to 2022e. [T]
+d6d3fd5e DO NOT MERGE Update Android CLDR data from 2021e to 2022d. [T]
+
+* Repository: https://github.com/Evolution-X/external_icu/commits/refs/heads/tiramisu
+
+8139855b6 DO NOT MERGE Update Android TZDB from 2022g to 2023a [T]
+df8ca27d4 DO NOT MERGE Update Android ICU data from 2022f to 2022g. [T]
+c79d832d5 DO NOT MERGE Update Android ICU data from 2022e to 2022f. [T]
+7f358e184 DO NOT MERGE Update Android ICU data from 2022d to 2022e. [T]
+4049795fc DO NOT MERGE Update Android data from 2022a2 to 2022d. [T]
+272ab18c8 DO NOT MERGE Update Android ICU data from 2022a to 2022a rev. 2. [T]
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+041f9b645 catch mutex when notify sampling rate changed, otherwise signal may be lost
+9118489dd Fix the missing std
+28ad70740 Remove length check to allow empty HDR10+ blobs to HWC
+2bb01d24b camera: Fix prefix length path for External Camera HAL
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_wlan/commits/refs/heads/tiramisu
+
+3d09179 wlan: Introduce TARGET_HAS_BROKEN_WLAN_SET_INTERFACE
+74bfed4 Wifi: Add WCNSS_QTI_AOSP CFLAG for value-added AOSP
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+8af07f5 hidl: sensors: Add group 'uhid' to sensors multi-HAL.
+
+* Repository: https://github.com/Evolution-X/libcore/commits/refs/heads/tiramisu
+
+f6181c3b09a Fix race condition in java.security.Provider
+e13edd1ce0e Speed-up KXmlSerializer with features.html#indent-output
+8f29e4dacc4 Add new UrlConnectionTest for TLS 1.3.
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+c1472a0 Aperture: Simplify flash mode handling
+9e0a3f7 Aperture: CameraActivity: Get rid of update{PrimaryBar,CameraMode}Buttons()
+a1cad08 Aperture: Use the view model for views' rotation
+1a512eb Aperture: Introduce CameraViewModel
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+ee10463 Evolver: Remove some power menu animations
+f35692b Evolver: reTicker: Allow to only show in Landscape mode [2/2]
+536389f Evolver: Battery styles: Add Landscape Origami [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+d78d90c CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+b97390b9 Fix permissions xml and provider access
+2a6e10a8 Adapt dummy recents wallpaper provider for QPR3
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+6885ec5 Automatic translation import
+ea62fd5 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/tiramisu
+
+e04d48f mkbootimg: add support for --dt
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+74fce33b Don't verify payload signatures in recovery
+06f9617b update_engine: Always disable signature and downgrade checks
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+80a193b2 overlay: frameworks: Don't warn user about FC in Google TTS
+8bc2290f core: Suppress ASI system crash dialogs
+
+
+=======================
+     2023/07/13
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+97f924f common: Allow overriding component selection logic
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+820778c3ee config: Allow Settings or SUW to connect to insecure Enterprise networks
+
+
+=======================
+     2023/07/12
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+51023afdab Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/art into tiramisu
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+e67e02909 soong: Whitelist python3.11
+d597350d0 soong: Whitelist llvm-addr2line
+556c33c89 soong: Add EVO_BUILD_TYPE to dumpvars
+1747e1a04 Tag apex_set's 'set' config with `android:"path"`
+58d03d91f Tweak Soong install rules logging
+8b89fc4f7 Revert "Use turbine instead of kapt for kotlin annotation processors"
+bf1854424 soong: add kryo785 architecture variant for arm64.
+16c316d29 Replace device_kernel_headers with generated_kernel_headers
+9a4826eeb soong: Add PathForSourceRelaxed
+055430541 paths: Allow soong_zip to be called
+35ed9af12 paths: enable curl for kernel wireguard
+5d153ec12 soong: increase heap size for metalava
+2311c8cde soong: whitelist ld.lld and llvm-ar
+dbd717b64 Disable clang-tidy
+86f0d4a32 PATH tools: allow python 3.10
+f941d2166 Add Init_rc to Product_variables.Eng
+5b1af099d Add exported-to-kati namespaces to root namespace
+812e0e590 soong: Whitelist squash
+152e02d3c Revert "Remove TEMPORARY_DISABLE_PATH_RESTRICTIONS"
+710760654 soong: Allow Flex, Bison and M4 to be used
+4d543d4f2 sandbox_linux: set CCACHE_DIR as a writable path
+d0b590d61 soong: Allow arm-linux-androidkernel-{as,ld}
+5cd2958c8 cleanbuild: Add `recovery_kernel` to installclean files
+55866e62f cleanbuild: Add `install` to installclean files
+784dbfed7 cleanbuild: add *.zip.md5sum to installclean_files
+9ad1a34a8 check_boot_jars: Add IFAA Manager to whitelist
+bd147c463 Add qcom.fmradio and org.codeaurora.internal to allowlist
+bd623f742 soong: Whitelist locale
+22cba5258 soong: Add equivalent for LOCAL_EXPORT_CFLAGS
+1151f898c soong: Whitelist cpio for prebuilt ramdisk extraction
+c598629f9 soong: Remove HOST_* vars except HOST_OS from BannerVars
+827b1ae7f soong: allow overriding header files
+1446ee4fb soong: whitelist ccache
+4e36bd106 soong: whitelist brotli
+c06937e8e soong: Whitelist nproc
+6ec80fa6d soong: use absolute path for OUT_DIR
+3a09bde6f soong: Add EVO_VERSION to dumpvars
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+8289251 sepolicy: Add support of sys.recovery_update
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-20.0
+
+7f9a2aeb Merge tag 'LA.QSSI.13.0.r1-10700-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-10700-qssi.0
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/tiramisu
+
+28a05807 Merge tag 'LA.UM.11.2.1.r1-04100-sdm660.0' into staging/lineage-20.0_merge-LA.UM.11.2.1.r1-04100-sdm660.0
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+f0b2ee6c Merge tag 'LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+8550844d Revert "kona: update sepolicy for KineticsXR controller debug property"
+e81def90 Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/Evolution-X/external_piex/commits/refs/heads/tiramisu
+
+0a02612 Piex: Import Xiaomi camera hal changes
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/tiramisu
+
+17842ea7 Revert "libsepol: Make an unknown permission an error in CIL"
+7bbd539c selinux: add selinux_status_getenforce to header
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+042a8e0 tinycompress: plugin: Set codec params in SETUP state
+a5708ea tinycompress: Add support for compress_set_codec_params API
+5991823 tinycompress: Convert evolution product variables to soong config variables
+bea65b5 tinycompress: Conditionally enable extended compress format
+be3982c tinycompress: Use generated kernel headers
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+acd2905 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/frameworks/libs/net into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+22724a8 Multiple work profile badge colors for Launcher3
+1862ad9 ClockDrawableWrapper: Set DISABLE_SECONDS to false
+860ed71 iconloaderlib: Force themed icon over app monochrome icon
+87f755d Override IconProvider class for IconPack support
+e1882bc Add support for overriding of IconProvider
+63689dd iconloaderlib: Create new int array for hue calculation if tmp is too small
+9b0fe6d iconloaderlib: Apply alpha from child icon to adaptive icon wrapper
+b24e37a iconloaderlib: Add config hint to bypass adaptive icon wrapping
+3d6f584 iconloaderlib: Update icon cache via Build.TIME instead
+8315b76 iconloaderlib: Invalidate icon cache between OS releases
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_net_ims/commits/refs/heads/tiramisu
+
+1845e64 Partially Revert "Remove references to deprecated device config"
+ba3dbe1 ims: Bring back updateImsServiceConfig method
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sdm660
+
+b60e29407 Merge tag 'LA.UM.11.2.1.r1-04100-sdm660.0' into staging/lineage-20.0_merge-LA.UM.11.2.1.r1-04100-sdm660.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8250
+
+5f5421ed1 Merge tag 'LA.UM.9.12.r1-15500-SMxx50.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-15500-SMxx50.QSSI13.0
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_sm8350_audio/commits/thirteen
+
+a4238620 Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_sm8350_media/commits/thirteen
+
+3c8b0417 Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+a861622 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_ManagedProvisioning/commits/refs/heads/tiramisu
+
+24a7a66b Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/apps/ManagedProvisioning into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+bfd3063e Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+ab9364ff Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/modules/adb into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+6beb5a6 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/modules/common into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+d6aad1fe Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+829ae5feb Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+628527868 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+00f8d612 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/apex into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/tiramisu
+
+9976be8f Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/extras into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+d19386c Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/libhidl into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+8b5bbbbc Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/media into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_memory_lmkd/commits/refs/heads/tiramisu
+
+a7eb053 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/memory/lmkd into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+cbca41c Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/security into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+dc086bf26 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_timezone/commits/refs/heads/tiramisu
+
+2dff612 DO NOT MERGE Update Android TZDB from 2022g to 2023a [T]
+4c5bbfe DO NOT MERGE Update Android TZDB from 2022f to 2022g. [T]
+152089a DO NOT MERGE Update Android TZDB from 2022e to 2022f. [T]
+cbc040b DO NOT MERGE Update Android TZDB from 2022d to 2022e. [T]
+81d4815 DO NOT MERGE Update Android TZDB from 2022a2 to 2022d. [T]
+a3009d2 DO NOT MERGE Update Android TZDB from 2022a to 2022a rev. 2. [T]
+
+* Repository: https://github.com/LineageOS/android_vendor_codeaurora_telephony/commits/refs/heads/lineage-20.0
+
+ebdb27e Merge tag 'LA.QSSI.13.0.r1-10700-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-10700-qssi.0
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+2e54e1b5 SimpleDeviceConfig: Updated v3 manifest to version 3058
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commits/refs/heads/lineage-20.0
+
+7e8ea6f Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commits/refs/heads/lineage-20.0
+
+5fdc2ec Merge tag 'LA.QSSI.13.0.r1-10700-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-10700-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+115b194 Merge tag 'LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+c3a8bb4 Merge tag 'LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0
+
+
+=======================
+     2023/07/11
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+9486c9d0 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform//bootable/recovery into tiramisu
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+92665ca21 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+61827e0 fixup! sepolicy: Address parallel space service
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+1520251 Evolver: Battery styles: Add Landscape iOS battery styles [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+5e28da81 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/apps/ThemePicker into tiramisu
+803b5f66 Revert "ThemePicker: Enable launcher and themepicker icon packs"
+0e0204c1 ThemePicker: Fix crash choosing Live Wallpapers
+36efb367 ThemePicker: Fix quick affordance setting padding
+8c5a4ccb ThemePicker: Apply window insets to quick affordance fragment
+7949c8b5 ThemePicker: Update for tm-qpr3
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+52de64e6 Add null check for effectsController
+d222b215 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+498ad3219 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+fed4e1cc7 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+ea40d6a04 fixup! healthd: Reinitialize mChargerNames for every battery update
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/tiramisu
+
+7e08ac8 IPCThreadState: Import Xiaomi Android 13 robustness modification
+a605498 Revert "Disallow shrinking threadpool size once started."
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+7550272 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/vold into tiramisu
+abcd42a vold: fix failing to format zero-ed out SD card
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+c885118a fixup! vendor: Do not allow backups of overlays [2/2]
+4cbe6a40 Revert "[TMP] Revert "themes: Custom QS panel styles [2/3]""
+ca5fd21d fonts: Import nothing font changes from NOS 1.5
+3831f28d fonts: Fix oneplus slate implementation
+05c1b146 themes: Import Xperia Icon pack
+54ffce89 device_config: Remove obsolete Android 11 permission hub overlays
+9328998d config: Split sdm660 from UM_4_4_FAMILY
+751e8316 version: Update to 7.9.5 (Chicharon)
+57f63727 soong: Add some default values for including prebuilt cameras
+
+
+=======================
+     2023/07/10
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+c9f4c88 GameSpace: ScreenUtils: Adapt to QPR3
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6b02c72bb2 Settings: Update Android Beam switch title
+
+
