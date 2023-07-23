@@ -1,0 +1,158 @@
+This is Android 13 with July 2023 security patches
+
+Notes:
+==============================
+Google Restore has been fixed!
+Micam is included
+Dolby Atmos is included
+Launcher3 aka EvolutionX Launcher is Present
+Dirty Flash from previous builds is fine
+
+Device changes:
+==============================
+Ship with Cuh Kernel
+Update Xiaomi Parts clear speaker audio
+Set ZSTD as default zram compression algorithm
+Enabled Pocket Mode Overlay
+Update USB controller configuration
+Migrate to Xiaomi power AIDL HAL
+Improve pinner configuration
+------------------------------
+
+ROM changes:
+==============================
+7/21
+Evolver: Bring back Combined signal icons
+Evolver: Bring back Status bar brightness control
+SystemUI: Restart SystemUI when toggling QS brightness slider haptic option
+
+7/20
+Evolver: Bring back customizable QS footer text
+Evolver: Bring back kill button to notification guts
+Evolver: Bring back Less boring heads up
+Evolver: Bring back Status bar Lyrics
+Launcher3: Fit settings title into one line
+Launcher3: Fix Lens toggle default value
+base: Add rounded corners to activity open/close animation
+vendor: Refactor Pixel inclusions
+
+7/19
+Evolver: Enable Photos spoof by default
+Now Playing: Updated v3 manifest to version 3059
+SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+fixup! Settings: Hide SFPS wakeup setting when it's not supported
+gms: Import Wallpapers from felix and tangorpro
+gms: Replace PixelWallpapers2022 with PixelWallpapers2022a from lynx
+
+7/18
+BatteryPercentagePreferenceController: Force hide for all devices
+Launcher3: Add UNINSTALL shortcut to QuickstepLauncher
+PixelPropsUtils: Add tangorpro and felix to Pixel list
+core: Catch OOB when returning pooled string
+fixup! Launcher3: Pause apps feature
+gms: Factor in lynx, tangorpro and felix
+
+7/17
+Catching IllegalStateException while device is going to shutdown
+Evolver: Bring back Pocket mode support
+Launcher3: fix crash
+Settings: Bring back Double tap to trigger doze
+Settings: Bring back Proximity check on wake preference
+SystemUI: Refactor reTicker feature
+[Bugfix] Fix flicker issue when turn on/off screen with color inversion
+
+7/16
+Evolver: Add toggle to enable brightness slider haptic feedback
+Fix issue ‘Sometimes Screen does not wake up while receiving whatsapp video call’
+KeyguardIndication: Set wakelock on doze only when required
+Settings: Create a ActivityDirector to optionally use SettingsGoogleFutureFaceEnroll
+Settings: Create face confirmation activity
+Settings: Fix App lock allow biometric toggle ignored (always on)
+Settings: Fix AppEntry.extraInfo ClassCastException
+Settings: Fix potential crash in AppAllServicesPreferenceController
+Settings: Import missing Face Unlock animation
+Settings: Move Vo5G toggle right below VoLTE
+SystemUI: Add null check for vibrator in brightness controller
+SystemUI: Revert split shade changes
+SystemUIGoogle: Trigger an ambient pulse on a new Now Playing track
+base: Remove more hardcoded fonts
+
+7/15
+build: Guard more lines related to AOSP ringtones
+gms: Correct lynx device check condition
+gms: Override Aperture with GCam
+
+7/14
+Alert Slider: Completely disable service if not supported
+Camera: Remove GPS_LOCATION if set() is called with null
+CEC: Do not allow null callback
+Fix vibration patterns with zero duration steps
+PackageManager: Create missing userdata directory
+Remove useless variable "mapbase" from screencap
+Settings: Remove extra bool for Smart charging
+UEventObserver: Fix logging for uevent messages
+Update translations
+binder: remove dead logging code
+core: Suppress ASI system crash dialogs
+sepolicy: Allow location read xtra-daemon control property
+sepolicy: Restrict access to /sys/devices/soc0/serial_number
+suppress SystemUI ANRs
+
+7/13
+Adapt dummy recents wallpaper provider for QPR3
+Bring back ability to enable scudo-free 32-bit libc variant
+Evolver: Bring back QS battery customization
+Fix camera lag on some SD 6XX devices
+Fix launcher ui interface overlap and frozen problem
+Launcher3: Increment max number of saved recent apps thumbnails
+Remove length check to allow empty HDR10+ blobs to HWC
+ThemePicker: Fix permissions xml and provider access
+camera: Fix prefix length path for External Camera HAL
+hidl: sensors: Add group 'uhid' to sensors multi-HAL
+recovery: Add support for touch rotation
+
+7/12
+Camera: Clear identity before access device policy manager
+Fix system reboot in system_server caused by SensorPrivacyService
+PixelPropsUtils: Remove pixel tablet spoof for Weather
+SimpleDeviceConfig: Updated v3 manifest to version 3058
+SystemUI: Mark colorBackgroundDrawable as protected
+config: Allow Settings or SUW to connect to insecure Enterprise networks
+
+7/11
+Fix multi-user silent notifications on lockscreen
+Update parallel space block list
+fixup! BatteryService: Add support for battery Moto Mods
+fixup! healthd: Reinitialize mChargerNames for every battery update
+fixup! base: Add support for parallel space
+
+7/10
+Avoid CalledFromWrongThreadException in BubbleController
+Do not allow backups of overlays (fixes Google restore issue)
+Evolver: Bring back QS panel styles
+Evolver: reTicker: Allow to only show in Landscape mode
+Parallel Space: Update blocklist
+SystemUI: Reduce the alpha of color accent alpha drawable
+SystemUI: Use selector drawables for translucent qs themes
+device_config: Remove obsolete Android 11 permission hub overlays
+fonts: Fix oneplus slate implementation
+fonts: Import nothing font changes from NOS 1.5
+gms: Don't build Cinematic Wallpapers for now
+themes: Import Xperia Icon pack
+
+7/9
+AuthRippleController: Always finish the LightRevealScrim
+BatteryMeterView: simplify scale logic
+Evolver: Disable configurable lockscreen album art blur radius
+GameSpace: ScreenUtils: Adapt to QPR3
+NetworkPolicyManagerService: Avoid OOB in addSdkSandboxUidsIfNeeded
+PixelPropsUtils: Spoof to Pixel 5a by default
+Settings: Update Android Beam switch title
+Stop building Flipendo (removes Extreme Battery saver)
+SystemUserInfoHelper: Fix crash when switching user
+base: ApplicationPackageManager: Block Tensor features for Recorder
+base: ApplicationPackageManager: Exclude PE 2021 Midyear from tensor pixel list
+gms: Stop building Flipendo
+
+7/8
+Battery: Don't check cutout for qs battery
