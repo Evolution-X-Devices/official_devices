@@ -1,0 +1,43 @@
+This is Android 13 with July 2023 (r63) security patches
+
+Notes:
+==============================
+I recommend a Clean Flash
+But Dirty flash should be fine. 
+
+Device changes:
+==============================
+-Status bar fix
+-Decreased SSI Size a little
+------------------------------
+
+ROM changes:
+==============================
+
+7/24
+ConfigurationController: Prevent app crash on orientation change
+Evolver: Bring back QS header images
+Merge Pixel Fold July 2023 security patches (13.0_r66)
+camera: Allow to use boottime as timestamp reference
+camera: Guard newer HIDL overrideFormat
+config: Remove TextClassifier packages
+fixup! Add toggle to enable brightness slider haptic feedback
+fixup! SystemUI: Allow customizing footer text
+vendor/fonts: Uprev HarmonyOS Sans VF
+version: Update to 7.9.6 (Pares)
+
+Vendor flag changes
+fixup! libcameraservice: Add support to set vendor tag with client package name
+fixup! libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS
+prebuilt: Add Google Face Unlock support
+soong: Add TARGET_CAMERA_BOOTTIME_TIMESTAMP conditional
+vendor: Add TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT
+vendor: soong: Add camera_needs_client_info_lib_oplus
+
+7/21
+Evolver: Bring back Combined signal icons
+Evolver: Bring back Status bar brightness control
+Settings: Prioritize Build maintainer preference
+SystemUI: Restart SystemUI when toggling QS brightness slider haptic option
+
