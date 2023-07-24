@@ -1,0 +1,350 @@
+This build you're receiving is evolution_veux-ota-tq3a.230705.001.b4-07170420-unsigned.zip comes with July security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/07/24
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+3214829 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+0236bba3 fixup! Add toggle to enable brightness slider haptic feedback
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+b69f166 camera: Guard newer HIDL overrideFormat
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+2e1e097 New Crowdin updates (#226-#505)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+4d57aae vendor: soong: Add camera_needs_client_info_lib_oplus
+
+
+=======================
+     2023/07/23
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+d6334ce Aperture: Add missing copyright headers to icons
+
+
+=======================
+     2023/07/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1d25ee6 Settings: Prioritize Build maintainer preference
+
+
+=======================
+     2023/07/21
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+49ea564 Launcher3: Fix Lens toggle default value
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+f1d67d3 gms: Refactor Pixel inclusions
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+e9c6472 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/07/18
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+74cbf8e Catching IllegalStateException while device is going to shutdown
+
+
+=======================
+     2023/07/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+8b1bc9b Automatic translation import
+
+
+=======================
+     2023/07/16
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+48a4998 build: Guard more lines related to AOSP ringtones
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/tiramisu
+
+ed8468e sepolicy-legacy-um: Update drm service executables file_contexts
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+17c1bd1 Automatic translation import
+
+
+=======================
+     2023/07/15
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+cc23a46 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/tiramisu
+
+536079b sepolicy_vndr: restore iwlan hwservice
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+65bc1dc New Crowdin updates (#24)
+
+
+=======================
+     2023/07/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+b4bb887 Add ability to build scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+ed99b3f recovery: Add support for touch rotation
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+d7d52bf Add ability to enable scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+0bea8db Label xtra-daemon control property
+
+* Repository: https://github.com/Evolution-X/external_cldr/commits/refs/heads/tiramisu
+
+7380d20 DO NOT MERGE Update Android CLDR data from 2022f to 2022g. [T]
+
+* Repository: https://github.com/Evolution-X/external_icu/commits/refs/heads/tiramisu
+
+8139855 DO NOT MERGE Update Android TZDB from 2022g to 2023a [T]
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_wlan/commits/refs/heads/tiramisu
+
+3d09179 wlan: Introduce TARGET_HAS_BROKEN_WLAN_SET_INTERFACE
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+8af07f5 hidl: sensors: Add group 'uhid' to sensors multi-HAL.
+
+* Repository: https://github.com/Evolution-X/libcore/commits/refs/heads/tiramisu
+
+f6181c3 Fix race condition in java.security.Provider
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+d78d90c CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+b97390b Fix permissions xml and provider access
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/tiramisu
+
+e04d48f mkbootimg: add support for --dt
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+74fce33 Don't verify payload signatures in recovery
+
+
+=======================
+     2023/07/13
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+97f924f common: Allow overriding component selection logic
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+820778c config: Allow Settings or SUW to connect to insecure Enterprise networks
+
+
+=======================
+     2023/07/12
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+51023af Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/art into tiramisu
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-20.0
+
+7f9a2ae Merge tag 'LA.QSSI.13.0.r1-10700-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-10700-qssi.0
+
+* Repository: https://github.com/Evolution-X/external_piex/commits/refs/heads/tiramisu
+
+0a02612 Piex: Import Xiaomi camera hal changes
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/tiramisu
+
+17842ea Revert "libsepol: Make an unknown permission an error in CIL"
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+042a8e0 tinycompress: plugin: Set codec params in SETUP state
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+acd2905 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/frameworks/libs/net into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+22724a8 Multiple work profile badge colors for Launcher3
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_net_ims/commits/refs/heads/tiramisu
+
+1845e64 Partially Revert "Remove references to deprecated device config"
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sdm660
+
+b60e294 Merge tag 'LA.UM.11.2.1.r1-04100-sdm660.0' into staging/lineage-20.0_merge-LA.UM.11.2.1.r1-04100-sdm660.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8250
+
+5f5421e Merge tag 'LA.UM.9.12.r1-15500-SMxx50.QSSI13.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-15500-SMxx50.QSSI13.0
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_sm8350_audio/commits/thirteen
+
+a423862 Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_sm8350_media/commits/thirteen
+
+3c8b041 Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/Evolution-X/packages_apps_ManagedProvisioning/commits/refs/heads/tiramisu
+
+24a7a66 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/apps/ManagedProvisioning into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+bfd3063 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+ab9364f Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/modules/adb into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+6beb5a6 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/modules/common into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+d6aad1f Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+829ae5f Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+6285278 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+00f8d61 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/apex into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/tiramisu
+
+9976be8 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/extras into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+d19386c Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/libhidl into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+8b5bbbb Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/media into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_memory_lmkd/commits/refs/heads/tiramisu
+
+a7eb053 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/memory/lmkd into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+cbca41c Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/security into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+dc086bf Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_timezone/commits/refs/heads/tiramisu
+
+2dff612 DO NOT MERGE Update Android TZDB from 2022g to 2023a [T]
+
+* Repository: https://github.com/LineageOS/android_vendor_codeaurora_telephony/commits/refs/heads/lineage-20.0
+
+ebdb27e Merge tag 'LA.QSSI.13.0.r1-10700-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-10700-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal/commits/refs/heads/lineage-20.0
+
+7e8ea6f Merge tag 'LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.14.r1-22000-LAHAINA.QSSI12.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/commits/refs/heads/lineage-20.0
+
+5fdc2ec Merge tag 'LA.QSSI.13.0.r1-10700-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-10700-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+115b194 Merge tag 'LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+c3a8bb4 Merge tag 'LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-22600-WAIPIO.QSSI14.0
+
+
+=======================
+     2023/07/11
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+52de64e Add null check for effectsController
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+fed4e1c Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+ea40d6a fixup! healthd: Reinitialize mChargerNames for every battery update
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/tiramisu
+
+7e08ac8 IPCThreadState: Import Xiaomi Android 13 robustness modification
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+7550272 Merge tag 'android-13.0.0_r63' of https://android.googlesource.com/platform/system/vold into tiramisu
