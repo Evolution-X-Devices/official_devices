@@ -958,5 +958,20 @@
             "device_group": ""
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "whyred",
+      "name": "Redmi Note 5 Ai/Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Arijit Saha",
+            "maintainer_url": "https://forum.xda-developers.com/m/whyred_404.12444399/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-whyred-official-evolution-x-pares-7-9-6-28-07-23.4610173/",
+            "device_group": "evolutionxwhyded"
+         }
+      ]
    }
 ]
