@@ -1,0 +1,35 @@
+Device Changes:
+Switch to Nexus kernel
+Add Kprofiles back
+Add HBM and AutoHBM
+Update WiFi Configs from MIUI 14
+Tune Powerhint
+Add some Touch props
+Add props for smoother scrolling
+Avoid migrating foreground tasks to X1
+Lower down rate limit for prime CPU
+Move background cpuset to CPU0-1
+Disable memtrack support
+Lower down rate limit for prime CPU
+Move audio-app cpuset to 1-2
+Boot time tuning
+Optimize for cortex-a76
+
+ROM Changes:
+SystemUI: Import more qs headers
+PixelPropsUtils: Spoof Galaxy S23 for YouTube
+media: update path for vendor specific config files
+Evolver: Bring back Lockscreen charging info (disabled by default)
+Settings: Device name preference refactor
+Add keylayout mapping for Dualsense Edge gamepad
+Updater: Bring back fetching and changelog button
+Updater: Allow toggling A/B perf mode
+DisplaySettings: font size in 5% steps from 80% to 130%
+SystemUI: Show a double arrow when almost triggered in new back affordance as well
+SystemUI: Tell user when face unlock detection is running
+Settings: Add missing animations for gestures and features
+Settings: Import animations from SettingsGoogle
+Evolver: Bring back QS header images
+Merge Pixel Fold July 2023 security patches (13.0_r66)
+version: Update to 7.9.6 (Pares)
+And more...
