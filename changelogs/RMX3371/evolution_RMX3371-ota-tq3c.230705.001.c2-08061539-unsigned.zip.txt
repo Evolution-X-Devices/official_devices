@@ -1,0 +1,31 @@
+Device Side -
+================================================
+* Fixed SafetyNet Issue
+* Dolby Atmos Included
+=================================================
+Evolution X Official Changelog list
+
+8/5
+Fix possible NPE in StatusBarIconList causing bootloop
+Merge SimpleDeviceConfig into frameworks
+Notification counter: Account status bar top padding when calculating height
+Settings: Fix findPeakRefreshRate logic
+Settings: Update 90hz string replace hack in displayPreference
+recovery: Clear BCB before rebooting to recovery
+recovery: Simplify reboot recovery reason
+vendor: Remove custom device configurator package name
+vendor: device_config: Don't set url/manifests/package related configs
+
+8/4
+Camera: Bump up the extension jpeg processor blob size
+Catch IllegalStateException in Telecom when the Bluetooth process is down
+Launcher3: Fix memory info calculation
+Launcher3: Move meminfo instance creation out of runnable
+Launcher3: Rework MeminfoView available ram calculation
+PixelPropsUtils: Switch back to AttestationHooks impl for gms
+Reticker: Bump to v1.1
+SysUIToast: Remove restrictions on toast app icon
+libcameraservice: extend support for Oppo Camera
+libcameraservice: Guard miui camera workarounds
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+
