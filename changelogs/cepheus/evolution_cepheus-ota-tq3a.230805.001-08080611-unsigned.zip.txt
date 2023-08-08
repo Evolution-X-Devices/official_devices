@@ -1,0 +1,33 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Merge latest changes from CLO in kernel
+- Switch to AOSP clang 17.0.2
+- Fix Dolby Atmos with Bluetooth devices
+- Fix the main ON/OFF switcher in Dolby Atmos
+- Switch to QTI wifidisplay
+
+**Evolution X Update**
+
+- version: Update to 7.9.7 (Pinakbet)
+- Merge August 2023 security patches (13.0_r67)
+- PixelPropsUtils: Update fingerprints to August 2023 release
+- PixelPropsUtils: Correctly spoof unstable process (fix safetynet check)
+- Evolver: Bring back Status bar brightness control
+- Evolver: Bring back Combined signal icons
+- Evolver: Bring back QS header images
+- Settings: Add missing animations for gestures and features
+- SystemUI: Tell user when face unlock detection is running
+- SystemUI: Show a double arrow when almost triggered in new back affordance as well
+- DisplaySettings: font size in 5% steps from 80% to 130%
+- Updater: Bring back fetching and changelog button
+- Settings: Replace maintainer link with maintainer donate URL
+- Settings: Add Device codename to Firmware version window
+- Evolver: Bring back Lockscreen charging info (disabled by default)
+- Reticker: Bump to v1.1
+- Launcher3: Fix memory info calculation
+- 
