@@ -316,6 +316,36 @@
    },
    {
       "brand": "OnePlus",
+      "codename": "lemonade",
+      "name": "OnePlus 9",
+      "supported_versions": [
+         {
+            "maintainer_name": "Imminent",
+            "maintainer_url": "https://forum.xda-developers.com/m/imminented_.12658643/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "",
+            "device_group": "EvolutionXOnePlus9"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
+      "codename": "lemonadep",
+      "name": "OnePlus 9 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Imminent",
+            "maintainer_url": "https://forum.xda-developers.com/m/imminented_.12658643/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "",
+            "device_group": "EvolutionXOnePlus9"
+         }
+      ]
+   },
+   {
+      "brand": "OnePlus",
       "codename": "martini",
       "name": "OnePlus 9RT",
       "supported_versions": [
