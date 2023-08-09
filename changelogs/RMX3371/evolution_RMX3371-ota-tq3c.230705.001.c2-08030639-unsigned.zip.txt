@@ -1,0 +1,20 @@
+• Addressed Mic issue on speaker
+• Tuned system wide haptics
+• Use Superdart instead of Vooc
+• Added OplusExtras
+=====================================
+
+Evolution X Official Changelog list 
+8/3 Catch IllegalStateException in 
+Telecom when the Bluetooth process 
+is down charger: Update animation 
+from cheetah TQ3A.230705.001 8/2 
+SystemUI: Import more qs headers 
+fastbootd: hacks for legacy 
+fastbootd: usb: fallback to v1 
+descriptors kernel: Don't try to do 
+math on empty kernel version 8/1 
+Updater: Preferences: allow 
+overlaying default values for some 
+preferences
+Updater: Show the correct percentage during package installation

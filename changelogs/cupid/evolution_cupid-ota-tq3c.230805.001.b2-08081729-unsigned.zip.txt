@@ -1,0 +1,85 @@
+  
+2023-07-20
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+NO NEED TO FLASH FIRMWARE AFTER ROM ANYMORE !!
+
+DEVICE:
+
+  * cupid: Do not ship recovery in a/b ota update
+  * cupid: prop: Enable Qualcomm TrueWireless™ Stereo
+  * cupid: overlay: update color space for vendor color modes
+  * cupid: Enable adaptive color mode
+  * cupid: Enable Wide Color Gamut support
+  * cupid: Enable VoNR Calls support
+  * cupid: bring back forced vo wifi
+  * cupid: props: set call and media volume steps
+  * cupid: Improve haptic and vibe patterns
+  * cupid: wifi: Disable TDLS offchannel
+  * cupid: wifi: Enable QPower and Deep sleep at the same time
+  * cupid: wifi: Add parameters for Hotspot 2.0
+  * cupid: Enable QCRIL radio power saving
+  * cupid: enable Dolby Vision support
+
+
+ROM:
+
+8/8
+
+AudioService: focus listener: enable it when using external AudioFocus
+
+Launcher3: Fix troubleshoot the video crossover display exception
+
+Merge August 2023 security patches (13.0_r74)
+
+ParallelSpace: Update deprecated APIs and optimize lookup
+
+PixelPropsUtils: Set HARDWARE, ID values
+
+PixelPropsUtils: Update fingerprints to August 2023 release
+
+SimpleDeviceConfig: Add support for non-pixel configs
+
+SimpleDeviceConfig: Add support for pixel specific configs
+
+SystemUI: Resolve crash when updating control list services
+
+SystemUIGoogle: Rewrite AmbientIndicationContainer to kotlin
+
+always auto-grant permissions that have "normal" protectionLevel
+
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+
+base: ApplicationPackageManager: Return early for Tensor check
+
+compatibility_matrices: Allow radio.config@1.0 till target-level 5
+
+config: Disable Deep Press touch video heatmaps
+
+core: Improve notification toast format and fix for apps < sdk 29
+
+fixup! Match legacy toast view with SystemUI
+
+gms: Build Cinematic Wallpapers for Pixel 6 and newer
+
+vendor: SimpleDeviceConfig: Disable WallpaperEffects
+
+version: Update to 7.9.7 (Pinakbet)
+
+
+8/7
+
+NFC: Fix Android Beam
+
+PixelPropsUtils: Correctly spoof unstable process
+
+PixelPropsUtils: Spoof all wallpaper packages to Pixel 7 Pro
+
+vendor: SimpleDeviceConfig: Set WallpaperEffects manifest config again

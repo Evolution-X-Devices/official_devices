@@ -1,0 +1,19 @@
+This is Android 13 with July 2023 (r66) security patches
+
+Device Changes:
+=====================================
+- Switched to Mini gapps instead of Pico (B'coz Settings crash while setup device)
+- Fixed Battery backup issues
+- Added Model Segmentation
+- Fixed fps meter and performance profiles
+- Add PowerOffAlarm
+- Misc Fixes
+
+Notes:
+=====================================
+- Clean flash Highly Recommended
+- Use F2FS for now in userdata if you are facing data corruption
+- Use PitchBlack Recovery v4.0 (Ignore Warnings after flash just do reboot system)
+- OTA will come just use Evolution-X Recovery
+
+Credit: Sarthak Roy & All MTK Devs

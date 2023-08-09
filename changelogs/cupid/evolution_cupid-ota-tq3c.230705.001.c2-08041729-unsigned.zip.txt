@@ -1,0 +1,145 @@
+  
+2023-07-20
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+NO NEED TO FLASH FIRMWARE AFTER ROM ANYMORE !!
+
+DEVICE:
+
+  * cupid: overlay: re-configure IMS
+  * Revert "cupid: allow overriding volte, vt and wfc"
+  * cupid: Restructure proprietary-files.txt
+  * cupid: hidl: Add mi fx tunnel service to hidl manifest
+  * cupid: Set display board flags
+  * cupid: Force usage of HWC for setting brightness
+  * cupid: import stock MIUI ok google
+  * cupid: Enable support for IEEE80211AX.
+  * cupid: Enable automatic channel selection.
+  * cupid: Move to AOSP NXP NFC HAL
+  * cupid: Import missing graphics properties from zeus V14.0.7.0… ….TLBMIXM
+  * udfps: Notify goodix HAL on fod_press_status changes
+
+
+ROM:
+
+8/5
+
+Fix possible NPE in StatusBarIconList causing bootloop
+
+Merge SimpleDeviceConfig into frameworks
+
+Notification counter: Account status bar top padding when calculating height
+
+Settings: Fix findPeakRefreshRate logic
+
+Settings: Update 90hz string replace hack in displayPreference
+
+vendor: Remove custom device configurator package name
+
+vendor: device_config: Don't set url/manifests/package related configs
+
+
+8/4
+
+Camera: Bump up the extension jpeg processor blob size
+
+Catch IllegalStateException in Telecom when the Bluetooth process is down
+
+Launcher3: Fix memory info calculation
+
+Launcher3: Move meminfo instance creation out of runnable
+
+Launcher3: Rework MeminfoView available ram calculation
+
+PixelPropsUtils: Switch back to AttestationHooks impl for gms
+
+Reticker: Bump to v1.1
+
+SysUIToast: Remove restrictions on toast app icon
+
+libcameraservice: extend support for Oppo Camera
+
+libcameraservice: Guard miui camera workarounds
+
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+
+
+8/1
+
+SystemUI: Import more qs headers
+
+Updater: Preferences: allow overlaying default values for some preferences
+
+Updater: Show the correct percentage during package installation
+
+
+7/31
+
+Add helper method for config file converter classes used by HAL
+
+PixelPropsUtils: Spoof Galaxy S23 for YouTube
+
+media: update path for vendor specific config files
+
+
+7/30
+
+EvoEgg: Properly exclude from Google backup
+
+EvoEgg: Use adaptive icon
+
+Evolver: Bring back Lockscreen charging info (disabled by default)
+
+PixelPropsUtils: Nuke spoofing Pixel XL/Pixel 2
+
+Remove glass blur effect
+
+Settings: Device name preference refactor
+
+Settings: Remove Evolution icon from AndroidManifest
+
+SystemUI: fix missing rotate suggestion in 2 button nav mode
+
+SystemUI: show ime switcher + cursor keys if we have space
+
+
+7/29
+
+Add keylayout mapping for Dualsense Edge gamepad
+
+Avoid recursion for leaf task fragment in freeform mode
+
+Fix Invalid Surface error
+
+Fix the concurrency issue when 'linkToDeath' in AccountManagerService that leads to JE
+
+Settings: Add Device codename to Firmware version window
+
+Settings: Replace maintainer link with maintainer donate URL
+
+Updater: Align with Settings / Materialize
+
+Updater: Bring back fetching and changelog button
+
+UpdateEngine: Add perf mode binder interface
+
+Updater: Allow toggling A/B perf mode
+
+Updater: Check if network is really metered
+
+Updater: Don't show delete twice
+
+Updater: Drop usage of NetworkInfo
+
+kernel: NO_GCC: Fix compilation with custom baremetal clang
+
+recovery: Ask to reboot before installing anything after A/B update
+
+update_engine: Add performance mode
