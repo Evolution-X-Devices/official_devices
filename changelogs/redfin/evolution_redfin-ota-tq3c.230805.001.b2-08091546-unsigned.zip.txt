@@ -1,0 +1,722 @@
+This is Android 13 with Aug 2023 (r74) security patches
+
+Device changes:
+==============================
+- Update blobs with latest patch
+-------------------------------
+
+ROM changes:
+==============================
+=======================
+     2023/08/09
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+af0d5a0ae3 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/art into tiramisu
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/tiramisu
+
+dd05da290 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/bionic into tiramisu
+5b0557408 Add ability to build scudo-free 32-bit libc variant.
+3c6223c92 Fix mte build breakage.
+9af74930e Fix stack use-after-scope in async_safe_log.
+6fff00d20 Make tmpfile() respect $TMPDIR.
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+a37edb89 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/bootable/recovery into tiramisu
+3fbe2616 recovery: Simplify reboot recovery reason
+144383dc recovery: Clear BCB before rebooting to recovery
+8db3f682 recovery: Ask to reboot before installing anything after A/B update
+04287c03 recovery: Add support for touch rotation
+
+* Repository: https://github.com/Evolution-X/build/commits/tiramisu-pixel
+
+bbccb659f Revert "Add a build-time check for dexpreopting system server jars."
+9c80c99b5 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+640c64158c Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+b1a975e4545e [SQUASH] Reverts for Pixel devices
+f8495a0739d9 SystemUI: Resolve crash when updating control list services
+c82a7e92f8ab apex: Prevent illegal state exception caused by GMS concurrent alarms
+117de476127f always auto-grant permissions that have "normal" protectionLevel
+ce1a049fef71 core: Improve notification toast format and fix for apps < sdk 29
+e570ee23cff1 fixup! Match legacy toast view with SystemUI
+1f1d2882a9cd Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+7c77912c5e60 PixelPropsUtils: Update fingerprints to August 2023 release
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/tiramisu
+
+f46a193 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/libs/net into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+aec35736c7 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+ffde0b4f9b Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/frameworks/opt/telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/tiramisu
+
+d14b38111 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/hardware/interfaces into tiramisu
+615e67371 compatibility_matrices: Allow radio.config@1.0 till target-level 5
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/tiramisu
+
+be1ea686 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/hardware/libhardware into tiramisu
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-pixel
+
+010d8c7 manifest: Use tiramisu-pixel branch for Pixel devices
+81e415f Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/manifest into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+5b3efb77bb Revert "Fix troubleshoot the video crossover display exception"
+3d6da52288 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/Launcher3 into tiramisu
+b2b2311da5 Fix troubleshoot the video crossover display exception
+
+* Repository: https://github.com/Evolution-X/packages_apps_ManagedProvisioning/commits/refs/heads/tiramisu
+
+a48de8ba Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/ManagedProvisioning into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+f54b8c7b Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_ParallelSpace/commits/refs/heads/tiramisu
+
+fa69c73 ParallelSpace: Update deprecated APIs and optimize lookup
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+78dd2c6050 New Crowdin updates (#335)
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+0bff520b Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/ThemePicker into tiramisu
+3fa8f110 Fix permissions xml and provider access
+4d31bd20 Adapt dummy recents wallpaper provider for QPR3
+
+* Repository: https://github.com/Evolution-X/packages_apps_WallpaperPicker2/commits/refs/heads/tiramisu
+
+390872b6 Add null check for effectsController
+625b15ab Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/tiramisu
+
+ad3f069d8 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/Connectivity into tiramisu
+85d0c1868 Catching IllegalStateException while device is going to shutdown
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/tiramisu
+
+6265d810a Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/Permission into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/tiramisu
+
+90b99c9785 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/Wifi into tiramisu
+6ae40b3a41 config: Allow Settings or SUW to connect to insecure Enterprise networks
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/tiramisu
+
+a5ed00ed Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/adb into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/tiramisu
+
+f4e9962 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/modules/common into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/tiramisu
+
+1a196d31 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+85a3d399f Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+20adaae46 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/services/Telecomm into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+ddff76086 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+ec4aa93d Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/apex into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/tiramisu
+
+64106990 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/extras into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/tiramisu
+
+816d5d8 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/libhidl into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_memory_lmkd/commits/refs/heads/tiramisu
+
+490f51c Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/memory/lmkd into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/tiramisu
+
+4216850 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/security into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+e39fb643e Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/sepolicy into tiramisu
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/tiramisu
+
+5a62c03 Merge tag 'android-13.0.0_r74' of https://android.googlesource.com/platform/system/vold into tiramisu
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+22b9bdaf [SQUASH] Changes for Pixel devices
+5e00913e config: Disable Deep Press touch video heatmaps
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/tiramisu-pixel
+
+4a7c43a now playing: Resolve compiler warnings
+64c07b2 SystemUIGoogle: Fix now playing text alignment
+e3018bf Adaptive charging: Add google-hal checks and resolve possible regression
+f73365a SystemUIGoogle: Fixed the AdaptiveCharging indication not showing up
+a868825 SystemUIGoogle: BatteryDefenderNotification: Convert to aidl
+161580c SystemUIGoogle: Implement adaptive charging based on Google battery HAL
+7d11bbd SystemUIGoogle: Replace outdated google-interfaces-lib
+94765a8 Revert "SystemUIGoogle: Disable Adaptive charging logging"
+86b012a SystemUIGoogle: Rewrite AmbientIndicationContainer to kotlin
+
+
+=======================
+     2023/08/08
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+686d6a6256 libcameraservice: extend support for Oppo Camera
+50bb9968ae libcameraservice: Guard miui camera workarounds
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+3ead2c653ff2 [SQUASH] Reverts for A13 August 2023 security patches
+083381159925 [IMPR] AudioService: focus listener: enable it when using external AudioFocus
+c1a206b41854 base: ApplicationPackageManager: Return early for Tensor check
+bfba4024adc0 SimpleDeviceConfig: Add support for non-pixel configs
+b384a4e8698c SimpleDeviceConfig: Adapt recent changes into current project
+66e4b49609e9 Allow resetting namespace props on boot
+45f9aabe3cff SimpleDeviceConfig: Add support for pixel specific configs
+fbae960c6db1 PixelPropsUtils: Spoof all wallpaper packages to Pixel 7 Pro
+2a2f00c94d78 PixelPropsUtils: Set HARDWARE, ID values
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+5dcc58f8d6 [SQUASH] renderengine: Remove glass blur effect [2/2]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-pixel
+
+34ade43 Manifest for Android 13.0.0 Release 74 (TQ3C.230805.001.B2)
+14e31a7 Manifest for Android 13.0.0 Release 73 (TQ3C.230805.001.A4)
+922ae7a Manifest for Android 13.0.0 Release 72 (TQ3C.230805.001.A3)
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+6980a0bd5 Catch IllegalStateException in Telecom when the Bluetooth process is down
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+47b5fbbf version: Update to 7.9.7 (Pinakbet)
+a8aa3caf vendor: SimpleDeviceConfig: Disable WallpaperEffects
+48e80583 vendor: SimpleDeviceConfig: Isolate pixel specific configs and cleanup
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/tiramisu-pixel
+
+d320f01 gms: Remove conflicting CarrierServices package
+
+
+=======================
+     2023/08/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+cfd011b80315 PixelPropsUtils: Correctly spoof unstable process
+1d11205e05ef Revert "PixelPropsUtils: Nuke spoofing Pixel XL/Pixel 2"
+4a0de6468580 base: Merge SimpleDeviceConfig into frameworks
+73bd55aa904a Fix possible NPE in StatusBarIconList causing bootloop
+5e536547e5b1 notification counter: Account status bar top padding when calculating height
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+54fab97 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+538df8dd Fix Android Beam
+
+
+=======================
+     2023/08/06
+=======================
+
+
+=======================
+     2023/08/05
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6431f01760 Settings: Update 90hz string replace hack in displayPreference
+3f9bdf14de Settings: Fix findPeakRefreshRate logic
+
+* Repository: https://github.com/Evolution-X/packages_apps_SimpleDeviceConfig/commits/refs/heads/tiramisu
+
+1710d47 SimpleDeviceConfig: Merge SimpleDeviceConfig into frameworks
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+7bacfd6d vendor: Remove custom device configurator package name
+8a596e16 vendor: device_config: Don't set url/manifests/package related configs
+7c469011 vendor: Merge SimpleDeviceConfig into framework
+
+
+=======================
+     2023/08/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+f16435254296 Revert "Camera: Prevent crash with prebuilt camera metadata"
+ecb7bdd0d370 Camera: Bump up the extension jpeg processor blob size
+1f634bb601cc libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+5541a400f390 SysUIToast: Remove restrictions on toast app icon
+548c63f04d17 Reticker: Bump to v1.1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+3d7bd73d0d Launcher3: Fix memory info calculation
+5316388f50 Launcher3: Move meminfo instance creation out of runnable
+26d459287a Launcher3: Rework MeminfoView available ram calculation
+
+* Repository: https://github.com/Evolution-X/system_core/commits/tiramisu-pixel
+
+8aaee6162 Set properties to make SafetyNet pass
+5279d5b57 init: Report valid verified boot for SafetyNet checks
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/tiramisu
+
+2f6c0950 Add helper method for config file converter classes used by HAL
+c4442afa media: update path for vendor specific config files
+794c233a Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+22dbc14d audio: Reserve audio format constant for APTX QLEA
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+e29a153c soong: extend support for oppo camera
+0bcfd13e config: soong: Add support for miui camera workarounds
+86f90da1 fonts: Move HarmonyOS-Sans fonts to proper folder
+dd89715c device_config: Enable wallpaper warmup ASI flag
+
+
+=======================
+     2023/08/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8450
+
+93805316f gralloc: Conditionally revert changes related to gralloc struct
+d5dcaf099 display: fix remaining code issues
+a812b8396 display: silence format compilation issues
+c799aa712 display: Remove dependencies of display specific kernel headers
+e3dadd90d gralloc: drop unused variables
+fef6237b2 gralloc: drop prebuilt libvmmem dependency and use dlopen instead
+1d4980dc2 gralloc: replace proprietary libvmmem_headers with reversed vmmem.h
+39bcf223e fixup! display: Fix conflicting soong_namespace imports
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8550
+
+d5f57380e gralloc: Fix retrieving metadata state
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-pixel
+
+c11791b qcom: Add kalama HALs
+0ae7e91 qcom: Add taro HALs
+7575f95 qcom: Remove deprecated custom APM
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+40ce326 New Crowdin updates (#50-#54)
+d18d403 Preferences: allow overlaying default values for some preferences
+6aac0d3 Updater: Show the correct percentage during package installation
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+ef1bc3d2 charger: Update from cheetah TQ3A.230705.001
+
+
+=======================
+     2023/08/02
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+394838dfe0bc Revert "fixup! SystemUI: Add double tap to sleep gesture"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+192aab5 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+69b742ba2a Settings: Remove Evolution icon from AndroidManifest
+e7ab7aefc7 Settings: Device name preference changes
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/tiramisu
+
+6a053f4 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+0ca8dc13 kernel: Don't try to do math on empty kernel version
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+da7b802 Automatic translation import
+
+
+=======================
+     2023/08/01
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9c33eb4 common: overlay: Allow VoLTE and VoWiFi/WFC by default
+ed423ca vendor: init: audio HAL: Optimize for Spatial Audio
+9662cb7 vendor: init: audio HAL: Enable RT priority inheritance
+28af2ee vendor: init: Replace direct pid writes with setting task profiles for audio interfaces
+469a508 vendor: media-5.4: Fix inherit on AOSP
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+2e70e644bd60 SystemUI: Import more qs header
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8450
+
+eff8e6c libagmclient: Do not error on format issues
+08062be ipc: Update own paths
+0e7e65a AGMIPC@1.0-service: make libagm_headers headers lib available
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8450
+
+ffc7ba03 pal: silence format/unused parameter/variable errors
+8a541189 pal_ipc_server: add include path for PalApi.h
+078acc0a pal: plugins: disable on OSS builds due to missing headers
+5571a3df pal: Update own paths
+f9fc0961 libpalclient: Do not error on unused parameters, variables and format
+8e319c05 kvh2xml: add additional needed tags for post_proc effects
+c8205ada pal: create libpal_headers module
+f9f6a66f Remove kvh2xml.h imports
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-20.0-caf-sm8450
+
+f9d871aaa audio-ar: Add attribute [[fallthrough]]
+f8a213122 primary-hal: Update paths to agm and pal
+416d8688d hal: Enforce -Wno-format
+6f176fd37 effects: post_proc: add libarpal_headers header library
+00d81b9f7 audio: s/PRODUCT_PROPERTY_OVERRIDES/PRODUCT_VENDOR_PROPERTIES/g
+3b63d1865 adsprpcd: Drop dependency on proprietary headers and fix build errors
+6dcc88fbf audio: config: Use project pathmap
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8450
+
+15d92d87d composer: change ndk_platform dependencies to ndk
+6563291bc display: Define init script modules properly.
+f8cb829b3 display: s/PRODUCT_PROPERTY_OVERRIDES/PRODUCT_VENDOR_PROPERTIES/g
+ca72a2907 Fix -Wformat errors with explicit void* -> char* cast.
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8550
+
+48cdaa8e4 display: fix remaining code issues
+1202714cd display: silence format compilation issues
+79e47a9df display: Remove dependencies of display specific kernel headers
+07f2c7490 gralloc: drop unused variables
+cb2688ed2 gralloc: drop prebuilt libvmmem dependency and use dlopen instead
+abd3104c5 gralloc: replace proprietary libvmmem_headers with reversed vmmem.h
+0b37f9441 display: Define init script modules properly.
+7b87e2386 display: s/PRODUCT_PROPERTY_OVERRIDES/PRODUCT_VENDOR_PROPERTIES/g
+c1c5047ac Fix -Wformat errors with explicit void* -> char* cast.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+701413e New Crowdin updates (#226-#509)
+9132855 Evolver: Changes for A13 QPR3
+
+
+=======================
+     2023/07/31
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+929aa43469ae [HACK] PixelPropsUtils: Spoof Galaxy S23 for YouTube
+76b528eb6925 Revert "SystemUI: Block Snapchat from reticker"
+8b8eacc8dc92 PixelPropsUtils: Nuke spoofing Pixel XL/Pixel 2
+0ed9f494570c [SQUASH] hwui: Remove glass blur effect [1/2]
+ebd063fb3277 LockscreenCharging: Add divisor current overlay
+9141d34e7d94 LockscreenCharging: Calculate power from voltage and current
+500ce8f887df KeyguardIndication: fix fc on lockscreen charging info
+a25429aed37f SystemUI: Fix current formatting on lockscreen
+15282907ba7e SystemUI: keyguard show charging watt
+611b2b7dfa50 [SQUASH] base: Lockscreen Charging (1/3)
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8450
+
+4204a64 plugins: disable modules on OSS builds that depend on proprietary headers
+6f5426d AGMIPC@1.0-impl/libagm: exclude from OSS builds
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8450
+
+1e633bcd Revert "pal: Use ListenSoundModelLib.h from header library"
+b49d4ffa Revert "QAL: Change in location of kvh2xml.h"
+25a4ca4f pal: skip libar-pal on OSS builds
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-20.0-caf-sm8450
+
+ea69fa2c4 audio: Use direct project pathmap
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8450
+
+d789b02e5 display: Fix conflicting soong_namespace imports
+bd400fff8 Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT
+a747dc57c Add C2D_FORMAT_BT601_FULLRANGE to C2D_FORMAT_MODE
+1a604e2b7 Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT
+011207033 display: config: Use project pathmap
+ace5ce941 display: Use project pathmap
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+84ddd03 libagmclient: Do not error on format issues
+3708752 ipc: Update own paths
+e61ebdf plugins: disable modules on OSS builds that depend on proprietary headers
+8db5a2a AGMIPC@1.0-impl/libagm: exclude from OSS builds
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8550
+
+804e6e53 ipc: Update own paths
+8bfea093 pal_ipc_server: Skip on OSS builds
+18d53325 kvh2xml: add additional needed tags for post_proc effects
+a6e620ed libpalclient: Do not error on unused parameters, variables and format
+6a985278 pal: plugins: disable on OSS builds due to missing headers
+dd9c71b0 pal: Expose more headers under libarpal_headers module
+8ed484aa Revert "pal: Use ListenSoundModelLib.h from header library"
+b1b63515 Revert "QAL: Change in location of kvh2xml.h"
+fb599a48 pal: skip libar-pal on OSS builds
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-20.0-caf-sm8550
+
+f08825f62 primary-hal: Update paths to agm and pal
+2ea80b9de hal: Include ipc headers from agm and pal
+5d26b5e27 hal: Add dependency on libarpal_headers
+adfa6bc3b hal: Enforce -Wno-format
+b98ced015 adsprpcd: Import missing string.h header
+584a7d562 audio: s/PRODUCT_PROPERTY_OVERRIDES/PRODUCT_VENDOR_PROPERTIES/g
+33fd781b0 adsprpcd: Drop dependency on proprietary headers and fix build errors
+419b0767b audio: config: Use project pathmap
+4128d4877 audio: Use direct project pathmap
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8550
+
+f870cc1c8 display: Fix conflicting soong_namespace imports
+bbc4b7ce8 display: config: Use project pathmap
+1765b40a1 display: Use project pathmap
+
+* Repository: https://github.com/Evolution-X/packages_apps_EvoEgg/commits/refs/heads/tiramisu
+
+4c576df EvoEgg: Update dynamic app icon
+17ed15a EvoEgg: Use adaptive icon
+5b161d5 EvoEgg: Exclude from Google backup
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+d7ee68c304 Revert "Launcher3: Sync blur radius with frameworks"
+
+* Repository: https://github.com/Evolution-X/system_core/commits/tiramisu-pixel
+
+90c183f2e core: Lockscreen Charging (2/3)
+
+
+=======================
+     2023/07/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+632aafb2a528 SystemUI: fix missing rotate suggestion in 2 button nav mode
+f5bbe5b61067 SystemUI: show ime switcher + cursor keys if we have space
+bf6f471720cf Add keylayout mapping for Dualsense Edge gamepad
+a9606ebf0c4e Avoid recursion for leaf task fragment in freeform mode
+31f86ae4de3d Fix the concurrency issue when 'linkToDeath' in AccountManagerService that leads to JE
+7339f13d5e97 Fix Invalid Surface error
+e327f8560d1d UpdateEngine: Add perf mode binder interface
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8450
+
+074c583 Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8450
+
+e0f3613e Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-20.0-caf-sm8450
+
+762808701 Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8450
+
+750846593 Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8450
+
+5f41035ba media: s/PRODUCT_PROPERTY_OVERRIDES/PRODUCT_VENDOR_PROPERTIES/g
+39e8bb014 media: Use project pathmap
+2a6f4e8db Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+6bf0b5a Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8550
+
+1baf0bdd Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-20.0-caf-sm8550
+
+6f71a84af Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8550
+
+ccfe57718 Add .gitupstream file
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8550
+
+d4463deef media: s/PRODUCT_PROPERTY_OVERRIDES/PRODUCT_VENDOR_PROPERTIES/g
+3369ee7f1 media: Use project pathmap
+d161b417f Add .gitupstream file
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/tiramisu
+
+a0beb21 Updater: Allow toggling A/B perf mode
+60063e7 Updater: Don't show delete twice
+409648f Updater: Align with Settings / Materialize
+8d7f05b Updater: Drop usage of NetworkInfo
+8ff930b Updater: Check if network is really metered
+81d6408 [SQUASH] Updates: Bring back fetching and changelog button
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/tiramisu
+
+7fcef473 update_engine: Add performance mode
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+0267ee82 kernel: NO_GCC: Fix compilation with custom baremetal clang
+
+
+=======================
+     2023/07/29
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/tiramisu-pixel
+
+61dc5b88d Merge tag 'android-13.0.0_r66' of https://android.googlesource.com/platform/build into tiramisu
+375726ed7 build: Guard more lines related to AOSP ringtones
+314041846 Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
+517574e60 soong: Add ability to build scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+bd7546c73782 Show a double arrow when almost triggered in new back affordance as well
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom-caf_common/commits/lineage-20.0
+
+b7371b2 Introduce os_pickup_audio-ar
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-pixel
+
+9a1524e manifest: Update README.md
+008bde8 qcom: Sync core-utils-sys and core-utils-vendor
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+34354c1a90 Settings: Add Device codename to Firmware version window
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+4c27524c Revert "overlay: Stop force disabling ASI Ambient Music component"
+81ecaa9b qcom: Prepare for non-legacy dataservices
+
+
+=======================
+     2023/07/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+303726650ee2 DisplaySettings: font size in 5% steps from 80% to 130% [1/2]
+32ced68bdf2b SystemUI: Tell user when face unlock detection is running
+7124b9c203c0 SystemUI: Block Snapchat from reticker
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+c9be184 Aperture: Update CameraX to 1.3.0-beta02
+c32bb3d Aperture: Restore old flash mode after Torch
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+2789261891 DisplaySettings: font size in 5% steps from 80% to 130% [2/2]
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices/commits/refs/heads/lineage-20.0
+
+c8adc2a rmnetctl: Conditionally remove rmnet_data header include
+
+
+=======================
+     2023/07/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-pixel
+
+b8f2ebc89fb5 Reticker: Fix NPE and further optimize animation
+5bb52aa6c69b SystemUI: Block dialer apps from reticker
+df052897b329 services: Fix crash on callback remote animator
+7909a7b4c389 Fix potential NPE when callback remote animator
+ddb6d1df6710 fixup! SystemUI: Check primitive vibration support in new quick affordances
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+1c64102 Aperture: Preserve classes extending SettingsFragment
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+249a52ee0b Revert "Settings: Sync Security Hub pref with pixel-framework"
+35a195b118 Settings: Import animations from SettingsGoogle
+12e21d1bfa Settings: Add missing animations for gestures and features
+169ee235cf Fix incorrect switch status when user stay in NightDisplaySettings page while scheduled night lights on
+2dec977d0c Match APN types with ignoring the case
+c6abb10117 Settings: PreventRingingGesture: remove unneeded check.
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+aad44684f5 gd: hci: Allow disabling selected local commands
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/tiramisu-pixel
+
+b7d701b2 config: Don't build Aperture by default
+51073e97 Updated v3 manifest to version 3060
+
+
