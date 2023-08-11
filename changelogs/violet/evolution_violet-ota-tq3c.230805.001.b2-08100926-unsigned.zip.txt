@@ -1,0 +1,79 @@
+version: Update to 7.9.7 (Pinakbet)
+
+==============================
+Device changes:
+==============================
+- overlay: Unpin all RenderScript libs
+- wifi: Configure correct overlay configuration.
+- Set block_binder_thread_on_incoming_calls prop 
+- overlay: Set Correct bool for Smart charging feature
+- Update maintainer links
+- overlay: Enable Build status info
+- audio: Tune audio output 
+- audio: Switch back to 16-bit audio for playback
+- Update clang to 17.0.3
+- Also some kernel side changes
+
+------------------------------
+ROM changes:
+==============================
+
+8/9
+Change Linkify to use defaultCountry if simCountryIso is empty.
+Check if input method is enabled before showing missing keyboard layout notification
+PixelPropsUtils: Refactor logic and cleanup
+SystemUIGoogle: Hide now playing icon if not clickable
+
+8/8
+AudioService: focus listener: enable it when using external AudioFocus
+Launcher3: Fix troubleshoot the video crossover display exception
+Merge August 2023 security patches (13.0_r74)
+ParallelSpace: Update deprecated APIs and optimize lookup
+PixelPropsUtils: Set HARDWARE, ID values
+PixelPropsUtils: Update fingerprints to August 2023 release
+SystemUI: Resolve crash when updating control list services
+SystemUIGoogle: Rewrite AmbientIndicationContainer to kotlin
+always auto-grant permissions that have "normal" protectionLevel
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+base: ApplicationPackageManager: Return early for Tensor check
+compatibility_matrices: Allow radio.config@1.0 till target-level 5
+config: Disable Deep Press touch video heatmaps
+core: Improve notification toast format and fix for apps < sdk 29
+fixup! Match legacy toast view with SystemUI
+gms: Build Cinematic Wallpapers for Pixel 6 and newer
+version: Update to 7.9.7 (Pinakbet)
+
+8/7
+NFC: Fix Android Beam
+PixelPropsUtils: Correctly spoof unstable process
+PixelPropsUtils: Spoof all wallpaper packages to Pixel 7 Pro
+
+8/5
+Fix possible NPE in StatusBarIconList causing bootloop
+Notification counter: Account status bar top padding when calculating height
+Settings: Fix findPeakRefreshRate logic
+Settings: Update 90hz string replace hack in displayPreference
+recovery: Clear BCB before rebooting to recovery
+recovery: Simplify reboot recovery reason
+
+8/4
+Camera: Bump up the extension jpeg processor blob size
+Catch IllegalStateException in Telecom when the Bluetooth process is down
+Launcher3: Fix memory info calculation
+Launcher3: Move meminfo instance creation out of runnable
+Launcher3: Rework MeminfoView available ram calculation
+Reticker: Bump to v1.1
+SysUIToast: Remove restrictions on toast app icon
+libcameraservice: extend support for Oppo Camera
+libcameraservice: Guard miui camera workarounds
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+
+8/1
+SystemUI: Import more qs headers
+Updater: Preferences: allow overlaying default values for some preferences
+Updater: Show the correct percentage during package installation
+
+7/31
+Add helper method for config file converter classes used by HAL
+PixelPropsUtils: Spoof Galaxy S23 for YouTube
+media: update path for vendor specific config file
