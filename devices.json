@@ -931,6 +931,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "lisa",
+      "name": "Xiaomi 11 Lite NE 5G/Mi 11 LE",
+      "supported_versions": [
+         {
+            "maintainer_name": "Zaid Khan (@zaidkhan0997)",
+            "maintainer_url": "https://forum.xda-developers.com/m/zaidkhan0997.9099781",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-lisa-official-evolution-x-08-13-23.4616047/",
+            "device_group": "EvolutionXLisa"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "rosemary",
       "name": "Redmi Note 10S",
       "supported_versions": [

@@ -1,0 +1,48 @@
+Notes:
+==============================
+Clean flash needed 
+Use proper flashing guide
+
+Flashing Guide:
+==============================
+*Reboot to bootloader (fastboot)
+*Connect your phone to PC
+*fastboot flash dtbo.img
+*fastboot flash vendor_boot vendor_boot.img
+*fastboot flash boot boot.img
+*fastboot reboot recovery
+*Select Wipe data/factory reset & confirm
+*Go back and select Apply update from ADB
+*adb sideload Evolution*.zip(or drag down the rom zip to cmd)
+
+Then kindly perform a format data in the recovery afterwards.
+
+Reboot! Enjoy! #KeepEvolving
+
+------------------------------
+Device changes:
+==============================
+Initial Official Android 13 build 
+QuicksilveR is default kernel ( thanks to @ghostrider_reborn )
+leica 5.0 is default camera ( thanks to @sevtinge_mod )
+Using POS Trees ( thanks to @whyredfire )
+------------------------------
+
+ROM changes:
+==============================
+8/12
+Avoid potential NPE when using DownloadManager
+Games/PixelPropsUtils: Fixes and spoofing improvements
+Reticker: Bump to v1.1 (fixed)
+Toast: Perform text scrolling for long toast texts
+
+8/11
+DeviceConfig: Change setProperties behavior
+DeviceConfigUtils: Make debug optional
+SystemUIGoogle: Fix BatteryControllerImplGoogle injection
+SystemUIGoogle: Sync forked dagger files with SystemUI
+overlays: Allow default notification listener access for ParanoidGlyph
+vendor: Drop SimpleDeviceConfig
+vendor: Move custom device configs to global_device_configs_override
+vendor: SimpleDeviceConfig: Isolate pixel specific configs and cleanup
+vendor: Update now playing configs from gms
