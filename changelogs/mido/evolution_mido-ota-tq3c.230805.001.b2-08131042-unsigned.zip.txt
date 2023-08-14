@@ -1,0 +1,44 @@
+This is Android 13 with July 2023 (r74) security patches
+Build Date: 14/August/2023
+
+Notes:
+==============================
+- Only Dirty flash or update via OTA if you are coming from previous evolution x official encrypted build if coming from unofficial or other builds better do a clean flash
+- FBE (File based encryption) enabled by default *
+- NON - RETROFIT BUILD. Flash or Update as usual, with normal method.
+- * use updated TWRP (https://github.com/zeelog/device_mido_twrp/releases/tag/2.0)
+- Use zeelog's lineageos method to flash the rom or follow the following steps given here: [Guide](https://raw.githubusercontent.com/NRanjan-17/Evolution-X-Releases/main/install_guide.md)
+- Clean Flash Recommended
+- Always dirty flash at your own risk.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+
+Device changes:
+==============================
+- No Changes
+
+------------------------------
+
+ROM changes:
+==============================
+8/13
+BoostFramework: Kill logcat spam on devices without QPerformance
+Fix GameSpace/Parallel Space issues
+SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel
+telephony: RadioMessagingProxy: Fix sending CDMA SMS in sendImsSms()
+
+8/12
+Avoid potential NPE when using DownloadManager
+Games/PixelPropsUtils: Fixes and spoofing improvements
+Reticker: Bump to v1.1 (fixed)
+Toast: Perform text scrolling for long toast texts
+
+8/11
+DeviceConfig: Change setProperties behavior
+DeviceConfigUtils: Make debug optional
+SystemUIGoogle: Fix BatteryControllerImplGoogle injection
+SystemUIGoogle: Sync forked dagger files with SystemUI
+overlays: Allow default notification listener access for ParanoidGlyph
+vendor: Drop SimpleDeviceConfig
+vendor: Move custom device configs to global_device_configs_override
+vendor: SimpleDeviceConfig: Isolate pixel specific configs and cleanup
+vendor: Update now playing configs from gms
