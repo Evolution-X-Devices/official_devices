@@ -1,0 +1,7 @@
+-Cleaned up all the device trees
+-Redumped all OnePlus blobs freshly from OOS 13.1.0.500(EX01)
+-Updated kernel to v5.4.253
+
+Fixed following bugs:
+-Hasselblad watermark crashing sometimes
+-Recovery not flashing magisk
