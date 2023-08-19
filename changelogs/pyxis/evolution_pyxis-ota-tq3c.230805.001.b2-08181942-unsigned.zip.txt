@@ -1,0 +1,82 @@
+This is Android 13 with August 2023 (r74) security patches
+
+Device changes:
+========================
+- Switched to Pico gapps
+========================
+
+========================
+- ROM changes:
+========================
+
+8/18
+Camera: Fix typos in CameraExtensionSessionImpl
+Evolver: Introduce Data icon styles
+Fix invalid code link, update exception message
+Only spoof packages installed by Aurora Store as installed via Google Play Store and modify new API
+SystemUI: Launch power menu from QS only if enabled
+Unmount unusable partition instead of putting device into crashloop
+Usb: Fix incorrect mapping of port mode constants
+
+8/17
+PixelPropsUtils: Partial spoofing improvement
+core: legacy toasts deserve rounded corners too
+
+8/16
+Settings: CutoutForceFullscreen: Add "Show system" menu
+
+8/15
+GamesPropUtils: Switch back BGMI to OnePlus 8 Pro
+Settings: Remove LTE only mode
+
+8/13
+BoostFramework: Kill logcat spam on devices without QPerformance
+RadioMessagingProxy: Fix sending CDMA IMS SMS
+SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel
+
+8/12
+Avoid potential NPE when using DownloadManager
+Toast: Perform text scrolling for long toast texts
+
+8/11
+SystemUIGoogle: Fix BatteryControllerImplGoogle injection
+SystemUIGoogle: Sync forked dagger files with SystemUI
+overlays: Allow default notification listener access for ParanoidGlyph
+
+8/9
+Change Linkify to use defaultCountry if simCountryIso is empty.
+Check if input method is enabled before showing missing keyboard layout notification
+PixelPropsUtils: Refactor logic and cleanup
+SystemUIGoogle: Hide now playing icon if not clickable
+
+8/8
+AudioService: focus listener: enable it when using external AudioFocus
+Launcher3: Fix troubleshoot the video crossover display exception
+Merge August 2023 security patches (13.0_r74)
+PixelPropsUtils: Set HARDWARE, ID values
+PixelPropsUtils: Update fingerprints to August 2023 release
+SystemUI: Resolve crash when updating control list services
+SystemUIGoogle: Rewrite AmbientIndicationContainer to kotlin
+always auto-grant permissions that have "normal" protectionLevel
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+base: ApplicationPackageManager: Return early for Tensor check
+compatibility_matrices: Allow radio.config@1.0 till target-level 5
+config: Disable Deep Press touch video heatmaps
+core: Improve notification toast format and fix for apps < sdk 29
+fixup! Match legacy toast view with SystemUI
+gms: Build Cinematic Wallpapers for Pixel 6 and newer
+version: Update to 7.9.7 (Pinakbet)
+
+8/7
+NFC: Fix Android Beam
+PixelPropsUtils: Correctly spoof unstable process
+PixelPropsUtils: Spoof all wallpaper packages to Pixel 7 Pro
+
+8/5
+Fix possible NPE in StatusBarIconList causing bootloop
+Notification counter: Account status bar top padding when calculating height
+Settings: Fix findPeakRefreshRate logic
+Settings: Update 90hz string replace hack in displayPreference
+recovery: Clear BCB before rebooting to recovery
+recovery: Simplify reboot recovery reason
+
