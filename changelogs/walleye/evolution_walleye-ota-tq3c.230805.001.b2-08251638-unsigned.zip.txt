@@ -1,0 +1,11 @@
+=======================
+     2023/08/26
+=======================
+
+- August security path
+- Initial minimal privapp permissions
+- Don't dump serial number
+- Remove all permissions from serial_number
+- Restrict access to serial_number
+- Kernel improvements
+- Performance and under the hood improvements
