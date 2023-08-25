@@ -1,0 +1,3 @@
+-Reduced the optimization levels back to O2, to fix some instabilities
+-Reverted the QTI Thermal HAL, phone seems to sustain performance better, with one caviat: Google Photo backup may complain that the phone is too hot after syncing a lot of files
+-Removed QTI's ServiceTracker and IQPSMHal, since they are not needed
