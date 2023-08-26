@@ -1,0 +1,43 @@
+[DEVICE]
+- kernel: Merged latest linux patch v4.14.320
+- Updated dolby blobs (now is Moto Audio; has better sound effects)
+- Addresed more dolby denials
+- Unlocked gc5035 camera (to use all aux cams properly; you can now use it from aperture)
+- Screen flickers might be fixed now (still need more testing)
+- dirac: Fix scenes
+- dirac: modify app display name and summary
+- dirac: Use vector drawable for Dirac™ logo
+- Increase auto brightness levels
+- Load libstagefrightdolby for dolby codecs
+- Add dolby prop and enable ds2 hard bypass
+- Adjust audio class for in call noise cancellation
+- WifiOverlay: rro: set proper default hotspot ssid
+- Avoid migrating foreground tasks to prime
+- audio: Enable 24-bit for deep buffer
+- Import Vibrator Effects for QTI Effects Hal
+- Store Socket ID for drivers
+- Allow vendor init to set SSR property
+- Enable aptX(HD) offload
+- audio: Use qcom implementation for sw effects (thick and sick bass and sound)
+- Removed A2DP AOSP implementation and added Realme implementation for better bluetooth audio
+- Added supported audio formats in A2DP realme implementation 
+- Enabled a2dp offload props
+- Enable avrcp controller bluetooth profile
+- Restore vendor bluetooth props
+- powerhint: Add Top App Uclamp boosting
+- fingerprint: Use foreground cpuset/uclamp
+- fingerprint: Set thread to high CFS priority
+- Speed up auto-brightness ramp up
+- Made the overall system vibrations better
+- Do not allow backup of overlays
+- realme Lab: add disable fast charge toggle
+- realme lab: add sections in misc and a warning for beta
+- realme lab: add italian translation
+- More here-and-there under-the-hood changes
+
+[SOURCE]
+- Merged July security patch
+- Version bumped to v7.9.5 Chicharon
+- Includes all the source changes till date
+
+#KeepEvolving
