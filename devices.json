@@ -1006,6 +1006,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "vili",
+      "name": "Xiaomi 11T Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXVili",
+            "maintainer_name": "Paul",
+            "maintainer_url": "https://t.me/blazerpaul15",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "rosemary",
       "name": "Redmi Note 10S",
       "supported_versions": [
