@@ -1,0 +1,16 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Merge kernel upstream v4.14.325
+- Add and ship prebuilt textclassifier (fixes the issue selecting and copying texts to the clipboard)
+- Support and enable the toggle for fast charge
+
+**Evolution X Update**
+
+- Fix Parallel processing for MIUI/Leica camera
+- core: Mitigate a crash when there are more than one installer intent received
+- Evolver: Make Combined QS headers optional with toggle
