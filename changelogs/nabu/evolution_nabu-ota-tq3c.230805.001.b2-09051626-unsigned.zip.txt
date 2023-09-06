@@ -1,0 +1,148 @@
+version: Update to 7.9.7 
+
+==============================
+Device changes:
+==============================
+- Fixed Youtube 1080P 60FPS lags
+- Enable HDR
+- Fixed the deepsleep
+- Fixed resolution and DPI
+- Updated newer Adreno and Graphic blob stack from 8350 
+- Dropped a couple of blob stacks
+- Implemented HubUI(Screensavers) from Pixel Tab
+- Updated Graphics stack
+- Switched to CAF surfaceflinger
+- Removed  redundant blobs/apps/services that our device won't use
+- Lot of Miscellaneous Improvements
+
+------------------------------
+ROM changes:
+==============================
+
+=======================
+     2023/09/01
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+bf13860 vendor: Always copy charger init for non-AIDL devices
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+75330b64 SystemUI: Add support for toggling Combined QS Header (1/2)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+e44fb2a Evolver: Make Combined Qs Headers Optional with Toggle (2/2)
+
+
+=======================
+     2023/08/31
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+225fe69 Settings: Update Glide library to 4.16.0
+
+
+=======================
+     2023/08/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+c1656e1 Revert "MIUI13 devices hide their vibrator HAL behind non-default name: "vibratorfeature""
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/tiramisu
+
+decbeb4 vibrator: Create double click effect by "clicking" twice
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+1acb677 Launcher3: Move split overview action before screenshot
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+998417b kernel: Support copying modules to recovery
+
+
+=======================
+     2023/08/29
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+377c718 thermal_hal: Update skin temperature threshold for lito
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commits/refs/heads/lineage-20.0
+
+651ba2f gralloc: Fix custom content metadata region support
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+dbb7b13 power: Unbreak isModeSupported() for DOUBLE_TAP_TO_WAKE and LAUNCH
+
+
+=======================
+     2023/08/28
+=======================
+
+
+=======================
+     2023/08/27
+=======================
+
+
+=======================
+     2023/08/26
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware_legacy/commits/refs/heads/tiramisu
+
+094778c wifi_hal: Add interface to get driver supported iface combinations
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-20.0-caf-sm8150
+
+9c4bbce sdm: hwc: Allow enabling doze mode support with a property
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+d9a43ea manifest: Switch to our own fork of hardware/libhardware_legacy
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+fdf0125 gms: Added tangorpro gcam
+
+
+=======================
+     2023/08/25
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+7ddba31a6 build: target: Move TeleService to telephony_system.mk
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/tiramisu
+
+a339f12 SEPolicy.mk: evolution
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+a75c7d4 Aperture: Update CameraX to 1.3.0-rc01
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+145ff02 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/08/24
+=======================
+
+
+=======================
+     2023/08/23
+=======================
+
+
+
