@@ -540,6 +540,36 @@
       ]
    },
    {
+      "brand": "Samsung",
+      "codename": "gta4xlwifi",
+      "name": "galaxy tab s6 lite (wifi)",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXgta4xl",
+            "maintainer_name": "Harshit Sinha (PhatWalrus)",
+            "maintainer_url": "https://forum.xda-developers.com/m/phatwalrus.12377719/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-encryption-unofficial-evolution-x-7-9-x-for-tab-s6-lite-wifi-lte.4611759/#post-88971633/"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "gta4xl",
+      "name": "galaxy tab s6 lite",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXgta4xl",
+            "maintainer_name": "Harshit Sinha (PhatWalrus)",
+            "maintainer_url": "https://forum.xda-developers.com/m/phatwalrus.12377719/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-encryption-unofficial-evolution-x-7-9-x-for-tab-s6-lite-wifi-lte.4611759/#post-88971633/"
+         }
+      ]
+   },
+   {
       "brand": "Xiaomi",
       "codename": "tissot",
       "name": "Mi A1",
