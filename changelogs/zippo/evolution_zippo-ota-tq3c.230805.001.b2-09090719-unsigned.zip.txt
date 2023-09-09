@@ -1,0 +1,21 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.325
+- Add Fast Charge toggle
+- Ship prebuilt textclassifier (fixes the issue selecting texts and copying to the clipboard)
+- Support Charging Control
+
+**Evolution X Update**
+
+- core: Mitigate a crash when there are more than one installer intent received
+- overlay: Treat org.lineageos.settings as privileged
+- Evolver: Make Combined QS headers optional with toggle
+- Evolver: Add optional haptic feedback to volume panel
+- fixup! Launcher3: Allow hiding top shadow on statusbar
+- Implement Lineage health service for Charging Control and remove Smart Charging
+- config: Disable OTA Updater for A14
+- Update translations
