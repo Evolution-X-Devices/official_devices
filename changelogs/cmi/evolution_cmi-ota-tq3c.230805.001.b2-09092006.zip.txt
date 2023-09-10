@@ -1,0 +1,100 @@
+  
+2023-06-29
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to V13.0.6.0 (China)
+- Use correct recovery
+
+
+ROM:
+
+9/9
+
+Launcher3: ensure to update cached thumbnail if we take new one
+
+Launcher3: Import improvements from motorola
+
+Launcher3: remove weird brown tint from tablet task menu
+
+SystemUIGoogle: googlebattery: rework system feature check sequence
+
+config: Disable OTA Updater for A14
+
+fixup! Launcher3: Add recents and app drawer opacity customization
+
+fixup! Launcher3: Allow changing max lines for app label
+
+
+9/8
+
+Implement Lineage health service and remove Smart Charging
+
+Settings: Add charging control preferences
+
+Settings: storage: don't skip primary user when listing non-logged in users
+
+custom_apns: Check MCC/MNC for override APN
+
+
+9/7
+
+fixup! Launcher3: Allow hiding top shadow on statusbar
+
+fwb: silence batteryexternalstatsworker spam
+
+native: Add simple FEAS support
+
+native: Fix the shadow problem caused by layer parent switching
+
+
+9/6
+
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+
+9/5
+
+Evolver: Add optional haptic feedback to volume panel
+
+
+9/4
+
+BluetoothControllerImpl: Optimize connected battery level scanning
+
+gms: Don't build game_service
+
+
+9/3
+
+Fix Parallel processing for MIUI/Leica camera
+
+
+9/2
+
+Evolver: Hide signal-related themes for Wifi-only devices
+
+
+9/1
+
+AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress
+
+Evolver: Make Combined QS headers optional with toggle
+
+overlay: Treat org.lineageos.settings as privileged
+
+
+8/31
+
+Crash occurs when entering a Bluetooth broadcast password
+
+Settings: Update Glide library to 4.16.0
+
+Use ArrayMap to cache active subscriptions
+
+And More ...
