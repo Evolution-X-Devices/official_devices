@@ -1,0 +1,24 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Drop prebuilt textclassifier
+- Support Charging Control (which replaces Smart Charging)
+- Extend fastcharge implementation (allows to set the current charge when fast charge is not enabled)
+- Add KernelSU support
+
+**Evolution X Update**
+
+- BluetoothControllerImpl: Optimize connected battery level scanning
+- Evolver: Add optional haptic feedback to volume panel
+- fixup! Launcher3: Allow hiding top shadow on statusbar
+- Implement Lineage health service and remove Smart Charging
+- fixup! Launcher3: Allow changing max lines for app label
+- config: Disable OTA Updater for A14
+- SystemUI: Enable power menu blur via window flags
+- Bring back TextClassifier packages (to fix clipboard issues)
+- Extend Fastcharge implementation
+- Update translations
