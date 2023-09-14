@@ -1,0 +1,17 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Drop prebuilt textclassifier
+- Extend fastcharge implementation (allows to set the current charge when fast charge is not enabled)
+- Add KernelSU support
+
+**Evolution X Update**
+
+- fixup! Launcher3: Allow changing max lines for app label
+- SystemUI: Enable power menu blur via window flags
+- Bring back TextClassifier packages (to fix clipboard issues)
+- Extend Fastcharge implementation
+- Update translations
