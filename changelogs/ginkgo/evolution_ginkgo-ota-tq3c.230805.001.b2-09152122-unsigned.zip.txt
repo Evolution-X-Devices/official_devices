@@ -1,0 +1,14 @@
+This is Android 13 with August 2023 (r74) security patches
+
+Notes:
+==============================
+Micam is included
+Dolby Atmos is included
+Launcher3 aka EvolutionX Launcher is Present
+Dirty Flash from previous builds is fine
+
+Changelog:
+==============================
+• HOTFIX BUILD for Lineage Health adaptation weirdly causing device not charging for some.
+• Disable LiveDisplay (we have color calibration settings in XiaomiParts)
+------------------------------
