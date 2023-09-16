@@ -1,0 +1,13 @@
+[DEVICE]
+- kernel: Merged latest linux patch v4.14.323
+- Added RU translation to realme Lab
+- Added pocket mode support
+- Added GCamGO as default camera
+- More here-and-there under-the-hood changes
+
+[SOURCE]
+- Merged August security patch
+- Version bumped to v7.9.7 Pinakbet
+- Includes all the source changes till date
+
+#KeepEvolving
