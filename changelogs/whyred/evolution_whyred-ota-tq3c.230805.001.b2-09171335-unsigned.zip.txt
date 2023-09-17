@@ -1,0 +1,61 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue. 
+- If you found any issue then kindly report 
+with logs in device support group. 
+
+Device changes: 
+==============================
+- September sp
+- Switched to 4.19 kernel
+- Switched to retrofit dynamic partition
+- Forcefully added dt2w support in every rom
+- Updated blobs
+- Improved system performance
+- Updated device settings
+- Switch to New kernel (thnx to ScarletX and Kcuf)
+- Many more underhood changes
+------------------------------
+
+
+Flashing Steps:
+===============
+
+• Put required files (evox ROM & dynamic partition supported ofox/pb/twrp) to your microsd
+
+• Backup any files inside internal storage
+
+• Reboot to recovery and Go to your microsd
+
+• Select ofox recovery zip file from step 1
+
+• Reboot to dynamic partition recovery
+
+• Select rom and flash
+
+• Ignore any error message (because your partition didn’t yet on dynamic type)
+
+• After installation complete, select “Factory Reset”
+
+• Select “Format data/factory reset”
+
+• Select “Format data”
+
+• Go back to Main Menu
+
+• Select “Reboot to System”
+
+Enjoy!
+
+How to dirty flash build:
+========================
+
+• Reboot into recovery
+
+• select rom zip
+
+• flash rom zip
+
+• flash magisk if needed
+
+• do wipe cache and reboot
