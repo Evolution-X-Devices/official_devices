@@ -1,0 +1,7 @@
+device_oneplus_sm8350-common:
+- Adjusted pinned libraries
+
+device_oneplus_lemoandep:
+- Fixed the old status bar size
+- Added 64 bit version of libbluetooth_audio_extend_factory_client.so
+- Added missing libqti_vndfwk_detect.so

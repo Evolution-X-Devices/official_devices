@@ -1,0 +1,150 @@
+This build you're receiving is evolution_veux-ota-tq3c.230805.001.b2-08231210-unsigned.zip comes with August security patch.
+==========================================
+Notes:
+==========================================
+CTS passes by default.
+Dirty Flash is possible.
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+• Comes with August Security Patch.
+• Miui Cam is default cam.
+• Comes with Evolution X Launcher.
+• Battery Configs information is fixed.
+• QR Scanner works fine again (Says Updating Before).
+• Synced with latest source changes.
+• Drop old non used stuff.
+• Switch to VEUX ril stack.
+• Drop input boost.
+• Optimise dex flags.
+• Fixed status bar padding.
+• Cts passes by default.
+• OnePlus Dolby and Spatial Audio is Shipped within the rom.
+• Dirty flash is fine from previous released update.
+• Overall Stability And Improvements.
+==========================================
+ROM Changelogs:
+==========================================
+=======================
+     2023/08/23
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+b9811c13 services: Bypass security check when checking provider permissions for google apps
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+e019cbe fixup! qcom: Add taro HALs
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+3d2f220 Settings: Firmware version changes
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+535c4d1 Revert "rro_overlays: Unset config for QR code scanner"
+
+
+=======================
+     2023/08/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+1048b91 New Crowdin updates (#226-#509)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+a097e85 SystemUIGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/08/21
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+0e80227 fixup! RadioMessagingProxy: Fix sending CDMA IMS SMS
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+5d995af GameSpace: Add missing permission usage for Danmaku service
+
+
+=======================
+     2023/08/20
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+c03c5b5 Aperture: Reformat code [2/2]
+
+
+=======================
+     2023/08/18
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+c1d234f btm: allow BTM_VSC_CHIP_CAPABILITY_RSP_LEN_M_RELEASE to be adjustable
+
+
+=======================
+     2023/08/16
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+c0a749f common: sepolicy: Adapt to new sepolicy changes
+
+
+=======================
+     2023/08/14
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+9002a83 art: Add support for Cortex-A510
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+1f6cde7 Add armv9-a arch variant.
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/tiramisu
+
+c3bf628 Use -march=armv9-a+nosve for Armv9-A arch variant
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+15fa387 thermal_hal: Update skin temperature threshold for sdm845
+
+
+=======================
+     2023/08/13
+=======================
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_bengal_gps/commits/thirteen
+
+b8f1c77 gps: Adapt folder to bengal
+
+
+=======================
+     2023/08/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+4b5515a extract-utils: Try to use arch specific vdex for JARs
+
+
+=======================
+     2023/08/10
+=======================
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_bengal_audio/commits/thirteen
+
+76884ec Merge tag 'LA.UM.9.15.r1-07500-KAMORTA.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio into thirteen

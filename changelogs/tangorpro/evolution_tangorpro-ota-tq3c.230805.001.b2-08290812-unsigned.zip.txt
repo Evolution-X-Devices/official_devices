@@ -1,0 +1,6 @@
+tangorpro: Enable GMS-specific product overlays 
+tangorpro: Switch back to the previous boot animation style
+tangorpro: Ship SmartDisplayPrebuilt
+Launcher3: Add product type variations to some strings
+Settings: Add product type variations to some strings
+Settings: Highlight The Evolver when opening Settings in TwoPane mode

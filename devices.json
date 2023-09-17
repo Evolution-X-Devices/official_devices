@@ -5,12 +5,12 @@
       "name": "Zenfone Max Pro M2",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Sonal Singh",
             "maintainer_url": "https://forum.xda-developers.com/m/sonalsingh18.8425394",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
-            "device_group": ""
+            "xda_thread": ""
          }
       ]
    },
@@ -20,12 +20,12 @@
       "name": "Zenfone 5Z",
       "supported_versions": [
          {
+            "device_group": "EvolutionXZ01R",
             "maintainer_name": "Aryan Arora",
             "maintainer_url": "https://t.me/Aryaannnn",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3981601",
-            "device_group": "EvolutionXZ01R"
+            "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3981601"
          }
       ]
    },
@@ -35,12 +35,12 @@
       "name": "Pixel 2",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Asriadi Rahim",
             "maintainer_url": "https://forum.xda-developers.com/m/anno.8072142/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-walleye-official-evolution-x-7-6-2.4562215/",
-            "device_group": ""
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-walleye-official-evolution-x-7-6-2.4562215/"
          }
       ]
    },
@@ -50,12 +50,12 @@
       "name": "Pixel 2 XL",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Asriadi Rahim",
             "maintainer_url": "https://forum.xda-developers.com/m/anno.8072142/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-taimen-official-evolution-x-7-6-2.4560857/",
-            "device_group": ""
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-taimen-official-evolution-x-7-6-2.4560857/"
          }
       ]
    },
@@ -65,12 +65,12 @@
       "name": "Pixel 3",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel3",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/",
-            "device_group": "EvolutionXPixel3"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/"
          }
       ]
    },
@@ -80,12 +80,12 @@
       "name": "Pixel 3 XL",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel3",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/",
-            "device_group": "EvolutionXPixel3"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/"
          }
       ]
    },
@@ -95,12 +95,12 @@
       "name": "Pixel 3a",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel3",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/",
-            "device_group": "EvolutionXPixel3"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/"
          }
       ]
    },
@@ -110,12 +110,12 @@
       "name": "Pixel 3a XL",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel3",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/",
-            "device_group": "EvolutionXPixel3"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-03-03-2023.4558305/"
          }
       ]
    },
@@ -125,12 +125,12 @@
       "name": "Pixel 4a",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel4a",
             "maintainer_name": "lahaina",
             "maintainer_url": "https://twitter.com/RMX3031_cn",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-for-pixel-4a-sunfish.4575971/",
-            "device_group": "EvolutionXPixel4a"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-for-pixel-4a-sunfish.4575971/"
          }
       ]
    },
@@ -140,12 +140,12 @@
       "name": "Pixel 5",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Sukrut Kelkar",
             "maintainer_url": "https://forum.xda-developers.com/m/sukrut4778.9573489",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r41-redfin-official-evolution-x-04-23-23.4578661/",
-            "device_group": ""
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r41-redfin-official-evolution-x-04-23-23.4578661/"
          }
       ]
    },
@@ -155,12 +155,12 @@
       "name": "Pixel 6",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel6",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r66-official-evolution-x-7-9-6-07-29-2023.4547009/",
-            "device_group": "EvolutionXPixel6"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-20-2023.4547009/"
          }
       ]
    },
@@ -170,12 +170,12 @@
       "name": "Pixel 6 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel6",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r66-official-evolution-x-7-9-6-07-29-2023.4547009/",
-            "device_group": "EvolutionXPixel6"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-20-2023.4547009/"
          }
       ]
    },
@@ -185,12 +185,12 @@
       "name": "Pixel 6a",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel6",
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r66-official-evolution-x-7-9-6-07-29-2023.4547009/",
-            "device_group": "EvolutionXPixel6"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-20-2023.4547009/"
          }
       ]
    },
@@ -200,12 +200,12 @@
       "name": "Pixel 7",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel7",
             "maintainer_name": "Sickyman_678",
             "maintainer_url": "https://github.com/Sickyman678",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-05-31-2023.4546503/",
-            "device_group": "EvolutionXPixel7"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-13-2023.4546503/"
          }
       ]
    },
@@ -215,12 +215,12 @@
       "name": "Pixel 7 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel7",
             "maintainer_name": "Sickyman_678",
             "maintainer_url": "https://github.com/Sickyman678",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-05-31-2023.4546503/",
-            "device_group": "EvolutionXPixel7"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-13-2023.4546503/"
          }
       ]
    },
@@ -230,12 +230,27 @@
       "name": "Pixel 7a",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPixel7",
             "maintainer_name": "Sickyman_678",
             "maintainer_url": "https://github.com/Sickyman678",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-05-31-2023.4546503/",
-            "device_group": "EvolutionXPixel7"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-13-2023.4546503/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "tangorpro",
+      "name": "Pixel Tablet",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixelTablet",
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2023.4619801/"
          }
       ]
    },
@@ -245,12 +260,12 @@
       "name": "Z6 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXZippo",
             "maintainer_name": "Chema Funtan",
             "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-zippo-official-evolution-x-08-26-22.4484739",
-            "device_group": "EvolutionXZippo"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-zippo-official-evolution-x-08-26-22.4484739"
          }
       ]
    },
@@ -260,12 +275,12 @@
       "name": "OnePlus 8",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus8",
             "maintainer_name": "Manidweep",
             "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
-            "device_group": "EvolutionXOnePlus8"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/"
          }
       ]
    },
@@ -275,12 +290,12 @@
       "name": "OnePlus 8 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus8",
             "maintainer_name": "Manidweep",
             "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
-            "device_group": "EvolutionXOnePlus8"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/"
          }
       ]
    },
@@ -290,12 +305,12 @@
       "name": "OnePlus 8T",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus8",
             "maintainer_name": "Manidweep",
             "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
-            "device_group": "EvolutionXOnePlus8"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/"
          }
       ]
    },
@@ -305,12 +320,12 @@
       "name": "OnePlus 9R",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus8",
             "maintainer_name": "Manidweep",
             "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/",
-            "device_group": "EvolutionXOnePlus8"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-evolution-x-7-9-2-06-02-2023.4480927/"
          }
       ]
    },
@@ -320,12 +335,12 @@
       "name": "OnePlus 9",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus9",
             "maintainer_name": "Imminent",
             "maintainer_url": "https://forum.xda-developers.com/m/imminented_.12658643/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
-            "device_group": "EvolutionXOnePlus9"
+            "xda_thread": ""
          }
       ]
    },
@@ -335,12 +350,12 @@
       "name": "OnePlus 9 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus9",
             "maintainer_name": "Imminent",
             "maintainer_url": "https://forum.xda-developers.com/m/imminented_.12658643/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
-            "device_group": "EvolutionXOnePlus9"
+            "xda_thread": ""
          }
       ]
    },
@@ -350,12 +365,12 @@
       "name": "OnePlus 9RT",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnePlus9",
             "maintainer_name": "Mrick343",
             "maintainer_url": "https://forum.xda-developers.com/m/mrick343.12517809/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-martini-official-evolution-x-07-17-23.4606415/",
-            "device_group": "EvolutionXOnePlus9"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-martini-official-evolution-x-07-17-23.4606415/"
          }
       ]
    },
@@ -365,12 +380,12 @@
       "name": "OnePlus Nord 2 5G",
       "supported_versions": [
          {
+            "device_group": "EvolutionXDenniz",
             "maintainer_name": "lahaina",
             "maintainer_url": "https://twitter.com/RMX3031_cn",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-for-oneplus-nord-2-5g-denniz.4531989/",
-            "device_group": "EvolutionXDenniz"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-for-oneplus-nord-2-5g-denniz.4531989/"
          }
       ]
    },
@@ -380,12 +395,12 @@
       "name": "Realme 7 Pro",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Mayur Varde",
             "maintainer_url": "https://forum.xda-developers.com/m/marshmello_61.9134270",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/android-13-rmx2170-evolution-x-for-realme-7-pro-official-rom.4485719/",
-            "device_group": ""
+            "xda_thread": "https://forum.xda-developers.com/t/android-13-rmx2170-evolution-x-for-realme-7-pro-official-rom.4485719/"
          }
       ]
    },
@@ -395,12 +410,12 @@
       "name": "Realme C3 / Narzo 10A",
       "supported_versions": [
          {
+            "device_group": "EvolutionXRMX2020",
             "maintainer_name": "Koushik Dey",
             "maintainer_url": "https://github.com/Koushikdey2003",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-rmx2020-evolution-x-7-9-2-02-06-2023.4576247/",
-            "device_group": "EvolutionXRMX2020"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r49-official-rmx2020-evolution-x-7-9-2-02-06-2023.4576247/"
          }
       ]
    },
@@ -410,12 +425,12 @@
       "name": "Q5 Pro / GT Neo 3T",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Abhishek Shukla",
             "maintainer_url": "https://github.com/abhis699",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
-            "device_group": ""
+            "xda_thread": ""
          }
       ]
    },
@@ -425,12 +440,12 @@
       "name": "X2",
       "supported_versions": [
          {
+            "device_group": "EvolutionXRMX199X",
             "maintainer_name": "RJ RAIJIN(𝕳𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑)",
             "maintainer_url": "https://forum.xda-developers.com/m/rjtangpos.11038077/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-a13-evolution-x-for-realme-x2-v7-6-2-unofficial.4562889/",
-            "device_group": "@EvolutionXRMX199X"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-a13-evolution-x-for-realme-x2-v7-6-2-unofficial.4562889/"
          }
       ]
    },
@@ -440,12 +455,12 @@
       "name": "X50 Pro 5G",
       "supported_versions": [
          {
+            "device_group": "EvolutionX_Bladerunner",
             "maintainer_name": "Gaganpreet Singh",
             "maintainer_url": "https://forum.xda-developers.com/m/igaganpreetsingh.11934127",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-bladerunner-official-evolution-x-17-02-23.4554937",
-            "device_group": "EvolutionX_Bladerunner"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-bladerunner-official-evolution-x-17-02-23.4554937"
          }
       ]
    },
@@ -455,12 +470,27 @@
       "name": "X50 Pro 5G Play",
       "supported_versions": [
          {
+            "device_group": "EvolutionX_Bladerunner",
             "maintainer_name": "Gaganpreet Singh",
             "maintainer_url": "https://forum.xda-developers.com/m/igaganpreetsingh.11934127",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r41-rmx2072-bladerunner_48m-official-evolution-x-01-05-23.4581235",
-            "device_group": "EvolutionX_Bladerunner"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r41-rmx2072-bladerunner_48m-official-evolution-x-01-05-23.4581235"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
+      "codename": "lunaa",
+      "name": "GT Master Edition",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXLunaa",
+            "maintainer_name": "Partha Sarathi",
+            "maintainer_url": "https://forum.xda-developers.com/m/bunny155.12602171/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2022.4622735/"
          }
       ]
    },
@@ -470,12 +500,12 @@
       "name": "Galaxy Note 9",
       "supported_versions": [
          {
+            "device_group": "EvolutionX9810",
             "maintainer_name": "Pham Nguyen Gia Khiem (Cyder)",
             "maintainer_url": "https://forum.xda-developers.com/m/cyderxda.11350071/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-crownlte-official-evolution-x-08-23-2022.4483435/",
-            "device_group": "EvolutionX9810"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-crownlte-official-evolution-x-08-23-2022.4483435/"
          }
       ]
    },
@@ -485,12 +515,12 @@
       "name": "Galaxy S9",
       "supported_versions": [
          {
+            "device_group": "EvolutionX9810",
             "maintainer_name": "Pham Nguyen Gia Khiem (Cyder)",
             "maintainer_url": "https://forum.xda-developers.com/m/cyderxda.11350071/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-starlte-star2lte-official-evolution-x-08-23-2022.4483439/",
-            "device_group": "EvolutionX9810"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-starlte-star2lte-official-evolution-x-08-23-2022.4483439/"
          }
       ]
    },
@@ -500,12 +530,42 @@
       "name": "Galaxy S9+",
       "supported_versions": [
          {
+            "device_group": "EvolutionX9810",
             "maintainer_name": "Pham Nguyen Gia Khiem (Cyder)",
             "maintainer_url": "https://forum.xda-developers.com/m/cyderxda.11350071/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-starlte-star2lte-official-evolution-x-08-23-2022.4483439/",
-            "device_group": "EvolutionX9810"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-starlte-star2lte-official-evolution-x-08-23-2022.4483439/"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "gta4xlwifi",
+      "name": "Galaxy Tab S6 Lite (wifi)",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXgta4xl",
+            "maintainer_name": "Harshit Sinha (PhatWalrus)",
+            "maintainer_url": "https://forum.xda-developers.com/m/phatwalrus.12377719/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-encryption-unofficial-evolution-x-7-9-x-for-tab-s6-lite-wifi-lte.4611759/#post-88971633/"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "gta4xl",
+      "name": "Galaxy Tab S6 Lite",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXgta4xl",
+            "maintainer_name": "Harshit Sinha (PhatWalrus)",
+            "maintainer_url": "https://forum.xda-developers.com/m/phatwalrus.12377719/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-encryption-unofficial-evolution-x-7-9-x-for-tab-s6-lite-wifi-lte.4611759/#post-88971633/"
          }
       ]
    },
@@ -515,12 +575,12 @@
       "name": "Mi A1",
       "supported_versions": [
          {
+            "device_group": "EvolutionXTissot",
             "maintainer_name": "Joey (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-tissot-official-evolution-x-08-31-22.4487107/",
-            "device_group": "EvolutionXTissot"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-tissot-official-evolution-x-08-31-22.4487107/"
          }
       ]
    },
@@ -530,12 +590,12 @@
       "name": "Mi 9",
       "supported_versions": [
          {
+            "device_group": "EvolutionXCepheus",
             "maintainer_name": "Chema Funtan",
             "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-cepheus-official-evolution-x-01-04-23.4537331/",
-            "device_group": "EvolutionXCepheus"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-cepheus-official-evolution-x-01-04-23.4537331/"
          }
       ]
    },
@@ -545,12 +605,12 @@
       "name": "Mi 9T / Redmi K20",
       "supported_versions": [
          {
+            "device_group": "EvolutionXDavinci",
             "maintainer_name": "Ahmed Fouad",
             "maintainer_url": "https://t.me/AMWolfstein",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-davinci-official-evolution-x-12-31-22.4535949",
-            "device_group": "EvolutionXDavinci"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-davinci-official-evolution-x-12-31-22.4535949"
          }
       ]
    },
@@ -560,12 +620,12 @@
       "name": "Mi 9T Pro / Redmi K20 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXRaphael_v2",
             "maintainer_name": "Joey (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-raphael-official-evolution-x-08-21-22.4481179/",
-            "device_group": "EvolutionXRaphael_v2"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-raphael-official-evolution-x-08-21-22.4481179/"
          }
       ]
    },
@@ -575,12 +635,12 @@
       "name": "Mi 9 Lite",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPyxis",
             "maintainer_name": "CSSABLACK",
             "maintainer_url": "https://forum.xda-developers.com/m/czarsuperstar-gmail-com.2892269/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-pyxi-official-evolution-x-12-30-22.4535297/",
-            "device_group": "EvolutionXPyxis"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-pyxi-official-evolution-x-12-30-22.4535297/"
          }
       ]
    },
@@ -590,12 +650,12 @@
       "name": "Mi 10",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Slaw Handzlik (yarpiin)",
             "maintainer_url": "https://github.com/yarpiin",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-umi-official-evolution-x.4272743",
-            "device_group": ""
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-umi-official-evolution-x.4272743"
          }
       ]
    },
@@ -605,12 +665,12 @@
       "name": "Mi 10 Pro",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Slaw Handzlik (yarpiin)",
             "maintainer_url": "https://github.com/yarpiin",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-umi-official-evolution-x.4272743",
-            "device_group": ""
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-umi-official-evolution-x.4272743"
          }
       ]
    },
@@ -620,12 +680,12 @@
       "name": "Mi 10T",
       "supported_versions": [
          {
+            "device_group": "EvolutionXApollo",
             "maintainer_name": "Ahmed Tohamy",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8386267",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/official-evolution-x-5-3-xiaomi-mi-10t-10t-pro-apollo-apollopro.4226799",
-            "device_group": "EvolutionXApollo"
+            "xda_thread": "https://forum.xda-developers.com/t/official-evolution-x-5-3-xiaomi-mi-10t-10t-pro-apollo-apollopro.4226799"
          }
       ]
    },
@@ -635,12 +695,12 @@
       "name": "Mi 10 Lite",
       "supported_versions": [
          {
+            "device_group": "EvolutionXMonet",
             "maintainer_name": "Mikairyuu Shuumi",
             "maintainer_url": "https://forum.xda-developers.com/m/mikairyuu.11052643",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-monet-official-evolution-x-snow-16-11-2021.4362877",
-            "device_group": "EvolutionXMonet"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-monet-official-evolution-x-snow-16-11-2021.4362877"
          }
       ]
    },
@@ -650,12 +710,12 @@
       "name": "Mi 11",
       "supported_versions": [
          {
+            "device_group": "EvolutionXVenus",
             "maintainer_name": "Joey (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-raphael-official-evolution-x-09-08-22.4490535/",
-            "device_group": "EvolutionXVenus"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-raphael-official-evolution-x-09-08-22.4490535/"
          }
       ]
    },
@@ -665,12 +725,12 @@
       "name": "Mi 11 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXMars",
             "maintainer_name": "Flower Sea (Flower0208)",
             "maintainer_url": "https://forum.xda-developers.com/m/flower-sea.11535253/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-android-13-mi-11-pro-evolution-x-7-2-official.4460311/",
-            "device_group": "EvolutionXMars"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-android-13-mi-11-pro-evolution-x-7-2-official.4460311/"
          }
       ]
    },
@@ -680,12 +740,27 @@
       "name": "Mi Mix 2S",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPolaris",
             "maintainer_name": "Chenyang Zhong",
             "maintainer_url": "https://t.me/jjpprrrr",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/4101193/",
-            "device_group": "EvolutionXPolaris"
+            "xda_thread": "https://forum.xda-developers.com/t/4101193/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "nabu",
+      "name": "Xiaomi Pad 5",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionX_Nabu",
+            "maintainer_name": "Eleazer Ennis",
+            "maintainer_url": "https://forum.xda-developers.com/m/eleazerennis.12643711/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2023.4622803/"
          }
       ]
    },
@@ -695,12 +770,12 @@
       "name": "POCO F1",
       "supported_versions": [
          {
+            "device_group": "EvolutionXBeryllium",
             "maintainer_name": "Tejas Singh",
-            "maintainer_url": "https://github.com/Charsi-Tejas",
+            "maintainer_url": "https://github.com/tejas101k",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-xiaomi-poco-f1.4590487/",
-            "device_group": "EvolutionXBeryllium"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-xiaomi-poco-f1.4590487/"
          }
       ]
    },
@@ -710,12 +785,12 @@
       "name": "POCO F3",
       "supported_versions": [
          {
+            "device_group": "EvolutionXAlioth",
             "maintainer_name": "Aggelos Savvopoulos (DarkAngelGR)",
             "maintainer_url": "https://forum.xda-developers.com/m/darkangelgr.8065843",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/a13-evolution-x-for-poco-f3-mi-11x-alioth-official.4483449/",
-            "device_group": "EvolutionXAlioth"
+            "xda_thread": "https://forum.xda-developers.com/t/a13-evolution-x-for-poco-f3-mi-11x-alioth-official.4483449/"
          }
       ]
    },
@@ -725,12 +800,12 @@
       "name": "POCO F4",
       "supported_versions": [
          {
+            "device_group": "EvolutionX_Munch",
             "maintainer_name": "Akash Kakkar (akashk07)",
             "maintainer_url": "https://forum.xda-developers.com/m/akash-galaxy07.5933546/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-android13-evolutionx-official-munch.4504789/",
-            "device_group": "EvolutionX_Munch"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-android13-evolutionx-official-munch.4504789/"
          }
       ]
    },
@@ -740,12 +815,27 @@
       "name": "POCO F5 / Redmi Note 12 Turbo",
       "supported_versions": [
          {
+            "device_group": "EvolutionXMarble",
             "maintainer_name": "Joey (Shaughzam) | Shamik",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r52-marble-official-evolution-x-06-21-23.4597991",
-            "device_group": "EvolutionXMarble"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r52-marble-official-evolution-x-06-21-23.4597991"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "redwood",
+      "name": "POCO X5 Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXRedwood",
+            "maintainer_name": "Priyanshu Jangid",
+            "maintainer_url": "https://forum.xda-developers.com/m/priyanshu-jangid.10108762/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-09-08-2023.4625663/"
          }
       ]
    },
@@ -755,12 +845,12 @@
       "name": "Redmi K30 / POCO X2",
       "supported_versions": [
          {
+            "device_group": "EvolutionXPhoenix",
             "maintainer_name": "Jay Mistry",
             "maintainer_url": "https://github.com/jaymistry258",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-phoenix-official-evolution-x-chicharon-7-9-5-06-07-23.4603021/",
-            "device_group": "EvolutionXPhoenix"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-phoenix-official-evolution-x-chicharon-7-9-5-06-07-23.4603021/"
          }
       ]
    },
@@ -770,12 +860,12 @@
       "name": "POCO X3 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXVayu",
             "maintainer_name": "Fikri A. (elizabethangelalorenza)",
             "maintainer_url": "https://forum.xda-developers.com/m/elizabethangelalorenza.7923660",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-poco-x3-pro-vayu.4487643",
-            "device_group": "EvolutionXVayu"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-poco-x3-pro-vayu.4487643"
          }
       ]
    },
@@ -785,12 +875,12 @@
       "name": "Redmi Note 11/NFC",
       "supported_versions": [
          {
+            "device_group": "EvolutionXSpes",
             "maintainer_name": "Hoang Pham Anh Duy",
             "maintainer_url": "https://forum.xda-developers.com/m/etylix.8079544/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-evolution-x-for-the-redmi-note-11-nfc.4485855/",
-            "device_group": "EvolutionXSpes"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-evolution-x-for-the-redmi-note-11-nfc.4485855/"
          }
       ]
    },
@@ -800,12 +890,12 @@
       "name": "POCO X4 Pro 5G / Redmi Note 11E Pro / Redmi Note 11 Pro 5G / Redmi Note 11 Pro+ 5G",
       "supported_versions": [
          {
+            "device_group": "EvolutionXVeux",
             "maintainer_name": "Ashish Jaswal (jaswal_ashish11)",
             "maintainer_url": "https://forum.xda-developers.com/m/ashish11948.11817917/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-veux-peux-official-evolution-x-07-24-23.4497785/",
-            "device_group": "EvolutionXVeux"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-veux-peux-official-evolution-x-08-23-23.4497785/"
          }
       ]
    },
@@ -815,12 +905,12 @@
       "name": "Redmi 7 / Redmi Y3",
       "supported_versions": [
          {
+            "device_group": "EvolutionXOnclite",
             "maintainer_name": "Noviceyash",
             "maintainer_url": "https://forum.xda-developers.com/m/noviceyash.12494059/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/13-rom-official-evolution-x-7-9-3-onclite-25-06-2023.4599473/",
-            "device_group": "EvolutionXOnclite"
+            "xda_thread": "https://forum.xda-developers.com/t/13-rom-official-evolution-x-7-9-3-onclite-25-06-2023.4599473/"
          }
       ]
    },
@@ -830,12 +920,12 @@
       "name": "Redmi 7A / Redmi 8 / Redmi 8A / Redmi 8A Dual",
       "supported_versions": [
          {
+            "device_group": "EvolutionXMi439",
             "maintainer_name": "Janak Niraula (janakniraula_2017)",
             "maintainer_url": "https://forum.xda-developers.com/m/janakniraula.12437313/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-mi439-official-evolution-x-03-31-23.4570575/",
-            "device_group": "EvolutionXMi439"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-mi439-official-evolution-x-03-31-23.4570575/"
          }
       ]
    },
@@ -845,12 +935,12 @@
       "name": "Redmi Note 4 / Redmi Note 4X",
       "supported_versions": [
          {
+            "device_group": "EvolutionXMido",
             "maintainer_name": "Nalinish Ranjan",
             "maintainer_url": "https://forum.xda-developers.com/m/nalinish-05.11157831/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-mido-official-evolution-x-12-30-22.4535383/",
-            "device_group": "EvolutionXMido"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-mido-official-evolution-x-12-30-22.4535383/"
          }
       ]
    },
@@ -860,12 +950,12 @@
       "name": "Redmi Note 6 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXRn6Pro",
             "maintainer_name": "Lê Hồng Đức",
             "maintainer_url": "https://t.me/tedomi2705",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-tulip-official-evolution-x-7-6-2-27-02-23.4463135/",
-            "device_group": "EvolutionXRn6Pro"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-tulip-official-evolution-x-7-6-2-27-02-23.4463135/"
          }
       ]
    },
@@ -875,12 +965,12 @@
       "name": "Redmi Note 7 / Redmi Note 7S",
       "supported_versions": [
          {
+            "device_group": "EvolutionXLavender_v2",
             "maintainer_name": "Omar Mohamed (Coptan)",
             "maintainer_url": "https://forum.xda-developers.com/m/coptan.12067541/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-lavender-official-evolution-x-11-11-22.4517803/",
-            "device_group": "EvolutionXLavender_v2"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-lavender-official-evolution-x-11-11-22.4517803/"
          }
       ]
    },
@@ -890,12 +980,12 @@
       "name": "Redmi Note 7 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXViolet",
             "maintainer_name": "Mohammad Kibria",
             "maintainer_url": "https://forum.xda-developers.com/m/kibria123.11484159",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-violet-official-evolution-x.4586605",
-            "device_group": "EvolutionXViolet"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-violet-official-evolution-x.4586605"
          }
       ]
    },
@@ -905,12 +995,12 @@
       "name": "Redmi Note 8/8T",
       "supported_versions": [
          {
+            "device_group": "EvolutionXGinkgo",
             "maintainer_name": "Tejas Singh",
-            "maintainer_url": "https://github.com/Charsi-Tejas",
+            "maintainer_url": "https://github.com/tejas101k",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-redmi-note-8-8t.4590251/",
-            "device_group": "EvolutionXGinkgo"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-unified-evolution-x-for-redmi-note-8-8t.4590251/"
          }
       ]
    },
@@ -920,12 +1010,12 @@
       "name": "Redmi Note 8 Pro",
       "supported_versions": [
          {
+            "device_group": "EvolutionXRn8Pro",
             "maintainer_name": "Shamik",
             "maintainer_url": "https://t.me/shhhamik",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
-            "device_group": "EvolutionXRn8Pro"
+            "xda_thread": ""
          }
       ]
    },
@@ -935,12 +1025,42 @@
       "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
       "supported_versions": [
          {
+            "device_group": "EvolutionXSweet",
             "maintainer_name": "Zaid Khan (@zaidkhan0997)",
             "maintainer_url": "https://forum.xda-developers.com/m/zaidkhan0997.9099781",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-sweet-official-evolution-x-08-25-22.4395847",
-            "device_group": "EvolutionXSweet"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-sweet-official-evolution-x-08-25-22.4395847"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "lisa",
+      "name": "Xiaomi 11 Lite NE 5G/Mi 11 LE",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXLisa",
+            "maintainer_name": "Zaid Khan (@zaidkhan0997)",
+            "maintainer_url": "https://forum.xda-developers.com/m/zaidkhan0997.9099781",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-lisa-official-evolution-x-08-13-23.4616047/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "vili",
+      "name": "Xiaomi 11T Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXVili",
+            "maintainer_name": "Paul",
+            "maintainer_url": "https://t.me/blazerpaul15",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": ""
          }
       ]
    },
@@ -950,12 +1070,12 @@
       "name": "Redmi Note 10S",
       "supported_versions": [
          {
+            "device_group": "EvolutionXRosemary",
             "maintainer_name": "Beru Kobayashi",
             "maintainer_url": "https://forum.xda-developers.com/m/windowz414.9468504/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-rosemary-secret-maltose-evolution-x-tiramisu-for-redmi-note-10s-11-se-poco-m5s.4548143/",
-            "device_group": "EvolutionXRosemary"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-rosemary-secret-maltose-evolution-x-tiramisu-for-redmi-note-10s-11-se-poco-m5s.4548143/"
          }
       ]
    },
@@ -965,12 +1085,12 @@
       "name": "Xiaomi 12",
       "supported_versions": [
          {
+            "device_group": "EvolutionXCupid",
             "maintainer_name": "Slaw Handzlik",
             "maintainer_url": "https://forum.xda-developers.com/m/yarpiin.5288056/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-cupid-official-evolution-x-05-29-23.4591391/",
-            "device_group": "EvolutionXCupid"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-cupid-official-evolution-x-05-29-23.4591391/"
          }
       ]
    },
@@ -980,12 +1100,12 @@
       "name": "Redmi Note 9S, 9 Pro, 9 Pro Max, POCO M2 Pro",
       "supported_versions": [
          {
+            "device_group": "",
             "maintainer_name": "Sonal Singh",
             "maintainer_url": "https://forum.xda-developers.com/m/sonalsingh18.8425394",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "",
-            "device_group": ""
+            "xda_thread": ""
          }
       ]
    },
@@ -995,12 +1115,12 @@
       "name": "Redmi Note 5 Ai/Pro",
       "supported_versions": [
          {
+            "device_group": "evolutionxwhyded",
             "maintainer_name": "Arijit Saha",
             "maintainer_url": "https://forum.xda-developers.com/m/whyred_404.12444399/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-whyred-official-evolution-x-pares-7-9-6-28-07-23.4610173/",
-            "device_group": "evolutionxwhyded"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-whyred-official-evolution-x-pares-7-9-6-28-07-23.4610173/"
          }
       ]
    }

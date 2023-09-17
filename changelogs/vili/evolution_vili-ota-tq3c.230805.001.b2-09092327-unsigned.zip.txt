@@ -1,0 +1,42 @@
+This is Android 13 with August 2023 (r74) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- KernelSU not included
+
+Device changes:
+==============================
+Fixed issues with banking apps
+Fixed leica camera wide angle ( 0.6x )
+Fixed leica camera 4k60fps recording
+Remove smart charging
+Enable Lineage Health HAL ( charging control )
+Switch to kangaroox kernel ( thanks to @ktommy91 for this amazing kernel )
+Dropped kernelsu ( due to banking apps issues, flash kangaroox kernel in twrp if you want rooted )
+Update KProfiles to version 6.0.0
+Disable volume leveler in dolby
+Upstream kernel to v5.4.250
+Other performance and stability improvements
+
+ROM changes:
+==============================
+9/8
+Implement Lineage health service and remove Smart Charging
+Settings: Add charging control preferences
+Settings: storage: don't skip primary user when listing non-logged in users
+custom_apns: Check MCC/MNC for override APN
+
+9/7
+fixup! Launcher3: Allow hiding top shadow on statusbar
+fwb: silence batteryexternalstatsworker spam
+native: Add simple FEAS support
+native: Fix the shadow problem caused by layer parent switching
+
+9/6
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+9/5
+Evolver: Add optional haptic feedback to volume panel

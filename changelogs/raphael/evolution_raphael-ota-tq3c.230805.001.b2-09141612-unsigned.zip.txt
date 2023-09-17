@@ -1,0 +1,71 @@
+This is Android 13 with August 2023 (r74) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+- Single tap to wake works now.
+
+Device changes:
+==============================
+Build Lineage Health HAL
+fastcharge implementation
+fastcharge: Extend Fastcharge implementation
+rootdir: give permission to restrict_chg
+------------------------------
+
+ROM changes:
+==============================
+9/14
+Settings: Hide Fast charging from search if not supported
+SystemServer: Add configs for Lineage Health and LiveDisplay services
+
+9/13
+Add null checks when registering backup transport
+Update translations
+recovery: Bypass reboot prompt for sideload-auto-reboot
+
+9/12
+Extend Fastcharge implementation
+Evolver: Add setMinValue
+config: device_framework_matrix: Add IRestrictedCurrent
+core: pm: Allow wildcard in RRO system property value checks
+
+9/11
+Bring back TextClassifier packages (to fix clipboard issues)
+base: core: Unregister broadcast receiver only when registered
+kernel: Handle GKI modules
+
+9/10
+SystemUI: Enable power menu blur via window flags
+
+9/9
+Launcher3: ensure to update cached thumbnail if we take new one
+Launcher3: Import improvements from motorola
+Launcher3: remove weird brown tint from tablet task menu
+SystemUIGoogle: googlebattery: rework system feature check sequence
+config: Disable OTA Updater for A14
+fixup! Launcher3: Add recents and app drawer opacity customization
+fixup! Launcher3: Allow changing max lines for app label
+
+9/8
+Implement Lineage health service and remove Smart Charging
+Settings: Add charging control preferences
+Settings: storage: don't skip primary user when listing non-logged in users
+custom_apns: Check MCC/MNC for override APN
+
+9/7
+fixup! Launcher3: Allow hiding top shadow on statusbar
+fwb: silence batteryexternalstatsworker spam
+native: Add simple FEAS support
+native: Fix the shadow problem caused by layer parent switching
+
+9/6
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+9/5
+Evolver: Add optional haptic feedback to volume panel

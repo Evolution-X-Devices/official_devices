@@ -1,0 +1,58 @@
+==============================
+Device changes:
+==============================
+- Revert "violet: overlay: add config and nodes for Smart charging"
+- Switch to perf kernel
+- KernelSU by default v11235
+- Kernel Upstream v4.14.325
+- Update Clang version to 17.0.4
+- Build Lineage Health HAL (Smart Charging)
+- Added ViPER4Android FX Redesign v5.2
+- Mics changes and improvement
+
+------------------------------
+ROM changes:
+==============================
+9/11
+Bring back TextClassifier packages (to fix clipboard issues)
+base: core: Unregister broadcast receiver only when registered
+kernel: Handle GKI modules
+
+9/10
+SystemUI: Enable power menu blur via window flags
+
+9/9
+Launcher3: ensure to update cached thumbnail if we take new one
+Launcher3: Import improvements from motorola
+Launcher3: remove weird brown tint from tablet task menu
+SystemUIGoogle: googlebattery: rework system feature check sequence
+config: Disable OTA Updater for A14
+fixup! Launcher3: Add recents and app drawer opacity customization
+fixup! Launcher3: Allow changing max lines for app label
+
+9/8
+Implement Lineage health service and remove Smart Charging
+Settings: Add charging control preferences
+Settings: storage: don't skip primary user when listing non-logged in users
+custom_apns: Check MCC/MNC for override APN
+
+9/7
+fixup! Launcher3: Allow hiding top shadow on statusbar
+fwb: silence batteryexternalstatsworker spam
+native: Add simple FEAS support
+native: Fix the shadow problem caused by layer parent switching
+
+9/6
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+9/5
+Evolver: Add optional haptic feedback to volume panel
+
+9/4
+BluetoothControllerImpl: Optimize connected battery level scanning
+gms: Don't build game_service
+
+9/3
+Fix Parallel processing for MIUI/Leica camera

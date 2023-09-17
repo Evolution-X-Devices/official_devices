@@ -1,0 +1,15 @@
+tangorpro: Do not include PixelParts for now
+Add wifi_add_or_remove_virtual_intf() to the legacy wifi hal
+Evolver: Hide all signal-related options for Wifi-only tablets
+Evolver: Hide QS Vibration category for devices without vibrator
+Launcher3/Settings: Switch phone string to device
+PreferredNetworkTile: Hide from Wifi-only devices
+Pulse: Fix orientation checks
+build: target: Move TeleService to telephony_system.mk
+Pulse: Prevent systemui-related crashes
+Settings: Hide charging vibration if device has no vibrator
+Settings: Hide power button torch gesture if flash feature is not found
+Settings: Move Power button torch options from Evolver
+config: Add a separate gms config for wifi-only tablets
+SystemUI: Fix class cast exception when animating play/pause button
+services: Bypass security check when checking provider permissions for google apps

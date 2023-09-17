@@ -1,0 +1,94 @@
+  
+2023-07-20
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+NO NEED TO FLASH FIRMWARE AFTER ROM ANYMORE !!
+
+DEVICE:
+
+  * cupod: Add missing hdr blobs
+  * cupid: Relax WiFi re-association RSSI thresholds
+  * cupid: Enable Optimized Power Management
+  * cupid: prop: move dolby vendor prop
+  * cupid: Show VoNR toggle in settings
+  * cupid: Support Xiaomi Alipay fingerprint payment
+  * cupid: Allow system_app to access Milpay service
+  * cupid: props: Adjust lmkd kill timeout value
+  * cupid: props: Set lmk to kill heaviest task
+  * cupid: give thermal profiles permissions
+  * cupid: Show volte config
+  * cupid:: better RAM management
+
+
+ROM:
+
+9/9
+
+Launcher3: ensure to update cached thumbnail if we take new one
+
+Launcher3: Import improvements from motorola
+
+Launcher3: remove weird brown tint from tablet task menu
+
+SystemUIGoogle: googlebattery: rework system feature check sequence
+
+config: Disable OTA Updater for A14
+
+fixup! Launcher3: Add recents and app drawer opacity customization
+
+fixup! Launcher3: Allow changing max lines for app label
+
+
+9/8
+
+Implement Lineage health service and remove Smart Charging
+
+Settings: Add charging control preferences
+
+Settings: storage: don't skip primary user when listing non-logged in users
+
+custom_apns: Check MCC/MNC for override APN
+
+
+9/7
+
+fixup! Launcher3: Allow hiding top shadow on statusbar
+
+fwb: silence batteryexternalstatsworker spam
+
+native: Add simple FEAS support
+
+native: Fix the shadow problem caused by layer parent switching
+
+
+9/6
+
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+
+9/5
+
+Evolver: Add optional haptic feedback to volume panel
+
+
+9/4
+
+BluetoothControllerImpl: Optimize connected battery level scanning
+
+gms: Don't build game_service
+
+
+9/3
+
+Fix Parallel processing for MIUI/Leica camera

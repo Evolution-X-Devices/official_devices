@@ -1,0 +1,164 @@
+This is Android 13 with August 2023 (r74) security patches
+
+Notes:
+==============================
+Micam is included
+Dolby Atmos is included
+Launcher3 aka EvolutionX Launcher is Present
+Dirty Flash from previous builds is fine
+
+Device changes:
+==============================
+• Fixed MiCam Fingerprint shutter
+• Fixed washed out device wide display colours due hdr
+• Removed dirac aka MiSoundEnhacer from xiaomi parts (conflicting service with dolby)
+• Removed AOD settings ( LCD Panel, stop killin it)
+• Fixed clear speaker audio not playing upto 60s
+• Audio quality improvements
+• Misc. improvements on overall battery backup and UI/UX smoothness
+------------------------------
+
+ROM changes:
+==============================
+9/12
+core: pm: Allow wildcard in RRO system property value checks
+
+9/11
+Bring back TextClassifier packages (to fix clipboard issues)
+base: core: Unregister broadcast receiver only when registered
+kernel: Handle GKI modules
+
+9/10
+SystemUI: Enable power menu blur via window flags
+
+9/9
+Launcher3: ensure to update cached thumbnail if we take new one
+Launcher3: Import improvements from motorola
+Launcher3: remove weird brown tint from tablet task menu
+SystemUIGoogle: googlebattery: rework system feature check sequence
+config: Disable OTA Updater for A14
+fixup! Launcher3: Add recents and app drawer opacity customization
+fixup! Launcher3: Allow changing max lines for app label
+
+9/8
+Implement Lineage health service and remove Smart Charging
+Settings: Add charging control preferences
+Settings: storage: don't skip primary user when listing non-logged in users
+custom_apns: Check MCC/MNC for override APN
+
+9/7
+fixup! Launcher3: Allow hiding top shadow on statusbar
+fwb: silence batteryexternalstatsworker spam
+native: Add simple FEAS support
+native: Fix the shadow problem caused by layer parent switching
+
+9/6
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+9/5
+Evolver: Add optional haptic feedback to volume panel
+
+9/4
+BluetoothControllerImpl: Optimize connected battery level scanning
+gms: Don't build game_service
+
+9/3
+Fix Parallel processing for MIUI/Leica camera
+
+9/2
+Evolver: Hide signal-related themes for Wifi-only devices
+
+9/1
+AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress
+Evolver: Make Combined QS headers optional with toggle
+overlay: Treat org.lineageos.settings as privileged
+
+8/31
+Crash occurs when entering a Bluetooth broadcast password
+Settings: Update Glide library to 4.16.0
+Use ArrayMap to cache active subscriptions
+
+8/30
+BatteryStatsImpl: Fix wrong synchronized with mDailyFile
+Bluetooth: fix NullPointerException during bluetooth turning off
+Fix JobServiceContext leak issue
+Fix logspam from AppIdleHistory on first boot
+Fix NullPointerException for WifiDisplayController
+Launcher3: Do not set split button via code
+Launcher3: Fix up split button in recents for tab
+Launcher3: Move split overview action before screenshot
+Perf: Fix the issue that activity boost duration abnormal
+core: Mitigate a crash when there are more than one installer intent received
+
+8/29
+Launcher3: Add product type variations to some strings
+Settings: Add product type variations to some strings
+Settings: Highlight The Evolver when opening Settings in TwoPane mode
+SystemUI: Fix Biometric dialog corner radius
+SystemUI: improve blur handling in respect to app launch animations
+kernel: Support Qualcomm merge_dtbs script
+kernel: Support copying modules to recovery
+wm: fix APPEARANCE_LOW_PROFILE_BARS not working in non-fullscreen app
+
+8/26
+Add wifi_add_or_remove_virtual_intf() to the legacy wifi hal
+Evolver: Hide all signal-related options for Wifi-only devices
+Evolver: Hide QS Vibration category for devices without vibrator
+Launcher3/Settings: Switch phone string to device
+PreferredNetworkTile: Hide from Wifi-only devices
+
+8/25
+Pulse: Fix orientation checks
+build: target: Move TeleService to telephony_system.mk
+
+8/24
+Pulse: Prevent systemui-related crashes
+Settings: Hide charging vibration if device has no vibrator
+Settings: Hide power button torch gesture if flash feature is not found
+Settings: Move Power button torch options from Evolver
+config: Add a separate gms config for wifi-only tablets
+
+8/23
+SystemUI: Fix class cast exception when animating play/pause button
+services: Bypass security check when checking provider permissions for google apps
+
+8/22
+Settings: Import animations from SettingsGoogle
+Settings: Prioritize market name as default device name
+SystemUIGoogle: Don't override biometric dialog corner radius
+SystemUIGoogle: Fix now playing visibility updates
+
+8/21
+DeviceConfig: Change setProperties behavior
+DeviceConfigUtils: Make debug optional
+GameSpace: Add missing permission usage for Danmaku service
+GameSpace: Update priv-app permissions whitelist
+Implement DeviceConfigUtils and service
+SystemUIGoogle: Silence google battery hal failures
+vendor: Drop SimpleDeviceConfig
+vendor: Move custom device configs to global_device_configs_override
+
+8/20
+PixelPropUtils: Stop spoofing some google apps
+
+8/18
+Camera: Fix typos in CameraExtensionSessionImpl
+Evolver: Introduce Data icon styles
+Fix invalid code link, update exception message
+Only spoof packages installed by Aurora Store as installed via Google Play Store and modify new API
+SystemUI: Launch power menu from QS only if enabled
+Unmount unusable partition instead of putting device into crashloop
+Usb: Fix incorrect mapping of port mode constants
+
+8/17
+PixelPropsUtils: Partial spoofing improvement
+core: legacy toasts deserve rounded corners too
+
+8/16
+Settings: CutoutForceFullscreen: Add "Show system" menu
+
+8/15
+GamesPropUtils: Switch back BGMI to OnePlus 8 Pro
+Settings: Remove LTE only mode

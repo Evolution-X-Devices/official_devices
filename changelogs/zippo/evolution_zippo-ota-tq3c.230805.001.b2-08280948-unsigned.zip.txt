@@ -1,0 +1,22 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Upstream kernel to Linux v4.14.323
+- Update Moto Dobby
+- Update dax-default with values from OnePlus
+- Use QCOM implementation for audio effects
+
+**Evolution X Update**
+
+- Fix Parallel Space not showing apps after creating a new space
+- Settings: Remove LTE only mode
+- core: legacy toasts deserve rounded corners too
+- Evolver: Introduce Data icon styles
+- PixelPropUtils: Stop spoofing some google apps
+- GameSpace: Add missing permission usage for Danmaku service
+- Settings: Import animations from SettingsGoogle
+- Settings: Move Power button torch options from Evolver
+- Update translations

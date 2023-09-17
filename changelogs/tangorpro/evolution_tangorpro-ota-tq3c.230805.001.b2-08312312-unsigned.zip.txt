@@ -1,0 +1,17 @@
+Evolver: Make Combined QS headers optional with toggle
+Crash occurs when entering a Bluetooth broadcast password
+Settings: Update Glide library to 4.16.0
+Use ArrayMap to cache active subscriptions
+BatteryStatsImpl: Fix wrong synchronized with mDailyFile
+Bluetooth: fix NullPointerException during bluetooth turning off
+Fix JobServiceContext leak issue
+Fix logspam from AppIdleHistory on first boot
+Fix NullPointerException for WifiDisplayController
+Launcher3: Do not set split button via code
+Launcher3: Fix up split button in recents for tab
+Launcher3: Move split overview action before screenshot
+Perf: Fix the issue that activity boost duration abnormal
+core: Mitigate a crash when there are more than one installer intent received
+Launcher3: Add product type variations to some strings
+Settings: Add product type variations to some strings
+Settings: Highlight The Evolver when opening Settings in TwoPane mode

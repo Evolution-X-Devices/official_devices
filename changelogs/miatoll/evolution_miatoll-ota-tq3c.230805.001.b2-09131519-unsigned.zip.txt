@@ -1,0 +1,440 @@
+* Device Changes:
+
+- Fixed NFC
+- Upstreamed kernel to 4.14.325
+
+* Source Changes
+
+=======================
+     2023/09/13
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+73f776b Fastcharge: add ResctrictedCurrent interface to hwservice contexts
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9a495512d418 Revert "SystemUI: Add support for toggling Combined QS Header (1/2)"
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/tiramisu
+
+7ded091 interfaces: Extend Fastcharge implementation [1/3]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+208f297 Revert "Evolver: Make Combined Qs Headers Optional with Toggle (2/2)"
+d82d07e Evolver: Add setMinValue
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+0e6ca2c1fc New translations evolution_strings.xml (Italian) (#350)
+37b5c3a380 New Crowdin updates (#343-#349)
+4fd70f6cb0 Settings: Extend Fastcharge implementation [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+715bc14e config: device_framework_matrix: Add IRestrictedCurrent
+
+* Repository: /commits/refs/heads/tiramisu
+
+c549bab gms: Refractor
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+0ae3c05 SystemUIGoogle: googlebattery: rework system feature check sequence
+f916cd8 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/09/12
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9009fd8 common: bengal-5.15 > SM6225
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e77ea54a88cb core: pm: Allow wildcard in RRO system property value checks
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+a72154a agm: fixup!: OSS compile for plugins
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+1bd3662 Aperture: Update CameraX maven repo URL
+5cd5058 Aperture: Detect uncommitted changes after running app:generateBp
+
+
+=======================
+     2023/09/11
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+7128a05 common: Track vendor/qcom/opensource/audio
+3693589 vendor: telephony: Enable Enable IMS single registration for 5.15 kernel version
+2a41c4a vendor: telephony: Switch Enable IMS single registration condition to kernel version
+4c6b250 vendor: bt: Build vendor.qti.hardware.bluetooth.audio-V1-ndk
+cb10b7c vendor: bt: Add condition to use AIDL QTI bt audio
+08c96fb common: telephony: Prepare for non-legacy dataservices
+872411b common: Enable dlkm based in kernel version
+30228af dlkm: Add kalama in-list
+bf20945 dlkm: Add bengal in-list
+69c158f dlkm: Add support to system_dlkm kernel modules build
+4169f79 common: Skip MASTER_SIDE_CP_TARGET_LIST to 5.4 >>> kernel version
+b2b8b75 vendor: media: fixup! 803ea99
+6078770 common: Fix bengal and kona conditions to 5.15
+11e79fd common: Fix 5_15 family components condition
+828a229 common: Define the partition source order for product/build properties pickup
+d244d15 telephony: Enable IMS single registration for 5.10 platforms
+61fd90b vendor: init: init.target.rc: Move SPU NVM directories creation to earlier stage.
+ca169b1 vendor: init: init.qcom.rc: Move SPU NVM direcroty creation to earlier stage
+ff49b35 vendor: init: Create aospa init script to qcom changes
+c964a0c vendor: copy charger init from charging component
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+cec253b839d6 base: core: Unregister broadcast receiver only when registered
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+bd17f76b Revert "config: Remove TextClassifier packages"
+d0875c74 kernel: Handle GKI modules
+
+
+=======================
+     2023/09/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+3ff7a1369c65 SystemUI: Enable power menu blur via window flags
+
+
+=======================
+     2023/09/09
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/tiramisu-jem
+
+d081af509 build: soong: use jemalloc by default and allow opt-in to scudo (2/3)
+658db8e0a [T-Only] Add android.hardware.power-V3-ndk to VndkMustUseVendorVariantList
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+b6b4d9bbd2d1 New Crowdin updates (#459-#461)
+c3d05a89e6c9 [SQUASH] base: Remove Smart Charging [1/4]
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+1f6a95409d Revert "Avoid vsync enabled when in DOZE mode (AOD)."
+cfc8d56eee Revert "BufferQueueConsumer: acquire a buffer only if fence is signaled"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+067e562eca Launcher3: remove weird brown tint from tablet task menu
+b5d27e72dc fixup! Launcher3: Allow changing max lines for app label
+ec84ad3577 Launcher3: ensure to update cached thumbnail if we take new one
+5090a47d9f fixup! Launcher3: Add recents and app drawer opacity customization
+0e4870ca27 Launcher3: Import improvements from motorola
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+4dfe179f custom_apns: Check MCC/MNC for override APN
+
+
+=======================
+     2023/09/08
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+dad1e73 sepolicy: Remove Smart Charging [3/4]
+bdda490 common: Add sepolicy rules for Lineage Health HAL and service
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+f165418721d4 fwb: silence batteryexternalstatsworker spam
+1ab9c3cbcfd8 ChargingControl: Additional log lines for deadline
+642838836f59 ChargingControl: Retry setting deadline if it fails
+0d314b0981e9 ChargingControl: Drop default values for initially zero variables
+6e4284f8765c ChargingControl: Return early if lineage health HAL is not found
+c423ca923c8d ChargingControl: Don't set deadline if charging control is not enabled
+9d5a1ec30488 ChargingControl: Use ServiceManager.waitForDeclaredService()
+ad0ded54dc66 ChargingControl: No need to log a crash when not supported
+534a2dd07fff ChargingControl: Handle cancel toggle correctly if bypass is not supported
+500f45ec9907 ChargingControl: Add cancel toggle for limit done notification
+e2f7b215a2cb ChargingControl: Reset internal states on settings change
+5ab5e427fd9c ChargingControl: Set a small margin for devices with bypass support
+21e3afbbe5c1 base: Add static isChargingControlSupported(ctx) method
+116edee05c01 base: Implement Lineage health service
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+c063341f58 [PATCH] Add simple FEAS support
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/tiramisu
+
+fd09df4 health: Only dump charging enabled status if toggle is supported
+6b1b7a2 fixup! health: Wait for required paths indefinitely
+656b24c health: Only select node with RW permission
+1ce78a8 health: Check access() return value
+9b0bd73 health: Wait for required paths indefinitely
+27e6ca4 health: Add default implementation
+82c7722 health: Initial Lineage Health AIDL interface
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+9945a5d Aperture: Use Material You color on location dialog
+b07cf68 Aperture: Use Material You colors on QR bottom sheet
+45612be Aperture: Properly observe / remove observers from LiveDatas
+b41107f Aperture: Cleanup cameras parsing
+8f64c4d Aperture: New camera mode selector UI
+09a3389 Aperture: Move all the remaining views changes to livedata observers
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+cecefbce57 ChargingControl: Don't index settings if it is not supported
+d6fc15bf67 Settings: Add charging control preferences
+a8815be10d [SQUASH] Settings: Remove Smart Charging [2/4]
+15124934ea Settings: storage: don't skip primary user when listing non-logged in users
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+e53ec0b4 config: Disable OTA Updater for A14
+bb5c5a3b vendor: Remove Smart Charging [4/4]
+1341ff62 soong: Add TARGET_HEALTH_CHARGING_CONTROL related configs
+a4474ac3 config: device_framework_matrix: Add vendor.lineage.health
+4a7f7a9b config: Copy Lineage health permissions
+
+
+=======================
+     2023/09/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+5dbc380cd0 Revert "SurfaceFlinger: Disable early release optimization"
+07879da03b Fix the shadow problem caused by layer parent switching
+58cb6fa7a3 [Optimization] It's no need to start the dispatch cycle going if the outbound queue was not previously empty.
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8450
+
+37b4130 agm: Fix OSS compile for plugins
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8450
+
+faf5da46 pal: Update kvh2xml for current branch
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+ca7db6f Revert "agm: changes to enable session flush using sessionId"
+626a97d agm: Fix OSS compile for plugins
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8550
+
+d22432bd pal: Complement kvh2xml header
+9a816119 pal: Update kvh2xml for current branch
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+e31d3f418f fixup! Launcher3: Allow hiding top shadow on statusbar
+
+
+=======================
+     2023/09/06
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/tiramisu
+
+51964e6a8c Fixed Dex2oat failed to compile a boot image
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+60705b1536 fixup! Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+5bfafd18de76 base: Extract base class for lineage base feature
+d08ac9304177 base: Settings: Add settings for charging control
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+e359fe0 agm: Infer ar error codes from utils
+fda02c3 Revert "plugins: disable modules on OSS builds that depend on proprietary headers"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+50976f3 manifest: Track repos for Jemalloc changes
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+4b2b9fe Evolver: Import SelfRemovingDropDownPreference from LineageOS
+21217ed Evolver: Add SystemSettingDropDownPreference from LineageOS
+0cb29f1 Evolver: Add optional haptic feedback to volume panel [2/2]
+
+
+=======================
+     2023/09/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9844e467a457 New Crowdin updates (#458)
+402e8c49c9c5 base: Add optional haptic feedback to volume panel [1/2]
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+f837662 power: update the AIDL client ver 3
+
+
+=======================
+     2023/09/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+100e13847710 BluetoothControllerImpl: Optimize connected battery level scanning
+
+* Repository: /commits/refs/heads/tiramisu
+
+f82f1cf gms: Don't build game_service
+
+
+=======================
+     2023/09/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+7cf4df82cc libcameraservice: extend support for Oppo Camera
+d7dc2ce4cf av: Nuplayer: Declare 24Bit Packed & 32Bit support
+09f1323c50 av: ACodec: Import support of Pcm32bit channel
+2b00c15a10 av: Audio Policy: Increase Max Sample Rate Hz to 384k
+add9818656 Effects: add a method to retrieve audio configuration
+97550ebe51 media: OMXStore: Import loading libstagefrightdolby
+e8531e91ca av: Import Dolby Effects initialization
+fe5889067b cameraserver: Let multiple cameras opened by stock camera application
+d30f6edd82 Changing max SampleRate limits for raw audio decoder
+2fd31c235b MediaProfiles: Check before overriding media settings xml
+2c7f108bce media: Add timelapse 8k UHD Camcorder profile to quality map
+cdacccf0d3 media: Add changes to pick target specific media xml's
+85597ef9d8 audio: add encoding support for linear PCM format
+158faabe12 APM: Restore S, R and Q behavior respectively for telephony audio
+856eaa4ad1 Codec2: guard the dummy work signal to lahaina only
+b65b94b0d5 Codec2: queue a empty work to HAL to wake up allocation thread
+f0b8e244e7 WifiDisplaySource: allow overriding max wfd resolution with prop
+bbff81bf89 WifiDisplaySource: raise supported resolution to 1920x1080p60
+317ec8e374 StagefrightRecorder: Add "set-title" parameter
+0a244620c2 APM: Remove A2DP audio ports from the primary HAL
+af1246baba APM: Optionally force-load audio policy for system-side bt audio HAL
+10519ba700 camera: Expose aux cameras in third party apps
+65a3db0307 audiopolicy: Disable sonification on WFD sink
+7224dba455 Add group audio to vendor.media.omx service
+440df1809e codec2: add smoothfactor when checking n-th work
+c154911f94 av: Initial support for 24bit encoding and 6 channels
+748dbe05d1 audiopolicy: support extended feature in audiopolicymanager
+33dd5f248d Partial revert "Move unused classes out of stagefright foundataion"
+bd5951257a audioflinger: Fix audio for WifiDisplay
+3cc7464613 libstagefright_wfd: video encoder does not actually release MediaBufferBase when done
+d85d89c6a6 stagefright: Fix buffer handle retrieval in signalBufferReturned
+29ee2612b8 stagefright: Fix SurfaceMediaSource getting handle from wrong position issue
+136c09a12d libstagefright_wfd: compilation fixes
+ada9fb2f89 libstagefright: Remove libmediaextractor dependency
+5bc49ded5c Revert "Removed unused class and its test"
+5bdff913c9 Revert "stagefright: remove Miracast sender code"
+2752ef1773 av: support per-app volume [1/3]
+a23a6a4d59 HACK: libcameraservice: Make system cameras available to all camera apps
+0df81ec52d camera2 vndk: Improve error handling
+3c77422b6a libstagefright: Allow HFR-60 in HAL-3 recording
+2eaa69c184 libstagefright: Support YVU420SemiPlanar camera format
+53ff62dabd stagefright: add changes related to high-framerates in CameraSource
+46995b7a34 Add AC4Tbl params for dolby AC4 decoder [1/2]
+3dc6b8cab1 libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib
+3e98711c92 Camera: Wait for the status tracker idle fence
+7ac0cad0f1 Camera: Heic: Allow grids settings override in onFormatChanged
+0d18042d42 Fix null deref in camera service
+f7ba780a67 cameraserver: Fix floating point truncation for getUHRMaxJpegBufferSize
+7a003e34b4 Camera: Increase precapture end timeout
+8bb3d9a26b Fix an issue that a free memory is accessed
+91c2d1a10e libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS
+2b273b47a4 Camera: Fix race between notifyDeviceStateChange and removeProvider
+542edb62a0 Camera: Removing cachedump call to miminimize delay during close.
+ddec81de4e Camera: Flush Improvements - Result drain optimization
+2a73d3a4b8 CameraService: Fix deadlock in binder death cleanup
+846dde5ace cameraserver: clear all requests and signal mRequestSignal from RequestThread during disconnect().
+869ad6f1b8 Camera: Save the HIDL instances regardless of device version
+80ca6c6950 cameraserver: Correct camera1 -> api2 shim layer handling for video stabilization.
+0bef17b67c Code clean for libcameraservice
+0e3d391a21 SessionConfigurationUtils: Allow privileged camera apps to create raw streams for raw capable cameras
+a238661cae libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+752a149742 libcameraservice: Add support to set vendor tag with client package name
+99715676fd camera: Allow to use boottime as timestamp reference
+23188b4ce3 Camera: Avoid unnecessary close of buffer acquire fence fds
+9a6c205319 Fix an issue that the sensor privacy does not apply to the new camera clients
+aac5abd8db Camera: Avoid roundBufferDimensionsNearest also for HAL_PIXEL_FORMAT_BLOB
+d552fa9d53 Camera: Skip stream size check for whitelisted apps
+78878967d6 [2/2] av: Remove restrictions for system audio record
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+c4993b03cf8f camera: Checkout changes to https://github.com/crdroidandroid/android_frameworks_base
+ccb87849c9a0 Revert "frameworks/base: Import Xiaomi Image Tags defenitions"
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+399520b58b [SQUASH] native: Remove Xiaomi imports
+
+
+=======================
+     2023/09/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+017838d Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+2994137 Evolver: Hide signal-related themes for Wifi-only devices
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+5c38eed0 overlay: Treat org.lineageos.settings as privileged
+
+
+=======================
+     2023/09/01
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+bf13860 vendor: Always copy charger init for non-AIDL devices
+87722db vendor: charging: Update charger_monitor init script
+3e2c3a0 vendor: init: Revert "init.qcom: add permission for brightness sysfs for eDP"
+c17e52e vendor: init: Revert back to original init.kernel.post_boot-cape.sh
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+33b1e3db5dc3 AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress
+75330b64aae8 SystemUI: Add support for toggling Combined QS Header (1/2)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+e44fb2a Evolver: Make Combined Qs Headers Optional with Toggle (2/2)
+
+
+=======================
+     2023/08/31
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+225fe694ae Settings: Update Glide library to 4.16.0
+37c609b749 Crash occurs when entering a Bluetooth broadcast password
+93b4d20216 Use ArrayMap to cache active subscriptions
+
+

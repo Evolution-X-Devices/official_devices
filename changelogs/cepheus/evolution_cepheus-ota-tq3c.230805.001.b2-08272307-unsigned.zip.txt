@@ -1,0 +1,21 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Merge kernel upstream v4.14.323
+- Tweak maximum gainings for Dolby presets (avoids distorted sounds and makes it much easier to tune the sound with the equaliser.
+- Switch to 'user' build (fix some apps not working like some banking apps and avoids warnings about custom ROM like the one in WhatsApp).
+
+**Evolution X Update**
+
+- Settings: Remove LTE only mode
+- core: legacy toasts deserve rounded corners too
+- Evolver: Introduce Data icon styles
+- PixelPropUtils: Stop spoofing some google apps
+- GameSpace: Add missing permission usage for Danmaku service
+- Settings: Import animations from SettingsGoogle
+- Settings: Move Power button torch options from Evolver
+- Fix the issue with Android System Intelligence about text selection

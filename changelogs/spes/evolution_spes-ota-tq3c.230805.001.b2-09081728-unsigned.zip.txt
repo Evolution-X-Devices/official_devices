@@ -1,0 +1,19 @@
+This is Evolution X 7.9.7 Based on Android 13 with August security PATCH (r74)
+
+BUILD INFORMATION
+==============================
+· OSS Kernel based on @muralivijay9845 and @AkiraNoSushi work.
+- Upstreamed to 4.19.171.
+- KernelSU with never be included.
+- GCamGO included. Added libs for MIUI Camera.
+
+BUILD CHANGES
+==============================
+· Improve Front Camera Indicator
+· Bump ZRAM to 3999.9999MB, yes
+· Update blobs from SPESNEEAGlobal_V14.0.1.0.TGKEUXM
+· Enable ZRAM Writeback
+· Kernel: Enable and use LZ4 as default for ZRAM
+· Kernel: Move to SLMK (Simple Low Memory Killer)
+· Kernel: Use Xiaomi-touch to handle DT2W
+· More but I'm too sleepy to write

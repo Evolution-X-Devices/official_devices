@@ -1,0 +1,111 @@
+This is Android 13 with August 2023 (r74) security patches
+
+Notes:
+==============================
+Merged August 2023 Security Patches
+Micam is included
+Dolby Atmos is included
+Launcher3 aka EvolutionX Launcher is Present
+Dirty Flash from previous builds is fine
+
+Device changes:
+==============================
+None
+------------------------------
+
+ROM changes:
+==============================
+8/13
+BoostFramework: Kill logcat spam on devices without QPerformance
+GameSpace: Do not translate GameSpace app name
+GameSpace: Import new game illustration from motorola
+GameSpace: Make Font size for GameSpace and Clock a bit less
+
+8/12
+Avoid potential NPE when using DownloadManager
+Evolver: Applock: Fix an issue where system allowlist is not respected
+Games/PixelPropsUtils: Fixes and spoofing improvements
+Reticker: Bump to v1.1 (fixed)
+Toast: Perform text scrolling for long toast texts
+base: Hide ADB and developer setting enable status
+
+8/11
+DeviceConfig: Change setProperties behavior
+DeviceConfigUtils: Make debug optional
+SystemUIGoogle: Fix BatteryControllerImplGoogle injection
+SystemUIGoogle: Sync forked dagger files with SystemUI
+overlays: Allow default notification listener access for ParanoidGlyph
+vendor: Drop SimpleDeviceConfig
+vendor: Move custom device configs to global_device_configs_override
+vendor: SimpleDeviceConfig: Isolate pixel specific configs and cleanup
+vendor: Update now playing configs from gms
+
+8/9
+Change Linkify to use defaultCountry if simCountryIso is empty.
+Check if input method is enabled before showing missing keyboard layout notification
+PixelPropsUtils: Refactor logic and cleanup
+SystemUIGoogle: Hide now playing icon if not clickable
+
+8/8
+AudioService: focus listener: enable it when using external AudioFocus
+Launcher3: Fix troubleshoot the video crossover display exception
+Merge August 2023 security patches (13.0_r74)
+ParallelSpace: Update deprecated APIs and optimize lookup
+PixelPropsUtils: Set HARDWARE, ID values
+PixelPropsUtils: Update fingerprints to August 2023 release
+SystemUI: Resolve crash when updating control list services
+SystemUIGoogle: Rewrite AmbientIndicationContainer to kotlin
+always auto-grant permissions that have "normal" protectionLevel
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+base: ApplicationPackageManager: Return early for Tensor check
+compatibility_matrices: Allow radio.config@1.0 till target-level 5
+config: Disable Deep Press touch video heatmaps
+core: Improve notification toast format and fix for apps < sdk 29
+fixup! Match legacy toast view with SystemUI
+gms: Build Cinematic Wallpapers for Pixel 6 and newer
+version: Update to 7.9.7 (Pinakbet)
+
+8/7
+NFC: Fix Android Beam
+PixelPropsUtils: Correctly spoof unstable process
+PixelPropsUtils: Spoof all wallpaper packages to Pixel 7 Pro
+
+8/5
+Fix possible NPE in StatusBarIconList causing bootloop
+Notification counter: Account status bar top padding when calculating height
+Settings: Fix findPeakRefreshRate logic
+Settings: Update 90hz string replace hack in displayPreference
+recovery: Clear BCB before rebooting to recovery
+recovery: Simplify reboot recovery reason
+
+8/4
+Camera: Bump up the extension jpeg processor blob size
+Catch IllegalStateException in Telecom when the Bluetooth process is down
+Launcher3: Fix memory info calculation
+Launcher3: Move meminfo instance creation out of runnable
+Launcher3: Rework MeminfoView available ram calculation
+Reticker: Bump to v1.1
+SysUIToast: Remove restrictions on toast app icon
+libcameraservice: extend support for Oppo Camera
+libcameraservice: Guard miui camera workarounds
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+
+8/1
+SystemUI: Import more qs headers
+Updater: Preferences: allow overlaying default values for some preferences
+Updater: Show the correct percentage during package installation
+
+7/31
+Add helper method for config file converter classes used by HAL
+PixelPropsUtils: Spoof Galaxy S23 for YouTube
+media: update path for vendor specific config files
+
+7/30
+EvoEgg: Properly exclude from Google backup
+EvoEgg: Use adaptive icon
+Evolver: Bring back Lockscreen charging info (disabled by default)
+Remove glass blur effect
+Settings: Device name preference refactor
+Settings: Remove Evolution icon from AndroidManifest
+SystemUI: fix missing rotate suggestion in 2 button nav mode
+SystemUI: show ime switcher + cursor keys if we have space
