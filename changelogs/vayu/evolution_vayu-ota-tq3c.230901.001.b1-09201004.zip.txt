@@ -1,0 +1,42 @@
+This is Android 13 with September Security Patch
+
+==============================
+Notes:
+==============================
+- You can dirty flash but Clean Flash is recommended
+- Use latest TWRP / PitchBlack / OrangeFox (recommended)
+- Use any firmware version, 12.X / 13.X / 14.X doesn't matter
+- If you're DFE user, don't forget to flash DFE file .zip again
+
+==============================
+Device Changelog:
+==============================
+- Final Android 13 build
+- Other changes and improvements
+
+==============================
+ROM Changelog:
+==============================
+- Bumped to 7.9.8 (Lugaw)
+- Merged September Security Patch (13.0.0_r82)
+- PixelPropsUtils: Update fingerprints to September 2023 release
+- GamesPropsUtils: Remove Apex Legends spoof
+- SystemUI: Move DT2S from PulsingGestureListener
+- SystemUI: Pass touch events to pulsing gesture listener only if dozing
+- AutofillManager: Make userdebug default to NO_LOGGING
+- BluetoothManagerService: Allow bluetooth auto-enable if not in airplane mode radios
+- BluetoothManagerService: Check if bluetooth is in airplane mode radios before disabling
+- Add null checks when registering backup transport
+- Disable OTA Updater for Android 14
+- Fix Wi-Fi timeout feature
+- display: Handle zero auto brightness adjustment
+- fwb: Silence handwritting error spam
+- gms: Import Kids Home stuff
+- kernel: Allow to limit the used .dtb files for the final DTB image
+- kernel: Include DTBOs from OEM/ODM folder in base DTB
+- overlay: Move config_hspa_data_distinguishable to proper location
+- prebuilt: Remove old Sprint APNs
+- recovery: Bypass reboot prompt for sideload-auto-reboot
+- Update translations
+
+THANKS FOR YOUR SUPPORT !! AND GOOD BYE ( ^_^ )
