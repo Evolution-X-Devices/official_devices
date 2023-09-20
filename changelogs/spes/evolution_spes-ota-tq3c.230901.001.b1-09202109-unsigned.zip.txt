@@ -1,0 +1,20 @@
+This is Evolution X 7.9.8 based on Android 13 with September security PATCH (r82)
+(Last Android 13 build)
+
+BUILD INFORMATION
+==============================
+· July Kernel r1
+· Linux 4.19.171
+· Simple Low Memory Killer
+· KernelSU WILL NEVER BE INCLUDED
+· GCamGO included. MIUI Camera supported
+
+BUILD CHANGES
+==============================
+· Kernel: Enable Wireguard
+· Kernel: Use SBalancer
+· Import joystick keylayouts from 1Controller v1.5.2
+· Implement HBM (High Brightness Mode). HBM will be automatically enabled under sunlight
+· Improve overall smoothness
+· Some minor changes & improvements
+
