@@ -1,17 +1,17 @@
 {
-   "datetime": 1694650600,
+   "datetime": 1695227777,
    "donate_url": "https://www.paypal.me/chfondia",
    "error": false,
-   "filehash": "10df3a0ae3dfb84943ed4d4b037e0ff2",
-   "filename": "evolution_zippo-ota-tq3c.230805.001.b2-09140016-unsigned.zip",
+   "filehash": "4c7de90310900ef0043fc37fb07fecb0",
+   "filename": "evolution_zippo-ota-tq3c.230901.001.b1-09201639-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-zippo-official-evolution-x-08-26-22.4484739",
-   "id": "fd7ca8ac85d51accd4fb433a42e7f01067f8d7b881b945b5260fdd2f38cbc969",
+   "id": "195d772b6bad286cd0ae00ffc68257d131ee427701cc9571f0e721133f2a432b",
    "maintainer": "Chema Funtan",
    "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2113160041,
+   "size": 2113817413,
    "telegram_username": "chematelegram",
-   "url": "https://sourceforge.net/projects/evolution-x/files/zippo/13/evolution_zippo-ota-tq3c.230805.001.b2-09140016-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/zippo/13/evolution_zippo-ota-tq3c.230901.001.b1-09201639-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
