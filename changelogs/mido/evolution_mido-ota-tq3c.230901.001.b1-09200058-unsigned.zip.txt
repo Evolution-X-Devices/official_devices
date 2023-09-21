@@ -1,0 +1,43 @@
+This is Android 13 with September 2023 (r82) security patches
+Build Date: 22/September/2023
+
+Notes:
+==============================
+- Only Dirty flash or update via OTA if you are coming from previous evolution x official encrypted build if coming from unofficial or other builds better do a clean flash
+- FBE (File based encryption) enabled by default *
+- NON - RETROFIT BUILD. Flash or Update as usual, with normal method.
+- * use updated TWRP (https://github.com/zeelog/device_mido_twrp/releases/tag/2.0)
+- Use zeelog's lineageos method to flash the rom or follow the following steps given here: [Guide](https://raw.githubusercontent.com/NRanjan-17/Evolution-X-Releases/main/install_guide.md)
+- Clean Flash Recommended
+- Always dirty flash at your own risk.
+- If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+
+Device changes:
+==============================
+- No Changes
+
+------------------------------
+
+ROM changes:
+==============================
+9/19
+Merge September 2023 security patches (13.0_r82)
+PixelPropsUtils: Update fingerprints to September 2023 release
+
+9/18
+BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+SystemUI: Move DT2S from PulsingGestureListener
+SystemUI: Pass touch events to pulsing gesture listener only if dozing
+display: Handle zero auto brightness adjustment
+fixup! Wi-Fi timeout feature
+gms: Import Kids Home stuff
+kernel: Allow to limit the used .dtb files for the final DTB image
+kernel: Include DTBOs from OEM/ODM folder in base DTB
+
+9/17
+AutofillManager: Make userdebug default to NO_LOGGING
+GamesPropsUtils: Remove Apex Legends spoof
+fwb: silence handwriting error spam
+overlay: Move config_hspa_data_distinguishable to proper location
+version: Update to 7.9.8 (Lugaw)
