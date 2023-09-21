@@ -1,0 +1,22 @@
+================================
+Device side changes:
+* Added missing Udfps Animations
+================================
+================================
+
+ROM side changes:
+================================
+
+9/21
+Revert change to allow setting wake for notification separately from doze
+
+9/20
+Evolver: Add strings for showing fastcharge status summary
+Settings: Implement a dynamic summary that shows fastcharge status
+apn: Add Mint Mobile
+base: Add minimal support for Richtap vibrations
+gms: Added tangorpro Velvet
+kernel: Use pahole from Google prebuilts
+prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator
+services: Only ever apply cutout to internal displays
+
