@@ -1,0 +1,387 @@
+=======================
+     2023/09/23
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+e669016 perf: kalama: Do not allow foreground tasks to run on CPU7
+88f68c6 vendor: media-legacy: Allow to use a custom c2_manifest_vendor.xml
+ecaea5e common: Update properiatory files list
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+be1aa3105280 Revert "SystemUI: Tell user when face unlock detection is running"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+809afb7 manifest: Track repos for Jemalloc changes
+18af8b3 manifest: Track frameworks/opt/colorpicker from LOS
+3accedb manifest: Track external/dtc from LOS
+
+
+=======================
+     2023/09/22
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+c421c10f5b90 SystemUI: Resolve crashes caused by allowing the reinflation of SystemUI.
+a19ef79af214 Reticker: Bump to v1.1
+0fff433c5a6d SystemUI: refresh clock font when system font changes
+f809c6691134 Bubbles: Prevent one handed callbacks from being delayed
+d614dfb2b92b Add keylayout for Xbox Wireless Controller
+f3b514a3636e Add PS5 controller PID to Alsa manager block list.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+5177164 Evolver: Disable Reticker by default and remove landscape only option
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commits/refs/heads/lineage-20.0
+
+3e200da st-hal-ar: Guard on oss sthal flag
+
+
+=======================
+     2023/09/21
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+b925dfde4f7f Revert "base: Allow setting wake for notification separately from doze [1/2]"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b80bc79 Aperture: Update CameraX to 1.4.0-alpha01
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+3ab0145 New Crowdin updates (#514)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1b212e2607 Revert "Settings: Allow setting wake for notification separately from doze [2/2]"
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+bd170bb SettingsGoogle: Sync with Evolution X changes
+bac63d8 SystemUIGoogle: Sync with Evolution X changes
+51924c9 SystemUIGoogle: googlebattery: rework system feature check sequence
+
+
+=======================
+     2023/09/20
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+e87bd14 vendor: media-legacy: Build android.hardware.media.c2 1.2 vendor interface
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9b8998812ffc services: Only ever apply cutout to internal displays
+b5cba88ca207 base: Add minimal support for Richtap vibrations
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+ba31d10 Evolver: Add strings for showing fastcharge status summary
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+38fa50a483 Settings: Implement a dynamic summary that shows fastcharge status
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+3cd6a262 apn: Add Mint Mobile
+5dd13b84 prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator
+e8ddca6f kernel: Use pahole from Google prebuilts
+
+
+=======================
+     2023/09/19
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/tiramisu-jem
+
+ed7e900f1 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+514e7a584 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+5bea8f5 vendor: media: Build android.hardware.media.c2 1.2 vendor interface
+db49da7 vendor: gps: Build android.hardware.gnss AIDL vendor interface
+b10a3dd vendor: audio: Build vendor.qti.hardware.AGMIPC@1.0.so vendor interface
+7269a6e vendor: audio: Build libsndcardparser
+1671d08 dlkm: Use separate modules list for recovery
+22985c4 vendor: charging: Add soong namespaces
+839f19e vendor: Drop 32bit libs from >=5.10 components
+362d0c9 common: alarm: Add manifest entry
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+66767786bf Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e42142cc7cb9 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/base into tiramisu
+cc123fef034c PixelPropsUtils: Update fingerprints to September 2023 release
+4b63f36a2457 SystemUI: Pass touch events to pulsing gesture listener only if dozing
+af0226b848d3 SystemUI: Move DT2S from PulsingGestureListener
+7bbdf5f5375a display: Handle zero auto brightness adjustment
+06c6f3831c71 BatteryStatsImpl: Fix divide by zero error
+dc330b62d06b fwb: silence handwriting error spam
+c183950287e7 New Crowdin updates (#464)
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+9c66f4edb8 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/LineageOS/android_frameworks_opt_colorpicker/commits/refs/heads/lineage-20.0
+
+9a5f228 Migrate to androidx
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-20.0
+
+bfad08e compat: Add libcomparetf2 shim
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+44b113a Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/manifest into tiramisu
+ed48795 Manifest for Android 13.0.0 Release 82
+259db42 Manifest for Android 13.0.0 Release 81
+4ca496b Manifest for Android 13.0.0 Release 80
+06e1764 Manifest for Android 13.0.0 Release 79
+611206b Manifest for Android 13.0.0 Release 78
+9b9bfd0 Manifest for Android 13.0.0 Release 77
+53ab5fa Manifest for Android 13.0.0 Release 76
+1ecb353 Manifest for Android 13.0.0 Release 75
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+6de5535 Aperture: Don't pass `repository` unnecessarily
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+422c1085e1 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Launcher3 into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+88c19ba4 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+6613e8cdb0 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Settings into tiramisu
+9aa26fd73a fixup! Wi-Fi timeout feature
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+98b7d33660 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+d812074314 BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+366bdc1f51 BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+8c7a58306d gd: hci: Ignore command READ_REMOTE_VERSION_INFORMATION result if it doesn't in command_queue_
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+c57d8e03c Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+0f96f09ce Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+
+=======================
+     2023/09/18
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+2edbe9a Aperture: Use composite action for running builds
+45a6690 Aperture: Update ZXing to 3.5.2
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+5cd58253 kernel: Allow to limit the used .dtb files for the final DTB image
+5dfc6da7 kernel: Include DTBOs from OEM/ODM folder in base DTB
+
+
+=======================
+     2023/09/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+8f8bd748bbc8 GamesPropsUtils: Press F for Apex Legends
+c2185b871992 AutofillManager: Make userdebug default to NO_LOGGING
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+0a4c3a6 fixup: yaml
+e495da5 add workflow_dispatch event for gerrit hooks
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+dd2f007 CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+6af46fc8 version: Update to 7.9.8 (Lugaw)
+fabf9f5d overlay: Move config_hspa_data_distinguishable to proper location
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+f16c47b power: Remove unused variable
+
+
+=======================
+     2023/09/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+732a706 Aperture: Update workflows versions
+67078d0 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+cfe75266 prebuilt: Remove old Sprint APNs
+
+
+=======================
+     2023/09/15
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+c14b0ae common: Move in mediashell rules from ATV
+4a71c88 atv: Allow TvSettings to set adb port property
+28fad77 atv: Update mediashell_app policy
+1ff4130 atv: remove duplicated mediashell_app rule
+3a211c6 Partially revert "atv: Allow setupwraith configs to be set by vendor"
+951c466 atv: vendor: Remove adbd_prop references
+64eb9ff atv: Label and allow mediashell_app what it needs
+128b5fd atv: Allow setupwraith configs to be set by vendor
+583d06f atv: Allow gmscore_app what it needs
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+79ee5da Aperture: Run ./gradlew app:generateBp
+7fccb00 Aperture: Use generateBp plugin from maven repo
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+f5410a60 qcom: Add parrot platform
+
+
+=======================
+     2023/09/14
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/tiramisu
+
+bbe09084 recovery: Bypass reboot prompt for sideload-auto-reboot
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+7855ffbff78e SystemServer: Add configs for Lineage Health and LiveDisplay services
+eb3d3c7ae4f3 New Crowdin updates (#463)
+e612f9175a2f Add null checks when registering backup transport
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+d1145d8 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+005fd58eab New Crowdin updates (#343-#350)
+8952b885f1 Settings: Hide Fast charging from search if not supported
+7bdebc43ce Settings: Extend Fastcharge implementation [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+b615fcee config: device_framework_matrix: Add IRestrictedCurrent
+a3fa3fd7 Revert "config: Remove TextClassifier packages"
+88ed0e77 kernel: Handle GKI modules
+aa4d695b custom_apns: Check MCC/MNC for override APN
+29a8fe9d config: Disable OTA Updater for A14
+
+* Repository: /commits/refs/heads/tiramisu
+
+c549bab gms: Refractor
+
+
+=======================
+     2023/09/13
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+73f776b Fastcharge: add ResctrictedCurrent interface to hwservice contexts
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+9a495512d418 Revert "SystemUI: Add support for toggling Combined QS Header (1/2)"
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/tiramisu
+
+7ded091 interfaces: Extend Fastcharge implementation [1/3]
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+a72154a agm: fixup!: OSS compile for plugins
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+208f297 Revert "Evolver: Make Combined Qs Headers Optional with Toggle (2/2)"
+d82d07e Evolver: Add setMinValue
+
+
+=======================
+     2023/09/12
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9009fd8 common: bengal-5.15 > SM6225
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+e77ea54a88cb core: pm: Allow wildcard in RRO system property value checks
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+1bd3662 Aperture: Update CameraX maven repo URL
+5cd5058 Aperture: Detect uncommitted changes after running app:generateBp
+
+
+=======================
+     2023/09/11
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+7128a05 common: Track vendor/qcom/opensource/audio
+3693589 vendor: telephony: Enable Enable IMS single registration for 5.15 kernel version
+2a41c4a vendor: telephony: Switch Enable IMS single registration condition to kernel version
+4c6b250 vendor: bt: Build vendor.qti.hardware.bluetooth.audio-V1-ndk
+cb10b7c vendor: bt: Add condition to use AIDL QTI bt audio
+08c96fb common: telephony: Prepare for non-legacy dataservices
+872411b common: Enable dlkm based in kernel version
+30228af dlkm: Add kalama in-list
+bf20945 dlkm: Add bengal in-list
+69c158f dlkm: Add support to system_dlkm kernel modules build
+4169f79 common: Skip MASTER_SIDE_CP_TARGET_LIST to 5.4 >>> kernel version
+b2b8b75 vendor: media: fixup! 803ea99
+6078770 common: Fix bengal and kona conditions to 5.15
+11e79fd common: Fix 5_15 family components condition
+828a229 common: Define the partition source order for product/build properties pickup
+d244d15 telephony: Enable IMS single registration for 5.10 platforms
+61fd90b vendor: init: init.target.rc: Move SPU NVM directories creation to earlier stage.
+ca169b1 vendor: init: init.qcom.rc: Move SPU NVM direcroty creation to earlier stage
+ff49b35 vendor: init: Create aospa init script to qcom changes
+c964a0c vendor: copy charger init from charging component
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+cec253b839d6 base: core: Unregister broadcast receiver only when registered
+3ff7a1369c65 SystemUI: Enable power menu blur via window flags
+
+
