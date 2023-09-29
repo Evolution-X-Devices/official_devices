@@ -1,0 +1,33 @@
+Device Changes:
+Switch to latest Nexus kernel
+Switch to Lineage health hal (replaces smart charging)
+Tune powerhints
+Increase AoD brightness
+Enable Optimized Power Management for WiFi
+Extend Fast charge implementation and a toggle for it
+Fix USB tethering
+Add KSU support
+Update Adreno Drivers to v600
+
+ROM Changes:
+Evolver: Update CustomSeekBarPreference from crdroid
+vendor: Enforce smartspace configs
+Add PS5 controller PID to Alsa manager block list
+Add keylayout for Xbox Wireless Controller
+Bubbles: Prevent one handed callbacks from being delayed
+Evolver: Disable Reticker by default and remove landscape only option
+SystemUI: Resolve crashes caused by allowing the reinflation of SystemUI
+Settings: Implement a dynamic summary that shows fastcharge status
+apn: Add Mint Mobile
+base: Add minimal support for Richtap vibrations
+Merge September 2023 security patches (13.0_r82)
+PixelPropsUtils: Update fingerprints to September 2023 release
+BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+SystemUI: Move DT2S from PulsingGestureListener
+SystemUI: Pass touch events to pulsing gesture listener only if dozing
+display: Handle zero auto brightness adjustment
+gms: Import Kids Home stuff
+version: Update to 7.9.8 (Lugaw)
+Update translations
+config: Disable OTA Updater for A14
