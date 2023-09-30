@@ -1,0 +1,153 @@
+This build you're receiving is evolution_veux-ota-tq3c.230901.001.b1-09291429-unsigned.zip comes with September Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+• Miui Cam is default cam.
+• Comes with Evolution X Launcher.
+• Synced with latest source changes.
+• Cts passes by default.
+• OnePlus Dolby and Spatial Audio is Shipped within the rom.
+• Dirty flash is fine from previous released update.
+• Overall Stability And Improvements.
+==========================================
+=======================
+     2023/09/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+46890cd8 Put bare minimum metadata in screenshots
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+0b26d5d firmware: Update path
+
+
+=======================
+     2023/09/27
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+e9517bb Gamespace: Cleanup notification modes
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+0cea3d0 define SettingsGoogle_manifest
+
+
+=======================
+     2023/09/26
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+864fd22 fixup! common: Update properiatory files list
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-20.0
+
+d549dba compat: Add GNSS interface type shim
+
+* Repository: https://github.com/PixelExperience/hardware_qcom-caf_bengal_display/commits/thirteen
+
+9b5faec composer: Allow enabling doze mode support with a property
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+eb9c8ad New Crowdin updates (#514-#516)
+
+
+=======================
+     2023/09/23
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+18af8b3 manifest: Track frameworks/opt/colorpicker from LOS
+
+
+=======================
+     2023/09/22
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commits/refs/heads/lineage-20.0
+
+3e200da st-hal-ar: Guard on oss sthal flag
+
+
+=======================
+     2023/09/21
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b80bc79 Aperture: Update CameraX to 1.4.0-alpha01
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+1b212e2 Revert "Settings: Allow setting wake for notification separately from doze [2/2]"
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+3a40465 gms: Added tangorpro Velvet
+
+
+=======================
+     2023/09/19
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/tiramisu
+
+514e7a5 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/build into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+6676778 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+9c66f4e Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/frameworks/native into tiramisu
+
+* Repository: https://github.com/LineageOS/android_frameworks_opt_colorpicker/commits/refs/heads/lineage-20.0
+
+9a5f228 Migrate to androidx
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+422c108 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Launcher3 into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/tiramisu
+
+88c19ba Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/apps/Nfc into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+98b7d33 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/modules/Bluetooth into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/tiramisu
+
+c57d8e0 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/providers/MediaProvider into tiramisu
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/tiramisu
+
+0f96f09 Merge tag 'android-13.0.0_r82' of https://android.googlesource.com/platform/packages/services/Telephony into tiramisu
+
+
+=======================
+     2023/09/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_FaceUnlockService/commits/refs/heads/tiramisu
+
+dd2f007 CameraUtil: Dont go frenzy when camera not found
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+f16c47b power: Remove unused variable
+
