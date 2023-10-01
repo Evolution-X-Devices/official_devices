@@ -20,7 +20,7 @@ display_header() {
     echo -e "${GREEN}===========================================================${ENDCOLOR}"
 }
 
-dependencies="jq coreutils"
+dependencies="jq coreutils fzf"
 
 missing_dependencies=()
 for dependency in $dependencies; do
@@ -142,43 +142,43 @@ clear
 while true; do
     clear
     display_header
+    sleep 1
 
-    read -p "Select a method to view output:
-    1. Nano
-    2. Vim
-    3. Gedit
-    4. Emacs
-    5. Enter your own command
-    6. Regenerate (Restart script)
-    7. Exit
-    (1-7): " selection
+    choices=$(echo "Exit-Regenerate (Restart script)-Enter your own command-Emacs-Gedit-Nvim-Vim-Nano" | tr '-' '\n')
+    selection=$(echo "$choices" | fzf)
 
     case "$selection" in
-        1)
+        "Nano")
             if check_command "nano"; then
                 clear
                 nano /tmp/device_groups.txt
             fi
             ;;
-        2)
+        "Vim")
             if check_command "vim"; then
                 clear
                 vim /tmp/device_groups.txt
             fi
             ;;
-        3)
+        "Nvim")
+            if check_command "nvim"; then
+                clear
+                nvim /tmp/device_groups.txt
+            fi
+            ;;
+        "Gedit")
             if check_command "gedit"; then
                 clear
                 gedit /tmp/device_groups.txt
             fi
             ;;
-        4)
+        "Emacs")
             if check_command "emacs"; then
                 clear
                 emacs /tmp/device_groups.txt
             fi
             ;;
-        5)
+        "Enter your own command")
             clear && display_header
             read -p "Enter a valid program name to open device_groups with (/tmp/device_groups.txt will be appended): " custom_cmd
             if command -v "$custom_cmd" &>/dev/null; then
@@ -189,12 +189,12 @@ while true; do
                 sleep 1
             fi
             ;;
-        6)
+        "Regenerate (Restart script)")
             clear && display_header
             echo -e "${GREEN}Regenerating device groups...${ENDCOLOR}"
             exec "$0"
             ;;
-        7)
+        "Exit")
             clear
             echo -e "${RED}Session ended.${ENDCOLOR}"
             break
