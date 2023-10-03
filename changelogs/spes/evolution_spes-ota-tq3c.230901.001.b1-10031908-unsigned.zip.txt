@@ -1,0 +1,15 @@
+※ Evolution X 7.9.8 with Android 13 September security patch (r82)
+
+※ BUILD INFORMATION
+· July Kernel r1.1 - Linux 4.19.171
+· Simple Low Memory Killer
+· Pixel Power HAL
+· KernelSU WILL NEVER BE INCLUDED
+· GCamGO included. MIUI Camera supported
+
+※ BUILD CHANGES
+· Build Pixel Power HAL
+· Add Basic Call Recording support 
+· Use game thermal as fallback for GameSpace's listed apps 
+· Improve overall smoothness & responsiveness
+· Other minor changes & improvements
