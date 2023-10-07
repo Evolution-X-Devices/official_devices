@@ -1,0 +1,244 @@
+Notes:
+==============================
+Clean flash Recommeded
+Use latest MIUI 14.x firmware
+Use latest recovery (https://t.me/RedmiNote10ProChannel/1549)
+Device changes:
+==============================
+- Fix ultrasound sensor
+- add support for Mi Dolby
+- Update AOSP clang version to 17.0.4
+- Enable the pre-rendering feature
+- Remove raw flag for audio pop
+- drop dirac (Because we have Mi Dolby)
+- Fixed known bugs 
+- Other Misc. fixes and changes
+Credit :-
+               Arian, itsshashanksp, Adarsh, Vantom for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+ROM changes:
+==============================
+10/4
+Avoid repeated loading of mutable runtime overlays in the form of sharedLib
+Fix NPE of NativeTombstoneManager.TombstoneWatcher
+Manually merge October 2023 security patches
+PermissionController: Don't redeclare ids
+Report success on every fingerprint removal
+overlay: Remove obsolete overlays
+version: Update to 7.9.9 (Tocino)
+
+10/3
+Mark SMS premium code 8080 as free in Poland
+Settings: AirplaneModePreferenceController: Fix NPE when toggle is hidden
+
+9/29
+Hide hidden apps from all apps except system
+Put bare minimum metadata in screenshots
+SystemUI: Turn less boring headsup whitelist into an overlay
+wm: Fix menu in legacy apps with multiple activities
+wm: Fix menu only opening once on legacy apps
+
+9/27
+Ambient Display: Simplify always on charging enabled check
+GameSpace: Cleanup notification modes
+GameSpace: Fix notification listener service
+SystemUI: Fix exception when retrieving signal strength drawable
+SystemUI: Less boring headsup enhancements and fixes
+services: Launch pulse during plug-in if aod is enabled
+
+9/26
+Evolver: Update CustomSeekBarPreference from crdroid
+repopick: Fix regex related SyntaxWarning on Python 3.12
+vendor: Enforce smartspace configs
+
+9/25
+GameManagerService: Set device_config property on behalf of GameSpace
+GameSpace: Don't set device_config property directly
+charger: Support charger on vendor
+
+9/24
+GameSpace: Import new game illustration from motorola
+Evolver: Disable broken Combined QS element styles
+
+9/22
+Add PS5 controller PID to Alsa manager block list
+Add keylayout for Xbox Wireless Controller
+Bubbles: Prevent one handed callbacks from being delayed
+Evolver: Disable Reticker by default and remove landscape only option
+SystemUI: Refresh clock font when system font changes
+SystemUI: Resolve crashes caused by allowing the reinflation of SystemUI
+
+9/21
+Revert change to allow setting wake for notification separately from doze
+
+9/20
+Evolver: Add strings for showing fastcharge status summary
+Settings: Implement a dynamic summary that shows fastcharge status
+apn: Add Mint Mobile
+base: Add minimal support for Richtap vibrations
+gms: Added tangorpro Velvet
+kernel: Use pahole from Google prebuilts
+prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator
+services: Only ever apply cutout to internal displays
+
+9/19
+Merge September 2023 security patches (13.0_r82)
+PixelPropsUtils: Update fingerprints to September 2023 release
+
+9/18
+BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+SystemUI: Move DT2S from PulsingGestureListener
+SystemUI: Pass touch events to pulsing gesture listener only if dozing
+display: Handle zero auto brightness adjustment
+fixup! Wi-Fi timeout feature
+gms: Import Kids Home stuff
+kernel: Allow to limit the used .dtb files for the final DTB image
+kernel: Include DTBOs from OEM/ODM folder in base DTB
+
+9/17
+AutofillManager: Make userdebug default to NO_LOGGING
+GamesPropsUtils: Remove Apex Legends spoof
+fwb: silence handwriting error spam
+overlay: Move config_hspa_data_distinguishable to proper location
+version: Update to 7.9.8 (Lugaw)
+
+9/16
+prebuilt: Remove old Sprint APNs
+
+9/15
+qcom: Add parrot platform
+
+9/14
+Settings: Hide Fast charging from search if not supported
+SystemServer: Add configs for Lineage Health and LiveDisplay services
+
+9/13
+Add null checks when registering backup transport
+Update translations
+recovery: Bypass reboot prompt for sideload-auto-reboot
+
+9/12
+Extend Fastcharge implementation
+Evolver: Add setMinValue
+config: device_framework_matrix: Add IRestrictedCurrent
+core: pm: Allow wildcard in RRO system property value checks
+
+9/11
+Bring back TextClassifier packages (to fix clipboard issues)
+base: core: Unregister broadcast receiver only when registered
+kernel: Handle GKI modules
+
+9/10
+SystemUI: Enable power menu blur via window flags
+
+9/9
+Launcher3: ensure to update cached thumbnail if we take new one
+Launcher3: Import improvements from motorola
+Launcher3: remove weird brown tint from tablet task menu
+SystemUIGoogle: googlebattery: rework system feature check sequence
+config: Disable OTA Updater for A14
+fixup! Launcher3: Add recents and app drawer opacity customization
+fixup! Launcher3: Allow changing max lines for app label
+
+9/8
+Implement Lineage health service and remove Smart Charging
+Settings: Add charging control preferences
+Settings: storage: don't skip primary user when listing non-logged in users
+custom_apns: Check MCC/MNC for override APN
+
+9/7
+fixup! Launcher3: Allow hiding top shadow on statusbar
+fwb: silence batteryexternalstatsworker spam
+native: Add simple FEAS support
+native: Fix the shadow problem caused by layer parent switching
+
+9/6
+Evolver: Add SystemSettingDropDownPreference from LineageOS
+Evolver: Import SelfRemovingDropDownPreference from LineageOS
+Evolver: fixup! Import ConstraintsHelper from LineageOS
+
+9/5
+Evolver: Add optional haptic feedback to volume panel
+
+9/4
+BluetoothControllerImpl: Optimize connected battery level scanning
+gms: Don't build game_service
+
+9/2
+Evolver: Hide signal-related themes for Wifi-only devices
+
+9/1
+AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress
+Evolver: Make Combined QS headers optional with toggle
+overlay: Treat org.lineageos.settings as privileged
+
+8/31
+Crash occurs when entering a Bluetooth broadcast password
+Settings: Update Glide library to 4.16.0
+Use ArrayMap to cache active subscriptions
+
+8/30
+Launcher3: Do not set split button via code
+Launcher3: Fix up split button in recents for tab
+Launcher3: Move split overview action before screenshot
+BatteryStatsImpl: Fix wrong synchronized with mDailyFile
+Bluetooth: fix NullPointerException during bluetooth turning off
+Fix JobServiceContext leak issue
+Fix logspam from AppIdleHistory on first boot
+Fix NullPointerException for WifiDisplayController
+Perf: Fix the issue that activity boost duration abnormal
+core: Mitigate a crash when there are more than one installer intent received
+
+8/29
+Launcher3: Add product type variations to some strings
+Settings: Add product type variations to some strings
+Settings: Highlight The Evolver when opening Settings in TwoPane mode
+SystemUI: Fix Biometric dialog corner radius
+SystemUI: improve blur handling in respect to app launch animations
+kernel: Support Qualcomm merge_dtbs script
+kernel: Support copying modules to recovery
+wm: fix APPEARANCE_LOW_PROFILE_BARS not working in non-fullscreen app
+
+8/26
+Add wifi_add_or_remove_virtual_intf() to the legacy wifi hal
+Evolver: Hide all signal-related options for Wifi-only devices
+Evolver: Hide QS Vibration category for devices without vibrator
+Launcher3/Settings: Switch phone string to device
+PreferredNetworkTile: Hide from Wifi-only devices
+
+8/25
+Pulse: Fix orientation checks
+build: target: Move TeleService to telephony_system.mk
+
+8/24
+Pulse: Prevent systemui-related crashes
+Settings: Hide charging vibration if device has no vibrator
+Settings: Hide power button torch gesture if flash feature is not found
+Settings: Move Power button torch options from Evolver
+config: Add a separate gms config for wifi-only tablets
+
+8/23
+SystemUI: Fix class cast exception when animating play/pause button
+services: Bypass security check when checking provider permissions for google apps
+
+8/22
+Settings: Import animations from SettingsGoogle
+Settings: Prioritize market name as default device name
+SystemUIGoogle: Don't override biometric dialog corner radius
+SystemUIGoogle: Fix now playing visibility updates
+
+8/21
+DeviceConfig: Change setProperties behavior
+DeviceConfigUtils: Make debug optional
+GameSpace: Add missing permission usage for Danmaku service
+GameSpace: Update priv-app permissions whitelist
+Implement DeviceConfigUtils and service
+SystemUIGoogle: Silence google battery hal failures
+vendor: Drop SimpleDeviceConfig
+vendor: Move custom device configs to global_device_configs_override
+
+8/20
+PixelPropUtils: Stop spoofing some google apps
