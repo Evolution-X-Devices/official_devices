@@ -1,0 +1,19 @@
+Device changes:
+==============================
+Sync latest source changes ( v7.9.9 Tocino )
+October Security Patch
+Import SpatialAudio
+Fixed battery settings when enable/disable fastcharging
+Fixed Gamespace issues for some games
+Switch to Moto Dolby Atmos ( Miui dolby blobs, Moto Dolby App )
+Import Qcom audio effects
+Update CarrierConfig
+Update blobs and firmware to V14.0.12.0.TKDEUXM
+Added AOSP Dialer app
+Update IMS from LA.QSSI.13.0.r1-10000.02-qssi.0
+Some minor fixes and improvements
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- KernelSU support
