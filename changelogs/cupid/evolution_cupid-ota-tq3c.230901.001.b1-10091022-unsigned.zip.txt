@@ -1,0 +1,39 @@
+  
+2023-10-09
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: update qcom sm8450 hals
+
+ROM:
+
+10/4
+
+Avoid repeated loading of mutable runtime overlays in the form of sharedLib
+
+Fix NPE of NativeTombstoneManager.TombstoneWatcher
+
+Manually merge October 2023 security patches
+
+PermissionController: Don't redeclare ids
+
+Report success on every fingerprint removal
+
+overlay: Remove obsolete overlays
+
+version: Update to 7.9.9 (Tocino)
+
+
+10/3
+
+Mark SMS premium code 8080 as free in Poland
+
+Settings: AirplaneModePreferenceController: Fix NPE when toggle is hidden
