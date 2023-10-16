@@ -1,0 +1,4 @@
+Updated to october security patches.
+Imported perf configs/blobs from stock.
+Replaced the qcom power hal with libperfmgr, since the default one doesn't do much on sm8350.
+Updated some wfd blobs from latest OOS.
