@@ -1,0 +1,5 @@
+Fixed DT2W not working.
+Fixed qspmsvc not finding android.hardware.thermal@2.0.so.
+Imported /sys/kernel/oplus_display/* permissions from stock.
+Fixed some wakeup deadlock denials.
+Reenabled the sched_boost node for now, so the power hal can use it when interactions happen, please check battery life.
