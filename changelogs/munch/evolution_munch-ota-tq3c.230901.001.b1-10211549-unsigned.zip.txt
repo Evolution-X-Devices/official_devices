@@ -1,0 +1,129 @@
+=======================
+     2023/10/21
+=======================
+
+
+=======================
+     2023/10/20
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8250
+
+13d4b369b audio: Extend platform parser to allow device name aliasing
+
+
+=======================
+     2023/10/19
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+a0cd18b thermal: Add support for SDM630 and SDM455
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+3006e8c Aperture: Update CameraX to 1.4.0-alpha02
+
+
+=======================
+     2023/10/18
+=======================
+
+
+=======================
+     2023/10/17
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8150
+
+cac0846c9 Merge tag 'LA.UM.9.1.r1-14200-SMxxx0.QSSI14.0' into staging/lineage-20.0_merge-LA.UM.9.1.r1-14200-SMxxx0.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8250
+
+0d9e7bd13 Merge tag 'LA.UM.9.12.r1-16200-SMxx50.QSSI12.0' into staging/lineage-20.0_merge-LA.UM.9.12.r1-16200-SMxx50.QSSI12.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys/commits/refs/heads/lineage-20.0
+
+7827f3a Merge tag 'LA.QSSI.13.0.r1-11900-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-11900-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+49378d1 Merge tag 'LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+1fa4ba4 Merge tag 'LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commits/refs/heads/lineage-20.0
+
+7a7737b Revert "vibrator: Add soong configs for vibrator aidl"
+a3b05d3 Merge tag 'LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0
+
+
+=======================
+     2023/10/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+f04ce7c Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+e0342d5 Automatic translation import
+
+
+=======================
+     2023/10/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+785d442c88d6 Revert "SystemUI: Turn less boring headsup whitelist into an overlay"
+70efe0aa5d30 Revert "Rework "SystemUI: Turn less boring headsup whitelist into an overlay""
+
+
+=======================
+     2023/10/14
+=======================
+
+
+=======================
+     2023/10/13
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+f9407325 Revert "kernel: Use CPATH for including host headers"
+
+
+=======================
+     2023/10/12
+=======================
+
+
+=======================
+     2023/10/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+4ad48ce Aperture: Use prebuilt SDK version
+48ecbae Aperture: Use org.lineageos:gradle-generatebp 1.3
+
+
+=======================
+     2023/10/10
+=======================
+
+
+=======================
+     2023/10/09
+=======================
+
+
+=======================
+     2023/10/08
+=======================
+
+
