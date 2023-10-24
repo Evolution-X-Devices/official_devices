@@ -1,0 +1,116 @@
+This is Android 14 with October 2023 (r11) security patches
+
+Notes:
+==============================
+- Clean Flash Recommended If coming from A13
+- Dirty Flash from previous A14 Builds is fine
+
+Device changes/Source Fixes:
+==============================
+• Add Mi Extras
+• Fixed Hotspot & Network settings crash
+• Fixed occasional camera black screen and crash
+• Fixed network traffic auto hide
+• Fixed QS Tiles reset on reboot
+• Improved kernel cpu freq table to fix unusual heat and battery drain while normal usage or mild gaming. 
+------------------------------
+
+ROM changes:
+==============================
+10/24
+Correction in logic of roundend size calculation of SD card
+Rebase several repos and directories and track LOS 21.0 changes
+kernel: Use correct variable name for vendor_kernel_boot modules
+
+10/23
+Allow user to select low power refresh rate
+Bring in CCACHE changes
+DeviceInfo: Add back SELinux status to About Phone
+Native: Camera: Import Release Slot Xiaomi Changes
+Native: IPCThreadState: Import Xiaomi Modifications
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+NetworkPolicyManagerService: turn this into just a warning
+SF: set debug.sf.frame_rate_multiple_threshold to 60 by default
+Settings: Add toggle for 60Hz refresh rate on battery saver
+Settings: Don't check ro.build.selinux
+Switch to jemalloc memory allocator
+SystemUI: Add Reboot/Recovery QS Tile
+SystemUI: Fix Biometric dialog corner radius
+SystemUI: Remove alarm from statusbar icon blocklist
+sepolicy: Allow Settings > Device info to load selinux status
+sepolicy: Allow fsck_untrusted to be sys_admin
+sepolicy: Allow permissive in recovery on user builds
+sepolicy: Allow platform_app to use nfc_service for NFC tile
+debuggerd: Disable scudo usage
+
+10/22
+Add prebuilt protobuf 3.9.1 lite to vendor partition
+EdgeBackGestureHandler: Change back gesture height intervals
+Evolver: Bring back brightness slider options
+Evolver: Bring back Data Disabled Indicator toggle
+Evolver: Runtime configurable audio panel location
+Evolver: Support per-app volume
+NavigationBarEdgePanel: Make the gesture duration always valid
+Settings: Phone ringtone setting for Multi SIM device
+Settings: Update mobile plan and private dns icons
+Show the vibrate icon in the Status Bar by default
+SystemUI: Fix position and orientation of arrow keys in navbar
+SystemUI: Handle camera launch gesture from keyhandler
+SystemUI: Make the volume dialog expandable
+Telephony: Apply Material You to exposed settings
+VolumeDialogImpl: Show media output switcher instead of volume dialog switcher
+build: Move persist.sys.usb.config logic to vendor/evolution
+fixup! Allow ota_from_target_file to work entirely on directories
+sepolicy: Allow system_server to read wifi_hal_prop
+vendor: Import clocks package
+vendor: Include pixel-framework if exists
+
+10/21
+SystemUI: Optimize network activity indicator paddings
+device_config: Enable Cloned App
+overlay: base: Enable independent lockscreen live wallpaper by default
+soong: Hookup GRALLOC_HANDLE_HAS_UBWCP_FORMAT
+vendor: Enable lockscreen live wallpaper
+
+10/20
+ApplicationPackageManager: Merge Tensor list
+Settings: Add Game Space support
+Settings: Make google's battery widget work
+PixelLauncherIconsOverlay: Update official icons
+
+10/18
+Import LiveDisplay, High touch polling, High touch sensitivity
+Settings: Add missing icons network and internet menu
+
+10/17
+Add Sound tile to Quick Settings
+Add sliders for color balance adjustment via ColorDisplayManager
+Allow user to add/remove QS with one click
+Evolver: Add navbar layout inversion tuning
+Evolver: Add support for Navbar styles
+Evolver: Allow changing system themes
+Evolver: Allow doubletap/longpress power to toggle torch
+Evolver: Black theme support
+Evolver: Double tap lockscreen to sleep gesture
+Evolver: Double tap status bar to sleep gesture
+Evolver: Fingerprint authentication vibration
+Evolver: Incall vibration options
+Evolver: Minimal Status bar Battery styles
+Evolver: Show Ambient instead of lockscreen on wake gestures
+Evolver: Volume key cursor control
+Evolver: Volume Rocker Wake
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+New APN settings for Digi Spain enabling VoLTE and VoWIFI
+Put bare minimum metadata in screenshots
+Settings: Integrate The Evolver into Settings
+Settings: Introduce Immersive Navigation
+Settings: Wake on plug
+Show USB icon in notification instead of generic system icon
+SoundSettings: Add charging vibration settings
+SoundSettings: Add screenshot sounds settings
+SystemUI: Implement Bluetooth dialog
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Smartspace: Update for 14
+bring back all changes from Build.FINGERPRINT to Build.TIME
+config: Re-enable OTA updates for U
+config: Re-enable themes for U
