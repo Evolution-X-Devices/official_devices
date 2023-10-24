@@ -1,0 +1,22 @@
+※ Evolution X 7.9.9 with Android 13 October security patch (r82)
+
+※ NOTES
+· Don't change kernel, it won't boot
+· Magisk patched boot are available at https://sourceforge.net/projects/evolution-x/files/spes/13/erofs/magisk_patched-boot.img
+
+※ BUILD INFORMATION
+· July Kernel r1.11 - Linux 4.19.171
+· Simple Low Memory Killer
+· Pixel Power HAL
+· EROFS
+· Custom kernel are not supported
+· GCamGO included
+
+※ BUILD CHANGES
+· [Kernel] Added support for DC Dimming
+· Added DC Dimming
+· Fixed display mirror
+· Thermal profile are now integrated to GameSpace, give you ~10% more performance and stability
+
+※ SOURCE CHANGES
+· None
