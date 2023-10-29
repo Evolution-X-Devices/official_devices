@@ -1,0 +1,46 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue. 
+- If you found any issue then kindly report
+with logs in device support group.
+- In every reboot ril will take 2 or 3 minutes for available.
+- Use retrofit dynamic partition supported recovery only.
+
+Device changes:
+==============================
+- Initial A14 build.
+- Ported device settings for Android U.
+- Adapted gps for Android U.
+- Improved animation speed.
+- Disabled blur from whole ui.
+- Fixed camera error.
+- Imported libprotobuf from sweet.
+- Added prebuilt gcam go.
+- Fixed hotspot error.
+- Fixed fp was missing for goodix and fpc sensor users.
+- Many more underhood fixes and improvements.
+
+Flashing Steps:
+===============
+• Put required files (evox ROM & dynamic partition 
+supported ofox/pb/twrp) to your microsd.
+• Backup any files inside internal storage.
+• Reboot to recovery and Go to your microsd.
+• Select ofox recovery zip file from step 1.
+• Reboot to dynamic partition recovery.
+• Select rom and flash.
+• Ignore any error message (because your partition didn’t yet on dynamic type).
+• After installation complete, select “Factory Reset”.
+• Select “Format data/factory reset”.
+• Select “Format data”.
+• Go back to Main Menu.
+• Select “Reboot to System”.
+Enjoy!
+
+How to dirty flash build: 
+========================
+• Reboot into recovery.
+• select rom zip.
+• flash rom zip.
+• flash magisk if needed.
+• do wipe cache and reboot.
