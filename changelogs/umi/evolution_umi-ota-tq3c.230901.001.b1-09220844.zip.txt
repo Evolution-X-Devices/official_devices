@@ -1,0 +1,143 @@
+  
+2023-06-26
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to V13.0.8.0.SJBCNXM (China)
+- Use correct recovery
+
+
+ROM:
+
+9/22
+
+Add PS5 controller PID to Alsa manager block list
+
+Add keylayout for Xbox Wireless Controller
+
+Bubbles: Prevent one handed callbacks from being delayed
+
+Evolver: Disable Reticker by default and remove landscape only option
+
+Reticker: Bump to v1.1
+
+SystemUI: Refresh clock font when system font changes
+
+SystemUI: Resolve crashes caused by allowing the reinflation of SystemUI
+
+
+9/21
+
+Revert change to allow setting wake for notification separately from doze
+
+
+9/20
+
+Evolver: Add strings for showing fastcharge status summary
+
+Settings: Implement a dynamic summary that shows fastcharge status
+
+apn: Add Mint Mobile
+
+base: Add minimal support for Richtap vibrations
+
+gms: Added tangorpro Velvet
+
+kernel: Use pahole from Google prebuilts
+
+prebuilt: Add prebuilt vendor.aac.hardware.richtap.vibrator
+
+services: Only ever apply cutout to internal displays
+
+
+9/19
+
+Merge September 2023 security patches (13.0_r82)
+
+PixelPropsUtils: Update fingerprints to September 2023 release
+
+
+9/18
+
+BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+
+BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+
+SystemUI: Move DT2S from PulsingGestureListener
+
+SystemUI: Pass touch events to pulsing gesture listener only if dozing
+
+display: Handle zero auto brightness adjustment
+
+fixup! Wi-Fi timeout feature
+
+gms: Import Kids Home stuff
+
+kernel: Allow to limit the used .dtb files for the final DTB image
+
+kernel: Include DTBOs from OEM/ODM folder in base DTB
+
+
+9/17
+
+AutofillManager: Make userdebug default to NO_LOGGING
+
+GamesPropsUtils: Remove Apex Legends spoof
+
+fwb: silence handwriting error spam
+
+overlay: Move config_hspa_data_distinguishable to proper location
+
+version: Update to 7.9.8 (Lugaw)
+
+
+9/16
+
+prebuilt: Remove old Sprint APNs
+
+
+9/15
+
+qcom: Add parrot platform
+
+
+9/14
+
+Settings: Hide Fast charging from search if not supported
+
+SystemServer: Add configs for Lineage Health and LiveDisplay services
+
+
+9/13
+
+Add null checks when registering backup transport
+
+Update translations
+
+recovery: Bypass reboot prompt for sideload-auto-reboot
+
+
+9/12
+
+Extend Fastcharge implementation
+
+Evolver: Add setMinValue
+
+config: device_framework_matrix: Add IRestrictedCurrent
+
+core: pm: Allow wildcard in RRO system property value checks
+
+
+9/11
+
+Bring back TextClassifier packages (to fix clipboard issues)
+
+base: core: Unregister broadcast receiver only when registered
+
+kernel: Handle GKI modules
+
+
+9/10
+
+SystemUI: Enable power menu blur via window flags

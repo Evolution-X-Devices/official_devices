@@ -1,0 +1,30 @@
+※ Evolution X 7.9.9 with Android 13 October security patch (r82)
+
+※ BUILD CHANGE
+· Don't change kernel, it won't boot
+· Magisk patched boot are provided at https://sourceforge.net/projects/evolution-x/files/spes/13/erofs/magisk_patched-boot.img
+
+※ BUILD INFORMATION
+· July Kernel r1.11 - Linux 4.19.171
+· Simple Low Memory Killer
+· Pixel Power HAL
+· EROFS
+· Custom kernel are not supported
+· GCamGO included
+
+※ BUILD CHANGES
+· [Kernel] Minor improvements
+· [Kernel] Now support erofs
+· [Kernel] Remove SdcardFS
+· Move to EROFS
+· Reduce lag when recording screen
+· Fixed some apps crash on second launch (e.g MoMo, MB Bank, Gojek...)
+· Enable auto brightness on AOD
+· Improve auto brightness for many scenes
+· More tree cleanup
+· More performance tuning
+· Re-enable OEM unlock support
+· Flatten APEX
+· Overall UI (include QS) now smoother now
+· Other minor changes
+· I don't remember

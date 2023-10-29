@@ -1,0 +1,18 @@
+※ Evolution X 7.9.9 with Android 13 October security patch (r82)
+
+※ BUILD INFORMATION
+· July Kernel r1.1-1 - Linux 4.19.171
+· Simple Low Memory Killer
+· Pixel Power HAL
+· KernelSU WILL NEVER BE INCLUDED
+· GCamGO included. MIUI Camera supported
+
+※ BUILD CHANGES
+· [Kernel] Tap to wake now working properly
+· [Kernel] Enable cpu stats (CPU frequency time in some apps)
+· Manually merged October security patch
+· A lot of improvements for better user experience
+· Now we have normal brightness level, higher values auto brightness and HBM now working properly
+· Remove thermal profiles and basic calling recorder since it confused user
+· Use Qcom audio effects for better audio
+· Yes, I'm really lazy to write this

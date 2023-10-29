@@ -1,0 +1,18 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Merge v4.14.326 from Linux in kernel
+- Add Basic Call Recording
+
+**Evolution X Update**
+
+- version: Update to 7.9.9 (Tocino)
+- Manually merge October 2023 security patches
+- Evolver: Disable Reticker by default and remove landscape only option
+- Evolver: Disable broken Combined QS element styles
+- GameSpace: Import new game illustration from motorola
+- SystemUI: Less boring headsup enhancements and fixes

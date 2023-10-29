@@ -1,0 +1,73 @@
+  
+2023-10-02
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: overlay: Enable secure NFC functionality
+  * cupid: props: Switch automatically to 60hz on idle mode
+  * cupid: Force enable refresh rate idle timer in SF
+  * cupid: parts: Introduce displayfeature color service
+  * cupid: doze: Implement Pocket Detection service
+
+KERNEL:
+
+  * cupid-kernel: rebase on KERNEL.PLATFORM.1.0.r1-16200-kernel.0
+  * cupid-kernel: merge OEM changes from https://github.com/cupid-development/android_kernel_xiaomi_sm8450
+
+ROM:
+
+9/29
+
+Hide hidden apps from all apps except system
+
+Put bare minimum metadata in screenshots
+
+SystemUI: Turn less boring headsup whitelist into an overlay
+
+wm: Fix menu in legacy apps with multiple activities
+
+wm: Fix menu only opening once on legacy apps
+
+
+9/27
+
+GameSpace: Cleanup notification modes
+
+GameSpace: Fix notification listener service
+
+SystemUI: Fix exception when retrieving signal strength drawable
+
+SystemUI: Less boring headsup enhancements and fixes
+
+
+9/26
+
+Evolver: Update CustomSeekBarPreference from crdroid
+
+repopick: Fix regex related SyntaxWarning on Python 3.12
+
+vendor: Enforce smartspace configs
+
+
+9/25
+
+GameManagerService: Set device_config property on behalf of GameSpace
+
+GameSpace: Don't set device_config property directly
+
+charger: Support charger on vendor
+
+
+9/24
+
+GameSpace: Import new game illustration from motorola
+
+Evolver: Disable broken Combined QS element styles

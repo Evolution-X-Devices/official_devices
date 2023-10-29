@@ -1,0 +1,83 @@
+  
+2023-09-22
+
+
+To use this release you need:
+
+- Have MIUI firmware updated to V13.0.6.0 (China)
+- Use correct recovery
+
+
+ROM:
+
+10/4
+
+Avoid repeated loading of mutable runtime overlays in the form of sharedLib
+
+Fix NPE of NativeTombstoneManager.TombstoneWatcher
+
+Manually merge October 2023 security patches
+
+PermissionController: Don't redeclare ids
+
+Report success on every fingerprint removal
+
+overlay: Remove obsolete overlays
+
+version: Update to 7.9.9 (Tocino)
+
+
+10/3
+
+Mark SMS premium code 8080 as free in Poland
+
+Settings: AirplaneModePreferenceController: Fix NPE when toggle is hidden
+
+
+9/29
+
+Hide hidden apps from all apps except system
+
+Put bare minimum metadata in screenshots
+
+SystemUI: Turn less boring headsup whitelist into an overlay
+
+wm: Fix menu in legacy apps with multiple activities
+
+wm: Fix menu only opening once on legacy apps
+
+
+9/27
+
+GameSpace: Cleanup notification modes
+
+GameSpace: Fix notification listener service
+
+SystemUI: Fix exception when retrieving signal strength drawable
+
+SystemUI: Less boring headsup enhancements and fixes
+
+
+9/26
+
+Evolver: Update CustomSeekBarPreference from crdroid
+
+repopick: Fix regex related SyntaxWarning on Python 3.12
+
+vendor: Enforce smartspace configs
+
+
+9/25
+
+GameManagerService: Set device_config property on behalf of GameSpace
+
+GameSpace: Don't set device_config property directly
+
+charger: Support charger on vendor
+
+
+9/24
+
+GameSpace: Import new game illustration from motorola
+
+Evolver: Disable broken Combined QS element styles

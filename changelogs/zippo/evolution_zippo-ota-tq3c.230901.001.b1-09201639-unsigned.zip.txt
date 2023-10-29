@@ -1,0 +1,16 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Update KernelSU to v0.6.8 (11238)
+- Merge tag 13900 for audio-kernel from CLO
+
+**Evolution X Update**
+
+- version: Update to 7.9.8 (Lugaw)
+- Merge September 2023 security patches (13.0_r82)
+- PixelPropsUtils: Update fingerprints to September 2023 release
+- fixup! Wi-Fi timeout feature
+- Update translations

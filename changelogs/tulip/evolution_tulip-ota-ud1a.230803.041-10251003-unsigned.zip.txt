@@ -1,0 +1,162 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with October 2023 security patches
+CLEAN FLASH REQUIRED!
+
+Device changes:
+====================================
+Add Basic Call Recording support 
+Adjust brightness ramp rate
+Adjust status bar padding
+Dexpreopt everything
+Disable client composition cache
+Enable dex2oat64
+Fix color flickering
+Fix freeze while plug in headphones (Thanks to @Saed)
+Fix no ringtone in bt headphones
+Fix power button respond slowly
+Increase handset speaker and mic volume
+Kernel upstreamed to 4.19.295
+Use native mode for surfaceflinger
+Some more performance and stability improvements
+
+Rom changes:
+====================================
+10/25
+Revert "CSD: Load the ISoundDoseFactory dynamically" (fixes audio bootloop issue)
+Settings: Add missing illustration for camera gesture
+Settings: Bring back battery usage graph
+Settings: CutoutForceFullscreen/HideDeveloperStatus: Query all apps installed by any user
+Update APN settings used in Japan
+apps: Enable app-cloning feature
+overlay: Set config_displayLightSensorType to android.sensor.light
+qcom: Drop support for ultra legacy platforms
+tools: Update custom_apns script for Python 3 compatibility
+
+10/24
+Correction in logic of roundend size calculation of SD card
+Rebase several repos and directories and track LOS 21.0 changes
+SystemUI: improve blur handling in respect to app launch animations
+kernel: Use correct variable name for vendor_kernel_boot modules
+
+10/23
+Allow user to select low power refresh rate
+Bring in CCACHE changes
+DeviceInfo: Add back SELinux status to About Phone
+Native: Camera: Import Release Slot Xiaomi Changes
+Native: IPCThreadState: Import Xiaomi Modifications
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+NetworkPolicyManagerService: turn this into just a warning
+SF: set debug.sf.frame_rate_multiple_threshold to 60 by default
+Settings: Add toggle for 60Hz refresh rate on battery saver
+Settings: Don't check ro.build.selinux
+Switch to jemalloc memory allocator
+SystemUI: Add Reboot/Recovery QS Tile
+SystemUI: Fix Biometric dialog corner radius
+SystemUI: Remove alarm from statusbar icon blocklist
+sepolicy: Allow Settings > Device info to load selinux status
+sepolicy: Allow fsck_untrusted to be sys_admin
+sepolicy: Allow permissive in recovery on user builds
+sepolicy: Allow platform_app to use nfc_service for NFC tile
+debuggerd: Disable scudo usage
+
+10/22
+Add prebuilt protobuf 3.9.1 lite to vendor partition
+EdgeBackGestureHandler: Change back gesture height intervals
+Evolver: Bring back brightness slider options
+Evolver: Bring back Data Disabled Indicator toggle
+Evolver: Runtime configurable audio panel location
+Evolver: Support per-app volume
+NavigationBarEdgePanel: Make the gesture duration always valid
+Settings: Phone ringtone setting for Multi SIM device
+Settings: Update mobile plan and private dns icons
+Show the vibrate icon in the Status Bar by default
+SystemUI: Fix position and orientation of arrow keys in navbar
+SystemUI: Handle camera launch gesture from keyhandler
+SystemUI: Make the volume dialog expandable
+Telephony: Apply Material You to exposed settings
+VolumeDialogImpl: Show media output switcher instead of volume dialog switcher
+build: Move persist.sys.usb.config logic to vendor/evolution
+fixup! Allow ota_from_target_file to work entirely on directories
+sepolicy: Allow system_server to read wifi_hal_prop
+vendor: Import clocks package
+vendor: Include pixel-framework if exists
+
+10/21
+SystemUI: Optimize network activity indicator paddings
+device_config: Enable Cloned App
+overlay: base: Enable independent lockscreen live wallpaper by default
+soong: Hookup GRALLOC_HANDLE_HAS_UBWCP_FORMAT
+vendor: Enable lockscreen live wallpaper
+
+10/20
+ApplicationPackageManager: Merge Tensor list
+Settings: Add Game Space support
+Settings: Make google's battery widget work
+PixelLauncherIconsOverlay: Update official icons
+
+10/18
+Import LiveDisplay, High touch polling, High touch sensitivity
+Settings: Add missing icons network and internet menu
+
+10/17
+Add Sound tile to Quick Settings
+Add sliders for color balance adjustment via ColorDisplayManager
+Allow user to add/remove QS with one click
+Evolver: Add navbar layout inversion tuning
+Evolver: Add support for Navbar styles
+Evolver: Allow changing system themes
+Evolver: Allow doubletap/longpress power to toggle torch
+Evolver: Black theme support
+Evolver: Double tap lockscreen to sleep gesture
+Evolver: Double tap status bar to sleep gesture
+Evolver: Fingerprint authentication vibration
+Evolver: Incall vibration options
+Evolver: Minimal Status bar Battery styles
+Evolver: Show Ambient instead of lockscreen on wake gestures
+Evolver: Volume key cursor control
+Evolver: Volume Rocker Wake
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+New APN settings for Digi Spain enabling VoLTE and VoWIFI
+Put bare minimum metadata in screenshots
+Settings: Integrate The Evolver into Settings
+Settings: Introduce Immersive Navigation
+Settings: Wake on plug
+Show USB icon in notification instead of generic system icon
+SoundSettings: Add charging vibration settings
+SoundSettings: Add screenshot sounds settings
+SystemUI: Implement Bluetooth dialog
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: Smartspace: Update for 14
+bring back all changes from Build.FINGERPRINT to Build.TIME
+config: Re-enable OTA updates for U
+config: Re-enable themes for U
+
+10/15
+camera: Make overrideFormat from reserved fields opt-in
+soong: Hookup TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED
+
+10/14
+Make ROM recovery flashable again
+sepolicy: qva: common: Remove vendor_service
+
+10/12
+overlays: Upgrade to UDC
+
+10/11
+PixelPropsUtils: Bring in Pixel 8 series changes
+Rebase source to android-14.0.0_r11 (Pixel 8 Pro tag)
+
+10/8
+gapps: Update for U
+
+10/6
+config: Update clang version to clang-r487747c
+kernel: Replace Double quotes with apostrophe
+sepolicy: Remove fuseblk
+sepolicy: Remove vendor_service
+tasks: Add missing file extensions
+
+10/5
+Initial Android 14 changes

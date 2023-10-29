@@ -1,0 +1,60 @@
+This is Android 13 with September 2023 (r82) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+- Single tap to wake works now.
+
+Device changes:
+==============================
+Add keylayout mapping for Xbox360 compatible controllers
+CarrierConfigOverlay: Update from AOSPA
+Extend audio offload buffer size to 256kb
+Override sensors@1.0-service
+Revert uclamp tuning changes
+Upstream kernel changes
+keylayout: Import joystick keylayouts from 1Controller v1.5.2
+parts: Refactor ClearSpeakerFragment code
+parts: Rename app to Xiaomi Parts
+wlan: Enable Optimized Power Management
+wlan: Remove arp_ac_category INI item
+wlan: Remove obselete McastBcastFilter config
+wlan: Remove obselete SapSccChanAvoidance config
+wlan: Remove obselete gEnableBypass11d config
+wlan: Remove obsolete gEnableSifsBurst config
+wlan: Remove obsoleted INI called gFixedRate
+------------------------------
+
+ROM changes:
+==============================
+9/19
+Merge September 2023 security patches (13.0_r82)
+PixelPropsUtils: Update fingerprints to September 2023 release
+
+9/18
+BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+SystemUI: Move DT2S from PulsingGestureListener
+SystemUI: Pass touch events to pulsing gesture listener only if dozing
+display: Handle zero auto brightness adjustment
+fixup! Wi-Fi timeout feature
+gms: Import Kids Home stuff
+kernel: Allow to limit the used .dtb files for the final DTB image
+kernel: Include DTBOs from OEM/ODM folder in base DTB
+
+9/17
+AutofillManager: Make userdebug default to NO_LOGGING
+GamesPropsUtils: Remove Apex Legends spoof
+Merge September 2023 security patches
+fwb: silence handwriting error spam
+overlay: Move config_hspa_data_distinguishable to proper location
+version: Update to 7.9.8 (Lugaw)
+
+9/16
+prebuilt: Remove old Sprint APNs
+
+9/15
+qcom: Add parrot platform

@@ -1,0 +1,19 @@
+- This is probably the last update based on A13
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Merge v4.14.326 from Linux in kernel
+- Add Basic Call Recording
+
+**Evolution X Update**
+
+- version: Update to 7.9.9 (Tocino)
+- Manually merge October 2023 security patches
+- Evolver: Disable Reticker by default and remove landscape only option
+- Evolver: Disable broken Combined QS element styles
+- GameSpace: Import new game illustration from motorola
+- SystemUI: Less boring headsup enhancements and fixes
+- Update translations

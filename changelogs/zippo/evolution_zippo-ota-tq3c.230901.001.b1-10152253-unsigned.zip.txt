@@ -1,0 +1,13 @@
+- This is the final update on A13
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Firmware 12.5.365 is required
+
+**Device Changes:**
+
+- Merge v4.14.327 from Linux in kernel
+- Update KernelSU to 0.6.9
+
+**Evolution X Update**
+
+- Revert some changes in ReTicker to prevent possible issue where the device is stuck on boot with "phone is starting" message

@@ -1,0 +1,16 @@
+- Clean install is required coming from EvolutionX 7.9.2 or earlier or a different ROM
+- Dirty flash from previous version is fine
+- Install latest firmware if you're using an older one
+- No Retrofit and no EROFS so make sure to use a compatible recovery (check instructions at the XDA thread), and Format Data with this recovery if your previous ROM was retrofit and/or EROFS.
+
+**Device Changes:**
+
+- Update KernelSU to 11238
+- Merge tag 13900 for audio-kernel from CLO
+
+**Evolution X Update**
+
+- version: Update to 7.9.8 (Lugaw)
+- Merge September 2023 security patches (13.0_r82)
+- PixelPropsUtils: Update fingerprints to September 2023 release
+- fixup! Wi-Fi timeout feature

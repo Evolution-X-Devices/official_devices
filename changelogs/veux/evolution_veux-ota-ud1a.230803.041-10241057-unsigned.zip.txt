@@ -1,0 +1,408 @@
+This build you're receiving is evolution_veux-ota-ud1a.230803.041-10241057-unsigned.zip comes with October Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+• Intial Abdroid 14 release
+• Gcam is the default cam.
+• Comes with Pixel Launcher.
+• Synced with latest source changes.
+• Cts passes by default.
+==========================================
+Source Changelogs:
+==========================================
+=======================
+     2023/10/24
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/udc
+
+53735ea bionic: Support wildcards in cached hosts file
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+c573558 recovery: Add option to override recovery
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+32403e7 build: sysprop: Remove comment
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+f366b5f soong: Add equivalent for LOCAL_EXPORT_CFLAGS
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+ca4a7c2 qcom: Remove sdm845 from the m4defs exclusion
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy/commits/refs/heads/udc
+
+f2f4942 Move qti-testscripts definition out of userdebug_or_eng check
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr/commits/refs/heads/udc
+
+e635b99 SEPolicy.mk: evolution
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/udc
+
+eeee4ee tinycompress: plugin: Set codec params in SETUP state
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+63836e4f Correction in logic of roundend size calculation of SD card
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+3d081bd SF: set debug.sf.frame_rate_multiple_threshold to 60 by default
+
+* Repository: https://github.com/Evolution-X/hardware_google_gchips/commits/refs/heads/udc
+
+51720f2 libexynosutils: Depend on generated kernel headers
+
+* Repository: https://github.com/Evolution-X/hardware_google_graphics_common/commits/refs/heads/udc
+
+6bd5202 libdrmresource: Add missing epoll_event.h include
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel/commits/refs/heads/udc
+
+209ee2a pixel: Add lineage health HAL
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+62e159a Move turbo_adapter policy out of googlebattery
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+b83ad81 camera: Fix prefix length path for External Camera HAL
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/udc
+
+3ba0e74 libhardware: Add new display types.
+
+* Repository: https://github.com/Evolution-X/hardware_lineage_compat/commits/refs/heads/udc
+
+57f7b78 compat: Add libprotobuf-cpp-lite-3.9.1-vendorcompat
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_agm/commits/udc-caf-sm8450
+
+60fd4b7 Merge tag 'LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/agm into udc
+
+* Repository: https://github.com/Evolution-X/hardware_qcom_data_ipacfg-mgr/commits/refs/heads/udc
+
+4bfb711 ipacfg-mgr: Use generated kernel headers
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+0d63d49 manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+f36ebc6 Evolver: Upgrade to UDC
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+b050555 Allow user to select low power refresh rate [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+0dd4ae3 gd: hci: Allow disabling erroneous data reporting
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+d112bf1 Wifi: Ingore miracast scan from connectivity manager
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/udc
+
+ccde5e3 Squashed import of adb root patches
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+3aad21b Make adbroot_aidl_interface-ndk available for adbd
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+1c716fb Stop downloads from sites with invalid certificates
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+5240577 debuggerd: Disable scudo usage
+
+* Repository: https://github.com/Evolution-X/system_libsysprop/commits/refs/heads/udc
+
+a09a1a1 DSDS Transition: Introduce new property
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+1b0c9eb media: update path for vendor specific config files
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/udc
+
+b690270 Handle key parameter conversion for FBE_ICE tag
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+e0a5178 sepolicy: Allow fsck_untrusted to be sys_admin
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+608a415 update_engine: Always disable signature and downgrade checks
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+27eb3e3 vold: Bring in more wrapped key changes
+
+* Repository: https://github.com/Evolution-X/vendor_codeaurora_telephony/commits/refs/heads/udc
+
+3ce57c0 IMS: Add Motorola specific API for VT
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4533290 kernel: Use correct variable name for vendor_kernel_boot modules
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_data-ipa-cfg-mgr/commits/refs/heads/udc
+
+56a1fb7 data-ipa-cfg-mgr: Remove deprecated clang property
+
+
+=======================
+     2023/10/23
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy_vndr-legacy-um/commits/refs/heads/udc
+
+56d1989 sepolicy_vndr: Remove duplicate bt_device type definition
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_net/commits/refs/heads/udc
+
+6285484 Restore back the behavior of isValid()
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sdm845_audio/commits/refs/heads/udc
+
+3e24b04 HAL: Converting PCM enum to AUDIO FORMAT enum
+
+* Repository: https://github.com/Evolution-X/kernel_configs/commits/refs/heads/udc
+
+f65795a Restore q/android-4.9
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/fourteen
+
+65d601e BtHelper: Update Settings' title
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+957964b Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/udc
+
+70385f8 Telephony: Apply Material You to exposed settings
+
+* Repository: https://github.com/Evolution-X/system_netd/commits/refs/heads/udc
+
+2ee8844 Don't abort in case of cgroup/bpf setup fail, since some devices dont have BPF
+
+
+=======================
+     2023/10/22
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+8c0a8e4 av: support per-app volume [1/3]
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+4e66cad gms: Update privapp-permissions-google-p from Pixel 8 Pro
+
+
+=======================
+     2023/10/21
+=======================
+
+
+=======================
+     2023/10/20
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+f731eed GameSpace: Replace gson-prebuilt-jar to gson
+
+
+=======================
+     2023/10/19
+=======================
+
+* Repository: https://github.com/Evolution-X/external_libnl/commits/refs/heads/udc
+
+231a596 Fix compilation with generated_kernel_headers
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+fce3cf8 telephony: IccPhoneBookInterfaceManager: Change some methods to protected/public
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+a0cd18b thermal: Add support for SDM630 and SDM455
+
+
+=======================
+     2023/10/18
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8250_audio/commits/refs/heads/udc
+
+de3547b HAL: Converting PCM enum to AUDIO FORMAT enum
+
+
+=======================
+     2023/10/17
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys/commits/refs/heads/lineage-20.0
+
+7827f3a Merge tag 'LA.QSSI.13.0.r1-11900-qssi.0' into staging/lineage-20.0_merge-LA.QSSI.13.0.r1-11900-qssi.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+49378d1 Merge tag 'LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+1fa4ba4 Merge tag 'LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23800-WAIPIO.QSSI14.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commits/refs/heads/lineage-20.0
+
+7a7737b Revert "vibrator: Add soong configs for vibrator aidl"
+
+
+=======================
+     2023/10/16
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sdm845_display/commits/refs/heads/udc
+
+9477f80 Remove 'clang' statement on Android.bp files
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8250_display/commits/refs/heads/udc
+
+ffb8f09 Remove 'clang' statement on Android.bp files
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-20.0
+
+e0342d5 Automatic translation import
+
+
+=======================
+     2023/10/15
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+81b9213 sepolicy-legacy-um: Update drm service executables file_contexts
+
+
+=======================
+     2023/10/12
+=======================
+
+* Repository: https://github.com/Evolution-X/external_dtc/commits/refs/heads/udc
+
+3b16dd5 Add build support for more host utils
+
+* Repository: https://github.com/Evolution-X/external_gptfdisk/commits/refs/heads/udc
+
+492aca4 sgdisk: Make sgdisk recovery_available
+
+* Repository: https://github.com/Evolution-X/external_libcxx/commits/refs/heads/udc
+
+b323031 Make libc++fs vendor available and as a shared lib
+
+* Repository: https://github.com/Evolution-X/external_mksh/commits/refs/heads/udc
+
+e1014c8 mksh: Set TERM to xterm-256color
+
+* Repository: https://github.com/Evolution-X/external_piex/commits/refs/heads/udc
+
+45b91a9 Piex: Import Xiaomi camera hal changes
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/udc
+
+3a57231 Revert "libsepol: Make an unknown permission an error in CIL"
+
+* Repository: https://github.com/Evolution-X/external_wpa_supplicant_8/commits/refs/heads/udc
+
+ed78c83 wpa_supplicant: add support for bcmdhd SAE authentication offload
+
+* Repository: https://github.com/Evolution-X/external_zstd/commits/refs/heads/udc
+
+7636d8d zstd: Move to /system_ext
+
+* Repository: https://github.com/Evolution-X/hardware_ril/commits/refs/heads/udc
+
+2cd9f87 libril: allow board to provide libril
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+0447a57 NFC: Adding new vendor specific interface to NFC Service
+
+* Repository: https://gitlab.com/EvoX/packages_modules_Connectivity/commits/refs/heads/udc
+
+5eaeb35 Remove DUN requirement for tethering
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+8939a51 MediaProvider: Less spam
+
+* Repository: https://github.com/Evolution-X/system_bpf/commits/refs/heads/udc
+
+285dc95 Partially revert "bpfloader - remove dead code"
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+a7106d6 partition_tools: Add lpunpack_static target
+
+* Repository: https://github.com/Evolution-X/system_libhidl/commits/refs/heads/udc
+
+f6ede26 libhidlmemory: mark as recovery_available
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/udc
+
+7bc570c IPCThreadState: Import Xiaomi Android 13 robustness modification
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+edf7806 logcat: Map '-C' to 'logcat -v color'
+
+* Repository: https://github.com/Evolution-X/system_tools_mkbootimg/commits/refs/heads/udc
+
+7f75ad9 mkbootimg: add support for --dt
+
+
+=======================
+     2023/10/11
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+290d4b4 art: Add support for Cortex-A510
+
+* Repository: https://github.com/LineageOS/android_external_exfatprogs/commits/refs/heads/lineage-21.0
+
+ad5115d Fixing issues in METADATA file external_updater expects string in METADATA file but it couldn't find any to update the project.
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_net_ims/commits/refs/heads/udc
+
+6bfe4fc Partially Revert "Remove references to deprecated device config"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+4ad48ce Aperture: Use prebuilt SDK version
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+ac8e138 PermissionController: Enable usage timeline for all permission groups

@@ -1,0 +1,86 @@
+==========================================
+Notes:
+==========================================
+- Firmware above C05 is not recommended
+==========================================
+Device Changelog:
+==========================================
+- Selinux Enforcing
+- Added Always on fingerprint
+- Fixed Some crashes
+==========================================
+
+Evolution X Official Changelog list
+
+10/25
+Revert "CSD: Load the ISoundDoseFactory dynamically" (fixes audio bootloop issue)
+Settings: Add missing illustration for camera gesture
+Settings: Bring back battery usage graph
+Settings: CutoutForceFullscreen/HideDeveloperStatus: Query all apps installed by any user
+Update APN settings used in Japan
+apps: Enable app-cloning feature
+overlay: Set config_displayLightSensorType to android.sensor.light
+qcom: Drop support for ultra legacy platforms
+tools: Update custom_apns script for Python 3 compatibility
+
+10/24
+Correction in logic of roundend size calculation of SD card
+Rebase several repos and directories and track LOS 21.0 changes
+SystemUI: improve blur handling in respect to app launch animations
+kernel: Use correct variable name for vendor_kernel_boot modules
+
+10/23
+Allow user to select low power refresh rate
+Bring in CCACHE changes
+DeviceInfo: Add back SELinux status to About Phone
+Native: Camera: Import Release Slot Xiaomi Changes
+Native: IPCThreadState: Import Xiaomi Modifications
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+NetworkPolicyManagerService: turn this into just a warning
+SF: set debug.sf.frame_rate_multiple_threshold to 60 by default
+Settings: Add toggle for 60Hz refresh rate on battery saver
+Settings: Don't check ro.build.selinux
+Switch to jemalloc memory allocator
+SystemUI: Add Reboot/Recovery QS Tile
+SystemUI: Fix Biometric dialog corner radius
+SystemUI: Remove alarm from statusbar icon blocklist
+sepolicy: Allow Settings > Device info to load selinux status
+sepolicy: Allow fsck_untrusted to be sys_admin
+sepolicy: Allow permissive in recovery on user builds
+sepolicy: Allow platform_app to use nfc_service for NFC tile
+debuggerd: Disable scudo usage
+
+10/22
+Add prebuilt protobuf 3.9.1 lite to vendor partition
+EdgeBackGestureHandler: Change back gesture height intervals
+Evolver: Bring back brightness slider options
+Evolver: Bring back Data Disabled Indicator toggle
+Evolver: Runtime configurable audio panel location
+Evolver: Support per-app volume
+NavigationBarEdgePanel: Make the gesture duration always valid
+Settings: Phone ringtone setting for Multi SIM device
+Settings: Update mobile plan and private dns icons
+Show the vibrate icon in the Status Bar by default
+SystemUI: Fix position and orientation of arrow keys in navbar
+SystemUI: Handle camera launch gesture from keyhandler
+SystemUI: Make the volume dialog expandable
+Telephony: Apply Material You to exposed settings
+VolumeDialogImpl: Show media output switcher instead of volume dialog switcher
+build: Move persist.sys.usb.config logic to vendor/evolution
+fixup! Allow ota_from_target_file to work entirely on directories
+sepolicy: Allow system_server to read wifi_hal_prop
+vendor: Import clocks package
+vendor: Include pixel-framework if exists
+
+10/21
+SystemUI: Optimize network activity indicator paddings
+device_config: Enable Cloned App
+overlay: base: Enable independent lockscreen live wallpaper by default
+soong: Hookup GRALLOC_HANDLE_HAS_UBWCP_FORMAT
+vendor: Enable lockscreen live wallpaper
+
+10/20
+ApplicationPackageManager: Merge Tensor list
+Settings: Add Game Space support
+Settings: Make google's battery widget work
+PixelLauncherIconsOverlay: Update official icons
