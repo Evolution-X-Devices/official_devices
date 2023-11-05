@@ -1,0 +1,158 @@
+Notes:
+==============================
+- Clean Flash Recommended
+- Realme Camera is included
+- Fw is included
+
+Device changes:
+==============================
+- Updated fw and inlcuded firmware from RMX3360_13.1.0.156(EX01) (F.15)
+- Updated Camera From Realme GT 2
+- Fixed Night Mode
+- Fixed Text Scanner
+- Switched to erofs
+- Updated Graphics driver to 600
+- Improved App opening speed
+- Fixed QS lags
+- Added SuperDart Charging in Lockscreen
+- Enabled boost Framework
+- Improved lockscreen fingerprint authentication speed
+- Updated carrier config from F.12
+- Dropped LiveDisplay
+
+=======================
+     2023/11/05
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+8de3c44 Revert "config/common: dedupe vndk libraries"
+
+
+=======================
+     2023/11/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+5edc85a screenrecord: get codec capabilities & limit frame rate configuration
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+057b948077b4 fixup! Custom statusbar logo customizations [1/2]
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+1a40e61 libbinder_rs doesn't need libutils
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+b95989d Improved the anomaly report
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+0155052 manifest: Track our fork of vendor/bcr
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+fb076ee Evolver: Add app lock summary for 0 protected apps
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+b8fdeb8 Revert "Launcher3: Import improvements from motorola"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+e5276f2 Limit bluetooth broadcast password to single byte characters
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+3d7ff70 Fix ConnectionServiceFocusManager NPE
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+850daf6 Allow otapreopt_chroot to use stdin and stdout pipes.
+
+
+=======================
+     2023/11/03
+=======================
+
+
+=======================
+     2023/11/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b39d587 Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+e4ae598 power: Remove unused variable
+
+
+=======================
+     2023/11/01
+=======================
+
+
+=======================
+     2023/10/31
+=======================
+
+
+=======================
+     2023/10/30
+=======================
+
+
+=======================
+     2023/10/29
+=======================
+
+
+=======================
+     2023/10/28
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8450
+
+58ad601 Revert "AGM: support ACDB parameter set without normal session"
+
+
+=======================
+     2023/10/27
+=======================
+
+
+=======================
+     2023/10/26
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_bcr/commits/refs/heads/tiramisu
+
+941fb42 Version 1.54
+
+
+=======================
+     2023/10/25
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+eb857d3 Merge tag 'LA.VENDOR.13.2.0.r1-20500-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/thermal into HEAD
+
+
+=======================
+     2023/10/24
+=======================
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/thirteen
+
+65d601e BtHelper: Update Settings' title
+
+
+=======================
+     2023/10/23
+=======================
