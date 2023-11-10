@@ -1,0 +1,72 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with November 2023 security patches
+
+Device changes:
+====================================
+Fix vibration control and notification led not showing in XiaomiParts
+Fix many sepolicy denials
+kernel: Tune dirty_ratio to 20
+kernel: Tune dirty_background_ratio to 10
+Some more performance and stability improvements
+
+
+Rom changes:
+====================================
+11/10
+CarrierConfigManager: enable LTE+ icon by default
+Change the resource cache key from context to package name
+Do not mark dun APN types as read only
+Enable KEY_WFC_SPN_FORMAT_IDX_INT universally
+Frameworks: Enable VoNR by default
+PackageInstaller: Fix app label on package upgrade
+PixelPropsUtils: Make CTS/Play Integrity pass again
+VolumePanel: Change bg tint for inactive rows
+fixup! SystemUI: Add double tap to sleep gesture
+packages: Re-enable Aperture and include by default
+
+11/9
+Added support for Realme inscreen proximity sensor
+Bring back most features from A13
+SystemUI: Hide more tuner preferences on production builds
+ThemeOverlayApplier: Drop broken Espresso theme
+fwb: services: Prevent NPE on first boot
+system: core: init: Set ro.product.first_api_level to 24
+
+11/7
+Disable sparse images for A/B updater targets
+Merge November 2023 security patches (android-14.0.0_r14)
+PixelPropsUtils: Update fingerprints to November 2023 release
+SystemUI: Bringup tuner statusbar changes
+releasetools: fixup path for recovery.fstab
+version: Uprev to 8.0.2 (Turon)
+
+11/6
+PixelPropsUtils: Drop pixel codenames and checks
+PropImitationHooks: Add a config to enable/disable prop imitation
+vendor: Import BT Slice intent resources from SettingsGoogle
+vendor: Use PRODUCT_SYSTEM_PROPERTIES
+
+11/5
+build: remove unnecessary lunch items
+common: Enable Non Flattened APEX
+config: Drop Gamespace for now
+fs_mgr: Remove bootloader restrictions for adb remount
+releasetools: Don't compress with brotli
+
+10/31
+Migrate to LOS 21 CAF/CLO changes
+
+10/30
+apns: [bob] Fix APN and enable IPv6
+fixup! lineage: prebuilt: Add Carrier ID and MVNO ID for T-Mobile Ting
+kernel: Halt build process if an external module fails to compile
+kernel: Replace BOARD_SYSTEM_KERNEL_MODULES with SYSTEM_KERNEL_MODULES
+
+10/26
+Disable sparse for images with reserved size for A/B targets
+Evolver: Make advanced reboot optional
+New APN settings for Digi Spain enabling VoLTE and VoWIFI
+SystemUI: Expose legacy Wi-Fi and cellular data QS tiles
+fixup! SoundSettings: Add screenshot sounds settings
