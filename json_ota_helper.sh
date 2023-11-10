@@ -184,7 +184,16 @@ filehash=$(jq -r '.filehash' "$input_json")
 id=$(jq -r '.id' "$input_json")
 size=$(jq -r '.size' "$input_json")
 
-url="https://sourceforge.net/projects/evolution-x/files/${codename}/13/${filename}/download/"
+split_name=(${filename//-/ })
+first_char=${split_name[2]:0:1}
+
+if [ "$first_char" = "u" ]; then
+    version="14"
+else
+    version="13"
+fi
+
+url="https://sourceforge.net/projects/evolution-x/files/${codename}/${version}/${filename}/download/"
 
 display_diff() {
     local old_value=$1
