@@ -1,0 +1,56 @@
+This is Android 14 with November 2023 (r14) security patches
+
+Notes:
+==============================
+- Dirty flash from previous Android 14 builds is fine
+- Clean Flash Recommended (If coming from A13)
+- MiuiCamera is included
+- Merged November 2023 Security Patches
+
+Device changes:
+==============================
+• Remove Moto Dolby for now (was crashing repeadetly causing big cluster to stuck at max freqs which was causing temperature rise and battery drains)
+------------------------------
+
+ROM changes:
+==============================
+11/10
+Add developer setting to set the default GPU rendererCarrierConfigManager: enable LTE+ icon by default
+Change the resource cache key from context to package name
+Do not mark dun APN types as read only
+Enable KEY_WFC_SPN_FORMAT_IDX_INT universally
+Frameworks: Enable VoNR by default
+PackageInstaller: Fix app label on package upgrade
+PixelPropsUtils: Make CTS/Play Integrity pass again
+VolumePanel: Change bg tint for inactive rows
+fixup! SystemUI: Add double tap to sleep gesture
+packages: Re-enable Aperture and include by default
+
+11/9
+Added support for Realme inscreen proximity sensor
+Bring back most features from A13
+SystemUI: Hide more tuner preferences on production builds
+ThemeOverlayApplier: Drop broken Espresso theme
+fwb: services: Prevent NPE on first boot
+system: core: init: Set ro.product.first_api_level to 24
+
+11/7
+Disable sparse images for A/B updater targets
+Merge November 2023 security patches (android-14.0.0_r14)
+PixelPropsUtils: Update fingerprints to November 2023 release
+SystemUI: Bringup tuner statusbar changes
+releasetools: fixup path for recovery.fstab
+version: Uprev to 8.0.2 (Turon)
+
+11/6
+PixelPropsUtils: Drop pixel codenames and checks
+PropImitationHooks: Add a config to enable/disable prop imitation
+vendor: Import BT Slice intent resources from SettingsGoogle
+vendor: Use PRODUCT_SYSTEM_PROPERTIES
+
+11/5
+build: remove unnecessary lunch items
+common: Enable Non Flattened APEX
+config: Drop Gamespace for now
+fs_mgr: Remove bootloader restrictions for adb remount
+releasetools: Don't compress with brotli
