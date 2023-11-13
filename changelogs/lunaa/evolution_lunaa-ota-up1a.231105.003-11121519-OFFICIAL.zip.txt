@@ -1,0 +1,264 @@
+This is Android 14 with November 2023 (r14) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Install KSU zip or Magisk for root.
+- Safetynet now passes by default.
+- Credits to Pjgowtham for his base trees.
+
+Device Changelogs :-
+=============================
+- Fixed Auto brightness
+- Erofs Build
+- FW included (F.12)
+- Fixed Oneplus camera
+- Added Oplus Extras
+- Fixed yellow tone in photos
+- Added pocket sensor support
+- Improved Pickup sensor
+- Enable Smart Pixels
+- Update Carrier Config from F.12
+- Boost Performance while fp authentication
+- Configure Cpu Input Boost
+- Enabled Blur
+- Added Refresh Rate QS tile
+- Dropped Hey Google Shit!
+- Show Device Full name in About Section
+- Enable suspend to ram
+=======================
+     2023/11/12
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+d5bb4e7 build: copy files to zip from $OUT/install as well
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+e4163ed sepolicy: msmsteppe: label UFS sysfs node
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+c8b7b79 libstagefright: Fix memory leak due to lock timeout
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+2e026d66 New Crowdin updates (#475-#476)
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+081b804 Handle runtime sensor events even if there are no real ones.
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+09c9165 New Crowdin updates (#514-#539)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+8dba062 New Crowdin updates (#356-#357)
+
+
+=======================
+     2023/11/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-21.0
+
+770258c compat: Provide libprotobuf-cpp vendorcompat prebuilts from v29 VNDK
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8150_audio/commits/refs/heads/udc
+
+6453b84 hal: msm8974: fix usage of acdb_init() method
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+e23a09b manifest: Track device/vendor_qcom_common from AOSPA
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+3a4162f Updates: Add foregroundServiceType to UpdaterService Required from Android 14 Fixes: --- time: 1699605324309 msg: android.app.MissingForegroundServiceTypeException: Starting FGS without a type  callerApp=ProcessRecord{5fe8802 10660:org.evolution.ota/u0a337} targetSDK=34 stacktrace: android.app.MissingForegroundServiceTypeException: Starting FGS without a type  callerApp=ProcessRecord{5fe8802 10660:org.evolution.ota/u0a337} targetSDK=34 	at android.app.MissingForegroundServiceTypeException$1.createFromParcel(MissingForegroundServiceTypeException.java:53) 	at android.app.MissingForegroundServiceTypeException$1.createFromParcel(MissingForegroundServiceTypeException.java:49) 	at android.os.Parcel.readParcelableInternal(Parcel.java:4870) 	at android.os.Parcel.readParcelable(Parcel.java:4852) 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3052) 	at android.os.Parcel.createException(Parcel.java:3041) 	at android.os.Parcel.readException(Parcel.java:3024) 	at android.os.Parcel.readException(Parcel.java:2966) 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:6796) 	at android.app.Service.startForeground(Service.java:775) 	at org.evolution.ota.controller.UpdaterService.handleUpdateStatusChange(UpdaterService.java:253) 	at org.evolution.ota.controller.UpdaterService.-$$Nest$mhandleUpdateStatusChange(UpdaterService.java:0) 	at org.evolution.ota.controller.UpdaterService$1.onReceive(UpdaterService.java:107) 	at androidx.localbroadcastmanager.content.LocalBroadcastManager.executePendingBroadcasts(LocalBroadcastManager.java:319) 	at androidx.localbroadcastmanager.content.LocalBroadcastManager$1.handleMessage(LocalBroadcastManager.java:127) 	at android.os.Handler.dispatchMessage(Handler.java:106) 	at android.os.Looper.loopOnce(Looper.java:205) 	at android.os.Looper.loop(Looper.java:294) 	at android.app.ActivityThread.main(ActivityThread.java:8173) 	at java.lang.reflect.Method.invoke(Native Method) 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552) 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971) ---
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+de8c06e overlay: Use ASUS_X00HD certified build props
+
+
+=======================
+     2023/11/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+cfb1829 Provide a default executor
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+ec1fa12 graphics composer: move to foreground
+
+
+=======================
+     2023/11/09
+=======================
+
+
+=======================
+     2023/11/08
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_webp/commits/refs/heads/lineage-21.0
+
+e210bd8 Merge tag 'android-14.0.0_r14' into staging/lineage-21.0_merge-android-14.0.0_r14
+
+* Repository: https://github.com/Evolution-X/packages_apps_TouchGestures/commits/refs/heads/udc
+
+93d8424 Revert "TouchGestures: Adapt to Evo-X"
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+e403cf0 Add back increasing ring feature (1/3).
+
+
+=======================
+     2023/11/07
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+d4d8f95 fixup! citadel: Guard with proprietary source presence
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+dea62cb BtHelper: Adapt to A13/A14 changes
+
+* Repository: https://github.com/Evolution-X/packages_modules_Connectivity/commits/refs/heads/udc
+
+69f0d78 NetworkInfo: Prevent a NPE caused by null Network type
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+b003d03 Merge tag 'android-14.0.0_r14' of https://android.googlesource.com/platform/system/core into udc
+
+
+=======================
+     2023/11/06
+=======================
+
+
+=======================
+     2023/11/05
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/udc
+
+9bc35c4 bionic: Support wildcards in cached hosts file
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+7c61a96 Revert "Use turbine instead of kapt for kotlin annotation processors"
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+3d77307 BluetoothManagerService: allow bluetooth auto-enable if not in airplane mode radios
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+0ced7bb media: update path for vendor specific config files
+
+
+=======================
+     2023/11/04
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+9173807 recovery: rewrite slot switch logic using bootcontrol APIs
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+56af0f5 common: Always run recovery in permissive domain
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/lineage-21.0-legacy-um
+
+6aeeffc legacy: allow apexd to write to sysfs_mmc_host
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/udc
+
+59566c5 wifi: Add provision to create/remove dynamic interface(s).
+
+* Repository: https://github.com/Evolution-X/packages_modules_adb/commits/refs/heads/udc
+
+5381c2d Squashed import of adb root patches
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/udc
+
+e917a54 Telephony: bring back all changes from Build.FINGERPRINT to Build.TIME [3/4]
+
+
+=======================
+     2023/11/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-msm8953
+
+d877068 hal: Fix compile issues for android U.
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-msm8953
+
+d010759 display: Remove deprecated clang property
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+e66fea3 Revert "FM: Fix include paths"
+
+
+=======================
+     2023/11/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_kernel_configs/commits/refs/heads/lineage-21.0
+
+8524e37 p/android-4.4: Bump min LTS version
+
+
+=======================
+     2023/11/01
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+d3c1b09 qcom: Allow a device to manually override which HALs it wants to use
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-msm8998
+
+81c947f hal: Fix compile issues for android U.
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-msm8998
+
+d60aec4 display: Remove deprecated clang property
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-21.0
+
+bd49de2 power: Remove unused variable
+
+
+=======================
+     2023/10/31
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+0891874 gms: Drop gms game service
+
+* Repository: https://github.com/ThankYouMario/proprietary_vendor_qcom_common/commits/uvite
+
+8834e15 vendor: Introduce adreno-t component variant
+
+
+=======================
+     2023/10/30
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr/commits/refs/heads/lineage-21.0
+
+418a28e ipacm: Remove compilation dependency for in_addr_t on bionic
