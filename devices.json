@@ -1085,11 +1085,11 @@
       "name": "Redmi Note 9S, 9 Pro, 9 Pro Max, POCO M2 Pro",
       "supported_versions": [
          {
-            "device_group": "",
+            "device_group": "EvolutionXMiatoll",
             "maintainer_name": "Sonal Singh",
-            "maintainer_url": "https://forum.xda-developers.com/m/sonalsingh18.8425394",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
+            "maintainer_url": "https://xdaforums.com/m/sonalsingh18.8425394",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
             "xda_thread": ""
          }
       ]
