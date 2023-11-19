@@ -1,0 +1,20 @@
+※ Evolution X 7.9.10 with Android 13 November security patch (r82) [Final build]
+
+※ NOTES
+· Don't change kernel, it won't boot
+· Magisk patched boot are available at https://sourceforge.net/projects/evolution-x/files/spes/13/erofs/magisk_patched-boot.img
+
+※ BUILD INFORMATION
+· Linux 4.19.171
+· Simple Low Memory Killer
+· Pixel Power HAL
+· EROFS
+· Custom kernel are not supported
+· GCamGO included
+
+※ BUILD CHANGES
+· Improve GBoard paddings for easier to use, especially on landscape mode
+· [Kernel] Fix the issue that battery drop to 99% immediately after disconnect from charger
+
+※ SOURCE CHANGES
+· November security patch
