@@ -1,0 +1,212 @@
+This is Android 14 with November 2023 (r14) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install KSU zip or Magisk for root.
+- Play Integrity now passes by default.
+- Uses latest Silvercore kernel.
+- Credits to YukongA, AkaneTan, and Saikiran as we use his trees.
+
+=======================
+     2023/11/20
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+b3083d6 vendor: charging: Keep building health HIDL interface lib in vendor
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8f09d5639d34 SystemUI: Implement Island notification feature [1/2]
+c61735ba05d6 Revert "Add reticker notifications feature [SQUASHED]"
+16b53c396df8 config: Enable smart pixels by default
+91fab5de12d7 base: Choose which ringer modes to cycle with the gesture [1/2]
+152a791b6e5f AudioService: Cancel old toasts when switching ringer mode
+77dde727a98d base: Add option to cycle through ringer modes [1/2]
+8c9058387935 base: Introduce automated Sleep Mode [1/2]
+1681d076940e core/config: use Cloudflare DNS as the default fallback
+dfdcecf9e7b4 [SQUASH] base: Remove MSIM ringtone setting [1/2]
+c73608434192 New Crowdin updates (#482)
+fa9d3bb0f479 SystemServer: Add configs for Lineage Health and LiveDisplay services
+528e66637204 SettingsProvider: Resolve google gms configurator denials
+b6fd169a4f5b AODTile: Always toggle AOD on/off on long click
+9450dddd1265 SystemUI: AODTile: Open LS display settings on long click
+631456c173b0 SystemUI: AODTile: cycle through AOD states
+838855fc283d SystemUI: AODTile: Add back config check for aod available
+559542abac53 base: add option to enable AOD on charging only [1/2]
+1ac09fff2471 fixup! SystemUI: add qs AOD tile
+64fe99d31312 SystemUI: Introduce Data Switch QS Tile
+a10a038fa880 SystemUI: Avoid NPE in QS footer data usage
+fb14b228b62f SystemUI: Fix NPE when wifi/data usage is null
+018f0649b36b SystemUI: Refactor data usage code and typography
+ee81c213d836 SystemUI: Fix daily data view in QS footer
+bfaccc10a1fb SystemUI: Toggle data usage view on QS footer [1/2]
+93f7989fa7c9 SystemUI: Show daily data usage in QS footer
+6b0655499c22 Revert "SystemUI: Remove build version from qs footer"
+1cee45b93bdf Pre-grant Updater app with Notification permission by default
+25547966aa2a Fix NullPointerException for WifiDisplayController.
+8d8e5cca06b5 SettingsLib: use Cloudflare DNS servers as hints
+9a21a4686f65 Dividers: not here
+3762d2770695 development: Address NPE when removing preferences out of developer options
+eb898c9e0ec1 base: Update some icons to MD2
+9f7ae0bdb6cc Crash occured due to null pointer exception.
+fa4983729464 SettingsLib: Update 5G+ icon to Silk design
+7992bed7aebb SettingsLib: Update LTE+/4G+ icon as per new Silk design
+2873d408f96a Restore getSimStateForSlotIndex in SubscriptionManager
+e023111a66f2 New Crowdin updates (#479-#480)
+dfde32a68e96 TtsEngines: avoid crashes caused by null engine name
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+d8901c0daf [WIP]telephony: Bring back SubscriptionController
+5c4e8c8498 Ignore PLMN bit when SPN is required
+a88d29581f Fix data detach isn't informed
+45012648fe Telephony: Fix crash while updating Operator Name
+9ecf44c064 IMS: Fix incall MMI code failure after turning volte off
+fe03330123 TelephonyMetrics: Add writeRilSendSms method
+760194ec35 telephony: IccPhoneBookInterfaceManager: Change some methods to protected/public
+ca76b300db Skip sending duplicate requests
+2cbc868141 Start using inject framework support
+436ce13cb1 Make a few members of DSM overridable and accessible
+301993692b Add provision to override CellularNetworkService
+9d160d4341 Disable proguard for CellularNetworkServiceProvider
+1737265c90 telephony: Check for LTE_CA in physical channel config
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+bc2c30e Evolver: Upgrade to UDC
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a2bb45236a PreventRingingParentPreferenceController: Refactor summary generation
+a78a97cde4 Settings: Choose which ringer modes to cycle with the gesture [2/2]
+6f9d6f4b31 Settings: Gestures: Add option to cycle through ringer modes [2/2]
+d10aef9211 Settings: Introduce automated Sleep Mode [2/2]
+b8ea4a59e8 New Crowdin updates (#358-#360)
+af2c9cc6e4 [SQUASH] Settings: Remove MSIM ringtone setting [2/2]
+36b1ca1b95 Settings: Allow disabling clipboard overlay [2/2]
+e0ab1afe62 Settings: add option to enable AOD on charging only [2/2]
+70b9abfbd5 Settings: Change back gesture height intervals
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/udc
+
+cf64cf9 New Crowdin updates (#26)
+
+
+=======================
+     2023/11/19
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+bcede0e common: Enable MSM_VIDC_TARGET_LIST to bengal 4.19
+d985175 vendor: perf: sm6150: Lower background apps to 38
+f80bd91 vendor: perf: sm6150: Boost GPU on specific events
+af7c101 vendor: perf: sm6150: Further fine-tune boosts configuration
+b9a2e8b vendor: perf: sm6150: Tune boosts config for performance
+55afd38 vendor: perf: sm6150: Do not balance msm_drm and kgsl-3d0 IRQs
+343644d vendor: perf: bengal: Add app resume boost
+16001dd vendor: perf: bengal: Lower background apps to 38
+b5c34c2 vendor: perf: bengal: Boost GPU on specific events
+d69b791 vendor: perf: bengal: Tune khaje boosts values
+74e8014 vendor: perf: bengal/bengal_515: Do not balance msm_drm and kgsl-3d0 IRQs
+5cf257e vendor: perf: bengal: Partial update 4.19 configs to 5.15
+26420eb vendor: perf: Add condition to bengal 4.19 e 5.15 perf configs
+b645041 vendor: perf: Enabel perf framepacing to all
+7fc3dfd common: sepolicy: legacy: Added rule for perf aidl service
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+eed9b55 aidl: light: Implement attention light type
+822a409 aidl: light: Make rgb a normal struct
+7425c85 aidl: light: Reformat with clang-format
+877a420 aidl: light: Construct HwLight in place
+a86c461 aidl: light: Use const on getLights' foreach loop
+2d277a0 aidl: light: Fix a bug where breath wouldn't be disabled when not needed
+6ae3917 aidl: light: Uprev to V2
+f988971 xiaomi: Keep a single clang-format in rootdir
+9dbb2c1 ADPF: send ADPF_FIRST_FRAME hint
+f826c69 ADPF: support sending power hint
+69c9adb ADPF: fix use-after-free crash
+59086d1 ADPF: optimize the wakeup performance and fix unstable boost.
+cf26377 ADPF: extend non-stale session timer in wakeup
+
+
+=======================
+     2023/11/18
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c0970f9ffc50 PowerUI: Mute logcat spam.
+64c755709745 CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed
+9286699b0f49 SystemUI: Rewrite FPSInfoService in kt from scratch
+07feeeb00c13 SystemUI: FPS Info Overlay & Tile
+3e2e289135fe QS: Add CPUInfo toggle tile
+a294148cd9ae base: add CPU info overlay
+ce5b71a987e6 Ignore cgroup creation errors
+67efc9688580 SystemUI: Grant ACCESS_FINE_LOCATION permission
+8194b3d97171 SystemUI: give access to CHANGE_CONFIGURATION permission
+8b88bc0b27c0 SystemUI: Grant READ_PHONE_STATE permission
+d1673ab60b8e data: Add missing systemui permissions
+7bc2c1224f08 fwb:Add android.permission.WRITE_APN_SETTINGS
+73e8546cf1b9 libs: hwui: Silence OpenGL swap behavior failures
+38385c5dafc9 Device policy: Fix security exception caused by uid/packagename mismatch
+d8bc49327ca7 os: Process: Fix wrong code in isThreadInProcess
+9262b4d170ee ActivityThread: Prevent surface hang up when screen on and screen off
+072290d85673 Calm down attention service logspam
+323d17bf7265 Add missing INTERACT_ACROSS_USERS_FULL permission
+07351f5002ad Revert "SystemUI: Remove existing icon group if its overriding"
+6db963fa28c4 Revert "SystemUI: Introduce DataSwitchTile"
+e38a46ebf979 SystemUI: Add current divider config for lockscreen charging
+0fb6b1235ecd BatteryService: Add support for oem fast charger detection
+e1aec99d0bb7 BatteryService: Add support for battery Moto Mods
+8acbf3c874cc LockscreenCharging: squashed (1/3)
+78f968af9581 base: Add overlay to mock oplus LinearmotorVibratorService
+2ed4a2aa16e5 base: Add mock oplus LinearmotorVibratorService
+d45e86523bae ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+7212c1ad0e0c SystemUI: QS fling animation boost
+b269bbef7a61 Bubbles: Prevent one handed callbacks from being delayed
+2182844f8a95 Avoid CalledFromWrongThreadException in BubbleController
+b978d08d1a42 services: Fix NPE caused by null connectionToken
+989430438da5 services: Fix ArrayIndexOutOfBoundsException in TextServicesManagerService
+ecb3c8b523ba services/PPU: Simplify and improve bypassing for PPU `onTaskStackChanged` listening
+fe3c8916a820 PPU: Another day, another cat and mouse chase
+cff5c76c276f Fix memory leak on accessibility menu in SystemUI
+c43b5f6884c7 AudioService: focus listener: enable it when using external AudioFocus
+5cc0eaa07182 fixup! base: ChooserActivity: Don't show image edit button on multiple targets
+a8ec76317956 Global VPN feature
+2d70f806126d Allow adjusting screen density to smaller sizes
+c4a68c414f05 SettingsLib: Use WHITE color instead MAGENTA for Battery Drawables
+1815157e273c core: Drop config_certifiedBuildProperties
+80ee47972beb KernelCpuUidActiveTimeReader: Do not spam log with negative active time
+054526bb3192 SystemUI: Make Lens work without independent package installed
+accc12924931 SystemUI: logo: Re-align amogus icon
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+3cb297e857 SF: Pass AOD layer specific flag to HWC
+92636f2398 HWComposer: Mark earliestPresentTime as maybe_unused
+c0fad123ad sf: Avoid destroying a null layer
+9fb38e8821 sf: Optimize doDump function in SurfaceFlinger
+ac62895168 sf: Don't send empty metadata blobs to hwc
+ed0b3c784b sf: Always select canskipvaliate as true
+02d5e8c8da RenderEngine: don't blur when using protected content
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+941ba5c New Crowdin updates (#514-#548)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+c12cb75608 Settings: Capitalize 'S' in Smart pause string
+5c18139c12 Settings: Move fast charging summary to footer
+e65857133a display: Import screen resolution from cheetah stock
+1213b05d16 Settings: Hide Fast charging from search if not supported
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+f2a83e33e core: Lockscreen Charging (2/3)
+
