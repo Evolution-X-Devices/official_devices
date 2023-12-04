@@ -871,6 +871,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "haydn",
+      "name": "Redmi K40 Pro/Pro+ / Mi 11i / Mi 11X Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXHaydn",
+            "maintainer_name": "Yuvraj Mehta",
+            "maintainer_url": "https://t.me/YuvrajMehta",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "spes",
       "name": "Redmi Note 11/NFC",
       "supported_versions": [
