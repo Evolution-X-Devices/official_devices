@@ -576,8 +576,8 @@
       "supported_versions": [
          {
             "device_group": "EvolutionXTissot",
-            "maintainer_name": "Joey (Shaughzam)",
-            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
+            "maintainer_name": "Shaughzam",
+            "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-tissot-official-evolution-x-08-31-22.4487107/"
@@ -621,11 +621,11 @@
       "supported_versions": [
          {
             "device_group": "EvolutionXRaphael_v2",
-            "maintainer_name": "Joey (Shaughzam)",
-            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-raphael-official-evolution-x-08-21-22.4481179/"
+            "maintainer_name": "Shaughzam",
+            "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r14-raphael-official-evolution-x-12-05-23.4644402/"
          }
       ]
    },
@@ -711,7 +711,7 @@
       "supported_versions": [
          {
             "device_group": "EvolutionXVenus",
-            "maintainer_name": "Joey (Shaughzam)",
+            "maintainer_name": "Shaughzam",
             "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
             "version_code": "fourteen",
             "version_name": "Fourteen",
@@ -816,7 +816,7 @@
       "supported_versions": [
          {
             "device_group": "EvolutionXMarble",
-            "maintainer_name": "Joey (Shaughzam)",
+            "maintainer_name": "Shaughzam",
             "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
             "version_code": "fourteen",
             "version_name": "Fourteen",
