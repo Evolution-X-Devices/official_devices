@@ -1,0 +1,47 @@
+This is Android 14 with November 2023 security patches
+
+
+Notes:
+==============================
+- Dirty flash  fine.
+
+Device changes:
+====================================
+- Switch to SkiaGL Threaded
+- Update Relax refresh rate timers.
+- Enable Battery Health in battery section.
+- Some battery Optimization 
+
+Rom changes:
+=======================
+     2023/12/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+064e16b59 Frameworks: add NoSuchElementException catch
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+d2041b8 manifest: Stop tracking device/vendor qcom_common
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+5e7eecb Launcher3: Match dimens with Pixel Launcher
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+525b49a certification: Update
+
+
+=======================
+     2023/12/04
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+7e56ec5 Evolver: Bringup for UpsideDownCake
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+2fb38c0 config: Introduce common dynamic partition reserved sizes
