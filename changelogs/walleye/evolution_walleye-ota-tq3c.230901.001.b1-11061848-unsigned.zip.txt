@@ -1,0 +1,11 @@
+=======================
+     2023/11/06
+=======================
+
+- October security path
+- Enforce privapp-permissions whitelist
+- Minor update
+- Performance and under the hood improvements
+
+## Note
+- Build with full gapps, so clean flash is recomended, dirty flash should work

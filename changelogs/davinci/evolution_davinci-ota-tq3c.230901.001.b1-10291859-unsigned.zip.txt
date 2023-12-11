@@ -1,0 +1,33 @@
+Evolution X 7.9.9 with Android 13 October security patch (r82)
+
+Notes:
+==============================
+- CLEAN FLASHING IS MANDATORY IF YOU ARE COMMING FROM ANY EVOLUTION-X NON DYNAMIC PARTITIONS BUILD.
+- THIS BUILD NEEDS CLEAN FLASHING DUE TO CHANGES IN KERNEL AND TREE SO WE CAN BE UNITE ON 1 TWRP
+- Use kenvyra twrp for this build only
+- Use this flashing instruction https://telegra.ph/Flashing-instruction-07-04 as we moved to dynamic partitions and fbev2.
+- Follow flashing instruction carefully . everything written their
+- Don't report any issues if you will use another kernel or recovery except the one I told you about 
+- Report bugs with logs
+- This is the final update for A13
+
+Device changes:
+==============================
+- Rebase tree and vendor to newest Arian's lineage tree
+- Rebase audio configs and switched to prebuilt audio hals
+- Use QCOM implementation for audio effects
+- Uprev android.hardware.bluetooth to 1.1
+- Compile out some fallbacks packages for bluetooth and ril
+- Build libantradio from source 
+- Enable TWS plus feature using persist property 
+- Enable Qualcomm TrueWireless™ Stereo
+- AAC frame control enabled for hal implementation
+- Disable BT A2DP AAC whitelist
+- Add support for low power adaptive control feature
+- Build libbthost_if , libldacBT_bco and libldacBT packages
+- Set the maximum WFD resolution to 720p@30
+- Update wifi staff
+- Enable fastcharge and lineage charging control
+- Update blobs from sweet V14.0.7.0.TKFMIXM
+- Import joystick from 1Controller v1.5.2\
+- Under the hood cleaning up and improvements

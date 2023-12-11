@@ -1,0 +1,516 @@
+This is Android 14 with November 2023 (r14) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk.
+- We're not responsible for any issues that this may cause.
+- SafetyNet passes by default.
+
+Device changes:
+==============================
+Add support for DC Dimming
+Set USB product string to Xiaomi 11T Pro
+Create IMS symlinks
+Use task_profiles.json from system/core
+Don't pin launcher app in memory
+Set block_binder_thread_on_incoming_calls in product.prop
+Add radio props to improve battery life
+Restore correct usb config during early boot
+Switch suspend RAM mode to deep
+Disable Async MTE on System Server
+Update advanced_sf_offsets to sm8650
+props: Disable blur on app launch
+Other minor fixes and improvements
+
+ROM changes:
+=======================
+     2023/12/03
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+69dcdffa sepolicy-legacy-um: Update drm service executables file_contexts
+a86cd60b legacy: add app_data_file_type to imshelper_app_data_file
+32f07966 sepolicy-legacy-um: Init Evo X
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8ab18d4634da base: Extend showing Ambient instead of fully waking to single tap gesture [1/2]
+bfbef6a61aa2 base: Allow showing Ambient instead of fully waking [1/2]
+a8536e7c5d62 base: services: Introduce AutoDimService [1/2]
+f0fb13212292 base: services: Create abstract AutoSettingService
+85cf465b136b Revert "Revert "keyguard: Do not trigger a wake up when hiding lockscreen""
+1a3d0a86d8a9 base: Allow to skip confirmation in biometric auth dialog [1/2]
+b73aeb3ceb9c Fix action bar font family on material themes
+aef2d3f8d15a SettingsProvider: Fix for google backup and restore
+7526ff2a0f3e Back button/gesture is not working with Android 14 easter egg activity.
+3bb13ddc2f8b Sometimes Screen does not wake up while receiving whatsapp video call
+85663cf7292f Intent: Fix launch of permision revoke activity from playstore
+75572fea965b SystemUI: Make roaming indicator optional [1/2]
+f4819e2f63d3 Island: Implement Now Playing music ticker
+57b74864d94e Fix powersave/powersave idle whitelist
+bef52c960ed0 SystemUI: Add VPN tile
+af145adae643 SystemUI: QS: LocationTile: make it cycle modes
+07ce90f056ff OmnijawsClient: Fix widget theme [1/2]
+a0c3dd929320 PPU: Make CTS/Play Integrity pass again (again and again and again)
+07a6799e98b5 UI: Use SNAP_FIXED_RATIO for multi-window globally
+0aff0724bbf3 SystemUI: Remove existing icon group if its overriding
+c98d3f7e54d8 SystemUI: FaceUnlock: Add margin based on lock icon
+647cbd212a50 SystemUI: Implement face unlock recognition animation and text
+dc0226574fbe KeyguardBouncer: Don't delay showing if face auth running
+b60484d4affc WalletActivity: Don't explicity request face auth
+e716b0e5bc2e SystemUI: Reset face auth on occluding app when authenticated
+d4f2fdc55821 SystemUI: use simple check for isFaceDisabled
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/udc
+
+6758a11 Revert "interfaces: Extend Fastcharge implementation [1/3]"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+4398c40 manifest: Track our device_qcom_sepolicy-legacy-um fork
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+6d9cc85 Disable notification/battery light
+9c47b31 Revert "Evolver: Add strings for showing fastcharge status summary"
+4c851b0 Evolver: Bringup for UpsideDownCake
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+8d64d89 GameSpace: Fix NPE in PanelView
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+5eefa3f9ed Launcher3: Expose force monochrome themed icon flag as a user preference
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+154cb902f5 Remove extended fastcharge implementation
+a7586cce0d Settings: Extend showing Ambient instead of fully waking to single tap gesture [2/2]
+172cdbaccf Settings: Allow showing Ambient instead of fully waking [2/2]
+15a2a8ea93 Settings: Introduce AutoDimService [2/2]
+5db8670158 Settings: Allow to skip confirmation in biometric auth dialog [2/2]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+7c55f9c9 vendor: Remove metro clock for now
+064513f5 PixelLauncherIconsOverlay: Update some google apps themed icons
+fdb65211 overlay: Add newer clock package names to config_pluginAllowlist
+1b78cd71 vendor: rro_overlays: Update from A14 release
+064e2992 vendor: Inherit certification repo if exists
+ee9eb310 vendor: Guard Face Unlock support
+7b1bf9b2 fonts: Update GoogleSansFlex-Regular
+167b99ab packages: Switch to Launcher3 and ThemePicker; build OmniJaws; make ViMusic optional
+2b7ff78d device_config: Enable Adaptive Sound
+b0d0b23e overlay: SystemUI: Whitelist staging custom clock plugins
+e0d45a90 device_config: Update configs
+219328b1 common: props: Use glif_v4_light in SetupWizard
+e7c5de91 version: Uprev to 8.0.3
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+8fccd7a Remove extended fastcharge implementation
+
+
+=======================
+     2023/12/02
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+e6f142f manifest: Track vendor_certification
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+a19a136473 Launcher3: Fix Personal/Work profile tab colors in AllApps
+927bc36f01 Launcher3: Apply material you palette to folder background
+8e670ce48b Launcher3: Restart launcher when app drawer opacity is changed
+cd317d6835 Launcher3: Home press on default homescreen -> open drawer
+d3f8485259 Launcher3: Fix smartspace visibility on higher grids
+b610c48161 Launcher3: device_profiles: catch up to 13
+3fd9085eec Launcher3: Use ClockDrawable from iconloaderlib
+67e9931f63 Launcher3: Clear task snapshots remnants on 'onRecentsAnimationComplete'
+ae91a3f02b Launcher3: freeform: Launch tasks as tasks overlays
+9fb1ff469d Launcher3: Hide freeform shortcut if app doesnt support freeform
+06bb520419 Launcher3: Launch apps in freeform mode system shortcut
+c8500cfe54 Launcher3: Allow the blur to be completely disabled.
+38a37b7966 Launcher3: Add Smartspace Widget.
+9d7a522e0c Launcher3: Cleanup QsbLayout `onFinishInflate`
+dc596ffeac Launcher3: Vibrate effect for clear all button
+a181730825 Launcher3: fix crash
+4644cb0389 Launcher3: Increment max number of saved recent apps thumbnails
+294cf2a704 Fixing syntax error due to java-version changes
+6a29855d44 Launcher3: Use regular body font for app labels
+3d08dd0cd1 Launcher3: Directly open Pixel Search if installed
+12b348a01a Launcher3: Reduce search bar hint text size
+04bf8041b2 Launcher3: Fix all apps SB's google icon touch detection
+ddc000d34d Launcher3: Rework QSB and all apps search bar
+032e7e8971 Launcher3: Refactor all apps search bar functionality
+d1bc0f109a Launcher3: Searchbar UX-related changes
+ade94e278b Launcher3: Bring back 4x4 grid option
+
+* Repository: https://github.com/Evolution-X/packages_services_OmniJaws/commits/refs/heads/udc
+
+38ac7e3 OmnijawsClient: Fix widget theme [2/2]
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+d0b5878 certification: Change to ASUS_Z012D
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+fb0dd5c6 apn: Fix Play MMS
+
+
+=======================
+     2023/12/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8ffe9ff1a579 base: overlays: Stop building NotoSerif font.
+61bc5812d759 overlays: iconpacks: Update launcher screenshot fill color
+93742d091809 AuthRippleView: Allow disabling ripple unlock animation using overlay
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+df985ffb2a Launcher3: Restart launcher on pixel search change
+5a51403e45 Launcher3: Prioritize pixel search for QSB instead of Google app
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+1e7a483 certification: Initial import
+ec3a377 Initial commit
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+f57acc5 gms: Drop Pixel Launcher and Google Wallpapers
+
+
+=======================
+     2023/11/30
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+57d59e1 sepolicy: Move wifi.interfaces. label to system/sepolicy
+436f738 qcom: Allow power HAL read idle_state node
+196f498 sepolicy: Move wifi.interface. label to private
+4eb743e sepolicy: Label wifi.interface.
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+415db6870dfd fix for Extreme Battery Saver Mode
+3e1988829b5c base: Target Launcher3/ThemePicker
+6913d29a4fa3 GamesPropsUtils: Add Gameprops for Teamfight Tactics (TFT)
+2edfaf208332 Let's stop this madness please
+af8516d0abbf Island: Get application info from all user
+7e19511f8c44 SystemUI: IslandView: Import SystemUIToast icon retrieving logic
+842c92a72b8f Island: Improvements and fixes
+ea34211ac826 Island: Squeeze it
+0a425ebaafb3 service: Do not ensure system package for required services extension
+d9c98a8e3e8d services: Bypass shorcut permission enforcement to default launchers
+1c5616fa3ad9 EvolutionUtils: Import tasks from risingOS systemUtils
+8e1715f9fe8f SystemUI: Add API for runtime taskbar config
+86d92dc762f0 OmniJaws: Update client
+0da82e826167 OmniJaws: Use google icon set by default
+509d1fc0d5e0 utils: evolution: Add OmniJawsClient
+a6fbd3e8db1d SystemUI: Introduce preferred network tile
+33f71771c610 PhoneWindowManager: Pocket Judge: Don't mess with power button to reject call
+5764b1caf311 base: Pocket Judge: Don't go to sleep while on call
+4c1ef281f47a pocket mode: Update style to latest OOS specs
+3834b2b9c261 PocketJudge: Allow to register vendor proximity sensor
+a945cca2cfa6 PocketLock: Make using light sensor optional
+061f5a3f21f0 SystemUI: Improve pocket mode layout
+4062d81440ab base: Redo Pocket mode view like OOS
+39ba252386fc Fix an edge case in KeyguardUpdateMonitor pocket callback
+e64ce3416593 PocketJudge: allow register vendor pocket sensor
+afaf29d7b391 PocketLock: fix flickering on animations
+2cfa76c3874c Pocket lock: Add config_pocketModeSupported overlay
+c30deda4d9a3 pocket: introduce pocket bridge
+b5cafe28a335 pocket: Reduce sleep timeout for pocket lock
+602fe8792d74 pocket: Use MD2 lock drawable
+8106680ee2bb Pocket lock improvements
+ebcb48f4d9b5 pocket: Fix pocket lock view for display cutouts
+c5fc8324dcd0 pocket: Adjust sleep timeout for pocket lock view to 10 secs
+7267f30a29f1 PocketService: Adjust light sensor rate to 400ms
+8e38b6b0b458 pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
+bc8d67f120f6 policy: introduce pocket lock
+cbd8f4970538 pocket: introduce pocket judge
+61fbf6b7ef9d Add more device key actions
+f1dce16d6975 core: Import ActionUtils class from LOS
+7181300434f1 Fix delay in AOD rotation
+85ef516f4680 SystemUI: Block annoying statusbar call strength icon
+6294da9321fa core: Broadcast intent when display power state changes
+9e2347ca4f21 SystemUI: Filter out duplicate notification icons on statusbar
+567e6f3b7fc6 Allow permission pre-grant files on OEM partition
+5ee6fa960101 BatteryStatsViewer: Fix theme
+e6f9d55fab66 BatteryStatsViewer: Fix initial activity after launch
+111abcc0b6cd BatteryStatsViewer: Add summary for IA preference
+4c67875b57ad Create IA entry for BatteryStatsViewer
+184ae2eb4717 BatteryStatsViewer: Remove some hardcoded strings
+c5b8c5543868 Zygote: Install seccomp filter regardless of selinux status
+011a1a79341a base: Forward Port Volume Long Press Skip Tracks [1/2]
+bb0df4b69089 [SQUASH] Revert unnecessary changes
+8d2ec2e06e4a Revert "Show charging notification when device is being charged via USB, with USB data disabled."
+ef526ece7c3a Why did the sailfish start a band?
+69ea18bb98ec core: Fix continuous crash issue in persistent apps
+d471232f1f05 Allow adjusting progress on touch events.
+e8729389db0a Add Face Unlock with ParanoidSense
+15310a43a15c fixup! base: BiometricScheduler: Cancel operation if not idle
+657eaa281c53 SystemUI: Disable large screen header for tablets
+eaeb860dfec3 Make 'No Notifications' small
+fe1d972f25a2 core: res: config: speed up tooltip animations
+4569dacb67d6 Make the spinners faster
+e0df7544034a Make spinners even smoother
+90fa91f86edd ViewConfiguration: Align coding style to AOSP
+8d505dbe0fff ViewConfiguration: add support for max/min fling velocity sysproperties
+9a11b5a2dc58 ViewConfiguration: misc changes (rev)
+13763bf834e2 ViewConfiguration: set scroll friction to 0.006f
+a22b77f73c61 SQLiteDatabase: Catch corrupt exception during transaction
+8d1c4ed003aa KeyguardIndication: fix fc on lockscreen charging info
+eae75821bd83 Makes the loading "spinner" animation smoother
+0b430c3fe737 base: Update few drawables
+811938ecdda6 SystemUI: Enable smart replies for apps that target APIs lower than 28
+3a276320735e Island: Implement Dynamic Island effects
+3ae5d702b1d0 Allow to disable battery light
+21dbe0393480 VolumeDialogImpl: Add STREAM_NOTIFICATION row
+59f419e0eb44 CompanionDeviceManager: This uses the MANAGE_COMPANION_DEVICES permission
+dddf2490d4ad Add various system packages to indicator exemptions
+3a3d2f31233a Add a config to state whether a device supports increased touch sensitivity.
+bce709c4d445 fix error com.google.android.gms.persistent
+718fd057df03 config: Allow gms to access persistent data partition
+469ff3c4a852 base: wm: Follow rounded corners by split divider corner size
+ff418d0f0a0c Revert "Only create resources for the non-system user"
+df1880eb20cb UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+0d8d9c347207 fwb: GLSurfaceView: Be less picky about EGLConfig alpha sizes
+87d1444161b0 core: Enable smart battery for everyone
+bab4499ce635 PowerButton: Revert to pre-12 power button behavior
+e86c96c3f977 SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+0ed34139633b Add "ro.hardware.egl_legacy" for ANGLE system driver
+decde2099001 BatteryService: Fix battery led not turning off when unplugged at 100%
+c2456b28be22 ServiceRecord: Don't post running notification for selected apps
+14dc6f08a4c3 Fix sfps arrow color in overlay
+25cf9a02087f PhoneWindowManager: Fix wakeup and long-press actions of assistant key
+0021e4e6b724 DeviceKeysConstants: Remove split screen actions
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+a37cfd40e2 Launcher3: Set correct dynamic clock target launcher package
+39d928f97b Launcher3: Add a particle effect easter egg to main SettingsActivity
+e2818597d3 Launcher3: Move split overview action before screenshot
+40b70c7984 Launcher3: Set default app drawer opacity to 100%
+14de570d73 Launcher3: Initial rebrand to Evo X Launcher
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a34f7ce281 Settings: Set Launcher3 as target launcher package
+1242b58d81 Settings: Allow to quickly open Running Services from meminfo view
+8b77ae2d73 Settings: Hide navbar radius customization when taskbar enabled
+c460c582f8 Settings: Also hide pill length on taskbar mode
+ca384de63e Settings: Hide settings that don't work when taskbar is enabled
+deb3c4c542 Revert "display: Introduce pocket mode feature [2/2]"
+adfed6eec3 Settings: Forward Port Volume Long Press Skip Tracks [2/2]
+693fe810fe Settings: Import battery charge cycles from A13
+1b08a8b336 Settings: Battery stats: read battery health more robust
+530d12c29e Add Face Unlock with ParanoidSense
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/udc
+
+63435440 fixup!: ThemePicker: Actually enable color picker
+e1749eba Fix permissions xml and provider access
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+c8279962 vendor: Switch to AOSPA's face unlock implementation
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+98c0570 pixel-fw: Target Launcher3/ThemePicker
+ea9ba0f pixel-fw: Clean up and upstream changes for UpsideDownCake
+
+
+=======================
+     2023/11/29
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+80b8fa4 sepolicy: legacy: allow apexd to write to sysfs_mmc_host
+b5d5344 sepolicy: legacy: Update for QTI Health AIDL
+07db514 common:bt: Inherit board configs before product configs
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/udc
+
+3e4ebd7 ClockDrawableWrapper: Set DISABLE_SECONDS to false
+366828b Multiple work profile badge colors for Launcher3
+a4973ef iconloaderlib: Fix themed icon background color tint
+0278e44 Override IconProvider class for IconPack support
+57e9a4a Add support for overriding of IconProvider
+ffcb7b8 iconloaderlib: Create new int array for hue calculation if tmp is too small
+44e5857 iconloaderlib: Apply alpha from child icon to adaptive icon wrapper
+47da85b iconloaderlib: Add config hint to bypass adaptive icon wrapping
+d344a8d iconloaderlib: Force themed icon over app monochrome icon
+36f9003 iconloaderlib: Update icon cache via Build.TIME instead
+c7abdd2 iconloaderlib: Invalidate icon cache between OS releases
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+a5a8d486f6 Revert "[PATCH] Add simple FEAS support"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+a26a659 manifest: Track our Launcher3, OmniJaws, ThemePicker, ViMusic and framework/libs/systemui repos
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/udc
+
+3af7d69b ThemePicker: Add missing permission
+d88cfebc Add permission for launcher preview rendering
+f70c0cee Automatic translation import
+f902f8b3 ThemePicker: Apply window insets to quick affordance fragment
+d162ccc8 ThemePicker: Expose quick affordances section on default UI
+fc371ae6 ThemePicker: Unify font & icon label sizes, scroll the text
+f3ae96c5 ThemePicker: Fixup font & icon picking wrong user ID
+ee0b8dad ThemePicker: Vertically center the text of icon and font options
+5ff8d2c8 ThemePicker: Enable launcher and themepicker icon packs
+81d2fdef ThemePicker: Fix crash when applying default icon pack
+f94f2d95 ThemePicker: Introduce font picker
+6e790f61 ThemePicker: Don't setEnabledExclusiveInCategory for default icon pack
+a886f8c8 ThemePicker: Bring back icon pack customization
+9ec6f710 ThemePicker: Make ThemesStub a build dependency
+e0f3d668 ThemePicker: Grant missing wallpaper permissions
+fccb83fa ThemePicker: Add wallpaper default permissions
+608bd1cc ThemePicker: Add wallpaper privapp whitelist
+f1377a83 ThemePicker: Fix crash choosing Live Wallpapers
+e2e42370 ThemePicker: Remove beta tag for themed icons
+daa8e20e stub: Import extra color bundles from TQ1A.221205.011
+0fced696 Specify we read and write launcher settings
+ee1c9acf ThemePicker: Override WallpaperCropper
+25ee0c60 Make ThemePicker override any other AOSP picker
+ca741f06 Fix permissions xml and provider access
+3071c50a Use -Xjvm-default=all instead of -Xjvm-default=enable or @JvmDefault
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+e90e92230f BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+aea11ed04a fixup! Bluetooth timeout feature
+cfbebba79b Bluetooth timeout feature
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+f3cb02fc8c fixup! Wi-Fi timeout feature
+4ae8036abe Wi-Fi timeout feature
+
+* Repository: https://github.com/Evolution-X/packages_services_OmniJaws/commits/refs/heads/udc
+
+f0e22df OmniJaws: Configure for Evolution X
+
+* Repository: https://github.com/ThankYouMario/proprietary_vendor_qcom_common/commits/uvite
+
+25b3a68 vendor: display: 4.14: Update to LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+
+
+=======================
+     2023/11/28
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+dd52b6f611 non_ab_ota: Drop setting permissions for `/tmp/install/bin`
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+53a5c19 vendor: charging: Use AIDL QTI Health by default now
+cc5e84d vendor: charging: Enable charger suspend only to HIDL health hal
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+4bf4c119 Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+029f95568 Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+8ae251a2c Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8550
+
+9bb69bb77 Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+42d8d4f7c7 Nuplayer: Update request input buffer delay as per fps
+211abaa922 Introduce dynamic delay buffer management for C2SoftAacDecoder.
+574c6bfe56 On low-memory devices, when the recorder is recording in the background for a long time, the AudioRecorder fails to be created with low probability when the foreground camera start record.
+b66a5361df Camera: Flush all state transitions before reconfigureCamera
+431ebcb8c5 Camera: Fix potential null pointer dereference issues
+f1160f9fa1 cameraserver: Fix overriden sensorPixelModes
+f064f27837 cameraservice: handle invalid native_handle from vndk impl
+9cfb4f7308 Picture button becomes grey if keep taking pictures in Camera2.apk
+13adbed959 C2BqPool: Invalidate when the client died
+cae2ddbadf Codec2Cient: Do not hold lock during IGBP operations
+f9bfa165b3 update default supported latency modes
+e8f2cb6071 audioflinger: Normalize FrameCount for duplicating thread
+7cf8ad3655 Nuplayer: Handle get input/output format errors cleanly
+b45d77920f CCodecBuffers: allocate vector by using reserve API
+917656bf56 media: libstagefright: Change to avoid ubsan_sub_overflow error
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+b55a45a25f Implement edge long swipe gesture [3/3]
+94a99d4378 Settings: Add setup UI for minimum delay between an app's notification sounds
+290a53c737 Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]
+519cf14f22 SystemNavigationPreferenceController: Only show gestures if navbar visible
+6683a2eede Settings: Add switch for battery led
+6067def904 New Crowdin updates (#364-#368)
+
+
+=======================
+     2023/11/27
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+c82c982 sepolicy: allow iop to binder call servicemanager
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8350
+
+7eadde6d05 composer: Replace writepid with task_profiles command for cgroup migration
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-21.0-caf-sm8450
+
+fc81248 ipc: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8450
+
+8d103eccd hal: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8450
+
+734b422bcc composer: Replace writepid with task_profiles command for cgroup migration
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-21.0-caf-sm8550
+
+0bb6aa2 ipc: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8550
+
+efd68358b hal: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+2af6e905b5 composer: Replace writepid with task_profiles command for cgroup migration
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+bf3d0424ba Launcher3: Make weather condition text optional
+
+* Repository: https://github.com/Evolution-X/packages_services_OmniJaws/commits/refs/heads/udc
+
+4307b41 OmniJaws: Fix appbar design with system layout
+124af9e OmniJaws: Remove unused style components
+741d260 OmniJaws: Enable options only when service enabled
+9b73d39 OmniJaws: fix night weather on OWM provider

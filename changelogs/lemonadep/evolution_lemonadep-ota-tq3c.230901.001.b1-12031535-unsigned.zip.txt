@@ -1,0 +1,7 @@
+This is the final major update for Android 13, only security patches and major bug fixes will be done now.
+
+Changelog:
+- Cleaned up device tree to prepare for Android 14.
+- Updated to November security patches.
+- Imported latest OOS 13.1.0.592(EX01) blobs & firmware.
+- Reverted back to only using perfmgr, please report on battery life.

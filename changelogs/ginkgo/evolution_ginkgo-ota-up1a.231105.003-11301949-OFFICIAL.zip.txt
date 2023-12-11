@@ -1,0 +1,32 @@
+This is Android 14 with November 2023 (r14) security patches
+
+Notes:
+==============================
+- Dirty flash from previous builds is fine
+- MiuiCamera is included
+
+Device/Source changes:
+==============================
+• HotFix Build for many broken things on previous version
+• Switch to Launcher3 (EvoXLauncher) which brings back features like App Lock & App Hide, Lockscreen Weather, Free Memory Clear All Google Lens buttons on recents, Custom Themed Icons & Many More 
+• Fixed play integrity again (just clear playstore data if dirty flashing from previous build)
+------------------------------
+
+ROM changes:
+==============================
+11/29
+gms: Stop overriding Launcher3QuickStep
+
+11/28
+Add more device key actions
+Allow permission pre-grant files on OEM partition
+Island: Enhancements, fixes and code cleanup
+Settings: Import battery charge cycles from A13
+Settings: Introduce built-in QuickSwitch feature
+SystemUI: Filter out duplicate notification icons on statusbar
+SystemUI: Block annoying statusbar call strength icon
+Zygote: Install seccomp filter regardless of selinux status
+apn: Fix Play MMS
+core: Broadcast intent when display power state changes
+core: Import ActionUtils class from LOS
+overlay: Use google-sans for remaining font configs

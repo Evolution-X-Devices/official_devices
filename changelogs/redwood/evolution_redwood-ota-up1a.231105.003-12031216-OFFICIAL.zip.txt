@@ -1,0 +1,176 @@
+This is Android 14 with November 2023 security patches
+
+
+Notes:
+==============================
+- Dirty flash  fine.
+- Play Integrity now passes by default (As of 12/03/2023).
+
+
+Device changes:
+====================================
+- Switch to lineage kernel (5.4.242)
+- Improved battery life since the last build.
+
+Rom changes:
+=======================
+   
+ 2023/12/03
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+69dcdff sepolicy-legacy-um: Update drm service executables file_contexts
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8ab18d463 base: Extend showing Ambient instead of fully waking to single tap gesture [1/2]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+4398c40 manifest: Track our device_qcom_sepolicy-legacy-um fork
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+4c851b0 Evolver: Bringup for UpsideDownCake
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+8d64d89 GameSpace: Fix NPE in PanelView
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/udc
+
+5eefa3f Launcher3: Expose force monochrome themed icon flag as a user preference
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a7586cc Settings: Extend showing Ambient instead of fully waking to single tap gesture [2/2]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+064513f PixelLauncherIconsOverlay: Update some google apps themed icons
+
+
+=======================
+     2023/12/02
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_services_OmniJaws/commits/refs/heads/udc
+
+38ac7e3 OmnijawsClient: Fix widget theme [2/2]
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+d0b5878 certification: Change to ASUS_Z012D
+
+
+=======================
+     2023/12/01
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+f57acc5 gms: Drop Pixel Launcher and Google Wallpapers
+
+
+=======================
+     2023/11/30
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+57d59e1 sepolicy: Move wifi.interfaces. label to system/sepolicy
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/udc
+
+6343544 fixup!: ThemePicker: Actually enable color picker
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+98c0570 pixel-fw: Target Launcher3/ThemePicker
+
+
+=======================
+     2023/11/29
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+80b8fa4 sepolicy: legacy: allow apexd to write to sysfs_mmc_host
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/udc
+
+3e4ebd7 ClockDrawableWrapper: Set DISABLE_SECONDS to false
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+a5a8d48 Revert "[PATCH] Add simple FEAS support"
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+e90e922 BluetoothManagerService: check if bluetooth is in airplane mode radios before disabling
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+f3cb02f fixup! Wi-Fi timeout feature
+
+* Repository: https://github.com/ThankYouMario/proprietary_vendor_qcom_common/commits/uvite
+
+25b3a68 vendor: display: 4.14: Update to LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+
+
+=======================
+     2023/11/28
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+dd52b6f non_ab_ota: Drop setting permissions for `/tmp/install/bin`
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+029f955 Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+8ae251a Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8550
+
+9bb69bb Revert "sepolicy: Label idle_state node"
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+42d8d4f Nuplayer: Update request input buffer delay as per fps
+
+
+=======================
+     2023/11/27
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8350
+
+7eadde6 composer: Replace writepid with task_profiles command for cgroup migration
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-21.0-caf-sm8450
+
+fc81248 ipc: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8450
+
+8d103ec hal: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8450
+
+734b422 composer: Replace writepid with task_profiles command for cgroup migration
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-21.0-caf-sm8550
+
+0bb6aa2 ipc: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8550
+
+efd6835 hal: Replace direct pid writes with setting task profiles for audio interfaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+2af6e90 composer: Replace writepid with task_profiles command for cgroup migration

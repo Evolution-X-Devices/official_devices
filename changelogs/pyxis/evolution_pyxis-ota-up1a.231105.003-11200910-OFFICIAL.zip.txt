@@ -1,0 +1,198 @@
+=======================
+     2023/11/20
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+b3083d6 vendor: charging: Keep building health HIDL interface lib in vendor
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8f09d5639 SystemUI: Implement Island notification feature [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+bc2c30e Evolver: Upgrade to UDC
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a2bb452 PreventRingingParentPreferenceController: Refactor summary generation
+
+
+=======================
+     2023/11/19
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+5c4e8c8 Ignore PLMN bit when SPN is required
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/udc
+
+cf64cf9 New Crowdin updates (#26)
+
+
+=======================
+     2023/11/18
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+eed9b55 aidl: light: Implement attention light type
+
+
+=======================
+     2023/11/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+3cb297e SF: Pass AOD layer specific flag to HWC
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+213e99a PermissionController: Bypass google apps for role qualifications
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+f2a83e3 core: Lockscreen Charging (2/3)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+9a705d3 overlay: Nuke config_certifiedBuildProperties
+
+* Repository: https://github.com/ThankYouMario/proprietary_vendor_qcom_common/commits/uvite
+
+2a2790f system: Update to Motorola rtwo user-14-U1TR34.8-19-2-9bfa3-release-keys
+
+
+=======================
+     2023/11/16
+=======================
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+cffb083 sepolicy: Fix sdcardd rules
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+9c1d10b gms: Move TurboAdapter building to evo vendor
+
+
+=======================
+     2023/11/15
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+62876ff combo: Add kryo585|785 architectures to known v8-2a cores
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+9fd28d1 soong: Add kryo585 variant support
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+a846af9 Allow platform app to read memory info
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/udc
+
+cdc3958 interfaces: Extend Fastcharge implementation [1/3]
+
+
+=======================
+     2023/11/14
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/lineage-21.0-legacy-um
+
+f9b54fb sepolicy: Label QTI health AIDL service
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+bbe0320 sepolicy_vndr: Label QTI health AIDL service
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+17767d6 Updates: Add missing SCHEDULE_EXACT_ALARM permission whitelist
+
+
+=======================
+     2023/11/13
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-21.0
+
+6c54b85 libhidlbase: Add SPDX license
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+b82147b Update strings.xml to fix a typo
+
+
+=======================
+     2023/11/12
+=======================
+
+
+=======================
+     2023/11/11
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+c8b7b79 libstagefright: Fix memory leak due to lock timeout
+
+
+=======================
+     2023/11/10
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+ec1fa12 graphics composer: move to foreground
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8150_audio/commits/refs/heads/udc
+
+6453b84 hal: msm8974: fix usage of acdb_init() method
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+e23a09b manifest: Track device/vendor_qcom_common from AOSPA
+
+
+=======================
+     2023/11/09
+=======================
+
+
+=======================
+     2023/11/08
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_webp/commits/refs/heads/lineage-21.0
+
+e210bd8 Merge tag 'android-14.0.0_r14' into staging/lineage-21.0_merge-android-14.0.0_r14
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+e403cf0 Add back increasing ring feature (1/3).
+
+
+=======================
+     2023/11/07
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+d4d8f95 fixup! citadel: Guard with proprietary source presence
+
+* Repository: https://github.com/Evolution-X/packages_apps_TouchGestures/commits/refs/heads/udc
+
+93d8424 Revert "TouchGestures: Adapt to Evo-X"
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+dea62cb BtHelper: Adapt to A13/A14 changes
+
+

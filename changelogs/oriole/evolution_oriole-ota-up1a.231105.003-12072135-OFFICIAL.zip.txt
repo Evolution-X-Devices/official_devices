@@ -1,0 +1,6 @@
+Evolver: misc: Add Pif preference
+FWB: PPU: Store the current array name in SettingsProvider 
+Pif: Introduce Activity/PreferenceFragment for viewing current values 
+FWB: PPU: Allow spoofing INITIAL_SDK_INT & SECURITY_PATCH 
+Pif: Allow spoofing INITIAL_SDK_INT & SECURITY_PATCH
+gs101/gs201: Add liboemcrypto.so to vendor linker config (fixes widevine L1)

@@ -1,0 +1,9 @@
+Bring back Evolution X Launcher
+PPU: Handle failing cases of google sign-in caused by spoofing
+PPU: Make spoofBuildGms updatable and chosen from a list
+Island: Return if sbn.notification.contentIntent is NULL
+Island: Implement Now Playing music ticker
+base: services: Introduce AutoDimService
+base: Add status bar lyric for Android 14
+base: Allow to skip confirmation in biometric auth dialog
+SettingsProvider: Fix for google backup and restore

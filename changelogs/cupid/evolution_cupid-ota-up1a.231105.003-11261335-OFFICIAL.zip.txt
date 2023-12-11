@@ -1,0 +1,134 @@
+  
+2023-11-26
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: Initial A14 release
+
+ROM:
+
+
+11/26
+
+Add Face Unlock with ParanoidSense
+
+Evolver: Add hw keys customization support
+
+Settings: Implement edge swipe customization
+
+
+11/25
+
+AdbNotifications: Open wireless debugging settings when applicable
+
+Add "android.permission.READ_PHONE_STATE" to manifest
+
+Add interface for battery stats reset
+
+Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation
+
+Add required priv-app permissions for SystemUIGoogle
+
+Allow required Android Auto permissions
+
+AppProfiler: dont be so hectic on cpu battery stats
+
+AudioService: Guard against OOB in ringer mode cycle
+
+BatteryStatsImpl: Guard against OOB
+
+BatteryStyles: Use getScaleFactor for BatteryBar
+
+Disable factory reset in DSU mode
+
+Enable backup service by default for all users
+
+Fix crash when clicking Spell Checker
+
+Fix incorrect context classloader initialization in system_server
+
+Implement freeform/multiple windows feature changes
+
+Import Google-sans fonts from UP1A.231105.003
+
+Increase Zenmode max hour limit from 12 to 24
+
+Make Build.TYPE and Build.FINGERPRINT consistent for apps
+
+MountService: Prevent NPE with DropBoxManager
+
+Only spoof packages installed by Aurora Store and modify new API
+
+PM: Force all packages as installed via Google Play Store
+
+PackageInstaller: show current/new version on sideload
+
+Settings: Allow disabling color inversion support
+
+Settings: Allow toggling NFC sounds
+
+Settings: Allow toggling floating rotation button
+
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+
+Settings: Declare an activity for WirelessDebuggingFragment
+
+Settings: Extend protect sensitive info to MAC
+
+Settings: Reset battery stats
+
+Settings: disable all bugreport settings
+
+StorageManager: Add dummy inCryptKeeperBounce method
+
+Support logging out secondary users
+
+Support work profiles on full secondary users
+
+SystemUI: HeadsUpTile: Open Heads Up fragment on long click
+
+SystemUI: fix MediaProjection cast crash
+
+TelephonyManager: Add getLteOnCdmaMode() function for default subId
+
+Update fonts for our font picker
+
+appop: Save discrete app op history for more permissions
+
+base: Add a notification for percentage based battery saver
+
+base: Grant battery stats reset permission to Settings
+
+base: Suppress telephony crashing platform
+
+don't crash apps that depend on missing Gservices provider
+
+don't leak device-wide package list to apps when work profile is present
+
+gms: Revert to previous PixelThemesStub versions
+
+gms: Update privapp-permissions-google-p from husky
+
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+
+services: ActiveServices: drop uid check when notifying newly registered callbacks
+
+services: Implement transition boosting
+
+telephony: SmsMessage: Bring newFromCDS method back
+
+themes: Remove conflicting battery path overlays
+
+themes: iconpacks: Fix QS auto brightness icon activated tint
+
+whitelist CAPTURE_AUDIO_OUTPUT for Dialer
+
+... and more

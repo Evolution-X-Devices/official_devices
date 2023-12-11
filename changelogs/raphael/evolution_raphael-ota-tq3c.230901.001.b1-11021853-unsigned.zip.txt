@@ -1,0 +1,148 @@
+=======================
+     2023/11/02
+=======================
+
+
+=======================
+     2023/11/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b39d587 Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+e4ae598 power: Remove unused variable
+
+
+=======================
+     2023/10/31
+=======================
+
+
+=======================
+     2023/10/30
+=======================
+
+
+=======================
+     2023/10/29
+=======================
+
+
+=======================
+     2023/10/28
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+605dfc5 Aperture: Allow removing video configurations via overlays
+
+
+=======================
+     2023/10/27
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8450
+
+58ad601 Revert "AGM: support ACDB parameter set without normal session"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+69236d6 Aperture: Use org.lineageos:gradle-generatebp 1.4
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+9c6a3ebb5e Fix incorrect name of encroid icon (#354)
+aa94852d5b Settings: New encdroid icon
+
+
+=======================
+     2023/10/26
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+0034df3 power: Move launch and interaction hint handlers to common
+faa9dc4 power: Cancel the previous boost after calling a new one
+
+
+=======================
+     2023/10/25
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/tiramisu-wip
+
+57cf9d3fb535 Revert "Use getUahDischarge when available"
+ae05e3ee7d2d PixelPropsUtils: Fix GMS drain triggered by an outdated ROM build date
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+c3eb4ffa Update APN settings used in Japan.
+
+
+=======================
+     2023/10/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-20.0
+
+eb857d3 Merge tag 'LA.VENDOR.13.2.0.r1-20500-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/thermal into HEAD
+
+
+=======================
+     2023/10/23
+=======================
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/thirteen
+
+65d601e BtHelper: Update Settings' title
+75de4f8 BtHelper: pods: Add support for AirPods Pro 2 with USB-C
+
+
+=======================
+     2023/10/22
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+a8e092b3d7 Settings: Fix tint on newly added private VPN and mobile plan icons
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+f5fb8b4b kernel: Use correct variable name for vendor_kernel_boot modules
+
+
+=======================
+     2023/10/21
+=======================
+
+
+=======================
+     2023/10/20
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-20.0-caf-sm8250
+
+13d4b369b audio: Extend platform parser to allow device name aliasing
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-20.0-caf-sm8550
+
+c74b6b5 Merge tag 'AUDIO.LA.8.0.r1-09300-KAILUA.0' into staging/lineage-20.0_merge-AUDIO.LA.8.0.r1-09300-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-20.0-caf-sm8550
+
+be0aabdc Merge tag 'AUDIO.LA.8.0.r1-09300-KAILUA.0' into staging/lineage-20.0_merge-AUDIO.LA.8.0.r1-09300-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-20.0-caf-sm8550
+
+af377b078 Merge tag 'AUDIO.LA.8.0.r1-09300-KAILUA.0' into staging/lineage-20.0_merge-AUDIO.LA.8.0.r1-09300-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-20.0-caf-sm8550
+
+b87ee8e86 Merge tag 'LA.VENDOR.13.2.0.r1-20500-KAILUA.0' into staging/lineage-20.0_merge-LA.VENDOR.13.2.0.r1-20500-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_wfd-commonsys/commits/refs/heads/lineage-20.0
+
+4f66ba2 Merge tag 'VIDEO.LA.3.0.r1-06700-KAILUA.0' into staging/lineage-20.0_merge-VIDEO.LA.3.0.r1-06700-KAILUA.0

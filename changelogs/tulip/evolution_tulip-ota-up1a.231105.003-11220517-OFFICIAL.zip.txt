@@ -1,0 +1,175 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with November 2023 security patches
+Device changes:
+====================================
+Add charging control
+Add fast charging control
+Fix low earpiece volume
+Fix mic issues in apps like WhatsApp
+Switch to S0niX kernel (thanks @ImSpiDy)
+
+Rom changes:
+====================================
+11/22
+gms: Update from hOS
+
+11/21
+PPU: Improve device certification bypass
+PPU: Remove Snapchat spoof
+config: Add Cloudflare as default ntp server
+
+11/20
+Add option to enable AOD on charging only
+Fix NullPointerException for WifiDisplayController
+Ignore PLMN bit when SPN is required
+IMS: Fix incall MMI code failure after turning volte off
+Pre-grant Updater app with Notification permission by default
+Restore getSimStateForSlotIndex in SubscriptionManager
+Settings: add option to enable AOD on charging only
+Settings: Choose which ringer modes to cycle with the gesture
+Settings: Gestures: Add option to cycle through ringer modes
+Settings: Introduce automated Sleep Mode
+Settings: Remove MSIM ringtone setting
+SettingsLib: Update 5G+ icon to Silk design
+SettingsLib: Update LTE+/4G+ icon as per new Silk design
+SettingsLib: use Cloudflare DNS servers as hints
+SettingsProvider: Resolve google gms configurator denials
+SystemUI: Introduce Data Switch QS Tile
+Telephony: Fix crash while updating Operator Name
+TelephonyMetrics: Add writeRilSendSms method
+core/config: use Cloudflare DNS as the default fallback
+telephony: Bring back SubscriptionController
+telephony: Check for LTE_CA in physical channel config
+
+11/18
+Settings: Capitalize 'S' in Smart pause string
+Settings: Move fast charging summary to footer
+
+11/17
+AudioService: focus listener: enable it when using external AudioFocus
+PermissionController: Bypass google apps for role qualifications
+Settings: Hide Fast charging from search if not supported
+SystemUI: QS fling animation boost
+display: Import screen resolution from cheetah stock
+fixup! base: ChooserActivity: Don't show image edit button on multiple targets
+
+11/16
+Avoid CalledFromWrongThreadException in BubbleController
+Bubbles: Prevent one handed callbacks from being delayed
+Settings: add a disclaimer for our imp for per-app volume
+Settings: Fix potential NPE in WifiTetherSecurityPreferenceController
+Settings: Global VPN feature
+Settings: Import SettingsGoogle animations from AP11.231020.013.A1
+Settings: Switch to GlobalSettingPrimarySwitchPreference for Heads up toggle
+SettingsLib: Use WHITE color instead MAGENTA for Battery Drawables
+SystemUI: logo: Re-align amogus icon
+always auto-grant permissions that have "normal" protectionLevel
+config: Only include TurboAdapter by default with Pixel devices
+overlay: Define launcher_overlayable_package
+services: Fix ArrayIndexOutOfBoundsException in TextServicesManagerService
+services: Fix NPE caused by null connectionToken
+
+11/15
+AppInfo: Only add Playstore action if Playstore is installed
+Battery Styles: Clean up battery callback in CollapsedStatusBar
+Custom statusbar logo customizations
+EnhancedEstimates: Get estimates from Device Health Services
+KeyguardIndication: Fix glitchy charging info on AOD/lockscreen
+KeyguardIndication: Set wakelock on doze only when required
+PixelPropsUtils: Completely spoof as asus zenfone 4 for gms
+Settings: Add app package name to SPA
+Settings: Add preference for one shot auto-brightness
+Settings: display actual device peak refresh rate in summary
+Settings: Extend Fastcharge implementation
+SurfaceControl: Prevent crash when surfacecontrol is null
+SystemProperties: Override vendor values with product key values
+SystemUI: Add monet customization
+SystemUI: Re-designed caffeine tile icon
+SystemUI: Switch to TunerService for CollapsedStatusBar
+Update battery info every second when device is charging 
+ViewGroup: Remove child parent when a new view is added
+core: Add a fallback mechanism for missing frameworks resource
+core: legacy toasts deserve rounded corners too
+gms: Move TurboAdapter_NoBatt to evo vendor
+overlays: {acherus,outline}: Add launcher and themepicker overlay
+overlays: Acherus: Add settings overlay
+overlays: Add Xperia overlays
+overlays: Exclude from Google backup
+overlays: Import Plumpy, Aurora, Gradicon & Lorn iconpacks from Iconify
+overlays: Introduce PUI iconpack
+overlays: PUI: Do not theme seekbars
+overlays: Set Pixel Launcher/Google Wallpapers as target packages
+overlays: oos: Import stock oos settings icons
+overlay: Bump no. of max cached processes to 48
+overlay: Enable config_unplugTurnsOnScreen
+overlay: Enable subtle tick vibration when revealing shelf
+overlay: Enable sidefps performant auth by default
+prebuilt: Build TurboAdapter without Google Battery support
+prebuilt: TurboAdapter_NoBatt: Make Dummy GoogleBatteryService
+sepolicy: Resolve turbo_adapter denial
+sepolicy: Update flipendo and turbo_adapter rules from pixel-sepolicy
+services/PPU: Simplify and improve bypassing for PPU `onTaskStackChanged` listening
+
+11/14
+Add a one minute timeout to global actions dialog
+Battery Styles: Fix and clean up BatteryBar
+Bind voice interactor as visible foreground service when it is being used
+BroadcastReceiver: Gracefully handle redundant broadcasts
+ChargingControl: Don't index settings if it is not supported
+Fix AlarmManager high CPU issue
+Fix secondary user crash with system user locked
+InputMethodManager: Prevent unnecessary invocation of IME
+ServiceManager: Handle all types of exceptions
+Set alert dialog message to use system font
+Settings: Add charging control preferences
+Settings: Hide SFPS wakeup setting when it's not supported
+Settings: Remove dividers in Network & Internet
+Settings: Show single-touch wakeup setting on rear & front fps devices
+Ship semi-similar blur without patching HWUI
+Start profiles before finishing user boot when finishing user switch
+SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+SystemUI: Disable all-caps for smart reply button text
+SystemUI: Prevent edge lightning from pulsing outside keyguard/doze
+SystemUI: Use click effect instead of duration for haptic feedback for QSTile
+SystemUI: Use lighter material you shades for charging animation
+SystemUI: Use proper Resolver background color
+SystemUI: Workaround for systemui crash caused by gboard
+TelephonyManager: Gracefully handle null telephony service
+Updates: Add missing SCHEDULE_EXACT_ALARM permission whitelist
+View: Prevent NPEs when initiating surface drag
+androidfw: Don't spam logcat with resource messages
+base: Add a toggle for secure tiles on keyguard
+base: change background activity start mode to allow for widget configure
+
+11/13
+SystemUI: Add-back DIGITAL_CLOCK_METRO to ClockRegistry
+
+11/12
+Bluetooth timeout
+Wifi timeout
+Keyguard: Forward port lockscreen quick unlock
+base: Allow retrieving PIN length for password type
+
+11/11
+AOD: Sleep when proximity is covered for 3 secs
+Import more QS tiles from A13
+Pocket Mode improvements
+QS: Add and use Mobile Data panel
+QS: Open WifiPanel on LongClick
+Settings: Add developer setting to set the default GPU renderer
+Settings: Add missing icon for media output
+Settings: Double tap to trigger doze
+Settings: Panels: Add Mobile Data panel
+Settings: Properly set battery temperature
+Settings: Remove IME space under keyboard feature
+Settings: Remove unused BatteryUtils in PowerUsageSummary
+SettingsLib: Allow Skia Vulkan to be used as HW renderer
+SystemUI: ClockController: Prevent NPE when clock is hidden
+SystemUI: Fix black screen after DOZE
+SystemUI: Launch power menu from QS only if enabled
+SystemUI: Prevent InternetDialog crashing system
+SystemUI: qs: footer: Launch The Evolver when long clicking settings
+Updates: Add foregroundServiceType to UpdaterService
+wallpaper: fix deadlock issue when changing wallpaper frequently

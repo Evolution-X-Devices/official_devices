@@ -1,0 +1,137 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with November 2023 security patches
+Device changes:
+====================================
+Add extreme battery saver powerhint
+Disable GPU protected composition
+Disable sdm rotator downscaler
+Disable Skia tracing by default
+Drop zram_backingdev_size
+Enable sys.use_fifo_ui prop
+Fix jittery UI during screen recorder
+Some battery usage optimizations
+
+Rom changes:
+====================================
+Notable changes:
+
+Fixes PlayIntegrity
+Add evolution launcher
+Add faceunlock
+Add applock
+
+Full changelog:
+11/29
+gms: Stop overriding Launcher3QuickStep
+
+11/28
+Add more device key actions
+Allow permission pre-grant files on OEM partition
+Island: Enhancements, fixes and code cleanup
+Settings: Import battery charge cycles from A13
+Settings: Introduce built-in QuickSwitch feature
+SystemUI: Filter out duplicate notification icons on statusbar
+SystemUI: Block annoying statusbar call strength icon
+Zygote: Install seccomp filter regardless of selinux status
+apn: Fix Play MMS
+core: Broadcast intent when display power state changes
+core: Import ActionUtils class from LOS
+overlay: Use google-sans for remaining font configs
+
+11/26
+Add Face Unlock with ParanoidSense
+Evolver: Add hw keys customization support
+Settings: Implement edge swipe customization
+
+11/25
+AdbNotifications: Open wireless debugging settings when applicable
+Add "android.permission.READ_PHONE_STATE" to manifest
+Add interface for battery stats reset
+Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation
+Add required priv-app permissions for SystemUIGoogle
+Allow required Android Auto permissions
+AppProfiler: dont be so hectic on cpu battery stats
+AudioService: Guard against OOB in ringer mode cycle
+BatteryStatsImpl: Guard against OOB
+BatteryStyles: Use getScaleFactor for BatteryBar
+Disable factory reset in DSU mode
+Enable backup service by default for all users
+Fix crash when clicking Spell Checker
+Fix incorrect context classloader initialization in system_server
+Implement freeform/multiple windows feature changes
+Import Google-sans fonts from UP1A.231105.003
+Increase Zenmode max hour limit from 12 to 24
+Make Build.TYPE and Build.FINGERPRINT consistent for apps
+MountService: Prevent NPE with DropBoxManager
+Only spoof packages installed by Aurora Store and modify new API
+PM: Force all packages as installed via Google Play Store
+PackageInstaller: show current/new version on sideload
+Settings: Allow disabling color inversion support
+Settings: Allow toggling NFC sounds
+Settings: Allow toggling floating rotation button
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: Declare an activity for WirelessDebuggingFragment
+Settings: Extend protect sensitive info to MAC
+Settings: Reset battery stats
+Settings: disable all bugreport settings
+StorageManager: Add dummy inCryptKeeperBounce method
+Support logging out secondary users
+Support work profiles on full secondary users
+SystemUI: HeadsUpTile: Open Heads Up fragment on long click
+SystemUI: fix MediaProjection cast crash
+TelephonyManager: Add getLteOnCdmaMode() function for default subId
+Update fonts for our font picker
+appop: Save discrete app op history for more permissions
+base: Add a notification for percentage based battery saver
+base: Grant battery stats reset permission to Settings
+base: Suppress telephony crashing platform
+don't crash apps that depend on missing Gservices provider
+don't leak device-wide package list to apps when work profile is present
+gms: Revert to previous PixelThemesStub versions
+gms: Update privapp-permissions-google-p from husky
+opengl: Don't request render in GLSurfaceView.GLThread ctr
+services: ActiveServices: drop uid check when notifying newly registered callbacks
+services: Implement transition boosting
+telephony: SmsMessage: Bring newFromCDS method back
+themes: Remove conflicting battery path overlays
+themes: iconpacks: Fix QS auto brightness icon activated tint
+whitelist CAPTURE_AUDIO_OUTPUT for Dialer
+
+11/24
+biometrics: Replace writepid with task_profiles command for cgroup migration
+config: DEXPREOPT SettingsGoogle and SystemUIGoogle
+gms: Add missing DeviceConnectivityServicePrebuilt and wallpapereffect permission from husky
+gms: Update from hOS repo
+sepolicy: Label wifi.interface.
+vendor: Import SystemUIClocks-Handwritten from barbet_beta-user-14-UPB4.230623.005
+vendor: Update clocks from husky_beta-user-14-AP11.231020.014
+
+11/23
+AlarmManager: Handle google and system apps alarm denials
+Do not backup APKs that do not have allowBackup attr on it's manifests
+GameSpace: Adapt with base lock gesture change
+Island: Add quick call answer/reject click functionalities
+Island: Update UI Specs and make layout dynamic
+PPU: Disable props config only for Gapps
+ProcessList: Catch Security exception when starting a frozen package
+Settings: Add proximity check on wake preference
+Settings: Battery charge warning
+Settings: Introduce automated DC Dimming
+SystemUI: Doze: Add config to check proximity on pickup events
+SystemUI: Doze: Add config to check proximity on single tap
+SystemUI: Flags: Enable UI updates for AIWP
+SystemUI: Import SystemUIGoogle changes
+SystemUI: Import wrappers and methods for ambient music service
+SystemUI: Match systemui dialogs background with power menu
+Toast: Perform text scrolling for long toast texts
+apex: Prevent illegal state exception caused by GMS concurrent alarms
+core: Allow telephony stack and its components to receive un-sanitized ServiceState entries
+core: Catch OOB when returning pooled string
+core: Workaround for bad base64
+display: Add custom screen resolution setting
+hwui: Remove logspam cause by early animation handle check
+permissions: Add ACCESS_CONTEXT_HUB to systemui permissions whitelist
+services: Bypass security check when checking provider permissions for google apps
+services: Fix ArrayIndexOutOfBoundsException on `updateContentCaptureOptions`

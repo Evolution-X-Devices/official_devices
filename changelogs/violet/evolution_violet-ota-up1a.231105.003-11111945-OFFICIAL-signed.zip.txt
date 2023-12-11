@@ -1,0 +1,101 @@
+version: Update to 8.0.2 (Turon)
+
+==============================
+Device changes:
+==============================
+- Retrofit Dynamic Build
+- File based Encryption V2
+- Kernel Upstream v4.14.329
+- LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0
+- MiuiCamera Included
+
+==============================
+Flash Instructions:
+==============================
+Flash Dynamic supported Recovery.
+Reboot into recovery
+Wipe cache, dalvik, and data
+Flash the dynamic rom
+Format data if encrypted(If want decryption flash DFE v5)
+Reboot into system
+
+==============================
+ROM changes:
+==============================
+
+11/12
+Bluetooth timeout
+Wifi timeout
+Keyguard: Forward port lockscreen quick unlock
+base: Allow retrieving PIN length for password type
+
+11/11
+AOD: Sleep when proximity is covered for 3 secs
+Import more QS tiles from A13
+Pocket Mode improvements
+QS: Add and use Mobile Data panel
+QS: Open WifiPanel on LongClick
+Settings: Add developer setting to set the default GPU renderer
+Settings: Add missing icon for media output
+Settings: Double tap to trigger doze
+Settings: Panels: Add Mobile Data panel
+Settings: Properly set battery temperature
+Settings: Remove IME space under keyboard feature
+Settings: Remove unused BatteryUtils in PowerUsageSummary
+SettingsLib: Allow Skia Vulkan to be used as HW renderer
+SystemUI: ClockController: Prevent NPE when clock is hidden
+SystemUI: Fix black screen after DOZE
+SystemUI: Launch power menu from QS only if enabled
+SystemUI: Prevent InternetDialog crashing system
+SystemUI: qs: footer: Launch The Evolver when long clicking settings
+Updates: Add foregroundServiceType to UpdaterService
+wallpaper: fix deadlock issue when changing wallpaper frequently
+
+11/10
+CarrierConfigManager: enable LTE+ icon by default
+Change the resource cache key from context to package name
+Do not mark dun APN types as read only
+Enable KEY_WFC_SPN_FORMAT_IDX_INT universally
+Frameworks: Enable VoNR by default
+PackageInstaller: Fix app label on package upgrade
+PixelPropsUtils: Make CTS/Play Integrity pass again
+VolumePanel: Change bg tint for inactive rows
+fixup! SystemUI: Add double tap to sleep gesture
+overlay: Use ASUS_X00HD certified build props
+packages: Re-enable Aperture and include by default
+
+11/9
+Bring back most features from A13
+SystemUI: Hide more tuner preferences on production builds
+fwb: services: Prevent NPE on first boot
+system: core: init: Set ro.product.first_api_level to 24
+
+11/7
+Disable sparse images for A/B updater targets
+Merge November 2023 security patches (android-14.0.0_r14)
+PixelPropsUtils: Update fingerprints to November 2023 release
+SystemUI: Bringup tuner statusbar changes
+releasetools: fixup path for recovery.fstab
+version: Uprev to 8.0.2 (Turon)
+
+11/6
+PixelPropsUtils: Drop pixel codenames and checks
+PropImitationHooks: Add a config to enable/disable prop imitation
+vendor: Import BT Slice intent resources from SettingsGoogle
+vendor: Use PRODUCT_SYSTEM_PROPERTIES
+
+11/5
+build: remove unnecessary lunch items
+common: Enable Non Flattened APEX
+config: Drop Gamespace for now
+fs_mgr: Remove bootloader restrictions for adb remount
+releasetools: Don't compress with brotli
+
+10/31
+Migrate to LOS 21 CAF/CLO changes
+
+10/30
+apns: [bob] Fix APN and enable IPv6
+fixup! lineage: prebuilt: Add Carrier ID and MVNO ID for T-Mobile Ting
+kernel: Halt build process if an external module fails to compile
+kernel: Replace BOARD_SYSTEM_KERNEL_MODULES with SYSTEM_KERNEL_MODULES

@@ -1,0 +1,69 @@
+  
+2023-12-06
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: Define vendor.sys.thermal.data.path
+  * marble: overlay: CarrierConfig: Enable ViLTE for Airtel India
+  * cupid: overlay: CarrierConfig: Allow configuring WFC on Jio
+  * cupid: overlay: CarrierConfig: Enable Vo5G for Jio
+  * cupid: overlay: CarrierConfig: Allow VoLTE and VoWiFi/WFC by default
+  * cupid: overlay: Add battery health nodes
+  * cupid: overlay: Define OEM fast charge sysfs node
+  * cupid: overlay: enable udfps on AOD
+  * cupid: overlay: Pin SystemUIGoogle instead of regular SystemUI
+  * cupid: Build charger_res_images
+  * cupid: Build `libsuspend`
+  * cupid: Keep building health HIDL interface lib in vendor
+  * cupid: health: Rename to device-specific impl
+  * cupid: Add QTI health implementation
+  * Revert "cupid: Switch to the pre-built qti health hal"
+  * cupid: sepolicy: label additional display and cit sensor file context
+  * cupid: overlay: drop brightness nits to 850
+  * cupid: Patch displayfeature.default.so to use v33 libstagefright_foundation
+  * cupid: sepolicy: Bring sepolicy changes from marble
+  * cupid: Add vendor prefix to sysfs_battery_supply
+  * cupid: Update default list of files pinned by the pinner service
+  * cupid: Build android.hardware.thermal@2.0-service.qti-v2 from source
+
+
+ROM:
+
+11/29
+
+gms: Stop overriding Launcher3QuickStep
+
+
+11/28
+
+Add more device key actions
+
+Allow permission pre-grant files on OEM partition
+
+Island: Enhancements, fixes and code cleanup
+
+Settings: Import battery charge cycles from A13
+
+Settings: Introduce built-in QuickSwitch feature
+
+SystemUI: Filter out duplicate notification icons on statusbar
+
+SystemUI: Block annoying statusbar call strength icon
+
+Zygote: Install seccomp filter regardless of selinux status
+
+apn: Fix Play MMS
+
+core: Broadcast intent when display power state changes
+
+core: Import ActionUtils class from LOS
+
+overlay: Use google-sans for remaining font configs

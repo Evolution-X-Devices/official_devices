@@ -1,0 +1,236 @@
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Install KSU zip or Magisk for root.
+- Safetynet now passes by default.
+- Credits to Pjgowtham for his base trees.
+
+Device Changelogs :-
+=============================
+- Added Refresh Rate QS tile
+- Tuned CPU input boost
+- Dropped Hey Google Shit!
+- Show Device Full name in About Section
+- Added Charging control
+- Updated some blobs in camera
+- Preparation for pixel framework support
+- Latest lineageOS changes synced in common tree
+- Partially fixed Fp registering ring
+- Graphics driver updated to v600
+- Enable SecureNFC
+- Fw updated to f.15
+- Inherited few kernel scripts to device tree from vendor and optimized
+- Optimized Sounds a bit
+
+=======================
+     2023/11/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+55807101e Why did the sailfish start a band?
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+c4972bd Evolver: Bringup for UDC
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+6b0b77c Settings: Import battery charge cycles from A13
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+533f915 overlay: Use google-sans for remaining font configs
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+c12c6b6 gms: Don't include Videos prebuilt
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+d4724b4 pixel-fw: Clean up and upstream changes for UpsideDownCake
+
+
+=======================
+     2023/11/27
+=======================
+
+* Repository: https://github.com/AOSPA/android_device_qcom_common/commits/uvite
+
+c82c982 sepolicy: allow iop to binder call servicemanager
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/lineage-21.0-legacy-um
+
+4479f08 sepolicy: Label idle_state node
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+73d6307 sepolicy: Label idle_state node
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+5971e8f sepolicy: Label idle_state node
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8550
+
+51d7168 sepolicy: Label idle_state node
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+4d4d56f megvii: libmegface -> libmegface_xiaomi
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+b4b14c7 manifest: Track ParanoidSense from our gitlab
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+ba04c5c Making sys.boot.reason.last restricted
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-21.0
+
+6dce78a power: Increase kMinInteractiveDuration to 1 second
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commits/refs/heads/lineage-21.0
+
+d849fde vibrator: Add support for awinic_haptic input device
+
+
+=======================
+     2023/11/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+76c342e InputDispatcher: On keypress, deliver keycode to pokeUserActivity
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+53eafbc Nfc: Allow toggling NFC sounds [2/3]
+
+* Repository: https://gitlab.com/EvoX/packages_apps_ParanoidSense/commits/refs/heads/udc
+
+49cf02a Rename libmegface to libmegface_faceunlock
+
+
+=======================
+     2023/11/25
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+747bb61 sepolicy: Move wifi.interface. label to private
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+943edd6 [DO NOT MERGE] goddammit google
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/udc
+
+6770593 biometrics: Replace writepid with task_profiles command for cgroup migration
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+604bec3 Revert "Fix VTS Fuzz issue"
+
+
+=======================
+     2023/11/24
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/udc
+
+9aa9c80 Add ability to build scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+36ecea2 soong: Add ability to build scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+4fb89b5 Add ability to enable scudo-free 32-bit libc variant.
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+ac68e3f Revert "debuggerd: Disable scudo usage"
+
+
+=======================
+     2023/11/23
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-21.0
+
+ba33c37 libprotobuf-cpp-lite-3.9.1-vendorcompat: Fix build for x86/x86_64 targets
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+e38b719 GameSpace: Adapt with base lock gesture change
+
+* Repository: https://github.com/ThankYouMario/proprietary_vendor_qcom_common/commits/uvite
+
+fae6f42 system: Update to LA.QSSI.14.0.r1-10000.01-qssi.0
+
+
+=======================
+     2023/11/22
+=======================
+
+
+=======================
+     2023/11/21
+=======================
+
+
+=======================
+     2023/11/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+5c4e8c8 Ignore PLMN bit when SPN is required
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/udc
+
+cf64cf9 New Crowdin updates (#26)
+
+
+=======================
+     2023/11/19
+=======================
+
+
+=======================
+     2023/11/18
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+213e99a PermissionController: Bypass google apps for role qualifications
+
+
+=======================
+     2023/11/17
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+0a41ccd Aperture: Drop emergencyClose()
+
+
+=======================
+     2023/11/16
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_bcr/commits/refs/heads/udc
+
+a670413 Version 1.55
+
+
+=======================
+     2023/11/15
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+17767d6 Updates: Add missing SCHEDULE_EXACT_ALARM permission whitelist

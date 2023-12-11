@@ -1,0 +1,162 @@
+=======================
+     2023/11/14
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/tiramisu-jem
+
+1068a25 build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+b3fe66d Initialise VPS buffer to NULL in constructor
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+dd33e05b [RESTRICT AUTOMERGE] Disable NOTIFICATION_INLINE_REPLY_ANIMATION flag
+
+* Repository: https://github.com/Evolution-X/manifest/commits/tiramisu-jem
+
+245cd58 manifest: Track repos for Jemalloc changes
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/tiramisu
+
+0751c74 Fix issue with late binding to ICS.
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+97c3e46 version: Uprev to 7.9.10
+
+
+=======================
+     2023/11/13
+=======================
+
+
+=======================
+     2023/11/12
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_KeyChain/commits/refs/heads/lineage-20.0
+
+d90f056 Merge tag 'android-13.0.0_r83' into staging/lineage-20.0_merge-android-13.0.0_r83
+
+
+=======================
+     2023/11/11
+=======================
+
+
+=======================
+     2023/11/10
+=======================
+
+
+=======================
+     2023/11/09
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_webp/commits/refs/heads/lineage-20.0
+
+67e8c06 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+* Repository: https://github.com/LineageOS/android_packages_modules_DnsResolver/commits/refs/heads/lineage-20.0
+
+a2278b6 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+* Repository: https://github.com/LineageOS/android_packages_modules_StatsD/commits/refs/heads/lineage-20.0
+
+f4cb39c Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+* Repository: https://github.com/LineageOS/android_packages_providers_TelephonyProvider/commits/refs/heads/lineage-20.0
+
+64aa178 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+* Repository: https://github.com/LineageOS/android_system_ca-certificates/commits/refs/heads/lineage-20.0
+
+d3ca059 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+
+=======================
+     2023/11/08
+=======================
+
+
+=======================
+     2023/11/07
+=======================
+
+
+=======================
+     2023/11/06
+=======================
+
+
+=======================
+     2023/11/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+77f3bbb Revert "SF: Fix display on Pixel 4"
+
+
+=======================
+     2023/11/04
+=======================
+
+* Repository: https://github.com/LineageOS/android_prebuilts_extract-tools/commits/refs/heads/lineage-20.0
+
+a6ac20e linux-x86: Add prebuilt patchelf v0.17.2
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-20.0
+
+d3a3660 extract_utils: Add patchelf 0.17.2 support
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commits/refs/heads/lineage-20.0
+
+61cfb7a vibrator: Hook USE_EFFECT_STREAM up
+
+
+=======================
+     2023/11/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/tiramisu
+
+b95989d Improved the anomaly report
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+fb076ee Evolver: Add app lock summary for 0 protected apps
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+b8fdeb8 Revert "Launcher3: Import improvements from motorola"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+e5276f2 Limit bluetooth broadcast password to single byte characters
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/tiramisu
+
+850daf6 Allow otapreopt_chroot to use stdin and stdout pipes.
+
+
+=======================
+     2023/11/02
+=======================
+
+
+=======================
+     2023/11/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-20.0
+
+b39d587 Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_power/commits/refs/heads/lineage-20.0
+
+e4ae598 power: Remove unused variable
+
+

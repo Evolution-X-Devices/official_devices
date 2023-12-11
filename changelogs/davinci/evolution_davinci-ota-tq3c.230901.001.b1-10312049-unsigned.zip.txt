@@ -1,0 +1,16 @@
+Evolution X 7.9.9 with Android 13 October security patch (r82)
+
+Notes:
+==============================
+- Final A13 build needs clean flashing if coming from Evolution X 7.9.7 or older.
+- Use this flashing instruction https://telegra.ph/Flashing-Instructions-for-final-A13-build-10-30 as we moved to dynamic partitions and fbev2.
+- Follow flashing instruction carefully . everything written their
+- Don't report any issues if you will use another kernel or recovery except the one I told you about 
+- Report bugs with logs
+- This is the hot fix for final A13 update
+
+Device changes:
+==============================
+- Fixed youtube 1080p 60 fps videos lag
+- Fixed video recording crash on miui camera 
+- Fixed hevc screen recording
