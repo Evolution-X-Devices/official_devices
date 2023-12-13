@@ -1,0 +1,14 @@
+=======================
+     2023/12/14
+=======================
+
+Device Changelog:
+- Initial Android 14 Release
+- Dec security patch
+- Upgrade system_ext size partition
+- Drop QTI datastatusnotification
+- Fixed eSIM issue causing SIM Card not detected
+- Safety net passed by default
+
+Note: 
+- This build need repart again your device, so please read the guide on xda how to install the ROM
