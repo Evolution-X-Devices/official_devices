@@ -1,0 +1,294 @@
+version: Update to 8.1.0 (Yema)
+
+==============================
+Device changes:
+==============================
+- December security patch (QPR1)
+- overlay: Add config_batteryChargeCycles node
+- Kernel Upstream v4.14.332
+- LA.UM.9.1.r1-14900-SMxxx0.QSSI14.0
+
+==============================
+Flash Instructions:
+==============================
+Flash Dynamic supported Recovery.
+Reboot into recovery
+Wipe cache, dalvik, and data  ( Don't touch anything other than these 3)
+Flash the dynamic rom
+Format data if encrypted(If want decryption flash DFE v5)
+Reboot into system
+
+==============================
+ROM changes:
+==============================
+
+=======================
+     2023/12/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+afb7ef3 audio: support restoreTrack for direct and offlaod track
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+d86dea5d1 Revert "base: Incall vibration options [1/3]"
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+f44c115 [PATCH] Add simple FEAS support
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_sm8450_display/commits/refs/heads/udc
+
+3d5a001 hwc_display: guard Dolby Vision support
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+480a07f manifest: Track udc-j branches for meme cam changes
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+29f6fb2 [TMP] Evolver: Disable some features for Android 14 QPR1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+4b65241 Pif: Add TopIntroPreference for displaying actual MANUFACTURER + MODEL
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+825800f Revert "Settings: Set Launcher3 as target launcher package"
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+c44dfc3 Reduce refresh times for non-persistent MACs
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+d460e47 Revert "Telecomm: Incall vibration options [2/3]"
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+5196cb4 Allow ueventd to read apexd property
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+6c76d2c certification: Include Device model
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6eee143 [TMP] config: Switch back to SystemUI
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+190aaf0 gms: Update mini and pico packages
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+b42866a [TMP] Settings: Disable Pulse
+
+
+=======================
+     2023/12/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_external_cronet/commits/refs/heads/lineage-21.0
+
+ae9af2ba cronet: Fix build with custom out directory
+
+* Repository: https://github.com/LineageOS/android_external_gptfdisk/commits/refs/heads/lineage-21.0
+
+6727e78 gptfdisk: Make libsgdisk visible to libvolume_manager
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+ef54e53 telephony: introduce a stub SubscriptionController
+
+* Repository: https://github.com/LineageOS/android_hardware_google_graphics_common/commits/refs/heads/lineage-21.0
+
+2d9caa9 hwc: Depend on generated kernel headers
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+1599163 Updater: Define foregroundServiceType
+
+
+=======================
+     2023/12/10
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_google_gchips/commits/refs/heads/lineage-21.0
+
+710b2e5 Merge tag 'android-14.0.0_r17' into staging/lineage-21.0_merge-android-14.0.0_r17
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+1a208a4 Merge tag 'android-14.0.0_r17' into staging/lineage-21.0_merge-android-14.0.0_r17
+
+* Repository: https://github.com/TheParasiteProject/packages_apps_Gramophone/commits/14.0
+
+176cbda Gramophone: Add CleanSpec
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+57db560 BtHelper: Add a better comment regarding workaround for BLE beacon identification
+
+* Repository: https://github.com/LineageOS/android_system_bpf/commits/refs/heads/lineage-21.0
+
+355cd85 Merge tag 'android-14.0.0_r17' into staging/lineage-21.0_merge-android-14.0.0_r17
+
+
+=======================
+     2023/12/09
+=======================
+
+
+=======================
+     2023/12/08
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc-j
+
+aa372d3 Revert "soong: Add ability to build scudo-free 32-bit libc variant."
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc-j
+
+77a5076 Revert "Add ability to enable scudo-free 32-bit libc variant."
+
+* Repository: https://github.com/Evolution-X/packages_apps_EvoEgg/commits/refs/heads/udc
+
+7ac0670 EvoEgg: Override duplicate authorities
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-j
+
+6569bf3 Revert "Revert "debuggerd: Disable scudo usage""
+
+
+=======================
+     2023/12/07
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+6b92f53 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/art into udc
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+8583500 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/bootable/recovery into udc
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+83e9c0b Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+7599471 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/hardware/interfaces into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+dc5fffd Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+302bb95 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/modules/Bluetooth into udc
+
+* Repository: https://gitlab.com/EvoX/packages_modules_Connectivity/commits/refs/heads/udc
+
+11ee30c Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+33457ee Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/modules/Permission into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+56c4700 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/modules/common into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+9c00089 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+7699193 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/packages/providers/MediaProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/udc
+
+739b555 Telephony: bring back all changes from Build.FINGERPRINT to Build.TIME [3/4]
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+79f0683 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/system/extras into udc
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+2c74127 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/system/logging into udc
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+7f474a7 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/system/media into udc
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+52b42a8 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/system/update_engine into udc
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+5797326 Merge tag 'android-14.0.0_r17' of https://android.googlesource.com/platform/system/vold into udc
+
+
+=======================
+     2023/12/06
+=======================
+
+
+=======================
+     2023/12/05
+=======================
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+c569ced templates: Allow extracting only firmware images
+
+
+=======================
+     2023/12/04
+=======================
+
+
+=======================
+     2023/12/03
+=======================
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+69dcdff sepolicy-legacy-um: Update drm service executables file_contexts
+
+
+=======================
+     2023/12/02
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+8d64d89 GameSpace: Fix NPE in PanelView
+
+
+=======================
+     2023/12/01
+=======================
+
+
+=======================
+     2023/11/30
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+57d59e1 sepolicy: Move wifi.interfaces. label to system/sepolicy
+
+
+=======================
+     2023/11/29
+=======================
+
+
