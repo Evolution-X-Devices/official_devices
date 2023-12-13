@@ -4,9 +4,8 @@ Notes:
 ==============================
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - This build includes Leica camera.
-- ROM is already pre-rooted with KSU.
-- Play Integrity now passes by default (As of 12/12/2023).
-- Uses latest Soviet kernel.
+- Root with magisk or KSU.
+- Play Integrity now passes by default (As of 12/13/2023).
 - Pixel Launcher is default launcher.
 
 =======================
