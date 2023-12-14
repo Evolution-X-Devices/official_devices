@@ -1,0 +1,20 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with December 2023 security patches
+Device changes:
+====================================
+Switch to SkiaGL Threaded
+Kernel: Added MGLRU
+
+
+Rom changes:
+====================================
+Notable changes:
+Add Gramophone
+Evo launcher gone (app lock too)
+Fix PlayIntegrity
+
+
+All changes:
+nah I'm lazy flash it and find out yourself
