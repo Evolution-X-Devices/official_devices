@@ -1,0 +1,5 @@
+Temporality removed the high brightness mode & force max brightness settings in OPlusExtras, to fix the brightness slider issue, will come back in next update.
+Fingerprint enrollment ring should be back, since it was a ROM side issue.
+Firmware is now properly included.
+NFC should work now.
+Added debug logs for DT2W.
