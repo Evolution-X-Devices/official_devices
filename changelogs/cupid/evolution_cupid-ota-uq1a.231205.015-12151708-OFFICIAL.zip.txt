@@ -1,0 +1,66 @@
+  
+2023-12-15
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+
+ROM:
+
+=======================
+     2023/12/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+3f89ff9d647e [SQUASH] Revert charging changes
+cc54744587c5 fixup! SystemUI: Export RecordingService for External Usage
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+a2f7f1b GameSpace: Update deprecated telephony APIs
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+256c16e4 kernel: Ensure that module load lists are properly formed
+c686878a config: Allow forcing minimal/full reserved size
+
+
+=======================
+     2023/12/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+db3707d4cf9a SystemUI: Nuke oriented navbar handle
+ab39927e39cc SystemUI: BluetoothDialog: Sort devices by last connection time
+9ab2ad3b4bdd Optimize AbsListView to reduce click operation latency
+77426f2f6520 PackageInstaller: fix crash when handling STATUS_PENDING_USER_ACTION
+fba0355295ed PackageInstaller: limit max AppSnippet icon size
+11cfe2ea1d4b Fix UDFPS icon and progress while enrolling
+98001064aa8b ListView: Disable dividers by default
+ec58849edb31 SettingsLib: Make IllustrationPreference bg protection transparent
+bde1c69cabfa Paint: Enable subpixel text positioning by default
+5b13699db19d base: Don't use AOSP QS fling animation boost impl when CLO boost is enabled
+6bd0bbb310cd SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+2352bf359409 udfps: Forward port Boost framework hook.
+fac37fe0a4eb BoostFramework: Guard it with overlay
+6b436e17e6eb [SQUASH] core: Port CLO's Framework Boost for Android U
+625130912620 Revert "CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+b0db5e8 [TMP] Evolver: Disable some features for Android 14 QPR1
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+11acd36 certification: RIP Mi 4i
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+bcc084f gms: Override Aperture
