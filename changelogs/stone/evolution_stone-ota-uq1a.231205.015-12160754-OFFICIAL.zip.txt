@@ -1,0 +1,14 @@
++ Fix lag on 60hz
++ Fix native carrier video calling
++ Faster app opening with lesser animations
++ Add support for oem fast charger detection
++ Fix goodix fingerprint keylayout issue
++ Switch to stock MIUI offline charger daemon
++ Import xiaomi parts & clear spaker from sm8350 and raphael
++ Update thermal from marble aospa DT
++ Disable NFC polling during front camera use
++ Implement Pocket Detection service
++ Drop pickup gesture
++ Implement AOD auto brightness service
++ Fixed A/B OTA issue for all roms
++ Some underhood changes & bug fixes
