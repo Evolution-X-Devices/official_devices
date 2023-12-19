@@ -1,0 +1,192 @@
+  
+2023-12-19
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: Disable SDM rotator downscaler
+  * cupid: Disable QCOM system daemon
+  * cupid: Set up display color compositions
+  * cupid: props: drop forced vowifi
+  * cupid: dont include gramophone in build
+
+ROM:
+
+=======================
+     2023/12/18
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+11d0ed87d601 [TMP][SQUASH] SystemUI: Drop SecureQSTile functionality
+f14c3c44a96e Revert "KeyguardStatusBarView: Clean up cruft"
+e0c124a9da9d SystemUI: Adapt mVisualizerView to Android 14 QPR1
+26dc26920271 [TMP] Revert "SystemUI: OOS style notification clear all button [1/2]"
+86feea51b12e ActivityThread: Prevent a NPE caused by null configuration
+3d7a2e1a7e61 ExifInterface: Catch IOException caused by invalid image
+6985c7db9a5b SystemUI: Use proper tint for face unlock icon
+1c74e4d7cfc9 SystemUI: FaceUnlock: Add margin based on lock icon
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+4539520 Evolver: Changes for Android 14 QPR1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f35ebc32ab Revert "Settings: Import battery charge cycles from A13"
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+6d65e5d certification: RIP Gionee
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+ffdd8fe gms: Refactor Google Camera inclusion
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+b0e0f66 Forward port Pixel framework for Android 14 QPR1
+bdbc39e Import battery saver dependencies from SettingsGoogle
+f7ca280 SettingsGoogle: Match res with Settings
+15bd81e SettingsGoogle: Switch to AOSP Battery cycle count
+0919f23 SystemUIGoogle: Add smartspace weather only if enabled properly
+bce5935 SettingsGoogle: Fix multiple default resources
+9a85eb6 SettingsGoogle: Import toggles from Evolver
+c41744f SettingsGoogle: Update resources
+c8d2646 SettingsGoogle: Update AndroidManifest
+f741b4c SettingsGoogle: Formatting with Android Studio
+8677d42 SettingsGoogle: Update lib
+2e0c322 SettingsGoogle: Remove sources
+a072ddd pixel-framework: Add CleanSpec
+
+
+=======================
+     2023/12/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+ed43e9bb7a75 SystemUI: Implement face unlock recognition animation and text
+9d60d5ebb6ef Integrate Pixel framework hooks and wrappers
+a33b3cb4c63d SystemUI: Make `mKeyguardBottomArea` public
+04c6e45d2e5d fixup! SystemUI: Port statusbar brightness control
+08a356b624f6 base: BluetoothDialog: Don't ever show non paired devices
+e7661d2102b2 [SQUASH] Revert charging changes
+d0fa6f77f07a fixup! SystemUI: Export RecordingService for External Usage
+52b1c2bdfd63 SystemUI: Nuke oriented navbar handle
+28a836e7d7d9 SystemUI: BluetoothDialog: Sort devices by last connection time
+83cda43bcca8 Optimize AbsListView to reduce click operation latency
+6ba022e8f201 PackageInstaller: fix crash when handling STATUS_PENDING_USER_ACTION
+bac77f91650d PackageInstaller: limit max AppSnippet icon size
+bc65f67ce968 Fix UDFPS icon and progress while enrolling
+4448d18a9ce8 ListView: Disable dividers by default
+41880ea4af56 SettingsLib: Make IllustrationPreference bg protection transparent
+cc1b71a71a2f Paint: Enable subpixel text positioning by default
+19d760c24e4e base: Don't use AOSP QS fling animation boost impl when CLO boost is enabled
+853ed4d27faa SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+1cc1a73f7c23 udfps: Forward port Boost framework hook.
+a245be06619d BoostFramework: Guard it with overlay
+5c3a69e65b06 [SQUASH] core: Port CLO's Framework Boost for Android U
+95cc78504755 Revert "CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed"
+75fff96f56f9 SystemUI: Remove power menu shadow
+1430f2f260a7 CarrierConfig: allow toggling VoWiFi while roaming by default
+26e7745666a8 Enable backup service for non-owner users
+cee7cdbba342 CarrierConfig: Always show APN settings on CDMA carriers
+0d80f6a1df28 fixup! JobScheduler: Respect allow-in-power-save perm
+04f3999b2cdb Fingerprints: Increase MAX_FAILED_ATTEMPTS
+9af50e089b86 base: Add api to take screenshots
+183d2f469804 SystemUI: AODTile: Use MD2 Icon
+6baa93de99ca SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel
+e409c37a370c SystemUI: Enable cast tile without Wi-Fi connection
+6ca56ac4ddbc Revert "Remove dependency on IME subtype from TSMS"
+15760463cded SystemUI: volume dialog: Align padding/margin for left and right
+0edd2a1831c8 fixup! Forward port CM Screen Security settings (1/2)
+5ffaf37f9597 SystemUI: screenshot: add extra crop boundaries
+654ef8276fb6 SystemUI: screenshot: remove duplicate clamping on move action
+37c8d1b6b9c0 fixup! Partially revert "Assume sensors perform prox check"
+61359e42ccf3 base: ChooserActivity: Don't show image edit button on multiple targets
+96b81391350d webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+61912c58a58d Fix bug Device that can't support adoptable storage cannot read the sdcard.
+51c008f0aa7a power: Keep file scheme when not using content URI
+7ef038f41353 power: Respect global vibration setting for charging sounds
+7632bdb39850 power: Explicitly check for silent ringtone
+6cb1256bb73c Squashed import of adb root patches
+2f96f0d82863 Fallback to global actions if assistant is not available
+7e46cc87b8ff SystemUI: Add support for persistent usb drive notification.
+6bef74ef39a4 SystemUI: Allow snoozing SD card notification unconditionally
+3c346f9e22e3 admin: Restore requireSecureKeyguard interface.
+a939d71ca744 Island: Overrides showIsland in ShadeViewControllerEmptyImpl
+9ad46179dfde Island: Squeeze it
+3d703f862c52 Island: Get application info from all user
+f0e6992caaf5 SystemUI: IslandView: Import SystemUIToast icon retrieving logic
+0da2a203ba8b Island: Improvements and fixes
+92076b626099 Island: Implement Dynamic Island effects
+844725d0047c Island: Add quick call answer/reject click functionalities
+4d381f51af2a Island: Update UI Specs and make layout dynamic
+aae5039fc075 SystemUI: Implement Island notification feature [1/2]
+5517a8063ac3 Temp build fix: Remove dependency on mockito-kotlin
+adb61ffa87cc fixup! SystemUI: Fix uneven DND icon padding in status bar
+dc1b7cc715aa SystemUI: Hide notifications when quickly expanding QS
+bd6725882d54 SystemUI: Respect the old good "Show passwords" preference
+d4f3dc489b60 SystemUI: Check if primitive vibrations are supported in new quick affordances
+b5517f98083f Keystore: Spoof locked bootloader on local attestations
+3bf7c19ca80e base: fix wake on unplug also for wireless charging
+28d20751defd [TMP] Revert "BrightnessController: update icon state for auto bg icon"
+fe9c4d7639da [TMP] Revert "Add Alert Slider user interface [SQUASHED]"
+86d4e4097b9a [TMP] SystemUI: Drop maxChargingCurrent and maxChargingVoltage for now
+8257bf17093b SystemUI: BatteryMeterView: Adapt to Android 14 QPR1
+3cf4008ba7d8 PhoneWindowManager: Adapt to Android 14 QPR1
+65e3ae13d0bb ParanoidSense: Adapt to Android 14 QPR1
+25b75df5cb92 WiredAccessoryManager: support for DP/HDMI display on soc:qcom,msm-ext-disp.
+667fe78634b1 Force using WiredAccessoryObserver for DisplayPort
+21330ce0d7d0 Revert "WiredAccessoryManager: Add support for DP audio"
+29f67d87acbd SystemUI: Make roaming indicator optional [1/2]
+043d513e8117 SystemUI: Allow using 4G icon instead of LTE [1/2]
+39834b80ae91 SystemUI: Option to disable Data Disabled Indicator icon [1/2]
+8f94d48d07cf KeyguardStatusBarView: Clean up cruft
+5faab4d983f5 Replace ":strings" with "strings"
+686ab81cdcc5 AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress
+8441e0da3a2a AuthRippleController: Always finish the LightRevealScrim
+7f7122d4ca27 SystemUI/AuthRippleView: Less Boring Dwell Ripple
+10c7d95668bb Remove Unicode whitespace before AM/PM in the status bar
+8ead61f337c8 config: set customizedMaxCachedProcesses to platform default
+d2085b53ff3e SystemUI: Capitalize 'G' for Preferred network tile
+8017d0a984f4 SystemUI: Fix status bar lyric overlapping with the center clock
+c447308efef7 [SQUASH] base: Add status bar lyric for Android 14
+552e0afcfec5 base: Extend showing Ambient instead of fully waking to single tap gesture [1/2]
+0b66d31a2587 base: Allow showing Ambient instead of fully waking [1/2]
+836df781c9ae base: services: Introduce AutoDimService [1/2]
+74592ad41761 base: services: Create abstract AutoSettingService
+758fa62c9eda base: Allow to skip confirmation in biometric auth dialog [1/2]
+f5f8fa9377fa Fix action bar font family on material themes
+c1fed3ab49c7 SettingsProvider: Fix for google backup and restore
+a377883a2479 Back button/gesture is not working with Android 14 easter egg activity.
+f592ca9c634e Sometimes Screen does not wake up while receiving whatsapp video call
+4db4556f2106 Intent: Fix launch of permision revoke activity from playstore
+dd94611a4116 Fix powersave/powersave idle whitelist
+3d32e4e3e2d5 SystemUI: Add VPN tile
+4eca3efb46cd SystemUI: QS: LocationTile: make it cycle modes
+235bd3d78fa7 UI: Use SNAP_FIXED_RATIO for multi-window globally
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+a04a500 New Crowdin updates (#514-#548)
+8e1c459 Evolver: misc: Add Pif preference
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+07b7b47d50 Settings: Update BatterySettingsFeatureProviderGoogleImpl to Android 14 QPR1
+2d08b4fc0f New Crowdin updates (#376)
+9880b56d03 Settings: Replace android:name for SettingsGoogle
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+1ac4bc67 Revert "[TMP] config: Switch back to SystemUI"
+a0033eeb overlay: Define app store dependencies
