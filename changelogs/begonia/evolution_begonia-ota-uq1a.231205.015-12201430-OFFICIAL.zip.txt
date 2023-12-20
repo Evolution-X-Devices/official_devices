@@ -1,0 +1,24 @@
+This is Android 14 with December 2023 QPR1 (r17) security patches
+
+Notes:
+==============================
+- CLEAN FLASH REQUIRED!!
+- This build includes Leica camera.
+- Report Bugs with Proper Logs.
+- Firmware and Recovery Included
+==============================
+
+Device Changelog: 
+==============================
+- Switched to Leica Camera
+- Switched to Hardware Backed Encryption
+- Switched to AOSP Wifi Service
+- Added SplitShade QuickSettings
+- Added Support for 3-Button Headsets
+- Fixed Colors, under display settings. 
+- Fixed Night mode
+- Fixed Extra Dim
+- Updated to latest MIUI 12.5 Device Fingerprint
+- Updated Overlays
+- Address some SEPolicy denials
+- Enabled FS-Verity
