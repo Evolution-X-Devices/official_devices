@@ -1,0 +1,17 @@
+- Clean install is required
+- Firmware 12.5.365 is required
+- SELinux is Enforcing
+- User build
+- Locked bootloader is supported
+- Forced encryption is enabled
+
+**Device Changes:**
+
+- Initial A14
+- Merge v4.14.334 from Linux in kernel
+- Update KernelSU to 0.7.1
+
+**Evolution X Update**
+
+- Initial A14
+- December security patch
