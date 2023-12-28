@@ -263,9 +263,9 @@
             "device_group": "EvolutionXZippo",
             "maintainer_name": "Chema Funtan",
             "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-zippo-official-evolution-x-08-26-22.4484739"
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-zippo-official-evolution-x-26-12-23.4484739/"
          }
       ]
    },
@@ -595,22 +595,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/chema_f.4454188",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-cepheus-official-evolution-x-01-04-23.4537331/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "davinci",
-      "name": "Mi 9T / Redmi K20",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXDavinci",
-            "maintainer_name": "Ahmed Fouad",
-            "maintainer_url": "https://t.me/AMWolfstein",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-davinci-official-evolution-x-12-31-22.4535949"
+            "xda_thread": "https://xdaforums.com/t/rom-14-cepheus-retrofit-official-evolution-x-12-16-23.4646095/page-3#post-89235150"
          }
       ]
    },

@@ -1,0 +1,16 @@
+This is Android 14 with December 2023 (r17) security patches
+
+Notes:
+==============================
+- Clean flash from previous Android 14 builds is recommended (As QPR1 Build)
+- MiuiCamera is included
+- Dolby Atmos is included
+
+Changelog:
+==============================
+• Merged December 2023 Security Patch (Android 14 QPR1)
+• Added Pif apk support
+• Fixed NFC on Willow
+• Add OnePlus Dolby
+• Fix Google Voice Recorder 
+• Fix unusual vibrations while touching on fingerprint sensor
