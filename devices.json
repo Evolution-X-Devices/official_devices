@@ -811,6 +811,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "vayu",
+      "name": "POCO X3 PRO",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXVayu",
+            "maintainer_name": "Tejas Singh",
+            "maintainer_url": "https://github.com/tejas101k",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-official-evolution-x-poco-x3-pro-vayu.4648475/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "stone",
       "name": "POCO X5 / Redmi Note 12 5G / Redmi Note 12R Pro ",
       "supported_versions": [
