@@ -1,0 +1,15 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue.
+- If you found any issue then kindly report with logs in device support group.
+- Use erofs dynamic partition supported recovery only. 
+- Format data must if you coming from previous build.
+
+Device Changelog:
+================
+- Synced with latest source.
+- Switch to EROFS file system.
+- Drop useless thermal profile service
+- Reorder and cleanup device tree makefiles
+- Improve SF durations
+- Many improvements and bug fixes.
