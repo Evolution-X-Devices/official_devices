@@ -1,0 +1,23 @@
+- Clean install is required coming from a different ROM and Format Data could be required depending on the previous ROM
+- Dirty install from Evox A14 is fine
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread)
+
+**Device Changes:**
+
+- Convert overlays to RRO
+- Switch back to regular AOSP USB audio HAL (fixes an issue using DACs)
+- Disable Bluetooth by default after clean install
+- Remove proximity check to wake from Settings
+- Remove Pocket Lock from Settings
+- Disable display refresh override (fixes the issue of videos in Chrome and other browsers stopping after some seconds)
+- Make less cores available for background tasks
+- Fix the huge size of UDFPS enroll progress bar radius
+- Move the faceunlock icon up in the lockscreen while detecting face (it was hidden behind the fingerprint icon before)
+
+**Evolution X Update**
+
+- Fix an issue where, after switching output for music and screen being turned off, SystemUI crashed failing in bootloop
+- Remove expandable volume panel
+- Fix the need of restarting SystemUI for the faceunlock to work after the initial setup
+- Add App Lock
+- Import Crowdin translations
