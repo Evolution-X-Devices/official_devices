@@ -1,0 +1,9 @@
+Evolver: Allow QS Header custom image selection from any app
+Evolver: QS Header Image extended settings
+Fix potential NPE in isDefaultIme
+Notify recent task to remove split-screen when exit PIP
+Settings: Add lockscreen rotation as an optional rotation setting
+SystemUI: Fix toggling lockscreen rotation
+FWB: Misc fixes
+Evolver: Misc fixes
+Evolver: Add more toggles for spoofing

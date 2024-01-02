@@ -1,0 +1,41 @@
+This is Android 14 with December 2023 QPR1 (r17) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- ROM is already pre-rooted with KSU.
+- Play Integrity passes by default (As of 12/30/2023).
+
+Device changes:
+==============================
+* Fix isolated app sepolicy
+* Import blobs from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+* Pin new QCRIL blobs from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+* Build OMX service
+* Unleashed powerhint
+* Update adreno to 744.4
+* Update graphics from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+* Update uclamp configuation
+* Fix graphics_composer denial
+* Move to common Xiaomi light AIDL
+* overlay: Import carrier config from MIUI
+* Update FCM & Add kernel target level
+
+ROM changes:
+==============================
+* Evolver: Make PIF and PixelProps toggleable
+* Evolver: QS Header Image extended settings
+* VolumeDialog: Ensure proper resource release (fix for SystemUI crash)
+* MeizuPropsUtils: Spoof Hihonor Cloudmusic
+* SystemUI: Optimize notificiation expansion animation
+* SystemUI: Prevent OOB when reinflating QS panel with notifications
+* LockPatternUtils: Decrease minimum pin length for auto confirmation
+* core: Disable RescueParty by default
+* SettingsLib: Handle WifiService being null
+* SystemUI: Make the volume dialog expandable
+* VolumeDialogImpl: Properly set initial dialog gravity
+* VolumePanel: Open volume panel on expand long click
+* VolumeDialogImpl: Attempt fixing initial dialog position
+* services: Fix google apps permission denials (fix for PixelPropsUtils)
+* fixup! base: Initial SenseProvider for FaceSense service (fix for Face Unlock, no need to restart SystemUI anymore)

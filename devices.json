@@ -160,7 +160,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-19-2023.4547009/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4547009/"
          }
       ]
    },
@@ -175,7 +175,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-19-2023.4547009/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4547009/"
          }
       ]
    },
@@ -190,7 +190,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-19-2023.4547009/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4547009/"
          }
       ]
    },
@@ -205,7 +205,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-14-2023.4546503/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4546503/"
          }
       ]
    },
@@ -220,7 +220,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-14-2023.4546503/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4546503/"
          }
       ]
    },
@@ -235,7 +235,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r14-official-evolution-x-8-0-3-12-08-2023.4546503/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4546503/"
          }
       ]
    },
@@ -440,12 +440,12 @@
       "name": "X2",
       "supported_versions": [
          {
-            "device_group": "EvolutionXRMX199X",
-            "maintainer_name": "RJ RAIJIN(𝕳𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑)",
-            "maintainer_url": "https://forum.xda-developers.com/m/rjtangpos.11038077/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-a13-evolution-x-for-realme-x2-v7-6-2-unofficial.4562889/"
+            "device_group": "EvolutionXX2",
+            "maintainer_name": "CHAITANYA",
+            "maintainer_url": "https://t.me/Chaitanyakm",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
          }
       ]
    },
@@ -806,6 +806,21 @@
             "version_code": "fourteen",
             "version_name": "Fourteen",
             "xda_thread": "https://xdaforums.com/t/rom-14-0_r14-marble-official-evolution-x-11-10-23.4640655/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "vayu",
+      "name": "POCO X3 PRO",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXVayu",
+            "maintainer_name": "Tejas Singh",
+            "maintainer_url": "https://github.com/tejas101k",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-official-evolution-x-poco-x3-pro-vayu.4648475/"
          }
       ]
    },

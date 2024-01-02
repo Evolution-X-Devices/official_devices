@@ -1,0 +1,38 @@
+This is Android 14 with December 2023 QPR1 (r17) security patches
+
+
+Notes:
+==============================
+- Dirty flash  fine. ( i will recommend clean flash )
+- Pixel Launcher is default launcher.
+- Play Integrity now passes by default (As of 28/12/2023).
+- FTS screen is not supported.
+
+Device changes:
+====================================
+- drop ViPER4Android FX support
+- ship leica camera and drop gcam prebuilt 
+- disable multicast from kernel (reduces ideal drain)
+- use prebuilt mtdservice stack 
+- Switch to SkiaGL Threaded
+- Pin SystemUIGoogle app
+- Includes firmware V14.0.4.0.TMSMIXM 
+
+
+ROM changes:
+==============================
+* Evolver: Make PIF and PixelProps toggleable
+* Evolver: QS Header Image extended settings
+* VolumeDialog: Ensure proper resource release (fix for SystemUI crash)
+* MeizuPropsUtils: Spoof Hihonor Cloudmusic
+* SystemUI: Optimize notificiation expansion animation
+* SystemUI: Prevent OOB when reinflating QS panel with notifications
+* LockPatternUtils: Decrease minimum pin length for auto confirmation
+* core: Disable RescueParty by default
+* SettingsLib: Handle WifiService being null
+* SystemUI: Make the volume dialog expandable
+* VolumeDialogImpl: Properly set initial dialog gravity
+* VolumePanel: Open volume panel on expand long click
+* VolumeDialogImpl: Attempt fixing initial dialog position
+* services: Fix google apps permission denials (fix for PixelPropsUtils)
+* fixup! base: Initial SenseProvider for FaceSense service (fix for Face Unlock, no need to restart SystemUI anymore)
