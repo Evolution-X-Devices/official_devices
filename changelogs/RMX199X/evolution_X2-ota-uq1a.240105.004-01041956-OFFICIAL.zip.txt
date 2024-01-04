@@ -1,0 +1,7 @@
+Device Changelog:
+================
+- Synced with latest 8.2 source.
+- Switched to Pico Gapps fixing ram managment issues for 4gb ram users 
+- Many improvements and bug fixes.
+- Imported some perf tweaks
+- using darkphantom kernel with ksu
