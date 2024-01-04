@@ -1,0 +1,12 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue.
+- If you found any issue then kindly report with logs in device support group.
+- Use erofs dynamic partition supported recovery only.
+
+Device Changelog:
+================
+- Synced with latest 8.2 source.
+- whyred: rro_overlays: Import FrameworkResOverlayWhyred.
+- whyred: Build rro_overlays
+- Many improvements and bug fixes.
