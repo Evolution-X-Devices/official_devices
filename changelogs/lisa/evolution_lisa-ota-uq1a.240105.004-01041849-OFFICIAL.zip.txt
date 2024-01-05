@@ -1,0 +1,41 @@
+This is Android 14 with January 2023 (r20) security patches
+
+Notes:
+==============================
+Clean flash Needed ( it must)
+Use proper flashing guide
+
+Flashing Guide:
+==============================
+*Reboot to bootloader (fastboot)
+*Connect your phone to PC
+*fastboot flash dtbo.img 
+*fastboot flash vendor_boot vendor_boot.img
+*fastboot flash boot boot.img
+*fastboot reboot recovery
+*Select Wipe data/factory reset & confirm
+*Go back and select Apply update from ADB
+*adb sideload Evolution*.zip(or drag down the rom zip to cmd)
+
+Then kindly perform a format data in the recovery afterwards.
+
+Reboot! Enjoy! #KeepEvolving
+
+you can get boot.img,dtbo.img and vendor_boot.img here
+
+https://sourceforge.net/projects/evolution-x/files/lisa/14/evolution_lisa-ota-uq1a.240105.004-01041849-OFFICIAL/
+------------------------------
+Device changes:
+==============================
+- Updated IMS stack to LA.QSSI.14.0.r1-10000.01-qssi.0
+- Disabled refresh rate override
+- Labelled early_wakeup node for libperfmgr
+- Fixed and enabled displayfeature service
+- Move to Unsigned Build 
+- Switch to leica camera 5.0
+- Fixed known bugs 
+- Other Misc. fixes and changes
+Credit :-
+           QuicksilveR is default kernel ( thanks to @ghostrider_reborn )
+           Using POS Android 13 Trees ( thanks to @whyredfire )
+------------------------------
