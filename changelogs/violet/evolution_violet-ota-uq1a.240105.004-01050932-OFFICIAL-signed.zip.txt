@@ -1,0 +1,155 @@
+version: Update to 8.2.0 (Tikoy)
+
+==============================
+Device changes:
+==============================
+- January security patch
+- Kernel Upstream v4.14.334
+- Mics changes and improvement
+
+==============================
+Flash Instructions:
+==============================
+Flash Dynamic supported Recovery.
+Reboot into recovery
+Wipe cache, dalvik, and data  ( Don't touch anything other than these 3)
+Flash the dynamic rom
+Format data if encrypted(If want decryption flash DFE v5)
+Reboot into system
+
+==============================
+ROM changes:
+==============================
+
+=======================
+     2024/01/05
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc-j
+
+fe716cb Revert "soong: Add ability to build scudo-free 32-bit libc variant."
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+31ff592 vendor: Remove safety protection support remnants
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4969146 pixel-framework: Move in TARGET_INCLUDE_PIXEL_FRAMEWORKS
+
+
+=======================
+     2024/01/04
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+f08d686 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+9302b4eda Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/base into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+47ef1c7 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+6a83ace manifest: Track udc-j branches for meme cam changes
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+71e787c New translations evolution_strings.xml (Russian) (#564)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+459b504 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+bb3cff4 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Settings into udc
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+f38f4fe Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/system/sepolicy into udc
+
+
+=======================
+     2024/01/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+f33c681 extract_firmware: Unsparse images before copying
+
+
+=======================
+     2024/01/02
+=======================
+
+
+=======================
+     2024/01/01
+=======================
+
+
+=======================
+     2023/12/31
+=======================
+
+
+=======================
+     2023/12/30
+=======================
+
+
+=======================
+     2023/12/29
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+ca267ee New Crowdin updates (#57)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-j
+
+2842965 Revert "Revert "debuggerd: Disable scudo usage""
+
+
+=======================
+     2023/12/28
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+a220a54 Aperture: Update CameraX to 1.4.0-alpha03
+
+
+=======================
+     2023/12/27
+=======================
+
+
+=======================
+     2023/12/26
+=======================
+
+
+=======================
+     2023/12/25
+=======================
+
+
+=======================
+     2023/12/24
+=======================
+
+
+=======================
+     2023/12/23
+=======================
+
+* Repository: https://github.com/Evolution-X/scripts/commits/refs/heads/udc
+
+e5da8ac Add a script to update the default wallpaper
