@@ -1,0 +1,240 @@
+This is Android 14 with January 2024 (r20) security patches
+
+Device changes:
+==============================
+- Upstream kernel to 4.19.303
+- Merge android-4.19-stable into kernel
+
+-------------------------------
+
+ROM changes:
+==============================
+
+=======================
+     2024/01/07
+=======================
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+* Repository: https://github.com/Evolution-X-Devices/packages_apps_PixelParts/commits/udc
+
+e579480 PixelParts: Display accurate message if get*StringResourceId fails
+7ccecf3 PixelParts: Use UsageProgressBarPreference for capacity & status
+bae960b PixelParts: Add manufacture date & first usage date preferences
+eea988e PixelParts: Add a footer message for battery cycle count
+fb521d8 PixelParts: Version 2.0
+
+
+=======================
+     2024/01/06
+=======================
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+
+=======================
+     2024/01/05
+=======================
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+31ff592a vendor: Remove safety protection support remnants
+acc5a89b fixup! overlay: Use old NTP server in China
+5d257a5b prebuilt: Update APNs for Boost Mobile
+a835e2e7 kernel: Default to no gcc on kernel 6.x
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4969146 pixel-framework: Move in TARGET_INCLUDE_PIXEL_FRAMEWORKS
+
+
+=======================
+     2024/01/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+7a4eb6f779 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/build into udc
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+f08d686b98 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+9302b4eda63a Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/base into udc
+b181f1c2e684 Revert "Temp build fix: Remove dependency on mockito-kotlin"
+abc9b1c25a64 PPU: Update fingerprints to January 2024 release
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+47ef1c7c16 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+bc3d0ae Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/manifest into udc
+d25293c Manifest for Android 14.0.0 Release 20
+bd6b6c3 Manifest for Android 14.0.0 Release 19
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+71e787c New translations evolution_strings.xml (Russian) (#564)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+459b504a Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+bb3cff430b Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Settings into udc
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+f38f4fef0 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/system/sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+408a6885 version: Uprev to 8.2
+
+
+=======================
+     2024/01/03
+=======================
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4a136dff0a5a BootReceiver: Return early if trace_pipe doesn't exists
+bc67d5ebabc4 SystemUI: flags: Enable new privacy dialogue
+2594185c6597 fwb: Fix navigation bar button hit testing
+7f143848189c AppLock: Move services to new package
+2626d47362be AppLock: Allow locking all apps visible in launcher
+4149f302484d AppLock: Update API to hide unprotected apps
+6fc08de6dfd1 base: Introduce app lock [1/4]
+0e61cb06ef39 base: Add minimal support for Richtap vibrations
+708ea55beddc FaceSense: Vibrate on successful authentication
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+f262b36 New Crowdin updates (#563)
+41dc12c New Crowdin updates (#514-#562)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+5ee2ecaddd Settings: Make battery cycle count optional
+1f949d3298 Settings: Add app lock settings for alternate security settings provider
+ac4f59a7f7 Settings: Add app lock summary for 0 protected apps
+0d6f536773 Settings: fix app lock allow biometric toggle ignored (always on)
+b20a30af7e AppLock: Slightly bigger icon size
+1187da0e7e Settings: Update AppLock API
+395b046c52 Settings: Allow locking all apps visible in launcher
+88e9e0a03c Settings: Introduce App Lock [3/4]
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+f33c681 extract_firmware: Unsparse images before copying
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4eb74bb SettingsGoogle: Require configs for some preferences
+
+
+=======================
+     2024/01/01
+=======================
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+
+=======================
+     2023/12/31
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+68925a34f cleanbuild: Add `kernel` and `KERNEL_OBJ` to installclean files
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+6cb054dd11 audiopolicy: Disable sonification on WFD sink
+95f02bebfa audiopolicy: support extended feature in audiopolicymanager
+4742ed44e6 audioflinger: Fix audio for WifiDisplay
+4a2eaa9ed3 APC: Add possible deadlock fix when creating track
+57ea31145f APC: Wake OffloadThread on AppOps mute
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+bdfba78bef48 Reduce unnecessary callbacks in AppOpsService#setMode.
+c3d4df64a349 ANDROID:Reduce unnecessary notification callbacks generated by setUidMode.
+22b20bb737de Status bar clock: avoid NPE when the clock is hidden
+30da36eb879e SystemUI: Disable keyguard unlock to launcher animation if...
+760a8559fb11 SystemUI: Disable wakeup animations when unlocking with fingerprint
+38b2eb40606c TaskId=0 is also a valid task id, should not be passed to valueIfKeyNotFound.
+109c299897d3 Add Gravis GamePad Pro USB key layout
+d48bc2e8e9dc PPU: Spoof as Pixel Tab for tablets
+7d87903e775e PPU: Spoof to recent Pixel on iD apps
+2f8c0d865ae4 PhoneWindowManager: Pass correct invocation type for assistant launch on home long press
+e2992d086ce9 MeizuPropsUtils: Spoof Hihonor Cloudmusic
+6341c5dead53 VolumeDialogImpl: Dismiss dialog on config change
+db93f029db2b VolumeDialog: Ensure proper resource release
+71ab34e908f7 Revert "VolumeDialog: Ensure proper resource release"
+9de9f83d62ab Revert "SystemUI: VolumeDialogImpl: notifyVisible after the volume panel is fully hidden"
+a2d8edeb43f3 SystemUI: Optimize notificiation expansion animation
+a6be5e87e0f7 fix pauseImmediately doesn't work when of swiping up to home
+995b4f33fb5a SystemUI: Prevent OOB when reinflating QS panel with notifications
+f226c7d22300 LockPatternUtils: Decrease minimum pin length for auto confirmation
+501c753814e4 core: Disable RescueParty by default
+be4b11b9ce71 Add patch to ensure window ready before PIP mode
+afedac232e50 SettingsLib: Handle WifiService being null
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+53bf50dd91 IPCThreadState: Workaround to improve robustness
+1afb106837 lshal: Fix mem invalid access (timeoutIPC callers)
+eebab508cc Cancel only the gesture corresponding to the dropped event
+0a0e8da880 Only prune non-pointer events
+43c33c2529 Revert "SF: set debug.sf.frame_rate_multiple_threshold to 60 by default"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+d745e41 Evolver: QS Header Image extended settings [2/2]
+4bec5c3 Evolver: Make PIF and PixelProps toggleable [2/2]
+9c98e02 Evolver: Changes for Android 14 QPR1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f132823759 Revert "Add toggle for connectivity check"
+
+
+=======================
+     2023/12/30
+=======================
+
+skipping device/google/felix/
+skipping device/google/gs101/
+skipping device/google/gs201/
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f115f3f653 New Crowdin updates (#378)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+ca267ee New Crowdin updates (#57)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+f982021a rro_overlays: Add NexusLauncherOverlay to mitigate crashing over 600dpi
