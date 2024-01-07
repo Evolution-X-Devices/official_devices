@@ -253,7 +253,37 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2023.4619801/"
          }
       ]
+   },   
+   {
+      "brand": "Google",
+      "codename": "husky",
+      "name": "Pixel 8 Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixel8",
+            "maintainer_name": "Hurt Copain",
+            "maintainer_url": "https://xdaforums.com/m/hurt-copain.12125255",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-07-2024.4649678/"
+         }
+      ]
    },
+   {
+      "brand": "Google",
+      "codename": "shiba",
+      "name": "Pixel 8",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixel8",
+            "maintainer_name": "Hurt Copain",
+            "maintainer_url": "https://xdaforums.com/m/hurt-copain.12125255",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-07-2024.4649678/"
+         }
+      ]
+   },      
    {
       "brand": "Lenovo",
       "codename": "zippo",
