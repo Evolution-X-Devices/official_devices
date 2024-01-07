@@ -1,0 +1,36 @@
+=======================
+     2024/01/06
+=======================
+- Jan 2024 Security patch
+- Kernel improvement
+- Move & define fstab.hardware to separate device tree, fixing walleye can`t boot
+- Sync with latest source
+
+Kernel Changes:
+===============
+89ff0de0810c f2fs: fix livelock in swapfile writes
+c0e550f3c391 ext4: introduce jbd2_inode dirty range scoping and use it on ext4
+f408834a8fc4 ext4: Stop trim mechanism after receiving SIGUSR1 signal
+eb5703b42ace f2fs: Fix absolute jiffy duration in write uncongestion timeout
+5e510005459b bpf, arm64: save 4 bytes of unneeded stack space
+45b8b228c12d bpf, arm64: remove obsolete exception handling from div/mod
+770ed7f36f81 bpf, arm64: save 4 bytes in prologue when ebpf insns came from cbpf
+9a094b6dda20 bpf: Adjust insufficient default bpf_jit_limit
+302b8b65b751 net: Allow BFP JIT to compile without module support
+642fa0cc799a bpf: Allow building BPF JIT without module support on arm64
+7ae12544041a arm64/bpf: don't allocate BPF JIT programs in module memory
+41ff49942d5f bpf: add __weak hook for allocating executable memory
+ab2e26332f97 bpf, arm64: fix stack_depth tracking in combination with tail calls
+0c009b354634 bpf, arm64: implement jiting of BPF_J{LT, LE, SLT, SLE}
+8021426cc197 bpf: add BPF_J{LT,LE,SLT,SLE} instructions
+020111e2b64e arm64: fix endianness annotation for 'struct jit_ctx' and friends
+e45a2d2e5686 bpf, arm64: take advantage of stack_depth tracking
+c61aebaebecb bpf: teach verifier to track stack depth
+dfa5096ca0ec arm64: bpf: optimize modulo operation
+8fa43387a422 bpf: free up BPF_JMP | BPF_CALL | BPF_X opcode
+c01fcf294f03 bpf, x86_64/arm64: remove old ldimm64 artifacts from jits
+ab554deadf8b qcacld-3.0: Avoid possible array OOB
+03492b6c71ae ASoC: msm-pcm-q6-v2: Add dsp buf check
+19dd30e5ce4a asoc: msm-pcm-q6-v2: Update memset for period size
+255cd2672a95 asoc: Reset the buffer if size is partial or zero
+6c5acb17d1b1 adsprpc: update mmap list nodes before mmap free

@@ -1,0 +1,395 @@
+=======================
+     2024/01/05
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc-j
+
+acacd4ddcf Revert "soong: Add ability to build scudo-free 32-bit libc variant."
+ebf6fc9420 Replace device_kernel_headers with generated_kernel_headers
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+3bcc6ac manifest: Track udc-j branches for meme cam changes
+
+
+=======================
+     2024/01/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc-j
+
+7a4eb6f779 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/build into udc
+
+* Repository: https://github.com/Evolution-X-Devices/device_xiaomi_sm6250-common/commits/udc
+
+f88f8bf sm6250-common: Remove FilesPrebuilt and DocumentsUIGoogle from debloated apps
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+f08d686b98 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+9302b4eda63a Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/base into udc
+b181f1c2e684 Revert "Temp build fix: Remove dependency on mockito-kotlin"
+abc9b1c25a64 PPU: Update fingerprints to January 2024 release
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+47ef1c7c16 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+bc3d0ae Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/manifest into udc
+d25293c Manifest for Android 14.0.0 Release 20
+bd6b6c3 Manifest for Android 14.0.0 Release 19
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+71e787c New translations evolution_strings.xml (Russian) (#564)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+459b504a Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+bb3cff430b Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Settings into udc
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+f38f4fef0 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/system/sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+31ff592a vendor: Remove safety protection support remnants
+acc5a89b fixup! overlay: Use old NTP server in China
+5d257a5b prebuilt: Update APNs for Boost Mobile
+a835e2e7 kernel: Default to no gcc on kernel 6.x
+408a6885 version: Uprev to 8.2
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4969146 pixel-framework: Move in TARGET_INCLUDE_PIXEL_FRAMEWORKS
+
+
+=======================
+     2024/01/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4a136dff0a5a BootReceiver: Return early if trace_pipe doesn't exists
+bc67d5ebabc4 SystemUI: flags: Enable new privacy dialogue
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+f33c681 extract_firmware: Unsparse images before copying
+
+
+=======================
+     2024/01/02
+=======================
+
+* Repository: /commits/udc
+
+5f7b634 miatoll: Evolution-X Bringup
+
+* Repository: https://github.com/Evolution-X-Devices/device_xiaomi_sm6250-common/commits/udc
+
+ac67c17 [BLOBS] sm6250-common: Update system wfd from LA.QSSI.14.0.r1-10000.01-qssi.0
+587d2a0 sm6250-common: Build vendor.qti.hardware.display.config-V5-ndk from source
+3677e2a sm6250-common: Build android.media.audio.common.types-V1-cpp for WFD service
+473c493 sm6250-common: add a script to generate sha1 from vendor commit
+cd84edf sm6250-common: Include ViPER4AndroidFX
+65186b8 sm6250-common: Evolution-X Bringup
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+2594185c6597 fwb: Fix navigation bar button hit testing
+7f143848189c AppLock: Move services to new package
+2626d47362be AppLock: Allow locking all apps visible in launcher
+4149f302484d AppLock: Update API to hide unprotected apps
+6fc08de6dfd1 base: Introduce app lock [1/4]
+0e61cb06ef39 base: Add minimal support for Richtap vibrations
+708ea55beddc FaceSense: Vibrate on successful authentication
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+f262b36 New Crowdin updates (#563)
+41dc12c New Crowdin updates (#514-#562)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+5ee2ecaddd Settings: Make battery cycle count optional
+1f949d3298 Settings: Add app lock settings for alternate security settings provider
+ac4f59a7f7 Settings: Add app lock summary for 0 protected apps
+0d6f536773 Settings: fix app lock allow biometric toggle ignored (always on)
+b20a30af7e AppLock: Slightly bigger icon size
+1187da0e7e Settings: Update AppLock API
+395b046c52 Settings: Allow locking all apps visible in launcher
+88e9e0a03c Settings: Introduce App Lock [3/4]
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4eb74bb SettingsGoogle: Require configs for some preferences
+
+* Repository: https://github.com/Evolution-X-Devices/vendor_xiaomi_sm6250-common/commits/udc
+
+82eb609 [BLOBS] sm6250-common: Update system wfd from LA.QSSI.14.0.r1-10000.01-qssi.0
+
+
+=======================
+     2024/01/01
+=======================
+
+
+=======================
+     2023/12/31
+=======================
+
+* Repository: https://github.com/Evolution-X-Devices/kernel_xiaomi_sm6250/commits/udc
+
+118b99dd919e kernelsu: hardcode update kernelsu version to 11413   update ksu version and also suppress compilation warning   using script from https://github.com/realme-sm7125/myscripts/blob/main/kernelsu.sh
+c0b556506297 kernelsu: sync v0.7.2 tag with repo   from https://github.com/tiann/KernelSU/tree/main/kernel   using script from https://github.com/realme-sm7125/myscripts/blob/main/kernelsu.sh  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f132823759 Revert "Add toggle for connectivity check"
+
+
+=======================
+     2023/12/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+6cb054dd11 audiopolicy: Disable sonification on WFD sink
+95f02bebfa audiopolicy: support extended feature in audiopolicymanager
+4742ed44e6 audioflinger: Fix audio for WifiDisplay
+4a2eaa9ed3 APC: Add possible deadlock fix when creating track
+57ea31145f APC: Wake OffloadThread on AppOps mute
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+bdfba78bef48 Reduce unnecessary callbacks in AppOpsService#setMode.
+c3d4df64a349 ANDROID:Reduce unnecessary notification callbacks generated by setUidMode.
+22b20bb737de Status bar clock: avoid NPE when the clock is hidden
+30da36eb879e SystemUI: Disable keyguard unlock to launcher animation if...
+760a8559fb11 SystemUI: Disable wakeup animations when unlocking with fingerprint
+38b2eb40606c TaskId=0 is also a valid task id, should not be passed to valueIfKeyNotFound.
+109c299897d3 Add Gravis GamePad Pro USB key layout
+d48bc2e8e9dc PPU: Spoof as Pixel Tab for tablets
+7d87903e775e PPU: Spoof to recent Pixel on iD apps
+2f8c0d865ae4 PhoneWindowManager: Pass correct invocation type for assistant launch on home long press
+e2992d086ce9 MeizuPropsUtils: Spoof Hihonor Cloudmusic
+6341c5dead53 VolumeDialogImpl: Dismiss dialog on config change
+db93f029db2b VolumeDialog: Ensure proper resource release
+71ab34e908f7 Revert "VolumeDialog: Ensure proper resource release"
+9de9f83d62ab Revert "SystemUI: VolumeDialogImpl: notifyVisible after the volume panel is fully hidden"
+a2d8edeb43f3 SystemUI: Optimize notificiation expansion animation
+a6be5e87e0f7 fix pauseImmediately doesn't work when of swiping up to home
+995b4f33fb5a SystemUI: Prevent OOB when reinflating QS panel with notifications
+f226c7d22300 LockPatternUtils: Decrease minimum pin length for auto confirmation
+501c753814e4 core: Disable RescueParty by default
+be4b11b9ce71 Add patch to ensure window ready before PIP mode
+afedac232e50 SettingsLib: Handle WifiService being null
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+53bf50dd91 IPCThreadState: Workaround to improve robustness
+1afb106837 lshal: Fix mem invalid access (timeoutIPC callers)
+eebab508cc Cancel only the gesture corresponding to the dropped event
+0a0e8da880 Only prune non-pointer events
+43c33c2529 Revert "SF: set debug.sf.frame_rate_multiple_threshold to 60 by default"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+d745e41 Evolver: QS Header Image extended settings [2/2]
+4bec5c3 Evolver: Make PIF and PixelProps toggleable [2/2]
+9c98e02 Evolver: Changes for Android 14 QPR1
+
+
+=======================
+     2023/12/29
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+b114d19 manifest: Track our fork of LOS scripts
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f115f3f653 New Crowdin updates (#378)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+ca267ee New Crowdin updates (#57)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+f982021a rro_overlays: Add NexusLauncherOverlay to mitigate crashing over 600dpi
+
+
+=======================
+     2023/12/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+94d3bc3e2be5 services: Fix google apps permission denials
+4626850379fb fixup! base: Initial SenseProvider for FaceSense service
+97546f450210 Fixed process can't start because of mPendingStart is true problem
+ca8458799541 services: Implement exit app animation boost
+d9825175e6d7 Fix method not found for NotProvisionedException hidden api
+a08b365fd4a0 Only need check one time for mPreQTopResumedActivity on preQ version
+561638899181 BootAnimation: Scale size to display size if the surface size is limited
+f58693e32d6a [Optimize][am_kill]add pss for process exit due to am_kill
+2cd317600108 services: Fix exception when retrieving target SDK version
+600e40f1f627 Improve entering pip animation from ActivityEmbedding
+4cb2aa97681b Add invisible pip task to transitions.
+d78a1ae2e89c Fix the activity windowingmode error of exiting pip
+fb687ed9dc62 Remove usage of isSubscriptionVisible() in getSelectableSubscriptionInfoList()
+ca62b36e8316 Add slice copy support for socket file type.
+7f1b83f2e0ba core: pm: Optimize `checkRequiredSystemProperties` lookup
+d7cf202225d7 Fix NPE in AnomalyReporter.initialize
+e526d67a3b1f hwui: CanvasContext: Don't crash when GrContext is abandoned
+9803289c1b45 HWUI: move onSurfaceStatsAvailable to renderthread
+b102c5bd333d Add setBackdropRenderEffect for View and RenderNode.
+46453c68ae0f Make active Context valid while buildLayer() When RecordingCanvas::drawPoints() is executed through buildLayer(), active Context is null. It leads to crash
+d7f2b4cefc6e hwui: Prevent system crash when cancelling animations
+9d15bcbe6440 services: Properly handle wallpaper clearing/reset
+c8c2824b4544 Remove one duplicate comparison from OutputConfiguration#equals
+f209b8a17be1 services: Fix strict mode violation when decompressing files
+1756d4b7dd98 Fix odm privapp permissions
+8f7d7f5415be Prevent crash in AccountManager after profile removal.
+37a6ac888026 Move getActiveSubscriptionInfo to solve deadlock
+226180f92ad1 Only set `mEnded` to true if `pulseAnimationFrame` returns true
+6d48051c36cc core: Resolve PendingIntents with no flags assigned
+72d840671e6a Fix NPE in requestPowerState when displayPowerController is null
+4085cd4166d0 Don't show app error dialog before system booted
+9a1d2c8e0a8c Skip onActivityEvent when remote ContentCaptureService is dead or unbound.
+7326c2a6da7a Fix NPE in BootReceiver
+8e27fb3f4028 Fix resource leak for choose avatar photo in multi users
+63396570c90a Fix NPE in TextToSpeechManagerPerUserService
+3cdfdb268b53 Align the time of bssid comparison to avoid NPE caused by value changes.
+70c334972716 StatsPullAtomService: Fixed StrictMode warning
+af9aefd682e3 Remove READ_DEVICE_CONFIG checks.
+d0fc6e127cbc wm: Always account snapshot and IME surface when determining IME visbility
+7b43d88d6cdf fixup! base: add API for disabling gestural navigation
+
+* Repository: https://github.com/Evolution-X-Devices/kernel_xiaomi_sm6250/commits/udc
+
+b08de6130ee9 kernelsu: hardcode update kernelsu version to 11366   update ksu version and also suppress compilation warning   using script from https://github.com/realme-sm7125/myscripts/blob/main/kernelsu.sh
+69678c899be0 kernelsu: sync v0.7.1 tag with repo   from https://github.com/tiann/KernelSU/tree/main/kernel   using script from https://github.com/realme-sm7125/myscripts/blob/main/kernelsu.sh  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
+8389f02ca570 Merge tag `v4.14.334` of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into udc
+56b3c9b469ba Merge tag `v4.14.333` of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into udc
+7124b9eb5db4 Merge tag `v4.14.332` of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into udc
+67f08fc2f144 Merge tag `v4.14.331` of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into udc
+0bc3c45daf4a Merge tag `v4.14.330` of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into udc
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+a220a54 Aperture: Update CameraX to 1.4.0-alpha03
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+476e36b682 Settings: Add lockscreen rotation as an optional rotation setting
+d1058e3771 Revert "Settings: Import battery charge cycles from A13"
+2b577fbd02 Settings: Update BatterySettingsFeatureProviderGoogleImpl to Android 14 QPR1
+3ab8a4d182 New Crowdin updates (#376-#377)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-j
+
+28429650d Revert "Revert "debuggerd: Disable scudo usage""
+fe1681514 remount: Replace ServiceManager::getService with checkService
+a556b4984 fs_mgr: Use /proc/mounts to check if /cache is mounted
+
+
+=======================
+     2023/12/27
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+5d323d3 manifest: Stock tracking vendor/firmware
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+33d71de7 config: Stop inheriting firmware
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+74c0af0 Forward port Pixel framework for Android 14 QPR1
+
+
+=======================
+     2023/12/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4f356c7b8244 AudioEffect: fix isEffectSupportedForDevice() API
+648a34f53b1c SystemUI: Fix toggling lockscreen rotation [1/2]
+2364c324fb15 SystemUI: QS Header Image extended settings [1/2]
+e9e22176c322 Fix potential NPE in isDefaultIme
+ad4e630fc33b Notify recent task to remove split-screen when exit PIP
+dacedbf95944 SystemUI: Update bluetooth dialog strings Align with AOSP 14 QPR2.
+1240b566a37c SystemUI: Ensure updating margins and paddings on brightness slider
+67493d26baf3 VolumeDialogControllerImpl: Do not use broadcast for volume change event
+348c2bbab035 VolumeDialog: Ensure proper resource release
+94771896d6c6 Rename removeAllProcessGroups() into removeAllEmptyProcessGroups()
+8a63a937a642 New Crowdin updates (#493-#495)
+6ce7cb6b4b00 PPU: Make PIF and PixelProps toggleable [1/2]
+1e0b4abffe5a DisplayModeDirector: Allow to enforce user selected resolution
+9c2b61c29433 SystemUI: Import more qs header
+
+
+=======================
+     2023/12/25
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+7559a5b8 kernel: Make INTERNAL_VENDOR_RAMDISK_TARGET depend on kernel
+
+
+=======================
+     2023/12/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+4ac8dad Automatic translation import
+
+
+=======================
+     2023/12/23
+=======================
+
+* Repository: https://github.com/Evolution-X/scripts/commits/refs/heads/udc
+
+e5da8ac Add a script to update the default wallpaper
+7fdedf8 fbpacktool: Add README.md listing python dependencies
+0382f30 fbpacktool: Update to current version
+7119eb6 Import fbpacktool from AOSP
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+502f808d1f62 SettingsLib: Use San Francisco font for iOS battery styles
+89044823845b New Crowdin updates (#488)
+c9f2530089d0 fixup! LockscreenCharging: squashed (1/3)
+bf9f452c7b93 fixup! Add Alert Slider user interface [SQUASHED]
+4b1dcad1d281 SystemUI: QS Header Image [1/2]
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-j
+
+4fc23f19a libfs_avb: Disable dm-verity when AVB is permissive
+2143fb628 Revert "libfs_avb: verifying vbmeta digest early"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+a93963f3 vendor/fonts: Update HarmonyOS-Sans
+1de56e79 evolution: Import vars from LOS
+
+

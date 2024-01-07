@@ -436,21 +436,6 @@
    },
    {
       "brand": "Realme",
-      "codename": "RMX199X",
-      "name": "X2",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXX2",
-            "maintainer_name": "CHAITANYA",
-            "maintainer_url": "https://t.me/Chaitanyakm",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Realme",
       "codename": "bladerunner",
       "name": "X50 Pro 5G",
       "supported_versions": [
@@ -1060,7 +1045,7 @@
             "maintainer_url": "https://xdaforums.com/m/zaidkhan0997.9099781/",
             "version_code": "Fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-13-lisa-official-evolution-x-10-25-23.4616047/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-lisa-official-evolution-x-01-05-24.4616047/"
          }
       ]
    },
