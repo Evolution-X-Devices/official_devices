@@ -160,7 +160,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4547009/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-09-2024.4547009/"
          }
       ]
    },
@@ -175,7 +175,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4547009/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-09-2024.4547009/"
          }
       ]
    },
@@ -190,7 +190,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4547009/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-09-2024.4547009/"
          }
       ]
    },
@@ -205,7 +205,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4546503/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-09-2024.4546503/"
          }
       ]
    },
@@ -220,7 +220,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4546503/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-09-2024.4546503/"
          }
       ]
    },
@@ -235,7 +235,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "fourteen",
             "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r17-official-evolution-x-8-1-12-31-2023.4546503/"
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-09-2024.4546503/"
          }
       ]
    },
@@ -251,6 +251,51 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2023.4619801/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "felix",
+      "name": "Pixel Fold",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixelFold",
+            "maintainer_name": "Lahaina & Anierin Bliss",
+            "maintainer_url": "https://misskey.io/@lahaina_RMX3031",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "husky",
+      "name": "Pixel 8 Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixel8",
+            "maintainer_name": "Hurt Copain",
+            "maintainer_url": "https://xdaforums.com/m/hurt-copain.12125255",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-07-2024.4649678/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "shiba",
+      "name": "Pixel 8",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixel8",
+            "maintainer_name": "Hurt Copain",
+            "maintainer_url": "https://xdaforums.com/m/hurt-copain.12125255",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-07-2024.4649678/"
          }
       ]
    },
