@@ -1,0 +1,21 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with January 2024 security patches
+Device changes:
+====================================
+None
+
+Rom changes:
+====================================
+Notable changes:
+Added extreme battery saver
+Allow changing face unlock method when locked
+AppLock is back
+Enable color fidelity
+January 2024 security patches
+Make PlayIntegrityFix and PixelProps toggleable
+Screenshot: Add delete and share notification actions
+
+All changes:
+nah I'm lazy flash it and find out yourself, that's minor quality of life and stability changes 
