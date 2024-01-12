@@ -1,0 +1,19 @@
+- Clean install is required coming from a different ROM and Format Data could be required depending on the previous ROM
+- Dirty install from Evox A14 is fine
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread)
+
+**Device Changes:**
+
+- Stop shipping Gramophone and ViMusic
+- Pin SystemUIGoogle app
+- Bring back Quick Tap support
+- Merge v4.14.334 from Linux kernel
+
+**Evolution X Update**
+
+- Evolver: QS Header Image extended settings
+- Evolver: Allow QS Header custom image selection from any app
+- Update PifPrebuilt app (Play Integrity fix)
+- Evolver: Add toggles for fingerprint spoofing (be cautious)
+- Update translations
+- Some other fixes and improvements

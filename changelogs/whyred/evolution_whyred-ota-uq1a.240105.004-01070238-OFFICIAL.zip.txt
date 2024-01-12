@@ -1,0 +1,19 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue.
+- If you found any issue then kindly report with logs in device support group.
+- Use erofs dynamic partition supported recovery only.
+
+Device Changelog:
+================
+- Synced with latest source.
+- Switched to ElixirReborn v3.0 kernel
+- Beautify rounded corners
+- Adjust status bar height
+- Removed GcamGO
+- Enable SurfaceFlinger Cache by default
+- Enable aptX(HD) offload
+- Fix cam interface on vilte calls
+- kernel: Panic to recovery, not bootloader
+- Enable QPower and Deep sleep at the same time
+- Many improvements and bug fixes.

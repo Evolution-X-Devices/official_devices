@@ -1,0 +1,459 @@
+=======================
+     2023/12/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4e3111b5f012 PPU: Spoof to recent Pixel on iD apps * This fixes some JP devices get refusing launch iD apps.
+ace93cd6f15a PhoneWindowManager: Pass correct invocation type for assistant launch on home long press
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-p
+
+07dc199 manifest: Add new separate branches for Pixels
+b114d19 manifest: Track our fork of LOS scripts
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+eef6b76 New Crowdin updates (#559)
+696d87e Evolver: QS Header Image extended settings [2/2]
+a6f956f Evolver: Make PIF and PixelProps toggleable [2/2]
+3dc033e Evolver: Changes for Android 14 QPR1
+3b6a3fd New Crowdin updates (#514-#558)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f115f3f653 New Crowdin updates (#378)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+ca267ee New Crowdin updates (#57)
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-p
+
+a792cb360 Set properties to make SafetyNet pass
+fdb195701 init: Report valid verified boot for SafetyNet checks
+fe1681514 remount: Replace ServiceManager::getService with checkService
+a556b4984 fs_mgr: Use /proc/mounts to check if /cache is mounted
+
+
+=======================
+     2023/12/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+0fede851fbd7 VolumeDialog: Ensure proper resource release
+dfd58a37ee7b Revert "VolumeDialog: Ensure proper resource release"
+f3e4850ca54d MeizuPropsUtils: Spoof Hihonor Cloudmusic
+e47345afd45f SystemUI: Optimize notificiation expansion animation
+62b598809d36 fix pauseImmediately doesn't work when of swiping up to home
+027a2aabb7ff SystemUI: Prevent OOB when reinflating QS panel with notifications
+f0785b97f682 LockPatternUtils: Decrease minimum pin length for auto confirmation
+4c93aba6aca5 core: Disable RescueParty by default
+853fd2e32438 Add patch to ensure window ready before PIP mode
+8fe5ef572c14 SettingsLib: Handle WifiService being null
+5855fedcd15e fixup! VolumeDialogImpl: Add STREAM_NOTIFICATION row
+dc274bd5d500 VolumeDialogImpl: Attempt fixing initial dialog position
+5eb8e7b12478 VolumePanel: Open volume panel on expand long click
+da3cd2462c73 VolumeDialogImpl: Properly set initial dialog gravity
+30f9977fd6ee SystemUI: Make the volume dialog expandable
+4d8d3fe29051 Revert "SystemUI: VolumeDialogImpl: notifyVisible after the volume panel is fully hidden"
+94d3bc3e2be5 services: Fix google apps permission denials
+4626850379fb fixup! base: Initial SenseProvider for FaceSense service
+97546f450210 Fixed process can't start because of mPendingStart is true problem
+ca8458799541 services: Implement exit app animation boost
+d9825175e6d7 Fix method not found for NotProvisionedException hidden api
+a08b365fd4a0 Only need check one time for mPreQTopResumedActivity on preQ version
+561638899181 BootAnimation: Scale size to display size if the surface size is limited
+f58693e32d6a [Optimize][am_kill]add pss for process exit due to am_kill
+2cd317600108 services: Fix exception when retrieving target SDK version
+600e40f1f627 Improve entering pip animation from ActivityEmbedding
+4cb2aa97681b Add invisible pip task to transitions.
+d78a1ae2e89c Fix the activity windowingmode error of exiting pip
+fb687ed9dc62 Remove usage of isSubscriptionVisible() in getSelectableSubscriptionInfoList()
+ca62b36e8316 Add slice copy support for socket file type.
+7f1b83f2e0ba core: pm: Optimize `checkRequiredSystemProperties` lookup
+d7cf202225d7 Fix NPE in AnomalyReporter.initialize
+e526d67a3b1f hwui: CanvasContext: Don't crash when GrContext is abandoned
+9803289c1b45 HWUI: move onSurfaceStatsAvailable to renderthread
+b102c5bd333d Add setBackdropRenderEffect for View and RenderNode.
+46453c68ae0f Make active Context valid while buildLayer() When RecordingCanvas::drawPoints() is executed through buildLayer(), active Context is null. It leads to crash
+d7f2b4cefc6e hwui: Prevent system crash when cancelling animations
+9d15bcbe6440 services: Properly handle wallpaper clearing/reset
+c8c2824b4544 Remove one duplicate comparison from OutputConfiguration#equals
+f209b8a17be1 services: Fix strict mode violation when decompressing files
+1756d4b7dd98 Fix odm privapp permissions
+8f7d7f5415be Prevent crash in AccountManager after profile removal.
+37a6ac888026 Move getActiveSubscriptionInfo to solve deadlock
+226180f92ad1 Only set `mEnded` to true if `pulseAnimationFrame` returns true
+6d48051c36cc core: Resolve PendingIntents with no flags assigned
+72d840671e6a Fix NPE in requestPowerState when displayPowerController is null
+4085cd4166d0 Don't show app error dialog before system booted
+9a1d2c8e0a8c Skip onActivityEvent when remote ContentCaptureService is dead or unbound.
+7326c2a6da7a Fix NPE in BootReceiver
+8e27fb3f4028 Fix resource leak for choose avatar photo in multi users
+63396570c90a Fix NPE in TextToSpeechManagerPerUserService
+3cdfdb268b53 Align the time of bssid comparison to avoid NPE caused by value changes.
+70c334972716 StatsPullAtomService: Fixed StrictMode warning
+af9aefd682e3 Remove READ_DEVICE_CONFIG checks.
+d0fc6e127cbc wm: Always account snapshot and IME surface when determining IME visbility
+7b43d88d6cdf fixup! base: add API for disabling gestural navigation
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+a220a54 Aperture: Update CameraX to 1.4.0-alpha03
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+476e36b682 Settings: Add lockscreen rotation as an optional rotation setting
+d1058e3771 Revert "Settings: Import battery charge cycles from A13"
+2b577fbd02 Settings: Update BatterySettingsFeatureProviderGoogleImpl to Android 14 QPR1
+3ab8a4d182 New Crowdin updates (#376-#377)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+74c0af0 Forward port Pixel framework for Android 14 QPR1
+
+
+=======================
+     2023/12/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4f356c7b8244 AudioEffect: fix isEffectSupportedForDevice() API
+648a34f53b1c SystemUI: Fix toggling lockscreen rotation [1/2]
+2364c324fb15 SystemUI: QS Header Image extended settings [1/2]
+e9e22176c322 Fix potential NPE in isDefaultIme
+ad4e630fc33b Notify recent task to remove split-screen when exit PIP
+dacedbf95944 SystemUI: Update bluetooth dialog strings Align with AOSP 14 QPR2.
+1240b566a37c SystemUI: Ensure updating margins and paddings on brightness slider
+67493d26baf3 VolumeDialogControllerImpl: Do not use broadcast for volume change event
+348c2bbab035 VolumeDialog: Ensure proper resource release
+94771896d6c6 Rename removeAllProcessGroups() into removeAllEmptyProcessGroups()
+8a63a937a642 New Crowdin updates (#493-#495)
+6ce7cb6b4b00 PPU: Make PIF and PixelProps toggleable [1/2]
+1e0b4abffe5a DisplayModeDirector: Allow to enforce user selected resolution
+9c2b61c29433 SystemUI: Import more qs header
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-p
+
+5d323d3 manifest: Stock tracking vendor/firmware
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+33d71de7 config: Stop inheriting firmware
+
+
+=======================
+     2023/12/26
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+54c644f21 Improve memory usage in multiproduct_kati
+f748410bb soong: installclean: Delete generated changelog files too
+
+
+=======================
+     2023/12/25
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+7559a5b8 kernel: Make INTERNAL_VENDOR_RAMDISK_TARGET depend on kernel
+
+
+=======================
+     2023/12/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+4ac8dad Automatic translation import
+
+
+=======================
+     2023/12/23
+=======================
+
+* Repository: https://github.com/Evolution-X/scripts/commits/refs/heads/udc
+
+e5da8ac Add a script to update the default wallpaper
+7fdedf8 fbpacktool: Add README.md listing python dependencies
+0382f30 fbpacktool: Update to current version
+7119eb6 Import fbpacktool from AOSP
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+502f808d1f62 SettingsLib: Use San Francisco font for iOS battery styles
+89044823845b New Crowdin updates (#488)
+c9f2530089d0 fixup! LockscreenCharging: squashed (1/3)
+bf9f452c7b93 fixup! Add Alert Slider user interface [SQUASHED]
+4b1dcad1d281 SystemUI: QS Header Image [1/2]
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-p
+
+4fc23f19a libfs_avb: Disable dm-verity when AVB is permissive
+2143fb628 Revert "libfs_avb: verifying vbmeta digest early"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+a93963f3 vendor/fonts: Update HarmonyOS-Sans
+1de56e79 evolution: Import vars from LOS
+
+
+=======================
+     2023/12/22
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc-p
+
+5f4e1c1 sepolicy: Nuke turbo adapter policies
+
+* Repository: https://github.com/Evolution-X/scripts/commits/refs/heads/udc
+
+d137feb pixel: extract-utils firmware handling integration
+4cae0d8 pixel: Update README
+ab60c5c pixel: Handle googlesource 429s
+b319e39 pixel: Support wifi only devices
+69f1f3f pixel: Avoid re-extracting factory images
+73bf6f2 pixel/all: Print parallel output, prefix with device name
+da703f3 pixel: Use fbpacktool for unpacking bootloader.img on Tensor pixels
+7806635 pixel: Run regen-carriersettings.sh when it exists
+68cc235 pixel: Drop prev_build_id and prev_build_number
+80c537e pixel: Remove hardcoded version from get-new-devices.py
+aa56f05 pixel: Always write full build desc and fingerprint
+2ff6f76 Document merger scripts and workflows
+25445e7 update-device-vars: Add a sleep to avoid 429: Too Many Requests
+9572481 pixel: Fix build-desc-fingerprint.sh not commiting raviole changes
+1ec40d7 pixel: Android 13
+019d327 scripts: pixel: Make `build-desc-fingerprint.sh` commit changes
+ea35129 pixel: Remove unused tmp_dir from build-desc-fingerprint.sh
+cc931dc Add copyright headers to all scripts
+23e4901 Introduce script to update any var
+e58c297 pixel/build-desc-fingerprint: Don't set -x
+e41251e pixel: Run regen-vendor before extracting
+3bbe097 pixel/firmware: Use prebuilts/extract-tools/qc_image_unpacker
+72cadb3 pixel/get-new-device-vars: 12L is 12.1
+dd101d6 vars: Add a new pixels
+3b06a54 pixel/get-new-device-vars: Handle failure gracefully
+73c1f73 pixel: Update for Evolution X vars usage
+df57e2f pixel: Changes for Evolution X firmware location and setup
+4663fc7 pixel: Add script to automatically upgrade build.prop overrides
+695c3af pixel: Save build_number to vars, extracted from flash_url
+1a439f4 pixel: firmware: Add firmware partitions to AB_OTA_PARTITIONS
+7c70cb8 pixel: Remove double slash from paths
+39c5155 pixel: firmware: Use full name for bootloader and radio
+566850d pixel: firmware: Handle android-info.txt, and only write mk once
+3a7659d pixel: Add a shell script to do it all
+e23c6c8 pixel/download.sh: Only download OTA when needed
+58b51ee pixel: Add shell script to extract and setup firmware
+e041698 pixel: Add shell script to extract factory images
+3ccdcf4 pixel: Add shell script to download images from Google
+9cfa05c pixel: Add shell script to update all variables
+6a08bc1 pixel: Add python script to fetch values from various Google sites
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+08071f9e14 cameraserver: Allow google camera to access multiple cameras
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+f92298ef2545 fixup! SystemUI: OOS style notification clear all button [1/2]
+8146afe61e97 SystemUI: Cleanup face unlock icon animation
+515c54eb2aab SystemUI: Animate StatusBarState doze transition using DarkAnimator
+62dee857f390 SystemUI: Avoid showing face unlock animation on AOD and ambient screen
+63c084b4f726 fixup! SystemUI: Refactor brightness slider paddings
+2a6831597e37 SystemUI: RecordingService: Fix non dismissing notifications
+60b53b98694a PackageManager: Create missing userdata directory
+e246e67fd1e6 SystemUI: Avoid NullPointerException in setKeyguardMessage for face unlock message
+fba5fe3f7467 SystemUI: Fix face unlock icon visibility when auth fails
+ef68bce2de16 SystemUI: Implement bouncer face unlock animation
+ca9e49f993f1 [TMP][SQUASH] SystemUI: Drop SecureQSTile functionality
+f73c92ee7ceb Revert "KeyguardStatusBarView: Clean up cruft"
+9f3d52fe0c9a SystemUI: Adapt mVisualizerView to Android 14 QPR1
+4f36475fce5e ActivityThread: Prevent a NPE caused by null configuration
+0c0a76e59240 ExifInterface: Catch IOException caused by invalid image
+f4d72f0deb19 SystemUI: Use proper tint for face unlock icon
+201be6f36b31 SystemUI: FaceUnlock: Add margin based on lock icon
+f71eee9855c2 SystemUI: Implement face unlock recognition animation and text
+4044b0b242e2 Integrate Pixel framework hooks and wrappers
+609dc918bce1 SystemUI: Make `mKeyguardBottomArea` public
+92d5f3c60674 fixup! SystemUI: Port statusbar brightness control
+0fe6a8b39fd0 base: BluetoothDialog: Don't ever show non paired devices
+cf545a775c33 [SQUASH] Revert charging changes
+1a48bcb10e08 fixup! SystemUI: Export RecordingService for External Usage
+34130376c8b1 SystemUI: Nuke oriented navbar handle
+0651681ebdf9 SystemUI: BluetoothDialog: Sort devices by last connection time
+e1acc8ba7427 Optimize AbsListView to reduce click operation latency
+79696685a190 PackageInstaller: fix crash when handling STATUS_PENDING_USER_ACTION
+2371a1ed4a28 PackageInstaller: limit max AppSnippet icon size
+b328cc1fa6f6 Fix UDFPS icon and progress while enrolling
+3f87b4fdf726 ListView: Disable dividers by default
+0eec573c296d SettingsLib: Make IllustrationPreference bg protection transparent
+0e6774b94878 Paint: Enable subpixel text positioning by default
+f060bec7255d base: Don't use AOSP QS fling animation boost impl when CLO boost is enabled
+d1232cfb0abb SystemUI: Forward port QS fling animation boost to NotificationPanelViewController
+26fc8a3691bb udfps: Forward port Boost framework hook.
+5dc8a80ae807 BoostFramework: Guard it with overlay
+bbf272c2e87d [SQUASH] core: Port CLO's Framework Boost for Android U
+509fa57f5d60 Revert "CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed"
+330ec5c97845 SystemUI: Remove power menu shadow
+fe6b88bcc399 CarrierConfig: allow toggling VoWiFi while roaming by default
+f6cfd17ebf71 Enable backup service for non-owner users
+f1bb39113851 CarrierConfig: Always show APN settings on CDMA carriers
+9ca14ed8d7f5 fixup! JobScheduler: Respect allow-in-power-save perm
+38362336f522 Fingerprints: Increase MAX_FAILED_ATTEMPTS
+6750a23e929a base: Add api to take screenshots
+13e9eb357a97 SystemUI: AODTile: Use MD2 Icon
+cc6f89efb0e0 SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel
+ee7be142268c SystemUI: Enable cast tile without Wi-Fi connection
+222f1a305a16 Revert "Remove dependency on IME subtype from TSMS"
+f01e105fe52e SystemUI: volume dialog: Align padding/margin for left and right
+d6d00caa6aa5 fixup! Forward port CM Screen Security settings (1/2)
+f755961caa0e SystemUI: screenshot: add extra crop boundaries
+02da48505abf SystemUI: screenshot: remove duplicate clamping on move action
+899c215dbb7a fixup! Partially revert "Assume sensors perform prox check"
+17517036a3c5 base: ChooserActivity: Don't show image edit button on multiple targets
+ed23eeab50bb webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+17d0d7cf14ac Fix bug Device that can't support adoptable storage cannot read the sdcard.
+7353679452d0 power: Keep file scheme when not using content URI
+db1f0054b180 power: Respect global vibration setting for charging sounds
+969c7b88eaed power: Explicitly check for silent ringtone
+2672926112be Squashed import of adb root patches
+725044cbc62f Fallback to global actions if assistant is not available
+296f755c5abf SystemUI: Add support for persistent usb drive notification.
+4bcec99376be SystemUI: Allow snoozing SD card notification unconditionally
+987ca3e17384 admin: Restore requireSecureKeyguard interface.
+755335e32df9 Island: Overrides showIsland in ShadeViewControllerEmptyImpl
+e6cbcc93ea22 Island: Squeeze it
+899fd232df14 Island: Get application info from all user
+0228a6fb8d09 SystemUI: IslandView: Import SystemUIToast icon retrieving logic
+ed2d4f2e0891 Island: Improvements and fixes
+0077ea96387f Island: Implement Dynamic Island effects
+5f1d356c7c2f Island: Add quick call answer/reject click functionalities
+def693011b52 Island: Update UI Specs and make layout dynamic
+f3d31425e3f1 SystemUI: Implement Island notification feature [1/2]
+a976126cd75a Temp build fix: Remove dependency on mockito-kotlin
+86363264c3ea fixup! SystemUI: Fix uneven DND icon padding in status bar
+61e94be9f54d SystemUI: Hide notifications when quickly expanding QS
+0e34c4cef396 SystemUI: Respect the old good "Show passwords" preference
+1acca7b490bc SystemUI: Check if primitive vibrations are supported in new quick affordances
+cab1b0fe8104 Keystore: Spoof locked bootloader on local attestations
+8216da0f8384 base: fix wake on unplug also for wireless charging
+5822e3e5d998 [TMP] Revert "BrightnessController: update icon state for auto bg icon"
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+330e3d3 certification: Switch to presigned
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/udc-p
+
+c7937e0 gms: Drop conflicting DeviceIntelligenceNetworkPrebuilt
+
+
+=======================
+     2023/12/21
+=======================
+
+
+=======================
+     2023/12/20
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+80dc18d certification: RIP Sharp
+
+
+=======================
+     2023/12/19
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+0f8ed54 Import battery saver dependencies from SettingsGoogle
+93ec778 SettingsGoogle: Match res with Settings
+79f7fdb SettingsGoogle: Switch to AOSP Battery cycle count
+
+
+=======================
+     2023/12/18
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8257bf17093b SystemUI: BatteryMeterView: Adapt to Android 14 QPR1
+3cf4008ba7d8 PhoneWindowManager: Adapt to Android 14 QPR1
+65e3ae13d0bb ParanoidSense: Adapt to Android 14 QPR1
+25b75df5cb92 WiredAccessoryManager: support for DP/HDMI display on soc:qcom,msm-ext-disp.
+667fe78634b1 Force using WiredAccessoryObserver for DisplayPort
+21330ce0d7d0 Revert "WiredAccessoryManager: Add support for DP audio"
+29f67d87acbd SystemUI: Make roaming indicator optional [1/2]
+043d513e8117 SystemUI: Allow using 4G icon instead of LTE [1/2]
+39834b80ae91 SystemUI: Option to disable Data Disabled Indicator icon [1/2]
+8f94d48d07cf KeyguardStatusBarView: Clean up cruft
+5faab4d983f5 Replace ":strings" with "strings"
+686ab81cdcc5 AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress
+8441e0da3a2a AuthRippleController: Always finish the LightRevealScrim
+7f7122d4ca27 SystemUI/AuthRippleView: Less Boring Dwell Ripple
+10c7d95668bb Remove Unicode whitespace before AM/PM in the status bar
+8ead61f337c8 config: set customizedMaxCachedProcesses to platform default
+d2085b53ff3e SystemUI: Capitalize 'G' for Preferred network tile
+8017d0a984f4 SystemUI: Fix status bar lyric overlapping with the center clock
+c447308efef7 [SQUASH] base: Add status bar lyric for Android 14
+552e0afcfec5 base: Extend showing Ambient instead of fully waking to single tap gesture [1/2]
+0b66d31a2587 base: Allow showing Ambient instead of fully waking [1/2]
+836df781c9ae base: services: Introduce AutoDimService [1/2]
+74592ad41761 base: services: Create abstract AutoSettingService
+758fa62c9eda base: Allow to skip confirmation in biometric auth dialog [1/2]
+f5f8fa9377fa Fix action bar font family on material themes
+c1fed3ab49c7 SettingsProvider: Fix for google backup and restore
+a377883a2479 Back button/gesture is not working with Android 14 easter egg activity.
+f592ca9c634e Sometimes Screen does not wake up while receiving whatsapp video call
+4db4556f2106 Intent: Fix launch of permision revoke activity from playstore
+dd94611a4116 Fix powersave/powersave idle whitelist
+3d32e4e3e2d5 SystemUI: Add VPN tile
+4eca3efb46cd SystemUI: QS: LocationTile: make it cycle modes
+235bd3d78fa7 UI: Use SNAP_FIXED_RATIO for multi-window globally
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+8e1c459 Evolver: misc: Add Pif preference
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+6d65e5d certification: RIP Gionee
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+bce5935 SettingsGoogle: Fix multiple default resources
+9a85eb6 SettingsGoogle: Import toggles from Evolver
+c41744f SettingsGoogle: Update resources
+c8d2646 SettingsGoogle: Update AndroidManifest
+f741b4c SettingsGoogle: Formatting with Android Studio
+8677d42 SettingsGoogle: Update lib
+2e0c322 SettingsGoogle: Remove sources
+a072ddd pixel-framework: Add CleanSpec
+
+
+=======================
+     2023/12/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+9880b56d03 Settings: Replace android:name for SettingsGoogle
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+1ac4bc67 Revert "[TMP] config: Switch back to SystemUI"
+a0033eeb overlay: Define app store dependencies
+
+
+=======================
+     2023/12/16
+=======================
+
+

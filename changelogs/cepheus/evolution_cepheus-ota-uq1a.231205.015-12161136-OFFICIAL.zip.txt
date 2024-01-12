@@ -1,0 +1,14 @@
+- Clean install is required
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread)
+
+**Device Changes:**
+
+- Initial A14 build
+- User build
+- Selinux Enforcing
+- KernelSU is supported
+
+**Evolution X Update**
+
+- Initial A14 build
+- December security patch

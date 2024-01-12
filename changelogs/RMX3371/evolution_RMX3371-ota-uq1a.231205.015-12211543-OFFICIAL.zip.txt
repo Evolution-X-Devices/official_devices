@@ -1,0 +1,14 @@
+==========================================
+Notes:
+==========================================
+- Firmware above C05 is not recommended
+==========================================
+Device Changelog:
+==========================================
+- Fixed brightness going max after every reboot
+- Updated viperfx to 5.7 and drivers to 6.1
+- Added Per-app refresh rate control
+- Added emoji and Ai walls
+- allow Auto Brightness While Dozing
+- Reverted blobs changes from rui 5
+==========================================

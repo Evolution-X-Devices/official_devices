@@ -1,0 +1,17 @@
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with December 2023 security patches
+Device changes:
+====================================
+Bump zram size to 75% (It helps reduce app crashing)
+
+Rom changes:
+====================================
+Notable changes:
+Expandable volume panel fix
+QS header image (And seletable!)
+Some minor bug fixes
+
+All changes:
+nah I'm lazy flash it and find out yourself

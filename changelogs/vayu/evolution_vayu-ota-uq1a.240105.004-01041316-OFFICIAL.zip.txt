@@ -1,0 +1,13 @@
+This is Android 14 with January 2024 (r20) security patches
+
+Notes:
+==============================
+- MiuiCamera is included.
+- Dolby Atmos is included.
+
+Changelog:
+==============================
+* Merged January 2024 Security Patch
+* Fixed "This device isn't play protect certified" for the devices who were facing it.
+* Add Charging Control
+* Added Charging Current Control
