@@ -1,0 +1,189 @@
+  
+2024-01-13
+
+
+To use this release you need:
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: Update overrideHdrTypes API for U
+  * cupid: parts: Override HDR types for dolby vision
+  * cupid: gps: Localise NTP to improve GPS TTFF
+  * cupid: Change GPS NFW client to Google Carrier Location
+  * cupid: Import GPS configuration from MIUI into DT
+  * cupid: overlay: Move FaceUnlock indication above UDFPS icon
+
+ROM:
+
+=======================
+     2024/01/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+5ef982f747c6 Revert "udfps: Remove navbar inset for BiometricPrompt"
+13a8232c0c36 PPU: Stop spoofing com.google.android.googlequicksearchbox
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+18a189e2 vendor: Update pixel overlays
+bd116a24 PixelLauncherCustomOverlay: Disable blur for Pixel launcher
+c5b0e90c PixelLauncherCustomOverlay: Mitigate crashing over 600dpi
+86f6c6b1 rro_overlays: Convert PixelLauncherIconsOverlay to PixelLauncherCustomOverlay
+2322179c rro_overlays: Enable Clear Calling by default for Pixels only
+99fa90d7 init: Hide Magisk better
+2d1a49c3 vars: January 2024 Security update
+7213630e vars: shusky
+4b96bf5a config: Disable lockscreen live wallpaper
+dd6ae26f version: Consolidate EVO_VERSION
+07e2c533 vendor: Remove safety protection support remnants
+25f32fc5 fixup! overlay: Use old NTP server in China
+34c47ce4 prebuilt: Update APNs for Boost Mobile
+bad5fa4c kernel: Default to no gcc on kernel 6.x
+ac34d13d version: Uprev to 8.2
+
+
+=======================
+     2024/01/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+54ebb93fe1ce fixup! services: Fix exception when retrieving target SDK version
+27296fbc4b5a Reset top activity's mWaitForEnteringPinnedMode when aborting an incomplete pip-entry
+870c8267e614 display: Allow HBM in manual brightness if no time limitation
+5758c0bb25a3 Revert "AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress"
+a3588d90d2fc SystemUI: Add affordance shorcut for AI Voice Assistant
+a4cdf9836189 services: Avoid system crash when retrieving spatializer tracking mode
+a5ed1a9de9c2 Do not assistant delay for media notifications
+8559e2cf254c SystemUI: WifiStandard: Avoid usage of Resources#getIdentifier()
+f02a5f45ac70 SystemUI: Introduce wifi standard icon feature [1/2]
+eeaa6ee19c53 Update volume icons visibility after policy update
+82e493ed7945 [1/3] Allow changing face unlock method when locked
+ff4ac8ad26d2 Flags: Enable color fidelity
+e72e780e055c Do not ignore background vibrations from shell
+de215bf5a7f0 AlarmManager: create setExactAndAllowWhileIdle variant based on alarm listener
+a6c5355db479 Automatically start all work profiles
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+aed4a73 Evolver: Re-enable wifi standard icon feature [2/2]
+3a782fd Evolver: Drop 'Muted' monet theme style
+55fe6ee Evolver: Allow spoofing all gapps to Pixel 8 Pro [2/2]
+674227d New Crowdin updates (#514-#569)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+9685565440 Settings: Show AOSP Battery cycle count
+f0035ff421 [2/3] Allow changing face unlock method when locked
+23fc641ddd Settings: Hide Flashlight
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+ca56085a20 Bluetooth: Preserve APM_ENHANCEMENT on boot
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+eb1e33e [3/3] Allow changing face unlock method when locked
+
+
+=======================
+     2024/01/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+fdf18a4bd holi: Label discard_max_bytes sysfs
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+7a4ba1509 Label wifi.interface.
+1fb3f0c28 Ignore access to /proc/pagetypeinfo for Settings
+
+
+=======================
+     2024/01/10
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+4aa876fa7 Merge tag 'LA.UM.9.14.r1-23600-LAHAINA.QSSI14.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into lineage-21.0-legacy-um
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+5c18fed992a8 FaceService: Conditionally add ParanoidSense
+8333d8e87f9c PPU: Allow spoofing all gapps to Pixel 8 Pro [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+d98981c Pif: Remove PreferenceCategory
+
+
+=======================
+     2024/01/09
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+6f4cd84d0 bengal: Allow using legacy IMS rules
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+4d84a25 manifest: January 2024 Security update
+
+* Repository: https://github.com/LineageOS/android_vendor_codeaurora_telephony/commits/refs/heads/lineage-21.0
+
+aca2cbe fixup! IMS: Add Motorola specific API for VT
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+aaf80e9 gms: January Update
+
+
+=======================
+     2024/01/08
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+165c0d500d15 PixelPropsUtils: Check process name before doing certify
+41e55cca55f2 Add other options to settings injectable mappings
+bc15cc838047 Fix phone restarts after SD card formatted as internal storage
+5f7204304a72 ProcessList: Catch Security exception when starting a frozen package
+01260ae7cef7 base: Pre-grant non-system preloaded apps
+9526c1471154 core: Catch OOB when returning pooled string
+bf6238243416 Recycle the original bitmap after scaling down
+60001549de8b Resize large app icons before adding them in a parcel
+f0718e1f2db1 Fix typo in Dynamic coloring section
+d67e29d83644 binder: remove dead logging code
+5f34de61b3dd UEventObserver: Fix logging for uevent messages
+71a0832ae6c5 Fix system reboot in systm_server caused by SensorPrivacyService
+fd9b5023378a Fix: avoid the potential attack on SlicePermissionActivity
+1b33e59f4439 Skip checking SystemUI's permission for observing sensor privacy
+bfad7070c53d hwui: Increase thread prio
+2052ad378407 base: Add com.qualcomm.qti.cne to indicator exemptions
+109b57600738 SystemUI: screenshot: Add delete and share notification actions
+ae1b7bf232ff SystemUI: screenshot: Also post a notification with a preview
+2307b637a0ca SystemUI: biometrics: Follow user setting to confirm face unlock
+c1379cf20d9a AppLock: Allow using face unlock for biometric authentication
+d77338d5a0ae ActivityManagerService: Exclude more packages for receiver check
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+fa9deba GameSpace: Use same illustration for dark theme too
+923a632 Revert "Remove unimplemented notification function"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a396ff5b2b Settings: Let app lock use face unlock
+1c2fe66ec5 Settings: Add a config for High touch polling rate support
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+8a849bd SettingsGoogle: Use IllustrationPreference bg protection transparent here too
+c02b16c SettingsGoogle: Show extreme battery saver only if flipendo available
