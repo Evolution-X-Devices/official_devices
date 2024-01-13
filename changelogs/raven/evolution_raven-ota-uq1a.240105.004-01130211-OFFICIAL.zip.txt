@@ -1,0 +1,6 @@
+FWB: Revert "udfps: Remove navbar inset for BiometricPrompt" (fixes BiometricPrompt misalignment)
+FWB: PPU: Stop spoofing com.google.android.googlequicksearchbox 
+PixelParts: Add option to cycle between multiple torch strengths (PixelTorch)
+PixelParts: Implement TileHandlerActivity to handle QS long press (AutoHbm, Fastcharge, PixelTorch)
+PixelParts: Mark two state tiles as TOGGLEABLE_TILE (PixelTorch, AutoHbm, Fastcharge)
+PixelParts: Implement TileUtils to handle requesting tile additions (AutoHbm, Batteryinfo, Fastcharge, PixelTorch & Saturation)
