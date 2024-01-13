@@ -1,0 +1,240 @@
+This build you're receiving is evolution_veux-ota-uq1a.240105.004-01120521-OFFICIAL.zip comes with November Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+• Initial Release with custom kernel - Positron
+• Gcam is the default cam.
+• Comes with Pixel Launcher.
+• Synced with latest source changes.
+• Clean flash is Mandatory.
+• Cts passes by default.
+==========================================
+Source Changelogs:
+==========================================
+=======================
+     2024/01/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+54ebb93fe fixup! services: Fix exception when retrieving target SDK version
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+6434457 vibrator: effect: Read vibration fifo data from vendor
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+aed4a73 Evolver: Re-enable wifi standard icon feature [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+9685565 Settings: Show AOSP Battery cycle count
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+ca56085 Bluetooth: Preserve APM_ENHANCEMENT on boot
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6f2b2bb vendor: Update pixel overlays
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+eb1e33e [3/3] Allow changing face unlock method when locked
+
+
+=======================
+     2024/01/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+fdf18a4 holi: Label discard_max_bytes sysfs
+
+
+=======================
+     2024/01/10
+=======================
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+7a4ba15 Label wifi.interface.
+
+
+=======================
+     2024/01/09
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+d98981c Pif: Remove PreferenceCategory
+
+* Repository: https://github.com/LineageOS/android_vendor_codeaurora_telephony/commits/refs/heads/lineage-21.0
+
+aca2cbe fixup! IMS: Add Motorola specific API for VT
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+aaf80e9 gms: January Update
+
+
+=======================
+     2024/01/08
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+4d84a25 manifest: January 2024 Security update
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+fa9deba GameSpace: Use same illustration for dark theme too
+
+
+=======================
+     2024/01/05
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-21.0
+
+69da3f7 Merge tag 'LA.QSSI.14.0.r1-11200-qssi.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy into lineage-21.0
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+f2f51d3 Merge tag 'LA.VENDOR.1.0.r1-24300-WAIPIO.QSSI14.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into lineage-21.0-caf-sm8450
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8550
+
+a614276 Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into lineage-21.0-caf-sm8550
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-21.0-caf-sm8150
+
+3355253 Merge tag 'LA.UM.9.1.r1-15500-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/media into lineage-21.0-caf-sm8150
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-21.0-caf-sm8250
+
+e03abf7 Merge tag 'LA.UM.9.12.r1-17900.03-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/media into lineage-21.0-caf-sm8250
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sm8350
+
+32b7a1b Merge tag 'LA.UM.9.14.r1-23600-LAHAINA.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio into lineage-21.0-caf-sm8350
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-21.0-caf-sm8350
+
+947a0e4 Merge tag 'LA.UM.9.14.r1-23600-LAHAINA.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/media into lineage-21.0-caf-sm8350
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-21.0-caf-sm8450
+
+4f5a12d Merge tag 'LA.VENDOR.1.0.r1-24300-WAIPIO.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/agm into lineage-21.0-caf-sm8450
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-21.0-caf-sm8450
+
+553bb7e Merge tag 'LA.VENDOR.1.0.r1-24300-WAIPIO.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into lineage-21.0-caf-sm8450
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8450
+
+af1d4af Merge tag 'LA.VENDOR.1.0.r1-24300-WAIPIO.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into lineage-21.0-caf-sm8450
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_agm/commits/lineage-21.0-caf-sm8550
+
+48a43e3 Merge tag 'AUDIO.LA.8.0.r1-09700-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/agm into lineage-21.0-caf-sm8550
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-21.0-caf-sm8550
+
+d173d5c Merge tag 'AUDIO.LA.8.0.r1-09700-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/arpal-lx into lineage-21.0-caf-sm8550
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8550
+
+2c4c91b Merge tag 'AUDIO.LA.8.0.r1-09700-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/audio-ar into lineage-21.0-caf-sm8550
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commits/lineage-21.0-caf-sm8550
+
+b777883 Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa into lineage-21.0-caf-sm8550
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-21.0-caf-sm8550
+
+d653751 Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/media into lineage-21.0-caf-sm8550
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_wlan/commits/lineage-21.0-caf
+
+46cec2e Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/wlan into lineage-21.0-caf
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar/commits/refs/heads/lineage-21.0
+
+420362b Merge tag 'AUDIO.LA.8.0.r1-09700-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/audio-hal/st-hal-ar into lineage-21.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commits/refs/heads/lineage-21.0
+
+f75571a Merge tag 'LA.QSSI.14.0.r1-11200-qssi.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/display-commonsys-intf into lineage-21.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys/commits/refs/heads/lineage-21.0
+
+11253d9 Merge tag 'LA.QSSI.14.0.r1-11200-qssi.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/display-commonsys into lineage-21.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_core-utils-vendor/commits/refs/heads/lineage-21.0
+
+cbc8262 Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/core-utils-vendor into lineage-21.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-21.0
+
+c1154bf Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/usb into lineage-21.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator/commits/refs/heads/lineage-21.0
+
+b7bcccd Merge tag 'LA.VENDOR.13.2.0.r1-21400-KAILUA.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/vibrator into lineage-21.0
+
+
+=======================
+     2024/01/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+7a4eb6f Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/build into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+f08d686 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+47ef1c7 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+459b504 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+
+=======================
+     2024/01/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+f33c681 extract_firmware: Unsparse images before copying
+
+
+
+=======================
+     2023/12/31
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+68925a3 cleanbuild: Add `kernel` and `KERNEL_OBJ` to installclean files
+
+
+=======================
+     2023/12/30
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/udc
+
+ca267ee New Crowdin updates (#57)
