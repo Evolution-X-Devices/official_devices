@@ -1,8 +1,0 @@
-* Latest Evolution X Source
-* Switched to Evolution X Recovery (Fork of LineageOS Recovery, a better version of AOSP Recovery)
-* Addressed problem where At a glance may not show its settings UI properly
-* Addressed problem where Netflix does not recognize device's HDR capability
-* Addressed missing IFAA FOD props that breaks fingerprint payment on Chinese apps. Please try and feedback.
-
-
-Note : If you were using Magisk, uninstall Magisk fully first by "completely uninstall" from the Magisk application, it should automatically reboot to finalize the uninstallation. Do remember that restoring just the original boot image will not do! Please do this before downloading and installing the update if you do not want to factory reset. This issue is still being worked on as we do not have enough information on this issue. Magisk remains unsupported.

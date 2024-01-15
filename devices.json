@@ -601,21 +601,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "tissot",
-      "name": "Mi A1",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXTissot",
-            "maintainer_name": "Shaughzam",
-            "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-tissot-official-evolution-x-08-31-22.4487107/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "cepheus",
       "name": "Mi 9",
       "supported_versions": [
@@ -716,36 +701,6 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-monet-official-evolution-x-snow-16-11-2021.4362877"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "venus",
-      "name": "Mi 11",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXVenus",
-            "maintainer_name": "Shaughzam",
-            "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": "https://xdaforums.com/t/rom-14-0_r11-venus-official-evolution-x-10-16-23.4636519/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "mars",
-      "name": "Mi 11 Pro",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXMars",
-            "maintainer_name": "Flower Sea (Flower0208)",
-            "maintainer_url": "https://forum.xda-developers.com/m/flower-sea.11535253/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-android-13-mi-11-pro-evolution-x-7-2-official.4460311/"
          }
       ]
    },
