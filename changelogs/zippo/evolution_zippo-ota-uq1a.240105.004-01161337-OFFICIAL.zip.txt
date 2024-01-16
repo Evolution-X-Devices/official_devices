@@ -1,0 +1,31 @@
+- FORMAT DATA IS REQUIRED IF YOU COME FROM LEGACY PARTITIONS. MAKE SURE TO USE THE RECOVERY LINKED IN THE INSTALLATION INSTRUCTIONS AT THE XDA FORUM
+- Firmware 12.5.365 is required
+- SELinux is Enforcing
+- User build
+- Locked bootloader is supported
+- Forced encryption is enabled
+
+**Device Changes:**
+
+- Switch to dynamic partitions
+- Switch to encryption FBEv2
+- Enable metadata encryption
+- Merge v4.14.336 from Linux in kernel
+- Update KernelSU to 0.7.5
+- Bring back Motodolby
+- Convert overlays to RRO
+- Shorten the UDFPS enroll progress radius
+- Fix the location of the face unlock icon in the lockscreen
+- Add some optimizations for F2FS /data
+
+**Evolution X Update**
+
+- Uprev to 8.2
+- January security patch
+- Update the Play Integrity Fix
+- Stop spoofing com.google.android.googlequicksearchbox
+- Introduce wifi standard icon feature
+- Allow changing face unlock method when locked
+- Drop 'Muted' monet theme style
+- Allow spoofing all gapps to Pixel 8 Pro
+- Allow using face unlock for biometric authentication
