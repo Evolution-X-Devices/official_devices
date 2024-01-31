@@ -1,0 +1,23 @@
+This is Android 14 with January 2024 QPR1 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 01/18/2024).
+- Uses Silvercore kernel (https://github.com/karthick-kk/android_kernel_common_silvercore/releases/tag/20240115).
+- Includes Dirac and 32-bit support.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Disable high touch polling rate toggle for now
+Switch to sysfs node for handling DT2W
+
+Notable ROM changes:
+==============================
+PPU: do not spoof Pixel Launcher
+SystemUI: Fix face unlock icon visibility when auth fails
+core: res: Add ParanoidSense into privacy indicator exemption list
+telecom: Fix areBundleEqual in Call

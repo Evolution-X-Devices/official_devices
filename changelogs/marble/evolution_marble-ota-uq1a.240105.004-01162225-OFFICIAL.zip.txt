@@ -1,0 +1,76 @@
+This is Android 14 with January 2024 QPR1 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 01/17/2024).
+- Uses Silvercore kernel (from https://github.com/karthick-kk/android_kernel_common_silvercore).
+- Includes Dirac and 32-bit support.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Add support for high touch polling rate
+Bring in gps.conf from GPS HAL
+Build and enable AvoidAppsInCutoutOverlay
+Create audio-app cpuset
+Defer setDesiredActiveMode when display is off
+Do not balance msm_drm and kgsl_3d0 IRQs
+Drop QCOM WFD props
+Enable Pocket Mode support
+Import xiaomi touchfeature HAL service
+Introduce double tap on fingerprint sensor gesture
+Re-enable smooth motion in surfaceflinger
+Selectively import xiaomi changes in gps.conf
+Set 120Hz frame rate multiple threshold
+Switch to stock fingerprint HAL service
+Update WCNSS_qcom_cfg.ini to V14.0.25.0.TMRCNXM
+gps: Localise NTP to improve GPS TTFF
+keyhandler: Add a wait period after unlocking
+libinit: Update device fingerprints
+overlay: Increase refresh rate brightness thresholds
+overlay: Refactor regulatory info and correct device name and hotspot SSID
+parts: Disable doze brightness handling every time
+parts: Fix thermal profile screen state handling
+parts: Link displayfeature binder to death
+parts: Reapply doze brightness when display state changes
+parts: Relay display orientation to touchpanel
+parts: Set standard display color mode in AOD
+parts: Start services as early as possible on bootup
+parts: Update and polish vector drawables
+parts: Update overrideHdrTypes API for U
+parts: Use IDisplayFeature to set doze brightness
+parts: Use correct API to check AOD status
+parts: Use only LBM in doze with manual brightness
+perf: Disable LPM sleep in performance mode
+
+Notable ROM changes:
+==============================
+Add Gravis GamePad Pro USB key layout
+Evolver: Allow spoofing all gapps to Pixel 8 Pro
+Evolver: Drop 'Muted' monet theme style
+Evolver: Drop Swap capacitive buttons category
+Evolver: Updated translations
+FaceSense: Vibrate on successful authentication
+MeizuPropsUtils: Spoof Hihonor Cloudmusic
+PPU: Spoof to recent Pixel on iD apps
+PPU: Stop spoofing com.google.android.googlequicksearchbox
+PPU: Update fingerprints to January 2024 release
+PhoneWindowManager: Pass correct invocation type for assistant launch on home long press
+Settings: Add a toggle for High touch polling rate
+Settings: Allow changing face unlock method when locked
+Settings: Don't make app lock settings searchable
+Settings: Introduce App Lock
+Settings: Remove toggle for connectivity check
+SettingsLib: Handle WifiService being null
+Status bar clock: avoid NPE when the clock is hidden
+SystemUI: Add affordance shorcut for AI Voice Assistant
+SystemUI: Disable wakeup animations when unlocking with fingerprint
+SystemUI: Optimize notificiation expansion animation
+SystemUI: Prevent OOB when reinflating QS panel with notifications
+SystemUI: Remove broken Expanded Volume panel
+SystemUI: flags: Enable new privacy dialog
+core: Disable RescueParty by default
+usb: Show charging notification only if power brick is disconnected

@@ -1,0 +1,20 @@
+[DEVICE]
+- kernel: Merged latest linux patch v4.14.334
+- Prevent BT logspam
+- Offload WM shell to another thread
+- Reduce screenshot delay to 0
+- Increased performance
+- Boost scheduler during interaction
+- Fix "Earpiece" audio output
+- Enable boost framework
+- Set lmkd's swap_free_low_percentage to 100
+- Set the compiler filter for shared apks to quicken
+- Enable subtle tick vibration when revealing shelf
+- Don't compile SystemUITests
+- Sync up /system_ext properties with QSSI
+- Correct SystemUI apk name and path for pinner service
+
+[SOURCE]
+- Merged December QPR1 security patch
+- Version bumped to v8.1 Yema
+- Includes all the source changes till date

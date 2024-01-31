@@ -1,0 +1,116 @@
+This is Android 14 with January 2023 (r20) security patches
+
+
+Notes:
+==============================
+- You can dirty flash over last update.
+
+
+Device changes:
+====================================
+- Drop oneplus dolby support 
+- Fix leica camera pink color issue on night mode
+- Fix flicker using 60/90/120Hz 
+
+
+
+ROM changes:
+
+=======================
+     2024/01/17
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a9fd73eaf55 Settings: Add a toggle for High touch polling rate
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+5dbe1f9 SettingsGoogle: Add a toggle for High touch polling rate [2/2]
+
+
+=======================
+     2024/01/16
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+905067f Codec2: Extend queing the dummy work signal to taro
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+b2b7c2a17941 Make the icon of SplashScreenView non-focusable
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+f713943 Evolver: Drop Swap capacitive buttons category
+
+
+=======================
+     2024/01/15
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+b6998a9 sepolicy_vndr: Remove vendor_service.
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+cd35109 qcom: Allow a device to manually override which HALs it wants to use
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_wlan/commits/lineage-21.0-caf
+
+21c176b cld80211: Convert makefile to blueprint
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+3b7da6c extract-utils: Disable elf checks by default
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+febec8e certification: 01/15/2024 Update
+
+
+=======================
+     2024/01/14
+=======================
+
+
+=======================
+     2024/01/13
+=======================
+
+
+=======================
+     2024/01/12
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+ca56085 Bluetooth: Preserve APM_ENHANCEMENT on boot
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+18a189e vendor: Update pixel overlays
+
+
+=======================
+     2024/01/11
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+eb1e33e [3/3] Allow changing face unlock method when locked
+
+
+=======================
+     2024/01/10
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+fdf18a4 holi: Label discard_max_bytes sysfs
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+7a4ba15 Label wifi.interface.

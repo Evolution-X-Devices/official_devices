@@ -1,0 +1,23 @@
+- Clean install is required coming from a different ROM and Format Data could be required depending on the previous ROM
+- Dirty install from previous build is fine
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread)
+
+**Device Changes:**
+
+- Adjust the height for the faceunlock icon in the lockscreen
+- Bring back MotoDolby
+- Merge v4.14.336 in kernel
+- Update KernelSU to 0.7.5
+- Fix the issue where videos in browsers were stuck if using Bluetooth headset (or that's what I think after my tests)
+
+**Evolution X Update**
+
+- Uprev to 8.2
+- January security patch
+- Update the Play Integrity Fix
+- Stop spoofing com.google.android.googlequicksearchbox
+- Introduce wifi standard icon feature
+- Allow changing face unlock method when locked
+- Drop 'Muted' monet theme style
+- Allow spoofing all gapps to Pixel 8 Pro
+- Allow using face unlock for biometric authentication

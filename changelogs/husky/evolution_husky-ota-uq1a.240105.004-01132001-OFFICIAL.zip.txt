@@ -1,0 +1,20 @@
+shusky: Use google's face unlock implementation
+shusky: Expose reverse charging feature
+zuma: Enable adaptive charging support
+shusky: Google Camera: update to qpr2 beta 3 apk
+shusky: Set some default apps
+shusky: Add sysconfig from stock OS
+[TMP]shusky: Set TARGET_PREBUILT_KERNEL
+shusky: Ship PixelParts
+shusky: Nuke PixelDisplayService
+shusky: Remove config_selected_udfps_touch_detection
+shusky: Initialize Evolution X 8.x
+Settings: Don't make app lock settings searchable
+CarrierSettings: update to qpr2 beta 3 CarrierSettings
+import carriersettings
+Revert "udfps: Remove navbar inset for BiometricPrompt"
+PPU: Stop spoofing com.google.android.googlequicksearchbox
+PixelParts: Add option to cycle between multiple torch strengths
+PixelParts: Implement TileHandlerActivity to handle QS long press
+PixelParts: Mark two state tiles as TOGGLEABLE_TILE
+PixelParts: Implement TileUtils to handle requesting tile additions

@@ -1,0 +1,152 @@
+  
+2024-01-25
+
+
+To use this release you need:
+
+   MIUI_V14.0.7.0.TLCMIXM
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: Enable xiaomi vibrator effects on common qti vibrator hal
+
+KERNEL:
+
+  * gpu: adreno: only compile Adreno 7xx driver
+  * sched/walt: update cluster active_cpus in time
+  * core_ctl: Add check for available cpus before accessing per_cpus
+  * sched: walt: fix forcing of 'eas_check' in build_perf_domain hook
+  * sched: disable TTWU_QUEUE by default
+  * sched: cpufreq_walt: increase target load shift
+  * kernel: sched: walt: Import Sony Improvements
+  * kernel: sched: import walt xiaomi changes from ziyi-s-oss
+  * msm: kgsl: Force GPU idle timeout to 58 ms
+  * msm: kgsl: Don't try to wait for fences that have been signaled
+  * Merge tag 'KERNEL.PLATFORM.1.0.r1-17000-kernel.0' of https://git.codelinaro.org/clo/la/kernel/msm-5.10
+
+ROM:
+
+=======================
+     2024/01/25
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+b971f7f03b Fix unified a/b zip generation failure
+a7a386fbc4 Replace device_kernel_headers with generated_kernel_headers
+ffa4484b88 envsetup: Set INLINE_KERNEL_BUILDING if TARGET_PREBUILT_KERNEL is set
+9cd49da856 Replace old-style kernel headers only when building inline
+1b11845e48 build: Introduce android-info-extra.txt support
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+490586758 Replace {device,qti}_kernel_headers only when building inline
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+9985c0b550e6 SystemUI: Fix height for center and right clock
+22ca710035ac SystemUI: Refactor Edge light color mode
+7aa30238bfcd EdgeLight: Fix up applying custom color
+26cf7515f0c5 SystemUI: Do not duplicate SPN and PLMN in network name
+e252e3f12ce0 Revert "MobileSignalController: Do not duplicate SPN and PLMN"
+c554872af6e0 Prevent crashing with several child profiles
+36377496b814 Show hidden apps on secondary users' app lists
+16f950e26d6b services: fix weird launcher3 crash
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+b4f2d52 Evolver: Refactor Edge light customizations
+1b69848 Evolver: Remove no longer used monet schemes
+94b9cde Evolver: Add lockscreen Media art cust [2/2]
+bb49956 Evolver: Remove Volume Steps fragment
+455c5cf Evolver: Drop Less boring heads up
+d89b78b Evolver: Drop Swap capacitive buttons category
+3089bc8 Evolver: Allow spoofing all gapps to Pixel 8 Pro [2/2]
+4c831b0 New Crowdin updates (#514-#572)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+cddb512d vendor: overlay: Always apply monet to both SettingsGoogle and Settings
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+56e2b0a SettingsGoogle: Follow monet color in settings icon like AOSP
+
+
+=======================
+     2024/01/24
+=======================
+
+
+=======================
+     2024/01/23
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+ae5e5f8fd sdm710: Label sysfs_ssr_toggle
+ec23bda8a sdm710: Label persist block device
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+dc7307c61820 SystemUI: CentralSurfacesImpl: Fix build after d1 merge [1/2]
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+485ea13 hidl: sensors: Add group 'uhid' to sensors multi-HAL.
+70f09d3 Light: Add null check for lights smart pointer
+b055a50 aidl: light: Override QTI light HAL
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e278bca SystemUIGoogle: CentralSurfacesImpl: Fix build after d1 merge [2/2]
+
+
+=======================
+     2024/01/22
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/udc
+
+422939cb4 libc: Add TARGET_ALTERNATIVE_FUTEX_WAITERS
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+fd6c7e50aed1 base: Add Lockscreen Media art cust [1/2]
+
+
+=======================
+     2024/01/21
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+032a39b Aperture: Update dependencies
+c1fa5fb Aperture: Address missing opt-in decorator warning in getMode()
+
+
+=======================
+     2024/01/20
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+cf41643 vintf: Add common xiaomi framework compatibility matrix
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+b4a5ee6 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+503ed8b Pif: Move to PreferenceFragmentCompat
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4179eed9 prebuilt: Adjust Papers' Android.mk
+

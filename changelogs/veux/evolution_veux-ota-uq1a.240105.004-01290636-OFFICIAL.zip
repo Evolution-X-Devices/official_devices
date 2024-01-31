@@ -1,0 +1,149 @@
+This build you're receiving is evolution_veux-ota-uq1a.240105.004-01290636-OFFICIAL.zip comes with November Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Firmware And Gapps are shipped default with Rom.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+• Comes with custom kernel - Positron
+• Gcam is the default cam.
+• Comes with Pixel Launcher.
+• Synced with latest source changes.
+• Clean flash is Mandatory.
+• Cts passes by default.
+==========================================
+Source Changelogs:
+==========================================
+=======================
+     2024/01/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4ded0e6 codec2: Change a Info print into Verbose
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+95d432bd7 SystemUI: Make popup menus more rounded
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+521b2c5 Native: IPCThreadState: Import Xiaomi Modifications
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+160ba30 New Crowdin updates (#514-#580)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+514dc83 Update PhoneLink 14-3 Settings change
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+a6be63a BtHelper: Add a better comment regarding workaround for BLE beacon identification
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/udc
+
+cc2f3d0 IPCThreadState: Import Xiaomi Android 13 robustness modification
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+39c8fb3 microsoft: Import LinkToWindows and dependencies
+
+
+=======================
+     2024/01/28
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+9650094 vibrator: Add support for TEXTURE_TICK effect
+
+
+=======================
+     2024/01/27
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+304ea71 SettingsGoogle: Adapt new Smart Pixels fragment path
+
+
+=======================
+     2024/01/26
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+b971f7f Fix unified a/b zip generation failure
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+4905867 Replace {device,qti}_kernel_headers only when building inline
+
+
+
+=======================
+     2024/01/23
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/udc
+
+422939c libc: Add TARGET_ALTERNATIVE_FUTEX_WAITERS
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+ae5e5f8 sdm710: Label sysfs_ssr_toggle
+
+
+
+=======================
+     2024/01/21
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+032a39b Aperture: Update dependencies
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+503ed8b Pif: Move to PreferenceFragmentCompat
+
+
+
+=======================
+     2024/01/19
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+9fd84fc recovery_ui: Add support for battery capacity status
+
+
+
+=======================
+     2024/01/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+b6998a9 sepolicy_vndr: Remove vendor_service.
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+cd35109 qcom: Allow a device to manually override which HALs it wants to use
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_wlan/commits/lineage-21.0-caf
+
+21c176b cld80211: Convert makefile to blueprint
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+3b7da6c extract-utils: Disable elf checks by default
+
+* Repository: https://gitlab.com/EvoX/vendor_certification/commits/refs/heads/udc
+
+febec8e certification: 01/15/2024 Update
