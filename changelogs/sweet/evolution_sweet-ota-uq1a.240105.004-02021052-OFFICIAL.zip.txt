@@ -1,0 +1,101 @@
+This is Android 14 with January 2023 (r20) security patches
+
+Notes:
+==============================
+Clean flash Recommended
+Use latest MIUI 14.x firmware
+Use latest recovery (https://sourceforge.net/projects/zaid-sweet-build/files/Recovery/PBRP-Android14/PBRP-sweet-4.0-20231013-1949-UNOFFICIAL.zip/download)
+Device changes:
+==============================
+- Changes for Unsinged build
+- fixed known bugs 
+- Other Misc. fixes and changes
+Credit :-
+               Arian, itsshashanksp, Adarsh for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+ROM changes:
+==============================
+AudioFlinger: Import Minimal Dolby Environment Changes
+BatteryStatsImpl: Fix wrong synchronized with mDailyFile
+Bring in Link To Windows feature
+BootAnimation: Check for resolution override
+Don't fail setDeviceConnectionState if not implemented in hal
+EdgeLight: Fix up applying custom color
+Evolver: Add lockscreen Media art customization
+Evolver: Move Spoofing into its own fragment
+Evolver: Refactor Edge light customizations
+Evolver: Remove no longer used monet schemes
+Evolver: Updated translations
+Fix unified a/b zip generation failure
+Settings: Fix a null pointer exception on cutout force full screen
+Settings: Fully move Smart Pixels from Evolver
+SettingsGoogle: Follow monet color in settings icon like AOSP
+Show hidden apps on secondary users' app lists
+SystemUI: Do not duplicate SPN and PLMN in network name
+SystemUI: Don't show volume dialog when panel is showing
+SystemUI: Fix height for center and right clock
+SystemUI: Make popup menus more rounded
+SystemUI: Make the volume dialog expandable
+SystemUI: Refactor Edge light color mode
+SystemUIGoogle: CentralSurfacesImpl: Fix build after d1 merge
+VolumeDialogImpl: Ignore external layout direction changes
+VolumePanel: Open volume panel on expand long click
+base: Enable burn-in protection by default
+device_config: Enable Circle to Search functionality
+device_config: Refactor and update
+fixup! VolumeDialogImpl: Add STREAM_NOTIFICATION row
+microsoft: Import LinkToWindows and dependencies
+services: fix weird launcher3 crash
+vendor: overlay: Always apply monet to both SettingsGoogle and Settings
+Add api to get or kill foreground app
+Allow lid to send a generic COVER_CHANGED broadcast
+AudioDeviceBroker: reapply BT HAL state on native AS restart
+Avoid device reboot caused by SecurityException
+CachedAppOptimizer: Use correct types for get[up]id()
+Correction in logic of rounded size calculation of SD card
+Display: the resolution scale factor changed during booting
+EvolutionUtils: Actions for advanced navigation gestures
+EvolutionUtils: Add method to turn off the screen
+EvolutionUtils: Reverse actions for QS and notification panel
+Evolver: Allow spoofing Velvet to latest model for CTS
+Evolver: Bring back Alarms/WakelockBlocker
+Evolver: Bring back UDFPS animation picker
+Evolver: Refactor fragments/preference paths
+Evolver: Remove UDFPS switch bar
+Evolver: Replace Edge long swipe pref with Advanced Gesture nav options
+Evolver: Sync vibration settings changes
+Evolver: Temporarily move screen animation to Misc category
+Gestures nav: Add Partial Screenshot action
+Gestures nav: Add Power menu action
+PackageInstaller: Remove side padding from the dialog
+Settings: Add misc haptics category
+Settings: Add optional haptic feedback on scrolling with fling gesture
+Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+SettingsGoogle: Add missing summary for text reading options
+Show a double arrow when almost triggered in new back affordance as well
+SystemUI: Cancel keyguard unlock animation when expanding panel
+SystemUI: Cleanup screenshot sound/vibration logic
+SystemUI: Make popup menus more rounded
+SystemUI: Make sure the udfps animation is hidden on the bouncer
+SystemUI: Make the volume dialog expandable
+SystemUI: Simplify udfps animation style selection
+SystemUI: Update udfps animation position on sensor props change
+Telecomm: Enable Incall vibration options by default
+UdfpsAnimations: Add 'none' to the styles
+UdfpsAnimations: Assume that style 0 is always 'none'
+UdfpsAnimations: Use DisplayUtils.getScaleFactor to support multiple resolutions
+ViewConfiguration: Set scroll friction to 0.009
+VolumeDialogImpl: Ignore external layout direction changes
+VolumePanel: Open volume panel on expand long click
+base: Add util function to restart any app
+device_config: Enable Circle to Search functionality
+display: Consider peak refresh rate in BrightnessObserver
+fixup! Forward port CM Screen Security settings
+notification: fix Alarm & PendingIntent leak
+overlay: Increase max fling velocity
+telephony: Check for LTE_CA in physical channel config
+telephony: Do not duplicate SPN and PLMN in network name
+themes: Re-enable UDFPS resources package
+wm: Fix menu in legacy apps with multiple activities
