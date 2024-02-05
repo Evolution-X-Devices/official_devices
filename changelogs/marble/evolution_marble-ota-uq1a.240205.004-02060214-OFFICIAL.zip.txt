@@ -1,0 +1,41 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 02/06/2024).
+- Uses Silvercore kernel (https://github.com/karthick-kk/android_kernel_common_silvercore/releases/tag/20240201).
+- Includes Dolby Atmos, Dolby Vision, Viper4AndroidFX, Leica camera and 32-bit apps support.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Silence some spammy logging
+overlay: Don't require long press for lockscreen shortcuts
+overlay: Globally enable LTE+ icon
+overlay: Set LTE+ threshold bandwidth to 0
+overlay: Sync missing CarrierConfig entries from PA
+overlay: Tune ambient display burn-in protection
+overlay: Tune charging control parameters
+overlay: Update max notification icons config
+switch to common Health AIDL
+
+Notable ROM changes:
+==============================
+BatteryStatsViewer: Move it to Battery Section
+ChooseLockPassword: Decrease minimum pin length for auto confirm
+ChooseLockPassword: Don't uncheck auto confirm above minimum length
+Evolver: Update Island settings
+Island: Do not show now playing on keyguard and dozing state
+IslandView: Fix and improve notification regex filtering
+Merge February 2024 security patches (r25)
+PPU: Update fingerprints to February 2024 release
+Settings: Adapt Evolver fragment paths
+Settings: Hide battery info
+SystemUI: Allow disabling long press for lockscreen shortcuts
+Update translations
+device_config: Update some values
+fixup! SystemUI: Implement burn-in protection for status/navbar
+rro_overlays: Whitelist oslo plugin
+version: Uprev to 8.3
