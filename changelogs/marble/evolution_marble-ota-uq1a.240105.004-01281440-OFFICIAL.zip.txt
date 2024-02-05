@@ -1,0 +1,63 @@
+This is Android 14 with January 2024 QPR1 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 01/27/2024).
+- Uses Silvercore kernel (https://github.com/karthick-kk/android_kernel_common_silvercore/releases/tag/20240115).
+- Includes Dolby Atmos, Dolby Vision, Viper4AndroidFX and 32-bit apps support.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Bring back Dolby Atmos
+overlay: Set preferred max refresh rate on keyguard to 60
+overlay: frameworks: Tune burn-in offsets for AOD
+parts: Move to PreferenceFragmentCompat
+parts: Re-enable speaker virtualization after bootup
+
+Notable ROM changes:
+==============================
+AudioFlinger: Import Minimal Dolby Environment Changes
+Av: Camera: Import Xiaomi BufferProducerDetachListener changes
+BatteryStatsImpl: Fix wrong synchronized with mDailyFile
+BlastBufferQueque: Import Xiaomi Android 13 BlastBuffer Changes
+Bring in Link To Windows feature
+BootAnimation: Check for resolution override
+CAMX: CHI: Added support for handling jpeg debug data
+Clock: Use executor for tuner settings
+Don't fail setDeviceConnectionState if not implemented in hal
+EdgeLight: Fix up applying custom color
+Evolver: Add lockscreen Media art customization
+Evolver: Move Spoofing into its own fragment
+Evolver: Refactor Edge light customizations
+Evolver: Remove no longer used monet schemes
+Evolver: Updated translations
+Fix unified a/b zip generation failure
+IPCThreadState: Import Xiaomi Android 13 robustness modification
+Native: Camera: Import Release Slot Xiaomi Changes
+Native: IPCThreadState: Import Xiaomi Modifications
+Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+Settings: Fix a null pointer exception on cutout force full screen
+Settings: Fully move Smart Pixels from Evolver
+SettingsGoogle: Follow monet color in settings icon like AOSP
+Show hidden apps on secondary users' app lists
+SystemUI: Do not duplicate SPN and PLMN in network name
+SystemUI: Don't show volume dialog when panel is showing
+SystemUI: Fix height for center and right clock
+SystemUI: Make the volume dialog expandable
+SystemUI: Refactor Edge light color mode
+SystemUI: VolumeDialogImpl: Do not override the layout direction
+SystemUIGoogle: CentralSurfacesImpl: Fix build after d1 merge
+VolumePanel: Open volume panel on expand long click
+base: Enable burn-in protection by default
+device_config: Refactor and update
+fixup! VolumeDialogImpl: Add STREAM_NOTIFICATION row
+frameworks/av: Import Xiaomi Image Tags defenitions
+libcameraservice: Import Xiaomi DistortionMapper Modifications
+libcameraservice: Import Xiaomi Exif Camera Modifications
+microsoft: Import LinkToWindows and dependencies
+services: fix weird launcher3 crash
+vendor: overlay: Always apply monet to both SettingsGoogle and Settings

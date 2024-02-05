@@ -1,0 +1,144 @@
+  
+2024-01-28
+
+
+To use this release you need:
+
+   MIUI_V14.0.7.0.TLCMIXM
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: overlays: enable vibration multiple intensity levels
+  * cupid: Remove msm_irqbalance service
+  * cupid: overlay: Import missing CarrierConfig entries from marble
+  * cupid: Symlink ims libs for the ims app
+
+
+ROM:
+
+=======================
+     2024/01/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+d6c146e59b libcameraservice: Import Xiaomi DistortionMapper Modifications
+130e34cad9 libcameraservice: Import Xiaomi Exif Camera Modifications
+0bc8f3e74c frameworks/av: Import Xiaomi Image Tags defenitions
+c188a8fc9c Av: Camera: Import Xiaomi BufferProducerDetachListener changes
+1507600c8c CAMX: CHI: Added support for handling jpeg debug data.
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+08c2b7675aef base: Enable device integration
+a75493a46468 Update PhoneLink 14-3 frameworks/base change
+a8b3b2d7eb30 Delete SystemApi annotation
+d6c0c6e008c5 Base: define for DISABLE_DEVICE_INTEGRATION
+f3caeba458c9 base: the second update for Phone Link
+05f25e357bb3 base: add support of the Phone Link
+796df352daa3 SystemUI: VolumeDialogImpl: Do not override the layout direction
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+521b2c577e Native: IPCThreadState: Import Xiaomi Modifications
+3ff10e8d2b BlastBufferQueque: Import Xiaomi Android 13 BlastBuffer Changes
+372ede5dba Native: Camera: Import Release Slot Xiaomi Changes
+30a3f29cea Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+26a152d0c0 Revert "IPCThreadState: Workaround to improve robustness"
+064b4c04b8 Update PhoneLink 14-3 frameworks/native change
+94f4133440 Make servicemanager ProcessCapacityHigh
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+160ba30 New Crowdin updates (#514-#580)
+7548342 Evolver: Move Spoofing into its own fragment
+16be38f Evolver: Move Smart Pixels fragment to main Settings
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+514dc83369 Update PhoneLink 14-3 Settings change
+f4baf76967 Settings: Also apply "Fix a null pointer exception" to HideDevStatus
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/udc
+
+cc2f3d0 IPCThreadState: Import Xiaomi Android 13 robustness modification
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+39c8fb3d microsoft: Import LinkToWindows and dependencies
+2baa5bae device_config: Refactor and update
+
+
+=======================
+     2024/01/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+cc3d2fa4e9 AudioFlinger: Import Minimal Dolby Environment Changes
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+fa04b06b1f27 VolumePanel: Open volume panel on expand long click
+2ae129f70374 fixup! VolumeDialogImpl: Add STREAM_NOTIFICATION row
+636e66112e46 SystemUI: Make the volume dialog expandable
+8e3106e5b8c4 BatteryStatsImpl: Fix wrong synchronized with mDailyFile.
+d74bfd416245 base: Enable burn-in protection by default
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+9650094 vibrator: Add support for TEXTURE_TICK effect
+0866e90 vibrator: Add support for drv2624:haptics
+22411bd vibrator: Create double click effect by "clicking" twice
+5cd8b81 vibrator: Fallback to click if an effect is missing
+5ca3dc1 vibrator: Use a better check for primitive effects
+c935868 vibrator: fix product makefile
+331314e vibrator: Add support for awinic_haptic
+c22e0a1 vibrator: Don't support compose effects if primitve_duration node does not exist
+3763b92 vibrator: effect: Read vibration fifo data from vendor
+d95f0a8 vibrator: Hook USE_EFFECT_STREAM up
+8c8c506 vibrator: Add support for aw8697_haptic input device
+65b5215 vibrator: Add support for aw8624_haptic input device
+63a9289 vibrator: aidl: Simplify soc check and drop prop dep
+6896e24 vibrator: Rename to avoid conflicts
+5617055 vibrator: Import from LA.VENDOR.13.2.0.r1-15400-KAILUA.QSSI14.0
+9ed9f9f Revert "Import qti vibrator effect and rename"
+3d525f2 Revert "vibrator: effect: Read vibration fifo data from vendor"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+89712ce781 Settings: Fully move Smart Pixels from Evolver
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+304ea71 SettingsGoogle: Adapt new Smart Pixels fragment path
+
+
+=======================
+     2024/01/26
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+1deb42e1afff Don't fail setDeviceConnectionState if not implemented in hal
+6315fe8c55b6 BootAnimation: Check for resolution override
+00dd4aadda56 Revert "BootAnimation: Scale size to display size if the surface size is limited"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+47f4e95 Evolver: Refactor Edge light customizations
+b66af17 Evolver: Remove no longer used monet schemes
+4b1cc08 Evolver: Add lockscreen Media art cust [2/2]
+305bee2 Evolver: Remove Volume Steps fragment
+970cf24 Evolver: Drop Less boring heads up
+156a975 Evolver: Drop Swap capacitive buttons category
+09750a2 Evolver: Allow spoofing all gapps to Pixel 8 Pro [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+d68c3f6407 Settings: Fix a null pointer exception on cutout force full screen

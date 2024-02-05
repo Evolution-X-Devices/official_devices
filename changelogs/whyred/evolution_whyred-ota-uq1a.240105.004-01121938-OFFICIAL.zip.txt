@@ -1,0 +1,19 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue.
+- If you found any issue then kindly report with logs in device support group.
+- Use erofs dynamic partition supported recovery only.
+
+Device Changelog:
+================
+- Synced with latest source.
+- Added all missing bluetooth blobs.
+- Build libldacBT_bco.
+- Removed hw_acc.
+- Disabled backpressure.
+- Fixed video lags in some apps.
+- Added missing DRM dependencies.
+- Added missing QSEECOMD blob dependencies.
+- Import missing misoundfx blob.
+- Re-order dirac blobs.
+- Many improvements and bug fixes.

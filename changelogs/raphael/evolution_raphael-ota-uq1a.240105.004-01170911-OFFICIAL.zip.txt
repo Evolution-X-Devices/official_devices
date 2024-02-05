@@ -1,0 +1,44 @@
+This is Android 14 with January 2024 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Kernel is already pre-rooted with KSU.
+- Play Integrity passes by default (As of 01/17/2024).
+
+Device changes:
+==============================
+Switch to common Xiaomi 1.0 sensors implementation
+Update adreno blobs to 746 from quest 2
+overlay: Set fast charging indicator threshold to 10.8W
+sensors: Support single tap sensor
+
+Notable ROM changes:
+==============================
+Add Gravis GamePad Pro USB key layout
+Evolver: Allow spoofing all gapps to Pixel 8 Pro
+Evolver: Drop 'Muted' monet theme style
+Evolver: Drop Swap capacitive buttons category
+Evolver: Updated translations
+FaceSense: Vibrate on successful authentication
+MeizuPropsUtils: Spoof Hihonor Cloudmusic
+PPU: Spoof to recent Pixel on iD apps
+PPU: Stop spoofing com.google.android.googlequicksearchbox
+PPU: Update fingerprints to January 2024 release
+PhoneWindowManager: Pass correct invocation type for assistant launch on home long press
+Settings: Add a toggle for High touch polling rate
+Settings: Allow changing face unlock method when locked
+Settings: Don't make app lock settings searchable
+Settings: Introduce App Lock
+Settings: Remove toggle for connectivity check
+SettingsLib: Handle WifiService being null
+Status bar clock: avoid NPE when the clock is hidden
+SystemUI: Add affordance shorcut for AI Voice Assistant
+SystemUI: Disable wakeup animations when unlocking with fingerprint
+SystemUI: Optimize notificiation expansion animation
+SystemUI: Prevent OOB when reinflating QS panel with notifications
+SystemUI: Remove broken Expanded Volume panel
+SystemUI: flags: Enable new privacy dialog
+core: Disable RescueParty by default
+usb: Show charging notification only if power brick is disconnected

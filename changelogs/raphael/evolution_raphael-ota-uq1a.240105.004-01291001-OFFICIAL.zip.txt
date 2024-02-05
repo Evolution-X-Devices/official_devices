@@ -1,0 +1,48 @@
+This is Android 14 with January 2024 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Kernel is already pre-rooted with KSU.
+- Play Integrity passes by default (As of 01/29/2024).
+
+Device changes:
+==============================
+Enable xiaomi vibrator effects on common qti vibrator hal
+parts: Move to PreferenceFragmentCompat
+
+Notable ROM changes:
+==============================
+AudioFlinger: Import Minimal Dolby Environment Changes
+BatteryStatsImpl: Fix wrong synchronized with mDailyFile
+Bring in Link To Windows feature
+BootAnimation: Check for resolution override
+Don't fail setDeviceConnectionState if not implemented in hal
+EdgeLight: Fix up applying custom color
+Evolver: Add lockscreen Media art customization
+Evolver: Move Spoofing into its own fragment
+Evolver: Refactor Edge light customizations
+Evolver: Remove no longer used monet schemes
+Evolver: Updated translations
+Fix unified a/b zip generation failure
+Settings: Fix a null pointer exception on cutout force full screen
+Settings: Fully move Smart Pixels from Evolver
+SettingsGoogle: Follow monet color in settings icon like AOSP
+Show hidden apps on secondary users' app lists
+SystemUI: Do not duplicate SPN and PLMN in network name
+SystemUI: Don't show volume dialog when panel is showing
+SystemUI: Fix height for center and right clock
+SystemUI: Make popup menus more rounded
+SystemUI: Make the volume dialog expandable
+SystemUI: Refactor Edge light color mode
+SystemUIGoogle: CentralSurfacesImpl: Fix build after d1 merge
+VolumeDialogImpl: Ignore external layout direction changes
+VolumePanel: Open volume panel on expand long click
+base: Enable burn-in protection by default
+device_config: Enable Circle to Search functionality
+device_config: Refactor and update
+fixup! VolumeDialogImpl: Add STREAM_NOTIFICATION row
+microsoft: Import LinkToWindows and dependencies
+services: fix weird launcher3 crash
+vendor: overlay: Always apply monet to both SettingsGoogle and Settings

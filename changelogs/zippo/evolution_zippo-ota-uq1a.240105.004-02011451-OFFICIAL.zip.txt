@@ -1,0 +1,34 @@
+- FORMAT DATA IS REQUIRED IF YOU COME FROM LEGACY PARTITIONS. MAKE SURE TO USE THE RECOVERY LINKED IN THE INSTALLATION INSTRUCTIONS AT THE XDA FORUM
+- Firmware 12.5.365 is required
+- SELinux is Enforcing
+- User build
+- Locked bootloader is supported
+- Forced encryption is enabled
+
+**Device Changes:**
+
+- Update KernelSU to 0.7.6
+- Integrate Dolby Atmos in Settings/Sound
+
+**Evolution X Update**
+
+- Add UDFPS recognizing animations
+- Get all vibration settings together in the same menu
+- Evolver: Bring back Alarms/WakelockBlocker
+- Evolver: Replace Edge long swipe pref with Advanced Gesture nav options
+- Settings: Add optional haptic feedback on scrolling with fling gesture
+- Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+- Show a double arrow when almost triggered in new back affordance as well
+- SystemUI: Make popup menus more rounded
+- Evolver: Refactor Edge light customizations
+- EdgeLight: Fix up applying custom color
+- Settings: Fix a null pointer exception on cutout force full screen
+- Settings: Fully move Smart Pixels from Evolver
+- SettingsGoogle: Follow monet color in settings icon like AOSP
+- SystemUI: Fix height for center and right clock
+- SystemUI: Make popup menus more rounded
+- SystemUI: Make the volume dialog expandable
+- VolumePanel: Open volume panel on expand long click
+- device_config: Enable Circle to Search functionality
+- services: fix weird launcher3 crash
+- Update translations

@@ -1,0 +1,44 @@
+This is Android 14 with January 2024 QPR1 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 01/31/2024).
+- Uses Silvercore kernel (https://github.com/karthick-kk/android_kernel_common_silvercore/releases/tag/20240115).
+- Includes Dolby Atmos, Dolby Vision, Viper4AndroidFX and 32-bit apps support.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Remove max refresh rate limit on keyguard
+Remove previous auto brightness changes
+
+Notable ROM changes:
+==============================
+AudioDeviceBroker: reapply BT HAL state on native AS restart
+Avoid device reboot caused by SecurityException
+CachedAppOptimizer: Use correct types for get[up]id()
+Correction in logic of rounded size calculation of SD card
+Display: the resolution scale factor changed during booting
+Evolver: Bring back Alarms/WakelockBlocker
+Evolver: Move Spoofing into its own fragment
+Evolver: Temporarily move screen animation to Misc category
+PackageInstaller: Remove side padding from the dialog
+Settings: Add misc haptics category
+Settings: Add optional haptic feedback on scrolling with fling gesture
+SettingsGoogle: Add missing summary for text reading options
+SettingsGoogle: Sync vibration settings changes
+SystemUI: Cancel keyguard unlock animation when expanding panel
+SystemUI: Cleanup screenshot sound/vibration logic
+Telecomm: Enable Incall vibration options by default
+ViewConfiguration: Set scroll friction to 0.009
+VolumeDialogImpl: Ignore external layout direction changes
+base: Add util function to restart any app
+device_config: Enable Circle to Search functionality
+display: Consider peak refresh rate in BrightnessObserver
+notification: fix Alarm & PendingIntent leak
+overlay: Increase max fling velocity
+telephony: Check for LTE_CA in physical channel config
+telephony: Do not duplicate SPN and PLMN in network name

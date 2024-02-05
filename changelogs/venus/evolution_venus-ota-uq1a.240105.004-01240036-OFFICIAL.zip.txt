@@ -1,0 +1,16 @@
+This is Android 14 with January 2024 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install Magisk for root.
+- Play Integrity passes by default (As of 01/24/2024).
+
+Device changes:
+==============================
+Refactor trees
+
+ROM changes:
+==============================
+Merge source changes from end of December to January

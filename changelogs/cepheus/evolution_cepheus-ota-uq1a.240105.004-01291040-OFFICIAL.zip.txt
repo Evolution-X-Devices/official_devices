@@ -1,0 +1,25 @@
+- FORMAT DATA IS REQUIRED. Check the first post at the XDA thread and follow the instructions as if you were coming from MIUI
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread)
+
+**Device Changes:**
+
+- Update KernelSU to 0.7.6
+- Enable metadata encryption
+- EXT4 Data can be decrypted now
+- Revert MIUI camera to previous version
+
+**Evolution X Update**
+
+- Bring in Link To Windows feature
+- Evolver: Refactor Edge light customizations
+- EdgeLight: Fix up applying custom color
+- Settings: Fix a null pointer exception on cutout force full screen
+- Settings: Fully move Smart Pixels from Evolver
+- SettingsGoogle: Follow monet color in settings icon like AOSP
+- SystemUI: Fix height for center and right clock
+- SystemUI: Make popup menus more rounded
+- SystemUI: Make the volume dialog expandable
+- VolumePanel: Open volume panel on expand long click
+- device_config: Enable Circle to Search functionality
+- services: fix weird launcher3 crash
+- Update translations

@@ -1,0 +1,65 @@
+This is Android 14 with January 2024 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install Magisk for root.
+- Play Integrity passes by default (As of 02/02/2024).
+
+Device changes:
+==============================
+None
+
+ROM changes:
+==============================
+Add api to get or kill foreground app
+Allow lid to send a generic COVER_CHANGED broadcast
+AudioDeviceBroker: reapply BT HAL state on native AS restart
+Avoid device reboot caused by SecurityException
+CachedAppOptimizer: Use correct types for get[up]id()
+Correction in logic of rounded size calculation of SD card
+Display: the resolution scale factor changed during booting
+EvolutionUtils: Actions for advanced navigation gestures
+EvolutionUtils: Add method to turn off the screen
+EvolutionUtils: Reverse actions for QS and notification panel
+Evolver: Allow spoofing Velvet to latest model for CTS
+Evolver: Bring back Alarms/WakelockBlocker
+Evolver: Bring back UDFPS animation picker
+Evolver: Refactor fragments/preference paths
+Evolver: Remove UDFPS switch bar
+Evolver: Replace Edge long swipe pref with Advanced Gesture nav options
+Evolver: Sync vibration settings changes
+Evolver: Temporarily move screen animation to Misc category
+Gestures nav: Add Partial Screenshot action
+Gestures nav: Add Power menu action
+PackageInstaller: Remove side padding from the dialog
+Settings: Add misc haptics category
+Settings: Add optional haptic feedback on scrolling with fling gesture
+Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+SettingsGoogle: Add missing summary for text reading options
+Show a double arrow when almost triggered in new back affordance as well
+SystemUI: Cancel keyguard unlock animation when expanding panel
+SystemUI: Cleanup screenshot sound/vibration logic
+SystemUI: Make popup menus more rounded
+SystemUI: Make sure the udfps animation is hidden on the bouncer
+SystemUI: Make the volume dialog expandable
+SystemUI: Simplify udfps animation style selection
+SystemUI: Update udfps animation position on sensor props change
+Telecomm: Enable Incall vibration options by default
+UdfpsAnimations: Add 'none' to the styles
+UdfpsAnimations: Assume that style 0 is always 'none'
+UdfpsAnimations: Use DisplayUtils.getScaleFactor to support multiple resolutions
+ViewConfiguration: Set scroll friction to 0.009
+VolumeDialogImpl: Ignore external layout direction changes
+VolumePanel: Open volume panel on expand long click
+base: Add util function to restart any app
+device_config: Enable Circle to Search functionality
+display: Consider peak refresh rate in BrightnessObserver
+fixup! Forward port CM Screen Security settings
+notification: fix Alarm & PendingIntent leak
+overlay: Increase max fling velocity
+telephony: Check for LTE_CA in physical channel config
+telephony: Do not duplicate SPN and PLMN in network name
+themes: Re-enable UDFPS resources package
+wm: Fix menu in legacy apps with multiple activities

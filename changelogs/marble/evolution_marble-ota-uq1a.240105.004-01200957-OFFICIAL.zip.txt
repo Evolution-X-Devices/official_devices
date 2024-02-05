@@ -1,0 +1,30 @@
+This is Android 14 with January 2024 QPR1 (r20) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 01/18/2024).
+- Uses Silvercore kernel (https://github.com/karthick-kk/android_kernel_common_silvercore/releases/tag/20240115).
+- Includes Dirac and 32-bit support.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Don't show smooth display
+Fix DT2W not working randomly
+Move charger_fw_fstab.qti to vendor tree
+Optimize auto brightness adjustment
+Tweak some auto brightness configs
+libinit: Update marblein fingerprint
+overlay: wifi: Update to HyperOS V816.0.4.0.UMREUXM
+parts: NfcCameraService: Update Face unlock package name
+rootdir: Clean up init.marble.rc
+sepolicy: Refactor entries
+
+Notable ROM changes:
+==============================
+Evolver: Remove less boring heads up feature
+Settings: Move customizing volume stream steps from Evolver
+Spatializer: call postReset() instead of setting spatializer state to NOT_SUPPORTED

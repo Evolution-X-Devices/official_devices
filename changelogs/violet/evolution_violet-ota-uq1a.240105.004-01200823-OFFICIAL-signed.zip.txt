@@ -1,0 +1,360 @@
+version: 8.2.0 (Tikoy)
+
+==============================
+Device changes:
+==============================
+- Remove Pocket Mode setting
+- Enable LTE_CA workaround
+- Disable SF client composition cache
+- Import more surface flinger flags
+- Disable blurs
+- Force device to treat 170M as sRGB in SF
+- Enable casefolding support on userdata
+- FUSE passthrough by default
+- add seperated fstab for recovery
+- Increase minimum brightness level
+- Update wifi overlay from MIUI
+- Disable SF composition prediction model
+- Drop SDM LiveDisplay service
+- Switch to QTI health implementation
+- Build default health HIDL recovery impl
+- Move to QTI health AIDL service
+- Keep building health HIDL interface lib in vendor
+- Pretend to be launched with dynamic partitions
+- audio HAL: Enable RT priority inheritance
+- Drop HIDL BtAudio
+- Set correct manufacturer
+- Switch to Mini GApps
+- Mics changes and improvement
+
+N.B: Formant Data Mandatory
+
+==============================
+ROM changes:
+==============================
+
+=======================
+     2024/01/20
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+191a6ce91 sepolicy_vndr: legacy: Allow using logdump partition as metadata
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4aea5432b6 Fix spatial audio noise with EQ on
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+9f3824c52990 Spatializer: call `postReset()` instead of setting spatializer state to NOT_SUPPORTED
+fd4e3d215bb7 base: Allow customizing volume stream steps [1/3]
+0a0ffa05abc4 Revert "base: Live Volume Steps [1/2]"
+2ea24ec9d640 Revert "Improve Transition GC initiation by improving the Frameworks triggering"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+44f740a Evolver: Remove Volume Steps fragment
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+6c9b405 Pif: Move to PreferenceFragmentCompat
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+ae531a6db9 Settings: Allow customizing volume stream steps [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4b54494 SettingsGoogle: Allow customizing volume stream steps [3/3]
+
+
+=======================
+     2024/01/19
+=======================
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+9fd84fc5 recovery_ui: Add support for battery capacity status
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+efd0c17263de Revert "Add less boring heads up option [SQUASHED]"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+18c93de Evolver: Drop Less boring heads up
+
+
+=======================
+     2024/01/18
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+d8a5c648989b telecom: Fix areBundleEqual in Call.
+d755c993008f core: res: Add ParanoidSense into privacy indicator exemption list
+bbfce64412d1 SystemUI: Fix face unlock icon visibility when auth fails
+b2b0cef7ba3c Revert "Deprecate TunerService"
+ddccb6966fb9 PPU: do not spoof Pixel Launcher
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+4fa3048 Aperture: Update AGP to 8.2.1
+4fe3a04 Aperture: Update Gradle to 8.5
+93a5d30 Aperture: Fix HDR10+ drawable
+20fb43d Aperture: Run `./gradlew app:generateBp`
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+80ba16f1 rro_overlays: Create PixelConfigCustomOverlay for Pixels only
+
+
+=======================
+     2024/01/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+905067fb3d Codec2: Extend queing the dummy work signal to taro
+e180828092 Codec2: guard the dummy work signal to lahaina only
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+b2b7c2a17941 Make the icon of SplashScreenView non-focusable
+7dfe88859e85 Revert "Update battery saver haptics mode"
+dbc8e71a9fd9 usb: Show charging notification only if power brick is disconnected
+4ee4c4a16704 Revert "Revert "Show charging notification when device is being charged via USB, with USB data disabled.""
+27585a982f19 Revert "udfps: Remove navbar inset for BiometricPrompt"
+e4528e6188d2 PPU: Stop spoofing com.google.android.googlequicksearchbox
+cb6b8e62ec02 fixup! services: Fix exception when retrieving target SDK version
+e309dd3595d4 Reset top activity's mWaitForEnteringPinnedMode when aborting an incomplete pip-entry
+d4e670067a3d display: Allow HBM in manual brightness if no time limitation
+44f552cff8c3 Revert "AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress"
+ff5fdf706960 SystemUI: Add affordance shorcut for AI Voice Assistant
+86a42ae14e99 services: Avoid system crash when retrieving spatializer tracking mode
+75bf8e0cf9b1 Do not assistant delay for media notifications
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+f713943 Evolver: Drop Swap capacitive buttons category
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a9fd73eaf5 Settings: Add a toggle for High touch polling rate
+3b2d21f794 Settings: Don't make app lock settings searchable
+7f5e942a33 Settings: Show AOSP Battery cycle count
+a467346275 [2/3] Allow changing face unlock method when locked
+fb1be97d65 Settings: Hide Flashlight
+73843a9958 Settings: Let app lock use face unlock
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+ddc8cd1 SettingsGoogle: Add a toggle for High touch polling rate [2/2]
+
+
+=======================
+     2024/01/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+b6998a9cc sepolicy_vndr: Remove vendor_service.
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+cd35109 qcom: Allow a device to manually override which HALs it wants to use
+e525fa0 os_pickup_sepolicy_vndr: Switch to Evolution directory
+86535b8 qcom: Add qcom-caf wlan to soong namespaces
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_wlan/commits/lineage-21.0-caf
+
+21c176b cld80211: Convert makefile to blueprint
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+a244168 Evolver: Drop 'Muted' monet theme style
+99bfb73 Evolver: Allow spoofing all gapps to Pixel 8 Pro [2/2]
+97ba8d5 New Crowdin updates (#514-#570)
+
+* Repository: https://github.com/LineageOS/android_tools_extract-utils/commits/refs/heads/lineage-21.0
+
+3b7da6c extract-utils: Disable elf checks by default
+88ddd69 extract-utils: Use sub_dir for sh_binary
+71a53af extract-utils: Specify arch for binary targets
+8c60233 extract_utils: Sort prefix_match() output
+8e791d8 extract-utils: Specify filename for sh_binary
+563d962 extract-utils: Support rfsa package targets on vendor
+94fac09 extract-utils: Enable elf checks on elf targets
+
+* Repository: /commits/refs/heads/udc
+
+041d35a Revert "certification: Switch to presigned"
+
+
+=======================
+     2024/01/15
+=======================
+
+
+=======================
+     2024/01/14
+=======================
+
+
+=======================
+     2024/01/13
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+18a189e2 vendor: Update pixel overlays
+
+
+=======================
+     2024/01/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+eeaa6ee19c53 Update volume icons visibility after policy update
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+ca56085a20 Bluetooth: Preserve APM_ENHANCEMENT on boot
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+bd116a24 PixelLauncherCustomOverlay: Disable blur for Pixel launcher
+c5b0e90c PixelLauncherCustomOverlay: Mitigate crashing over 600dpi
+86f6c6b1 rro_overlays: Convert PixelLauncherIconsOverlay to PixelLauncherCustomOverlay
+2322179c rro_overlays: Enable Clear Calling by default for Pixels only
+99fa90d7 init: Hide Magisk better
+2d1a49c3 vars: January 2024 Security update
+7213630e vars: shusky
+4b96bf5a config: Disable lockscreen live wallpaper
+dd6ae26f version: Consolidate EVO_VERSION
+07e2c533 vendor: Remove safety protection support remnants
+25f32fc5 fixup! overlay: Use old NTP server in China
+34c47ce4 prebuilt: Update APNs for Boost Mobile
+bad5fa4c kernel: Default to no gcc on kernel 6.x
+ac34d13d version: Uprev to 8.2
+
+
+=======================
+     2024/01/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+fdf18a4bd holi: Label discard_max_bytes sysfs
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+82e493ed7945 [1/3] Allow changing face unlock method when locked
+ff4ac8ad26d2 Flags: Enable color fidelity
+e72e780e055c Do not ignore background vibrations from shell
+de215bf5a7f0 AlarmManager: create setExactAndAllowWhileIdle variant based on alarm listener
+a6c5355db479 Automatically start all work profiles
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+eb1e33e [3/3] Allow changing face unlock method when locked
+
+
+=======================
+     2024/01/10
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+4aa876fa7 Merge tag 'LA.UM.9.14.r1-23600-LAHAINA.QSSI14.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into lineage-21.0-legacy-um
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+5c18fed992a8 FaceService: Conditionally add ParanoidSense
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+7a4ba1509 Label wifi.interface.
+1fb3f0c28 Ignore access to /proc/pagetypeinfo for Settings
+
+
+=======================
+     2024/01/09
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc-j
+
+066fe738f0 Revert "soong: Add ability to build scudo-free 32-bit libc variant."
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc-j
+
+1f11c5686 Revert "Add ability to enable scudo-free 32-bit libc variant."
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+6f4cd84d0 bengal: Allow using legacy IMS rules
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8333d8e87f9c PPU: Allow spoofing all gapps to Pixel 8 Pro [1/2]
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+734873a manifest: Track udc-j branches for meme cam changes
+
+* Repository: https://github.com/Evolution-X/packages_apps_Pif/commits/refs/heads/udc
+
+d98981c Pif: Remove PreferenceCategory
+
+* Repository: https://github.com/LineageOS/android_vendor_codeaurora_telephony/commits/refs/heads/lineage-21.0
+
+aca2cbe fixup! IMS: Add Motorola specific API for VT
+
+
+=======================
+     2024/01/08
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+165c0d500d15 PixelPropsUtils: Check process name before doing certify
+41e55cca55f2 Add other options to settings injectable mappings
+bc15cc838047 Fix phone restarts after SD card formatted as internal storage
+5f7204304a72 ProcessList: Catch Security exception when starting a frozen package
+01260ae7cef7 base: Pre-grant non-system preloaded apps
+9526c1471154 core: Catch OOB when returning pooled string
+bf6238243416 Recycle the original bitmap after scaling down
+60001549de8b Resize large app icons before adding them in a parcel
+f0718e1f2db1 Fix typo in Dynamic coloring section
+d67e29d83644 binder: remove dead logging code
+5f34de61b3dd UEventObserver: Fix logging for uevent messages
+71a0832ae6c5 Fix system reboot in systm_server caused by SensorPrivacyService
+fd9b5023378a Fix: avoid the potential attack on SlicePermissionActivity
+1b33e59f4439 Skip checking SystemUI's permission for observing sensor privacy
+bfad7070c53d hwui: Increase thread prio
+2052ad378407 base: Add com.qualcomm.qti.cne to indicator exemptions
+109b57600738 SystemUI: screenshot: Add delete and share notification actions
+ae1b7bf232ff SystemUI: screenshot: Also post a notification with a preview
+2307b637a0ca SystemUI: biometrics: Follow user setting to confirm face unlock
+c1379cf20d9a AppLock: Allow using face unlock for biometric authentication
+d77338d5a0ae ActivityManagerService: Exclude more packages for receiver check
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+4d84a25 manifest: January 2024 Security update
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+fa9deba GameSpace: Use same illustration for dark theme too
+923a632 Revert "Remove unimplemented notification function"
+
+* Repository: https://gitlab.com/EvoX/vendor_gms_new/commits/refs/heads/udc
+
+aaf80e9 gms: January Update
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+8a849bd SettingsGoogle: Use IllustrationPreference bg protection transparent here too
+c02b16c SettingsGoogle: Show extreme battery saver only if flipendo available
