@@ -1,0 +1,13 @@
+Changelog:
+================
+• Add expanded vol panel (Fixed the disappear bug)
+• Fix dolby mediacodecs
+• Add battery light customizations (disable on full charge and low battery)
+• Add notification light customizations (Control blink pace/duration of led for specific apps and stuff)
+• Make AlwaysONDisplay Functional again
+• Increase in-call earpiece volume and mic volume
+• Fix drm clearkey hal
+• Update adreno drivers to 530.51
+• Added extended swipe actions
+• Added Alarm and wakelock blocker
+• Added lockscreen media art
