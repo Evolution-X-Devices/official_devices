@@ -1,0 +1,4 @@
+- Merged Febraury Security Patch
+- kernel: updated lz4 to v1.9.4
+- kernel: enabled userspace vibration control
+- pin launcher app in memor
