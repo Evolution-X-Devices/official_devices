@@ -1,0 +1,12 @@
+Changelog:
+================
+• Merged February 2024 Security Patch
+• Add expanded vol panel (Fixed the disappear bug)
+• Add battery light customizations (disable on full charge and low battery)
+• Shipped with pre-configured ready-to-use GCam for now
+• Improve battery backup and overall ui/ux latency
+• Make AlwaysONDisplay Functional again
+• Added extended swipe actions
+• Add dynamic VoLTE / VoWifi Icons
+• Added Alarm and wakelock blocker
+• Added lockscreen media art
