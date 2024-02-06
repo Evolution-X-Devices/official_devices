@@ -1,0 +1,34 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue.
+- If you found any issue then kindly report with logs in device support group.
+- Use erofs dynamic partition supported recovery only.
+
+Device Changelog: ================
+- Synced with latest source.
+- Added missing com.dsi blobs.
+- Added additional HIDL entries for Radio in manifest.
+- Added UimLpa blob entries in manifest.
+- Added android.hardware.radio 1.x entries in manifest.
+- Build all missing Bluetooth A2DP libs.
+- uprev audio.effects version.
+- Label some RIL property.
+- Added charging control.
+- Added extend fast charge mode.
+- Fixed DeviceSettings fully.
+- Improved ram management.
+- Many improvements and bug fixes.
+
+Source Changelog:
+=================
+• Merged February 2024 Security Patch.
+• Add expanded vol panel (Fixed the disappear bug).
+• Add battery light customizations (disable on full charge and low battery).
+• Shipped with pre-configured ready-to-use GCam for now.
+• Improve battery backup and overall ui/ux latency.
+• Make AlwaysONDisplay Functional again.
+• Added extended swipe actions.
+• Add dynamic VoLTE / VoWifi Icons.
+• Added Alarm and wakelock blocker.
+• Added lockscreen media art.
+• Many more changes.
