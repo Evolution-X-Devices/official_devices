@@ -1,0 +1,405 @@
+  
+2024-01-28
+
+
+To use this release you need:
+
+   MIUI_V14.0.8.0.TLCMIXM
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: overlay: lower down keyguard unlock icon
+  * cupid: overlay: drop config_pulseOnFingerDown
+  * cupid: Set 60Hz max refresh rate on AOD & Ambient Display
+  * cupid: Import taro post_boot script to device tree
+  * cupid: Update build in firmware to MIUI_V14.0.8.0.TLCMIXM
+
+KERNEL:
+
+  * cupid-kernel: Merge tag 'KERNEL.PLATFORM.1.0.r1-17100-kernel.0'
+  * camera-kernel: merge tag 'CAMERA.LA.2.0.r1-11300-WAIPIO.0'
+  * dataipa: merge tag L'A.VENDOR.1.0.r1-24600-WAIPIO.QSSI14.0'
+  * display-drivers: merge tag 'DISPLAY.LA.2.0.r1-12500-WAIPIO.0'
+
+
+ROM:
+
+=======================
+     2024/02/06
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+0151078281 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/art into udc
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+2f3c0a0a fixup! recovery_ui: Add support for battery capacity status
+c04ed77a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/bootable/recovery into udc
+8df79a28 recovery_ui: Add support for battery capacity status
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+24ced9e556 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/build into udc
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+d42ee68 common: Grant adbroot access to package manager
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4fe0e65bfc Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+3b28525a2ca3 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/base into udc
+bc97be0d54d8 PPU: Update fingerprints to February 2024 release
+890e3eb038ec New Crowdin updates (#501)
+22b1faf94a4e Battery light: 100% charged level (1/2)
+2ad3caa9e9a6 frameworks/base: Lights notifications brightness support
+00d938ef71de frameworks/base: Battery and Notification Lights
+76c5ff30bb5d Import LineageNotification from lineage sdk
+ffeb9369ada9 Revert "BatteryService: Fix battery led not turning off when unplugged at 100%"
+1f5dc42a5b91 Revert "Allow to disable battery light"
+3fc5da8b3c01 fixup! SystemUI: Implement burn-in protection for status/navbar
+5f5ef3b6f06b SystemUI: Allow disabling long press for lockscreen shortcuts
+117c504cc724 SystemUI: More notification icons on AOD screen
+2423ceb2dfb4 New Crowdin updates (#500)
+85bea1f53492 BatteryStatsViewer: Move it to Battery Section
+95e30f460645 Island: Do not show now playing on keyguard and dozing state
+b357c475757e IslandView: Fix and improve notification regex filtering
+53a1ae77d461 fixup! SystemUI: Implement Island notification feature
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+2a5b0ac632 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+41fe5de Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+586abe5ee Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/interfaces into udc
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+aa17727 healthd-ext: Fix charge_counter and ETA values
+3aa1b6f healthd-ext: Define override to QTI AIDL healthd-ext hal
+db26527 healthd-ext: Rename hal to xiaomi to avoid compilation conflicts
+8060b15 healthd-ext: Update AIDL HAL service installation paths
+4f35c23 healthd-ext: Add suspend support for charger mode
+143d648 healthd-ext: Add health HAL AIDL implementation
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+45f15e1 manifest: Initial A14 manifest
+bd1e917 Manifest for Android 14.0.0 Release 25 (UQ1A.240205.004)
+571c0d1 Manifest for Android 14.0.0 Release 24 (UQ1A.240205.002.B1)
+8ca252b Manifest for Android 14.0.0 Release 23 (UQ1A.240205.002.A1)
+cf7c5eb Manifest for Android 14.0.0 Release 22 (UQ1A.240205.002)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+a588012 New Crowdin updates (#514-#587)
+7b36b51 Evolver: Nuke battery light
+997f17a Evolver: Update Island settings
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+02c5be56 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+fc899a2686 New Crowdin updates (#381-#389)
+27a8b42d24 Settings: Add back battery and notification lights settings
+7d741d6722 Settings: Battery light: 100% charged level (2/2)
+3d42af1af5 Implement notification light settings
+b6c8519778 Revert "Settings: Add switch for battery led"
+c6789c6196 Settings: Hide battery info
+9da71b2038 ChooseLockPassword: Don't uncheck auto confirm above minimum length
+0e866579df ChooseLockPassword: Decrease minimum pin length for auto confirm
+5f5302ac1e Settings: Adapt Evolver fragment paths
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+feba9684e5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Bluetooth into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+de3e6504a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Permission into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+58a09a5af6 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Wifi into udc
+95fbeefea8 Reduce refresh times for non-persistent MACs
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+7a7f16c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/common into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+300c7c80 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+d49bf0ef8 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/MediaProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+f249b940b Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/services/Telecomm into udc
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+4809c7f80 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/core into udc
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+6218229e Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/extras into udc
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+01b2360c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/logging into udc
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+5f903ed6 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/media into udc
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+982f09a5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/update_engine into udc
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+c03b033 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/vold into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+67d6c389 device_config: Update some values
+c055983a rro_overlays: Whitelist oslo plugin
+ff89dd88 version: Uprev to 8.3
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+f9b743e gms: Bring back previous Android.mk for GoogleCamera
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4866a66 SettingsGoogle: Update battery led options
+
+
+=======================
+     2024/02/05
+=======================
+
+
+=======================
+     2024/02/04
+=======================
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+c8bfa27 certification: 01/15/2024 Update
+
+
+=======================
+     2024/02/03
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+0b5ed0392fba add workaround for dynamic code logging system_server crash
+
+* Repository: /commits/lineage-21.0-caf-sm8450
+
+f230af1b Merge branch 'lineage-21.0-caf-sm8450' of https://github.com/LineageOS/android_hardware_qcom_audio-ar into sm8450
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/udc
+
+5d0849e7d1 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4d7cc82b vendor: config: Build BatteryStatsViewer
+cc4d3866 apn: Update for Telus & their MVNO's (Canada)
+
+
+=======================
+     2024/02/02
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+e6d6c66dd498 UdfpsAnimation: Assume that style 0 is always 'none'
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+147e4ca Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+ea97051 Evolver: Remove UDFPS switch bar
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+fc05b566 UdfpsAnimations: Add 'none' to the styles
+
+
+=======================
+     2024/02/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+0d0e58a3da3d PPU: Refactor
+768d1378d0d2 Gestures nav: Add Partial Screenshot action
+21f8e467454d Gestures nav: Add Power menu action
+4b4d75b33bcd Show a double arrow when almost triggered in new back affordance as well
+28c25739f0d3 [SQUASH] Advanced navigation "extended/L" gestures
+98708dba4ab6 [SQUASH] EvolutionUtils: Actions for advanced navigation gestures
+c41fef2f7c0a EvolutionUtils: Add method to turn off the screen
+a77b827c0577 EvolutionUtils: Reverse actions for QS and notification panel
+d0f8c9ed5e32 Add api to get or kill foreground app
+86209d8436cc [SQUASH] Remove previous edge long swipe gesture implementation
+2158657c242a Allow lid to send a generic COVER_CHANGED broadcast
+3827404d5a22 UdfpsAnimations: Use DisplayUtils.getScaleFactor to support multiple resolutions
+eb762ba9c7b8 SystemUI: Make sure the udfps animation is hidden on the bouncer
+d4981a9c7010 SystemUI: Simplify udfps animation style selection
+54155094fdbc SystemUI: Update udfps animation position on sensor props change
+d881946cd373 [SQUASH] Bring back UDFPS animation
+0da4350b77a9 wm: Fix menu in legacy apps with multiple activities
+29bed2291dc3 Add AlarmsBlocker [1/2]
+04e22419948d Add WakelockBlocker [1/2]
+f7ffe8a8c09b base: Add util function to restart any app
+d1b297a0e91c base: Add optional haptic feedback on scrolling with fling gesture [1/2]
+92648ee9d6b6 ViewConfiguration: Set scroll friction to 0.009
+ac3bab40e97c fixup! SystemUI: Only set dim behind UDFPS if it is actually enabled
+6e20ce7aad22 PackageInstaller: Remove side padding from the dialog
+3bc8ab6cc4a3 display: Consider peak refresh rate in BrightnessObserver
+389ebbc71b65 SystemUI: Cancel keyguard unlock animation when expanding panel
+f6e61ae025ad fixup! Forward port CM Screen Security settings (1/2)
+1d005cc13e22 AudioDeviceBroker: reapply BT HAL state on native AS restart
+ee79f9f32bc8 notification: fix Alarm & PendingIntent leak
+38a93e918ff6 Avoid device reboot caused by SecurityException.
+ca0343aa2baa Correction in logic of rounded size calculation of SD card
+bbcd8d7ab018 SystemUI: Cleanup screenshot sound/vibration logic
+cb8fe7b47e1d PackageInstaller: Fixup 4570be5be981c18a1c9fa4e8ad1a4434ab77d935
+49c1dd30382b CachedAppOptimizer: Use correct types for get[up]id()
+dd324c5d7e2b VolumeDialogImpl: Ignore external layout direction changes
+4924bbd217bc SystemUI: Make popup menus more rounded
+2cb87a50c7cc VolumePanel: Open volume panel on expand long click
+525bcfacbb15 fixup! VolumeDialogImpl: Add STREAM_NOTIFICATION row
+fc960635f55e SystemUI: Make the volume dialog expandable
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+1771a33 Evolver: Refactor fragments/preference paths
+ac7f6d9 Evolver: Allow spoofing Velvet to latest model for CTS [2/2]
+20653f1 Evolver: Replace Edge long swipe pref with Advanced Gesture nav options [2/2]
+a76d43d Evolver: Bring back UDFPS animation picker
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+888d71be1f Allow extended/"L" back swipe to trigger actions/app/activities [2/2]
+7ec606d5bf Revert "Implement edge long swipe gesture [3/3]"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+02832301 themes: Re-enable UDFPS resources package
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+d1cb137 SettingsGoogle: Replace Edge long swipe pref with Advanced Gesture nav options [1/2]
+
+
+=======================
+     2024/01/31
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+dc03466d84 Display: the resolution scale factor changed during booting
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+0cd3650a26 telephony: Check for LTE_CA in physical channel config
+375932fc47 telephony: Do not duplicate SPN and PLMN in network name
+
+* Repository: https://github.com/PixelExperience-Staging/hardware_qcom_wlan/commits/fourteen
+
+e11906f Merge tag 'android-14.0.0_r21' of https://android.googlesource.com/platform/hardware/qcom/wlan into HEAD
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+6eb7941 Evolver: Bring back Alarms/WakelockBlocker
+b5b8e6e Evolver: Temporarily move screen animation to Misc category
+2cdc213 Evolver: Sync vibration settings changes [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a3c0dac598 Settings: Add optional haptic feedback on scrolling with fling gesture [2/2]
+9501cf2081 QuickSettings: Add Haptic Feedback to tiles [2/2]
+113a94e0cf Settings: Add optional haptic feedback to volume panel [2/2]
+9d309492a6 Settings: Guard brightness slider haptic by setting [2/2]
+9fc14424e3 Settings: Incall vibration option [3/3]
+54ae6893c2 Settings: Add misc haptics category
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+db3d2ffcc Telecomm: Enable Incall vibration options by default
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+ad0c068c overlay: Increase max fling velocity
+d7b9eae2 device_config: Enable Circle to Search functionality
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+0dd3eeb SettingsGoogle: Sync vibration settings changes [1/2]
+
+
+=======================
+     2024/01/30
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+15b4a25d15 envsetup.sh: cleanup ccache echo
+ee605c0be5 envsetup: Fix indentation in ccache code snippet
+6e655aa65d envsetup: export the CCACHE_DIR if its not set
+a4810305f3 envsetup: Prefer setting ccache compress as command line parameter
+93d0ec88f3 Automatically set CCACHE_EXEC to the system's ccache
+516d2a2f49 releasetools: Fix fstab path detection when input_file is a path to zip
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+2c32bc9 SettingsGoogle: Add missing summary for text reading options
+
+
+=======================
+     2024/01/29
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+94f4133440 Make servicemanager ProcessCapacityHigh
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+7548342 Evolver: Move Spoofing into its own fragment
+16be38f Evolver: Move Smart Pixels fragment to main Settings
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+f4baf76967 Settings: Also apply "Fix a null pointer exception" to HideDevStatus
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+a6be63a BtHelper: Add a better comment regarding workaround for BLE beacon identification
+
