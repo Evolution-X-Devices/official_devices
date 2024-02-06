@@ -1,0 +1,253 @@
+This build you're receiving is evolution_veux-ota-uq1a.240205.004-02060935-OFFICIAL.zip comes with February Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Gapps are shipped default with Rom.
+Flash your region firmware after flashing rom.
+Dirty flash is fine from last release.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+Comes with Feburary Security Patch level.
+Moto Dolby is supported in this build.
+Includes Pixel Launcher
+Gcam is default Cam.
+Dropped support for ViPER4AndroidFX" 
+(Further who needs it can flash magisk module)
+Enabled TARGET_HAS_WIDE_COLOR_DISPLAY & TARGET_HAS_HDR_DISPLAY
+Enabled VoNR Calls support
+Set LTE+ threshold bandwidth to 0.
+ (So LTE+ icon will show whenever it's available)
+Globally enabled LTE+ icon.
+Updated max notification icons config.
+Updated blobs from veux V14.0.6.0. TKCINXM
+Dropped inbuilt Firmware, Flash your region firmware directly from here (https://t.me/EvolutionXVeux/59850?single)
+Dirty flash will work fine too.
+Includes Positron kernel.
+Synced with the latest source changes.
+Proximity Sensor has is still bugged, doesn't works.
+Further changelogs you can checkout here (https://github.com/Evolution-X-Devices/device_xiaomi_veux/commits/udc/)
+==========================================
+Source Changelogs:
+==========================================
+Find what you need faster … Home is your new landing page and surfaces your most relevant files and folders
+=======================
+     2024/02/06
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+0151078 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/art into udc
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+2f3c0a0 fixup! recovery_ui: Add support for battery capacity status
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+24ced9e Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/build into udc
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+d42ee68 common: Grant adbroot access to package manager
+
+* Repository: /commits/udc
+
+687983a Revert "veux: Include ViPER4AndroidFX" -we use dolby now xD
+46b9794 veux: Enable TARGET_HAS_WIDE_COLOR_DISPLAY & TARGET_HAS_HDR_DISPLAY * also added ro.surface_flinger.has_wide_color_display=true
+54ecbc0 fixup! veux: Enable VoNR Calls support
+2e7fd42 veux: overlay: Set LTE+ threshold bandwidth to 0 * so LTE+ icon will show whenever it's available
+181ae8b veux: overlay: Globally enable LTE+ icon
+2cffe26 veux: overlay: Update max notification icons config
+71ed36a veux: Update from veux V14.0.6.0.TKCINXM * Updated Blobs from latest MIUI Updates
+f880f42 veux: Nuke old parts implementation -we might implement some better parts later on.
+b2ac39e Revert "veux: Inherit Firmware"
+73ca668 veux: rro_overlays: Refactor Brightness Configs And Values
+c71c363 veux: Add Moto Dolby support
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4fe0e65 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+967a47e87 Create FUNDING.yml
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+2a5b0ac Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+41fe5de Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+586abe5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/interfaces into udc
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+aa17727 healthd-ext: Fix charge_counter and ETA values
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+45f15e1 manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+a588012 New Crowdin updates (#514-#587)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+02c5be5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+fc899a2 New Crowdin updates (#381-#389)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+feba968 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Bluetooth into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+de3e650 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Permission into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+58a09a5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Wifi into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+7a7f16c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/common into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+300c7c8 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+d49bf0e Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/MediaProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+f249b94 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/services/Telecomm into udc
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+4809c7f Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/core into udc
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+6218229 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/extras into udc
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+01b2360 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/logging into udc
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+5f903ed Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/media into udc
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+982f09a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/update_engine into udc
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+c03b033 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/vold into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+67d6c38 device_config: Update some values
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+4654655 gms: Add missing permissions
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+ba97622 SystemUIGoogle: include ims-common lib
+
+
+=======================
+     2024/02/04
+=======================
+
+* Repository: /commits/udc
+
+5c2d650 veux: updated Audio hals version
+b438a56 veux: Enable refresh rate toggle in Settings
+9009cef veux: updated BOARD_KERNEL_CMDLINE from latest MIUI
+f2fdf78 veux: tracked audio hal directory for audio xmls
+96529d8 veux: Disable frame rate override feature
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+c8bfa27 certification: 01/15/2024 Update
+
+
+=======================
+     2024/02/03
+=======================
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/udc
+
+5d0849e Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+
+=======================
+     2024/02/02
+=======================
+
+* Repository: /commits/udc
+
+93e7dd8 veux: Build and enable AvoidAppsInCutoutOverlay
+087acff veux: Start audio rpc daemon early to improve performance
+7a076b9 veux: Enable frame pacing
+e99017b veux: overlay: Improve pinner configuration
+b441926 veux: Include ViPER4AndroidFX From - https://github.com/TogoFire/packages_apps_ViPER4AndroidFX
+9f4ae32 veux: libinit: Update global fingerprint from veux:V14.0.4.0.TKCMIXM
+4873814 veux: bc: Import cmdline from veux: V14.0.4.0.TKCMIXM
+e8b95c8 veux: Use full LLVM for kernel build
+4bd0c65 veux: BoardConfig: Build kernel from source We still use prebuilt DTBO for now
+996c26f veux: prebuilt: Import prebuilt dtbo image from: veux:V14.0.4.0.TKCMIXM
+4764554 veux: vendorsetup: clone the new kernel source
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+147e4ca Automatic translation import
+
+
+* Repository: https://github.com/PixelExperience-Staging/hardware_qcom_wlan/commits/fourteen
+
+e11906f Merge tag 'android-14.0.0_r21' of https://android.googlesource.com/platform/hardware/qcom/wlan into HEAD
+
+
+=======================
+     2024/01/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+0cd3650 telephony: Check for LTE_CA in physical channel config
+
+
+=======================
+     2024/01/29
+=======================
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+a6be63a BtHelper: Add a better comment regarding workaround for BLE beacon identification
+
+
+=======================
+     2024/01/25
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc
+
+4905867 Replace {device,qti}_kernel_headers only when building inline
