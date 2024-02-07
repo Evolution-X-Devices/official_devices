@@ -1,0 +1,227 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+=======================
+Device side changes : rebased on Los trees
+
+=======================
+     2024/02/06
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+967a47e87 Create FUNDING.yml
+
+* Repository: https://github.com/Evolution-X/hardware_qcom_wlan/commits/refs/heads/udc
+
+4acab15 Resolve compilation error for fib_rule_port_range with fib_rules.h
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc-j
+
+4685ae9 manifest: Track udc-j branches for meme cam changes
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+a07a0c0 Bluetooth: Add a workaround for M_RELEASE rsp len in ble_gap.cc
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+c9e726c Add property to workaround M_RELEASE rsp len issues
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+9227d15 vars: February 2024 Security update
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+4654655 gms: Add missing permissions
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+ba97622 SystemUIGoogle: include ims-common lib
+
+
+=======================
+     2024/02/05
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+0151078 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/art into udc
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+2f3c0a0 fixup! recovery_ui: Add support for battery capacity status
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc-j
+
+cf3c745 Revert "Replace old-style kernel headers only when building inline"
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+d42ee68 common: Grant adbroot access to package manager
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4fe0e65 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+2a5b0ac Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+41fe5de Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+586abe5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/interfaces into udc
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+aa17727 healthd-ext: Fix charge_counter and ETA values
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+a588012 New Crowdin updates (#514-#587)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+02c5be5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+fc899a2 New Crowdin updates (#381-#389)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+de3e650 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Permission into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+58a09a5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Wifi into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+7a7f16c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/common into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+300c7c8 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+d49bf0e Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/MediaProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+f249b94 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/services/Telecomm into udc
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc-j
+
+168b77b Revert "Revert "debuggerd: Disable scudo usage""
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+6218229 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/extras into udc
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+01b2360 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/logging into udc
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+5f903ed Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/media into udc
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+982f09a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/update_engine into udc
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+c03b033 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/vold into udc
+
+
+=======================
+     2024/02/04
+=======================
+
+
+=======================
+     2024/02/03
+=======================
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+c8bfa27 certification: 01/15/2024 Update
+
+
+=======================
+     2024/02/02
+=======================
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/udc
+
+5d0849e Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+
+=======================
+     2024/02/01
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+147e4ca Automatic translation import
+
+
+=======================
+     2024/01/31
+=======================
+
+
+=======================
+     2024/01/30
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/udc
+
+0cd3650 telephony: Check for LTE_CA in physical channel config
+
+
+=======================
+     2024/01/29
+=======================
+
+
+=======================
+     2024/01/28
+=======================
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/14.0
+
+a6be63a BtHelper: Add a better comment regarding workaround for BLE beacon identification
+
+
+=======================
+     2024/01/27
+=======================
+
+
+=======================
+     2024/01/26
+=======================
+
+
+=======================
+     2024/01/25
+=======================
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/udc-j
+
+2aa2c29 Revert "Add ability to enable scudo-free 32-bit libc variant."
+
+
+=======================
+     2024/01/24
+=======================
+
+
