@@ -1,0 +1,6 @@
+Changelog:
+================
+• Hotfix for PlayProtect not certified on few bhima devices
+• Re-include the leica cam (same which was present in 8.2)
+• Update Adreno drivers to v746
+• Refactor and fix Spoof related complications
