@@ -1,0 +1,25 @@
+==============================
+- Decrypted.
+- Use atleast 3-4h before reporting any issue.
+- If you found any issue then kindly report with logs in device support group.
+- Use non-erofs dynamic partition recovery only.
+
+Device Changelog:
+=================
+- Synced with latest source.
+- Fixed notification light while charging.
+- Switch default display color mode to Saturated.
+- Use dex2oat64 for better dexopt time.
+- Disabled Skia tracing by default.
+- Disabled sdm rotator downscaler.
+- Switch to SkiaGL Threaded.
+- Import lmkd props from google gki.
+- Disabled client composition cache.
+- Using HintManager for HWUI.
+- Droped all SF offset related props.
+- Use phase offsets as duration.
+- Updated sf offset values from raven.
+- Add props for don't write binary XML files.
+- Properly disabled phantom process killing.
+- Added kpti=off to boot command line.
+- Many improvements and bug fixes.
