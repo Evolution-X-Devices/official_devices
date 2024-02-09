@@ -1,0 +1,9 @@
+version: Update to 8.3.0 (Balut)
+
+==============================
+Device changes:
+==============================
+- Update notification icons overlay for Android 14
+- Added Device Light Capabilities
+- LA.UM.9.1.r1-15800-SMxxx0.QSSI14.0
+- Mics changes and improvement
