@@ -1,0 +1,13 @@
+=======================
+      2024/02/11
+=======================
+* Feb 2024 Security patch
+* Remove vendor RenderScript implementation
+* Media: Update opus omx codec ranking
+* Implement Moto Dolby support
+* Disable frame rate override feature (Fix lag on youtube and chroum)
+* Set QTI as the manufacturer
+* Fix lag when entering SIM settings
+* Fix LED charging & notification
+* Add props for smoother scrolling and better responsiveness
+* Kernel improvement
