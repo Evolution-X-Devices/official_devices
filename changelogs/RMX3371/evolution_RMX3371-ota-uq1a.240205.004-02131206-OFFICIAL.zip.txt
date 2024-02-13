@@ -1,0 +1,21 @@
+ ==========================================
+Notes:
+==========================================
+- Firmware above C05 is not recommended
+==========================================
+Device Changelog:
+==========================================
+- February Patch included
+- UDFPS Customisations Added
+- Realme Camera Included
+- Oneplus dolby included
+- Dropped ViPER4AndroidFX
+- Added ViMusic
+- Added Support for spatial Audio
+- Debloated Some google apps
+- Added missing Bluetooth Firmware
+- Allowed auxilary camera access to GCam Ports
+- Switched to Pikachu Kernel as default
+- Lock some apps to 60hz
+- Included Mic Fix by Yograj
+==========================================
