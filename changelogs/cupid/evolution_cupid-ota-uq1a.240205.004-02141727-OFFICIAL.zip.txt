@@ -1,0 +1,92 @@
+  
+2024-02-14
+
+
+To use this release you need:
+
+   MIUI_V14.0.8.0.TLCMIXM
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+    HAPPY VALENTINES !!!
+
+DEVICE:
+
+* cupid: drop simplified xiaomi udfps hal and build full sensors hal
+
+
+ROM:
+
+=======================
+     2024/02/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c3dd840405af Gesture nav: Add back menu action
+8833fd2f9499 Gesture nav: Add go forward action
+93172f8d9cb1 Gestures nav: Make it cancellable
+
+* Repository: /commits/refs/heads/udc
+
+c69e3e7 sensors: Add spes single and double tap node
+e48a518 sensors: Add new single tap sensor node
+9199c8f sensors: Implement Single Tap Sensor
+ad57b05 sensors: Implement Double Tap Sensor
+ce8798e sensors: Implement UDFPS Sensor
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+80a146b Aperture: Bump gradle-generatebp to v1.6
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+d5a086c Evolver: Make Pif preference depend on persist.sys.pif
+
+
+=======================
+     2024/02/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4c17f30812bc Gestures nav: Add back show recents action
+3d5ecac25fac SystemUI: BackPanel: Always add second arrow in front on long swipe
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+5723b06 kernel_headers: Guard with soong namespace
+
+* Repository: /commits/refs/heads/udc
+
+bd9eb5a sensors: Implement `GetPollPath()` and `IsPathValid()`
+edc106a sensors: Create sysfs polling one shot sensor
+ccf5e51 sensors: Add udfps long press sensor
+aa22bf3 sensors: Fix locking around setOperationMode and activate
+551f512 sensors: Move one shot sensor out of main class
+e5ef7bf sensors: Make sensor set mode operation function virtual
+2bb6314 sensors: Make sensor flush function virtual
+5c0c149 sensors: Make sensor run function virtual
+7112a5e sensors: Make sensor batch function virtual
+52bfc10 Add dummy sensors sub HAL
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+546e6e039b Settings: Gesture nav: Add back launch menu action
+6fb019eae7 Settings: Gesture nav: Add go forward action
+5f27e6b075 Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+a86b4e7dd7 Settings: Gestures nav: Add back show recents action
+85c15a42bf Settings: Gesture nav: Remove timeout setting
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+460551738 PhotoPicker: Enable cloud media picker
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+335add24 device_config/overlay: Force enable Now Playing for all
+ff04fb97 device_config: Enable Cloud Media provider
+
