@@ -1,0 +1,84 @@
+NOTE: USING MIUI 13 FW IS MANDATORY. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+Highlights:
+- Build flavour switched to user from userdebug (fixes some app's root detection)
+
+=======================
+     2024/02/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+d06a573ad PixelPropsUtils: Bring back Pixel checks
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+d596215 Aperture: Add support for passkey QR codes
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+7cd2b94 New Crowdin updates (#514-#604)
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+ddb4487 gms: Stop including PlayAutoInstallConfig
+
+
+=======================
+     2024/02/14
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+5723b06 kernel_headers: Guard with soong namespace
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+4605517 PhotoPicker: Enable cloud media picker
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+335add2 device_config/overlay: Force enable Now Playing for all
+
+
+=======================
+     2024/02/13
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+546e6e0 Settings: Gesture nav: Add back launch menu action
+
+=======================
+     2024/02/11
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+f5fbe47 Automatic translation import
+
+
+=======================
+     2024/02/10
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+c25e44d manifest: February 2024 Security update
+
+
+=======================
+     2024/02/09
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/udc
+
+6af3e37 Telephony: Adapt to S style
+
+=======================
+     2024/02/07
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom_wlan/commits/refs/heads/udc
+
+4acab15 Resolve compilation error for fib_rule_port_range with fib_rules.h
