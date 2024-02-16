@@ -1,0 +1,859 @@
+=======================
+     2024/02/16
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+92eae0453565 SystemUI: Allow ignoring IWlan status in the mobile icon pipeline
+fbd5aa372a97 PixelPropsUtils: Refactor and cleanup spoofing
+c47f37775ddc PixelPropsUtils: Improve tablet spoofing
+712b862fe502 fixup! core: Workaround for ASI crash
+2c4945399d69 Normalize wakelock blocker
+0e8e553f7639 PhoneWindowManager: Pass correct assistInvocationType for KEYCODE_ASSIST
+c84517ad073e LockPatternView: Fix showing pattern error
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+3c2298b15f sdm: Conditionally revert "sdm: Implement ‘Null Display’ in SDM core"
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+cdd991bc6d06 alioth: Use a timer frequency of 100hz
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+1b08440 New Crowdin updates (#514-#608)
+096e8a7 Evolver: Bring back Netflix spoof
+a4fd1c2 Evolver: Make Pif preference depend on persist.sys.pif
+e2a3e11 Evolver: Update team info
+260827a Evolver: Import Wi-Fi standard icon [2/2]
+d9586c9 Evolver: Spoof current storage encryption status [2/2]
+5bcde7d Evolver: Hide app notif category
+40497c6 Evolver: Clean up spoofing options
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+4686d9f3fd BondStateMachine: Allow skipping confirm for some remotes
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+a38d7aa08 Exempt data_between_core_and_vendor_violators from vold neverallow
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4e0ff2f9 Hookup SDMCORE_HAS_IS_DISPLAY_HW_AVAILABLE_FUNC
+f0aea3ec roomservice: Require python3
+
+
+=======================
+     2024/02/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+be30b0adb87a SettingsProvider: Allow overriding volume panel default location
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+aa168741a600 Merge remote-tracking branch 'lineage/lineage-20' into sched-7
+4a4f4e3c583d Revert "BACKPORT: wireguard: allowedips: don't corrupt stack when detecting overflow"
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+d596215 Aperture: Add support for passkey QR codes
+db697c0 Aperture: Refactor QrTextClassifier
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+ddb4487 gms: Stop including PlayAutoInstallConfig
+
+
+=======================
+     2024/02/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c3dd840405af Gesture nav: Add back menu action
+8833fd2f9499 Gesture nav: Add go forward action
+93172f8d9cb1 Gestures nav: Make it cancellable
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+5723b06 kernel_headers: Guard with soong namespace
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+80a146b Aperture: Bump gradle-generatebp to v1.6
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+460551738 PhotoPicker: Enable cloud media picker
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+335add24 device_config/overlay: Force enable Now Playing for all
+ff04fb97 device_config: Enable Cloud Media provider
+
+
+=======================
+     2024/02/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4c17f30812bc Gestures nav: Add back show recents action
+3d5ecac25fac SystemUI: BackPanel: Always add second arrow in front on long swipe
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+546e6e039b Settings: Gesture nav: Add back launch menu action
+6fb019eae7 Settings: Gesture nav: Add go forward action
+5f27e6b075 Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+a86b4e7dd7 Settings: Gestures nav: Add back show recents action
+85c15a42bf Settings: Gesture nav: Remove timeout setting
+
+
+=======================
+     2024/02/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+3c84795c05bd Fixing typo
+e156ba5693b4 Fix screen flickering when using one handed mode
+37a22617f842 SystemUI: Fix double unlock sound issue
+688b936067a0 UI: Follow Monet and light/dark theme in user 1 icon
+2c8fdcad16cd Revert "SystemUI: Update udfps animation position on sensor props change"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+99e4e9cf0d Settings: ScreenResolutionFragment: Restart SystemUI on res change
+
+
+=======================
+     2024/02/11
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+f55797fdd594 PixelPropUtils: Spoof velvet search process and gms
+0c88a36c4257 Disable freeze_exempt_inst_pkg by default
+2fd3c99d5206 [Bugfix] avoid deadlock caused by android.bg and RollbackManagerServiceHandler
+7348224552c8 Fix multiuser freeze-kills
+23c4873b54a5 Init some time Process stats with very negative numbers
+5fbcfa6fd939 Prevent duplicate release same transaction from TransactionPool
+beb0b9e25d58 Don't apply UI width limitation to an external display
+2822ce1e803d Fix drawable-state cache expired issue
+c80ea234eafa SystemUI: Introduce wifi standard icon feature [1/2]
+54e21c5a152f PPU: Spoof Gemini to P8P
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+852109337cab Serial: msm_geni_serial: Use correct condition for device suspend check
+e6eae837d5fd msm_geni_serial: reduce wakelock timeout from ISR to 100ms
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+30fdbed Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+cf57a266 apns: Correct Iliad MMSC
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+f5fbe47 Automatic translation import
+
+
+=======================
+     2024/02/10
+=======================
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+7883946a13e0 Merge tag 'LA.UM.9.15.2.r1-09400-KAMORTA.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into android13-4.19-kona
+cc0094191a28 Merge tag 'LA.UM.9.12.r1-18100-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into android13-4.19-kona
+8fcb2e2841cb Merge tag 'LA.UM.9.12.r1-18100-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into android13-4.19-kona
+f2e1c4c76740 Merge tag 'LA.UM.9.12.r1-18100-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into android13-4.19-kona
+5419dea4e72f Merge tag 'LA.UM.9.12.r1-18100-SMxx50.QSSI14.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into android13-4.19-kona
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+c25e44d manifest: February 2024 Security update
+4b7b534 manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6589584a overlay: Unset config_cellBroadcastAppLinks
+
+
+=======================
+     2024/02/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+88b94d4af97d Add 5G Ultra Wideband icon carrier config keys
+40916226a104 telephony: Add ICCID into CarrierIdentifier
+1df9b1df4f81 Remove unnecessary HashMap instantiation
+9a0959a61fa9 Avoid duplicate map lookups in RemoteConnectionManager.
+f42b86079a98 base: Spoof current storage encryption status [1/2]
+80801572e6a0 Frameworks/base: Fix potential IllegalStateException in RescueParty.
+206ce0e96740 media: fix MediaMetadataRetriever Option Intdef
+a3bfbf425ff7 HwAudioSource: auto reconnect feature on AudioServer crash
+34a1a25d3deb View: Fix not refreshDrawableState when set hovered in focused view
+8f4049811c49 services: Fix ArrayIndexOutOfBoundsException on `updateContentCaptureOptions`
+b7926582ba0c Fix hang when dumping local cache info.
+29d638a503be fix div by 0 when vsync data empty due to timeout
+cb1e8347c030 Reduce ContrastColorUtil logspam
+39c7cf31a204 Bump tough-cookie in /packages/SystemUI/scripts/token_alignment
+b351b1b86bc0 Island: Improve text filtering to support symbols
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+d218cb1715b3 Merge remote-tracking branch 'lineage/lineage-20' into sched-7
+e18046801fdd drivers: SLMK: Wait 28ms before starting killing again
+b92dbe9b7dff dnm derp
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+69f4619 Aperture: Update CameraX to 1.4.0-alpha04
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/udc
+
+6af3e371f Telephony: Adapt to S style
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+dc2db031 vars: Update QCOM tags
+
+
+=======================
+     2024/02/08
+=======================
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+06f0d95eb802 cpuidle: Make latency notifier no-op
+2a359a846421 cpuidle: lpm-levels: Remove need_resched() check
+2a992ba36306 Revert "cpuidle: Make latency notifier no-op"
+e1c326f8ebe3 cpuidle: lpm-levels: Remove unused functions
+2b129ff3a92d cpuidle: lpm-levels: Don't stop the tick if it's not beneficial
+ec855a90d2bf Revert "cpuidle: Hardcode `stop_tick`"
+b7991ee8a3dd BACKPORT: drivers: lpm-levels: Fix potential NULL pointer dereference
+5ee062c65b3c Partially revert "lpm-levels: Allow CPU to idle when executing audio code"
+c52a28a7267b BACKPORT: cpuidle: lpm-levels: convert PSCI return value to boolean correctly
+4c464b55025f cpuidle: Hardcode `stop_tick`
+951c393fc1e2 cpuidle: Make latency notifier no-op
+964388d2176f cpuidle: lpm-levels: Remove tracing from hot path
+c437541d8a5f Revert "drivers: lpm-levels: Use cpu_do_idle for shallower LPM entry"
+60a29fb44344 cpuidle: lpm-levels: Use WFI only
+e5fb763bda78 cpuidle: lpm-levels: Remove duplicated code
+cf8de4aed838 cpuidle: lpm-levels: Remove sleep bias feature
+ee5513cac464 cpuidle: lpm-levels: Remove idle prediction feature
+d72ab7a431d8 Revert "cpuidle: lpm-levels: Only cancel the bias timer when it's used"
+fdbae76a877c Revert "lpm-levels: Remove unused code used for debugging"
+d66c160913b8 Revert "lpm-levels: Hardcode lpm_prediction and lpm_ipi_prediction"
+98dd3847d0d1 Revert "cpuidle: Update IPI history when waking CPUs up with IPIs"
+86f42316da52 Revert "arm64: smp: Extend visibility of update_ipi_history()"
+61e2bb6cbe0f Revert "HACK: cpuidle: Don't check if a CPU is isolated"
+3bde62cb0d54 HACK: cpuidle: Don't check if a CPU is isolated
+936edc011757 arm64: smp: Extend visibility of update_ipi_history()
+43406a6c1962 cpuidle: Update IPI history when waking CPUs up with IPIs
+a7330877e1e1 lpm-levels: Hardcode lpm_prediction and lpm_ipi_prediction
+ebf25f178531 lpm-levels: Remove unused code used for debugging
+f387a9284194 BACKPORT: cpuidle: lpm-levels: removing trace calls in idle
+2e74e3b51840 lpm-levels: Allow CPU to idle when executing audio code
+35fe85833512 cpuidle: lpm-levels: Only cancel the bias timer when it's used
+8de6d895c8f0 cpuidle: Mark CPUs idle as late as possible to avoid unneeded IPIs
+57355b65d2c4 cpuidle: Optimize pm_qos notifier callback and IPI semantics
+f4ad9a11bf87 cpuidle: lpm-levels: Remove debug event logging
+19f5d729070c Revert "cpuidle: lpm-levels: Convert sync_lock to raw spin lock"
+eec50fb9888d Revert "cpuidle: lpm-levels: Remove idle prediction feature"
+4c10da4afe9e cpuidle: lpm-levels: Allow exit latencies equal to target latencies
+e9a75664de10 BACKPORT: cpuidle: enter_state: Don't needlessly calculate diff time
+9eaf9bd9149b drivers: xiaomi_touch: add a sysfs node to bump touch sample rate
+7e1383ba6b82 kernelsu: Update to `(v0.7.6)`
+29dd8c3a84fc Revert "power: supply: Classify Battery Monitor Systems as batteries"
+faccb20fc0ed Revert "bpf: Avoid allocating small buffers for map keys and values"
+c6d5b02f9041 Revert "sched/core: Fix rq clock warning in sched_migrate_to_cpumask_end()"
+0f1ee3923fbf [SQUASH] binder: Revert some upstreams from android-4.19-stable
+a7c9d9ac6ea1 Revert "timekeeping: Keep the tick alive when CPUs cycle out of s2idle"
+828c4aac293e Revert "PM / wakeup: Avoid excessive s2idle wake attempts in pm_system_wakeup()"
+0b9a66f49c18 Revert "printk: Add sleep time to timestamps"
+d483c170cb2f configs: Update
+8c415d7f4d22 msm: camera: sensor: Unmap DMA buffers to end access from kernel
+c1058dae34c8 msm: camera: mem_mgr: release buffers after usage
+a2637845c793 msm: camera: sensor: Add changes to prevent unmap buffers
+45a44ea3e323 msm: camera: mem_mgr: Add refcount to track in use buffers
+cee86ae9b23a msm: camera: core: validation of session/device/link handle
+a03129a47e69 msm: camera: cci: Optimize the processing of CCI timeout
+41152914ac4b msm: camera: cci: Fix some cci stability issues
+2b7304c27758 msm: camera: cci: Move load report cmd in lock context
+ee7b8e27ca78 msm: camera: cci: Add report id in report command for CCI I2C queue
+9e013c453025 msm: camera: isp: Handle deferred bufdone and bubble cases
+f0d1b98bfc9b msm: camera: smmu: Use get_file to increase ref count
+1c602c9ef569 msm: camera: isp: Handle RUP in applied substate
+8ee17088a7ee msm: camera: sensor: Using low priority queue for init setting
+6560d4aceaa9 msm: camera: common: Add conditions to catch invalid packet data
+7e91e8d52976 input: fpc_tee: Allow filtering of key events
+b3ba43153abb input: goodix: Disable capacitive key event reporting
+35a8c63f6228 softirq: Import Sony changes
+48b517a219ae ANDROID: softirq: Refine RT defer softirq
+82e2b9b9da7c sched: cpufreq: stop ignoring util updates
+6bbb78877dfb UPSTREAM: sched/deadline: Implement fallback mechanism for !fit case
+6fff332694c2 sched/deadline: Fix arch_scale_cpu_capacity() usage on downstream
+a978925abad1 UPSTREAM: sched/deadline: Make DL capacity-aware
+0722c8d2c0ec UPSTREAM: sched/deadline: Improve admission control for asymmetric CPU capacities
+e4e1ee4c7b5d UPSTREAM: sched/deadline: Add dl_bw_capacity()
+9040caf170a4 UPSTREAM: sched/deadline: Optimize dl_bw_cpus()
+2f8cc6432d9d UPSTREAM: sched/rt: Fix RT utilization tracking during policy change
+ab226bf78b6f UPSTREAM: sched/rt: Don't try push tasks if there are none
+b9628ea3e77a UPSTREAM: sched/fair: Align rq->avg_idle and rq->avg_scan_cost
+1118ea95d66a UPSTREAM: sched/fair: Prevent unlimited runtime on throttled group
+9df0384acaed UPSTREAM: sched/core: Optimize pick_next_task()
+6a197a2bbd4c UPSTREAM: sched/core: Make pick_next_task_idle() more consistent
+408cb757dcfb BACKPORT: sched/core: Further clarify sched_class::set_next_task()
+5dc3ea573247 UPSTREAM: sched: Fix pick_next_task() vs 'change' pattern race
+a385fa6ec77d UPSTREAM: sched: Rework pick_next_task() slow-path
+e53555dae901 UPSTREAM: sched/fair: Expose newidle_balance()
+d5b83bb55aa2 BACKPORT: sched: Allow put_prev_task() to drop rq->lock
+203e5ba2fda4 BACKPORT: sched: Rework CPU hotplug task selection
+71137707eff7 BACKPORT: sched: Add task_struct pointer to sched_class::set_curr_task
+89ac453e3866 UPSTREAM: sched/{rt,deadline}: Fix set_next_task vs pick_next_task
+0643171cbcf8 UPSTREAM: sched/core: Introduce set_next_task() helper for better code readability
+f5001d70fb69 UPSTREAM: sched: Clean up active_mm reference counting
+767f93dbb7de UPSTREAM: stop_machine: Fix stop_cpus_in_progress ordering
+35fe398ed574 BACKPORT: sched/pelt: Relax the sync of load_sum with load_avg
+214040647a1e BACKPORT: sched/pelt: Relax the sync of runnable_sum with runnable_avg
+607101c753bf UPSTREAM: sched/pelt: Continue to relax the sync of util_sum with util_avg
+4e48166733c0 UPSTREAM: sched/pelt: Relax the sync of util_sum with util_avg
+eb4474d6c806 UPSTREAM: sched/fair: Sync load_sum with load_avg after dequeue
+eba8754948f9 BACKPORT: sched/fair: Ensure _sum and _avg values stay consistent
+16cb77c292ef BACKPORT: sched/pelt: Ensure that *_sum is always synced with *_avg
+f75fb6ef541f BACKPORT: sched/fair: Return early from update_tg_cfs_load() if delta == 0
+0a37c6991d89 BACKPORT: sched/fair: Keep load_avg and load_sum synced
+2f5e87d090ff Revert "UPSTREAM: sched/fair: calculate delta runnable load only when it's needed"
+bce5ce5a947e UPSTREAM: sched/fair: Prevent dead task groups from regaining cfs_rq's
+3f4515f7693f UPSTREAM: sched/fair: Add ancestors of unthrottled undecayed cfs_rq
+22a34631143d UPSTREAM: sched/fair: Ensure that the CFS parent is added after unthrottling
+02b60acf6d59 UPSTREAM: sched/fair: Correctly insert cfs_rq's to list on unthrottle
+9909d8c34cf5 UPSTREAM: sched/fair: Ratelimit update to tg->load_avg
+d13b0e86464b BACKPORT: sched/fair: Fix cfs_rq_clock_pelt() for throttled cfs_rq
+1e00b88274d7 UPSTREAM: sched/fair: Reorder enqueue/dequeue_task_fair path
+21e49a84b818 UPSTREAM: sched/cpufreq: Move the cfs_rq_util_change() call to cpufreq_update_util()
+c4f1082d8251 UPSTREAM: sched/fair: Clean up definition of NOHZ blocked load functions
+9aa8cf6ee777 UPSTREAM: sched/fair: Fix rounding bug for asym packing
+92526662d5ce UPSTREAM: sched/fair: Fix unnecessary increase of balance interval
+e6d737172c1c UPSTREAM: sched/fair: Trigger asym_packing during idle load balance
+c0e833085784 UPSTREAM: sched/topology: Don't set SD_BALANCE_WAKE on cpuset domain relax
+6724a738cc20 UPSTREAM: sched/core: Remove double update_max_interval() call on CPU startup
+b88d90813b8a UPSTREAM: sched/rt: Fix Deadline utilization tracking during policy change
+cb80d7fdf37a BACKPORT: sched/fair: Fix task utilization accountability in compute_energy()
+4eaa2a600de0 UPSTREAM: sched/fair: Fix wrong negative conversion in find_energy_efficient_cpu()
+0eaf52e8f027 UPSTREAM: sched/fair: Fix util_est UTIL_AVG_UNCHANGED handling
+89b4872ba2e9 UPSTREAM: sched/pelt: Fix task util_est update filtering
+6aab0bb7516c UPSTREAM: sched/fair: Avoid stale CPU util_est value for schedutil in task dequeue
+7568c247974e UPSTREAM: sched/pelt: Cleanup PELT divider
+236054d62828 UPSTREAM: sched/pelt: Sync util/runnable_sum with PELT window when propagating
+f65232e594df UPSTREAM: sched/pelt: Fix update of blocked PELT ordering
+b0c073230a46 UPSTREAM: sched,fair: Alternative sched_slice()
+2ad2d3d70af9 UPSTREAM: sched/fair: Skip calculating @contrib without load
+993146bb64d1 BACKPORT: sched: Move mmdrop to RCU on RT
+2598aba4ac79 UPSTREAM: sched/fair: Fix sgc->{min,max}_capacity calculation for SD_OVERLAP
+60af628053fd UPSTREAM: sched/fair: Introduce a CPU capacity comparison helper
+aa8599cb3722 UPSTREAM: sched/fair: Optimize test_idle_cores() for !SMT
+a6ade9adffea UPSTREAM: sched/fair: Clear SMT siblings after determining the core is not idle
+4fd0810486f7 UPSTREAM: sched/fair: Optimize select_idle_core()
+889725cfcf9a ANDROID: sched: Exempt paused CPU from nohz idle balance
+049801e0fbda UPSTREAM: sched/clock: Use try_cmpxchg64 in sched_clock_{local,remote}
+42d4923c819f UPSTREAM: sched/cputime: move rq parameter in irqtime_account_process_tick
+ef0c3b1dc7bd BACKPORT: sched/core: Remove unnecessary unlikely() in push_*_task()
+77b53a616803 UPSTREAM: sched/wait: Deduplicate code with do-while
+22282889dbfa UPSTREAM: sched/fair: calculate delta runnable load only when it's needed
+192497b68275 UPSTREAM: sched/fair: Clean up load_balance() condition
+f285397a36ce UPSTREAM: cpufreq: Register governors at core_initcall
+f8f7b6c1a5e8 schedutil: remove tracing
+286eb28bee1c schedutil: Cleanup all iowait_boost code
+3c8e933cb69a Revert "cpufreq: schedutil: Fix for CR 2040904"
+c43517bbff90 schedutil: Allow CPU frequency changes to be amended before they're set
+64d6696b94aa sched/tune: Reduce the number of boost groups to 7
+a9ca13aede0d sched: fair: Tune capacity margins
+a4885ccb2df5 Revert "sched: fair: Work in isolation conditions into SMP placement path"
+f96c90c9966f sched: Reduce PELT half-life from 32 ms to 16 ms
+780cd6966cbf sched: Cover more WALT balancing cases
+907644921dca sched/core: Skip rq lock in try_to_wake_up() when WALT is disabled
+2c448c9d6d24 sched/fair: Compile out NUMA code entirely when NUMA is disabled
+c8387dd87deb sched/core: Always panic when scheduling in atomic context
+bce2ab6bbe1e sched/core: Skip superfluous acquire barrier in ttwu
+faa96b4e3f0c sched/cass: Backport few changes intended for >=4.20 kernels
+27c069c93a6b sched/cass: Introduce the Capacity Aware Superset Scheduler
+43e178519c8f UPSTREAM: sched/fair: use lsub_positive in cpu_util_next()
+afb7e73922f0 UPSTREAM: sched/fair: Add lsub_positive() and use it consistently
+c7a3d33a0a03 UPSTREAM: sched/fair: Mask UTIL_AVG_UNCHANGED usages
+0ca421dc45f9 UPSTREAM: sched/fair: Use non-atomic cpumask_{set,clear}_cpu()
+4735ac0b0dfa UPSTREAM: sched/fair: Load balance aggressively for SCHED_IDLE CPUs
+5590ceb56be3 UPSTREAM: sched/fair: Make sched-idle CPU selection consistent throughout
+b74a4d7cb002 UPSTREAM: sched/fair: Fallback to sched-idle CPU if idle CPU isn't found
+b3bd6f21997c UPSTREAM: sched/fair: Start tracking SCHED_IDLE tasks count in cfs_rq
+6192c9f5c57a sched: Resolve sched_feat() at compile time to improve code optimization
+97c4f3579197 Revert "sched/fair: Add feature to toggle SchedTune utilization boosting"
+e28afa8f256a Revert "sched/debug: Use match_string() helper instead of open-coded logic"
+d813a38ce4fa Revert "sched/debug: Fix potential deadlock when writing to sched_features"
+7b21ce8df419 Revert "sched/core: Optimize sched_feat() for !CONFIG_SCHED_DEBUG builds"
+94336636b0b3 Revert "sched/features: Fix !CONFIG_JUMP_LABEL case"
+7d5f5fd43315 UPSTREAM: sched/fair: Fix inaccurate tally of ttwu_move_affine
+f6a6c8ef4ee2 UPSTREAM: sched: Fix rq->nr_iowait ordering
+aca7fa7ca6b6 UPSTREAM: sched: Fix race against ptrace_freeze_trace()
+6fced9b8819d UPSTREAM: sched: Fix loadavg accounting race
+0a99f5ae3121 UPSTREAM: sched/core: Fix ttwu() race
+e77a535ca8e1 UPSTREAM: sched: Fix data-race in wakeup
+fc63ec54b378 UPSTREAM: sched/core: Offload wakee task activation if it the wakee is descheduling
+2ab6fef2eb8d UPSTREAM: sched/core: Optimize ttwu() spinning on p->on_cpu
+4ce1d63c0555 UPSTREAM: sched/core: Fix preempt warning in ttwu
+e1da44a5217d UPSTREAM: sched/core: Optimize try_to_wake_up() for local wakeups
+a24958beeb24 Revert "ANDROID: sched: move blocked reason trace point to cover all class"
+fcc3d3186090 sched/fair: Skip searching for active CPU when a task is marked as prefer_high_cap.
+c49246eb04ce Revert "sched/fair: refine can_migrate_boosted_task"
+8547da69d028 Revert "kernel/sched: spread big prefer_idle tasks to little cores"
+67a74947dbb7 sched: Checkout to `android-msm-redbull-4.19-u-beta5.3`
+31e4eabe5b52 sched: Reset to Atom-X-Devs upstream source
+8720b8eb3a45 Revert "ANDROID: sched: EAS: take cstate into account when selecting idle core"
+a0210ea819c8 Revert "sched: fair: avoid little cpus due to sync, prev bias"
+86b75ec3f078 Revert "Revert "sched: fair: Always try to use energy efficient cpu for wakeups""
+1d067c0ab17b Revert "sched/fair: apply sync wake-up to pure CFS path"
+bc5213d3f847 Revert "sched: fair: Disable double lock/unlock balance in detach_task()"
+c06d8f843858 Revert "sched: core: Disable double lock/unlock balance in move_queued_task()"
+ed0accd62512 Revert "cpufreq: schedutil: fix check for stale utilization values"
+8459510199f3 Revert "sched/tune: Increase the cgroup limit to 8"
+192c5eb2283e Revert "BACKPORT: sched/fair: if sync flag ignored, try to place in mid cluster"
+e94a759bd8ef Revert "sched/fair: refine some scheduler changes from AU drop"
+bdbd0cd51e2a Revert "sched/fair: fix implementation of is_min_capacity_cpu()"
+2b0038b1ab78 Revert "sched: delete unused & buggy function definitions"
+5272b62e0eb9 Revert "sched/fair: prefer exclusive mid cluster cpu for top-app task"
+e5ebe968448d Revert "Revert "sched: Improve the scheduler""
+c9c13a977277 Revert "Revert "sched/core: Fix use after free issue in is_sched_lib_based_app()""
+58836de18846 Revert "Revert "sched/core: fix userspace affining threads incorrectly""
+4be24edb9a45 Revert "kernel: sched: Mitigate non-boosted tasks preempting boosted tasks"
+d6769dadb292 Revert "sched/fair: let scheduler skip util checking if cpu is idle"
+187546328484 Revert "sched: reduce softirq conflicts with RT"
+03efcf8a1cea Revert "kernel: sched: fix cpu cpu_capacity_orig being capped incorrectly"
+0390106e53eb Revert "trace: sched: add capacity change tracing"
+31f650a16f51 Revert "GKI: sched: Compile out push_task field in struct rq"
+fe6495b2f35a Revert "GKI: sched: Add back the root_domain.overutilized field"
+463258cba473 Revert "Use find_best_target to select cpu for a zero-util task"
+adbb0f7ae426 Revert "Revert "sched/fair: Improve the scheduler""
+cb008e804fa7 Revert "sched: separate capacity margin for boosted tasks"
+09fc84f15dc7 Revert "sched/fair: use actual cpu capacity to calculate boosted util"
+cce8813b81d5 Revert "sched/fair: do not use boosted margin for prefer_high_cap case"
+4869d93d19e6 Revert "sched: fair: placement optimization for heavy load"
+cc3c6fbdb143 Revert "kernel: sched: account for real time utilization"
+fd9aeed42c85 Revert "sched/core: fix userspace affining threads incorrectly"
+40d07e3f5626 Revert "sched/core: Fix use after free issue in is_sched_lib_based_app()"
+3dc4c7464bf7 Revert "sched: Improve the scheduler"
+8b93c63e1135 Revert "sched/core: fix userspace affining threads incorrectly by task name."
+044ff816a600 Revert "sched: refine code for computing energy"
+2f5a240f2b56 Revert "UPSTREAM: sched/rt: Disable RT_RUNTIME_SHARE by default"
+973000403e6d Revert "sched: core: fix kmalloc error during spinlock"
+7bc3db65e9f7 Revert "sched/fair: Fix kernel warning"
+12df56063cdd Revert "ANDROID: sched: move blocked reason trace point to cover all class"
+ff090821b11f Revert "sched: fix issue of cpu freq running at max always"
+8b5509f9a67b Revert "sched: separate boost signal from placement hint"
+5db861844daa Revert "sched/fair: schedule lower priority tasks from little cores"
+12d5a57c3a67 Revert "sched: fine tune task placement for prioritized tasks"
+fc59833cdf7e Revert "sched/fair: fix can_migrate_boosted_task logic"
+849ec935da10 Revert "sched/fair: refine can_migrate_boosted_task"
+be4ed934de25 Revert "kernel/sched: spread big prefer_idle tasks to little cores"
+76c67118a1da Revert "Revert "sched/walt: Improve the scheduler""
+02c846484a6e Revert "Revert "sched/fair: Improve the scheduler""
+7cbaf030e02a Revert "sched/fair: Fix compilation issues for !CONFIG_SCHED_WALT"
+96fc7f228a50 Revert "Revert "cpufreq: schedutil: Fix for CR 2040904""
+7bf14c53c48b Revert "sched/fair: Use uclamp_task for task utilization update"
+368453cb0bb7 Revert "sched/fair: Utilize WALT-based freqs for cpu utilization calculation"
+54ab855cccac Revert "Revert "sched/fair: Don't let tasks slip away from gold to silver cluster""
+cff7a4c48cf1 Revert "FROMLIST: sched/fair: add support to tune PELT ramp/decay timings"
+fd7386a7993a Revert "ANDROID: sched/fair: correct pelt load information in sched-pelt.h"
+1ada9510c03f Revert "cpufreq_schedutil: Remove tracing"
+922c58f88a9a Revert "sched/fair: Don't remove important task migration logic from PELT"
+72dfac8fcea0 Revert "sched/core: Skip rq lock in try_to_wake_up() when WALT is disabled"
+155ac0a42495 Revert "sched/fair: Compile out NUMA code entirely when NUMA is disabled"
+a1f377877393 Revert "sched/fair: Revert Google's capacity margin hacks"
+cc5085a436bf Revert "sched: restrict iowait boost to tasks with prefer_idle"
+f3e18d4b8d86 Revert "sched/core: Optimize try_to_wake_up() for local wakeups"
+19817f36e700 Revert "sched/core: Fix preempt warning in ttwu"
+2a6e65fc2e48 Revert "sched/core: Optimize ttwu() spinning on p->on_cpu"
+de057070308c Revert "sched/core: Offload wakee task activation if it the wakee is descheduling"
+d2470767dc98 Revert "smp: Optimize send_call_function_single_ipi()"
+cba0cb193313 Revert "sched/core: Fix ttwu() race"
+760a140f282e Revert "sched: Fix loadavg accounting race"
+46a276d36a2a Revert "sched: Fix race against ptrace_freeze_trace()"
+30d34b92bf88 Revert "sched: Fix data-race in wakeup"
+0daa8a8fef34 Revert "sched: Fix rq->nr_iowait ordering"
+d4c65e17cf34 Revert "sched: Resolve sched_feat() at compile time to improve code optimization"
+f3c81d5a4791 Revert "sched/cass: Introduce the Capacity Aware Superset Scheduler"
+63953a88f376 Revert "sched/fair: Mask UTIL_AVG_UNCHANGED usages"
+3e9499227fba Revert "sched/fair: Add lsub_positive() and use it consistently"
+2d2d61d5f60c Revert "sched/core: Create task_has_idle_policy() helper"
+f3f3a669143a Revert "sched/fair: Start tracking SCHED_IDLE tasks count in cfs_rq"
+676f20c46b36 Revert "sched/fair: Fallback to sched-idle CPU if idle CPU isn't found"
+453188155bb7 Revert "sched/fair: Make sched-idle CPU selection consistent throughout"
+12512f0afa0f Revert "sched/fair: Load balance aggressively for SCHED_IDLE CPUs"
+0490c4c9faca Revert "kernel: sched/cass: Adapt for msm-4.19"
+619ea498dbc2 Revert "ext4: Optimize file overwrites."
+5ae6b81e7994 Revert "Increase the EXT4 default commit age."
+bebfc1f9ef8d Revert "ipv4/tcp: Allow the memory tuning for TCP to go a little bigger than default."
+362547bb4adf Revert "fs: ext4: fsync: Optimize double-fsync() a bunch."
+8d5b3d46530f configs: Debloat
+1e05210753d3 configs: Disable EL2 vector hardening
+150d93233224 configs: Disable SLUB per-CPU partial caches
+8586a27de2e2 configs: Switch to cubic
+f50a0ac7f746 net: bluetooth: Queue delayed work on power efficient wq
+f0c5a687c68e net: qrtr: Run backup work on powerefficient workqueues
+a9e58d402e3b Revert "configs: Switch to BBR TCP + fq_codel qdisc"
+d7a3cd19bfbf kernelsu: Update to `(v0.7.2)`
+6e85daaea029 configs: Update
+4f5ac2c233e0 arm64: Makefile: Optimize for Kryo 585
+88adc87b2d5f treewide: Replace `egrep` usage with `grep -E`
+af252b90411f drm/msm: Eliminate unnecessary snprintf() usage from hot paths
+042216d89776 drm/msm: Remove bogus NULL check in _msm_drm_commit_work_cb()
+e6362fec8c45 techpack: sde: remove sde debugging
+75c51103721f drm/msm/sde: Cache register values when performing clock control.
+c6b3fdc3cc77 drm: msm: do not send fps change events to notifier listeners
+ed30f4bbac4b techpack: display: add some bp hints to hot paths
+df368a92da2c drm/msm: use kmem_cache pool for struct vblank_work
+997fa9c09105 drm/msm/sde: allocate kmem_fence_pool once
+3b3c63623592 drm/msm/sde: use kmem_cache pool for struct sde_fence
+6abed43cab3c drm/msm/sde: Don't clear dim layers when there aren't any applied
+5d1ac34dc3b1 drm/msm/sde: Don't read and clear VBIF errors upon commit
+14edc044ab08 drm/msm/sde: Stub out debug log macros and compile them out
+d87974b597c8 drm/msm: Reduce latency while completing non-blocking commits
+edb96a3b93a7 drm: Reduce latency while processing atomic ioctls
+053f5d595ff9 drm/msm/sde: Consolidate IRQ status reads into IRQ dispatcher
+6715c1500666 drm/msm/sde: Don't allocate memory dynamically for CRTC atomic check
+5b2e54688c5f drm/msm/sde: Don't allocate memory dynamically for plane states
+1aff5c6e8261 drm/msm/sde: Remove debug print from sde_reg_write()
+990b8f4f4379 drm/msm/sde: Skip heavy autorefresh checks when it's not enabled
+7e40213dbc37 drm/msm: dsi-ctrl: remove extra buffer copy
+0cf7e0a42a4c msm/sde: prevent double register of input handler
+56a006fb8a71 techpack: display: Shutdown subtree debug logging and dmesg pollution
+0e95ab06a16e techpack: display: clean up
+95bf4bcb30f7 Revert "adreno_tz: Fix GPU target frequency calculation for high refresh rates"
+bfccf4d104fc Revert "drm/msm/sde: Skip heavy autorefresh checks when it's not enabled"
+1606b6629135 Revert "drm/msm/sde: Remove debug print from sde_reg_write()"
+04830e27d3c7 Revert "drm/msm/sde: Don't allocate memory dynamically for plane states"
+b632631bd0ed Revert "drm/msm/sde: Don't allocate memory dynamically for CRTC atomic check"
+95329dcfadb2 Revert "drm/msm/sde: Consolidate IRQ status reads into IRQ dispatcher"
+91b18ed166ef Revert "drm/msm/sde: Stub out debug log macros and compile them out"
+521c00cdf641 Revert "drm/msm/sde: Don't read and clear VBIF errors upon commit"
+305fdffc354b Revert "drm/msm/sde: Don't clear dim layers when there aren't any applied"
+361f5582cb70 Revert "drm/msm/sde: use kmem_cache pool for struct sde_fence"
+51e2fd87d622 Revert "drm/msm/sde: allocate kmem_fence_pool once"
+6c0cb09f40de Revert "drm/msm: use kmem_cache pool for struct vblank_work"
+def720ff3fb6 Revert "techpack: display: add some bp hints to hot paths"
+c9464ffe94ef Revert "drm/msm/sde: Cache register values when performing clock control."
+4d06fbebc634 build: Move dtb.img
+38039d37597f arm64: generate dtb.img from dtbs
+12e8d9c71788 configs: Remove unused config
+d83f7a735936 configs: Disable BALANCE_ANON_FILE_RECLAIM
+1cf8fd3f62d2 configs: Disable ION_POOL_AUTO_REFILL
+59870bada05a configs: Disable HAVE_USERSPACE_LOW_MEMORY_KILLER
+3523de9706b7 scripts/dtc: Update to upstream version v1.7.0-61-g0b8026f
+db38e121fad8 scsi: ufs: Guard `ufs_qcom_parse_lpm` for UMI
+36b6fae90027 Revert "ANDROID: Fix up KABI breakage in 4.19.209 in struct sock"
+5dd43f2da935 Revert "ANDROID: Different fix for KABI breakage in 4.19.209 in struct sock"
+003d63af1eab vmstat: Increase vmstat interval to 10s.
+4eab29492e06 drivers: input: fts_521: Checkout to immensity state
+b0823ad2a8d9 drivers: input: aw8697_haptic: Disable logging
+0557ce9f5b08 cpuidle: Do not select menu and ladder governors
+5b806042869a BACKPORT: audio-kernel: Disable clock voting logs
+e9ece861eb83 BACKPORT: cnss: Add code to migrate from debugfs node to sysfs node
+7ac0c0ddfb9f Revert "cnss_prealloc: Don't create debugfs at init when CONFIG_DEBUG_FS=n"
+bdac4685bb33 USB: dwc3: qcom: fix wakeup after probe deferral
+8dd31eff68af phy-msm-qusb-v2: Don't create debugfs when !CONFIG_DEBUG_FS
+ed2f7e42d4d8 msm_geni_serial: Don't create dbg dir when !CONFIG_DEBUG_FS
+8a9bb7d18b1d npu: Don't create debugfs dir when !CONFIG_DEBUG_FS
+c08bb2b61cc8 qcom-battery: Don't create debugfs dir when !CONFIG_DEBUG_FS
+55fb54a7ad13 drivers: binder: Supress some logs
+b71ba631cb7f kernel: printk: Filter out some userspace logs
+6a149e0d6d2c build: Switch to neutron clang
+452337937368 arm64: dts: k11a: Kang from gourami
+733ad4664629 ARM64: dts: K11A: Update reset sequence of alioth display panel
+569422beebd4 smp: Make generic_exec_single() public
+a3a042f6feef drivers: focaltech_spi: Update firmware
+d5df8227479b Revert "usb: gadget: mtp: Increase RX transfer length to 1M"
+a1f6716e1453 Revert "usb: gadget: f_mtp: Increase default TX buffer size"
+aaaf45695fd8 watchdog_v2: Call preempt_[enable|disable] instead of migrate_*
+b036f655d1c1 soc: qcom: watchdog_v2: Optimize IPI pings to reduce system jitter
+3a0847e8b649 configs: Remove MSM event timer
+f94000629822 Implement KCAL color calibration
+2caec450fd3f configs: Enable CONFIG_WQ_POWER_EFFICIENT_DEFAULT
+b4fb43bd618c wcnss_wlan: queue work on power efficient workingqueues
+acbcbca5abc0 thermal_core: Use power efficient workqueue
+9d5d40f34af9 power: supply: Use power efficient workingqueues
+cbdde288f1b4 platform: ipa: Use power efficient workingqueues
+df5fb8b2c410 gpu: drm: Use power efficient workingqueues
+7900d0647f5f techpack: use power efficient workingqueues
+54f2ccbc35d2 techpack: use more power efficient workingqueues
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+da168d2 Aperture: Log Coil exception messages
+256f21e Aperture: Depend on okio-jvm
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+8c2fc3b473 fuelgauge: Hide screen time since last full charge if not valid
+60aa249289 DataProcessor: Do not skip and replace screen on component with screen on time
+78528e4d49 Settings: Update default donation URL
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+1fba1c33 repopick: Use hostname of the URL to determine lineage gerrit
+495c7287 kernel: Support kernel modules via kbuild
+87735b0f kernel: Support copying modules to boot ramdisk
+
+
+=======================
+     2024/02/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+2570f4b55913 PPU: Update fingerprints to February 2024 release
+805ea43f2346 SystemUI: Enable pulsing animation for faceunlock
+733caa026b3d SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+8c4a66badf39 New Crowdin updates (#501-#502)
+4e9a283a33a4 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/base into udc
+1f394121a846 Create FUNDING.yml
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+3b4bae9 Evolver: Nuke battery light
+4baa58c Evolver: Update Island settings
+fc59e4e Evolver: Refactor fragments/preference paths
+b37018d Evolver: Replace Edge long swipe pref with Advanced Gesture nav options [2/2]
+21e57d7 Evolver: Bring back UDFPS animation picker
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+31eb1a3be8 New Crowdin updates (#381-#390)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+d676f7ee vars: redfin,bramble: UP1A.231105.001.B2, Feb 2024
+9227d155 vars: February 2024 Security update
+
+
+=======================
+     2024/02/06
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+0151078281 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/art into udc
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+2f3c0a0a fixup! recovery_ui: Add support for battery capacity status
+c04ed77a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/bootable/recovery into udc
+8df79a28 recovery_ui: Add support for battery capacity status
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+24ced9e556 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/build into udc
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/udc
+
+d42ee68 common: Grant adbroot access to package manager
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4fe0e65bfc Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+2a5b0ac632 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+41fe5de Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+586abe5ee Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/interfaces into udc
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-21.0
+
+f36fc9e thermal-hal: Add thermal HAL 2.0 support for sdm710 family
+
+* Repository: https://github.com/Evolution-X/hardware_qcom_wlan/commits/refs/heads/udc
+
+4acab15 Resolve compilation error for fib_rule_port_range with fib_rules.h
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+2ad5dc817bf5 Merge tag 'ASB-2024-02-05_4.19-stable' of https://android.googlesource.com/kernel/common into android13-4.19-kona
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+bd1e917 Manifest for Android 14.0.0 Release 25 (UQ1A.240205.004)
+571c0d1 Manifest for Android 14.0.0 Release 24 (UQ1A.240205.002.B1)
+8ca252b Manifest for Android 14.0.0 Release 23 (UQ1A.240205.002.A1)
+cf7c5eb Manifest for Android 14.0.0 Release 22 (UQ1A.240205.002)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+02c5be56 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+a07a0c0d00 Bluetooth: Add a workaround for M_RELEASE rsp len in ble_gap.cc
+feba9684e5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Bluetooth into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+de3e6504a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Permission into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+58a09a5af6 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Wifi into udc
+95fbeefea8 Reduce refresh times for non-persistent MACs
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+7a7f16c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/common into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+300c7c80 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+d49bf0ef8 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/MediaProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+f249b940b Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/services/Telecomm into udc
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+4809c7f80 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/core into udc
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+6218229e Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/extras into udc
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+01b2360c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/logging into udc
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+5f903ed6 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/media into udc
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+c9e726c44 Add property to workaround M_RELEASE rsp len issues
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+982f09a5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/update_engine into udc
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+c03b033 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/vold into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+57f2e523 overlay: Disable a couple more OTA upgrade components
+cfe01708 overlay: Disable OtaUpdateActivity component
+2fbf5a97 repopick: Clear Pyright warnings
+eb45b86b repopick: Check fetch result based on the actual commit
+1d52a471 repopick: Apply change in parallel
+da76ab84 repopick: Avoid repeatedly performing the same check
+4f34adc4 repopick: Use the builtin urllib to handle HTTP basic authentication
+4a2694b3 repopick: Clean up subprocess calls
+e4ab221e repopick: Organize imports and format with black
+2b13a521 repopick: Remove python2 support
+67d6c389 device_config: Update some values
+c055983a rro_overlays: Whitelist oslo plugin
+ff89dd88 version: Uprev to 8.3
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+ba97622 SystemUIGoogle: include ims-common lib
+
+
+=======================
+     2024/02/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+22b1faf94a4e Battery light: 100% charged level (1/2)
+2ad3caa9e9a6 frameworks/base: Lights notifications brightness support
+00d938ef71de frameworks/base: Battery and Notification Lights
+76c5ff30bb5d Import LineageNotification from lineage sdk
+ffeb9369ada9 Revert "BatteryService: Fix battery led not turning off when unplugged at 100%"
+1f5dc42a5b91 Revert "Allow to disable battery light"
+3fc5da8b3c01 fixup! SystemUI: Implement burn-in protection for status/navbar
+5f5ef3b6f06b SystemUI: Allow disabling long press for lockscreen shortcuts
+117c504cc724 SystemUI: More notification icons on AOD screen
+2423ceb2dfb4 New Crowdin updates (#500)
+85bea1f53492 BatteryStatsViewer: Move it to Battery Section
+95e30f460645 Island: Do not show now playing on keyguard and dozing state
+b357c475757e IslandView: Fix and improve notification regex filtering
+53a1ae77d461 fixup! SystemUI: Implement Island notification feature
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+aa17727 healthd-ext: Fix charge_counter and ETA values
+3aa1b6f healthd-ext: Define override to QTI AIDL healthd-ext hal
+db26527 healthd-ext: Rename hal to xiaomi to avoid compilation conflicts
+8060b15 healthd-ext: Update AIDL HAL service installation paths
+4f35c23 healthd-ext: Add suspend support for charger mode
+143d648 healthd-ext: Add health HAL AIDL implementation
+
+* Repository: https://github.com/projects-nexus/nexus_kernel_xiaomi_sm8250/commits/sched-7
+
+b209a016206f msm: kgsl: Do not release dma and anon buffers if unmap fails
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+27a8b42d24 Settings: Add back battery and notification lights settings
+7d741d6722 Settings: Battery light: 100% charged level (2/2)
+3d42af1af5 Implement notification light settings
+b6c8519778 Revert "Settings: Add switch for battery led"
+c6789c6196 Settings: Hide battery info
+9da71b2038 ChooseLockPassword: Don't uncheck auto confirm above minimum length
+0e866579df ChooseLockPassword: Decrease minimum pin length for auto confirm
+5f5302ac1e Settings: Adapt Evolver fragment paths
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4866a66 SettingsGoogle: Update battery led options
+
+
+=======================
+     2024/02/04
+=======================
+
+
+=======================
+     2024/02/03
+=======================
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/udc
+
+5d0849e7d1 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+c8bfa27 certification: 01/15/2024 Update
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4d7cc82b vendor: config: Build BatteryStatsViewer
+
+
