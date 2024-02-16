@@ -1,0 +1,46 @@
+- Dirty install from previous update is fine
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread)
+- Gemini and Circle-to-search require the Google app to be updated installing all the files from this Bundle:
+
+https://www.apkmirror.com/apk/google-inc/google-search/google-search-15-5-60-release/google-app-15-5-60-29-arm64-android-apk-download/
+
+You can install it using any apkm installer like this:
+
+https://play.google.com/store/apps/details?id=com.aefyr.sai
+
+**Device Changes:**
+
+- Update Leica camera
+
+**Evolution X Update**
+
+- version: Uprev to 8.3
+- Merge February 2024 security patches (r25)
+- Evolver: Bring back Alarms/WakelockBlocker
+- Evolver: Bring back UDFPS animations
+- Evolver: Replace Edge long swipe pref with Advanced Gesture nav options
+- Gestures nav: Add Partial Screenshot action
+- Gestures nav: Add Power menu action
+- Settings: Add misc haptics category
+- Settings: Add optional haptic feedback on scrolling with fling gesture
+- Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+- Show a double arrow when almost triggered in new back affordance as well
+- SystemUI: Make popup menus more rounded
+- SystemUI: Make the volume dialog expandable
+- VolumePanel: Open volume panel on expand long click
+- ViewConfiguration: Set scroll friction to 0.009
+- Enable Circle to Search functionality
+- Include Gemini
+- ChooseLockPassword: Decrease minimum pin length for auto confirm
+- Evolver: Update Island settings
+- SystemUI: Allow disabling long press for lockscreen shortcuts
+- fixup! SystemUI: Implement burn-in protection for status/navbar
+- Evolver: Nuke battery light
+- SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+- SystemUI: Enable pulsing animation for faceunlock
+- Aperture: Update CameraX to 1.4.0-alpha04
+- Evolver: Spoof current storage encryption status
+- Gestures nav: Add back show recents catión
+- Gesture nav: Add go forward action
+SystemUI: BackPanel: Always add second arrow in front on long swipe
+- Update translations
