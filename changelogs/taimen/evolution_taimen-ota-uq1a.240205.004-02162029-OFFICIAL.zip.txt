@@ -1,0 +1,9 @@
+=======================
+      2024/02/16
+=======================
+* Fix crash some apps like whatsapp after update
+* Sync with latest source
+
+Note: 
+* This build need increase system_ext on your device, please follow the guide for intalation
+* Clean flash is recomended
