@@ -1,0 +1,44 @@
+- FORMAT DATA IS REQUIRED IF YOU COME FROM LEGACY PARTITIONS. MAKE SURE TO USE THE RECOVERY LINKED IN THE INSTALLATION INSTRUCTIONS AT THE XDA FORUM
+- Firmware 12.5.365 is required
+- SELinux is Enforcing
+- User build
+- Locked bootloader is supported
+- Forced encryption is enabled
+- Circle-to-search require the Google app to be updated installing all the files from this Bundle:
+
+https://www.apkmirror.com/apk/google-inc/google-search/google-search-15-5-60-release/google-app-15-5-60-29-arm64-android-apk-download/
+
+You can install it using any apkm installer like this:
+
+https://play.google.com/store/apps/details?id=com.aefyr.sai
+
+
+**Device Changes:**
+
+
+**Evolution X Update**
+
+- - version: Uprev to 8.3
+- Merge February 2024 security patches (r25)
+- Evolver: Bring back UDFPS animations
+- Evolver: Replace Edge long swipe pref with Advanced Gesture nav options
+- Gestures nav: Add Partial Screenshot action
+- Gestures nav: Add Power menu action
+- Settings: Add misc haptics category
+- Settings: Add optional haptic feedback on scrolling with fling gesture
+- Show a double arrow when almost triggered in new back affordance as well
+- ViewConfiguration: Set scroll friction to 0.009
+- Include Gemini
+- ChooseLockPassword: Decrease minimum pin length for auto confirm
+- Evolver: Update Island settings
+- SystemUI: Allow disabling long press for lockscreen shortcuts
+- fixup! SystemUI: Implement burn-in protection for status/navbar
+- Evolver: Nuke battery light
+- SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+- SystemUI: Enable pulsing animation for faceunlock
+- Aperture: Update CameraX to 1.4.0-alpha04
+- Evolver: Spoof current storage encryption status
+- Gestures nav: Add back show recents catión
+- Gesture nav: Add go forward action
+SystemUI: BackPanel: Always add second arrow in front on long swipe
+- Update translations
