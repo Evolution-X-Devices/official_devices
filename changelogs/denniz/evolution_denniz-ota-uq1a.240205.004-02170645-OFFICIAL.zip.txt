@@ -1,0 +1,543 @@
+Update 20240217
+- We're finally back at latest Android 14 (udc)
+- Quit prebuilt vendor and begin OSS build
+- Ported Oplus Camera included
+- Auto brightness might be fixed
+- Bluetooth finally get working on A14
+- Ton of SystemUI lags are now gone
+- Fixed Display saturation too much
+- Fixed MTK EngineerMode
+- And more...
+
+* Clean flash highly recommended, so please take a backup before installing.
+* OOS13 firmware is included. so users can directly flash over OOS11. (Tested)
+
+Credits:
+- Thanks for device & kernel trees, oplus camera ports , more everything: @NishantKumar6342
+- Thanks for giving me some advice and build tips: @Giovix92 , Ben
+
+=======================
+     2024/02/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+fbd5aa372a97 PixelPropsUtils: Refactor and cleanup spoofing
+c47f37775ddc PixelPropsUtils: Improve tablet spoofing
+712b862fe502 fixup! core: Workaround for ASI crash
+2c4945399d69 Normalize wakelock blocker
+0e8e553f7639 PhoneWindowManager: Pass correct assistInvocationType for KEYCODE_ASSIST
+c84517ad073e LockPatternView: Fix showing pattern error
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+3c2298b15f sdm: Conditionally revert "sdm: Implement ‘Null Display’ in SDM core"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+1b08440 New Crowdin updates (#514-#608)
+096e8a7 Evolver: Bring back Netflix spoof
+a4fd1c2 Evolver: Make Pif preference depend on persist.sys.pif
+e2a3e11 Evolver: Update team info
+260827a Evolver: Import Wi-Fi standard icon [2/2]
+d9586c9 Evolver: Spoof current storage encryption status [2/2]
+5bcde7d Evolver: Hide app notif category
+40497c6 Evolver: Clean up spoofing options
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+4686d9f3fd BondStateMachine: Allow skipping confirm for some remotes
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+a38d7aa08 Exempt data_between_core_and_vendor_violators from vold neverallow
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4e0ff2f9 Hookup SDMCORE_HAS_IS_DISPLAY_HW_AVAILABLE_FUNC
+f0aea3ec roomservice: Require python3
+
+
+=======================
+     2024/02/16
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+be30b0adb87a SettingsProvider: Allow overriding volume panel default location
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+ddb4487 gms: Stop including PlayAutoInstallConfig
+
+
+=======================
+     2024/02/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c3dd840405af Gesture nav: Add back menu action
+8833fd2f9499 Gesture nav: Add go forward action
+93172f8d9cb1 Gestures nav: Make it cancellable
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+d596215 Aperture: Add support for passkey QR codes
+db697c0 Aperture: Refactor QrTextClassifier
+80a146b Aperture: Bump gradle-generatebp to v1.6
+
+
+=======================
+     2024/02/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+4c17f30812bc Gestures nav: Add back show recents action
+3d5ecac25fac SystemUI: BackPanel: Always add second arrow in front on long swipe
+
+* Repository: https://github.com/LineageOS/android_hardware_google_pixel/commits/refs/heads/lineage-21.0
+
+5723b06 kernel_headers: Guard with soong namespace
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+546e6e039b Settings: Gesture nav: Add back launch menu action
+6fb019eae7 Settings: Gesture nav: Add go forward action
+5f27e6b075 Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+a86b4e7dd7 Settings: Gestures nav: Add back show recents action
+85c15a42bf Settings: Gesture nav: Remove timeout setting
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+460551738 PhotoPicker: Enable cloud media picker
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+335add24 device_config/overlay: Force enable Now Playing for all
+ff04fb97 device_config: Enable Cloud Media provider
+
+
+=======================
+     2024/02/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+3c84795c05bd Fixing typo
+e156ba5693b4 Fix screen flickering when using one handed mode
+37a22617f842 SystemUI: Fix double unlock sound issue
+688b936067a0 UI: Follow Monet and light/dark theme in user 1 icon
+2c8fdcad16cd Revert "SystemUI: Update udfps animation position on sensor props change"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+99e4e9cf0d Settings: ScreenResolutionFragment: Restart SystemUI on res change
+
+
+=======================
+     2024/02/12
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+f55797fdd594 PixelPropUtils: Spoof velvet search process and gms
+0c88a36c4257 Disable freeze_exempt_inst_pkg by default
+2fd3c99d5206 [Bugfix] avoid deadlock caused by android.bg and RollbackManagerServiceHandler
+7348224552c8 Fix multiuser freeze-kills
+23c4873b54a5 Init some time Process stats with very negative numbers
+5fbcfa6fd939 Prevent duplicate release same transaction from TransactionPool
+beb0b9e25d58 Don't apply UI width limitation to an external display
+2822ce1e803d Fix drawable-state cache expired issue
+c80ea234eafa SystemUI: Introduce wifi standard icon feature [1/2]
+54e21c5a152f PPU: Spoof Gemini to P8P
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+cf57a266 apns: Correct Iliad MMSC
+
+
+=======================
+     2024/02/11
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+c25e44d manifest: February 2024 Security update
+4b7b534 manifest: Initial A14 manifest
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+30fdbed Automatic translation import
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6589584a overlay: Unset config_cellBroadcastAppLinks
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+f5fbe47 Automatic translation import
+
+
+=======================
+     2024/02/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+88b94d4af97d Add 5G Ultra Wideband icon carrier config keys
+40916226a104 telephony: Add ICCID into CarrierIdentifier
+1df9b1df4f81 Remove unnecessary HashMap instantiation
+9a0959a61fa9 Avoid duplicate map lookups in RemoteConnectionManager.
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+69f4619 Aperture: Update CameraX to 1.4.0-alpha04
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/udc
+
+6af3e371f Telephony: Adapt to S style
+
+
+=======================
+     2024/02/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+f42b86079a98 base: Spoof current storage encryption status [1/2]
+80801572e6a0 Frameworks/base: Fix potential IllegalStateException in RescueParty.
+206ce0e96740 media: fix MediaMetadataRetriever Option Intdef
+a3bfbf425ff7 HwAudioSource: auto reconnect feature on AudioServer crash
+34a1a25d3deb View: Fix not refreshDrawableState when set hovered in focused view
+8f4049811c49 services: Fix ArrayIndexOutOfBoundsException on `updateContentCaptureOptions`
+b7926582ba0c Fix hang when dumping local cache info.
+29d638a503be fix div by 0 when vsync data empty due to timeout
+cb1e8347c030 Reduce ContrastColorUtil logspam
+39c7cf31a204 Bump tough-cookie in /packages/SystemUI/scripts/token_alignment
+b351b1b86bc0 Island: Improve text filtering to support symbols
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+da168d2 Aperture: Log Coil exception messages
+256f21e Aperture: Depend on okio-jvm
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+8c2fc3b473 fuelgauge: Hide screen time since last full charge if not valid
+60aa249289 DataProcessor: Do not skip and replace screen on component with screen on time
+78528e4d49 Settings: Update default donation URL
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+dc2db031 vars: Update QCOM tags
+1fba1c33 repopick: Use hostname of the URL to determine lineage gerrit
+
+
+=======================
+     2024/02/08
+=======================
+
+* Repository: https://github.com/Evolution-X-Devices/device_google_felix/commits/udc
+
+b883719 felix: overlay: Update maintainer
+7941c0b felix: overlay: Fix SB padding
+47be500 felix: Ship PixelParts
+f290d78 felix: Nuke HbmSVManager
+e65d0a9 felix: Initialize Evolution X 8.x
+20a864a felix: Enable Osaifu-Keitai on non-Japanese SKUs
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+2570f4b55913 PPU: Update fingerprints to February 2024 release
+805ea43f2346 SystemUI: Enable pulsing animation for faceunlock
+733caa026b3d SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+8c4a66badf39 New Crowdin updates (#501-#502)
+4e9a283a33a4 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/base into udc
+1f394121a846 Create FUNDING.yml
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+3b4bae9 Evolver: Nuke battery light
+4baa58c Evolver: Update Island settings
+fc59e4e Evolver: Refactor fragments/preference paths
+b37018d Evolver: Replace Edge long swipe pref with Advanced Gesture nav options [2/2]
+21e57d7 Evolver: Bring back UDFPS animation picker
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+31eb1a3be8 New Crowdin updates (#381-#390)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+495c7287 kernel: Support kernel modules via kbuild
+87735b0f kernel: Support copying modules to boot ramdisk
+d676f7ee vars: redfin,bramble: UP1A.231105.001.B2, Feb 2024
+9227d155 vars: February 2024 Security update
+
+
+=======================
+     2024/02/07
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/udc
+
+0151078281 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/art into udc
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/udc
+
+2f3c0a0a fixup! recovery_ui: Add support for battery capacity status
+c04ed77a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/bootable/recovery into udc
+8df79a28 recovery_ui: Add support for battery capacity status
+
+* Repository: https://github.com/Evolution-X-Devices/device_google_felix/commits/udc
+
+ba9da62 Update fingerprint/build description from UQ1A.240205.002
+134d864 Merge tag 'android-14.0.0_r22' into staging/lineage-21_merge-android-14.0.0_r22
+
+* Repository: https://github.com/Evolution-X-Devices/device_google_sunfish/commits/udc
+
+09586621 sunfish: Enable Osaifu-Keitai on non-Japanese SKUs
+09a3dade Revert "sunfish: Drop C2 decoders for now"
+
+* Repository: https://github.com/Evolution-X-Devices/device_xiaomi_veux/commits/udc
+
+687983a Revert "veux: Include ViPER4AndroidFX" -we use dolby now xD
+46b9794 veux: Enable TARGET_HAS_WIDE_COLOR_DISPLAY & TARGET_HAS_HDR_DISPLAY * also added ro.surface_flinger.has_wide_color_display=true
+54ecbc0 fixup! veux: Enable VoNR Calls support
+2e7fd42 veux: overlay: Set LTE+ threshold bandwidth to 0 * so LTE+ icon will show whenever it's available
+181ae8b veux: overlay: Globally enable LTE+ icon
+2cffe26 veux: overlay: Update max notification icons config
+71ed36a veux: Update from veux V14.0.6.0.TKCINXM * Updated Blobs from latest MIUI Updates
+f880f42 veux: Nuke old parts implementation -we might implement some better parts later on.
+b2ac39e Revert "veux: Inherit Firmware"
+73ca668 veux: rro_overlays: Refactor Brightness Configs And Values
+c71c363 veux: Add Moto Dolby support
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+92f40d62d9 libcameraservice: Import Xiaomi Exif Camera Modifications
+b1b9672ea3 frameworks/av: Import Xiaomi Image Tags defenitions
+d84fee3fa1 Av: Camera: Import Xiaomi BufferProducerDetachListener changes
+8ceece8729 CAMX: CHI: Added support for handling jpeg debug data.
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+45b8b5e62d Native: VibratorFeature: Import Xiaomi Android 13 Changes
+549c8a7b67 BlastBufferQueque: Import Xiaomi Android 13 BlastBuffer Changes
+08930132cb Native: Camera: Import Release Slot Xiaomi Changes
+dcaf5b1be3 Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel-sepolicy/commits/refs/heads/udc
+
+41fe5de Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into udc
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+586abe5ee Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/hardware/interfaces into udc
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-21.0
+
+f36fc9e thermal-hal: Add thermal HAL 2.0 support for sdm710 family
+
+* Repository: https://github.com/Evolution-X/hardware_qcom_wlan/commits/refs/heads/udc
+
+4acab15 Resolve compilation error for fib_rule_port_range with fib_rules.h
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/udc
+
+02c5be56 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/apps/Nfc into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+a07a0c0d00 Bluetooth: Add a workaround for M_RELEASE rsp len in ble_gap.cc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/udc
+
+58a09a5af6 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Wifi into udc
+95fbeefea8 Reduce refresh times for non-persistent MACs
+
+* Repository: https://github.com/Evolution-X/packages_modules_common/commits/refs/heads/udc
+
+7a7f16c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/common into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/udc
+
+d49bf0ef8 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/MediaProvider into udc
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+f249b940b Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/services/Telecomm into udc
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+4809c7f80 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/core into udc
+
+* Repository: https://github.com/Evolution-X/system_extras/commits/refs/heads/udc
+
+6218229e Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/extras into udc
+
+* Repository: https://github.com/Evolution-X/system_logging/commits/refs/heads/udc
+
+01b2360c Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/logging into udc
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/udc
+
+5f903ed6 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/media into udc
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+c9e726c44 Add property to workaround M_RELEASE rsp len issues
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/udc
+
+982f09a5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/update_engine into udc
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/udc
+
+c03b033 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/system/vold into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+57f2e523 overlay: Disable a couple more OTA upgrade components
+cfe01708 overlay: Disable OtaUpdateActivity component
+2fbf5a97 repopick: Clear Pyright warnings
+eb45b86b repopick: Check fetch result based on the actual commit
+1d52a471 repopick: Apply change in parallel
+da76ab84 repopick: Avoid repeatedly performing the same check
+4f34adc4 repopick: Use the builtin urllib to handle HTTP basic authentication
+4a2694b3 repopick: Clean up subprocess calls
+e4ab221e repopick: Organize imports and format with black
+2b13a521 repopick: Remove python2 support
+
+* Repository: https://github.com/Evolution-X-Devices/vendor_google_sunfish/commits/udc
+
+55cd393 sunfish: Enable Osaifu-Keitai on non-Japanese SKUs
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+ba97622 SystemUIGoogle: include ims-common lib
+
+
+=======================
+     2024/02/06
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+24ced9e556 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/build into udc
+
+* Repository: https://github.com/Evolution-X-Devices/device_google_sunfish/commits/udc
+
+23580ec9 sunfish: Create privapp-permissions 02-05 21:42:49.699  2602  2602 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main 02-05 21:42:49.699  2602  2602 E AndroidRuntime: java.lang.IllegalStateException: Signature|privileged permissions not in privapp-permissions allowlist: {com.google.android.gms (/product/priv-app/PrebuiltGmsCore): android.permission.FORCE_STOP_PACKAGES, com.google.android.gms (/product/priv-app/PrebuiltGmsCore): android.permission.CALL_AUDIO_INTERCEPTION}
+a663abbc sunfish: sepolicy: Include turbo_adapter rules
+ad9a8f34 sunfish: vendorsetup: Replace sepolicy required
+b1845482 sunfish: sepolicy: Include GoogleBattery rules
+58af23db sunfish: Drop C2 decoders for now * Also moved media_codecs_c2.xml from vendor tree
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+4fe0e65bfc Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/av into udc
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+22b1faf94a4e Battery light: 100% charged level (1/2)
+2ad3caa9e9a6 frameworks/base: Lights notifications brightness support
+00d938ef71de frameworks/base: Battery and Notification Lights
+76c5ff30bb5d Import LineageNotification from lineage sdk
+ffeb9369ada9 Revert "BatteryService: Fix battery led not turning off when unplugged at 100%"
+1f5dc42a5b91 Revert "Allow to disable battery light"
+3fc5da8b3c01 fixup! SystemUI: Implement burn-in protection for status/navbar
+5f5ef3b6f06b SystemUI: Allow disabling long press for lockscreen shortcuts
+117c504cc724 SystemUI: More notification icons on AOD screen
+2423ceb2dfb4 New Crowdin updates (#500)
+85bea1f53492 BatteryStatsViewer: Move it to Battery Section
+95e30f460645 Island: Do not show now playing on keyguard and dozing state
+b357c475757e IslandView: Fix and improve notification regex filtering
+53a1ae77d461 fixup! SystemUI: Implement Island notification feature
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+2a5b0ac632 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/frameworks/native into udc
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+aa17727 healthd-ext: Fix charge_counter and ETA values
+3aa1b6f healthd-ext: Define override to QTI AIDL healthd-ext hal
+db26527 healthd-ext: Rename hal to xiaomi to avoid compilation conflicts
+8060b15 healthd-ext: Update AIDL HAL service installation paths
+4f35c23 healthd-ext: Add suspend support for charger mode
+143d648 healthd-ext: Add health HAL AIDL implementation
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+bd1e917 Manifest for Android 14.0.0 Release 25 (UQ1A.240205.004)
+571c0d1 Manifest for Android 14.0.0 Release 24 (UQ1A.240205.002.B1)
+8ca252b Manifest for Android 14.0.0 Release 23 (UQ1A.240205.002.A1)
+cf7c5eb Manifest for Android 14.0.0 Release 22 (UQ1A.240205.002)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+27a8b42d24 Settings: Add back battery and notification lights settings
+7d741d6722 Settings: Battery light: 100% charged level (2/2)
+3d42af1af5 Implement notification light settings
+b6c8519778 Revert "Settings: Add switch for battery led"
+c6789c6196 Settings: Hide battery info
+9da71b2038 ChooseLockPassword: Don't uncheck auto confirm above minimum length
+0e866579df ChooseLockPassword: Decrease minimum pin length for auto confirm
+5f5302ac1e Settings: Adapt Evolver fragment paths
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+feba9684e5 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Bluetooth into udc
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/udc
+
+de3e6504a Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/modules/Permission into udc
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/udc
+
+300c7c80 Merge tag 'android-14.0.0_r25' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into udc
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+67d6c389 device_config: Update some values
+c055983a rro_overlays: Whitelist oslo plugin
+ff89dd88 version: Uprev to 8.3
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+4866a66 SettingsGoogle: Update battery led options
+
+
+=======================
+     2024/02/05
+=======================
+
+* Repository: https://github.com/Evolution-X-Devices/device_xiaomi_veux/commits/udc
+
+5c2d650 veux: updated Audio hals version
+b438a56 veux: Enable refresh rate toggle in Settings
+9009cef veux: updated BOARD_KERNEL_CMDLINE from latest MIUI
+f2fdf78 veux: tracked audio hal directory for audio xmls
+96529d8 veux: Disable frame rate override feature
+
+* Repository: https://github.com/Evolution-X/system_libhwbinder/commits/refs/heads/udc
+
+dae2dac IPCThreadState: Import Xiaomi Android 13 robustness modification
+
+
+=======================
+     2024/02/04
+=======================
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/udc
+
+5d0849e7d1 Merge tag 'android-14.0.0_r20' of https://android.googlesource.com/platform/packages/modules/Connectivity into udc
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+c8bfa27 certification: 01/15/2024 Update
+
+
