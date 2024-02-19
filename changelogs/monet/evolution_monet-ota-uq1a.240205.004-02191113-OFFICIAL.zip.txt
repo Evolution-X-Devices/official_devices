@@ -1,0 +1,72 @@
+NOTE: USING MIUI 13 FW IS MANDATORY. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+Highlights:
+- WiFi crash when enabling hotspot fixed
+- Bluetooth audio HAL updated to support LE modes
+
+=======================
+     2024/02/19
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+78aa151 Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+13fbbd9 New Crowdin updates (#514-#609)
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+95e0d41 Automatic translation import
+
+
+=======================
+     2024/02/18
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+cec1d4a bluetooth: do not fatally error on unknown packet types
+
+
+=======================
+     2024/02/17
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+95e94773e NetworkTraffic: Handle flooding network requests
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+a635140 Settings: Always restore keyChordPowerVolumeUp to mute...
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/udc
+
+a38d7aa Exempt data_between_core_and_vendor_violators from vold neverallow
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+520503b SettingsGoogle: Sync Refresh rate changes
+
+
+=======================
+     2024/02/16
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+3c2298b sdm: Conditionally revert "sdm: Implement ‘Null Display’ in SDM core"
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+4686d9f BondStateMachine: Allow skipping confirm for some remotes
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4e0ff2f Hookup SDMCORE_HAS_IS_DISPLAY_HW_AVAILABLE_FUNC
+
+* Repository: https://bitbucket.org/evo-x/vendor_gms/commits/refs/heads/udc
+
+ddb4487 gms: Stop including PlayAutoInstallConfig
