@@ -1,0 +1,30 @@
+Device ChangeLog:
+- Disabled vsync for CPU rendered Apps
+- rootdir: Hide Magisk Better
+- Force disabled iorapd
+- Enabled ro.hwui.render_ahead and set it to 20 frames
+- set ro.hwui.render_ahead=23
+- Use speed tuning for performance critical applications
+- Compile HWUI for performance
+- Reduce screenshot delay to 0
+- Use HintManager for HWUI
+- Fix screen record lag
+- Add props to improve battery backup
+- Disable slow blur effect to avoid laggish blur effect
+- Added few touch props
+- props: For smoother scrolling and better
+- Add smooth motion flag
+- props: Better RAM Management
+- Disable blur on app launch
+- Speed profile services
+- Clean up useless log spams
+- Optimize everything on preopt
+- Stop bootanimation service after boot
+- Disable frame rate override feature
+- Add props for better signal
+- Tune Vsync Phase Offset
+- don't latch unsignal buffers
+- Set debug.sf.frame_rate_multiple_threshold to 60 by default
+- Add a property to enable prefetching video
+- Import SettingsResStone
+- Many more changes
