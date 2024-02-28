@@ -315,6 +315,21 @@
       ]
    },
    {
+      "brand": "Nokia",
+      "codename": "PL2",
+      "name": "Nokia 6.1",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPL2",
+            "maintainer_name": "Akshat Singh",
+            "maintainer_url": "https://xdaforums.com/m/legendleo99.12006477/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r25-pl2-official-evolution-x-02-27-24.4658982/"
+         }
+      ]
+   },
+   {
       "brand": "OnePlus",
       "codename": "instantnoodle",
       "name": "OnePlus 8",
