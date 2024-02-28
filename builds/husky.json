@@ -1,17 +1,17 @@
 {
-   "datetime": 1706399959,
+   "datetime": 1708823675,
    "donate_url": "https://paypal.me/jacksummers715",
    "error": false,
-   "filehash": "a3519d9985e476b9b3d87940fd14893c",
-   "filename": "evolution_husky-ota-uq1a.240105.004-01271901-OFFICIAL.zip",
-   "forum_url": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-2-01-27-2024.4649678/",
-   "id": "2722239451ea2b306ac5b2ad16ecd2d8cf56d213c2799460654d64d5c4fc87b7",
+   "filehash": "55cbf0d58888354b5dcfb9c1551754a7",
+   "filename": "evolution_husky-ota-uq1a.240205.004-02271811-OFFICIAL.zip",
+   "forum_url": "https://xdaforums.com/t/rom-14-0_r20-official-evolution-x-8-3-02-27-2024.4649678/",
+   "id": "1ffd4a6bf06b44cd31e34089616001a663680a76339db8782e2834748b4665a7",
    "maintainer": "Hurt Copain",
    "maintainer_url": "https://xdaforums.com/m/hurt-copain.12125255",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2526295079,
+   "size": 2600236610
    "telegram_username": "hurtcopain",
-   "url": "https://sourceforge.net/projects/evolution-x/files/husky/14/evolution_husky-ota-uq1a.240105.004-01271901-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/husky/14/evolution_husky-ota-uq1a.240205.004-02271811-OFFICIAL.zip/download",
    "version": "Fourteen",
    "website_url": "https://evolution-x.org"
 }
