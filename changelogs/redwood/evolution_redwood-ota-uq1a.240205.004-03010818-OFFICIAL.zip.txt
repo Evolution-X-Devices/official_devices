@@ -1,0 +1,165 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+
+Notes:
+==============================
+- dirty flash is fine over last over last build.
+- FTS screen is not supported.
+- Play Integrity passes by default (As of 01/03/2024).
+
+Device changes:
+====================================
+- re-implement onelus dolby support for better sound.
+- Fixed audio distortion.
+- Updated blobs from V14.0.5.0.TMSINXM.
+- Switch to SkiaGL Threaded (vulkan has color issue with tiktok and LMC8.4 crash when we use vulkan)
+- QCOM implementation for audio effects
+- Enable support for IEEE80211AX
+- fine tune forground and background cpu set 
+- other misc underthehood changes.
+
+
+ROM changes:
+=======================
+     2024/03/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c17d70fb3 DataSwitchTile: Don't crash when there are no data SIMs
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+538adac Settings: Restart SystemUI on resolution change
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+174ca0c certification: RIP Hisense
+
+
+=======================
+     2024/02/29
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+3c9a0c0 Aperture: Reformat code
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+33ccb5d New Crowdin updates (#514-#616)
+
+
+=======================
+     2024/02/28
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+20260a2 tools: merge_dtbs: Respect miboard-id while merging
+
+
+=======================
+     2024/02/27
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+a75bf82 qva: Label qcom,battery_charger extcon
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+099a27b SF: Re-enable expensive rendering for blurs
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+bb67fe9 manifest: Track our fork StatsD
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+657bc60 PlayerSettingsManager: Add null checks to avoid crash for MediaPlayerWrapper or session token
+
+* Repository: https://github.com/Evolution-X/packages_modules_StatsD/commits/refs/heads/udc
+
+74a6094 statsd: Disable native stats collection service
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+db898cc Ringer: Rewrite flashlight blink on incoming calls
+
+
+=======================
+     2024/02/24
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e568407 SettingsGoogle: Sync Battery info and SIM 2 Ringtone changes
+
+
+=======================
+     2024/02/23
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+41cc5aa audio: Check MODIFY_AUDIO_ROUTING permission for per-app volume
+
+* Repository: https://github.com/LineageOS/android_prebuilts_tools-lineage/commits/refs/heads/lineage-21.0
+
+3917c80 Import `yes.pl` from https://github.com/mubaris/yes
+
+
+=======================
+     2024/02/22
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+073adbb qcom: Allow a device to manually override which HALs it wants to use
+
+
+=======================
+     2024/02/21
+=======================
+
+
+=======================
+     2024/02/20
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+abdd89a build: Fix LEX mismatch on Gentoo Linux
+
+
+=======================
+     2024/02/19
+=======================
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+9ed06af fs_mgr: Load DM table as RW for debuggable recoveries
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+95e0d41 Automatic translation import
+
+
+=======================
+     2024/02/18
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_bcr/commits/refs/heads/udc
+
+cdbc5fa Version 1.60
+
+
+=======================
+     2024/02/17
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+cec1d4a bluetooth: do not fatally error on unknown packet types
+
