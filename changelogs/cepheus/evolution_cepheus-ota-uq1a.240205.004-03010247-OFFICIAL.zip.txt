@@ -1,0 +1,26 @@
+- Dirty install from previous update is fine
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread
+
+**Device Changes:**
+
+- Update wireguard
+- Merge latest CAF tag in kernel
+- Add support for FUSE passthrough in kernel and enable it by default
+
+**Evolution X Update**
+
+- volver: Add option to spoof current storage encryption status
+- Evolver: Bring back Netflix spoof
+- Settings: deviceinfo: Extend Battery info page
+- Settings: Phone ringtone setting for Multi SIM device
+- statsd: Disable native stats collection service
+- SystemUI: enable fading squiggle animation of qs media player
+- Evolver: Add Flashlight blink on incoming calls
+- Evolver: Add DND & Rate settings to flash on call
+- Aperture: Implement screen flash
+- Aperture: Update icons from Material Icons
+- Settings: Fix total RAM calculation
+- Evolver: Bring back Snapchat spoof toggle
+- Fix uninstall for all users
+- Update certification
+- Update translations
