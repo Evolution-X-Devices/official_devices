@@ -1,0 +1,113 @@
+Highlighted Changelog:
+================
+• Ship Circle to Search functionality and enable by default
+• Ship prebuilt gemini assistant
+• Add wifi standard icon
+• Allow multi ringtone for different sims 
+• Allow to enable flashlight blink on incoming calls
+• Fix data switch tile
+
+Source Changelog:
+================
+02/29
+Ringtone picker to handle RESULT_CANCELED from Add ringtone
+PixelPropsUtils: Spoof realme link
+Revert "Add some fwb stubs from Oplus"
+Settings: Fix total RAM calculation
+[SQUASH] PixelPropsUtils: Various changes
+Fix uninstall for all users
+
+02/27
+base: Add DND & Rate settings to flash on call
+base: Add Flashlight blink on incoming calls
+Force re-enable Pokemon Pixel live wallpaper
+Fix: "Clear All" recent app screen loop bug
+SystemUI: enable fading squiggle animation of qs media player
+GamesPropsUtils: Update packages list
+Remove unused UDFPS_ANIM settings
+Don't skip process group creation for system_server
+OverlayManagerService: add a new thread to handle user receiver
+Check for Location Feature and GNSS HAL Support
+fixup! base: Add support for app lock
+Fix unknown sources app install confirmation
+
+02/26
+Settings: deviceinfo: Extend Battery info page
+core: Enable force disable nav bar config by default
+core: Introduce config_proximityCheckOnFpsUnlock
+Add some fwb stubs from Oplus
+
+02/24
+SystemUI: Forward port 'HD & wifi calling statusbar icons'
+Phone ringtone setting for Multi SIM device
+restore Android 13 "pause work profile" behavior
+UserDataPreparer: be more careful about auto-deleting data on error
+Always allow overriding the number of work profiles
+
+02/22
+EvolutionUtils: Refactor isPackageInstalled method
+ScreenOffAnimation: Fix system animation disable check
+
+
+02/20
+LocalImageResolver: Stop the spam
+KeyStore: Update local attestation spoofing
+
+
+
+02/17
+NetworkTraffic: Handle flooding network requests
+Settings: Introduce new refresh rate selector page
+Settings: Add userRestriction for auto brightness
+
+02/16
+LockPatternView: Fix showing pattern error
+BondStateMachine: Allow skipping confirm for some remotes
+Evolver: Bring back Netflix spoof
+Normalize wakelock blocker
+fixup Workaround for ASI crash
+PixelPropsUtils: Improve tablet spoofing
+PixelPropsUtils: Refactor and cleanup spoofing
+
+02/14
+Gestures nav: Make it cancellable
+Gesture nav: Add go forward action
+Gesture nav: Add back menu action
+Enable Cloud Media provider
+SettingsProvider: Allow overriding volume panel default location
+
+02/13
+SystemUI: BackPanel: Always add second arrow in front on long swipe
+Gestures nav: Add back show recents action
+
+
+02/12
+Revert "SystemUI: Update udfps animation position on sensor props change"
+UI: Follow Monet and light/dark theme in user 1 icon
+SystemUI: Fix double unlock sound issue
+Fix screen flickering when using one handed mode
+
+
+02/09
+Introduce wifi standard icon feature
+PixelPropUtils: Spoof velvet search process and gms
+PPU: Spoof Gemini to P8P
+Add 5G Ultra Wideband icon carrier config keys
+Telephony: Adapt to S style
+telephony: Add ICCID into CarrierIdentifier
+Remove unnecessary HashMap instantiation
+Avoid duplicate map lookups in RemoteConnectionManager.
+Fix potential IllegalStateException in RescueParty.
+Spoof current storage encryption status
+fuelgauge: Hide screen time since last full charge if not valid
+DataProcessor: Do not skip and replace screen on component with screen on time
+vars: Update QCOM tags
+
+
+02/08
+Reduce ContrastColorUtil logspam
+Island: Improve text filtering to support symbols
+Evolver: Update Team Info
+Evolver: Hide app notif category
+kernel: Support kernel modules via kbuild
+kernel: Support copying modules to boot ramdisk
