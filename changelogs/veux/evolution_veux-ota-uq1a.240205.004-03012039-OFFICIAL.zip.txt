@@ -1,0 +1,379 @@
+This build you're receiving is evolution_veux-ota-uq1a.240205.004-03012039-OFFICIAL.zip comes with February Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Gapps are shipped default with Rom.
+Flash your region firmware after flashing rom.
+Dirty flash is fine from last release.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+Introduced auto performance control
+many misc. and changes
+Comes with Feburary Security Patch level.
+Moto Dolby is supported in this build.
+Includes Pixel Launcher
+Gcam is default Cam.
+Dropped support for ViPER4AndroidFX" 
+(Further who needs it can flash magisk module)
+Enabled TARGET_HAS_WIDE_COLOR_DISPLAY & TARGET_HAS_HDR_DISPLAY
+Enabled VoNR Calls support
+Set LTE+ threshold bandwidth to 0.
+ (So LTE+ icon will show whenever it's available)
+Globally enabled LTE+ icon.
+Updated max notification icons config.
+Updated blobs from veux V14.0.6.0. TKCINXM
+Dropped inbuilt Firmware, Flash your region firmware directly from here (https://t.me/EvolutionXVeux/59850?single)
+Dirty flash will work fine too.
+Includes Positron kernel.
+Synced with the latest source changes.
+Proximity Sensor has is still bugged, doesn't works.
+Further changelogs you can checkout here (https://github.com/Evolution-X-Devices/device_xiaomi_veux/commits/udc/)
+==========================================
+Source Changelogs:
+==========================================
+Find what you need faster … Home is your new landing page and surfaces your most relevant files and folders
+=======================
+     2024/03/02
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+535f2bfd65d1 SystemUI: update powershare QS tile icon
+a114bda91944 base: Stop the spamming of background start not allowed
+d9614ac0813d fwb: Link more elements to `config_dialogCornerRadius `
+ff34b98b50d1 SystemUI: use default dialogCornerRadius for qs customize title
+f5c36a6b59c9 Volume Dialog: Recolor inactive icons/slider
+b5ffee94e82c SystemUI: Define landscape height for aosp volume style
+64d6df2898ed SystemUI: Volume panel: disable row header for AOSP modified style
+e3bcce972c81 SystemUI: Use a more common haptic effect for volume panel
+4c68bcbe31e5 SystemUI: Implement Volume Styles [1/3]
+2de75d7d0fae IME attach to App should consider that letterboxed window
+e70a621ff534 SystemUI: Filter out duplicate notification icons on statusbar
+dea361df16f2 wm: never consume statusbar in freeform mode
+9c2d541f5199 Remove redundant broadcasts when adjusting volume on single volume devices
+9ed4191db46c Fix the bug of system app failing to load rros
+3d7c3cf804d0 ApplicationPackageManager: Rearrange Tensor feature checks
+ca485de22d37 PixelPropsUtils: Unspoof backup and migrate apps
+3cb427ba40db PixelPropsUtils: Spoof chimera process to Pixel 5a
+98c7f87075e3 core: Gracefully handle unregistering of unregistered receivers/services
+5b32b462b5dd Add Ambient Customizations [1/2]
+02b179c768fd SystemUI: Hide custom clocks by default
+358b50e0c50b SystemUI: Fix user profile icon for custom clock 2
+5eb10fc12f7c SystemUI: Custom clock style improvements
+6b1f17213835 Lockscreen Clock: Fix custom clock time updates
+a25f7f1d756c SystemUI: Add more LS Clocks [1/2]
+b1c350bcf2ad SystemUI: Add support for Custom fonts for Custom LS Clocks
+4f5593805b63 Lockscreen Clock: Dedupe requestLayout() calls when updating status area layout
+8cde7e07ae3d Introduce Lockscreen Style [1/2]
+c17d70fb34a2 DataSwitchTile: Don't crash when there are no data SIMs
+95e080ee4dee DataSwitchTile: Redo and fix data switching logic
+b7a613356a9f DataSwitchTile: Add a proper secondary label
+dc71f07e7a27 DataSwitchTile: Improve the code
+80c1e776421a fixup! base: SystemUI: Introduce DataSwitchTile
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+e5ea46c Aperture: Reformat code
+ea781be Aperture: Move camera manager to the view model
+4831db5 Aperture: Extract overlay configuration into a new class
+547cf2e Aperture: Move camera view model to .viewmodels
+8894751 Aperture: Use nonNullablePropertyDelegate for screen rotation LiveData
+e747a22 Aperture: Rework gallery button handling
+3ddff76 Aperture: Initial captured media flow
+d0a5228 Aperture: Bump gradle-generatebp to v1.7
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+7a04952 Evolver: Volume panel styles [3/3]
+b0a3cd4 New Crowdin updates (#617)
+a6ac868 Evolver: Allow ambient custom image selection from any app
+180b9f5 Evolver: Add Ambient Customizations [2/2]
+4e5975e Evolver: Fix default lock clock fonts
+e224e31 Evolver: Add more LS Clocks [2/2]
+2b5b14d Evolver: Show correct Font Styles on Dashboard
+51c3fc4 Evolver: Introduce Lockscreen Style [2/2]
+177e415 Evolver: Implement new font picker
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+d8dd235304 fuelgauge: Fix screen on time usage report
+538adac194 Settings: Restart SystemUI on resolution change
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+d74eba09 overlays: Add overlay for hiding smartspace view and adding offset
+
+
+=======================
+     2024/03/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+07a2fcb3ac45 Ringtone picker to handle RESULT_CANCELED from Add ringtone
+c096519dbca1 PixelPropsUtils: Spoof realme link
+f0d5139d7c02 Revert "Add some fwb stubs from Oplus"
+6e469e75d0b0 [SQUASH] PixelPropsUtils: Various changes
+3d2a81fdeaa4 Fix uninstall for all users
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+33ccb5d New Crowdin updates (#514-#616)
+1c8fafa Evolver: Bring back flashlight on call options [3/3]
+9e1f22e Evolver: Move roaming toggle to SystemUI
+3a87fde Evolver: Bring back Snapchat spoof toggle [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+bf88a451dd TopLevelBatteryPreferenceController: add null check
+b91afe0d37 Settings: Fix total RAM calculation
+e319482f7e New Crowdin updates (#391-#398)
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+174ca0c certification: RIP Hisense
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+45939701 fonts: add Ios font for lockscreen Clock
+
+
+=======================
+     2024/02/29
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+3c9a0c0 Aperture: Reformat code
+958af00 Aperture: Update icons from Material Icons
+78db13a Aperture: Implement screen flash
+3cfe9a0 Aperture: Remove RED_EYE mentions
+f3fbb59 Aperture: Use `onCaptureStarted()` for shutter sound and UI update
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+6414a660eb fixup! Settings: Fix zero exception for maximum battery capacity
+a1ec15de04 Settings: Fix zero exception for maximum battery capacity
+
+
+=======================
+     2024/02/28
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+3abd58263370 base: Add DND & Rate settings to flash on call [1/3]
+f5426f05e794 base: Add Flashlight blink on incoming calls [1/3]
+09ccadb40400 Fix: "Clear All" recent app screen loop bug
+55fdc0ed095f SystemUI: enable fading squiggle animation of qs media player
+f13883191a59 GamesPropsUtils: Update packages list
+7133d272da8d Remove unused UDFPS_ANIM settings
+7e2c6206d70a Don't skip process group creation for system_server
+d3161d18c818 OverlayManagerService: add a new thread to handle user receiver
+2c5a4ae9e0f0 Check for Location Feature and GNSS HAL Support
+256ee4f0b0e5 fixup! base: Add support for app lock
+627e2cb746d5 Fix unknown sources app install confirmation
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/udc
+
+bb67fe9 manifest: Track our fork StatsD
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+298f668534 FingerprintSettings: Add proximity check awareness if supported
+8e85bc4b26 Settings: WifiTetherApBand: Fix NPE at updateDisplay
+
+* Repository: https://github.com/Evolution-X/packages_modules_StatsD/commits/refs/heads/udc
+
+74a6094e statsd: Disable native stats collection service
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+db898ccb8 Ringer: Rewrite flashlight blink on incoming calls
+0187788a0 Ringer: There should really not be an observer here
+1ee233f3f Telecomm: Add DND & Rate settings to flash on call [2/3]
+2f159484e Telecomm: Allow to flash on call only when entirely silent [2/3]
+1e6fa61f8 Telecomm: Add Flashlight blink on incoming calls [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+20260a2b tools: merge_dtbs: Respect miboard-id while merging
+90314228 config: Add BCR only for devices with telephony
+
+
+=======================
+     2024/02/27
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-legacy-um
+
+a75bf8244 qva: Label qcom,battery_charger extcon
+19758ebff sepolicy_vndr: Update sepolicy for OTA AVC denials.
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+ea1983f86787 core: Allow force enabling tensor feature XMLs on non-Pixels [1/2]
+461fac9757f9 core: Enable force disable nav bar config by default
+b1d62b0e9138 core: Introduce config_proximityCheckOnFpsUnlock
+1e41e59f47c8 Add some fwb stubs from Oplus
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/udc
+
+099a27b871 SF: Re-enable expensive rendering for blurs
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/udc
+
+657bc60896 PlayerSettingsManager: Add null checks to avoid crash for MediaPlayerWrapper or session token
+
+
+=======================
+     2024/02/26
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+82563eb Aperture: Update to API 34
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+6fd1d342ae Settings: Phone ringtone setting for Multi SIM device [2/3]
+2a1808db91 Settings: deviceinfo: Extend Battery info page
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+b3dcaeda config: Include AudioPackage14.mk
+
+
+=======================
+     2024/02/25
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+b8d5f2e48c46 restore Android 13 "pause work profile" behavior
+061b02730ace UserDataPreparer: be more careful about auto-deleting data on error
+84ab772e70fc Always allow overriding the number of work profiles
+7e24553f4d7f base: Phone ringtone setting for Multi SIM device [1/3]
+e543c86628f4 core: BatteryManager: Add few more Battery broadcast intents
+0e27e598207d SystemUI: Forward port 'HD & wifi calling statusbar icons'
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+a1415cd Aperture: Tie text classification thread to lifecycle
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+f6e1ddc4 overlay: Force re-enable Pokemon Pixel live wallpaper
+
+
+=======================
+     2024/02/24
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/udc
+
+c2e8c2ac7 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6572f235 overlay: Launcher: Update Find my device themed icon from Husky QPR1
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e568407 SettingsGoogle: Sync Battery info and SIM 2 Ringtone changes
+6d4eb42 SettingsGoogle: Sync Refresh rate changes
+8680b6d SystemUIGoogle: Dont override biometric dialog corner radius
+
+
+=======================
+     2024/02/23
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/udc
+
+41cc5aacbc audio: Check MODIFY_AUDIO_ROUTING permission for per-app volume
+291ef53cc8 audio: Remove UID check from per-app volume commands
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+2173d1db9738 Fix judgment logic of DisplayDeviceConfig#loadSdrHdrRatioMap.
+4abd9c7219f9 Reduce some redundant steps
+2c81a5665fd7 EvolutionUtils: Refactor isPackageInstalled method
+c2086af31a44 ScreenOffAnimation: Fix system animation disable check
+
+* Repository: https://github.com/LineageOS/android_prebuilts_tools-lineage/commits/refs/heads/lineage-21.0
+
+3917c80 Import `yes.pl` from https://github.com/mubaris/yes
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+0ff4f927 overlay: Update NTP server overlay for Chinese users
+
+
+=======================
+     2024/02/22
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+073adbb qcom: Allow a device to manually override which HALs it wants to use
+bd3dc05 os_pickup_sepolicy_vndr: Switch to Evolution directory
+
+
+=======================
+     2024/02/21
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/udc
+
+abdd89a5a2 build: Fix LEX mismatch on Gentoo Linux
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c2ed8baaba6f Fix race condition in process observer
+965e8d88fc14 Make sure we'll always kill process group
+8ea4c23e3a89 Boost process priority during fork.
+1b29e0474c5b KeyStore: Update local attestation spoofing
+daa67d07798b CEC: correct frameworks physicalAddress parsing
+4770e181d735 LocalImageResolver: Stop the spam
+
+
+=======================
+     2024/02/20
+=======================
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/udc
+
+9ed06af01 fs_mgr: Load DM table as RW for debuggable recoveries
+
+
+=======================
+     2024/02/19
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+78aa151 Automatic translation import
+597ace1 Aperture: Set QR code component via RRO overlay
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/commits/refs/heads/lineage-21.0
+
+95e0d41 Automatic translation import
+
+
+=======================
+     2024/02/18
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/udc
+
+cec1d4ab0 bluetooth: do not fatally error on unknown packet types
+
+* Repository: https://github.com/Evolution-X/vendor_bcr/commits/refs/heads/udc
+
+cdbc5fa Version 1.60
+
+
