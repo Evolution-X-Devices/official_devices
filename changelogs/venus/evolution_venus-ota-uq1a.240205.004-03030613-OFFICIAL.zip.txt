@@ -1,0 +1,79 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 03/03/2024).
+- Uses crdroid kernel
+- Includes Dirac audio, Dolby Vision, Viper4Android, Leica camera.
+- Credits to FlowerSea, kamikonashi, ArianK16a, AdarshGrewal.
+
+Device changes:
+==============================
+None
+
+Notable ROM changes:
+==============================
+ApplicationPackageManager: Rearrange Tensor feature checks
+BrightnessController: Update icon state for auto bg icon
+DataSwitchTile: Add a proper secondary label
+DataSwitchTile: Don't crash when there are no data SIMs
+DataSwitchTile: Improve the code
+DataSwitchTile: Redo and fix data switching logic
+Disable mobiledata by default with sys prop
+Evolver: Add Ambient Customizations
+Evolver: Add QS Brightness text percentage
+Evolver: Add pulse ambient edge lightning settings
+Evolver: Add volume panel text percentage
+Evolver: Allow force enabling tensor feature XMLs on non-Pixels
+Evolver: Bring back Snapchat spoof toggle
+Evolver: Bring back flashlight on call options
+Evolver: Implement Volume panel styles
+Evolver: Implement new font picker
+Evolver: Introduce A11 QS UI Style
+Evolver: Introduce custom lockscreen clock styles
+FingerprintSettings: Add proximity check awareness if supported
+Fix the bug of system app failing to load rros
+Fix uninstall for all users
+Fix: "Clear All" recent app screen loop bug
+Handle mobile data on internet page during setup
+IME attach to App should consider that letterboxed window
+PixelPropsUtils: Spoof chimera process to Pixel 5a
+PixelPropsUtils: Unspoof backup and migrate apps
+PixelPropsUtils: Various changes
+Remove redundant broadcasts when adjusting volume on single volume devices
+Ringtone picker to handle RESULT_CANCELED from Add ringtone
+SF: Re-enable expensive rendering for blurs
+Settings: Fix total RAM calculation
+Settings: Fix zero exception for maximum battery capacity
+Settings: Phone ringtone setting for Multi SIM device
+Settings: deviceinfo: Extend Battery info page
+SettingsGoogle: Permanently expose Extreme Battery Saver
+SystemUI: Filter out duplicate notification icons on statusbar
+SystemUI: Use a more common haptic effect for volume panel
+SystemUI: enable fading squiggle animation of qs media player
+SystemUI: use default dialogCornerRadius for qs customize title
+TopLevelBatteryPreferenceController: add null check
+Update BCR to v1.60
+Update translations
+base: Add ambient pulse notification
+base: Stop the spamming of background start not allowed
+base: core: Unregister broadcast receiver only when registered
+config: Add BCR only for devices with telephony
+config: Include AudioPackage14.mk
+core: Enable force disable nav bar config by default
+core: Gracefully handle unregistering of unregistered receivers/services
+fonts: add Ios font for lockscreen Clock
+fuelgauge: Fix screen on time usage report
+fwb: Link more elements to config_dialogCornerRadius 
+overlay: Force re-enable Pokemon Pixel live wallpaper
+overlay: Launcher: Update Find my device themed icon from Husky QPR1
+overlays: Add overlay for hiding smartspace view and adding offset
+statsd: Disable native stats collection service (lessens battery drain)
+themes: Add Dora icon styles for wifi and signal
+themes: Add Dora navbar style
+themes: Add riceball icon shape
+themes: Import more Signal & Wifi Icons
+tools: merge_dtbs: Respect miboard-id while merging
+wm: never consume statusbar in freeform mode
