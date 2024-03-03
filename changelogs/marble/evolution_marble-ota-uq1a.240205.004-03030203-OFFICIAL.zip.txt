@@ -1,0 +1,80 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- You need to flash your device region HyperOS firmware before the ROM.
+- Always dirty flash at your own risk.
+  If your device bootloops, revert to an older build that boots.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 02/28/2024).
+- Uses Silvercore kernel
+- Includes Dolby Atmos, Dolby Vision, Leica camera.
+- Credits to YukongA, AkaneTan, Saikiran, GR, Chaitanya, FlowerSea.
+
+Device changes:
+==============================
+Remove redundant refresh rate QS tile
+parts: Drop Refresh rate QS tile
+rootdir: Fix the battery drain due to statsd
+
+Notable ROM changes:
+==============================
+ApplicationPackageManager: Rearrange Tensor feature checks
+BrightnessController: Update icon state for auto bg icon
+Check for Location Feature and GNSS HAL Support
+DataSwitchTile: Add a proper secondary label
+DataSwitchTile: Don't crash when there are no data SIMs
+DataSwitchTile: Improve the code
+DataSwitchTile: Redo and fix data switching logic
+Disable mobiledata by default with sys prop
+Don't skip process group creation for system_server
+Evolver: Add Ambient Customizations
+Evolver: Add QS Brightness text percentage
+Evolver: Add pulse ambient edge lightning settings
+Evolver: Add volume panel text percentage
+Evolver: Bring back flashlight on call options
+Evolver: Bring back Snapchat spoof toggle
+Evolver: Implement new font picker
+Evolver: Implement Volume panel styles
+Evolver: Introduce A11 QS UI Style
+Evolver: Introduce custom lockscreen clock styles
+Fix the bug of system app failing to load rros
+Fix uninstall for all users
+Fix unknown sources app install confirmation
+Fix: "Clear All" recent app screen loop bug
+GamesPropsUtils: Update packages list
+Handle mobile data on internet page during setup
+IME attach to App should consider that letterboxed window
+OverlayManagerService: add a new thread to handle user receiver
+PixelPropsUtils: Spoof chimera process to Pixel 5a
+PixelPropsUtils: Unspoof backup and migrate apps
+PlayerSettingsManager: Add null checks to avoid crash for MediaPlayerWrapper or session token
+Remove redundant broadcasts when adjusting volume on single volume devices
+Ringtone picker to handle RESULT_CANCELED from Add ringtone
+Settings: Fix total RAM calculation
+Settings: Fix zero exception for maximum battery capacity
+Settings: WifiTetherApBand: Fix NPE at updateDisplay
+SettingsGoogle: Permanently expose Extreme Battery Saver
+SystemUI: Filter out duplicate notification icons on statusbar
+SystemUI: enable fading squiggle animation of qs media player
+SystemUI: Use a more common haptic effect for volume panel
+SystemUI: use default dialogCornerRadius for qs customize title
+TopLevelBatteryPreferenceController: add null check
+Update BCR to v1.60
+base: Add ambient pulse notification
+base: Stop the spamming of background start not allowed
+base: core: Unregister broadcast receiver only when registered
+config: Add BCR only for devices with telephony
+core: Gracefully handle unregistering of unregistered receivers/services
+fixup! base: Add support for app lock
+fonts: add Ios font for lockscreen Clock
+fuelgauge: Fix screen on time usage report
+fwb: Link more elements to config_dialogCornerRadius 
+overlays: Add overlay for hiding smartspace view and adding offset
+statsd: Disable native stats collection service (lessens battery drain)
+themes: Add Dora icon styles for wifi and signal
+themes: Add Dora navbar style
+themes: Add riceball icon shape
+themes: Import more Signal & Wifi Icons
+tools: merge_dtbs: Respect miboard-id while merging
+wm: never consume statusbar in freeform mode
