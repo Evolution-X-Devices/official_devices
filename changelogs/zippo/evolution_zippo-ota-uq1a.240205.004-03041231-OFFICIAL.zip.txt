@@ -1,0 +1,45 @@
+- FORMAT DATA IS REQUIRED IF YOU COME FROM LEGACY PARTITIONS. MAKE SURE TO USE THE RECOVERY LINKED IN THE INSTALLATION INSTRUCTIONS AT THE XDA FORUM
+- Firmware 12.5.365 is required
+- SELinux is Enforcing
+- User build
+- Locked bootloader is supported
+- Forced encryption is enabled
+
+
+**Device Changes:**
+- Update kernelsu to 0.8.1
+- Merge latest CAF tag in kernel
+- Support and enable by default FUSE passthrough
+
+**Evolution X Update**
+
+- Evolver: Add option to spoof current storage encryption status
+- Evolver: Bring back Netflix spoof
+- Settings: deviceinfo: Extend Battery info page
+- Settings: Phone ringtone setting for Multi SIM device
+- statsd: Disable native stats collection service
+- SystemUI: enable fading squiggle animation of qs media player
+- Evolver: Add Flashlight blink on incoming calls
+- Evolver: Add DND & Rate settings to flash on call
+- Aperture: Implement screen flash
+- Aperture: Update icons from Material Icons
+- Settings: Fix total RAM calculation
+- Evolver: Bring back Snapchat spoof toggle
+- Fix uninstall for all users
+- Update certification
+- themes: Implement Volume Styles
+- themes: Add riceball icon shape
+- themes: Add Dora navbar style
+- themes: Add Dora icon styles for wifi and signal
+- themes: Import more Signal & Wifi Icons
+- themes: Add A11 QS UI Style
+- Update bootanimation for 5 year anniversary
+- fixup! Settings: Make all user apps cloneable
+- Evolver: Implement new font picker
+- Evolver: Introduce Lockscreen Style
+- Evolver: Add more LS Clocks
+- Evolver: Add pulse ambient edge lightning settings
+- Evolver: Disable monet theme settings
+- Evolver: Allow setting quick QS rows
+- Evolver: Add QS Panel Style
+- Update translations
