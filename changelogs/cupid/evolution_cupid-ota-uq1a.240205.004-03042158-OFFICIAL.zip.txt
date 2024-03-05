@@ -1,0 +1,176 @@
+  
+2024-03-05
+
+
+To use this release you need:
+
+   MIUI_V14.0.8.0.TLCMIXM
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * No Changes
+
+KERNEL: 
+
+  * Fix pinch to zoom gesture
+
+ROM:
+
+=======================
+     2024/03/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+930d08f9f67c Revert "Fix AlarmManager high CPU issue"
+448b4b82d175 SystemUI: Add QS Panel Style [1/3]
+a8430ce8278b SystemUI: Set default landscape rows to 1
+f59991d6504d Allow setting quick QS rows [1/2]
+76d352ef0a62 SystemUI: Reduce tile label size for A11 QS
+63b3c7ba8dbd SystemUI: Fix QS tile dialog background color
+e7f57112c608 run full explicit GC in SystemUI and system_server after locking
+0202bcaf672c SettingsLib: Make all user apps cloneable [1/2]
+86c5d7bb660f SystemUI: fix duplicated creation of KeyguardStatusBarViewController
+a278d7da463c fixup! SystemUI: Implement hide gestural navigation hint bar
+7b9dead5bac6 SystemUI: Increase QS & QQS header Space for A11 QS style [1/2]
+05b9c839b2e0 SystemUI: Do not marquee QS label text
+8945805cc0c5 SystemUI: Fix adding wrong side view in QS
+14a806cae236 SystemUI: Use label vertical layout for A11 QS
+98312c7cf38a SystemUI: Remove unused QS panel custom padding
+cfc8ecd4c8ac SystemUI: Add A11 QS UI Style [1/3]
+b956a6b97251 base: core: Unregister broadcast receiver only when registered
+97aaf17626c5 SystemUI: Add Brightness TextView [1/2]
+ab689643ff0d SystemUI: Add Volume panel TextView [1/2]
+2f1d9e3546c2 BrightnessController: Update icon state for auto bg icon
+7df7a2f4247c base: Add ambient pulse notification
+bc3a8a7c96bb [SQUASH] SystemUI: Remove edge light customizations
+ac1e2a4fd5b2 base: Allow overlaying single tap gesture invocation delay
+c2cbbf7cd2e1 base: Stop the spamming of background start not allowed
+4e335dc043b2 fwb: Link more elements to `config_dialogCornerRadius `
+8213f81163e8 SystemUI: use default dialogCornerRadius for qs customize title
+547706af34e8 SystemUI: update powershare QS tile icon
+bbf8ef7c7bcf SystemUI: Define landscape height for aosp volume style
+a0848d81a357 SystemUI: Volume panel: disable row header for AOSP modified style
+4d40d3455987 SystemUI: Use a more common haptic effect for volume panel
+7891c12c3ecc SystemUI: Implement Volume Styles [1/3]
+0b608c2422ac IME attach to App should consider that letterboxed window
+1a71e15d3043 SystemUI: Filter out duplicate notification icons on statusbar
+056c02fd0fb4 wm: never consume statusbar in freeform mode
+75ef049dde96 Remove redundant broadcasts when adjusting volume on single volume devices
+2ae250c30dc2 Fix the bug of system app failing to load rros
+10d23c2d9c41 ApplicationPackageManager: Rearrange Tensor feature checks
+7e378df5a968 PixelPropsUtils: Unspoof backup and migrate apps
+82df5ba37198 PixelPropsUtils: Spoof chimera process to Pixel 5a
+0347db1a313d core: Gracefully handle unregistering of unregistered receivers/services
+ed371385e8bb SystemUI: Hide custom clocks by default
+9b4e7599c728 SystemUI: Fix user profile icon for custom clock 2
+f8000edd88d2 SystemUI: Custom clock style improvements
+0c7185a4101b Lockscreen Clock: Fix custom clock time updates
+910b2b00b282 SystemUI: Add more LS Clocks [1/2]
+994486016a76 SystemUI: Add support for Custom fonts for Custom LS Clocks
+0758ddfcb2dd Lockscreen Clock: Dedupe requestLayout() calls when updating status area layout
+275c057b7cb2 Introduce Lockscreen Style [1/2]
+7210251f0839 SystemUI: DataSwitchTile: Fix labels
+5fcfec6525b5 [SQUASH] SystemUI: Remove monet customization
+
+* Repository: /commits/lineage-21.0-caf-sm8450
+
+5f8887f Merge branch 'lineage-21.0-caf-sm8450' of https://github.com/LineageOS/android_vendor_qcom_opensource_agm into sm8450
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi.git/commits/refs/heads/udc
+
+4b97f9e interfaces: fingerprints: extension: 1.0: Reverse the remaining interfaces
+be09aca interfaces: fingerprints: Initial reverse engineered 1.0 extension
+1c1ec9d interfaces: goodix: Initial reserve engineered 1.0 fingerprintextension
+bccec04 interfaces: goodix: Reverse the remaining calls
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+87535f0 New Crowdin updates (#514-#624)
+1fed039 Evolver: Make QS tile style and QS panel style exclusive
+11e48fa Evolver: Add QS Panel Style [3/3]
+9427356 Evolver: Allow setting quick QS rows [2/2]
+4ded7b9 Evolver: Disable monet theme settings
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+2a4d1405 themes: Add QS Panel Style [2/3]
+0f9d39f5 Update bootanimation for 5 year anniversary
+22312910 overlay: Nuke RepainterServicePriv
+
+
+=======================
+     2024/03/04
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+e7670b4 Evolver: A11 QS UI Style [3/3]
+4eb32bf Evolver: Add Brightness TextView [2/2]
+fa6bad0 Evolver: Add volume panel text style [2/2]
+421c830 Evolver: Add pulse ambient edge lightning settings
+e7195d4 Evolver: Volume panel styles [3/3]
+22f9925 Evolver: Fix default lock clock fonts
+e192856 Evolver: Add more LS Clocks [2/2]
+ddbaff0 Evolver: Show correct Font Styles on Dashboard
+127edb6 Evolver: Introduce Lockscreen Style [2/2]
+f820581 Evolver: Implement new font picker
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+94334dfd80 fixup! Settings: Make all user apps cloneable [2/2]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+7b599724 themes: Add A11 QS UI Style [2/3]
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+c86b3e9 Revert "SettingsGoogle: Show extreme battery saver only if flipendo available"
+
+
+=======================
+     2024/03/03
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+cbbf724efb Handle mobile data on internet page during setup
+b962819cad fuelgauge: Fix screen on time usage report
+639df49646 Settings: Restart SystemUI on resolution change
+6de6cf1932 TopLevelBatteryPreferenceController: add null check
+51cb8b0443 Settings: Fix total RAM calculation
+cb6f158eb4 FingerprintSettings: Add proximity check awareness if supported
+f5244f6678 Settings: WifiTetherApBand: Fix NPE at updateDisplay
+abc3ca69d1 Settings: Phone ringtone setting for Multi SIM device [2/3]
+194934bdb9 Settings: deviceinfo: Extend Battery info page
+a2aaffd3dd Settings: Always restore keyChordPowerVolumeUp to mute...
+367457739e Settings: Add userRestriction for auto brightness
+c7e6c9621b Settings: Gesture nav: Add back launch menu action
+a079024388 Settings: Gesture nav: Add go forward action
+2cdb5cb1bd Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+56a260098b Settings: Gestures nav: Add back show recents action
+acc6a7e4b4 Settings: Gesture nav: Remove timeout setting
+465cacd77d Settings: ScreenResolutionFragment: Restart SystemUI on res change
+fb066f0190 fuelgauge: Hide screen time since last full charge if not valid
+76b1e80515 DataProcessor: Do not skip and replace screen on component with screen on time
+b1681d3c42 Settings: Update default donation URL
+9aa0ab7acc New Crowdin updates (#381-#398)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+d8e31d8b themes: Import more Signal & Wifi Icons
+046737d8 themes: Add Dora icon styles for wifi and signal
+65b67507 themes: Add Dora navbar style
+c371a0a0 themes: Add riceball icon shape
+17ea2c72 config: Allow SetupWizard Rotation in Tablets
+63f73e92 Disable mobiledata by default with sys prop
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e9ca892 SettingsGoogle: Sync Battery info and SIM 2 Ringtone changes
