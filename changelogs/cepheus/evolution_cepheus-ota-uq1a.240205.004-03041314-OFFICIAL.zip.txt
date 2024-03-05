@@ -1,0 +1,24 @@
+- Dirty install from previous update is fine
+- This is Retrofit Dynamic partitions, make sure to check instructions at the XDA thread
+
+**Device Changes:**
+
+
+**Evolution X Update**
+
+- themes: Implement Volume Styles
+- themes: Add riceball icon shape
+- themes: Add Dora navbar style
+- themes: Add Dora icon styles for wifi and signal
+- themes: Import more Signal & Wifi Icons
+- themes: Add A11 QS UI Style
+- Update bootanimation for 5 year anniversary
+- fixup! Settings: Make all user apps cloneable
+- Evolver: Implement new font picker
+- Evolver: Introduce Lockscreen Style
+- Evolver: Add more LS Clocks
+- Evolver: Add pulse ambient edge lightning settings
+- Evolver: Disable monet theme settings
+- Evolver: Allow setting quick QS rows
+- Evolver: Add QS Panel Style
+- Update translations
