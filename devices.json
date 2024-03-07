@@ -1006,6 +1006,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "lavender",
+      "name": "Redmi Note 12 4G",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXTopaz",
+            "maintainer_name": "Coptan",
+            "maintainer_url": "https://forum.xda-developers.com/m/coptan.12067541/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-topaz-evolution-x-03-07-24.4660639/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "violet",
       "name": "Redmi Note 7 Pro",
       "supported_versions": [
