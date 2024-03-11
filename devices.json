@@ -1052,15 +1052,15 @@
    {
       "brand": "Xiaomi",
       "codename": "rosemary",
-      "name": "Redmi Note 10S",
+      "name": "Redmi Note 10S/Redmi Note 11SE India/POCO M5s",
       "supported_versions": [
          {
-            "device_group": "EvolutionXRosemary",
-            "maintainer_name": "Beru Kobayashi",
+            "device_group": "EvolutionX_Rosemary",
+            "maintainer_name": "Stella Bloom (stelbl/windowz414)",
             "maintainer_url": "https://forum.xda-developers.com/m/windowz414.9468504/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-rosemary-secret-maltose-evolution-x-tiramisu-for-redmi-note-10s-11-se-poco-m5s.4548143/"
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-rosemary-secret-maltose-secretr-rosemary_p-evolution-x-udc-for-redmi-note-10s-redmi-note-11se-india-and-poco-m5s.4660704/"
          }
       ]
    },
