@@ -1,42 +1,42 @@
-[CENTER][SIZE=6][COLOR=rgb(0, 96, 255)][B][COLOR=rgb(0, 96, 255)][B]G[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]o[/B][/COLOR][COLOR=rgb(250, 197, 28)][B]o[/B][/COLOR][COLOR=rgb(0, 96, 255)][B]g[/B][/COLOR][COLOR=rgb(97, 189, 109)][B]l[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]e[/B][/COLOR] Pixel 6, 6 Pro & 6a[/B][/COLOR]
-[COLOR=rgb(0, 96, 255)][B][oriole][raven][bluejay][/B][/COLOR][/SIZE]
+[CENTER]
+[SIZE=6][COLOR=rgb(0, 96, 255)][B][COLOR=rgb(0, 96, 255)][B]G[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]o[/B][/COLOR][COLOR=rgb(250, 197, 28)][B]o[/B][/COLOR][COLOR=rgb(0, 96, 255)][B]g[/B][/COLOR][COLOR=rgb(97, 189, 109)][B]l[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]e[/B][/COLOR] Pixel 7, 7 Pro & 7a[/B][/COLOR]
+[COLOR=rgb(0, 96, 255)][B][panther][cheetah][lynx][/B][/COLOR][/SIZE]
 
-## INSERT FULL BANNER HERE
+[IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/banner_style_1.png[/IMG]
 
 [SIZE=5][B][COLOR=#0060FF][B]Pixel UI, customization and more, we are Evolution X![/B][/COLOR][/B][/SIZE]
 
 [URL='https://xdaforums.com/m/joeyhuab.4936496/']Joey Huab[/URL] - Founder/Lead Developer
 [URL='https://xdaforums.com/m/anierinb.7125966/']Anierin Bliss[/URL] - Co-Founder/Project Specialist
-[URL='https://xdaforums.com/m/realakito.9008281/']Akito Mizukito [/URL]- Co-Founder/Project Manager
+[URL='https://xdaforums.com/m/realakito.9008281/']Akito Mizukito[/URL] - Co-Founder/Project Manager
 
 [I]Reach us on Twitter! [URL='https://twitter.com/EvolutionXROM']@EvolutionXROM[/URL][/I]
 Check out our [URL='https://evolution-x.org/']website[/URL]!
 
-[IMG]https://i.imgur.com/wjBJ2Hk.png[/IMG]
+[IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/features.png[/IMG]
 
-[SPOILER="Feature List"][CODE]
-8.x Regeneration coming soon
-[/CODE][/SPOILER]
+[URL='https://github.com/Evolution-X-Devices/official_devices/blob/master/xda/features.md']Added features[/URL]
 
-[IMG]https://i.imgur.com/sxs3pbW.png[/IMG]
+[IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/known_issues.png[/IMG]
 
-[SIZE=5][B][COLOR=red]DO NOT FLASH GAPPS; ALREADY INCLUDED[/COLOR][/B][/SIZE]
+[SIZE=5][B][COLOR=red]DO NOT FLASH GAPPS, THEY ARE ALREADY INCLUDED[/COLOR][/B][/SIZE]
 
-[IMG]https://i.imgur.com/VvzRh0K.png[/IMG]
+[B][IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/installation.png[/IMG][/B]
 
 [SPOILER]
 [SIZE=5][B][COLOR=rgb(0, 96, 255)][SIZE=5][B]First Time Install[/B][/SIZE][/COLOR][/B][/SIZE]
-[COLOR=rgb(251, 160, 38)](Note: These releases include firmware.)[/COLOR]
-1. Download boot, dtbo, vendor_boot & rom for your device from [URL='https://xdaforums.com/t/rom-13-0_r20-official-evolution-x-7-5-01-30-2023.4547009/post-88066737']here[/URL]
+[COLOR=rgb(251, 160, 38)](Note: These releases include firmware)[/COLOR]
+1. Download boot, dtbo, vendor_kernel_boot, vendor_boot & rom for your device from [URL='https://xdaforums.com/t/rom-14-0_r25-official-evolution-x-8-3-02-08-2024.4546503/post-88060315']here[/URL]
 2. Reboot to bootloader
 3. fastboot flash boot boot.img
 fastboot flash dtbo dtbo.img
+fastboot flash vendor_kernel_boot vendor_kernel_boot.img
 fastboot flash vendor_boot vendor_boot.img
 fastboot reboot recovery
 4. While in recovery, navigate to Factory reset -> Format data/factory reset and confirm to format the device.
 5. When done formatting, go back to the main menu and then navigate to Apply update -> Apply from ADB
 6. adb sideload rom.zip (replace "rom" with actual filename)
-7 (optional). Reboot to recovery to sideload any add-ons (e.g magisk)
+7 (optional). Reboot to recovery (fully) to sideload any add-ons (e.g magisk)
 8. Reboot to system & #KeepEvolving
 
 [SIZE=5][B][COLOR=rgb(0, 96, 255)]Update[/COLOR][/B][/SIZE]
@@ -51,11 +51,11 @@ fastboot reboot recovery
 2. Reboot & #KeepEvolving[/SIZE]
 [/SPOILER]
 
-[URL='https://www.paypal.me/anierinb'][IMG width="200px" height="180px"]https://i.imgur.com/FozPQ02.png[/IMG][/URL][URL='https://t.me/EvolutionXOfficialRom'][IMG width="200px" height="180px"]https://i.imgur.com/Oi7vMpZ.png[/IMG][/URL][URL='https://t.me/EvolutionXPixel6'][IMG width="200px" height="180px"]https://i.imgur.com/xGD7nVK.png[/IMG][/URL][/CENTER]
+[URL='https://www.paypal.me/anierinb'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/donate_to_me.png[/IMG][/URL][URL='https://discord.gg/3qbSZHx'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/official_chat.png[/IMG][/URL][URL='https://discord.gg/3qbSZHx'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/device_support.png[/IMG][/URL][/CENTER]
 
 [TABLE]
 [TR]
-[TD][IMG]https://i.imgur.com/S2t0kJ9.png[/IMG][/TD]
+[TD][IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/source.png[/IMG][/TD]
 [/TR]
 [TR]
 [TD][B][COLOR=rgb(97, 189, 109)]Android version[/COLOR]:[/B] [URL='https://github.com/Evolution-X/manifest/tree/udc-p']14.0_r25[/URL][/TD]
