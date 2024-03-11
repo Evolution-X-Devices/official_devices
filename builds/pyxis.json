@@ -1,5 +1,5 @@
 {
-   "datetime":  1709670025,
+   "datetime": 1709670025,
    "donate_url": "https://www.paypal.me/czarsuperstar",
    "error": false,
    "filehash": "87b6da5a5769bf7f99e80f390fec1b12",
@@ -7,10 +7,8 @@
    "id": "c80d8ccaa55351ff891026c82fdf4dd7174f387da310c305e760f9181b5bfb9c",
    "maintainer": "CSSABLACK",
    "maintainer_url": "https://forum.xda-developers.com/m/czarsuperstar-gmail-com.2892269",
-   "news_url": "https://t.me/EvolutionXOfficial",
    "size": 2265904016,
    "telegram_username": "The_Almighty_Sun_God",
    "url": "https://sourceforge.net/projects/evolution-x/files/pyxis/14/evolution_pyxis-ota-uq1a.240205.004-03051532-OFFICIAL.zip/download",
-   "version": "Fourteen",
-   "website_url": "https://evolution-x.org"
+   "version": "Fourteen"
 }
