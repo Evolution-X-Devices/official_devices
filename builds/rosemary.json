@@ -1,15 +1,15 @@
 {
-   "datetime": 1684675542,
-   "donate_url": "https://buymeacoffee.com/kobayashiberu",
+   "datetime": 1710294633,
+   "donate_url": "https://buymeacoffee.com/stelbl",
    "error": false,
-   "filehash": "7f25a26aa1e1a95b4cb50f38f6e1bc75",
-   "filename": "evolution_rosemary-ota-tq2b.230505.005.a1-05211327-unsigned.zip",
-   "forum_url": "https://forum.xda-developers.com/t/rom-13-rosemary-secret-maltose-evolution-x-tiramisu-for-redmi-note-10s-11-se-poco-m5s.4548143",
-   "id": "84aa15f5acc159fcb5ea007d5a903ec3db0167c640f31cff299040876d0e3eb4",
-   "maintainer": "Beru Kobayashi (windowz414)",
+   "filehash": "bc6c910f9e892a84694fd445b1bf6e60",
+   "filename": "evolution_rosemary-ota-uq1a.240205.004-03130310-OFFICIAL.zip",
+   "forum_url": "https://xdaforums.com/t/rom-14-rosemary-secret-maltose-secretr-rosemary_p-evolution-x-udc-for-redmi-note-10s-redmi-note-11se-india-and-poco-m5s.4660704/",
+   "id": "3b2c4b96d3517ac06c850b99ef066767ab380c43ae3df3783ef7b993da654ef4",
+   "maintainer": "Stella Bloom (stelbl/windowz414)",
    "maintainer_url": "https://forum.xda-developers.com/m/windowz414.9468504",
-   "size": 1866813627,
-   "telegram_username": "KobayashiBeru",
-   "url": "https://sourceforge.net/projects/evolution-x/files/rosemary/13/evolution_rosemary-ota-tq2b.230505.005.a1-05211327-unsigned.zip/download",
-   "version": "Thirteen"
+   "size": 1975375300
+   "telegram_username": "stelbl",
+   "url": "https://sourceforge.net/projects/evolution-x/files/rosemary/14/evolution_rosemary-ota-uq1a.240205.004-03130310-OFFICIAL.zip/download",
+   "version": "Fourteen"
 }

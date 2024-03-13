@@ -1,0 +1,148 @@
+!!!===============================================================================================================!!!
+!!!  ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT  !!!
+!!!===============================================================================================================!!!
+!!! INSTALL MIUI **14.0.4.0.TKLMIXM OR HIGHER** PRIOR INSTALLATION!                                               !!!
+!!! THOSE ON EVOX 13, DIRECTLY INSTALLING THIS VIA OTA WITHOUT FLASHING FIRMWARE IS **DANGEROUS AND PROHIBITED!** !!!
+!!! RN10S NFC USERS **MUST** FLASH md1img PARTITION FROM MIUI 13 AFTER INSTALLING MIUI 14 FOR RIL!                !!!
+!!! GET YOUR PROPERLY PACKAGED FIRMWARE FROM HERE:                                                                !!!
+!!! https://builds.windowzytch.workers.dev/Xiaomi/Redmi%2520Note%252010S%2520(rosemary)/Addons/14fw.zip           !!!
+!!! ^^^^^ THE ABOVE PACKAGE IS **NOT A FLASHABLE! YOU'LL NEED A COMPUTER TO USE IT!**                             !!!
+!!!===============================================================================================================!!!
+
+Changelog since the last unofficial build:
+- Initial official build of Evolution X Android 14.
+- Pushed possible fix for VoLTE on Jio India.
+- Synced with latest changes from xiaomi-mt6785-dev.
+- Pulled latest hardware/mediatek and common MTK SEPolicies from LineageOS.
+
+=======================
+     2024/03/13
+=======================
+
+* Repository: https://github.com/Evolution-X-Devices/device_xiaomi_rosemary/commits/udc
+
+8a0d41a rosenary: Disable `vilte` support
+f002e87 Merge branch 'lineage-21' of github.com:xiaomi-mt6785-dev/android_device_xiaomi_rosemary into HEAD
+
+
+=======================
+     2024/03/12
+=======================
+
+
+=======================
+     2024/03/11
+=======================
+
+
+=======================
+     2024/03/10
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+896780d Evolver: Turn Ambient Music Ticker off by default
+
+
+=======================
+     2024/03/09
+=======================
+
+
+=======================
+     2024/03/08
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c9fe10e19 PixelPropsUtils: Update fingerprints to March 2024 release
+
+
+=======================
+     2024/03/07
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+d7575dc Settings: Update donate link
+
+
+=======================
+     2024/03/06
+=======================
+
+
+=======================
+     2024/03/05
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+2207dab DeviceConfig: Enable Cinematic wallpaper effects
+
+
+=======================
+     2024/03/04
+=======================
+
+
+=======================
+     2024/03/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_mediatek/commits/lineage-21
+
+6ed9380 mediatek: Introduce create_pl_dev for updating preloader
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+0dc18aa interfaces: fingerprints: extension: 1.0: Reverse the remaining interfaces
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+c86b3e9 Revert "SettingsGoogle: Show extreme battery saver only if flipendo available"
+
+* Repository: https://github.com/BootleggersROM-Devices/vendor_xiaomi_rosemary/commits/urubino
+
+36991ad Revert "rosemary: Import firmware from `V14.0.7.0.TKLMIXM`"
+
+
+=======================
+     2024/03/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr/commits/lineage-21
+
+850b3d3 basic: non_plat: Unlabel preloader_raw block devices
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+aef3aea qcom: Set TARGET_BOARD_SUFFIX to conditional bengal_515 * We have some diff for new bengal_515
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sdm845
+
+6584f9d audio_amplifier: Change the enable amplifier function location
+
+* Repository: https://github.com/Evolution-X-Devices/kernel_xiaomi_mt6785/commits/udc
+
+e5052706d connectivity: Force `user` build compile flags always
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+efed05d Aperture: Use smooth zoom for logical camera switch button
+
+
+=======================
+     2024/03/01
+=======================
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+174ca0c certification: RIP Hisense
+
+
+=======================
+     2024/02/29
+=======================
+
+
