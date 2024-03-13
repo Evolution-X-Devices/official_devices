@@ -1,0 +1,323 @@
+This build you're receiving is evolution_veux-ota-uq1a.240205.004-03130134-OFFICIAL.zip comes with February Security Patch.
+==========================================
+Notes:
+==========================================
+AOSP Recovery is shipped by default.
+Gapps are shipped default with Rom.
+Flash your region firmware after flashing ROM.
+Dirty flash is fine from last release.
+Do Clean Flash if you are coming from any build.
+==========================================
+Device Changelogs:
+==========================================
+Added a Easter Egg in the Android Settings for some fun;)
+Introduced auto performance control.
+Tuned RAM management for best performance.
+Reduced ScreenShot delay to 0.
+Added Speed profiles Services.
+Introduced New Xiaomi Parts with Dolby Atmos.
+Upreved Audio hals version to v7.0.
+Updated Screenrecorder version to 4.2 and it's framerate to 120fps.
+Moved to QTI health AIDL service for optimised charging.
+Ipdate fling velocity for modern devices.
+Switched to vulkan graphic renderer.
+Changed zram and swappiness size from 75% to 25% so users with low storage varient should not face any load.
+Adjusted auto brightness debounce values for smooth  experience.
+Changed GPS NFW client to Google Carrier Location.
+Cleaned up useless logs spammers for optimising CPU load.
+Many more misc. changes
+Custom Kernels can be flashed without any issue.
+Comes with Feburary Security Patch level.
+Moto Dolby is supported in this build.
+Pixel Launcher is included.
+Gcam is the default cam for now.
+Updated blobs from veux v14.0.6.0.TKCMIXM, v14.0.9.0.TKCEUXM, OS1.0.1.0.TKCCNXM
+Flash your region's latest firmware, You can get it directly from here (https://t.me/EvolutionXVeuxUpdates/298)
+Dirty flash will work fine too.
+Switched to loSeKSU kernel with full KSU support.
+Synced with the latest source changes.
+Proximity Sensor is still bugged, doesn't works.
+==========================================
+Source Changelogs:
+==========================================
+Find what you need faster … Home is your new landing page and surfaces your most relevant files and folders
+=======================
+     2024/03/13
+=======================
+
+
+=======================
+     2024/03/12
+=======================
+
+
+=======================
+     2024/03/11
+=======================
+
+
+=======================
+     2024/03/10
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+896780d Evolver: Turn Ambient Music Ticker off by default
+f4f175e Evolver: Update links
+772566b New Crowdin updates (#514-#627)
+bb14738 Evolver: Make QS tile style and QS panel style exclusive
+6708ebe Evolver: Add QS Panel Style [3/3]
+57ab31c Evolver: Allow setting quick QS rows [2/2]
+087262d Evolver: Disable monet theme settings
+6f66f04 Evolver: A11 QS UI Style [3/3]
+92d2f86 Evolver: Add Brightness TextView [2/2]
+77ea7e7 Evolver: Add volume panel text style [2/2]
+f14853d Evolver: Add pulse ambient edge lightning settings
+631fde1 Evolver: Volume panel styles [3/3]
+4c28627 Evolver: Fix default lock clock fonts
+b9a4fb8 Evolver: Add more LS Clocks [2/2]
+5514597 Evolver: Show correct Font Styles on Dashboard
+366d831 Evolver: Introduce Lockscreen Style [2/2]
+
+
+=======================
+     2024/03/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c9fe10e19460 PixelPropsUtils: Update fingerprints to March 2024 release
+d2cf2a0ffc9c SystemUI: Turn Ambient Music Ticker off by default
+
+
+=======================
+     2024/03/08
+=======================
+
+
+=======================
+     2024/03/07
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+d7575dc36b Settings: Update donate link
+
+
+=======================
+     2024/03/06
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+2207dab5 DeviceConfig: Enable Cinematic wallpaper effects
+
+
+=======================
+     2024/03/05
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+930d08f9f67c Revert "Fix AlarmManager high CPU issue"
+448b4b82d175 SystemUI: Add QS Panel Style [1/3]
+a8430ce8278b SystemUI: Set default landscape rows to 1
+f59991d6504d Allow setting quick QS rows [1/2]
+76d352ef0a62 SystemUI: Reduce tile label size for A11 QS
+63b3c7ba8dbd SystemUI: Fix QS tile dialog background color
+e7f57112c608 run full explicit GC in SystemUI and system_server after locking
+0202bcaf672c SettingsLib: Make all user apps cloneable [1/2]
+86c5d7bb660f SystemUI: fix duplicated creation of KeyguardStatusBarViewController
+a278d7da463c fixup! SystemUI: Implement hide gestural navigation hint bar
+7b9dead5bac6 SystemUI: Increase QS & QQS header Space for A11 QS style [1/2]
+05b9c839b2e0 SystemUI: Do not marquee QS label text
+8945805cc0c5 SystemUI: Fix adding wrong side view in QS
+14a806cae236 SystemUI: Use label vertical layout for A11 QS
+98312c7cf38a SystemUI: Remove unused QS panel custom padding
+cfc8ecd4c8ac SystemUI: Add A11 QS UI Style [1/3]
+b956a6b97251 base: core: Unregister broadcast receiver only when registered
+97aaf17626c5 SystemUI: Add Brightness TextView [1/2]
+ab689643ff0d SystemUI: Add Volume panel TextView [1/2]
+2f1d9e3546c2 BrightnessController: Update icon state for auto bg icon
+7df7a2f4247c base: Add ambient pulse notification
+bc3a8a7c96bb [SQUASH] SystemUI: Remove edge light customizations
+ac1e2a4fd5b2 base: Allow overlaying single tap gesture invocation delay
+c2cbbf7cd2e1 base: Stop the spamming of background start not allowed
+4e335dc043b2 fwb: Link more elements to `config_dialogCornerRadius `
+8213f81163e8 SystemUI: use default dialogCornerRadius for qs customize title
+547706af34e8 SystemUI: update powershare QS tile icon
+bbf8ef7c7bcf SystemUI: Define landscape height for aosp volume style
+a0848d81a357 SystemUI: Volume panel: disable row header for AOSP modified style
+4d40d3455987 SystemUI: Use a more common haptic effect for volume panel
+7891c12c3ecc SystemUI: Implement Volume Styles [1/3]
+0b608c2422ac IME attach to App should consider that letterboxed window
+1a71e15d3043 SystemUI: Filter out duplicate notification icons on statusbar
+056c02fd0fb4 wm: never consume statusbar in freeform mode
+75ef049dde96 Remove redundant broadcasts when adjusting volume on single volume devices
+2ae250c30dc2 Fix the bug of system app failing to load rros
+10d23c2d9c41 ApplicationPackageManager: Rearrange Tensor feature checks
+7e378df5a968 PixelPropsUtils: Unspoof backup and migrate apps
+82df5ba37198 PixelPropsUtils: Spoof chimera process to Pixel 5a
+0347db1a313d core: Gracefully handle unregistering of unregistered receivers/services
+ed371385e8bb SystemUI: Hide custom clocks by default
+9b4e7599c728 SystemUI: Fix user profile icon for custom clock 2
+f8000edd88d2 SystemUI: Custom clock style improvements
+0c7185a4101b Lockscreen Clock: Fix custom clock time updates
+910b2b00b282 SystemUI: Add more LS Clocks [1/2]
+994486016a76 SystemUI: Add support for Custom fonts for Custom LS Clocks
+0758ddfcb2dd Lockscreen Clock: Dedupe requestLayout() calls when updating status area layout
+275c057b7cb2 Introduce Lockscreen Style [1/2]
+7210251f0839 SystemUI: DataSwitchTile: Fix labels
+5fcfec6525b5 [SQUASH] SystemUI: Remove monet customization
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+2a4d1405 themes: Add QS Panel Style [2/3]
+0f9d39f5 Update bootanimation for 5 year anniversary
+22312910 overlay: Nuke RepainterServicePriv
+
+
+=======================
+     2024/03/04
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+94334dfd80 fixup! Settings: Make all user apps cloneable [2/2]
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+c86b3e9 Revert "SettingsGoogle: Show extreme battery saver only if flipendo available"
+
+
+=======================
+     2024/03/03
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_xiaomi/commits/refs/heads/udc
+
+0dc18aa interfaces: fingerprints: extension: 1.0: Reverse the remaining interfaces
+07e5c6f interfaces: fingerprints: Initial reverse engineered 1.0 extension
+a0e40c3 interfaces: goodix: Initial reserve engineered 1.0 fingerprintextension
+fb8dec9 interfaces: goodix: Reverse the remaining calls
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/udc
+
+cbbf724efb Handle mobile data on internet page during setup
+b962819cad fuelgauge: Fix screen on time usage report
+639df49646 Settings: Restart SystemUI on resolution change
+6de6cf1932 TopLevelBatteryPreferenceController: add null check
+51cb8b0443 Settings: Fix total RAM calculation
+cb6f158eb4 FingerprintSettings: Add proximity check awareness if supported
+f5244f6678 Settings: WifiTetherApBand: Fix NPE at updateDisplay
+abc3ca69d1 Settings: Phone ringtone setting for Multi SIM device [2/3]
+194934bdb9 Settings: deviceinfo: Extend Battery info page
+a2aaffd3dd Settings: Always restore keyChordPowerVolumeUp to mute...
+367457739e Settings: Add userRestriction for auto brightness
+c7e6c9621b Settings: Gesture nav: Add back launch menu action
+a079024388 Settings: Gesture nav: Add go forward action
+2cdb5cb1bd Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+56a260098b Settings: Gestures nav: Add back show recents action
+acc6a7e4b4 Settings: Gesture nav: Remove timeout setting
+465cacd77d Settings: ScreenResolutionFragment: Restart SystemUI on res change
+fb066f0190 fuelgauge: Hide screen time since last full charge if not valid
+76b1e80515 DataProcessor: Do not skip and replace screen on component with screen on time
+b1681d3c42 Settings: Update default donation URL
+9aa0ab7acc New Crowdin updates (#381-#398)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+7b599724 themes: Add A11 QS UI Style [2/3]
+d8e31d8b themes: Import more Signal & Wifi Icons
+046737d8 themes: Add Dora icon styles for wifi and signal
+65b67507 themes: Add Dora navbar style
+c371a0a0 themes: Add riceball icon shape
+17ea2c72 config: Allow SetupWizard Rotation in Tablets
+63f73e92 Disable mobiledata by default with sys prop
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e9ca892 SettingsGoogle: Sync Battery info and SIM 2 Ringtone changes
+
+
+=======================
+     2024/03/02
+=======================
+
+* Repository: https://github.com/Evolution-X/hardware_qcom-caf_common/commits/refs/heads/udc
+
+aef3aea qcom: Set TARGET_BOARD_SUFFIX to conditional bengal_515 * We have some diff for new bengal_515
+6ad0581 qcom: Merge configs bengal SoC platform
+0731867 qcom: Split 4.19 SoC family * For some reason kona and bengal were splitted within Qualcomm, even though they are from the same "kernel family" * With that in mind let's split both HALs set for them
+9a39b22 qcom: Add support bengal 5.15 [1] mikeNG : Introduce os_pickup_sepolicy_vndr for sm6225
+1dfb66c qcom: Allow Skip common display vendor freezer through a condition * Vendor freezer is enabled for other SoC besides SM8450 on SM8550, just have S or T vendor blobs,   Example: sdm845, sdm660 and bengal-5.15.
+0dda9c6 qcom: Enable some condititions based on kernel version [1] - Bengal-5.15 is not part of 5_15_FAMILY and TARGET_BOARD_PLATFORM conflicts with 4.19, so allow conditions to be enabled when checking kernel version.
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sdm845
+
+6584f9dca audio_amplifier: Change the enable amplifier function location
+1bdcf072f hal: Support the audio amplifier hook
+bfe4e281b hal: Use correct mixer element size when setting channel map
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+efed05d Aperture: Use smooth zoom for logical camera switch button
+fb2fb35 Aperture: QrImageAnalyzer: Fix views interaction on background thread
+e90283e Aperture: Reset zoom ratio on current cam click
+5b6e869 Aperture: Use the new ZoomGestureDetector
+9f443d6 Aperture: Import ZoomGestureDetector
+e5ea46c Aperture: Reformat code
+ea781be Aperture: Move camera manager to the view model
+4831db5 Aperture: Extract overlay configuration into a new class
+547cf2e Aperture: Move camera view model to .viewmodels
+8894751 Aperture: Use nonNullablePropertyDelegate for screen rotation LiveData
+e747a22 Aperture: Rework gallery button handling
+3ddff76 Aperture: Initial captured media flow
+d0a5228 Aperture: Bump gradle-generatebp to v1.7
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+4f8aaa50 themes: Implement Volume Styles [2/3]
+d74eba09 overlays: Add overlay for hiding smartspace view and adding offset
+
+
+=======================
+     2024/03/01
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+07a2fcb3ac45 Ringtone picker to handle RESULT_CANCELED from Add ringtone
+c096519dbca1 PixelPropsUtils: Spoof realme link
+f0d5139d7c02 Revert "Add some fwb stubs from Oplus"
+6e469e75d0b0 [SQUASH] PixelPropsUtils: Various changes
+3d2a81fdeaa4 Fix uninstall for all users
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+1c8fafa Evolver: Bring back flashlight on call options [3/3]
+9e1f22e Evolver: Move roaming toggle to SystemUI
+3a87fde Evolver: Bring back Snapchat spoof toggle [2/2]
+
+* Repository: https://bitbucket.org/evo-x/vendor_certification/commits/refs/heads/udc
+
+174ca0c certification: RIP Hisense
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+45939701 fonts: add Ios font for lockscreen Clock
+
+
+=======================
+     2024/02/29
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+3c9a0c0 Aperture: Reformat code
+958af00 Aperture: Update icons from Material Icons
+78db13a Aperture: Implement screen flash
+3cfe9a0 Aperture: Remove RED_EYE mentions
+f3fbb59 Aperture: Use `onCaptureStarted()` for shutter sound and UI update
+
+
