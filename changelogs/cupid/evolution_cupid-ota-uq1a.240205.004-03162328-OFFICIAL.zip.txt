@@ -1,0 +1,136 @@
+  
+2024-03-16
+
+
+To use this release you need:
+
+   MIUI_V14.0.8.0.TLCMIXM
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: "Fix" Dolby surround virtualizer
+  * cupid: Add toggle for Dolby volume leveler
+  * cupid: Disable Dolby surround virtualizer
+  * cupid: Implement Dolby profile-specific settings
+  * cupid: Remove play/pause hack while toggling Dolby
+  * cupid: Introduce more Dolby Atmos effects
+  * cupid: Set proper summary for Dolby settings
+  * cupid: Let Dolby override MusicFX and handle EQ intent
+  * cupid: Update dolby app packacke name
+  * cupid: Always refresh playback is status changed
+  * cupid: parts: Introduce Dolby Atmos
+  * cupid: drop dirac
+  * cupid: move HBM xml to product
+
+KERNEL: 
+
+  * input: touchscreen: xiaomi: Get rid of notify buf spam
+  * input: touchscreen: goodix_9916: Don't notify about fod presses when fod_status is off
+  * power: supply: qti_battery_charger: Return time to full in seconds
+  * power: supply: qti_battery_charger: Return charge counter in uAh
+  * power: supply: qti_battery_charger: Add missing type specifiers
+  * power: supply: qti_battery_charger: Add support for 33W reverse wireless charging
+  * power: supply: qti_battery_charger: Add support for display port
+  * power: supply: qti_battery_charger: Add config to match m81 module
+  * power: supply: qti_battery_charger: Replace MI_CHARGE_PROPERTY with MI_WLS_REVERSE_CHG_ONLY
+  * power: supply: xiaomi: Support WIRELESS_REVERSE_CLOSE
+  * power: supply: qti_battery_charger: Update from garnet-t-oss
+  * power: supply: qti_battery_charger: Import xiaomi changes
+  * Revert "power: supply: qti_battery_charger: Import xiaomi changes"
+  * Revert "power: supply: qti_battery_charger: Add missing type specifiers"
+  * Revert "Revert "power: supply: qti_battery_charger: Add dynamic uusb detection""
+  * Revert "Revert "power: qti_typec_class: Add typec class support for micro USB""
+  * Revert "Revert "power: supply: qti_battery_charger: Add extcon support""
+  * Revert "power: supply: qti_battery_charger: Return charge counter in uAh"
+  * Revert "power: supply: qti_battery_charger: Return time to full in seconds"
+  * Revert "power: supply: xiaomi: Support WIRELESS_REVERSE_CLOSE"
+  * Revert "Revert "Revert "power: supply: qti_battery_charger: Add extcon support"""
+  * Revert "Revert "Revert "power: qti_typec_class: Add typec class support for micro USB"""
+  * Revert "Revert "Revert "power: supply: qti_battery_charger: Add dynamic uusb detection"""
+
+ROM:
+
+=======================
+     2024/03/17
+=======================
+
+
+=======================
+     2024/03/16
+=======================
+
+
+=======================
+     2024/03/15
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+66a72c8 New Crowdin updates (#629)
+
+
+=======================
+     2024/03/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8dafdd579b84 Revert "PixelPropsUtils: Spoof realme link" * App crashes
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6e7fb2e6 Themes: Add more Brightness Slider from Iconify Credit - https://github.com/Mahmud0808/Iconify
+
+
+=======================
+     2024/03/13
+=======================
+
+
+=======================
+     2024/03/12
+=======================
+
+
+=======================
+     2024/03/11
+=======================
+
+
+=======================
+     2024/03/10
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+896780d Evolver: Turn Ambient Music Ticker off by default
+f4f175e Evolver: Update links
+772566b New Crowdin updates (#514-#627)
+bb14738 Evolver: Make QS tile style and QS panel style exclusive
+6708ebe Evolver: Add QS Panel Style [3/3]
+57ab31c Evolver: Allow setting quick QS rows [2/2]
+087262d Evolver: Disable monet theme settings
+6f66f04 Evolver: A11 QS UI Style [3/3]
+92d2f86 Evolver: Add Brightness TextView [2/2]
+77ea7e7 Evolver: Add volume panel text style [2/2]
+f14853d Evolver: Add pulse ambient edge lightning settings
+631fde1 Evolver: Volume panel styles [3/3]
+4c28627 Evolver: Fix default lock clock fonts
+b9a4fb8 Evolver: Add more LS Clocks [2/2]
+5514597 Evolver: Show correct Font Styles on Dashboard
+366d831 Evolver: Introduce Lockscreen Style [2/2]
+
+
+=======================
+     2024/03/09
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+c9fe10e19460 PixelPropsUtils: Update fingerprints to March 2024 release
+d2cf2a0ffc9c SystemUI: Turn Ambient Music Ticker off by default
