@@ -1,0 +1,16 @@
+Update 20240320
+- Synced to latest sources
+- Lock screen/dev option stuck might be fixed this time
+- Implement stock like haptics (Thanks @Nadwey)
+- Workaround for keeping AOD fingerprint detects
+- Fixed force 90hz disabled after reboot
+- Nuke Alert slider haptics (this breaks vibration strength)
+- Build missing DRM & Thermal HALs
+- Address some SELinux denials
+- Improve Adaptive brightness curves
+- Fixed TikTok video playbacks
+- Switch to Linux 4.19.194 kernel
+
+* Dirty flash it should works, but clean flash always recommended.
+
+* Thanks @dek0der for new kernel source code.
