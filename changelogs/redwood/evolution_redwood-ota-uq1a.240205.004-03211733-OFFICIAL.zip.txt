@@ -1,0 +1,100 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+
+Notes:
+==============================
+- dirty flash is fine over last over last build.
+- FTS screen is not supported.
+- Play Integrity passes by default (As of 22/03/2024).
+
+Device changes:
+====================================
+- Updated blobs from V14.0.7.0.TMSMIXM
+- Extend audio offload buffer size to 256kb
+- Push screen recorder max FPS to 120FPS
+- Fixed screen cast issue
+
+ROM changes:
+=======================
+     2024/03/21
+=======================
+
+
+=======================
+     2024/03/20
+=======================
+
+
+=======================
+     2024/03/19
+=======================
+
+
+=======================
+     2024/03/18
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/udc
+
+5d9c424 New Crowdin updates (#630)
+
+
+=======================
+     2024/03/17
+=======================
+
+
+=======================
+     2024/03/16
+=======================
+
+
+=======================
+     2024/03/15
+=======================
+
+
+=======================
+     2024/03/14
+=======================
+
+
+=======================
+     2024/03/13
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/udc
+
+8dafdd579 Revert "PixelPropsUtils: Spoof realme link" * App crashes
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/udc
+
+6e7fb2e Themes: Add more Brightness Slider from Iconify Credit - https://github.com/Mahmud0808/Iconify
+
+
+=======================
+     2024/03/12
+=======================
+
+
+=======================
+     2024/03/11
+=======================
+
+
+=======================
+     2024/03/10
+=======================
+
+
+=======================
+     2024/03/09
+=======================
+
+
+=======================
+     2024/03/08
+=======================
+
+
+
