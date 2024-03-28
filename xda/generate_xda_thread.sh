@@ -179,7 +179,7 @@ generate_thread() {
         # Kernel source URL
         while true; do
             read -p "Kernel Source URL: " kernel_source_url
-            if [[ $kernel_source_url =~ ^(https?://)?(www\.)?(github\.com|gitlab\.com|bitbucket\.org|git\.)(.*) ]]; then
+            if [[ $kernel_source_url =~ ^(https?://)?(www\.)?(github\.com|gitlab\.com|bitbucket\.org|git\.com|android.googlesource\.com)(.*) ]]; then
                 break
             else
                 echo -e "${RED}Invalid format. Please enter a valid URL from GitHub, GitLab, Bitbucket, or any other Git hosting service.${ENDCOLOR}"
